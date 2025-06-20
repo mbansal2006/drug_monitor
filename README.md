@@ -1,73 +1,95 @@
-# Welcome to your Lovable project
 
-## Project info
+# Comprehensive Risk Scoring Methodology
 
-**URL**: https://lovable.dev/projects/ef9a53c5-c2fd-47e1-9a8b-2b83b1a7f900
+The `risk_score` assigned to each `Location` reflects national security exposure, trade compliance status, and supply chain fragility—grounded entirely in **U.S. government sources**. It is designed to support tariff justifications, reshoring prioritization, and pharmaceutical security policy analysis.
 
-## How can I edit this code?
+## Purpose
 
-There are several ways of editing your application.
+This scoring methodology allows stakeholders to:
 
-**Use Lovable**
+- Identify geographic clusters of high-risk pharmaceutical production
+- Quantify U.S. dependency on adversarial or noncompliant nations
+- Generate risk-adjusted drug supply dashboards and analytics
+- Flag candidate locations for domestic capacity investments
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/ef9a53c5-c2fd-47e1-9a8b-2b83b1a7f900) and start prompting.
+---
 
-Changes made via Lovable will be committed automatically to this repo.
+## Score Range
 
-**Use your preferred IDE**
+Each location is assigned a numeric `risk_score` ranging from **+5 (low risk)** to **-5 (high risk)**. Scores are additive and derived from regulatory, geopolitical, and compliance criteria. If no sufficient information is available, a value of `null` is assigned.
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+---
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+## Positive Scoring Criteria: Strategic Alignment & Trade Compliance
 
-Follow these steps:
+| Criteria                             | Source          | Score Impact |
+|--------------------------------------|------------------|---------------|
+| Member of Five Eyes                  | U.S. State Dept  | +3            |
+| NATO Member (non-FVEY)               | U.S. State Dept  | +2            |
+| Major Non-NATO Ally (MNNA)           | U.S. State Dept  | +1            |
+| Trade Agreements Act (TAA) Compliant | GSA              | +1            |
+| U.S. Domestic Manufacturing Site     | FDA Establishment| +5            |
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+---
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+## Negative Scoring Criteria: Adversarial Designation & Trade Risk
 
-# Step 3: Install the necessary dependencies.
-npm i
+| Criteria                                           | Source              | Score Impact |
+|----------------------------------------------------|----------------------|---------------|
+| Sanctioned (OFAC SDN or Entity List)              | U.S. Treasury / BIS | -3            |
+| Designated Foreign Adversary                      | FCC, Commerce Dept  | -3            |
+| Subject to EAR export restrictions                | BIS                 | -2            |
+| Not TAA Compliant                                 | GSA                 | -1            |
+| Hostile geopolitical posture toward U.S. pharma   | Interagency Review  | -2 to -3      |
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
+---
+
+## Supply Chain Fragility & Quality Risk Adjustments
+
+| Criteria                                  | Description                              | Score Impact |
+|-------------------------------------------|------------------------------------------|--------------|
+| Sole-source manufacturing for critical drug | Based on NDC clustering                   | -1           |
+| Location linked to multiple shortages     | Derived from FDA shortage data           | -1           |
+| Facility flagged by FDA warning letters   | FDA EIR data                             | -1 to -2     |
+
+---
+
+## Implementation Details
+
+- All scoring logic is implemented in Palantir Foundry using U.S. government reference datasets.
+- Joins are performed by `country`, `FEI`, `DUNS`, and parsed `full_address` from SPL XMLs.
+- Scores apply **only** to establishments linked to a validated `MANUFACTURE` operation in DECRS.
+
+---
+
+## Example: Applying Score to Amoxicillin Site
+
+```json
+{
+  "location_id": "LOC123",
+  "country": "India",
+  "state_or_region": "Telangana",
+  "postal_code": "500072",
+  "full_address": "Plot No.2, Survey No. 38, Bachupally, Hyderabad, Telangana, 500072",
+  "taa_compliant": false,
+  "risk_score": -1
+}
 ```
 
-**Edit a file directly in GitHub**
+**Scoring Breakdown**:
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+- -1: TAA non-compliance
+- +0: No ally designation
+- No GMP violation
+- **Final Score: -1**
 
-**Use GitHub Codespaces**
+---
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+## Applications
 
-## What technologies are used for this project?
+- Heatmap of global pharmaceutical manufacturing risk
+- Drug-level dependency analysis with risk-adjusted scores
+- Identifying top reshoring candidates for API and FDF
 
-This project is built with:
+> Scoring decisions are fully explainable, reproducible, and auditable. Only **U.S. government data** is used.
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/ef9a53c5-c2fd-47e1-9a8b-2b83b1a7f900) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
