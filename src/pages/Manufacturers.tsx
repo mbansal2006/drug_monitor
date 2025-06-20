@@ -1,4 +1,3 @@
-
 import React, { useState, useMemo } from 'react';
 import Layout from '@/components/Layout';
 import { useCSVData } from '@/hooks/useCSVData';
@@ -15,9 +14,12 @@ const Manufacturers = () => {
 
   const enrichedManufacturers = useMemo(() => {
     return manufacturers.map(manufacturer => {
-      const manufacturerNDCs = ndcs.filter(ndc => 
-        ndc.manufacturer_name.toLowerCase() === manufacturer.manufacturer_name.toLowerCase()
-      );
+      const manufacturerNDCs = ndcs.filter(ndc => {
+        // Add null checks for ndc.manufacturer_name
+        const ndcManufacturerName = ndc.manufacturer_name || '';
+        const manufacturerName = manufacturer.manufacturer_name || '';
+        return ndcManufacturerName.toLowerCase() === manufacturerName.toLowerCase();
+      });
       
       const locationIds = new Set();
       let totalRisk = 0;
@@ -49,13 +51,16 @@ const Manufacturers = () => {
 
   const filteredAndSortedManufacturers = useMemo(() => {
     let filtered = enrichedManufacturers.filter(manufacturer => {
-      return manufacturer.manufacturer_name.toLowerCase().includes(searchTerm.toLowerCase());
+      const manufacturerName = manufacturer.manufacturer_name || '';
+      return manufacturerName.toLowerCase().includes(searchTerm.toLowerCase());
     });
 
     return filtered.sort((a, b) => {
       switch (sortBy) {
         case 'name':
-          return a.manufacturer_name.localeCompare(b.manufacturer_name);
+          const nameA = a.manufacturer_name || '';
+          const nameB = b.manufacturer_name || '';
+          return nameA.localeCompare(nameB);
         case 'ndcs':
           return b.ndcCount - a.ndcCount;
         case 'locations':
@@ -160,7 +165,7 @@ const Manufacturers = () => {
                 <div className="flex-1">
                   <div className="flex items-center space-x-3 mb-3">
                     <Building2 className="w-5 h-5 text-slate-400" />
-                    <h3 className="text-lg font-semibold text-slate-900">{manufacturer.manufacturer_name}</h3>
+                    <h3 className="text-lg font-semibold text-slate-900">{manufacturer.manufacturer_name || 'Unknown Manufacturer'}</h3>
                     {manufacturer.avgRiskScore !== 5 && (
                       <span className={`px-3 py-1 rounded-md font-medium border text-sm ${getRiskColor(manufacturer.avgRiskScore)}`}>
                         Risk: {manufacturer.avgRiskScore.toFixed(1)}
@@ -186,8 +191,8 @@ const Manufacturers = () => {
                       <div className="space-y-1">
                         {manufacturer.relatedNDCs.slice(0, 3).map((ndc) => (
                           <div key={ndc.ndc_id} className="bg-slate-50 p-2 rounded text-xs">
-                            <span className="font-medium">{ndc.proprietary_name}</span>
-                            <span className="text-slate-500 ml-2">NDC: {ndc.ndc_code}</span>
+                            <span className="font-medium">{ndc.proprietary_name || 'Unknown Drug'}</span>
+                            <span className="text-slate-500 ml-2">NDC: {ndc.ndc_code || 'N/A'}</span>
                           </div>
                         ))}
                         {manufacturer.relatedNDCs.length > 3 && (
