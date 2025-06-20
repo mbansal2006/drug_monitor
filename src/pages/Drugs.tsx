@@ -47,8 +47,12 @@ const Drugs = () => {
 
   const filteredAndSortedDrugs = useMemo(() => {
     let filtered = enrichedDrugs.filter(drug => {
-      const matchesSearch = drug.drug_name.toLowerCase().includes(searchTerm.toLowerCase()) ||
-                           drug.therapeutic_categories?.toLowerCase().includes(searchTerm.toLowerCase());
+      // Add null checks for drug properties
+      const drugName = drug.drug_name || '';
+      const therapeuticCategories = drug.therapeutic_categories || '';
+      
+      const matchesSearch = drugName.toLowerCase().includes(searchTerm.toLowerCase()) ||
+                           therapeuticCategories.toLowerCase().includes(searchTerm.toLowerCase());
       
       if (!matchesSearch) return false;
       
@@ -72,7 +76,7 @@ const Drugs = () => {
           return (a.shortage_status === 'Currently in Shortage' ? -1 : 1) - 
                  (b.shortage_status === 'Currently in Shortage' ? -1 : 1);
         default:
-          return a.drug_name.localeCompare(b.drug_name);
+          return (a.drug_name || '').localeCompare(b.drug_name || '');
       }
     });
   }, [enrichedDrugs, searchTerm, filterStatus, sortBy]);
@@ -195,7 +199,7 @@ const Drugs = () => {
               <div className="flex items-start justify-between">
                 <div className="flex-1">
                   <div className="flex items-center space-x-3 mb-3">
-                    <h3 className="text-lg font-semibold text-slate-900">{drug.drug_name}</h3>
+                    <h3 className="text-lg font-semibold text-slate-900">{drug.drug_name || 'Unknown Drug'}</h3>
                     {drug.fda_essential === 1 && (
                       <Badge variant="secondary" className="bg-blue-50 text-blue-700 border-blue-200">
                         <Shield className="w-3 h-3 mr-1" />
