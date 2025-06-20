@@ -1,4 +1,3 @@
-
 import React, { useState, useMemo } from 'react';
 import Layout from '@/components/Layout';
 import { useCSVData } from '@/hooks/useCSVData';
@@ -27,10 +26,16 @@ const Locations = () => {
 
   const filteredAndSortedLocations = useMemo(() => {
     let filtered = enrichedLocations.filter(location => {
-      return location.firm_name.toLowerCase().includes(searchTerm.toLowerCase()) ||
-             location.country.toLowerCase().includes(searchTerm.toLowerCase()) ||
-             location.full_country_name?.toLowerCase().includes(searchTerm.toLowerCase()) ||
-             location.address.toLowerCase().includes(searchTerm.toLowerCase());
+      // Add null checks for location properties
+      const firmName = location.firm_name || '';
+      const country = location.country || '';
+      const fullCountryName = location.full_country_name || '';
+      const address = location.address || '';
+      
+      return firmName.toLowerCase().includes(searchTerm.toLowerCase()) ||
+             country.toLowerCase().includes(searchTerm.toLowerCase()) ||
+             fullCountryName.toLowerCase().includes(searchTerm.toLowerCase()) ||
+             address.toLowerCase().includes(searchTerm.toLowerCase());
     });
 
     return filtered.sort((a, b) => {
@@ -38,9 +43,9 @@ const Locations = () => {
         case 'risk':
           return (a.risk_score || 0) - (b.risk_score || 0);
         case 'name':
-          return a.firm_name.localeCompare(b.firm_name);
+          return (a.firm_name || '').localeCompare(b.firm_name || '');
         case 'country':
-          return (a.full_country_name || a.country).localeCompare(b.full_country_name || b.country);
+          return (a.full_country_name || a.country || '').localeCompare(b.full_country_name || b.country || '');
         case 'ndcs':
           return b.ndcCount - a.ndcCount;
         default:
@@ -148,16 +153,16 @@ const Locations = () => {
                 <div className="flex-1">
                   <div className="flex items-center space-x-3 mb-3">
                     <MapPin className="w-5 h-5 text-slate-400" />
-                    <h3 className="text-lg font-semibold text-slate-900">{location.firm_name}</h3>
+                    <h3 className="text-lg font-semibold text-slate-900">{location.firm_name || 'Unknown Firm'}</h3>
                     <span className={`px-3 py-1 rounded-md font-medium border text-sm ${getRiskColor(location.risk_score || 0)}`}>
                       {getRiskLabel(location.risk_score || 0)} ({(location.risk_score || 0).toFixed(1)})
                     </span>
                   </div>
                   
                   <div className="space-y-2 mb-4">
-                    <p className="text-slate-600">{location.address}</p>
+                    <p className="text-slate-600">{location.address || 'Address not available'}</p>
                     <p className="text-sm text-slate-500">
-                      {location.full_country_name || location.country}
+                      {location.full_country_name || location.country || 'Unknown Country'}
                       {location.state_or_region && `, ${location.state_or_region}`}
                       {location.postal_code && ` ${location.postal_code}`}
                     </p>
