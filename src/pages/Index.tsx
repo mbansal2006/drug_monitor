@@ -1,12 +1,13 @@
-
 import React from 'react';
 import Layout from '@/components/Layout';
 import GlobalRiskHeatmap from '@/components/GlobalRiskHeatmap';
 import DrugExplorer from '@/components/DrugExplorer';
 import { useCSVData } from '@/hooks/useCSVData';
 import { Card } from '@/components/ui/card';
+import { Button } from '@/components/ui/button';
 import { Skeleton } from '@/components/ui/skeleton';
-import { AlertCircle, TrendingUp, MapPin, Pill, FileText, Building2 } from 'lucide-react';
+import { AlertCircle, TrendingUp, MapPin, Pill, FileText, Building2, Info, Database, Shield, Globe, ArrowRight } from 'lucide-react';
+import { Link } from 'react-router-dom';
 
 const Index = () => {
   const { locations, drugs, manufacturers, ndcs, ndcLocationLinks, loading, error } = useCSVData();
@@ -61,6 +62,51 @@ const Index = () => {
             Comprehensive analysis of pharmaceutical manufacturing vulnerabilities and risk assessment
           </p>
         </div>
+
+        {/* About This Platform Section */}
+        <Card className="p-8 bg-gradient-to-r from-blue-50 to-indigo-50 border-blue-200">
+          <div className="max-w-4xl mx-auto">
+            <div className="flex items-center justify-center space-x-3 mb-6">
+              <Info className="w-6 h-6 text-blue-600" />
+              <h2 className="text-2xl font-bold text-slate-900">About This Platform</h2>
+            </div>
+            
+            <div className="text-center mb-8">
+              <p className="text-lg text-slate-700 leading-relaxed">
+                The Drug Shortage Supply Monitor aggregates pharmaceutical manufacturing data from 
+                <strong> FDA, GSA, BIS, and OFAC</strong> to identify supply chain vulnerabilities 
+                and assess drug shortage risks across global manufacturing networks.
+              </p>
+            </div>
+
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
+              <div className="text-center p-4">
+                <Database className="w-10 h-10 text-blue-600 mx-auto mb-3" />
+                <h3 className="font-semibold text-slate-900 mb-2">Multi-Source Intelligence</h3>
+                <p className="text-sm text-slate-600">Combines data from 4 government agencies for comprehensive analysis</p>
+              </div>
+              <div className="text-center p-4">
+                <Globe className="w-10 h-10 text-blue-600 mx-auto mb-3" />
+                <h3 className="font-semibold text-slate-900 mb-2">Global Risk Assessment</h3>
+                <p className="text-sm text-slate-600">Evaluates geographic and geopolitical risks to pharmaceutical supply chains</p>
+              </div>
+              <div className="text-center p-4">
+                <Shield className="w-10 h-10 text-blue-600 mx-auto mb-3" />
+                <h3 className="font-semibold text-slate-900 mb-2">Proactive Monitoring</h3>
+                <p className="text-sm text-slate-600">Identifies potential shortages before they impact patients</p>
+              </div>
+            </div>
+
+            <div className="text-center">
+              <Link to="/about">
+                <Button className="bg-blue-600 hover:bg-blue-700 text-white">
+                  Learn More About Our Methodology
+                  <ArrowRight className="w-4 h-4 ml-2" />
+                </Button>
+              </Link>
+            </div>
+          </div>
+        </Card>
 
         {/* Key Metrics */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-6">

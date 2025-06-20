@@ -1,7 +1,6 @@
-
 import React from 'react';
 import { Link, useLocation } from 'react-router-dom';
-import { Search, MapPin, Pill, Building2, TrendingUp, Database } from 'lucide-react';
+import { Search, MapPin, Pill, Building2, TrendingUp, Database, Info } from 'lucide-react';
 
 interface LayoutProps {
   children: React.ReactNode;
@@ -16,6 +15,7 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
     { path: '/locations', label: 'Locations', icon: MapPin },
     { path: '/manufacturers', label: 'Manufacturers', icon: Building2 },
     { path: '/insights', label: 'Insights', icon: TrendingUp },
+    { path: '/about', label: 'About', icon: Info },
   ];
 
   return (
@@ -86,6 +86,7 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
           <div className="text-center text-slate-500 text-sm">
             <p className="font-medium">Drug Shortage Supply Monitor</p>
             <p className="mt-1">Intelligence sourced from FDA, GSA, BIS, and OFAC systems</p>
+            <p className="mt-2 text-xs">Last updated: December 2024 • Data refreshed weekly</p>
           </div>
         </div>
       </footer>
