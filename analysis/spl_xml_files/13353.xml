@@ -1,0 +1,1342 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="https://www.accessdata.fda.gov/spl/stylesheet/spl.xsl" type="text/xsl"?>
+<document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:hl7-org:v3" xsi:schemaLocation="urn:hl7-org:v3 https://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="ffc2cd39-e42b-5821-e053-6394a90a9974"/>
+   <code code="34391-3" codeSystem="2.16.840.1.113883.6.1" displayName="HUMAN PRESCRIPTION DRUG LABEL"/>
+   <title>Methamphetamine Hydrochloride Tablets, USP</title>
+   <effectiveTime value="20230705"/>
+   <setId root="f31f580f-1f08-4a0f-b078-0b9e3308f712"/>
+   <versionNumber value="11"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id root="1.3.6.1.4.1.519.1" extension="867220261"/>
+            <name>Mayne Pharma Commercial LLC</name>
+            <assignedEntity>
+               <assignedOrganization>
+                  <assignedEntity>
+                     <assignedOrganization>
+                        <id root="1.3.6.1.4.1.519.1" extension="118812386"/>
+                        <name>Catalent Greenville, Inc.</name>
+                     </assignedOrganization>
+                     <performance>
+                        <actDefinition>
+                           <code code="C43360" displayName="manufacture" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="68308-115" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                     <performance>
+                        <actDefinition>
+                           <code code="C25391" displayName="analysis" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="68308-115" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                     <performance>
+                        <actDefinition>
+                           <code code="C84731" displayName="pack" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="68308-115" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                     <performance>
+                        <actDefinition>
+                           <code code="C84732" displayName="label" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="68308-115" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                  </assignedEntity>
+               </assignedOrganization>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section>
+               <id root="ffc350eb-5902-dbf2-e053-6294a90a2999"/>
+               <code code="48780-1" codeSystem="2.16.840.1.113883.6.1" displayName="SPL product data elements section"/>
+               <effectiveTime value="20230705"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="68308-115" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>Methamphetamine Hydrochloride</name>
+                        <formCode code="C42998" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="TABLET"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>METHAMPHETAMINE HYDROCHLORIDE</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="O8232NY3SJ" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>STARCH, CORN</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="EWQ57Q8I5X" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>LACTOSE MONOHYDRATE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="4ELV7Z65AP" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>STEARIC ACID</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="7SEV7J4R1U" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>TALC</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator unit="mg" value="5"/>
+                              <denominator unit="1" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="997F43Z9CV" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>METHAMPHETAMINE HYDROCHLORIDE</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="44RAL3456C" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>METHAMPHETAMINE</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator value="100" unit="1"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="68308-115-01" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43173" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BOTTLE, PLASTIC"/>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                           <subjectOf>
+                              <marketingAct>
+                                 <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 <statusCode code="active"/>
+                                 <effectiveTime>
+                                    <low value="20100426"/>
+                                 </effectiveTime>
+                              </marketingAct>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <id extension="ANDA091189" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73584" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ANDA"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20100426"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLCOLOR" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value code="C48325" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="white" xsi:type="CE">
+                              <originalText/>
+                           </value>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSCORE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value value="1" xsi:type="INT"/>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSHAPE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value code="C48348" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ROUND" xsi:type="CE">
+                              <originalText/>
+                           </value>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSIZE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value unit="mm" value="6" xsi:type="PQ"/>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLIMPRINT" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value xsi:type="ST">115</value>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <policy classCode="DEADrugSchedule">
+                           <code code="C48675" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CII"/>
+                        </policy>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38288" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ORAL"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="ffc2cd39-e42c-5821-e053-6394a90a9974"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <text>
+                  <paragraph>5 mg 
+  <br/>
+                     <content styleCode="bold">CII</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">R
+  
+   <sub>x</sub>only
+ 
+  </content>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20220415"/>
+            </section>
+         </component>
+         <component>
+            <section ID="BOX">
+               <id root="ffc2cd39-e42d-5821-e053-6394a90a9974"/>
+               <code code="34066-1" codeSystem="2.16.840.1.113883.6.1" displayName="BOXED WARNING SECTION"/>
+               <text>
+                  <paragraph>METHAMPHETAMINE HAS A HIGH POTENTIAL FOR ABUSE. PARTICULAR ATTENTION SHOULD BE PAID TO THE POSSIBILITY OF SUBJECTS OBTAINING METHAMPHETAMINE FOR NON-THERAPEUTIC USE OR DISTRIBUTION TO OTHERS, AND THE DRUG SHOULD BE PRESCRIBED OR DISPENSED SPARINGLY. MISUSE OF METHAMPHETAMINE MAY CAUSE SUDDEN DEATH AND SERIOUS CARDIOVASCULAR ADVERSE EVENTS.</paragraph>
+               </text>
+               <effectiveTime value="20220415"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="ffc2cd39-e42e-5821-e053-6394a90a9974"/>
+               <code code="34089-3" codeSystem="2.16.840.1.113883.6.1" displayName="DESCRIPTION SECTION"/>
+               <title>DESCRIPTION</title>
+               <text>
+                  <paragraph>Methamphetamine hydrochloride tablets, USP chemically known as (S)-N, α -dimethylbenzeneethanamine hydrochloride, is a member of the amphetamine group of sympathomimetic amines. It has the following structural formula:</paragraph>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="MM1"/>
+                  </paragraph>
+                  <paragraph>Methamphetamine hydrochloride tablets contain 5 mg of methamphetamine hydrochloride, USP for oral administration.</paragraph>
+               </text>
+               <effectiveTime value="20220415"/>
+               <component>
+                  <observationMedia ID="MM1">
+                     <text>Chemical Structure</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="methamphetamine-01.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <section>
+                     <id root="ffc2cd39-e42f-5821-e053-6394a90a9974"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Inactive Ingredients</title>
+                     <text>
+                        <paragraph>Corn starch, lactose monohydrate, stearic acid and talc.</paragraph>
+                     </text>
+                     <effectiveTime value="20220415"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="CP">
+               <id root="ffc2cd39-e430-5821-e053-6394a90a9974"/>
+               <code code="34090-1" codeSystem="2.16.840.1.113883.6.1" displayName="CLINICAL PHARMACOLOGY SECTION"/>
+               <title>CLINICAL PHARMACOLOGY</title>
+               <text>
+                  <paragraph>Methamphetamine is a sympathomimetic amine with CNS stimulant activity. Peripheral actions include elevation of systolic and diastolic blood pressures and weak bronchodilator and respiratory stimulant action. Other central nervous system actions, or metabolic effects, may be involved, for example.</paragraph>
+                  <paragraph>The mechanism of action involved in producing the beneficial behavioral changes seen in hyperkinetic children receiving methamphetamine is unknown.</paragraph>
+                  <paragraph>In humans, methamphetamine is rapidly absorbed from the gastrointestinal tract. The primary site of metabolism is in the liver by aromatic hydroxylation, N-dealkylation and deamination. At least seven metabolites have been identified in the urine. The biological half-life has been reported in the range of 4 to 5 hours. Excretion occurs primarily in the urine and is dependent on urine pH. Alkaline urine will significantly increase the drug half-life. Approximately 62% of an oral dose is eliminated in the urine within the first 24 hours with about one-third as intact drug and the remainder as metabolites.</paragraph>
+               </text>
+               <effectiveTime value="20220415"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="ffc2cd39-e431-5821-e053-6394a90a9974"/>
+               <code code="34067-9" codeSystem="2.16.840.1.113883.6.1" displayName="INDICATIONS &amp; USAGE SECTION"/>
+               <title>INDICATIONS AND USAGE</title>
+               <effectiveTime value="20220415"/>
+               <component>
+                  <section>
+                     <id root="ffc2cd39-e432-5821-e053-6394a90a9974"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Attention Deficit Disorder with Hyperactivity</title>
+                     <text>
+                        <paragraph>Methamphetamine hydrochloride tablets are indicated as an integral part of a total treatment program which typically includes other remedial measures (psychological, educational, social) for a stabilizing effect in children over 6 years of age with a behavioral syndrome characterized by the following group of developmentally inappropriate symptoms: moderate to severe distractibility, short attention span, hyperactivity, emotional lability, and impulsivity. The diagnosis of this syndrome should not be made with finality when these symptoms are only of comparatively recent origin. Nonlocalizing (soft) neurological signs, learning disability, and abnormal EEG may or may not be present, and a diagnosis of central nervous system dysfunction may or may not be warranted.</paragraph>
+                     </text>
+                     <effectiveTime value="20220415"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="contrain">
+               <id root="ffc2cd39-e433-5821-e053-6394a90a9974"/>
+               <code code="34070-3" codeSystem="2.16.840.1.113883.6.1" displayName="CONTRAINDICATIONS SECTION"/>
+               <title>CONTRAINDICATIONS</title>
+               <text>
+                  <paragraph>In patients known to be hypersensitive to amphetamine, or other components of methamphetamine hydrochloride tablets. Hypersensitivity reactions such as angioedema and anaphylactic reactions have been reported in patients treated with other amphetamine products (see
+ 
+  <linkHtml href="#adverse">ADVERSE REACTIONS</linkHtml>).
+
+ </paragraph>
+                  <paragraph>Patients taking monoamine oxidase inhibitors (MAOIs), or within 14 days of stopping MAOIs (including MAOIs such as linezolid or intravenous methylene blue), because of an increased risk of hypertensive crisis (see
+ 
+  <linkHtml href="#warnings">WARNINGS</linkHtml>and
+ 
+  <linkHtml href="#druginter">DRUG INTERACTIONS</linkHtml>). It is also contraindicated in patients with glaucoma, advanced arteriosclerosis, symptomatic cardiovascular disease, moderate to severe hypertension, hyperthyroidism or known hypersensitivity or idiosyncrasy to sympathomimetic amines. Methamphetamine should not be given to patients who are in an agitated state or who have a history of drug abuse.
+
+ </paragraph>
+               </text>
+               <effectiveTime value="20220415"/>
+            </section>
+         </component>
+         <component>
+            <section ID="warnings">
+               <id root="ffc2cd39-e434-5821-e053-6394a90a9974"/>
+               <code code="34071-1" codeSystem="2.16.840.1.113883.6.1" displayName="WARNINGS SECTION"/>
+               <title>WARNINGS</title>
+               <effectiveTime value="20220415"/>
+               <component>
+                  <section>
+                     <id root="ffc2cd39-e435-5821-e053-6394a90a9974"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Serious Cardiovascular Events</title>
+                     <effectiveTime value="20220415"/>
+                     <component>
+                        <section>
+                           <id root="ffc2cd39-e436-5821-e053-6394a90a9974"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title>Sudden Death and Pre-existing Structural Cardiac Abnormalities or Other Serious Heart Problems</title>
+                           <text>
+                              <list listType="unordered">
+                                 <item>
+                                    <content styleCode="bold">Children and Adolescents</content>: Sudden death has been reported in association with CNS stimulant treatment at usual doses in children and adolescents with structural cardiac abnormalities or other serious heart problems. Although some serious heart problems alone carry an increased risk of sudden death, stimulant products generally should not be used in children or adolescents with known serious structural cardiac abnormalities, cardiomyopathy, serious heart rhythm abnormalities, or other serious cardiac problems that may place them at increased vulnerability to the sympathomimetic effects of a stimulant drug.
+ 
+  </item>
+                                 <item>
+                                    <content styleCode="bold">Adults</content>: Sudden deaths, stroke, and myocardial infarction have been reported in adults taking stimulant drugs at usual doses for ADHD. Although the role of stimulants in these adult cases is also unknown, adults have a greater likelihood than children of having serious structural cardiac abnormalities, cardiomyopathy, serious heart rhythm abnormalities, coronary artery disease, or other serious cardiac problems. Adults with such abnormalities should also generally not be treated with stimulant drugs.
+ 
+  </item>
+                              </list>
+                           </text>
+                           <effectiveTime value="20220415"/>
+                        </section>
+                     </component>
+                  </section>
+               </component>
+               <component>
+                  <section>
+                     <id root="ffc2cd39-e437-5821-e053-6394a90a9974"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Hypertension and other Cardiovascular Conditions</title>
+                     <text>
+                        <paragraph>Stimulant medications cause a modest increase in average blood pressure (about 2-4 mmHg) and average heart rate (about 3-6 bpm), and individuals may have larger increases. While the mean changes alone would not be expected to have short-term consequences, all patients should be monitored for larger changes in heart rate and blood pressure. Caution is indicated in treating patients whose underlying medical conditions might be compromised by increases in blood pressure or heart rate, e.g., those with pre-existing hypertension, heart failure, recent myocardial infarction, or ventricular arrhythmia.</paragraph>
+                     </text>
+                     <effectiveTime value="20220415"/>
+                  </section>
+               </component>
+               <component>
+                  <section>
+                     <id root="ffc2cd39-e438-5821-e053-6394a90a9974"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Assessing Cardiovascular Status in Patients being Treated with Stimulant Medications</title>
+                     <text>
+                        <paragraph>Children, adolescents, or adults who are being considered for treatment with stimulant medications should have a careful history (including assessment for a family history of sudden death or ventricular arrhythmia) and physical exam to assess for the presence of cardiac disease, and should receive further cardiac evaluation if findings suggest such disease (e.g., electrocardiogram and echocardiogram). Patients who develop symptoms such as exertional chest pain, unexplained syncope, or other symptoms suggestive of cardiac disease during stimulant treatment should undergo a prompt cardiac evaluation.</paragraph>
+                     </text>
+                     <effectiveTime value="20220415"/>
+                  </section>
+               </component>
+               <component>
+                  <section>
+                     <id root="ffc2cd39-e439-5821-e053-6394a90a9974"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Psychiatric Adverse Events</title>
+                     <effectiveTime value="20220415"/>
+                     <component>
+                        <section>
+                           <id root="ffc2cd39-e43a-5821-e053-6394a90a9974"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title>Pre-existing Psychosis</title>
+                           <text>
+                              <paragraph>Administration of stimulants may exacerbate symptoms of behavior disturbance and thought disorder in patients with a pre-existing psychotic disorder.</paragraph>
+                           </text>
+                           <effectiveTime value="20220415"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section>
+                           <id root="ffc2cd39-e43b-5821-e053-6394a90a9974"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title>Bipolar Illness</title>
+                           <text>
+                              <paragraph>Particular care should be taken in using stimulants to treat ADHD in patients with comorbid bipolar disorder because of concern for possible induction of a mixed/manic episode in such patients. Prior to initiating treatment with a stimulant, patients with comorbid depressive symptoms should be adequately screened to determine if they are at risk for bipolar disorder; such screening should include a detailed psychiatric history, including a family history of suicide, bipolar disorder, and depression.</paragraph>
+                           </text>
+                           <effectiveTime value="20220415"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section>
+                           <id root="ffc2cd39-e43c-5821-e053-6394a90a9974"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title>Emergence of New Psychotic or Manic Symptoms</title>
+                           <text>
+                              <paragraph>Treatment emergent psychotic or manic symptoms, e.g., hallucinations, delusional thinking, or mania in children and adolescents without a prior history of psychotic illness or mania can be caused by stimulants at usual doses. If such symptoms occur, consideration should be given to a possible causal role of the stimulant, and discontinuation of treatment may be appropriate. In a pooled analysis of multiple short-term, placebo-controlled studies, such symptoms occurred in about 0.1% (4 patients with events out of 3,482 exposed to methylphenidate or amphetamine for several weeks at usual doses) of stimulant-treated patients compared to 0 in placebo-treated patients.</paragraph>
+                           </text>
+                           <effectiveTime value="20220415"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section>
+                           <id root="ffc2cd39-e43d-5821-e053-6394a90a9974"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title>Aggression</title>
+                           <text>
+                              <paragraph>Aggressive behavior or hostility is often observed in children and adolescents with ADHD, and has been reported in clinical trials and the postmarketing experience of some medications indicated for the treatment of ADHD. Although there is no systematic evidence that stimulants cause aggressive behavior or hostility, patients beginning treatment for ADHD should be monitored for the appearance of or worsening of aggressive behavior or hostility.</paragraph>
+                           </text>
+                           <effectiveTime value="20220415"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section>
+                           <id root="ffc2cd39-e43e-5821-e053-6394a90a9974"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title>Long-Term Suppression of Growth</title>
+                           <text>
+                              <paragraph>Careful follow-up of weight and height in children ages 7 to 10 years who were randomized to either methylphenidate or non-medication treatment groups over 14 months, as well as in naturalistic subgroups of newly methylphenidate-treated and non-medication treated children over 36 months (to the ages of 10 to 13 years), suggests that consistently medicated children (i.e., treatment for 7 days per week throughout the year) have a temporary slowing in growth rate (on average, a total of about 2 cm less growth in height and 2.7 kg less growth in weight over 3 years), without evidence of growth rebound during this period of development. Published data are inadequate to determine whether chronic use of amphetamines may cause a similar suppression of growth, however, it is anticipated that they likely have this effect as well. Therefore, growth should be monitored during treatment with stimulants, and patients who are not growing or gaining height or weight as expected may need to have their treatment interrupted.</paragraph>
+                           </text>
+                           <effectiveTime value="20220415"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section>
+                           <id root="ffc2cd39-e43f-5821-e053-6394a90a9974"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title>Seizures</title>
+                           <text>
+                              <paragraph>There is some clinical evidence that stimulants may lower the convulsive threshold in patients with prior history of seizures, in patients with prior EEG abnormalities in absence of seizures, and, very rarely, in patients without a history of seizures and no prior EEG evidence of seizures. In the presence of seizures, the drug should be discontinued.</paragraph>
+                           </text>
+                           <effectiveTime value="20220415"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section>
+                           <id root="ffc2cd39-e440-5821-e053-6394a90a9974"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title>Peripheral Vasculopathy, including Raynaud's phenomenon</title>
+                           <text>
+                              <paragraph>Stimulants, including methamphetamine hydrochloride tablets, used to treat ADHD are associated with peripheral vasculopathy, including Raynaud's phenomenon. Signs and symptoms are usually intermittent and mild; however, very rare sequelae include digital ulceration and/or soft tissue breakdown. Effects of peripheral vasculopathy, including Raynaud's phenomenon, were observed in post-marketing reports at different times and at therapeutic doses in all age groups throughout the course of treatment. Signs and symptoms generally improve after reduction in dose or discontinuation of drug. Careful observation for digital changes is necessary during treatment with ADHD stimulants. Further clinical evaluation (e.g., rheumatology referral) may be appropriate for certain patients.</paragraph>
+                           </text>
+                           <effectiveTime value="20220415"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section>
+                           <id root="ffc2cd39-e441-5821-e053-6394a90a9974"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title>Serotonin Syndrome</title>
+                           <text>
+                              <paragraph>Serotonin syndrome, a potentially life-threatening reaction, may occur when amphetamines are used in combination with other drugs that affect the serotonergic neurotransmitter systems such as monoamine oxidase inhibitors (MAOIs), selective serotonin reuptake inhibitors (SSRIs), serotonin norepinephrine reuptake inhibitors (SNRIs), triptans, tricyclic antidepressants, fentanyl, lithium, tramadol, tryptophan, buspirone, and St. John's Wort (see
+ 
+  <linkHtml href="#druginter">DRUG INTERACTIONS</linkHtml>). Amphetamines and amphetamine derivatives are known to be metabolized, to some degree, by cytochrome P450 2D6 (CYP2D6) and display minor inhibition of CYP2D6 metabolism (see
+ 
+  <linkHtml href="#CP">CLINICAL PHARMACOLOGY</linkHtml>). The potential for a pharmacokinetic interaction exists with the co-administration of CYP2D6 inhibitors which may increase the risk with increased exposure to methamphetamine hydrochloride tablets. In these situations, consider an alternative nonserotonergic drug or an alternative drug that does not inhibit CYP2D6 (see
+ 
+  <linkHtml href="#druginter">DRUG INTERACTIONS</linkHtml>).
+
+ </paragraph>
+                              <paragraph>Serotonin syndrome symptoms may include mental status changes (e.g., agitation, hallucinations, delirium, and coma), autonomic instability (e.g., tachycardia, labile blood pressure, dizziness, diaphoresis, flushing, hyperthermia), neuromuscular symptoms (e.g., tremor, rigidity, myoclonus, hyperreflexia, incoordination), seizures, and/or gastrointestinal symptoms (e.g., nausea, vomiting, diarrhea).</paragraph>
+                              <paragraph>Concomitant use of methamphetamine hydrochloride tablets with MAOI drugs is contraindicated (see
+ 
+  <linkHtml href="#contrain">CONTRAINDICATIONS</linkHtml>).
+
+ </paragraph>
+                              <paragraph>Discontinue treatment with methamphetamine hydrochloride tablets and any concomitant serotonergic agents immediately if the above symptoms occur, and initiate supportive symptomatic treatment. If concomitant use of methamphetamine hydrochloride tablets with other serotonergic drugs or CYP2D6 inhibitors is clinically warranted, initiate methamphetamine hydrochloride tablets with lower doses, monitor patients for the emergence of serotonin syndrome during drug initiation or titration, and inform patients of the increased risk for serotonin syndrome.</paragraph>
+                           </text>
+                           <effectiveTime value="20220415"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section>
+                           <id root="ffc2cd39-e442-5821-e053-6394a90a9974"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title>Visual Disturbance</title>
+                           <text>
+                              <paragraph>Difficulties with accommodation and blurring of vision have been reported with stimulant treatment.</paragraph>
+                           </text>
+                           <effectiveTime value="20220415"/>
+                        </section>
+                     </component>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="precautions">
+               <id root="ffc2cd39-e443-5821-e053-6394a90a9974"/>
+               <code code="42232-9" codeSystem="2.16.840.1.113883.6.1" displayName="PRECAUTIONS SECTION"/>
+               <title>PRECAUTIONS</title>
+               <effectiveTime value="20220415"/>
+               <component>
+                  <section>
+                     <id root="ffc2cd39-e444-5821-e053-6394a90a9974"/>
+                     <code code="34072-9" codeSystem="2.16.840.1.113883.6.1" displayName="GENERAL PRECAUTIONS SECTION"/>
+                     <title>General</title>
+                     <text>
+                        <paragraph>Methamphetamine hydrochloride tablets should be used with caution in patients with even mild hypertension.</paragraph>
+                        <paragraph>Methamphetamine should not be used to combat fatigue or to replace rest in normal persons.</paragraph>
+                        <paragraph>Prescribing and dispensing of methamphetamine should be limited to the smallest amount that is feasible at one time in order to minimize the possibility of overdosage.</paragraph>
+                     </text>
+                     <effectiveTime value="20220415"/>
+                  </section>
+               </component>
+               <component>
+                  <section>
+                     <id root="ffc2cd39-e445-5821-e053-6394a90a9974"/>
+                     <code code="34076-0" codeSystem="2.16.840.1.113883.6.1" displayName="INFORMATION FOR PATIENTS SECTION"/>
+                     <title>Information for Patients</title>
+                     <text>
+                        <paragraph>The patient should be informed that methamphetamine may impair the ability to engage in potentially hazardous activities, such as, operating machinery or driving a motor vehicle.</paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Circulation problems in fingers and toes [Peripheral vasculopathy, including Raynaud's phenomenon]</content>
+                        </paragraph>
+                        <list listType="unordered">
+                           <item>Instruct patients beginning treatment with methamphetamine hydrochloride tablets about the risk of peripheral vasculopathy, including Raynaud's Phenomenon, and associated signs and symptoms: fingers or toes may feel numb, cool, painful, and/or may change color from pale, to blue, to red.</item>
+                           <item>Instruct patients to report to their physician any new numbness, pain, skin color change, or sensitivity to temperature in fingers or toes.</item>
+                           <item>
+                              <content styleCode="bold">Instruct patients to call their physician immediately with any signs of unexplained wounds appearing on fingers or toes while taking methamphetamine hydrochloride tablets.</content>
+                           </item>
+                           <item>Further clinical evaluation (e.g., rheumatology referral) may be appropriate for certain patients.</item>
+                        </list>
+                        <paragraph>The patient should be cautioned not to increase dosage, except on advice of the physician.</paragraph>
+                        <paragraph>Prescribers or other health professionals should inform patients, their families, and their caregivers about the benefits and risks associated with treatment with methamphetamine and should counsel them in its appropriate use. A patient Medication Guide is available for methamphetamine hydrochloride tablets. The prescriber or health professional should instruct patients, their families, and their caregivers to read the Medication Guide and should assist them in understanding its contents. Patients should be given the opportunity to discuss the contents of the Medication Guide and to obtain answers to any questions they may have.</paragraph>
+                     </text>
+                     <effectiveTime value="20220415"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="druginter">
+                     <id root="ffc2cd39-e446-5821-e053-6394a90a9974"/>
+                     <code code="34073-7" codeSystem="2.16.840.1.113883.6.1" displayName="DRUG INTERACTIONS SECTION"/>
+                     <title>Drug Interactions</title>
+                     <text>
+                        <paragraph>Insulin requirements in diabetes mellitus may be altered in association with the use of methamphetamine and the concomitant dietary regimen.</paragraph>
+                        <paragraph>Methamphetamine may decrease the hypotensive effect of
+ 
+  <content styleCode="italics">guanethidine</content>.
+
+ </paragraph>
+                        <paragraph>Methamphetamine hydrochloride tablets should not be used concurrently with
+ 
+  <content styleCode="italics">monoamine oxidase inhibitors</content>(see
+ 
+  <linkHtml href="#contrain">CONTRAINDICATIONS</linkHtml>).
+
+ </paragraph>
+                        <paragraph>Concurrent administration of
+ 
+  <content styleCode="italics">tricyclic antidepressants</content>and indirect-acting sympathomimetic amines such as the amphetamines, should be closely supervised and dosage carefully adjusted.
+
+ </paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Phenothiazines</content>are reported in the literature to antagonize the CNS stimulant action of the amphetamines.
+
+ </paragraph>
+                     </text>
+                     <effectiveTime value="20220415"/>
+                  </section>
+               </component>
+               <component>
+                  <section>
+                     <id root="ffc2cd39-e447-5821-e053-6394a90a9974"/>
+                     <code code="34074-5" codeSystem="2.16.840.1.113883.6.1" displayName="DRUG &amp; OR LABORATORY TEST INTERACTIONS SECTION"/>
+                     <title>Drug/Laboratory Test Interactions</title>
+                     <text>
+                        <paragraph>Literature reports suggest that amphetamines may be associated with significant elevation of plasma corticosteroids. This should be considered if determination of plasma corticosteroid levels is desired in a person receiving amphetamines.</paragraph>
+                     </text>
+                     <effectiveTime value="20220415"/>
+                  </section>
+               </component>
+               <component>
+                  <section>
+                     <id root="ffc2cd39-e448-5821-e053-6394a90a9974"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Acidifying Agents</title>
+                     <text>
+                        <paragraph>Lower blood levels and efficacy of amphetamines. Increase dose based on clinical response. Examples of acidifying agents include gastrointestinal acidifying agents (e.g., guanethidine, reserpine, glutamic acid HCl, ascorbic acid) and urinary acidifying agents (e.g., ammonium chloride, sodium acid phosphate, methenamine salts).</paragraph>
+                     </text>
+                     <effectiveTime value="20220415"/>
+                  </section>
+               </component>
+               <component>
+                  <section>
+                     <id root="ffc2cd39-e449-5821-e053-6394a90a9974"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Alkalinizing Agents</title>
+                     <text>
+                        <paragraph>Increase blood levels and potentiate the action of amphetamine. Co-administration of methamphetamine hydrochloride tablets and gastrointestinal alkalinizing agents should be avoided. Examples of alkalinizing agents include gastrointestinal alkalinizing agents (e.g., sodium bicarbonate) and urinary alkalinizing agents (e.g., acetazolamide, some thiazides).</paragraph>
+                     </text>
+                     <effectiveTime value="20220415"/>
+                  </section>
+               </component>
+               <component>
+                  <section>
+                     <id root="ffc2cd39-e44a-5821-e053-6394a90a9974"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Tricyclic Antidepressants</title>
+                     <text>
+                        <paragraph>May enhance the activity of tricyclic or sympathomimetic agents causing striking and sustained increases in the concentration of d-amphetamine in the brain; cardiovascular effects can be potentiated. Monitor frequently and adjust or use alternative therapy based on clinical response. Examples of tricyclic antidepressants include desipramine, Protriptyline.</paragraph>
+                     </text>
+                     <effectiveTime value="20220415"/>
+                  </section>
+               </component>
+               <component>
+                  <section>
+                     <id root="ffc2cd39-e44b-5821-e053-6394a90a9974"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>CYP2D6 Inhibitors</title>
+                     <text>
+                        <paragraph>The concomitant use of methamphetamine hydrochloride tablets and CYP2D6 inhibitors may increase the exposure of methamphetamine hydrochloride tablets compared to the use of the drug alone and increase the risk of serotonin syndrome. Initiate with lower doses and monitor patients for signs and symptoms of serotonin syndrome particularly during methamphetamine hydrochloride tablets initiation and after a dosage increase. If serotonin syndrome occurs, discontinue methamphetamine hydrochloride tablets and the CYP2D6 inhibitor (see
+ 
+  <linkHtml href="#warnings">WARNINGS</linkHtml>,
+ 
+  <linkHtml href="#overdosage">OVERDOSAGE</linkHtml>). Examples of CYP2D6 Inhibitors include paroxetine and fluoxetine (also serotonergic drugs), quinidine, ritonavir.
+
+ </paragraph>
+                     </text>
+                     <effectiveTime value="20220415"/>
+                  </section>
+               </component>
+               <component>
+                  <section>
+                     <id root="ffc2cd39-e44c-5821-e053-6394a90a9974"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Serotonergic Drugs</title>
+                     <text>
+                        <paragraph>The concomitant use of methamphetamine hydrochloride tablets and serotonergic drugs increases the risk of serotonin syndrome. Initiate with lower doses and monitor patients for signs and symptoms of serotonin syndrome, particularly during methamphetamine hydrochloride tablets initiation or dosage increase. If serotonin syndrome occurs, discontinue methamphetamine hydrochloride tablets and the concomitant serotonergic drug(s) (see
+ 
+  <linkHtml href="#warnings">WARNINGS</linkHtml>and
+ 
+  <linkHtml href="#precautions">PRECAUTIONS</linkHtml>). Examples of serotonergic drugs include selective serotonin reuptake inhibitors (SSRI), serotonin norepinephrine reuptake inhibitors (SNRI), triptans, tricyclic antidepressants, fentanyl, lithium, tramadol, tryptophan, buspirone, St. John's Wort.
+
+ </paragraph>
+                     </text>
+                     <effectiveTime value="20220415"/>
+                  </section>
+               </component>
+               <component>
+                  <section>
+                     <id root="ffc2cd39-e44d-5821-e053-6394a90a9974"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>MAO Inhibitors</title>
+                     <text>
+                        <paragraph>Concomitant use of MAOIs and CNS stimulants can cause hypertensive crisis. Potential outcomes include death, stroke, myocardial infarction, aortic dissection, ophthalmological complications, eclampsia, pulmonary edema, and renal failure. Do not administer methamphetamine hydrochloride tablets concomitantly or within 14 days after discontinuing MAOI (see
+ 
+  <linkHtml href="#contrain">CONTRAINDICATIONS</linkHtml>and
+ 
+  <linkHtml href="#warnings">WARNINGS</linkHtml>). Examples of MAOIs include selegiline, tranylcypromine, isocarboxazid, phenelzine, linezolid, methylene blue.
+
+ </paragraph>
+                     </text>
+                     <effectiveTime value="20220415"/>
+                  </section>
+               </component>
+               <component>
+                  <section>
+                     <id root="ffc2cd39-e44e-5821-e053-6394a90a9974"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Proton Pump Inhibitors</title>
+                     <text>
+                        <paragraph>Time to maximum concentration (Tmax) of amphetamine is decreased compared to when administered alone. Monitor patients for changes in clinical effect and adjust therapy based on clinical response. An example of a proton pump inhibitor is omeprazole.</paragraph>
+                     </text>
+                     <effectiveTime value="20220415"/>
+                  </section>
+               </component>
+               <component>
+                  <section>
+                     <id root="ffc2cd39-e44f-5821-e053-6394a90a9974"/>
+                     <code code="34083-6" codeSystem="2.16.840.1.113883.6.1" displayName="CARCINOGENESIS &amp; MUTAGENESIS &amp; IMPAIRMENT OF FERTILITY SECTION"/>
+                     <title>Carcinogenesis, Mutagenesis, Impairment of Fertility</title>
+                     <text>
+                        <paragraph>Data are not available on long-term potential for carcinogenicity, mutagenicity, or impairment of fertility.</paragraph>
+                     </text>
+                     <effectiveTime value="20220415"/>
+                  </section>
+               </component>
+               <component>
+                  <section>
+                     <id root="ffc2cd39-e450-5821-e053-6394a90a9974"/>
+                     <code code="42228-7" codeSystem="2.16.840.1.113883.6.1" displayName="PREGNANCY SECTION"/>
+                     <title>Pregnancy</title>
+                     <effectiveTime value="20220415"/>
+                     <component>
+                        <section>
+                           <id root="ffc2cd39-e451-5821-e053-6394a90a9974"/>
+                           <code code="34077-8" codeSystem="2.16.840.1.113883.6.1" displayName="TERATOGENIC EFFECTS SECTION"/>
+                           <title>Teratogenic effects</title>
+                           <effectiveTime value="20220415"/>
+                           <component>
+                              <section>
+                                 <id root="ffc2cd39-e452-5821-e053-6394a90a9974"/>
+                                 <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                                 <title>Pregnancy Category C</title>
+                                 <text>
+                                    <paragraph>Methamphetamine has been shown to have teratogenic and embryocidal effects in mammals given high multiples of the human dose. There are no adequate and well-controlled studies in pregnant women. Methamphetamine hydrochloride tablets should not be used during pregnancy unless the potential benefit justifies the potential risk to the fetus.</paragraph>
+                                 </text>
+                                 <effectiveTime value="20220415"/>
+                              </section>
+                           </component>
+                        </section>
+                     </component>
+                     <component>
+                        <section>
+                           <id root="ffc2cd39-e453-5821-e053-6394a90a9974"/>
+                           <code code="34078-6" codeSystem="2.16.840.1.113883.6.1" displayName="NONTERATOGENIC EFFECTS SECTION"/>
+                           <title>Nonteratogenic effects</title>
+                           <text>
+                              <paragraph>Infants born to mothers dependent on amphetamines have an increased risk of premature delivery and low birth weight. Also, these infants may experience symptoms of withdrawal as demonstrated by dysphoria, including agitation and significant lassitude.</paragraph>
+                           </text>
+                           <effectiveTime value="20220415"/>
+                        </section>
+                     </component>
+                  </section>
+               </component>
+               <component>
+                  <section>
+                     <id root="ffc2cd39-e454-5821-e053-6394a90a9974"/>
+                     <code code="34080-2" codeSystem="2.16.840.1.113883.6.1" displayName="NURSING MOTHERS SECTION"/>
+                     <title>Usage in Nursing Mothers</title>
+                     <text>
+                        <paragraph>Amphetamines are excreted in human milk. Mothers taking amphetamines should be advised to refrain from nursing.</paragraph>
+                     </text>
+                     <effectiveTime value="20220415"/>
+                  </section>
+               </component>
+               <component>
+                  <section>
+                     <id root="ffc2cd39-e455-5821-e053-6394a90a9974"/>
+                     <code code="34081-0" codeSystem="2.16.840.1.113883.6.1" displayName="PEDIATRIC USE SECTION"/>
+                     <title>Pediatric Use</title>
+                     <text>
+                        <paragraph>Long-term effects of methamphetamine in children have not been established (see
+ 
+  <linkHtml href="#warnings">WARNINGS</linkHtml>).
+
+ </paragraph>
+                        <paragraph>Drug treatment is not indicated in all cases of the behavioral syndrome characterized by moderate to severe distractibility, short attention span, hyperactivity, emotional lability and impulsivity. It should be considered only in light of the complete history and evaluation of the child. The decision to prescribe methamphetamine hydrochloride tablets should depend on the physician's assessment of the chronicity and severity of the child's symptoms and their appropriateness for his/her age. Prescription should not depend solely on the presence of one or more of the behavioral characteristics.</paragraph>
+                        <paragraph>When these symptoms are associated with acute stress reactions, treatment with methamphetamine hydrochloride tablets is usually not indicated.</paragraph>
+                        <paragraph>Clinical experience suggests that in psychotic children, administration of methamphetamine hydrochloride tablets may exacerbate symptoms of behavior disturbance and thought disorder.</paragraph>
+                        <paragraph>Amphetamines have been reported to exacerbate motor and phonic tics and Tourette's syndrome. Therefore, clinical evaluation for tics and Tourette's syndrome in children and their families should precede use of stimulant medications.</paragraph>
+                     </text>
+                     <effectiveTime value="20220415"/>
+                  </section>
+               </component>
+               <component>
+                  <section>
+                     <id root="ffc2cd39-e456-5821-e053-6394a90a9974"/>
+                     <code code="34082-8" codeSystem="2.16.840.1.113883.6.1" displayName="GERIATRIC USE SECTION"/>
+                     <title>Geriatric Use</title>
+                     <text>
+                        <paragraph>Clinical Studies of methamphetamine hydrochloride tablets did not include sufficient numbers of subjects age 65 years and over to determine whether elderly subjects respond differently from younger subjects. Other reported clinical experience has not identified differences in responses between the elderly and younger patients. In general, dose selection for an elderly patient should be cautious, usually starting at the low end of the dosing range, reflecting the greater frequency of decreased hepatic, renal or cardiac function, and of concomitant disease or other drug therapy observed in this population.</paragraph>
+                     </text>
+                     <effectiveTime value="20220415"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="adverse">
+               <id root="ffc2cd39-e457-5821-e053-6394a90a9974"/>
+               <code code="34084-4" codeSystem="2.16.840.1.113883.6.1" displayName="ADVERSE REACTIONS SECTION"/>
+               <title>ADVERSE REACTIONS</title>
+               <text>
+                  <paragraph>The following are adverse reactions in decreasing order of severity within each category that have been reported:</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Cardiovascular:</content>Elevation of blood pressure, tachycardia and palpitation. Fatal cardiorespiratory arrest has been reported, mostly in the context of abuse/misuse.
+
+ </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Central Nervous System:</content>Psychotic episodes have been rarely reported at recommended doses. Dizziness, dysphoria, overstimulation, euphoria, insomnia, tremor, restlessness and headache. Exacerbation of motor and phonic tics and Tourette's syndrome.
+
+ </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Gastrointestinal:</content>Diarrhea, constipation, dryness of mouth, unpleasant taste, intestinal ischemia, and other gastrointestinal disturbances.
+
+ </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Hypersensitivity:</content>Urticaria.
+
+ </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Endocrine:</content>Impotence and changes in libido; frequent or prolonged erections.
+
+ </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Musculoskeletal:</content>Rhabdomyolysis.
+
+ </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Miscellaneous:</content>Suppression of growth has been reported with the long-term use of stimulants in children (see
+ 
+  <linkHtml href="#warnings">WARNINGS</linkHtml>).
+
+ </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Skin and Subcutaneous Tissue Disorders:</content>Alopecia.
+
+ </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">To report SUSPECTED ADVERSE REACTIONS, contact FDA at 1-800-FDA-1088 or
+  
+   <content styleCode="italics">www.fda.gov/medwatch</content>or Mayne Pharma at 1-844-825-8500.
+ 
+  </content>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20220419"/>
+            </section>
+         </component>
+         <component>
+            <section ID="DAAD">
+               <id root="ffc2cd39-e458-5821-e053-6394a90a9974"/>
+               <code code="42227-9" codeSystem="2.16.840.1.113883.6.1" displayName="DRUG ABUSE AND DEPENDENCE SECTION"/>
+               <title>DRUG ABUSE AND DEPENDENCE</title>
+               <effectiveTime value="20220415"/>
+               <component>
+                  <section>
+                     <id root="ffc2cd39-e459-5821-e053-6394a90a9974"/>
+                     <code code="34085-1" codeSystem="2.16.840.1.113883.6.1" displayName="CONTROLLED SUBSTANCE SECTION"/>
+                     <title>Controlled Substance</title>
+                     <text>
+                        <paragraph>Methamphetamine hydrochloride tablets are subject to control under DEA schedule II.</paragraph>
+                     </text>
+                     <effectiveTime value="20220415"/>
+                  </section>
+               </component>
+               <component>
+                  <section>
+                     <id root="ffc2cd39-e45a-5821-e053-6394a90a9974"/>
+                     <code code="34086-9" codeSystem="2.16.840.1.113883.6.1" displayName="ABUSE SECTION"/>
+                     <title>Abuse</title>
+                     <text>
+                        <paragraph>Methamphetamine has been extensively abused. Tolerance, extreme psychological dependence, and severe social disability have occurred. There are reports of patients who have increased the dosage to many times that recommended. Abrupt cessation following prolonged high dosage administration results in extreme fatigue and mental depression; changes are also noted on the sleep EEG. Manifestations of chronic intoxication with methamphetamine include severe dermatoses, marked insomnia, irritability, hyperactivity, and personality changes. The most severe manifestation of chronic intoxication is psychosis often clinically indistinguishable from schizophrenia. Abuse and/or misuse of methamphetamine have resulted in death. Fatal cardiorespiratory arrest has been reported in the context of abuse and/or misuse of methamphetamine.</paragraph>
+                     </text>
+                     <effectiveTime value="20220415"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="overdosage">
+               <id root="ffc2cd39-e45b-5821-e053-6394a90a9974"/>
+               <code code="34088-5" codeSystem="2.16.840.1.113883.6.1" displayName="OVERDOSAGE SECTION"/>
+               <title>OVERDOSAGE</title>
+               <text>
+                  <paragraph>Manifestations of amphetamine overdose include restlessness, tremor, hyperreflexia, rapid respiration, confusion, assaultiveness, hallucinations, panic states, hyperpyrexia, and rhabdomyolysis. Fatigue and depression usually follow the central nervous system stimulation. Serotonin syndrome has also been reported. Cardiovascular effects include arrhythmias, hypertension or hypotension, and circulatory collapse. Gastrointestinal symptoms include nausea, vomiting, diarrhea, and abdominal cramps. Fatal poisoning is usually preceded by convulsions and coma.</paragraph>
+               </text>
+               <effectiveTime value="20220415"/>
+               <component>
+                  <section>
+                     <id root="ffc2cd39-e45c-5821-e053-6394a90a9974"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Treatment</title>
+                     <text>
+                        <paragraph>Consult with a Certified Poison Control Center for up to date guidance and advice.</paragraph>
+                     </text>
+                     <effectiveTime value="20220415"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="ffc2cd39-e45d-5821-e053-6394a90a9974"/>
+               <code code="34068-7" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE &amp; ADMINISTRATION SECTION"/>
+               <title>DOSAGE AND ADMINISTRATION</title>
+               <text>
+                  <paragraph>Methamphetamine hydrochloride tablets are given orally.</paragraph>
+                  <paragraph>Methamphetamine should be administered at the lowest effective dosage, and dosage should be individually adjusted. Late evening medication should be avoided because of the resulting insomnia.</paragraph>
+               </text>
+               <effectiveTime value="20220415"/>
+               <component>
+                  <section>
+                     <id root="ffc2cd39-e45e-5821-e053-6394a90a9974"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Attention Deficit Disorder with Hyperactivity</title>
+                     <text>
+                        <paragraph>
+                           <content styleCode="italics">For treatment of children 6 years or older with a behavioral syndrome characterized by moderate to severe distractibility, short attention span, hyperactivity, emotional lability and impulsivity:</content>an initial dose of 5 mg methamphetamine hydrochloride tablets once or twice a day is recommended. Daily dosage may be raised in increments of 5 mg at weekly intervals until an optimum clinical response is achieved. The usual effective dose is 20 to 25 mg daily. The total daily dose may be given in two divided doses daily.
+
+ </paragraph>
+                        <paragraph>Where possible, drug administration should be interrupted occasionally to determine if there is a recurrence of behavioral symptoms sufficient to require continued therapy.</paragraph>
+                     </text>
+                     <effectiveTime value="20220415"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="ffc2cd39-e45f-5821-e053-6394a90a9974"/>
+               <code code="34069-5" codeSystem="2.16.840.1.113883.6.1" displayName="HOW SUPPLIED SECTION"/>
+               <title>HOW SUPPLIED</title>
+               <text>
+                  <paragraph>Methamphetamine Hydrochloride Tablets, USP are available containing 5 mg of methamphetamine hydrochloride, USP.</paragraph>
+                  <paragraph>The 5 mg tablets are white, round, unscored tablets debossed with
+ 
+  <content styleCode="bold">115</content>on one side of the tablet and blank on the other side. They are available as follows:
+
+ </paragraph>
+                  <paragraph>NDC 68308-115-01 
+  <br/>  bottles of 100 tablets
+ </paragraph>
+               </text>
+               <effectiveTime value="20220419"/>
+               <component>
+                  <section>
+                     <id root="ffc2cd39-e460-5821-e053-6394a90a9974"/>
+                     <code code="44425-7" codeSystem="2.16.840.1.113883.6.1" displayName="STORAGE AND HANDLING SECTION"/>
+                     <text>
+                        <paragraph>Store at 20° to 25°C (68° to 77°F). [See USP Controlled Room Temperature.] 
+  <br/>  Protect from light.
+ </paragraph>
+                        <paragraph>Dispense in a tight, light-resistant container as defined in the USP using a child-resistant closure.</paragraph>
+                        <paragraph>Medication Guides available at products.maynepharma.com or call 1-844-825-8500.</paragraph>
+                     </text>
+                     <effectiveTime value="20220419"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="ffc2cd39-e461-5821-e053-6394a90a9974"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <text>
+                  <paragraph>Manufactured by: 
+  <br/>
+                     <content styleCode="bold">Mayne Pharma</content>
+                     <br/>  Greenville, NC 27834
+
+ </paragraph>
+                  <paragraph>61169 
+  <br/>  Rev. 03/2022
+ </paragraph>
+               </text>
+               <effectiveTime value="20220419"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="ffc2cd39-e462-5821-e053-6394a90a9974"/>
+               <code code="42231-1" codeSystem="2.16.840.1.113883.6.1" displayName="SPL MEDGUIDE SECTION"/>
+               <title>MEDICATION GUIDE</title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">METHAMPHETAMINE HYDROCHLORIDE TABLETS, USP CII</content>
+                     <br/>  (metham-fetă-mēn hīdrŏ-klōrīd)
+
+ </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">5 mg</content>
+                  </paragraph>
+                  <paragraph>Read the Medication Guide that comes with methamphetamine hydrochloride tablets before you or your child starts taking it and each time you get a refill.</paragraph>
+                  <paragraph>There may be new information. This Medication Guide does not take the place of talking to your or your child's doctor about your or your child's treatment with methamphetamine hydrochloride tablets.</paragraph>
+                  <table width="100%">
+                     <col width="100%" valign="top" align="left"/>
+                     <tbody>
+                        <tr>
+                           <td styleCode="Lrule Rrule">
+                              <paragraph ID="important">
+                                 <content styleCode="bold">What is the most important information I should know about methamphetamine hydrochloride tablets?</content>
+                              </paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Lrule Rrule">
+                              <paragraph>
+                                 <content styleCode="bold">The following have been reported with use of methamphetamine hydrochloride and other stimulant medicines.</content>
+                              </paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Lrule Rrule">
+                              <paragraph>
+                                 <content styleCode="bold">1. Heart-related problems:</content>
+                              </paragraph>
+                              <list listType="unordered" styleCode="Disc">
+                                 <item>sudden death in patients who have heart problems or heart defects</item>
+                                 <item>stroke and heart attack in adults</item>
+                                 <item>increased blood pressure and heart rate</item>
+                              </list>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Lrule Rrule">
+                              <paragraph>Tell your or your child's doctor if you or your child have any heart problems, heart defects, high blood pressure, or a family history of these problems.</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Lrule Rrule">
+                              <paragraph>Your or your child's doctor should check you or your child carefully for heart problems before starting methamphetamine hydrochloride tablets.</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Lrule Rrule">
+                              <paragraph>Your or your child's doctor should check you or your child's blood pressure and heart rate regularly during treatment with methamphetamine hydrochloride tablets.</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Lrule Rrule">
+                              <paragraph>
+                                 <content styleCode="bold">Call your or your child's doctor right away if you or your child has any signs of heart problems such as chest pain, shortness of breath, or fainting while taking methamphetamine hydrochloride tablets.</content>
+                              </paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Lrule Rrule">
+                              <paragraph>
+                                 <content styleCode="bold">2. Mental (Psychiatric) problems:</content>
+                              </paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Lrule Rrule">
+                              <paragraph>
+                                 <content styleCode="bold">All Patients</content>
+                              </paragraph>
+                              <list listType="unordered" styleCode="Disc">
+                                 <item>new or worse behavior and thought problems</item>
+                                 <item>new or worse bipolar illness</item>
+                                 <item>new or worse aggressive behavior or hostility</item>
+                              </list>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Lrule Rrule">
+                              <paragraph>
+                                 <content styleCode="bold">Children and Teenagers</content>
+                              </paragraph>
+                              <list listType="unordered" styleCode="Disc">
+                                 <item>new psychotic symptoms (such as hearing voices, believing things that are not true, are suspicious) or new manic symptoms</item>
+                              </list>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Lrule Rrule">
+                              <paragraph>Tell your or your child's doctor about any mental problems you or your child have, or about a family history of suicide, bipolar illness, or depression.</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Lrule Rrule">
+                              <paragraph>
+                                 <content styleCode="bold">Call your or your child's doctor right away if you or your child have any new or worsening mental symptoms or problems while taking methamphetamine hydrochloride tablets, especially seeing or hearing things that are not real, believing things that are not real, or are suspicious.</content>
+                              </paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Lrule Rrule">
+                              <paragraph>
+                                 <content styleCode="bold">3. Circulation problems in fingers and toes</content>[Peripheral vasculopathy, including Raynaud's phenomenon]:
+    
+     </paragraph>
+                              <list listType="unordered" styleCode="Disc">
+                                 <item>fingers or toes may feel numb, cool, painful</item>
+                                 <item>fingers or toes may change color from pale, to blue, to red</item>
+                              </list>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Lrule Rrule">
+                              <paragraph>Tell your doctor if you have or your child has numbness, pain, skin color change, or sensitivity to temperature in your fingers or toes.</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Lrule Rrule">
+                              <paragraph>
+                                 <content styleCode="bold">Call your doctor right away if you have or your child has any signs of unexplained wounds appearing on fingers or toes while taking methamphetamine hydrochloride tablets.</content>
+                              </paragraph>
+                           </td>
+                        </tr>
+                     </tbody>
+                  </table>
+                  <paragraph>
+                     <content styleCode="bold">What are methamphetamine hydrochloride tablets?</content>
+                  </paragraph>
+                  <paragraph>Methamphetamine hydrochloride tablets are a central nervous system stimulant prescription medicine.
+ 
+  <content styleCode="bold">It is used for the treatment of Attention-Deficit Hyperactivity Disorder; (ADHD).</content>
+                  </paragraph>
+                  <paragraph>Methamphetamine hydrochloride tablets may help increase attention and decrease impulsiveness and hyperactivity in patients with ADHD.</paragraph>
+                  <paragraph>Methamphetamine hydrochloride tablets should be used as a part of a total treatment program for ADHD that may include counseling or other therapies.</paragraph>
+               </text>
+               <effectiveTime value="20220419"/>
+               <component>
+                  <section>
+                     <id root="ffc2cd39-e463-5821-e053-6394a90a9974"/>
+                     <code code="34066-1" codeSystem="2.16.840.1.113883.6.1" displayName="BOXED WARNING SECTION"/>
+                     <text>
+                        <paragraph>
+                           <content styleCode="bold">Methamphetamine hydrochloride tablets are a federally controlled substance (CII) because it can be abused or lead to dependence. Keep methamphetamine hydrochloride tablets in a safe place to prevent misuse and abuse. Selling or giving away methamphetamine hydrochloride tablets may harm others, and is against the law.</content>
+                        </paragraph>
+                        <paragraph>Tell your or your child's doctor if you or your child have (or have a family history of) ever abused or been dependent on alcohol, prescription medicines or street drugs.</paragraph>
+                     </text>
+                     <effectiveTime value="20220415"/>
+                  </section>
+               </component>
+               <component>
+                  <section>
+                     <id root="ffc2cd39-e464-5821-e053-6394a90a9974"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <text>
+                        <paragraph>
+                           <content styleCode="bold">Who should not take methamphetamine hydrochloride tablets?</content>
+                        </paragraph>
+                        <paragraph>Methamphetamine hydrochloride tablets should not be taken if you or your child:</paragraph>
+                        <list listType="unordered">
+                           <item>have heart disease or hardening of the arteries</item>
+                           <item>have moderate to severe high blood pressure</item>
+                           <item>have hyperthyroidism</item>
+                           <item>have an eye problem called glaucoma</item>
+                           <item>are agitated</item>
+                           <item>have a history of drug abuse</item>
+                           <item>are taking or have taken within the past 14 days an antidepression medicine called a monoamine oxidase inhibitor or MAOI.</item>
+                           <item>are sensitive to, allergic to, or had a reaction to other stimulant medicines</item>
+                        </list>
+                        <paragraph>Methamphetamine hydrochloride tablets are not recommended for use in children less than 6 years old in the treatment of ADHD.</paragraph>
+                        <paragraph>
+                           <content styleCode="bold">Methamphetamine hydrochloride tablets may not be right for you or your child. Before starting methamphetamine hydrochloride tablets tell your or your child's doctor about all health conditions (or a family history of) including:</content>
+                        </paragraph>
+                        <list listType="unordered">
+                           <item>heart problems, heart defects, high blood pressure</item>
+                           <item>mental problems including psychosis, mania, bipolar illness, or depression</item>
+                           <item>tics or Tourette's syndrome</item>
+                           <item>thyroid problems</item>
+                           <item>diabetes</item>
+                           <item>seizures or have had an abnormal brain wave test (EEG)</item>
+                           <item>circulation problems in fingers and toes</item>
+                        </list>
+                        <paragraph>Tell your or your child's doctor if you or your child is pregnant, planning to become pregnant, or breastfeeding.</paragraph>
+                        <paragraph>
+                           <content styleCode="bold">Can methamphetamine hydrochloride tablets be taken with other medicines?</content>
+                        </paragraph>
+                        <paragraph>
+                           <content styleCode="bold">Tell your or your child's doctor about all of the medicines that you or your child take including prescription and nonprescription medicines, vitamins, and herbal supplements.</content>
+                        </paragraph>
+                        <paragraph>Methamphetamine hydrochloride tablets and some medicines may interact with each other and cause serious side effects. Sometimes the doses of other medicines will need to be adjusted while taking methamphetamine hydrochloride tablets.</paragraph>
+                        <paragraph>Your or your child's doctor will decide whether methamphetamine hydrochloride tablets can be taken with other medicines.</paragraph>
+                        <paragraph>
+                           <content styleCode="bold">Especially tell your or your child's doctor if you or your child takes:</content>
+                        </paragraph>
+                        <list listType="unordered">
+                           <item>anti-depression medicines including MAOIs</item>
+                           <item>anti-psychotic medicines</item>
+                           <item>blood pressure medicines</item>
+                           <item>insulin</item>
+                           <item>seizure medicines</item>
+                        </list>
+                        <paragraph>Know the medicines that you or your child takes. Keep a list of your medicines with you to show your doctor and pharmacist.</paragraph>
+                        <paragraph>
+                           <content styleCode="bold">Do not start any new medicine while taking methamphetamine hydrochloride tablets without talking to your or your child's doctor first.</content>
+                        </paragraph>
+                        <paragraph>
+                           <content styleCode="bold">How should methamphetamine hydrochloride tablets be taken?</content>
+                        </paragraph>
+                        <list listType="unordered">
+                           <item>
+                              <content styleCode="bold">Take methamphetamine hydrochloride tablets exactly as prescribed.</content>Your or your child's doctor may adjust the dose until it is right for you or your child.
+ 
+  </item>
+                           <item>Methamphetamine hydrochloride tablets are usually taken 1 or 2 times each day.</item>
+                           <item>From time to time, your or your child's doctor may stop methamphetamine hydrochloride tablets treatment for a while to check ADHD symptoms.</item>
+                           <item>Your or your child's doctor may do regular checks of the blood, heart, and blood pressure while taking methamphetamine hydrochloride tablets. Children should have their height and weight checked often while taking methamphetamine hydrochloride tablets. Methamphetamine hydrochloride tablets treatment may be stopped if a problem is found during these check-ups.</item>
+                           <item>
+                              <content styleCode="bold">If you or your child takes too much methamphetamine hydrochloride tablets or overdoses, call your or your child's doctor or poison control center right away, or get emergency treatment.</content>
+                           </item>
+                        </list>
+                        <paragraph>
+                           <content styleCode="bold">What are possible side effects of methamphetamine hydrochloride tablets?</content>
+                        </paragraph>
+                        <paragraph>See
+ 
+  <content styleCode="bold">"
+  
+   <linkHtml href="#important">What is the most important information I should know about methamphetamine hydrochloride tablets?</linkHtml>"
+ 
+  </content>for information on reported heart and mental problems.
+
+ </paragraph>
+                        <paragraph>
+                           <content styleCode="bold">Other serious side effects include:</content>
+                        </paragraph>
+                        <list listType="unordered">
+                           <item>slowing of growth (height and weight) in children</item>
+                           <item>seizures, mainly in patients with a history of seizures</item>
+                           <item>eyesight changes or blurred vision</item>
+                        </list>
+                        <paragraph>
+                           <content styleCode="bold">Common side effects include:</content>
+                        </paragraph>
+                        <table width="75%" styleCode="Noautorules">
+                           <col width="50%" align="left" valign="top"/>
+                           <col width="50%" align="left" valign="top"/>
+                           <tbody>
+                              <tr>
+                                 <td>
+                                    <list listType="unordered" styleCode="Disc">
+                                       <item>fast heart beat</item>
+                                       <item>tremors</item>
+                                       <item>trouble sleeping</item>
+                                       <item>stomach upset</item>
+                                       <item>dry mouth</item>
+                                    </list>
+                                 </td>
+                                 <td>
+                                    <list listType="unordered" styleCode="Disc">
+                                       <item>decreased appetite</item>
+                                       <item>headache</item>
+                                       <item>dizziness</item>
+                                       <item>weight loss</item>
+                                    </list>
+                                 </td>
+                              </tr>
+                           </tbody>
+                        </table>
+                        <paragraph>Methamphetamine hydrochloride tablets may affect your or your child's ability to drive or do other dangerous activities.</paragraph>
+                        <paragraph>Talk to your or your child's doctor if you or your child has side effects that are bothersome or do not go away.</paragraph>
+                        <paragraph>This is not a complete list of possible side effects.</paragraph>
+                        <paragraph>Ask your or your child's doctor or pharmacist for more information.</paragraph>
+                        <paragraph>Call your or your child's doctor for medical advice about side effects. You may report side effects to FDA at 1-800-FDA-1088 or www.fda.gov/medwatch or Mayne Pharma at 1-844-825-8500.</paragraph>
+                        <paragraph>
+                           <content styleCode="bold">How should I store methamphetamine hydrochloride tablets?</content>
+                        </paragraph>
+                        <list listType="unordered">
+                           <item>Store methamphetamine hydrochloride tablets in a safe place. Store at 20° to 25°C (68° to 77°F). [See USP Controlled Room Temperature.] Protect from light.</item>
+                           <item>
+                              <content styleCode="bold">Keep methamphetamine hydrochloride tablets and all medicines out of the reach of children.</content>
+                           </item>
+                        </list>
+                        <paragraph>
+                           <content styleCode="bold">General information about methamphetamine hydrochloride tablets:</content>
+                        </paragraph>
+                        <paragraph>Medicines are sometimes prescribed for purposes other than those listed in a Medication Guide. Do not use methamphetamine hydrochloride tablets for a condition for which it was not prescribed. Do not give methamphetamine hydrochloride tablets to other people, even if they have the same condition. It may harm them and it is against the law.</paragraph>
+                        <paragraph>This Medication Guide summarizes the most important information about methamphetamine hydrochloride tablets. If you would like more information, talk with your or your child's doctor. You can ask your or your child's doctor or pharmacist for information about methamphetamine hydrochloride tablets that was written for healthcare professionals.</paragraph>
+                        <paragraph>For more information about methamphetamine hydrochloride tablets, contact Mayne Pharma at 1-844-825-8500.</paragraph>
+                        <paragraph>
+                           <content styleCode="bold">What are the ingredients in methamphetamine hydrochloride tablets?</content>
+                        </paragraph>
+                        <paragraph>
+                           <content styleCode="bold">Active Ingredient:</content>methamphetamine hydrochloride, USP
+
+ </paragraph>
+                        <paragraph>
+                           <content styleCode="bold">Inactive Ingredients:</content>Corn starch, lactose monohydrate, stearic acid and talc
+
+ </paragraph>
+                        <paragraph>This Medication Guide has been approved by the U.S. Food and Drug Administration.</paragraph>
+                        <paragraph>Medication Guides available at products.maynepharma.com or call 1-844-825-8500.</paragraph>
+                        <paragraph>Manufactured by: 
+  <br/>
+                           <content styleCode="bold">Mayne Pharma</content>
+                           <br/>  Greenville, NC 27834
+
+ </paragraph>
+                        <paragraph>61169 
+  <br/>  Rev. 03/2022
+ </paragraph>
+                     </text>
+                     <effectiveTime value="20220419"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="ffc2cd39-e465-5821-e053-6394a90a9974"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>PRINCIPAL DISPLAY PANEL - 5 mg Tablet Bottle Label</title>
+               <text>
+                  <paragraph>NDC 68308-115-01</paragraph>
+                  <paragraph>Methamphetamine 
+  <br/>  Hydrochloride 
+  <br/>  Tablets, USP
+ </paragraph>
+                  <paragraph>CII</paragraph>
+                  <paragraph>5 mg</paragraph>
+                  <paragraph>PHARMACIST: Dispense the 
+  <br/>  accompanying Medication Guide to 
+  <br/>  each patient.
+ </paragraph>
+                  <paragraph>Rx Only</paragraph>
+                  <paragraph>100 Tablets</paragraph>
+                  <paragraph>mayne pharma</paragraph>
+                  <renderMultiMedia referencedObject="MM2"/>
+               </text>
+               <effectiveTime value="20220415"/>
+               <component>
+                  <observationMedia ID="MM2">
+                     <text>PRINCIPAL DISPLAY PANEL - 5 mg Tablet Bottle Label</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="methamphetamine-02.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

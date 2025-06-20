@@ -1,0 +1,834 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="https://www.accessdata.fda.gov/spl/stylesheet/spl.xsl"?>
+<document xmlns="urn:hl7-org:v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 https://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="7328fb7f-8af3-4831-8a39-04696e175dfe"/>
+   <code code="34391-3" codeSystem="2.16.840.1.113883.6.1" displayName="HUMAN PRESCRIPTION DRUG LABEL"/>
+   <title>
+      <content styleCode="italics">
+         <content styleCode="bold">0.9% Sodium Chloride Injection, USP</content>
+      </content>
+      <br/>in FLEBOFLEX and FLEBOFLEX LUER Plastic Container</title>
+   <effectiveTime value="20240624"/>
+   <setId root="28f79c75-82d2-4912-81fc-a723b5ccf4c1"/>
+   <versionNumber value="11"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id extension="117587552" root="1.3.6.1.4.1.519.1"/>
+            <name>Nextgen Pharmaceuticals LLC</name>
+            <assignedEntity>
+               <assignedOrganization>
+                  <id extension="461842294" root="1.3.6.1.4.1.519.1"/>
+                  <name>LABORATORIOS GRIFOLS SA</name>
+                  <assignedEntity>
+                     <assignedOrganization>
+                        <id extension="463720681" root="1.3.6.1.4.1.519.1"/>
+                        <name>Laboratorios Grifols, S. A.</name>
+                     </assignedOrganization>
+                     <performance>
+                        <actDefinition>
+                           <code code="C43360" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="manufacture"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="79672-613" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                     <performance>
+                        <actDefinition>
+                           <code code="C84731" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="pack"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="79672-613" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                     <performance>
+                        <actDefinition>
+                           <code code="C84732" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="label"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="79672-613" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                  </assignedEntity>
+                  <assignedEntity>
+                     <assignedOrganization>
+                        <id extension="461842294" root="1.3.6.1.4.1.519.1"/>
+                        <name>LABORATORIOS GRIFOLS SA</name>
+                     </assignedOrganization>
+                     <performance>
+                        <actDefinition>
+                           <code code="C25391" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="analysis"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="79672-613" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                  </assignedEntity>
+               </assignedOrganization>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section>
+               <id root="b2f6dbf1-c3fa-44ed-92d9-8913a6b09773"/>
+               <code code="48780-1" codeSystem="2.16.840.1.113883.6.1" displayName="SPL PRODUCT DATA ELEMENTS SECTION"/>
+               <effectiveTime value="20210713"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="79672-613" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>Sodium Chloride</name>
+                        <formCode code="C42945" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="INJECTION, SOLUTION"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>SODIUM CHLORIDE</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator unit="g" value="9"/>
+                              <denominator unit="mL" value="1000"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="451W47IQ8X" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SODIUM CHLORIDE</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="Q32ZN48698" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>Chloride Ion</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="LYR4M0NH37" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>Sodium Cation</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="059QF0KO0R" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>WATER</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator unit="mL" value="50"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="79672-613-01" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43167" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BAG"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator unit="1" value="115"/>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code code="79672-613-10" codeSystem="2.16.840.1.113883.6.69"/>
+                                    <formCode code="C43182" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CARTON"/>
+                                 </containerPackagedProduct>
+                                 <subjectOf>
+                                    <marketingAct>
+                                       <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                       <statusCode code="active"/>
+                                       <effectiveTime>
+                                          <low value="20210215"/>
+                                       </effectiveTime>
+                                    </marketingAct>
+                                 </subjectOf>
+                              </asContent>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                        <asContent>
+                           <quantity>
+                              <numerator unit="mL" value="100"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="79672-613-02" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43167" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BAG"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator unit="1" value="70"/>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code code="79672-613-20" codeSystem="2.16.840.1.113883.6.69"/>
+                                    <formCode code="C43182" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CARTON"/>
+                                 </containerPackagedProduct>
+                                 <subjectOf>
+                                    <marketingAct>
+                                       <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                       <statusCode code="active"/>
+                                       <effectiveTime>
+                                          <low value="20210215"/>
+                                       </effectiveTime>
+                                    </marketingAct>
+                                 </subjectOf>
+                              </asContent>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                        <asContent>
+                           <quantity>
+                              <numerator unit="mL" value="250"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="79672-613-03" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43167" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BAG"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator unit="1" value="28"/>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code code="79672-613-30" codeSystem="2.16.840.1.113883.6.69"/>
+                                    <formCode code="C43182" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CARTON"/>
+                                 </containerPackagedProduct>
+                                 <subjectOf>
+                                    <marketingAct>
+                                       <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                       <statusCode code="active"/>
+                                       <effectiveTime>
+                                          <low value="20210215"/>
+                                       </effectiveTime>
+                                    </marketingAct>
+                                 </subjectOf>
+                              </asContent>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                        <asContent>
+                           <quantity>
+                              <numerator unit="mL" value="500"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="79672-613-04" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43167" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BAG"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator unit="1" value="20"/>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code code="79672-613-40" codeSystem="2.16.840.1.113883.6.69"/>
+                                    <formCode code="C43182" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CARTON"/>
+                                 </containerPackagedProduct>
+                                 <subjectOf>
+                                    <marketingAct>
+                                       <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                       <statusCode code="active"/>
+                                       <effectiveTime>
+                                          <low value="20210215"/>
+                                       </effectiveTime>
+                                    </marketingAct>
+                                 </subjectOf>
+                              </asContent>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                        <asContent>
+                           <quantity>
+                              <numerator unit="mL" value="1000"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="79672-613-05" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43167" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BAG"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator unit="1" value="10"/>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code code="79672-613-50" codeSystem="2.16.840.1.113883.6.69"/>
+                                    <formCode code="C43182" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CARTON"/>
+                                 </containerPackagedProduct>
+                                 <subjectOf>
+                                    <marketingAct>
+                                       <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                       <statusCode code="active"/>
+                                       <effectiveTime>
+                                          <low value="20210215"/>
+                                       </effectiveTime>
+                                    </marketingAct>
+                                 </subjectOf>
+                              </asContent>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <id extension="ANDA207956" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73584" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ANDA"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20170525"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38276" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="INTRAVENOUS"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+               <component>
+                  <observationMedia ID="MM76469">
+                     <text>500 mL Container</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="container.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="MM76473">
+                     <text>500 mL Carton</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="carton.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_0D0C1E59-ED13-0AD0-6F53-6AEB55DF2585">
+               <id root="f546982b-c3ba-4e1a-b910-ecb9112c0c64"/>
+               <code code="34089-3" codeSystem="2.16.840.1.113883.6.1" displayName="DESCRIPTION SECTION"/>
+               <title>DESCRIPTION</title>
+               <text>
+                  <paragraph>Sodium Chloride Injection, USP is a sterile, nonpyrogenic solution for fluid and electrolyte replenishment in single dose containers for intravenous administration. It contains no antimicrobial agents. The pH ranges from 4.5 to 7.0. Composition, osmolarity, and ionic concentration are shown below: </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">0.9% Sodium Chloride Injection, USP</content> contains 9 g/L Sodium Chloride, USP (NaCl) with an osmolarity of 308 mOsmol/L (calc). It contains 154 mEq/L sodium and 154 mEq/L chloride. </paragraph>
+                  <paragraph>The FLEBOFLEX and FLEBOFLEX LUER plastic containers are fabricated from latex-free polyolefins or polypropylene plastic materials. The solution contact materials do not contain PVC, DEHP, or other plasticizers. The amount of water that can permeate from inside the container into the overwrap is insufficient to affect the solution significantly. The suitability of the container materials has been established through biological evaluations, which have shown the containers pass Class VI U.S. Pharmacopeia (USP) testing for plastic containers. These tests confirm the biological safety of the container systems. </paragraph>
+               </text>
+               <effectiveTime value="20210118"/>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_99EA92DD-6D98-5EC3-2E29-ABEA5D6D3EFC">
+               <id root="4a92d6d1-ebac-4e4c-abca-66aef6b57f32"/>
+               <code code="34090-1" codeSystem="2.16.840.1.113883.6.1" displayName="CLINICAL PHARMACOLOGY SECTION"/>
+               <title>CLINICAL PHARMACOLOGY</title>
+               <text>
+                  <paragraph>Sodium Chloride Injection, USP has value as a source of water and electrolytes. It is capable of inducing diuresis depending on the clinical condition of the patient. </paragraph>
+               </text>
+               <effectiveTime value="20210118"/>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_3ED44DFA-D1CF-F23A-79E1-57FDD4434D4D">
+               <id root="764e9be4-0c28-4f3f-bae0-e0f970123c89"/>
+               <code code="34067-9" codeSystem="2.16.840.1.113883.6.1" displayName="INDICATIONS &amp; USAGE SECTION"/>
+               <title>INDICATIONS AND USAGE</title>
+               <text>
+                  <paragraph>Sodium Chloride Injection, USP is indicated as a source of water and electrolytes.</paragraph>
+                  <paragraph>0.9% Sodium Chloride Injection, USP is also indicated for use as a priming solution in hemodialysis procedures. </paragraph>
+               </text>
+               <effectiveTime value="20210118"/>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_A8FDFDEE-5430-BE70-EDA6-4AF4DFAC673A">
+               <id root="8c699146-923b-4f86-a21d-1da8d6759be0"/>
+               <code code="34070-3" codeSystem="2.16.840.1.113883.6.1" displayName="CONTRAINDICATIONS SECTION"/>
+               <title>CONTRAINDICATIONS</title>
+               <text>
+                  <paragraph>None known. <br/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20210118"/>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_7A0FA8B4-808D-1F49-B403-9BC4F6AD3C8F">
+               <id root="97603001-6777-4687-bbae-12db465f5199"/>
+               <code code="34071-1" codeSystem="2.16.840.1.113883.6.1" displayName="WARNINGS SECTION"/>
+               <title>WARNINGS</title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">Hypersensitivity</content>
+                  </paragraph>
+                  <paragraph>Hypersensitivity and infusion reactions, including hypotension, pyrexia, tremor, chills, urticaria, rash, and pruritus have been reported with 0.9% Sodium Chloride Injection, USP.</paragraph>
+                  <paragraph>Stop the infusion immediately if signs or symptoms of a hypersensitivity reaction develop, such as tachycardia, chest pain, dyspnea and flushing. Appropriate therapeutic countermeasures must be instituted as clinically indicated. </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Electrolyte Imbalances</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="underline">Fluid Overload</content>
+                  </paragraph>
+                  <paragraph>Depending on the volume and rate of infusion, and the patient’s underlying clinical condition, the intravenous administration of Sodium Chloride Injection, USP can cause fluid disturbances such as overhydration/hypervolemia and congested states, including pulmonary congestion and edema.</paragraph>
+                  <paragraph>Avoid 0.9% Sodium Chloride Injection, USP in patients with or at risk for fluid and/or solute overloading. If use cannot be avoided, monitor fluid balance, electrolyte concentrations, and acid base balance, as needed and especially during prolonged use. </paragraph>
+                  <paragraph>
+                     <content styleCode="underline">Hyponatremia</content>
+                  </paragraph>
+                  <paragraph>Sodium Chloride Injection, USP may cause hyponatremia. Hyponatremia can lead to acute hyponatremic encephalopathy characterized by headache, nausea, seizures, lethargy, and vomiting. Patients with brain edema are at particular risk of severe, irreversible and life-threatening brain injury. </paragraph>
+                  <paragraph>The risk of hospital-acquired hyponatremia is increased in patients with cardiac or pulmonary failure, and in patients with non-osmotic vasopressin release (including SIADH) treated with high volume of Sodium Chloride Injection, USP. </paragraph>
+                  <paragraph>  The risk for hyponatremia is increased in pediatric patients, elderly patients, postoperative patients, those with psychogenic polydipsia, and in patients treated with medications that increase the risk of hyponatremia (such as diuretics, certain antiepileptic and psychotropic medications).  See          <content styleCode="bold">
+                        <linkHtml href="#ID_862b8b85-892d-10f0-fc41-d314a9973c72">Drug Interactions</linkHtml>
+                     </content>.</paragraph>
+                  <paragraph>Patients at increased risk for developing complications of hyponatremia such as hyponatremic encephalopathy, include pediatric patients, women (in particular pre-menopausal women), patients with hypoxemia, and patients with underlying central nervous system disease. Avoid Sodium Chloride Injection, USP in patients with or at risk for hyponatremia. If use cannot be avoided, monitor serum sodium concentrations. </paragraph>
+                  <paragraph>Rapid correction of hyponatremia is potentially dangerous with risk of serious neurologic complications. Brain adaptations reducing risk of cerebral edema make the brain vulnerable to injury when chronic hyponatremia is too rapidly corrected, which is known as osmotic demyelination syndrome (ODS). To avoid complications, monitor serum sodium and chloride concentrations, fluid status, acid-base balance, and signs of neurologic complications. </paragraph>
+                  <paragraph>
+                     <content styleCode="underline">Hypernatremia</content>
+                  </paragraph>
+                  <paragraph>Hypernatremia may occur with Sodium Chloride Injection, USP. Conditions that may increase the risk of hypernatremia, fluid overload and edema (central and peripheral), include patients with: primary hyperaldosteronism; secondary hyperaldosteronism associated with, for example, hypertension, congestive heart failure, liver disease (including cirrhosis), renal disease (including renal artery stenosis, nephrosclerosis); and pre-eclampsia. </paragraph>
+                  <paragraph>Certain medications such as corticosteroids or corticotropin, may also increase risk of sodium and fluid retention, see          <content styleCode="bold">
+                        <linkHtml href="#ID_862b8b85-892d-10f0-fc41-d314a9973c72">Drug Interactions</linkHtml>
+                     </content>.</paragraph>
+                  <paragraph>Avoid Sodium Chloride Injection, USP in patients with, or at risk for, hypernatremia. If use cannot be avoided, monitor serum sodium concentrations.</paragraph>
+                  <paragraph>Rapid correction of hypernatremia is potentially dangerous with risk of serious neurologic complications. Excessively rapid correction of hypernatremia is also associated with a risk for serious neurologic complications such as osmotic demyelination syndrome (ODS) with risk of seizures and cerebral edema.</paragraph>
+               </text>
+               <effectiveTime value="20210118"/>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_FE4DA4F9-7C00-BF2F-B0DE-9FC399E789A7">
+               <id root="21a0987b-5c91-4a1f-9b2c-139d7bc45204"/>
+               <code code="42232-9" codeSystem="2.16.840.1.113883.6.1" displayName="PRECAUTIONS SECTION"/>
+               <title>PRECAUTIONS</title>
+               <text/>
+               <effectiveTime value="20210118"/>
+               <component>
+                  <section ID="ID_7de5a79b-b37e-3112-ee52-57acc8aba6c9">
+                     <id root="f6ee1087-6dbb-496e-b9c7-2cbeba8db6db"/>
+                     <code code="34072-9" codeSystem="2.16.840.1.113883.6.1" displayName="GENERAL PRECAUTIONS SECTION"/>
+                     <title>
+                        <content styleCode="bold">Patients with Severe Renal Impairment</content>
+                     </title>
+                     <text>
+                        <paragraph>Administration of Sodium Chloride Injection, USP in patients with or at risk of severe renal impairment, may result in hypernatremia and/or fluid overload (see <content styleCode="bold">
+                              <linkHtml href="#ID_7A0FA8B4-808D-1F49-B403-9BC4F6AD3C8F">Warnings</linkHtml>
+                           </content>). Avoid Sodium Chloride Injection, USP in patients with severe renal impairment or conditions that may cause sodium and/or potassium retention, fluid overload, or edema. If use cannot be avoided, monitor patients with severe renal impairment for development of these adverse reactions.</paragraph>
+                     </text>
+                     <effectiveTime value="20210118"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID_862b8b85-892d-10f0-fc41-d314a9973c72">
+                     <id root="dbd4affc-4f82-4cc1-aabc-2ae23bbee662"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Drug Interactions</title>
+                     <text>
+                        <paragraph>
+                           <content styleCode="underline">Other Products that Affect Fluid and/or Electrolyte Balance</content>
+                           <br/>Administration of Sodium Chloride Injection, USP to patients treated concomitantly with drugs associated with sodium and fluid retention may increase the risk of hypernatremia and volume overload. Avoid use of Sodium Chloride Injection, USP in patients receiving such products, such as corticosteroids or corticotropin. If use cannot be avoided, monitor serum electrolytes, fluid balance and acid-base balance. </paragraph>
+                        <paragraph>
+                           <content styleCode="underline">Lithium           <br/>
+                           </content>Renal sodium and lithium clearance may be increased during administration of 0.9% Sodium Chloride Injection, USP. Monitor serum lithium concentrations during concomitant use. </paragraph>
+                        <paragraph>
+                           <content styleCode="underline">Other Drugs that Increase the Risk of Hyponatremia</content>
+                           <br/>Administration of Sodium Chloride Injection, USP in patients treated concomitantly with medications associated with hyponatremia may increase the risk of developing hyponatremia.</paragraph>
+                        <paragraph>Avoid use of Sodium Chloride Injection, USP in patients receiving products, such as diuretics, and certain antiepileptic and psychotropic medications. Drugs that increase the vasopressin effect reduce renal electrolyte free water excretion and may also increase the risk of hyponatremia following treatment with intravenous fluids. If use cannot be avoided, monitor serum sodium concentrations. </paragraph>
+                     </text>
+                     <effectiveTime value="20210118"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID_454ffdc0-0cf4-33cd-cb5c-b7898ceb93d0">
+                     <id root="f3ed204a-2cf2-4281-913e-c524f4bdf466"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Pregnancy</title>
+                     <text>
+                        <paragraph>There are no adequate and well controlled studies with Sodium Chloride Injection, USP in pregnant women and animal reproduction studies have not been conducted with this drug. Therefore, it is not known whether Sodium Chloride Injection, USP can cause fetal harm when administered to a pregnant woman. Sodium Chloride Injection, USP should be given during pregnancy only if the potential benefit justifies the potential risk to the fetus. </paragraph>
+                     </text>
+                     <effectiveTime value="20210118"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID_8b417878-afae-ec5f-503b-9c535d2a95f4">
+                     <id root="991f2969-9311-47b0-9cf6-5197bd393752"/>
+                     <code code="77290-5" codeSystem="2.16.840.1.113883.6.1" displayName="LACTATION SECTION"/>
+                     <title>Lactation</title>
+                     <text>
+                        <paragraph>It is not known whether this drug is present in human milk. Because many drugs are present in human milk, caution should be exercised when Sodium Chloride Injection, USP is administered to a nursing woman.</paragraph>
+                     </text>
+                     <effectiveTime value="20210118"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID_06bd49c1-dbe8-3843-013c-a1a78a735019">
+                     <id root="54340d0d-91fe-43ef-98d5-87cc9756e538"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Pediatric Use</title>
+                     <text>
+                        <paragraph>The use of Sodium Chloride Injection, USP in pediatric patients is based on clinical practice. (See <content styleCode="bold">
+                              <linkHtml href="#ID_0A72DA8B-3CAE-AA9F-A1A3-FAC4CD3C7C5F">Dosage and Administration</linkHtml>
+                           </content>).</paragraph>
+                        <paragraph>Closely monitor plasma electrolyte concentrations in pediatric patients who may have impaired ability to regulate fluids and electrolytes. In very low birth weight infants, excessive or rapid administration of Sodium Chloride Injection, USP may result in increased serum osmolality and risk of intracerebral hemorrhage.</paragraph>
+                        <paragraph>Children (including neonates and older children) are at increased risk of developing hyponatremia as well as for developing hyponatremic encephalopathy. </paragraph>
+                     </text>
+                     <effectiveTime value="20210118"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID_28c406a7-e253-e0d7-6d31-262d894326a5">
+                     <id root="91be4989-57b1-4dca-a882-5258a6cb28ec"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Geriatric Use</title>
+                     <text>
+                        <paragraph>Geriatric patients are at increased risk of developing electrolyte imbalances. Sodium Chloride Injection, USP is known to be substantially excreted by the kidney, and the risk of toxic reactions to this drug may be greater in patients with impaired renal function. Therefore, dose selection for an elderly patient should be cautious, usually starting at the low end of the dosing range, reflecting the greater frequency of decreased hepatic, renal, or cardiac function, and of concomitant disease or other drug therapy. Consider monitoring renal function in elderly patients.</paragraph>
+                     </text>
+                     <effectiveTime value="20210118"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_7E248ABE-7B0D-A5C0-D407-CF87264EE310">
+               <id root="48605ec9-f687-4b5f-9939-7bb4c25c294a"/>
+               <code code="34084-4" codeSystem="2.16.840.1.113883.6.1" displayName="ADVERSE REACTIONS SECTION"/>
+               <title>ADVERSE REACTIONS</title>
+               <text/>
+               <effectiveTime value="20210118"/>
+               <component>
+                  <section ID="ID_70627ed9-a8d1-4989-725d-cafb7e410630">
+                     <id root="5905dbe1-0432-40e1-a042-97a6c1f798a6"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>
+                        <content styleCode="bold">Post-Marketing Adverse Reactions</content>
+                     </title>
+                     <text>
+                        <paragraph>The following adverse reactions have been identified during post approval use of Sodium Chloride Injection, USP. Because these reactions are reported voluntarily from a population of uncertain size, it is not always possible to reliably estimate their frequency or establish a causal relationship to drug exposure.</paragraph>
+                        <paragraph>The following adverse reactions have been reported in the post-marketing experience during use of 0.9% Sodium Chloride Injection, USP and include the following:</paragraph>
+                        <paragraph>
+                           <content styleCode="italics">General disorders and administration site conditions:</content> Infusion site erythema, injection site streaking, burning sensation, and infusion site urticaria. </paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Hypersensitivity reactions:</content> Hypotension, pyrexia, tremor, chills, urticaria, rash, and pruritus.</paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Metabolism and nutrition disorders:</content> Hypernatremia, hyponatremia, hyperchloremic metabolic acidosis.</paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Nervous System Disorders:</content> Hyponatremic encephalopathy.</paragraph>
+                        <paragraph>If an adverse reaction does occur, discontinue the infusion, evaluate the patient, institute appropriate therapeutic countermeasures and save the remainder of the fluid for examination if deemed necessary. </paragraph>
+                     </text>
+                     <effectiveTime value="20210118"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_84dcfd0d-7fd3-4b9c-2a09-2e4f0d23855b">
+               <id root="dc360790-7ee4-4ae6-bc46-d1363b1cabc8"/>
+               <code code="34088-5" codeSystem="2.16.840.1.113883.6.1" displayName="OVERDOSAGE SECTION"/>
+               <title>OVERDOSAGE</title>
+               <text>
+                  <paragraph>Excessive administration of 0.9% Sodium Chloride Injection, USP can cause hypernatremia. Hypernatremia can lead to CNS manifestations, including seizures, coma, cerebral edema and death. </paragraph>
+                  <paragraph>Excessive administration of Sodium Chloride Injection, USP can cause fluid overload (which can lead to pulmonary and/or peripheral edema). See <content styleCode="bold">
+                        <linkHtml href="#ID_7A0FA8B4-808D-1F49-B403-9BC4F6AD3C8F">Warnings</linkHtml>
+                     </content> and  <content styleCode="bold">
+                        <linkHtml href="#ID_7E248ABE-7B0D-A5C0-D407-CF87264EE310">Adverse Reactions.</linkHtml>
+                     </content>
+                  </paragraph>
+                  <paragraph>When assessing an overdose, any additives in the solution must also be considered. The effects of an overdose may require immediate medical attention and treatment.</paragraph>
+                  <paragraph>Interventions include discontinuation of Sodium Chloride Injection, USP administration, dose reduction, and other measures as indicated for the specific clinical constellation (e.g., monitoring of fluid balance, electrolyte concentrations and acid base balance). </paragraph>
+               </text>
+               <effectiveTime value="20210118"/>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_0A72DA8B-3CAE-AA9F-A1A3-FAC4CD3C7C5F">
+               <id root="7ae2cfd5-0df0-42e4-b1d5-35325fabb2c5"/>
+               <code code="34068-7" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE &amp; ADMINISTRATION SECTION"/>
+               <title>DOSAGE AND ADMINISTRATION</title>
+               <text>
+                  <paragraph>
+                     <content styleCode="underline">Important Administration Instructions</content>
+                  </paragraph>
+                  <list listType="unordered">
+                     <item>Sodium Chloride Injection, USP is intended for intravenous administration using sterile equipment.          <br/>
+                        <br/>
+                     </item>
+                     <item>Do not connect flexible plastic containers in series in order to avoid air embolism due to possible residual air contained in the primary container.          <br/>
+                        <br/>
+                     </item>
+                     <item>Set the vent to the closed position on a vented intravenous administration set to prevent air embolism.           <br/>
+                        <br/>
+                     </item>
+                     <item>Use a dedicated line without any connections to avoid air embolism.          <br/>
+                        <br/>
+                     </item>
+                     <item>Do not pressurize intravenous solutions contained in flexible plastic containers to increase flow rates in order to avoid air embolism due to incomplete evacuation of residual air in the container.          <br/>
+                        <br/>
+                     </item>
+                     <item>Prior to infusion, visually inspect the solution for particulate matter and discoloration. The solution should be clear and there should be no precipitates. Do not administer unless solution is clear, and container is undamaged.          <br/>
+                     </item>
+                  </list>
+                  <paragraph>
+                     <content styleCode="underline">Dosing Information</content>
+                  </paragraph>
+                  <paragraph>The choice of product, dosage, volume, rate, and duration of administration is dependent upon the age, weight and clinical condition of the patient and concomitant therapy, and administration should be determined by a physician experienced in intravenous fluid therapy.</paragraph>
+                  <paragraph>
+                     <content styleCode="underline">Introduction of Additives</content>
+                  </paragraph>
+                  <paragraph>Additives may be incompatible.</paragraph>
+                  <paragraph>Evaluate all additions to the plastic container for compatibility and stability of the resulting preparation. Consult with a pharmacist, if available.</paragraph>
+                  <paragraph>If, in the informed judgment of the physician, it is deemed advisable to introduce additives, use aseptic technique. Mix thoroughly when additives have been introduced. After addition, if there is a discoloration and/or the appearance of precipitates, insoluble complexes or crystals, do not use. Do not store solutions containing additives. Discard any unused portion.</paragraph>
+               </text>
+               <effectiveTime value="20210118"/>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_56C60A6E-5C98-5DD6-3A28-4AAD2499C1BE">
+               <id root="480239ac-378a-454d-9787-92fd6bf06db6"/>
+               <code code="34069-5" codeSystem="2.16.840.1.113883.6.1" displayName="HOW SUPPLIED SECTION"/>
+               <title>
+                  <content styleCode="bold">HOW SUPPLIED</content>
+               </title>
+               <text>
+                  <paragraph>The available sizes of 0.9% Sodium Chloride Injection, USP are shown below:</paragraph>
+                  <table cellpadding="0" cellspacing="0" width="50%">
+                     <tbody>
+                        <tr>
+                           <td valign="top">
+                              <content styleCode="bold">Size (mL)</content>
+                           </td>
+                           <td valign="top">
+                              <content styleCode="bold">NDC</content>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td colspan="2">
+                              <content styleCode="underline">Fleboflex bags:</content>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td valign="top">50 (115 units in one carton)</td>
+                           <td valign="top">79672-613-10</td>
+                        </tr>
+                        <tr>
+                           <td valign="top">100 (70 units in one carton)</td>
+                           <td valign="top">79672-613-20</td>
+                        </tr>
+                        <tr>
+                           <td valign="top">250 (28 units in one carton)</td>
+                           <td valign="top">79672-613-30</td>
+                        </tr>
+                        <tr>
+                           <td valign="top">500 (20 units in one carton)</td>
+                           <td valign="top">79672-613-40</td>
+                        </tr>
+                        <tr>
+                           <td valign="top">1000 (10 units in one carton)</td>
+                           <td valign="top">79672-613-50</td>
+                        </tr>
+                        <tr>
+                           <td colspan="2">
+                              <content styleCode="underline">
+                                 <content styleCode="underline">Fleboflex Luer bags</content>:</content>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td valign="top">50 (90 units in one carton)</td>
+                           <td valign="top">Not distributed by Nextgen Pharmaceuticals LLC</td>
+                        </tr>
+                        <tr>
+                           <td valign="top">100 (50 units in one carton)</td>
+                           <td valign="top">Not distributed by Nextgen Pharmaceuticals LLC </td>
+                        </tr>
+                        <tr>
+                           <td valign="top">250 (32 units in one carton)</td>
+                           <td valign="top">Not distributed by Nextgen Pharmaceuticals LLC </td>
+                        </tr>
+                        <tr>
+                           <td valign="top">500 (24 units in one carton)</td>
+                           <td valign="top">Not distributed by Nextgen Pharmaceuticals LLC </td>
+                        </tr>
+                        <tr>
+                           <td valign="top">1000 (10 units in one carton)</td>
+                           <td valign="top">Not distributed by Nextgen Pharmaceuticals LLC </td>
+                        </tr>
+                     </tbody>
+                  </table>
+                  <paragraph>Exposure of pharmaceutical products to heat should be minimized. Avoid excessive heat. It is recommended the product be stored at 20° to 25°C (68° to 77°F); excursions are permitted between 15° to 30°C (59° to 86°F). [see USP Controlled Room Temperature.]Store unit in moisture barrier overwrap. Brief exposure up to 40°C (104°F) does not adversely affect the product. </paragraph>
+               </text>
+               <effectiveTime value="20210118"/>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_D3B82B7C-97F3-5511-3E55-373AA9C1FF60">
+               <id root="b6ef0458-4558-4c46-954a-30fb1312df07"/>
+               <code code="59845-8" codeSystem="2.16.840.1.113883.6.1" displayName="INSTRUCTIONS FOR USE SECTION"/>
+               <title>
+                  <content styleCode="bold">DIRECTIONS FOR USE OF FLEBOFLEX AND FLEBOFLEX LUER </content>
+                  <content styleCode="bold">PLASTIC CONTAINERS</content>
+               </title>
+               <text>
+                  <paragraph>For Information on Risk of Air Embolism – see <content styleCode="bold">
+                        <linkHtml href="#ID_0A72DA8B-3CAE-AA9F-A1A3-FAC4CD3C7C5F">Dosage and Administration.</linkHtml>
+                     </content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">To Open</content>
+                     <br/>Peel off the overwrap and remove solution container. Visually inspect the container. If the outlet port protector is damaged, detached, or not present, discard container as solution path sterility may be impaired. Some opacity of the plastic due to moisture absorption during the sterilization process may be observed. This is normal and does not affect the solution quality or safety. The opacity will diminish gradually. Check for minute leaks by squeezing inner bag firmly. If leaks are found, discard solution as sterility may be impaired. If supplemental medication is desired, follow directions below.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Preparation for Administration</content>
+                     <br/>1.Suspend container from eyelet support.         <br/>2. Fleboflex bags: Remove plastic protector from outlet port at bottom of container. <br/>    Fleboflex Luer bags: Break the twist-off administration port by means of torsion.          <br/>3. Attach administration set. Refer to complete directions accompanying set.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">To Add Medication
+        
+  
+   <br/>
+                     </content>Additives may be incompatible.
+      
+
+ </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">To add medication before solution administration           <br/>
+                     </content>1. Prepare medication site.          <br/>2. Fleboflex bags: Using syringe with 19 to 22 gauge needle, puncture resealable medication port and inject. <br/>    Fleboflex Luer bags: Using syringe or vial, connect to the needle-free medication port and inject.         <br/>3. Mix solution and medication thoroughly.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">To add medication during solution administration           <br/>
+                     </content>1. Close clamp on the set.          <br/>2. Prepare medication site.          <br/>3. Fleboflex bags: Using syringe with 19 to 22 gauge needle, puncture resealable medication port and inject. <br/>    Fleboflex Luer bags: Using syringe or vial, connect to the needle-free medication port and inject.          <br/>4. Remove container from intravenous pole and/or turn to an upright position.          <br/>5. Mix solution and medication thoroughly.          <br/>6. Return container to in-use position and continue administration.</paragraph>
+                  <paragraph>Distributed by: <br/>
+                     <content styleCode="bold">Nextgen Pharmaceuticals LLC</content>
+                     <br/>Brooklyn, NY 11207</paragraph>
+                  <paragraph>Manufactured by: <br/>
+                     <content styleCode="bold">Laboratorios Grifols, S.A.<br/>
+                     </content>30565 Murcia - SPAIN</paragraph>
+                  <paragraph>Printed in SPAIN<br/>Rev. 08/2020<br/>GRIFOLS and FLEBOFLEX are trademarks of Grifols, S.A.<br/>
+                     <br/>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">NEXTGEN</content>
+                     <br/>PHARMACEUTICALS</paragraph>
+                  <paragraph>3060815</paragraph>
+               </text>
+               <effectiveTime value="20210713"/>
+            </section>
+         </component>
+         <component>
+            <section ID="Lf660c6e9-4e21-4c77-a6c8-a1c3f9d6f245">
+               <id root="f9485444-9a5f-4377-ab72-50df456719bd"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>PACKAGE LABEL.PRINCIPAL DISPLAY PANEL</title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">NDC 79672-613-40</content>
+                     <br/>
+                     <br/>
+                     <content styleCode="bold">
+                        <content styleCode="italics">0.9% Sodium Chloride<br/>Injection, USP</content>
+                     </content>
+                     <br/>
+                     <br/>
+                     <content styleCode="bold">500 mL</content>
+                     <br/>
+                     <br/>
+                     <content styleCode="italics">
+                        <content styleCode="bold">Fleboflex Container</content>
+                     </content>
+                     <br/>
+                     <br/>Store at 20° to 25°C (68° to 77°F); excursions permitted between 15° to 30°C (59° to 86°F).<br/>[see USP controlled Room Temperature.] Avoid excessive heat.<br/>
+                     <br/>
+                     <content styleCode="bold">NEXTGEN<br/>PHARMACEUTICALS</content>
+                     <br/>
+                     <br/>Manufactured for Nextgen Pharmaceuticals LLC<br/>Brooklyn, NY 11207<br/>Product of Spain<br/>
+                     <br/>
+                     <content styleCode="bold">LOT</content> XXXXXX           <content styleCode="bold">EXP</content> YYYY-MM   <content styleCode="bold">1002054</content>
+                     <br/>
+                     <br/>Num.: IN HOUSE CONTROL NUMBER<br/>
+                     <br/>
+                     <content styleCode="bold">20 x 500 mL</content>
+                     <br/>
+                     <br/>
+                  </paragraph>
+                  <renderMultiMedia referencedObject="MM76473"/>
+                  <paragraph>
+                     <content styleCode="bold">NDC 79672-613-04</content>
+                     <br/>
+                     <br/>
+                     <content styleCode="bold">
+                        <content styleCode="italics">0.9% Sodium Chloride Injection, USP</content>
+                     </content>
+                     <br/>
+                     <br/>
+                     <content styleCode="bold">500 mL</content>
+                     <br/>
+                     <br/>
+                     <content styleCode="bold">For Intravenous use</content>
+                     <br/>Single dose container <br/>
+                     <br/>
+                     <content styleCode="bold">Rx Only</content>
+                     <br/>
+                     <br/>Each 100 mL contains 900 mg Sodium Chloride USP; pH 4.5 to 7.0<br/>Sodium 154 mEq/L Chloride 154 mEq/L; Osmolarity 308 mOsmol/L (calc)<br/>
+                     <br/>Sterile Non pyrogenic. Dosage intravenously as directed by a physician. See<br/>directions. Cautions:  Squeeze and inspect inner bag which maintains<br/>product sterility. Discard if leaks are found. Must not be used in series<br/>connections. Do not use unless solution is clear. Additives may be <br/>incompatible. Consult with pharmacist if available. When introducing<br/>additives, use aseptic technique. Mix thoroughly. Do not store.<br/>Store at 20° to 25°C (68° to 77°F); excursions permitted between 15° to <br/>30°C (59° to 86°F). [see USP Controlled Room Temperature.] Store unit in<br/>moisture barrier overwrap. Brief exposure up to 40°C (104°F) does not<br/>adversely affect the product. Avoid excessive heat. Read package insert for<br/>full information.<br/>
+                     <br/>Grifols and Fleboflex are trademarks of Grifols, S.A.<br/>
+                     <br/>Manufactured for Nextgen Pharmaceuticals LLC<br/>Brooklyn, NY 11207<br/>Product of Spain<br/>
+                     <br/>
+                     <content styleCode="bold">
+                        <content styleCode="italics">Fleboflex Container</content>
+                     </content>
+                     <br/>(PVC-free and DEHP-free)<br/>The container closure is not made with natural rubber latex.<br/>
+                     <br/>NEXTGEN<br/>PHARMACEUTICALS<br/>
+                     <br/>LOT XXXXXX<br/>EXP YYYY-MM<br/>INTERNAL REFERENCE<br/>
+                     <br/>4000793</paragraph>
+                  <renderMultiMedia referencedObject="MM76469"/>
+               </text>
+               <effectiveTime value="20240625"/>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

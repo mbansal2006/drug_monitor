@@ -1,0 +1,1790 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="https://www.accessdata.fda.gov/spl/stylesheet/spl.xsl"?>
+<document xmlns="urn:hl7-org:v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 https://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="907adb67-d97f-4128-8d69-ca22a5b4ccc9"/>
+   <code code="34391-3" displayName="HUMAN PRESCRIPTION DRUG LABEL" codeSystem="2.16.840.1.113883.6.1"/>
+   <title>
+      <content styleCode="bold">These highlights do not include all the information needed to use TOBRAMYCIN INHALATION SOLUTION safely and effectively. See full prescribing information for TOBRAMYCIN INHALATION SOLUTION.</content>
+      <content styleCode="bold">
+         <br/>
+         <br/>
+      </content>
+      <content styleCode="bold">TOBRAMYCIN inhalation solution, for oral inhalation use<br/>
+      </content>
+      <content styleCode="bold">Initial U.S. Approval: 1980</content>
+   </title>
+   <effectiveTime value="20231001"/>
+   <setId root="d03079d2-5617-4628-92b9-3caa757b22c0"/>
+   <versionNumber value="5"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id extension="001627975" root="1.3.6.1.4.1.519.1"/>
+            <name>Teva Pharmaceuticals USA, Inc.</name>
+            <assignedEntity>
+               <assignedOrganization/>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section>
+               <id root="4c8a6a05-6e0f-46ad-9342-9113d6676cd2"/>
+               <code code="48780-1" displayName="SPL listing data elements section" codeSystem="2.16.840.1.113883.6.1"/>
+               <effectiveTime value="20231001"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="0093-3750" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>Tobramycin</name>
+                        <formCode code="C42986" displayName="SOLUTION" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>Tobramycin</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator unit="mg" value="300"/>
+                              <denominator unit="mL" value="4"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="VZ8RRZ51VK" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>TOBRAMYCIN</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="VZ8RRZ51VK" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>TOBRAMYCIN</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="451W47IQ8X" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SODIUM CHLORIDE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="B22547B95K" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>TRISODIUM CITRATE DIHYDRATE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="059QF0KO0R" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>WATER</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="O40UQP6WCF" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SULFURIC ACID</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="55X04QC32I" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SODIUM HYDROXIDE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator unit="mL" value="4"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code/>
+                              <formCode code="C43165" displayName="AMPULE" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator unit="1" value="4"/>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code/>
+                                    <formCode code="C43200" displayName="POUCH" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                    <asContent>
+                                       <quantity>
+                                          <numerator unit="1" value="7"/>
+                                          <denominator value="1"/>
+                                       </quantity>
+                                       <containerPackagedProduct>
+                                          <code code="0093-3750-28" codeSystem="2.16.840.1.113883.6.69"/>
+                                          <formCode code="C43182" displayName="CARTON" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                       </containerPackagedProduct>
+                                       <subjectOf>
+                                          <marketingAct>
+                                             <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                             <statusCode code="active"/>
+                                             <effectiveTime>
+                                                <low value="20200915"/>
+                                             </effectiveTime>
+                                          </marketingAct>
+                                       </subjectOf>
+                                    </asContent>
+                                 </containerPackagedProduct>
+                              </asContent>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" displayName="Type 0: Not a Combination Product" codeSystem="2.16.840.1.113883.3.26.1.1" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                        <asContent>
+                           <quantity>
+                              <numerator unit="mL" value="4"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code/>
+                              <formCode code="C43165" displayName="AMPULE" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator unit="1" value="4"/>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code/>
+                                    <formCode code="C43200" displayName="POUCH" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                    <asContent>
+                                       <quantity>
+                                          <numerator unit="1" value="14"/>
+                                          <denominator value="1"/>
+                                       </quantity>
+                                       <containerPackagedProduct>
+                                          <code code="0093-3750-63" codeSystem="2.16.840.1.113883.6.69"/>
+                                          <formCode code="C43182" displayName="CARTON" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                       </containerPackagedProduct>
+                                       <subjectOf>
+                                          <marketingAct>
+                                             <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                             <statusCode code="active"/>
+                                             <effectiveTime>
+                                                <low value="20200915"/>
+                                             </effectiveTime>
+                                          </marketingAct>
+                                       </subjectOf>
+                                    </asContent>
+                                 </containerPackagedProduct>
+                              </asContent>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" displayName="Type 0: Not a Combination Product" codeSystem="2.16.840.1.113883.3.26.1.1" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <id extension="ANDA210915" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73584" displayName="ANDA" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20200915"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38216" displayName="RESPIRATORY (INHALATION)" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_27297474-0c9e-4e06-b947-ec91443df441">
+               <id root="5d93b947-96b0-46cd-a5b3-00ac39f7a36c"/>
+               <code code="43683-2" codeSystem="2.16.840.1.113883.6.1" displayName="RECENT MAJOR CHANGES SECTION"/>
+               <title/>
+               <text/>
+               <effectiveTime value="20231001"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <paragraph>Warnings and Precautions, Ototoxicity (<linkHtml href="#LINK_b8981410-9778-455a-976f-89948afd3545">5.1</linkHtml>)                                                                                         2/2023</paragraph>
+                     </text>
+                  </highlight>
+               </excerpt>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_e54eaf0c-aa13-4d44-911f-9bfe9f1fdc5c">
+               <id root="c1d0fe06-0864-4df9-9176-4c28790a60c4"/>
+               <code code="34067-9" codeSystem="2.16.840.1.113883.6.1" displayName="INDICATIONS &amp; USAGE SECTION"/>
+               <title>1 INDICATIONS AND USAGE</title>
+               <text>
+                  <paragraph>Tobramycin inhalation solution is indicated for the management of cystic fibrosis patients with <content styleCode="italics">Pseudomonas aeruginosa</content>. Safety and efficacy have not been demonstrated in patients under the age of six years, patients with FEV<sub>1</sub> less than 40% or greater than 80% predicted, or patients colonized with <content styleCode="italics">Burkholderia cepacia [see Clinical Studies (<linkHtml href="#www.splportal.comLINK_3b3b30e3-796c-4f9e-9835-f7ecffe4ccf2">14</linkHtml>)]</content>.<br/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20231001"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <paragraph>Tobramycin inhalation solution is an inhaled aminoglycoside antibacterial indicated for the management of cystic fibrosis patients with <content styleCode="italics">Pseudomonas aeruginosa</content>. (<linkHtml href="#LINK_e54eaf0c-aa13-4d44-911f-9bfe9f1fdc5c">1</linkHtml>)</paragraph>
+                        <paragraph>Safety and efficacy have not been demonstrated in patients under the age of six years, patients with a forced expiratory volume in one second (FEV<sub>1</sub>) less than 40% or greater than 80% predicted, or patients colonized with <content styleCode="italics">Burkholderia cepacia</content>. (<linkHtml href="#LINK_e54eaf0c-aa13-4d44-911f-9bfe9f1fdc5c">1</linkHtml>)</paragraph>
+                     </text>
+                  </highlight>
+               </excerpt>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_94109e27-eafa-4c0d-8722-491533474dd5">
+               <id root="1c4c10b7-261e-479e-895a-3399ac8331a2"/>
+               <code code="34068-7" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE &amp; ADMINISTRATION SECTION"/>
+               <title>2 DOSAGE AND ADMINISTRATION</title>
+               <text/>
+               <effectiveTime value="20231001"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <list listType="unordered" styleCode="Disc">
+                           <item>For oral inhalation only (<linkHtml href="#LINK_ec45a40d-f363-4c8a-870e-350ea50796f7">2.1</linkHtml>)</item>
+                           <item>Administer the entire contents of one ampule twice daily by oral inhalation in repeated cycles of 28 days on drug, followed by 28 days off drug. (<linkHtml href="#LINK_ec45a40d-f363-4c8a-870e-350ea50796f7">2.1</linkHtml>)</item>
+                        </list>
+                     </text>
+                  </highlight>
+               </excerpt>
+               <component>
+                  <section ID="LINK_ec45a40d-f363-4c8a-870e-350ea50796f7">
+                     <id root="26924723-edfc-45f3-85d8-054ea3d4c815"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>2.1
+Dosage</title>
+                     <text>
+                        <paragraph>Tobramycin inhalation solution is for oral inhalation <content styleCode="italics">only </content>
+                           <content styleCode="italics">[see Dosage and Administration (<linkHtml href="#www.splportal.comLINK_113cca47-5dca-44cc-a391-ec5f9b9dc496">2.2</linkHtml>)]</content>. The recommended dosage of tobramycin inhalation solution for patients six years of age and older is to administer one single-dose ampule (300 mg/4 mL) twice daily by oral inhalation in repeated cycles of 28 days on drug, followed by 28 days off drug. The doses should be taken as close to 12 hours apart as possible and not less than 6 hours apart.</paragraph>
+                        <paragraph>The 300 mg/4 mL dose of tobramycin inhalation solution is the same for patients regardless of age or weight. Tobramycin inhalation solution has not been studied in patients less than six years old.</paragraph>
+                        <paragraph>If patients miss a dose, they should take it as soon as possible anytime up to 6 hours prior to their next scheduled dose. If less than 6 hours remain before the next dose, wait until their next scheduled dose.</paragraph>
+                     </text>
+                     <effectiveTime value="20231001"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_113cca47-5dca-44cc-a391-ec5f9b9dc496">
+                     <id root="efa4c260-895d-4a8e-bddc-0764403aea9f"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>2.2
+Administration Instructions</title>
+                     <text>
+                        <paragraph>Tobramycin inhalation solution is administered by oral inhalation using a hand-held PARI LC PLUS Reusable Nebulizer with a PARI Vios Air compressor over an approximately 15 minute period and until sputtering from the output of the nebulizer has occurred for at least one minute. Tobramycin inhalation solution should not be diluted or mixed with dornase alfa or other medications in the nebulizer. Tobramycin inhalation solution is <content styleCode="italics">not</content> for subcutaneous, intravenous, or intrathecal administration.</paragraph>
+                        <paragraph>Further patient instructions on how to administer tobramycin inhalation solution are provided in the <content styleCode="italics">Patient’s Instructions for Use </content>
+                           <content styleCode="italics">[see Patient Counseling Information (<linkHtml href="#www.splportal.comLINK_fcf3a7bf-ecc7-4005-8ed7-c038b8ade9ef">17</linkHtml>)]</content>.</paragraph>
+                        <paragraph>Tobramycin inhalation solution should not be used if it is cloudy, if there are particles in the solution, or if it has been stored at room temperature for more than 28 days.</paragraph>
+                     </text>
+                     <effectiveTime value="20231001"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_8d304253-ddc5-4f73-9e6b-a310c65ae429">
+               <id root="0e200baf-b54f-4d4c-b4c5-59b74fe7f388"/>
+               <code code="43678-2" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE FORMS &amp; STRENGTHS SECTION"/>
+               <title>3 DOSAGE FORMS AND STRENGTHS</title>
+               <text>
+                  <paragraph>Inhalation solution: 4 mL single-dose ampule containing 300 mg of tobramycin, USP.</paragraph>
+               </text>
+               <effectiveTime value="20231001"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <paragraph>Inhalation Solution: 300 mg tobramycin per 4 mL solution in a single-dose ampule. (<linkHtml href="#LINK_387b587b-343a-4327-b60a-f786616c708b">16</linkHtml>)</paragraph>
+                     </text>
+                  </highlight>
+               </excerpt>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_28e66f97-39e2-493a-bde5-03b3b8b399ba">
+               <id root="1298f0e6-78ba-4e22-ba21-f1c466751c7e"/>
+               <code code="34070-3" codeSystem="2.16.840.1.113883.6.1" displayName="CONTRAINDICATIONS SECTION"/>
+               <title>4 CONTRAINDICATIONS</title>
+               <text>
+                  <paragraph>Tobramycin inhalation solution is contraindicated in patients with a known hypersensitivity to any aminoglycoside.</paragraph>
+               </text>
+               <effectiveTime value="20231001"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <paragraph>Tobramycin inhalation solution is contraindicated in patients with a known hypersensitivity to any aminoglycoside. (<linkHtml href="#LINK_28e66f97-39e2-493a-bde5-03b3b8b399ba">4</linkHtml>)</paragraph>
+                     </text>
+                  </highlight>
+               </excerpt>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_5da03a55-6cf3-43ed-aa05-5b795a2fcf91">
+               <id root="f7312163-718d-4a45-8e73-64d6cdd769ff"/>
+               <code code="43685-7" codeSystem="2.16.840.1.113883.6.1" displayName="WARNINGS AND PRECAUTIONS SECTION"/>
+               <title>5 WARNINGS AND PRECAUTIONS</title>
+               <text/>
+               <effectiveTime value="20231001"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <list listType="unordered" styleCode="Disc">
+                           <item>Caution should be exercised when prescribing tobramycin inhalation solution to patients with known or suspected auditory, vestibular, renal, or neuromuscular dysfunction. (<linkHtml href="#LINK_b8981410-9778-455a-976f-89948afd3545">5.1</linkHtml>, <linkHtml href="#LINK_370997a6-23c4-43ce-b0aa-e6e6a0456bca">5.2</linkHtml>, <linkHtml href="#LINK_8b08c141-83f8-4aef-b85e-5df226983819">5.3</linkHtml> and <linkHtml href="#LINK_79fcae59-7b01-42b6-9205-a30703cbdf71">5.5</linkHtml>)</item>
+                           <item>Aminoglycoside may aggravate muscle weakness because of a potential curare-like effect on neuromuscular function. (<linkHtml href="#LINK_8b08c141-83f8-4aef-b85e-5df226983819">5.3</linkHtml>)</item>
+                           <item>Bronchospasm can occur with inhalation of tobramycin. (<linkHtml href="#LINK_07168a37-a91a-484d-aef4-7fee83d68cd1">5.4</linkHtml>)</item>
+                           <item>Audiograms, serum concentration, and renal function should be monitored as appropriate. (<linkHtml href="#LINK_370997a6-23c4-43ce-b0aa-e6e6a0456bca">5.2</linkHtml> and <linkHtml href="#LINK_79fcae59-7b01-42b6-9205-a30703cbdf71">5.5</linkHtml>)</item>
+                           <item>Fetal harm can occur when aminoglycosides are administered to a pregnant woman. Apprise women of the potential hazard to the fetus. (<linkHtml href="#LINK_cdd3bfe4-111e-4d07-ab23-faa16b152e02">5.6</linkHtml>)</item>
+                        </list>
+                     </text>
+                  </highlight>
+               </excerpt>
+               <component>
+                  <section ID="LINK_b8981410-9778-455a-976f-89948afd3545">
+                     <id root="9ceddc54-215d-4e16-a157-c502aea53aa5"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>5.1
+Ototoxicity</title>
+                     <text>
+                        <paragraph>
+                           <content styleCode="xmChange underline">Ototoxicity with use of tobramycin inhalation solution</content>
+                        </paragraph>
+                        <paragraph>Caution should be exercised when prescribing tobramycin inhalation solution to patients with known or suspected auditory or vestibular dysfunction.</paragraph>
+                        <paragraph>Findings related to ototoxicity as measured by audiometric evaluations and auditory adverse event reports were similar between tobramycin inhalation solution and placebo in controlled clinical trials. Hearing loss was reported in two (1.1%) tobramycin inhalation solution-treated patients and in one (0.9%) placebo-treated patient during clinical studies. Additionally, dizziness and vertigo, both of which may be manifestations of vestibular forms of ototoxicity, were observed in similar numbers of tobramycin inhalation solution- and placebo-treated patients. Dizziness occurred in two (1.1%) tobramycin inhalation solution-treated patients and one (0.9%) placebo-treated patient and vertigo occurred in two (1.1%) tobramycin inhalation solution-treated patients versus no placebo patients in clinical studies. None of the tobramycin inhalation solution patients discontinued their therapy due to hearing loss, dizziness or vertigo.</paragraph>
+                        <paragraph>Tinnitus may be a sentinel symptom of ototoxicity. No reports of tinnitus occurred in patients during clinical studies with tobramycin inhalation solution, but because it has been observed with inhaled tobramycin solutions <content styleCode="italics">[see Adverse Reactions (<linkHtml href="#www.splportal.comLINK_46e3b84f-092a-45bc-8dca-1b5abb0ac981">6.2</linkHtml>)]</content>, onset of this symptom warrants caution. Ototoxicity, manifested as both auditory and vestibular toxicity, has been reported with parenteral aminoglycosides. Vestibular toxicity may be manifested by vertigo, ataxia or dizziness. Patients with known or suspected auditory or vestibular dysfunction should be closely monitored when taking tobramycin inhalation solution. Monitoring may include obtaining audiometric evaluations and serum tobramycin levels. If ototoxicity is noted, the patient should be managed as medically appropriate, including potentially discontinuing tobramycin inhalation solution.</paragraph>
+                        <paragraph>
+                           <content styleCode="xmChange underline">Risk of Ototoxicity Due to Mitochondrial DNA Variants </content>
+                        </paragraph>
+                        <paragraph>
+                           <content styleCode="xmChange">Cases of ototoxicity with aminoglycosides have been observed in patients with certain variants in the mitochondrially encoded 12S rRNA gene (<content styleCode="italics">MT-RNR1</content>), particularly the m.1555A&gt;G variant. Ototoxicity occurred in some patients even when their aminoglycoside serum levels were within the recommended range. Mitochondrial DNA variants are present in less than 1% of the general US population, and the proportion of the variant carriers who may develop ototoxicity as well as the severity of ototoxicity is unknown. In case of known maternal history of ototoxicity due to aminoglycoside use or a known mitochondrial DNA variant in the patient, consider alternative treatments other than aminoglycosides unless the increased risk of permanent hearing loss is outweighed by the severity of infection and lack of safe and effective alternative therapies.</content>
+                        </paragraph>
+                        <br/>
+                     </text>
+                     <effectiveTime value="20231001"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_370997a6-23c4-43ce-b0aa-e6e6a0456bca">
+                     <id root="9898dc32-3806-49bb-89bf-8891ea09cad5"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>5.2
+Nephrotoxicity</title>
+                     <text>
+                        <paragraph>Caution should be exercised when prescribing tobramycin inhalation solution to patients with known or suspected renal dysfunction.</paragraph>
+                        <paragraph>Nephrotoxicity was not seen during tobramycin inhalation solution clinical studies but has been associated with aminoglycosides as a class. Patients with known or suspected renal dysfunction or taking concomitant nephrotoxic drugs along with tobramycin inhalation solution should have serum concentrations of tobramycin and laboratory measurements of renal function obtained at the discretion of the treating physician. If nephrotoxicity develops, the patient should be managed as medically appropriate, including potentially discontinuing tobramycin inhalation solution until serum concentrations fall below 2 mcg/mL.</paragraph>
+                        <paragraph>Twenty-six (14%) tobramycin inhalation solution patients and 15 (13%) placebo patients had increases in serum creatinine of at least 50% over baseline. Follow-up values were obtained for 17 of the 26 tobramycin inhalation solution patients, all of which decreased to serum creatinine values that were within normal laboratory ranges. Patients who experience an increase in serum creatinine during treatment with tobramycin inhalation solution should have their renal function closely monitored.</paragraph>
+                     </text>
+                     <effectiveTime value="20231001"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_8b08c141-83f8-4aef-b85e-5df226983819">
+                     <id root="f8c0fd75-6163-4042-b554-34ad9dca7600"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>5.3
+Neuromuscular Disorders</title>
+                     <text>
+                        <paragraph>Tobramycin inhalation solution should be used cautiously in patients with muscular disorders.</paragraph>
+                        <paragraph>Aminoglycosides, including tobramycin, may aggravate muscle weakness because of a potential curare-like effect on neuromuscular function. Neuromuscular blockade, respiratory failure, and prolonged respiratory paralysis may occur more commonly in patients with underlying neuromuscular disorders, such as myasthenia gravis or Parkinson’s disease. Prolonged respiratory paralysis may also occur in patients receiving concomitant neuromuscular blocking agents. If neuromuscular blockade occurs, it may be reversed by the administration of calcium salts but mechanical assistance may be necessary.</paragraph>
+                     </text>
+                     <effectiveTime value="20231001"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_07168a37-a91a-484d-aef4-7fee83d68cd1">
+                     <id root="5164e4f7-bdd8-4b80-8035-5ee6b47f24d3"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>5.4
+Bronchospasm</title>
+                     <text>
+                        <paragraph>Bronchospasm has been reported with inhalation of tobramycin. In clinical studies with tobramycin inhalation solution, bronchospasm was observed in one (0.5%) tobramycin inhalation solution-treated patient and in no placebo-treated patients. Wheezing occurred in ten (5%) tobramycin inhalation solution-treated patients and four (4%) placebo-treated patients. Bronchospasm and wheezing should be treated as medically appropriate.</paragraph>
+                     </text>
+                     <effectiveTime value="20231001"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_79fcae59-7b01-42b6-9205-a30703cbdf71">
+                     <id root="2068f12c-4b58-4364-9b47-558151646e3d"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>5.5
+Laboratory Tests</title>
+                     <text>
+                        <paragraph>
+                           <content styleCode="underline">Audiograms</content>
+                        </paragraph>
+                        <paragraph>Clinical studies of inhaled tobramycin solutions did not identify hearing loss using audiometric tests which evaluated hearing up to 8000 Hz. Physicians should consider an audiogram for patients who show any evidence of auditory dysfunction, or who are at increased risk for auditory dysfunction. Tinnitus may be a sentinel symptom of ototoxicity, and therefore the onset of this symptom warrants caution.</paragraph>
+                        <paragraph>
+                           <content styleCode="underline">Serum Concentrations</content>
+                        </paragraph>
+                        <paragraph>In patients with normal renal function treated with tobramycin inhalation solution, serum tobramycin concentrations range from approximately 0.06 to 1.89 mcg/mL one hour after dose administration and do not require routine monitoring. Serum concentrations of tobramycin in patients with renal dysfunction or patients treated with concomitant parenteral tobramycin should be monitored at the discretion of the treating physician <content styleCode="italics">[see Clinical Pharmacology (<linkHtml href="#www.splportal.comLINK_2918cb2b-1703-46cc-9d3e-43426ca8d455">12.3</linkHtml>)]</content>.</paragraph>
+                        <paragraph>The serum concentration of tobramycin should only be monitored through venipuncture and not finger prick blood sampling. Contamination of the skin of the fingers with tobramycin may lead to falsely increased measurements of serum levels of the drug. This contamination cannot be completely avoided by hand washing before testing.</paragraph>
+                        <paragraph>
+                           <content styleCode="underline">Renal Function</content>
+                        </paragraph>
+                        <paragraph>The clinical studies of tobramycin inhalation solution did not reveal any imbalance in the percentage of patients who experienced at least a 50% rise in serum creatinine from baseline in either the tobramycin inhalation solution group (n=26, 14%) or the placebo group (n=15, 13%). Laboratory tests of urine and renal function should be conducted at the discretion of the treating physician.</paragraph>
+                     </text>
+                     <effectiveTime value="20231001"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_cdd3bfe4-111e-4d07-ab23-faa16b152e02">
+                     <id root="e80bba20-b711-4d36-8fc4-2c3c8e3f8c7a"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>5.6
+Embryo-Fetal Toxicity</title>
+                     <text>
+                        <paragraph>Aminoglycosides can cause fetal harm when administered to a pregnant woman. Aminoglycosides cross the placenta, and streptomycin has been associated with several reports of total, irreversible, bilateral congenital deafness in pediatric patients exposed <content styleCode="italics">in utero</content>. However, systemic absorption of tobramycin following inhaled administration is expected to be minimal <content styleCode="italics">[see Clinical Pharmacology (<linkHtml href="#www.splportal.comLINK_2918cb2b-1703-46cc-9d3e-43426ca8d455">12.3</linkHtml>)]</content>. Patients who use tobramycin inhalation solution during pregnancy, or become pregnant while taking tobramycin inhalation solution should be apprised of the potential hazard to the fetus <content styleCode="italics">[see Use in Specific Populations (<linkHtml href="#www.splportal.comLINK_9db656bc-75ac-43c9-a8ea-adf611a00791">8.1</linkHtml>)]</content>.</paragraph>
+                     </text>
+                     <effectiveTime value="20231001"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_d4e59f8c-00c2-4308-b5bd-f079c9ddde2d">
+                     <id root="90fb7603-1a34-476a-9d51-6530414816db"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>5.7
+Concomitant Use of Systemic Aminoglycosides</title>
+                     <text>
+                        <paragraph>Patients receiving concomitant tobramycin inhalation solution and parenteral aminoglycoside therapy should be monitored as clinically appropriate for toxicities associated with aminoglycosides as a class. Serum tobramycin levels should be monitored.</paragraph>
+                     </text>
+                     <effectiveTime value="20231001"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_0178f8ac-a85d-403a-aa95-816dd29368aa">
+               <id root="400aefaf-26d3-4c80-8bc4-a1f2fa0b31a6"/>
+               <code code="34084-4" codeSystem="2.16.840.1.113883.6.1" displayName="ADVERSE REACTIONS SECTION"/>
+               <title>6 ADVERSE REACTIONS</title>
+               <text/>
+               <effectiveTime value="20231001"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <paragraph>Common adverse reactions (more than 5%) occurring more frequently in tobramycin inhalation solution patients are forced expiratory volume decreased, rales, red blood cell sedimentation rate increased, and dysphonia. (<linkHtml href="#LINK_cfa16c17-bebb-4fd9-ac12-8f8ccfdfc999">6.1</linkHtml>)</paragraph>
+                        <paragraph>
+                           <content styleCode="bold">
+                              <content styleCode="bold">To report SUSPECTED ADVERSE REACTIONS, contact Teva at 1-888-838-2872 or FDA at 1-800-FDA-1088 or www.fda.gov/medwatch.</content>
+                           </content>
+                        </paragraph>
+                     </text>
+                  </highlight>
+               </excerpt>
+               <component>
+                  <section ID="LINK_cfa16c17-bebb-4fd9-ac12-8f8ccfdfc999">
+                     <id root="4365cc17-ebd9-4229-bdef-41978696e5a5"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>6.1
+Clinical Trials Experience</title>
+                     <text>
+                        <paragraph>Because clinical trials are conducted under widely varying conditions, adverse reaction rates observed in clinical trials of drugs cannot be directly compared to rates in the clinical trials of another drug and may not reflect the rates observed in practice.</paragraph>
+                        <paragraph>The data described below reflect exposure to tobramycin inhalation solution in two placebo-controlled studies in 305 cystic fibrosis patients. Patients receiving tobramycin inhalation solution ranged in age from 6 to 31 years.</paragraph>
+                        <paragraph>In Study 1, an eight week study, 29 patients received tobramycin inhalation solution versus 30 patients who received placebo for a total of four weeks on drug and four weeks off drug. All patients were ≤30 years of age (mean age 12.6 years) and 46% were females. 52.5% of patients were 6 to 12 years of age while 30.5% of patients were 13 to 17 years old. Only 16.5% of patients were adults (&gt;17 years old). Eighty percent (80%) of patients were chronically colonized with <content styleCode="italics">Pseudomonas aeruginosa</content> while 20.3% of patients were initially or intermittently colonized with <content styleCode="italics">Pseudomonas aeruginosa</content> during the study.</paragraph>
+                        <paragraph>More patients in the placebo group discontinued/dropped out of Study 1 than in the tobramycin inhalation solution group (23% [7/30] vs 3.4% [1/29], respectively). Five patients in the placebo group compared to none in the tobramycin inhalation solution group discontinued/dropped out because of treatment-emergent adverse events (TEAEs) such as pulmonary exacerbations and respiratory disorders.</paragraph>
+                        <paragraph>In Study 2, a 24 week study, 161 patients received tobramycin inhalation solution versus 85 patients who received placebo in alternating four week on-off cycles for three cycles. All patients were ≤46 years of age (mean age 14.8 years) and 45% were females. 41% of patients were 6 to 12 years old while 29% of patients were 13 to 17 years old. Only 30% were adults (&gt;17 years). Eighty-seven percent (87%) of patients were chronically colonized with <content styleCode="italics">P. aeruginosa</content>. Only 13% were either initially or intermittently colonized with <content styleCode="italics">P. aeruginosa</content> during the study.</paragraph>
+                        <paragraph>More patients in the placebo group discontinued/dropped out of Study 2 than in the tobramycin inhalation solution group (9.4% [8/85] vs 4.3% [7/161], respectively). Of these, 3 patients in the tobramycin inhalation solution group (1.9%) compared to 2 patients in the placebo group (2.4%) withdrew due to a TEAE. The most common TEAEs causing patients to discontinue from the study drug are respiratory, thoracic, and mediastinal disorders.</paragraph>
+                        <paragraph>The most common adverse experiences reported were respiratory disorders, consistent with the underlying disease in the patient population being evaluated and these were similarly distributed between both tobramycin inhalation solution- and placebo-treated patients. The following adverse reactions were reported in at least 5% of tobramycin inhalation solution-treated patients and at rates ≥ 2% more common compared to the placebo-treated patients: decreased forced expiratory volume, rales, red blood cell sedimentation rate increased, and dysphonia (Table 1).</paragraph>
+                        <table width="800px" cellspacing="0" cellpadding="5">
+                           <caption>Table 1: Patients with Selected Treatment-Emergent Adverse Reactions Occurring in ≥ 2% of Tobramycin Inhalation Solution Patients</caption>
+                           <col width="239.4pt"/>
+                           <col width="239.4pt"/>
+                           <col width="239.4pt"/>
+                           <tbody>
+                              <tr>
+                                 <td align="center" styleCode=" Botrule Toprule Lrule Rrule">
+                                    <paragraph>
+                                       <content styleCode="bold">Adverse Reactions</content>
+                                    </paragraph>
+                                 </td>
+                                 <td align="center" styleCode=" Botrule Toprule Lrule Rrule">
+                                    <paragraph>
+                                       <content styleCode="bold">Tobramycin Inhalation Solution</content>
+                                    </paragraph>
+                                    <paragraph>
+                                       <content styleCode="bold">N=190 </content>
+                                    </paragraph>
+                                    <paragraph>
+                                       <content styleCode="bold">(%)</content>
+                                    </paragraph>
+                                 </td>
+                                 <td align="center" styleCode=" Botrule Toprule Lrule Rrule">
+                                    <paragraph>
+                                       <content styleCode="bold">Placebo </content>
+                                    </paragraph>
+                                    <paragraph>
+                                       <content styleCode="bold">N=115 </content>
+                                    </paragraph>
+                                    <paragraph>
+                                       <content styleCode="bold">(%)</content>
+                                    </paragraph>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td styleCode=" Botrule Toprule Lrule Rrule">
+                                    <paragraph>Forced expiratory volume decreased</paragraph>
+                                 </td>
+                                 <td align="center" styleCode=" Botrule Toprule Lrule Rrule">
+                                    <paragraph>59 (31%)</paragraph>
+                                 </td>
+                                 <td align="center" styleCode=" Botrule Toprule Lrule Rrule">
+                                    <paragraph>33 (29%)</paragraph>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td styleCode=" Botrule Toprule Lrule Rrule">
+                                    <paragraph>Rales</paragraph>
+                                 </td>
+                                 <td align="center" styleCode=" Botrule Toprule Lrule Rrule">
+                                    <paragraph>36 (19%)</paragraph>
+                                 </td>
+                                 <td align="center" styleCode=" Botrule Toprule Lrule Rrule">
+                                    <paragraph>18 (16%)</paragraph>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td styleCode=" Botrule Toprule Lrule Rrule">
+                                    <paragraph>Red blood cell sedimentation rate increased</paragraph>
+                                 </td>
+                                 <td align="center" styleCode=" Botrule Toprule Lrule Rrule">
+                                    <paragraph>16 (8%)</paragraph>
+                                 </td>
+                                 <td align="center" styleCode=" Botrule Toprule Lrule Rrule">
+                                    <paragraph>6 (5%)</paragraph>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td styleCode=" Botrule Toprule Lrule Rrule">
+                                    <paragraph>Dysphonia</paragraph>
+                                 </td>
+                                 <td align="center" styleCode=" Botrule Toprule Lrule Rrule">
+                                    <paragraph>11 (6%)</paragraph>
+                                 </td>
+                                 <td align="center" styleCode=" Botrule Toprule Lrule Rrule">
+                                    <paragraph>2 (2%)</paragraph>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td styleCode=" Botrule Toprule Lrule Rrule">
+                                    <paragraph>Wheezing</paragraph>
+                                 </td>
+                                 <td align="center" styleCode=" Botrule Toprule Lrule Rrule">
+                                    <paragraph>10 (5%)</paragraph>
+                                 </td>
+                                 <td align="center" styleCode=" Botrule Toprule Lrule Rrule">
+                                    <paragraph>4 (4%)</paragraph>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td styleCode=" Botrule Toprule Lrule Rrule">
+                                    <paragraph>Epistaxis</paragraph>
+                                 </td>
+                                 <td align="center" styleCode=" Botrule Toprule Lrule Rrule">
+                                    <paragraph>6 (3%)</paragraph>
+                                 </td>
+                                 <td align="center" styleCode=" Botrule Toprule Lrule Rrule">
+                                    <paragraph>0</paragraph>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td styleCode=" Botrule Toprule Lrule Rrule">
+                                    <paragraph>Pharyngolaryngeal pain</paragraph>
+                                 </td>
+                                 <td align="center" styleCode=" Botrule Toprule Lrule Rrule">
+                                    <paragraph>5 (3%)</paragraph>
+                                 </td>
+                                 <td align="center" styleCode=" Botrule Toprule Lrule Rrule">
+                                    <paragraph>2 (2%)</paragraph>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td styleCode=" Botrule Toprule Lrule Rrule">
+                                    <paragraph>Bronchitis</paragraph>
+                                 </td>
+                                 <td align="center" styleCode=" Botrule Toprule Lrule Rrule">
+                                    <paragraph>5 (3%)</paragraph>
+                                 </td>
+                                 <td align="center" styleCode=" Botrule Toprule Lrule Rrule">
+                                    <paragraph>1 (1%)</paragraph>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td styleCode=" Botrule Toprule Lrule Rrule">
+                                    <paragraph>Tonsillitis</paragraph>
+                                 </td>
+                                 <td align="center" styleCode=" Botrule Toprule Lrule Rrule">
+                                    <paragraph>4 (2%)</paragraph>
+                                 </td>
+                                 <td align="center" styleCode=" Botrule Toprule Lrule Rrule">
+                                    <paragraph>0</paragraph>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td styleCode=" Botrule Toprule Lrule Rrule">
+                                    <paragraph>Diarrhea</paragraph>
+                                 </td>
+                                 <td align="center" styleCode=" Botrule Toprule Lrule Rrule">
+                                    <paragraph>3 (2%)</paragraph>
+                                 </td>
+                                 <td align="center" styleCode=" Botrule Toprule Lrule Rrule">
+                                    <paragraph>1 (1%)</paragraph>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td styleCode=" Botrule Toprule Lrule Rrule">
+                                    <paragraph>Eosinophilia</paragraph>
+                                 </td>
+                                 <td align="center" styleCode=" Botrule Toprule Lrule Rrule">
+                                    <paragraph>3 (2%)</paragraph>
+                                 </td>
+                                 <td align="center" styleCode=" Botrule Toprule Lrule Rrule">
+                                    <paragraph>0</paragraph>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td styleCode=" Botrule Toprule Lrule Rrule">
+                                    <paragraph>Immunoglobulins increased</paragraph>
+                                 </td>
+                                 <td align="center" styleCode=" Botrule Toprule Lrule Rrule">
+                                    <paragraph>3 (2%)</paragraph>
+                                 </td>
+                                 <td align="center" styleCode=" Botrule Toprule Lrule Rrule">
+                                    <paragraph>0</paragraph>
+                                 </td>
+                              </tr>
+                           </tbody>
+                        </table>
+                        <br/>
+                     </text>
+                     <effectiveTime value="20231001"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_46e3b84f-092a-45bc-8dca-1b5abb0ac981">
+                     <id root="26169b8a-b6ce-4aa0-8f8b-871584f649b5"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>6.2
+Postmarketing Experience</title>
+                     <text>
+                        <paragraph>The following adverse reactions have been identified during postapproval use of tobramycin inhalation solution. Because these reactions are reported voluntarily from a population of uncertain size, it is not always possible to reliably estimate their frequency or establish a causal relationship to drug exposure.</paragraph>
+                        <paragraph>
+                           <content styleCode="bold">
+                              <content styleCode="italics">Ear and labyrinth disorders:</content>
+                           </content> Hearing loss, Tinnitus <content styleCode="italics">[see Warnings and Precautions (<linkHtml href="#www.splportal.comLINK_b8981410-9778-455a-976f-89948afd3545">5.1</linkHtml>)]</content>
+                        </paragraph>
+                        <paragraph>
+                           <content styleCode="bold">
+                              <content styleCode="italics">Skin and subcutaneous tissue disorders:</content>
+                           </content> Hypersensitivity, pruritus, urticaria, rash </paragraph>
+                        <paragraph>
+                           <content styleCode="bold">
+                              <content styleCode="italics">Nervous system disorders: </content>
+                           </content>Aphonia, dysgeusia</paragraph>
+                        <paragraph>
+                           <content styleCode="bold">
+                              <content styleCode="italics">Respiratory, thoracic, and mediastinal disorders:</content>
+                           </content> Bronchospasm <content styleCode="italics">[see Warnings and Precautions (<linkHtml href="#www.splportal.comLINK_07168a37-a91a-484d-aef4-7fee83d68cd1">5.4</linkHtml>)]</content>, oropharyngeal pain</paragraph>
+                        <paragraph>
+                           <content styleCode="bold">
+                              <content styleCode="italics">Metabolism and Nutrition Disorders:</content>
+                           </content> Decreased appetite</paragraph>
+                     </text>
+                     <effectiveTime value="20231001"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_579c94f3-8ef1-49d7-b024-175fbf7bea78">
+               <id root="d961ec57-ae58-4ee8-97e5-1b1ee764f122"/>
+               <code code="34073-7" codeSystem="2.16.840.1.113883.6.1" displayName="DRUG INTERACTIONS SECTION"/>
+               <title>7 DRUG INTERACTIONS</title>
+               <text/>
+               <effectiveTime value="20231001"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <list listType="unordered" styleCode="Disc">
+                           <item>Concurrent and/or sequential use of tobramycin inhalation solution with other drugs with neurotoxic, nephrotoxic or ototoxic potential should be avoided. (<linkHtml href="#LINK_e9c077a6-a7fe-490c-919e-e1a17564ba78">7.1</linkHtml>)</item>
+                           <item>Tobramycin inhalation solution should not be administered concomitantly with ethacrynic acid, furosemide, urea, or intravenous mannitol. (<linkHtml href="#LINK_d096ddcf-2c49-4f03-b786-7c1d33e3e0d9">7.2</linkHtml>)</item>
+                        </list>
+                     </text>
+                  </highlight>
+               </excerpt>
+               <component>
+                  <section ID="LINK_e9c077a6-a7fe-490c-919e-e1a17564ba78">
+                     <id root="1563313e-13d8-4c35-a4c2-7531fb2b28dd"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>7.1
+Drugs with Neurotoxic, Nephrotoxic, or Ototoxic Potential</title>
+                     <text>
+                        <paragraph>Concurrent and/or sequential use of tobramycin inhalation solution with other drugs with neurotoxic, nephrotoxic, or ototoxic potential should be avoided.</paragraph>
+                     </text>
+                     <effectiveTime value="20231001"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_d096ddcf-2c49-4f03-b786-7c1d33e3e0d9">
+                     <id root="f267afdc-0260-4e0e-8b5f-1b4f2a8cf118"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>7.2
+Diuretics</title>
+                     <text>
+                        <paragraph>Some diuretics can enhance aminoglycoside toxicity by altering antibiotic concentrations in serum and tissue. Therefore, tobramycin inhalation solution should not be administered concomitantly with ethacrynic acid, furosemide, urea, or intravenous mannitol. The interaction between inhaled mannitol and tobramycin inhalation solution has not been evaluated.</paragraph>
+                     </text>
+                     <effectiveTime value="20231001"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_28761c98-8bbc-4b25-802b-2f81d5f044d1">
+               <id root="040071cf-2d75-4315-89a9-a6a9d0cf5501"/>
+               <code code="43684-0" codeSystem="2.16.840.1.113883.6.1" displayName="USE IN SPECIFIC POPULATIONS SECTION"/>
+               <title>8 USE IN SPECIFIC POPULATIONS</title>
+               <text/>
+               <effectiveTime value="20231001"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <list listType="unordered" styleCode="Disc">
+                           <item>Aminoglycosides can cause fetal harm when administered to a pregnant woman. (<linkHtml href="#LINK_9db656bc-75ac-43c9-a8ea-adf611a00791">8.1</linkHtml>)</item>
+                           <item>Nursing mothers: discontinue drug or nursing, taking into consideration the importance of the drug to a mother. (<linkHtml href="#LINK_84212ca4-c025-43e7-bf9e-309ced52e4eb">8.2</linkHtml>)</item>
+                        </list>
+                     </text>
+                  </highlight>
+               </excerpt>
+               <component>
+                  <section ID="LINK_9db656bc-75ac-43c9-a8ea-adf611a00791">
+                     <id root="9027671b-0444-40ea-89fe-d10069c49b55"/>
+                     <code code="42228-7" codeSystem="2.16.840.1.113883.6.1" displayName="PREGNANCY SECTION"/>
+                     <title>8.1 Pregnancy</title>
+                     <text>
+                        <paragraph>
+                           <content styleCode="underline">Risk Summary</content>
+                        </paragraph>
+                        <paragraph>Aminoglycosides can cause fetal harm. Published literature reports that use of streptomycin, an aminoglycoside, can cause total, irreversible, bilateral congenital deafness when administered to a pregnant woman <content styleCode="italics">[Warnings and Precautions (5.6)]. </content>Although there are no available data on use of tobramycin inhalation solution in pregnant women to be able to inform a drug-associated risk of major birth defects, miscarriage, or adverse maternal or fetal outcomes, systemic absorption of tobramycin following inhaled administration is expected to be minimal <content styleCode="italics">[see Clinical Pharmacology (<linkHtml href="#www.splportal.comLINK_2918cb2b-1703-46cc-9d3e-43426ca8d455">12.3</linkHtml>)]</content>. There are risks to the mother associated with cystic fibrosis in pregnancy <content styleCode="italics">(see Clinical Considerations)</content>. In animal reproduction studies with subcutaneous administration of tobramycin in pregnant rats and rabbits during organogenesis there were no adverse developmental outcomes; however, ototoxicity was not evaluated in the offspring from these studies <content styleCode="italics">(see Data)</content>. Advise pregnant women of the potential risk to a fetus.</paragraph>
+                        <paragraph>The estimated background risk of major birth defects and miscarriage for the indicated populations are unknown. All pregnancies have a background risk of birth defect, loss, or other adverse outcomes. In the U.S. general population, the estimated background risk of major birth defects and miscarriage in clinically recognized pregnancies is 2% to 4% and 15% to 20%, respectively.</paragraph>
+                        <paragraph>
+                           <content styleCode="underline">Clinical Considerations</content>
+                        </paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Disease-Associated Maternal and/or Embryo/Fetal Risk</content>
+                        </paragraph>
+                        <paragraph>Cystic fibrosis may increase the risk for preterm delivery.</paragraph>
+                        <paragraph>
+                           <content styleCode="underline">Data</content>
+                        </paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Animal Data</content>
+                        </paragraph>
+                        <paragraph>No reproduction toxicology studies have been conducted with inhaled tobramycin. However, subcutaneous administration of tobramycin at doses of up to 100 (rat) or 20 (rabbit) mg/kg/day during organogenesis was not associated with adverse developmental outcomes. Subcutaneous doses of tobramycin ≥ 40mg/kg/day were severely maternally toxic to rabbits and precluded the evaluation of adverse developmental outcomes. Ototoxicity was not evaluated in offspring during nonclinical reproductive toxicity studies with tobramycin.</paragraph>
+                     </text>
+                     <effectiveTime value="20231001"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_84212ca4-c025-43e7-bf9e-309ced52e4eb">
+                     <id root="95da8da6-29f9-40e3-9024-498f77b907ef"/>
+                     <code code="77290-5" codeSystem="2.16.840.1.113883.6.1" displayName="LACTATION SECTION"/>
+                     <title>8.2 Lactation</title>
+                     <text>
+                        <paragraph>
+                           <content styleCode="underline">Risk Summary</content>
+                        </paragraph>
+                        <paragraph>There are no data on the presence of tobramycin in either human or animal milk, the effects on the breastfed infant, or the effects on milk production following oral inhalation of tobramycin inhalation solution. Limited published data on other formulations of tobramycin in lactating women indicate that tobramycin is present in human milk. However, systemic absorption of tobramycin following inhaled administration is expected to be minimal <content styleCode="italics">[see Clinical Pharmacology (<linkHtml href="#www.splportal.comLINK_2918cb2b-1703-46cc-9d3e-43426ca8d455">12.3</linkHtml>)].</content> Tobramycin may cause alteration in the intestinal flora of the breastfeeding infant <content styleCode="italics">(see Clinical Considerations).</content> The developmental and health benefits of breastfeeding should be considered along with the mother’s clinical need for tobramycin inhalation solution and any potential adverse effects on the breastfed child from tobramycin inhalation solution or from the underlying maternal condition.</paragraph>
+                        <paragraph>
+                           <content styleCode="underline">Clinical Considerations</content>
+                        </paragraph>
+                        <paragraph>Tobramycin may cause intestinal flora alteration. Advise a woman to monitor the breastfed infant for loose or bloody stools and candidiasis (thrush, diaper rash).</paragraph>
+                     </text>
+                     <effectiveTime value="20231001"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_171b24a7-4705-4986-92cb-c6072bd3b89f">
+                     <id root="5bec5436-03b5-48b0-8c76-7694d5ca23e1"/>
+                     <code code="34081-0" codeSystem="2.16.840.1.113883.6.1" displayName="PEDIATRIC USE SECTION"/>
+                     <title>8.4 Pediatric Use</title>
+                     <text>
+                        <paragraph>The safety and efficacy of tobramycin inhalation solution have not been studied in pediatric cystic fibrosis patients under six years of age.</paragraph>
+                     </text>
+                     <effectiveTime value="20231001"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_93b6f5d9-dad4-4309-9138-f44bb2e56ec0">
+                     <id root="66507ee8-7f30-4d43-b6f7-0ef25842bfbb"/>
+                     <code code="34082-8" codeSystem="2.16.840.1.113883.6.1" displayName="GERIATRIC USE SECTION"/>
+                     <title>8.5 Geriatric Use</title>
+                     <text>
+                        <paragraph>Clinical studies of tobramycin inhalation solution did not include patients aged 65 years and over. Tobramycin is known to be substantially excreted by the kidney, and the risk of adverse reactions to this drug may be greater in patients with impaired renal function. Because elderly patients are more likely to have decreased renal function, it may be useful to monitor renal function <content styleCode="italics">[see Warnings and Precautions (<linkHtml href="#www.splportal.comLINK_370997a6-23c4-43ce-b0aa-e6e6a0456bca">5.2</linkHtml>, <linkHtml href="#www.splportal.comLINK_79fcae59-7b01-42b6-9205-a30703cbdf71">5.5</linkHtml>)]</content>.</paragraph>
+                     </text>
+                     <effectiveTime value="20231001"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_41b411df-34f2-415a-81a0-6e207dafb482">
+                     <id root="a74385a5-5965-4002-aff7-f3d8606a6237"/>
+                     <code code="88828-9" codeSystem="2.16.840.1.113883.6.1" displayName="RENAL IMPAIRMENT SUBSECTION"/>
+                     <title>8.6
+Renal Impairment</title>
+                     <text>
+                        <paragraph>Tobramycin is primarily excreted unchanged in the urine and renal function is expected to affect the exposure of tobramycin. The risk of adverse reactions to this drug may be greater in patients with impaired renal function. Patients with serum creatinine &gt; 2mg/dL and blood urea nitrogen (BUN) &gt; 40mg/dL have not been included in clinical studies and there are no data in this population to support a recommendation for or against dose adjustment <content styleCode="italics">[see Warnings and Precautions (<linkHtml href="#www.splportal.comLINK_370997a6-23c4-43ce-b0aa-e6e6a0456bca">5.2</linkHtml>, <linkHtml href="#www.splportal.comLINK_79fcae59-7b01-42b6-9205-a30703cbdf71">5.5</linkHtml>)]</content>.</paragraph>
+                        <paragraph>Serum concentrations of tobramycin in patients with renal dysfunction, or patients treated with concomitant parenteral tobramycin should be monitored at the discretion of the treating physician.</paragraph>
+                     </text>
+                     <effectiveTime value="20231001"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_f6fd962b-f628-433f-86eb-f3aa2e3ed599">
+               <id root="595fae5c-d5d4-4e3f-a962-0f410d704bdd"/>
+               <code code="34088-5" codeSystem="2.16.840.1.113883.6.1" displayName="OVERDOSAGE SECTION"/>
+               <title>10 OVERDOSAGE</title>
+               <text>
+                  <paragraph>No overdoses have been reported with tobramycin inhalation solution in clinical trials. Signs and symptoms of acute toxicity from overdosage of intravenous tobramycin might include dizziness, tinnitus, vertigo, loss of high-tone hearing acuity, respiratory failure, neuromuscular blockade, and renal impairment. Administration by inhalation results in low systemic bioavailability of tobramycin. Tobramycin is not significantly absorbed following oral administration. Tobramycin serum concentrations may be helpful in monitoring overdosage.</paragraph>
+                  <paragraph>In all cases of suspected overdosage, physicians should contact the Regional Poison Control Center for information about effective treatment. In the case of any overdosage, the possibility of drug interactions with alterations in drug disposition should be considered.</paragraph>
+               </text>
+               <effectiveTime value="20231001"/>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_83adff9a-52a3-419f-8aed-73ac0c008fd4">
+               <id root="50c12f7a-f26a-40f9-8382-f75c22b33506"/>
+               <code code="34089-3" codeSystem="2.16.840.1.113883.6.1" displayName="DESCRIPTION SECTION"/>
+               <title>11 DESCRIPTION</title>
+               <text>
+                  <paragraph>Tobramycin inhalation solution, USP is a sterile, clear, colorless to yellow, non-pyrogenic, aqueous solution with pH and salinity adjusted. Tobramycin inhalation solution, USP is administered by a compressed air driven reusable nebulizer. The chemical formula for tobramycin is C<sub>18</sub>H<sub>37</sub>N<sub>5</sub>O<sub>9</sub> and the molecular weight is 467.51. Tobramycin, USP is O-3-amino-3-deoxy-α-D-glucopyranosyl-(1→4)-O-[2,6-diamino-2,3,6-trideoxy-α-D-ribo-hexopyranosyl-(1→6)]-2-deoxy-L-streptamine.</paragraph>
+                  <paragraph>The structural formula for tobramycin, USP is:</paragraph>
+                  <renderMultiMedia referencedObject="MM1"/>
+                  <paragraph>Each single-dose 4 mL ampule of tobramycin inhalation solution, USP contains one 300 mg dose of tobramycin, USP with sodium chloride and trisodium citrate dihydrate in sterile water for injection. Sulfuric acid and sodium hydroxide are used, as needed, to adjust the pH to 5.0. Nitrogen is used for sparging and filling. The formulation contains no preservatives.</paragraph>
+               </text>
+               <effectiveTime value="20231001"/>
+               <component>
+                  <observationMedia ID="MM1">
+                     <text>1</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="image-1.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_b47070b3-fd47-42ba-a89c-8eb73f10beba">
+               <id root="2840f872-da67-429e-af21-b9343b8e57d4"/>
+               <code code="34090-1" codeSystem="2.16.840.1.113883.6.1" displayName="CLINICAL PHARMACOLOGY SECTION"/>
+               <title>12 CLINICAL PHARMACOLOGY</title>
+               <effectiveTime value="20231001"/>
+               <component>
+                  <section ID="LINK_123199df-feb1-4f49-9546-3affcc838e51">
+                     <id root="f7e0b06f-2dce-447c-bc0c-bae9b9e3b227"/>
+                     <code code="43679-0" codeSystem="2.16.840.1.113883.6.1" displayName="MECHANISM OF ACTION SECTION"/>
+                     <title>12.1 Mechanism of Action</title>
+                     <text>
+                        <paragraph>Tobramycin inhalation solution is an aminoglycoside antibacterial <content styleCode="italics">[see Clinical Pharmacology (<linkHtml href="#www.splportal.comLINK_fd939883-b002-4c0b-b082-990416f17474">12.4</linkHtml>)]</content>.</paragraph>
+                     </text>
+                     <effectiveTime value="20231001"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_2918cb2b-1703-46cc-9d3e-43426ca8d455">
+                     <id root="52aa98f7-1cd5-466a-a7ef-1f86f498634d"/>
+                     <code code="43682-4" codeSystem="2.16.840.1.113883.6.1" displayName="PHARMACOKINETICS SECTION"/>
+                     <title>12.3 Pharmacokinetics</title>
+                     <text>
+                        <paragraph>Tobramycin inhalation solution contains tobramycin, a cationic polar molecule that does not readily cross epithelial membranes.<sup>1</sup> The bioavailability of tobramycin inhalation solution may vary because of individual differences in nebulizer performance and airway pathology.<sup>2</sup>
+                        </paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Sputum Concentrations</content>
+                        </paragraph>
+                        <paragraph>Thirty minutes after inhalation of the first 300 mg dose of tobramycin inhalation solution, the maximum geometric mean concentration of tobramycin was 814 mcg/g (ranging from 23 to 2843 mcg/g) in sputum. High variability of tobramycin concentration in sputum was observed. Three hours after inhalation started, sputum tobramycin concentrations declined to approximately 15% of those observed at 30 minutes. After four weeks of therapy with tobramycin inhalation solution average mean sputum tobramycin concentrations obtained 10 minutes following administration were 717 mcg/g.</paragraph>
+                        <paragraph>
+                           <content styleCode="underline">Distribution</content>
+                        </paragraph>
+                        <paragraph>Following administration of tobramycin inhalation solution, tobramycin remains concentrated primarily in the airways. Binding of tobramycin to serum proteins is negligible. </paragraph>
+                        <paragraph>
+                           <content styleCode="underline">Elimination</content>
+                        </paragraph>
+                        <paragraph>Tobramycin is not metabolized. The elimination half-life of tobramycin from serum is approximately two hours after intravenous (IV) administration. The elimination half-life following the inhalation of tobramycin inhalation solution is approximately 4.4 hours. Assuming tobramycin absorbed following inhalation behaves similarly to tobramycin following intravenous administration, systemically absorbed tobramycin is eliminated principally by glomerular filtration. Unabsorbed tobramycin following inhalation is likely eliminated in expectorated sputum.</paragraph>
+                     </text>
+                     <effectiveTime value="20231001"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_fd939883-b002-4c0b-b082-990416f17474">
+                     <id root="d655fa0f-d46a-42bf-947b-83f5ea4ed583"/>
+                     <code code="49489-8" codeSystem="2.16.840.1.113883.6.1" displayName="MICROBIOLOGY SECTION"/>
+                     <title>12.4
+Microbiology</title>
+                     <text>
+                        <paragraph>
+                           <content styleCode="underline">Mechanism of Action</content>
+                        </paragraph>
+                        <paragraph>Tobramycin, an aminoglycoside antibacterial, acts primarily by disrupting protein synthesis in the bacterial cell which eventually leads to death of the cell. Tobramycin has activity against a wide range of gram-negative bacteria including <content styleCode="italics">P. aeruginosa</content>. It is bactericidal at or above the minimal inhibitory concentration (MIC) needed to inhibit growth of bacteria.</paragraph>
+                        <paragraph>
+                           <content styleCode="underline">Mechanism of Resistance</content>
+                        </paragraph>
+                        <paragraph>The predominant mechanism of resistance to tobramycin in <content styleCode="italics">P. aeruginosa</content> isolated from CF patients is impermeability and to a lesser extent enzymatic modification and other mechanisms which cumulatively lead to decreased susceptibility of <content styleCode="italics">P. aeruginosa</content> to tobramycin.</paragraph>
+                        <paragraph>
+                           <content styleCode="underline">Cross Resistance</content>
+                        </paragraph>
+                        <paragraph>Cross resistance between aminoglycosides exists but the cross resistance is variable.</paragraph>
+                        <paragraph>
+                           <content styleCode="underline">Development of Resistance</content>
+                        </paragraph>
+                        <paragraph>Treatment for six months with tobramycin inhalation solution in one clinical trial did not affect the susceptibility of the majority of <content styleCode="italics">P. aeruginosa</content> isolates tested; however, increases in minimal inhibitory concentrations (MIC) were noted in some patients. The clinical significance of this information has not been clearly established in the treatment of cystic fibrosis patients.</paragraph>
+                        <paragraph>
+                           <content styleCode="underline">Susceptibility Testing</content>
+                        </paragraph>
+                        <paragraph>The clinical microbiology laboratory should provide cumulative results of the <content styleCode="italics">in vitro</content> susceptibility test results for antimicrobial drugs used in local hospitals and practice areas to the physicians as periodic reports that describe the susceptibility profile of nosocomial and community-acquired pathogens. These reports should aid the physician in selecting the most effective antimicrobial.</paragraph>
+                        <paragraph>
+                           <content styleCode="bold">Susceptibility Testing Techniques</content>
+                        </paragraph>
+                        <paragraph>
+                           <content styleCode="bold">
+                              <content styleCode="italics">Dilution Techniques</content>
+                           </content>
+                        </paragraph>
+                        <paragraph>Quantitative methods can be used to determine the minimum inhibitory concentration (MIC) of tobramycin that will inhibit the growth of the bacteria being tested. The MIC provides an estimate of the susceptibility of bacteria to tobramycin. The MIC should be determined using a standardized procedure.<sup>3, 5</sup> Standardized procedures are based on a dilution method (broth or agar) or equivalent with standardized inoculum concentrations and standardized concentrations of tobramycin powder.</paragraph>
+                        <paragraph>
+                           <content styleCode="bold">
+                              <content styleCode="italics">Diffusion Techniques</content>
+                           </content>
+                        </paragraph>
+                        <paragraph>Quantitative methods that require measurement of zone diameters also provide reproducible estimates of the susceptibility of bacteria to antimicrobial compounds. One such standardized procedure requires the use of standardized inoculum concentrations.<sup>4, 5</sup> This procedure uses paper disks impregnated with 10 mcg of tobramycin to test the susceptibility of bacteria to tobramycin.</paragraph>
+                        <paragraph>
+                           <content styleCode="bold">Susceptibility Test Interpretive Criteria</content>
+                        </paragraph>
+                        <paragraph>
+                           <content styleCode="italics">In vitro</content> susceptibility test interpretive criteria for inhaled tobramycin have not been determined. The relation of the <content styleCode="italics">in vitro</content> MIC and/or disk diffusion susceptibility test results to clinical efficacy of inhaled tobramycin against the bacteria tested should be monitored.</paragraph>
+                        <paragraph>
+                           <content styleCode="bold">Quality Control Parameters for Susceptibility Testing</content>
+                        </paragraph>
+                        <paragraph>
+                           <content styleCode="italics">In vitro</content> susceptibility test quality control parameters exist for tobramycin so that laboratories that test the susceptibility of bacterial isolates to tobramycin can determine if the susceptibility test is performing correctly. Standardized dilution techniques and diffusion methods require the use of laboratory control bacteria to monitor the technical aspects of the laboratory procedures. Standard tobramycin powder should provide the following MIC and a 10 mcg tobramycin disk should produce the following zone diameters with the indicated quality control strains (Table 2).</paragraph>
+                        <table width="800px" cellspacing="0" cellpadding="5">
+                           <caption>Table 2: Acceptable Quality Control Ranges for Tobramycin</caption>
+                           <col width="255px"/>
+                           <col width="255px"/>
+                           <col width="255px"/>
+                           <tbody>
+                              <tr>
+                                 <td align="center" styleCode=" Botrule Toprule Lrule Rrule">
+                                    <paragraph>
+                                       <content styleCode="bold">Bacteria</content>
+                                    </paragraph>
+                                 </td>
+                                 <td align="center" styleCode=" Botrule Toprule Lrule Rrule">
+                                    <paragraph>
+                                       <content styleCode="bold">MIC Range</content>
+                                    </paragraph>
+                                    <paragraph>(mcg/mL)</paragraph>
+                                 </td>
+                                 <td align="center" styleCode=" Botrule Toprule Lrule Rrule">
+                                    <paragraph>
+                                       <content styleCode="bold">Disk Diffusion Zone </content>
+                                    </paragraph>
+                                    <paragraph>
+                                       <content styleCode="bold">Diameter (mm)</content>
+                                    </paragraph>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td align="center" styleCode=" Botrule Toprule Lrule Rrule">
+                                    <paragraph>
+                                       <content styleCode="italics">Pseudomonas aeruginosa</content>
+                                    </paragraph>
+                                    <paragraph>ATCC 27853</paragraph>
+                                 </td>
+                                 <td align="center" styleCode=" Botrule Toprule Lrule Rrule">
+                                    <paragraph>0.25 to 1</paragraph>
+                                 </td>
+                                 <td align="center" styleCode=" Botrule Toprule Lrule Rrule">
+                                    <paragraph>19 to 25</paragraph>
+                                 </td>
+                              </tr>
+                           </tbody>
+                        </table>
+                        <paragraph>
+                           <content styleCode="bold">Other</content>
+                        </paragraph>
+                        <paragraph>No trends in the treatment-emergent isolation of other bacterial respiratory pathogens such as <content styleCode="italics">Burkholderia cepacia, Stenotrophomonas maltophilia, Achromobacter xylosoxidans, </content>or<content styleCode="italics"> Staphylococcus aureus</content> were observed in clinical trials of tobramycin inhalation solution relative to placebo. There was a slight increase in isolation of <content styleCode="italics">Candida spp</content> in sputum at the end of the tobramycin inhalation solution treatment cycle in clinical trials.</paragraph>
+                     </text>
+                     <effectiveTime value="20231001"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_24ca90b2-6335-4021-b922-370a464aff0f">
+               <id root="fa14a153-e089-475b-9bbb-efe6092eb158"/>
+               <code code="43680-8" codeSystem="2.16.840.1.113883.6.1" displayName="NONCLINICAL TOXICOLOGY SECTION"/>
+               <title>13 NONCLINICAL TOXICOLOGY</title>
+               <effectiveTime value="20231001"/>
+               <component>
+                  <section ID="LINK_7dfb4b13-fed6-4f25-bc49-5068301c5035">
+                     <id root="0dbde264-562e-40d1-bfc2-59c5c220a0d4"/>
+                     <code code="34083-6" codeSystem="2.16.840.1.113883.6.1" displayName="CARCINOGENESIS &amp; MUTAGENESIS &amp; IMPAIRMENT OF FERTILITY SECTION"/>
+                     <title>13.1 Carcinogenesis, Mutagenesis, Impairment of Fertility</title>
+                     <text>
+                        <paragraph>A two-year rat inhalation toxicology study to assess carcinogenic potential of an inhaled solution of tobramycin has been completed. Rats were exposed to tobramycin for up to 1.5 hours per day for 95 weeks. Serum levels of tobramycin up to 35 mcg/mL were measured in rats, 35x the average 1 mcg/mL exposure levels observed in cystic fibrosis patients in clinical trials. There was no drug-related increase in the incidence of any variety of tumors.</paragraph>
+                        <paragraph>Additionally, tobramycin has been evaluated for genotoxicity in a battery of <content styleCode="italics">in vitro </content>and <content styleCode="italics">in vivo</content> tests. The Ames bacterial reversion test, conducted with five tester strains, failed to show a significant increase in revertants with or without metabolic activation in all strains. Tobramycin was negative in the mouse lymphoma forward mutation assay, did not induce chromosomal aberrations in Chinese hamster ovary cells, and was negative in the mouse micronucleus test.</paragraph>
+                        <paragraph>Subcutaneous administration of up to 100 mg/kg of tobramycin did not affect mating behavior or cause impairment of fertility in male or female rats.</paragraph>
+                     </text>
+                     <effectiveTime value="20231001"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_3b3b30e3-796c-4f9e-9835-f7ecffe4ccf2">
+               <id root="6f216911-64a7-4afb-b298-a3bfbce28d91"/>
+               <code code="34092-7" codeSystem="2.16.840.1.113883.6.1" displayName="CLINICAL STUDIES SECTION"/>
+               <title>14 CLINICAL STUDIES</title>
+               <text>
+                  <paragraph>Two, double-blind, randomized, placebo-controlled, parallel group clinical studies (Study 1 and Study 2), which randomized and dosed 306 patients, were conducted in cystic fibrosis patients with <content styleCode="italics">P. aeruginosa</content>. The osmolality of the drug formulation used in these studies differed from the to-be-marketed product. To rely upon the efficacy and safety established in the placebo-controlled studies, an additional study was conducted as a bridge to the to-be-marketed drug. The bridging study assessed the efficacy and tolerability of aerosolized Tobramycin Inhalation Solution with osmolality similar to tobramycin inhalation solution over a 4-week treatment in 324 patients with cystic fibrosis. Results of this study showed that the Tobramycin Inhalation Solution in this study had similar efficacy as that seen in the placebo-controlled studies.</paragraph>
+                  <paragraph>The compressors in the placebo-controlled studies and the bridging study differed from the PARI VIOS compressor to be used with tobramycin inhalation solution. <content styleCode="italics">In vitro</content> cascade impaction studies demonstrated that the various compressors used in the clinical trials delivered equivalent doses and respirable fractions of the to-be-marketed tobramycin inhalation solution and TOBI with the marketed compressor (PARI VIOS) when used with the same nebulizer (PARI LC Plus Reusable nebulizer).</paragraph>
+                  <paragraph>All subjects enrolled in both efficacy studies had baseline FEV<sub>1</sub> % predicted ≥40% and ≤80% (mean baseline FEV<sub>1</sub> of 60% of predicted normal) and infected with <content styleCode="italics">P. aeruginosa</content>. Subjects who were less than 6 years of age, or who had a baseline creatinine of ≥1.5 mg/dL, or who had <content styleCode="italics">Burkholderia cepacia</content> isolated from sputum were excluded. A total of 190 patients, 29 in Study 1 and 161 in Study 2, received tobramycin inhalation solution therapy on an outpatient basis. Of these, 55% were males and 45% were females. Eighty-two (43.2%) patients were between 6 and 12 years of age, 54 (28.4%) patients were between 13 and 17 years of age, and the remaining 54 (28.4%) patients were greater than 17 years of age. Of the patients who received tobramycin inhalation solution, only 89.7% of patients in Study 1 had at least one concomitant medication, while all patients in Study 2 also received at least one concomitant medication. These concomitant medications include mucolytics, steroidal and nonsteroidal anti-inflammatory drugs, bronchodilators, rehabilitative physiotherapies and if necessary, antibiotics for bacterial infections other than <content styleCode="italics">P. aeruginosa</content>.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Study 1</content>
+                  </paragraph>
+                  <paragraph>Study 1 was a double-blind, single cycle study that randomized 59 patients to receive tobramycin inhalation solution (n=29) or placebo (n=30) for one cycle of treatment (28 days on treatment followed by 28 days off treatment). All patients were ≤30 years of age (mean age 12.6 years) and 46% were females. All randomized patients were included in the primary analysis except for one patient who had missing baseline information.</paragraph>
+                  <paragraph>Tobramycin inhalation solution significantly improved lung function compared with placebo as measured by the absolute change in FEV<sub>1</sub> % predicted from baseline to the end of Cycle 1 dosing in the primary analysis population. Treatment with tobramycin inhalation solution and placebo resulted in absolute increases in FEV<sub>1</sub> % predicted of 16% and 5%, respectively (LS mean difference = 11%; 95% CI: 3, 19; p=0.003). This analysis is adjusted for the covariate of baseline FEV<sub>1</sub> % predicted, using multiple imputation for missing data. Figure 1 shows the average change in FEV<sub>1</sub> % predicted over eight weeks.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Study 2</content>
+                  </paragraph>
+                  <paragraph>Study 2 was a randomized, double-blind, 3-cycle, placebo-controlled trial. A total of 247 eligible patients were randomized 2:1 to receive three cycles of tobramycin inhalation solution (n=161) or placebo (n=86). As in Study 1, each cycle comprised 28 days on treatment followed by 28 days off treatment. All patients were ≤46 years of age (mean age 14.8 years) and 44.9% were females. In this study, two randomized patients in the placebo group were not included in the primary efficacy analysis; one withdrew consent without taking any trial medication and the other withdrew due to an adverse drug reaction.</paragraph>
+                  <paragraph>Tobramycin inhalation solution significantly improved lung function compared with placebo as measured by the absolute change in FEV<sub>1</sub> % predicted from baseline to the end of Cycle 3 “ON” period. Treatment with tobramycin inhalation solution and placebo resulted in absolute increases in FEV<sub>1</sub> % predicted of 7% and 1%, respectively (LS mean difference = 6%; 95% CI: 3, 10; p&lt;0.001). This analysis is adjusted for the covariate of baseline FEV<sub>1</sub> % predicted, using multiple imputation for missing data. Figure 1 shows the average change in FEV<sub>1</sub> % predicted over 24 weeks from Study 2.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Figure 1: FEV<sub>1</sub> % of Predicted Normal – Absolute Change from Baseline (Adjusted mean) – ITT</content>
+                     <content styleCode="bold"> Population</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">
+                        <renderMultiMedia referencedObject="MM2"/>
+                     </content>
+                  </paragraph>
+                  <paragraph>In Study 2, 9.9% of patients treated with tobramycin inhalation solution and 24.7% of patients who received placebo had unplanned hospitalizations due to the disease.</paragraph>
+                  <paragraph>Also in Study 2, 6.2% of patients treated with tobramycin inhalation solution and 16.5% of placebo patients received parenteral tobramycin.</paragraph>
+               </text>
+               <effectiveTime value="20231001"/>
+               <component>
+                  <observationMedia ID="MM2">
+                     <text>1</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="image-2.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_5c936aad-7f11-42de-980e-7cdb35367b54">
+               <id root="d29ee2e8-2506-4a59-afc7-51f02a6a2d06"/>
+               <code code="34093-5" codeSystem="2.16.840.1.113883.6.1" displayName="REFERENCES SECTION"/>
+               <title>15 REFERENCES</title>
+               <text>
+                  <list listType="ordered" styleCode="Arabic">
+                     <item>Neu HC. Tobramycin: an overview. [Review]. J Infect Dis. 1976;Suppl 134:S3-19.</item>
+                     <item>Weber A, Smith A, Williams-Warren J, et al. Nebulizer delivery of tobramycin to the lower respiratory tract. Pediatr Pulmonol. 1994;17(5):331-9.</item>
+                     <item>Clinical and laboratory Standards Institute (CLSI) Methods for Dilution Antimicrobial Susceptibility Tests for Bacteria that Grow Aerobically: Approved Standard -9<sup>th</sup> edition. CLSI document M07-A9. CLSI 940 West Valley Rd. Suite 1400, Wayne PA 19087-1898. 2012</item>
+                     <item>CLSI Performance Standards for Antimicrobial Susceptibility Testing: 22<sup>nd</sup> Informational supplement CLSI document M100-S22. CLSI 2012.</item>
+                     <item>CLSI Performance standards for Antimicrobial Disk Susceptibility Tests: Approved standard -11<sup>th</sup> ed. CLSI document M02-A11. CLSI 2012.</item>
+                     <item>PARI Vios Aerosol Delivery System with LC Plus Nebulizer: Instructions for Use. PARI Respiratory Equipment, Inc. 2010; 310D0028 Rev A 6-10.</item>
+                  </list>
+               </text>
+               <effectiveTime value="20231001"/>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_387b587b-343a-4327-b60a-f786616c708b">
+               <id root="3b8a6a71-7b05-4876-91c6-4ec2adfe0b26"/>
+               <code code="34069-5" codeSystem="2.16.840.1.113883.6.1" displayName="HOW SUPPLIED SECTION"/>
+               <title>16 HOW SUPPLIED/STORAGE AND HANDLING</title>
+               <effectiveTime value="20231001"/>
+               <component>
+                  <section ID="LINK_a1bb42d2-93f0-46e7-8b15-b40803b8e07f">
+                     <id root="4b5917a1-1a23-4181-a869-d6cd08fe74e9"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>16.1
+How Supplied</title>
+                     <text>
+                        <paragraph>Tobramycin inhalation solution USP, 300 mg/4 mL is supplied as a sterile, clear, colorless to yellow, non-pyrogenic, aqueous solution and is available as follows:</paragraph>
+                        <list listType="unordered" styleCode="Disc">
+                           <item>NDC 0093-3750-28: 4 mL single-dose ampule (carton of 7 foil pouches each containing four ampules)</item>
+                           <item>NDC 0093-3750-63: 4 mL single-dose ampule (carton of 14 foil pouches each containing four ampules)</item>
+                        </list>
+                     </text>
+                     <effectiveTime value="20231001"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_fce16b00-9344-41fc-ac49-02d93e61b303">
+                     <id root="0bb5fb9d-b62a-4178-8b64-a346a782018e"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>16.2
+Storage and Handling</title>
+                     <text>
+                        <paragraph>Tobramycin inhalation solution, USP should be stored under refrigeration at 2°C to 8°C (36°F to 46°F). Upon removal from the refrigerator, or if refrigeration is unavailable, tobramycin inhalation solution pouches (opened or unopened) may be stored at room temperature [up to 25°C (77°F)] for up to 28 days. Tobramycin inhalation solution, USP should not be used beyond the expiration date stamped on the ampule when stored under refrigeration 2°C to 8°C (36°F to 46°F) or beyond 28 days when stored at room temperature [up to 25°C (77°F)].</paragraph>
+                        <paragraph>Tobramycin inhalation solution, USP ampules should not be exposed to intense light. Tobramycin inhalation solution, USP is light sensitive; unopened ampules should be returned to the foil pouch. The solution in the ampule is colorless to yellow, but may darken with age if not stored in the refrigerator; however, the color change does not indicate any change in the quality of the product as long as it is stored within the recommended storage conditions.</paragraph>
+                     </text>
+                     <effectiveTime value="20231001"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_fcf3a7bf-ecc7-4005-8ed7-c038b8ade9ef">
+               <id root="1d48379d-ae7f-4546-8b5b-4c014547b6a6"/>
+               <code code="34076-0" codeSystem="2.16.840.1.113883.6.1" displayName="INFORMATION FOR PATIENTS SECTION"/>
+               <title>17 PATIENT COUNSELING INFORMATION</title>
+               <text>
+                  <paragraph>Advise the patient to read the FDA-approved patient labeling (<linkHtml href="#www.splportal.comLINK_f02ebf33-641d-4f60-8e85-19fe5b2e9277">Patient Information</linkHtml> and <linkHtml href="#www.splportal.comLINK_4f9aa7f8-5d26-4f97-829c-e843543e6b34">Instructions for Use</linkHtml>).</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Information for Patients</content>
+                  </paragraph>
+                  <paragraph>Information on the long term efficacy and safety of tobramycin inhalation solution is limited. There is no information in patients with severe cystic fibrosis (FEV<sub>1</sub> &lt;40% predicted).</paragraph>
+                  <paragraph>Patients should be advised to complete a full 28-day course of tobramycin inhalation solution, even if they are feeling better. After 28 days of therapy, patients should stop tobramycin inhalation solution therapy for the next 28 days, and then resume therapy for the next 28 day on and 28 day off cycle.</paragraph>
+                  <paragraph>For patients taking several different inhaled medications and/or performing chest physiotherapy, advise the patient regarding the order they should take the therapies. It is recommended that tobramycin inhalation solution be taken last.</paragraph>
+                  <paragraph>Tobramycin inhalation solution is to be used with the PARI LC PLUS reusable nebulizer and the PARI VIOS air compressor. Refer to the manufacturer’s instructions for care and use of the nebulizer and compressor.</paragraph>
+               </text>
+               <effectiveTime value="20231001"/>
+               <component>
+                  <section ID="LINK_ecaecebf-52b9-4402-bd53-62da50743e17">
+                     <id root="ad62e8e0-11bc-415b-bbc7-46710ad9bd94"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>17.1
+Ototoxicity</title>
+                     <text>
+                        <paragraph>Inform patients that ototoxicity, as measured by complaints of hearing loss or tinnitus, was reported by patients treated with tobramycin. Physicians should consider an audiogram at baseline, particularly for patients at increased risk of auditory dysfunction.</paragraph>
+                        <paragraph>If a patient reports tinnitus or hearing loss during tobramycin inhalation solution therapy, the physician should refer that patient for audiological assessment. Patients should be reminded that vestibular toxicity may manifest as vertigo, ataxia, or dizziness.</paragraph>
+                     </text>
+                     <effectiveTime value="20231001"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_c99efecf-23fd-43d9-a773-642dad1b01f0">
+                     <id root="e3fac670-1718-481f-b21c-b76228e1b26f"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>17.2
+Bronchospasm</title>
+                     <text>
+                        <paragraph>Inform patients that bronchospasm can occur with inhalation of tobramycin.</paragraph>
+                     </text>
+                     <effectiveTime value="20231001"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_b435af15-fd28-441b-874f-d9bab21484e2">
+                     <id root="3110ab4e-2bb9-45a1-93c9-6988aa010809"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>17.3
+Risks Associated with Aminoglycosides</title>
+                     <text>
+                        <paragraph>Inform patients of adverse reactions associated with aminoglycosides such as nephrotoxicity and neuromuscular disorders.</paragraph>
+                     </text>
+                     <effectiveTime value="20231001"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_fb018e3e-c85b-444f-84bf-7d0b02b4fbc7">
+                     <id root="8e04b704-5c37-41d5-8e67-5a0aa699db7f"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>17.4
+Laboratory Tests</title>
+                     <text>
+                        <paragraph>Inform patients of the need to monitor hearing, serum concentrations of tobramycin, or renal function as necessary during treatment with tobramycin inhalation solution.</paragraph>
+                     </text>
+                     <effectiveTime value="20231001"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_1e4f5dde-ed55-4ded-9b10-e642295b7875">
+                     <id root="a5efc9cd-608c-48d0-b2de-08977d58d155"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>17.5
+Embryo-Fetal Toxicity</title>
+                     <text>
+                        <paragraph>Inform patients that aminoglycosides can cause fetal harm when administered to a pregnant woman. Advise them to inform their doctor if they are pregnant, become pregnant, or plan to become pregnant.</paragraph>
+                     </text>
+                     <effectiveTime value="20231001"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_69731762-2014-47b8-aacd-e8820fa3a711">
+                     <id root="76856522-2873-495e-82d4-9e199e52db95"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>17.6
+Administration</title>
+                     <text>
+                        <paragraph>Patients should be informed about what to do in the event they miss a dose of tobramycin inhalation solution:</paragraph>
+                        <list listType="unordered" styleCode="Disc">
+                           <item>In case a dose of tobramycin inhalation solution is missed and there are at least 6 hours until the next dose, patients should be instructed to take the prescribed dose of tobramycin inhalation solution as soon as possible. Otherwise, the missed dose should not be taken and the patient should resume the usual dosing schedule.</item>
+                           <item>Patients should be advised to contact their healthcare provider if they have questions.</item>
+                        </list>
+                     </text>
+                     <effectiveTime value="20231001"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_b4c2a004-c5df-4ef7-9f3d-9e7ca02c27ba">
+                     <id root="8841fffa-ce90-41e9-8555-63404070bdbc"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>17.7
+Storage Instructions</title>
+                     <text>
+                        <paragraph>You should store tobramycin inhalation solution ampules in a refrigerator (36° to 46°F or 2° to 8°C). However, when you don’t have a refrigerator available (e.g., transporting your tobramycin inhalation solution), you may store the foil pouches (opened or unopened) at room temperature (up to 77°F/25°C) for up to 28 days.</paragraph>
+                        <paragraph>Tobramycin inhalation solution is light sensitive; unopened ampules should be returned to the foil pouch. Avoid exposing tobramycin inhalation solution ampules to intense light. Unrefrigerated tobramycin inhalation solution, which is normally colorless to yellow, may darken with age; however, the color change does not indicate any change in the quality of the product.</paragraph>
+                        <paragraph>You should not use tobramycin inhalation solution if it is cloudy, if there are particles in the solution, or if it has been stored at room temperature for more than 28 days. You should not use tobramycin inhalation solution beyond the expiration date stamped on the ampule.</paragraph>
+                        <paragraph>Brands listed are the trademark of their respective owners. </paragraph>
+                        <paragraph>Manufactured In England By:<br/>
+                           <content styleCode="bold">Norton Healthcare Limited<br/>
+                           </content>
+                           <content styleCode="bold">T/A IVAX Pharmaceuticals UK<br/>
+                           </content>Runcorn, Cheshire WA7 3FA England</paragraph>
+                        <paragraph>Manufactured For:<br/>
+                           <content styleCode="bold">Teva Pharmaceuticals USA, Inc.<br/>
+                           </content>Parsippany, NJ 07054</paragraph>
+                        <paragraph>Rev. A 10/2023</paragraph>
+                     </text>
+                     <effectiveTime value="20231001"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_f02ebf33-641d-4f60-8e85-19fe5b2e9277">
+               <id root="b0c91b50-b83b-4a64-8ea3-a75f31a7f344"/>
+               <code code="42230-3" codeSystem="2.16.840.1.113883.6.1" displayName="SPL PATIENT PACKAGE INSERT SECTION"/>
+               <title>PATIENT INFORMATION</title>
+               <text>
+                  <table width="1000px" cellspacing="0" cellpadding="5">
+                     <col/>
+                     <tbody>
+                        <tr>
+                           <td align="center" styleCode=" Botrule Toprule Lrule Rrule">
+                              <paragraph>
+                                 <content styleCode="bold">Tobramycin (toe" bra mye' sin) Inhalation Solution, USP</content>
+                              </paragraph>
+                              <content styleCode="bold">for oral inhalation use</content>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode=" Botrule Toprule Lrule Rrule"> <content styleCode="bold">What is tobramycin inhalation solution?</content>
+                              <paragraph>Tobramycin inhalation solution is a prescription medicine that is used to treat people with cystic fibrosis who have a bacterial infection called <content styleCode="italics">Pseudomonas aeruginosa</content>. Tobramycin inhalation solution contains an antibacterial medicine called tobramycin (an aminoglycoside).</paragraph>
+                              <paragraph>It is not known if tobramycin inhalation solution is safe and effective:</paragraph>
+                              <list listType="unordered" styleCode="Disc">
+                                 <item>in children under 6 years of age</item>
+                                 <item>in people who have decreased lung volume or a forced expiratory volume in one second (FEV<sub>1</sub>) less than 40% or greater than 80% predicted</item>
+                                 <item>in people who are colonized with a bacterium called <content styleCode="italics">Burkholderia cepacia</content>
+                                 </item>
+                              </list>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode=" Botrule Toprule Lrule Rrule">
+                              <paragraph>
+                                 <content styleCode="bold">Do not take tobramycin inhalation solution </content>if you are allergic to tobramycin, any of the ingredients in tobramycin inhalation solution, or to any other aminoglycoside antibacterial.</paragraph>
+                              <content styleCode="bold">See the end of this Patient Information for a complete list of ingredients in tobramycin inhalation solution.</content>
+                              <br/>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode=" Botrule Toprule Lrule Rrule">
+                              <paragraph>
+                                 <content styleCode="bold">Before you take tobramycin inhalation solution, tell your healthcare provider about all of your medical conditions, including if you:</content>
+                              </paragraph>
+                              <list listType="unordered" styleCode="Disc">
+                                 <item>have or have had hearing problems (including noises in your ears such as ringing or hissing), hearing loss, or your mother has had hearing problems after taking an aminoglycoside.</item>
+                                 <item>have been told you have certain gene variants (a change in the gene) related to hearing abnormalities inherited from your mother.</item>
+                                 <item>have dizziness</item>
+                                 <item>have or have had kidney problems</item>
+                                 <item>have or have had problems with muscle weakness such as myasthenia gravis or Parkinson’s disease</item>
+                                 <item>have or have had breathing problems such as wheezing, coughing, or chest tightness</item>
+                                 <item>are pregnant or plan to become pregnant. Tobramycin inhalation solution is in a class of medicines that can harm your unborn baby and may be connected with complete deafness in babies at birth. The deafness affects both ears and cannot be changed.</item>
+                                 <item>are breastfeeding or plan to breastfeed. It is not known if tobramycin passes into your breast milk. Tobramycin, the medicine in tobramycin inhalation solution may cause the following symptoms in your breastfed baby:
+                <list listType="unordered" styleCode="Circle">
+                                       <item>loose or bloody stools</item>
+                                       <item>yeast infection in the mouth or throat (thrush)</item>
+                                       <item>diaper rash</item>
+                                    </list>
+                                 </item>
+                              </list>
+                              <paragraph>
+                                 <content styleCode="bold">Call your baby’s healthcare provider if your breastfed baby has any of these problems.</content> Talk to your healthcare provider about the best way to feed your baby during treatment with tobramycin inhalation solution.</paragraph>
+                              <list listType="unordered" styleCode="Disk">
+                                 <item>are receiving aminoglycoside therapy by injection or through a vein (intravenous) while taking tobramycin inhalation solution. Your blood levels of tobramycin will be checked.</item>
+                              </list>
+                              <content styleCode="bold">Tell your healthcare provider about all the medicines you take, </content>including prescription medicines, over-the-counter medicines, vitamins, and herbal supplements.<br/>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode=" Botrule Toprule Lrule Rrule">
+                              <paragraph>
+                                 <content styleCode="bold">How should I take tobramycin inhalation solution?</content>
+                              </paragraph>
+                              <list listType="unordered" styleCode="Disc">
+                                 <item>
+                                    <content styleCode="bold">See the step-by-step Instructions for Use</content> at the end of this Patient Information leaflet about the right way to take your tobramycin inhalation solution.</item>
+                                 <item>Take tobramycin inhalation solution exactly as your healthcare provider tells you to. <content styleCode="bold">Do not</content> change your dose or stop taking tobramycin inhalation solution unless your healthcare provider tells you to.</item>
+                                 <item>The usual dose of tobramycin inhalation solution for adults and children over 6 years of age is:
+                <list listType="unordered" styleCode="Circle">
+                                       <item>1 single-dose ampule of tobramycin inhalation solution inhaled 2 times each day using your hand-held PARI LC PLUS Reusable Nebulizer with a PARI Vios air compressor.</item>
+                                    </list>
+                                 </item>
+                                 <item>Each dose of tobramycin inhalation solution should be taken as close to 12 hours apart as possible.</item>
+                                 <item>You should not take your dose of tobramycin inhalation solution less than 6 hours apart.</item>
+                                 <item>Tobramycin inhalation solution is taken as a breathing treatment (inhalation) with a hand-held PARI LC Reusable Nebulizer with a PARI Vios air compressor. <content styleCode="bold">Do not</content> use any other nebulizer for your tobramycin inhalation solution treatment.</item>
+                                 <item>Do not mix or dilute tobramycin inhalation solution with dornase alfa or other medicines in your nebulizer system.</item>
+                                 <item>Each treatment of tobramycin inhalation solution should take about 15 minutes.</item>
+                                 <item>Tobramycin inhalation solution should be inhaled while you are sitting or standing upright and breathing normally through the mouthpiece of the nebulizer. Nose clips may help you to breathe through your mouth.</item>
+                                 <item>If you forget to take tobramycin inhalation solution and there are at least 6 hours to your next dose, take your dose as soon as you can. Otherwise, wait for your next dose. Do not double the dose to make up for the missed dose.</item>
+                                 <item>After taking tobramycin inhalation solution for 28 days, you should stop taking it and wait 28 days. After you have stopped taking tobramycin inhalation solution for 28 days, you should start taking tobramycin inhalation solution again for 28 days. Complete the full 28-day course even if you are feeling better. It is important that you keep to the 28-day on, 28-day off cycle.</item>
+                              </list>
+                              <paragraph>If you are taking several other medicines or treatments to treat your cystic fibrosis, you should take your medicines or other treatments before inhaling tobramycin inhalation solution or as directed by your healthcare provider.</paragraph>
+                              <paragraph>Taking tobramycin inhalation solution with certain other medicines can cause serious side effects.</paragraph>
+                              <paragraph>If you are taking tobramycin inhalation solution, you should discuss with your healthcare provider if you should take:</paragraph>
+                              <list listType="unordered" styleCode="Disc">
+                                 <item>other medicines that may harm your nervous system, kidneys, or hearing</item>
+                                 <item>“water pills” (diuretics) such as ethacrynic acid, furosemide, or intravenous mannitol</item>
+                                 <item>Urea</item>
+                              </list>
+                              <paragraph>Ask your healthcare provider or pharmacist for a list of these medicines, if you are not sure.</paragraph>
+                              <paragraph>Know the medicines you take. Keep a list of them and show it to your healthcare provider and pharmacist when you get a new medicine.</paragraph>
+                              <list listType="unordered" styleCode="Disk">
+                                 <item> If you take too much tobramycin inhalation solution, call your healthcare provider or go to the nearest hospital emergency room right away.</item>
+                              </list>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode=" Botrule Toprule Lrule Rrule">
+                              <paragraph>
+                                 <content styleCode="bold">What are the possible side effects of tobramycin inhalation solution? </content>
+                              </paragraph>
+                              <paragraph>
+                                 <content styleCode="bold">Tobramycin inhalation solution can cause serious side effects, including:</content>
+                              </paragraph>
+                              <list listType="unordered" styleCode="Disc">
+                                 <item>
+                                    <content styleCode="bold">hearing loss or ringing in the ears (ototoxicity).</content> Some people who were treated with tobramycin, the medicine in tobramycin inhalation solution had hearing loss or ringing in the ears. Tell your healthcare provider right away if you have hearing loss or hear noises in your ears (such as ringing or hissing), or if you develop vertigo, dizziness, or difficulty with balance.</item>
+                                 <item>
+                                    <content styleCode="bold">worsening kidney problems (nephrotoxicity).</content> Your healthcare provider may do a blood test and urine test to check how your kidneys are working while you are taking tobramycin inhalation solution.</item>
+                                 <item>
+                                    <content styleCode="bold">worsening muscle weakness (neuromuscular disorder).</content> Tobramycin inhalation solution can cause muscle weakness to get worse in people who already have problems with muscle weakness (myasthenia gravis or Parkinson’s disease).</item>
+                                 <item>
+                                    <content styleCode="bold">severe breathing problems (bronchospasm). </content>Tell your healthcare provider right away if you get any of these symptoms of bronchospasm while taking tobramycin inhalation solution:
+                <list listType="unordered" styleCode="Circle">
+                                       <item>shortness of breath with wheezing</item>
+                                       <item>coughing and chest tightness</item>
+                                    </list>
+                                 </item>
+                              </list>
+                              <paragraph>
+                                 <content styleCode="bold">The most common side effects of tobramycin inhalation solution include:</content>
+                              </paragraph>
+                              <list listType="unordered" styleCode="Disc">
+                                 <item>worsening of lung problems or cystic fibrosis</item>
+                                 <item>noisy breathing (rales)</item>
+                                 <item>abnormal red blood cell activity</item>
+                                 <item>changes in your voice (hoarseness)</item>
+                              </list>
+                              <paragraph>These are not all of the possible side effects of tobramycin inhalation solution.</paragraph>
+            Call your doctor for medical advice about side effects. You may report side effects to FDA at 1-800-FDA-1088.</td>
+                        </tr>
+                        <tr>
+                           <td styleCode=" Botrule Toprule Lrule Rrule">
+                              <paragraph>
+                                 <content styleCode="bold">General information about the safe and effective use of tobramycin inhalation solution.</content>
+                              </paragraph>
+                              <paragraph>Medicines are sometimes prescribed for purposes other than those listed in a Patient Information leaflet. Do not use tobramycin inhalation solution for a condition for which it was not prescribed. Do not give tobramycin inhalation solution to other people, even if they have the same symptoms that you have. It may harm them.</paragraph>
+            You can ask your pharmacist or healthcare provider for more information about tobramycin inhalation solution that is written for health professionals.</td>
+                        </tr>
+                        <tr>
+                           <td styleCode=" Botrule Toprule Lrule Rrule">
+                              <paragraph>
+                                 <content styleCode="bold">What are the ingredients in tobramycin inhalation solution? </content>
+                              </paragraph>
+                              <paragraph>
+                                 <content styleCode="bold">Active ingredient:</content> tobramycin, USP</paragraph>
+                              <content styleCode="bold">Inactive ingredients:</content> sodium chloride and trisodium citrate dihydrate in sterile water for injection. Sulfuric acid and sodium hydroxide are used, as needed, to adjust the pH.</td>
+                        </tr>
+                        <tr>
+                           <td styleCode=" Botrule Toprule Lrule Rrule">
+                              <paragraph>
+                                 <content styleCode="bold">What is Pseudomonas aeruginosa?</content>
+                              </paragraph>
+                              <paragraph>It is a very common bacterium that infects the lungs of nearly everyone with cystic fibrosis at some time during their lives. Some people do not get this infection until later in their lives, while others get it very young. It is one of the most damaging bacteria for people with cystic fibrosis. If the infection is not properly managed, it will continue to damage your lungs causing further problems to your breathing.</paragraph>
+                              <paragraph>Brands listed are the trademark of their respective owners.</paragraph>
+                              <paragraph>Manufactured In England By: <content styleCode="bold">Norton Healthcare Limited T/A IVAX Pharmaceuticals UK, </content>Runcorn, Cheshire WA7 3FA England<br/>
+            Manufactured For: <content styleCode="bold">Teva Pharmaceuticals USA, Inc., </content>Parsippany, NJ 07054</paragraph>
+                              <paragraph>For more information call Teva Pharmaceuticals USA, Inc. at 1-888-838-2872.</paragraph>
+                           </td>
+                        </tr>
+                     </tbody>
+                  </table>
+                  <paragraph>This Patient Information has been approved by the U.S. Food and Drug Administration.                                                                                   Rev. A 10/2023</paragraph>
+               </text>
+               <effectiveTime value="20231001"/>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_4f9aa7f8-5d26-4f97-829c-e843543e6b34">
+               <id root="8a7703ba-26e3-4b27-8006-4598d7ee6995"/>
+               <code code="59845-8" codeSystem="2.16.840.1.113883.6.1" displayName="INSTRUCTIONS FOR USE SECTION"/>
+               <title>INSTRUCTIONS FOR USE</title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">Tobramycin (toe" bra mye' sin) Inhalation Solution, USP </content>
+                  </paragraph>
+                  <paragraph>Follow the instructions below for taking tobramycin inhalation solution. If you have any questions, ask your healthcare provider or pharmacist.</paragraph>
+                  <paragraph>Tobramycin inhalation solution is available as a 28-day supply containing 56 ampules including 14 foil pouches and as a 14-day supply containing 28 ampules including 7 foil pouches. Each foil pouch contains 4 tobramycin inhalation solution ampules.</paragraph>
+                  <paragraph>Supplies you will need to take tobramycin inhalation solution (See Figure A):</paragraph>
+                  <list listType="unordered" styleCode="Disc">
+                     <item>1 ampule of tobramycin inhalation solution</item>
+                     <item>PARI LC PLUS reusable nebulizer</item>
+                     <item>PARI Vios compressor</item>
+                     <item>tubing to connect the nebulizer and compressor</item>
+                     <item>clean paper or cloth towels</item>
+                     <item>nose clips (optional)</item>
+                  </list>
+                  <renderMultiMedia referencedObject="MM3">
+                     <caption>(Figure A)</caption>
+                  </renderMultiMedia>
+                  <paragraph>
+                     <content styleCode="bold">Tobramycin inhalation solution is used only in a PARI LC PLUS re-usable Nebulizer connected to a PARI LC PLUS Vios air compressor. Make sure you know how to use your nebulizer machine before you use it to breathe in tobramycin inhalation solution.</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold"> </content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Do not</content> mix tobramycin inhalation solution with other medicines in your nebulizer.</paragraph>
+                  <paragraph>Tobramycin inhalation solution comes in a sealed foil pouch. Do not open a sealed pouch until you are ready to use a dose of tobramycin inhalation solution. After opening the pouch, unused ready-to-use ampules should be returned to, and stored in, the pouch.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Getting ready:</content>
+                  </paragraph>
+                  <list listType="unordered" styleCode="Disc">
+                     <item>Put your PARI LC PLUS Reusable Nebulizer Top and Bottom (Nebulizer Cup) Assembly, Inspiratory Valve Cap, Mouthpiece with Valve, and Tubing on a clean and dry surface.</item>
+                     <item>Wash your hands with soap and water.</item>
+                  </list>
+                  <paragraph>
+                     <content styleCode="bold">Preparing your tobramycin inhalation solution dose:</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Step 1: </content> Open foil pouch. (See Figure B)</paragraph>
+                  <renderMultiMedia referencedObject="MM4">
+                     <caption>(Figure B)</caption>
+                  </renderMultiMedia>
+                  <paragraph>
+                     <content styleCode="bold">Step 2:</content>  Separate 1 ampule by gently pulling apart at the bottom tabs (See Figure C) and use it right away.</paragraph>
+                  <renderMultiMedia referencedObject="MM5">
+                     <caption>(Figure C)</caption>
+                  </renderMultiMedia>
+                  <paragraph>
+                     <content styleCode="bold"> </content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Step 3:  </content>Hold the bottom tab on the tobramycin inhalation solution ampule with 1 hand (See Figure D). With your other hand, hold the top of the ampule and twist off the top of the ampule (See Figure D).</paragraph>
+                  <list listType="unordered" styleCode="Disc">
+                     <item>Do not squeeze the ampule until you are ready to squeeze all the medicine into the Nebulizer Cup.</item>
+                  </list>
+                  <renderMultiMedia referencedObject="MM6">
+                     <caption>(Figure D)</caption>
+                  </renderMultiMedia>
+                  <paragraph>
+                     <content styleCode="bold">Step 4:  </content>Hold the Nebulizer Cup and twist off the Nebulizer Cup Top in a counter-clockwise direction </paragraph>
+                  <paragraph>             (See Figure E). Set the Top aside on a clean, dry surface.</paragraph>
+                  <renderMultiMedia referencedObject="MM7">
+                     <caption>(Figure E)</caption>
+                  </renderMultiMedia>
+                  <paragraph>
+                     <content styleCode="bold">Step 5:</content>  Squeeze all of the medicine from the ampule into the Nebulizer Cup (See Figure F).</paragraph>
+                  <renderMultiMedia referencedObject="MM8">
+                     <caption>(Figure F)</caption>
+                  </renderMultiMedia>
+                  <paragraph>
+                     <content styleCode="bold">Step 6:</content>  Line up the semi-circle on the Nebulizer Cup Top with the Nebulizer Cup Outlet and twist on the </paragraph>
+                  <paragraph>             Nebulizer Cup Top in a clock-wise direction until it is tight. (See Figure G).</paragraph>
+                  <renderMultiMedia referencedObject="MM9">
+                     <caption>(Figure G)</caption>
+                  </renderMultiMedia>
+                  <paragraph>
+                     <content styleCode="bold">Step 7:</content>  Push the mouthpiece straight onto the Nebulizer Cup Outlet (See Figure H).</paragraph>
+                  <renderMultiMedia referencedObject="MM10">
+                     <caption>(Figure H)</caption>
+                  </renderMultiMedia>
+                  <paragraph>
+                     <content styleCode="bold">Step 8:</content>  Firmly push the Inspiratory Valve Cap straight down onto the Nebulizer Cup Top (See Figure I). The </paragraph>
+                  <paragraph>              Inspiratory Valve Cap should fit tightly.</paragraph>
+                  <renderMultiMedia referencedObject="MM11">
+                     <caption>(Figure I)</caption>
+                  </renderMultiMedia>
+                  <paragraph>
+                     <content styleCode="bold">Step 9:</content>  Connect 1 end of the tubing to the compressor air outlet. The tubing should fit tightly (See Figure J).</paragraph>
+                  <renderMultiMedia referencedObject="MM12">
+                     <caption>(Figure J)</caption>
+                  </renderMultiMedia>
+                  <paragraph>
+                     <content styleCode="bold">Step 10:</content>  Plug your compressor plug into an electrical outlet (See Figure K).</paragraph>
+                  <renderMultiMedia referencedObject="MM13">
+                     <caption>(Figure K)</caption>
+                  </renderMultiMedia>
+                  <paragraph>
+                     <content styleCode="bold">Step 11:</content>  Hold the Nebulizer Cup upright and firmly push the free end of the tubing straight up onto the Air </paragraph>
+                  <paragraph>               Intake on the bottom of the Nebulizer Cup (See Figure L). <content styleCode="bold">Make sure to keep the Nebulizer Cup </content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">              upright.</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold"> </content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">
+                        <renderMultiMedia referencedObject="MM14">
+                           <caption>(Figure L)</caption>
+                        </renderMultiMedia>
+                     </content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Giving your tobramycin inhalation solution dose:</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Step 12:</content>  Turn on the compressor (Figure M) and check the Mouthpiece. You should see a steady mist coming </paragraph>
+                  <paragraph>                from the Mouthpiece (Figure N).</paragraph>
+                  <list listType="unordered" styleCode="Disc">
+                     <item>If you do not see a steady mist coming from the mouthpiece, check all tubing connections and make sure that the compressor is working the right way.</item>
+                  </list>
+                  <renderMultiMedia referencedObject="MM15">
+                     <caption>(Figure M)</caption>
+                  </renderMultiMedia>
+                  <renderMultiMedia referencedObject="MM16">
+                     <caption>(Figure N)</caption>
+                  </renderMultiMedia>
+                  <paragraph>
+                     <content styleCode="bold">Step 13:</content>  Sit or stand in a comfortable, upright position that will let you breathe normally. Place the </paragraph>
+                  <paragraph>               Mouthpiece between your teeth and on top of your tongue and breathe normally only through your </paragraph>
+                  <paragraph>               mouth (See Figure O).</paragraph>
+                  <list listType="unordered" styleCode="Disk">
+                     <item>Nose clips may help you breathe only through your mouth and not through your nose.</item>
+                  </list>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="MM17">
+                        <caption>(Figure O)</caption>
+                     </renderMultiMedia>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Step 14:</content>  Keep breathing in your tobramycin inhalation solution dose for at least 15 minutes. You will know that you have received </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">          </content>your full dose of medicine when you hear a “spitting noise” coming from the Mouthpiece for at least </paragraph>
+                  <paragraph>           1 minute and the Nebulizer Cup is empty.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">After your tobramycin inhalation solution dose:</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Step 15:</content>  Clean and disinfect your nebulizer (see manufacturer’s instructions).</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Care and Use of Your PARI Vios<sup>®</sup> Compressor</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold"> </content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Follow the manufacturer’s instructions for care and use of your compressor.</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold"> </content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">How should I store tobramycin inhalation solution?</content>
+                  </paragraph>
+                  <list listType="unordered" styleCode="Disc">
+                     <item>Store tobramycin inhalation solution in the refrigerator at 36°F to 46°F (2°C to 8°C) until needed.</item>
+                     <item>After removing from the refrigerator, or if refrigeration is not available, tobramycin inhalation solution foil pouches (opened or unopened) may be stored at room temperature <content styleCode="bold">up to</content> 77 °F (25 °C) for up to 28 days.</item>
+                     <item>If tobramycin inhalation solution is not stored in the refrigerator but at room temperature up to 77 °F (25 °C) it may turn dark. If tobramycin inhalation solution turns dark, it does not change how well tobramycin inhalation solution works. Tobramycin inhalation solution can still be used as long as it is stored at room temperature <content styleCode="bold">up to</content> 77 °F (25 °C).</item>
+                     <item>Do not use tobramycin inhalation solution after the expiration date printed on the ampule.</item>
+                     <item>Keep tobramycin inhalation solution ampules in the foil pouch and away from light.</item>
+                     <item>Return unopened ampules to the foil pouch</item>
+                     <item>
+                        <content styleCode="bold">Keep tobramycin inhalation solution and all medicines out of the reach of children.</content>
+                     </item>
+                  </list>
+                  <paragraph>This Patient Information and Instructions for Use have been approved by the U.S. Food and Drug Administration.</paragraph>
+                  <paragraph>Brands listed are the trademark of their respective owners.<br/>
+                  </paragraph>
+                  <paragraph>Manufactured In England By:<br/>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Norton Healthcare Limited<br/>
+                     </content>
+                     <content styleCode="bold">T/A IVAX Pharmaceuticals UK<br/>
+                     </content>Runcorn, Cheshire WA7 3FA England</paragraph>
+                  <paragraph>Manufactured For:<br/>
+                     <content styleCode="bold">Teva Pharmaceuticals USA, Inc.<br/>
+                     </content>Parsippany, NJ 07054</paragraph>
+                  <paragraph>Iss. 2/2020<br/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20231001"/>
+               <component>
+                  <observationMedia ID="MM3">
+                     <text>1</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="image-3.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="MM4">
+                     <text>1</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="image-4.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="MM5">
+                     <text>1</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="image-5.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="MM6">
+                     <text>1</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="image-6.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="MM7">
+                     <text>1</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="image-7.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="MM8">
+                     <text>1</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="image-8.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="MM9">
+                     <text>1</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="image-9.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="MM10">
+                     <text>1</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="image-10.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="MM11">
+                     <text>1</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="image-11.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="MM12">
+                     <text>1</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="image-12.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="MM13">
+                     <text>1</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="image-13.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="MM14">
+                     <text>1</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="image-14.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="MM15">
+                     <text>1</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="image-15.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="MM16">
+                     <text>1</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="image-16.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="MM17">
+                     <text>1</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="image-17.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_02fb0b17-7bf9-4218-b810-272d082f5f86">
+               <id root="cf179bf9-0135-4cdb-8e45-5c87fa7aa328"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>PACKAGE LABEL.PRINCIPAL DISPLAY PANEL</title>
+               <text>
+                  <paragraph>NDC 0093-3750-28<br/>Tobramycin Inhalation Solution, USP<br/>300 mg/4 mL<br/>For Oral Inhalation Only by Nebulizer<br/>Single-Dose Only, Discard Each Ampule After One Use<br/>Storage: Store in a Refrigerator at 2°C to 8°C (36°F to 46°F)<br/>Tobramycin Inhalation Solution, USP is light sensitive; unopened ampules should be returned to the foil pouch.<br/>Rx only<br/>28 Single-Dose Ampules (14-Day Supply)<br/>(4 single-dose ampules per pouch. 7 pouches per carton)</paragraph>
+                  <renderMultiMedia referencedObject="MM18"/>
+               </text>
+               <effectiveTime value="20231001"/>
+               <component>
+                  <observationMedia ID="MM18">
+                     <text>carton</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="image-18.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

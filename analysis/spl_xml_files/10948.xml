@@ -1,0 +1,478 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="https://www.accessdata.fda.gov/spl/stylesheet/spl.xsl" type="text/xsl"?>
+<document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:hl7-org:v3" xsi:schemaLocation="urn:hl7-org:v3 https://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="1ae0e94b-14fa-9671-e063-6394a90a3d6f"/>
+   <code code="34391-3" codeSystem="2.16.840.1.113883.6.1" displayName="HUMAN PRESCRIPTION DRUG LABEL"/>
+   <effectiveTime value="20240614"/>
+   <setId root="1a3aeb59-d589-8d12-e063-6394a90a0a3a"/>
+   <versionNumber value="2"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id root="1.3.6.1.4.1.519.1" extension="080260470"/>
+            <name>EDW PHARMA</name>
+            <assignedEntity>
+               <assignedOrganization>
+                  <id root="1.3.6.1.4.1.519.1" extension="080260470"/>
+                  <name>EDW PHARMA</name>
+               </assignedOrganization>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section>
+               <id root="1ae09096-a797-1336-e063-6394a90a5821"/>
+               <code code="48780-1" codeSystem="2.16.840.1.113883.6.1" displayName="SPL product data elements section"/>
+               <effectiveTime value="20240614"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="70726-0306" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>Teglutik</name>
+                        <formCode code="C42953" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="LIQUID"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>Riluzole</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="6M3P64V0NC" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>MAGNESIUM ALUMINUM SILICATE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="506T60A25R" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SORBITOL</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="YRC528SWUY" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>POLYOXYL 20 CETOSTEARYL ETHER</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="059QF0KO0R" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>WATER</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="SB8ZUX40TY" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SACCHARIN SODIUM</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="ETJ7Z6XBU4" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SILICON DIOXIDE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="92RU3N3Y1O" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>DIMETHICONE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="368GB5141J" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SODIUM LAURYL SULFATE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="TTV12P4NEE" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>XANTHAN GUM</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator unit="mg" value="5"/>
+                              <denominator unit="mL" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="7LJ087RS6F" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>RILUZOLE</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="7LJ087RS6F" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>RILUZOLE</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator value="300" unit="mL"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="70726-0306-1" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43173" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BOTTLE, PLASTIC"/>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                           <subjectOf>
+                              <marketingAct>
+                                 <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 <statusCode code="active"/>
+                                 <effectiveTime>
+                                    <low value="20240610"/>
+                                 </effectiveTime>
+                              </marketingAct>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <code code="C101533" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Unapproved drug for use in drug shortage"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20240610"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLCOLOR" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value code="C48332" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="brown" xsi:type="CE">
+                              <originalText>slightly brown, opaque</originalText>
+                           </value>
+                        </characteristic>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38288" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ORAL"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_0e162bbf-bae7-ec6e-e063-6294a90a0de8">
+               <id root="1ae0f42b-c7e1-6e2d-e063-6294a90a3246"/>
+               <code code="71744-7" codeSystem="2.16.840.1.113883.6.1" displayName="HEALTH CARE PROVIDER LETTER SECTION"/>
+               <title>Important Prescribing Information</title>
+               <text>
+                  <paragraph>May2024</paragraph>
+                  <paragraph/>
+                  <paragraph>
+                     <content styleCode="bold">Subject: Temporary importation of TEGLUTIK (riluzole oral suspension, 5 mg/mL) with English labeling to address drug shortage in the United States </content>
+                  </paragraph>
+                  <paragraph/>
+                  <paragraph>Dear Health Care Provider,</paragraph>
+                  <paragraph/>
+                  <paragraph>The purpose of this letter is to inform you about a temporary importation in the United States (U.S.) of TEGLUTIK (riluzole 5 mg/mL oral suspension) with bottle and carton labels in English, in coordination with the U.S. Food and Drug Administration (FDA) to mitigate the current shortage of FDA-approved Tiglutik (riluzole oral suspension, 50 mg/10 mL) in the U.S. This temporary supply of TEGLUTIK is marketed and manufactured by Italfarmaco in Spain and is not FDA-approved.</paragraph>
+                  <paragraph/>
+                  <paragraph>Riluzole is indicated for the treatment of amyotrophic lateral sclerosis (ALS). Recently, Tiglutik was recalled in the U.S. market due to an out-of-specification test result for viscosity.</paragraph>
+                  <paragraph>
+                     <br/>
+At this time, no other entity except EDW Pharma, Inc. (formerly Italfarmaco (ITF) Pharma, Inc.) is authorized by the FDA to import or distribute Italfarmaco's TEGLUTIK riluzole oral suspension in the U.S.
+ </paragraph>
+                  <paragraph>
+                     <br/>
+Effective immediately, and during this temporary period, EDW Pharma, Inc. will distribute the following presentation of riluzole oral suspension to address the critical shortage:
+ </paragraph>
+                  <table border="0" width="100%">
+                     <tbody>
+                        <tr>
+                           <td>Product Name</td>
+                           <td>Quantity</td>
+                           <td>Descriptions</td>
+                           <td>U.S. NDC number</td>
+                           <td>Lot Number</td>
+                           <td>Expiration Date</td>
+                        </tr>
+                        <tr>
+                           <td>
+                              <paragraph>TEGLUTIK</paragraph>
+                              <paragraph>riluzole oral | carton</paragraph>
+                              <paragraph>suspension</paragraph>
+                              <paragraph>(5 mg/mL)</paragraph>
+                           </td>
+                           <td>1 bottle per carton</td>
+                           <td>
+                              <paragraph>Teglutik is presented</paragraph>
+                              <paragraph>as a slightly brown,</paragraph>
+                              <paragraph>opaque homogeneous oral</paragraph>
+                              <paragraph>suspension after being</paragraph>
+                              <paragraph>manually gently shaken.</paragraph>
+                              <paragraph>TEGLUTIK is</paragraph>
+                              <paragraph>available in a bottle</paragraph>
+                              <paragraph>of 300 ml with a</paragraph>
+                              <paragraph>plastic graduated oral dosing</paragraph>
+                              <paragraph>syringe. The</paragraph>
+                              <paragraph>syringe barrel is</paragraph>
+                              <paragraph>graduated in</paragraph>
+                              <paragraph>milliliters up to 10 ml.</paragraph>
+                           </td>
+                           <td>70726-0306-1</td>
+                           <td>24008</td>
+                           <td>04/2027</td>
+                        </tr>
+                     </tbody>
+                  </table>
+                  <paragraph>The safety profiles of the FDA-approved Tiglutik and imported TEGLUTIK products are comparable and no specific safety concerns emerged from the comparison of the two products.
+  <br/>
+Please refer to the side-by-side comparison of the labels (enclosed) for additional information.
+  <br/>
+Tiglutik is available only by prescription in the U.S. The imported lot does not have the statement "Rx only" on its labeling.
+ </paragraph>
+                  <paragraph/>
+                  <paragraph>
+                     <content styleCode="bold">The barcode on the imported product label may not register accurately on the U.S. scanning systems. </content>Institutions should manually input the imported product information into their systems and confirm that the barcode, if scanned, provides correct information. Alternative procedures should be followed to assure that the correct drug product is being used and administered to individual patients.
+ </paragraph>
+                  <paragraph/>
+                  <paragraph>
+                     <content styleCode="bold">In addition, the package of the imported product does not include a product identifier as required under the Drug Supply Chain Security Act (DSCSA).</content> Specifically, each package does not include the NDC, unique serial number, lot number, and expiration date in both human- readable and a two-dimensional data matrix barcode. Additionally, the imported product may not be accompanied with DSCSA-required product tracing documentation (transaction information, transaction history, and transaction statement).
+ </paragraph>
+                  <paragraph>Reporting Adverse Events</paragraph>
+                  <paragraph/>
+                  <paragraph>Health care providers and patients are encouraged to report adverse events and medication errors in patients taking TEGLUTIK to AnovoRx at 1-844-763-1198. You are encouraged to report negative side effects of prescription drugs to the FDA.</paragraph>
+                  <paragraph>Adverse events or quality problems experienced with the use of this product may also be reported to the FDA's MedWatch Adverse Event Reporting Program either online, by regular mail, or by fax:</paragraph>
+                  <list listType="unordered">
+                     <item>Complete and submit the report Online: www.fda.gov/medwatch/report.htm</item>
+                     <item>Regular mail or Fax: Download form www.fda.gov/MedWatch/getforms.htm or call 1- 800-332-1088 to request a reporting form, then complete and return to the address on the pre-addressed form or submit by fax to 1-800-FDA-0178 (1-800-332-0178).</item>
+                  </list>
+                  <paragraph/>
+                  <paragraph>You may also contact AnovoRx at 1-844-763-1198 if you have any questions about the information contained in this letter or the safe and effective use of TEGLUTIK.</paragraph>
+                  <paragraph/>
+                  <paragraph>This letter is not intended as a complete description of the benefits and risks related to the use of TEGLUTIK. Please refer to the enclosed TEGLUTIK SmPC and Tiglutik USPI side-by- side comparison.</paragraph>
+                  <paragraph/>
+                  <paragraph>For additional information, please visit www.tiglutik.com and www.edwpharma.com.</paragraph>
+                  <paragraph>Sincerely,</paragraph>
+                  <paragraph>Peter Cook</paragraph>
+                  <paragraph>CEO and President</paragraph>
+                  <paragraph>EDW Pharma, Inc. (Formerly ITF Pharma, Inc.)</paragraph>
+                  <table border="0" width="100%">
+                     <tbody>
+                        <tr>
+                           <td>
+                              <renderMultiMedia referencedObject="img_1a3b1f7b-a457-c43d-e063-6394a90a3f6e"/>
+                           </td>
+                           <td>
+                              <renderMultiMedia referencedObject="img_0f516300-bd38-7b83-e063-6394a90ab1c0"/>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td>
+                              <paragraph>(UK Bottle TEXT)</paragraph>
+                           </td>
+                           <td>
+                              <paragraph>(u.s. BOTTLE label - TEXT)</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td>
+                              <paragraph>NAME OF THE MEDICINAL PRODUCT</paragraph>
+                              <paragraph>TEGLUTIK 5 mg/ml oral suspension
+      <br/>
+			riluzole
+     </paragraph>
+                           </td>
+                           <td>
+                              <paragraph>NAME OF THE MEDICINAL PRODUCT</paragraph>
+                              <paragraph>TIGLUTIK®
+      <br/>
+			riluzole
+      <br/>
+			oral suspension
+      <br/>
+			50mg/10ml(5mg/ml)
+     </paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td>
+                              <paragraph>STATEMENT OF ACTIVE SUBSTANCE(S)</paragraph>
+                              <paragraph>1 ml contains: 5 mg of riluzole</paragraph>
+                           </td>
+                           <td>
+                              <paragraph>STATEMENT OF ACTIVE SUBSTANCE(S)</paragraph>
+                              <paragraph>Contains: TIGLUTIK® 50 mg/10 mL (5 mg/mL)</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td>
+                              <paragraph>LIST OF EXCIPIENTS</paragraph>
+                              <paragraph>Also contains: liquid sorbitol (E420)</paragraph>
+                           </td>
+                           <td>
+                              <paragraph>-------</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td>
+                              <paragraph>PHARMACEUTICAL FORM AND CONTENTS</paragraph>
+                              <paragraph>Oral suspension</paragraph>
+                              <paragraph>Bottle of 300 ml</paragraph>
+                           </td>
+                           <td>
+                              <paragraph>PHARMACEUTICAL FORM AND CONTENTS</paragraph>
+                              <paragraph>s product is a ling Information.</paragraph>
+                              <paragraph>TIGLUTIK® 50 mg/10 mL (5 mg/mL) oral suspension is a slightly brown, opaque,</paragraph>
+                              <paragraph>homogeneous suspension when mixed, containing 50 mg of riluzole per 10 mL of suspension</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td>
+                              <paragraph>METHOD AND ROUTE(S) OF ADMINISTRATION</paragraph>
+                              <paragraph>Read the package leaflet before use</paragraph>
+                              <paragraph>Oral use</paragraph>
+                              <paragraph>Administration via enteral feeding tubes</paragraph>
+                              <paragraph>Shake gently before use</paragraph>
+                           </td>
+                           <td>
+                              <paragraph>METHOD AND ROUTE(S) OF ADMINISTRATION</paragraph>
+                              <paragraph>Before use, please read the enclosed Prescribing Information.</paragraph>
+                              <paragraph>For oral administration</paragraph>
+                              <paragraph>Shake gently before use</paragraph>
+                              <paragraph>The bottle must be gently shaken for at least 30 seconds by continuously rotating the bottle 180° until the visual appearance of the suspension is homogeneous.</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td>
+                              <paragraph>DOSAGE</paragraph>
+                              <paragraph>-----</paragraph>
+                           </td>
+                           <td>
+                              <paragraph>DOSAGE</paragraph>
+                              <paragraph>The recommended dose is 10 mL of TIGLUTIK® oral suspension, containing 50 mg of riluzole, taken orally twice daily, every 12 hours.</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td>
+                              <paragraph>SPECIAL WARNING THAT THE MEDICINAL PRODUCT MUST BE STORED OUT OF THE SIGHT AND REACH OF CHILDREN</paragraph>
+                              <paragraph>Keep out of the sight and reach of children</paragraph>
+                           </td>
+                           <td>
+                              <paragraph>SPECIAL WARNING THAT THE MEDICINAL PRODUCT MUST BE STORED OUT OF THE SIGHT AND REACH OF CHILDREN</paragraph>
+                              <paragraph>Keep out of reach of children.</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td>
+                              <paragraph>SPECIAL STORAGE CONDITIONS</paragraph>
+                              <paragraph>Expiry:</paragraph>
+                              <paragraph>Once opened, use within 15 days</paragraph>
+                           </td>
+                           <td>
+                              <paragraph>SPECIAL STORAGE CONDITIONS</paragraph>
+                              <paragraph>Store TIGLUTIK® at controlled room temperature between 20°-25°C (68°-77°F), excursions permitted to 15°-30°C (59°-86°F) and protect from bright light.</paragraph>
+                              <paragraph>Do not freeze. Store upright.</paragraph>
+                              <paragraph>Once opened, the bottle of TIGLUTIK® should be used within 15 days. Keep bottle tightly closed between each use.</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td>
+                              <paragraph>GENERAL CLASSIFICATION FOR SUPPLY</paragraph>
+                              <paragraph>Medicinal product subject to medical prescription
+      <br/>
+			Hospital use
+     </paragraph>
+                           </td>
+                           <td>
+                              <paragraph>GENERAL CLASSIFICATION FOR SUPPLY</paragraph>
+                              <paragraph>Rx only</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td>
+                              <paragraph>NAME AND ADDRESS OF THE MARKETING AUTHORISATION HOLDER</paragraph>
+                              <paragraph>Marketing Authorization Holder:
+      <br/>
+			ITALFARMACO S.A
+      <br/>
+			San Rafael, 3
+      <br/>
+			28108 Alcobendas (Madrid)
+      <br/>
+			Spain
+     </paragraph>
+                           </td>
+                           <td>
+                              <paragraph>ITF Pharma</paragraph>
+                              <paragraph>Manufactured for:</paragraph>
+                              <paragraph>ITF Pharma, Inc.</paragraph>
+                              <paragraph>Berwyn, PA 19312 USA</paragraph>
+                              <paragraph>TIGLUTIK is a registered trademark of Italfarmaco S.A.</paragraph>
+                              <paragraph>©2019 ITF Pharma, Inc. All rights reserved.</paragraph>
+                              <paragraph>TOCXXXXXX</paragraph>
+                           </td>
+                        </tr>
+                     </tbody>
+                  </table>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph/>
+               </text>
+               <effectiveTime value="20240606"/>
+               <component>
+                  <observationMedia ID="img_1a3b1f7b-a457-c43d-e063-6394a90a3f6e">
+                     <text>carton</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="UKLabel.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="img_0f516300-bd38-7b83-e063-6394a90ab1c0">
+                     <text>label</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="tiglitik_label.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_0e1630e6-584b-f400-e063-6294a90af104">
+               <id root="1a3b2bd7-59c0-06f9-e063-6294a90a2e0b"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>PRINCIPAL DISPLAY PANEL - 300 mL Bottle Carton</title>
+               <text>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="img_1a3b3952-7101-c1cd-e063-6394a90abf09"/>
+                  </paragraph>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph/>
+               </text>
+               <effectiveTime value="20240606"/>
+               <component>
+                  <observationMedia ID="img_1a3b3952-7101-c1cd-e063-6394a90abf09">
+                     <text>label</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="UKbottle.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

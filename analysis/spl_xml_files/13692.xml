@@ -1,0 +1,703 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="https://www.accessdata.fda.gov/spl/stylesheet/spl.xsl" type="text/xsl"?>
+<document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:hl7-org:v3" xsi:schemaLocation="urn:hl7-org:v3 https://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="2bdf8f55-9a63-bff7-e063-6394a90aafd0"/>
+   <code code="34391-3" codeSystem="2.16.840.1.113883.6.1" displayName="HUMAN PRESCRIPTION DRUG LABEL"/>
+   <effectiveTime value="20250116"/>
+   <setId root="1ea04916-78e5-4651-e063-6394a90ac4be"/>
+   <versionNumber value="3"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id root="1.3.6.1.4.1.519.1" extension="119319487"/>
+            <name>MILLA PHARMACEUTICALS INC.</name>
+            <assignedEntity>
+               <assignedOrganization>
+                  <id root="1.3.6.1.4.1.519.1" extension="080563277"/>
+                  <name>MILLA PHARMACEUTICALS, INC.</name>
+                  <assignedEntity>
+                     <assignedOrganization>
+                        <id root="1.3.6.1.4.1.519.1" extension="430188286"/>
+                        <name>S.M. FARMACEUTICI SRL</name>
+                     </assignedOrganization>
+                     <performance>
+                        <actDefinition>
+                           <code code="C43360" displayName="manufacture" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="71357-002" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                  </assignedEntity>
+               </assignedOrganization>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section>
+               <id root="2bdf9b7b-6515-d391-e063-6294a90add82"/>
+               <code code="48780-1" codeSystem="2.16.840.1.113883.6.1" displayName="SPL product data elements section"/>
+               <effectiveTime value="20250116"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="71357-002" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>Sodium Acetate</name>
+                        <formCode code="C42899" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="INJECTION, SOLUTION, CONCENTRATE"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>Sodium Acetate</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="059QF0KO0R" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>WATER</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="Q40Q9N063P" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>ACETIC ACID</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="ACTIR">
+                           <quantity>
+                              <numerator unit="mg" value="164"/>
+                              <denominator unit="mL" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="4550K0SC9B" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SODIUM ACETATE</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="569DQM74SC" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>ACETATE ION</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="LYR4M0NH37" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>SODIUM CATION</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                              <asEquivalentSubstance>
+                                 <definingSubstance>
+                                    <code code="NVG71ZZ7P0" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>SODIUM ACETATE ANHYDROUS</name>
+                                 </definingSubstance>
+                              </asEquivalentSubstance>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator value="20" unit="mL"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="71357-002-01" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43215" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="VIAL, SINGLE-DOSE"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator value="10" unit="1"/>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code code="71357-002-10" codeSystem="2.16.840.1.113883.6.69"/>
+                                    <formCode code="C43184" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CASE"/>
+                                 </containerPackagedProduct>
+                                 <subjectOf>
+                                    <marketingAct>
+                                       <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                       <statusCode code="active"/>
+                                       <effectiveTime>
+                                          <low value="20250117"/>
+                                       </effectiveTime>
+                                    </marketingAct>
+                                 </subjectOf>
+                              </asContent>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <id extension="ANDA214805" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73584" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ANDA"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20250117"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38276" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="INTRAVENOUS"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section ID="L9515372e-0b8a-4d9e-a871-50b3b1de4fe4">
+               <id root="2bdf8f55-9a64-bff7-e063-6394a90aafd0"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">SODIUM ACETATE</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold"/>Injection, USP
+
+ </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">40 mEq (2 mEq/mL)</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">
+                        <content styleCode="italics">FOR ADDITIVE USE ONLY AFTER DILUTION</content>
+                     </content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">
+                        <content styleCode="italics">IN INTRAVENOUS FLUIDS.</content>
+                     </content>
+                  </paragraph>
+                  <br/>
+                  <paragraph>Glass Fliptop Vial</paragraph>
+                  <paragraph>Rx only</paragraph>
+               </text>
+               <effectiveTime value="20241021"/>
+            </section>
+         </component>
+         <component>
+            <section ID="L756ec0c1-0dd3-4922-8827-8e01d546c5c2">
+               <id root="2bdf8f55-9a65-bff7-e063-6394a90aafd0"/>
+               <code code="34089-3" codeSystem="2.16.840.1.113883.6.1" displayName="DESCRIPTION SECTION"/>
+               <title/>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">
+                        <content styleCode="bold">
+                           <content styleCode="italics">DESCRIPTION</content>
+                        </content>
+                     </content>
+                  </paragraph>
+                  <paragraph>Sodium Acetate Injection, USP 40 mEq (2 mEq/mL) is a sterile, nonpyrogenic,
+ 
+  <content styleCode="italics">concentrated solution</content>of sodium acetate in water for injection. The solution is administered after dilution by the intravenous route as an electrolyte replenisher. It must not be administered undiluted. Each 20 mL contains 3.28 g of sodium acetate (anhydrous) which provides 40 mEq each of sodium (Na
+ 
+  <sup>+</sup>) and acetate (CH3COO
+ 
+  <sup>-</sup>). The solution contains no bacteriostat, antimicrobial agent or added buffer. May contain acetic acid for pH adjustment; the pH is 6.5 (6.0 to 7.0). The osmolar concentration is 4 mOsmol/mL (calc).
+
+ </paragraph>
+                  <paragraph>The solution is intended as an alternative to sodium chloride to provide sodium ion (Na
+ 
+  <sup>+</sup>) for addition to large volume infusion fluids for intravenous use.
+
+ </paragraph>
+                  <paragraph>Sodium Acetate, USP (anhydrous) is chemically designated CH
+ 
+  <sub>3</sub>COONa, a hygroscopic powder very soluble in water.
+
+ </paragraph>
+               </text>
+               <effectiveTime value="20241021"/>
+            </section>
+         </component>
+         <component>
+            <section ID="L7e4ef950-b067-47e1-b6fa-c5b30781f2b7">
+               <id root="2bdf8f55-9a66-bff7-e063-6394a90aafd0"/>
+               <code code="34090-1" codeSystem="2.16.840.1.113883.6.1" displayName="CLINICAL PHARMACOLOGY SECTION"/>
+               <title/>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">
+                        <content styleCode="bold">
+                           <content styleCode="italics">CLINICAL PHARMACOLOGY</content>
+                        </content>
+                     </content>
+                  </paragraph>
+                  <paragraph>Sodium is the principal cation of extracellular fluid. It comprises more than 90% of total cations at its normal plasma concentration of approximately 140 mEq/liter. The sodium ion exerts a primary role in controlling total body water and its distribution.</paragraph>
+                  <paragraph>Acetate (CH
+ 
+  <sub>3</sub>COO
+ 
+  <sup>-</sup>), a source of hydrogen ion acceptors, is an alternate source of bicarbonate (HCO
+ 
+  <sub>3</sub>
+                     <sup>-</sup>) by metabolic conversion in the liver. This has been shown to proceed readily, even in the presence of severe liver disease.
+
+ </paragraph>
+               </text>
+               <effectiveTime value="20241021"/>
+            </section>
+         </component>
+         <component>
+            <section ID="L2bfeeaf1-ce62-4e2d-a1b5-a0e517929441">
+               <id root="2bdf8f55-9a67-bff7-e063-6394a90aafd0"/>
+               <code code="34067-9" codeSystem="2.16.840.1.113883.6.1" displayName="INDICATIONS &amp; USAGE SECTION"/>
+               <title/>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">
+                        <content styleCode="bold">
+                           <content styleCode="italics">INDICATIONS AND USAGE</content>
+                        </content>
+                     </content>
+                  </paragraph>
+                  <paragraph>Sodium Acetate Injection, USP 40 mEq is indicated as a source of sodium, for addition to large volume intravenous fluids to prevent or correct hyponatremia in patients with restricted or no oral intake. It is also useful as an additive for preparing specific intravenous fluid formulas when the needs of the patient cannot be met by standard electrolyte or nutrient solutions.</paragraph>
+               </text>
+               <effectiveTime value="20241021"/>
+            </section>
+         </component>
+         <component>
+            <section ID="L6d937f27-08be-4ec8-b36d-2f901c58a88d">
+               <id root="2bdf8f55-9a68-bff7-e063-6394a90aafd0"/>
+               <code code="34070-3" codeSystem="2.16.840.1.113883.6.1" displayName="CONTRAINDICATIONS SECTION"/>
+               <title/>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">
+                        <content styleCode="bold">
+                           <content styleCode="italics">CONTRAINDICATIONS</content>
+                        </content>
+                     </content>
+                  </paragraph>
+                  <paragraph>Sodium Acetate Injection, USP 40 mEq is contraindicated in patients with hypernatremia or fluid retention.</paragraph>
+               </text>
+               <effectiveTime value="20241021"/>
+            </section>
+         </component>
+         <component>
+            <section ID="Lb8156a29-9365-4158-8891-b7012f1a3325">
+               <id root="2bdf8f55-9a69-bff7-e063-6394a90aafd0"/>
+               <code code="34071-1" codeSystem="2.16.840.1.113883.6.1" displayName="WARNINGS SECTION"/>
+               <title/>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">
+                        <content styleCode="bold">
+                           <content styleCode="italics">WARNINGS</content>
+                        </content>
+                     </content>
+                  </paragraph>
+                  <paragraph>Sodium Acetate Injection, USP 40 mEq must be diluted before use.</paragraph>
+                  <paragraph>To avoid sodium overload and water retention, infuse sodium-containing solutions slowly.</paragraph>
+                  <paragraph>Solutions containing sodium ions should be used with great care, if at all, in patients with congestive heart failure, severe renal insufficiency and in clinical states in which there exists edema with sodium retention.</paragraph>
+                  <paragraph>In patients with diminished renal function, administration of solutions containing sodium ions may result in sodium retention.</paragraph>
+                  <paragraph>Solutions containing acetate ions should be used with great care in patients with metabolic or respiratory alkalosis. Acetate should be administered with great care in those conditions in which there is an increased level or an impaired utilization of this ion, such as severe hepatic insufficiency.</paragraph>
+                  <paragraph>The intravenous administration of this solution (after appropriate dilution) can cause fluid and/or solute overloading resulting in dilution of other serum electrolyte concentrations, overhydration, congested states or pulmonary edema. Excessive administration of potassium free solutions may result in significant hypokalemia.</paragraph>
+                  <paragraph>WARNING: This product contains aluminum that may be toxic. Aluminum may reach toxic levels with prolonged parenteral administration if kidney function is impaired. Premature neonates are particularly at risk because their kidneys are immature, and they require large amounts of calcium and phosphate solutions, which contain aluminum.</paragraph>
+                  <paragraph>Research indicates that patients with impaired kidney function, including premature neonates, who receive parenteral levels of aluminum at greater than 4 to 5 mcg/kg/day accumulate aluminum at levels associated with central nervous system and bone toxicity. Tissue loading may occur at even lower rates of administration.</paragraph>
+               </text>
+               <effectiveTime value="20241021"/>
+            </section>
+         </component>
+         <component>
+            <section ID="L47d52bf0-71e1-4a07-8259-f1af8e93174d">
+               <id root="2bdf8f55-9a6a-bff7-e063-6394a90aafd0"/>
+               <code code="42232-9" codeSystem="2.16.840.1.113883.6.1" displayName="PRECAUTIONS SECTION"/>
+               <title/>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">
+                        <content styleCode="bold">
+                           <content styleCode="italics">PRECAUTIONS</content>
+                        </content>
+                     </content>
+                  </paragraph>
+                  <paragraph>Do not administer unless solution is clear and seal is intact. Discard unused portion.</paragraph>
+                  <paragraph>Sodium replacement therapy should be guided primarily by the serum sodium level.</paragraph>
+                  <paragraph>Caution should be exercised in administering sodium-containing solutions to patients with severe renal function impairment, cirrhosis, cardiac failure, or other edematous or sodium- retaining states, as well as in patients with oliguria or anuria.</paragraph>
+                  <paragraph>Caution must be exercised in the administration of parenteral fluids, especially those containing sodium ions, to patients receiving corticosteroids or corticotropin.</paragraph>
+                  <paragraph>Solutions containing acetate ions should be used with caution as excess administration may result in metabolic alkalosis.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Pregnancy:</content>Animal reproduction studies have not been conducted with sodium acetate. It is also not known whether sodium acetate can cause fetal harm when administered to a pregnant woman or can affect reproduction capacity. Sodium Acetate should be given to a pregnant woman only if clearly needed.
+
+ </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Pediatric Use:</content>Safety and effectiveness have been established in the age groups infant to adolescent.
+
+ </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Geriatric Use:</content>An evaluation of current literature revealed no clinical experience identifying differences in response between elderly and younger patients. In general, dose selection for an elderly patient should be cautious, usually starting at the low end of the dosing range, reflecting the greater frequency of decreased hepatic, renal, or cardiac function, and of concomitant disease or other drug therapy.
+
+ </paragraph>
+                  <paragraph>Sodium ions are known to be substantially excreted by the kidney, and the risk of toxic reactions may be greater in patients with impaired renal function. Because elderly patients are more likely to have decreased renal function, care should be taken in dose selection, and it may be useful to monitor renal function.</paragraph>
+               </text>
+               <effectiveTime value="20241021"/>
+            </section>
+         </component>
+         <component>
+            <section ID="Lf603a51d-2177-41a5-9f1e-faacd9728f07">
+               <id root="2bdf8f55-9a6b-bff7-e063-6394a90aafd0"/>
+               <code code="34084-4" codeSystem="2.16.840.1.113883.6.1" displayName="ADVERSE REACTIONS SECTION"/>
+               <title/>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">
+                        <content styleCode="bold">
+                           <content styleCode="italics">ADVERSE REACTIONS</content>
+                        </content>
+                     </content>
+                  </paragraph>
+                  <paragraph>Sodium overload can occur with intravenous infusion of excessive amounts of sodium-containing solutions. See
+ 
+  <content styleCode="bold">
+                        <content styleCode="italics">
+                           <linkHtml href="#Lb8156a29-9365-4158-8891-b7012f1a3325">WARNINGS</linkHtml>
+                        </content>
+                     </content>and
+ 
+  <content styleCode="bold">
+                        <content styleCode="italics">
+                           <linkHtml href="#L47d52bf0-71e1-4a07-8259-f1af8e93174d">PRECAUTIONS</linkHtml>
+                        </content>
+                     </content>.
+
+ </paragraph>
+               </text>
+               <effectiveTime value="20241021"/>
+            </section>
+         </component>
+         <component>
+            <section ID="L009f3026-ef74-4b18-8545-976268510f26">
+               <id root="2bdf8f55-9a6c-bff7-e063-6394a90aafd0"/>
+               <code code="34088-5" codeSystem="2.16.840.1.113883.6.1" displayName="OVERDOSAGE SECTION"/>
+               <title/>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">
+                        <content styleCode="bold">
+                           <content styleCode="italics">OVERDOSAGE</content>
+                        </content>
+                     </content>
+                  </paragraph>
+                  <paragraph>In the event of overdosage, discontinue infusion containing sodium acetate immediately and institute corrective therapy as indicated to reduce elevated serum sodium levels, and restore acid- base balance if necessary. See
+ 
+  <content styleCode="bold">
+                        <content styleCode="italics">
+                           <linkHtml href="#Lb8156a29-9365-4158-8891-b7012f1a3325">WARNINGS</linkHtml>
+                        </content>
+                     </content>,
+ 
+  <content styleCode="bold">
+                        <content styleCode="italics">
+                           <linkHtml href="#L47d52bf0-71e1-4a07-8259-f1af8e93174d">PRECAUTIONS</linkHtml>
+                        </content>
+                     </content>and
+ 
+  <content styleCode="bold">
+                        <content styleCode="italics">
+                           <linkHtml href="#Lf603a51d-2177-41a5-9f1e-faacd9728f07">ADVERSE REACTIONS</linkHtml>
+                        </content>
+                     </content>.
+
+ </paragraph>
+               </text>
+               <effectiveTime value="20241021"/>
+            </section>
+         </component>
+         <component>
+            <section ID="L2a899976-e675-47ce-8206-624c5efa2046">
+               <id root="2bdf8f55-9a6d-bff7-e063-6394a90aafd0"/>
+               <code code="34068-7" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE &amp; ADMINISTRATION SECTION"/>
+               <title/>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">
+                        <content styleCode="bold">
+                           <content styleCode="italics">DOSAGE AND ADMINISTRATION</content>
+                        </content>
+                     </content>
+                  </paragraph>
+                  <paragraph>Sodium Acetate Injection, USP 40 mEq is administered intravenously
+ 
+  <content styleCode="italics">only after dilution in a larger volume of fluid</content>. The dose and rate of administration are dependent upon the individual needs of the patient. Serum sodium should be monitored as a guide to dosage. Using aseptic technique, all or part of the contents of one or more vials may be added to other intravenous fluids to provide any desired number of milliequivalents (mEq) of sodium (Na
+ 
+  <sup>+</sup>) with an equal number of acetate (CH
+ 
+  <sub>3</sub>COO
+ 
+  <sup>-</sup>).
+
+ </paragraph>
+                  <paragraph>Parenteral drug products should be inspected visually for particulate matter and discoloration prior to administration. See
+ 
+  <content styleCode="bold">
+                        <content styleCode="italics">
+                           <linkHtml href="#L47d52bf0-71e1-4a07-8259-f1af8e93174d">PRECAUTIONS</linkHtml>
+                        </content>
+                     </content>.
+
+ </paragraph>
+               </text>
+               <effectiveTime value="20241021"/>
+            </section>
+         </component>
+         <component>
+            <section ID="L2d4e82ae-568a-414f-badc-f8f26b0d7111">
+               <id root="2bdf8f55-9a6e-bff7-e063-6394a90aafd0"/>
+               <code code="34069-5" codeSystem="2.16.840.1.113883.6.1" displayName="HOW SUPPLIED SECTION"/>
+               <title/>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">
+                        <content styleCode="bold">
+                           <content styleCode="italics">HOW SUPPLIED</content>
+                        </content>
+                     </content>
+                  </paragraph>
+                  <paragraph>Sodium Acetate Injection, USP 40 mEq is supplied as follows:</paragraph>
+                  <table width="50%" border="1" cellspacing="0" cellpadding="0">
+                     <tbody>
+                        <tr>
+                           <td align="center" colspan="5" styleCode="Botrule Toprule  Lrule Rrule " valign="top">
+                              <paragraph>
+                                 <caption>                                                            Total Amounts</caption>
+                              </paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Botrule Toprule  Lrule Rrule " valign="top">
+                              <paragraph>
+                                 <content styleCode="bold">NDC No.</content>
+                              </paragraph>
+                           </td>
+                           <td align="center" styleCode="Botrule Toprule  Lrule Rrule " valign="top">
+                              <paragraph>
+                                 <content styleCode="bold">Fill Volume</content>
+                              </paragraph>
+                           </td>
+                           <td align="center" styleCode="Botrule Toprule  Lrule Rrule " valign="top">
+                              <paragraph>
+                                 <content styleCode="bold">Na
+      
+       <sup>+</sup>
+                                 </content>
+                              </paragraph>
+                           </td>
+                           <td align="center" styleCode="Botrule Toprule  Lrule Rrule " valign="top">
+                              <paragraph>
+                                 <content styleCode="bold">Acetate</content>
+                              </paragraph>
+                           </td>
+                           <td align="center" styleCode="Botrule Toprule  Lrule Rrule " valign="top">
+                              <paragraph>
+                                 <content styleCode="bold">Concentration</content>
+                              </paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Botrule Toprule  Lrule Rrule " valign="top">
+                              <paragraph>71357-002-01-Glass Fliptop Vial</paragraph>
+                              <paragraph>71357-002-10-Case Containing 10 Units</paragraph>
+                           </td>
+                           <td align="center" styleCode="Botrule Toprule  Lrule Rrule " valign="top">
+                              <paragraph>20 mL</paragraph>
+                           </td>
+                           <td align="center" styleCode="Botrule Toprule  Lrule Rrule " valign="top">
+                              <paragraph>40 mEq</paragraph>
+                           </td>
+                           <td align="center" styleCode="Botrule Toprule  Lrule Rrule " valign="top">
+                              <paragraph>40 mEq</paragraph>
+                           </td>
+                           <td align="center" styleCode="Botrule Toprule  Lrule Rrule " valign="top">
+                              <paragraph>16.4%</paragraph>
+                           </td>
+                        </tr>
+                     </tbody>
+                  </table>
+                  <paragraph>Sodium Acetate Injection, USP 40 mEq per 20 mL vials are suppled as 10 vials per carton, with a single package insert.</paragraph>
+                  <paragraph>Each vial is partially filled to provide air space for complete vacuum withdrawal of the contents into the intravenous container.</paragraph>
+                  <paragraph>Store at 20° to 25ºC (68° to 77ºF). [See USP Controlled Room Temperature.]</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">
+                        <content styleCode="italics">ALSO AVAILABLE AS</content>
+                     </content>
+                  </paragraph>
+                  <paragraph>Sodium Acetate Injection, USP is also supplied in Pharmacy Bulk Packages as follows:</paragraph>
+                  <table width="50%" border="1" cellspacing="0" cellpadding="0">
+                     <caption>                                                            Total Amounts</caption>
+                     <tbody>
+                        <tr>
+                           <td styleCode="Botrule Toprule  Lrule Rrule " valign="top">
+                              <paragraph styleCode="TableParagraph">
+                                 <content styleCode="bold">NDC No.</content>
+                              </paragraph>
+                           </td>
+                           <td align="center" styleCode="Botrule Toprule  Lrule Rrule " valign="top">
+                              <paragraph styleCode="TableParagraph">
+                                 <content styleCode="bold">Fill Volume</content>
+                              </paragraph>
+                           </td>
+                           <td align="center" styleCode="Botrule Toprule  Lrule Rrule " valign="top">
+                              <paragraph styleCode="TableParagraph">
+                                 <content styleCode="bold">Na
+      
+       <sup>+</sup>
+                                 </content>
+                              </paragraph>
+                           </td>
+                           <td align="center" styleCode="Botrule Toprule  Lrule Rrule " valign="top">
+                              <paragraph styleCode="TableParagraph">
+                                 <content styleCode="bold">Acetate</content>
+                              </paragraph>
+                           </td>
+                           <td align="center" styleCode="Botrule Toprule  Lrule Rrule " valign="top">
+                              <paragraph styleCode="TableParagraph">
+                                 <content styleCode="bold">Concentration</content>
+                              </paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Botrule Toprule  Lrule Rrule " valign="top">
+                              <paragraph styleCode="TableParagraph">71357-007-01– Glass Fliptop Vial</paragraph>
+                              <paragraph styleCode="TableParagraph">71357-007-10 – Case Containing 10 Units</paragraph>
+                           </td>
+                           <td align="center" styleCode="Botrule Toprule  Lrule Rrule " valign="top">
+                              <paragraph styleCode="TableParagraph">50 mL</paragraph>
+                           </td>
+                           <td align="center" styleCode="Botrule Toprule  Lrule Rrule " valign="top">
+                              <paragraph styleCode="TableParagraph">100 mEq</paragraph>
+                           </td>
+                           <td align="center" styleCode="Botrule Toprule  Lrule Rrule " valign="top">
+                              <paragraph styleCode="TableParagraph">100 mEq</paragraph>
+                           </td>
+                           <td align="center" styleCode="Botrule Toprule  Lrule Rrule " valign="top">
+                              <paragraph styleCode="TableParagraph">16.4%</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Botrule Toprule  Lrule Rrule " valign="top">
+                              <paragraph styleCode="TableParagraph">71357-008-01– Glass Fliptop Vial</paragraph>
+                              <paragraph styleCode="TableParagraph">71357-008-10 – Case Containing 10 Units</paragraph>
+                           </td>
+                           <td align="center" styleCode="Botrule Toprule  Lrule Rrule " valign="top">
+                              <paragraph styleCode="TableParagraph">100 mL</paragraph>
+                           </td>
+                           <td align="center" styleCode="Botrule Toprule  Lrule Rrule " valign="top">
+                              <paragraph styleCode="TableParagraph">200 mEq</paragraph>
+                           </td>
+                           <td align="center" styleCode="Botrule Toprule  Lrule Rrule " valign="top">
+                              <paragraph styleCode="TableParagraph">200 mEq</paragraph>
+                           </td>
+                           <td align="center" styleCode="Botrule Toprule  Lrule Rrule " valign="top">
+                              <paragraph styleCode="TableParagraph">16.4%</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Botrule Toprule  Lrule Rrule " valign="top">
+                              <paragraph styleCode="TableParagraph">71357-009-01– Glass Fliptop Vial</paragraph>
+                              <paragraph styleCode="TableParagraph">71357-009-10 – Case Containing 10 Units</paragraph>
+                           </td>
+                           <td align="center" styleCode="Botrule Toprule  Lrule Rrule ">
+                              <paragraph styleCode="TableParagraph">100 mL</paragraph>
+                           </td>
+                           <td align="center" styleCode="Botrule Toprule  Lrule Rrule ">
+                              <paragraph styleCode="TableParagraph">400 mEq</paragraph>
+                           </td>
+                           <td align="center" styleCode="Botrule Toprule  Lrule Rrule ">
+                              <paragraph styleCode="TableParagraph">400 mEq</paragraph>
+                           </td>
+                           <td align="center" styleCode="Botrule Toprule  Lrule Rrule ">
+                              <paragraph styleCode="TableParagraph">32.8%</paragraph>
+                           </td>
+                        </tr>
+                     </tbody>
+                  </table>
+                  <paragraph/>
+                  <paragraph>Manufactured by:</paragraph>
+                  <paragraph>S.M. Farmaceutici SRL</paragraph>
+                  <paragraph>Tito – 85050, Italy</paragraph>
+                  <paragraph/>
+                  <br/>
+                  <paragraph>Distributed by:</paragraph>
+                  <paragraph>Milla Pharmaceuticals Inc., an A.forall Company 
+  <br/>  White Bear Lake, MN 55110
+ </paragraph>
+                  <br/>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="Lf2d64ff3-999c-4ce2-825f-2dd93cf3c225"/>
+                  </paragraph>
+                  <paragraph>Revised: June 2024</paragraph>
+               </text>
+               <effectiveTime value="20241021"/>
+               <component>
+                  <observationMedia ID="Lf2d64ff3-999c-4ce2-825f-2dd93cf3c225">
+                     <text>image description</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="milla-pharmaceuticals-company-logo.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="L0088a0f7-980b-4f67-9017-d5c5c9889176">
+               <id root="2bdf8f55-9a6f-bff7-e063-6394a90aafd0"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>PRINCIPAL DISPLAY PANEL</title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">Sodium Acetate Injection, USP 40 mEq/20 mL NDC 71357-002-10 Carton Label</content>
+                  </paragraph>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="L1826c3a9-c9d6-425d-83e1-7eecac3b64c4"/>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Sodium Acetate Injection, USP 40 mEq/20 mL NDC 71357-002-01 vial Label</content>
+                  </paragraph>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="Lffa8cf43-07eb-403d-a577-45593e906368"/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20241021"/>
+               <component>
+                  <observationMedia ID="L1826c3a9-c9d6-425d-83e1-7eecac3b64c4">
+                     <text>image description</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="sodium-acetate-40meq-20ml-carton-label.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="Lffa8cf43-07eb-403d-a577-45593e906368">
+                     <text>image description</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="sodium-acetate-40meq-20ml-vial-label.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

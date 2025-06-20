@@ -1,0 +1,1615 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="https://www.accessdata.fda.gov/spl/stylesheet/spl.xsl" type="text/xsl"?>
+<document xmlns="urn:hl7-org:v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 https://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="8e4121e2-89a0-4f4e-98b9-1530dec5972b"/>
+   <code code="34391-3" codeSystem="2.16.840.1.113883.6.1" displayName="HUMAN PRESCRIPTION DRUG LABEL"/>
+   <title>Aminosyn<sup>TM</sup> II</title>
+   <effectiveTime value="20220504"/>
+   <setId root="5b426208-f090-4650-86c3-89040ba45c2d"/>
+   <versionNumber value="8"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id extension="118380146" root="1.3.6.1.4.1.519.1"/>
+            <name>ICU Medical Inc.</name>
+            <assignedEntity>
+               <assignedOrganization/>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section ID="DLDE">
+               <id root="1361c34b-ebb0-4174-9c05-8958bf66990c"/>
+               <code code="48780-1" codeSystem="2.16.840.1.113883.6.1" displayName="SPL PRODUCT DATA ELEMENTS SECTION"/>
+               <effectiveTime value="20220504"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="0990-7172" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>Aminosyn II</name>
+                        <formCode code="C42945" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="INJECTION, SOLUTION"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>ISOLEUCINE, LEUCINE, LYSINE ACETATE, METHIONINE, PHENYLALANINE, THREONINE, TRYPTOPHAN, VALINE, ALANINE, ARGININE, ASPARTIC ACID, GLUTAMIC ACID, HISTIDINE, PROLINE, SERINE, N-ACETYLTYROSINE, and GLYCINE</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator value="660" unit="mg"/>
+                              <denominator value="100" unit="mL"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="04Y7590D77" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>ISOLEUCINE</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="04Y7590D77" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>ISOLEUCINE</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator value="1000" unit="mg"/>
+                              <denominator value="100" unit="mL"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="GMW67QNF9C" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>LEUCINE</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="GMW67QNF9C" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>LEUCINE</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="ACTIM">
+                           <quantity>
+                              <numerator value="1050" unit="mg"/>
+                              <denominator value="100" unit="mL"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="TTL6G7LIWZ" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>LYSINE ACETATE</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="K3Z4F929H6" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>LYSINE</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator value="172" unit="mg"/>
+                              <denominator value="100" unit="mL"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="AE28F7PNPL" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>METHIONINE</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="AE28F7PNPL" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>METHIONINE</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator value="298" unit="mg"/>
+                              <denominator value="100" unit="mL"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="47E5O17Y3R" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>PHENYLALANINE</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="47E5O17Y3R" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>PHENYLALANINE</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator value="400" unit="mg"/>
+                              <denominator value="100" unit="mL"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="2ZD004190S" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>THREONINE</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="2ZD004190S" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>THREONINE</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator value="200" unit="mg"/>
+                              <denominator value="100" unit="mL"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="8DUH1N11BX" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>TRYPTOPHAN</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="8DUH1N11BX" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>TRYPTOPHAN</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator value="500" unit="mg"/>
+                              <denominator value="100" unit="mL"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="HG18B9YRS7" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>VALINE</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="HG18B9YRS7" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>VALINE</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator value="993" unit="mg"/>
+                              <denominator value="100" unit="mL"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="OF5P57N2ZX" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>ALANINE</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="OF5P57N2ZX" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>ALANINE</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator value="1018" unit="mg"/>
+                              <denominator value="100" unit="mL"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="94ZLA3W45F" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>ARGININE</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="94ZLA3W45F" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>ARGININE</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator value="700" unit="mg"/>
+                              <denominator value="100" unit="mL"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="30KYC7MIAI" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>ASPARTIC ACID</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="30KYC7MIAI" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>ASPARTIC ACID</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator value="738" unit="mg"/>
+                              <denominator value="100" unit="mL"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="3KX376GY7L" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>GLUTAMIC ACID</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="3KX376GY7L" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>GLUTAMIC ACID</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator value="300" unit="mg"/>
+                              <denominator value="100" unit="mL"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="4QD397987E" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>HISTIDINE</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="4QD397987E" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>HISTIDINE</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator value="722" unit="mg"/>
+                              <denominator value="100" unit="mL"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="9DLQ4CIU6V" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>PROLINE</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="9DLQ4CIU6V" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>PROLINE</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator value="530" unit="mg"/>
+                              <denominator value="100" unit="mL"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="452VLY9402" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SERINE</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="452VLY9402" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>SERINE</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator value="270" unit="mg"/>
+                              <denominator value="100" unit="mL"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="DA8G610ZO5" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>ACETYL L-TYROSINE</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="DA8G610ZO5" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>N-ACETYLTYROSINE</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator value="500" unit="mg"/>
+                              <denominator value="100" unit="mL"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="TE7660XO1C" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>GLYCINE</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="TE7660XO1C" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>GLYCINE</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="55X04QC32I" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SODIUM HYDROXIDE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator value="2000" unit="mL"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code/>
+                              <formCode code="C43167" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BAG"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator value="1" unit="1"/>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code/>
+                                    <formCode code="C43200" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="POUCH"/>
+                                    <asContent>
+                                       <quantity>
+                                          <numerator value="6" unit="1"/>
+                                          <denominator value="1"/>
+                                       </quantity>
+                                       <containerPackagedProduct>
+                                          <code code="0990-7172-17" codeSystem="2.16.840.1.113883.6.69"/>
+                                          <formCode code="C43184" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CASE"/>
+                                       </containerPackagedProduct>
+                                       <subjectOf>
+                                          <marketingAct>
+                                             <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                             <statusCode code="active"/>
+                                             <effectiveTime>
+                                                <low value="20191101"/>
+                                             </effectiveTime>
+                                          </marketingAct>
+                                       </subjectOf>
+                                    </asContent>
+                                 </containerPackagedProduct>
+                              </asContent>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <id extension="NDA020015" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73594" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="NDA"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20191101"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38276" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="INTRAVENOUS"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="0990-7171" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>Aminosyn II</name>
+                        <formCode code="C42945" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="INJECTION, SOLUTION"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>ISOLEUCINE, LEUCINE, LYSINE ACETATE, METHIONINE, PHENYLALANINE, THREONINE, TRYPTOPHAN, VALINE, ALANINE, ARGININE, ASPARTIC ACID, GLUTAMIC ACID, HISTIDINE, PROLINE, SERINE, N-ACETYLTYROSINE, and GLYCINE</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator value="990" unit="mg"/>
+                              <denominator value="100" unit="mL"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="04Y7590D77" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>ISOLEUCINE</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="04Y7590D77" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>ISOLEUCINE</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator value="1500" unit="mg"/>
+                              <denominator value="100" unit="mL"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="GMW67QNF9C" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>LEUCINE</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="GMW67QNF9C" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>LEUCINE</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="ACTIM">
+                           <quantity>
+                              <numerator value="1575" unit="mg"/>
+                              <denominator value="100" unit="mL"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="TTL6G7LIWZ" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>LYSINE ACETATE</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="K3Z4F929H6" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>LYSINE</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator value="258" unit="mg"/>
+                              <denominator value="100" unit="mL"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="AE28F7PNPL" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>METHIONINE</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="AE28F7PNPL" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>METHIONINE</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator value="447" unit="mg"/>
+                              <denominator value="100" unit="mL"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="47E5O17Y3R" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>PHENYLALANINE</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="47E5O17Y3R" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>PHENYLALANINE</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator value="600" unit="mg"/>
+                              <denominator value="100" unit="mL"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="2ZD004190S" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>THREONINE</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="2ZD004190S" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>THREONINE</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator value="300" unit="mg"/>
+                              <denominator value="100" unit="mL"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="8DUH1N11BX" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>TRYPTOPHAN</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="8DUH1N11BX" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>TRYPTOPHAN</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator value="750" unit="mg"/>
+                              <denominator value="100" unit="mL"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="HG18B9YRS7" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>VALINE</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="HG18B9YRS7" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>VALINE</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator value="1490" unit="mg"/>
+                              <denominator value="100" unit="mL"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="OF5P57N2ZX" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>ALANINE</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="OF5P57N2ZX" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>ALANINE</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator value="1527" unit="mg"/>
+                              <denominator value="100" unit="mL"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="94ZLA3W45F" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>ARGININE</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="94ZLA3W45F" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>ARGININE</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator value="1050" unit="mg"/>
+                              <denominator value="100" unit="mL"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="30KYC7MIAI" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>ASPARTIC ACID</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="30KYC7MIAI" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>ASPARTIC ACID</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator value="1107" unit="mg"/>
+                              <denominator value="100" unit="mL"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="3KX376GY7L" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>GLUTAMIC ACID</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="3KX376GY7L" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>GLUTAMIC ACID</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator value="450" unit="mg"/>
+                              <denominator value="100" unit="mL"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="4QD397987E" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>HISTIDINE</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="4QD397987E" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>HISTIDINE</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator value="1083" unit="mg"/>
+                              <denominator value="100" unit="mL"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="9DLQ4CIU6V" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>PROLINE</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="9DLQ4CIU6V" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>PROLINE</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator value="795" unit="mg"/>
+                              <denominator value="100" unit="mL"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="452VLY9402" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SERINE</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="452VLY9402" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>SERINE</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator value="405" unit="mg"/>
+                              <denominator value="100" unit="mL"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="DA8G610ZO5" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>ACETYL L-TYROSINE</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="DA8G610ZO5" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>N-ACETYLTYROSINE</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator value="750" unit="mg"/>
+                              <denominator value="100" unit="mL"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="TE7660XO1C" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>GLYCINE</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="TE7660XO1C" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>GLYCINE</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="55X04QC32I" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SODIUM HYDROXIDE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator value="2000" unit="mL"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code/>
+                              <formCode code="C43167" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BAG"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator value="1" unit="1"/>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code/>
+                                    <formCode code="C43200" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="POUCH"/>
+                                    <asContent>
+                                       <quantity>
+                                          <numerator value="6" unit="1"/>
+                                          <denominator value="1"/>
+                                       </quantity>
+                                       <containerPackagedProduct>
+                                          <code code="0990-7171-17" codeSystem="2.16.840.1.113883.6.69"/>
+                                          <formCode code="C43184" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CASE"/>
+                                       </containerPackagedProduct>
+                                       <subjectOf>
+                                          <marketingAct>
+                                             <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                             <statusCode code="active"/>
+                                             <effectiveTime>
+                                                <low value="20191101"/>
+                                             </effectiveTime>
+                                          </marketingAct>
+                                       </subjectOf>
+                                    </asContent>
+                                 </containerPackagedProduct>
+                              </asContent>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <id extension="NDA020041" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73594" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="NDA"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20191101"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38276" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="INTRAVENOUS"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section ID="f431a849-6e88-46c9-a774-cb298550a04a">
+               <id root="06807d49-fb3e-4353-871b-51ef4a8e4404"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <title/>
+               <text>
+                  <content styleCode="bold">
+                     <content styleCode="emphasis">
+                        <content styleCode="italics">AN AMINO ACID INJECTION, Sulfite-Free</content>
+                     </content>
+                  </content>
+               </text>
+               <effectiveTime value="20220506"/>
+            </section>
+         </component>
+         <component>
+            <section ID="e804584b-dbf3-4829-8d02-379ec1c89167">
+               <id root="fe5e55de-3624-4087-b3d4-f00c2305d002"/>
+               <code code="34066-1" codeSystem="2.16.840.1.113883.6.1" displayName="BOXED WARNING SECTION"/>
+               <title/>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">
+                        <content styleCode="emphasis">Pharmacy Bulk Package – Not For Direct        Infusion.</content>
+                     </content>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20220506"/>
+            </section>
+         </component>
+         <component>
+            <section ID="d8a363df-18d4-4cc4-ab38-10c922a222c7">
+               <id root="85d5a08b-6bf5-4ce7-b6a1-b735eb17c372"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <title/>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">
+                        <content styleCode="emphasis">Flexible Plastic Container</content>
+                     </content> </paragraph>
+                  <paragraph>Rx only</paragraph>
+               </text>
+               <effectiveTime value="20220506"/>
+            </section>
+         </component>
+         <component>
+            <section ID="c631e55f-40d2-433a-9900-e0147a0c4496">
+               <id root="4c0a5fe8-93c0-41b5-b861-44929c2094b7"/>
+               <code code="34089-3" codeSystem="2.16.840.1.113883.6.1" displayName="DESCRIPTION SECTION"/>
+               <title>DESCRIPTION</title>
+               <text>
+                  <paragraph>Aminosyn<sup>™</sup> II, Sulfite-Free, (an amino acid injection) is a sterile, nonpyrogenic solution for intravenous infusion. Aminosyn II is oxygen sensitive. The Pharmacy Bulk Package is a sterile dosage form which contains multiple single doses for use only in a pharmacy bulk admixture program. The formulations are described below:</paragraph>
+                  <table>
+                     <tbody>
+                        <tr>
+                           <td styleCode="Lrule Rrule Toprule Botrule" colspan="2" align="left" valign="top">
+                              <content styleCode="bold">
+                                 <content styleCode="emphasis">Essential Amino Acids (mg/100 mL)</content>
+                              </content>
+                           </td>
+                           <td styleCode="Lrule Rrule Toprule Botrule" colspan="2" align="center" valign="top">
+                              <content styleCode="bold">
+                                 <content styleCode="emphasis">Aminosyn II</content>
+                              </content>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Lrule Rrule Toprule Botrule"/>
+                           <td styleCode="Lrule Rrule Toprule Botrule" align="left" valign="top"/>
+                           <td styleCode="Lrule Rrule Toprule Botrule" align="center" valign="top">
+                              <content styleCode="bold">
+                                 <content styleCode="emphasis">10%</content>
+                              </content>
+                           </td>
+                           <td styleCode="Lrule Rrule Toprule Botrule" align="center" valign="top">
+                              <content styleCode="bold">
+                                 <content styleCode="emphasis">15%</content>
+                              </content>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Lrule Rrule Toprule Botrule">
+                              <paragraph>Isoleucine </paragraph>
+                           </td>
+                           <td styleCode="Lrule Rrule Toprule Botrule" align="left" valign="top"/>
+                           <td styleCode="Lrule Rrule Toprule Botrule" align="center" valign="top">
+                              <paragraph>660</paragraph>
+                           </td>
+                           <td styleCode="Lrule Rrule Toprule Botrule" align="center" valign="top">
+                              <paragraph>990</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Lrule Rrule Toprule Botrule" align="left">
+                              <paragraph>Leucine</paragraph>
+                           </td>
+                           <td styleCode="Lrule Rrule Toprule Botrule" align="left" valign="top"/>
+                           <td styleCode="Lrule Rrule Toprule Botrule" align="center" valign="top">1000</td>
+                           <td styleCode="Lrule Rrule Toprule Botrule" align="center" valign="top">
+                              <paragraph>1500</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Lrule Rrule Toprule Botrule" align="left">
+                              <paragraph>Lysine (acetate)*</paragraph>
+                           </td>
+                           <td styleCode="Lrule Rrule Toprule Botrule" align="left" valign="top"/>
+                           <td styleCode="Lrule Rrule Toprule Botrule" align="center" valign="top">1050</td>
+                           <td styleCode="Lrule Rrule Toprule Botrule" align="center" valign="top">
+                              <paragraph>1575 </paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Lrule Rrule Toprule Botrule" align="left">
+                              <paragraph>Methionine </paragraph>
+                           </td>
+                           <td styleCode="Lrule Rrule Toprule Botrule" align="left" valign="top"/>
+                           <td styleCode="Lrule Rrule Toprule Botrule" align="center" valign="top">172</td>
+                           <td styleCode="Lrule Rrule Toprule Botrule" align="center" valign="top">
+                              <paragraph>258</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Lrule Rrule Toprule Botrule" align="left">
+                              <paragraph>Phenylalanine</paragraph>
+                           </td>
+                           <td styleCode="Lrule Rrule Toprule Botrule" align="left" valign="top"/>
+                           <td styleCode="Lrule Rrule Toprule Botrule" align="center" valign="top">298</td>
+                           <td styleCode="Lrule Rrule Toprule Botrule" align="center" valign="top">
+                              <paragraph>447</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Lrule Rrule Toprule Botrule" align="left">
+                              <paragraph>Threonine</paragraph>
+                           </td>
+                           <td styleCode="Lrule Rrule Toprule Botrule" align="left" valign="top"/>
+                           <td styleCode="Lrule Rrule Toprule Botrule" align="center" valign="top">400</td>
+                           <td styleCode="Lrule Rrule Toprule Botrule" align="center" valign="top">
+                              <paragraph>600</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Lrule Rrule Toprule Botrule">
+                              <paragraph>Tryptophan</paragraph>
+                           </td>
+                           <td styleCode="Lrule Rrule Toprule Botrule" align="left" valign="top"/>
+                           <td styleCode="Lrule Rrule Toprule Botrule" align="center" valign="top">200</td>
+                           <td styleCode="Lrule Rrule Toprule Botrule" align="center" valign="top">
+                              <paragraph>300</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Lrule Rrule Toprule Botrule" align="left">
+                              <paragraph>Valine</paragraph>
+                           </td>
+                           <td styleCode="Lrule Rrule Toprule Botrule" align="left" valign="top"/>
+                           <td styleCode="Lrule Rrule Toprule Botrule" align="center" valign="top">500</td>
+                           <td styleCode="Lrule Rrule Toprule Botrule" align="center" valign="top">
+                              <paragraph>750</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Lrule Rrule Toprule Botrule" colspan="4" align="left">
+                              <paragraph>*Amount cited is for lysine alone and does not include the acetate.</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Lrule Rrule Toprule Botrule"/>
+                           <td styleCode="Lrule Rrule Toprule Botrule" align="left" valign="top"/>
+                           <td styleCode="Lrule Rrule Toprule Botrule" align="center" valign="top"/>
+                           <td styleCode="Lrule Rrule Toprule Botrule" align="center" valign="top"/>
+                        </tr>
+                        <tr>
+                           <td styleCode="Lrule Rrule Toprule Botrule">
+                              <content styleCode="bold">
+                                 <content styleCode="emphasis">Nonessential Amino Acids (mg/100 mL)</content>
+                              </content> </td>
+                           <td styleCode="Lrule Rrule Toprule Botrule" align="left" valign="top"/>
+                           <td styleCode="Lrule Rrule Toprule Botrule" align="center" valign="top"> </td>
+                           <td styleCode="Lrule Rrule Toprule Botrule" align="center" valign="top"> </td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Lrule Rrule Toprule Botrule">
+                              <paragraph>Alanine</paragraph>
+                           </td>
+                           <td styleCode="Lrule Rrule Toprule Botrule" align="left" valign="top"/>
+                           <td styleCode="Lrule Rrule Toprule Botrule" align="center" valign="top"> 993</td>
+                           <td styleCode="Lrule Rrule Toprule Botrule" align="center" valign="top"> 1490</td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Lrule Rrule Toprule Botrule">
+                              <paragraph>Arginine </paragraph>
+                           </td>
+                           <td styleCode="Lrule Rrule Toprule Botrule" align="left" valign="top"/>
+                           <td styleCode="Lrule Rrule Toprule Botrule" align="center" valign="top"> 1018</td>
+                           <td styleCode="Lrule Rrule Toprule Botrule" align="center" valign="top"> 1527</td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Lrule Rrule Toprule Botrule">
+                              <paragraph>L-Aspartic Acid </paragraph>
+                           </td>
+                           <td styleCode="Lrule Rrule Toprule Botrule" align="left" valign="top"/>
+                           <td styleCode="Lrule Rrule Toprule Botrule" align="center" valign="top"> 700</td>
+                           <td styleCode="Lrule Rrule Toprule Botrule" align="center" valign="top"> 1050</td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Lrule Rrule Toprule Botrule">
+                              <paragraph>L-Glutamic Acid </paragraph>
+                           </td>
+                           <td styleCode="Lrule Rrule Toprule Botrule" align="left" valign="top"/>
+                           <td styleCode="Lrule Rrule Toprule Botrule" align="center" valign="top"> 738</td>
+                           <td styleCode="Lrule Rrule Toprule Botrule" align="center" valign="top"> 1107</td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Lrule Rrule Toprule Botrule">
+                              <paragraph>Histidine </paragraph>
+                           </td>
+                           <td styleCode="Lrule Rrule Toprule Botrule" align="left" valign="top"/>
+                           <td styleCode="Lrule Rrule Toprule Botrule" align="center" valign="top"> 300</td>
+                           <td styleCode="Lrule Rrule Toprule Botrule" align="center" valign="top"> 450</td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Lrule Rrule Toprule Botrule">
+                              <paragraph>Proline </paragraph>
+                           </td>
+                           <td styleCode="Lrule Rrule Toprule Botrule" align="left" valign="top"/>
+                           <td styleCode="Lrule Rrule Toprule Botrule" align="center" valign="top"> 722</td>
+                           <td styleCode="Lrule Rrule Toprule Botrule" align="center" valign="top"> 1083</td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Lrule Rrule Toprule Botrule">
+                              <paragraph>Serine </paragraph>
+                           </td>
+                           <td styleCode="Lrule Rrule Toprule Botrule" align="left" valign="top"/>
+                           <td styleCode="Lrule Rrule Toprule Botrule" align="center" valign="top"> 530</td>
+                           <td styleCode="Lrule Rrule Toprule Botrule" align="center" valign="top"> 795</td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Lrule Rrule Toprule Botrule">
+                              <paragraph>N-Acetyl-L-Tyrosine </paragraph>
+                           </td>
+                           <td styleCode="Lrule Rrule Toprule Botrule" align="left" valign="top"/>
+                           <td styleCode="Lrule Rrule Toprule Botrule" align="center" valign="top"> 270</td>
+                           <td styleCode="Lrule Rrule Toprule Botrule" align="center" valign="top"> 405</td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Lrule Rrule Toprule Botrule">
+                              <paragraph>Glycine </paragraph>
+                           </td>
+                           <td styleCode="Lrule Rrule Toprule Botrule" align="left" valign="top"/>
+                           <td styleCode="Lrule Rrule Toprule Botrule" align="center" valign="top"> 500</td>
+                           <td styleCode="Lrule Rrule Toprule Botrule" align="center" valign="top"> 750</td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Lrule Rrule Toprule Botrule"/>
+                           <td styleCode="Lrule Rrule Toprule Botrule" align="left" valign="top"/>
+                           <td styleCode="Lrule Rrule Toprule Botrule" align="center" valign="top"/>
+                           <td styleCode="Lrule Rrule Toprule Botrule" align="center" valign="top"/>
+                        </tr>
+                        <tr>
+                           <td styleCode="Lrule Rrule Toprule Botrule">
+                              <content styleCode="bold">
+                                 <content styleCode="emphasis">Other Characteristics</content>
+                              </content>
+                           </td>
+                           <td styleCode="Lrule Rrule Toprule Botrule" align="left" valign="top"/>
+                           <td styleCode="Lrule Rrule Toprule Botrule" align="center" valign="top"/>
+                           <td styleCode="Lrule Rrule Toprule Botrule" align="center" valign="top"/>
+                        </tr>
+                        <tr>
+                           <td styleCode="Lrule Rrule Toprule Botrule">
+                              <paragraph>Protein Equivalent</paragraph>
+                           </td>
+                           <td styleCode="Lrule Rrule Toprule Botrule" align="left" valign="top">(approx. grams/liter)</td>
+                           <td styleCode="Lrule Rrule Toprule Botrule" align="center" valign="top">100</td>
+                           <td styleCode="Lrule Rrule Toprule Botrule" align="center" valign="top">150</td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Lrule Rrule Toprule Botrule">
+                              <paragraph>Total Nitrogen</paragraph>
+                           </td>
+                           <td styleCode="Lrule Rrule Toprule Botrule" align="left" valign="top">(grams/liter)</td>
+                           <td styleCode="Lrule Rrule Toprule Botrule" align="center" valign="top">15.3</td>
+                           <td styleCode="Lrule Rrule Toprule Botrule" align="center" valign="top">23.0</td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Lrule Rrule Toprule Botrule">
+                              <paragraph>Osmolarity</paragraph>
+                           </td>
+                           <td styleCode="Lrule Rrule Toprule Botrule" align="left" valign="top">(mOsmol/liter, actual)</td>
+                           <td styleCode="Lrule Rrule Toprule Botrule" align="center" valign="top">840</td>
+                           <td styleCode="Lrule Rrule Toprule Botrule" align="center" valign="top">1270</td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Lrule Rrule Toprule Botrule">
+                              <paragraph>pH<sup>a</sup>
+                              </paragraph>
+                           </td>
+                           <td styleCode="Lrule Rrule Toprule Botrule" align="left" valign="top"/>
+                           <td styleCode="Lrule Rrule Toprule Botrule" align="center" valign="top">5.8 (5.0 – 6.5)</td>
+                           <td styleCode="Lrule Rrule Toprule Botrule" align="center" valign="top">5.8 (5.0 – 6.5)</td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Lrule Rrule Toprule Botrule">
+                              <paragraph>Specific Gravity</paragraph>
+                           </td>
+                           <td styleCode="Lrule Rrule Toprule Botrule" align="left" valign="top"/>
+                           <td styleCode="Lrule Rrule Toprule Botrule" align="center" valign="top">1.03</td>
+                           <td styleCode="Lrule Rrule Toprule Botrule" align="center" valign="top">1.05</td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Lrule Rrule Toprule Botrule"/>
+                           <td styleCode="Lrule Rrule Toprule Botrule" align="left" valign="top"/>
+                           <td styleCode="Lrule Rrule Toprule Botrule" align="center" valign="top"/>
+                           <td styleCode="Lrule Rrule Toprule Botrule" align="center" valign="top"/>
+                        </tr>
+                        <tr>
+                           <td styleCode="Lrule Rrule Toprule Botrule">
+                              <paragraph>Electrolytes</paragraph>
+                           </td>
+                           <td styleCode="Lrule Rrule Toprule Botrule" align="left" valign="top">(mEq/L)</td>
+                           <td styleCode="Lrule Rrule Toprule Botrule" align="center" valign="top"/>
+                           <td styleCode="Lrule Rrule Toprule Botrule" align="center" valign="top"/>
+                        </tr>
+                        <tr>
+                           <td styleCode="Lrule Rrule Toprule Botrule">
+                              <paragraph>Sodium</paragraph>
+                           </td>
+                           <td styleCode="Lrule Rrule Toprule Botrule" align="left" valign="top">(Na<sup>+</sup>)<sup>b</sup>
+                           </td>
+                           <td styleCode="Lrule Rrule Toprule Botrule" align="center" valign="top">38</td>
+                           <td styleCode="Lrule Rrule Toprule Botrule" align="center" valign="top">50</td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Lrule Rrule Toprule Botrule">
+                              <paragraph>Acetate</paragraph>
+                           </td>
+                           <td styleCode="Lrule Rrule Toprule Botrule" align="left" valign="top">(C<sub>2</sub>H<sub>3</sub>O<sub>2</sub>
+                              <sup>-</sup>)<sup>c</sup>
+                           </td>
+                           <td styleCode="Lrule Rrule Toprule Botrule" align="center" valign="top">71.8</td>
+                           <td styleCode="Lrule Rrule Toprule Botrule" align="center" valign="top">107.6</td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Lrule Rrule Toprule Botrule" colspan="3">
+                              <paragraph>
+                                 <sup>a</sup> Solution contains sodium hydroxide for pH adjustment.</paragraph>
+                              <paragraph>
+                                 <sup>b</sup> Figure includes Na<sup>+</sup> from the pH adjustor.</paragraph>
+                              <paragraph>
+                                 <sup>c</sup> Includes acetate from lysine acetate.</paragraph>
+                           </td>
+                           <td styleCode="Lrule Rrule Toprule Botrule" align="left" valign="top"/>
+                        </tr>
+                     </tbody>
+                  </table>
+                  <paragraph>The flexible plastic container is fabricated from a specially formulated polyvinylchloride. Water can permeate from inside the container into the overwrap but not in amounts to affect the solution significantly. Solutions in contact with the plastic container may leach out certain chemical components from the plastic in very small amounts; however, biological testing was supportive of the safety of the plastic container materials.</paragraph>
+                  <paragraph>Exposure to temperatures above 25°C/77°F during transport and storage will lead to minor losses in moisture content. Higher temperatures lead to greater losses. It is unlikely that these minor losses will lead to clinically significant changes within the expiration period. </paragraph>
+                  <br/>
+                  <paragraph>The formulas for the individual amino acids are as follows:</paragraph>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="MM30"/>
+                  </paragraph>
+                  <paragraph>The Pharmacy Bulk Package is designed for use with manual, gravity flow operations and automated compounding devices for preparing sterile parenteral nutrient admixtures; it contains no bacteriostat. Multiple single doses may be dispensed during continual aliquoting operations. Withdrawal of container contents should be promptly completed within 4 hours after initial closure puncture.</paragraph>
+               </text>
+               <effectiveTime value="20220506"/>
+               <component>
+                  <observationMedia ID="MM30">
+                     <text>structural formula amino acids</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="aminosyn-ii2-figure-1-XEN-1831-1.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="ea3d6358-8155-4e9a-826f-435f5ecc1e6a">
+               <id root="9a02112d-15a3-4f29-a14b-a17a0b8df1e0"/>
+               <code code="34090-1" codeSystem="2.16.840.1.113883.6.1" displayName="CLINICAL PHARMACOLOGY SECTION"/>
+               <title>CLINICAL PHARMACOLOGY</title>
+               <text>
+                  <paragraph>Aminosyn II, Sulfite-Free, (an amino acid injection) provides crystalline amino        acids to promote protein synthesis and wound healing, and to reduce the rate of endogenous        protein catabolism. Aminosyn II, given by central venous infusion in combination with        concentrated dextrose, electrolytes, vitamins, trace metals, and ancillary fat supplements,        constitutes total parenteral nutrition (TPN). Aminosyn II can also be administered by        peripheral vein with dextrose and maintenance electrolytes. Intravenous fat emulsion may be        substituted for part of the carbohydrate calories during either TPN or peripheral vein        administration of Aminosyn II.</paragraph>
+               </text>
+               <effectiveTime value="20220506"/>
+            </section>
+         </component>
+         <component>
+            <section ID="f37628d9-85f4-45dc-9bde-05a292a5cfbd">
+               <id root="f345ed6a-e32d-4170-8e73-2fece29fc92e"/>
+               <code code="34067-9" codeSystem="2.16.840.1.113883.6.1" displayName="INDICATIONS &amp; USAGE SECTION"/>
+               <title>INDICATIONS AND USAGE</title>
+               <text>
+                  <paragraph>Aminosyn II, Sulfite-Free, (an amino acid injection) infused with dextrose by        peripheral vein infusion is indicated as a source of nitrogen in the nutritional support of        patients with adequate stores of body fat, in whom, for short periods of time, oral nutrition        cannot be tolerated, is undesirable, or inadequate.</paragraph>
+                  <paragraph> SUPPLEMENTAL ELECTROLYTES, IN ACCORDANCE WITH THE PRESCRIPTION OF THE        ATTENDING PHYSICIAN, MUST BE ADDED TO AMINOSYN II SOLUTIONS WITHOUT ELECTROLYTES.</paragraph>
+                  <paragraph> Aminosyn II can be administered peripherally with dilute (5 to 10%)        dextrose solution and I.V. fat emulsion as a source of nutritional support. This form of        nutritional support can help to preserve protein and reduce catabolism in stress conditions        where oral intake is inadequate.</paragraph>
+                  <paragraph> Aminosyn II is also indicated for central vein infusion to prevent or        reverse negative nitrogen balance in patients where the alimentary tract, by the oral,        gastrostomy or jejunostomy route cannot or should not be used and gastrointestinal absorption        of protein is impaired.</paragraph>
+               </text>
+               <effectiveTime value="20220506"/>
+            </section>
+         </component>
+         <component>
+            <section ID="fd554e99-20d7-408d-b33a-c8b23ffe7c1f">
+               <id root="d88928c8-c1b4-4efa-87f2-13ce28419c03"/>
+               <code code="34070-3" codeSystem="2.16.840.1.113883.6.1" displayName="CONTRAINDICATIONS SECTION"/>
+               <title>CONTRAINDICATIONS</title>
+               <text>
+                  <paragraph>This preparation should not be used in patients with hepatic coma or metabolic        disorders involving impaired nitrogen utilization.</paragraph>
+               </text>
+               <effectiveTime value="20220506"/>
+            </section>
+         </component>
+         <component>
+            <section ID="bd405af1-c74d-4b64-9124-7931b836bdc8">
+               <id root="83c4ef3e-194d-42ab-bea9-b9d988a07fe5"/>
+               <code code="34071-1" codeSystem="2.16.840.1.113883.6.1" displayName="WARNINGS SECTION"/>
+               <title>WARNINGS</title>
+               <text>
+                  <paragraph>Intravenous infusion of amino acids may induce a rise in blood urea nitrogen (BUN), especially in patients with impaired hepatic or renal function. Appropriate laboratory tests should be performed periodically and infusion discontinued if BUN levels exceed normal postprandial limits and continue to rise. It should be noted that a modest rise in BUN normally occurs as a result of increased protein intake.</paragraph>
+                  <paragraph>Administration of amino acid solutions to a patient with hepatic insufficiency may result in serum amino acid imbalances, metabolic alkalosis, prerenal azotemia, hyperammonemia, stupor and coma.</paragraph>
+                  <paragraph>Administration of amino acid solutions in the presence of impaired renal function may augment an increasing BUN, as does any protein dietary component.</paragraph>
+                  <paragraph>Solutions containing sodium ion should be used with great care, if at all, in patients with congestive heart failure, severe renal insufficiency and in clinical states in which there exists edema with sodium retention.</paragraph>
+                  <paragraph>Solutions which contain potassium ion should be used with great care, if at all, in patients with hyperkalemia, severe renal failure and in conditions in which potassium retention is present.</paragraph>
+                  <paragraph>Solutions containing acetate ion should be used with great care in patients with metabolic or respiratory alkalosis. Acetate should be administered with great care in those conditions in which there is an increased level or an impaired utilization of this ion, such as severe hepatic insufficiency.</paragraph>
+                  <paragraph>Hyperammonemia is of special significance in infants, as it can result in mental retardation. Therefore, it is essential that blood ammonia levels be measured frequently in infants.</paragraph>
+                  <paragraph>Instances of asymptomatic hyperammonemia have been reported in patients without overt liver dysfunction. The mechanisms of this reaction are not clearly defined, but may involve genetic defects and immature or subclinically impaired liver function.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">
+                        <content styleCode="emphasis">WARNING:</content>
+                     </content> This product contains aluminum that may be toxic. Aluminum may reach toxic levels with prolonged parenteral administration if kidney function is impaired. Premature neonates are particularly at risk because their kidneys are immature, and they require large amounts of calcium and phosphate solutions, which contain aluminum.</paragraph>
+                  <paragraph>Research indicates that patients with impaired kidney function, including premature neonates, who receive parenteral levels of aluminum at greater than 4 to 5 mcg/kg/day accumulate aluminum at levels associated with central nervous system and bone toxicity. Tissue loading may occur even at lower rates of administration.</paragraph>
+               </text>
+               <effectiveTime value="20220506"/>
+            </section>
+         </component>
+         <component>
+            <section ID="db70e631-52c0-4f08-aa4b-c75e3034128c">
+               <id root="8e4c66fa-3aa5-4906-866a-9c8599d75661"/>
+               <code code="42232-9" codeSystem="2.16.840.1.113883.6.1" displayName="PRECAUTIONS SECTION"/>
+               <title>PRECAUTIONS</title>
+               <text>
+                  <paragraph>Special care must be taken when administering glucose to provide calories in        diabetic or prediabetic patients.</paragraph>
+                  <paragraph> Feeding regimens which include amino acids should be used with caution in        patients with history of renal disease, pulmonary disease, or with cardiac insufficiency so        as to avoid excessive fluid accumulation.</paragraph>
+                  <paragraph> The effect of infusion of amino acids, without dextrose, upon carbohydrate        metabolism of children is not known at this time.</paragraph>
+                  <paragraph> Nitrogen intake should be carefully monitored in patients with impaired        renal function.</paragraph>
+                  <paragraph> For long-term total nutrition, or if a patient has inadequate fat stores,        it is essential to provide adequate exogenous calories concurrently with the amino acids.        Concentrated dextrose solutions are an effective source of such calories. Such strongly        hypertonic nutrient solutions should be administered through an indwelling intravenous        catheter with the tip located in the superior vena cava.</paragraph>
+               </text>
+               <effectiveTime value="20220506"/>
+               <component>
+                  <section ID="ea1f6797-94bc-4444-89ae-0bbc58a5449e">
+                     <id root="5ba4069a-08bd-4d83-9ba7-c521393d4694"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title/>
+                     <text>
+                        <paragraph> </paragraph>
+                        <table>
+                           <tbody>
+                              <tr>
+                                 <td styleCode="Lrule Rrule Toprule Botrule" align="center" valign="middle">
+                                    <paragraph>
+                                       <content styleCode="bold">
+                                          <content styleCode="emphasis">SPECIAL PRECAUTIONS FOR CENTRAL VENOUS INFUSIONS</content>
+                                       </content> </paragraph>
+                                    <paragraph>ADMINISTRATION BY CENTRAL VENOUS CATHETER SHOULD BE USED ONLY BY THOSE FAMILIAR WITH THIS TECHNIQUE AND ITS COMPLICATIONS.</paragraph>
+                                 </td>
+                              </tr>
+                           </tbody>
+                        </table>
+                     </text>
+                     <effectiveTime value="20220506"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="befc0ab7-89a2-4d24-a295-9a5ad8077d9d">
+                     <id root="4835087f-c7dd-494c-b742-2b3b833a496b"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title/>
+                     <text>
+                        <paragraph>Central vein infusion (with added concentrated carbohydrate solutions) of amino acid solutions requires a knowledge of nutrition as well as clinical expertise in recognition and treatment of complications. Attention must be given to solution preparation, administration and patient monitoring. IT IS ESSENTIAL THAT A CAREFULLY PREPARED PROTOCOL BASED ON CURRENT MEDICAL PRACTICES BE FOLLOWED, PREFERABLY BY AN EXPERIENCED TEAM.</paragraph>
+                        <paragraph>SUMMARY HIGHLIGHTS OF COMPLICATIONS (consult current medical literature).</paragraph>
+                        <list listType="ordered">
+                           <item>
+                              <paragraph>
+                                 <content styleCode="bold">
+                                    <content styleCode="emphasis">Technical:</content>
+                                 </content>
+                              </paragraph>
+                              <paragraph>The placement of a central venous catheter should be regarded as a surgical procedure. One should be fully acquainted with various techniques of catheter insertion. For details of technique and placement sites, consult the medical literature. X-ray is the best means of verifying catheter placement. Complications known to occur from the placement of central venous catheters are pneumothorax, hemothorax, hydrothorax, artery puncture and transection, injury to the brachial plexus, malposition of the catheter, formation of arteriovenous fistula, phlebitis, thrombosis and air and catheter emboli.</paragraph>
+                           </item>
+                           <item>
+                              <paragraph>
+                                 <content styleCode="bold">
+                                    <content styleCode="emphasis">Septic:</content>
+                                 </content>
+                              </paragraph>
+                              <paragraph>The constant risk of sepsis is present during administration of total parenteral nutrition. It is imperative that the preparation of the solution and the placement and care of catheters be accomplished under strict aseptic conditions.</paragraph>
+                              <paragraph>Solutions should ideally be prepared in the hospital pharmacy in a laminar flow hood using careful aseptic technique to avoid inadvertent touch contamination. Solutions should be used promptly after mixing. Storage should be under refrigeration and limited to a brief period of time, preferably less than 24 hours.</paragraph>
+                              <paragraph>Administration time for a single container and set should never exceed 24 hours.</paragraph>
+                           </item>
+                           <item>
+                              <paragraph>
+                                 <content styleCode="bold">
+                                    <content styleCode="emphasis">Metabolic:</content>
+                                 </content>
+                              </paragraph>
+                              <paragraph>The following metabolic complications have been reported with <content styleCode="underline">
+                                    <content styleCode="emphasis">TPN</content>
+                                 </content> administration: metabolic acidosis and alkalosis, hypophosphatemia, hypocalcemia, osteoporosis, glycosuria, hyperglycemia, hyperosmolar nonketotic states and dehydration, rebound hypoglycemia, osmotic diuresis and dehydration, elevated liver enzymes, hypo- and hypervitaminosis, electrolyte imbalances and hyperammonemia in pediatric patients. Frequent evaluations are necessary especially during the first few days of therapy to prevent or minimize these complications.</paragraph>
+                              <paragraph>Administration of glucose at a rate exceeding the patient’s utilization rate may lead to hyperglycemia, coma and death.</paragraph>
+                           </item>
+                        </list>
+                     </text>
+                     <effectiveTime value="20220506"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="c6278542-bc4f-4513-9e99-7c9873efe8c8">
+                     <id root="95aa8782-29df-4790-ba38-ef012577e8eb"/>
+                     <code code="34083-6" codeSystem="2.16.840.1.113883.6.1" displayName="CARCINOGENESIS &amp; MUTAGENESIS &amp; IMPAIRMENT OF FERTILITY SECTION"/>
+                     <title>Carcinogenesis, Mutagenesis, Impairment of Fertility:</title>
+                     <text>
+                        <paragraph>Studies with solutions from flexible plastic containers have not been performed          to evaluate carcinogenic potential, mutagenic potential or effects on         fertility.</paragraph>
+                     </text>
+                     <effectiveTime value="20220506"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="c288f0ca-7209-43c1-96f8-e13d9b0d34d1">
+                     <id root="13e5d694-12fe-4061-9733-183c5446f966"/>
+                     <code code="42228-7" codeSystem="2.16.840.1.113883.6.1" displayName="PREGNANCY SECTION"/>
+                     <title/>
+                     <text>
+                        <paragraph>
+                           <content styleCode="italics">
+                              <content styleCode="emphasis">Pregnancy Category C.</content>
+                           </content> Animal reproduction studies have not been conducted with Aminosyn II (an amino acid injection). It is not known whether Aminosyn II can cause fetal harm when administered to a pregnant woman or can affect reproduction capacity. Aminosyn II should be given to a pregnant woman only if clearly needed.</paragraph>
+                     </text>
+                     <effectiveTime value="20220506"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="e65b1b87-aa44-457e-9c86-2c6bfc2cf506">
+                     <id root="ae45386c-d088-4529-9be7-22a1053086ea"/>
+                     <code code="34080-2" codeSystem="2.16.840.1.113883.6.1" displayName="NURSING MOTHERS SECTION"/>
+                     <title>Nursing Mothers:</title>
+                     <text>
+                        <paragraph>Caution should be exercised when solutions from flexible plastic containers are          administered to a nursing mother.</paragraph>
+                     </text>
+                     <effectiveTime value="20220506"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="c5f22615-6b78-4dde-8590-6115c599ff1c">
+                     <id root="e1e149a5-ee80-4fae-b850-74b7b2e0a1a0"/>
+                     <code code="34082-8" codeSystem="2.16.840.1.113883.6.1" displayName="GERIATRIC USE SECTION"/>
+                     <title>Geriatric Use:</title>
+                     <text>
+                        <paragraph>Clinical Studies of Aminosyn II have not been performed to determine          whether patients over 65 years of age respond differently from younger subjects. Other          reported clinical experience has not identified differences in responses between elderly          and younger patients. In general, dose selection for an elderly patient should be cautious,          reflecting the greater frequency of decreased hepatic, renal, or cardiac function, and of          concomitant disease or other drug therapy. This drug is known to be substantially excreted          by kidney, and the risk for adverse reactions to this drug may be greater in patients with          impaired renal function. Because elderly patients are more likely to have decreased renal          function, care should be taken in dose selection, and it may be useful to monitor renal          function. </paragraph>
+                     </text>
+                     <effectiveTime value="20220506"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="f314e851-98df-4f1d-a060-77a78825271d">
+                     <id root="c3a7ec0e-2854-4590-8ac1-f9520c76dddb"/>
+                     <code code="34081-0" codeSystem="2.16.840.1.113883.6.1" displayName="PEDIATRIC USE SECTION"/>
+                     <title>Pediatric Use:</title>
+                     <text>
+                        <paragraph>Safety and effectiveness of solutions from flexible plastic containers in          pediatric patients have not been well established.</paragraph>
+                        <paragraph>CLINICAL EVALUATION AND LABORATORY DETERMINATIONS, AT THE DISCRETION OF THE          ATTENDING PHYSICIAN, ARE NECESSARY FOR PROPER MONITORING DURING ADMINISTRATION. Do not          withdraw venous blood for blood chemistries through the peripheral infusion site, as          interference with estimations of nitrogen containing substances may occur. Blood studies          should include glucose, urea nitrogen, serum electrolytes, ammonia, cholesterol, acid-base          balance, serum proteins, kidney and liver function tests, osmolarity and hemogram. White          blood count and blood cultures are to be determined if indicated. Urinary osmolality and          glucose should be determined as necessary.</paragraph>
+                     </text>
+                     <effectiveTime value="20220506"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="a0c2e4fb-a4f9-4798-bbd5-cc54255ab90c">
+                     <id root="a8540c9c-23eb-4e6a-9525-2e4181442ac4"/>
+                     <code code="34073-7" codeSystem="2.16.840.1.113883.6.1" displayName="DRUG INTERACTIONS SECTION"/>
+                     <title>Drug Interactions</title>
+                     <text>
+                        <paragraph> Because of its antianabolic activity, concurrent administration of tetracycline          may reduce the potential effects of amino acids infused with dextrose as part of a          parenteral feeding regimen.</paragraph>
+                     </text>
+                     <effectiveTime value="20220506"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="fc37bca9-260f-4c97-993c-c4685e3bf71a">
+               <id root="27e7dfcb-2048-479c-a67e-439da0db8bfe"/>
+               <code code="34084-4" codeSystem="2.16.840.1.113883.6.1" displayName="ADVERSE REACTIONS SECTION"/>
+               <title>ADVERSE REACTIONS</title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">
+                        <content styleCode="emphasis">Peripheral Infusions</content>
+                     </content>
+                  </paragraph>
+                  <paragraph>A 3.5% to 5% solution of amino acids (without additives) is slightly hypertonic.        Use of large peripheral veins, inline filters, and slowing the rate of infusion may reduce        the incidence of local venous irritation. Electrolyte additives should be spread throughout        the day. Irritating additive medications may need to be infused at another venous site.</paragraph>
+                  <paragraph> Generalized flushing, fever and nausea also have been reported during peripheral        infusions of amino acid solutions.</paragraph>
+               </text>
+               <effectiveTime value="20220506"/>
+            </section>
+         </component>
+         <component>
+            <section ID="e5fefe08-eb72-4716-a40c-4875aaab1d3c">
+               <id root="5d9dc3fe-2ea4-4ecf-86c5-1ffc085f4e1a"/>
+               <code code="34088-5" codeSystem="2.16.840.1.113883.6.1" displayName="OVERDOSAGE SECTION"/>
+               <title>OVERDOSAGE</title>
+               <text>
+                  <paragraph>In the event of overhydration or solute overload, re-evaluate the patient and institute appropriate corrective measures. (See <content styleCode="bold">
+                        <content styleCode="emphasis">
+                           <content styleCode="italics">WARNINGS</content>
+                        </content>
+                     </content> and <content styleCode="bold">
+                        <content styleCode="emphasis">
+                           <content styleCode="italics">PRECAUTIONS</content>
+                        </content>
+                     </content>.)</paragraph>
+               </text>
+               <effectiveTime value="20220506"/>
+            </section>
+         </component>
+         <component>
+            <section ID="a4a56dbd-79ed-459d-bdc8-44004a844f05">
+               <id root="a73b9fcf-336d-4060-8e3a-48834f32f6d8"/>
+               <code code="34068-7" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE &amp; ADMINISTRATION SECTION"/>
+               <title>DOSAGE AND ADMINISTRATION</title>
+               <text>
+                  <paragraph>Each 100 mL of Aminosyn II contains:</paragraph>
+                  <table width="60%">
+                     <col width="34%" align="left" valign="top"/>
+                     <col width="33%" align="center" valign="top"/>
+                     <col width="33%" align="center" valign="top"/>
+                     <thead>
+                        <tr>
+                           <th align="left" valign="top"/>
+                           <th align="center" valign="top">
+										Amino Acids</th>
+                           <th align="center" valign="top">
+										Nitrogen</th>
+                        </tr>
+                     </thead>
+                     <tbody>
+                        <tr>
+                           <td align="left" valign="top">Aminosyn II 10%</td>
+                           <td align="center" valign="top">10 g</td>
+                           <td align="center" valign="top">1.53 g</td>
+                        </tr>
+                        <tr>
+                           <td align="left" valign="top">
+                              <paragraph>Aminosyn II 15%</paragraph>
+                           </td>
+                           <td align="center" valign="top">
+                              <paragraph>15 g</paragraph>
+                           </td>
+                           <td align="center" valign="top">
+                              <paragraph>2.30 g</paragraph>
+                           </td>
+                        </tr>
+                     </tbody>
+                  </table>
+                  <paragraph>The total daily dose of the solution depends on the daily protein requirements and on the patient’s metabolic and clinical response. In many patients, provision of adequate calories in the form of hypertonic dextrose may require the administration of exogenous insulin to prevent hyperglycemia and glycosuria. To prevent rebound hypoglycemia, a solution containing 5% dextrose should be administered when hypertonic dextrose infusions are abruptly discontinued.</paragraph>
+                  <paragraph>Parenteral drug products should be inspected visually for particulate matter and discoloration prior to administration, whenever solution and container permit. COLOR VARIATION FROM PALE YELLOW TO YELLOW IS NORMAL AND DOES NOT ALTER EFFICACY.</paragraph>
+                  <paragraph>Some opacity of the plastic due to moisture absorption during the sterilization process may be observed. This is normal and does not affect the solution quality or safety. The opacity will diminish gradually.</paragraph>
+                  <paragraph>Aminosyn II in the 2000 mL flexible Pharmacy Bulk Package is designed for use with manual, gravity flow operations and automated gravimetric compounding devices for preparing intravenous nutritional admixtures. Admixtures must be stored under refrigeration and used within 24 hours of admixing.</paragraph>
+                  <list listType="ordered">
+                     <item>
+                        <paragraph>
+                           <content styleCode="bold">
+                              <content styleCode="emphasis">Peripheral Vein Nutritional Maintenance </content>
+                           </content>
+                        </paragraph>
+                        <paragraph>A mixture of Aminosyn II and dextrose diluted to a final concentration of 5% to 10% amino acids and 5% to 10% dextrose is suitable for administration by peripheral vein. This solution is not intended for central vein administration because it does not contain adequate amounts of amino acids or electrolytes.</paragraph>
+                        <paragraph>For peripheral intravenous infusion, 1 to 1.5 g/kg/day of total amino acids will reduce protein catabolism. Infusion or ingestion of carbohydrate or lipid will not reduce the nitrogen sparing effect of intravenous amino acid infusions at this dose.</paragraph>
+                        <paragraph>As with all intravenous fluid therapy, the primary aim is to provide sufficient water to compensate for insensible, urinary and other (nasogastric suction, fistula drainage, diarrhea) fluid losses. Total fluid requirements, as well as electrolyte and acid-base needs, should be estimated and appropriately administered.</paragraph>
+                        <paragraph>For an amino acid solution of specified total concentration, the volume required to meet amino acid requirements per 24 hours can be calculated. After making an estimate of the total daily fluid (water) requirement, the balance of fluid needed beyond the volume of amino acid solution required can be provided either as a noncarbohydrate or a carbohydrate-containing electrolyte solution. I.V. lipid emulsion may be substituted for part of the carbohydrate-containing solution. Vitamins and additional electrolytes as needed for maintenance or to correct imbalances may be added to the amino acid solution.</paragraph>
+                        <paragraph>If desired, only one-half of an estimated daily amino acid requirement of 1.5 g/kg can be given on the first day. Amino acids together with dextrose in concentrations of 5% to 10% infused into a peripheral vein can be continued while oral nutrition is impaired. However, if a patient is unable to take oral nourishment for a prolonged period of time, institution of total parenteral nutrition with exogenous calories should be considered.</paragraph>
+                     </item>
+                     <item>
+                        <paragraph>
+                           <content styleCode="bold">
+                              <content styleCode="emphasis">Central Vein Total Parenteral Nutrition </content>
+                           </content>
+                        </paragraph>
+                        <paragraph>For central vein infusion with concentrated dextrose solution, alone or with I.V. lipid, the total daily dose of the amino acid solution depends upon daily protein requirements and the patient’s metabolic and clinical response. The determination of nitrogen balance and accurate daily body weights, corrected for fluid balance, are probably the best means of assessing individual protein requirements.</paragraph>
+                     </item>
+                  </list>
+                  <paragraph>
+                     <content styleCode="bold italics">
+                        <content styleCode="emphasis">ADULTS </content>
+                     </content>
+                  </paragraph>
+                  <paragraph>Solutions containing 3.5 to 5% amino acids with 5 to 10% glucose may be infused with a fat emulsion by peripheral vein to provide approximately 1400 to 2000 kcal/day. Fat emulsion administration should be considered when prolonged parenteral nutrition is required in order to prevent essential fatty acid deficiency (E.F.A.D.). Serum lipids should be monitored for evidence of E.F.A.D. in patients maintained on fat-free TPN.</paragraph>
+                  <paragraph>Aminosyn II solution should only be infused via a central vein when admixed with sufficient dextrose to provide full caloric requirements in patients who require prolonged total parenteral nutrition. I.V. lipid may be administered to provide part of the calories, if desired. Serum lipids should be monitored for evidence of essential fatty acid deficiency in patients maintained on fat-free TPN.</paragraph>
+                  <paragraph>Total parenteral nutrition (TPN) may be started with 10% dextrose added to the calculated daily requirement of amino acids (1.5 g/kg for a metabolically stable patient). Dextrose content is gradually increased over the next few days to the estimated daily caloric need as the patient adapts to the increasing amounts of dextrose. Each gram of dextrose provides approximately 3.4 kcal. Each gram of fat provides 9 kcal.</paragraph>
+                  <paragraph>The average depleted major surgical patient with complications requires between 2500 and 4000 kcal and between 12 and 24 grams of nitrogen per day. An adult patient in an acceptable weight range with restricted activity who is not hypermetabolic, requires about 30 kcal/kg of body weight/day. Average daily adult fluid requirements are between 2500 and 3000 mL and may be much higher with losses from fistula drainage or severe burns. Typically, a hospitalized patient may lose 12 to 18 grams of nitrogen a day, and in severe trauma the daily loss may be 20 to 25 grams or more.</paragraph>
+                  <paragraph>Aminosyn II solutions without electrolytes are intended for patients requiring individualized electrolyte therapy. Sodium, chloride, potassium, phosphate, calcium and magnesium are major electrolytes which should be added to Aminosyn II as required.</paragraph>
+                  <paragraph>SERUM ELECTROLYTES SHOULD BE MONITORED AS INDICATED. Electrolytes may be added to the nutrient solution as indicated by the patient’s clinical condition and laboratory determinations of plasma values. Major electrolytes are sodium, chloride, potassium, phosphate, magnesium and calcium. Vitamins, including folic acid and vitamin K, are required additives. The trace element supplements should be given when long-term parenteral nutrition is undertaken.</paragraph>
+                  <paragraph>Iron is added to the solution or given intramuscularly in depot form as indicated. Vitamin B<sub>12</sub>, vitamin K and folic acid are given intramuscularly or added to the solution as desired.</paragraph>
+                  <paragraph>Calcium and phosphorus additives are potentially incompatible when added to the TPN admixture. </paragraph>
+                  <paragraph>In patients with hyperchloremic or other metabolic acidosis, sodium and potassium may be added as the acetate or lactate salts to provide bicarbonate alternates.</paragraph>
+                  <paragraph>In adults, hypertonic mixtures of amino acids and dextrose may be safely administered by continuous infusion through a central venous catheter with the tip located in the vena cava. Typically, each liter of central vein TPN solution for adults contains 42.5 to 50 g of Aminosyn II with approximately 250 ± 100 g of dextrose; supplementary nonprotein calories from intravenous fat emulsion may be prescribed, at the discretion of the physician.</paragraph>
+                  <paragraph>The rate of intravenous infusion initially should be 2 mL/min and may be increased gradually. If administration should fall behind schedule, no attempt to “catch up” to planned intake should be made. In addition to meeting protein needs, the rate of administration is governed by the patient’s glucose tolerance estimated by glucose levels in blood and urine.</paragraph>
+                  <paragraph>Aminosyn II solution, when mixed with an appropriate volume of concentrated dextrose, offers a higher concentration of calories and nitrogen per unit volume. This solution is indicated for patients requiring larger amounts of nitrogen than could otherwise be provided or where total fluid load must be kept to a minimum, for example, patients with renal failure.</paragraph>
+                  <paragraph>Provision of adequate calories in the form of hypertonic dextrose may require exogenous insulin to prevent hyperglycemia and glycosuria. To prevent rebound hypoglycemia, do not abruptly discontinue administration of nutritional solutions.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold italics">
+                        <content styleCode="emphasis">PEDIATRIC</content>
+                     </content>
+                  </paragraph>
+                  <paragraph>Pediatric requirements for parenteral nutrition are constrained by the greater relative fluid requirements of the infant and greater caloric requirements per kilogram. Amino acids are probably best administered in a 2.5% concentration. For most pediatric patients on intravenous nutrition, 2.5 grams amino acids/kg/day with dextrose alone or with I.V. lipid calories of 100 to 130 kcal/kg/day is recommended. In cases of malnutrition or stress, these requirements may be increased. It is acceptable in pediatrics to start with a nutritional solution of half strength at a rate of about 60 to 70 mL/kg/day. Within 24 to 48 hours the volume and concentration of the solution can be increased until the full strength pediatric solution (amino acids and dextrose) is given at a rate of 125 to 150 mL/kg/day.</paragraph>
+                  <paragraph>Supplemental electrolytes and vitamin additives should be administered as deemed necessary by careful monitoring of blood chemistries and nutritional status. Addition of iron is more critical in the infant than the adult because of the increasing red cell mass required for the growing infant. Serum lipids should be monitored for evidence of essential fatty acid deficiency in patients maintained on fat-free TPN. Bicarbonate should not be administered during infusion of the nutritional solution unless deemed absolutely necessary.</paragraph>
+                  <paragraph>To ensure the precise delivery of the small volumes of fluid necessary for total parenteral nutrition in infants, accurately calibrated and reliable infusion systems should be used. A basic solution for pediatric use should contain 25 grams of amino acids and 200 to 250 grams of glucose per 1000 mL, administered from containers containing 250 or 500 mL. Such a solution given at the rate of 145 mL/kg/day provides 130 kcal/kg/day.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">
+                        <content styleCode="emphasis">Recommended Directions for Use of the Pharmacy Bulk Package </content>
+                     </content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">
+                        <content styleCode="emphasis">Use Aseptic Technique </content>
+                     </content>
+                  </paragraph>
+                  <list listType="ordered">
+                     <item>
+                        <paragraph>During use, container must be stored, and all manipulations performed, in an appropriate laminar flow hood.</paragraph>
+                     </item>
+                     <item>
+                        <paragraph>Remove cover from outlet port at bottom of container.</paragraph>
+                     </item>
+                     <item>
+                        <paragraph>Insert piercing pin of sterile transfer set and suspend unit in a laminar flow hood. Insertion of a piercing pin into the outlet port should be performed only once in a Pharmacy Bulk Package solution. Once the outlet site has been entered, the withdrawal of container contents should be completed promptly in one continuous operation. Should this not be possible, a maximum time of 4 hours from transfer set pin or implement insertion is permitted to complete fluid transfer operations; i.e., discard container no later than 4 hours after initial closure puncture.</paragraph>
+                     </item>
+                     <item>
+                        <paragraph>Sequentially dispense aliquots of Aminosyn II into I.V. containers using appropriate transfer set. During fluid transfer operations, the Pharmacy Bulk Package should be maintained under the storage conditions recommended in the labeling. </paragraph>
+                        <paragraph>Additives may be incompatible with fluid withdrawn from this container. Consult with pharmacist, if available. When compounding admixtures, use aseptic technique. Mix thoroughly. Do not store solutions containing additives. Because of the potential for life-threatening events, caution should be taken to ensure that precipitates have not formed in any parenteral nutrient mixture.</paragraph>
+                     </item>
+                  </list>
+                  <paragraph>
+                     <content styleCode="bold">
+                        <content styleCode="emphasis">WARNING: Do not use flexible container in series connections.</content>
+                     </content>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20220506"/>
+            </section>
+         </component>
+         <component>
+            <section ID="a1c10200-f89a-4ef7-93cd-83099418130e">
+               <id root="c044ed76-06d9-40f1-946b-d323683169f4"/>
+               <code code="34069-5" codeSystem="2.16.840.1.113883.6.1" displayName="HOW SUPPLIED SECTION"/>
+               <title>HOW SUPPLIED</title>
+               <text>
+                  <paragraph>Aminosyn II is supplied as a Pharmacy Bulk Package in a 2000 mL flexible container for continuous admixture compounding procedures. Two concentrations are available:</paragraph>
+                  <table styleCode="Noautorules" width="70%">
+                     <col width="60%" align="left" valign="top"/>
+                     <col width="40%" align="left" valign="top"/>
+                     <tbody>
+                        <tr>
+                           <td valign="top">Aminosyn II 10%, Sulfite-Free</td>
+                           <td valign="top">NDC 0409-7172-17</td>
+                        </tr>
+                        <tr>
+                           <td>Aminosyn II 10%, Sulfite-Free</td>
+                           <td>NDC 0990-7172-17</td>
+                        </tr>
+                        <tr>
+                           <td>Aminosyn II 15%, Sulfite-Free</td>
+                           <td>NDC 0409-7171-17</td>
+                        </tr>
+                        <tr>
+                           <td valign="top">
+                              <paragraph>Aminosyn II 15%, Sulfite-Free</paragraph>
+                           </td>
+                           <td valign="top">
+                              <paragraph>NDC 0990-7171-17</paragraph>
+                           </td>
+                        </tr>
+                     </tbody>
+                  </table>
+                  <paragraph>ICU Medical is transitioning NDC codes from the "0409" to a "0990" labeler code. Both NDC codes are expected to be in the market for a period of time.</paragraph>
+                  <paragraph>Store at 20 to 25°C (68 to 77°F). [See USP Controlled Room Temperature.] Protect from freezing. <content styleCode="bold">
+                        <content styleCode="emphasis">Avoid exposure to light.</content>
+                     </content>
+                  </paragraph>
+                  <paragraph>Revised: June, 2018</paragraph>
+                  <paragraph> </paragraph>
+                  <paragraph>                            EN-4657</paragraph>
+                  <paragraph>ICU Medical, Inc., Lake Forest, Illinois, 60045, USA</paragraph>
+               </text>
+               <effectiveTime value="20220506"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="0bd2f32f-e3e5-48bb-8ca8-1b225c340fc0"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>PRINCIPAL DISPLAY PANEL - 2000 mL Bag Label - 7172</title>
+               <text>
+                  <paragraph>2000 mL<br/>						NDC 0990-7172-17<br/>						Rx ONLY</paragraph>
+                  <paragraph>AMINOSYN™ II 10%<br/>An Amino Acid Injection, Sulfite-Free</paragraph>
+                  <paragraph>Pharmacy Bulk Package —<br/>Not for Direct Infusion.</paragraph>
+                  <paragraph>EACH 100 mL CONTAINS: TOTAL AMINO ACIDS APPROX.<br/>10 g. MAY CONTAIN SODIUM HYDROXIDE FOR pH<br/>ADJUSTMENT.<br/>ESSENTIAL AMINO ACIDS/100 mL: ISOLEUCINE 660 mg;<br/>LEUCINE 1000 mg; LYSINE (AS ACETATE SALT) 1050 mg;<br/>METHIONINE 172 mg; PHENYLALANINE 298 mg;<br/>THREONINE 400 mg; TRYPTOPHAN 200 mg; VALINE 500 mg.<br/>NONESSENTIAL AMINO ACIDS/100 mL: N-ACETYL-L-<br/>TYROSINE 270 mg; ALANINE 993 mg; ARGININE 1018 mg;<br/>GLYCINE 500 mg; PROLINE 722 mg; HISTIDINE 300 mg;<br/>SERINE 530 mg; L-ASPARTIC ACID 700 mg;<br/>L-GLUTAMIC ACID 738 mg.<br/>ELECTROLYTES (mEq/L): SODIUM 38; ACETATE 71.8.<br/>840 mOsmol/L (ACTUAL). pH 5.8 (5.0 to 6.5) SP. GR.=1.03<br/>FOR IV USE. USUAL DOSAGE: SEE INSERT. STERILE,<br/>NONPYROGENIC. SEE INSERT FOR COMPLETE PRODUCT<br/>INFORMATION FOR USE OF THE PHARMACY BULK PACKAGE.</paragraph>
+                  <paragraph>DATE ENTERED:</paragraph>
+                  <paragraph>TIME OF ENTRY:<br/>CAUTION: USE ONLY IN LAMINAR FLOW HOOD. ONCE THE<br/>OUTLET SITE HAS BEEN ENTERED, THE WITHDRAWAL OF<br/>CONTAINER CONTENTS SHOULD BE PROMPTLY COMPLETED<br/>IN ONE CONTINUOUS OPERATION. DISCARD CONTAINER NOT<br/>LATER THAN 4 HOURS AFTER INITIAL CLOSURE PUNCTURE.<br/>SEE INSERT. ADDITIVES MAY BE INCOMPATIBLE WITH<br/>FLUID WITHDRAWN FROM THIS CONTAINER. CONSULT<br/>WITH PHARMACIST, IF AVAILABLE. WHEN COMPOUNDING<br/>ADMIXTURES, USE ASEPTIC TECHNIQUE. MIX THOROUGHLY.<br/>DO NOT STORE SOLUTIONS CONTAINING ADDITIVES.<br/>BECAUSE OF THE POTENTIAL FOR LIFE-THREATENING<br/>EVENTS, CAUTION SHOULD BE TAKEN TO ENSURE THAT<br/>PRECIPITATES HAVE NOT FORMED IN ANY PARENTERAL<br/>NUTRIENT MIXTURE. STORE AT 20 to 25°C (68 to 77°F).<br/>[SEE USP CONTROLLED ROOM TEMPERATURE.] PROTECT<br/>FROM FREEZING. AVOID EXPOSURE TO LIGHT. USE ONLY<br/>IF SOLUTION IS CLEAR AND CONTAINER IS UNDAMAGED.<br/>MUST NOT BE USED IN SERIES CONNECTIONS.<br/>THIS PRODUCT CONTAINS NO MORE THAN<br/>25 mcg/L OF ALUMINUM.</paragraph>
+                  <paragraph>3<br/>V<br/>CONTAINS DEHP</paragraph>
+                  <paragraph>IM-4371</paragraph>
+                  <paragraph>ICU Medical, Inc., Lake Forest, Illinois, 60045, USA</paragraph>
+                  <paragraph>icumedical</paragraph>
+                  <renderMultiMedia referencedObject="MM1"/>
+               </text>
+               <effectiveTime value="20220506"/>
+               <component>
+                  <observationMedia ID="MM1">
+                     <text>PRINCIPAL DISPLAY PANEL - 2000 mL Bag Label - 7172</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="aminosyn-02.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="20f89fcc-933c-4a17-b1ea-87d381479c1b"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>PRINCIPAL DISPLAY PANEL - 2000 mL Bag Label - 7171</title>
+               <text>
+                  <paragraph>2000 mL<br/>						NDC 0990-7171-17</paragraph>
+                  <paragraph>AMINOSYN<sup>®</sup> II<br/>15%<br/>An Amino Acid Injection, Sulfite-Free</paragraph>
+                  <paragraph>Pharmacy Bulk Package—Not for Direct Infusion.</paragraph>
+                  <paragraph>EACH 100 mL CONTAINS: TOTAL AMINO ACIDS APPROX.<br/>15 g. MAY CONTAIN SODIUM HYDROXIDE FOR pH<br/>ADJUSTMENT.<br/>ESSENTIAL AMINO ACIDS/100 mL: ISOLEUCINE 990 mg;<br/>LEUCINE 1500 mg; LYSINE (AS ACETATE SALT) 1575 mg;<br/>METHIONINE 258 mg; PHENYLALANINE 447 mg; THREONINE<br/>600 mg; TRYPTOPHAN 300 mg; VALINE 750 mg.<br/>NONESSENTIAL AMINO ACIDS/100 mL: N-ACETYL-L-<br/>TYROSINE 405 mg; ALANINE 1490 mg; ARGININE 1527 mg;<br/>GLYCINE 750 mg; PROLINE 1083 mg; HISTIDINE 450 mg;<br/>SERINE 795 mg; L-ASPARTIC ACID 1050 mg; L-GLUTAMIC<br/>ACID 1107 mg.<br/>ELECTROLYTES (mEq/LITER): SODIUM 50.0, ACETATE 107.6.<br/>1270 mOsmol/L (ACTUAL). pH 5.8 (5.0 to 6.5) SP.GR.=1.05<br/>FOR I.V. USE. USUAL DOSAGE: SEE INSERT. STERILE,<br/>NONPYROGENIC. SEE INSERT FOR COMPLETE PRODUCT<br/>INFORMATION FOR USE OF THE PHARMACY BULK PACKAGE.</paragraph>
+                  <paragraph>DATE ENTERED: </paragraph>
+                  <paragraph>TIME OF ENTRY: </paragraph>
+                  <paragraph>AVOID EXPOSURE TO LIGHT.<br/>CAUTION: USE ONLY IN LAMINAR FLOW HOOD. ONCE THE<br/>OUTLET SITE HAS BEEN ENTERED, THE WITHDRAWAL<br/>OF CONTAINER CONTENTS SHOULD BE PROMPTLY<br/>COMPLETED IN ONE CONTINUOUS OPERATION. DISCARD<br/>CONTAINER NOT LATER THAN 4 HOURS AFTER INITIAL<br/>CLOSURE PUNCTURE. SEE INSERT. ADDITIVES MAY BE<br/>INCOMPATIBLE WITH FLUID WITHDRAWN FROM THIS<br/>CONTAINER. CONSULT WITH PHARMACIST, IF AVAILABLE.<br/>WHEN COMPOUNDING ADMIXTURES, USE ASEPTIC<br/>TECHNIQUE. MIX THOROUGHLY. DO NOT STORE SOLUTIONS<br/>CONTAINING ADDITIVES. BECAUSE OF THE POTENTIAL FOR<br/>LIFE-THREATENING EVENTS, CAUTION SHOULD BE TAKEN<br/>TO ENSURE THAT PRECIPITATES HAVE NOT FORMED IN<br/>ANY PARENTERAL NUTRIENT MIXTURE.<br/>STORE AT 20 TO 25°C (68 TO 77°F). [SEE USP CONTROLLED<br/>ROOM TEMPERATURE.] PROTECT FROM FREEZING.<br/>USE ONLY IF SOLUTION IS CLEAR AND CONTAINER<br/>IS UNDAMAGED. MUST NOT BE USED IN SERIES<br/>CONNECTIONS.<br/>THIS PRODUCT CONTAINS NO MORE THAN 25 mcg/L<br/> OF ALUMINUM.</paragraph>
+                  <paragraph>RX ONLY</paragraph>
+                  <paragraph>3<br/>V<br/>CONTAINS DEHP</paragraph>
+                  <paragraph>IM-4370</paragraph>
+                  <paragraph>ICU Medical, Inc., Lake Forest, Illinois, 60045, USA</paragraph>
+                  <paragraph>icumedical</paragraph>
+                  <renderMultiMedia referencedObject="MM2"/>
+               </text>
+               <effectiveTime value="20220506"/>
+               <component>
+                  <observationMedia ID="MM2">
+                     <text>PRINCIPAL DISPLAY PANEL - 2000 mL Bag Label - 7171</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="aminosyn-03.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

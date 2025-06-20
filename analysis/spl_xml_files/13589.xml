@@ -1,0 +1,942 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="https://www.accessdata.fda.gov/spl/stylesheet/spl.xsl" type="text/xsl"?>
+<document xmlns="urn:hl7-org:v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 https://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="8fc5f645-fb02-4ecf-9c07-5d515b96d7ca"/>
+   <code code="34391-3" codeSystem="2.16.840.1.113883.6.1" displayName="HUMAN PRESCRIPTION DRUG LABEL"/>
+   <title>Lactated Ringer’s and 5% Dextrose Injection, USP<br/>in VIAFLEX Plastic Container</title>
+   <effectiveTime value="20191023"/>
+   <setId root="6acc9f96-7088-45a7-b48f-1a861e3467ab"/>
+   <versionNumber value="12"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id extension="005083209" root="1.3.6.1.4.1.519.1"/>
+            <name>Baxter Healthcare Corporation</name>
+            <assignedEntity>
+               <assignedOrganization>
+                  <assignedEntity>
+                     <assignedOrganization>
+                        <id extension="059140764" root="1.3.6.1.4.1.519.1"/>
+                        <name>Baxter Healthcare Corporation</name>
+                     </assignedOrganization>
+                     <performance>
+                        <actDefinition>
+                           <code code="C25391" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ANALYSIS"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="0338-0125" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                     <performance>
+                        <actDefinition>
+                           <code code="C43360" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="MANUFACTURE"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="0338-0125" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                     <performance>
+                        <actDefinition>
+                           <code code="C84732" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="LABEL"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="0338-0125" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                     <performance>
+                        <actDefinition>
+                           <code code="C84731" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="PACK"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="0338-0125" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                     <performance>
+                        <actDefinition>
+                           <code code="C84382" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="STERILIZE"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="0338-0125" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                     <performance>
+                        <actDefinition>
+                           <code code="C82401" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="API MANUFACTURE"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="0338-0125" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                  </assignedEntity>
+                  <assignedEntity>
+                     <assignedOrganization>
+                        <id extension="194684502" root="1.3.6.1.4.1.519.1"/>
+                        <name>Baxter Healthcare Corporation</name>
+                     </assignedOrganization>
+                     <performance>
+                        <actDefinition>
+                           <code code="C25391" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ANALYSIS"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="0338-0125" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                  </assignedEntity>
+               </assignedOrganization>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section>
+               <id root="e1c0333a-50f8-473c-aa3e-07eb97568d0f"/>
+               <code code="48780-1" codeSystem="2.16.840.1.113883.6.1" displayName="SPL product data elements section"/>
+               <effectiveTime value="20171206"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="0338-0125" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>Lactated Ringers and Dextrose</name>
+                        <formCode code="C42945" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="INJECTION, SOLUTION"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>SODIUM CHLORIDE, SODIUM LACTATE, POTASSIUM CHLORIDE, CALCIUM CHLORIDE and DEXTROSE MONOHYDRATE</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator unit="g" value="5"/>
+                              <denominator unit="mL" value="100"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="LX22YL083G" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>DEXTROSE MONOHYDRATE</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="5SL0G7R0OK" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>ANHYDROUS DEXTROSE</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator unit="mg" value="600"/>
+                              <denominator unit="mL" value="100"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="451W47IQ8X" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SODIUM CHLORIDE</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="LYR4M0NH37" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>SODIUM CATION</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="Q32ZN48698" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>CHLORIDE ION</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator unit="mg" value="310"/>
+                              <denominator unit="mL" value="100"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="TU7HW0W0QT" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SODIUM LACTATE</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="LYR4M0NH37" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>SODIUM CATION</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="33X04XA5AT" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>LACTIC ACID</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator unit="mg" value="30"/>
+                              <denominator unit="mL" value="100"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="660YQ98I10" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>POTASSIUM CHLORIDE</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="295O53K152" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>POTASSIUM CATION</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="Q32ZN48698" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>CHLORIDE ION</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator unit="mg" value="20"/>
+                              <denominator unit="mL" value="100"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="M4I0D6VV5M" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>CALCIUM CHLORIDE</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="2M83C4R6ZB" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>CALCIUM CATION</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="Q32ZN48698" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>CHLORIDE ION</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="059QF0KO0R" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>WATER</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator unit="mL" value="500"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="0338-0125-03" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43167" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BAG"/>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <marketingAct>
+                                 <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 <statusCode code="active"/>
+                                 <effectiveTime>
+                                    <low value="19710322"/>
+                                 </effectiveTime>
+                              </marketingAct>
+                           </subjectOf>
+                           <subjectOf>
+                              <characteristic classCode="OBS">
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CE"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                        <asContent>
+                           <quantity>
+                              <numerator unit="mL" value="1000"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="0338-0125-04" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43167" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BAG"/>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <marketingAct>
+                                 <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 <statusCode code="active"/>
+                                 <effectiveTime>
+                                    <low value="19790322"/>
+                                 </effectiveTime>
+                              </marketingAct>
+                           </subjectOf>
+                           <subjectOf>
+                              <characteristic classCode="OBS">
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CE"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <id extension="NDA016679" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73594" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="NDA"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="19710322"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38276" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="INTRAVENOUS"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section ID="i4i_description_id_inv-f6ad0baa-8523-477c-bcde-6ae75cd9e5b1">
+               <id root="c7415d69-c084-41a1-94f2-80c68451bc39"/>
+               <code code="34089-3" codeSystem="2.16.840.1.113883.6.1" displayName="DESCRIPTION SECTION"/>
+               <title>DESCRIPTION</title>
+               <text>
+                  <paragraph>Lactated Ringer’s and 5% Dextrose Injection, USP is a sterile, nonpyrogenic solution for fluid and electrolyte replenishment and caloric supply in a single dose container for intravenous administration. Each 100 mL contains 5 g Dextrose Hydrous, USP*; 600 mg Sodium Chloride, USP (NaCl); 310 mg Sodium Lactate (C<sub>3</sub>H<sub>5</sub>NaO<sub>3</sub>); 30 mg of Potassium Chloride, USP (KCl); and 20 mg Calcium Chloride, USP (CaCl<sub>2</sub> · 2H<sub>2</sub>0). It contains no antimicrobial agents. </paragraph>
+                  <paragraph>Approximate pH 5.0 (4.0 to 6.5).</paragraph>
+                  <renderMultiMedia ID="id281" referencedObject="id_3905e0b8-09b7-4191-a885-6969f1137e2f"/>
+                  <paragraph>
+                     <content styleCode="bold">D-Glucopyranose monohydrate</content>
+                  </paragraph>
+                  <paragraph>Dextrose is derived from corn.</paragraph>
+                  <paragraph>Lactated Ringer’s and 5% Dextrose Injection, USP administered intravenously has value as a source of water, electrolytes, and calories. One liter has an ionic concentration of 130 mEq sodium, 4 mEq potassium, 2.7 mEq calcium, 109 mEq chloride and 28 mEq lactate. The osmolarity is 525 mOsmol/L (calc). Normal physiologic range is approximately 280 to 310 mOsmol/L. The caloric content is 180 kcal/L.</paragraph>
+                  <paragraph>The VIAFLEX plastic container is fabricated from a specially formulated polyvinyl chloride (PL 146 Plastic). The amount of water that can permeate from inside the container into the overwrap is insufficient to affect the solution significantly. Solutions in contact with the plastic container can leach out certain of its chemical components in very small amounts within the expiration period, e.g., di-2-ethylhexyl phthalate (DEHP), up to 5 parts per million. However, the safety of the plastic has been confirmed in tests in animals according to USP biological tests for plastic containers as well as by tissue culture toxicity studies.</paragraph>
+               </text>
+               <effectiveTime value="20171206"/>
+               <component>
+                  <observationMedia ID="id_3905e0b8-09b7-4191-a885-6969f1137e2f">
+                     <text>Chemical Structure</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="image-01.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="i4i_clinical_pharmacology_id_inv-0cdcb4ea-e7ec-4f8b-af0e-1234a81658d9">
+               <id root="84d502ac-da5d-46a4-b706-ab81059e1b98"/>
+               <code code="34090-1" codeSystem="2.16.840.1.113883.6.1" displayName="CLINICAL PHARMACOLOGY SECTION"/>
+               <title>CLINICAL PHARMACOLOGY</title>
+               <text>
+                  <paragraph>Lactated Ringer’s and 5% Dextrose Injection, USP has value as a source of water, electrolytes, and calories. It is capable of inducing diuresis depending on the clinical condition of the patient.</paragraph>
+                  <paragraph>Lactated Ringer’s and 5% Dextrose Injection, USP produces a metabolic alkalinizing effect. Lactate ions are metabolized ultimately to carbon dioxide and water, which requires the consumption of hydrogen cations.</paragraph>
+               </text>
+               <effectiveTime value="20060524"/>
+            </section>
+         </component>
+         <component>
+            <section ID="i4i_indications_id_inv-69bdbdb6-8184-4449-a8c1-233f1b39fa33">
+               <id root="eb5e0ed1-4bde-44ef-a4cb-c6d94121e22a"/>
+               <code code="34067-9" codeSystem="2.16.840.1.113883.6.1" displayName="INDICATIONS &amp; USAGE SECTION"/>
+               <title>INDICATIONS AND USAGE</title>
+               <text>
+                  <paragraph>Lactated Ringer’s and 5% Dextrose Injection, USP is indicated as a source of water, electrolytes and calories or as an alkalinizing agent.</paragraph>
+               </text>
+               <effectiveTime value="20060524"/>
+            </section>
+         </component>
+         <component>
+            <section ID="i4i_contraindications_id_inv-655d9347-cd51-4e8a-bed0-a93e47fd74ae">
+               <id root="0c125e7a-a414-40a2-8af8-edd5dc2e74e1"/>
+               <code code="34070-3" codeSystem="2.16.840.1.113883.6.1" displayName="CONTRAINDICATIONS SECTION"/>
+               <title>CONTRAINDICATIONS</title>
+               <text>
+                  <paragraph>Lactated Ringer’s and 5% Dextrose Injection, USP is contraindicated in:</paragraph>
+                  <list listType="unordered">
+                     <item>
+                        <caption>•</caption>Newborns (≤ 28 days of age) receiving concomitant treatment with ceftriaxone, even if separate infusion lines are used due to the risk of fatal ceftriaxone-calcium salt precipitation in the neonate’s bloodstream. </item>
+                     <item>
+                        <caption>•</caption>Patients older than 28 days, including adults, administered ceftriaxone simultaneously through the same infusion line (e.g., via Y-connector). If the same infusion line is used for sequential administration, the line must be thoroughly flushed between infusions with a compatible fluid. </item>
+                  </list>
+                  <paragraph>Patients with a known hypersensitivity to sodium lactate (see <content styleCode="bold">
+                        <linkHtml href="#i4i_warnings_id_inv-f7c20012-b33c-4db4-a0da-358656e19870">WARNINGS</linkHtml>
+                     </content>).</paragraph>
+               </text>
+               <effectiveTime value="20191023"/>
+            </section>
+         </component>
+         <component>
+            <section ID="i4i_warnings_id_inv-f7c20012-b33c-4db4-a0da-358656e19870">
+               <id root="eace9e0e-6606-4088-b9b5-65017d12e844"/>
+               <code code="34071-1" codeSystem="2.16.840.1.113883.6.1" displayName="WARNINGS SECTION"/>
+               <title>WARNINGS</title>
+               <effectiveTime value="20191023"/>
+               <component>
+                  <section ID="ID_8b41d7e8-5d23-499a-afec-b5d1bd4fc521">
+                     <id root="67912aeb-1691-4d8d-8adf-9e35b960c91f"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Potassium Content  </title>
+                     <text>
+                        <paragraph>The potassium concentration in Lactated Ringer’s and 5% Dextrose Injection, USP is similar to the concentration in plasma; however, it is insufficient to produce a useful effect in case of severe potassium deficiency. Lactated Ringer’s and 5% Dextrose Injection, USP is not recommend for the treatment of severe hypokalemia.</paragraph>
+                     </text>
+                     <effectiveTime value="20191023"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID_4216a285-78c8-488b-902b-30d07eed5ba7">
+                     <id root="26da408d-63d5-4257-ae0c-5bf3029e7620"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Hypersensitivity Reactions </title>
+                     <text>
+                        <paragraph>Hypersensitivity and infusion reactions have been reported with Lactated Ringer’s and 5% Dextrose Injection, USP (see <content styleCode="bold">
+                              <linkHtml href="#i4i_adverse_effects_id_inv-52a3f828-1dcd-4296-bc96-85c70d94b0f1">ADVERSE REACTIONS</linkHtml>
+                           </content>). Stop the infusion immediately if any signs or symptoms of a suspected hypersensitivity reaction develop.  Appropriate therapeutic countermeasures must be instituted as clinically indicated.</paragraph>
+                     </text>
+                     <effectiveTime value="20191023"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID_69310c2d-2432-42a8-9f43-3a886e5a6dec">
+                     <id root="08ea5ee6-27c7-486a-ba03-99e6ee775e71"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Electrolyte Imbalances  </title>
+                     <text>
+                        <paragraph>
+                           <content styleCode="underline">Hyponatremia</content>
+                        </paragraph>
+                        <paragraph>Lactated Ringer’s and 5% Dextrose Injection, USP may cause hyponatremia. Glucose intravenous infusions are usually isotonic solutions. In the body, however, glucose containing fluids can become extremely physiologically hypotonic due to rapid glucose metabolization. Monitoring of serum sodium is particularly important for hypotonic fluids.</paragraph>
+                        <paragraph>Hyponatremia can lead to acute hyponatremic encephalopathy characterized by headache, nausea, seizures, lethargy, and vomiting. Patients with brain edema are at particular risk of severe, irreversible and life-threatening brain injury.</paragraph>
+                        <paragraph>The risk of hospital-acquired hyponatremia is increased in patients with cardiac or pulmonary failure, and in patients with non-osmotic vasopressin release (including SIADH) treated with high volume of hypotonic Lactated Ringer’s and 5% Dextrose Injection, USP.</paragraph>
+                        <paragraph>The risk for hyponatremia is increased in pediatric patients, elderly patients, postoperative patients, those with psychogenic polydipsia, and in patients treated with medications that increase the risk of hyponatremia (such as diuretics, certain antiepileptic and psychotropic medications). See <content styleCode="bold">
+                              <linkHtml href="#i4i_precautions_id_inv-232e7fe0-9b83-475a-a3c6-57274e53f5cb">PRECAUTIONS</linkHtml>
+                           </content>, <content styleCode="bold">
+                              <linkHtml href="#ID_9180c014-65f5-49d5-8297-f8d9f47e905a">Drug Interactions</linkHtml>
+                           </content> and <content styleCode="bold">
+                              <linkHtml href="#i4i_pediatric_use_id_inv-efde87c2-051b-49da-b764-6d517c960e14">Pediatric Use</linkHtml>
+                           </content>. </paragraph>
+                        <paragraph>Patients at increased risk for developing complications of hyponatremia such as hyponatremic encephalopathy, include pediatric patients, women (in particular, premenopausal women), patients with hypoxemia, and patients with underlying central nervous system disease. Avoid Lactated Ringer’s Injection and 5% Dextrose Injection, USP in patients with or at risk for hyponatremia. If use cannot be avoided, monitor serum sodium concentrations. </paragraph>
+                        <paragraph>Rapid correction of hyponatremia is potentially dangerous with risk of serious neurologic complications. Brain adaptations reducing risk of cerebral edema make the brain vulnerable to injury when chronic hyponatremia is too rapidly corrected, which is known as osmotic demyelination syndrome (ODS). To avoid complications, monitor serum sodium and chloride concentrations, fluid status, acid-base balance, and signs of neurologic complications.</paragraph>
+                        <paragraph>
+                           <content styleCode="underline">Fluid Overload</content>
+                        </paragraph>
+                        <paragraph>Depending on the volume and rate of infusion, the intravenous administration of Lactated Ringer’s and 5% Dextrose Injection, USP can cause electrolyte disturbances such as overhydration and congested states, including pulmonary congestion and edema.  </paragraph>
+                        <paragraph>Avoid Lactated Ringer’s and 5% Dextrose Injection, USP in patients with or at risk of fluid and/or solute overloading.  If use cannot be avoided, monitor fluid balance, electrolyte concentrations and acid base balance, as needed and especially during prolonged use.</paragraph>
+                        <paragraph>
+                           <content styleCode="underline">Hyperglycemia and Hyperosmolar Hyperglycemic State </content>
+                        </paragraph>
+                        <paragraph>Administration of solutions containing dextrose and lactate in patients with impaired glucose tolerance or diabetes mellitus may worsen hyperglycemia (see <content styleCode="bold">
+                              <linkHtml href="#i4i_precautions_id_inv-232e7fe0-9b83-475a-a3c6-57274e53f5cb">PRECAUTIONS</linkHtml>, <linkHtml href="#i4i_pediatric_use_id_inv-efde87c2-051b-49da-b764-6d517c960e14">Pediatric Use</linkHtml>
+                           </content>). Administration of dextrose at a rate exceeding the patient’s utilization rate may lead to hyperglycemia, coma, and death. </paragraph>
+                        <paragraph>Hyperglycemia is associated with an increase in serum osmolality, resulting in osmotic diuresis, dehydration and electrolyte losses. </paragraph>
+                        <paragraph>Patients with underlying central nervous system disease and renal impairment who receive dextrose infusions, may be at greater risk of developing hyperosmolar hyperglycemic state. </paragraph>
+                        <paragraph>Monitor blood glucose concentrations and treat hyperglycemia to maintain concentrations within normal limits while administering Lactated Ringer’s and 5% Dextrose Injection, USP. Insulin may be administered or adjusted to maintain optimal blood glucose concentrations. </paragraph>
+                        <paragraph>
+                           <content styleCode="underline">Hyperkalemia</content>
+                        </paragraph>
+                        <paragraph>Potassium-containing solutions, including Lactated Ringer’s and 5% Dextrose Injection, USP may increase the risk of hyperkalemia.</paragraph>
+                        <paragraph>Patients at increased risk of developing hyperkalemia include those:</paragraph>
+                        <list listType="unordered">
+                           <item>
+                              <caption>•</caption>With conditions predisposing to hyperkalemia and/or associated with increased sensitivity to potassium, such as patients with severe renal impairment, acute dehydration, or extensive tissue injury or burns, certain cardiac disorders such as congestive heart failure. </item>
+                           <item>
+                              <caption>•</caption>Treated concurrently or recently with agents or products that cause or increase the risk of hyperkalemia (see <content styleCode="bold">
+                                 <linkHtml href="#i4i_precautions_id_inv-232e7fe0-9b83-475a-a3c6-57274e53f5cb">PRECAUTIONS</linkHtml>, <linkHtml href="#ID_9180c014-65f5-49d5-8297-f8d9f47e905a">Drug Interactions</linkHtml>
+                              </content>). </item>
+                           <item>
+                              <caption> </caption>Avoid use of Lactated Ringer’s and 5% Dextrose Injection, USP in patients with, or at risk for, hyperkalemia. If use cannot be avoided, monitor serum potassium concentrations.</item>
+                        </list>
+                        <paragraph>
+                           <content styleCode="underline">Alkalosis</content>
+                        </paragraph>
+                        <paragraph>Because lactate is metabolized to bicarbonate, administration of Lactated Ringer’s and 5% Dextrose Injection, USP may result in, or worsen, metabolic alkalosis.  Avoid Lactated Ringer’s and 5% Dextrose Injection, USP in patients with alkalosis or at risk for alkalosis.</paragraph>
+                     </text>
+                     <effectiveTime value="20191023"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="i4i_precautions_id_inv-232e7fe0-9b83-475a-a3c6-57274e53f5cb">
+               <id root="3f2178bd-f4f3-4487-80aa-191475c3a20a"/>
+               <code code="42232-9" codeSystem="2.16.840.1.113883.6.1" displayName="PRECAUTIONS SECTION"/>
+               <title>PRECAUTIONS</title>
+               <effectiveTime value="20191023"/>
+               <component>
+                  <section ID="ID_1c8c20d5-6e50-432a-b391-dc1570cbf9be">
+                     <id root="3e988048-bb7e-477d-9736-f22a99887a08"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Patients with Renal Impairment  </title>
+                     <text>
+                        <paragraph>Administration of Lactated Ringer’s and 5% Dextrose Injection, USP in patients with or at risk of severe renal impairment, may result in hyperkalemia and/or fluid overload (see <content styleCode="bold">
+                              <linkHtml href="#i4i_warnings_id_inv-f7c20012-b33c-4db4-a0da-358656e19870">WARNINGS</linkHtml>
+                           </content>).  Avoid Lactated Ringer’s and 5% Dextrose Injection, USP in patients with severe renal impairment or conditions that may cause sodium and/or potassium retention, fluid overload, or edema.  If use cannot be avoided, monitor patients with severe renal impairment for development of these adverse reactions.</paragraph>
+                     </text>
+                     <effectiveTime value="20191023"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID_f3d21035-29f4-4025-a8fb-7a6a35ccb404">
+                     <id root="76229bfa-16a1-4293-b0bb-6fb57ec96823"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Patients with Hepatic Impairment  </title>
+                     <text>
+                        <paragraph>In patients with severe hepatic impairment, lactate metabolism may be impaired and Lactated Ringer’s and 5% Dextrose Injection, USP may not produce alkalization.  Consider when monitoring serum lactate levels.</paragraph>
+                     </text>
+                     <effectiveTime value="20191023"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID_56e7fed8-f776-4c97-b7fc-65035ecd9843">
+                     <id root="9fbd94bc-c42b-4602-96d6-f9e353c10181"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Hypercalcemia  </title>
+                     <text>
+                        <paragraph>Lactated Ringer’s and 5% Dextrose Injection, USP contains calcium salts and may cause s hypercalcemia.  Avoid administration of Lactated Ringer’s and 5% Dextrose Injection, USP in patients with hypercalcemia or conditions predisposing to hypercalcemia; and in patients with calcium renal calculi or history of such calculi.</paragraph>
+                     </text>
+                     <effectiveTime value="20191023"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID_6f92eb75-0be3-4e77-9814-d33bc8aee312">
+                     <id root="5235d073-661c-42f9-ad90-da807348706d"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Vein Thrombosis  </title>
+                     <text>
+                        <paragraph>The osmolarity of Lactated Ringer’s and 5% Dextrose Injection, USP is 525 mOsmol/L (calc).  Use a peripheral vein if the final dextrose concentration is 5% or less and the osmolality is approximately less than 900 mOsm/L. Consider central vein administration of hypertonic solutions with osmolarity of 900 mOsmol or more to avoid venous irritation, including phlebitis.</paragraph>
+                     </text>
+                     <effectiveTime value="20191023"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID_881df6a1-57ac-4176-ae59-b9049f510a65">
+                     <id root="33d67959-8d33-437c-8de8-25f6cb925107"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Monitoring of Serum Lactate Levels  </title>
+                     <text>
+                        <paragraph>Administration of Potassium Chloride in Lactated Ringer’s and 5% Dextrose Injection, USP may result in an iatrogenic increase in serum lactate levels and interfere with interpretation of serum lactate levels in patients with severe metabolic acidosis including lactic acidosis.</paragraph>
+                     </text>
+                     <effectiveTime value="20191023"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID_9180c014-65f5-49d5-8297-f8d9f47e905a">
+                     <id root="359fe469-b8c5-4d9b-8206-ee9f5570fcc7"/>
+                     <code code="34073-7" codeSystem="2.16.840.1.113883.6.1" displayName="DRUG INTERACTIONS SECTION"/>
+                     <title>DRUG INTERACTIONS </title>
+                     <text>
+                        <paragraph>
+                           <content styleCode="underline">Ceftriaxone</content>
+                        </paragraph>
+                        <paragraph>For information on interaction with ceftriaxone – see <content styleCode="bold">
+                              <linkHtml href="#i4i_contraindications_id_inv-655d9347-cd51-4e8a-bed0-a93e47fd74ae">CONTRAINDICATIONS</linkHtml>
+                           </content>
+                        </paragraph>
+                        <paragraph>
+                           <content styleCode="underline">Other Drugs that Increase the Risk of Hyponatremia</content>
+                        </paragraph>
+                        <paragraph>Administration of Lactated Ringer’s and 5% Dextrose Injection, USP to patients treated concomitantly with medications associated with hyponatremia may increase the risk of developing hyponatremia.</paragraph>
+                        <paragraph>Avoid use of Lactated Ringer’s and 5% Dextrose Injection, USP in patients receiving products, such as diuretics, and certain antiepileptic and psychotropic medications. Drugs that increase the vasopressin effect reduce renal electrolyte free water excretion and may also increase the risk of hyponatremia following treatment with intravenous fluids. If use cannot be avoided, monitor serum sodium concentrations.</paragraph>
+                        <paragraph>
+                           <content styleCode="underline">Other Products that Affect Fluid and/or Electrolyte Balance</content>
+                        </paragraph>
+                        <paragraph>Administration of Lactated Ringer’s and 5% Dextrose Injection, USP to patients treated concomitantly with drugs associated with sodium and fluid retention. Avoid use of Lactated Ringer’s and 5% Dextrose Injection, USP in patients receiving such products, such as corticosteroids or corticotropin.  If use cannot be avoided, monitor serum electrolytes, fluid balance and acid-base balance.  </paragraph>
+                        <paragraph>
+                           <content styleCode="underline">Lithium</content>
+                        </paragraph>
+                        <paragraph>Renal sodium and lithium clearance may be increased during administration of Lactated Ringer’s and 5% Dextrose Injection, USP.  Avoid use of Lactated Ringer’s and 5% Dextrose Injection, USP in patients receiving lithium.  If use cannot be avoided, monitor serum lithium concentrations during concomitant use.</paragraph>
+                        <paragraph>
+                           <content styleCode="underline">Digoxin</content>
+                        </paragraph>
+                        <paragraph>Administration of calcium may increase the effects of digitalis and lead to serious or fatal cardiac arrhythmia. In patients treated with digoxin, consider reducing the volume, and/or rate of administration of Lactated Ringer’s and 5% Dextrose Injection, USP.</paragraph>
+                        <paragraph>
+                           <content styleCode="underline">Other Products that Cause Hyperkalemia</content>
+                        </paragraph>
+                        <paragraph>Administration of Lactated Ringer’s and 5% Dextrose Injection, USP to patients treated concurrently or recently with products that are associated with hyperkalemia, in particular in the presence of other risk factors for hyperkalemia.</paragraph>
+                        <paragraph>Avoid use of Lactated Ringer’s and 5% Dextrose Injection, USP to patients receiving such products (e.g., potassium sparing diuretics, ACE inhibitors, angiotensin II receptor antagonists, or the immunosuppressants tacrolimus and cyclosporine).  If use cannot be avoided, monitor serum potassium concentrations.  </paragraph>
+                        <paragraph>
+                           <content styleCode="underline">Other Drugs that Increase the Risk of Hypercalcemia</content>
+                        </paragraph>
+                        <paragraph>Avoid Lactated Ringer’s and 5% Dextrose Injection, USP in patients treated with thiazide diuretics or vitamin D, as these can increase the risk of hypercalcemia.</paragraph>
+                        <paragraph>
+                           <content styleCode="underline">Drugs with pH Dependent Renal Elimination</content>
+                        </paragraph>
+                        <paragraph>Due to the alkalinizing action of lactate (formation of bicarbonate), Lactated Ringer’s and 5% Dextrose Injection, USP may interfere with the elimination of drugs with pH dependent renal elimination.  Renal clearance of acidic drugs may be increased. Renal clearance of alkaline drugs may be decreased.</paragraph>
+                     </text>
+                     <effectiveTime value="20191023"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="i4i_pregnancy_id_inv-72b969de-0147-4000-a362-b93d425e72be">
+                     <id root="1376eb44-2806-47c2-abed-ff3945439e5e"/>
+                     <code code="42228-7" codeSystem="2.16.840.1.113883.6.1" displayName="PREGNANCY SECTION"/>
+                     <title>Pregnancy</title>
+                     <text>
+                        <paragraph>There are no adequate and well controlled studies with Lactated Ringer’s and 5% Dextrose Injection, USP in pregnant women and animal reproduction studies have not been conducted with this drug.  Therefore, it is not known whether Lactated Ringer’s and 5% Dextrose Injection, USP can cause fetal harm when administered to a pregnant woman.  Lactated Ringer’s and 5% Dextrose Injection, USP should be given during pregnancy only if the potential benefit justifies the potential risk to the fetus.</paragraph>
+                     </text>
+                     <effectiveTime value="20171206"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="i4i_labour_delivery_id_319ad966-b3d3-43d0-ada0-d9b3e5fb329f">
+                     <id root="7e54f4b2-4598-4245-bd3a-0e822d3e0a77"/>
+                     <code code="34079-4" codeSystem="2.16.840.1.113883.6.1" displayName="LABOR &amp; DELIVERY SECTION"/>
+                     <title>Labor and Delivery</title>
+                     <text>
+                        <paragraph>Intrapartum maternal intravenous infusion of glucose-containing solutions may produce maternal hyperglycemia with subsequent fetal hyperglycemia and fetal metabolic acidosis as well as rebound hypoglycemia in the neonate. Fetal hyperglycemia can result in increased fetal insulin levels which may result in neonatal hypoglycemia following delivery. Consider the potential risks and benefits for each specific patient before administering Lactated Ringer’s and 5% Dextrose Injection, USP.</paragraph>
+                     </text>
+                     <effectiveTime value="20171206"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="i4i_nursing_mothers_id_inv-3f8184ba-be06-4c36-b37e-b66deb94abdd">
+                     <id root="751faa23-052a-465d-a8f5-479b525e9055"/>
+                     <code code="34080-2" codeSystem="2.16.840.1.113883.6.1" displayName="NURSING MOTHERS SECTION"/>
+                     <title>Nursing Mothers</title>
+                     <text>
+                        <paragraph>It is not known whether this drug is present in human milk. Because many drugs are present in human milk, caution should be exercised when Lactated Ringer’s and 5% Dextrose Injection, USP is administered to a nursing mother.</paragraph>
+                     </text>
+                     <effectiveTime value="20171206"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="i4i_pediatric_use_id_inv-efde87c2-051b-49da-b764-6d517c960e14">
+                     <id root="4b09193d-0286-4d3c-96b3-29fb74e07dd8"/>
+                     <code code="34081-0" codeSystem="2.16.840.1.113883.6.1" displayName="PEDIATRIC USE SECTION"/>
+                     <title>Pediatric Use</title>
+                     <text>
+                        <paragraph>The use of Lactated Ringer’s and 5% Dextrose Injection, USP in pediatric patients is based on clinical practice (see <content styleCode="bold">
+                              <linkHtml href="#i4i_dosage_admin_id_inv-c364f022-8681-4940-b666-02cf47a8c19c">DOSAGE AND ADMINISTRATION</linkHtml>
+                           </content>). </paragraph>
+                        <paragraph>Neonates, especially premature infants with low birth weight, are at increased risk of developing hypo- or hyperglycemia and therefore need close monitoring during treatment with intravenous glucose solutions to ensure adequate glycemic control in order to avoid potential long-term adverse effects. Closely monitor plasma electrolyte concentrations in pediatric patients who may have impaired ability to regulate fluids and electrolytes. In very low birth weight infants, excessive or rapid administration of Lactated Ringer’s and 5% Dextrose Injection, USP may result in increased serum osmolality and risk of intracerebral hemorrhage. </paragraph>
+                        <paragraph>Children (including neonates and older children) are at increased risk of developing hyponatremia as well as for developing hyponatremic encephalopathy. </paragraph>
+                        <paragraph>Administration of a lactate-containing intravenous solution to infants should take into account that the liver and kidneys are still maturing during the first year of life, which also affects the biotransformation and renal excretion of lactate.</paragraph>
+                     </text>
+                     <effectiveTime value="20191023"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="i4i_geriatric_use_id_inv-33c7d3f7-1472-437b-bff9-f5f5b1696330">
+                     <id root="074538ee-ba3c-4739-bac5-82477177107e"/>
+                     <code code="34082-8" codeSystem="2.16.840.1.113883.6.1" displayName="GERIATRIC USE SECTION"/>
+                     <title>Geriatric Use</title>
+                     <text>
+                        <paragraph>Geriatric patients are at increased risk of developing electrolyte imbalances. Lactated Ringer’s and 5% Dextrose Injection, USP is known to be substantially excreted by the kidney, and the risk of toxic reactions to this drug may be greater in patients with impaired renal function. Therefore, dose selection for an elderly patient should be cautious, usually starting at the low end of the dosing range, reflecting the greater frequency of decreased hepatic, renal, or cardiac function, and of concomitant disease or other drug therapy.  Consider monitoring renal function in elderly patients.</paragraph>
+                     </text>
+                     <effectiveTime value="20191023"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="i4i_adverse_effects_id_inv-52a3f828-1dcd-4296-bc96-85c70d94b0f1">
+               <id root="0ee98a22-f87e-4361-947f-777f641d450e"/>
+               <code code="34084-4" codeSystem="2.16.840.1.113883.6.1" displayName="ADVERSE REACTIONS SECTION"/>
+               <title>ADVERSE REACTIONS</title>
+               <effectiveTime value="20191023"/>
+               <component>
+                  <section ID="i4i_section_id_103c6d49-b683-48fe-b916-a4e898071d67">
+                     <id root="b2bc089f-67d2-438c-82f9-31971566d6cf"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Post-Marketing Adverse Reactions</title>
+                     <text>
+                        <paragraph>The following adverse reactions associated with the use of Lactated Ringer’s and 5% Dextrose Injection, USP were identified in clinical trials or postmarketing reports. Because postmarketing reactions were reported voluntarily from a population of uncertain size, it is not always possible to estimate their frequency, reliably, or to establish a causal relationship to drug exposure.</paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Hypersensitivity and infusion reactions</content>: angioedema, chest pain, chest discomfort, decreased heart rate, tachycardia, blood pressure decreased, respiratory distress, bronchospasm, dyspnea, cough, urticaria, rash, pruritus, erythema, flushing, throat irritation, paresthesias, hypoesthesia oral, dyspepsia, nausea, anxiety, pyrexia and headache.</paragraph>
+                        <paragraph>
+                           <content styleCode="italics">General Disorders and Administration Site Conditions</content>: phlebitis, extravasation, infusion site inflammation, infusion site swelling, infusion site rash, infusion site pruritus, infusion site erythema, infusion site pain, infusion site burning, infusion site anesthesia (numbness).</paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Metabolism and Nutrition Disorders</content>: hyperkalemia, hypervolemia, hyponatremia.</paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Nervous System Disorders</content>: hyponatremic encephalopathy.  </paragraph>
+                     </text>
+                     <effectiveTime value="20191023"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="i4i_overdosage_id_97bba59f-fa30-4d8c-865a-e91e2a9d464c">
+               <id root="076e8e6e-f347-4475-a34a-70687257359a"/>
+               <code code="34088-5" codeSystem="2.16.840.1.113883.6.1" displayName="OVERDOSAGE SECTION"/>
+               <title>OVERDOSAGE</title>
+               <text>
+                  <paragraph>Excessive administration of Lactated Ringer’s and 5% Dextrose Injection, USP can cause:</paragraph>
+                  <list listType="unordered">
+                     <item>
+                        <caption>•</caption>hyperkalemia and hypernatremia, especially in patients with severe renal impairment.  </item>
+                     <item>
+                        <caption>•</caption>fluid overload (which can lead to pulmonary and/or peripheral edema). </item>
+                     <item>
+                        <caption>•</caption>hyperglycemia, hyperosmolarity, and osmotic diuresis, dehydration and electrolyte loss.</item>
+                     <item>
+                        <caption>•</caption>metabolic alkalosis with or without hypokalemia.</item>
+                     <item>
+                        <caption>•</caption>loss of bicarbonate with an acidifying effect.</item>
+                     <item>
+                        <caption>•</caption>hyponatremia.</item>
+                     <item>
+                        <caption>•</caption>hypercalcemia.</item>
+                  </list>
+                  <paragraph> See <content styleCode="bold">
+                        <linkHtml href="#i4i_warnings_id_inv-f7c20012-b33c-4db4-a0da-358656e19870">WARNINGS</linkHtml>
+                     </content> and <content styleCode="bold">
+                        <linkHtml href="#i4i_adverse_effects_id_inv-52a3f828-1dcd-4296-bc96-85c70d94b0f1">ADVERSE REACTIONS</linkHtml>
+                     </content>.</paragraph>
+                  <paragraph>When assessing overdose, any additives in the solution must also be considered.  The effects of overdose may require immediate medical attention and treatment. Interventions include discontinuation of Lactated Ringer’s and 5% Dextrose Injection, USP administration, dose reduction, and other measures as indicated for the specific clinical constellation (e.g., monitoring of fluid balance, electrolyte concentrations and acid base balance).</paragraph>
+               </text>
+               <effectiveTime value="20191023"/>
+            </section>
+         </component>
+         <component>
+            <section ID="i4i_dosage_admin_id_inv-c364f022-8681-4940-b666-02cf47a8c19c">
+               <id root="758d9764-d12c-4290-ab85-f7665b11c446"/>
+               <code code="34068-7" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE &amp; ADMINISTRATION SECTION"/>
+               <title>DOSAGE AND ADMINISTRATION</title>
+               <text>
+                  <paragraph>
+                     <content styleCode="underline">Important Administration Instructions </content>
+                  </paragraph>
+                  <list listType="unordered">
+                     <item>
+                        <caption>•</caption>Lactated Ringer’s and 5% Dextrose Injection, USP is intended for intravenous administration using sterile equipment. </item>
+                     <item>
+                        <caption>•</caption>Do not connect flexible plastic containers in series in order to avoid air embolism due to possible residual air contained in the primary container. </item>
+                     <item>
+                        <caption>•</caption>Set the vent to the closed position on a vented intravenous administration set to prevent air embolism. </item>
+                     <item>
+                        <caption>•</caption>Use a dedicated line without any connections to avoid air embolism. </item>
+                     <item>
+                        <caption>•</caption>Do not pressurize intravenous solutions contained in flexible plastic containers to increase flow rates in order to avoid air embolism due to incomplete evacuation of residual air in the container. </item>
+                     <item>
+                        <caption>•</caption>Prior to infusion, visually inspect the solution for particulate matter and discoloration. The solution should be clear and there should be no precipitates. Do not administer unless solution is clear, and container is undamaged. </item>
+                     <item>
+                        <caption>•</caption>Do not administer Lactated Ringer’s and 5% Dextrose Injection, USP simultaneously with citrate anticoagulated/preserved blood through the same administration set because of the likelihood of coagulation precipitated by the calcium content in Lactated Ringer’s and 5% Dextrose Injection, USP.</item>
+                  </list>
+                  <paragraph>
+                     <content styleCode="underline">Dosing Information</content>
+                  </paragraph>
+                  <paragraph>The choice of dosage, volume, rate, and duration of administration are dependent upon the age, weight, and clinical condition of the patient and concomitant therapy, and administration should be determined by a physician experienced in intravenous fluid therapy.</paragraph>
+                  <paragraph>
+                     <content styleCode="underline">Introduction of Additives</content>
+                  </paragraph>
+                  <paragraph>Evaluate all additions to the plastic container for compatibility and stability of the resulting preparation. Consult with a pharmacist, if available. </paragraph>
+                  <paragraph>Additives may be incompatible. Complete information is not available. Those additives known to be incompatible should not be used. Consult with pharmacist, if available. If, in the informed judgment of the physician, it is deemed advisable to introduce additives, use aseptic technique. Mix thoroughly when additives have been introduced. Do not store solutions containing additives.</paragraph>
+               </text>
+               <effectiveTime value="20191023"/>
+            </section>
+         </component>
+         <component>
+            <section ID="i4i_how_supplied_id_inv-4b821b7f-3688-4b43-9f46-119667e44886">
+               <id root="83ef2ffa-7cbf-478c-b73d-dc920015cbb1"/>
+               <code code="34069-5" codeSystem="2.16.840.1.113883.6.1" displayName="HOW SUPPLIED SECTION"/>
+               <title>HOW SUPPLIED</title>
+               <text>
+                  <paragraph>Lactated Ringer’s and 5% Dextrose Injection, USP in VIAFLEX plastic containers is available as follows:</paragraph>
+                  <table styleCode="Noautorules" width="100%">
+                     <col width="29%"/>
+                     <col width="37%"/>
+                     <col width="34%"/>
+                     <tbody>
+                        <tr>
+                           <td align="center" valign="top">
+                              <paragraph>
+                                 <content styleCode="underline">Code</content>
+                              </paragraph>
+                           </td>
+                           <td align="center" valign="top">
+                              <paragraph>
+                                 <content styleCode="underline">Size</content>
+                              </paragraph>
+                           </td>
+                           <td align="center" valign="top">
+                              <paragraph>
+                                 <content styleCode="underline">NDC</content>
+                              </paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td align="center" valign="top">
+                              <paragraph>2B2073 </paragraph>
+                           </td>
+                           <td align="center" valign="top">
+                              <paragraph>500 mL</paragraph>
+                           </td>
+                           <td align="center" valign="top">
+                              <paragraph>NDC 0338-0125-03</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td align="center" valign="top">
+                              <paragraph>2B2074</paragraph>
+                           </td>
+                           <td align="center" valign="top">
+                              <paragraph>1000 mL</paragraph>
+                           </td>
+                           <td align="center" valign="top">
+                              <paragraph>NDC 0338-0125-04</paragraph>
+                           </td>
+                        </tr>
+                     </tbody>
+                  </table>
+                  <paragraph>Exposure of pharmaceutical products to heat should be minimized. Avoid excessive heat. It is recommended the product be stored at room temperature (25°C); brief exposure up to 40°C does not adversely affect the product.</paragraph>
+               </text>
+               <effectiveTime value="20191023"/>
+            </section>
+         </component>
+         <component>
+            <section ID="i4i_section_id_inv-74bb3b32-723c-4735-b590-41b1004c36ea">
+               <id root="0e88139e-b6b8-417f-89f6-4241532953e6"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <title>DIRECTIONS FOR USE OF VIAFLEX PLASTIC CONTAINER</title>
+               <text>
+                  <paragraph>For Information on Risk of Air Embolism – see <content styleCode="bold">
+                        <linkHtml href="#i4i_dosage_admin_id_inv-c364f022-8681-4940-b666-02cf47a8c19c">DOSAGE AND ADMINISTRATION</linkHtml>
+                     </content>.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">To Open </content>
+                  </paragraph>
+                  <paragraph>Tear overwrap down side at slit and remove solution container. Visually inspect the container. If the outlet port protector is damaged, detached, or not present, discard container as solution path sterility may be impaired. Some opacity of the plastic due to moisture absorption during the sterilization process may be observed. This is normal and does not affect the solution quality or safety. The opacity will diminish gradually. Check for minute leaks by squeezing inner bag firmly. If leaks are found, discard solution as sterility may be impaired. If supplemental medication is desired, follow directions below.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Preparation for Administration</content>
+                  </paragraph>
+                  <list listType="ordered">
+                     <item>
+                        <caption>1.</caption>Suspend container from eyelet support. </item>
+                     <item>
+                        <caption>2.</caption>Remove protector from outlet port at bottom of container. </item>
+                     <item>
+                        <caption>3.</caption>Attach administration set. Refer to complete directions accompanying set.</item>
+                  </list>
+                  <paragraph>
+                     <content styleCode="bold">To Add Medication</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">To add medication before solution administration</content>
+                  </paragraph>
+                  <list listType="ordered">
+                     <item>
+                        <caption>1.</caption>Prepare medication site. </item>
+                     <item>
+                        <caption>2.</caption>Using syringe with 19 to 22 gauge needle, puncture medication port and inject. </item>
+                     <item>
+                        <caption>3.</caption>Mix solution and medication thoroughly. For high density medication such as potassium chloride, squeeze ports while ports are upright and mix thoroughly.</item>
+                  </list>
+                  <paragraph>
+                     <content styleCode="bold">To add medication during solution administration</content>
+                  </paragraph>
+                  <list listType="ordered">
+                     <item>
+                        <caption>1.</caption>Close clamp on the set. </item>
+                     <item>
+                        <caption>2.</caption>Prepare medication site. </item>
+                     <item>
+                        <caption>3.</caption>Using syringe with 19 to 22 gauge needle, puncture resealable medication port and inject. </item>
+                     <item>
+                        <caption>4.</caption>Remove container from IV pole and/or turn to an upright position. </item>
+                     <item>
+                        <caption>5.</caption>Evacuate both ports by squeezing them while container is in the upright position. </item>
+                     <item>
+                        <caption>6.</caption>Mix solution and medication thoroughly. </item>
+                     <item>
+                        <caption>7.</caption>Return container to in use position and continue administration.</item>
+                  </list>
+               </text>
+               <effectiveTime value="20191023"/>
+            </section>
+         </component>
+         <component>
+            <section ID="i4i_section_id_49db7129-3388-46c7-853c-07436870a4fe">
+               <id root="36e1b076-e42d-49e3-9d85-f7164ee0f71d"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">Baxter Healthcare Corporation</content>
+                     <br/>Deerfield, IL 60015 USA </paragraph>
+                  <paragraph>Printed in USA</paragraph>
+                  <paragraph>07-19-00-1628</paragraph>
+                  <paragraph>Rev. October2019</paragraph>
+                  <paragraph>Baxter, Viaflex, and PL 146 are trademarks of Baxter International Inc.</paragraph>
+               </text>
+               <effectiveTime value="20191023"/>
+            </section>
+         </component>
+         <component>
+            <section ID="i4i_Principal_display_panel_id_bb474a4d-27c1-4ffa-8be3-70d6b18cbf8a">
+               <id root="f10e1f17-c33c-46a3-a95c-03b37a8c0d4c"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>PACKAGE LABEL - PRINCIPAL DISPLAY PANEL</title>
+               <text>
+                  <renderMultiMedia ID="id467" referencedObject="id_0a92f8a9-a255-4cfd-9ff7-fc5151df1c38">
+                     <caption>Container Label </caption>
+                  </renderMultiMedia>
+                  <paragraph>Container Label </paragraph>
+                  <paragraph>LOT</paragraph>
+                  <paragraph>EXP</paragraph>
+                  <paragraph>2B2073</paragraph>
+                  <paragraph>NDC 0338-0125-03</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Lactated Ringer's</content>
+                     <br/>
+                     <content styleCode="bold">and 5% Dextrose</content>
+                     <br/>
+                     <content styleCode="bold">Injection USP</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">500mL</content>
+                  </paragraph>
+                  <paragraph>EACH 100 mL CONTAINS 5 g DEXTROSE HYDROUS USP  600 mg<br/>SODIUM CHLORIDE USP  310 mg SODIUM LACTATE  30 mg<br/>POTASSIUM CHLORIDE USP  20 mg CALCIUM CHLORIDE USP  pH<br/>5.0 (4.0 TO 6.5) mEq/L  SODIUM 130  POTASSIUM 4  CALCIUM<br/>2.7  CHLORIDE 109  LACTATE 28  HYPERTONIC OSMOLARITY 525<br/>mOsmol/L (CALC)  STERILE NONPYROGENIC  SINGLE DOSE<br/>CONTAINER  <content styleCode="bold">NOT FOR USE IN THE TREATMENT OF LACTIC ACIDOSIS</content>
+                     <br/>ADDITIVES MAY BE INCOMPATIBLE  CONSULT WITH PHARMACIST IF<br/>AVAILABLE WHEN INTRODUCING ADDITIVES USE ASEPTIC TECHNIQUE<br/>MIX THOROUGHLY  DO NOT STORE  DOSAGE INTRAVENEOUSLY AS<br/>DIRECTED BY A PHYSICIAN  SEE DIRECTIONS  CAUTIONS SQUEEZE<br/>AND INSPECT INNER BAG WHICH MAINTAINS PRODUCT STERILITY<br/>DISCARD IF LEAKS ARE FOUND  MUST NOT BE USED IN SERIES<br/>CONNECTIONS  DO NOT ADMINISTER SIMULTANEOUSLY WITH BLOOD<br/>DO NOT USE UNLESS SOLUTION IS CLEAR  Rx ONLY  STORE UNIT IN<br/>MOISTURE BARRIER OVERWRAP AT ROOM TEMPERATURE<br/>(25°C/77°F) UNTIL READY TO USE   AVOID EXCESSIVE HEAT<br/>SEE INSERT</paragraph>
+                  <paragraph>VIAFLEX CONTAINER PL 146 PLASTIC</paragraph>
+                  <paragraph>BAXTER VIAFLEX AND PL 146 ARE TRADEMARKS OF<br/>BAXTER INTERNATIONAL INC</paragraph>
+                  <paragraph>FOR PRODUCT INFORMATION 1-800-933-0303</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Baxter</content>
+                     <br/>
+                     <content styleCode="bold">BAXTER HEALTHCARE CORPORATION</content>
+                     <br/>DEERFIELD IL 60015 USA</paragraph>
+                  <paragraph>MADE IN USA</paragraph>
+               </text>
+               <effectiveTime value="20191023"/>
+               <component>
+                  <observationMedia ID="id_0a92f8a9-a255-4cfd-9ff7-fc5151df1c38">
+                     <text>Lactated Ringer's and 5% Dextrose Injection, USP Container Label</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="image-02.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

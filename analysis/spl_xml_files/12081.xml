@@ -1,0 +1,681 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="https://www.accessdata.fda.gov/spl/stylesheet/spl.xsl"?>
+<document xmlns="urn:hl7-org:v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 https://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="6b554ca9-699a-4d71-8e46-0130c675ca3c"/>
+   <code code="34391-3" codeSystem="2.16.840.1.113883.6.1" displayName="HUMAN PRESCRIPTION DRUG LABEL"/>
+   <title>
+      <content styleCode="bold"/>Cyclopentolate Hydrochloride Ophthalmic Solution USP</title>
+   <effectiveTime value="20220621"/>
+   <setId root="c1b44f91-356d-4804-9509-3b457f4809e5"/>
+   <versionNumber value="7"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id extension="005387188" root="1.3.6.1.4.1.519.1"/>
+            <name>Sandoz Inc.</name>
+            <assignedEntity>
+               <assignedOrganization>
+                  <id extension="007672236" root="1.3.6.1.4.1.519.1"/>
+                  <name>Alcon Research LLC</name>
+                  <assignedEntity>
+                     <assignedOrganization>
+                        <id extension="007672236" root="1.3.6.1.4.1.519.1"/>
+                        <name>Alcon Research LLC</name>
+                     </assignedOrganization>
+                     <performance>
+                        <actDefinition>
+                           <code code="C43360" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="manufacture"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="61314-396" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                  </assignedEntity>
+               </assignedOrganization>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section>
+               <id root="a852c013-afe6-49c8-915c-dd797c7528eb"/>
+               <code code="48780-1" codeSystem="2.16.840.1.113883.6.1" displayName="SPL PRODUCT DATA ELEMENTS SECTION"/>
+               <effectiveTime value="20210604"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="61314-396" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>Cyclopentolate Hydrochloride</name>
+                        <formCode code="C42986" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="SOLUTION"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>Cyclopentolate Hydrochloride</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator unit="mg" value="10"/>
+                              <denominator unit="mL" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="736I6971TE" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>CYCLOPENTOLATE HYDROCHLORIDE</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="I76F4SHP7J" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>CYCLOPENTOLATE</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="F5UM2KM3W7" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>BENZALKONIUM CHLORIDE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="R57ZHV85D4" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>BORIC ACID</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="7FLD91C86K" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>EDETATE DISODIUM</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="45P3261C7T" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SODIUM CARBONATE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="QTT17582CB" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>HYDROCHLORIC ACID</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="059QF0KO0R" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>WATER</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="660YQ98I10" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>POTASSIUM CHLORIDE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator unit="mL" value="2"/>
+                              <denominator unit="1" value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="61314-396-01" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43169" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BOTTLE"/>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                           <subjectOf>
+                              <marketingAct>
+                                 <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 <statusCode code="active"/>
+                                 <effectiveTime>
+                                    <low value="20020822"/>
+                                 </effectiveTime>
+                              </marketingAct>
+                           </subjectOf>
+                        </asContent>
+                        <asContent>
+                           <quantity>
+                              <numerator unit="mL" value="5"/>
+                              <denominator unit="1" value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="61314-396-02" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43169" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BOTTLE"/>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                           <subjectOf>
+                              <marketingAct>
+                                 <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 <statusCode code="active"/>
+                                 <effectiveTime>
+                                    <low value="20020822"/>
+                                 </effectiveTime>
+                              </marketingAct>
+                           </subjectOf>
+                        </asContent>
+                        <asContent>
+                           <quantity>
+                              <numerator unit="mL" value="15"/>
+                              <denominator unit="1" value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="61314-396-03" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43169" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BOTTLE"/>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                           <subjectOf>
+                              <marketingAct>
+                                 <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 <statusCode code="active"/>
+                                 <effectiveTime>
+                                    <low value="20020822"/>
+                                 </effectiveTime>
+                              </marketingAct>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <id extension="ANDA084110" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73584" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ANDA"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20020822"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38287" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="OPHTHALMIC"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+               <component>
+                  <observationMedia ID="MM46304">
+                     <text>carton</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="carton.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="MM46305">
+                     <text>label</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="label.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="MM75860">
+                     <text>carton2</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="carton2.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="MM75908">
+                     <text>Sandoz Label</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="sandoz_label.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="splSectionDescription">
+               <id root="bab4f2d6-7d57-45cb-bf1e-18b44d76d833"/>
+               <code code="34089-3" codeSystem="2.16.840.1.113883.6.1" displayName="DESCRIPTION SECTION"/>
+               <title mediaType="text/x-hl7-title+xml">
+DESCRIPTION</title>
+               <text>
+                  <paragraph>Cyclopentolate Hydrochloride Ophthalmic Solution USP is an anticholinergic prepared as a sterile, borate buffered, solution for topical ocular use. It is supplied in three strengths. The active ingredient is represented by the structural formula:</paragraph>
+                  <renderMultiMedia referencedObject="chemical"/>
+                  <paragraph>Established name: Cyclopentolate Hydrochloride</paragraph>
+                  <paragraph>Chemical name: 2-(Dimethylamino)ethyl 1-hydroxy-a-phenylcyclopentaneacetate hydrochloride</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Each mL of cyclopentolate hydrochloride ophthalmic solution, USP contains: Active:</content> cyclopentolate hydrochloride 0.5%, 1% or 2%. <content styleCode="bold">Preservative: </content>benzalkonium chloride 0.01%. <content styleCode="bold">Inactives: </content>boric acid, edetate disodium, potassium chloride (except 2% strength), sodium carbonate and/or hydrochloric acid (to adjust pH), purified water. The pH range is between 3.0 and 5.5.</paragraph>
+               </text>
+               <effectiveTime value="20210528"/>
+               <component>
+                  <observationMedia ID="chemical">
+                     <text>
+chemical</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="chemical.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="splSectionClinicalPharmacology">
+               <id root="c49aaf91-ef31-41cd-bf09-570467439848"/>
+               <code code="34090-1" codeSystem="2.16.840.1.113883.6.1" displayName="CLINICAL PHARMACOLOGY SECTION"/>
+               <title mediaType="text/x-hl7-title+xml">
+CLINICAL PHARMACOLOGY</title>
+               <text>
+                  <paragraph>This anticholinergic preparation blocks the responses of the sphincter muscle of the iris and the accommodative muscle of the ciliary body to cholinergic stimulation, producing pupillary dilation (mydriasis) and paralysis of accommodation (cycloplegia). It acts rapidly, but has a shorter duration than atropine.</paragraph>
+                  <paragraph>Maximal cycloplegia occurs within 25 to 75 minutes after instillation. Complete recovery of accommodation usually takes 6 to 24 hours. Complete recovery from mydriasis in some individuals may require several days. Heavily pigmented irides may require more doses than lightly pigmented irides.</paragraph>
+               </text>
+               <effectiveTime value="20110805"/>
+            </section>
+         </component>
+         <component>
+            <section ID="splSectionIndicationsUsage">
+               <id root="aa271b16-3230-4d72-80b3-fcb88894e28a"/>
+               <code code="34067-9" codeSystem="2.16.840.1.113883.6.1" displayName="INDICATIONS &amp; USAGE SECTION"/>
+               <title mediaType="text/x-hl7-title+xml">
+INDICATIONS AND USAGE</title>
+               <text>
+                  <paragraph>Cyclopentolate hydrochloride is used to produce mydriasis and cycloplegia.</paragraph>
+               </text>
+               <effectiveTime value="20110805"/>
+            </section>
+         </component>
+         <component>
+            <section ID="splSectionContraindications">
+               <id root="c6d2e82a-f092-40d3-af52-e3e2672fa151"/>
+               <code code="34070-3" codeSystem="2.16.840.1.113883.6.1" displayName="CONTRAINDICATIONS SECTION"/>
+               <title mediaType="text/x-hl7-title+xml">
+CONTRAINDICATIONS</title>
+               <text>
+                  <paragraph>Should not be used if the patient is hypersensitive to any component of this preparation.</paragraph>
+               </text>
+               <effectiveTime value="20210528"/>
+            </section>
+         </component>
+         <component>
+            <section ID="splSectionWarnings">
+               <id root="4f5f1f93-a878-4384-ad45-9464caec8a25"/>
+               <code code="34071-1" codeSystem="2.16.840.1.113883.6.1" displayName="WARNINGS SECTION"/>
+               <title mediaType="text/x-hl7-title+xml">
+WARNINGS</title>
+               <text>
+                  <paragraph>For topical ophthalmic use. Not for injection. This preparation may cause Central Nervous System (CNS) disturbances. This is especially true in younger age groups, but may occur at any age, especially with the stronger solutions. Infants are especially prone to CNS and cardiopulmonary side effects from cyclopentolate. To minimize absorption, use only 1 drop of 0.5% cyclopentolate hydrochloride ophthalmic solution, USP per eye, followed by pressure applied over the nasolacrimal sac for two to three minutes. Observe infants closely for at least 30 minutes following instillation. Mydriatics may produce a transient elevation of intraocular pressure. Patients with untreated narrow angle glaucoma or anatomically narrow angles may be susceptible to angle closure following administration.</paragraph>
+                  <paragraph>Mydriatics may produce a transient elevation of intraocular pressure.</paragraph>
+               </text>
+               <effectiveTime value="20210528"/>
+            </section>
+         </component>
+         <component>
+            <section ID="splSectionPrecautions">
+               <id root="8b66de91-eab8-4885-a279-fa15393c63a6"/>
+               <code code="42232-9" codeSystem="2.16.840.1.113883.6.1" displayName="PRECAUTIONS SECTION"/>
+               <title mediaType="text/x-hl7-title+xml">
+PRECAUTIONS</title>
+               <effectiveTime value="20210528"/>
+               <component>
+                  <section ID="splSectionPrecautionsGeneral">
+                     <id root="3a24cd7c-2620-4f73-abe6-3184088e3118"/>
+                     <code code="34072-9" codeSystem="2.16.840.1.113883.6.1" displayName="GENERAL PRECAUTIONS SECTION"/>
+                     <title mediaType="text/x-hl7-title+xml">
+General</title>
+                     <text>
+                        <paragraph>The lacrimal sac should be compressed by digital pressure for two to three minutes after instillation to reduce excessive systemic absorption. Caution should be observed when considering use of this medication in the presence of Down's syndrome.</paragraph>
+                     </text>
+                     <effectiveTime value="20210528"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="splSectionPrecautionsPatientInfo">
+                     <id root="3e02c39b-f400-4ec8-873c-2be52efc30b9"/>
+                     <code code="34076-0" codeSystem="2.16.840.1.113883.6.1" displayName="INFORMATION FOR PATIENTS SECTION"/>
+                     <title mediaType="text/x-hl7-title+xml">
+Information for Patients</title>
+                     <text>
+                        <paragraph>Do not touch dropper tip to any surface, as this may contaminate the solution. A transient burning sensation may occur upon instillation. Patients should be advised not to drive or engage in other hazardous activities while pupils are dilated. Patients may experience sensitivity to light and should protect eyes in bright illumination during dilation. Parents should be warned not to get this preparation in their child's mouth and to wash their own hands and the child's hands following administration. Feeding intolerance may follow ophthalmic use of this product in infants. It is recommended that feeding be withheld for four (4) hours after examination in infants.</paragraph>
+                     </text>
+                     <effectiveTime value="20210528"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="splSectionPrecautionsDrugInteract">
+                     <id root="9f9b9e43-8ac0-4135-97c0-3c3a273cb5c6"/>
+                     <code code="34073-7" codeSystem="2.16.840.1.113883.6.1" displayName="DRUG INTERACTIONS SECTION"/>
+                     <title mediaType="text/x-hl7-title+xml">
+Drug Interactions</title>
+                     <text>
+                        <paragraph>Cyclopentolate may interfere with the ocular anti-hypertensive action of carbachol, pilocarpine, or ophthalmic cholinesterase inhibitors.</paragraph>
+                     </text>
+                     <effectiveTime value="20110805"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="splSectionPrecautionsCarcinogen">
+                     <id root="ab202f28-d088-4a1a-9a2a-f37c4c49a6a4"/>
+                     <code code="34083-6" codeSystem="2.16.840.1.113883.6.1" displayName="CARCINOGENESIS &amp; MUTAGENESIS &amp; IMPAIRMENT OF FERTILITY SECTION"/>
+                     <title mediaType="text/x-hl7-title+xml">
+Carcinogenesis, Mutagenesis, Impairment of Fertility</title>
+                     <text>
+                        <paragraph>Studies in animals or humans have not been conducted to evaluate the carcinogenic potential of Cyclopentolate Hydrochloride Ophthalmic Solution USP.</paragraph>
+                     </text>
+                     <effectiveTime value="20110805"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="splSectionPrecautionsPregnancy">
+                     <id root="91c3610f-37d8-4a42-adcc-50341fa8a7e7"/>
+                     <code code="42228-7" codeSystem="2.16.840.1.113883.6.1" displayName="PREGNANCY SECTION"/>
+                     <title mediaType="text/x-hl7-title+xml">
+Pregnancy</title>
+                     <text>
+                        <paragraph>
+                           <content styleCode="bold">Pregnancy:</content> Animal reproduction studies have not been conducted with cyclopentolate. It is also not known whether cyclopentolate can cause fetal harm when administered to a pregnant woman or can affect reproduction capacity. Cyclopentolate should be administered to a pregnant woman only if clearly needed.</paragraph>
+                     </text>
+                     <effectiveTime value="20210528"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="splSectionPrecautionsPregnancyNursing">
+                     <id root="90023136-28bd-4ea8-90bb-1f055497d76f"/>
+                     <code code="34080-2" codeSystem="2.16.840.1.113883.6.1" displayName="NURSING MOTHERS SECTION"/>
+                     <title mediaType="text/x-hl7-title+xml">
+Nursing Mothers</title>
+                     <text>
+                        <paragraph>It is not known whether this drug is excreted in human milk. Because many drugs are excreted in human milk, caution should be exercised when cyclopentolate hydrochloride is administered to a nursing woman.</paragraph>
+                     </text>
+                     <effectiveTime value="20110805"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="splSectionPrecautionsPediatric">
+                     <id root="5e78459e-1a2c-49e2-9f20-5d86c20a8b4b"/>
+                     <code code="34081-0" codeSystem="2.16.840.1.113883.6.1" displayName="PEDIATRIC USE SECTION"/>
+                     <title mediaType="text/x-hl7-title+xml">
+Pediatric Use</title>
+                     <text>
+                        <paragraph>Use of cyclopentolate has been associated with psychotic reactions and behavioral disturbances in pediatric patients. Increased susceptibility to cyclopentolate has been reported in infants, young children, and in children with spastic paralysis or brain damage. These disturbances include ataxia, incoherent speech, restlessness, hallucinations, hyperactivity, seizures, disorientation as to time and place, and failure to recognize people. Feeding intolerance and necrotizing enterocolitis (NEC) in preterm infants may follow ophthalmic use of this product. Cases of NEC have been reported in preterm infants following administration; however, causality has not been established. It is recommended that feeding be withheld for four (4) hours after examination in infants. Observe infants closely for at least 30 minutes (See <content styleCode="underline">
+                              <linkHtml href="#splSectionWarnings">WARNINGS</linkHtml>
+                           </content>).</paragraph>
+                     </text>
+                     <effectiveTime value="20210528"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="splSectionPrecautionsGeriatric">
+                     <id root="2ece402f-9883-4950-a03f-f13e4b844a62"/>
+                     <code code="34082-8" codeSystem="2.16.840.1.113883.6.1" displayName="GERIATRIC USE SECTION"/>
+                     <title mediaType="text/x-hl7-title+xml">
+Geriatric Use</title>
+                     <text>
+                        <paragraph>No overall differences in safety or effectiveness between elderly and younger patients.</paragraph>
+                     </text>
+                     <effectiveTime value="20110805"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="splSectionAdverseReactions">
+               <id root="b5275dde-9d9c-42e6-b1bd-644f0b2b3ebc"/>
+               <code code="34084-4" codeSystem="2.16.840.1.113883.6.1" displayName="ADVERSE REACTIONS SECTION"/>
+               <title mediaType="text/x-hl7-title+xml">
+ADVERSE REACTIONS</title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">Ocular: </content>Increased intraocular pressure, burning, photophobia, blurred vision, irritation, hyperemia, conjunctivitis, blepharoconjunctivitis, punctate keratitis, synechiae have been reported.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Non-ocular: </content>Use of cyclopentolate has been associated with psychotic reactions and behavioral disturbances, usually in children, especially with 2% concentration. These disturbances include ataxia, incoherent speech, restlessness, hallucinations, hyperactivity, seizures, disorientation as to time and place, and failure to recognize people. This drug produces reactions similar to those of other anticholinergic drugs, but the central nervous system manifestations as noted above are more common. Other toxic manifestations of anticholinergic drugs are skin rash, abdominal distention in infants, unusual drowsiness, tachycardia, hyperpyrexia, vasodilation, urinary retention, diminished gastrointestinal motility and decreased secretion in salivary and sweat glands, pharynx, bronchi and nasal passages. Severe manifestations of toxicity include coma, medullary paralysis and death.</paragraph>
+               </text>
+               <effectiveTime value="20110805"/>
+            </section>
+         </component>
+         <component>
+            <section ID="splSectionOverdose">
+               <id root="17549d81-dfad-4a28-9cf2-64cefd89f995"/>
+               <code code="34088-5" codeSystem="2.16.840.1.113883.6.1" displayName="OVERDOSAGE SECTION"/>
+               <title mediaType="text/x-hl7-title+xml">
+OVERDOSAGE</title>
+               <text>
+                  <paragraph>Excessive dosage may produce behavioral disturbances, tachycardia, hyperpyrexia, hypertension, elevated intraocular pressure, vasodilation, urinary retention, diminished gastrointestinal motility and decreased secretion in salivary and sweat glands, pharynx, bronchi and nasal passages. Patients exhibiting signs of overdosage should receive supportive care and monitoring.</paragraph>
+               </text>
+               <effectiveTime value="20110805"/>
+            </section>
+         </component>
+         <component>
+            <section ID="splSectionDosageAdministration">
+               <id root="95721a2f-6b4f-4a62-a5a0-e1832b973f84"/>
+               <code code="34068-7" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE &amp; ADMINISTRATION SECTION"/>
+               <title mediaType="text/x-hl7-title+xml">
+DOSAGE AND ADMINISTRATION</title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">Adults: </content>Instill one or two drops of 0.5%, 1% or 2% solution in the eye which may be repeated in five to ten minutes if necessary. Complete recovery usually occurs in 24 hours. Complete recovery from mydriasis in some individuals may require several days. <content styleCode="bold">Children: </content>Instill one or two drops of 0.5%, 1% or 2% solution in the eye which may be repeated five to ten minutes later by a second application of 0.5% or 1% solution if necessary. <content styleCode="bold">Small Infants: </content>A single instillation of one drop of 0.5% Cyclopentolate Hydrochloride Ophthalmic Solution in the eye. To minimize absorption, apply pressure over the nasolacrimal sac for two to three minutes. Observe infant closely for at least 30 minutes following instillation. Individuals with heavily pigmented irides may require higher strengths.</paragraph>
+               </text>
+               <effectiveTime value="20110805"/>
+            </section>
+         </component>
+         <component>
+            <section ID="splSectionHowSupplied">
+               <id root="0c364396-077a-45a5-bf14-17ec7377ee62"/>
+               <code code="34069-5" codeSystem="2.16.840.1.113883.6.1" displayName="HOW SUPPLIED SECTION"/>
+               <title mediaType="text/x-hl7-title+xml">
+HOW SUPPLIED</title>
+               <text>
+                  <paragraph>In multiple-dose plastic DROP-TAINER* dispensers:</paragraph>
+                  <paragraph>Cyclopentolate Hydrochloride Ophthalmic Solution USP</paragraph>
+                  <paragraph>                    0.5%                                          1%                                           2%</paragraph>
+                  <paragraph>15 mL NDC 61314-395-01       2 mL NDC 61314-396-01        2 mL NDC 61314-397-01</paragraph>
+                  <paragraph>                                                    5 mL NDC 61314-396-02        5 mL NDC 61314-397-02</paragraph>
+                  <paragraph>                                                  15 mL NDC 61314-396-03      15 mL NDC 61314-397-03</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">            Storage: </content>Store at 8° to 25°C (46° to 77°F). After opening, cyclopentolate hydrochloride can be used until the expiration date on the bottle.</paragraph>
+                  <paragraph>To report SUSPECTED ADVERSE REACTIONS, contact Sandoz Inc., at 1-800-525-8747 or FDA at 1-800-FDA-1088 or www.fda.gov/medwatch. </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Rx Only</content>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20210528"/>
+            </section>
+         </component>
+         <component>
+            <section ID="splSection1">
+               <id root="06a549c1-ddd5-4f72-a6d6-1b05c41d1b37"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <text>
+                  <paragraph>Rev. 05/2020</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">SANDOZ</content>
+                     <br/>a Novartis company<br/>
+                  </paragraph>
+                  <paragraph>Manufactured by<br/>Alcon Laboratories, Inc.<br/>Fort Worth, Texas 76134 for<br/>Sandoz Inc.<br/>Princeton, NJ 08540<br/>Printed in USA<br/>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold"/>
+                     <content styleCode="bold">W300037987-0520</content>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20210528"/>
+            </section>
+         </component>
+         <component>
+            <section ID="splSectionPDP">
+               <id root="7f401c03-8bae-4cfd-ab0f-7e8c73bad9c2"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title mediaType="text/x-hl7-title+xml">
+PRINCIPAL DISPLAY PANEL</title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">NDC </content>61314-396-03<br/>
+                     <br/>
+                     <content styleCode="bold">Cyclopentolate Hydrochloride 0phthalmic Solution, USP <br/>
+                     </content>
+                     <content styleCode="bold">1%<br/>
+                     </content>
+                     <br/>
+                     <content styleCode="bold">Rx only</content>
+                     <br/>
+                     <br/>STERILE<br/>
+                     <content styleCode="bold">15 mL<br/>
+                     </content>
+                     <content styleCode="bold">
+                        <br/>SANDOZ</content>
+                     <br/>a Novartis company<br/>
+                     <br/>
+                     <content styleCode="bold">INGREDIENTS: Each mL contains: </content>
+                     <content styleCode="bold">Active: </content>cyclopentolate hydrochloride 1%. <content styleCode="bold">Preservative: </content>benzalkonium chloride 0.01%. <content styleCode="bold">Inactives: </content>boric acid, edetate disodium, potassium chloride, sodium carbonate and/or hydrochloric acid (to adjust pH), purified water. The pH range is between 3.0 and 5.5.<br/>
+                     <br/>
+                     <content styleCode="bold">USUAL DOSAGE: </content>Instill one or two drops in the eye which may be repeated in five to ten minutes if necessary.<br/>Read enclosed insert.<br/>
+                     <br/>
+                     <content styleCode="bold">PRECAUTION: </content>Do not touch dropper tip to any surface, as this may contaminate the solution. <br/>
+                     <br/>
+                     <content styleCode="bold">STORAGE: </content>Store at 8° to 25°C (46° to 77°F). <br/>
+                     <br/>Manufactured by Alcon Laboratories, Inc. <br/>Fort Worth, Texas 76134 for <br/>Sandoz Inc.  <br/>Princeton, NJ 08540<br/>
+                     <br/>Printed in USA<br/>
+                     <br/>Rev. 10/2015<br/>
+                     <br/>
+                     <content styleCode="bold">9012233-0915<br/>
+                     </content>
+                     <br/>LOT:<br/>
+                     <br/>EXP.:<br/>
+                  </paragraph>
+                  <renderMultiMedia referencedObject="MM46304"/>
+                  <paragraph>
+                     <content styleCode="bold">NDC </content>61314-396-03<br/>
+                     <br/>
+                     <content styleCode="bold">Cyclopentolate Hydrochloride 0phthalmic Solution, USP <br/>
+                     </content>
+                     <content styleCode="bold">1%<br/>
+                     </content>
+                     <br/>
+                     <content styleCode="bold">FOR TOPICAL OPHTHALMIC USE ONLY</content>
+                     <br/>
+                     <br/>
+                     <content styleCode="bold">Rx only</content>
+                     <br/>
+                     <br/>STERILE   <content styleCode="bold">15 mL<br/>
+                     </content>
+                     <content styleCode="bold">
+                        <br/>SANDOZ</content>
+                     <br/>
+                     <br/>
+                     <content styleCode="bold">INGREDIENTS: Each mL contains: </content>
+                     <content styleCode="bold">Active: </content>cyclopentolate hydrochloride 1%. <content styleCode="bold">Preservative: </content>benzalkonium chloride 0.01%. <content styleCode="bold">Inactives: </content>boric acid, potassium chloride, edetate disodium, sodium carbonate and/or hydrochloric acid (to adjust pH), purified water. <br/>
+                     <br/>The pH range is between 3.0 and 5.5.<br/>
+                     <br/>
+                     <content styleCode="bold">PRECAUTION: </content>Do not touch dropper tip to any surface, as this may contaminate the solution. <br/>
+                     <br/>Rev. 10/2015<br/>
+                     <br/>
+                     <content styleCode="bold">USUAL DOSAGE: </content>Instill one or two drops in the eye which may be repeated in five to ten minutes if necessary. Read enclosed insert.<br/>
+                     <br/>
+                     <content styleCode="bold">STORAGE: </content>Store at 8° to 25°C (46° to 77°F). <br/>
+                     <br/>Manufactured by <br/>Alcon Laboratories, Inc. <br/>Fort Worth, Texas 76134 for <br/>Sandoz Inc.  <br/>Princeton, NJ 08540<br/>
+                     <br/>Printed in USA<br/>
+                     <br/>
+                     <content styleCode="bold">H14037-0915</content>
+                     <br/>
+                     <br/>
+                     <content styleCode="bold">LOT/EXP.:</content>
+                     <br/>
+                  </paragraph>
+                  <renderMultiMedia referencedObject="MM46305"/>
+                  <paragraph>
+                     <content styleCode="bold">NDC</content> 61314-396-03<br/>
+                     <br/>
+                     <content styleCode="bold">Cyclopentolate Hydrochloride 0phthalmic Solution, USP<br/>1%<br/>
+                        <br/>Rx only</content>
+                     <br/>
+                     <br/>STERILE<br/>
+                     <content styleCode="bold">15 mL</content>
+                     <br/>
+                     <br/>
+                     <content styleCode="bold">SANDOZ</content>
+                     <br/>a Novartis company <br/>
+                     <br/>
+                     <content styleCode="bold">INGREDIENTS: Each mL contains : Active:</content> cyclopentolate hydrochloride 1%. <content styleCode="bold">Preservative:</content> benzalkonium chloride 0.01%. <content styleCode="bold">Inactives :</content> boric acid, edetate disodium, potassium chloride, sodium carbonate and/or hydrochloric acid (to adjust pH), purified water. The pH range is between 3.0 and 5.5.<br/>
+                     <br/>
+                     <content styleCode="bold">USUAL DOSAGE:</content> Instill one or two drops in the eye which may be repeated in five to ten minutes if necessary. <br/>
+                     <br/>Read enclosed insert.<br/>
+                     <br/>FOR TOPICAL OPHTHALMIC USE ONLY.<br/>
+                     <br/>
+                     <content styleCode="bold">PRECAUTION:</content> Do not touch dropper tip to any surface, as this may contaminate the solution.<br/>
+                     <br/>STORAGE: Store at 8° to 25°C (46° to 77°F). After opening, cyclopentolate hydrochloride can be used until the expiration date on the bottle.<br/>
+                     <br/>
+                     <content styleCode="bold">KEEP OUT OF THE REACH OF CHILDREN</content>
+                     <br/>
+                     <br/>Manufactured by Alcon Laboratories, Inc. <br/>Fort Worth, Texas 76134 for <br/>Sandoz Inc. Princeton, NJ 08540<br/>
+                     <br/>Product of Spain<br/>
+                     <br/>Rev. 01/2021<br/>
+                     <br/>300047036 -0121<br/>
+                  </paragraph>
+                  <renderMultiMedia referencedObject="MM75860"/>
+                  <paragraph>
+                     <content styleCode="bold">NDC </content>61314-396-03<br/>
+                     <br/>
+                     <content styleCode="bold">Cyclopentolate Hydrochloride 0phthalmic Solution, USP <br/>
+                     </content>
+                     <content styleCode="bold">1%<br/>
+                     </content>
+                     <br/>
+                     <content styleCode="bold">FOR TOPICAL OPHTHALMIC USE ONLY</content>
+                     <br/>
+                     <br/>
+                     <content styleCode="bold">Rx only</content>
+                     <br/>
+                     <br/>STERILE   <content styleCode="bold">15 mL<br/>
+                     </content>
+                     <content styleCode="bold">
+                        <br/>SANDOZ</content>
+                     <br/>
+                     <br/>
+                     <content styleCode="bold">INGREDIENTS: Each mL contains: </content>
+                     <content styleCode="bold">Active: </content>cyclopentolate hydrochloride 1%. <content styleCode="bold">Preservative: </content>benzalkonium chloride 0.01%. <content styleCode="bold">Inactives: </content>boric acid, potassium chloride, edetate disodium, sodium carbonate and/or hydrochloric acid (to adjust pH), purified water. <br/>
+                     <br/>The pH range is between 3.0 and 5.5.<br/>
+                     <br/>
+                     <content styleCode="bold">PRECAUTION: </content>Do not touch dropper tip to any surface, as this may contaminate the solution. <br/>
+                     <br/>Rev. 03/2016<br/>
+                     <br/>
+                     <content styleCode="bold">USUAL DOSAGE: </content>Instill one or two drops in the eye which may be repeated in five to ten minutes if necessary. Read enclosed insert.<br/>
+                     <br/>
+                     <content styleCode="bold">STORAGE: </content>Store at 8° to 25°C (46° to 77°F). <br/>
+                     <br/>Manufactured by <br/>Alcon Laboratories, Inc. <br/>Fort Worth, Texas 76134 for <br/>Sandoz Inc.  <br/>Princeton, NJ 08540<br/>
+                     <br/>Printed in USA<br/>
+                     <br/>
+                     <content styleCode="bold">H14265-0216</content>
+                     <br/>
+                     <br/>
+                     <content styleCode="bold">LOT/EXP.:</content>
+                     <br/>
+                  </paragraph>
+                  <renderMultiMedia referencedObject="MM75908"/>
+               </text>
+               <effectiveTime value="20210604"/>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

@@ -1,0 +1,1381 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="https://www.accessdata.fda.gov/spl/stylesheet/spl.xsl" type="text/xsl"?>
+<document xmlns="urn:hl7-org:v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 https://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="4b3694af-9d77-487f-8838-b75aec6636da"/>
+   <code code="34391-3" codeSystem="2.16.840.1.113883.6.1" displayName="HUMAN PRESCRIPTION DRUG LABEL"/>
+   <title>
+      <content styleCode="bold">Bicillin<sup>®</sup> L-A </content>
+      <br/>
+      <content styleCode="bold"> (penicillin G benzathine injectable suspension) </content>
+      <br/>
+      <content styleCode="bold"> Disposable Syringe </content>
+   </title>
+   <effectiveTime value="20240712"/>
+   <setId root="012d46f1-d0a0-4676-a879-cd320297ab16"/>
+   <versionNumber value="34"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id extension="134489525" root="1.3.6.1.4.1.519.1"/>
+            <name>Pfizer Laboratories Div Pfizer Inc</name>
+            <assignedEntity>
+               <assignedOrganization>
+                  <assignedEntity>
+                     <assignedOrganization>
+                        <id extension="962691478" root="1.3.6.1.4.1.519.1"/>
+                        <name>King Pharmaceuticals LLC</name>
+                     </assignedOrganization>
+                     <performance>
+                        <actDefinition>
+                           <code code="C25391" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ANALYSIS"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="60793-700" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                     <performance>
+                        <actDefinition>
+                           <code code="C25391" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ANALYSIS"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="60793-701" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                     <performance>
+                        <actDefinition>
+                           <code code="C25391" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ANALYSIS"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="60793-702" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                     <performance>
+                        <actDefinition>
+                           <code code="C43360" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="MANUFACTURE"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="60793-700" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                     <performance>
+                        <actDefinition>
+                           <code code="C43360" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="MANUFACTURE"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="60793-701" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                     <performance>
+                        <actDefinition>
+                           <code code="C43360" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="MANUFACTURE"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="60793-702" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                     <performance>
+                        <actDefinition>
+                           <code code="C84731" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="PACK"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="60793-700" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                     <performance>
+                        <actDefinition>
+                           <code code="C84731" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="PACK"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="60793-701" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                     <performance>
+                        <actDefinition>
+                           <code code="C84731" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="PACK"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="60793-702" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                     <performance>
+                        <actDefinition>
+                           <code code="C84732" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="LABEL"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="60793-700" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                     <performance>
+                        <actDefinition>
+                           <code code="C84732" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="LABEL"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="60793-701" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                     <performance>
+                        <actDefinition>
+                           <code code="C84732" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="LABEL"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="60793-702" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                  </assignedEntity>
+               </assignedOrganization>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section>
+               <id root="75dec5b4-73c7-4a97-bb81-7f9a571ca318"/>
+               <code code="48780-1" codeSystem="2.16.840.1.113883.6.1" displayName="SPL product data elements section"/>
+               <effectiveTime value="20230912"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="60793-700" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>BICILLIN L-A</name>
+                        <formCode code="C42995" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="INJECTION, SUSPENSION"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>penicillin G benzathine</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <ingredient classCode="ACTIM">
+                           <quantity>
+                              <numerator unit="[iU]" value="600000"/>
+                              <denominator unit="mL" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="RIT82F58GK" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>PENICILLIN G BENZATHINE</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="Q42T66VG0C" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>PENICILLIN G</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="1DI56QDM62" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>LECITHIN, SOYBEAN</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="K679OBS311" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>CARBOXYMETHYLCELLULOSE SODIUM, UNSPECIFIED</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="FZ989GH94E" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>POVIDONE, UNSPECIFIED</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="A2I8C7HI9T" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>METHYLPARABEN</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="Z8IX2SC1OH" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>PROPYLPARABEN</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="1Q73Q2JULR" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SODIUM CITRATE, UNSPECIFIED FORM</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="059QF0KO0R" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>WATER</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator unit="mL" value="1"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="60793-700-01" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43202" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="SYRINGE"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator unit="1" value="10"/>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code code="60793-700-10" codeSystem="2.16.840.1.113883.6.69"/>
+                                    <formCode code="C43233" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="PACKAGE"/>
+                                 </containerPackagedProduct>
+                                 <subjectOf>
+                                    <marketingAct>
+                                       <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                       <statusCode code="active"/>
+                                       <effectiveTime>
+                                          <low value="19520627"/>
+                                       </effectiveTime>
+                                    </marketingAct>
+                                 </subjectOf>
+                              </asContent>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C102835" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 2: Prefilled Drug Delivery Device/System (syringe, patch, etc.)" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <id extension="NDA050141" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73594" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="NDA"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="19520627"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C28161" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="INTRAMUSCULAR"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="60793-701" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>BICILLIN L-A</name>
+                        <formCode code="C42995" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="INJECTION, SUSPENSION"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>penicillin G benzathine</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <ingredient classCode="ACTIM">
+                           <quantity>
+                              <numerator unit="[iU]" value="1200000"/>
+                              <denominator unit="mL" value="2"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="RIT82F58GK" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>PENICILLIN G BENZATHINE</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="Q42T66VG0C" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>PENICILLIN G</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="1DI56QDM62" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>LECITHIN, SOYBEAN</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="K679OBS311" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>CARBOXYMETHYLCELLULOSE SODIUM, UNSPECIFIED</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="FZ989GH94E" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>POVIDONE, UNSPECIFIED</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="A2I8C7HI9T" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>METHYLPARABEN</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="Z8IX2SC1OH" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>PROPYLPARABEN</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="1Q73Q2JULR" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SODIUM CITRATE, UNSPECIFIED FORM</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="059QF0KO0R" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>WATER</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator unit="mL" value="2"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="60793-701-02" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43202" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="SYRINGE"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator unit="1" value="10"/>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code code="60793-701-10" codeSystem="2.16.840.1.113883.6.69"/>
+                                    <formCode code="C43233" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="PACKAGE"/>
+                                 </containerPackagedProduct>
+                                 <subjectOf>
+                                    <marketingAct>
+                                       <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                       <statusCode code="active"/>
+                                       <effectiveTime>
+                                          <low value="19520627"/>
+                                       </effectiveTime>
+                                    </marketingAct>
+                                 </subjectOf>
+                              </asContent>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C102835" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 2: Prefilled Drug Delivery Device/System (syringe, patch, etc.)" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <id extension="NDA050141" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73594" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="NDA"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="19520627"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C28161" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="INTRAMUSCULAR"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="60793-702" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>BICILLIN L-A</name>
+                        <formCode code="C42995" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="INJECTION, SUSPENSION"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>penicillin G benzathine</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <ingredient classCode="ACTIM">
+                           <quantity>
+                              <numerator unit="[iU]" value="2400000"/>
+                              <denominator unit="mL" value="4"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="RIT82F58GK" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>PENICILLIN G BENZATHINE</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="Q42T66VG0C" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>PENICILLIN G</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="1DI56QDM62" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>LECITHIN, SOYBEAN</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="K679OBS311" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>CARBOXYMETHYLCELLULOSE SODIUM, UNSPECIFIED</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="FZ989GH94E" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>POVIDONE, UNSPECIFIED</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="A2I8C7HI9T" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>METHYLPARABEN</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="Z8IX2SC1OH" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>PROPYLPARABEN</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="1Q73Q2JULR" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SODIUM CITRATE, UNSPECIFIED FORM</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="059QF0KO0R" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>WATER</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator unit="mL" value="4"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="60793-702-04" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43202" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="SYRINGE"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator unit="1" value="10"/>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code code="60793-702-10" codeSystem="2.16.840.1.113883.6.69"/>
+                                    <formCode code="C43233" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="PACKAGE"/>
+                                 </containerPackagedProduct>
+                                 <subjectOf>
+                                    <marketingAct>
+                                       <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                       <statusCode code="active"/>
+                                       <effectiveTime>
+                                          <low value="19520627"/>
+                                       </effectiveTime>
+                                    </marketingAct>
+                                 </subjectOf>
+                              </asContent>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C102835" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 2: Prefilled Drug Delivery Device/System (syringe, patch, etc.)" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <id extension="NDA050141" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73594" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="NDA"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="19520627"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C28161" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="INTRAMUSCULAR"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_1ab226a8-f97b-4828-980d-43e6f100a0dd">
+               <id root="4663d20c-520f-4315-824a-964faaceb774"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <text>
+                  <paragraph>For deep <content styleCode="bold">IM</content> injection only.</paragraph>
+               </text>
+               <effectiveTime value="20230912"/>
+            </section>
+         </component>
+         <component>
+            <section ID="BOX">
+               <id root="b1eabead-81df-4313-bcfd-e61ddba947af"/>
+               <code code="34066-1" codeSystem="2.16.840.1.113883.6.1" displayName="Boxed Warning section"/>
+               <title>
+                  <content styleCode="emphasis">WARNING</content>
+               </title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">NOT FOR INTRAVENOUS USE. DO NOT INJECT INTRAVENOUSLY OR ADMIX WITH OTHER INTRAVENOUS SOLUTIONS. THERE HAVE BEEN REPORTS OF INADVERTENT INTRAVENOUS ADMINISTRATION OF PENICILLIN G BENZATHINE WHICH HAS BEEN ASSOCIATED WITH CARDIORESPIRATORY ARREST AND DEATH. Prior to administration of this drug, carefully read the </content>
+                     <linkHtml href="#Warnings">WARNINGS</linkHtml>
+                     <content styleCode="bold">, </content>
+                     <content styleCode="bold">
+                        <linkHtml href="#ID_af4ed883-8182-4478-a893-ba271b2752d4">ADVERSE REACTIONS,</linkHtml>
+                     </content>
+                     <content styleCode="bold"> and </content>
+                     <linkHtml href="#DA">DOSAGE AND ADMINISTRATION</linkHtml>
+                     <content styleCode="bold"> sections of the labeling.</content>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20230912"/>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_2597f697-8f34-4f21-916b-a2e02c764ff4">
+               <id root="c17fdefd-664b-416c-b055-9fb9b674438f"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <text>
+                  <paragraph>To reduce the development of drug-resistant bacteria and maintain the effectiveness of Bicillin L-A and other antibacterial drugs, Bicillin L-A should be used only to treat or prevent infections that are proven or strongly suspected to be caused by bacteria.</paragraph>
+               </text>
+               <effectiveTime value="20230912"/>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_3221f943-d14a-4d9a-8305-bcdd16e0d9f6">
+               <id root="adcf2774-bded-42bd-8b34-0f02a4dd6823"/>
+               <code code="34089-3" codeSystem="2.16.840.1.113883.6.1" displayName="DESCRIPTION SECTION"/>
+               <title>Description</title>
+               <text>
+                  <paragraph>Bicillin L-A (penicillin G benzathine injectable suspension) is available for deep intramuscular injection. Penicillin G benzathine is prepared by the reaction of dibenzylethylene diamine with two molecules of penicillin G. It is chemically designated as (2<content styleCode="italics">S</content>, 5<content styleCode="italics">R</content>, 6<content styleCode="italics">R</content>)-3,3-Dimethyl-7-oxo-6-(2-phenylacetamido)-4-thia-1-azabicyclo[3.2.0]heptane-2-carboxylic acid compound with <content styleCode="italics">N,N' -</content>dibenzylethylenediamine (2:1), tetrahydrate. It occurs as a white, crystalline powder and is very slightly soluble in water and sparingly soluble in alcohol. Its chemical structure is as follows:</paragraph>
+                  <renderMultiMedia ID="id544" referencedObject="MM1"/>
+                  <paragraph>Bicillin L-A contains penicillin G benzathine in aqueous suspension with sodium citrate buffer and, as w/v, approximately 0.65% sodium citrate, 0.59% povidone, 0.54% carboxymethylcellulose sodium, 0.53% lecithin, 0.12% methylparaben, and 0.013% propylparaben.</paragraph>
+                  <paragraph>Bicillin L-A contains approximately 0.11 mEq of sodium per 600,000 units of penicillin G (approximately 2.59 mg of sodium per 600,000 units of penicillin G).</paragraph>
+                  <paragraph>Bicillin L-A suspension in the disposable-syringe formulation is viscous and opaque. It is available in a 1 mL, 2 mL, and 4 mL sizes containing the equivalent of 600,000 (actual volume of 1.17 mL contains 620,100), 1,200,000 (actual volume of 2.34 mL contains 1,240,200), and 2,400,000 (actual volume of 4.67 mL contains 2,475,100) units respectively of penicillin G as the benzathine salt. Read <linkHtml href="#ID_0dcdc564-8bcb-47cd-94bf-9d3554b8a426">CONTRAINDICATIONS</linkHtml>, <linkHtml href="#Warnings">WARNINGS</linkHtml>, <linkHtml href="#Precautions">PRECAUTIONS</linkHtml>, and <linkHtml href="#DA">DOSAGE AND ADMINISTRATION</linkHtml> sections prior to use.</paragraph>
+               </text>
+               <effectiveTime value="20230912"/>
+               <component>
+                  <observationMedia ID="MM1">
+                     <text>Chemical Structure</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="image-01.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="CP">
+               <id root="b758363e-d589-49be-90e0-f31f1807bc9c"/>
+               <code code="34090-1" codeSystem="2.16.840.1.113883.6.1" displayName="CLINICAL PHARMACOLOGY SECTION"/>
+               <title>CLINICAL PHARMACOLOGY</title>
+               <effectiveTime value="20231013"/>
+               <component>
+                  <section ID="ID_247b4eed-0397-423a-b3d9-0932b91a7aa0">
+                     <id root="ea705b82-3461-4a08-98cd-16a4d7f6fb53"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>General</title>
+                     <text>
+                        <paragraph>Penicillin G benzathine has an extremely low solubility and, thus, the drug is slowly released from intramuscular injection sites. The drug is hydrolyzed to penicillin G. This combination of hydrolysis and slow absorption results in blood serum levels much lower but much more prolonged than other parenteral penicillins.</paragraph>
+                        <paragraph>Intramuscular administration of 300,000 units of penicillin G benzathine in adults results in blood levels of 0.03 to 0.05 units per mL, which are maintained for 4 to 5 days. Similar blood levels may persist for 10 days following administration of 600,000 units and for 14 days following administration of 1,200,000 units. Blood concentrations of 0.003 units per mL may still be detectable 4 weeks following administration of 1,200,000 units.</paragraph>
+                        <paragraph>Approximately 60% of penicillin G is bound to serum protein. The drug is distributed throughout the body tissues in widely varying amounts. Highest levels are found in the kidneys with lesser amounts in the liver, skin, and intestines. Penicillin G penetrates into all other tissues and the spinal fluid to a lesser degree. With normal kidney function, the drug is excreted rapidly by tubular excretion. In neonates and young infants and in individuals with impaired kidney function, excretion is considerably delayed.</paragraph>
+                     </text>
+                     <effectiveTime value="20230912"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID_c33f88a9-9043-4b57-acfc-deafeb41fed7">
+                     <id root="64bebc7c-c80c-4a2b-8cb2-a2c03288f332"/>
+                     <code code="49489-8" codeSystem="2.16.840.1.113883.6.1" displayName="MICROBIOLOGY SECTION"/>
+                     <title>Microbiology</title>
+                     <effectiveTime value="20231013"/>
+                     <component>
+                        <section ID="ID_eb096333-d647-4f89-af02-fc6a8fba3f5f">
+                           <id root="7b78b883-5a83-4fae-a977-7971b2de8f67"/>
+                           <code code="43679-0" codeSystem="2.16.840.1.113883.6.1" displayName="MECHANISM OF ACTION SECTION"/>
+                           <title>
+                              <content styleCode="bold">Mechanism of Action</content>
+                           </title>
+                           <text>
+                              <paragraph>Penicillin G exerts a bactericidal action against penicillin-susceptible microorganisms during the stage of active multiplication. It acts through the inhibition of biosynthesis of cell-wall peptidoglycan, rendering the cell wall osmotically unstable.</paragraph>
+                           </text>
+                           <effectiveTime value="20230912"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section ID="ID_086bee3d-b2f0-4325-98f5-b04c0109ff44">
+                           <id root="9effa68f-6279-4047-b159-0d428a8bdba3"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title>
+                              <content styleCode="bold">Resistance</content>
+                           </title>
+                           <text>
+                              <paragraph>Penicillin is not active against penicillinase-producing bacteria or against organisms resistant to beta-lactams because of alterations in the penicillin-binding proteins. Resistance to penicillin G has not been reported in <content styleCode="italics">Streptococcus pyogenes</content>.</paragraph>
+                           </text>
+                           <effectiveTime value="20230912"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section ID="ID_12de5d6d-a725-4d7b-845d-acef8f03233b">
+                           <id root="8603ea2c-1ba1-463e-8eb8-5eb1e895ca82"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title>
+                              <content styleCode="bold">Antimicrobial Activity</content>
+                           </title>
+                           <text>
+                              <paragraph>Penicillin has been shown to be active against most isolates of the following bacteria, both in vitro and in clinical infections as described in the INDICATIONS AND USAGE section.</paragraph>
+                              <paragraph>
+                                 <content styleCode="underline">Gram-positive bacteria</content>
+                              </paragraph>
+                              <paragraph>Beta-hemolytic streptococci (groups A, B, C, G, H, L and M).</paragraph>
+                              <paragraph>
+                                 <content styleCode="underline">Other microorganisms</content>
+                                 <br/>
+                                 <content styleCode="italics">
+                                    <content styleCode="underline">Treponema pallidum</content>
+                                 </content>
+                                 <br/>
+                                 <content styleCode="italics">
+                                    <content styleCode="underline">Treponema carateum</content>
+                                 </content>
+                              </paragraph>
+                           </text>
+                           <effectiveTime value="20230912"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section ID="ID_c747b37f-ed9c-4b5d-8609-f8842f3f5f36">
+                           <id root="8cfc9f2b-4823-417e-8dcc-adcee0fbc9ff"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title>
+                              <content styleCode="bold">Susceptibility Testing</content>
+                           </title>
+                           <text>
+                              <paragraph>For specific information regarding susceptibility test interpretive criteria and associated test methods and quality control standards recognized by FDA for this drug, please see: <linkHtml href="https://www.fda.gov/drugs/development-resources/fda-recognized-antimicrobial-susceptibility-test-interpretive-criteria">https://www.fda.gov/STIC</linkHtml>.</paragraph>
+                           </text>
+                           <effectiveTime value="20231013"/>
+                        </section>
+                     </component>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="IU">
+               <id root="9cbf7b52-9acd-4993-9175-43dcf4ad5d2f"/>
+               <code code="34067-9" codeSystem="2.16.840.1.113883.6.1" displayName="INDICATIONS &amp; USAGE SECTION"/>
+               <title>INDICATIONS AND USAGE</title>
+               <text>
+                  <paragraph>To reduce the development of drug-resistant bacteria and maintain the effectiveness of Bicillin L-A and other antibacterial drugs, Bicillin L-A should be used only to treat or prevent infections that are proven or strongly suspected to be caused by bacteria. When culture and susceptibility information are available, they should be considered in selecting or modifying antibacterial therapy. In the absence of such data, local epidemiology and susceptibility patterns may contribute to the empiric selection of therapy.</paragraph>
+                  <paragraph>Intramuscular penicillin G benzathine is indicated in the treatment of infections due to penicillin-G-sensitive microorganisms that are susceptible to the low and very prolonged serum levels common to this particular dosage form. Therapy should be guided by bacteriological studies (including sensitivity tests) and by clinical response.</paragraph>
+                  <paragraph>The following infections will usually respond to adequate dosage of intramuscular penicillin G benzathine:</paragraph>
+                  <paragraph>Mild-to-moderate infections of the upper-respiratory tract due to susceptible streptococci.</paragraph>
+                  <paragraph>
+                     <content styleCode="italics">Venereal infections</content>—Syphilis, yaws, bejel, and pinta.</paragraph>
+                  <paragraph>Medical Conditions in which Penicillin G Benzathine Therapy is indicated as Prophylaxis:</paragraph>
+                  <paragraph>
+                     <content styleCode="italics">Rheumatic fever and/or chorea</content>—Prophylaxis with penicillin G benzathine has proven effective in preventing recurrence of these conditions. It has also been used as follow-up prophylactic therapy for rheumatic heart disease and acute glomerulonephritis.</paragraph>
+               </text>
+               <effectiveTime value="20230912"/>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_0dcdc564-8bcb-47cd-94bf-9d3554b8a426">
+               <id root="9e0ecf36-f52c-4dcb-b806-e1f4f1dc2f51"/>
+               <code code="34070-3" codeSystem="2.16.840.1.113883.6.1" displayName="CONTRAINDICATIONS SECTION"/>
+               <title>CONTRAINDICATIONS</title>
+               <text>
+                  <paragraph>A history of a previous hypersensitivity reaction to any of the penicillins is a contraindication. </paragraph>
+               </text>
+               <effectiveTime value="20230912"/>
+            </section>
+         </component>
+         <component>
+            <section ID="Warnings">
+               <id root="2e324d49-87b9-4adb-ae8e-1c3cb4cba847"/>
+               <code code="34071-1" codeSystem="2.16.840.1.113883.6.1" displayName="WARNINGS SECTION"/>
+               <title>WARNINGS</title>
+               <effectiveTime value="20240712"/>
+               <component>
+                  <section ID="ID_0c1b6981-e211-4904-9f79-3444dfb7c2b5">
+                     <id root="d3aa2318-da72-4fd1-be6c-93d94db7305d"/>
+                     <code code="34066-1" codeSystem="2.16.840.1.113883.6.1" displayName="Boxed Warning section"/>
+                     <title>
+                        <content styleCode="emphasis">WARNING</content>
+                     </title>
+                     <text>
+                        <paragraph>
+                           <content styleCode="bold">NOT FOR INTRAVENOUS USE. DO NOT INJECT INTRAVENOUSLY OR ADMIX WITH OTHER INTRAVENOUS SOLUTIONS. THERE HAVE BEEN REPORTS OF INADVERTENT INTRAVENOUS ADMINISTRATION OF PENICILLIN G BENZATHINE WHICH HAS BEEN ASSOCIATED WITH CARDIORESPIRATORY ARREST AND DEATH. Prior to administration of this drug, carefully read the </content>
+                           <linkHtml href="#Warnings">WARNINGS</linkHtml>
+                           <content styleCode="bold">, </content>
+                           <content styleCode="bold">
+                              <linkHtml href="#ID_af4ed883-8182-4478-a893-ba271b2752d4">ADVERSE REACTIONS,</linkHtml>
+                           </content>
+                           <content styleCode="bold"> and </content>
+                           <linkHtml href="#DA">DOSAGE AND ADMINISTRATION</linkHtml>
+                           <content styleCode="bold"> sections of the labeling.</content>
+                        </paragraph>
+                     </text>
+                     <effectiveTime value="20240712"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID_6d839742-95b8-4c88-9519-421ba227591d">
+                     <id root="2bd241cc-9512-411d-954b-1ac408c93c7e"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <text>
+                        <paragraph>Penicillin G benzathine should only be prescribed for the indications listed in this insert.</paragraph>
+                     </text>
+                     <effectiveTime value="20230912"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID_f36979d4-7e4e-42ac-90cb-f9d03aca4efb">
+                     <id root="4849ee51-8431-4105-903c-c09fe2f2fd7a"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Anaphylaxis</title>
+                     <text>
+                        <paragraph>SERIOUS AND OCCASIONALLY FATAL HYPERSENSITIVITY (ANAPHYLACTIC) REACTIONS HAVE BEEN REPORTED IN PATIENTS ON PENICILLIN THERAPY. THESE REACTIONS ARE MORE LIKELY TO OCCUR IN INDIVIDUALS WITH A HISTORY OF PENICILLIN HYPERSENSITIVITY AND/OR A HISTORY OF SENSITIVITY TO MULTIPLE ALLERGENS. THERE HAVE BEEN REPORTS OF INDIVIDUALS WITH A HISTORY OF PENICILLIN HYPERSENSITIVITY WHO HAVE EXPERIENCED SEVERE REACTIONS WHEN TREATED WITH CEPHALOSPORINS. BEFORE INITIATING THERAPY WITH BICILLIN L-A, CAREFUL INQUIRY SHOULD BE MADE CONCERNING PREVIOUS HYPERSENSITIVITY REACTIONS TO PENICILLINS, CEPHALOSPORINS, OR OTHER ALLERGENS. IF AN ALLERGIC REACTION OCCURS, BICILLIN L-A SHOULD BE DISCONTINUED AND APPROPRIATE THERAPY INSTITUTED. <content styleCode="bold">SERIOUS ANAPHYLACTIC REACTIONS REQUIRE IMMEDIATE EMERGENCY TREATMENT WITH EPINEPHRINE. OXYGEN, INTRAVENOUS STEROIDS AND AIRWAY MANAGEMENT, INCLUDING INTUBATION, SHOULD ALSO BE ADMINISTERED AS INDICATED.</content>
+                        </paragraph>
+                     </text>
+                     <effectiveTime value="20230912"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID_dcc50ea9-96dd-4476-a51f-e2495e59c3ef">
+                     <id root="fa34a16d-c9ad-4e99-86a2-17fc226abbfc"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Severe cutaneous adverse reactions</title>
+                     <text>
+                        <paragraph>Severe cutaneous adverse reactions (SCAR), such as Stevens-Johnson syndrome (SJS), toxic epidermal necrolysis (TEN), drug reaction with eosinophilia and systemic symptoms (DRESS), and acute generalized exanthematous pustulosis (AGEP) have been reported in patients taking penicillin G (the active moiety in Bicillin L-A). When SCAR is suspected, Bicillin L-A should be discontinued immediately and an alternative treatment should be considered.</paragraph>
+                     </text>
+                     <effectiveTime value="20230912"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID_270d33b4-0fa9-4642-a380-32eafe8551f9">
+                     <id root="63608005-dc8f-4ac6-8843-4e55698f8f51"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Clostridioides difficile associated diarrhea</title>
+                     <text>
+                        <paragraph>
+                           <content styleCode="italics">Clostridioides difficile</content> associated-diarrhea (CDAD) has been reported with use of nearly all antibacterial agents, including Bicillin L-A, and may range in severity from mild diarrhea to fatal colitis. Treatment with antibacterial agents alters the normal flora of the colon leading to overgrowth of <content styleCode="italics">C. difficile</content>.</paragraph>
+                        <paragraph>
+                           <content styleCode="italics">C. difficile</content> produces toxins A and B which contribute to the development of CDAD. Hypertoxin producing strains of <content styleCode="italics">C. difficile</content> cause increased morbidity and mortality, as these infections can be refractory to antimicrobial therapy and may require colectomy. CDAD must be considered in all patients who present with diarrhea following antibacterial use. Careful medical history is necessary since CDAD has been reported to occur over two months after the administration of antibacterial agents.</paragraph>
+                        <paragraph>If CDAD is suspected or confirmed, ongoing antibiotic use not directed against <content styleCode="italics">C. difficile</content> may need to be discontinued. Appropriate fluid and electrolyte management, protein supplementation, antibiotic treatment of <content styleCode="italics">C. difficile</content>, and surgical evaluation should be instituted as clinically indicated.</paragraph>
+                     </text>
+                     <effectiveTime value="20231013"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID_6074cb22-98ac-413c-abc8-cbb66df45aa5">
+                     <id root="9a046ff7-583d-4bf3-8b60-58f8777a8e87"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Method of Administration</title>
+                     <text>
+                        <paragraph>
+                           <content styleCode="bold">Do not inject into or near an artery or nerve. See administration instructions below.</content>
+                        </paragraph>
+                        <paragraph>
+                           <content styleCode="bold">Injection into or near a nerve may result in permanent neurological damage.</content>
+                        </paragraph>
+                        <paragraph>Inadvertent intravascular administration, including inadvertent direct intra-arterial injection or injection immediately adjacent to arteries, of Bicillin L-A and other penicillin preparations has resulted in severe neurovascular damage, including transverse myelitis with permanent paralysis, gangrene requiring amputation of digits and more proximal portions of extremities, and necrosis and sloughing at and surrounding the injection site consistent with the diagnosis of Nicolau syndrome. Such severe effects have been reported following injections into the buttock, thigh, and deltoid areas. Other serious complications of suspected intravascular administration which have been reported include immediate pallor, mottling, or cyanosis of the extremity both distal and proximal to the injection site, followed by bleb formation; severe edema requiring anterior and/or posterior compartment fasciotomy in the lower extremity. The above-described severe effects and complications have most often occurred in infants and small children. Prompt consultation with an appropriate specialist is indicated if any evidence of compromise of the blood supply occurs at, proximal to, or distal to the site of injection.<sup>1–9</sup> (See <linkHtml href="#Precautions">PRECAUTIONS</linkHtml>, and <linkHtml href="#DA">DOSAGE AND ADMINISTRATION</linkHtml> sections.)</paragraph>
+                        <paragraph>
+                           <content styleCode="bold">FOR DEEP INTRAMUSCULAR INJECTION ONLY. There have been reports of inadvertent intravenous administration of penicillin G benzathine which has been associated with cardiorespiratory arrest and death. Therefore, do not inject intravenously or admix with other intravenous solutions. </content>(See <linkHtml href="#DA">DOSAGE AND ADMINISTRATION</linkHtml> section.)</paragraph>
+                        <paragraph>Administer by DEEP INTRAMUSCULAR INJECTION ONLY in the upper, outer quadrant of the buttock (dorsogluteal) or the ventrogluteal site. Quadriceps femoris fibrosis and atrophy have been reported following repeated intramuscular injections of penicillin preparations into the anterolateral thigh. Because of these adverse effects and the vascularity of this region, administration in the anterolateral thigh is not recommended.</paragraph>
+                     </text>
+                     <effectiveTime value="20230912"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="Precautions">
+               <id root="fd7245d1-08f3-4281-97e2-8666e5823178"/>
+               <code code="42232-9" codeSystem="2.16.840.1.113883.6.1" displayName="PRECAUTIONS SECTION"/>
+               <title>PRECAUTIONS</title>
+               <effectiveTime value="20230912"/>
+               <component>
+                  <section ID="ID_cab24ae0-fbc5-46ba-b36a-53cbefe963d1">
+                     <id root="3494a2ab-ee23-4456-97cc-15b33eefe80d"/>
+                     <code code="34072-9" codeSystem="2.16.840.1.113883.6.1" displayName="GENERAL PRECAUTIONS SECTION"/>
+                     <title>General</title>
+                     <text>
+                        <paragraph>Prescribing Bicillin L-A in the absence of a proven or strongly suspected bacterial infection or a prophylactic indication is unlikely to provide benefit to the patient and increases the risk of a development of drug-resistant bacteria.</paragraph>
+                        <paragraph>Penicillin should be used with caution in individuals with histories of significant allergies and/or asthma.</paragraph>
+                        <paragraph>Care should be taken to avoid intravenous or intra-arterial administration, or injection into or near major peripheral nerves or blood vessels, since such injection may produce neurovascular damage. (See <linkHtml href="#Warnings">WARNINGS</linkHtml>, and <linkHtml href="#DA">DOSAGE AND ADMINISTRATION</linkHtml> sections.)</paragraph>
+                        <paragraph>Prolonged use of antibiotics may promote the overgrowth of nonsusceptible organisms, including fungi. Should superinfection occur, appropriate measures should be taken.</paragraph>
+                        <paragraph>Bicillin L-A contains approximately 0.11 mEq of sodium per 600,000 units of penicillin G (approximately 2.59 mg of sodium per 600,000 units of penicillin G).</paragraph>
+                     </text>
+                     <effectiveTime value="20230912"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID_d220db5f-cb4c-4ece-83dc-9c81e8690a8c">
+                     <id root="78a3cb35-a1b2-499e-9678-955bd054709e"/>
+                     <code code="34076-0" codeSystem="2.16.840.1.113883.6.1" displayName="INFORMATION FOR PATIENTS SECTION"/>
+                     <title>Information for Patients</title>
+                     <text>
+                        <paragraph>Diarrhea is a common problem caused by antibiotics which usually ends when the antibiotic is discontinued. Sometimes after starting treatment with antibiotics, patients can develop watery and bloody stools (with or without stomach cramps and fever) even as late as two or more months after having taken the last dose of the antibiotic. If this occurs, patients should contact their physician as soon as possible.</paragraph>
+                        <paragraph>Patients should be counseled that antibacterial drugs including Bicillin L-A should only be used to treat bacterial infections. They do not treat viral infections (e.g., the common cold). When Bicillin L-A is prescribed to treat a bacterial infection, patients should be told that although it is common to feel better early in the course of therapy, the medication should be taken exactly as directed. Skipping doses or not completing the full course of therapy may (1) decrease the effectiveness of the immediate treatment and (2) increase the likelihood that bacteria will develop resistance and will not be treatable by Bicillin L-A or other antibacterial drugs in the future.</paragraph>
+                     </text>
+                     <effectiveTime value="20230912"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID_7a0f2770-6d0d-4a38-b437-fd8958af3761">
+                     <id root="a4461fcd-4a3e-45ed-9679-9c4505e9998b"/>
+                     <code code="34075-2" codeSystem="2.16.840.1.113883.6.1" displayName="LABORATORY TESTS SECTION"/>
+                     <title>Laboratory Tests</title>
+                     <text>
+                        <paragraph>In streptococcal infections, therapy must be sufficient to eliminate the organism; otherwise, the sequelae of streptococcal disease may occur. Cultures should be taken following completion of treatment to determine whether streptococci have been eradicated. </paragraph>
+                     </text>
+                     <effectiveTime value="20230912"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID_3d6aeb1c-3049-4816-84fe-fcb14ef56120">
+                     <id root="6de0d23c-57b3-4ad5-8789-8cdf4ab2cb01"/>
+                     <code code="34073-7" codeSystem="2.16.840.1.113883.6.1" displayName="DRUG INTERACTIONS SECTION"/>
+                     <title>Drug Interactions</title>
+                     <text>
+                        <paragraph>Tetracycline, a bacteriostatic antibiotic, may antagonize the bactericidal effect of penicillin, and concurrent use of these drugs should be avoided.</paragraph>
+                        <paragraph>Concurrent administration of penicillin and probenecid increases and prolongs serum penicillin levels by decreasing the apparent volume of distribution and slowing the rate of excretion by competitively inhibiting renal tubular secretion of penicillin.</paragraph>
+                     </text>
+                     <effectiveTime value="20230912"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID_06991b27-4803-47db-bba7-da760a01ee53">
+                     <id root="b81f8951-2b60-44aa-bd68-7455add9dc95"/>
+                     <code code="42228-7" codeSystem="2.16.840.1.113883.6.1" displayName="PREGNANCY SECTION"/>
+                     <title>Pregnancy</title>
+                     <effectiveTime value="20230912"/>
+                     <component>
+                        <section ID="ID_54e5f042-467b-434d-8708-f46deafab316">
+                           <id root="07473fd8-b99f-4f85-a90b-d3c11b0c7e0f"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title>
+                              <content styleCode="bold">Teratogenic effects</content>
+                           </title>
+                           <text>
+                              <paragraph>Pregnancy Reproduction studies performed in the mouse, rat, and rabbit have revealed no evidence of impaired fertility or harm to the fetus due to penicillin G. Human experience with the penicillins during pregnancy has not shown any positive evidence of adverse effects on the fetus. There are, however, no adequate and well-controlled studies in pregnant women showing conclusively that harmful effects of these drugs on the fetus can be excluded. Because animal reproduction studies are not always predictive of human response, this drug should be used during pregnancy only if clearly needed.</paragraph>
+                           </text>
+                           <effectiveTime value="20230912"/>
+                        </section>
+                     </component>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID_32fa59c3-955e-43f0-a85c-092bd5e7cdc3">
+                     <id root="035448c9-0ffe-4f3e-8483-32d8fd77eab8"/>
+                     <code code="34080-2" codeSystem="2.16.840.1.113883.6.1" displayName="NURSING MOTHERS SECTION"/>
+                     <title>Nursing Mothers</title>
+                     <text>
+                        <paragraph>Soluble penicillin G (the hydrolysate of penicillin G benzathine) is excreted in breast milk. Caution should be exercised when penicillin G benzathine is administered to a nursing woman. </paragraph>
+                     </text>
+                     <effectiveTime value="20230912"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID_5ded81b3-26f3-402f-8988-ecc74b6fdc94">
+                     <id root="0cda3c00-b78b-4f02-8256-87ca22c141dd"/>
+                     <code code="34083-6" codeSystem="2.16.840.1.113883.6.1" displayName="CARCINOGENESIS &amp; MUTAGENESIS &amp; IMPAIRMENT OF FERTILITY SECTION"/>
+                     <title>Carcinogenesis, Mutagenesis, Impairment of Fertility</title>
+                     <text>
+                        <paragraph>No long-term animal studies have been conducted with this drug. </paragraph>
+                     </text>
+                     <effectiveTime value="20230912"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID_8ae1171f-7dfa-44ef-a259-c7e541df004c">
+                     <id root="fdca394a-ce49-402e-b45e-fc6f2fcdf20c"/>
+                     <code code="34081-0" codeSystem="2.16.840.1.113883.6.1" displayName="PEDIATRIC USE SECTION"/>
+                     <title>Pediatric Use</title>
+                     <text>
+                        <paragraph>(See <linkHtml href="#IU">INDICATIONS AND USAGE</linkHtml> and <linkHtml href="#DA">DOSAGE AND ADMINISTRATION</linkHtml> sections.)</paragraph>
+                     </text>
+                     <effectiveTime value="20230912"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID_2c0e3e10-0891-4eb1-a15a-93a19960ce6d">
+                     <id root="11d0ee86-11fc-4d94-b62f-fd0576fb7861"/>
+                     <code code="34082-8" codeSystem="2.16.840.1.113883.6.1" displayName="GERIATRIC USE SECTION"/>
+                     <title>Geriatric Use</title>
+                     <text>
+                        <paragraph>Clinical studies of penicillin G benzathine did not include sufficient numbers of subjects aged 65 and over to determine whether they respond differently from younger subjects. Other reported clinical experience has not identified differences in responses between the elderly and younger patients. In general, dose selection for an elderly patient should be cautious, usually starting at the low end of the dosing range, reflecting the greater frequency of decreased hepatic, renal, or cardiac function, and of concomitant disease or other drug therapy. This drug is known to be substantially excreted by the kidney, and the risk of toxic reactions to this drug may be greater in patients with impaired renal function. (See <linkHtml href="#CP">CLINICAL PHARMACOLOGY</linkHtml>.) Because elderly patients are more likely to have decreased renal function, care should be taken in dose selection, and it may be useful to monitor renal function.</paragraph>
+                     </text>
+                     <effectiveTime value="20230912"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_af4ed883-8182-4478-a893-ba271b2752d4">
+               <id root="fc71e8b3-9aa6-4247-8689-4fd79e7d68a7"/>
+               <code code="34084-4" codeSystem="2.16.840.1.113883.6.1" displayName="ADVERSE REACTIONS SECTION"/>
+               <title>ADVERSE REACTIONS</title>
+               <text>
+                  <paragraph>As with other penicillins, untoward reactions of the sensitivity phenomena are likely to occur, particularly in individuals who have previously demonstrated hypersensitivity to penicillins or in those with a history of allergy, asthma, hay fever, or urticaria.</paragraph>
+                  <paragraph>As with other treatments for syphilis, the Jarisch-Herxheimer reaction has been reported.</paragraph>
+                  <paragraph>
+                     <content styleCode="underline">The following adverse reactions have been reported with Bicillin L-A during post-marketing experience:</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="italics">Skin and Appendages:</content> Stevens-Johnson syndrome (SJS) and drug reaction with eosinophilia and systemic symptoms (DRESS). (See <linkHtml href="#Warnings">WARNINGS</linkHtml>.)</paragraph>
+                  <paragraph>
+                     <content styleCode="italics">Immune System Disorders: </content>Acute myocardial ischemia with or without myocardial infarction may occur as part of an allergic reaction (Kounis syndrome).</paragraph>
+                  <paragraph>
+                     <content styleCode="underline">The following have been reported with parenteral penicillin G (the active moiety in Bicillin L-A):</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="italics">General:</content> Hypersensitivity reactions including the following: skin eruptions (maculopapular to exfoliative dermatitis), urticaria, laryngeal edema, fever, eosinophilia; other serum sickness-like reactions (including chills, fever, edema, arthralgia, and prostration); and anaphylaxis including shock and death: severe cutaneous adverse reactions (SCAR), such as toxic epidermal necrolysis (TEN) and acute generalized exanthematous pustulosis (AGEP). (See <linkHtml href="#Warnings">WARNINGS</linkHtml>.) Note: Urticaria, other skin rashes, and serum sickness-like reactions may be controlled with antihistamines and, if necessary, systemic corticosteroids. Whenever such reactions occur, penicillin G should be discontinued unless, in the opinion of the physician, the condition being treated is life-threatening and amenable only to therapy with penicillin G. Serious anaphylactic reactions require immediate emergency treatment with epinephrine. Oxygen, intravenous steroids, and airway management, including intubation, should also be administered as indicated.</paragraph>
+                  <paragraph>
+                     <content styleCode="italics">Gastrointestinal:</content> Pseudomembranous colitis. Onset of pseudomembranous colitis symptoms may occur during or after antibacterial treatment. (See <linkHtml href="#Warnings">WARNINGS</linkHtml> section.)</paragraph>
+                  <paragraph>
+                     <content styleCode="italics">Hematologic: </content>Hemolytic anemia, leukopenia, thrombocytopenia.</paragraph>
+                  <paragraph>
+                     <content styleCode="italics">Neurologic:</content> Neuropathy.</paragraph>
+                  <paragraph>
+                     <content styleCode="italics">Urogenital:</content> Nephropathy.</paragraph>
+                  <paragraph>
+                     <content styleCode="underline">The following adverse events have been temporally associated with parenteral administration of penicillin G benzathine (a component of Bicillin L-A):</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="italics">Body as a Whole:</content> Hypersensitivity reactions including allergic vasculitis, pruritus, fatigue, asthenia, and pain; aggravation of existing disorder; headache, Nicolau syndrome.</paragraph>
+                  <paragraph>
+                     <content styleCode="italics">Cardiovascular:</content> Cardiac arrest; hypotension; tachycardia; palpitations; pulmonary hypertension; pulmonary embolism; vasodilation; vasovagal reaction; cerebrovascular accident; syncope.</paragraph>
+                  <paragraph>
+                     <content styleCode="italics">Gastrointestinal:</content> Nausea, vomiting; blood in stool; intestinal necrosis.</paragraph>
+                  <paragraph>
+                     <content styleCode="italics">Hemic and Lymphatic:</content> Lymphadenopathy.</paragraph>
+                  <paragraph>
+                     <content styleCode="italics">Injection Site:</content> Injection site reactions including pain, inflammation, lump, abscess, necrosis, edema, hemorrhage, cellulitis, hypersensitivity, atrophy, ecchymosis, and skin ulcer. Neurovascular reactions including warmth, vasospasm, pallor, mottling, gangrene, numbness of the extremities, cyanosis of the extremities, and neurovascular damage.</paragraph>
+                  <paragraph>
+                     <content styleCode="italics">Metabolic:</content> Elevated BUN, creatinine, and SGOT.</paragraph>
+                  <paragraph>
+                     <content styleCode="italics">Musculoskeletal:</content> Joint disorder; periostitis; exacerbation of arthritis; myoglobinuria; rhabdomyolysis.</paragraph>
+                  <paragraph>
+                     <content styleCode="italics">Nervous System:</content> Nervousness; tremors; dizziness; somnolence; confusion; anxiety; euphoria; transverse myelitis; seizures; coma. A syndrome manifested by a variety of CNS symptoms such as severe agitation with confusion, visual and auditory hallucinations, and a fear of impending death (Hoigne's syndrome), has been reported after administration of penicillin G procaine and, less commonly, after injection of the combination of penicillin G benzathine and penicillin G procaine. Other symptoms associated with this syndrome, such as psychosis, seizures, dizziness, tinnitus, cyanosis, palpitations, tachycardia, and/or abnormal perception in taste, also may occur.</paragraph>
+                  <paragraph>
+                     <content styleCode="italics">Respiratory:</content> Hypoxia; apnea; dyspnea.</paragraph>
+                  <paragraph>
+                     <content styleCode="italics">Skin:</content> Diaphoresis.</paragraph>
+                  <paragraph>
+                     <content styleCode="italics">Special Senses:</content> Blurred vision; blindness.</paragraph>
+                  <paragraph>
+                     <content styleCode="italics">Urogenital:</content> Neurogenic bladder; hematuria; proteinuria; renal failure; impotence; priapism.</paragraph>
+               </text>
+               <effectiveTime value="20231013"/>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_f6db4dc7-20d4-46ca-bf17-7cdfbfbf10fc">
+               <id root="788831c9-c7cc-4d8e-8467-d5718794fe41"/>
+               <code code="34088-5" codeSystem="2.16.840.1.113883.6.1" displayName="OVERDOSAGE SECTION"/>
+               <title>OVERDOSAGE</title>
+               <text>
+                  <paragraph>Penicillin in overdosage has the potential to cause neuromuscular hyperirritability or convulsive seizures. </paragraph>
+               </text>
+               <effectiveTime value="20230912"/>
+            </section>
+         </component>
+         <component>
+            <section ID="DA">
+               <id root="6b7b7274-326d-4274-9fc6-558d754036ca"/>
+               <code code="34068-7" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE &amp; ADMINISTRATION SECTION"/>
+               <title>DOSAGE AND ADMINISTRATION</title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">Streptococcal (Group A) Upper Respiratory Infections (for example, pharyngitis)</content>
+                  </paragraph>
+                  <paragraph>Adults—a single injection of 1,200,000 units; older pediatric patients—a single injection of 900,000 units; infants and pediatric patients under 60 lbs.—300,000 to 600,000 units.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Syphilis</content>
+                  </paragraph>
+                  <paragraph>Primary, secondary, and latent—2,400,000 units (1 dose). Late (tertiary and neurosyphilis)—2,400,000 units at 7-day intervals for three doses.</paragraph>
+                  <paragraph>Congenital—under 2 years of age: 50,000 units/kg/body weight; ages 2 to 12 years: adjust dosage based on adult dosage schedule.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Yaws, Bejel, and Pinta</content>—1,200,000 units (1 injection).</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Prophylaxis</content>—for rheumatic fever and glomerulonephritis.</paragraph>
+                  <paragraph>Following an acute attack, penicillin G benzathine (parenteral) may be given in doses of 1,200,000 units once a month or 600,000 units every 2 weeks.</paragraph>
+               </text>
+               <effectiveTime value="20230912"/>
+               <component>
+                  <section ID="ID_6ce24893-c605-4f13-9b17-6e11a76a635b">
+                     <id root="b3aea109-a1ac-4505-afaf-25ebfbb49a85"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>METHOD OF ADMINISTRATION</title>
+                     <text>
+                        <paragraph>
+                           <content styleCode="bold">BICILLIN L-A IS INTENDED FOR INTRAMUSCULAR INJECTION ONLY. DO NOT INJECT INTO OR NEAR AN ARTERY OR NERVE, OR INTRAVENOUSLY OR ADMIX WITH OTHER INTRAVENOUS SOLUTIONS. </content>(SEE <linkHtml href="#Warnings">WARNINGS</linkHtml> SECTION.)</paragraph>
+                        <paragraph>Administer by DEEP INTRAMUSCULAR INJECTION in the upper, outer quadrant of the buttock (dorsogluteal) or the ventrogluteal site. In neonates, infants and small children, the midlateral aspect of the thigh may be preferable. Administration in the anterolateral thigh is not recommended due to the adverse effects observed (see <linkHtml href="#Warnings">WARNINGS</linkHtml> section), and vascularity of this region. When doses are repeated, vary the injection site.</paragraph>
+                        <paragraph>Because of the high concentration of suspended material in this product, the needle may be blocked if the injection is not made at a slow, steady rate.</paragraph>
+                        <paragraph>Parenteral drug products should be inspected visually for particulate matter and discoloration prior to administration whenever solution and container permit.</paragraph>
+                     </text>
+                     <effectiveTime value="20230912"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_e1c970c3-26be-4a47-b1a1-834de4eb607e">
+               <id root="6c96012f-c380-45d1-a77b-03f5d8d5e8f6"/>
+               <code code="34069-5" codeSystem="2.16.840.1.113883.6.1" displayName="HOW SUPPLIED SECTION"/>
+               <title>HOW SUPPLIED</title>
+               <text>
+                  <paragraph>Bicillin L-A (penicillin G benzathine injectable suspension) is supplied in packages of 10 disposable syringes as follows:</paragraph>
+                  <paragraph>1 mL size, containing 600,000 units per syringe, (21 gauge, thin-wall 1-inch needle for pediatric use),  with 0.11 mEq of sodium per 600,000 units of penicillin G (2.59 mg of sodium per 600,000 units of penicillin G), NDC 60793-700-10.</paragraph>
+                  <paragraph>2 mL size, containing 1,200,000 units per syringe, (21 gauge, thin-wall 1-1/2-inch needle), with 0.22 mEq of sodium per 1,200,000 units of penicillin G (5.17 mg of sodium per 1,200,000 units of penicillin G), NDC 60793-701-10.</paragraph>
+                  <paragraph>4 mL size, containing 2,400,000 units per syringe (18 gauge, × 1–1/2-inch needle), with 0.45 mEq of sodium per 2,400,000 units of penicillin G (10.32 mg of sodium per 2,400,000 units of penicillin G), NDC 60793-702-10.</paragraph>
+               </text>
+               <effectiveTime value="20230912"/>
+               <component>
+                  <section ID="ID_c0e9fc5d-c6f2-46a5-a6de-3f14dd211297">
+                     <id root="ad7ccf4e-f7fb-4c81-9091-c8eadcfccd5c"/>
+                     <code code="44425-7" codeSystem="2.16.840.1.113883.6.1" displayName="STORAGE AND HANDLING SECTION"/>
+                     <text>
+                        <paragraph>
+                           <content styleCode="bold">Store in a refrigerator, 2° to 8°C (36° to 46°F).</content>
+                        </paragraph>
+                        <paragraph>
+                           <content styleCode="bold">Keep from freezing.</content>
+                        </paragraph>
+                     </text>
+                     <effectiveTime value="20230912"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_c5e7e5cd-a210-43ec-b50d-84aa05022b69">
+               <id root="f2e87eb6-e0a3-45f7-839f-8e2a24da9640"/>
+               <code code="34093-5" codeSystem="2.16.840.1.113883.6.1" displayName="REFERENCES SECTION"/>
+               <title>REFERENCES</title>
+               <text>
+                  <list listType="ordered">
+                     <item>
+                        <caption>1.</caption>SHAW, E.: Transverse myelitis from injection of penicillin. <content styleCode="italics">Am. J. Dis. Child., 111:</content>548, 1966.</item>
+                     <item>
+                        <caption>2.</caption>KNOWLES, J.: Accidental intra-arterial injection of penicillin. <content styleCode="italics">Am. J. Dis. Child., 111:</content>552, 1966.</item>
+                     <item>
+                        <caption>3.</caption>DARBY, C. <content styleCode="italics">et al</content>: Ischemia following an intragluteal injection of benzathine-procaine penicillin G mixture in a one-year-old boy. <content styleCode="italics">Clin. Pediatrics, 12:</content>485, 1973.</item>
+                     <item>
+                        <caption>4.</caption>BROWN, L. &amp; NELSON, A.: Postinfectious intravascular thrombosis with gangrene. <content styleCode="italics">Arch. Surg., 94:</content>652, 1967.</item>
+                     <item>
+                        <caption>5.</caption>BORENSTINE, J.: Transverse myelitis and penicillin (Correspondence). <content styleCode="italics">Am. J. Dis. Child., 112:</content>166, 1966.</item>
+                     <item>
+                        <caption>6.</caption>ATKINSON, J.: Transverse myelopathy secondary to penicillin injection. <content styleCode="italics">J. Pediatrics, 75:</content>867, 1969.</item>
+                     <item>
+                        <caption>7.</caption>TALBERT, J. <content styleCode="italics">et al</content>: Gangrene of the foot following intramuscular injection in the lateral thigh: A case report with recommendations for prevention. <content styleCode="italics">J. Pediatrics, 70:</content>110, 1967.</item>
+                     <item>
+                        <caption>8.</caption>FISHER, T.: Medicolegal affairs. <content styleCode="italics">Canad. Med. Assoc. J., 112:</content>395, 1975.</item>
+                     <item>
+                        <caption>9.</caption>SCHANZER, H. <content styleCode="italics">et al</content>: Accidental intra-arterial injection of penicillin G. <content styleCode="italics">JAMA, 242:</content>1289, 1979.</item>
+                  </list>
+               </text>
+               <effectiveTime value="20230912"/>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_93d21a39-50e8-4dc1-bdaf-e8ecd8571f3b">
+               <id root="f113edfa-7930-4bbf-bde4-019248bf2ec5"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <text>
+                  <renderMultiMedia ID="id995" referencedObject="MM2"/>
+                  <paragraph>LAB-0588-20.0<br/>Revised: 09/2023</paragraph>
+               </text>
+               <effectiveTime value="20231013"/>
+               <component>
+                  <observationMedia ID="MM2">
+                     <text>Logo</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="bicillin-02.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_ce203610-4e1f-45fc-a27c-82bf2bc20b79">
+               <id root="c6e959b8-3aa5-4305-998d-fb4c4076ff9b"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>PRINCIPAL DISPLAY PANEL - 1 mL Syringe Label</title>
+               <text>
+                  <paragraph>NDC 60793-700-01</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">BICILLIN<sup>®</sup> L-A</content>
+                     <br/>(penicillin G benzathine injectable suspension)<br/>
+                     <content styleCode="bold">600,000 units per 1 mL</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">FOR DEEP INTRAMUSCULAR</content>
+                     <br/>
+                     <content styleCode="bold">INJECTION ONLY</content>
+                     <br/>
+                     <content styleCode="bold">WARNING: FATAL IF</content>
+                     <br/>
+                     <content styleCode="bold">GIVEN BY OTHER ROUTES</content>
+                  </paragraph>
+                  <paragraph>Distributed by<br/>Pfizer Inc<br/>New York, NY 10017</paragraph>
+                  <renderMultiMedia ID="id1027" referencedObject="MM3"/>
+               </text>
+               <effectiveTime value="20240712"/>
+               <component>
+                  <observationMedia ID="MM3">
+                     <text>PRINCIPAL DISPLAY PANEL - 1 mL Syringe Label</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="bicillin-03.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_6ad31b06-1715-4b18-a2b7-a7eaf20797c6">
+               <id root="8cf83cd3-02df-4425-8dc0-08e4010f0bc6"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>PRINCIPAL DISPLAY PANEL - 1 mL Syringe Package</title>
+               <text>
+                  <paragraph>NDC 60793-700-10<br/>Contains 10 of NDC 60793-700-01</paragraph>
+                  <paragraph>Ten Syringes (1 mL size)</paragraph>
+                  <paragraph>Bicillin<sup>®</sup> L-A<br/>(penicillin G benzathine injectable suspension)</paragraph>
+                  <paragraph>600,000 units per 1 mL</paragraph>
+                  <paragraph>FOR PEDIATRIC USE</paragraph>
+                  <paragraph>FOR DEEP INTRAMUSCULAR INJECTION ONLY</paragraph>
+                  <paragraph>WARNING: FATAL IF GIVEN BY OTHER ROUTES<br/>BEFORE INJECTING, SEE PACKAGE INSERT FOR ADMINISTRATION INSTRUCTIONS.</paragraph>
+                  <paragraph>Pfizer Hospital</paragraph>
+                  <paragraph>Rx only</paragraph>
+                  <renderMultiMedia ID="id1054" referencedObject="MM4"/>
+               </text>
+               <effectiveTime value="20240712"/>
+               <component>
+                  <observationMedia ID="MM4">
+                     <text>PRINCIPAL DISPLAY PANEL - 1 mL Syringe Package</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="bicillin-04.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_dab15307-bd12-4bd8-aed5-505fa40a650b">
+               <id root="8adb72a7-8a62-4d3d-925d-818ee02d2df7"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>PRINCIPAL DISPLAY PANEL - 2 mL Syringe Label</title>
+               <text>
+                  <paragraph>NDC 60793-701-02</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">BICILLIN<sup>®</sup> L-A</content>
+                     <br/>(penicillin G benzathine injectable suspension)<br/>
+                     <content styleCode="bold">1,200,000 units per 2 mL</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">FOR DEEP INTRAMUSCULAR </content>
+                     <br/>
+                     <content styleCode="bold">INJECTION ONLY</content>
+                     <br/>
+                     <content styleCode="bold">WARNING: FATAL IF</content>
+                     <br/>
+                     <content styleCode="bold">GIVEN BY OTHER ROUTES</content>
+                  </paragraph>
+                  <paragraph>Distributed by<br/>Pfizer Inc<br/>New York, NY 10017</paragraph>
+                  <renderMultiMedia ID="id1083" referencedObject="MM5"/>
+               </text>
+               <effectiveTime value="20240712"/>
+               <component>
+                  <observationMedia ID="MM5">
+                     <text>PRINCIPAL DISPLAY PANEL - 2 mL Syringe Label</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="bicillin-05.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_a8a95b69-6141-48cb-afa1-659856f45461">
+               <id root="6c5ab0e2-6515-432c-b339-ec4ddc7fca30"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>PRINCIPAL DISPLAY PANEL - 2 mL Syringe Package</title>
+               <text>
+                  <paragraph>NDC 60793-701-10<br/>Contains 10 of NDC 60793-701-02</paragraph>
+                  <paragraph>Ten Syringes (2 mL size)</paragraph>
+                  <paragraph>Bicillin<sup>®</sup> L-A<br/>(penicillin G benzathine injectable suspension)</paragraph>
+                  <paragraph>1,200,000 units per 2 mL</paragraph>
+                  <paragraph>FOR DEEP INTRAMUSCULAR INJECTION ONLY</paragraph>
+                  <paragraph>WARNING: FATAL IF GIVEN BY OTHER ROUTES<br/>BEFORE INJECTING, SEE PACKAGE INSERT FOR ADMINISTRATION INSTRUCTIONS.</paragraph>
+                  <paragraph>Pfizer Hospital</paragraph>
+                  <paragraph>Rx only</paragraph>
+                  <renderMultiMedia ID="id1109" referencedObject="MM6"/>
+               </text>
+               <effectiveTime value="20240712"/>
+               <component>
+                  <observationMedia ID="MM6">
+                     <text>PRINCIPAL DISPLAY PANEL - 2 mL Syringe Package</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="bicillin-06.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_cd1734f2-1912-43ea-ad68-b73523d8a9ec">
+               <id root="5072346e-9a75-4338-846e-260deedd111e"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>PRINCIPAL DISPLAY PANEL - 4 mL Syringe Label</title>
+               <text>
+                  <paragraph>NDC 60793-702-04</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">BICILLIN<sup>®</sup> L-A</content>
+                     <br/>(penicillin G benzathine<br/>injectable suspension)<br/>
+                     <content styleCode="bold">2,400,000 units per 4 mL</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">FOR DEEP INTRAMUSCULAR</content>
+                     <br/>
+                     <content styleCode="bold">INJECTION ONLY</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">WARNING: FATAL IF</content>
+                     <br/>
+                     <content styleCode="bold">GIVEN BY OTHER ROUTES</content>
+                  </paragraph>
+                  <paragraph>Distributed by<br/>Pfizer Inc<br/>New York, NY 10017</paragraph>
+                  <renderMultiMedia ID="id1140" referencedObject="MM7"/>
+               </text>
+               <effectiveTime value="20240712"/>
+               <component>
+                  <observationMedia ID="MM7">
+                     <text>PRINCIPAL DISPLAY PANEL - 4 mL Syringe Label</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="bicillin-07.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_2d1bfb5a-2c70-43c2-9174-8bd303c2b962">
+               <id root="0a0d040d-20e9-479c-b9f4-836087ac2693"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>PRINCIPAL DISPLAY PANEL - 4 mL Syringe Package</title>
+               <text>
+                  <paragraph>NDC 60793-702-10<br/>Contains 10 of NDC 60793-702-04</paragraph>
+                  <paragraph>Ten Syringes (4 mL size)</paragraph>
+                  <paragraph>Bicillin<sup>®</sup> L-A<br/>(penicillin G benzathine injectable suspension)</paragraph>
+                  <paragraph>2,400,000 units per 4 mL</paragraph>
+                  <paragraph>disposable syringe</paragraph>
+                  <paragraph>FOR DEEP INTRAMUSCULAR INJECTION ONLY</paragraph>
+                  <paragraph>WARNING: FATAL IF GIVEN BY OTHER ROUTES<br/>BEFORE INJECTING, SEE PACKAGE INSERT FOR ADMINISTRATION INSTRUCTIONS.</paragraph>
+                  <paragraph>Pfizer Hospital</paragraph>
+                  <paragraph>Rx only</paragraph>
+                  <renderMultiMedia ID="id1167" referencedObject="MM8"/>
+               </text>
+               <effectiveTime value="20240712"/>
+               <component>
+                  <observationMedia ID="MM8">
+                     <text>PRINCIPAL DISPLAY PANEL - 4 mL Syringe Package</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="bicillin-08.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

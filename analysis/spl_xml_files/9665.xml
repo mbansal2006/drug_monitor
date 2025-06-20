@@ -1,0 +1,480 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="https://www.accessdata.fda.gov/spl/stylesheet/spl.xsl" type="text/xsl"?>
+<document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:hl7-org:v3" xsi:schemaLocation="urn:hl7-org:v3 https://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="f1eb64e8-05c0-931b-e053-2995a90a2fe8"/>
+   <code code="34391-3" codeSystem="2.16.840.1.113883.6.1" displayName="HUMAN PRESCRIPTION DRUG LABEL"/>
+   <title>Hexatrione</title>
+   <effectiveTime value="20230110"/>
+   <setId root="bc07ae9f-8a74-6bc8-e053-2995a90afc0d"/>
+   <versionNumber value="3"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id root="1.3.6.1.4.1.519.1" extension="078811131"/>
+            <name>Medexus Pharma, Inc.</name>
+            <assignedEntity>
+               <assignedOrganization>
+                  <assignedEntity>
+                     <assignedOrganization>
+                        <id root="1.3.6.1.4.1.519.1" extension="260128560"/>
+                        <name>Valdepharm</name>
+                     </assignedOrganization>
+                     <performance>
+                        <actDefinition>
+                           <code code="C43360" displayName="manufacture" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="59137-570" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                  </assignedEntity>
+               </assignedOrganization>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section>
+               <id root="f1ebd5e3-7224-0a20-e053-2995a90a844b"/>
+               <code code="48780-1" codeSystem="2.16.840.1.113883.6.1" displayName="SPL product data elements section"/>
+               <effectiveTime value="20230110"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="59137-570" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>Hexatrione<suffix>2%</suffix>
+                        </name>
+                        <formCode code="C42995" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="INJECTION, SUSPENSION"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>triamcinolone hexacetonide</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="55X04QC32I" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SODIUM HYDROXIDE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="8KW3E207O2" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SORBITOL SOLUTION 70%</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="059QF0KO0R" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>WATER</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="QTT17582CB" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>HYDROCHLORIC ACID</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="LKG8494WBH" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>BENZYL ALCOHOL</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="6OZP39ZG8H" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>POLYSORBATE 80</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator unit="mg" value="40"/>
+                              <denominator unit="mL" value="2"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="I7GT1U99Y9" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>TRIAMCINOLONE HEXACETONIDE</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="F446C597KA" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>TRIAMCINOLONE ACETONIDE</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator value="2" unit="mL"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code/>
+                              <formCode code="C43165" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="AMPULE"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator value="1" unit="1"/>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code code="59137-570-01" codeSystem="2.16.840.1.113883.6.69"/>
+                                    <formCode code="C43182" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CARTON"/>
+                                 </containerPackagedProduct>
+                                 <subjectOf>
+                                    <marketingAct>
+                                       <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                       <statusCode code="active"/>
+                                       <effectiveTime>
+                                          <low value="20210303"/>
+                                       </effectiveTime>
+                                    </marketingAct>
+                                 </subjectOf>
+                              </asContent>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <code code="C101533" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Unapproved drug for use in drug shortage"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20210303"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38223" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="INTRA-ARTICULAR"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_be5f8b96-1f63-f4ff-e053-2995a90a36fd">
+               <id root="d2a6a41c-7d9e-7817-e053-2995a90a974c"/>
+               <code code="71744-7" codeSystem="2.16.840.1.113883.6.1" displayName="HEALTH CARE PROVIDER LETTER SECTION"/>
+               <text>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="img_d2a657bc-8d8a-9ddb-e053-2995a90a2538"/>
+                     <renderMultiMedia referencedObject="img_d2a6777d-699f-23d0-e053-2a95a90a832d"/>
+                     <renderMultiMedia referencedObject="img_d2a6777d-69a0-23d0-e053-2a95a90a832d"/>
+                     <renderMultiMedia referencedObject="img_d2a6788c-c08c-59e7-e053-2a95a90a0b7d"/>
+                     <renderMultiMedia referencedObject="img_d2a68248-b170-5e5c-e053-2995a90a4061"/>
+                     <renderMultiMedia referencedObject="img_d2a6788c-c093-59e7-e053-2a95a90a0b7d"/>
+                     <renderMultiMedia referencedObject="img_d2a68248-b171-5e5c-e053-2995a90a4061"/>
+                     <renderMultiMedia referencedObject="img_d2a68248-b174-5e5c-e053-2995a90a4061"/>
+                     <renderMultiMedia referencedObject="img_d2a68248-b175-5e5c-e053-2995a90a4061"/>
+                     <renderMultiMedia referencedObject="img_d2a6777d-69a1-23d0-e053-2a95a90a832d"/>
+                     <renderMultiMedia referencedObject="img_d2a68593-a51e-bb49-e053-2a95a90a32c6"/>
+                     <renderMultiMedia referencedObject="img_d2a68248-b176-5e5c-e053-2995a90a4061"/>
+                     <renderMultiMedia referencedObject="img_d2a6788c-c095-59e7-e053-2a95a90a0b7d"/>
+                     <renderMultiMedia referencedObject="img_d2a6a019-5440-1a3b-e053-2995a90a00b8"/>
+                     <renderMultiMedia referencedObject="img_d2a6a35c-4743-bd49-e053-2a95a90aba65"/>
+                     <renderMultiMedia referencedObject="img_d2a6a41c-7d9c-7817-e053-2995a90a974c"/>
+                     <renderMultiMedia referencedObject="img_d2a6a4ce-3476-4ed7-e053-2995a90a8299"/>
+                     <renderMultiMedia referencedObject="img_d2a6a41c-7d9d-7817-e053-2995a90a974c"/>
+                     <renderMultiMedia referencedObject="img_d2a6a69f-4f2c-c9c4-e053-2995a90a19d8"/>
+                     <renderMultiMedia referencedObject="img_d2a6a35c-4744-bd49-e053-2a95a90aba65"/>
+                     <renderMultiMedia referencedObject="img_d2a6a35c-4746-bd49-e053-2a95a90aba65"/>
+                     <renderMultiMedia referencedObject="img_d2a6a35c-4747-bd49-e053-2a95a90aba65"/>
+                     <renderMultiMedia referencedObject="img_d2a68c02-2026-ad5f-e053-2995a90af2d5"/>
+                     <renderMultiMedia referencedObject="img_d2a6a4ce-3477-4ed7-e053-2995a90a8299"/>
+                     <renderMultiMedia referencedObject="img_d2a6a019-5442-1a3b-e053-2995a90a00b8"/>
+                     <renderMultiMedia referencedObject="img_d2a6a35c-4748-bd49-e053-2a95a90aba65"/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20211208"/>
+               <component>
+                  <observationMedia ID="img_d2a657bc-8d8a-9ddb-e053-2995a90a2538">
+                     <text>DHCP_01</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="Hexatrione DHCP_12.8.2021_Final_Page_01.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="img_d2a6777d-699f-23d0-e053-2a95a90a832d">
+                     <text>DHCP_02</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="Hexatrione DHCP_12.8.2021_Final_Page_02.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="img_d2a6777d-69a0-23d0-e053-2a95a90a832d">
+                     <text>DHCP_03</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="Hexatrione DHCP_12.8.2021_Final_Page_03.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="img_d2a6788c-c08c-59e7-e053-2a95a90a0b7d">
+                     <text>DHCP_04</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="Hexatrione DHCP_12.8.2021_Final_Page_04.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="img_d2a68248-b170-5e5c-e053-2995a90a4061">
+                     <text>DHCP_05</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="Hexatrione DHCP_12.8.2021_Final_Page_05.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="img_d2a6788c-c093-59e7-e053-2a95a90a0b7d">
+                     <text>DHCP_06</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="Hexatrione DHCP_12.8.2021_Final_Page_06.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="img_d2a68248-b171-5e5c-e053-2995a90a4061">
+                     <text>DHCP_07</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="Hexatrione DHCP_12.8.2021_Final_Page_07.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="img_d2a68248-b174-5e5c-e053-2995a90a4061">
+                     <text>DHCP_08</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="Hexatrione DHCP_12.8.2021_Final_Page_08.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="img_d2a68248-b175-5e5c-e053-2995a90a4061">
+                     <text>DHCP_09</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="Hexatrione DHCP_12.8.2021_Final_Page_09.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="img_d2a6777d-69a1-23d0-e053-2a95a90a832d">
+                     <text>DHCP_10</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="Hexatrione DHCP_12.8.2021_Final_Page_10.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="img_d2a68593-a51e-bb49-e053-2a95a90a32c6">
+                     <text>DHCP_11</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="Hexatrione DHCP_12.8.2021_Final_Page_11.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="img_d2a68248-b176-5e5c-e053-2995a90a4061">
+                     <text>DHCP_12</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="Hexatrione DHCP_12.8.2021_Final_Page_12.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="img_d2a6788c-c095-59e7-e053-2a95a90a0b7d">
+                     <text>DHCP_13</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="Hexatrione DHCP_12.8.2021_Final_Page_13.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="img_d2a6a019-5440-1a3b-e053-2995a90a00b8">
+                     <text>DHCP_14</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="Hexatrione DHCP_12.8.2021_Final_Page_14.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="img_d2a6a35c-4743-bd49-e053-2a95a90aba65">
+                     <text>DHCP_15</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="Hexatrione DHCP_12.8.2021_Final_Page_15.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="img_d2a6a41c-7d9c-7817-e053-2995a90a974c">
+                     <text>DHCP_16</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="Hexatrione DHCP_12.8.2021_Final_Page_16.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="img_d2a6a4ce-3476-4ed7-e053-2995a90a8299">
+                     <text>DHCP_17</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="Hexatrione DHCP_12.8.2021_Final_Page_17.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="img_d2a6a41c-7d9d-7817-e053-2995a90a974c">
+                     <text>DHCP_18</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="Hexatrione DHCP_12.8.2021_Final_Page_18.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="img_d2a6a69f-4f2c-c9c4-e053-2995a90a19d8">
+                     <text>DHCP_19</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="Hexatrione DHCP_12.8.2021_Final_Page_19.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="img_d2a6a35c-4744-bd49-e053-2a95a90aba65">
+                     <text>DHCP_20</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="Hexatrione DHCP_12.8.2021_Final_Page_20.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="img_d2a6a35c-4746-bd49-e053-2a95a90aba65">
+                     <text>DHCP_21</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="Hexatrione DHCP_12.8.2021_Final_Page_21.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="img_d2a6a35c-4747-bd49-e053-2a95a90aba65">
+                     <text>DHCP_22</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="Hexatrione DHCP_12.8.2021_Final_Page_22.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="img_d2a68c02-2026-ad5f-e053-2995a90af2d5">
+                     <text>DHCP_23</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="Hexatrione DHCP_12.8.2021_Final_Page_23.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="img_d2a6a4ce-3477-4ed7-e053-2995a90a8299">
+                     <text>DHCP_24</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="Hexatrione DHCP_12.8.2021_Final_Page_24.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="img_d2a6a019-5442-1a3b-e053-2995a90a00b8">
+                     <text>DHCP_25</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="Hexatrione DHCP_12.8.2021_Final_Page_25.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="img_d2a6a35c-4748-bd49-e053-2a95a90aba65">
+                     <text>DHCP_26</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="Hexatrione DHCP_12.8.2021_Final_Page_26.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_be5fbae5-a1da-7049-e053-2a95a90aba33">
+               <id root="be5fbfd1-facc-6b8c-e053-2995a90a839c"/>
+               <code code="34069-5" codeSystem="2.16.840.1.113883.6.1" displayName="HOW SUPPLIED SECTION"/>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">NDC 59137-570-01</content>
+                  </paragraph>
+                  <list listType="unordered">
+                     <item>2 mL single-dose ampoule (40 mg/2mL). One ampoule per carton.</item>
+                  </list>
+               </text>
+               <effectiveTime value="20210325"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_be5ef224-e816-74aa-e053-2995a90a40b6">
+               <id root="be5fbae5-a1dd-7049-e053-2a95a90aba33"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <text>
+                  <paragraph/>
+                  <paragraph>
+                     <content styleCode="bold">20 mg/mL (2 mL Ampoule) - Ampoule Label</content>
+                  </paragraph>
+                  <paragraph/>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="img_be5f2f06-613e-696a-e053-2a95a90a9a79"/>
+                  </paragraph>
+                  <paragraph/>
+                  <paragraph>
+                     <content styleCode="bold">20 mg/mL (2 mL Ampoule) - Carton Label</content>
+                  </paragraph>
+                  <paragraph/>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="img_be5fc390-600a-7871-e053-2a95a90afae9"/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20210325"/>
+               <component>
+                  <observationMedia ID="img_be5f2f06-613e-696a-e053-2a95a90a9a79">
+                     <text>Ampoule Label</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="Hexatrione Ampoule.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="img_be5fc390-600a-7871-e053-2a95a90afae9">
+                     <text>Carton</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="Hexatrione Carton.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

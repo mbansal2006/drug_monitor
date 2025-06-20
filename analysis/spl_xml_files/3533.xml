@@ -1,0 +1,1959 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="https://www.accessdata.fda.gov/spl/stylesheet/spl.xsl"?>
+<document xmlns="urn:hl7-org:v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 https://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="9955075c-c059-4b63-b387-e98ef13e60dc"/>
+   <code code="34391-3" codeSystem="2.16.840.1.113883.6.1" displayName="HUMAN PRESCRIPTION DRUG LABEL"/>
+   <title>These highlights do not include all the information needed to use CYANOKIT safely and effectively. See full prescribing information for CYANOKIT.<br/>
+      <br/>CYANOKIT<sup>®</sup> (hydroxocobalamin for injection) for intravenous infusion <br/>Initial U.S. Approval: 1975
+</title>
+   <effectiveTime value="20230427"/>
+   <setId root="d56fcc8d-bd64-46ab-b0c0-2124bd745a6b"/>
+   <versionNumber value="2"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id extension="617382395" root="1.3.6.1.4.1.519.1"/>
+            <name>BTG INTERNATIONAL INC.</name>
+            <assignedEntity>
+               <assignedOrganization>
+                  <assignedEntity>
+                     <assignedOrganization>
+                        <id extension="384668112" root="1.3.6.1.4.1.519.1"/>
+                        <name>Merck Santé s.a.s</name>
+                     </assignedOrganization>
+                     <performance>
+                        <actDefinition>
+                           <code code="C43360" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="MANUFACTURE"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="50633-310" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                     <performance>
+                        <actDefinition>
+                           <code code="C84731" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="PACK"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="50633-310" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                     <performance>
+                        <actDefinition>
+                           <code code="C84732" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="LABEL"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="50633-310" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                     <performance>
+                        <actDefinition>
+                           <code code="C25391" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ANALYSIS"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="50633-310" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                  </assignedEntity>
+               </assignedOrganization>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section ID="dcl-dpl">
+               <id root="ad1afd65-c4e0-44c3-8387-730fb7d0da88"/>
+               <code code="48780-1" codeSystem="2.16.840.1.113883.6.1" displayName="SPL PRODUCT DATA ELEMENTS SECTION"/>
+               <effectiveTime value="20210531"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="50633-310" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>Cyanokit</name>
+                        <formCode code="C42957" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="INJECTION, POWDER, LYOPHILIZED, FOR SOLUTION"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>Hydroxocobalamin</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator value="5" unit="g"/>
+                              <denominator value="250" unit="mL"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="Q40X8H422O" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>Hydroxocobalamin</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="Q40X8H422O" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>Hydroxocobalamin</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="QTT17582CB" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>hydrochloric acid</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator value="250" unit="mL"/>
+                              <denominator value="1" unit="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43209" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="VIAL, GLASS"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator value="1" unit="1"/>
+                                    <denominator value="1" unit="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code code="50633-310-11" codeSystem="2.16.840.1.113883.6.69"/>
+                                    <formCode code="C43182" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CARTON"/>
+                                 </containerPackagedProduct>
+                                 <subjectOf>
+                                    <marketingAct>
+                                       <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                       <statusCode code="active"/>
+                                       <effectiveTime>
+                                          <low value="20211215"/>
+                                       </effectiveTime>
+                                    </marketingAct>
+                                 </subjectOf>
+                              </asContent>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C102834" codeSystem="2.16.840.1.113883.3.26.1.1" xsi:type="CV" displayName="Type 1: Convenience Kit of Co-Package"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20211215"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <subjectOf>
+                        <approval>
+                           <id root="2.16.840.1.113883.3.150" extension="NDA022041"/>
+                           <code code="C73594" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="NDA"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38276" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="INTRAVENOUS"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section ID="s1">
+               <id root="27986ee3-f06b-457d-9976-7360172ee818"/>
+               <code code="34067-9" codeSystem="2.16.840.1.113883.6.1" displayName="INDICATIONS &amp; USAGE SECTION"/>
+               <title>1 INDICATIONS AND USAGE
+</title>
+               <text>
+                  <paragraph>CYANOKIT is indicated for the treatment of known or suspected cyanide poisoning.
+</paragraph>
+               </text>
+               <effectiveTime value="20210531"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <paragraph>CYANOKIT is indicated for the treatment of known or suspected cyanide poisoning. (<linkHtml href="#s1">1</linkHtml>)
+</paragraph>
+                     </text>
+                  </highlight>
+               </excerpt>
+            </section>
+         </component>
+         <component>
+            <section ID="s2">
+               <id root="5cf2a085-f0f5-413d-b44e-af236a2e1977"/>
+               <code code="34068-7" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE &amp; ADMINISTRATION SECTION"/>
+               <title>2 DOSAGE AND ADMINISTRATION
+</title>
+               <effectiveTime value="20210531"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <list listType="unordered" styleCode="Disc">
+                           <item>If clinical suspicion of cyanide poisoning is high, administer CYANOKIT without delay and in conjunction with appropriate airway, ventilatory, and circulatory support, oxygen administration as well as management of seizures. (<linkHtml href="#s3">2.1</linkHtml>)
+</item>
+                           <item>The expert advice of a regional poison control center may be obtained by calling 1-800-222-1222. (<linkHtml href="#s3">2.1</linkHtml>)
+</item>
+                        </list>
+                        <paragraph>
+                           <content styleCode="underline">Dosing</content>:
+</paragraph>
+                        <list listType="unordered" styleCode="Disc">
+                           <item>The starting dose of CYANOKIT for adults is 5 g, administered by intravenous infusion over 15 minutes. One 5 g vial is a complete starting dose. (<linkHtml href="#s7">2.2</linkHtml>)
+</item>
+                           <item>Depending upon the severity of the poisoning and the clinical response, a second dose of 5 g may be administered by intravenous infusion for a total dose of 10 g. (<linkHtml href="#s7">2.2</linkHtml>)
+</item>
+                           <item>The rate of infusion for the second 5 g dose may range from 15 minutes (for patients in extremis) to 2 hours based on patient condition. (<linkHtml href="#s7">2.2</linkHtml>)
+</item>
+                           <item>The recommended diluent is 0.9% Sodium Chloride injection. (<linkHtml href="#s8">2.3</linkHtml>)
+</item>
+                           <item>CYANOKIT requires a separate intravenous line for administration. (<linkHtml href="#s9">2.4</linkHtml>)
+</item>
+                        </list>
+                     </text>
+                  </highlight>
+               </excerpt>
+               <component>
+                  <section ID="s3">
+                     <id root="acb4c113-7b5c-4ac4-b45b-c0816f487322"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>2.1 Important Dosage and Administration Instructions
+</title>
+                     <text>
+                        <list listType="unordered" styleCode="Disc">
+                           <item>If clinical suspicion of cyanide poisoning is high, administer CYANOKIT without delay.
+</item>
+                           <item>Comprehensive treatment of acute cyanide intoxication requires support of vital functions. Airway, ventilatory and circulatory support, oxygen administration, and management of seizures should not be delayed to administer CYANOKIT <content styleCode="italics">[see Warnings and Precautions (<linkHtml href="#s14">5.1</linkHtml>)]</content>.
+</item>
+                           <item>The expert advice of a regional poison control center may be obtained by calling 1-800-222-1222.
+</item>
+                        </list>
+                     </text>
+                     <effectiveTime value="20210531"/>
+                     <component>
+                        <section ID="s4">
+                           <id root="0637bbfd-af40-4b99-99c7-199c6169781c"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <text>
+                              <paragraph>
+                                 <content styleCode="underline">Identifying Patients with Cyanide Poisoning</content>
+                              </paragraph>
+                              <paragraph>Cyanide poisoning may result from inhalation, ingestion, or dermal exposure to various cyanide-containing compounds, including smoke from closed-space fires. Sources of cyanide poisoning include hydrogen cyanide and its salts, cyanogenic plants, aliphatic nitriles, and prolonged exposure to sodium nitroprusside.
+</paragraph>
+                              <paragraph>The presence and extent of cyanide poisoning are often initially unknown. There is no widely available, rapid, confirmatory cyanide blood test. Treatment decisions must be made on the basis of clinical history and signs and symptoms of cyanide intoxication.
+</paragraph>
+                              <table ID="t1" width="100%">
+                                 <caption>Table 1 Common Signs and Symptoms of Cyanide Poisoning
+</caption>
+                                 <col width="26.950%" align="left"/>
+                                 <col width="73.050%" align="left"/>
+                                 <tbody>
+                                    <tr>
+                                       <td align="left" valign="top" styleCode="Toprule Botrule Lrule Rrule">
+                                          <content styleCode="bold">Symptoms</content>
+                                          <br/>
+                                          <list listType="unordered" styleCode="Disc">
+                                             <item> Headache
+</item>
+                                             <item>Confusion
+</item>
+                                             <item>Dyspnea
+</item>
+                                             <item>Chest tightness
+</item>
+                                             <item>Nausea
+</item>
+                                          </list>
+                                       </td>
+                                       <td align="left" valign="top" styleCode="Toprule Botrule Rrule">
+                                          <content styleCode="bold">Signs</content>
+                                          <br/>
+                                          <list listType="unordered" styleCode="Disc">
+                                             <item>Altered Mental Status (e.g., confusion, disorientation)
+</item>
+                                             <item>Seizures or Coma
+</item>
+                                             <item>Mydriasis
+</item>
+                                             <item>Tachypnea / Hyperpnea (early)
+</item>
+                                             <item>Bradypnea / Apnea (late)
+</item>
+                                             <item>Hypertension (early) / Hypotension (late)
+</item>
+                                             <item>Cardiovascular collapse
+</item>
+                                             <item>Vomiting
+</item>
+                                             <item>Plasma lactate concentration ≥8 mmol/L
+</item>
+                                          </list>
+                                       </td>
+                                    </tr>
+                                 </tbody>
+                              </table>
+                              <paragraph>In some settings, panic symptoms including tachypnea and vomiting may mimic early cyanide poisoning signs. The presence of altered mental status (e.g., confusion and disorientation) and/or mydriasis is suggestive of true cyanide poisoning although these signs can occur with other toxic exposures as well.
+</paragraph>
+                           </text>
+                           <effectiveTime value="20210531"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section ID="s5">
+                           <id root="194c4d0d-1239-4fd5-b3d1-4b3f0b127039"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <text>
+                              <paragraph>
+                                 <content styleCode="underline">Smoke Inhalation</content>
+                              </paragraph>
+                              <paragraph>Not all smoke inhalation victims will have cyanide poisoning and may present with burns, trauma, and exposure to other toxic substances making a diagnosis of cyanide poisoning particularly difficult. Prior to administration of CYANOKIT, smoke-inhalation victims should be assessed for the following:
+</paragraph>
+                              <list listType="unordered" styleCode="Disc">
+                                 <item>Exposure to fire or smoke in an enclosed area
+</item>
+                                 <item>Presence of soot around the mouth, nose or oropharynx
+</item>
+                                 <item>Altered mental status
+</item>
+                              </list>
+                              <paragraph>Although hypotension is highly suggestive of cyanide poisoning, it is only present in a small percentage of cyanide-poisoned smoke inhalation victims. Also indicative of cyanide poisoning is a plasma lactate concentration ≥10 mmol/L (a value higher than that typically listed in the table of signs and symptoms of isolated cyanide poisoning because carbon monoxide associated with smoke inhalation also contributes to lactic acidemia). If cyanide poisoning is suspected, treatment should not be delayed to obtain a plasma lactate concentration.
+</paragraph>
+                           </text>
+                           <effectiveTime value="20210531"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section ID="s6">
+                           <id root="e0251f34-3bb7-4257-8702-deeb61a39ecd"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <text>
+                              <paragraph>
+                                 <content styleCode="underline">Use with Other Cyanide Antidotes</content>
+                              </paragraph>
+                              <paragraph>The safety of administering other cyanide antidotes simultaneously with CYANOKIT has not been established. If a decision is made to administer another cyanide antidote with CYANOKIT, these drugs should not be administered concurrently in the same intravenous line <content styleCode="italics">[see Dosage and Administration (<linkHtml href="#s9">2.4</linkHtml>)].</content>
+                              </paragraph>
+                           </text>
+                           <effectiveTime value="20210531"/>
+                        </section>
+                     </component>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s7">
+                     <id root="2d6a96c9-41b9-4637-be61-dadb8a104e2e"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>2.2 Recommended Dosing
+</title>
+                     <text>
+                        <paragraph>The starting dose of hydroxocobalamin for adults is 5 g administered as an intravenous infusion over 15 minutes (approximately 15 mL/min). Administration of the entire vial constitutes a complete starting dose. Depending upon the severity of the poisoning and the clinical response, a second dose of 5 g may be administered by intravenous infusion for a total dose of 10 g. The rate of infusion for the second dose may range from 15 minutes (for patients in extremis) to two hours, as clinically indicated.
+</paragraph>
+                     </text>
+                     <effectiveTime value="20210531"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s8">
+                     <id root="99cb8785-00f5-42a1-b3b4-f55a09ad2533"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>2.3 Preparation of Solution for Infusion
+</title>
+                     <text>
+                        <paragraph>Reconstitute the 5 g vial of hydroxocobalamin with 200 mL of diluent (not provided with CYANOKIT) using the supplied sterile transfer spike. The recommended diluent is 0.9% Sodium Chloride injection (0.9% NaCl). Lactated Ringers injection and 5% Dextrose injection (D5W) have also been found to be compatible with hydroxocobalamin and may be used if 0.9% NaCl is not readily available. The line on the vial label represents 200 mL volume of diluent. Following the addition of diluent to the lyophilized powder, the vial should be repeatedly inverted or rocked, not shaken, for at least 60 seconds prior to infusion.
+</paragraph>
+                        <paragraph>Visually inspect hydroxocobalamin solutions for particulate matter and color prior to administration. If the reconstituted solution is not dark red or if particulate matter is observed after the solution has been appropriately mixed, the solution should be discarded.
+</paragraph>
+                     </text>
+                     <effectiveTime value="20210531"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s9">
+                     <id root="ec320d11-36cd-405f-90fb-6af2de123565"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>2.4 Incompatibility Information
+</title>
+                     <text>
+                        <paragraph>Physical incompatibility (particle formation) and chemical incompatibility were observed with the mixture of hydroxocobalamin in solution with selected drugs that are frequently used in resuscitation efforts. Hydroxocobalamin is also chemically incompatible with sodium thiosulfate and sodium nitrite and has been reported to be incompatible with ascorbic acid. Therefore, these and other drugs should not be administered simultaneously through the same intravenous line as hydroxocobalamin.
+</paragraph>
+                        <paragraph>Simultaneous administration of hydroxocobalamin and blood products (whole blood, packed red cells, platelet concentrate and/or fresh frozen plasma) through the same intravenous line is not recommended. However, blood products and hydroxocobalamin can be administered simultaneously using separate intravenous lines (preferably on contralateral extremities, if peripheral lines are being used).
+</paragraph>
+                     </text>
+                     <effectiveTime value="20210531"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s10">
+                     <id root="fa3a1751-0f84-43e9-8cba-a627d8df493f"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>2.5 Storage of Reconstituted Drug Product
+</title>
+                     <text>
+                        <paragraph>Once reconstituted, hydroxocobalamin is stable for up to 6 hours at temperatures not exceeding 40°C (104°F). Do not freeze. Any reconstituted product not used by 6 hours should be discarded.
+</paragraph>
+                     </text>
+                     <effectiveTime value="20210531"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="s11">
+               <id root="12c66e1e-a2a0-47e1-9a1d-1c772a48d6e6"/>
+               <code code="43678-2" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE FORMS &amp; STRENGTHS SECTION"/>
+               <title>3 DOSAGE FORMS AND STRENGTHS
+</title>
+               <text>
+                  <paragraph>CYANOKIT (hydroxocobalamin for injection) for intravenous infusion consists of 1 vial, containing 5 g lyophilized hydroxocobalamin dark red crystalline powder for injection. After reconstitution, the vial contains hydroxocobalamin for injection, 25 mg/mL <content styleCode="italics">[see How Supplied/Storage and Handling (<linkHtml href="#s65">16</linkHtml>) for full kit description].</content>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20210531"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <list listType="unordered" styleCode="Disc">
+                           <item>CYANOKIT (hydroxocobalamin for injection) for intravenous infusion consists of 1 vial, containing 5 g lyophilized hydroxocobalamin dark red crystalline powder for injection. After reconstitution, the vial contains hydroxocobalamin for injection, 25 mg/mL. (<linkHtml href="#s11">3</linkHtml>)
+</item>
+                        </list>
+                     </text>
+                  </highlight>
+               </excerpt>
+            </section>
+         </component>
+         <component>
+            <section ID="s12">
+               <id root="dfc48783-a7ce-4c61-8d33-90fe8cdffdb5"/>
+               <code code="34070-3" codeSystem="2.16.840.1.113883.6.1" displayName="CONTRAINDICATIONS SECTION"/>
+               <title>4 CONTRAINDICATIONS
+</title>
+               <text>
+                  <paragraph>None
+</paragraph>
+               </text>
+               <effectiveTime value="20210531"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <paragraph>None (<linkHtml href="#s12">4</linkHtml>)
+</paragraph>
+                     </text>
+                  </highlight>
+               </excerpt>
+            </section>
+         </component>
+         <component>
+            <section ID="s13">
+               <id root="5615f6f0-5118-430f-bb9a-068c5ce69f59"/>
+               <code code="43685-7" codeSystem="2.16.840.1.113883.6.1" displayName="WARNINGS AND PRECAUTIONS SECTION"/>
+               <title>5 WARNINGS AND PRECAUTIONS
+</title>
+               <effectiveTime value="20210531"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <list listType="unordered" styleCode="Disc">
+                           <item>
+                              <content styleCode="underline">Risk of Anaphylaxis and Other Hypersensitivity Reactions</content>: Consider alternative therapies, if available, in patients with known anaphylactic reactions to hydroxocobalamin or cyanocobalamin. (<linkHtml href="#s15">5.2</linkHtml>)
+</item>
+                           <item>
+                              <content styleCode="underline">Risk of Renal Injury</content>: Acute renal failure with acute tubular necrosis, renal impairment and urine calcium oxalate crystals have been reported following CYANOKIT therapy. Monitor renal function for 7 days following CYANOKIT therapy. (<linkHtml href="#s16">5.3</linkHtml>)
+</item>
+                           <item>
+                              <content styleCode="underline">Risk of Increased Blood Pressure</content>: Substantial increases in blood pressure may occur following CYANOKIT therapy. Monitor blood pressure during treatment. (<linkHtml href="#s17">5.4</linkHtml>)
+</item>
+                        </list>
+                     </text>
+                  </highlight>
+               </excerpt>
+               <component>
+                  <section ID="s14">
+                     <id root="8c131b7e-a49d-4968-86e4-cef6f9f2d8f8"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>5.1 Emergency Patient Management
+</title>
+                     <text>
+                        <paragraph>In conjunction with CYANOKIT, treatment of cyanide poisoning must include immediate attention to airway patency, adequacy of oxygenation and hydration, cardiovascular support, and management of seizures. Consideration should be given to decontamination measures based on the route of exposure.
+</paragraph>
+                     </text>
+                     <effectiveTime value="20210531"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s15">
+                     <id root="d3a071a4-c231-4a7e-b9d7-8ea5a0e61a36"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>5.2 Risk of Anaphylactic and Other Hypersensitivity Reactions
+</title>
+                     <text>
+                        <paragraph>Use caution in the management of patients with known anaphylactic reactions to hydroxocobalamin or cyanocobalamin. Consider alternative therapies, if available.
+</paragraph>
+                        <paragraph>Allergic reactions may include: anaphylaxis, chest tightness, edema, urticaria, pruritus, dyspnea, and rash.
+</paragraph>
+                        <paragraph>Allergic reactions including angioneurotic edema have also been reported in postmarketing experience.
+</paragraph>
+                     </text>
+                     <effectiveTime value="20210531"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s16">
+                     <id root="e179fe66-3a0b-45b8-9c9c-5870c378d758"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>5.3 Risk of Renal Injury
+</title>
+                     <text>
+                        <paragraph>Cases of acute renal failure with acute tubular necrosis, renal impairment, and urine calcium oxalate crystals have been reported. In some situations, hemodialysis was required to achieve recovery. Regular monitoring of renal function, including but not limited to blood urea nitrogen (BUN) and serum creatinine, should be performed for 7 days following CYANOKIT therapy.
+</paragraph>
+                     </text>
+                     <effectiveTime value="20210531"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s17">
+                     <id root="e256cd77-b6ea-49b3-891b-d6126fe5efe3"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>5.4 Risk of Increased Blood Pressure
+</title>
+                     <text>
+                        <paragraph>Many patients with cyanide poisoning will be hypotensive; however, elevations in blood pressure have also been observed in known or suspected cyanide poisoning victims.
+</paragraph>
+                        <paragraph>Elevations in blood pressure (≥180 mmHg systolic or ≥110 mmHg diastolic) were observed in approximately 18% of healthy subjects (not exposed to cyanide) receiving hydroxocobalamin 5 g and 28% of subjects receiving 10 g. Increases in blood pressure were noted shortly after the infusions were started; the maximal increase in blood pressure was observed toward the end of the infusion. These elevations were generally transient and returned to baseline levels within 4 hours of dosing. Monitor blood pressure during treatment with CYANOKIT.
+</paragraph>
+                     </text>
+                     <effectiveTime value="20210531"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s18">
+                     <id root="c1df2710-9fb6-4dac-ba2d-bc0e40f359a2"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>5.5 Interference with Clinical Laboratory Evaluations and Clinical Methods
+</title>
+                     <effectiveTime value="20210531"/>
+                     <component>
+                        <section ID="s19">
+                           <id root="e07b5bff-0940-4dc2-a699-5e853941eb9f"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <text>
+                              <paragraph>
+                                 <content styleCode="underline">Clinical Laboratory Evaluations</content>
+                              </paragraph>
+                              <paragraph>Because of its deep red color, hydroxocobalamin has been found to interfere with colorimetric determination of certain laboratory parameters (e.g., clinical chemistry, hematology, coagulation, and urine parameters). <content styleCode="italics">In vitro</content> tests indicated that the extent and duration of the interference are dependent on numerous factors such as the dose of hydroxocobalamin, analyte, methodology, analyzer, hydroxocobalamin concentration, and partially on the time between sampling and measurement.
+</paragraph>
+                              <paragraph>The data presented in <linkHtml href="#t2">Table 2</linkHtml> is collected from <content styleCode="italics">in vitro</content> studies and pharmacokinetic data in healthy volunteers and describes laboratory interference that may be observed following a 5 g dose of hydroxocobalamin. Interference following a 10 g dose can be expected to last up to an additional 24 hours. The extent and duration of interference in cyanide-poisoned patients may differ. In addition, results may vary substantially from one analyzer to another. Be aware of this when reporting and interpreting laboratory results.
+</paragraph>
+                              <table ID="t2" width="100%">
+                                 <caption>Table 2 Laboratory Interference Observed with in vitro Samples of Hydroxocobalamin
+</caption>
+                                 <col width="16.669%" align="left"/>
+                                 <col width="16.669%" align="left"/>
+                                 <col width="16.669%" align="left"/>
+                                 <col width="17.453%" align="left"/>
+                                 <col width="15.869%" align="left"/>
+                                 <col width="16.669%" align="left"/>
+                                 <thead>
+                                    <tr>
+                                       <th align="center" valign="middle" styleCode="Toprule Botrule Lrule Rrule">Laboratory Parameter
+</th>
+                                       <th align="center" valign="middle" styleCode="Toprule Botrule Rrule">No Interference Observed
+</th>
+                                       <th align="center" valign="middle" styleCode="Toprule Botrule Rrule">Artificially Increased *
+</th>
+                                       <th align="center" valign="middle" styleCode="Toprule Botrule Rrule">Artificially Decreased *
+</th>
+                                       <th align="center" valign="middle" styleCode="Toprule Botrule Rrule">Un-predictable
+</th>
+                                       <th align="center" valign="middle" styleCode="Toprule Botrule Rrule">Duration of Interference
+</th>
+                                    </tr>
+                                 </thead>
+                                 <tfoot>
+                                    <tr>
+                                       <td colspan="6" align="left" valign="top">
+                                          <paragraph styleCode="footnote">* ≥10% interference observed on at least 1 analyzer
+</paragraph>
+                                       </td>
+                                    </tr>
+                                    <tr>
+                                       <td colspan="6" align="left" valign="top">
+                                          <paragraph styleCode="footnote">Analyzers used: ACL Futura (Instrumentation Laboratory), AxSYM<sup>®</sup>/Architect<sup>™</sup> (Abbott), BM Coasys<sup>110</sup> (Boehringer Mannheim), CellDyn 3700<sup>®</sup> (Abbott), Clinitek<sup>®</sup> 500 (Bayer), Cobas Integra<sup>®</sup> 700, 400 (Roche), Gen-S Coultronics, Hitachi 917, STA<sup>®</sup> Compact, Vitros<sup>®</sup> 950 (Ortho Diagnostics)
+</paragraph>
+                                       </td>
+                                    </tr>
+                                 </tfoot>
+                                 <tbody>
+                                    <tr>
+                                       <td align="left" valign="top" styleCode="Botrule Lrule Rrule">
+                                          <content styleCode="bold">Clinical Chemistry</content>
+                                       </td>
+                                       <td align="left" valign="top" styleCode="Botrule Rrule">Calcium<br/>Sodium<br/>Potassium<br/>Chloride<br/>Urea<br/>GGT
+</td>
+                                       <td align="left" valign="top" styleCode="Botrule Rrule">Creatinine<br/>Bilirubin<br/>Triglycerides<br/>Cholesterol<br/>Total protein<br/>Glucose<br/>Albumin<br/>Alkaline phosphatase
+</td>
+                                       <td align="left" valign="top" styleCode="Botrule Rrule">ALT<br/>Amylase
+</td>
+                                       <td align="left" valign="top" styleCode="Botrule Rrule">Phosphate<br/>Uric Acid<br/>AST<br/>CK<br/>CKMB<br/>LDH
+</td>
+                                       <td align="left" valign="top" styleCode="Botrule Rrule">24 hours with the exception of bilirubin (up to 4 days)
+</td>
+                                    </tr>
+                                    <tr>
+                                       <td align="left" valign="top" styleCode="Botrule Lrule Rrule">
+                                          <content styleCode="bold">Hematology</content>
+                                       </td>
+                                       <td align="left" valign="top" styleCode="Botrule Rrule">Erythrocytes<br/>Hematocrit<br/>MCV<br/>Leukocytes<br/>Lymphocytes<br/>Monocytes<br/>Eosinophils<br/>Neutrophils<br/>Platelets
+</td>
+                                       <td align="left" valign="top" styleCode="Botrule Rrule">Hemoglobin<br/>MCH<br/>MCHC<br/>Basophils
+</td>
+                                       <td align="left" valign="top" styleCode="Botrule Rrule"/>
+                                       <td align="left" valign="top" styleCode="Botrule Rrule"/>
+                                       <td align="left" valign="top" styleCode="Botrule Rrule">12 - 16 hours
+</td>
+                                    </tr>
+                                    <tr>
+                                       <td align="left" valign="top" styleCode="Botrule Lrule Rrule">
+                                          <content styleCode="bold">Coagulation</content>
+                                       </td>
+                                       <td align="left" valign="top" styleCode="Botrule Rrule"/>
+                                       <td align="left" valign="top" styleCode="Botrule Rrule"/>
+                                       <td align="left" valign="top" styleCode="Botrule Rrule"/>
+                                       <td align="left" valign="top" styleCode="Botrule Rrule">aPTT<br/>PT (Quick or INR)
+</td>
+                                       <td align="left" valign="top" styleCode="Botrule Rrule">24 - 48 hours
+</td>
+                                    </tr>
+                                    <tr>
+                                       <td align="left" valign="top" styleCode="Botrule Lrule Rrule">
+                                          <content styleCode="bold">Urinalysis</content>
+                                       </td>
+                                       <td align="left" valign="top" styleCode="Botrule Rrule"/>
+                                       <td align="left" valign="top" styleCode="Botrule Rrule">pH (with all doses)<br/>Glucose<br/>Protein<br/>Erythrocytes<br/>Leukocytes<br/>Ketones<br/>Bilirubin<br/>Urobilinogen<br/>Nitrite
+</td>
+                                       <td align="left" valign="top" styleCode="Botrule Rrule">pH (with equivalent doses of &lt;5 g)
+</td>
+                                       <td align="left" valign="top" styleCode="Botrule Rrule"/>
+                                       <td align="left" valign="top" styleCode="Botrule Rrule">48 hours up to 8 days; color changes may persist up to 28 days
+</td>
+                                    </tr>
+                                 </tbody>
+                              </table>
+                           </text>
+                           <effectiveTime value="20210531"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section ID="s20">
+                           <id root="e948314e-afca-4f28-be49-7d9af7fcc29a"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <text>
+                              <paragraph>
+                                 <content styleCode="underline">Clinical Methods</content>
+                              </paragraph>
+                              <paragraph>Because of its deep red color, hydroxocobalamin may cause hemodialysis machines to shut down due to an erroneous detection of a “blood leak”. This should be considered before hemodialysis is initiated in patients treated with hydroxocobalamin.
+</paragraph>
+                           </text>
+                           <effectiveTime value="20210531"/>
+                        </section>
+                     </component>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s21">
+                     <id root="d74af9c6-e6b0-4fbe-9139-34104cc1588f"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>5.6 Photosensitivity
+</title>
+                     <text>
+                        <paragraph>Hydroxocobalamin absorbs visible light in the UV spectrum. It therefore has potential to cause photosensitivity. While it is not known if the skin redness predisposes to photosensitivity, patients should be advised to avoid direct sun while their skin remains discolored.
+</paragraph>
+                     </text>
+                     <effectiveTime value="20210531"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s22">
+                     <id root="b999caa9-d82d-4dee-a453-0475d072a2ac"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>5.7 Use of Blood Cyanide Assay
+</title>
+                     <text>
+                        <paragraph>While determination of blood cyanide concentration is not required for management of cyanide poisoning and should not delay treatment with CYANOKIT, collecting a pretreatment blood sample may be useful for documenting cyanide poisoning as sampling post-CYANOKIT use may be inaccurate.
+</paragraph>
+                     </text>
+                     <effectiveTime value="20210531"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="s23">
+               <id root="6b29d21c-78af-4c61-9ca2-0cffe84c4f91"/>
+               <code code="34084-4" codeSystem="2.16.840.1.113883.6.1" displayName="ADVERSE REACTIONS SECTION"/>
+               <title>6 ADVERSE REACTIONS
+</title>
+               <text>
+                  <paragraph>Serious adverse reactions with hydroxocobalamin include allergic reactions, renal injury, and increases in blood pressure <content styleCode="italics">[see Warnings and Precautions (<linkHtml href="#s15">5.2</linkHtml>, <linkHtml href="#s16">5.3</linkHtml>, <linkHtml href="#s17">5.4</linkHtml>)].</content>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20210531"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <paragraph>Most common adverse reactions (&gt;5%) include transient chromaturia, erythema, oxalate crystals in urine, rash, increased blood pressure, nausea, headache, and infusion site reactions. (<linkHtml href="#s24">6.1</linkHtml>)
+</paragraph>
+                        <paragraph>
+                           <content styleCode="bold">To report SUSPECTED ADVERSE REACTIONS contact BTG at 1-877-377-3784, or FDA at 1-800-FDA-1088 or www.fda.gov/medwatch.</content>
+                        </paragraph>
+                     </text>
+                  </highlight>
+               </excerpt>
+               <component>
+                  <section ID="s24">
+                     <id root="7f9f804f-306a-402c-9043-7e0f89a6d5f2"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>6.1 Clinical Studies Experience
+</title>
+                     <effectiveTime value="20210531"/>
+                     <component>
+                        <section ID="s25">
+                           <id root="6e4ca910-6b3b-456b-8801-8f0225ebb5ed"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <text>
+                              <paragraph>
+                                 <content styleCode="underline">Experience in Healthy Subjects</content>
+                              </paragraph>
+                              <paragraph>Because clinical trials were conducted under widely varying conditions, adverse reaction rates observed in the clinical trials may not reflect the rates observed in practice.
+</paragraph>
+                              <paragraph>A double-blind, randomized, placebo-controlled, single-ascending-dose (2.5, 5, 7.5, and 10 g) study was conducted to assess the safety, tolerability, and pharmacokinetics of hydroxocobalamin in 136 healthy adult subjects. Because of the dark red color of hydroxocobalamin, the two most frequently occurring adverse reactions were chromaturia (red-colored urine) which was reported in all subjects receiving a 5 g dose or greater; and erythema (skin redness), which occurred in most subjects receiving a 5 g dose or greater. Adverse reactions reported in at least 5% of the 5 g dose group and corresponding rates in the 10 g and placebo groups are shown in <linkHtml href="#t3">Table 3</linkHtml>.
+</paragraph>
+                              <table ID="t3" width="100%">
+                                 <caption>Table 3 Incidence of Adverse Reactions Occurring in &gt;5% of Subjects in 5 g Dose Group and Corresponding Incidence in 10 g Dose Group and Placebo
+</caption>
+                                 <col width="29.434%" align="left"/>
+                                 <col width="19.736%" align="left"/>
+                                 <col width="15.537%" align="left"/>
+                                 <col width="19.456%" align="left"/>
+                                 <col width="15.837%" align="left"/>
+                                 <tfoot>
+                                    <tr>
+                                       <td colspan="5" align="left" valign="top">
+                                          <paragraph styleCode="footnote">* Rashes were predominantly acneiform
+</paragraph>
+                                       </td>
+                                    </tr>
+                                 </tfoot>
+                                 <tbody>
+                                    <tr>
+                                       <td rowspan="2" align="left" valign="bottom" styleCode="Toprule Botrule Lrule Rrule">
+                                          <content styleCode="bold">ADR</content>
+                                       </td>
+                                       <td colspan="2" align="center" valign="top" styleCode="Toprule Botrule Rrule">
+                                          <content styleCode="bold">5 g Dose Group</content>
+                                       </td>
+                                       <td colspan="2" align="center" valign="top" styleCode="Toprule Botrule Rrule">
+                                          <content styleCode="bold">10 g Dose Group</content>
+                                       </td>
+                                    </tr>
+                                    <tr>
+                                       <td align="center" valign="top" styleCode="Botrule Rrule">
+                                          <content styleCode="bold">Hydroxocobalamin<br/>N=66<br/>n (%)</content>
+                                       </td>
+                                       <td align="center" valign="top" styleCode="Botrule Rrule">
+                                          <content styleCode="bold">Placebo<br/>N=22<br/>n (%)</content>
+                                       </td>
+                                       <td align="center" valign="top" styleCode="Botrule Rrule">
+                                          <content styleCode="bold">Hydroxocobalamin<br/>N=18<br/>n (%)</content>
+                                       </td>
+                                       <td align="center" valign="top" styleCode="Botrule Rrule">
+                                          <content styleCode="bold">Placebo<br/>N=6<br/>n (%)</content>
+                                       </td>
+                                    </tr>
+                                    <tr>
+                                       <td align="left" valign="top" styleCode="Botrule Lrule Rrule">Chromaturia (red colored urine)
+</td>
+                                       <td align="center" valign="top" styleCode="Botrule Rrule">66 (100)
+</td>
+                                       <td align="center" valign="top" styleCode="Botrule Rrule">0
+</td>
+                                       <td align="center" valign="top" styleCode="Botrule Rrule">18 (100)
+</td>
+                                       <td align="center" valign="top" styleCode="Botrule Rrule">0
+</td>
+                                    </tr>
+                                    <tr>
+                                       <td align="left" valign="top" styleCode="Botrule Lrule Rrule">Erythema
+</td>
+                                       <td align="center" valign="top" styleCode="Botrule Rrule">62 (94)
+</td>
+                                       <td align="center" valign="top" styleCode="Botrule Rrule">0
+</td>
+                                       <td align="center" valign="top" styleCode="Botrule Rrule">18 (100)
+</td>
+                                       <td align="center" valign="top" styleCode="Botrule Rrule">0
+</td>
+                                    </tr>
+                                    <tr>
+                                       <td align="left" valign="top" styleCode="Botrule Lrule Rrule">Oxalate crystals in urine
+</td>
+                                       <td align="center" valign="top" styleCode="Botrule Rrule">40 (61)
+</td>
+                                       <td align="center" valign="top" styleCode="Botrule Rrule">1 (5)
+</td>
+                                       <td align="center" valign="top" styleCode="Botrule Rrule">10 (56)
+</td>
+                                       <td align="center" valign="top" styleCode="Botrule Rrule">0
+</td>
+                                    </tr>
+                                    <tr>
+                                       <td align="left" valign="top" styleCode="Botrule Lrule Rrule">Rash*
+</td>
+                                       <td align="center" valign="top" styleCode="Botrule Rrule">13 (20)
+</td>
+                                       <td align="center" valign="top" styleCode="Botrule Rrule">0
+</td>
+                                       <td align="center" valign="top" styleCode="Botrule Rrule">8 (44)
+</td>
+                                       <td align="center" valign="top" styleCode="Botrule Rrule">0
+</td>
+                                    </tr>
+                                    <tr>
+                                       <td align="left" valign="top" styleCode="Botrule Lrule Rrule">Blood pressure increased
+</td>
+                                       <td align="center" valign="top" styleCode="Botrule Rrule">12 (18)
+</td>
+                                       <td align="center" valign="top" styleCode="Botrule Rrule">0
+</td>
+                                       <td align="center" valign="top" styleCode="Botrule Rrule">5 (28)
+</td>
+                                       <td align="center" valign="top" styleCode="Botrule Rrule">0
+</td>
+                                    </tr>
+                                    <tr>
+                                       <td align="left" valign="top" styleCode="Botrule Lrule Rrule">Nausea
+</td>
+                                       <td align="center" valign="top" styleCode="Botrule Rrule">4 (6)
+</td>
+                                       <td align="center" valign="top" styleCode="Botrule Rrule">1 (5)
+</td>
+                                       <td align="center" valign="top" styleCode="Botrule Rrule">2 (11)
+</td>
+                                       <td align="center" valign="top" styleCode="Botrule Rrule">0
+</td>
+                                    </tr>
+                                    <tr>
+                                       <td align="left" valign="top" styleCode="Botrule Lrule Rrule">Headache
+</td>
+                                       <td align="center" valign="top" styleCode="Botrule Rrule">4 (6)
+</td>
+                                       <td align="center" valign="top" styleCode="Botrule Rrule">1 (5)
+</td>
+                                       <td align="center" valign="top" styleCode="Botrule Rrule">6 (33)
+</td>
+                                       <td align="center" valign="top" styleCode="Botrule Rrule">0
+</td>
+                                    </tr>
+                                    <tr>
+                                       <td align="left" valign="top" styleCode="Botrule Lrule Rrule">Lymphocyte percent decreased
+</td>
+                                       <td align="center" valign="top" styleCode="Botrule Rrule">5 (8)
+</td>
+                                       <td align="center" valign="top" styleCode="Botrule Rrule">0
+</td>
+                                       <td align="center" valign="top" styleCode="Botrule Rrule">3 (17)
+</td>
+                                       <td align="center" valign="top" styleCode="Botrule Rrule">0
+</td>
+                                    </tr>
+                                    <tr>
+                                       <td align="left" valign="top" styleCode="Botrule Lrule Rrule">Infusion site reaction
+</td>
+                                       <td align="center" valign="top" styleCode="Botrule Rrule">4 (6)
+</td>
+                                       <td align="center" valign="top" styleCode="Botrule Rrule">0
+</td>
+                                       <td align="center" valign="top" styleCode="Botrule Rrule">7 (39)
+</td>
+                                       <td align="center" valign="top" styleCode="Botrule Rrule">0
+</td>
+                                    </tr>
+                                 </tbody>
+                              </table>
+                              <paragraph>In this study, the following adverse reactions were reported to have occurred in a dose-dependent fashion and with greater frequency than observed in placebo-treated cohorts: increased blood pressure (particularly diastolic blood pressure), rash, nausea, headache and infusion site reactions. All were mild to moderate in severity and resolved spontaneously when the infusion was terminated or with standard supportive therapies.
+</paragraph>
+                              <paragraph>Other adverse reactions reported in this study and considered clinically relevant were:
+</paragraph>
+                              <list listType="unordered" styleCode="Disc">
+                                 <item>
+                                    <content styleCode="italics">Eye disorders:</content> swelling, irritation, redness
+</item>
+                                 <item>
+                                    <content styleCode="italics">Gastrointestinal disorders:</content> dysphagia, abdominal discomfort, vomiting, diarrhea, dyspepsia, hematochezia
+</item>
+                                 <item>
+                                    <content styleCode="italics">General disorders and administration site conditions:</content> peripheral edema, chest discomfort
+</item>
+                                 <item>
+                                    <content styleCode="italics">Immune system disorders:</content> allergic reaction
+</item>
+                                 <item>
+                                    <content styleCode="italics">Nervous system disorders:</content> memory impairment, dizziness
+</item>
+                                 <item>
+                                    <content styleCode="italics">Psychiatric disorders:</content> restlessness
+</item>
+                                 <item>
+                                    <content styleCode="italics">Respiratory, thoracic and mediastinal disorders:</content> dyspnea, throat tightness, dry throat
+</item>
+                                 <item>
+                                    <content styleCode="italics">Skin and subcutaneous tissue disorders:</content> urticaria, pruritus
+</item>
+                                 <item>
+                                    <content styleCode="italics">Vascular disorders:</content> hot flush
+</item>
+                              </list>
+                           </text>
+                           <effectiveTime value="20210531"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section ID="s26">
+                           <id root="e5334792-23c1-420b-a32a-327d31895fad"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <text>
+                              <paragraph>
+                                 <content styleCode="underline">Experience in Known or Suspected Cyanide Poisoning Victims</content>
+                              </paragraph>
+                              <paragraph>Four open-label, uncontrolled, clinical studies (one of which was prospective and three of which were retrospective) were conducted in known or suspected cyanide-poisoning victims. A total of 245 patients received hydroxocobalamin treatment in these studies. Systematic collection of adverse events was not done in all of these studies and interpretation of causality is limited due to the lack of a control group and due to circumstances of administration (e.g., use in fire victims). Adverse reactions reported in these studies listed by system organ class included:
+</paragraph>
+                              <list listType="unordered" styleCode="Disc">
+                                 <item>
+                                    <content styleCode="italics">Cardiac disorders:</content> ventricular extrasystoles
+</item>
+                                 <item>
+                                    <content styleCode="italics">Investigations:</content> electrocardiogram repolarization abnormality, heart rate increased
+</item>
+                                 <item>
+                                    <content styleCode="italics">Respiratory, thoracic, and mediastinal disorders:</content> pleural effusion
+</item>
+                              </list>
+                              <paragraph>Adverse reactions common to both the studies in known or suspected cyanide poisoning victims and the study in healthy volunteers are listed in the healthy volunteer section only and are not duplicated in this list.
+</paragraph>
+                           </text>
+                           <effectiveTime value="20210531"/>
+                        </section>
+                     </component>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s27">
+                     <id root="bb166293-094e-494d-8cdb-9fe3cccda33e"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>6.2 Postmarketing Experience
+</title>
+                     <text>
+                        <paragraph>The following adverse reactions have been identified during postapproval use of CYANOKIT. Because adverse reactions are reported voluntarily from a population of uncertain size, it is not always possible to reliably estimate their frequency.
+</paragraph>
+                        <paragraph>Cases of acute renal failure with acute tubular necrosis, renal impairment, and urine calcium oxalate crystals have been reported in patients treated with CYANOKIT.
+</paragraph>
+                     </text>
+                     <effectiveTime value="20210531"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="s28">
+               <id root="2689abeb-3f06-4f4d-a387-290d051d13fd"/>
+               <code code="34073-7" codeSystem="2.16.840.1.113883.6.1" displayName="DRUG INTERACTIONS SECTION"/>
+               <title>7 DRUG INTERACTIONS
+</title>
+               <text>
+                  <paragraph>Formal drug interaction studies have not been conducted with CYANOKIT.
+</paragraph>
+               </text>
+               <effectiveTime value="20210531"/>
+               <component>
+                  <section ID="s29">
+                     <id root="3852a404-3620-4157-bc74-74ac507d3dc3"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <text>
+                        <paragraph>
+                           <content styleCode="underline">Interference with Laboratory Tests</content>
+                        </paragraph>
+                        <paragraph>Because of its deep red color, hydroxocobalamin has been found to interfere with colorimetric determination of certain laboratory parameters (e.g., clinical chemistry, hematology, coagulation, and urine parameters). Be aware of this when reporting and interpreting laboratory results <content styleCode="italics">[see Warnings and Precautions (<linkHtml href="#s18">5.5</linkHtml>)].</content>
+                        </paragraph>
+                     </text>
+                     <effectiveTime value="20210531"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="s30">
+               <id root="564747e6-be48-4260-a5ad-5a49429fc5c6"/>
+               <code code="43684-0" codeSystem="2.16.840.1.113883.6.1" displayName="USE IN SPECIFIC POPULATIONS SECTION"/>
+               <title>8 USE IN SPECIFIC POPULATIONS
+</title>
+               <effectiveTime value="20210531"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <list listType="unordered" styleCode="Disc">
+                           <item>
+                              <content styleCode="underline">Pregnancy</content>: Based on animal studies, may cause fetal harm; however, CYANOKIT administration for cyanide poisoning may be lifesaving for the pregnant woman and fetus. Treatment should not be withheld due to pregnancy (<linkHtml href="#s31">8.1</linkHtml>)
+</item>
+                           <item>
+                              <content styleCode="underline">Lactation</content>: Breastfeeding not recommended (<linkHtml href="#s37">8.2</linkHtml>)
+</item>
+                        </list>
+                     </text>
+                  </highlight>
+               </excerpt>
+               <component>
+                  <section ID="s31">
+                     <id root="1a7730af-0f69-4ea2-87c7-4ca6f9e018c4"/>
+                     <code code="42228-7" codeSystem="2.16.840.1.113883.6.1" displayName="PREGNANCY SECTION"/>
+                     <title>8.1 Pregnancy
+</title>
+                     <effectiveTime value="20210531"/>
+                     <component>
+                        <section ID="s32">
+                           <id root="afd91732-67a9-40bf-a88f-1b7ba346f493"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <text>
+                              <paragraph>
+                                 <content styleCode="underline">Risk Summary</content>
+                              </paragraph>
+                              <paragraph>Available data from cases reported in the published literature and postmarketing surveillance with CYANOKIT use in pregnant women are insufficient to identify a drug-associated risk for major birth defects, miscarriage, or adverse maternal and fetal outcomes. There are risks to the pregnant woman and fetus associated with untreated cyanide poisoning <content styleCode="italics">(see Clinical Considerations)</content>. In animal studies, hydroxocobalamin administered to pregnant rats and rabbits during the period of organogenesis caused skeletal and soft tissue abnormalities, including alterations in the central nervous system, at exposures similar to human exposures at the therapeutic dose <content styleCode="italics">(see Data)</content>.
+</paragraph>
+                              <paragraph>The estimated background risk of major birth defects and miscarriage for the indicated population is unknown. All pregnancies have a background risk of birth defect, loss, or other adverse outcomes. In the U.S. general population, the estimated background risk of major birth defects and miscarriage in clinically recognized pregnancies is 2-4% and 15-20%, respectively.
+</paragraph>
+                           </text>
+                           <effectiveTime value="20210531"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section ID="s33">
+                           <id root="d6fb8a88-b4c9-4e45-ab94-de1da81a07de"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <text>
+                              <paragraph>
+                                 <content styleCode="underline">Clinical Considerations</content>
+                              </paragraph>
+                           </text>
+                           <effectiveTime value="20210531"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section ID="s34">
+                           <id root="a0b15295-5377-4340-bd8d-1961281fdf8a"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <text>
+                              <paragraph>
+                                 <content styleCode="italics">Disease-associated maternal and/or embryo/fetal risk</content>
+                              </paragraph>
+                              <paragraph>Cyanide readily crosses the placenta. Cyanide poisoning is a medical emergency in pregnancy which can be fatal for the pregnant woman and fetus if left untreated. Life-sustaining therapy should not be withheld due to pregnancy.
+</paragraph>
+                           </text>
+                           <effectiveTime value="20210531"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section ID="s35">
+                           <id root="d3ac53a1-8e22-4ab4-a419-0460888033f7"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <text>
+                              <paragraph>
+                                 <content styleCode="underline">Data</content>
+                              </paragraph>
+                           </text>
+                           <effectiveTime value="20210531"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section ID="s36">
+                           <id root="912f5184-f8fb-40aa-82f8-f51bfd635a1d"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <text>
+                              <paragraph>
+                                 <content styleCode="italics">Animal Data</content>
+                              </paragraph>
+                              <paragraph>In animal studies, pregnant rats and rabbits received CYANOKIT (75, 150, or 300 mg/kg/d) during the period of organogenesis. Following intraperitoneal dosing in rats and intravenous dosing in rabbits, maternal exposures were equivalent to 0.5, 1, or 2 times the human exposure at the therapeutic dose (based on AUC). In the high dose groups for both species, maternal toxicity occurred, and there was a reduced number of live fetuses due to embryofetal resorptions. In addition, decreased live fetal weight occurred in high dose rats, but not in rabbits. Incomplete skeletal ossification occurred in both rats and rabbits. In rats, two fetuses of the high dose group and two fetuses of the mid dose group (each from a different litter) had short, rudimentary or small front or hind legs. Rabbit litters and fetuses exhibited a dose-dependent increase in various gross soft tissue and skeletal anomalies. The main findings in rabbits were flexed, rigid flexor or medially rotated forelimbs or hindlimbs and domed heads at external examination; enlarged anterior or posterior fontanelles of the ventricles of the brain and flat, bowed or large ribs at skeletal examination; and dilated ventricles of the brain, and thick wall of the stomach at visceral examination. It is unknown if similar findings would be observed in rats and rabbits if CYANOKIT was administered as a single dose during any critical period of development.
+</paragraph>
+                           </text>
+                           <effectiveTime value="20210531"/>
+                        </section>
+                     </component>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s37">
+                     <id root="752f0e7e-5812-44bb-81fe-05cfd13cdf05"/>
+                     <code code="77290-5" codeSystem="2.16.840.1.113883.6.1" displayName="LACTATION SECTION"/>
+                     <title>8.2 Lactation
+</title>
+                     <effectiveTime value="20210531"/>
+                     <component>
+                        <section ID="s38">
+                           <id root="70e53210-02d9-4ee1-86ab-4281d5f518b6"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <text>
+                              <paragraph>
+                                 <content styleCode="underline">Risk Summary</content>
+                              </paragraph>
+                              <paragraph>Breastfeeding is not recommended during treatment with CYANOKIT. There are no data to determine when breastfeeding may be safely restarted following administration of CYANOKIT. Hydroxocobalamin and Vitamin B12 (which is formed when hydroxocobalamin combines with cyanide) are present in human milk. There are no data on the effects of hydroxocobalamin on the breastfed infant or the effects on milk production.
+</paragraph>
+                           </text>
+                           <effectiveTime value="20210531"/>
+                        </section>
+                     </component>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s39">
+                     <id root="abf9f81f-6b0e-4d39-86b1-6ce7f109f070"/>
+                     <code code="34081-0" codeSystem="2.16.840.1.113883.6.1" displayName="PEDIATRIC USE SECTION"/>
+                     <title>8.4 Pediatric Use
+</title>
+                     <text>
+                        <paragraph>Safety and effectiveness of CYANOKIT have not been established in this population. In non-US marketing experience, a dose of 70 mg/kg has been used to treat pediatric patients.
+</paragraph>
+                     </text>
+                     <effectiveTime value="20210531"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s40">
+                     <id root="8a202914-f08e-4a8e-8d7a-d1eaeac62b22"/>
+                     <code code="34082-8" codeSystem="2.16.840.1.113883.6.1" displayName="GERIATRIC USE SECTION"/>
+                     <title>8.5 Geriatric Use
+</title>
+                     <text>
+                        <paragraph>Approximately 50 known or suspected cyanide poisoning victims aged 65 or older received hydroxocobalamin in clinical studies. In general, the safety and effectiveness of hydroxocobalamin in these patients was similar to that of younger patients. No adjustment of dose is required in elderly patients.
+</paragraph>
+                     </text>
+                     <effectiveTime value="20210531"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s41">
+                     <id root="2f45ac08-94ea-4fce-a460-60b31c1c89a3"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>8.6 Renal Impairment
+</title>
+                     <text>
+                        <paragraph>The safety and effectiveness of CYANOKIT have not been studied in patients with renal impairment. Hydroxocobalamin and cyanocobalamin are eliminated unchanged by the kidneys.
+</paragraph>
+                     </text>
+                     <effectiveTime value="20210531"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s42">
+                     <id root="8e33c14b-1c94-4aca-86a5-7b66e46e4206"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>8.7 Hepatic Impairment
+</title>
+                     <text>
+                        <paragraph>The safety and effectiveness of CYANOKIT have not been studied in patients with hepatic impairment.
+</paragraph>
+                     </text>
+                     <effectiveTime value="20210531"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="s43">
+               <id root="abcc04dd-ff24-433f-8715-68623898489f"/>
+               <code code="34088-5" codeSystem="2.16.840.1.113883.6.1" displayName="OVERDOSAGE SECTION"/>
+               <title>10 OVERDOSAGE
+</title>
+               <text>
+                  <paragraph>No data are available about overdose with CYANOKIT in adults. Should overdose occur, treatment should be directed to the management of symptoms. Hemodialysis may be effective in such a circumstance, but is only indicated in the event of significant hydroxocobalamin-related toxicity. Because of its deep red color, hydroxocobalamin may interfere with the performance of hemodialysis machines <content styleCode="italics">[see Warnings and Precautions (<linkHtml href="#s18">5.5</linkHtml>)].</content>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20210531"/>
+            </section>
+         </component>
+         <component>
+            <section ID="s44">
+               <id root="1f72d05b-4a78-40ec-84a5-d1ffb8024669"/>
+               <code code="34089-3" codeSystem="2.16.840.1.113883.6.1" displayName="DESCRIPTION SECTION"/>
+               <title>11 DESCRIPTION
+</title>
+               <text>
+                  <paragraph>Hydroxocobalamin, the active ingredient in CYANOKIT, is cobinamide dihydroxide dihydrogen phosphate (ester), mono (inner salt), 3'-ester with 5,6-dimethyl-1-α-D-ribofuranosyl-1H-benzimidazole, an antidote. The drug substance is the hydroxylated active form of vitamin B<sub>12</sub> and is a large molecule in which a trivalent cobalt ion is coordinated in four positions by a tetrapyrol (or corrin) ring. It is a hygroscopic, odorless, dark red, crystalline powder that is freely soluble in water and ethanol, and practically insoluble in acetone and diethyl ether. Hydroxocobalamin has a molecular weight of 1346.36 atomic mass units, an empirical formula of C<sub>62</sub>H<sub>89</sub>CoN<sub>13</sub>O<sub>15</sub>P and the following structural formula:
+</paragraph>
+                  <paragraph>
+                     <renderMultiMedia ID="f01" referencedObject="mm01"/>
+                  </paragraph>
+                  <paragraph>CYANOKIT (hydroxocobalamin for injection) for intravenous infusion is a cyanide antidote package which contains one colorless 250 mL glass vial, containing 5 g dark red lyophilized hydroxocobalamin, pH adjusted with hydrochloric acid, one transfer spike, one intravenous administration set, one quick use reference guide and one package insert.
+</paragraph>
+                  <paragraph>The 5 g vial of hydroxocobalamin for injection is to be reconstituted with 200 mL of 0.9% NaCl, to give a dark red injectable solution (25 mg/mL). If 0.9% NaCl is not readily available, 200 mL of either Lactated Ringers injection or 5% Dextrose injection (D5W) may be used as the diluent. Diluent is not included in the CYANOKIT. The pH of the reconstituted product ranges from 3.5 to 6.0.
+</paragraph>
+               </text>
+               <effectiveTime value="20210531"/>
+               <component>
+                  <observationMedia ID="mm01">
+                     <text>structural formula
+</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="cya06-0014-01.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="s45">
+               <id root="7d146518-57f7-46fe-8b10-fe7d006442ff"/>
+               <code code="34090-1" codeSystem="2.16.840.1.113883.6.1" displayName="CLINICAL PHARMACOLOGY SECTION"/>
+               <title>12 CLINICAL PHARMACOLOGY
+</title>
+               <effectiveTime value="20210531"/>
+               <component>
+                  <section ID="s46">
+                     <id root="0d7a9dea-b086-4826-8704-9c4c0d5cbcfb"/>
+                     <code code="43679-0" codeSystem="2.16.840.1.113883.6.1" displayName="MECHANISM OF ACTION SECTION"/>
+                     <title>12.1 Mechanism of Action
+</title>
+                     <text>
+                        <paragraph>Cyanide is an extremely toxic poison. In the absence of rapid and adequate treatment, exposure to a high dose of cyanide can result in death within minutes due to the inhibition of cytochrome oxidase resulting in arrest of cellular respiration. Specifically, cyanide binds rapidly with cytochrome a3, a component of the cytochrome c oxidase complex in mitochondria. Inhibition of cytochrome a3 prevents the cell from using oxygen and forces anaerobic metabolism, resulting in lactate production, cellular hypoxia and metabolic acidosis. In massive acute cyanide poisoning, the mechanism of toxicity may involve other enzyme systems as well. Signs and symptoms of acute systemic cyanide poisoning may develop rapidly within minutes, depending on the route and extent of cyanide exposure.
+</paragraph>
+                        <paragraph>The action of CYANOKIT in the treatment of cyanide poisoning is based on its ability to bind cyanide ions. Each hydroxocobalamin molecule can bind one cyanide ion by substituting it for the hydroxo ligand linked to the trivalent cobalt ion, to form cyanocobalamin, which is then excreted in the urine.
+</paragraph>
+                     </text>
+                     <effectiveTime value="20210531"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s47">
+                     <id root="aeb7cf33-d739-473e-a631-b8511637f70e"/>
+                     <code code="43681-6" codeSystem="2.16.840.1.113883.6.1" displayName="PHARMACODYNAMICS SECTION"/>
+                     <title>12.2 Pharmacodynamics
+</title>
+                     <text>
+                        <paragraph>Administration of CYANOKIT to cyanide-poisoned patients with the attendant formation of cyanocobalamin resulted in increases in blood pressure and variable changes in heart rate upon initiation of hydroxocobalamin infusions <content styleCode="italics">[see Warnings and Precautions (<linkHtml href="#s17">5.4</linkHtml>)]</content>.
+</paragraph>
+                     </text>
+                     <effectiveTime value="20210531"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s48">
+                     <id root="fa1c3dea-5e81-4d14-b20b-20e9ae8fae54"/>
+                     <code code="43682-4" codeSystem="2.16.840.1.113883.6.1" displayName="PHARMACOKINETICS SECTION"/>
+                     <title>12.3 Pharmacokinetics
+</title>
+                     <text>
+                        <paragraph>Following intravenous administration of hydroxocobalamin significant binding to plasma proteins and low molecular weight physiological compounds occurs, forming various cobalamin-(III) complexes by replacing the hydroxo ligand. The low molecular weight cobalamins-(III) formed, including hydroxocobalamin, are termed “free cobalamins-(III)”; the sum of free and protein-bound cobalamins is termed “total cobalamins-(III)”. In order to reflect the exposure to the sum of all derivatives, pharmacokinetics of cobalamins-(III) (i.e., cobalamin-(III) entity without specific ligand) were investigated instead of hydroxocobalamin alone, using the concentration unit μg eq/mL.
+</paragraph>
+                        <paragraph>Dose-proportional pharmacokinetics was observed following single dose intravenous administration of 2.5 to 10 g of hydroxocobalamin in healthy volunteers. Mean free and total cobalamins-(III) C<sub>max</sub> values of 113 and 579 μg eq/mL, respectively, were determined following a dose of 5 g of hydroxocobalamin. Similarly, mean free and total cobalamins-(III) C<sub>max</sub> values of 197 and 995 μg eq/mL, respectively, were determined following the dose of 10 g of hydroxocobalamin.
+</paragraph>
+                        <paragraph>When normalized for body weight, male and female subjects revealed no major differences in pharmacokinetic parameters of free and total cobalamins-(III) following the administration of 5 and 10 g of hydroxocobalamin.
+</paragraph>
+                     </text>
+                     <effectiveTime value="20210531"/>
+                     <component>
+                        <section ID="s49">
+                           <id root="90bb30ad-70e0-4f21-9988-a58f24aa1cd2"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <text>
+                              <paragraph>
+                                 <content styleCode="underline">Distribution</content>
+                              </paragraph>
+                              <paragraph>The volume of distribution at steady state (V<sub>ss</sub>) for both free and total cobalamins-(III) showed no apparent relationship to dose. The V<sub>ss</sub> ranged from 280.7 to 349.5 L for free cobalamins-(III), and from 21.8 to 25.6 L for total cobalamins-(III). The comparatively high values for V<sub>ss</sub> of free cobalamins-(III) are due to the high protein binding of hydroxocobalamin as it reacts in the blood with plasma constituents to form cobalamins-(III) complexes and the rapid distribution of free cobalamins-(III) into tissues.
+</paragraph>
+                           </text>
+                           <effectiveTime value="20210531"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section ID="s50">
+                           <id root="07bf2aa0-f029-4b35-bf3d-2df3233d04f6"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <text>
+                              <paragraph>
+                                 <content styleCode="underline">Elimination</content>
+                              </paragraph>
+                              <paragraph>The mean total amount of cobalamins-(III) excreted in urine during the collection period of 72 hours was about 60% of a 5 g dose and about 50% of a 10 g dose of hydroxocobalamin. Overall, the total urinary excretion was calculated to be at least 60 to 70% of the administered dose. The majority of the urinary excretion occurred during the first 24 hours, but red-colored urine was observed for up to 35 days following the intravenous infusion. The mean half-life of free and total cobalamins-(III) was found to be approximately 26 to 31 hours at both the 5 g and 10 g dose level.
+</paragraph>
+                           </text>
+                           <effectiveTime value="20210531"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section ID="s51">
+                           <id root="a8a64725-10d7-4612-8982-f0c763712e74"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <text>
+                              <paragraph>
+                                 <content styleCode="italics">Metabolism</content>
+                              </paragraph>
+                              <paragraph>Hydroxocobalamin does not undergo metabolism.
+</paragraph>
+                           </text>
+                           <effectiveTime value="20210531"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section ID="s52">
+                           <id root="225c319d-80fe-471d-9df7-1ea57fe82966"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <text>
+                              <paragraph>
+                                 <content styleCode="italics">Excretion</content>
+                              </paragraph>
+                              <paragraph>Hydroxocobalamin is mainly excreted in urine.
+</paragraph>
+                              <paragraph>In cyanide poisoning victims, hydroxocobalamin binds to cyanide to form cyanocobalamin, which is mainly excreted in urine.
+</paragraph>
+                           </text>
+                           <effectiveTime value="20210531"/>
+                        </section>
+                     </component>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="s53">
+               <id root="197460a0-18f3-4b16-be48-4f0d43572677"/>
+               <code code="43680-8" codeSystem="2.16.840.1.113883.6.1" displayName="NONCLINICAL TOXICOLOGY SECTION"/>
+               <title>13 NONCLINICAL TOXICOLOGY
+</title>
+               <effectiveTime value="20210531"/>
+               <component>
+                  <section ID="s54">
+                     <id root="d63642bd-8f3e-4515-8fd3-a4a926742efb"/>
+                     <code code="34083-6" codeSystem="2.16.840.1.113883.6.1" displayName="CARCINOGENESIS &amp; MUTAGENESIS &amp; IMPAIRMENT OF FERTILITY SECTION"/>
+                     <title>13.1 Carcinogenesis, Mutagenesis, Impairment of Fertility
+</title>
+                     <effectiveTime value="20210531"/>
+                     <component>
+                        <section ID="s55">
+                           <id root="9962d26b-3303-40aa-b56a-f24a95043814"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <text>
+                              <paragraph>
+                                 <content styleCode="underline">Carcinogenesis</content>
+                              </paragraph>
+                              <paragraph>Long-term animal studies have not been performed to evaluate the carcinogenic potential of hydroxocobalamin.
+</paragraph>
+                           </text>
+                           <effectiveTime value="20210531"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section ID="s56">
+                           <id root="1723134c-995c-4e43-957c-16695ae3c642"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <text>
+                              <paragraph>
+                                 <content styleCode="underline">Mutagenesis</content>
+                              </paragraph>
+                              <paragraph>Hydroxocobalamin was negative in the following mutagenicity assays:  <content styleCode="italics">in vitro</content> bacterial reverse mutation assay using <content styleCode="italics">Salmonella typhimurium</content> and <content styleCode="italics">Escherichia coli</content> strains, an <content styleCode="italics">in vitro</content> assay of the tk locus in mouse lymphoma cells, and an <content styleCode="italics">in vivo</content> rat micronucleus assay.
+</paragraph>
+                           </text>
+                           <effectiveTime value="20210531"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section ID="s57">
+                           <id root="073f0064-53d6-4ca1-a22e-6b7a600027d0"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <text>
+                              <paragraph>
+                                 <content styleCode="underline">Impairment of Fertility</content>
+                              </paragraph>
+                              <paragraph>The effect of hydroxocobalamin on fertility has not been evaluated.
+</paragraph>
+                           </text>
+                           <effectiveTime value="20210531"/>
+                        </section>
+                     </component>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="s58">
+               <id root="caa5b28b-da2d-4e66-bd7b-33f03fdc062f"/>
+               <code code="34092-7" codeSystem="2.16.840.1.113883.6.1" displayName="CLINICAL STUDIES SECTION"/>
+               <title>14 CLINICAL STUDIES
+</title>
+               <effectiveTime value="20210531"/>
+               <component>
+                  <section ID="s59">
+                     <id root="3c8156c5-3a0f-48e3-a826-de01c3a57125"/>
+                     <code code="34091-9" codeSystem="2.16.840.1.113883.6.1" displayName="ANIMAL PHARMACOLOGY &amp; OR TOXICOLOGY SECTION"/>
+                     <title>14.1 Animal Efficacy (Dog) Study of CYANOKIT for Cyanide Poisoning
+</title>
+                     <text>
+                        <paragraph>The effectiveness of CYANOKIT for treatment of cyanide poisoning has not been determined in humans because inducing cyanide poisoning in humans to study the drug's efficacy is not ethical. Therefore, the effectiveness of CYANOKIT for cyanide poisoning was established based on the results of the adequate and well-controlled animal efficacy study described below. While the results of this animal study cannot be extrapolated to humans with certainty, the extrapolation is supported by the understanding of the pathophysiologic mechanisms of the toxicity of cyanide and the mechanisms of the protective effect of hydroxocobalamin as examined in dogs. In addition, the results of uncontrolled human studies and the animal study establish that hydroxocobalamin is likely to produce clinical benefit in humans.
+</paragraph>
+                        <paragraph>The effectiveness of hydroxocobalamin was examined in a randomized, placebo-controlled, blinded study in cyanide-poisoned adult dogs assigned to treatment with vehicle (0.9% saline), or 75 or 150 mg/kg hydroxocobalamin. Anesthetized dogs were poisoned by intravenous administration of a lethal dose of potassium cyanide. Dogs then received vehicle or 75 or 150 mg/kg hydroxocobalamin, administered intravenously over 7.5 minutes. The 75 and 150 mg/kg doses are approximately equivalent to 5 and 10 g of hydroxocobalamin (respectively) in humans based on both body weight and the C<sub>max</sub> of hydroxocobalamin (total cobalamins-(III)). Survival at 4 hours and at 14 days was significantly greater in low-and high-dose groups compared with dogs receiving vehicle alone (<linkHtml href="#t4">Table 4</linkHtml>). Hydroxocobalamin reduced whole blood cyanide concentrations by approximately 50% by the end of the infusion compared with vehicle.
+</paragraph>
+                        <table ID="t4" width="100%">
+                           <caption>Table 4 Survival of Cyanide-Poisoned Dogs
+</caption>
+                           <col width="36.366%" align="left"/>
+                           <col width="17.046%" align="left"/>
+                           <col width="22.719%" align="left"/>
+                           <col width="23.869%" align="left"/>
+                           <tbody>
+                              <tr>
+                                 <td rowspan="3" align="center" valign="bottom" styleCode="Toprule Botrule Lrule Rrule">
+                                    <content styleCode="bold">Parameter</content>
+                                    <br/>
+                                 </td>
+                                 <td colspan="3" align="center" valign="top" styleCode="Toprule Botrule Rrule">
+                                    <content styleCode="bold">Treatment</content>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td rowspan="2" align="center" valign="bottom" styleCode="Botrule Rrule">
+                                    <content styleCode="bold">Vehicle<br/>N=17</content>
+                                 </td>
+                                 <td colspan="2" align="center" valign="top" styleCode="Botrule Rrule">
+                                    <content styleCode="bold">CYANOKIT</content>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td align="center" valign="top" styleCode="Botrule Rrule">
+                                    <content styleCode="bold">75 mg/kg <br/>N=19</content>
+                                 </td>
+                                 <td align="center" valign="top" styleCode="Botrule Rrule">
+                                    <content styleCode="bold">150 mg/kg<br/>N=18</content>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td align="left" valign="top" styleCode="Botrule Lrule Rrule">Survival at Hour 4, n (%)
+</td>
+                                 <td align="center" valign="top" styleCode="Botrule Rrule">7 (41)
+</td>
+                                 <td align="center" valign="top" styleCode="Botrule Rrule">18 (95)
+</td>
+                                 <td align="center" valign="top" styleCode="Botrule Rrule">18 (100)
+</td>
+                              </tr>
+                              <tr>
+                                 <td align="left" valign="top" styleCode="Botrule Lrule Rrule">Survival at Day 14, n (%)
+</td>
+                                 <td align="center" valign="top" styleCode="Botrule Rrule">3 (18)
+</td>
+                                 <td align="center" valign="top" styleCode="Botrule Rrule">15 (79)
+</td>
+                                 <td align="center" valign="top" styleCode="Botrule Rrule">18 (100)
+</td>
+                              </tr>
+                           </tbody>
+                        </table>
+                        <paragraph>Histopathology revealed brain lesions that were consistent with cyanide-induced hypoxia. The incidence of brain lesions was markedly lower in hydroxocobalamin treated animals compared to vehicle treated groups.
+</paragraph>
+                     </text>
+                     <effectiveTime value="20210531"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s60">
+                     <id root="6e692f3d-bbb3-427c-91fb-0bd8974f600c"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>14.2 Smoke Inhalation Victims
+</title>
+                     <text>
+                        <paragraph>A prospective, uncontrolled, open-label study was carried out in 69 subjects who had been exposed to smoke inhalation from fires. Subjects had to be over 15 years of age, present with soot in the mouth and expectoration (to indicate significant smoke exposure), and have altered neurological status. The median hydroxocobalamin dose was 5 g with a range from 4 to 15 g.
+</paragraph>
+                        <paragraph>Fifty of 69 subjects (73%) survived following treatment with hydroxocobalamin. Nineteen subjects treated with hydroxocobalamin did not survive. Fifteen patients treated with hydroxocobalamin were in cardiac arrest initially at the scene; 13 of these subjects died and 2 survived.
+</paragraph>
+                        <paragraph>Of the 42 subjects with pretreatment cyanide levels considered to be potentially toxic, 28 (67%) survived. Of the 19 subjects whose pretreatment cyanide levels were considered potentially lethal, 11 (58%) survived. Of the 50 subjects who survived, 9 subjects (18%) had neurological sequelae at hospital discharge. These included dementia, confusion, psychomotor retardation, anterograde amnesia, intellectual deterioration moderate cerebellar syndrome, aphasia, and memory impairment.
+</paragraph>
+                        <paragraph>Two additional retrospective, uncontrolled studies were carried out in subjects who had been exposed to cyanide from fire or smoke inhalation. Subjects were treated with up to 15 g of hydroxocobalamin. Survival in these two studies was 34 of 61 (56%) for one study, and 30 of 72 (42%) for the second.
+</paragraph>
+                     </text>
+                     <effectiveTime value="20210531"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s61">
+                     <id root="bc929399-9283-4784-9cf6-f204b399a441"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>14.3 Cyanide Poisoning by Ingestion or Inhalation
+</title>
+                     <text>
+                        <paragraph>A retrospective, uncontrolled study was carried out in 14 subjects who had been exposed to cyanide from sources other than from fire or smoke (i.e., ingestion or inhalation). Subjects were treated with 5 to 20 g of hydroxocobalamin. Eleven of 12 subjects whose blood cyanide concentration was known had initial blood cyanide levels considered to be above the lethal threshold.
+</paragraph>
+                        <paragraph>Ten of 14 subjects (71%) survived, following administration of hydroxocobalamin. One of the four subjects who died had presented in cardiac arrest. Of the 10 subjects who survived, only 1 subject had neurological sequelae at hospital discharge. This subject had post-anoxic encephalopathy, with memory impairment, considered to be due to cyanide poisoning.
+</paragraph>
+                     </text>
+                     <effectiveTime value="20210531"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s62">
+                     <id root="69690c81-fcc6-4985-b978-7cc1e496e141"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>14.4 Cross-Study Findings
+</title>
+                     <text>
+                        <paragraph>
+                           <content styleCode="underline">Experience with Dosing Greater than 10 g of Hydroxocobalamin</content>
+                        </paragraph>
+                        <paragraph>Across all four uncontrolled studies, 10 patients who did not demonstrate a full response to 5 or 10 g-doses of hydroxocobalamin were treated with more than 10 g of hydroxocobalamin. One of these 10 patients survived with unspecified neurological sequelae.
+</paragraph>
+                     </text>
+                     <effectiveTime value="20210531"/>
+                     <component>
+                        <section ID="s63">
+                           <id root="d894d75f-7fd4-4514-a5c8-2322af3777de"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <text>
+                              <paragraph>
+                                 <content styleCode="underline">Effects on Blood Pressure</content>
+                              </paragraph>
+                              <paragraph>Initiation of hydroxocobalamin infusion as part of the therapeutic interventions generally resulted in increases in blood pressure and variable changes in heart rate (often normalization).
+</paragraph>
+                           </text>
+                           <effectiveTime value="20210531"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section ID="s64">
+                           <id root="29b4ca8a-04d3-455b-a5ad-fefb273d4c27"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <text>
+                              <paragraph>
+                                 <content styleCode="underline">Survival of Patients Presenting in Cardiac Arrest</content>
+                              </paragraph>
+                              <paragraph>Of the 245 patients across all four studies, 68 (28%) presented in cardiac arrest. While blood pressure and heart rate may have been restored in many of these 68 patients, only five (7%) survived.
+</paragraph>
+                           </text>
+                           <effectiveTime value="20210531"/>
+                        </section>
+                     </component>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="s65">
+               <id root="be12e219-a299-41c0-895a-2c68a7bd35cb"/>
+               <code code="34069-5" codeSystem="2.16.840.1.113883.6.1" displayName="HOW SUPPLIED SECTION"/>
+               <title>16 HOW SUPPLIED/STORAGE AND HANDLING
+</title>
+               <text>
+                  <paragraph>Each CYANOKIT carton (NDC 50633-310-11) consists of the following:
+</paragraph>
+                  <list listType="unordered" styleCode="Disc">
+                     <item>One 250 mL glass vial, containing lyophilized hydroxocobalamin for injection, 5 g
+</item>
+                     <item>One sterile transfer spike
+</item>
+                     <item>One sterile intravenous infusion set
+</item>
+                     <item>One quick use reference guide
+</item>
+                     <item>One package insert
+</item>
+                  </list>
+                  <paragraph>Diluent is not included.
+</paragraph>
+               </text>
+               <effectiveTime value="20210531"/>
+               <component>
+                  <section ID="s66">
+                     <id root="a159159f-cc27-4129-8c4f-367d29b143b5"/>
+                     <code code="44425-7" codeSystem="2.16.840.1.113883.6.1" displayName="STORAGE AND HANDLING SECTION"/>
+                     <text>
+                        <paragraph>
+                           <content styleCode="underline">Storage</content>
+                        </paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Lyophilized form</content>
+                        </paragraph>
+                        <paragraph>Store at 25°C (77°F); excursions permitted to 15-30°C (59 to 86°F) [see USP Controlled Room Temperature].
+</paragraph>
+                        <paragraph>CYANOKIT may be exposed during short periods to the temperature variations of usual transport (15 days submitted to temperatures ranging from 5 to 40°C (41 to 104°F), transport in the desert (4 days submitted to temperatures ranging from 5 to 60°C (41 to 140°F)) and freezing/defrosting cycles (15 days submitted to temperatures ranging from -20 to 40°C (-4 to 104°F)).
+</paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Reconstituted solution</content>
+                        </paragraph>
+                        <paragraph>Store up to 6 hours at a temperature not exceeding 40ºC (104°F). Do not freeze. Discard any unused portion after 6 hours.
+</paragraph>
+                     </text>
+                     <effectiveTime value="20210531"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="s67">
+               <id root="0e2eafd3-d346-4e7f-a793-c43d5eca0e49"/>
+               <code code="34076-0" codeSystem="2.16.840.1.113883.6.1" displayName="INFORMATION FOR PATIENTS SECTION"/>
+               <title>17 PATIENT COUNSELING INFORMATION
+</title>
+               <text>
+                  <paragraph>CYANOKIT is indicated for cyanide poisoning and in this setting, patients will likely be unresponsive or may have difficulty in comprehending counseling information.
+</paragraph>
+               </text>
+               <effectiveTime value="20210531"/>
+               <component>
+                  <section ID="s68">
+                     <id root="0d7ca795-f98c-4b74-be1e-aa9187365897"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <text>
+                        <paragraph>
+                           <content styleCode="underline">Erythema and Chromaturia</content>
+                        </paragraph>
+                        <paragraph>Advise patients that skin redness may last up to 2 weeks and urine coloration may last for up to 5 weeks after administration of CYANOKIT. While it is not known if the skin redness predisposes to photosensitivity, patients should be advised to avoid direct sun while their skin remains discolored.
+</paragraph>
+                     </text>
+                     <effectiveTime value="20210531"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s69">
+                     <id root="6d18b215-628d-4d6e-afd9-e4dc036cad24"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <text>
+                        <paragraph>
+                           <content styleCode="underline">Rash</content>
+                        </paragraph>
+                        <paragraph>Inform patients that an acneiform rash may appear anywhere from 7 to 28 days following hydroxocobalamin treatment. This rash will usually resolve without treatment within a few weeks.
+</paragraph>
+                     </text>
+                     <effectiveTime value="20210531"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s70">
+                     <id root="3cb65433-f868-4a7d-b1bf-63ba6f7c4277"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <text>
+                        <paragraph>
+                           <content styleCode="underline">Renal Function Monitoring</content>
+                        </paragraph>
+                        <paragraph>Advise patients that renal function will be monitored for 7 days following treatment with CYANOKIT or, in the event of renal impairment, until renal function returns to normal.
+</paragraph>
+                     </text>
+                     <effectiveTime value="20210531"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s71">
+                     <id root="7a399b13-7afc-4d87-b39c-4a4087e68384"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <text>
+                        <paragraph>
+                           <content styleCode="underline">Pregnancy</content>
+                        </paragraph>
+                        <paragraph>Advise pregnant women that maternal cyanide poisoning results in fetal cyanide poisoning. Treatment for cyanide poisoning may be lifesaving for both the pregnant woman and fetus. Advise females of reproductive potential to notify their provider if they were pregnant during therapy with CYANOKIT <content styleCode="italics">[see USE IN SPECIFIC POPULATIONS (<linkHtml href="#s31">8.1</linkHtml>)]</content>.
+</paragraph>
+                     </text>
+                     <effectiveTime value="20210531"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s72">
+                     <id root="c10e457f-6fbe-4211-9dbe-7485b2278ebf"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <text>
+                        <paragraph>
+                           <content styleCode="underline">Lactation</content>
+                        </paragraph>
+                        <paragraph>Advise women that breastfeeding is not recommended during treatment with CYANOKIT <content styleCode="italics">[see USE IN SPECIFIC POPULATIONS (<linkHtml href="#s37">8.2</linkHtml>)]</content>.
+</paragraph>
+                     </text>
+                     <effectiveTime value="20210531"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="s73">
+               <id root="5f5eab38-3119-4acf-9c80-d0d2be32af10"/>
+               <code code="42230-3" codeSystem="2.16.840.1.113883.6.1" displayName="SPL PATIENT PACKAGE INSERT SECTION"/>
+               <title/>
+               <text>
+                  <table width="100%">
+                     <col width="50.000%" align="left"/>
+                     <col width="50.000%" align="left"/>
+                     <tfoot>
+                        <tr>
+                           <td align="left" valign="top">
+                              <paragraph styleCode="footnote">This Patient Information has been approved by the U.S. Food and Drug Administration. 
+</paragraph>
+                           </td>
+                           <td align="right" valign="top">
+                              <paragraph styleCode="footnote">Revised: 05/2021
+</paragraph>
+                           </td>
+                        </tr>
+                     </tfoot>
+                     <tbody>
+                        <tr>
+                           <td colspan="2" align="center" valign="top" styleCode="Toprule Botrule Lrule Rrule">
+                              <content styleCode="bold">Patient Information</content>
+                              <br/>
+                              <content styleCode="bold">CYANOKIT (hydroxocobalamin for injection)</content>
+                              <br/>
+                              <content styleCode="bold">for intravenous infusion</content>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td colspan="2" align="left" valign="top" styleCode="Botrule Lrule Rrule">
+                              <content styleCode="bold">What is CYANOKIT?</content>
+                              <br/>CYANOKIT is prescription medicine used for the treatment of known or suspected cyanide poisoning. Cyanide is a chemical poison. Cyanide poisoning can happen from:<br/>breathing smoke from household and industrial fires<br/>breathing or swallowing cyanide<br/>having your skin exposed to cyanide<br/>The effectiveness of CYANOKIT was based on a study in animals, because intentionally exposing humans to cyanide is not ethical.  The safety of CYANOKIT was studied in animals and healthy people and derived from experience in patients exposed to cyanide.<br/>It is not known if CYANOKIT is safe and effective in children.<br/>Cyanide poisoning is a life-threatening condition because cyanide stops your body from being able to use oxygen. You can die if your body does not have enough oxygen.
+</td>
+                        </tr>
+                        <tr>
+                           <td colspan="2" align="left" valign="top" styleCode="Botrule Lrule Rrule">
+                              <content styleCode="bold">Tell your healthcare provider if you:</content>
+                              <br/>
+                              <list listType="unordered" styleCode="Disc">
+                                 <item>have had an allergic reaction to hydroxocobalamin or cyanocobalamin
+</item>
+                                 <item>
+                                    <content styleCode="bold">are pregnant or think you may have been pregnant during treatment with CYANOKIT</content>. CYANOKIT may harm your unborn baby. However, treatment for cyanide poisoning may save your life and the life of your unborn baby.
+</item>
+                                 <item>
+                                    <content styleCode="bold">are breastfeeding.</content> Breastfeeding is not recommended during treatment with CYANOKIT. Talk to your healthcare provider about the best way to feed your baby during this time.Tell your healthcare provider about all of the medicines you take, including prescription and over-the-counter medicines, vitamins, and herbal supplements.<br/>
+                                 </item>
+                              </list>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td colspan="2" align="left" valign="top" styleCode="Botrule Lrule Rrule">
+                              <content styleCode="bold">How is CYANOKIT given?</content>
+                              <br/>
+                              <list listType="unordered" styleCode="Disc">
+                                 <item>Your healthcare provider will give you CYANOKIT through a vein by intravenous (IV) infusion over 15 minutes.
+</item>
+                                 <item>A second dose of CYANOKIT may be given to you if needed.
+</item>
+                              </list>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td colspan="2" align="left" valign="top" styleCode="Botrule Lrule Rrule">
+                              <content styleCode="bold">What should I avoid after I receive CYANOKIT?</content>
+                              <br/>
+                              <list listType="unordered" styleCode="Disc">
+                                 <item>CYANOKIT may cause red colored skin. Skin redness is common during treatment with CYANOKIT and may last up to 2 weeks after treatment with CYANOKIT. You should avoid sunlight while your skin is red.
+</item>
+                              </list>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td colspan="2" align="left" valign="top" styleCode="Botrule Lrule Rrule">
+                              <content styleCode="bold">What are the possible side effects of CYANOKIT?</content>
+                              <br/>
+                              <content styleCode="bold">CYANOKIT may cause serious side effects, including:</content>
+                              <br/>
+                              <list listType="unordered" styleCode="Disc">
+                                 <item>
+                                    <content styleCode="bold">Allergic reactions</content>. Signs and symptoms of a serious allergic reaction include chest tightness, trouble breathing, swelling, hives, itching, and rash.  Seek emergency help if you experience signs and/or symptoms of an allergic reaction.
+</item>
+                                 <item>
+                                    <content styleCode="bold">Kidney problems</content>. CYANOKIT can cause kidney problems, including kidney failure. Tell your healthcare provider if you develop crystals in your urine. Your healthcare provider will monitor your kidney function for 7 days after treatment with CYANOKIT, or longer if needed.
+</item>
+                                 <item>
+                                    <content styleCode="bold">Increased blood pressure.</content> Increased blood pressure is a common but serious side effect during treatment with CYANOKIT. Your healthcare provider will monitor your blood pressure during treatment with CYANOKIT.
+</item>
+                              </list>
+                              <content styleCode="bold">The most common side effects of CYANOKIT include:</content>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td align="left" valign="top" styleCode="Lrule">
+                              <list listType="unordered" styleCode="Disc">
+                                 <item>red colored urine. Red colored urine redness may last up to 5 weeks after treatment with CYANOKIT.
+</item>
+                                 <item>acne-like rash. Acne-like rash may appear 7 to 28 daysafter treatment with CYANOKIT. This rash usually goes away without any treatment.
+</item>
+                              </list>
+                           </td>
+                           <td align="left" valign="top" styleCode="Rrule">
+                              <list listType="unordered" styleCode="Disc">
+                                 <item>nausea
+</item>
+                                 <item>headache
+</item>
+                                 <item>reactions at the site of infusion
+</item>
+                              </list>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td colspan="2" align="left" valign="top" styleCode="Botrule Lrule Rrule">These are not all the side effects with CYANOKIT.<br/>Call your doctor for medical advice about side effects. You may report side effects to FDA at 1-800-FDA-1088.<br/>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td colspan="2" align="left" valign="top" styleCode="Botrule Lrule Rrule">
+                              <content styleCode="bold">General information about the safe and effective use of CYANOKIT.</content>
+                              <br/>This Patient Information leaflet summarizes the most important information about CYANOKIT. If you would like more information, talk to your healthcare provider. You can ask your pharmacist or healthcare provider for information about CYANOKIT that is written for health professionals.
+</td>
+                        </tr>
+                        <tr>
+                           <td colspan="2" align="left" valign="top" styleCode="Botrule Lrule Rrule">
+                              <content styleCode="bold">What are the ingredients in CYANOKIT?</content>
+                              <br/>
+                              <content styleCode="bold">Active ingredient:</content> hydroxocobalamin<br/>Manufactured by: Merck Santé s.a.s., Semoy, France<br/>Distributed by BTG International Inc. West Conshohocken, PA 19428<br/>1-877-377-3784BTG and the BTG roundel logo are registered trademarks of BTG International Ltd.For more information, go to www.CYANOKIT.com. <br/>180_US_20211_NO
+</td>
+                        </tr>
+                     </tbody>
+                  </table>
+               </text>
+               <effectiveTime value="20210531"/>
+            </section>
+         </component>
+         <component>
+            <section ID="s74">
+               <id root="f43d9af3-3a2d-4b80-abdc-24a88d21e0fb"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">Principal Display Panel -
+</content>
+                     <content styleCode="bold">5 g OUTER CARTON</content>
+                  </paragraph>
+                  <paragraph>NDC 50633-310-11
+</paragraph>
+                  <paragraph>
+                     <content styleCode="bold italics">CYANOKIT</content>®
+</paragraph>
+                  <paragraph>
+                     <content styleCode="bold italics">(hydroxocobalamin for injection)</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold italics">5 g per vial</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">For Intravenous Use</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">To be reconstituted with 200 mL of 0.9% Sodium Chloride Injection</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Diluent Not Included</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Kit Contents:</content>
+                  </paragraph>
+                  <paragraph>1 Vial, containing Hydroxocobalamin for injection, 5 g
+</paragraph>
+                  <paragraph>1 Intravenous administration set
+</paragraph>
+                  <paragraph>1 Transfer spike
+</paragraph>
+                  <paragraph>1 Quick Use Reference guide
+</paragraph>
+                  <paragraph>1 Package Insert
+</paragraph>
+                  <paragraph>BTG
+</paragraph>
+                  <renderMultiMedia ID="f02" referencedObject="mm02"/>
+               </text>
+               <effectiveTime value="20210531"/>
+               <component>
+                  <observationMedia ID="mm02">
+                     <text>Principal Display Panel - 5 g OUTER CARTON
+</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="cya06-0014-02.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="s75">
+               <id root="15516a68-36c6-48a3-a513-7bd50ce1d9f9"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">Principal Display Panel - 250 mL Vial Label</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold italics">CYANOKIT</content>®
+</paragraph>
+                  <paragraph>
+                     <content styleCode="bold italics">(hydroxocobalamin for injection)</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold italics">5 g per vial</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">For Intravenous Use</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">To be reconstituted with 200 mL of 0.9% Sodium Chloride Injection</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Diluent Not Included</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Rx Only</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Manufactured by<br/>Merck Sante s.a.s.</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Semoy, France</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Distributed by</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">BTG International Inc.</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">West Conshohocken, PA 19428</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">1-877-377-3784</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">BTG</content>
+                  </paragraph>
+                  <renderMultiMedia ID="f03" referencedObject="mm03"/>
+               </text>
+               <effectiveTime value="20210531"/>
+               <component>
+                  <observationMedia ID="mm03">
+                     <text>Principal Display Panel - 250 mL Vial Label
+</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="cya06-0014-03.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

@@ -1,0 +1,1675 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="https://www.accessdata.fda.gov/spl/stylesheet/spl.xsl" type="text/xsl"?>
+<document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:hl7-org:v3" xsi:schemaLocation="urn:hl7-org:v3 https://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="10e6632a-f2f6-ee91-e063-6394a90ad720"/>
+   <code code="34391-3" codeSystem="2.16.840.1.113883.6.1" displayName="HUMAN PRESCRIPTION DRUG LABEL"/>
+   <title>These highlights do not include all the information needed to use TIGLUTIK® safely and effectively. See full prescribing information for TIGLUTIK.
+ <br/>
+      <br/>
+      <br/>
+      <br/>
+TIGLUTIK (riluzole) oral suspension
+ <br/>
+      <br/>
+Initial U.S. Approval: 1995
+</title>
+   <effectiveTime value="20240208"/>
+   <setId root="75d68f19-4208-109e-e053-2991aa0ac857"/>
+   <versionNumber value="19"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id root="1.3.6.1.4.1.519.1" extension="080260470"/>
+            <name>EDW PHARMA, INC</name>
+            <assignedEntity>
+               <assignedOrganization>
+                  <id root="1.3.6.1.4.1.519.1" extension="080260470"/>
+                  <name>EDW PHARMA, INC</name>
+                  <assignedEntity>
+                     <assignedOrganization>
+                        <id root="1.3.6.1.4.1.519.1" extension="829739833"/>
+                        <name>Aphena Pharma Solutions</name>
+                     </assignedOrganization>
+                     <performance>
+                        <actDefinition>
+                           <code code="C43360" displayName="manufacture" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="70726-0303" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                  </assignedEntity>
+               </assignedOrganization>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section>
+               <id root="10e6b815-2039-1e15-e063-6394a90ac0a7"/>
+               <code code="48780-1" codeSystem="2.16.840.1.113883.6.1" displayName="SPL product data elements section"/>
+               <effectiveTime value="20240208"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="70726-0303" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>TIGLUTIK</name>
+                        <formCode code="C42953" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="LIQUID"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>Riluzole</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="506T60A25R" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SORBITOL</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="YRC528SWUY" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>POLYOXYL 20 CETOSTEARYL ETHER</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="6M3P64V0NC" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>MAGNESIUM ALUMINUM SILICATE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="059QF0KO0R" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>WATER</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="SB8ZUX40TY" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SACCHARIN SODIUM</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="ETJ7Z6XBU4" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SILICON DIOXIDE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="92RU3N3Y1O" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>DIMETHICONE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="368GB5141J" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SODIUM LAURYL SULFATE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="TTV12P4NEE" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>XANTHAN GUM</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator unit="mg" value="50"/>
+                              <denominator unit="mL" value="10"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="7LJ087RS6F" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>RILUZOLE</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="7LJ087RS6F" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>RILUZOLE</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator value="300" unit="mL"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="70726-0303-2" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43173" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BOTTLE, PLASTIC"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator value="2" unit="1"/>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code code="70726-0303-1" codeSystem="2.16.840.1.113883.6.69"/>
+                                    <formCode code="C43182" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CARTON"/>
+                                 </containerPackagedProduct>
+                                 <subjectOf>
+                                    <marketingAct>
+                                       <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                       <statusCode code="active"/>
+                                       <effectiveTime>
+                                          <low value="20180921"/>
+                                       </effectiveTime>
+                                    </marketingAct>
+                                 </subjectOf>
+                              </asContent>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C102834" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 1: Convenience Kit of Co-Package" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <id extension="NDA209080" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73594" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="NDA"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20180921"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLCOLOR" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value code="C48332" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="brown" xsi:type="CE">
+                              <originalText>slightly brown, opaque</originalText>
+                           </value>
+                        </characteristic>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38288" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ORAL"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_bf75ead8-de6c-1edf-e053-2a95a90a6ca8">
+               <id root="0f2b63e5-b9e8-69ef-e063-6394a90a5572"/>
+               <code code="43683-2" codeSystem="2.16.840.1.113883.6.1" displayName="RECENT MAJOR CHANGES SECTION"/>
+               <effectiveTime value="20200301"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <table width="100%">
+                           <col align="left" valign="top" width="80%"/>
+                           <col align="right" valign="bottom" width="20%"/>
+                           <tbody>
+                              <tr>
+                                 <td>Dosage and Administration (
+    
+       <linkHtml href="#S2.1">2.1</linkHtml>,
+    
+       <linkHtml href="#S2.3">2.3</linkHtml>)
+   
+      </td>
+                                 <td>12/2019</td>
+                              </tr>
+                           </tbody>
+                        </table>
+                     </text>
+                  </highlight>
+               </excerpt>
+            </section>
+         </component>
+         <component>
+            <section ID="S1">
+               <id root="0f2b63e5-b9e9-69ef-e063-6394a90a5572"/>
+               <code code="34067-9" codeSystem="2.16.840.1.113883.6.1" displayName="INDICATIONS &amp; USAGE SECTION"/>
+               <title>1 INDICATIONS AND USAGE</title>
+               <text>
+                  <paragraph>TIGLUTIK is indicated for the treatment of amyotrophic lateral sclerosis (ALS).</paragraph>
+               </text>
+               <effectiveTime value="20191231"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <paragraph>TIGLUTIK is indicated for the treatment of amyotrophic lateral sclerosis (ALS) (
+ 
+    <linkHtml href="#S1">1</linkHtml>)
+
+   </paragraph>
+                     </text>
+                  </highlight>
+               </excerpt>
+            </section>
+         </component>
+         <component>
+            <section ID="S2">
+               <id root="0f2b63e5-b9ea-69ef-e063-6394a90a5572"/>
+               <code code="34068-7" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE &amp; ADMINISTRATION SECTION"/>
+               <title>2 DOSAGE AND ADMINISTRATION</title>
+               <effectiveTime value="20200301"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <list listType="unordered">
+                           <item>Recommended dosage: 50 mg (10 mL), twice daily, taken orally or via percutaneous endoscopic gastrostomy tubes (PEG-tubes), every 12 hours (
+  
+     <linkHtml href="#S2.1">2.1</linkHtml>)
+ 
+    </item>
+                           <item>Measure serum aminotransferases before and during treatment (
+  
+     <linkHtml href="#S2.2">2.2</linkHtml>,
+  
+     <linkHtml href="#S5.1">5.1</linkHtml>)
+ 
+    </item>
+                           <item>Take at least 1 hour before or 2 hours after a meal (
+  
+     <linkHtml href="#S2.3">2.3</linkHtml>)
+ 
+    </item>
+                        </list>
+                     </text>
+                  </highlight>
+               </excerpt>
+               <component>
+                  <section ID="S2.1">
+                     <id root="0f2b63e5-b9eb-69ef-e063-6394a90a5572"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>2.1 Dosage Information</title>
+                     <text>
+                        <paragraph>
+                           <content styleCode="xmChange">The recommended dosage for TIGLUTIK is 50 mg (10 mL) taken orally or via Percutaneous Endoscopic Gastrostomy tubes (PEG-tubes) twice daily, every 12 hours. TIGLUTIK should be taken at least 1 hour before or 2 hours after a meal
+ 
+   <content styleCode="italics">[see
+  
+    <linkHtml href="#S12.3">Clinical Pharmacology (12.3)</linkHtml>].
+ 
+   </content>
+                           </content>
+                        </paragraph>
+                     </text>
+                     <effectiveTime value="20191231"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="S2.2">
+                     <id root="0f2b63e5-b9ec-69ef-e063-6394a90a5572"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>2.2 Monitoring to Assess Safety</title>
+                     <text>
+                        <paragraph>Measure serum aminotransferases before and during treatment with TIGLUTIK
+ 
+  <content styleCode="italics">[see
+  
+   <linkHtml href="#S5.1">Warnings and Precautions (5.1)</linkHtml>].
+ 
+  </content>
+                        </paragraph>
+                     </text>
+                     <effectiveTime value="20191231"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="S2.3">
+                     <id root="0f2b63e5-b9ed-69ef-e063-6394a90a5572"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>2.3 Important Administration Instructions</title>
+                     <text>
+                        <paragraph>
+                           <content styleCode="xmChange">Gently shake the TIGLUTIK bottle for at least 30 seconds before administration.Gently shake the TIGLUTIK bottle for at least 30 seconds before administration.</content>
+                        </paragraph>
+                        <paragraph>
+                           <content styleCode="xmChange">TIGLUTIK can be administered by mouth or via percutaneous endoscopic gastrostomy tubes (PEG-tubes). Both silicone and polyurethane PEG tubes can be used.</content>
+                        </paragraph>
+                        <paragraph>
+                           <content styleCode="xmChange">See the Instructions for Use for further administration details.See the Instructions for Use for further administration details.</content>
+                        </paragraph>
+                     </text>
+                     <effectiveTime value="20191231"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="S3">
+               <id root="0f2b63e5-b9ee-69ef-e063-6394a90a5572"/>
+               <code code="43678-2" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE FORMS &amp; STRENGTHS SECTION"/>
+               <title>3 DOSAGE FORMS AND STRENGTHS</title>
+               <text>
+                  <paragraph>Oral suspension: 50 mg/10 mL (5 mg/mL) slightly brown, opaque, homogeneous suspension in a 300-mL multiple-dose amber bottle.</paragraph>
+               </text>
+               <effectiveTime value="20191231"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <paragraph>Oral suspension: 50 mg/10 mL (5 mg/mL) in 300 mL multiple-dose bottle (
+ 
+    <linkHtml href="#S3">3</linkHtml>)
+
+   </paragraph>
+                     </text>
+                  </highlight>
+               </excerpt>
+            </section>
+         </component>
+         <component>
+            <section ID="S4">
+               <id root="0f2b63e5-b9ef-69ef-e063-6394a90a5572"/>
+               <code code="34070-3" codeSystem="2.16.840.1.113883.6.1" displayName="CONTRAINDICATIONS SECTION"/>
+               <title>4 CONTRAINDICATIONS</title>
+               <text>
+                  <paragraph>TIGLUTIK is contraindicated in patients with a history of severe hypersensitivity reactions to riluzole or to any of its components (anaphylaxis has occurred)
+ 
+  <content styleCode="italics">[see
+  
+   <linkHtml href="#S6.1">Adverse Reactions (6.1)</linkHtml>].
+ 
+  </content>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20191231"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <paragraph>Patients with a history of severe hypersensitivity reactions to riluzole or to any of its components (
+ 
+    <linkHtml href="#S4">4</linkHtml>)
+
+   </paragraph>
+                     </text>
+                  </highlight>
+               </excerpt>
+            </section>
+         </component>
+         <component>
+            <section ID="S5">
+               <id root="0f2b63e5-b9f0-69ef-e063-6394a90a5572"/>
+               <code code="43685-7" codeSystem="2.16.840.1.113883.6.1" displayName="WARNINGS AND PRECAUTIONS SECTION"/>
+               <title>5 WARNINGS AND PRECAUTIONS</title>
+               <effectiveTime value="20191231"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <list listType="unordered">
+                           <item>Hepatic injury: Use of TIGLUTIK is not recommended in patients with baseline elevations of serum aminotransferases greater than 5 times the upper limit of normal; discontinue TIGLUTIK if there is evidence of liver dysfunction (
+  
+     <linkHtml href="#S5.1">5.1</linkHtml>)
+ 
+    </item>
+                           <item>Neutropenia: Advise patients to report any febrile illness (
+  
+     <linkHtml href="#S5.2">5.2</linkHtml>)
+ 
+    </item>
+                           <item>Interstitial lung disease: Discontinue TIGLUTIK if interstitial lung disease develops (
+  
+     <linkHtml href="#S5.3">5.3</linkHtml>)
+ 
+    </item>
+                        </list>
+                     </text>
+                  </highlight>
+               </excerpt>
+               <component>
+                  <section ID="S5.1">
+                     <id root="0f2b63e5-b9f1-69ef-e063-6394a90a5572"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>5.1 Hepatic Injury</title>
+                     <text>
+                        <paragraph>TIGLUTIK can cause liver injury. Cases of drug-induced liver injury, some of which were fatal, have been reported in patients taking riluzole. Asymptomatic elevations of hepatic transaminases have also been reported, and in some patients have recurred upon re-challenge with riluzole.</paragraph>
+                        <paragraph>In clinical studies, the incidence of elevations in hepatic transaminases was greater in riluzole-treated patients than placebo-treated patients. The incidence of elevations of ALT above 5 times the upper limit of normal (ULN) was 2% in riluzole-treated patients. Maximum increases in ALT occurred within 3 months after starting riluzole. About 50% and 8% of riluzole-treated patients in pooled controlled efficacy studies (Studies 1 and 2) had at least one elevated ALT level above ULN and above 3 times ULN, respectively
+ 
+  <content styleCode="italics">[see
+  
+   <linkHtml href="#S14">Clinical Studies (14)</linkHtml>].
+ 
+  </content>
+                        </paragraph>
+                        <paragraph>Monitor patients for signs and symptoms of hepatic injury, every month for the first 3 months of treatment, and periodically thereafter. The use of TIGLUTIK is not recommended if patients develop hepatic transaminases levels greater than 5 times the ULN. Discontinue TIGLUTIK if there is evidence of liver dysfunction (e.g., elevated bilirubin). Concomitant use with other hepatotoxic drugs may increase the risk for hepatotoxicity
+ 
+  <content styleCode="italics">[see
+  
+   <linkHtml href="#S7.3">Drug Interactions (7.3)</linkHtml>]
+ 
+  </content>.
+
+ </paragraph>
+                     </text>
+                     <effectiveTime value="20191231"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="S5.2">
+                     <id root="0f2b63e5-b9f2-69ef-e063-6394a90a5572"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>5.2 Neutropenia</title>
+                     <text>
+                        <paragraph>TIGLUTIK can cause neutropenia. Cases of severe neutropenia (absolute neutrophil count less than 500 per mm
+ 
+  <sup>3</sup>) within the first 2 months of riluzole treatment have been reported. Advise patients to report febrile illnesses.
+
+ </paragraph>
+                     </text>
+                     <effectiveTime value="20191231"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="S5.3">
+                     <id root="0f2b63e5-b9f3-69ef-e063-6394a90a5572"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>5.3 Interstitial Lung Disease</title>
+                     <text>
+                        <paragraph>TIGLUTIK can cause interstitial lung disease, including hypersensitivity pneumonitis. Discontinue TIGLUTIK immediately if interstitial lung disease develops.</paragraph>
+                     </text>
+                     <effectiveTime value="20191231"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="S6">
+               <id root="0f2b63e5-b9f4-69ef-e063-6394a90a5572"/>
+               <code code="34084-4" codeSystem="2.16.840.1.113883.6.1" displayName="ADVERSE REACTIONS SECTION"/>
+               <title>6 ADVERSE REACTIONS</title>
+               <text>
+                  <paragraph>The following adverse reactions are described below and elsewhere in the labeling:</paragraph>
+                  <list listType="unordered">
+                     <item>Hepatic Injury
+  
+   <content styleCode="italics">[see
+   
+    <linkHtml href="#S5.1">Warnings and Precautions (5.1)</linkHtml>]
+  
+   </content>
+                     </item>
+                     <item>Neutropenia
+  
+   <content styleCode="italics">[see
+   
+    <linkHtml href="#S5.2">Warnings and Precautions (5.2)</linkHtml>]
+  
+   </content>
+                     </item>
+                     <item>Interstitial Lung Disease
+  
+   <content styleCode="italics">[see
+   
+    <linkHtml href="#S5.3">Warnings and Precautions (5.3)</linkHtml>]
+  
+   </content>
+                     </item>
+                  </list>
+               </text>
+               <effectiveTime value="20191231"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <paragraph>Most common adverse reactions (incidence greater than or equal to 5% and greater than placebo) were oral hypoesthesia, asthenia, nausea, decreased lung function, hypertension, and abdominal pain (
+ 
+    <linkHtml href="#S6.1">6.1</linkHtml>)
+
+   </paragraph>
+                        <br/>
+                        <paragraph>
+                           <content styleCode="bold">To report SUSPECTED ADVERSE REACTIONS, contact ITF Pharma Inc. at 1-800-664-1490 or FDA at 1-800-FDA-1088 or www.fda.gov/medwatch.</content>
+                        </paragraph>
+                     </text>
+                  </highlight>
+               </excerpt>
+               <component>
+                  <section ID="S6.1">
+                     <id root="0f2b63e5-b9f5-69ef-e063-6394a90a5572"/>
+                     <code code="90374-0" codeSystem="2.16.840.1.113883.6.1" displayName="CLINICAL TRIALS EXPERIENCE SECTION"/>
+                     <title>6.1 Clinical Trials Experience</title>
+                     <text>
+                        <paragraph>Because clinical trials are conducted under widely varying conditions, adverse reaction rates observed in the clinical trials of a drug cannot be directly compared to rates in the clinical trials of another drug and may not reflect the rates observed in practice.</paragraph>
+                     </text>
+                     <effectiveTime value="20191231"/>
+                     <component>
+                        <section>
+                           <id root="0f2b63e5-b9f6-69ef-e063-6394a90a5572"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <text>
+                              <paragraph>
+                                 <content styleCode="underline">Adverse Reactions in Controlled Clinical Trials of Riluzole Tablets</content>
+                              </paragraph>
+                              <paragraph>In the placebo-controlled clinical trials in patients with ALS (Study 1 and 2), a total of 313 patients received riluzole 50 mg twice daily
+ 
+  <content styleCode="italics">[see
+  
+   <linkHtml href="#S14">Clinical Studies (14)</linkHtml>].
+ 
+  </content>The most common adverse reactions in riluzole-treated patients (in at least 5% of patients and more frequently than on placebo) were asthenia, nausea, decreased lung function, hypertension, and abdominal pain. The most common adverse reactions leading to discontinuation in the riluzole group were nausea, abdominal pain, constipation, and elevated ALT.
+
+ </paragraph>
+                              <paragraph>There was no difference in the rate of adverse reactions leading to discontinuation between females and males. However, the incidence of dizziness was higher in females (11%) than in males (4%). The adverse reaction profile was similar in older and younger patients. There are insufficient data to assess racial differences in the adverse reaction profile.</paragraph>
+                              <paragraph>Table 1 lists adverse reactions that occurred in at least 2% of riluzole-treated patients (50 mg twice daily) in pooled Study 1 and 2, and at a higher rate than on placebo.</paragraph>
+                              <table width="75%" ID="Table1">
+                                 <caption>Table 1. Adverse Reactions in Pooled Placebo-Controlled Trials (Studies 1 and 2) in Patients with ALS</caption>
+                                 <col width="50%" align="left" valign="middle"/>
+                                 <col width="25%" align="center" valign="middle"/>
+                                 <col width="25%" align="center" valign="top"/>
+                                 <thead>
+                                    <tr>
+                                       <th>Adverse Reaction</th>
+                                       <th>Riluzole Tablets 
+     <br/>  50 mg twice daily 
+     <br/>  (N=313) 
+     <br/>  %
+    </th>
+                                       <th>Placebo 
+     <br/>  (N=320) 
+     <br/>  %
+    </th>
+                                    </tr>
+                                 </thead>
+                                 <tbody>
+                                    <tr>
+                                       <td>Asthenia</td>
+                                       <td align="center">19</td>
+                                       <td align="center">12</td>
+                                    </tr>
+                                    <tr>
+                                       <td>Nausea</td>
+                                       <td align="center">16</td>
+                                       <td align="center">11</td>
+                                    </tr>
+                                    <tr>
+                                       <td>Decreased lung function</td>
+                                       <td align="center">10</td>
+                                       <td align="center">9</td>
+                                    </tr>
+                                    <tr>
+                                       <td>Hypertension</td>
+                                       <td align="center">5</td>
+                                       <td align="center">4</td>
+                                    </tr>
+                                    <tr>
+                                       <td>Abdominal pain</td>
+                                       <td align="center">5</td>
+                                       <td align="center">4</td>
+                                    </tr>
+                                    <tr>
+                                       <td>Vomiting</td>
+                                       <td align="center">4</td>
+                                       <td align="center">2</td>
+                                    </tr>
+                                    <tr>
+                                       <td>Arthralgia</td>
+                                       <td align="center">4</td>
+                                       <td align="center">3</td>
+                                    </tr>
+                                    <tr>
+                                       <td>Dizziness</td>
+                                       <td align="center">4</td>
+                                       <td align="center">3</td>
+                                    </tr>
+                                    <tr>
+                                       <td>Dry mouth</td>
+                                       <td align="center">4</td>
+                                       <td align="center">3</td>
+                                    </tr>
+                                    <tr>
+                                       <td>Insomnia</td>
+                                       <td align="center">4</td>
+                                       <td align="center">3</td>
+                                    </tr>
+                                    <tr>
+                                       <td>Pruritus</td>
+                                       <td align="center">4</td>
+                                       <td align="center">3</td>
+                                    </tr>
+                                    <tr>
+                                       <td>Tachycardia</td>
+                                       <td align="center">3</td>
+                                       <td align="center">1</td>
+                                    </tr>
+                                    <tr>
+                                       <td>Flatulence</td>
+                                       <td align="center">3</td>
+                                       <td align="center">2</td>
+                                    </tr>
+                                    <tr>
+                                       <td>Increased cough</td>
+                                       <td align="center">3</td>
+                                       <td align="center">2</td>
+                                    </tr>
+                                    <tr>
+                                       <td>Peripheral edema</td>
+                                       <td align="center">3</td>
+                                       <td align="center">2</td>
+                                    </tr>
+                                    <tr>
+                                       <td>Urinary Tract Infection</td>
+                                       <td align="center">3</td>
+                                       <td align="center">2</td>
+                                    </tr>
+                                    <tr>
+                                       <td>Circumoral paresthesia</td>
+                                       <td align="center">2</td>
+                                       <td align="center">0</td>
+                                    </tr>
+                                    <tr>
+                                       <td>Somnolence</td>
+                                       <td align="center">2</td>
+                                       <td align="center">1</td>
+                                    </tr>
+                                    <tr>
+                                       <td>Vertigo</td>
+                                       <td align="center">2</td>
+                                       <td align="center">1</td>
+                                    </tr>
+                                    <tr>
+                                       <td>Eczema</td>
+                                       <td align="center">2</td>
+                                       <td align="center">1</td>
+                                    </tr>
+                                 </tbody>
+                              </table>
+                           </text>
+                           <effectiveTime value="20191231"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section>
+                           <id root="0f2b63e5-b9f7-69ef-e063-6394a90a5572"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <text>
+                              <paragraph>
+                                 <content styleCode="underline">Additional Adverse Reactions with TIGLUTIK</content>
+                              </paragraph>
+                              <paragraph>In an open-label pharmacokinetic study in healthy subjects (n=36), oral hypoesthesia was observed in 29% of subjects taking TIGLUTIK, compared to 6% in patients taking riluzole tablets, under fasting conditions.</paragraph>
+                           </text>
+                           <effectiveTime value="20191231"/>
+                        </section>
+                     </component>
+                  </section>
+               </component>
+               <component>
+                  <section ID="S6.2">
+                     <id root="0f2b63e5-b9f8-69ef-e063-6394a90a5572"/>
+                     <code code="90375-7" codeSystem="2.16.840.1.113883.6.1" displayName="POSTMARKETING EXPERIENCE SECTION"/>
+                     <title>6.2 Postmarketing Experience</title>
+                     <text>
+                        <paragraph>The following adverse reactions have been identified during post-approval use of riluzole. Because these reactions are reported voluntarily from a population of uncertain size, it is not always possible to reliably estimate their frequency or establish a causal relationship to drug exposure.</paragraph>
+                        <list listType="unordered">
+                           <item>Acute hepatitis and icteric toxic hepatitis
+  
+   <content styleCode="italics">[see
+   
+    <linkHtml href="#S5.1">Warnings and Precautions (5.1)</linkHtml>]
+  
+   </content>
+                           </item>
+                           <item>Renal tubular impairment</item>
+                           <item>Pancreatitis</item>
+                        </list>
+                     </text>
+                     <effectiveTime value="20200301"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="S7">
+               <id root="0f2b63e5-b9f9-69ef-e063-6394a90a5572"/>
+               <code code="34073-7" codeSystem="2.16.840.1.113883.6.1" displayName="DRUG INTERACTIONS SECTION"/>
+               <title>7 DRUG INTERACTIONS</title>
+               <effectiveTime value="20191231"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <list listType="unordered">
+                           <item>Strong to moderate CYP1A2 inhibitors: Co-administration may increase TIGLUTIK-associated adverse reactions (
+  
+     <linkHtml href="#S7.1">7.1</linkHtml>)
+ 
+    </item>
+                           <item>Strong to moderate CYP1A2 inducers: Co-administration may result in decreased efficacy (
+  
+     <linkHtml href="#S7.2">7.2</linkHtml>)
+ 
+    </item>
+                           <item>Hepatotoxic drugs: TIGLUTIK-treated patients that take other hepatotoxic drugs may be at increased risk for hepatotoxicity (
+  
+     <linkHtml href="#S7.3">7.3</linkHtml>)
+ 
+    </item>
+                        </list>
+                     </text>
+                  </highlight>
+               </excerpt>
+               <component>
+                  <section ID="S7.1">
+                     <id root="0f2b63e5-b9fa-69ef-e063-6394a90a5572"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>7.1 Agents that may Increase Riluzole Blood Concentrations</title>
+                     <effectiveTime value="20191231"/>
+                     <component>
+                        <section>
+                           <id root="0f2b63e5-b9fb-69ef-e063-6394a90a5572"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <text>
+                              <paragraph>
+                                 <content styleCode="underline">CYP1A2 Inhibitors</content>
+                              </paragraph>
+                              <paragraph>Co-administration of riluzole (a CYP1A substrate) with CYP1A2 inhibitors was not evaluated in a clinical trial; however, in vitro findings suggest an increase in riluzole exposure is likely. The concomitant use of strong or moderate CYP1A2 inhibitors (e.g., ciprofloxacin, enoxacin, fluvoxamine, methoxsalen, mexiletine, oral contraceptives, thiabendazole, vemurafenib, zileuton) with TIGLUTIK may increase the risk of TIGLUTIK - associated adverse reactions
+ 
+  <content styleCode="italics">[see
+  
+   <linkHtml href="#S12.3">Clinical Pharmacology (12.3)</linkHtml>].
+ 
+  </content>
+                              </paragraph>
+                           </text>
+                           <effectiveTime value="20191231"/>
+                        </section>
+                     </component>
+                  </section>
+               </component>
+               <component>
+                  <section ID="S7.2">
+                     <id root="0f2b63e5-b9fc-69ef-e063-6394a90a5572"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>7.2 Agents that may Decrease Riluzole Plasma Concentrations</title>
+                     <effectiveTime value="20191231"/>
+                     <component>
+                        <section>
+                           <id root="0f2b63e5-b9fd-69ef-e063-6394a90a5572"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <text>
+                              <paragraph>
+                                 <content styleCode="underline">CYP1A2 Inducers</content>
+                              </paragraph>
+                              <paragraph>Co-administration of riluzole (a CYP1A substrate) with CYP1A2 inducers was not evaluated in a clinical trial; however, in vitro findings suggest a decrease in riluzole exposure is likely. Lower exposures may result in decreased efficacy
+ 
+  <content styleCode="italics">[see
+  
+   <linkHtml href="#S12.3">Clinical Pharmacology (12.3)</linkHtml>]
+ 
+  </content>.
+
+ </paragraph>
+                           </text>
+                           <effectiveTime value="20191231"/>
+                        </section>
+                     </component>
+                  </section>
+               </component>
+               <component>
+                  <section ID="S7.3">
+                     <id root="0f2b63e5-b9fe-69ef-e063-6394a90a5572"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>7.3 Hepatotoxic Drugs</title>
+                     <text>
+                        <paragraph>Clinical trials in ALS patients excluded patients on concomitant medications which were potentially hepatotoxic (e.g., allopurinol, methyldopa, sulfasalazine). TIGLUTIK-treated patients who take other hepatotoxic drugs may be at an increased risk for hepatotoxicity
+ 
+  <content styleCode="italics">[see
+  
+   <linkHtml href="#S5.1">Warnings and Precautions (5.1)</linkHtml>].
+ 
+  </content>
+                        </paragraph>
+                     </text>
+                     <effectiveTime value="20191231"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="S8">
+               <id root="0f2b63e5-b9ff-69ef-e063-6394a90a5572"/>
+               <code code="43684-0" codeSystem="2.16.840.1.113883.6.1" displayName="USE IN SPECIFIC POPULATIONS SECTION"/>
+               <title>8 USE IN SPECIFIC POPULATIONS</title>
+               <effectiveTime value="20191231"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <list listType="unordered">
+                           <item>Pregnancy: Based on animal data, may cause fetal harm (
+  
+     <linkHtml href="#S8.1">8.1</linkHtml>)
+ 
+    </item>
+                        </list>
+                     </text>
+                  </highlight>
+               </excerpt>
+               <component>
+                  <section ID="S8.1">
+                     <id root="0f2b63e5-ba00-69ef-e063-6394a90a5572"/>
+                     <code code="42228-7" codeSystem="2.16.840.1.113883.6.1" displayName="PREGNANCY SECTION"/>
+                     <title>8.1 Pregnancy</title>
+                     <effectiveTime value="20191231"/>
+                     <component>
+                        <section>
+                           <id root="0f2b63e5-ba01-69ef-e063-6394a90a5572"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <text>
+                              <paragraph>
+                                 <content styleCode="underline">Risk Summary</content>
+                              </paragraph>
+                              <paragraph>There are no studies of riluzole in pregnant women, and case reports have been inadequate to inform the drug-associated risk. The background risk for major birth defects and miscarriage in patients with amyotrophic lateral sclerosis is unknown. In the U.S. general population, the background risk of major birth defects and miscarriage in clinically recognized pregnancies is 2-4% and 15-20%, respectively.</paragraph>
+                              <paragraph>In studies in which riluzole was administered orally to pregnant animals, developmental toxicity (decreased embryofetal/offspring viability, growth, and functional development) was observed at clinically relevant doses
+ 
+  <content styleCode="italics">[see
+  
+   <linkHtml href="#Data">Data</linkHtml>]
+ 
+  </content>. Based on these results, women should be advised of a possible risk to the fetus associated with use of TIGLUTIK during pregnancy.
+
+ </paragraph>
+                           </text>
+                           <effectiveTime value="20191231"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section ID="Data">
+                           <id root="0f2b63e5-ba02-69ef-e063-6394a90a5572"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <text>
+                              <paragraph>
+                                 <content styleCode="underline">Data</content>
+                              </paragraph>
+                           </text>
+                           <effectiveTime value="20191231"/>
+                           <component>
+                              <section>
+                                 <id root="0f2b63e5-ba03-69ef-e063-6394a90a5572"/>
+                                 <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                                 <text>
+                                    <paragraph>
+                                       <content styleCode="italics">Animal Data</content>
+                                    </paragraph>
+                                    <paragraph>Oral administration of riluzole (3, 9, or 27 mg/kg/day) to pregnant rats during the period of organogenesis resulted in decreases in fetal growth (body weight and length) at the high dose. The mid dose, a no-effect dose for embryofetal developmental toxicity, is approximately equal to the recommended human daily dose (RHDD, 100 mg) on a mg/m2 basis. When riluzole was administered orally (3, 10, or 60 mg/kg/day) to pregnant rabbits during the period of organogenesis, embryofetal mortality was increased at the high dose and fetal body weight was decreased and morphological variations increased at all but the lowest dose tested. The no-effect dose (3 mg/kg/day) for embryofetal developmental toxicity is less than the RHDD on a mg/m2 basis. Maternal toxicity was observed at the highest dose tested in rat and rabbit.</paragraph>
+                                    <paragraph>When riluzole was orally administered (3, 8, or 15 mg/kg/day) to male and female rats prior to and during mating and to female rats throughout gestation and lactation, increased embryofetal mortality and decreased postnatal offspring viability, growth, and functional development were observed at the high dose. The mid dose, a no-effect dose for pre- and postnatal developmental toxicity, is approximately equal to the RHDD on a mg/m2 basis.</paragraph>
+                                 </text>
+                                 <effectiveTime value="20191231"/>
+                              </section>
+                           </component>
+                        </section>
+                     </component>
+                  </section>
+               </component>
+               <component>
+                  <section ID="S8.2">
+                     <id root="0f2b63e5-ba04-69ef-e063-6394a90a5572"/>
+                     <code code="77290-5" codeSystem="2.16.840.1.113883.6.1" displayName="LACTATION SECTION"/>
+                     <title>8.2 Lactation</title>
+                     <effectiveTime value="20191231"/>
+                     <component>
+                        <section>
+                           <id root="0f2b63e5-ba05-69ef-e063-6394a90a5572"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <text>
+                              <paragraph>
+                                 <content styleCode="underline">Risk Summary</content>
+                              </paragraph>
+                              <paragraph>There are no data on the presence of riluzole in human milk, the effects on the breastfed infant, or the effects on milk production. Riluzole or its metabolites have been detected in milk of lactating rat. The developmental and health benefits of breastfeeding should be considered along with the mother's clinical need for TIGLUTIK and any potential adverse effects on the breastfed infant from TIGLUTIK or from the underlying maternal condition.</paragraph>
+                           </text>
+                           <effectiveTime value="20191231"/>
+                        </section>
+                     </component>
+                  </section>
+               </component>
+               <component>
+                  <section ID="S8.3">
+                     <id root="0f2b63e5-ba06-69ef-e063-6394a90a5572"/>
+                     <code code="77291-3" codeSystem="2.16.840.1.113883.6.1" displayName="FEMALES &amp; MALES OF REPRODUCTIVE POTENTIAL SECTION"/>
+                     <title>8.3 Females and Males of Reproductive Potential</title>
+                     <text>
+                        <paragraph>In rats, oral administration of riluzole resulted in decreased fertility indices and increases in embryolethality
+ 
+  <content styleCode="italics">[see
+  
+   <linkHtml href="#S13.1">Nonclinical Toxicology (13.1)</linkHtml>].
+ 
+  </content>
+                        </paragraph>
+                     </text>
+                     <effectiveTime value="20191231"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="S8.4">
+                     <id root="0f2b63e5-ba07-69ef-e063-6394a90a5572"/>
+                     <code code="34081-0" codeSystem="2.16.840.1.113883.6.1" displayName="PEDIATRIC USE SECTION"/>
+                     <title>8.4 Pediatric Use</title>
+                     <text>
+                        <paragraph>Safety and effectiveness in pediatric patients have not been established.</paragraph>
+                     </text>
+                     <effectiveTime value="20191231"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="S8.5">
+                     <id root="0f2b63e5-ba08-69ef-e063-6394a90a5572"/>
+                     <code code="34082-8" codeSystem="2.16.840.1.113883.6.1" displayName="GERIATRIC USE SECTION"/>
+                     <title>8.5 Geriatric Use</title>
+                     <text>
+                        <paragraph>In clinical studies of riluzole, 30% of patients were 65 years and over. No overall differences in safety or effectiveness were observed between these patients and younger patients, and other reported clinical experience has not identified differences in responses between the elderly and younger patients, but greater sensitivity of some older individuals cannot be ruled out.</paragraph>
+                     </text>
+                     <effectiveTime value="20191231"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="S8.6">
+                     <id root="0f2b63e5-ba09-69ef-e063-6394a90a5572"/>
+                     <code code="88829-7" codeSystem="2.16.840.1.113883.6.1" displayName="HEPATIC IMPAIRMENT SUBSECTION"/>
+                     <title>8.6 Hepatic Impairment</title>
+                     <text>
+                        <paragraph>Patients with mild [Child-Pugh's (CP) score A] or moderate (CP score B) hepatic impairment had increases in AUC, compared to patients with normal hepatic function. Thus, patients with mild or moderate hepatic impairment may be at increased risk of adverse reactions. The impact of severe hepatic impairment on riluzole exposure is unknown.</paragraph>
+                        <paragraph>Use of TIGLUTIK is not recommended in patients with baseline elevations of serum aminotransferases greater than 5 times upper limit of normal or evidence of liver dysfunction (e.g., elevated bilirubin)
+ 
+  <content styleCode="italics">[see
+  
+   <linkHtml href="#S12.3">Clinical Pharmacology (12.3)</linkHtml>].
+ 
+  </content>
+                        </paragraph>
+                     </text>
+                     <effectiveTime value="20191231"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="S8.7">
+                     <id root="0f2b63e5-ba0a-69ef-e063-6394a90a5572"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>8.7 Japanese Patients</title>
+                     <text>
+                        <paragraph>Japanese patients are more likely to have higher riluzole concentrations. Consequently, the risk of adverse reactions may be greater in Japanese patients
+ 
+  <content styleCode="italics">[see
+  
+   <linkHtml href="#S12.3">Clinical Pharmacology (12.3)</linkHtml>].
+ 
+  </content>
+                        </paragraph>
+                     </text>
+                     <effectiveTime value="20191231"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="S10">
+               <id root="0f2b63e5-ba0b-69ef-e063-6394a90a5572"/>
+               <code code="34088-5" codeSystem="2.16.840.1.113883.6.1" displayName="OVERDOSAGE SECTION"/>
+               <title>10 OVERDOSAGE</title>
+               <text>
+                  <paragraph>Reported symptoms of overdose following ingestion of riluzole ranging from 1.5 to 3 grams (30 to 60 times the recommended dose) included acute toxic encephalopathy, coma, drowsiness, memory loss, and methemoglobinemia.</paragraph>
+                  <paragraph>No specific antidote for the treatment of TIGLUTIK overdose is available. For current information on the management of poisoning or overdosage, contact a certified poison control center.</paragraph>
+               </text>
+               <effectiveTime value="20191231"/>
+            </section>
+         </component>
+         <component>
+            <section ID="S11">
+               <id root="0f2b63e5-ba0c-69ef-e063-6394a90a5572"/>
+               <code code="34089-3" codeSystem="2.16.840.1.113883.6.1" displayName="DESCRIPTION SECTION"/>
+               <title>11 DESCRIPTION</title>
+               <text>
+                  <paragraph>Riluzole is a member of the benzothiazole class. The chemical designation for riluzole is 2-amino-6-(trifluoromethoxy)benzothiazole. Its molecular formula is C
+ 
+  <sub>8</sub>H
+ 
+  <sub>5</sub>F
+ 
+  <sub>3</sub>N
+ 
+  <sub>2</sub>OS, and its molecular weight is 234.2. The chemical structure is:
+
+ </paragraph>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="MM1"/>
+                  </paragraph>
+                  <paragraph>Riluzole is a white to slightly yellow powder that is very soluble in dimethylformamide, dimethylsulfoxide, and methanol; freely soluble in dichloromethane; sparingly soluble in 0.1 N HCl; and very slightly soluble in water and in 0.1 N NaOH.</paragraph>
+                  <paragraph>TIGLUTIK (50 mg/10mL) oral suspension is a slightly brown, opaque, homogeneous suspension containing 50 mg of riluzole per 10 mL of suspension.</paragraph>
+                  <paragraph>TIGLUTIK also contains the following inactive ingredients: magnesium aluminum silicate, noncrystallizing sorbitol solution, polyoxyl 20 cetostearyl ether, purified water, saccharin sodium, simethicone emulsion, sodium lauryl sulfate, and xanthan gum.</paragraph>
+               </text>
+               <effectiveTime value="20191231"/>
+               <component>
+                  <observationMedia ID="MM1">
+                     <text>Chemical Structure</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="tiglutik-01.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="S12">
+               <id root="0f2b63e5-ba0d-69ef-e063-6394a90a5572"/>
+               <code code="34090-1" codeSystem="2.16.840.1.113883.6.1" displayName="CLINICAL PHARMACOLOGY SECTION"/>
+               <title>12 CLINICAL PHARMACOLOGY</title>
+               <effectiveTime value="20191231"/>
+               <component>
+                  <section ID="S12.1">
+                     <id root="0f2b63e5-ba0e-69ef-e063-6394a90a5572"/>
+                     <code code="43679-0" codeSystem="2.16.840.1.113883.6.1" displayName="MECHANISM OF ACTION SECTION"/>
+                     <title>12.1 Mechanism of Action</title>
+                     <text>
+                        <paragraph>The mechanism by which riluzole exerts its therapeutic effects in patients with ALS is unknown.</paragraph>
+                     </text>
+                     <effectiveTime value="20191231"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="S12.2">
+                     <id root="0f2b63e5-ba0f-69ef-e063-6394a90a5572"/>
+                     <code code="43681-6" codeSystem="2.16.840.1.113883.6.1" displayName="PHARMACODYNAMICS SECTION"/>
+                     <title>12.2 Pharmacodynamics</title>
+                     <text>
+                        <paragraph>The clinical pharmacodynamics of riluzole has not been determined in humans.</paragraph>
+                     </text>
+                     <effectiveTime value="20191231"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="S12.3">
+                     <id root="0f2b63e5-ba10-69ef-e063-6394a90a5572"/>
+                     <code code="43682-4" codeSystem="2.16.840.1.113883.6.1" displayName="PHARMACOKINETICS SECTION"/>
+                     <title>12.3 Pharmacokinetics</title>
+                     <text>
+                        <paragraph>A pharmacokinetic study in healthy adult subjects who received riluzole suspension 50 mg under fasting conditions demonstrated similar pharmacokinetics following intragastric administration via feeding tubes and oral administration.</paragraph>
+                        <paragraph>Table 2 displays the pharmacokinetic parameters of riluzole.</paragraph>
+                        <table width="90%">
+                           <caption>Table 2. Pharmacokinetics of Riluzole
+  
+   <footnote ID="K1475">Unless otherwise stated, information in this table is based on pharmacokinetic studies of riluzole tablets.</footnote>
+                           </caption>
+                           <col width="45%" align="left" valign="middle"/>
+                           <col width="55%" align="left" valign="bottom"/>
+                           <tbody>
+                              <tr>
+                                 <td colspan="2">
+                                    <content styleCode="bold">Absorption</content>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td>  Bioavailability (oral)</td>
+                                 <td>Approximately 60%</td>
+                              </tr>
+                              <tr>
+                                 <td>  Dose Proportionality</td>
+                                 <td>Linear over a dose range of 25 mg to 100 mg every 12 hours (1/2 to 2 times the recommended dosage)</td>
+                              </tr>
+                              <tr>
+                                 <td>  Food effect
+    
+     <footnote ID="ft1">Information specific to TIGLUTIK</footnote>
+                                 </td>
+                                 <td>AUC ↓ 9% and Cmax ↓ 55% (high fat meal)</td>
+                              </tr>
+                              <tr styleCode="Botrule">
+                                 <td>  Time to peak plasma concentration (median)
+    
+     <footnoteRef IDREF="ft1"/>
+                                 </td>
+                                 <td>0.8 hours</td>
+                              </tr>
+                              <tr>
+                                 <td colspan="2">
+                                    <content styleCode="bold">Distribution</content>
+                                 </td>
+                              </tr>
+                              <tr styleCode="Botrule">
+                                 <td>  Plasma Protein Binding</td>
+                                 <td>96% (Mainly to albumin and lipoproteins)</td>
+                              </tr>
+                              <tr>
+                                 <td colspan="2">
+                                    <content styleCode="bold">Elimination</content>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td>  Elimination half-life</td>
+                                 <td>
+                                    <list listType="unordered" styleCode="Disc">
+                                       <item>12 hours (CV=35%) 
+       <br/>
+                                       </item>
+                                       <item>The high individual variability in the clearance of riluzole is potentially attributable to variability of CYP1A2. The clinical implications are not known.</item>
+                                    </list>
+                                 </td>
+                              </tr>
+                              <tr styleCode="Botrule">
+                                 <td>  Accumulation</td>
+                                 <td>Approximately 2-fold</td>
+                              </tr>
+                              <tr>
+                                 <td colspan="2">
+                                    <content styleCode="italics">Metabolism</content>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td>  Fraction metabolized (% dose)</td>
+                                 <td>At least 88%</td>
+                              </tr>
+                              <tr>
+                                 <td>  Primary metabolic pathway(s) [in vitro]</td>
+                                 <td>
+                                    <list listType="unordered" styleCode="Disc">
+                                       <item>Oxidation: CYP1A2 
+       <br/>
+                                       </item>
+                                       <item>Direct and sequential glucoronidation: UGT-HP4</item>
+                                    </list>
+                                 </td>
+                              </tr>
+                              <tr styleCode="Botrule">
+                                 <td>  Active Metabolites</td>
+                                 <td>Some metabolites appear pharmacologically active in vitro, but the clinical implications are not known.</td>
+                              </tr>
+                              <tr>
+                                 <td colspan="2">
+                                    <content styleCode="italics">Excretion</content>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td>  Primary elimination pathways (% dose)</td>
+                                 <td>
+                                    <list listType="unordered" styleCode="Disc">
+                                       <item>Feces: 5% 
+       <br/>
+                                       </item>
+                                       <item>Urine: 90% (2% unchanged riluzole)</item>
+                                    </list>
+                                 </td>
+                              </tr>
+                           </tbody>
+                        </table>
+                     </text>
+                     <effectiveTime value="20191231"/>
+                     <component>
+                        <section>
+                           <id root="0f2b63e5-ba11-69ef-e063-6394a90a5572"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <text>
+                              <paragraph>
+                                 <content styleCode="underline">Specific Populations</content>
+                              </paragraph>
+                           </text>
+                           <effectiveTime value="20191231"/>
+                           <component>
+                              <section>
+                                 <id root="0f2b63e5-ba12-69ef-e063-6394a90a5572"/>
+                                 <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                                 <text>
+                                    <paragraph>
+                                       <content styleCode="italics">Hepatic Impairment</content>
+                                    </paragraph>
+                                    <paragraph>Compared with healthy volunteers, the AUC of riluzole was approximately 1.7-fold greater in patients with mild chronic hepatic impairment (CP score A), and approximately 3-fold greater in patients with moderate chronic hepatic impairment (CP score B). The pharmacokinetics of riluzole have not been studied in patients with severe hepatic impairment (CP score C)
+ 
+  <content styleCode="italics">[see
+  
+   <linkHtml href="#S8.6">Use in Specific Populations (8.6)</linkHtml>].
+ 
+  </content>
+                                    </paragraph>
+                                 </text>
+                                 <effectiveTime value="20191231"/>
+                              </section>
+                           </component>
+                           <component>
+                              <section>
+                                 <id root="0f2b63e5-ba13-69ef-e063-6394a90a5572"/>
+                                 <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                                 <text>
+                                    <paragraph>
+                                       <content styleCode="italics">Race</content>
+                                    </paragraph>
+                                    <paragraph>The clearance of riluzole was 50% lower in male Japanese subjects than in Caucasian subjects, after normalizing for body weight
+ 
+  <content styleCode="italics">[see
+  
+   <linkHtml href="#S8.7">Use in Specific Populations (8.7)</linkHtml>].
+ 
+  </content>
+                                    </paragraph>
+                                 </text>
+                                 <effectiveTime value="20191231"/>
+                              </section>
+                           </component>
+                           <component>
+                              <section>
+                                 <id root="0f2b63e5-ba14-69ef-e063-6394a90a5572"/>
+                                 <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                                 <text>
+                                    <paragraph>
+                                       <content styleCode="italics">Gender</content>
+                                    </paragraph>
+                                    <paragraph>The mean AUC of riluzole was approximately 45% higher in female patients than male patients.</paragraph>
+                                 </text>
+                                 <effectiveTime value="20191231"/>
+                              </section>
+                           </component>
+                           <component>
+                              <section>
+                                 <id root="0f2b63e5-ba15-69ef-e063-6394a90a5572"/>
+                                 <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                                 <text>
+                                    <paragraph>
+                                       <content styleCode="italics">Smokers</content>
+                                    </paragraph>
+                                    <paragraph>The clearance of riluzole in tobacco smokers was 20% greater than in nonsmokers.
+ 
+  <content styleCode="italics">Geriatric Patients and Patients with Moderate to Severe Renal Impairment</content>Age 65 years or older and moderate to severe renal impairment do not have a meaningful effect on the pharmacokinetics of riluzole. The pharmacokinetics of riluzole in patients undergoing hemodialysis are unknown.
+
+ </paragraph>
+                                 </text>
+                                 <effectiveTime value="20191231"/>
+                              </section>
+                           </component>
+                        </section>
+                     </component>
+                     <component>
+                        <section>
+                           <id root="0f2b63e5-ba16-69ef-e063-6394a90a5572"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <text>
+                              <paragraph>
+                                 <content styleCode="underline">Drug Interaction Studies</content>
+                              </paragraph>
+                           </text>
+                           <effectiveTime value="20191231"/>
+                           <component>
+                              <section>
+                                 <id root="0f2b63e5-ba17-69ef-e063-6394a90a5572"/>
+                                 <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                                 <text>
+                                    <paragraph>
+                                       <content styleCode="italics">Drugs Highly Bound to Plasma Proteins</content>
+                                    </paragraph>
+                                    <paragraph>Riluzole and warfarin are highly bound to plasma proteins. In vitro, riluzole did not show any displacement of warfarin from plasma proteins. Riluzole binding to plasma proteins was unaffected by warfarin, digoxin, imipramine and quinine at high therapeutic concentrations in vitro.</paragraph>
+                                 </text>
+                                 <effectiveTime value="20191231"/>
+                              </section>
+                           </component>
+                        </section>
+                     </component>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="S13">
+               <id root="0f2b63e5-ba18-69ef-e063-6394a90a5572"/>
+               <code code="43680-8" codeSystem="2.16.840.1.113883.6.1" displayName="NONCLINICAL TOXICOLOGY SECTION"/>
+               <title>13 NONCLINICAL TOXICOLOGY</title>
+               <effectiveTime value="20191231"/>
+               <component>
+                  <section ID="S13.1">
+                     <id root="0f2b63e5-ba19-69ef-e063-6394a90a5572"/>
+                     <code code="34083-6" codeSystem="2.16.840.1.113883.6.1" displayName="CARCINOGENESIS &amp; MUTAGENESIS &amp; IMPAIRMENT OF FERTILITY SECTION"/>
+                     <title>13.1 Carcinogenesis, Mutagenesis, Impairment of Fertility</title>
+                     <effectiveTime value="20191231"/>
+                     <component>
+                        <section>
+                           <id root="0f2b63e5-ba1a-69ef-e063-6394a90a5572"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <text>
+                              <paragraph>
+                                 <content styleCode="underline">Carcinogenesis</content>
+                              </paragraph>
+                              <paragraph>Riluzole was not carcinogenic in mice or rats when administered for 2 years at daily oral doses up to 20 and 10 mg/kg/day, respectively, which are approximately equal to the recommended human daily dose (RHDD, 100 mg) on a mg/m2 basis.</paragraph>
+                           </text>
+                           <effectiveTime value="20191231"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section>
+                           <id root="0f2b63e5-ba1b-69ef-e063-6394a90a5572"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <text>
+                              <paragraph>
+                                 <content styleCode="underline">Mutagenesis</content>
+                              </paragraph>
+                              <paragraph>Riluzole was negative in
+ 
+  <content styleCode="italics">in vitro</content>(bacterial reverse mutation (Ames), mouse lymphoma tk, chromosomal aberration assay in human lymphocytes), and in
+ 
+  <content styleCode="italics">in vivo</content>(rat cytogenetic and mouse micronucleus) assays.
+
+ </paragraph>
+                              <paragraph>N-hydroxyriluzole, the major active metabolite of riluzole, was positive for clastogenicity in the in vitro mouse lymphoma tk assay and in the in vitro micronucleus assay using the same mouse lymphoma cell line. N-hydroxyriluzole was negative in the HPRT gene mutation assay, the Ames assay (with and without rat or hamster S9), the in vitro chromosomal aberration assay in human lymphocytes, and the in vivo mouse micronucleus assay.</paragraph>
+                           </text>
+                           <effectiveTime value="20191231"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section>
+                           <id root="0f2b63e5-ba1c-69ef-e063-6394a90a5572"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <text>
+                              <paragraph>
+                                 <content styleCode="underline">Impairment of Fertility</content>
+                              </paragraph>
+                              <paragraph>When riluzole (3, 8, or 15 mg/kg) was administered orally to male and female rats prior to and during mating and continuing in females throughout gestation and lactation, fertility indices were decreased and embryolethality was increased at the high dose. This dose was also associated with maternal toxicity. The mid dose, a no-effect dose for effects on fertility and early embryonic development, is approximately equal to the RHDD on a mg/m2 basis.</paragraph>
+                           </text>
+                           <effectiveTime value="20191231"/>
+                        </section>
+                     </component>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="S14">
+               <id root="0f2b63e5-ba1d-69ef-e063-6394a90a5572"/>
+               <code code="34092-7" codeSystem="2.16.840.1.113883.6.1" displayName="CLINICAL STUDIES SECTION"/>
+               <title>14 CLINICAL STUDIES</title>
+               <text>
+                  <paragraph>The efficacy of TIGLUTIK is based upon bioavailability studies comparing oral riluzole tablets to TIGLUTIK oral suspension
+ 
+  <content styleCode="italics">[see
+  
+   <linkHtml href="#S12.3">Clinical Pharmacology (12.3)</linkHtml>].
+ 
+  </content>
+                  </paragraph>
+                  <paragraph>The efficacy of riluzole was demonstrated in two studies (Study 1 and 2) that evaluated 50 mg riluzole oral tablets twice daily in patients with amyotrophic lateral sclerosis (ALS). Both studies included patients with either familial or sporadic ALS, disease duration of less than 5 years, and baseline forced vital capacity greater than or equal to 60% of normal.</paragraph>
+                  <paragraph>Study 1 was a randomized, double-blind, placebo-controlled clinical study that enrolled 155 patients with ALS. Patients were randomized to receive riluzole 50 mg twice daily (n=77) or placebo (n=78) and were followed for at least 13 months (up to a maximum duration of 18 months). The clinical outcome measure was time to tracheostomy or death.</paragraph>
+                  <paragraph>The time to tracheostomy or death was longer for patients receiving riluzole compared to placebo. There was an early increase in survival in patients receiving riluzole compared to placebo. Figure 1 displays the survival curves for time to death or tracheostomy. The vertical axis represents the proportion of individuals alive without tracheostomy at various times following treatment initiation (horizontal axis). Although these survival curves were not statistically significantly different when evaluated by the analysis specified in the study protocol (Logrank test p=0.12), the difference was found to be significant by another appropriate analysis (Wilcoxon test p=0.05). As seen in Figure 1, the study showed an early increase in survival in patients given riluzole. Among the patients in whom the endpoint of tracheostomy or death was reached during the study, the difference in median survival between the riluzole 50 mg twice daily and placebo groups was approximately 90 days.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Figure 1. Time to Tracheostomy or Death in ALS Patients in Study 1 (Kaplan-Meier Curves)</content>
+                  </paragraph>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="MM2"/>
+                  </paragraph>
+                  <paragraph>Study 2 was a randomized, double-blind, placebo-controlled clinical study that enrolled 959 patients with ALS. Patients were randomized to riluzole 50 mg twice daily (n=236) or placebo (n=242) and were followed for at least 12 months (up to a maximum duration of 18 months). The clinical outcome measure was time to tracheostomy or death.</paragraph>
+                  <paragraph>The time to tracheostomy or death was longer for patients receiving riluzole compared to placebo. Figure 2 displays the survival curves for time to death or tracheostomy for patients randomized to either riluzole 100 mg per day or placebo. Although these survival curves were not statistically significantly different when evaluated by the analysis specified in the study protocol (Logrank test p=0.076), the difference was found to be significant by another appropriate analysis (Wilcoxon test p=0.05). Not displayed in Figure 2 are the results of riluzole 50 mg per day (one-half of the recommended daily dose), which could not be statistically distinguished from placebo, or the results of riluzole 200 mg per day (two times the recommended daily dose), which were not distinguishable from the 100 mg per day results. Among the patients in whom the endpoint of tracheostomy or death was reached during the study, the difference in median survival between riluzole and placebo was approximately 60 days.</paragraph>
+                  <paragraph>Although riluzole improved survival in both studies, measures of muscle strength and neurological function did not show a benefit.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Figure 2. Time to Tracheostomy or Death in ALS Patients in Study 2 (Kaplan-Meier Curves)</content>
+                  </paragraph>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="MM3"/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20191231"/>
+               <component>
+                  <observationMedia ID="MM2">
+                     <text>Figure 1</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="tiglutik-02.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="MM3">
+                     <text>Figure 2</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="tiglutik-03.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="S16">
+               <id root="0f2b63e5-ba1e-69ef-e063-6394a90a5572"/>
+               <code code="34069-5" codeSystem="2.16.840.1.113883.6.1" displayName="HOW SUPPLIED SECTION"/>
+               <title>16 HOW SUPPLIED/STORAGE AND HANDLING</title>
+               <effectiveTime value="20191231"/>
+               <component>
+                  <section>
+                     <id root="0f2b63e5-ba1f-69ef-e063-6394a90a5572"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>16.1 How Supplied</title>
+                     <text>
+                        <paragraph>TIGLUTIK (50 mg/10 mL) oral suspension is supplied in amber glass bottles closed with child-resistant tamper evident screw caps. Each bottle contains 300 mL of oral suspension and is intended for multi-dose use, NDC 70726-0303-2.</paragraph>
+                        <paragraph>TIGLUTIK is supplied in a carton, NDC 70726-0303-1, containing:</paragraph>
+                        <list listType="unordered">
+                           <item>Two bottles, each containing 300 mL oral suspension</item>
+                           <item>Two 10 mL oral syringes</item>
+                           <item>Two syringe bottle adapters</item>
+                           <item>Two syringe tip caps</item>
+                           <item>Prescribing Information, including Instructions for Use</item>
+                        </list>
+                     </text>
+                     <effectiveTime value="20191231"/>
+                  </section>
+               </component>
+               <component>
+                  <section>
+                     <id root="0f2b63e5-ba20-69ef-e063-6394a90a5572"/>
+                     <code code="44425-7" codeSystem="2.16.840.1.113883.6.1" displayName="STORAGE AND HANDLING SECTION"/>
+                     <title>16.2 Storage and Handling</title>
+                     <text>
+                        <paragraph>Store at 20-25°C (68-77°F), excursions permitted to 15-30°C (59-86°F) [see USP Controlled Room Temperature], and protect from bright light. Do not freeze. Store upright.</paragraph>
+                        <paragraph>Use within 15 days after initially opening of each bottle. Discard any unused TIGLUTIK remaining after 15 days of first opening of the bottle.</paragraph>
+                     </text>
+                     <effectiveTime value="20191231"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="S17">
+               <id root="0f2b63e5-ba21-69ef-e063-6394a90a5572"/>
+               <code code="34076-0" codeSystem="2.16.840.1.113883.6.1" displayName="INFORMATION FOR PATIENTS SECTION"/>
+               <title>17 PATIENT COUNSELING INFORMATION</title>
+               <text>
+                  <paragraph>Advise the patient to read the FDA-approved patient labeling (Instructions for Use).</paragraph>
+               </text>
+               <effectiveTime value="20191231"/>
+               <component>
+                  <section>
+                     <id root="0f2b63e5-ba22-69ef-e063-6394a90a5572"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <text>
+                        <paragraph>
+                           <content styleCode="underline">Administration Instructions</content>
+                        </paragraph>
+                        <paragraph>Instruct patients to discard any unused TIGLUTIK after 15 days of opening the bottle. If the patient requires administration of TIGLUTIK via PEG tube, refer the patient/caregiver to the Instructions for Use for steps on how to take/give TIGLUTIK.</paragraph>
+                     </text>
+                     <effectiveTime value="20191231"/>
+                  </section>
+               </component>
+               <component>
+                  <section>
+                     <id root="0f2b63e5-ba23-69ef-e063-6394a90a5572"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <text>
+                        <paragraph>
+                           <content styleCode="underline">Hepatic Injury</content>
+                        </paragraph>
+                        <paragraph>Advise patients that TIGLUTIK can cause liver injury, which can be fatal. Inform patients of the clinical signs or symptoms suggestive of hepatic dysfunction (e.g., unexplained nausea, vomiting, abdominal pain, fatigue, anorexia, or jaundice and/or dark urine) and to contact a healthcare provider promptly if these signs or symptoms occur
+ 
+  <content styleCode="italics">[see
+  
+   <linkHtml href="#S5.1">Warnings and Precautions (5.1)</linkHtml>].
+ 
+  </content>
+                        </paragraph>
+                     </text>
+                     <effectiveTime value="20191231"/>
+                  </section>
+               </component>
+               <component>
+                  <section>
+                     <id root="0f2b63e5-ba24-69ef-e063-6394a90a5572"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <text>
+                        <paragraph>
+                           <content styleCode="underline">Neutropenia</content>
+                        </paragraph>
+                        <paragraph>Advise patients that TIGLUTIK can cause neutropenia, and to report to their healthcare provider if they have a fever
+ 
+  <content styleCode="italics">[see
+  
+   <linkHtml href="#S5.2">Warnings and Precautions (5.2)</linkHtml>].
+ 
+  </content>
+                        </paragraph>
+                     </text>
+                     <effectiveTime value="20191231"/>
+                  </section>
+               </component>
+               <component>
+                  <section>
+                     <id root="0f2b63e5-ba25-69ef-e063-6394a90a5572"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <text>
+                        <paragraph>
+                           <content styleCode="underline">Interstitial Lung Disease</content>
+                        </paragraph>
+                        <paragraph>Advise patients that TIGLUTIK can cause interstitial lung disease, and to report to their healthcare provider if they have respiratory symptoms (e.g., dry cough and difficult or labored breathing)
+ 
+  <content styleCode="italics">[see
+  
+   <linkHtml href="#S5.3">Warnings and Precautions (5.3)</linkHtml>].
+ 
+  </content>
+                        </paragraph>
+                     </text>
+                     <effectiveTime value="20191231"/>
+                  </section>
+               </component>
+               <component>
+                  <section>
+                     <id root="0f2b63e5-ba26-69ef-e063-6394a90a5572"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <text>
+                        <paragraph>
+                           <content styleCode="underline">Pregnancy</content>
+                        </paragraph>
+                        <paragraph>Advise patients to notify their healthcare provider if they become pregnant or intend to become pregnant during TIGLUTIK therapy
+ 
+  <content styleCode="italics">[see
+  
+   <linkHtml href="#S8.1">Use in Specific Populations (8.1)</linkHtml>].
+ 
+  </content>
+                        </paragraph>
+                     </text>
+                     <effectiveTime value="20191231"/>
+                  </section>
+               </component>
+               <component>
+                  <section>
+                     <id root="0f2b63e5-ba27-69ef-e063-6394a90a5572"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <text>
+                        <paragraph>
+                           <content styleCode="underline">Lactation</content>
+                        </paragraph>
+                        <paragraph>Advise patients to notify their healthcare provider if they are breastfeeding or intend to breastfeed during TIGLUTIK therapy
+ 
+  <content styleCode="italics">[see
+  
+   <linkHtml href="#S8.2">Use in Specific Populations (8.2)</linkHtml>].
+ 
+  </content>
+                        </paragraph>
+                     </text>
+                     <effectiveTime value="20191231"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_beeb7fcb-e92f-348f-e053-2995a90afe4c">
+               <id root="0f2b63e5-ba28-69ef-e063-6394a90a5572"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <text>
+                  <paragraph>Manufactured for: 
+  <br/>
+                     <br/>  ITF Pharma, Inc. 
+  <br/>
+                     <br/>  850 Cassatt Road, Suite 350 
+  <br/>
+                     <br/>  Berwyn, PA 19312 USA
+ </paragraph>
+                  <paragraph>TIGLUTIK
+ 
+  <sup>®</sup>is a licensed trademark of Italfarmaco SA 
+  <br/>
+                     <br/>  © 2020 ITF Pharma, Inc. All rights reserved.
+
+ </paragraph>
+               </text>
+               <effectiveTime value="20200301"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="0f2b63e5-ba29-69ef-e063-6394a90a5572"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>PRINCIPAL DISPLAY PANEL - 300 mL Bottle Carton</title>
+               <text>
+                  <paragraph>NDC 70726-0303-1</paragraph>
+                  <paragraph>R
+ 
+  <sub>x</sub>only
+
+ </paragraph>
+                  <paragraph>Tiglutik
+ 
+  <sup>®</sup>
+                     <br/>  riluzole  
+  <br/>  oral suspension 
+  <br/>  50 mg/10 mL (5 mg/mL)
+
+ </paragraph>
+                  <paragraph>For Oral Administration 
+  <br/>  Shake gently before use
+ </paragraph>
+                  <paragraph>Contents of this package:</paragraph>
+                  <list listType="unordered">
+                     <item>Two bottles, each containing 300 mL</item>
+                     <item>Two 10 mL oral syringes</item>
+                     <item>Two syringe bottle adapters</item>
+                     <item>Two syringe tip caps</item>
+                     <item>One Prescribing Information, including 
+   <br/>  Instructions for Use
+  </item>
+                  </list>
+                  <paragraph>This product is a liquid suspension and is 
+  <br/>  supplied with syringes for oral administration. 
+  <br/>  Before use, please read the enclosed 
+  <br/>  Prescribing Information.
+ </paragraph>
+                  <paragraph>600 mL (two bottles/300 mL each) 
+  <br/>  Not To Be Dispensed Separately
+ </paragraph>
+                  <renderMultiMedia referencedObject="MM4"/>
+               </text>
+               <effectiveTime value="20191231"/>
+               <component>
+                  <observationMedia ID="MM4">
+                     <text>PRINCIPAL DISPLAY PANEL - 300 mL Bottle Carton</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="tiglutik-04.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

@@ -1,0 +1,2020 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="https://www.accessdata.fda.gov/spl/stylesheet/spl.xsl" type="text/xsl"?>
+<document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:hl7-org:v3" xsi:schemaLocation="urn:hl7-org:v3 https://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="87c57bfa-0bf7-41fd-b954-eb753d5d9d7f"/>
+   <code code="34391-3" codeSystem="2.16.840.1.113883.6.1" displayName="HUMAN PRESCRIPTION DRUG LABEL"/>
+   <title>
+      <content styleCode="bold">Sodium Chloride Injection, USP</content>
+   </title>
+   <effectiveTime value="20210308"/>
+   <setId root="5f372b75-d7a4-471e-8ac6-290040fc84b0"/>
+   <versionNumber value="11"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id extension="118380146" root="1.3.6.1.4.1.519.1"/>
+            <name>ICU Medical Inc.</name>
+            <assignedEntity>
+               <assignedOrganization>
+                  <assignedEntity>
+                     <assignedOrganization>
+                        <id extension="093132819" root="1.3.6.1.4.1.519.1"/>
+                        <name>Hospira, Inc.</name>
+                     </assignedOrganization>
+                     <performance>
+                        <actDefinition>
+                           <code code="C25391" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ANALYSIS"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="0990-7730" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                     <performance>
+                        <actDefinition>
+                           <code code="C25391" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ANALYSIS"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="0990-7983" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                     <performance>
+                        <actDefinition>
+                           <code code="C25391" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ANALYSIS"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="0990-7984" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                     <performance>
+                        <actDefinition>
+                           <code code="C25391" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ANALYSIS"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="0990-7985" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                     <performance>
+                        <actDefinition>
+                           <code code="C43360" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="MANUFACTURE"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="0990-7730" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                     <performance>
+                        <actDefinition>
+                           <code code="C43360" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="MANUFACTURE"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="0990-7983" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                     <performance>
+                        <actDefinition>
+                           <code code="C43360" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="MANUFACTURE"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="0990-7984" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                     <performance>
+                        <actDefinition>
+                           <code code="C43360" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="MANUFACTURE"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="0990-7985" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                     <performance>
+                        <actDefinition>
+                           <code code="C84731" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="PACK"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="0990-7730" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                     <performance>
+                        <actDefinition>
+                           <code code="C84731" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="PACK"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="0990-7983" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                     <performance>
+                        <actDefinition>
+                           <code code="C84731" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="PACK"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="0990-7984" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                     <performance>
+                        <actDefinition>
+                           <code code="C84731" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="PACK"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="0990-7985" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                     <performance>
+                        <actDefinition>
+                           <code code="C84732" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="LABEL"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="0990-7730" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                     <performance>
+                        <actDefinition>
+                           <code code="C84732" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="LABEL"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="0990-7983" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                     <performance>
+                        <actDefinition>
+                           <code code="C84732" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="LABEL"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="0990-7984" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                     <performance>
+                        <actDefinition>
+                           <code code="C84732" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="LABEL"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="0990-7985" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                  </assignedEntity>
+               </assignedOrganization>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section ID="DLDE">
+               <id root="a896c152-eb35-490f-98c8-e687491b3ba5"/>
+               <code code="48780-1" codeSystem="2.16.840.1.113883.6.1" displayName="SPL PRODUCT DATA ELEMENTS SECTION"/>
+               <effectiveTime value="20210308"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="0990-7730" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>Sodium Chloride</name>
+                        <formCode code="C42945" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="INJECTION, SOLUTION"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>SODIUM CHLORIDE</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator value="450" unit="mg"/>
+                              <denominator value="100" unit="mL"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="451W47IQ8X" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SODIUM CHLORIDE</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="LYR4M0NH37" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>SODIUM CATION</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="Q32ZN48698" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>CHLORIDE ION</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="059QF0KO0R" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>WATER</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator value="50" unit="mL"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code/>
+                              <formCode code="C43167" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BAG"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator value="4" unit="1"/>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code/>
+                                    <formCode code="C43200" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="POUCH"/>
+                                    <asContent>
+                                       <quantity>
+                                          <numerator value="20" unit="1"/>
+                                          <denominator value="1"/>
+                                       </quantity>
+                                       <containerPackagedProduct>
+                                          <code code="0990-7730-36" codeSystem="2.16.840.1.113883.6.69"/>
+                                          <formCode code="C43184" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CASE"/>
+                                       </containerPackagedProduct>
+                                       <subjectOf>
+                                          <marketingAct>
+                                             <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                             <statusCode code="active"/>
+                                             <effectiveTime>
+                                                <low value="20191231"/>
+                                             </effectiveTime>
+                                          </marketingAct>
+                                       </subjectOf>
+                                    </asContent>
+                                 </containerPackagedProduct>
+                              </asContent>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="TYPE 0: NOT A COMBINATION PRODUCT" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                        <asContent>
+                           <quantity>
+                              <numerator value="100" unit="mL"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code/>
+                              <formCode code="C43167" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BAG"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator value="4" unit="1"/>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code/>
+                                    <formCode code="C43200" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="POUCH"/>
+                                    <asContent>
+                                       <quantity>
+                                          <numerator value="20" unit="1"/>
+                                          <denominator value="1"/>
+                                       </quantity>
+                                       <containerPackagedProduct>
+                                          <code code="0990-7730-37" codeSystem="2.16.840.1.113883.6.69"/>
+                                          <formCode code="C43184" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CASE"/>
+                                       </containerPackagedProduct>
+                                       <subjectOf>
+                                          <marketingAct>
+                                             <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                             <statusCode code="active"/>
+                                             <effectiveTime>
+                                                <low value="20191231"/>
+                                             </effectiveTime>
+                                          </marketingAct>
+                                       </subjectOf>
+                                    </asContent>
+                                 </containerPackagedProduct>
+                              </asContent>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="TYPE 0: NOT A COMBINATION PRODUCT" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <id extension="NDA018090" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73594" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="NDA"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20190401"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38276" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="INTRAVENOUS"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="0990-7983" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>Sodium Chloride</name>
+                        <formCode code="C42945" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="INJECTION, SOLUTION"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>SODIUM CHLORIDE</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator value="900" unit="mg"/>
+                              <denominator value="100" unit="mL"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="451W47IQ8X" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SODIUM CHLORIDE</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="LYR4M0NH37" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>SODIUM CATION</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="Q32ZN48698" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>CHLORIDE ION</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="059QF0KO0R" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>WATER</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator value="150" unit="mL"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code/>
+                              <formCode code="C43167" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BAG"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator value="1" unit="1"/>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code/>
+                                    <formCode code="C43200" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="POUCH"/>
+                                    <asContent>
+                                       <quantity>
+                                          <numerator value="32" unit="1"/>
+                                          <denominator value="1"/>
+                                       </quantity>
+                                       <containerPackagedProduct>
+                                          <code code="0990-7983-61" codeSystem="2.16.840.1.113883.6.69"/>
+                                          <formCode code="C43184" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CASE"/>
+                                       </containerPackagedProduct>
+                                       <subjectOf>
+                                          <marketingAct>
+                                             <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                             <statusCode code="active"/>
+                                             <effectiveTime>
+                                                <low value="20191101"/>
+                                             </effectiveTime>
+                                          </marketingAct>
+                                       </subjectOf>
+                                    </asContent>
+                                 </containerPackagedProduct>
+                              </asContent>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                        <asContent>
+                           <quantity>
+                              <numerator value="250" unit="mL"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code/>
+                              <formCode code="C43167" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BAG"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator value="1" unit="1"/>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code/>
+                                    <formCode code="C43200" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="POUCH"/>
+                                    <asContent>
+                                       <quantity>
+                                          <numerator value="24" unit="1"/>
+                                          <denominator value="1"/>
+                                       </quantity>
+                                       <containerPackagedProduct>
+                                          <code code="0990-7983-02" codeSystem="2.16.840.1.113883.6.69"/>
+                                          <formCode code="C43184" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CASE"/>
+                                       </containerPackagedProduct>
+                                       <subjectOf>
+                                          <marketingAct>
+                                             <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                             <statusCode code="active"/>
+                                             <effectiveTime>
+                                                <low value="20190501"/>
+                                             </effectiveTime>
+                                          </marketingAct>
+                                       </subjectOf>
+                                    </asContent>
+                                 </containerPackagedProduct>
+                              </asContent>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                        <asContent>
+                           <quantity>
+                              <numerator value="500" unit="mL"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code/>
+                              <formCode code="C43167" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BAG"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator value="1" unit="1"/>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code/>
+                                    <formCode code="C43200" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="POUCH"/>
+                                    <asContent>
+                                       <quantity>
+                                          <numerator value="24" unit="1"/>
+                                          <denominator value="1"/>
+                                       </quantity>
+                                       <containerPackagedProduct>
+                                          <code code="0990-7983-03" codeSystem="2.16.840.1.113883.6.69"/>
+                                          <formCode code="C43184" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CASE"/>
+                                       </containerPackagedProduct>
+                                       <subjectOf>
+                                          <marketingAct>
+                                             <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                             <statusCode code="active"/>
+                                             <effectiveTime>
+                                                <low value="20191231"/>
+                                             </effectiveTime>
+                                          </marketingAct>
+                                       </subjectOf>
+                                    </asContent>
+                                 </containerPackagedProduct>
+                              </asContent>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                        <asContent>
+                           <quantity>
+                              <numerator value="1000" unit="mL"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code/>
+                              <formCode code="C43167" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BAG"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator value="1" unit="1"/>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code/>
+                                    <formCode code="C43200" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="POUCH"/>
+                                    <asContent>
+                                       <quantity>
+                                          <numerator value="12" unit="1"/>
+                                          <denominator value="1"/>
+                                       </quantity>
+                                       <containerPackagedProduct>
+                                          <code code="0990-7983-09" codeSystem="2.16.840.1.113883.6.69"/>
+                                          <formCode code="C43184" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CASE"/>
+                                       </containerPackagedProduct>
+                                       <subjectOf>
+                                          <marketingAct>
+                                             <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                             <statusCode code="active"/>
+                                             <effectiveTime>
+                                                <low value="20191115"/>
+                                             </effectiveTime>
+                                          </marketingAct>
+                                       </subjectOf>
+                                    </asContent>
+                                 </containerPackagedProduct>
+                              </asContent>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                        <asContent>
+                           <quantity>
+                              <numerator value="500" unit="mL"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code/>
+                              <formCode code="C43167" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BAG"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator value="1" unit="1"/>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code/>
+                                    <formCode code="C43200" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="POUCH"/>
+                                    <asContent>
+                                       <quantity>
+                                          <numerator value="18" unit="1"/>
+                                          <denominator value="1"/>
+                                       </quantity>
+                                       <containerPackagedProduct>
+                                          <code code="0990-7983-55" codeSystem="2.16.840.1.113883.6.69"/>
+                                          <formCode code="C43184" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CASE"/>
+                                       </containerPackagedProduct>
+                                       <subjectOf>
+                                          <marketingAct>
+                                             <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                             <statusCode code="active"/>
+                                             <effectiveTime>
+                                                <low value="20191231"/>
+                                             </effectiveTime>
+                                          </marketingAct>
+                                       </subjectOf>
+                                    </asContent>
+                                 </containerPackagedProduct>
+                              </asContent>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                        <asContent>
+                           <quantity>
+                              <numerator value="250" unit="mL"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code/>
+                              <formCode code="C43167" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BAG"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator value="1" unit="1"/>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code/>
+                                    <formCode code="C43200" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="POUCH"/>
+                                    <asContent>
+                                       <quantity>
+                                          <numerator value="24" unit="1"/>
+                                          <denominator value="1"/>
+                                       </quantity>
+                                       <containerPackagedProduct>
+                                          <code code="0990-7983-53" codeSystem="2.16.840.1.113883.6.69"/>
+                                          <formCode code="C43184" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CASE"/>
+                                       </containerPackagedProduct>
+                                       <subjectOf>
+                                          <marketingAct>
+                                             <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                             <statusCode code="active"/>
+                                             <effectiveTime>
+                                                <low value="20191231"/>
+                                             </effectiveTime>
+                                          </marketingAct>
+                                       </subjectOf>
+                                    </asContent>
+                                 </containerPackagedProduct>
+                              </asContent>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <id extension="NDA016366" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73594" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="NDA"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20190401"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38276" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="INTRAVENOUS"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="0990-7984" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>Sodium Chloride</name>
+                        <formCode code="C42945" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="INJECTION, SOLUTION"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>SODIUM CHLORIDE</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator value="900" unit="mg"/>
+                              <denominator value="100" unit="mL"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="451W47IQ8X" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SODIUM CHLORIDE</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="LYR4M0NH37" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>SODIUM CATION</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="Q32ZN48698" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>CHLORIDE ION</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="059QF0KO0R" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>WATER</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator value="100" unit="mL"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code/>
+                              <formCode code="C43167" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BAG"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator value="4" unit="1"/>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code/>
+                                    <formCode code="C43200" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="POUCH"/>
+                                    <asContent>
+                                       <quantity>
+                                          <numerator value="20" unit="1"/>
+                                          <denominator value="1"/>
+                                       </quantity>
+                                       <containerPackagedProduct>
+                                          <code code="0990-7984-37" codeSystem="2.16.840.1.113883.6.69"/>
+                                          <formCode code="C43184" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CASE"/>
+                                       </containerPackagedProduct>
+                                       <subjectOf>
+                                          <marketingAct>
+                                             <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                             <statusCode code="active"/>
+                                             <effectiveTime>
+                                                <low value="20190501"/>
+                                             </effectiveTime>
+                                          </marketingAct>
+                                       </subjectOf>
+                                    </asContent>
+                                 </containerPackagedProduct>
+                              </asContent>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                        <asContent>
+                           <quantity>
+                              <numerator value="25" unit="mL"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code/>
+                              <formCode code="C43167" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BAG"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator value="4" unit="1"/>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code/>
+                                    <formCode code="C43200" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="POUCH"/>
+                                    <asContent>
+                                       <quantity>
+                                          <numerator value="12" unit="1"/>
+                                          <denominator value="1"/>
+                                       </quantity>
+                                       <containerPackagedProduct>
+                                          <code code="0990-7984-20" codeSystem="2.16.840.1.113883.6.69"/>
+                                          <formCode code="C43184" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CASE"/>
+                                       </containerPackagedProduct>
+                                       <subjectOf>
+                                          <marketingAct>
+                                             <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                             <statusCode code="active"/>
+                                             <effectiveTime>
+                                                <low value="20191101"/>
+                                             </effectiveTime>
+                                          </marketingAct>
+                                       </subjectOf>
+                                    </asContent>
+                                 </containerPackagedProduct>
+                              </asContent>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                        <asContent>
+                           <quantity>
+                              <numerator value="50" unit="mL"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code/>
+                              <formCode code="C43167" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BAG"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator value="1" unit="1"/>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code/>
+                                    <formCode code="C43200" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="POUCH"/>
+                                    <asContent>
+                                       <quantity>
+                                          <numerator value="48" unit="1"/>
+                                          <denominator value="1"/>
+                                       </quantity>
+                                       <containerPackagedProduct>
+                                          <code code="0990-7984-13" codeSystem="2.16.840.1.113883.6.69"/>
+                                          <formCode code="C43184" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CASE"/>
+                                       </containerPackagedProduct>
+                                       <subjectOf>
+                                          <marketingAct>
+                                             <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                             <statusCode code="active"/>
+                                             <effectiveTime>
+                                                <low value="20190501"/>
+                                             </effectiveTime>
+                                          </marketingAct>
+                                       </subjectOf>
+                                    </asContent>
+                                 </containerPackagedProduct>
+                              </asContent>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                        <asContent>
+                           <quantity>
+                              <numerator value="100" unit="mL"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code/>
+                              <formCode code="C43167" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BAG"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator value="1" unit="1"/>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code/>
+                                    <formCode code="C43200" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="POUCH"/>
+                                    <asContent>
+                                       <quantity>
+                                          <numerator value="48" unit="1"/>
+                                          <denominator value="1"/>
+                                       </quantity>
+                                       <containerPackagedProduct>
+                                          <code code="0990-7984-23" codeSystem="2.16.840.1.113883.6.69"/>
+                                          <formCode code="C43184" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CASE"/>
+                                       </containerPackagedProduct>
+                                       <subjectOf>
+                                          <marketingAct>
+                                             <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                             <statusCode code="active"/>
+                                             <effectiveTime>
+                                                <low value="20190401"/>
+                                             </effectiveTime>
+                                          </marketingAct>
+                                       </subjectOf>
+                                    </asContent>
+                                 </containerPackagedProduct>
+                              </asContent>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                        <asContent>
+                           <quantity>
+                              <numerator value="50" unit="mL"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code/>
+                              <formCode code="C43167" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BAG"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator value="4" unit="1"/>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code/>
+                                    <formCode code="C43200" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="POUCH"/>
+                                    <asContent>
+                                       <quantity>
+                                          <numerator value="20" unit="1"/>
+                                          <denominator value="1"/>
+                                       </quantity>
+                                       <containerPackagedProduct>
+                                          <code code="0990-7984-36" codeSystem="2.16.840.1.113883.6.69"/>
+                                          <formCode code="C43184" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CASE"/>
+                                       </containerPackagedProduct>
+                                       <subjectOf>
+                                          <marketingAct>
+                                             <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                             <statusCode code="active"/>
+                                             <effectiveTime>
+                                                <low value="20190501"/>
+                                             </effectiveTime>
+                                          </marketingAct>
+                                       </subjectOf>
+                                    </asContent>
+                                 </containerPackagedProduct>
+                              </asContent>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <id extension="NDA016366" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73594" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="NDA"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20190401"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38276" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="INTRAVENOUS"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="0990-7985" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>Sodium Chloride</name>
+                        <formCode code="C42945" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="INJECTION, SOLUTION"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>SODIUM CHLORIDE</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator value="450" unit="mg"/>
+                              <denominator value="100" unit="mL"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="451W47IQ8X" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SODIUM CHLORIDE</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="LYR4M0NH37" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>SODIUM CATION</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="Q32ZN48698" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>CHLORIDE ION</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="059QF0KO0R" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>WATER</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator value="250" unit="mL"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code/>
+                              <formCode code="C43167" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BAG"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator value="1" unit="1"/>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code/>
+                                    <formCode code="C43200" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="POUCH"/>
+                                    <asContent>
+                                       <quantity>
+                                          <numerator value="24" unit="1"/>
+                                          <denominator value="1"/>
+                                       </quantity>
+                                       <containerPackagedProduct>
+                                          <code code="0990-7985-02" codeSystem="2.16.840.1.113883.6.69"/>
+                                          <formCode code="C43184" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CASE"/>
+                                       </containerPackagedProduct>
+                                       <subjectOf>
+                                          <marketingAct>
+                                             <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                             <statusCode code="active"/>
+                                             <effectiveTime>
+                                                <low value="20191015"/>
+                                             </effectiveTime>
+                                          </marketingAct>
+                                       </subjectOf>
+                                    </asContent>
+                                 </containerPackagedProduct>
+                              </asContent>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                        <asContent>
+                           <quantity>
+                              <numerator value="500" unit="mL"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code/>
+                              <formCode code="C43167" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BAG"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator value="1" unit="1"/>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code/>
+                                    <formCode code="C43200" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="POUCH"/>
+                                    <asContent>
+                                       <quantity>
+                                          <numerator value="24" unit="1"/>
+                                          <denominator value="1"/>
+                                       </quantity>
+                                       <containerPackagedProduct>
+                                          <code code="0990-7985-03" codeSystem="2.16.840.1.113883.6.69"/>
+                                          <formCode code="C43184" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CASE"/>
+                                       </containerPackagedProduct>
+                                       <subjectOf>
+                                          <marketingAct>
+                                             <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                             <statusCode code="active"/>
+                                             <effectiveTime>
+                                                <low value="20191231"/>
+                                             </effectiveTime>
+                                          </marketingAct>
+                                       </subjectOf>
+                                    </asContent>
+                                 </containerPackagedProduct>
+                              </asContent>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                        <asContent>
+                           <quantity>
+                              <numerator value="1000" unit="mL"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code/>
+                              <formCode code="C43167" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BAG"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator value="1" unit="1"/>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code/>
+                                    <formCode code="C43200" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="POUCH"/>
+                                    <asContent>
+                                       <quantity>
+                                          <numerator value="12" unit="1"/>
+                                          <denominator value="1"/>
+                                       </quantity>
+                                       <containerPackagedProduct>
+                                          <code code="0990-7985-09" codeSystem="2.16.840.1.113883.6.69"/>
+                                          <formCode code="C43184" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CASE"/>
+                                       </containerPackagedProduct>
+                                       <subjectOf>
+                                          <marketingAct>
+                                             <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                             <statusCode code="active"/>
+                                             <effectiveTime>
+                                                <low value="20191101"/>
+                                             </effectiveTime>
+                                          </marketingAct>
+                                       </subjectOf>
+                                    </asContent>
+                                 </containerPackagedProduct>
+                              </asContent>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <id extension="NDA018090" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73594" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="NDA"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20190401"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38276" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="INTRAVENOUS"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section ID="e5cc98c6-6cac-47c1-875f-4d7711ac9854">
+               <id root="ca8faacf-8d93-4fb0-ae80-ddfc6826e6cd"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">Flexible Plastic Container                                                                                                               </content>Rx only</paragraph>
+               </text>
+               <effectiveTime value="20210311"/>
+            </section>
+         </component>
+         <component>
+            <section ID="c71b721c-fbe4-4f93-b3e6-446c3032347e">
+               <id root="7cb4afb8-cc7a-4e34-8c82-54ab37dd88e6"/>
+               <code code="34089-3" codeSystem="2.16.840.1.113883.6.1" displayName="DESCRIPTION SECTION"/>
+               <title>DESCRIPTION</title>
+               <text>
+                  <paragraph>Sodium Chloride Injection, USP solutions are sterile and nonpyrogenic. They are parenteral solutions containing various concentrations of sodium chloride in water for injection intended for intravenous administration.</paragraph>
+                  <paragraph>For 0.45% Sodium Chloride Injection, USP, each 100 mL contains 450 mg sodium chloride in water for injection. Electrolytes per 1000 mL: sodium 77 mEq; chloride 77 mEq. The osmolarity is  154 mOsmol/L (calc.).</paragraph>
+                  <paragraph>For 0.9% Sodium Chloride Injection, USP, each 100 mL contains 900 mg sodium chloride in water for injection. Electrolytes per 1000 mL: sodium 154 mEq; chloride 154 mEq. The osmolarity is  308 mOsmol/L (calc.).</paragraph>
+                  <paragraph>The pH for both concentrations in the 100 mL and smaller containers is 6.0; for the 250 mL and larger containers, the pH is 5.6. The pH range is 4.5 to 7.0 for all containers.</paragraph>
+                  <paragraph>The solutions contain no bacteriostat, antimicrobial agent or added buffer and each is intended only as a single-dose injection. When smaller doses are required the unused portion should be discarded.</paragraph>
+                  <paragraph>The solutions are parenteral fluid and electrolyte replenishers.</paragraph>
+                  <paragraph>Sodium Chloride, USP is chemically designated NaCl, a white crystalline powder freely soluble in water.</paragraph>
+                  <paragraph>Water for Injection, USP is chemically designated H<sub>2</sub>O.</paragraph>
+                  <paragraph>The flexible plastic container is fabricated from a specially formulated polyvinylchloride. Water can permeate from inside the container into the overwrap but not in amounts sufficient to affect the solution significantly. Solutions in contact with the plastic container may leach out certain chemical components from the plastic in very small amounts; however, biological testing was supportive of the safety of the plastic container materials. Exposure to temperatures above 25°C (77°F) during transport and storage will lead to minor losses in moisture content. Higher temperatures lead to greater losses. It is unlikely that these minor losses will lead to clinically significant changes within the expiration period.</paragraph>
+               </text>
+               <effectiveTime value="20210311"/>
+            </section>
+         </component>
+         <component>
+            <section ID="f20dad79-e1e2-496b-a3ec-44f2d5494c30">
+               <id root="34f84eb8-6395-49bd-ad62-f81b764338ce"/>
+               <code code="34090-1" codeSystem="2.16.840.1.113883.6.1" displayName="CLINICAL PHARMACOLOGY SECTION"/>
+               <title>CLINICAL PHARMACOLOGY</title>
+               <text>
+                  <paragraph>When administered intravenously, these solutions provide a source of water and electrolytes.</paragraph>
+                  <paragraph>Solutions which provide combinations of hypotonic or isotonic concentrations of sodium chloride are suitable for parenteral maintenance or replacement of water and electrolyte requirements.</paragraph>
+                  <paragraph>Isotonic concentrations of sodium chloride are suitable for parenteral replacement of chloride losses that exceed or equal the sodium loss. Hypotonic concentrations of sodium chloride are suited for parenteral maintenance of water requirements when only small quantities of salt are desired. A hypertonic concentration of sodium chloride may be used to repair severe salt depletion syndrome.  </paragraph>
+                  <paragraph>Sodium chloride in water dissociates to provide sodium (Na<sup>+</sup>) and chloride (Cl<sup>−</sup>) ions. Sodium (Na<sup>+</sup>) is the principal cation of the extracellular fluid and plays a large part in the therapy of fluid and electrolyte disturbances. Chloride (Cl<sup>−</sup>) has an integral role in buffering action when oxygen and carbon dioxide exchange occurs in the red blood cells. The distribution and excretion of sodium (Na<sup>+</sup>) and chloride (Cl<sup>−</sup>) are largely under the control of the kidney which maintains a balance between intake and output.</paragraph>
+                  <paragraph>Water is an essential constituent of all body tissues and accounts for approximately 70% of total body weight. Average normal adult daily requirements range from two to three liters (1.0 to 1.5 liters each for insensible water loss by perspiration and urine production).</paragraph>
+                  <paragraph>Water balance is maintained by various regulatory mechanisms. Water distribution depends primarily on the concentration of electrolytes in the body compartments and sodium (Na<sup>+</sup>) plays a major role in maintaining physiologic equilibrium.</paragraph>
+               </text>
+               <effectiveTime value="20210311"/>
+            </section>
+         </component>
+         <component>
+            <section ID="f431227c-3063-45d4-9706-6831db60ae2c">
+               <id root="5c5adeda-5ff2-446a-969d-dbc5699bc844"/>
+               <code code="34067-9" codeSystem="2.16.840.1.113883.6.1" displayName="INDICATIONS &amp; USAGE SECTION"/>
+               <title>INDICATIONS AND USAGE</title>
+               <text>
+                  <paragraph>Intravenous solutions containing sodium chloride are indicated for parenteral replenishment of fluid and sodium chloride as required by the clinical condition of the patient.</paragraph>
+               </text>
+               <effectiveTime value="20210311"/>
+            </section>
+         </component>
+         <component>
+            <section ID="eb17b8e4-442f-49ce-87ef-0b82b38cd834">
+               <id root="54560c3b-4608-448e-8351-a4c0da2dd3c0"/>
+               <code code="34070-3" codeSystem="2.16.840.1.113883.6.1" displayName="CONTRAINDICATIONS SECTION"/>
+               <title>CONTRAINDICATIONS</title>
+               <text>
+                  <paragraph>None known.</paragraph>
+               </text>
+               <effectiveTime value="20210311"/>
+            </section>
+         </component>
+         <component>
+            <section ID="a35c624a-d704-4b10-bbd5-e0933206e145">
+               <id root="1a79fc67-0119-46f9-a5a9-f208666fe606"/>
+               <code code="34071-1" codeSystem="2.16.840.1.113883.6.1" displayName="WARNINGS SECTION"/>
+               <title>WARNINGS</title>
+               <text>
+                  <paragraph>Sodium Chloride Injection, USP should be used with great care, if at all, in patients with congestive heart failure, severe renal insufficiency and in clinical states in which there exists edema with sodium retention.</paragraph>
+                  <paragraph>The intravenous administration of Sodium Chloride Injection, USP can cause fluid and/or solute overloading resulting in dilution of serum electrolyte concentrations, overhydration, congested states or pulmonary edema.</paragraph>
+                  <paragraph>The risk of dilutive states is inversely proportional to the electrolyte concentration of the injections. The risk of solute overload causing congested states with peripheral and pulmonary edema is directly proportional to the electrolyte concentrations of the injections.</paragraph>
+                  <paragraph>In patients with diminished renal function, administration of Sodium Chloride Injection, USP may result in sodium retention.</paragraph>
+               </text>
+               <effectiveTime value="20210311"/>
+            </section>
+         </component>
+         <component>
+            <section ID="fdaa0885-2f4e-4967-a72d-9c13de6f7ec1">
+               <id root="e7851641-8eee-4c67-8447-a3c094ecdafa"/>
+               <code code="42232-9" codeSystem="2.16.840.1.113883.6.1" displayName="PRECAUTIONS SECTION"/>
+               <title>PRECAUTIONS</title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">General</content>
+                  </paragraph>
+                  <paragraph>Do not use plastic containers in series connections. Such use could result in air embolism due to residual air being drawn from the primary container before administration of the fluid from the secondary container is completed.</paragraph>
+                  <paragraph>Pressurizing intravenous solutions contained in flexible plastic containers to increase flow rates can result in air embolism if the residual air in the container is not fully evacuated prior to administration.</paragraph>
+                  <paragraph>Use of a vented intravenous administration set with the vent in the open position could result in air embolism. Vented intravenous administration sets with the vent in the open position should not be used with flexible plastic containers.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Laboratory Tests</content>
+                  </paragraph>
+                  <paragraph>Clinical evaluation and periodic laboratory determinations are necessary to monitor changes in fluid balance, electrolyte concentrations and acid-base balance during prolonged parenteral therapy or whenever the condition of the patient warrants such evaluation.</paragraph>
+               </text>
+               <effectiveTime value="20210311"/>
+            </section>
+         </component>
+         <component>
+            <section ID="cedd0df6-8ee7-4028-aaeb-0fe49645c24e">
+               <id root="31ba1ba2-1dd9-4734-9283-fa7bc65eacc1"/>
+               <code code="34073-7" codeSystem="2.16.840.1.113883.6.1" displayName="DRUG INTERACTIONS SECTION"/>
+               <title>DRUG INTERACTIONS</title>
+               <text>
+                  <paragraph>Caution must be exercised in the administration of Sodium Chloride Injection, USP to patients receiving corticosteroids or corticotropin.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Carcinogenesis, Mutagenesis, Impairment of Fertility</content> </paragraph>
+                  <paragraph>Studies have not been performed with Sodium Chloride Injection, USP to evaluate the potential for carcinogenesis, mutagenesis or impairment of fertility.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Pregnancy: </content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="italics">Teratogenic Effects</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="italics">Pregnancy Category C</content> </paragraph>
+                  <paragraph>Animal reproduction studies have not been conducted with Sodium Chloride Injection, USP. It is also not known whether Sodium Chloride Injection, USP can cause fetal harm when administered to a pregnant woman or can affect reproduction capacity. Sodium Chloride Injection, USP should be given to a pregnant woman only if clearly needed.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Labor and Delivery</content>
+                  </paragraph>
+                  <paragraph>Studies have not been conducted to evaluate the effects of Sodium Chloride Injection, USP on labor and delivery. Caution should be exercised when administering this drug during labor and delivery.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Nursing Mothers </content>
+                  </paragraph>
+                  <paragraph>It is not known whether this drug is excreted in human milk. Because many drugs are excreted in human milk, caution should be exercised when Sodium Chloride Injection, USP is administered to a nursing mother.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Pediatric Use </content>
+                  </paragraph>
+                  <paragraph>The use of Sodium Chloride Injection, USP in pediatric patients is based on clinical practice.</paragraph>
+                  <paragraph>Plasma electrolyte concentrations should be closely monitored in the pediatric population as this population may have impaired ability to regulate fluids and electrolytes.</paragraph>
+                  <paragraph>The infusion of hypotonic fluids (0.45% Sodium Chloride Injection, USP) together with the non-osmotic secretion of ADH may result in hyponatremia in patients with acute volume depletion. Hyponatremia can lead to headache, nausea, seizures, lethargy, coma, cerebral edema and death, therefore acute symptomatic hyponatremic encephalopathy is considered a medical emergency.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Geriatric Use </content>
+                  </paragraph>
+                  <paragraph>Clinical studies of Sodium Chloride Injection, USP did not include sufficient numbers of subjects aged 65 and over to determine whether they respond differently from younger subjects. Other reported clinical experience has not identified differences in responses between elderly and younger patients. In general, dose selection for an elderly patient should be cautious, usually starting at the low end of the dosing range, reflecting the greater frequency of decreased hepatic, renal, or cardiac function, and of concomitant disease or drug therapy.</paragraph>
+                  <paragraph>This drug is known to be substantially excreted by the kidney, and the risk of toxic reactions to this drug may be greater in patients with impaired renal function. Because elderly patients are more likely to have decreased renal function, care should be taken in dose selection, and it may be useful to monitor renal function.</paragraph>
+                  <paragraph>Do not administer unless solution is clear and container is undamaged. Discard unused portion.</paragraph>
+               </text>
+               <effectiveTime value="20210311"/>
+            </section>
+         </component>
+         <component>
+            <section ID="c74e44e5-bf97-42f9-8c27-93e1b6526188">
+               <id root="7c9f6e67-b72f-4c42-9160-ed1e65fd09fa"/>
+               <code code="34084-4" codeSystem="2.16.840.1.113883.6.1" displayName="ADVERSE REACTIONS SECTION"/>
+               <title>ADVERSE REACTIONS</title>
+               <text>
+                  <paragraph>Reactions which may occur because of the solution or the technique of administration include febrile response, infection at the site of injection, venous thrombosis or phlebitis extending from the site of injection, extravasation and hypervolemia.</paragraph>
+                  <paragraph>If an adverse reaction does occur, discontinue the infusion, evaluate the patient, institute appropriate therapeutic countermeasures and save the remainder of the fluid for examination if deemed necessary.</paragraph>
+                  <paragraph>In addition to the above listed adverse reactions hyponatremia has been reported for 0.45% Sodium Chloride Injection, USP (see<content styleCode="bold"> <linkHtml href="#cedd0df6-8ee7-4028-aaeb-0fe49645c24e">Pediatric Use </linkHtml>
+                     </content>section).</paragraph>
+               </text>
+               <effectiveTime value="20210311"/>
+            </section>
+         </component>
+         <component>
+            <section ID="af151f48-7218-4c60-a76e-96b2fedb6dfe">
+               <id root="3a8ceeb7-e8b6-4d56-886f-6e8506335829"/>
+               <code code="34088-5" codeSystem="2.16.840.1.113883.6.1" displayName="OVERDOSAGE SECTION"/>
+               <title>OVERDOSAGE</title>
+               <text>
+                  <paragraph>In the event of overhydration or solute overload, re-evaluate the patient and institute appropriate corrective measures. (See <content styleCode="bold">
+                        <linkHtml href="#a35c624a-d704-4b10-bbd5-e0933206e145">WARNINGS</linkHtml>
+                     </content>, <content styleCode="bold">
+                        <linkHtml href="#fdaa0885-2f4e-4967-a72d-9c13de6f7ec1">PRECAUTIONS</linkHtml>
+                     </content>, and <content styleCode="bold">
+                        <linkHtml href="#c74e44e5-bf97-42f9-8c27-93e1b6526188">ADVERSE REACTIONS</linkHtml>
+                     </content>.)</paragraph>
+               </text>
+               <effectiveTime value="20210311"/>
+            </section>
+         </component>
+         <component>
+            <section ID="ebee25ce-36c1-4992-9fe2-0be8446d4f47">
+               <id root="a8a6f1b4-fca0-40b3-8d80-687172344d69"/>
+               <code code="34068-7" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE &amp; ADMINISTRATION SECTION"/>
+               <title>DOSAGE AND ADMINISTRATION</title>
+               <text>
+                  <paragraph>The dose is dependent upon the age, weight and clinical condition of the patient.</paragraph>
+                  <paragraph>Additives may be incompatible. Consult with pharmacist, if available. When introducing additives, use aseptic technique, mix thoroughly and do not store.</paragraph>
+                  <paragraph>Parenteral drug products should be inspected visually for particulate matter and discoloration prior to administration, whenever solution and container permit. (See <content styleCode="bold">
+                        <linkHtml href="#fdaa0885-2f4e-4967-a72d-9c13de6f7ec1">PRECAUTIONS</linkHtml>
+                     </content>.)</paragraph>
+               </text>
+               <effectiveTime value="20210311"/>
+            </section>
+         </component>
+         <component>
+            <section ID="acf956b5-bec1-4d8b-9e74-b600a405af98">
+               <id root="13d5707c-8b8c-4c6b-a79c-bde15a21029f"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <title>INSTRUCTIONS FOR USE</title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">To Open</content>
+                  </paragraph>
+                  <paragraph>Tear outer wrap at notch and remove solution container. If supplemental medication is desired, follow directions below before preparing for administration. Some opacity of the plastic due to moisture absorption during the sterilization process may be observed. This is normal and does not affect the solution quality or safety. The opacity will diminish gradually.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">To Add Medication</content>
+                  </paragraph>
+                  <list listType="unordered">
+                     <item>
+                        <caption>1.</caption>Prepare additive port. </item>
+                     <item>
+                        <caption>2.</caption>Using aseptic technique and an additive delivery needle of appropriate length, puncture resealable additive port at target area, inner diaphragm and inject. Withdraw needle after injecting medication.</item>
+                     <item>
+                        <caption>3.</caption>The additive port may be protected by covering with an additive cap.</item>
+                     <item>
+                        <caption>4.</caption>Mix container contents thoroughly.</item>
+                  </list>
+                  <paragraph>
+                     <content styleCode="bold">Preparation for Administration</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">(Use aseptic technique)</content>
+                  </paragraph>
+                  <list listType="unordered">
+                     <item>
+                        <caption>1.</caption>Close flow control clamp of administration set.</item>
+                     <item>
+                        <caption>2.</caption>Remove cover from outlet port at bottom of container.</item>
+                     <item>
+                        <caption>3.</caption>Insert piercing pin of administration set into port with a twisting motion until the set is firmly seated. <content styleCode="bold">NOTE:</content> See full directions on administration set carton.</item>
+                     <item>
+                        <caption>4.</caption>Suspend container from hanger.</item>
+                     <item>
+                        <caption>5.</caption>Squeeze and release drip chamber to establish proper fluid level in chamber.</item>
+                     <item>
+                        <caption>6.</caption>Open flow control clamp and clear air from set. Close clamp.</item>
+                     <item>
+                        <caption>7.</caption>Attach set to venipuncture device. If device is not indwelling, prime and make venipuncture.</item>
+                     <item>
+                        <caption>8.</caption>Regulate rate of administration with flow control clamp.</item>
+                  </list>
+                  <paragraph>
+                     <content styleCode="bold">WARNING: Do not use flexible container in series connections.</content>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20210311"/>
+            </section>
+         </component>
+         <component>
+            <section ID="bafcefb2-b2bd-44f0-86e0-68e2994f5fc8">
+               <id root="f76992c6-989b-4ec1-818c-f68346e9e790"/>
+               <code code="34069-5" codeSystem="2.16.840.1.113883.6.1" displayName="HOW SUPPLIED SECTION"/>
+               <title>HOW SUPPLIED</title>
+               <text>
+                  <paragraph>Sodium Chloride Injection, USP is supplied in single-dose flexible plastic containers in various sizes and concentrations as shown in the accompanying Table.</paragraph>
+                  <table width="100%">
+                     <col width="29%" align="left" valign="middle"/>
+                     <col width="41%" align="left" valign="middle"/>
+                     <col width="29%" align="left" valign="middle"/>
+                     <thead>
+                        <tr>
+                           <th align="left" styleCode="Botrule Toprule " valign="bottom">
+                              <content styleCode="bold">NDC No.</content>
+                           </th>
+                           <th align="left" styleCode="Botrule Toprule " valign="top">
+                              <content styleCode="bold">Product</content>
+                           </th>
+                           <th align="center" styleCode="Botrule Toprule " valign="top">
+                              <content styleCode="bold">Container size mL</content>
+                           </th>
+                        </tr>
+                     </thead>
+                     <tbody>
+                        <tr>
+                           <td>
+                              <paragraph>0409-7730-36<footnote ID="F1">Manufactured by ICU Medical, Inc., Lake Forest, Illinois, 60045, USA</footnote>
+                              </paragraph>
+                           </td>
+                           <td>
+                              <paragraph>0.45% Sodium Chloride Inj., USP</paragraph>
+                           </td>
+                           <td align="center">
+                              <paragraph>50</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td>
+                              <paragraph>0990-7730-36<footnoteRef IDREF="F1"/>
+                              </paragraph>
+                           </td>
+                           <td>
+                              <paragraph>0.45% Sodium Chloride Inj., USP</paragraph>
+                           </td>
+                           <td align="center">
+                              <paragraph>50</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td>
+                              <paragraph>0409-7730-37<footnoteRef IDREF="F1"/>
+                              </paragraph>
+                           </td>
+                           <td>
+                              <paragraph>0.45% Sodium Chloride Inj., USP</paragraph>
+                           </td>
+                           <td align="center">
+                              <paragraph>100</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td>
+                              <paragraph>0990-7730-37<footnoteRef IDREF="F1"/>
+                              </paragraph>
+                           </td>
+                           <td>
+                              <paragraph>0.45% Sodium Chloride Inj., USP</paragraph>
+                           </td>
+                           <td align="center">
+                              <paragraph>100</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td>
+                              <paragraph>0409-7985-02<footnoteRef IDREF="F1"/>
+                              </paragraph>
+                           </td>
+                           <td>
+                              <paragraph>0.45% Sodium Chloride Inj., USP</paragraph>
+                           </td>
+                           <td align="center">
+                              <paragraph>250</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td>
+                              <paragraph>0990-7985-02<footnoteRef IDREF="F1"/>
+                              </paragraph>
+                           </td>
+                           <td>
+                              <paragraph>0.45% Sodium Chloride Inj., USP</paragraph>
+                           </td>
+                           <td align="center">
+                              <paragraph>250</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td>
+                              <paragraph>0409-7985-03<footnote ID="F2">Manufactured for ICU Medical, Inc., Lake Forest, Illinois, 60045, USA</footnote>
+                              </paragraph>
+                           </td>
+                           <td>
+                              <paragraph>0.45% Sodium Chloride Inj., USP</paragraph>
+                           </td>
+                           <td align="center">
+                              <paragraph>500</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td>
+                              <paragraph>0990-7985-03<footnoteRef IDREF="F1"/>
+                                 <sup>,</sup>
+                                 <footnoteRef IDREF="F2"/>
+                              </paragraph>
+                           </td>
+                           <td>
+                              <paragraph>0.45% Sodium Chloride Inj., USP</paragraph>
+                           </td>
+                           <td align="center">
+                              <paragraph>500</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td>
+                              <paragraph>0409-7985-09<footnoteRef IDREF="F1"/>
+                                 <sup>,</sup>
+                                 <footnoteRef IDREF="F2"/>
+                              </paragraph>
+                           </td>
+                           <td>
+                              <paragraph>0.45% Sodium Chloride Inj., USP</paragraph>
+                           </td>
+                           <td align="center">
+                              <paragraph>1000</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td>
+                              <paragraph>0990-7985-09<footnoteRef IDREF="F1"/>
+                                 <sup>,</sup>
+                                 <footnoteRef IDREF="F2"/>
+                              </paragraph>
+                           </td>
+                           <td>
+                              <paragraph>0.45% Sodium Chloride Inj., USP</paragraph>
+                           </td>
+                           <td align="center">
+                              <paragraph>1000</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td>
+                              <paragraph>0409-7984-20<footnoteRef IDREF="F1"/>
+                              </paragraph>
+                           </td>
+                           <td>
+                              <paragraph>0.9% Sodium Chloride Inj., USP</paragraph>
+                           </td>
+                           <td align="center">
+                              <paragraph>25</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td>
+                              <paragraph>0990-7984-20<footnoteRef IDREF="F1"/>
+                              </paragraph>
+                           </td>
+                           <td>
+                              <paragraph>0.9% Sodium Chloride Inj., USP</paragraph>
+                           </td>
+                           <td align="center">
+                              <paragraph>25</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td>
+                              <paragraph>0409-7984-36<footnoteRef IDREF="F1"/>
+                              </paragraph>
+                           </td>
+                           <td>
+                              <paragraph>0.9% Sodium Chloride Inj., USP</paragraph>
+                           </td>
+                           <td align="center">
+                              <paragraph>50</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td>
+                              <paragraph>0990-7984-36<footnoteRef IDREF="F1"/>
+                              </paragraph>
+                           </td>
+                           <td>
+                              <paragraph>0.9% Sodium Chloride Inj., USP</paragraph>
+                           </td>
+                           <td align="center">
+                              <paragraph>50</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td>
+                              <paragraph>0409-7984-13<footnoteRef IDREF="F1"/>
+                              </paragraph>
+                           </td>
+                           <td>
+                              <paragraph>0.9% Sodium Chloride Inj., USP</paragraph>
+                           </td>
+                           <td align="center">
+                              <paragraph>50</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td>
+                              <paragraph>0990-7984-13<footnoteRef IDREF="F1"/>
+                              </paragraph>
+                           </td>
+                           <td>
+                              <paragraph>0.9% Sodium Chloride Inj., USP</paragraph>
+                           </td>
+                           <td align="center">
+                              <paragraph>50</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td>
+                              <paragraph>0409-7984-37<footnoteRef IDREF="F1"/>
+                              </paragraph>
+                           </td>
+                           <td>
+                              <paragraph>0.9% Sodium Chloride Inj., USP</paragraph>
+                           </td>
+                           <td align="center">
+                              <paragraph>100</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td>
+                              <paragraph>0990-7984-37<footnoteRef IDREF="F1"/>
+                              </paragraph>
+                           </td>
+                           <td>
+                              <paragraph>0.9% Sodium Chloride Inj., USP</paragraph>
+                           </td>
+                           <td align="center">
+                              <paragraph>100</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td>
+                              <paragraph>0409-7984-23<footnoteRef IDREF="F1"/>
+                              </paragraph>
+                           </td>
+                           <td>
+                              <paragraph>0.9% Sodium Chloride Inj., USP</paragraph>
+                           </td>
+                           <td align="center">
+                              <paragraph>100</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td>
+                              <paragraph>0990-7984-23<footnoteRef IDREF="F1"/>
+                              </paragraph>
+                           </td>
+                           <td>
+                              <paragraph>0.9% Sodium Chloride Inj., USP</paragraph>
+                           </td>
+                           <td align="center">
+                              <paragraph>100</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td>
+                              <paragraph>0409-7983-61<footnoteRef IDREF="F1"/>
+                              </paragraph>
+                           </td>
+                           <td>
+                              <paragraph>0.9% Sodium Chloride Inj., USP</paragraph>
+                           </td>
+                           <td align="center">
+                              <paragraph>150</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td>
+                              <paragraph>0990-7983-61<footnoteRef IDREF="F1"/>
+                              </paragraph>
+                           </td>
+                           <td>
+                              <paragraph>0.9% Sodium Chloride Inj., USP</paragraph>
+                           </td>
+                           <td align="center">
+                              <paragraph>150</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td>
+                              <paragraph>0409-7983-02<footnoteRef IDREF="F1"/>
+                                 <sup>,</sup>
+                                 <footnoteRef IDREF="F2"/>
+                              </paragraph>
+                           </td>
+                           <td>
+                              <paragraph>0.9% Sodium Chloride Inj., USP</paragraph>
+                           </td>
+                           <td align="center">
+                              <paragraph>250</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td>
+                              <paragraph>0990-7983-02<footnoteRef IDREF="F1"/>
+                                 <sup>,</sup>
+                                 <footnoteRef IDREF="F2"/>
+                              </paragraph>
+                           </td>
+                           <td>
+                              <paragraph>0.9% Sodium Chloride Inj., USP</paragraph>
+                           </td>
+                           <td align="center">
+                              <paragraph>250</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td>
+                              <paragraph>0409-7983-53<footnoteRef IDREF="F2"/>
+                              </paragraph>
+                           </td>
+                           <td>
+                              <paragraph>0.9% Sodium Chloride Inj., USP</paragraph>
+                           </td>
+                           <td align="center">
+                              <paragraph>250</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td>
+                              <paragraph>0990-7983-53<footnoteRef IDREF="F2"/>
+                              </paragraph>
+                           </td>
+                           <td>
+                              <paragraph>0.9% Sodium Chloride Inj., USP</paragraph>
+                           </td>
+                           <td align="center">
+                              <paragraph>250</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td>
+                              <paragraph>0409-7983-03<footnoteRef IDREF="F2"/>
+                              </paragraph>
+                           </td>
+                           <td>
+                              <paragraph>0.9% Sodium Chloride Inj., USP</paragraph>
+                           </td>
+                           <td align="center">
+                              <paragraph>500</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td>
+                              <paragraph>0990-7983-03<footnoteRef IDREF="F1"/>
+                                 <sup>,</sup>
+                                 <footnoteRef IDREF="F2"/>
+                              </paragraph>
+                           </td>
+                           <td>
+                              <paragraph>0.9% Sodium Chloride Inj., USP</paragraph>
+                           </td>
+                           <td align="center">
+                              <paragraph>500</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td>
+                              <paragraph>0409-7983-55<footnoteRef IDREF="F1"/>
+                              </paragraph>
+                           </td>
+                           <td>
+                              <paragraph>0.9% Sodium Chloride Inj., USP</paragraph>
+                           </td>
+                           <td align="center">
+                              <paragraph>500</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td>
+                              <paragraph>0990-7983-55<footnoteRef IDREF="F1"/>
+                              </paragraph>
+                           </td>
+                           <td>
+                              <paragraph>0.9% Sodium Chloride Inj., USP</paragraph>
+                           </td>
+                           <td align="center">
+                              <paragraph>500</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td>
+                              <paragraph>0409-7983-09<footnoteRef IDREF="F1"/>
+                                 <sup>,</sup>
+                                 <footnoteRef IDREF="F2"/>
+                              </paragraph>
+                           </td>
+                           <td>
+                              <paragraph>0.9% Sodium Chloride Inj., USP</paragraph>
+                           </td>
+                           <td align="center">
+                              <paragraph>1000</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Botrule ">
+                              <paragraph>0990-7983-09<footnoteRef IDREF="F1"/>
+                                 <sup>,</sup>
+                                 <footnoteRef IDREF="F2"/>
+                              </paragraph>
+                           </td>
+                           <td styleCode="Botrule ">
+                              <paragraph>0.9% Sodium Chloride Inj., USP</paragraph>
+                           </td>
+                           <td align="center" styleCode="Botrule ">
+                              <paragraph>1000</paragraph>
+                           </td>
+                        </tr>
+                     </tbody>
+                  </table>
+                  <paragraph>ICU Medical is transitioning NDC codes from "0409" to "0990" labeler code. Both NDC codes are expected to be in the market for a period of time.</paragraph>
+                  <paragraph>Store at 20 to 25°C (68 to 77°F). [See USP Controlled Room Temperature.] Protect from freezing.</paragraph>
+                  <paragraph>Revised: April, 2020</paragraph>
+                  <paragraph>IFU0000188</paragraph>
+               </text>
+               <effectiveTime value="20210311"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="7f9d0234-f0ff-436e-aaf0-00856306c145"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>PRINCIPAL DISPLAY PANEL - 50 mL Bag Label</title>
+               <text>
+                  <paragraph>50 mL<br/>NDC 0990-7730-36</paragraph>
+                  <paragraph>0.45% SODIUM CHLORIDE<br/> INJECTION, USP</paragraph>
+                  <paragraph>EACH 100 mL CONTAINS SODIUM CHLORIDE<br/>450 mg IN WATER FOR INJECTION. ELECTROLYTES<br/> PER 1000 mL: SODIUM 77 mEq; CHLORIDE 77 mEq.<br/>154 mOsmol/LITER (CALC.) pH 6.0 (4.5 to 7.0)<br/>ADDITIVES MAY BE INCOMPATIBLE. CONSULT WITH <br/>PHARMACIST, IF AVAILABLE. WHEN INTRODUCING<br/> ADDITIVES, USE ASEPTIC TECHNIQUE, MIX<br/> THOROUGHLY AND DO NOT STORE. SINGLE-DOSE<br/> CONTAINER. FOR INTRAVENOUS USE. USUAL<br/> DOSAGE: SEE INSERT. STERILE, NONPYROGENIC.<br/>USE ONLY IF SOLUTION IS CLEAR AND CONTAINER<br/>IS UNDAMAGED. MUST NOT BE USED IN SERIES<br/> CONNECTIONS.</paragraph>
+                  <paragraph>Rx ONLY</paragraph>
+                  <paragraph>3 <br/>v<br/>CONTAINS DEHP</paragraph>
+                  <paragraph>IM-4346</paragraph>
+                  <paragraph>ICU Medical, Inc., Lake Forest, Illinois, 60045, USA</paragraph>
+                  <paragraph>icumedical</paragraph>
+                  <renderMultiMedia referencedObject="MM1"/>
+               </text>
+               <effectiveTime value="20210311"/>
+               <component>
+                  <observationMedia ID="MM1">
+                     <text>PRINCIPAL DISPLAY PANEL - 50 mL Bag Label</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="sodium-01.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="0f26c11a-0c93-4e97-bc7d-6294f29835f8"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>PRINCIPAL DISPLAY PANEL - 250 mL Bag Label</title>
+               <text>
+                  <paragraph>250 mL<br/>NDC 0990-7983-53</paragraph>
+                  <paragraph>0.9% SODIUM CHLORIDE<br/>INJECTION, USP</paragraph>
+                  <paragraph>EACH 100 mL CONTAINS SODIUM<br/>CHLORIDE 900 mg IN WATER FOR<br/>INJECTION. ELECTROLYTES PER 1000 mL:<br/>SODIUM 154 mEq; CHLORIDE 154 mEq.<br/>308 mOsmol/LITER (CALC).<br/>pH 5.6 (4.5 to 7.0)<br/> ADDITIVES MAY BE INCOMPATIBLE.<br/>CONSULT WITH PHARMACIST, IF<br/>AVAILABLE. WHEN INTRODUCING<br/>ADDITIVES, USE ASEPTIC TECHNIQUE,<br/>MIX THOROUGHLY AND DO NOT<br/>STORE. SINGLE-DOSE CONTAINER. FOR<br/>INTRAVENOUS USE. USUAL DOSAGE:<br/>SEE INSERT. STERILE, NONPYROGENIC.<br/>USE ONLY IF SOLUTION IS CLEAR AND<br/>CONTAINER IS UNDAMAGED. MUST NOT<br/>BE USED IN SERIES CONNECTIONS.</paragraph>
+                  <paragraph>Rx ONLY</paragraph>
+                  <paragraph>3<br/>v<br/>CONTAINS DEHP</paragraph>
+                  <paragraph>IM-4450</paragraph>
+                  <paragraph>Manufactured for ICU Medical, Inc.,<br/>Lake Forest, Illinois, 60045, USA</paragraph>
+                  <paragraph>icumedical</paragraph>
+                  <renderMultiMedia referencedObject="MM2"/>
+               </text>
+               <effectiveTime value="20210311"/>
+               <component>
+                  <observationMedia ID="MM2">
+                     <text>PRINCIPAL DISPLAY PANEL - 250 mL Bag Label</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="sodium-02.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="c9ac815b-eda6-47c5-b9ca-e422fc4c4be9"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>PRINCIPAL DISPLAY PANEL - 25 mL Bag Label</title>
+               <text>
+                  <paragraph>25 mL<br/>NDC 0990-7984-20</paragraph>
+                  <paragraph>0.9% SODIUM CHLORIDE<br/>Injection, USP</paragraph>
+                  <paragraph>EACH 100 mL CONTAINS SODIUM CHLORIDE,<br/>900 mg. ELECTROLYTES (mEq/LITER): SODIUM,<br/>154 mEq; CHLORIDE, 154 mEq. 308 mOsmol/LITER<br/>(CALC). pH 6.0 (4.5 to 7.0). ADDITIVES MAY BE<br/>INCOMPATIBLE. SINGLE-DOSE CONTAINER. FOR<br/>I.V. USE. USUAL DOSAGE: SEE INSERT. STERILE,<br/>NONPYROGENIC. USE ONLY IF SOLUTION IS CLEAR<br/>AND CONTAINER IS UNDAMAGED. MUST NOT BE<br/>USED IN SERIES CONNECTIONS.</paragraph>
+                  <paragraph>Rx ONLY</paragraph>
+                  <paragraph>3<br/>v<br/>CONTAINS DEHP</paragraph>
+                  <paragraph>ICU Medical, Inc.,<br/>Lake Forest, Illinois, 60045, USA</paragraph>
+                  <paragraph>icumedical</paragraph>
+                  <paragraph>IM-4350</paragraph>
+                  <renderMultiMedia referencedObject="MM3"/>
+               </text>
+               <effectiveTime value="20210311"/>
+               <component>
+                  <observationMedia ID="MM3">
+                     <text>PRINCIPAL DISPLAY PANEL - 25 mL Bag Label</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="sodium-03.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="c1d546de-b8b5-4c97-97ba-727c3bdfd6b0"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>PRINCIPAL DISPLAY PANEL - 500 mL Bag Label</title>
+               <text>
+                  <paragraph>500 mL<br/>NDC 0990-7985-03</paragraph>
+                  <paragraph>0.45% Sodium Chloride<br/>Injection, USP</paragraph>
+                  <paragraph>EACH 100 mL CONTAINS SODIUM CHLORIDE 450 mg IN<br/>WATER FOR INJECTION. ELECTROLYTES PER 1000 mL:<br/>SODIUM 77 mEq; CHLORIDE 77 mEq.</paragraph>
+                  <paragraph>154 mOsmol/LITER (CALC.)<br/>pH 5.6 (4.5 to 7.0)</paragraph>
+                  <paragraph>ADDITIVES MAY BE INCOMPATIBLE. CONSULT WITH<br/>PHARMACIST, IF AVAILABLE. WHEN INTRODUCING<br/>ADDITIVES, USE ASEPTIC TECHNIQUE, MIX<br/>THOROUGHLY AND DO NOT STORE.</paragraph>
+                  <paragraph>SINGLE-DOSE CONTAINER. FOR I.V. USE. USUAL<br/>DOSAGE: SEE INSERT. STERILE, NONPYROGENIC.<br/>USE ONLY IF SOLUTION IS CLEAR AND CONTAINER<br/>IS UNDAMAGED. MUST NOT BE USED IN SERIES<br/>CONNECTIONS.</paragraph>
+                  <paragraph>Rx ONLY</paragraph>
+                  <paragraph>3<br/>v<br/>CONTAINS DEHP</paragraph>
+                  <paragraph>icumedical</paragraph>
+                  <paragraph>IM-4391</paragraph>
+                  <paragraph>ICU Medical, Inc., Lake Forest, Illinois, 60045, USA</paragraph>
+                  <renderMultiMedia referencedObject="MM4"/>
+               </text>
+               <effectiveTime value="20210311"/>
+               <component>
+                  <observationMedia ID="MM4">
+                     <text>PRINCIPAL DISPLAY PANEL - 500 mL Bag Label</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="sodium-04.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

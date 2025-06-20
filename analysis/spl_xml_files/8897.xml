@@ -1,0 +1,1463 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="https://www.accessdata.fda.gov/spl/stylesheet/spl.xsl"?>
+<document xmlns="urn:hl7-org:v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 https://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="7d6e64fc-bbf2-4ea9-b866-8115c448e687"/>
+   <code code="34391-3" displayName="HUMAN PRESCRIPTION DRUG LABEL" codeSystem="2.16.840.1.113883.6.1"/>
+   <title>PHENERGAN Injection (promethazine hydrochloride Injection, USP)<br/>Rx only</title>
+   <effectiveTime value="20240520"/>
+   <setId root="481866da-a712-48a5-853f-8e84aacaab6d"/>
+   <versionNumber value="8"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id extension="946499746" root="1.3.6.1.4.1.519.1"/>
+            <name>Hikma Pharmaceuticals USA Inc.</name>
+            <assignedEntity>
+               <assignedOrganization/>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section>
+               <id root="f994f796-f601-4f60-b66c-1e725f6251d4"/>
+               <code code="48780-1" displayName="SPL listing data elements section" codeSystem="2.16.840.1.113883.6.1"/>
+               <effectiveTime value="20240520"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="0641-6084" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>PHENERGAN</name>
+                        <formCode code="C42946" displayName="INJECTION" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>Promethazine Hydrochloride</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator unit="mg" value="25"/>
+                              <denominator unit="mL" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="R61ZEH7I1I" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>PROMETHAZINE HYDROCHLORIDE</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="FF28EJQ494" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>PROMETHAZINE</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <quantity>
+                              <numerator unit="mg" value="0.1"/>
+                              <denominator unit="mL" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="7FLD91C86K" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>EDETATE DISODIUM</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <quantity>
+                              <numerator unit="mg" value="0.04"/>
+                              <denominator unit="mL" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="M4I0D6VV5M" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>CALCIUM CHLORIDE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <quantity>
+                              <numerator unit="mg" value="5"/>
+                              <denominator unit="mL" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="339NCG44TV" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>PHENOL</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="059QF0KO0R" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>WATER</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="Q40Q9N063P" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>ACETIC ACID</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="4550K0SC9B" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SODIUM ACETATE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator unit="mL" value="1"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="0641-6084-01" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43226" displayName="VIAL" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator unit="1" value="25"/>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code code="0641-6084-25" codeSystem="2.16.840.1.113883.6.69"/>
+                                    <formCode code="C43182" displayName="CARTON" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 </containerPackagedProduct>
+                                 <subjectOf>
+                                    <marketingAct>
+                                       <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                       <statusCode code="active"/>
+                                       <effectiveTime>
+                                          <low value="19730919"/>
+                                       </effectiveTime>
+                                    </marketingAct>
+                                 </subjectOf>
+                              </asContent>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" displayName="Type 0: Not a Combination Product" codeSystem="2.16.840.1.113883.3.26.1.1" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <id extension="ANDA083312" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73584" displayName="ANDA" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="19730919"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C28161" displayName="INTRAMUSCULAR" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38276" displayName="INTRAVENOUS" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="0641-6085" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>PHENERGAN</name>
+                        <formCode code="C42946" displayName="INJECTION" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>Promethazine Hydrochloride</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator unit="mg" value="50"/>
+                              <denominator unit="mL" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="R61ZEH7I1I" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>PROMETHAZINE HYDROCHLORIDE</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="FF28EJQ494" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>PROMETHAZINE</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <quantity>
+                              <numerator unit="mg" value="0.1"/>
+                              <denominator unit="mL" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="7FLD91C86K" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>EDETATE DISODIUM</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <quantity>
+                              <numerator unit="mg" value="0.04"/>
+                              <denominator unit="mL" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="M4I0D6VV5M" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>CALCIUM CHLORIDE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <quantity>
+                              <numerator unit="mg" value="0.25"/>
+                              <denominator unit="mL" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="4VON5FNS3C" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SODIUM METABISULFITE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <quantity>
+                              <numerator unit="mg" value="5"/>
+                              <denominator unit="mL" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="339NCG44TV" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>PHENOL</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="059QF0KO0R" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>WATER</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="Q40Q9N063P" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>ACETIC ACID</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="4550K0SC9B" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SODIUM ACETATE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator unit="mL" value="1"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="0641-6085-01" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43226" displayName="VIAL" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator unit="1" value="25"/>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code code="0641-6085-25" codeSystem="2.16.840.1.113883.6.69"/>
+                                    <formCode code="C43182" displayName="CARTON" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 </containerPackagedProduct>
+                                 <subjectOf>
+                                    <marketingAct>
+                                       <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                       <statusCode code="active"/>
+                                       <effectiveTime>
+                                          <low value="19730919"/>
+                                       </effectiveTime>
+                                    </marketingAct>
+                                 </subjectOf>
+                              </asContent>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" displayName="Type 0: Not a Combination Product" codeSystem="2.16.840.1.113883.3.26.1.1" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <id extension="ANDA083312" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73584" displayName="ANDA" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="19730919"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C28161" displayName="INTRAMUSCULAR" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_b9cd6928-c9bd-4920-ba55-73961ee60b50">
+               <id root="1f481ae1-6ac8-4575-97dc-de183cc2f310"/>
+               <code code="34066-1" codeSystem="2.16.840.1.113883.6.1" displayName="BOXED WARNING SECTION"/>
+               <title>
+                  <content styleCode="bold">WARNING: RESPIRATORY DEPRESSION IN PEDIATRICS AND SEVERE TISSUE INJURY, INCLUDING GANGRENE</content>
+               </title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">Respiratory Depression – Pediatrics<br/>
+                     </content>
+                  </paragraph>
+                  <list listType="unordered" styleCode="Disk">
+                     <item>
+                        <content styleCode="bold">PHENERGAN injection should not be used in pediatric patients less than 2 years of age because of the potential for fatal respiratory depression. Postmarketing cases of respiratory depression, including fatalities, have been reported with use of promethazine in pediatric patients less than 2 years of age. Caution should be exercised when administering PHENERGAN Injection to pediatric patients 2 years of age and older (See <linkHtml href="#LINK_0e822c3b-c94f-41b2-92fe-92b7fddf1094">Warning – Respiratory Depression</linkHtml>)<br/>
+                        </content>
+                     </item>
+                  </list>
+                  <paragraph>
+                     <content styleCode="bold">Severe Tissue Injury, Including Gangrene<br/>
+                     </content>
+                  </paragraph>
+                  <list listType="unordered" styleCode="Disk">
+                     <item>
+                        <content styleCode="bold">Severe chemical irritation and damage to tissues regardless of the route of parenteral administration has been reported in patients treated with PHENERGAN Injection including gangrene, tissue necrosis, and thrombophlebitis; and in some cases, surgical intervention including fasciotomy, skin graft, and/or amputation have been required (see <linkHtml href="#LINK_44c34549-5b53-4037-bb1c-583bbcfbf7fe">WARNINGS – Severe Tissue Injury, Including Gangrene</linkHtml>.).<br/>
+                        </content>
+                     </item>
+                  </list>
+                  <list listType="unordered" styleCode="Disk">
+                     <item>
+                        <content styleCode="bold">The use of promethazine hydrochloride injection by the following routes of administration is CONTRAINDICATED:<br/>
+                        </content>
+                     </item>
+                     <item>
+                        <content styleCode="bold">Intravenous injection at concentrations greater than 1 mg/mL<br/>
+                        </content>
+                     </item>
+                     <item>
+                        <content styleCode="bold">Intra-arterial injection<br/>
+                        </content>
+                     </item>
+                     <item>
+                        <content styleCode="bold">Subcutaneous injection (see <linkHtml href="#LINK_4747a9df-0050-4485-a880-b515ae4077c9">CONTRAINDICATIONS</linkHtml>).<br/>
+                        </content>
+                     </item>
+                  </list>
+                  <list listType="unordered" styleCode="Disk">
+                     <item>
+                        <content styleCode="bold">The preferred route of administration is by deep intramuscular administration.<br/>
+                        </content>
+                     </item>
+                  </list>
+                  <list listType="unordered" styleCode="Disk">
+                     <item>
+                        <content styleCode="bold">PHENERGAN Injection may be administered intravenously after dilution through an intravenous catheter inserted in a large vein. Preferably through a central venous catheter (see <linkHtml href="#LINK_bfc6572a-e254-420c-b409-d4c17e6416dc">DOSAGE AND ADMINISTRATION</linkHtml>).<br/>
+                        </content>
+                     </item>
+                  </list>
+                  <list listType="unordered" styleCode="Disk">
+                     <item>
+                        <content styleCode="bold">If pain occurs at the injection site during intravenous infusion, immediately discontinue the infusion and evaluate for possible arterial injection or perivascular extravasation, and initiate appropriate medical management.</content>
+                     </item>
+                  </list>
+               </text>
+               <effectiveTime value="20240520"/>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_033628f4-4818-43c1-a354-dd4f5630d0e2">
+               <id root="7707a3d4-f42a-45a6-84c6-3826d3668dc4"/>
+               <code code="34089-3" codeSystem="2.16.840.1.113883.6.1" displayName="DESCRIPTION SECTION"/>
+               <title>DESCRIPTION</title>
+               <text>
+                  <paragraph>PHENERGAN Injection (promethazine hydrochloride injection, USP) is a sterile, pyrogen-free solution for deep intramuscular or intravenous administration. Promethazine hydrochloride (10<content styleCode="italics">H</content>-Phenothiazine-10-ethanamine,<content styleCode="italics">N,N,α</content>-trimethyl-, monohydrochloride, (±)-) is a racemic compound and has the following structural formula:</paragraph>
+                  <renderMultiMedia referencedObject="MM1"/>
+                  <paragraph>C<sub>17</sub>H<sub>21</sub>ClN<sub>2</sub>S       MW 320.88</paragraph>
+                  <paragraph>Each mL contains promethazine hydrochloride, either 25 mg or 50 mg, edetate disodium 0.1 mg, calcium chloride 0.04 mg, sodium metabisulfite 0.25 mg and phenol 5 mg in Water for Injection. pH 4.0 to 5.5; buffered with acetic acid-sodium acetate.</paragraph>
+                  <paragraph>PHENERGAN Injection is a clear, colorless solution. The product is light sensitive. It should be inspected before use and discarded if either color or particulate is observed.</paragraph>
+               </text>
+               <effectiveTime value="20240520"/>
+               <component>
+                  <observationMedia ID="MM1">
+                     <text>chemical structure</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="phenergan-injection-1.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_f807542e-553d-4d27-b6c2-d20385be1c1f">
+               <id root="d3aa95a1-e905-46ab-995d-cd7df951f8ca"/>
+               <code code="34090-1" codeSystem="2.16.840.1.113883.6.1" displayName="CLINICAL PHARMACOLOGY SECTION"/>
+               <title>CLINICAL PHARMACOLOGY</title>
+               <text>
+                  <paragraph>Promethazine hydrochloride is a phenothiazine derivative which possesses antihistaminic, sedative, antimotion-sickness, antiemetic, and anticholinergic effects. Promethazine is a competitive H<sub>1</sub> receptor antagonist, but does not block the release of histamine. Structural differences from the neuroleptic phenothiazines result in its relative lack (1/10 that of chlorpromazine) of dopamine antagonist properties. Clinical effects are generally apparent within 5 minutes of an intravenous injection and within 20 minutes of an intramuscular injection. Duration of action is four to six hours, although effects may persist up to 12 hours. Promethazine hydrochloride is metabolized in the liver, with the sulfoxides of promethazine and N-desmethylpromethazine being the predominant metabolites appearing in the urine. Following intravenous administration in healthy volunteers, the plasma half-life for promethazine has been reported to range from 9 to 16 hours. The mean plasma half-life for promethazine after intramuscular administration in healthy volunteers has been reported to be 9.8 ± 3.4 hours.</paragraph>
+               </text>
+               <effectiveTime value="20240520"/>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_c8f21b6e-4ab3-444d-8afc-05f95204019f">
+               <id root="c3903f87-78f6-40dc-bd64-76156eba7e22"/>
+               <code code="34067-9" codeSystem="2.16.840.1.113883.6.1" displayName="INDICATIONS &amp; USAGE SECTION"/>
+               <title>INDICATIONS AND USAGE</title>
+               <text>
+                  <paragraph>PHENERGAN Injection is indicated for the following conditions:</paragraph>
+                  <list listType="unordered" styleCode="Disk">
+                     <item>Amelioration of allergic reactions to blood or plasma.</item>
+                     <item>In anaphylaxis as an adjunct to epinephrine and other standard measures after the acute symptoms have been controlled.</item>
+                     <item>For other uncomplicated allergic conditions of the immediate type when oral therapy is impossible or contraindicated.</item>
+                     <item>For sedation and relief of apprehension and to produce light sleep from which the patient can be easily aroused.</item>
+                     <item>Active treatment of motion sickness.</item>
+                     <item>Prevention and control of nausea and vomiting associated with certain types of anesthesia and surgery.</item>
+                     <item>As an adjunct to analgesics for the control of postoperative pain.</item>
+                     <item>Preoperative, postoperative, and obstetric (during labor) sedation.</item>
+                     <item>Intravenously in special surgical situations, such as repeated bronchoscopy, ophthalmic surgery, and poor-risk patients, with reduced amounts of meperidine or other narcotic analgesic as an adjunct to anesthesia and analgesia.</item>
+                  </list>
+               </text>
+               <effectiveTime value="20240520"/>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_4747a9df-0050-4485-a880-b515ae4077c9">
+               <id root="1b2b328e-6519-494c-8327-1eb3a4d4a376"/>
+               <code code="34070-3" codeSystem="2.16.840.1.113883.6.1" displayName="CONTRAINDICATIONS SECTION"/>
+               <title>CONTRAINDICATIONS</title>
+               <text>
+                  <paragraph>The use of PHENERGAN Injection is contraindicated:</paragraph>
+                  <list listType="unordered" styleCode="Disk">
+                     <item>In pediatric patients less than 2 years of age due to the risk of respiratory depression (see <content styleCode="bold">
+                           <linkHtml href="#LINK_0e822c3b-c94f-41b2-92fe-92b7fddf1094">WARNINGS – Respiratory Depression</linkHtml>
+                        </content>).</item>
+                     <item>For use as an intravenous injection at concentrations greater than 1 mg/mL due to the risk of perivascular extravasation, unintentional intra-arterial injection, and intraneuronal or perineuronal infiltration (see <content styleCode="bold">
+                           <linkHtml href="#LINK_44c34549-5b53-4037-bb1c-583bbcfbf7fe">WARNINGS - Severe Tissue Injury, Including Gangrene</linkHtml>
+                        </content> and <content styleCode="bold">
+                           <linkHtml href="#LINK_bfc6572a-e254-420c-b409-d4c17e6416dc">DOSAGE AND ADMINISTRATION</linkHtml>
+                        </content>).</item>
+                     <item>For use as an intra-arterial injection due to the likelihood of severe arteriospasm and the possibility of resultant gangrene (see<content styleCode="bold">
+                           <linkHtml href="#LINK_44c34549-5b53-4037-bb1c-583bbcfbf7fe">WARNINGS - Severe Tissue Injury, Including Gangrene</linkHtml>
+                        </content>).</item>
+                     <item>For use as a subcutaneous injection because chemical irritation and necrotic lesions have been reported (see <content styleCode="bold">
+                           <linkHtml href="#LINK_44c34549-5b53-4037-bb1c-583bbcfbf7fe">WARNINGS - Severe Tissue Injury, Including Gangrene</linkHtml>
+                        </content>).</item>
+                     <item>In patients in a comatose state.</item>
+                     <item>In patients who have demonstrated an idiosyncratic reaction or hypersensitivity to promethazine hydrochloride or other phenothiazines.</item>
+                  </list>
+               </text>
+               <effectiveTime value="20240520"/>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_89c99efb-8be0-466e-8a7d-cc0e8f655462">
+               <id root="303d23f8-4e86-46ae-b6ac-20e500ef93bb"/>
+               <code code="34071-1" codeSystem="2.16.840.1.113883.6.1" displayName="WARNINGS SECTION"/>
+               <title>WARNINGS</title>
+               <effectiveTime value="20240520"/>
+               <component>
+                  <section ID="LINK_0e822c3b-c94f-41b2-92fe-92b7fddf1094">
+                     <id root="2c7b9a1f-ce78-4f47-a219-7c1f7f68fdc7"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Respiratory Depression</title>
+                     <effectiveTime value="20240520"/>
+                     <component>
+                        <section ID="LINK_6ddbb49d-e743-4f23-8125-abcb25d4a984">
+                           <id root="19ebdfca-4ff5-4119-b36c-0f543061f94d"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title>Pediatrics</title>
+                           <text>
+                              <paragraph>
+                                 <content styleCode="bold">PHENERGAN Injection should not be used in pediatric patients less than 2 years of age because of the potential for fatal respiratory depression. Postmarketing cases of respiratory depression, including fatalities, have been reported with use of promethazine in pediatric patients less than 2 years of age. A wide range of weight-based doses of PHENERGAN Injection have resulted in respiratory depression in these patients.<br/>
+Caution should be exercised when administering PHENERGAN Injection to pediatric patients 2 years of age and older. It is recommended that the lowest effective dose of PHENERGAN Injection be used in pediatric patients 2 years of age and older. Avoid concomitant administration of other drugs with respiratory depressant effects because of an association with respiratory depression, and sometimes death, in pediatric patients.</content>
+                              </paragraph>
+                           </text>
+                           <effectiveTime value="20240520"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section ID="LINK_63d94f4e-852b-48fe-89b0-7e59032a6b6c">
+                           <id root="d4744955-a3dc-4767-a488-ed5c790ed928"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title>Other</title>
+                           <text>
+                              <paragraph>Because of the risk of potentially fatal respiratory depression, use of PHENERGAN Injection in patients with compromised respiratory function or patients at risk for respiratory failure (e.g. COPD, sleep apnea) should be avoided.</paragraph>
+                           </text>
+                           <effectiveTime value="20240520"/>
+                        </section>
+                     </component>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_44c34549-5b53-4037-bb1c-583bbcfbf7fe">
+                     <id root="07712c83-012a-4d67-b1cc-f572c5b1f797"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Severe Tissue Injury, Including Gangrene</title>
+                     <text>
+                        <list listType="unordered" styleCode="Disk">
+                           <item>
+                              <content styleCode="bold">PHENERGAN Injection has been reported to cause severe chemical irritation and damage to tissues, including gangrene, regardless of the route of parenteral administration. Intra-arterial and subcutaneous administration have resulted in more significant complications. The use of PHENERGAN Injection by intravenous injection at concentrations greater than 1 mg/mL, intra- arterial injection, or subcutaneous injection is contraindicated (see <linkHtml href="#LINK_4747a9df-0050-4485-a880-b515ae4077c9">CONTRAINDICATIONS</linkHtml>).</content>
+                           </item>
+                           <item>
+                              <content styleCode="bold">Irritation and damage can result from perivascular extravasation, intra- arterial injection, and intraneuronal or perineuronal infiltration. Inadvertent intra-arterial injection can cause severe arteriospasm. Other reported adverse reactions included burning, pain, erythema, swelling, sensory loss, palsies, paralysis, severe spasm of distal vessels, thrombophlebitis, venous thrombosis, phlebitis, abscesses, tissue necrosis, and gangrene. In some cases, surgical intervention, including fasciotomy, skin graft, and/or amputation have been required.</content>
+                           </item>
+                           <item>
+                              <content styleCode="bold">The preferred route of administration of PHENERGAN Injection is by deep intramuscular administration.</content>
+                           </item>
+                           <item>
+                              <content styleCode="bold">PHENERGAN Injection may be administered intravenously after dilution through an intravenous catheter inserted in a large vein. Preferably through a central venous catheter (see <linkHtml href="#LINK_bfc6572a-e254-420c-b409-d4c17e6416dc">DOSAGE AND ADMINISTRATION</linkHtml>).</content>
+                           </item>
+                           <item>
+                              <content styleCode="bold">If pain occurs at the injection site during intravenous infusion, immediately discontinue the infusion, evaluate for possible arterial injection or perivascular extravasation, and initiate appropriate medical management.</content>
+                           </item>
+                        </list>
+                     </text>
+                     <effectiveTime value="20240520"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_e751ee72-ceeb-46cd-91b6-dd0db07ac532">
+                     <id root="c5ab63ce-4888-440f-b62b-633bb16013e7"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>CNS Depression</title>
+                     <text>
+                        <paragraph>PHENERGAN Injection may impair the mental and/or physical abilities required for the performance of potentially hazardous tasks, such as driving a vehicle or operating machinery.<br/>
+The impairment may be amplified by concomitant use of other central-nervous-system depressants such as alcohol, sedative/hypnotics (including barbiturates), general anesthetics, narcotics, narcotic analgesics, tricyclic antidepressants, and tranquilizers; therefore such agents should either be eliminated or given in reduced dosage in the presence of promethazine hydrochloride (see <content styleCode="bold">
+                              <linkHtml href="#LINK_72ea9f47-af21-42df-8511-ce85fe2457e6">PRECAUTIONS - Information for Patients</linkHtml>
+                           </content> and <content styleCode="bold">
+                              <linkHtml href="#LINK_b47c4d1d-3be1-4e0f-b896-91af4d82b272">Drug Interactions</linkHtml>
+                           </content>).</paragraph>
+                     </text>
+                     <effectiveTime value="20240520"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_7e503a71-91c9-49d4-a3a2-47e7bda67550">
+                     <id root="6bb4fad3-6270-4126-a139-4597c66cd8cd"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Lower Seizure Threshold</title>
+                     <text>
+                        <paragraph>PHENERGAN Injection may lower seizure threshold and should be used with caution in persons with seizure disorders or in persons who are using concomitant medications, such as narcotics or local anesthetics, which may also affect seizure threshold.</paragraph>
+                     </text>
+                     <effectiveTime value="20240520"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_e7d28417-ca2b-43f0-aa23-2ca8cd3af925">
+                     <id root="8d6be75e-048f-4854-a536-737964cdf4f2"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Bone-Marrow Depression</title>
+                     <text>
+                        <paragraph>PHENERGAN Injection should be used with caution in patients with bone-marrow depression. Leukopenia and agranulocytosis have been reported, usually when promethazine hydrochloride has been used in association with other known marrow-toxic agents.</paragraph>
+                     </text>
+                     <effectiveTime value="20240520"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_4454063e-83ec-4af1-a9ac-d159649c8aa7">
+                     <id root="f7cf809f-79bf-4912-9b93-6338f1137c4c"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Neuroleptic Malignant Syndrome</title>
+                     <text>
+                        <paragraph>A potentially fatal symptom complex sometimes referred to as Neuroleptic Malignant Syndrome (NMS) has been reported in association with promethazine hydrochloride alone or in combination with antipsychotic drugs. Clinical manifestations of NMS are hyperpyrexia, muscle rigidity, altered mental status and evidence of autonomic instability (irregular pulse or blood pressure, tachycardia, diaphoresis and cardiac dysrhythmias).</paragraph>
+                        <paragraph>The diagnostic evaluation of patients with this syndrome is complicated. In arriving at a diagnosis, it is important to identify cases where the clinical presentation includes both serious medical illness (e.g., pneumonia, systemic infection, etc.) and untreated or inadequately treated extrapyramidal signs and symptoms (EPS). Other important considerations in the differential diagnosis include central anticholinergic toxicity, heat stroke, drug fever and primary central nervous system (CNS) pathology.</paragraph>
+                        <paragraph>The management of NMS should include 1) immediate discontinuation of promethazine hydrochloride, antipsychotic drugs, if any, and other drugs not essential to concurrent therapy, 2) intensive symptomatic treatment and medical monitoring, and 3) treatment of any concomitant serious medical problems for which specific treatments are available. </paragraph>
+                        <paragraph>There is no general agreement about specific pharmacological treatment regimens for uncomplicated NMS.<br/>
+Since recurrences of NMS have been reported with phenothiazines, the reintroduction of promethazine hydrochloride should be carefully considered.</paragraph>
+                     </text>
+                     <effectiveTime value="20240520"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_c311658a-32e3-429d-85f5-aecc6e05a3d9">
+                     <id root="803d5939-dfb6-4858-87f3-ea6837416117"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Sulfite Sensitivity</title>
+                     <text>
+                        <paragraph>PHENERGAN Injection contains sodium metabisulfite, a sulfite that may cause allergic-type reactions, including anaphylactic symptoms and life-threatening or less severe asthma episodes, in certain susceptible people. The overall prevalence of sulfite sensitivity in the general population is unknown and probably low. Sulfite sensitivity is seen more frequently in asthmatic than in nonasthmatic people.</paragraph>
+                     </text>
+                     <effectiveTime value="20240520"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_69a7459c-984d-4699-ae4b-96c49554e3b0">
+                     <id root="88cc98ea-8fb7-4d91-9c6a-d711bc583d92"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Visual Inspection</title>
+                     <text>
+                        <paragraph>This product is light sensitive and should be inspected before use and discarded if either color or particulate is observed.</paragraph>
+                     </text>
+                     <effectiveTime value="20240520"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_9e455ab1-25f4-4cd5-86f8-7c56d17dd963">
+                     <id root="b3136757-726a-49ac-b017-c47b5000e47a"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Cholestatic Jaundice</title>
+                     <text>
+                        <paragraph>Administration of promethazine has been associated with reported cholestatic jaundice.</paragraph>
+                     </text>
+                     <effectiveTime value="20240520"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_234da74a-cc7c-4adf-9728-08b44d999db2">
+               <id root="d8a43b1e-9105-47e6-a5a1-6685bda0a156"/>
+               <code code="42232-9" codeSystem="2.16.840.1.113883.6.1" displayName="PRECAUTIONS SECTION"/>
+               <title>PRECAUTIONS</title>
+               <effectiveTime value="20240520"/>
+               <component>
+                  <section ID="LINK_f6cdfc20-7804-4ca9-a039-07aede284a5b">
+                     <id root="ed9242c1-3c72-46a4-850d-961e78f9d5ec"/>
+                     <code code="34072-9" codeSystem="2.16.840.1.113883.6.1" displayName="GENERAL PRECAUTIONS SECTION"/>
+                     <title>General</title>
+                     <text>
+                        <paragraph>Drugs having anticholinergic properties should be used with caution in patients with narrow-angle glaucoma, prostatic hypertrophy, stenosing peptic ulcer, pyloroduodenal obstruction, and bladder-neck obstruction.<br/>
+PHENERGAN Injection should be used cautiously in persons with cardiovascular disease or impairment of liver function.</paragraph>
+                     </text>
+                     <effectiveTime value="20240520"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_72ea9f47-af21-42df-8511-ce85fe2457e6">
+                     <id root="92528379-ae0a-4795-b04a-a0b1dc0bd278"/>
+                     <code code="34076-0" codeSystem="2.16.840.1.113883.6.1" displayName="INFORMATION FOR PATIENTS SECTION"/>
+                     <title>Information for Patients</title>
+                     <text>
+                        <paragraph>Patients should be advised of the risk of respiratory depression, including potentially fatal respiratory depression in children less than 2 years of age (see <content styleCode="bold">
+                              <linkHtml href="#LINK_0e822c3b-c94f-41b2-92fe-92b7fddf1094">WARNINGS - Respiratory Depression</linkHtml>
+                           </content>).</paragraph>
+                        <paragraph>Patients should be advised of the risk of severe tissue injury, including gangrene (see <content styleCode="bold">
+                              <linkHtml href="#LINK_44c34549-5b53-4037-bb1c-583bbcfbf7fe">WARNINGS - Severe Tissue Injury, Including Gangrene</linkHtml>
+                           </content>). Patients should be advised to immediately report persistent or worsening pain or burning at the injection site.</paragraph>
+                        <paragraph>PHENERGAN Injection may cause marked drowsiness or impair the mental or physical abilities required for the performance of potentially hazardous tasks, such as driving a vehicle or operating machinery. Pediatric patients should be supervised to avoid potential harm in bike riding or in other hazardous activities. The concomitant use of alcohol, sedative/hypnotics (including barbiturates), general anesthetics, narcotics, narcotic analgesics, tricyclic antidepressants, and tranquilizers may enhance impairment (see <content styleCode="bold">
+                              <linkHtml href="#LINK_e751ee72-ceeb-46cd-91b6-dd0db07ac532">WARNINGS - CNS Depression</linkHtml>
+                           </content> and <content styleCode="bold">
+                              <linkHtml href="#LINK_b47c4d1d-3be1-4e0f-b896-91af4d82b272">PRECAUTIONS - Drug Interactions</linkHtml>
+                           </content>).</paragraph>
+                        <paragraph>Patients should be advised to report any involuntary muscle movements (see <content styleCode="bold">
+                              <linkHtml href="#LINK_be02591f-9c86-48f0-a2aa-c0c6939be9aa">ADVERSE REACTIONS - Paradoxical Reactions</linkHtml>
+                           </content>).</paragraph>
+                        <paragraph>Patients should be advised to avoid prolonged exposure to the sun (see <content styleCode="bold">
+                              <linkHtml href="#LINK_a88693f2-b9c1-4e56-b949-941be3eaf826">ADVERSE REACTIONS - Dermatologic</linkHtml>
+                           </content>).</paragraph>
+                     </text>
+                     <effectiveTime value="20240520"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_b47c4d1d-3be1-4e0f-b896-91af4d82b272">
+                     <id root="29749a49-c329-4304-a6f9-e0895cb8ac6e"/>
+                     <code code="34073-7" codeSystem="2.16.840.1.113883.6.1" displayName="DRUG INTERACTIONS SECTION"/>
+                     <title>Drug Interactions</title>
+                     <effectiveTime value="20240520"/>
+                     <component>
+                        <section ID="LINK_d4cd8caa-1755-4b97-95a7-8b417653f520">
+                           <id root="da143eee-9712-45b2-b851-00d2c9a911ad"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title>CNS Depressants</title>
+                           <text>
+                              <paragraph>PHENERGAN Injection may increase, prolong, or intensify the sedative action of central-nervous-system depressants, such as alcohol, sedative/hypnotics (including barbiturates), general anesthetics, narcotics, narcotic analgesics, tricyclic antidepressants, and tranquilizers; therefore, such agents should be avoided or administered in reduced dosage to patients receiving promethazine hydrochloride. When given concomitantly with PHENERGAN Injection, the dose of barbiturates should be reduced by at least one-half, and the dose of narcotics should be reduced by one-quarter to one-half. Dosage must be individualized. Excessive amounts of PHENERGAN Injection relative to a narcotic may lead to restlessness and motor hyperactivity in the patient with pain; these symptoms usually disappear with adequate control of the pain.</paragraph>
+                           </text>
+                           <effectiveTime value="20240520"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section ID="LINK_09279682-83fd-4d0e-b183-51b5e927200f">
+                           <id root="e32f0d14-2706-4e31-ade0-cbce874f9067"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title>Epinephrine</title>
+                           <text>
+                              <paragraph>Because of the potential for promethazine hydrochloride to reverse epinephrine’s vasopressor effect, epinephrine should NOT be used to treat hypotension associated with PHENERGAN Injection overdose.</paragraph>
+                           </text>
+                           <effectiveTime value="20240520"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section ID="LINK_65b6e1c4-a6fa-469b-b4cb-cab318db5aba">
+                           <id root="4da60cea-9c72-413c-9c3f-fc42aa033aaf"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title>Anticholinergics</title>
+                           <text>
+                              <paragraph>Concomitant use of other agents with anticholinergic properties should be undertaken with caution.</paragraph>
+                           </text>
+                           <effectiveTime value="20240520"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section ID="LINK_dd9c5393-8e80-4de2-ad3d-9aa6da66b00c">
+                           <id root="434a7a33-6307-47ba-a6a2-3ce5fffdeb84"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title>Monoamine Oxidase (MAO) Inhibitors</title>
+                           <text>
+                              <paragraph>Drug interactions, including an increased incidence of extrapyramidal effects, have been reported when some MAO Inhibitors and phenothiazines are used concomitantly. This possibility should be considered with PHENERGAN Injection.</paragraph>
+                           </text>
+                           <effectiveTime value="20240520"/>
+                        </section>
+                     </component>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_a570007a-1740-4b08-8833-b12965cf7390">
+                     <id root="4b829464-0f86-47b7-b99e-9b7daf2ba909"/>
+                     <code code="34074-5" codeSystem="2.16.840.1.113883.6.1" displayName="DRUG &amp; OR LABORATORY TEST INTERACTIONS SECTION"/>
+                     <title>Drug/Laboratory Test Interactions</title>
+                     <text>
+                        <paragraph>The following laboratory tests may be affected in patients who are receiving therapy with PHENERGAN Injection:</paragraph>
+                     </text>
+                     <effectiveTime value="20240520"/>
+                     <component>
+                        <section ID="LINK_05086877-e0a2-443a-823f-ab9bf4daaa16">
+                           <id root="8f3a02d1-48b4-497c-971b-2309387f3941"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title>Pregnancy Tests</title>
+                           <text>
+                              <paragraph>Diagnostic pregnancy tests based on immunological reactions between HCG and anti-HCG may result in false-negative or false-positive interpretations.</paragraph>
+                           </text>
+                           <effectiveTime value="20240520"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section ID="LINK_926af036-c56b-4004-942b-a930fa413153">
+                           <id root="2162cbde-284a-4aa5-bdee-fd3786dd7715"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title>Glucose Tolerance Test</title>
+                           <text>
+                              <paragraph>An increase in blood glucose has been reported in
+                                            patients receiving promethazine
+                                            hydrochloride.</paragraph>
+                           </text>
+                           <effectiveTime value="20240520"/>
+                        </section>
+                     </component>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_884f3269-e9c9-45f6-853a-f9a9aa4c4f29">
+                     <id root="d3ba4d95-5e47-46e6-993b-78a10b3f903c"/>
+                     <code code="34083-6" codeSystem="2.16.840.1.113883.6.1" displayName="CARCINOGENESIS &amp; MUTAGENESIS &amp; IMPAIRMENT OF FERTILITY SECTION"/>
+                     <title>Carcinogenesis, Mutagenesis and Impairment of Fertility</title>
+                     <text>
+                        <paragraph>Long-term animal studies have not been performed to assess the carcinogenic potential of PHENERGAN Injection, nor are there other animal or human data concerning carcinogenicity, mutagenicity, or impairment of fertility. PHENERGAN Injection was nonmutagenic in the <content styleCode="italics">Salmonella</content> test system of Ames.</paragraph>
+                     </text>
+                     <effectiveTime value="20240520"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_59f365ff-ea62-4630-982a-66e27ef121df">
+                     <id root="1f28d288-dbb1-46fe-9c01-99af8d85aefd"/>
+                     <code code="42228-7" codeSystem="2.16.840.1.113883.6.1" displayName="PREGNANCY SECTION"/>
+                     <title>Pregnancy</title>
+                     <effectiveTime value="20240520"/>
+                     <component>
+                        <section ID="LINK_6e1b3a85-f8cc-4a93-9a4c-32b2652bf743">
+                           <id root="d2113fa9-7758-4a2c-bb2e-4e0f9aa7c3b2"/>
+                           <code code="34077-8" codeSystem="2.16.840.1.113883.6.1" displayName="TERATOGENIC EFFECTS SECTION"/>
+                           <title>Teratogenic Effects—Pregnancy Category C</title>
+                           <text>
+                              <paragraph>Teratogenic effects have not been demonstrated in rat-feeding studies at doses of 6.25 and 12.5 mg/kg (approximately 2.1 and 4.2 times the maximum recommended human daily dose) of PHENERGAN Injection. Daily doses of 25 mg/kg intraperitoneally have been found to produce fetal mortality in rats.<br/>
+There are no adequate and well-controlled studies of PHENERGAN Injection in pregnant women. Because animal reproduction studies are not always predictive of human response, PHENERGAN Injection should be used during pregnancy only if the potential benefit justifies the potential risk to the fetus.<br/>
+Adequate studies to determine the action of the drug on parturition, lactation and development of the animal neonate have not been conducted.</paragraph>
+                           </text>
+                           <effectiveTime value="20240520"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section ID="LINK_4f90e53d-ce82-42fb-afff-740e7801f1c4">
+                           <id root="ab1cc83d-ace2-45f3-9929-d5d1aaae6433"/>
+                           <code code="34078-6" codeSystem="2.16.840.1.113883.6.1" displayName="NONTERATOGENIC EFFECTS SECTION"/>
+                           <title>Nonteratogenic Effects</title>
+                           <text>
+                              <paragraph>PHENERGAN Injection administered to a pregnant woman within two weeks of delivery may inhibit platelet aggregation in the newborn.</paragraph>
+                           </text>
+                           <effectiveTime value="20240520"/>
+                        </section>
+                     </component>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_93d9453c-00e3-461e-983c-7614c882d5fe">
+                     <id root="015260ce-9bde-45cb-b537-592f42a42733"/>
+                     <code code="34079-4" codeSystem="2.16.840.1.113883.6.1" displayName="LABOR &amp; DELIVERY SECTION"/>
+                     <title>Labor and Delivery</title>
+                     <text>
+                        <paragraph>PHENERGAN Injection may be used alone or as an adjunct to narcotic analgesics during labor (see <content styleCode="bold">
+                              <linkHtml href="#LINK_bfc6572a-e254-420c-b409-d4c17e6416dc">DOSAGE AND ADMINISTRATION</linkHtml>
+                           </content>). Limited data suggest that use of PHENERGAN Injection during labor and delivery does not have an appreciable effect on the duration of labor or delivery and does not increase the risk of need for intervention in the newborn. The effect on later growth and development of the newborn is unknown. (See also <content styleCode="bold">
+                              <content styleCode="bold">
+                                 <linkHtml href="#LINK_4f90e53d-ce82-42fb-afff-740e7801f1c4">Pregnancy</linkHtml>
+                              </content>
+                              <linkHtml href="#LINK_4f90e53d-ce82-42fb-afff-740e7801f1c4"> - Nonteratogenic Effects</linkHtml>
+                           </content>.)</paragraph>
+                     </text>
+                     <effectiveTime value="20240520"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_b7262da7-80d9-4271-862f-578188f60435">
+                     <id root="29f5d513-e74a-4bf8-afb1-55e8b28c5899"/>
+                     <code code="34080-2" codeSystem="2.16.840.1.113883.6.1" displayName="NURSING MOTHERS SECTION"/>
+                     <title>Nursing Mothers</title>
+                     <text>
+                        <paragraph>It is not known whether PHENERGAN Injection is excreted in human milk. Because many drugs are excreted in human milk, and because of the potential for serious adverse reactions in nursing infants from PHENERGAN Injection, a decision should be made whether to discontinue nursing or to discontinue the drug, taking into account the importance of the drug to the mother.</paragraph>
+                     </text>
+                     <effectiveTime value="20240520"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_7c1b1d6c-6142-4192-95f0-cb5e4c014545">
+                     <id root="07c3175c-4879-44c8-86d5-a4959d732c24"/>
+                     <code code="34081-0" codeSystem="2.16.840.1.113883.6.1" displayName="PEDIATRIC USE SECTION"/>
+                     <title>Pediatric Use</title>
+                     <text>
+                        <paragraph>PHENERGAN Injection is contraindicated for use in pediatric patients less than 2 years of age, because of the potential for fatal respiratory depression. PHENERGAN Injection should be used with caution in pediatric patients 2 years of age and older (see <content styleCode="bold">
+                              <linkHtml href="#LINK_0e822c3b-c94f-41b2-92fe-92b7fddf1094">WARNINGS - Respiratory Depression</linkHtml>
+                           </content>).<br/>
+Antiemetics are not recommended for treatment of uncomplicated vomiting in pediatric patients, and their use should be limited to prolonged vomiting of known etiology. The extrapyramidal symptoms which can occur secondary to PHENERGAN Injection administration may be confused with the CNS signs of undiagnosed primary disease, e.g. encephalopathy or Reye’s syndrome. The use of PHENERGAN Injection should be avoided in pediatric patients whose signs and symptoms may suggest Reye’s syndrome or other hepatic diseases.<br/>
+Excessively large dosages of antihistamines, including PHENERGAN Injection, in pediatric patients may cause sudden death (see <content styleCode="bold">
+                              <linkHtml href="#LINK_373b846c-6934-4743-afbc-b10affd8be64">OVERDOSAGE</linkHtml>
+                           </content>). Hallucinations and convulsions have occurred with therapeutic doses and overdoses of PHENERGAN Injection in pediatric patients. In pediatric patients who are acutely ill associated with dehydration, there is an increased susceptibility to dystonias with the use of PHENERGAN Injection.</paragraph>
+                     </text>
+                     <effectiveTime value="20240520"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_6d397c77-9545-4813-9451-274ea0eb9695">
+                     <id root="c76bd74a-49dc-41bd-a988-cc347be68e2b"/>
+                     <code code="34082-8" codeSystem="2.16.840.1.113883.6.1" displayName="GERIATRIC USE SECTION"/>
+                     <title>Geriatric Use (patients approximately 60 years or older)</title>
+                     <text>
+                        <paragraph>Since therapeutic requirements for sedative drugs tend to be less in geriatric patients, the dosage should be reduced for these patients.</paragraph>
+                     </text>
+                     <effectiveTime value="20240520"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_9e6b0188-f73a-4916-a21f-80bef5ea0cff">
+               <id root="687e7e9f-5dad-4d0c-924e-9d9c54d41b44"/>
+               <code code="34084-4" codeSystem="2.16.840.1.113883.6.1" displayName="ADVERSE REACTIONS SECTION"/>
+               <title>ADVERSE REACTIONS</title>
+               <effectiveTime value="20240520"/>
+               <component>
+                  <section ID="LINK_943868e0-1050-4cfa-9d88-c6f9df4aa24b">
+                     <id root="2a128ba4-4613-48d7-92cb-9fb80dc426ae"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Respiratory Depression</title>
+                     <text>
+                        <paragraph>PHENERGAN Injection is contraindicated in pediatric patients less than 2 years of age, because of the potential for fatal respiratory depression. PHENERGAN Injection should be used with caution in pediatric patients 2 years of age and older (see <content styleCode="bold">
+                              <linkHtml href="#LINK_0e822c3b-c94f-41b2-92fe-92b7fddf1094">WARNINGS - Respiratory Depression</linkHtml>
+                           </content>).</paragraph>
+                     </text>
+                     <effectiveTime value="20240520"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_75e001de-31b5-4209-bd77-388fde8685d5">
+                     <id root="5250401e-b997-4570-83b5-a0374692d85a"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Severe Tissue Injury, Including Gangrene</title>
+                     <text>
+                        <paragraph>PHENERGAN Injection has been reported to cause severe chemical irritation and <content styleCode="underline">damage to tissues, including gangrene, regardless of the route of parenteral administration</content>. Intra-arterial and subcutaneous injection have resulted in more significant complications (see <content styleCode="bold">
+                              <linkHtml href="#LINK_4747a9df-0050-4485-a880-b515ae4077c9">CONTRAINDICATIONS</linkHtml>
+                           </content>). Reported adverse reactions included burning, pain, erythema, swelling, sensory loss, palsies, paralysis, severe spasm of distal vessels, thrombophlebitis, venous thrombosis, phlebitis, abscesses, tissue necrosis, and gangrene (see <content styleCode="bold">
+                              <linkHtml href="#LINK_44c34549-5b53-4037-bb1c-583bbcfbf7fe">WARNINGS - Severe Tissue Injury, Including Gangrene</linkHtml>
+                           </content>).</paragraph>
+                     </text>
+                     <effectiveTime value="20240520"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_8222ad48-c759-4ad5-9e57-e8092e1eff2d">
+                     <id root="ea92fb4a-2278-4312-a075-70af899133bc"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Central Nervous System</title>
+                     <text>
+                        <paragraph>Drowsiness is the most prominent CNS effect of this drug. Sedation, somnolence, blurred vision, dizziness, confusion, disorientation, and extrapyramidal symptoms such as oculogyric crisis, torticollis, and tongue protrusion; lassitude, tinnitus, incoordination, fatigue, euphoria, nervousness, diplopia, insomnia, tremors, convulsive seizures, excitation, catatonic-like states, hysteria. Hallucinations have also been reported.</paragraph>
+                     </text>
+                     <effectiveTime value="20240520"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_5c85dc09-fc6b-4db6-9aff-7e363021b647">
+                     <id root="47173531-b0b5-4ecc-80a6-99c1b4d15bea"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Cardiovascular</title>
+                     <text>
+                        <paragraph>Increased or decreased blood pressure, tachycardia, bradycardia, faintness.</paragraph>
+                     </text>
+                     <effectiveTime value="20240520"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_a88693f2-b9c1-4e56-b949-941be3eaf826">
+                     <id root="7f55d693-ec08-484e-9a28-39d436ec43f0"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Dermatologic</title>
+                     <text>
+                        <paragraph>Dermatitis, photosensitivity, urticaria.</paragraph>
+                     </text>
+                     <effectiveTime value="20240520"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_05786af1-f91e-43fe-a0e2-587fc3c360c2">
+                     <id root="f5c19ba8-c951-41d2-a008-8132a1ad7918"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Hematologic</title>
+                     <text>
+                        <paragraph>Leukopenia, thrombocytopenia, thrombocytopenic purpura, agranulocytosis.</paragraph>
+                     </text>
+                     <effectiveTime value="20240520"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_82204ca5-36db-4cf8-8127-92b3ecf940da">
+                     <id root="4f131ddc-832a-4f49-a49d-aea183680fe9"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Gastrointestinal</title>
+                     <text>
+                        <paragraph>Dry mouth, nausea, vomiting, jaundice.</paragraph>
+                     </text>
+                     <effectiveTime value="20240520"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_8dece917-66bc-4d56-9d2c-6ee2d4d8bf54">
+                     <id root="9c3a0bf0-e638-4f91-8e00-2fce74386c78"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Respiratory</title>
+                     <text>
+                        <paragraph>Asthma, nasal stuffiness, respiratory depression (potentially fatal) and apnea (potentially fatal). (See <content styleCode="bold">
+                              <linkHtml href="#LINK_0e822c3b-c94f-41b2-92fe-92b7fddf1094">WARNINGS - Respiratory Depression</linkHtml>
+                           </content>.)</paragraph>
+                     </text>
+                     <effectiveTime value="20240520"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_349dcfb0-e248-4b4b-bb57-db045b78bafe">
+                     <id root="51ac3ba7-e2a8-4721-bc03-abee781d9da5"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Other</title>
+                     <text>
+                        <paragraph>Angioneurotic edema. Neuroleptic Malignant Syndrome (potentially fatal) has also been reported. (See <content styleCode="bold">
+                              <linkHtml href="#LINK_4454063e-83ec-4af1-a9ac-d159649c8aa7">WARNINGS - Neuroleptic Malignant Syndrome</linkHtml>
+                           </content>.)
+</paragraph>
+                     </text>
+                     <effectiveTime value="20240520"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_be02591f-9c86-48f0-a2aa-c0c6939be9aa">
+                     <id root="a42f6104-92d5-4d47-9429-4365ffe3a08b"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Paradoxical Reactions</title>
+                     <text>
+                        <paragraph>Hyperexcitability and abnormal movements have been reported in patients following a single administration of PHENERGAN Injection. Consideration should be given to the discontinuation of PHENERGAN Injection and to the use of other drugs if these reactions occur. Respiratory depression, nightmares, delirium, and agitated behavior have also been reported in some of these patients.</paragraph>
+                     </text>
+                     <effectiveTime value="20240520"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_373b846c-6934-4743-afbc-b10affd8be64">
+               <id root="da71e6fd-3642-43b6-b018-b8af8cff37d9"/>
+               <code code="34088-5" codeSystem="2.16.840.1.113883.6.1" displayName="OVERDOSAGE SECTION"/>
+               <title>OVERDOSAGE</title>
+               <text>
+                  <paragraph>Signs and symptoms of overdosage range from mild depression of the central nervous system and cardiovascular system to profound hypotension, respiratory depression, unconsciousness and sudden death. Other reported reactions include hyperreflexia, hypertonia, ataxia, athetosis, and extensor-plantar reflexes (Babinski reflex).<br/>
+Stimulation may be evident, especially in pediatric patients and geriatric patients. Convulsions may rarely occur. A paradoxical-type reaction has been reported in pediatric patients receiving single doses of 75 mg to 125 mg orally, characterized by hyperexcitability and nightmares.<br/>
+Atropine-like signs and symptoms-dry mouth; fixed, dilated pupils; flushing; etc., as well as gastrointestinal symptoms, may occur.</paragraph>
+               </text>
+               <effectiveTime value="20240520"/>
+               <component>
+                  <section ID="LINK_84431eca-d009-4cac-a7b2-885400c1472f">
+                     <id root="943dcd79-9f0b-4abc-991e-d87cbee2a736"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Treatment</title>
+                     <text>
+                        <paragraph>Treatment of overdosage is essentially symptomatic and supportive. Only in cases of extreme overdosage or individual sensitivity do vital signs, including respiration, pulse, blood pressure, temperature, and EKG, need to be monitored. Attention should be given to the reestablishment of adequate respiratory exchange through provision of a patent airway and institution of assisted or controlled ventilation. Diazepam may be used to control convulsions. Acidosis and electrolyte losses should be corrected. Note that any depressant effects of PHENERGAN Injection are not reversed by naloxone.<br/>
+Avoid analeptics, which may cause convulsions. The treatment of choice for resulting hypotension is administration of intravenous fluids, accompanied by repositioning if indicated. In the event that vasopressors are considered for the management of severe hypotension which does not respond to intravenous fluids and repositioning, the administration of norepinephrine or phenylephrine should be considered. EPINEPHRINE SHOULD NOT BE USED, since its use in a patient with partial adrenergic blockade may further lower the blood pressure. Extrapyramidal reactions may be treated with anticholinergic antiparkinson agents, diphenhydramine, or barbiturates. Oxygen may also be administered. Limited experience with dialysis indicates that it is not helpful.</paragraph>
+                     </text>
+                     <effectiveTime value="20240520"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_bfc6572a-e254-420c-b409-d4c17e6416dc">
+               <id root="769bbe10-261e-463e-9249-7f397a273e37"/>
+               <code code="34068-7" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE &amp; ADMINISTRATION SECTION"/>
+               <title>DOSAGE AND ADMINISTRATION</title>
+               <effectiveTime value="20240520"/>
+               <component>
+                  <section ID="LINK_c0757f27-d6a6-452e-8fdb-49900f9c6b00">
+                     <id root="417cce0e-dd9f-4739-ae0f-18a6398c7bee"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>
+                        <content styleCode="underline">
+                           <content styleCode="bold">Important Administration Information for Adult and Pediatric Patients 2 Years of Age and Older</content>
+                        </content>
+                     </title>
+                     <text>
+                        <list listType="unordered" styleCode="Disk">
+                           <item>The preferred route of administration of PHENERGAN Injection is by deep intramuscular administration (see <content styleCode="bold">
+                                 <linkHtml href="#LINK_44c34549-5b53-4037-bb1c-583bbcfbf7fe">WARNINGS - Severe Tissue Injury, Including Gangrene</linkHtml>
+                              </content>).</item>
+                           <item>PHENERGAN Injection may be administered intravenously after dilution as recommended below (see <content styleCode="bold">Preparation and Administration</content>). If pain occurs at the injection site during intravenous infusion, immediately discontinue the infusion, and evaluate for possible arterial injection or perivascular extravasation.</item>
+                        </list>
+                     </text>
+                     <effectiveTime value="20240520"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_50d0e3b4-2325-4c07-b4af-17dc6a920bc3">
+                     <id root="7ac23562-28dd-4142-8c9a-d96aa6a1fff4"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Allergic Conditions</title>
+                     <text>
+                        <paragraph>The average adult dose is 25 mg. This dose may be repeated within two hours if necessary, but continued therapy, if indicated, should be via the oral route as soon as existing circumstances permit. After initiation of treatment, dosage should be adjusted to the smallest amount adequate to relieve symptoms. The average adult dose for amelioration of allergic reactions to blood or plasma is 25 mg.</paragraph>
+                     </text>
+                     <effectiveTime value="20240520"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_b76ba737-b47f-4f43-83a4-19e6fc85191c">
+                     <id root="bbe97982-e24c-4e39-8524-628166dac15f"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Sedation</title>
+                     <text>
+                        <paragraph>In hospitalized adult patients, nighttime sedation may be achieved by a dose of 25 to 50 mg of PHENERGAN Injection.</paragraph>
+                     </text>
+                     <effectiveTime value="20240520"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_023183d6-ae8e-44a6-8dc7-77168d7469a5">
+                     <id root="f58c6147-2874-4f1f-a7e2-8e451bac7f0c"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Nausea and Vomiting</title>
+                     <text>
+                        <paragraph>For control of nausea and vomiting, the usual adult dose is 12.5 to 25 mg, not to be repeated more frequently than every four hours. When used for control of postoperative nausea and vomiting, the dosage of analgesics and barbiturates should be reduced accordingly (see <content styleCode="bold">
+                              <linkHtml href="#LINK_b47c4d1d-3be1-4e0f-b896-91af4d82b272">PRECAUTIONS - Drug Interactions</linkHtml>
+                           </content>).<br/>
+Antiemetics should not be used in vomiting of unknown etiology in children and adolescents (see <content styleCode="bold">
+                              <linkHtml href="#LINK_7c1b1d6c-6142-4192-95f0-cb5e4c014545">PRECAUTIONS - Pediatric Use</linkHtml>
+                           </content>).</paragraph>
+                     </text>
+                     <effectiveTime value="20240520"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_49719424-2351-463e-b598-0c3ab0110cc5">
+                     <id root="7cf3e468-374e-4446-9afe-6133d0fecc54"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Preoperative and Postoperative Use</title>
+                     <text>
+                        <paragraph>As an adjunct to preoperative or postoperative medication, 25 to 50 mg of PHENERGAN Injection in adults may be combined with appropriately reduced doses of analgesics and atropine-like drugs as desired. Dosage of concomitant analgesic or hypnotic medication should be reduced accordingly (see <content styleCode="bold">
+                              <linkHtml href="#LINK_b47c4d1d-3be1-4e0f-b896-91af4d82b272">PRECAUTIONS - Drug Interactions</linkHtml>
+                           </content>).<br/>
+PHENERGAN Injection is contraindicated for use in pediatric patients less than two years of age.</paragraph>
+                     </text>
+                     <effectiveTime value="20240520"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_206192c1-9b6a-4007-af99-a2285b39d298">
+                     <id root="2419f0a4-1526-4117-a721-e8c12588164c"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Obstetrics</title>
+                     <text>
+                        <paragraph>PHENERGAN Injection in doses of 50 mg will provide sedation and relieve apprehension in the early stages of labor. When labor is definitely established, 25 to 75 mg (average dose, 50 mg) PHENERGAN Injection may be given with an appropriately reduced dose of any desired narcotic (see <content styleCode="bold">
+                              <linkHtml href="#LINK_b47c4d1d-3be1-4e0f-b896-91af4d82b272">PRECAUTIONS - Drug Interactions</linkHtml>
+                           </content>). If necessary, PHENERGAN Injection with a reduced dose of analgesic may be repeated once or twice at four-hour intervals in the course of a normal labor. A maximum total dose of 100 mg of PHENERGAN Injection may be administered during a 24-hour period to patients in labor.</paragraph>
+                     </text>
+                     <effectiveTime value="20240520"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_ec105b6b-2a74-46ee-87fe-ee9cf2398580">
+                     <id root="5ea1c3fe-0d73-4634-81c5-70879fbb5960"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Pediatric Patients</title>
+                     <text>
+                        <paragraph>
+                           <content styleCode="bold">PHENERGAN Injection is contraindicated for use in pediatric patients less than 2 years of age (see <linkHtml href="#LINK_0e822c3b-c94f-41b2-92fe-92b7fddf1094">WARNINGS - Respiratory Depression</linkHtml>). Caution should be exercised when administering promethazine hydrochloride to pediatric patients 2 years of age or older. It is recommended that the lowest effective dose of promethazine hydrochloride be used in pediatric patients 2 years of age and older and concomitant administration of other drugs with respiratory depressant effects be avoided (see <linkHtml href="#LINK_0e822c3b-c94f-41b2-92fe-92b7fddf1094">WARNINGS - Respiratory Depression</linkHtml>).<br/>
+                           </content>In pediatric patients 2 years of age and older, the dosage should not exceed half that of the suggested adult dose. As an adjunct to premedication, the suggested dose is 1.1 mg per kg of body weight in combination with an appropriately reduced dose of narcotic or barbiturate and the appropriate dose of an atropine-like drug (see <content styleCode="bold">
+                              <linkHtml href="#LINK_b47c4d1d-3be1-4e0f-b896-91af4d82b272">PRECAUTIONS - Drug Interactions</linkHtml>
+                           </content>). Antiemetics should not be used in vomiting of unknown etiology in pediatric patients.</paragraph>
+                     </text>
+                     <effectiveTime value="20240520"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_8799040e-d87e-4873-8864-a68c5ceed923">
+                     <id root="1cfdf8d9-79d5-4584-8733-f87251357977"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>
+                        <content styleCode="bold">
+                           <content styleCode="underline">Preparation and Administration Instructions for Diluted Intravenous Infusion in Adults</content>
+                        </content>
+                     </title>
+                     <text>
+                        <paragraph>Inspect the solution for particulate matter and discoloration, before dilution, after dilution, and before administration. Discard the vial, ampule, or bag if particulates and/or discoloration are observed.</paragraph>
+                        <paragraph>1. Determine the recommended dose of promethazine hydrochloride injection.</paragraph>
+                        <paragraph>2. Aseptically withdraw the required volume from the vial or ampule and transfer it into an infusion bag.</paragraph>
+                        <list listType="unordered" styleCode="Disk">
+                           <item>Use a filter needle when withdrawing promethazine hydrochloride injection from the ampule.</item>
+                        </list>
+                        <paragraph>3. Dilute with the recommended volume of 0.9% Sodium Chloride Injection, see Table 1. Avoid mixing and/or diluting with any other drugs or solutions other than 0.9% Sodium Chloride Injection.</paragraph>
+                        <paragraph>4. Gently invert the infusion bag.</paragraph>
+                        <paragraph>5. Check patency of the access site before administration.</paragraph>
+                        <paragraph>6. Administer the diluted solution through an intravenous catheter, inserted in a large vein (preferably through a central venous catheter), over 20 to 40 minutes; for maximum infusion rates, see Table 1.</paragraph>
+                        <list listType="unordered" styleCode="Disk">
+                           <item>Do NOT administer via an intravenous catheter in the hand or wrist.</item>
+                        </list>
+                        <paragraph>7. If pain occurs at the injection site during intravenous infusion, immediately discontinue the infusion and evaluate for possible arterial injection or perivascular extravasation.</paragraph>
+                        <table width="843px">
+                           <caption>Table 1. Preparation and Infusion Information by Adult Dose of PHENERGAN Injection</caption>
+                           <col/>
+                           <col/>
+                           <col/>
+                           <col/>
+                           <tbody>
+                              <tr>
+                                 <td styleCode=" Botrule Toprule Lrule Rrule">
+                                    <content styleCode="bold">Dose of PHENERGAN Injection</content>
+                                 </td>
+                                 <td styleCode=" Botrule Toprule Lrule Rrule">
+                                    <content styleCode="bold">Volume of 0.9% Sodium Chloride Injection for Dilution</content>
+                                 </td>
+                                 <td styleCode=" Botrule Toprule Lrule Rrule">
+                                    <content styleCode="bold">Maximum Concentration of the Diluted PHENERGAN Injection Solution</content>
+                                 </td>
+                                 <td styleCode=" Botrule Toprule Lrule Rrule">
+                                    <content styleCode="bold">Maximum Rate of Infusion </content>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td styleCode=" Botrule Toprule Lrule Rrule"> 12.5 mg</td>
+                                 <td styleCode=" Botrule Toprule Lrule Rrule">50 mL </td>
+                                 <td align="center" rowspan="4" styleCode=" Botrule Toprule Lrule Rrule"> 1 mg/mL</td>
+                                 <td styleCode=" Botrule Toprule Lrule Rrule"> 2.5 mL/minute</td>
+                              </tr>
+                              <tr>
+                                 <td styleCode=" Botrule Toprule Lrule Rrule"> 25 mg</td>
+                                 <td styleCode=" Botrule Toprule Lrule Rrule"> 50 mL</td>
+                                 <td styleCode=" Botrule Toprule Lrule Rrule"> 2.5 mL/minute</td>
+                              </tr>
+                              <tr>
+                                 <td styleCode=" Botrule Toprule Lrule Rrule"> 50 mg</td>
+                                 <td styleCode=" Botrule Toprule Lrule Rrule"> 50 mL</td>
+                                 <td styleCode=" Botrule Toprule Lrule Rrule"> 2.5 mL/minute</td>
+                              </tr>
+                              <tr>
+                                 <td styleCode=" Botrule Toprule Lrule Rrule"> 75 mg</td>
+                                 <td styleCode=" Botrule Toprule Lrule Rrule"> 100 mL</td>
+                                 <td styleCode=" Botrule Toprule Lrule Rrule"> 5 mL/minute</td>
+                              </tr>
+                           </tbody>
+                        </table>
+                        <br/>
+                     </text>
+                     <effectiveTime value="20240520"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_85c138e6-c564-4222-abfd-c030f2f90e45">
+                     <id root="37a2e25a-a227-49c9-b790-a0c74c30b9a7"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>
+                        <content styleCode="bold">
+                           <content styleCode="underline">Preparation and Administration Instructions for Diluted Intravenous Infusion to Pediatric Patients 2 Years of Age and Older</content>
+                        </content>
+                     </title>
+                     <text>
+                        <paragraph>Inspect the solution for particulate matter and discoloration, before dilution, after dilution, and before administration. Discard the vial, ampule, syringe or bag if particulates and/or discoloration are observed.</paragraph>
+                        <paragraph>1. Determine the recommended dose of promethazine hydrochloride injection for pediatric patients 2 years of age and older.</paragraph>
+                        <paragraph>2. Aseptically withdraw the required volume from the vial or ampule and transfer it into an appropriately sized syringe or bag for use with an infusion pump.</paragraph>
+                        <list listType="unordered" styleCode="Disk">
+                           <item>Use a filter needle when withdrawing promethazine hydrochloride injection from the ampule.</item>
+                        </list>
+                        <paragraph>3. Dilute with the recommended volume of 0.9% Sodium Chloride Injection, see Table 2. Avoid mixing and/or diluting with any other drugs or solutions other than 0.9% Sodium Chloride Injection.</paragraph>
+                        <paragraph>4. Gently invert the syringe or bag.</paragraph>
+                        <paragraph>5. Check patency of the access site before administration.</paragraph>
+                        <paragraph>6. Administer the diluted solution through an intravenous catheter, inserted in a large vein (preferably through a central venous catheter) with a maximum infusion rate of 1.25 mL/minute.</paragraph>
+                        <list listType="unordered" styleCode="Disk">
+                           <item>Do NOT administer via an intravenous catheter in the hand or wrist.</item>
+                        </list>
+                        <paragraph>7. If pain occurs at the injection site during intravenous infusion, immediately discontinue the infusion and evaluate for possible arterial injection or perivascular extravasation.</paragraph>
+                        <table width="860px">
+                           <caption>Table 2. Preparation and Infusion Information by Pediatric Dose of PHENERGAN Injection<footnote ID="FOOT_24267">Avoid mixing and/or diluting with any other drugs or solutions besides 0.9% Sodium Chloride Injection</footnote> </caption>
+                           <col/>
+                           <col/>
+                           <col/>
+                           <col/>
+                           <tbody>
+                              <tr>
+                                 <td styleCode=" Botrule Toprule Lrule Rrule">
+                                    <content styleCode="bold">Dose of PHENERGAN Injection</content>
+                                 </td>
+                                 <td styleCode=" Botrule Toprule Lrule Rrule">
+                                    <content styleCode="bold">Volume of 0.9% Sodium Chloride Injection for Dilution</content>
+                                 </td>
+                                 <td styleCode=" Botrule Toprule Lrule Rrule">
+                                    <content styleCode="bold">Maximum Concentration of the Diluted PHENERGAN Injection Solution </content>
+                                 </td>
+                                 <td styleCode=" Botrule Toprule Lrule Rrule">
+                                    <content styleCode="bold">Maximum Rate of Infusion</content>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td styleCode=" Botrule Toprule Lrule Rrule"> Up to 25 mg</td>
+                                 <td styleCode=" Botrule Toprule Lrule Rrule"> 25 mL</td>
+                                 <td align="center" rowspan="2" styleCode=" Botrule Toprule Lrule Rrule"> 1 mg/mL</td>
+                                 <td align="center" rowspan="2" styleCode=" Botrule Toprule Lrule Rrule"> 1.25 mL/minute</td>
+                              </tr>
+                              <tr>
+                                 <td styleCode=" Botrule Toprule Lrule Rrule"> 25 mg to 50 mg</td>
+                                 <td styleCode=" Botrule Toprule Lrule Rrule"> 50 mL</td>
+                              </tr>
+                           </tbody>
+                        </table>
+                        <br/>
+                     </text>
+                     <effectiveTime value="20240520"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_42d25a65-f1e5-43f9-99b6-2bd601ebd4c5">
+                     <id root="0dc276df-3efa-46ca-9345-0bd6db2761e7"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>
+                        <content styleCode="bold">
+                           <content styleCode="underline">Storage of Diluted PHENERGAN Injection</content>
+                        </content>
+                     </title>
+                     <text>
+                        <paragraph>Diluted solution may be stored up to 4 hours at room temperature, 20°C to 25°C (68°F to 77°F), or refrigerated at 2°C to 8°C (36° to 46°F), up to 24 hours.</paragraph>
+                     </text>
+                     <effectiveTime value="20240520"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_f91c5955-a3d7-497e-9ec1-fe86861e65d2">
+               <id root="62234ce3-bdff-4001-8cf5-73262f84352f"/>
+               <code code="34069-5" codeSystem="2.16.840.1.113883.6.1" displayName="HOW SUPPLIED SECTION"/>
+               <title>HOW SUPPLIED</title>
+               <text>
+                  <paragraph>PHENERGAN Injection (promethazine hydrochloride injection, USP) is available as follows:</paragraph>
+                  <paragraph>25 mg/mL</paragraph>
+                  <paragraph>   1 mL vials packaged in 25s (NDC 0641-6084-25)</paragraph>
+                  <paragraph>50 mg/mL</paragraph>
+                  <paragraph>  1 mL vials packaged in 25s (NDC 0641-6085-25)</paragraph>
+               </text>
+               <effectiveTime value="20240520"/>
+               <component>
+                  <section ID="LINK_52d74c93-e366-4cc3-908b-021facfc0bf1">
+                     <id root="9faa1d84-91c6-4266-904d-59280a42caab"/>
+                     <code code="44425-7" codeSystem="2.16.840.1.113883.6.1" displayName="STORAGE AND HANDLING SECTION"/>
+                     <title>Storage</title>
+                     <text>
+                        <paragraph>
+                           <content styleCode="bold">Store at 20</content>
+                           <content styleCode="bold">° to 25</content>
+                           <content styleCode="bold">°C (68</content>
+                           <content styleCode="bold">° to 77</content>
+                           <content styleCode="bold">°F) [See USP Controlled Room Temperature].</content>
+                        </paragraph>
+                        <paragraph>
+                           <content styleCode="bold">Protect from light. Keep covered in carton until time of use.</content>
+                        </paragraph>
+                        <paragraph>
+                           <content styleCode="bold">Do not use if solution has developed color or contains a precipitate.</content>
+                        </paragraph>
+                        <paragraph>To report SUSPECTED ADVERSE REACTIONS, contact Hikma Pharmaceuticals USA Inc. at<br/>
+1-877-845-0689, or the FDA at 1-800-FDA-1088 or <linkHtml href="http://www.fda.gov/medwatch">www.fda.gov/medwatch</linkHtml>.</paragraph>
+                        <paragraph>For Product Inquiry call 1-877-845-0689.</paragraph>
+                        <paragraph>Phenergan is a registered trademark of Wyeth and is used under license.</paragraph>
+                        <paragraph>
+                           <content styleCode="bold">Manufactured by:</content>
+                        </paragraph>
+                        <paragraph>Hikma Pharmaceuticals USA Inc.<content styleCode="bold">
+                              <br/>
+                           </content>Berkeley Heights, NJ 07922</paragraph>
+                        <paragraph>Revised December 2023</paragraph>
+                        <paragraph>462-024-07                                                                                                                                                 </paragraph>
+                     </text>
+                     <effectiveTime value="20240520"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_0cfa2764-afbd-4c59-9b73-40ba29624534">
+               <id root="e3eddcaa-3568-400b-80c5-5a2fe99aeff9"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>
+                  <content styleCode="bold">PRINCIPAL DISPLAY PANEL</content>
+               </title>
+               <text>
+                  <paragraph>NDC 0641-<content styleCode="bold">6084</content>-01  Rx only</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Phenergan Injection</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">(Promethazine HCl Inj., USP)</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">25 mg/mL</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Deep IM Use Preferred</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Must Dilute for IV Use</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Protect from light</content>
+                  </paragraph>
+                  <paragraph>1 mL Vial</paragraph>
+                  <renderMultiMedia referencedObject="MM2"/>
+                  <paragraph>NDC 0641-<content styleCode="bold">6084</content>-25  Rx only</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Phenergan Injection</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">(Promethazine HCl Inj., USP)</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">25 mg/mL</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Deep Intramuscular Use Preferred</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Must be Diluted Prior to Intravenous Use</content>
+                  </paragraph>
+                  <paragraph>25 x 1 mL Vials</paragraph>
+                  <renderMultiMedia referencedObject="MM3"/>
+               </text>
+               <effectiveTime value="20240520"/>
+               <component>
+                  <observationMedia ID="MM2">
+                     <text>25 mg mL vial</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="phenergan-injection-2.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="MM3">
+                     <text>25 mg mL shelfpack</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="phenergan-injection-3.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_7f3e6223-377d-4873-91ef-083a476307ab">
+               <id root="badca270-5a7d-4fa7-a4a8-98472ba723af"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>
+                  <content styleCode="bold">PRINCIPAL DISPLAY PANEL</content>
+               </title>
+               <text>
+                  <paragraph>NDC 0641-<content styleCode="bold">6085</content>-01  Rx only</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Phenergan Injection</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">(Promethazine HCl Inj., USP)</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">50 mg/mL</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Deep IM Use Preferred</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Must Dilute for IV Use</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Protect from light</content>
+                  </paragraph>
+                  <paragraph>1 mL Vial</paragraph>
+                  <renderMultiMedia referencedObject="MM4"/>
+                  <paragraph>NDC 0641-<content styleCode="bold">6085</content>-25  Rx only</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Phenergan Injection</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">(Promethazine HCl Inj., USP)</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">50 mg/mL</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Deep Intramuscular Use Preferred</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Must be Diluted Prior to Intravenous Use</content>
+                  </paragraph>
+                  <paragraph>25 x 1 mL Vials</paragraph>
+                  <renderMultiMedia referencedObject="MM5"/>
+               </text>
+               <effectiveTime value="20240520"/>
+               <component>
+                  <observationMedia ID="MM4">
+                     <text>50 mg mL vial</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="phenergan-injection-4.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="MM5">
+                     <text>50 mg mL shelfpack</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="phenergan-injection-5.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

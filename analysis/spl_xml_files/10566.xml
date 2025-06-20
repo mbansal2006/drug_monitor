@@ -1,0 +1,1601 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="https://www.accessdata.fda.gov/spl/stylesheet/spl.xsl" type="text/xsl"?>
+<document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:voc="urn:hl7-org:v3/voc" xmlns="urn:hl7-org:v3" xsi:schemaLocation="urn:hl7-org:v3 https://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="54a3934f-8705-b2e7-f5c5-a85ac5c546d8"/>
+   <code code="34391-3" codeSystem="2.16.840.1.113883.6.1" displayName="HUMAN PRESCRIPTION DRUG LABEL"/>
+   <title>
+      <content styleCode="bold">These highlights do not include all the information needed to use GEFITINIB TABLETS safely and effectively. See full prescribing information for GEFITINIB TABLETS.<br/>
+         <br/>
+         <content styleCode="bold">GEFITINIB</content> tablets, for oral use </content>
+      <br/>
+      <content styleCode="bold">Initial U.S. Approval: 2015</content>
+   </title>
+   <effectiveTime value="20240422"/>
+   <setId root="257a3e9c-019e-ef38-de25-1ebd7585c3ea"/>
+   <versionNumber value="4"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id extension="845263701" root="1.3.6.1.4.1.519.1"/>
+            <name>Apotex Corp.</name>
+            <assignedEntity>
+               <assignedOrganization>
+                  <id extension="209429182" root="1.3.6.1.4.1.519.1"/>
+                  <name>Apotex Inc.</name>
+                  <assignedEntity>
+                     <assignedOrganization>
+                        <id extension="209429182" root="1.3.6.1.4.1.519.1"/>
+                        <name>Apotex Inc.</name>
+                     </assignedOrganization>
+                     <performance>
+                        <actDefinition>
+                           <code code="C25391" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="analysis"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="60505-4512" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                     <performance>
+                        <actDefinition>
+                           <code code="C43360" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="manufacture"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="60505-4512" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                  </assignedEntity>
+                  <assignedEntity>
+                     <assignedOrganization>
+                        <id extension="255092496" root="1.3.6.1.4.1.519.1"/>
+                        <name>Apotex Inc.</name>
+                     </assignedOrganization>
+                     <performance>
+                        <actDefinition>
+                           <code code="C25391" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="analysis"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="60505-4512" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                  </assignedEntity>
+               </assignedOrganization>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section>
+               <id root="5f59b247-6221-5f9c-ba6d-6049301740ee"/>
+               <code code="48780-1" displayName="SPL PRODUCT DATA ELEMENTS SECTION" codeSystem="2.16.840.1.113883.6.1"/>
+               <effectiveTime value="20240422"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="60505-4512" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>Gefitinib</name>
+                        <formCode code="C42998" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="TABLET"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>Gefitinib</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator unit="mg" value="250"/>
+                              <denominator unit="1" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="S65743JHBS" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>GEFITINIB</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="S65743JHBS" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>Gefitinib</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="905HNO1SIH" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>DIMETHYLAMINOETHYL METHACRYLATE - BUTYL METHACRYLATE - METHYL METHACRYLATE COPOLYMER</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="ETJ7Z6XBU4" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SILICON DIOXIDE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="68401960MK" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>CROSPOVIDONE (120 .MU.M)</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="70097M6I30" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>MAGNESIUM STEARATE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="1K09F3G675" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>FERRIC OXIDE RED</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="Q662QK8M3B" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>POLYETHYLENE GLYCOL 8000</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="532B59J990" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>POLYVINYL ALCOHOL, UNSPECIFIED</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="7SEV7J4R1U" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>TALC</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="15FIX9V2JP" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>TITANIUM DIOXIDE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator unit="1" value="10"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43168" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BLISTER PACK"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator unit="1" value="3"/>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code codeSystem="2.16.840.1.113883.6.69" code="60505-4512-1"/>
+                                    <formCode code="C43182" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CARTON"/>
+                                 </containerPackagedProduct>
+                                 <subjectOf>
+                                    <marketingAct>
+                                       <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                       <statusCode code="completed"/>
+                                       <effectiveTime>
+                                          <low value="20230808"/>
+                                          <high value="20230808"/>
+                                       </effectiveTime>
+                                    </marketingAct>
+                                 </subjectOf>
+                              </asContent>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic classCode="OBS">
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" displayName="Type 0: Not a Combination Product" codeSystem="2.16.840.1.113883.3.26.1.1" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                        <asContent>
+                           <quantity>
+                              <numerator unit="1" value="30"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code codeSystem="2.16.840.1.113883.6.69" code="60505-4512-3"/>
+                              <formCode code="C43169" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BOTTLE"/>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic classCode="OBS">
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" displayName="Type 0: Not a Combination Product" codeSystem="2.16.840.1.113883.3.26.1.1" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                           <subjectOf>
+                              <marketingAct>
+                                 <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 <statusCode code="completed"/>
+                                 <effectiveTime>
+                                    <low value="20230808"/>
+                                    <high value="20251231"/>
+                                 </effectiveTime>
+                              </marketingAct>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <id extension="ANDA209532" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73584" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ANDA"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="completed"/>
+                           <effectiveTime>
+                              <low value="20230808"/>
+                              <high value="20251231"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSCORE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value value="1" xsi:type="INT"/>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLCOLOR" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value code="C48332" displayName="BROWN" codeSystem="2.16.840.1.113883.3.26.1.1" xsi:type="CE">
+                              <originalText>reddish-brown</originalText>
+                           </value>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSHAPE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value code="C48348" displayName="ROUND" codeSystem="2.16.840.1.113883.3.26.1.1" xsi:type="CE">
+                              <originalText>round, biconvex</originalText>
+                           </value>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSIZE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value unit="mm" value="11" xsi:type="PQ"/>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLIMPRINT" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value xsi:type="ST">APO;250</value>
+                        </characteristic>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38288" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ORAL"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+               <component>
+                  <section>
+                     <id root="b11e7b90-8858-d4c9-fbff-8be635c2ea3e"/>
+                     <code code="42229-5" displayName="SPL UNCLASSIFIED SECTION" codeSystem="2.16.840.1.113883.6.1"/>
+                     <effectiveTime value="20160727"/>
+                     <component>
+                        <observationMedia ID="MM698542777047">
+                           <text>btl250mg30s.jpg</text>
+                           <value xsi:type="ED" mediaType="image/jpeg">
+                              <reference value="btl250mg30s.jpg"/>
+                           </value>
+                        </observationMedia>
+                     </component>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_531f8966-2d27-4f7a-8f77-27f0c485c48c">
+               <id root="94f8f5bc-e25e-4b5b-b749-ba1438a1af06"/>
+               <code code="34067-9" displayName="INDICATIONS &amp; USAGE SECTION" codeSystem="2.16.840.1.113883.6.1"/>
+               <title>1 INDICATIONS AND USAGE</title>
+               <text>
+                  <paragraph>Gefitinib tablets are indicated for the first-line treatment of patients with metastatic non-small cell lung cancer (NSCLC) whose tumors have epidermal growth factor receptor (EGFR) exon 19 deletions or exon 21 (L858R) substitution mutations as detected by an FDA-approved test <content styleCode="italics">[see <linkHtml href="#ID_fe83de02-e983-4558-94cb-37763a2c98b9">Clinical Studies (14)</linkHtml>].</content>
+                  </paragraph>
+                  <paragraph>Limitation of Use: Safety and efficacy of gefitinib tablets have not been established in patients with metastatic NSCLC whose tumors have EGFR mutations other than exon 19 deletions or exon 21 (L858R) substitution mutations <content styleCode="italics">[see <linkHtml href="#ID_fe83de02-e983-4558-94cb-37763a2c98b9">Clinical Studies (14)</linkHtml>].</content>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20160713"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <paragraph>Gefitinib tablets are a tyrosine kinase inhibitor indicated for the first-line treatment of patients with metastatic non-small cell lung cancer (NSCLC) whose tumors have epidermal growth factor receptor (EGFR) exon 19 deletions or exon 21 (L858R) substitution mutations as detected by an FDA-approved test. <linkHtml href="#ID_531f8966-2d27-4f7a-8f77-27f0c485c48c">(1)</linkHtml>
+                        </paragraph>
+                        <paragraph>Limitation of Use: Safety and efficacy of gefitinib tablets have not been established in patients whose tumors have EGFR mutations other than exon 19 deletions or exon 21 (L858R) substitution mutations. <linkHtml href="#ID_531f8966-2d27-4f7a-8f77-27f0c485c48c">(1)</linkHtml>
+                        </paragraph>
+                     </text>
+                  </highlight>
+               </excerpt>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_baa3f1d8-feb9-4b97-81d8-dfeaa56556b3">
+               <id root="bbaceae4-afb7-5f82-8a2b-443119a3a380"/>
+               <code code="34068-7" displayName="DOSAGE &amp; ADMINISTRATION SECTION" codeSystem="2.16.840.1.113883.6.1"/>
+               <title>2 DOSAGE AND ADMINISTRATION</title>
+               <effectiveTime value="20181030"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <paragraph>Recommended dose is 250 mg orally, once daily with or without food.  <linkHtml href="#ID_6b501927-e7d3-4de5-a544-b4ee26554267">(2.2)</linkHtml>
+                        </paragraph>
+                     </text>
+                  </highlight>
+               </excerpt>
+               <component>
+                  <section ID="ID_7b241fd1-1db4-4caa-83bc-92816f31d268">
+                     <id root="e8426cea-84b8-64f8-224d-b7e35a45ba12"/>
+                     <code code="42229-5" displayName="SPL UNCLASSIFIED SECTION" codeSystem="2.16.840.1.113883.6.1"/>
+                     <title>2.1 Patient Selection </title>
+                     <text>
+                        <paragraph>Select patients for the first-line treatment of metastatic NSCLC with gefitinib tablets based on the presence of EGFR exon 19 deletions or exon 21 L858R mutations in their tumor or plasma specimens <content styleCode="italics">[see<linkHtml href="#ID_531f8966-2d27-4f7a-8f77-27f0c485c48c"> Indications and Usage (1)</linkHtml>, <linkHtml href="#ID_fe83de02-e983-4558-94cb-37763a2c98b9">Clinical Studies (14)</linkHtml>]</content>. If these mutations are not detected in a plasma specimen, test tumor tissue if feasible.  </paragraph>
+                        <paragraph>Information on FDA-approved tests for the detection of EGFR mutations in NSCLC is available at: <linkHtml href="http://www.fda.gov/CompanionDiagnostics">http://www.fda.gov/CompanionDiagnostics</linkHtml>.</paragraph>
+                     </text>
+                     <effectiveTime value="20181030"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID_6b501927-e7d3-4de5-a544-b4ee26554267">
+                     <id root="f12afddf-62e2-9c73-6d8c-5ff92e83e7ba"/>
+                     <code code="42229-5" displayName="SPL UNCLASSIFIED SECTION" codeSystem="2.16.840.1.113883.6.1"/>
+                     <title>2.2 Recommended Dose</title>
+                     <text>
+                        <paragraph>The recommended dose of gefitinib tablets is 250 mg orally once daily with or without food until disease progression or unacceptable toxicity. </paragraph>
+                        <paragraph>Do not take a missed dose within 12 hours of the next dose.</paragraph>
+                     </text>
+                     <effectiveTime value="20160713"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID_4369901b-8d37-4f51-89d5-d64e3281fcd0">
+                     <id root="9a59be39-1bc2-b657-4973-2ec25371896d"/>
+                     <code code="42229-5" displayName="SPL UNCLASSIFIED SECTION" codeSystem="2.16.840.1.113883.6.1"/>
+                     <title>2.3 Administration to Patients Who Have Difficulty Swallowing Solids</title>
+                     <text>
+                        <paragraph>Immerse gefitinib tablets in 4 to 8 ounces of water by dropping the tablet in water, and stir for approximately 15 minutes. Immediately drink the liquid or administer through a naso-gastric tube. Rinse the container with 4 to 8 ounces of water and immediately drink or administer through the naso-gastric tube.</paragraph>
+                     </text>
+                     <effectiveTime value="20160713"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID_1131d2b6-1ce8-49f7-a380-78cf3ca3b3b5">
+                     <id root="679e4647-7c54-c6cc-6e20-0949cb09e2b9"/>
+                     <code code="42229-5" displayName="SPL UNCLASSIFIED SECTION" codeSystem="2.16.840.1.113883.6.1"/>
+                     <title>2.4 Dose Modification</title>
+                     <text>
+                        <paragraph>
+                           <content styleCode="italics">Dose Modifications for Adverse Drug Reactions</content>
+                        </paragraph>
+                        <paragraph>Withhold gefitinib tablets (for up to 14 days) for any of the following:</paragraph>
+                        <list listType="unordered">
+                           <item>
+                              <caption>•</caption>Acute onset or worsening of pulmonary symptoms (dyspnea, cough, fever) <content styleCode="italics">[see <linkHtml href="#ID_2d045521-95aa-4d4d-9692-ed8f004e43df">Warnings and Precautions (5.1)</linkHtml>]</content>
+                           </item>
+                           <item>
+                              <caption>•</caption>NCI CTCAE Grade 2 or higher in ALT and/or AST elevations [<content styleCode="italics">see <linkHtml href="#ID_2d77f7d3-944b-4aea-9e6d-1a83f173b9b3">Warnings and Precautions (5.2)</linkHtml>
+                              </content>]</item>
+                           <item>
+                              <caption>•</caption>NCI CTCAE Grade 3 or higher diarrhea <content styleCode="italics">[</content>
+                              <content styleCode="italics">see <linkHtml href="#ID_c6e16281-54c6-47eb-bbce-fba14bf70e40">Warnings and Precautions (5.4)</linkHtml>
+                              </content>
+                              <content styleCode="italics">]</content>
+                           </item>
+                           <item>
+                              <caption>•</caption>Signs and symptoms of severe or worsening ocular disorders including keratitis <content styleCode="italics">[</content>
+                              <content styleCode="italics">see <linkHtml href="#ID_b08651dd-f6b1-4fdd-993c-c251d00ce1ff">Warnings and Precautions (5.5)</linkHtml>
+                              </content>
+                              <content styleCode="italics">]</content>
+                           </item>
+                           <item>
+                              <caption>•</caption>NCI CTCAE Grade 3 or higher skin reactions <content styleCode="italics">[</content>
+                              <content styleCode="italics">see <linkHtml href="#ID_580caeb9-b38c-48a0-a048-92af625dad0b">Warnings and Precautions (5.6)</linkHtml>
+                              </content>
+                              <content styleCode="italics">]</content>
+                           </item>
+                        </list>
+                        <paragraph>Resume treatment with gefitinib tablets when the adverse reaction fully resolves or improves to NCI CTCAE Grade 1.</paragraph>
+                        <paragraph>Permanently discontinue gefitinib tablets for:</paragraph>
+                        <list listType="unordered">
+                           <item>
+                              <caption>•</caption>Confirmed interstitial lung disease (ILD) <content styleCode="italics">[</content>
+                              <content styleCode="italics">see <linkHtml href="#ID_2d045521-95aa-4d4d-9692-ed8f004e43df">Warnings and Precautions (5.1)</linkHtml>
+                              </content>
+                              <content styleCode="italics">]</content>
+                           </item>
+                           <item>
+                              <caption>•</caption>Severe hepatic impairment <content styleCode="italics">[</content>
+                              <content styleCode="italics">see <linkHtml href="#ID_2d77f7d3-944b-4aea-9e6d-1a83f173b9b3">Warnings and Precautions (5.2)</linkHtml>
+                              </content>
+                              <content styleCode="italics">]</content>
+                           </item>
+                           <item>
+                              <caption>•</caption>Gastrointestinal perforation <content styleCode="italics">[</content>
+                              <content styleCode="italics">see <linkHtml href="#ID_a5ee96b2-ff22-43fc-85bc-138eb31489c5">Warnings and Precautions (5.3)</linkHtml>
+                              </content>
+                              <content styleCode="italics">]</content>
+                           </item>
+                           <item>
+                              <caption>•</caption>Persistent ulcerative keratitis <content styleCode="italics">[</content>
+                              <content styleCode="italics">see <linkHtml href="#ID_b08651dd-f6b1-4fdd-993c-c251d00ce1ff">Warnings and Precautions (5.5)</linkHtml>
+                              </content>
+                              <content styleCode="italics">]</content>
+                           </item>
+                        </list>
+                        <paragraph>
+                           <content styleCode="italics">Dose Modifications for Drug Interactions</content>
+                        </paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Strong CYP3A4 Inducers</content>
+                        </paragraph>
+                        <paragraph>Increase gefitinib tablets to 500 mg daily in the absence of severe adverse drug reaction, and resume gefitinib tablets at 250 mg seven days after discontinuation of the strong CYP3A4 inducer <content styleCode="italics">[</content>
+                           <content styleCode="italics">see <linkHtml href="#ID_880fe9af-b50a-4610-8c04-e22eb76bbdbd">Drug Interactions (7)</linkHtml>
+                           </content>,<content styleCode="italics">
+                              <linkHtml href="#ID_736fb4b1-02ee-4c08-95b6-5b2a1bf4f744"> Clinical Pharmacology (12.3)</linkHtml>
+                           </content>
+                           <content styleCode="italics">]</content>.</paragraph>
+                     </text>
+                     <effectiveTime value="20160713"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_ef52be54-7fc1-486c-ae40-c3e28656c781">
+               <id root="83a66a53-06c6-0265-e9dd-27881def5ced"/>
+               <code code="43678-2" displayName="DOSAGE FORMS &amp; STRENGTHS SECTION" codeSystem="2.16.840.1.113883.6.1"/>
+               <title>3 DOSAGE FORMS AND STRENGTHS</title>
+               <text>
+                  <paragraph>250 mg tablets: Reddish-brown, round, biconvex coated tablet. Engraved "APO" over "250" on one side, plain on the other side.</paragraph>
+               </text>
+               <effectiveTime value="20160713"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <paragraph>Tablets:  250 mg.  <linkHtml href="#ID_ef52be54-7fc1-486c-ae40-c3e28656c781">(3)</linkHtml>
+                        </paragraph>
+                     </text>
+                  </highlight>
+               </excerpt>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_be07daf6-e16c-4d92-8859-f931f11ebcbd">
+               <id root="55349b64-922f-d9ef-49f7-251c7ef9684a"/>
+               <code code="34070-3" displayName="CONTRAINDICATIONS SECTION" codeSystem="2.16.840.1.113883.6.1"/>
+               <title>4 CONTRAINDICATIONS</title>
+               <text>
+                  <paragraph>None.</paragraph>
+               </text>
+               <effectiveTime value="20160713"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <paragraph>None.  <linkHtml href="#ID_be07daf6-e16c-4d92-8859-f931f11ebcbd">(4)</linkHtml>
+                        </paragraph>
+                     </text>
+                  </highlight>
+               </excerpt>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_bd2442b2-5405-4b21-8d90-92cf8820ba30">
+               <id root="ee2fd739-6da4-8034-4981-cdf8d955bfb5"/>
+               <code code="43685-7" displayName="WARNINGS AND PRECAUTIONS SECTION" codeSystem="2.16.840.1.113883.6.1"/>
+               <title>5 WARNINGS AND PRECAUTIONS</title>
+               <effectiveTime value="20160713"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <list listType="unordered">
+                           <item>
+                              <caption>•</caption>Interstitial lung disease (ILD): ILD occurred in patients taking gefitinib tablets. Withhold gefitinib tablets for worsening of respiratory symptoms. Discontinue gefitinib tablets if ILD is confirmed. (<linkHtml href="#ID_4369901b-8d37-4f51-89d5-d64e3281fcd0">2.4</linkHtml>, <linkHtml href="#ID_2d045521-95aa-4d4d-9692-ed8f004e43df">5.1</linkHtml>) </item>
+                           <item>
+                              <caption>•</caption>Hepatotoxicity: Obtain periodic liver function testing. Withhold gefitinib tablets for Grade 2 or higher for ALT and/or AST elevations. Discontinue for severe hepatic impairment. (<linkHtml href="#ID_4369901b-8d37-4f51-89d5-d64e3281fcd0">2.4</linkHtml>, <linkHtml href="#ID_2d77f7d3-944b-4aea-9e6d-1a83f173b9b3">5.2</linkHtml>)</item>
+                           <item>
+                              <caption>•</caption>Gastrointestinal perforation: Discontinue gefitinib tablets for gastrointestinal perforation. (<linkHtml href="#ID_1131d2b6-1ce8-49f7-a380-78cf3ca3b3b5">2.4</linkHtml>, <linkHtml href="#ID_a5ee96b2-ff22-43fc-85bc-138eb31489c5">5.3</linkHtml>)</item>
+                           <item>
+                              <caption>•</caption>Diarrhea: Withhold gefitinib tablets for Grade 3 or higher diarrhea. (<linkHtml href="#ID_1131d2b6-1ce8-49f7-a380-78cf3ca3b3b5">2.4</linkHtml>, <linkHtml href="#ID_c6e16281-54c6-47eb-bbce-fba14bf70e40">5.4</linkHtml>)</item>
+                           <item>
+                              <caption>•</caption>Ocular Disorders including Keratitis: Withhold gefitinib tablets for signs and symptoms of severe or worsening ocular disorders including keratitis. Discontinue for persistent ulcerative keratitis. (<linkHtml href="#ID_1131d2b6-1ce8-49f7-a380-78cf3ca3b3b5">2.4</linkHtml>, <linkHtml href="#ID_b08651dd-f6b1-4fdd-993c-c251d00ce1ff">5.5</linkHtml>)</item>
+                           <item>
+                              <caption>•</caption>Bullous and Exfoliative Skin Disorders: Withhold gefitinib tablets for Grade 3 or higher skin reactions or exfoliative conditions. (<linkHtml href="#ID_1131d2b6-1ce8-49f7-a380-78cf3ca3b3b5">2.4</linkHtml>, <linkHtml href="#ID_580caeb9-b38c-48a0-a048-92af625dad0b">5.6</linkHtml>)</item>
+                           <item>
+                              <caption>•</caption>Embryo-fetal Toxicity: Can cause fetal harm. Advise of potential risk to a fetus and use of effective contraception. (<linkHtml href="#ID_a349679d-8114-4808-876f-1e8a87878c53">5.7</linkHtml>, <linkHtml href="#ID_aed3107a-7c80-44f6-8f59-b839375bfd3e">8.1</linkHtml>, <linkHtml href="#_Ref">8.3</linkHtml>)</item>
+                        </list>
+                     </text>
+                  </highlight>
+               </excerpt>
+               <component>
+                  <section ID="ID_2d045521-95aa-4d4d-9692-ed8f004e43df">
+                     <id root="30ebea8c-d335-2428-64a9-2cac472896f8"/>
+                     <code code="42229-5" displayName="SPL UNCLASSIFIED SECTION" codeSystem="2.16.840.1.113883.6.1"/>
+                     <title>5.1 Interstitial Lung Disease (ILD)</title>
+                     <text>
+                        <paragraph>ILD or ILD-like adverse drug reactions (e.g., lung infiltration, pneumonitis, acute respiratory distress syndrome, or pulmonary fibrosis) occurred in 1.3% of the 2462 patients who received gefitinib across clinical trials; of these, 0.7% were Grade 3 or higher and 3 cases were fatal.</paragraph>
+                        <paragraph>Withhold gefitinib tablets and promptly investigate for ILD in any patient who presents with worsening of respiratory symptoms such as dyspnea, cough and fever. Permanently discontinue gefitinib tablets if ILD is confirmed [<content styleCode="italics">see <linkHtml href="#ID_1131d2b6-1ce8-49f7-a380-78cf3ca3b3b5">Dosage and Administration (2.4)</linkHtml>, <linkHtml href="#ID_42b19f70-286e-4556-9e7d-5c35885add75">Adverse Reactions (6.1)</linkHtml>
+                           </content>].</paragraph>
+                     </text>
+                     <effectiveTime value="20160713"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID_2d77f7d3-944b-4aea-9e6d-1a83f173b9b3">
+                     <id root="f679b3b3-4f8f-4101-0842-22a07f53c179"/>
+                     <code code="42229-5" displayName="SPL UNCLASSIFIED SECTION" codeSystem="2.16.840.1.113883.6.1"/>
+                     <title>5.2 Hepatotoxicity</title>
+                     <text>
+                        <paragraph>In patients who received gefitinib across clinical trials, 11.4% of patients had increased alanine aminotransferase (ALT), 7.9% of patients had increased aspartate aminotransferase (AST), and 2.7% of patients had increased bilirubin. Grade 3 or higher liver test abnormalities occurred in 5.1% (ALT), 3.0% (AST), and 0.7% (bilirubin) of patients. The incidence of fatal hepatotoxicity was 0.04%.</paragraph>
+                        <paragraph>Obtain periodic liver function testing. Withhold gefitinib tablets in patients with worsening liver function and discontinue in patients with severe hepatic impairment <content styleCode="italics">[</content>
+                           <content styleCode="italics">see <linkHtml href="#ID_4369901b-8d37-4f51-89d5-d64e3281fcd0">Dosage and Administration (2.4)</linkHtml>
+                           </content>, <content styleCode="italics">
+                              <linkHtml href="#_Ref">Adverse Reactions (6.1)</linkHtml>, <linkHtml href="#ID_cd357a2d-4e47-4d56-8d83-7abd823b1fb4">Use in Specific Populations (8.7</linkHtml>
+                           </content>
+                           <content styleCode="italics">
+                              <linkHtml href="#ID_cd357a2d-4e47-4d56-8d83-7abd823b1fb4">)</linkHtml>
+                           </content>
+                           <content styleCode="italics">]</content>.</paragraph>
+                     </text>
+                     <effectiveTime value="20160713"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID_a5ee96b2-ff22-43fc-85bc-138eb31489c5">
+                     <id root="9c26eb1f-0f1e-bf88-3663-9ea52ae10a9c"/>
+                     <code code="42229-5" displayName="SPL UNCLASSIFIED SECTION" codeSystem="2.16.840.1.113883.6.1"/>
+                     <title>5.3 Gastrointestinal Perforation</title>
+                     <text>
+                        <paragraph>Gastrointestinal perforation occurred in three (0.1%) of the 2462 gefitinib-treated patients across clinical trials [<content styleCode="italics">see <linkHtml href="#_Ref">Adverse Reactions (6.1)</linkHtml>
+                           </content>]. Permanently discontinue gefitinib tablets in patients who develop gastrointestinal perforation [<content styleCode="italics">see <linkHtml href="#ID_1131d2b6-1ce8-49f7-a380-78cf3ca3b3b5">Dosage and Administration (2.4)</linkHtml>
+                           </content>].</paragraph>
+                     </text>
+                     <effectiveTime value="20160713"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID_c6e16281-54c6-47eb-bbce-fba14bf70e40">
+                     <id root="8a4a8dcf-4e69-177d-749d-7436522e9d17"/>
+                     <code code="42229-5" displayName="SPL UNCLASSIFIED SECTION" codeSystem="2.16.840.1.113883.6.1"/>
+                     <title>5.4 Severe or Persistent Diarrhea</title>
+                     <text>
+                        <paragraph>Grade 3 or 4 diarrhea occurred in 3% of 2462 gefitinib-treated patients across clinical trials. Withhold gefitinib tablets for severe or persistent (up to 14 days) diarrhea <content styleCode="italics">[</content>
+                           <content styleCode="italics">see <linkHtml href="#ID_4369901b-8d37-4f51-89d5-d64e3281fcd0">Dosage and Administration (2.4)</linkHtml>
+                           </content>, <content styleCode="italics">
+                              <linkHtml href="#_Ref">Adverse Reactions (6.1)</linkHtml>
+                           </content>
+                           <content styleCode="italics">]</content>.</paragraph>
+                     </text>
+                     <effectiveTime value="20160713"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID_b08651dd-f6b1-4fdd-993c-c251d00ce1ff">
+                     <id root="349a1776-20cc-e9ba-6f3b-89d7026d39b8"/>
+                     <code code="42229-5" displayName="SPL UNCLASSIFIED SECTION" codeSystem="2.16.840.1.113883.6.1"/>
+                     <title>5.5 Ocular Disorders including Keratitis </title>
+                     <text>
+                        <paragraph>Ocular disorders [keratitis (0.1%), corneal erosion and aberrant eyelash growth (0.2%), conjunctivitis, blephritis and dry eye (6.7%)] occurred in the 2462 gefitinib-treated patients across clinical trials. The incidence of Grade 3 ocular disorders was 0.1% [<content styleCode="italics">see <linkHtml href="#ID_42b19f70-286e-4556-9e7d-5c35885add75">Adverse Reactions (6.1)</linkHtml>
+                           </content>]. Interrupt or discontinue gefitinib tablets for severe, or worsening ocular disorders [<content styleCode="italics">see <linkHtml href="#ID_1131d2b6-1ce8-49f7-a380-78cf3ca3b3b5">Dosage and Administration (2.4)</linkHtml>
+                           </content>].</paragraph>
+                     </text>
+                     <effectiveTime value="20160713"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID_580caeb9-b38c-48a0-a048-92af625dad0b">
+                     <id root="709ffe1d-279f-75f9-8696-46d8b2a050f7"/>
+                     <code code="42229-5" displayName="SPL UNCLASSIFIED SECTION" codeSystem="2.16.840.1.113883.6.1"/>
+                     <title>5.6 Bullous and Exfoliative Skin Disorders</title>
+                     <text>
+                        <paragraph>Bullous conditions including toxic epidermal necrolysis, Stevens Johnson syndrome and erythema multiforme have been reported from treatment with gefitinib. Erythema multiforme and dermatitis bullous have been reported in two patients (0.08%) across NSCLC trials (Study 2, Study 3 and Study 4). Gefitinib tablets treatment should be interrupted or discontinued if the patient develops severe bullous, blistering or exfoliating conditions.</paragraph>
+                     </text>
+                     <effectiveTime value="20160713"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID_a349679d-8114-4808-876f-1e8a87878c53">
+                     <id root="546d1f88-685b-0bc6-a8a1-67c608f1dcac"/>
+                     <code code="42229-5" displayName="SPL UNCLASSIFIED SECTION" codeSystem="2.16.840.1.113883.6.1"/>
+                     <title>5.7 Embryo-fetal Toxicity </title>
+                     <text>
+                        <paragraph>Based on its mechanism of action and data from animal reproduction studies gefitinib tablets can cause fetal harm when administered to a pregnant woman. In animal reproductive studies, oral administration of gefitinib from organogenesis through weaning resulted in fetotoxicity and neonatal death at doses below the recommended human dose. Advise pregnant women of the potential risk to a fetus. Advise females of reproductive potential to use effective contraception during treatment with gefitinib tablets and for at least two weeks following completion of therapy [<content styleCode="italics">see Use in Specific Populations (<linkHtml href="#ID_aed3107a-7c80-44f6-8f59-b839375bfd3e">8.1</linkHtml>, <linkHtml href="#_Ref">8.3</linkHtml>)</content>].</paragraph>
+                     </text>
+                     <effectiveTime value="20160713"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_880fe9af-b50a-4610-8c04-e22eb76bbdbd">
+               <id root="3c5c90e6-8fdc-17a7-3a82-7e3d87a44f4e"/>
+               <code code="34084-4" displayName="ADVERSE REACTIONS SECTION" codeSystem="2.16.840.1.113883.6.1"/>
+               <title>6 ADVERSE REACTIONS </title>
+               <text>
+                  <paragraph>The following adverse drug reactions are discussed in more detail in other sections of the labeling:</paragraph>
+                  <list listType="unordered">
+                     <item>
+                        <caption>•</caption>Interstitial Lung Disease [<content styleCode="italics">see <linkHtml href="#ID_2d045521-95aa-4d4d-9692-ed8f004e43df">Warnings and Precautions (5.1)</linkHtml>
+                        </content>]</item>
+                     <item>
+                        <caption>•</caption>Hepatotoxicity [<content styleCode="italics">see <linkHtml href="#ID_2d77f7d3-944b-4aea-9e6d-1a83f173b9b3">Warnings and Precautions (5.2)</linkHtml>
+                        </content>]</item>
+                     <item>
+                        <caption>•</caption>Gastrointestinal Perforation [<content styleCode="italics">see <linkHtml href="#ID_a5ee96b2-ff22-43fc-85bc-138eb31489c5">Warnings and Precautions (5.3)</linkHtml>
+                        </content>]</item>
+                     <item>
+                        <caption>•</caption>Severe or Persistent Diarrhea [<content styleCode="italics">see <linkHtml href="#ID_c6e16281-54c6-47eb-bbce-fba14bf70e40">Warnings and Precautions (5.4)</linkHtml>
+                        </content>]</item>
+                     <item>
+                        <caption>•</caption>Ocular Disorders including Keratitis [<content styleCode="italics">see <linkHtml href="#ID_b08651dd-f6b1-4fdd-993c-c251d00ce1ff">Warnings and Precautions (5.5)</linkHtml>
+                        </content>]</item>
+                     <item>
+                        <caption>•</caption>Bullous and Exfoliative Skin Disorders [<content styleCode="italics">see <linkHtml href="#ID_580caeb9-b38c-48a0-a048-92af625dad0b">Warning and Precautions (5.6)</linkHtml>
+                        </content>]</item>
+                  </list>
+               </text>
+               <effectiveTime value="20230820"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <paragraph>The most commonly reported adverse drug reactions (ADRs), reported in more than 20% of the patients and greater than placebo were skin reactions and diarrhea. (<linkHtml href="#ID_42b19f70-286e-4556-9e7d-5c35885add75">6.1</linkHtml>)</paragraph>
+                        <paragraph>
+                           <content styleCode="bold">
+                              <content styleCode="bold">To report SUSPECTED ADVERSE REACTIONS, contact Apotex Inc. at 1-800-706-5575 or FDA at 1-800-FDA-1088 or <content styleCode="bold"/>
+                              </content>
+                           </content>
+                           <content styleCode="bold">www.fda.gov/medwatch</content>. </paragraph>
+                     </text>
+                  </highlight>
+               </excerpt>
+               <component>
+                  <section ID="_464550e7-d791-066b-63ef-804f34d25e3f">
+                     <id root="b9c0449e-d1e3-4c54-1d1d-6fbd0f244291"/>
+                     <code code="42229-5" displayName="SPL UNCLASSIFIED SECTION" codeSystem="2.16.840.1.113883.6.1"/>
+                     <title>6.1 Clinical Trials Experience </title>
+                     <text>
+                        <paragraph>Because clinical trials are conducted under widely varying conditions, adverse reaction rates observed in the clinical trials of a drug cannot be directly compared to rates in the clinical trials of another drug and may not reflect the rates observed in practice.</paragraph>
+                        <paragraph>The safety of gefitinib tablets is based on the data from 2462 patients with NSCLC who received gefitinib 250 mg daily monotherapy in three randomized clinical studies (Study 2, Study 3 and Study 4). Patients with a history of interstitial lung disease, drug-induced interstitial disease, radiation pneumonitis that required steroid treatment or any evidence of clinically active interstitial lung disease were excluded from these studies.</paragraph>
+                        <paragraph>Controlled Studies:</paragraph>
+                        <paragraph>Study 2 was a randomized, multicenter, open-label trial in which 1217 patients were randomized to receive first-line treatment for metastatic NSCLC; 607 patients received gefitinib 250 mg daily and 589 patients received carboplatin/paclitaxel. The median duration of treatment with gefitinib was 5.9 months. The study population characteristics were: median age 57 years, age less than 65 years (73%), female (79%), Asian (100%), NSCLC adenocarcinoma histology (100%), never smoker (94%), light ex-smoker (6%), ECOG PS 0 or 1 (90%).</paragraph>
+                        <paragraph>Study 3 was a randomized, multicenter, double-blind, placebo-controlled trial in which 1692 patients were randomized to receive second- or third-line treatment for metastatic NSCLC; of which 1126 patients received gefitinib 250 mg daily and 562 patients received placebo. The median duration of treatment with gefitinib was 2.9 months. The study population characteristics were: median age 62 years, age less than 65 years (60%), female (33%), Caucasian (75%), Asian (21%), NSCLC adenocarcinoma histology (48%), never smoker (22%), ECOG PS 0 or 1 (65%), PS 2 (29%), PS 3 (5%) and two or more prior therapies (51%).</paragraph>
+                        <paragraph>Study 4 was a randomized, multicenter, open-label trial in which 1466 patients were randomized to receive second-line treatment for metastatic NSCLC; 729 patients received gefitinib 250 mg daily and 715 patients received docetaxel. The median duration of treatment with gefitinib tablets was 2.4 months. The study population characteristics were: median age 61 years, age less than 65 years (61%), female (36%), Caucasian (79%), Asian (21%), NSCLC adenocarcinoma histology (54%), never smoker (20%), ECOG PS 0 or 1 (88%) and two or more prior therapies (16%).</paragraph>
+                        <paragraph>The pooled safety database from the three randomized trials was used to evaluate for serious and uncommon adverse drug reactions. Common adverse reactions were evaluated in Study 3. The most frequent adverse reactions in Study 3 (incidence of &gt;20% and greater than placebo) reported in gefitinib-treated patients were skin reactions (47%) and diarrhea (29%). The most frequent fatal adverse reactions in gefitinib-treated patients were respiratory failure (0.9%), pneumonia (0.8%), and pulmonary embolism (0.5%). </paragraph>
+                        <paragraph>Approximately 5% of gefitinib-treated patients and 2.3% of placebo-treated patients discontinued treatment due to an adverse event. The most frequent adverse reactions that led to discontinuation in patients treated with gefitinib were nausea (0.5%), vomiting (0.5%) and diarrhea (0.4%).</paragraph>
+                        <paragraph>
+                           <content styleCode="bold">Table 1- Selected Adverse Drug Reactions Occurring with an Incidence Rate ≥5% and an Increase of &gt;2% of Gefitinib-treated Patients in Study 3 </content>
+                        </paragraph>
+                        <table frame="box" rules="all" width="60%">
+                           <tbody align="center">
+                              <tr>
+                                 <td align="left" rowspan="3">   <content styleCode="bold">Adverse Reaction</content> <content styleCode="bold"/>
+                                 </td>
+                                 <td colspan="4">
+                                    <content styleCode="bold">Percentage (%) of patients</content>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td colspan="2">
+                                    <content styleCode="bold">Gefitinib (N=1126)</content>
+                                 </td>
+                                 <td colspan="2">
+                                    <content styleCode="bold">Placebo (N=562)</content>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td>
+                                    <content styleCode="bold">All Grades</content>
+                                 </td>
+                                 <td>
+                                    <content styleCode="bold">Grade 3 and 4</content>
+                                 </td>
+                                 <td>
+                                    <content styleCode="bold">All Grades</content>
+                                 </td>
+                                 <td>
+                                    <content styleCode="bold">Grade 3 and 4</content>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td align="left" colspan="5">
+                                    <content styleCode="bold">Skin and subcutaneous tissue disorders</content>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td align="left">Skin reactions<sup>1</sup>
+                                 </td>
+                                 <td>47%</td>
+                                 <td>2%</td>
+                                 <td>17%</td>
+                                 <td>0.4%</td>
+                              </tr>
+                              <tr>
+                                 <td align="left">Nail disorders<sup>2</sup>
+                                 </td>
+                                 <td>5%</td>
+                                 <td>0.1%</td>
+                                 <td>0.7%</td>
+                                 <td>0%</td>
+                              </tr>
+                              <tr>
+                                 <td align="left" colspan="5">
+                                    <content styleCode="bold">Gastrointestinal disorders</content>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td align="left">Diarrhea<sup>3</sup>
+                                 </td>
+                                 <td>29%</td>
+                                 <td>3%</td>
+                                 <td>10%</td>
+                                 <td>1%</td>
+                              </tr>
+                              <tr>
+                                 <td align="left">Vomiting</td>
+                                 <td>14%</td>
+                                 <td>1.2%</td>
+                                 <td>10%</td>
+                                 <td>0.4%</td>
+                              </tr>
+                              <tr>
+                                 <td align="left">Stomatitis<sup>4</sup>
+                                 </td>
+                                 <td>7%</td>
+                                 <td>0.3%</td>
+                                 <td>4%</td>
+                                 <td>0.2%</td>
+                              </tr>
+                              <tr>
+                                 <td align="left" colspan="5">
+                                    <content styleCode="bold">Metabolism and nutrition disorders</content>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td align="left">Decreased appetite</td>
+                                 <td>17%</td>
+                                 <td>2.3%</td>
+                                 <td>14%</td>
+                                 <td>2%</td>
+                              </tr>
+                              <tr>
+                                 <td align="left" colspan="5">
+                                    <content styleCode="bold">Eye disorders</content>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td align="left">Conjunctivitis/blepharitis/dry eye<sup>5</sup>
+                                 </td>
+                                 <td>6%</td>
+                                 <td>0%</td>
+                                 <td>3.2%</td>
+                                 <td>0%</td>
+                              </tr>
+                           </tbody>
+                        </table>
+                        <paragraph>
+                           <sup>1 </sup>Includes Acne, Acne pustular, Dermatitis, Dermatitis acneiform, Dermatitis exfoliative, Drug eruption, Dry skin, Erythema, Exfoliative rash, Folliculitis, Pruritus, Pruritus generalized, Rash, Rash erythematous, Rash generalized, Rash macular, Rash maculo-papular, Rash papular, Rash pruritic, Rash pustular, Rash vesicular, Skin exfoliation, Skin toxicity, Xeroderma</paragraph>
+                        <paragraph>
+                           <sup>2 </sup>Includes Ingrowing nail, Nail bed infection, Nail disorder, Nail infection, Onychoclasis, Onycholysis, Paronychia </paragraph>
+                        <paragraph>
+                           <sup>3 </sup>Includes Diarrhea, Feces soft, Frequent bowel movements</paragraph>
+                        <paragraph>
+                           <sup>4 </sup>Includes Aphthous stomatitis, Cheilitis, Glossodynia, Mouth ulceration, Mucosal inflammation, Oral mucosal blistering, Stomatitis, Tongue disorder, Tongue ulceration </paragraph>
+                        <paragraph>
+                           <sup>5 </sup>Includes Blepharitis, Conjunctival hyperemia, Conjunctivitis, Dry eye, Eye irritation, Eye pruritus, Eye swelling, Eyelid irritation, Eyelid edema, Eyelids pruritus</paragraph>
+                        <paragraph>
+                           <content styleCode="bold">Table 2 – Treatment Emergent Laboratory Abnormalities Occurring More Frequently in Gefitinib-Treated Patients in Study 3 </content>
+                        </paragraph>
+                        <table rules="all" width="60%">
+                           <tbody align="center">
+                              <tr>
+                                 <td align="left" rowspan="2">
+                                    <content styleCode="bold">Adverse Reaction</content>
+                                 </td>
+                                 <td colspan="2">
+                                    <content styleCode="bold">Gefitinib </content>
+                                 </td>
+                                 <td colspan="2">
+                                    <content styleCode="bold">Placebo</content>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td>
+                                    <content styleCode="bold">All Grades%</content>
+                                 </td>
+                                 <td>
+                                    <content styleCode="bold">Grade 3 and 4%</content>
+                                 </td>
+                                 <td>
+                                    <content styleCode="bold">All Grades %</content>
+                                 </td>
+                                 <td>
+                                    <content styleCode="bold">Grade 3 and 4%</content>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td align="left">Alanine aminotransferase increased<sup>1</sup>
+                                 </td>
+                                 <td>38%<sup>2</sup>
+                                 </td>
+                                 <td>2.4%</td>
+                                 <td>23%<sup>2</sup>
+                                 </td>
+                                 <td>1.4%<sup>4</sup>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td align="left">Aspartate aminotransferase increased<sup>1</sup>
+                                 </td>
+                                 <td>40%<sup>3</sup>
+                                 </td>
+                                 <td>2%</td>
+                                 <td>25%<sup>3</sup>
+                                 </td>
+                                 <td>1.3%<sup>5</sup>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td align="left">Proteinuria</td>
+                                 <td>35%</td>
+                                 <td>4.7%</td>
+                                 <td>31%</td>
+                                 <td>3.3%</td>
+                              </tr>
+                           </tbody>
+                        </table>
+                        <paragraph>
+                           <sup>1 </sup>Patients were allowed to enter the clinical study with lab values of ALT or AST CTCAE grade 1 or 2</paragraph>
+                        <paragraph>
+                           <sup>2 </sup>14% gefitinib patients and 10% placebo patients were CTC grade 1 or 2 ALT at baseline</paragraph>
+                        <paragraph>
+                           <sup>3 </sup>15% gefitinib patients and 12% placebo patients were CTC grade 1 or 2 AST at baseline </paragraph>
+                        <paragraph>
+                           <sup>4 </sup>0.2% of placebo patients were CTC grade 3 at baseline </paragraph>
+                        <paragraph>
+                           <sup>5 </sup>0.4% of placebo patients were CTC grade 3 at baseline</paragraph>
+                        <paragraph>The following adverse reactions have been reported with gefitinib across NSCLC trials (Study 2, Study 3 and Study 4) and are not listed elsewhere in Section 6: nausea (18%), asthenia (17%), pyrexia (9%), alopecia (4.7%), hemorrhage (including epistaxis and hematuria) (4.3%), dry mouth (2%), dehydration (1.8%) elevations in blood creatinine (1.5%), allergic reactions including angioedema and urticaria (1.1%), palmar-plantar erythrodysesthesia syndrome (0.2%) and pancreatitis (0.1%).</paragraph>
+                     </text>
+                     <effectiveTime value="20220614"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID_3a8db047-434d-458a-b363-a694bf205794">
+                     <id root="8fb0325b-d699-7ae1-f6d1-66c51413a66d"/>
+                     <code code="42229-5" displayName="SPL UNCLASSIFIED SECTION" codeSystem="2.16.840.1.113883.6.1"/>
+                     <title>6.2 Postmarketing Experience</title>
+                     <text>
+                        <paragraph>The following adverse reactions have been identified during post-approval use of gefitinib. Because these reactions are reported voluntarily from a population of uncertain size, it is not always possible to reliably estimate their frequency or establish a causal relationship to drug exposure.</paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Renal and urinary disorders</content>: cystitis, hemorrhagic cystitis</paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Skin and subcutaneous tissue disorders</content>: cutaneous vasculitis</paragraph>
+                     </text>
+                     <effectiveTime value="20220614"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_b227be78-1bf8-4067-a4cb-2b2a577754e9">
+               <id root="01633aa2-b384-bc46-9c74-25992d9b1441"/>
+               <code code="34073-7" displayName="DRUG INTERACTIONS SECTION" codeSystem="2.16.840.1.113883.6.1"/>
+               <title>7 DRUG INTERACTIONS</title>
+               <effectiveTime value="20160713"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <list listType="unordered">
+                           <item>
+                              <caption>•</caption>CYP3A4 Inducer: Increase gefitinib tablets to 500 mg daily in patients receiving a strong CYP3A4 inducer. (<linkHtml href="#ID_1131d2b6-1ce8-49f7-a380-78cf3ca3b3b5">2.4</linkHtml>, <linkHtml href="#ID_c71f09c1-cb9c-4a55-a671-1aca25ae0ad9">7.1</linkHtml>) </item>
+                           <item>
+                              <caption>•</caption>CYP3A4 Inhibitor: Monitor adverse reactions if concomitant use with gefitinib tablets. (<linkHtml href="#ID_c71f09c1-cb9c-4a55-a671-1aca25ae0ad9">7.1</linkHtml>)</item>
+                           <item>
+                              <caption>•</caption>Drugs Affecting Gastric pH: Avoid concomitant use of gefitinib tablets with proton pump inhibitors, if possible. (<linkHtml href="#ID_c71f09c1-cb9c-4a55-a671-1aca25ae0ad9">7.1</linkHtml>)</item>
+                           <item>
+                              <caption>•</caption>Hemorrhage in patients taking warfarin: Monitor changes in prothrombin time or INR. (<linkHtml href="#_Ref">7.2</linkHtml>)</item>
+                        </list>
+                     </text>
+                  </highlight>
+               </excerpt>
+               <component>
+                  <section ID="ID_c71f09c1-cb9c-4a55-a671-1aca25ae0ad9">
+                     <id root="e4934556-ccdb-cb11-91cf-633b81d6d460"/>
+                     <code code="42229-5" displayName="SPL UNCLASSIFIED SECTION" codeSystem="2.16.840.1.113883.6.1"/>
+                     <title>7.1 Drugs Affecting Gefitinib Exposure </title>
+                     <text>
+                        <paragraph>
+                           <content styleCode="italics">CYP3A4 Inducer</content>
+                        </paragraph>
+                        <paragraph>Drugs that are strong inducers of CYP3A4 increase the metabolism of gefitinib and decrease gefitinib plasma concentrations. Increase gefitinib tablets to 500 mg daily in patients receiving a strong CYP3A4 inducer (e.g., rifampicin, phenytoin, or tricyclic antidepressant) and resume gefitinib tablets at 250 mg 7 days after discontinuation of the strong inducer [<content styleCode="italics">see <linkHtml href="#ID_4369901b-8d37-4f51-89d5-d64e3281fcd0">Dosage and Administration (2.4)</linkHtml>
+                           </content>, <content styleCode="italics">
+                              <linkHtml href="#ID_736fb4b1-02ee-4c08-95b6-5b2a1bf4f744">Clinical Pharmacology (12.3)</linkHtml>
+                           </content>].</paragraph>
+                        <paragraph>
+                           <content styleCode="italics">CYP3A4 Inhibitor</content>
+                        </paragraph>
+                        <paragraph>Drugs that are strong inhibitors of CYP3A4 (e.g., ketoconazole and itraconazole) decrease gefitinib metabolism and increase gefitinib plasma concentrations. Monitor adverse reactions when administering strong CYP3A4 inhibitors with gefitinib tablets.</paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Drugs Affecting Gastric pH</content>
+                        </paragraph>
+                        <paragraph>Drugs that elevate gastric pH (e.g., proton pump inhibitors, histamine H<sub>2</sub>-receptor antagonists, and antacids) may reduce plasma concentrations of gefitinib. Avoid concomitant use of gefitinib tablets with proton pump inhibitors, if possible. If treatment with a proton-pump inhibitor is required, take gefitinib tablets 12 hours after the last dose or 12 hours before the next dose of the proton-pump inhibitor. Take gefitinib tablets 6 hours after or 6 hours before an H<sub>2</sub>-receptor antagonist or an antacid [<content styleCode="italics">see <linkHtml href="#ID_736fb4b1-02ee-4c08-95b6-5b2a1bf4f744">Clinical Pharmacology (12.3)</linkHtml>
+                           </content>].</paragraph>
+                     </text>
+                     <effectiveTime value="20160713"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID_0b647029-bc8b-4a29-b832-c86791392122">
+                     <id root="42302243-d8d4-0ea1-93bd-e6531c0f55f1"/>
+                     <code code="42229-5" displayName="SPL UNCLASSIFIED SECTION" codeSystem="2.16.840.1.113883.6.1"/>
+                     <title>7.2 Hemorrhage in Patients taking Warfarin </title>
+                     <text>
+                        <paragraph>International Normalized Ratio (INR) elevations and/or hemorrhage have been reported in some patients taking warfarin while on gefitinib therapy. Patients taking warfarin should be monitored regularly for changes in prothrombin time or INR.</paragraph>
+                     </text>
+                     <effectiveTime value="20160713"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_581abec4-0b72-4036-afd3-901ab879fef2">
+               <id root="b85ffc67-c2a0-7f58-1497-3e9f38997b3b"/>
+               <code code="43684-0" displayName="USE IN SPECIFIC POPULATIONS SECTION" codeSystem="2.16.840.1.113883.6.1"/>
+               <title>8 USE IN SPECIFIC POPULATIONS</title>
+               <effectiveTime value="20160713"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <list listType="unordered">
+                           <item>
+                              <caption>•</caption>Lactation:  Discontinue breast-feeding.  <linkHtml href="#ID_8168cd39-6a10-42ba-b5ad-57d43110c759">(8.2)</linkHtml>
+                           </item>
+                        </list>
+                     </text>
+                  </highlight>
+               </excerpt>
+               <component>
+                  <section ID="ID_aed3107a-7c80-44f6-8f59-b839375bfd3e">
+                     <id root="5f7d59cf-c083-1a57-b2a3-1b1bc264dbf7"/>
+                     <code code="42228-7" displayName="PREGNANCY SECTION" codeSystem="2.16.840.1.113883.6.1"/>
+                     <title>8.1 Pregnancy</title>
+                     <text>
+                        <paragraph>
+                           <content styleCode="underline">Risk Summary</content>
+                        </paragraph>
+                        <paragraph>Based on its mechanism of action and animal data, gefitinib tablets can cause fetal harm when administered to a pregnant woman. In animal reproductive studies, oral administration of gefitinib from organogenesis through weaning resulted in fetotoxicity and neonatal death at doses below the recommended human dose (<content styleCode="italics">see <linkHtml href="#_Ref">Animal Data</linkHtml>
+                           </content>). Advise pregnant women of the potential hazard to a fetus or potential risk for loss of the pregnancy.</paragraph>
+                        <paragraph>The background risk of major birth defects and miscarriage for the indicated population is unknown; however, the background risk in the U.S. general population of major birth defects is 2 to 4% and miscarriage is 15 to 20% of clinically recognized pregnancies.</paragraph>
+                        <paragraph>
+                           <content styleCode="underline">Data</content>
+                        </paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Animal Data</content>
+                        </paragraph>
+                        <paragraph>A single dose study in rats showed that gefitinib crosses the placenta after an oral dose of 5 mg/kg (30 mg/m<sup>2</sup>, about 0.2 times the recommended human dose on a mg/m<sup>2</sup> basis). When pregnant rats were treated with 5 mg/kg from the beginning of organogenesis to the end of weaning there was a reduction in the number of offspring born alive. This effect was more severe at 20 mg/kg (approximate the human clinical dose on a mg/m<sup>2</sup> basis) and was accompanied by high neonatal mortality soon after parturition. In rabbits, a dose of 20 mg/kg/day (240 mg/m<sup>2</sup>, about twice the recommended dose in humans on a mg/m<sup>2</sup> basis) caused reduced fetal weight.</paragraph>
+                     </text>
+                     <effectiveTime value="20160713"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID_8168cd39-6a10-42ba-b5ad-57d43110c759">
+                     <id root="b0d08125-a3dd-299c-4885-a26391524252"/>
+                     <code code="77290-5" codeSystem="2.16.840.1.113883.6.1" displayName="LACTATION SECTION"/>
+                     <title>8.2 Lactation </title>
+                     <text>
+                        <paragraph>
+                           <content styleCode="underline">Risk Summary</content>
+                        </paragraph>
+                        <paragraph>It is not known whether gefitinib is excreted in human milk. Animal studies indicate the gefitinib and its metabolites are present in rat milk at a concentration higher than those in maternal plasma. Because of the potential for serious adverse reactions in nursing infants from gefitinib, advise women to discontinue breast-feeding during treatment with gefitinib tablets.</paragraph>
+                        <paragraph>
+                           <content styleCode="underline">Data</content>
+                        </paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Animal Data</content>
+                        </paragraph>
+                        <paragraph>Levels of gefitinib and its metabolites were 11-to-19-fold higher in milk than in blood, after oral exposure of lactating rats to a dose of 5 mg/kg.</paragraph>
+                     </text>
+                     <effectiveTime value="20160713"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID_32a77107-3925-4c54-a304-f0265cf650ff">
+                     <id root="ddd9790a-902e-83b0-57d6-2906010eea2f"/>
+                     <code code="77291-3" codeSystem="2.16.840.1.113883.6.1" displayName="FEMALES &amp; MALES OF REPRODUCTIVE POTENTIAL SECTION"/>
+                     <title>8.3 Females and Males of Reproductive Potential </title>
+                     <text>
+                        <paragraph>
+                           <content styleCode="underline">Contraception</content>
+                        </paragraph>
+                        <paragraph>Based on its mechanism of action and animal data, gefitinib tablets can cause fetal harm when administered to a pregnant woman [<content styleCode="italics">see <linkHtml href="#ID_aed3107a-7c80-44f6-8f59-b839375bfd3e">Use in Specific Populations (8.1)</linkHtml>
+                           </content>]. Advise females of reproductive potential to use effective contraception during treatment with gefitinib tablets and for at least two weeks following completion of therapy.</paragraph>
+                        <paragraph>
+                           <content styleCode="underline">Infertility</content>
+                        </paragraph>
+                        <paragraph>Gefitinib tablets may result in reduced fertility in females of reproductive potential [<content styleCode="italics">see <linkHtml href="#ID_1b6766df-089a-4bee-8830-896d43ad8137">Nonclinical Toxicology (13.1)</linkHtml>
+                           </content>].</paragraph>
+                     </text>
+                     <effectiveTime value="20160713"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID_e67633f1-0439-496c-8798-6a9077ded3d7">
+                     <id root="7f70fd7f-ddad-cd1a-137e-559b63a7eb69"/>
+                     <code code="34081-0" displayName="PEDIATRIC USE SECTION" codeSystem="2.16.840.1.113883.6.1"/>
+                     <title>8.4 Pediatric Use</title>
+                     <text>
+                        <paragraph>The safety and effectiveness of gefitinib in pediatric patients have not been established.</paragraph>
+                     </text>
+                     <effectiveTime value="20160713"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID_cd357a2d-4e47-4d56-8d83-7abd823b1fb4">
+                     <id root="e7090375-577e-1a1f-f35b-85252b6b8fa6"/>
+                     <code code="34082-8" displayName="GERIATRIC USE SECTION" codeSystem="2.16.840.1.113883.6.1"/>
+                     <title>8.5 Geriatric Use</title>
+                     <text>
+                        <paragraph>Of the 823 patients enrolled in two randomized, active-controlled clinical trials 374 patients (45%) were 65 years and older, and 93 patients (11%) were 75 years and older.  No overall differences in safety were observed between patients 65 years and older and those younger than 65 years.  There is insufficient information to assess for differences in efficacy between older and younger patients.</paragraph>
+                     </text>
+                     <effectiveTime value="20160713"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID_55f24a4a-aafe-469f-ac6f-e4ddc32b371c">
+                     <id root="7818ddd6-d2ad-b67d-0159-7ac49e252936"/>
+                     <code code="42229-5" displayName="SPL UNCLASSIFIED SECTION" codeSystem="2.16.840.1.113883.6.1"/>
+                     <title>8.6 Renal Impairment </title>
+                     <text>
+                        <paragraph>Less than four percent (&lt;4%) of gefitinib and its metabolites are excreted via the kidney. No clinical studies were conducted with gefitinib in patients with severe renal impairment.</paragraph>
+                     </text>
+                     <effectiveTime value="20160713"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID_ce6adf8e-1aea-4074-8a22-c98b474f8495">
+                     <id root="9e90cadd-e84d-2407-af77-97e1a55e68e9"/>
+                     <code code="42229-5" displayName="SPL UNCLASSIFIED SECTION" codeSystem="2.16.840.1.113883.6.1"/>
+                     <title>8.7 Hepatic Impairment</title>
+                     <text>
+                        <paragraph>The systemic exposure of gefitinib was compared in patients with mild, moderate, or severe hepatic impairment due to cirrhosis (according to Child-Pugh classification) and healthy subjects with normal hepatic function (N=10/group). The mean systemic exposure (AUC<sub>0-∞</sub>) was increased by 40% in patients with mild impairment, 263% in patients with moderate impairment, and 166% in patients with severe hepatic impairment. Monitor adverse reactions when gefitinib tablets are administered to patients with moderate and severe hepatic impairment.</paragraph>
+                        <paragraph>In a study comparing 13 patients with liver metastases and moderate hepatic impairment (addition of CTC grade of baseline AST/SGOT, ALP, and bilirubin equals 3 to 5) to 14 patients with liver metastases and normal hepatic function, the systemic exposure of gefitinib was similar [<content styleCode="italics">see <linkHtml href="#ID_2d77f7d3-944b-4aea-9e6d-1a83f173b9b3">Warnings and Precautions (5.2)</linkHtml>
+                           </content>].</paragraph>
+                     </text>
+                     <effectiveTime value="20160713"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_2bd2165b-af0e-4bfb-85b5-0295dd6b7e72">
+               <id root="c515578e-e62d-afc6-ad6a-a83f43b8ba3e"/>
+               <code code="34088-5" displayName="OVERDOSAGE SECTION" codeSystem="2.16.840.1.113883.6.1"/>
+               <title>10 OVERDOSAGE</title>
+               <text>
+                  <paragraph>Twenty three patients were treated weekly with doses from 1500 mg to 3500 mg, and gefitinib exposure did not increase with increasing dose. Adverse events were mostly mild to moderate in severity, and were consistent with the known safety profile of gefitinib. In the event of suspected overdose, interrupt gefitinib tablets, institute supportive care, and observe until clinical stabilization. There are no specific measures/treatments that should be taken following gefitinib tablets overdosing.</paragraph>
+               </text>
+               <effectiveTime value="20160713"/>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_ee71e339-b20f-48b6-979b-d4c0671f57aa">
+               <id root="3ffdd5e4-5f45-e3cf-1ce1-87e3774cd86d"/>
+               <code code="34089-3" displayName="DESCRIPTION SECTION" codeSystem="2.16.840.1.113883.6.1"/>
+               <title>11 DESCRIPTION</title>
+               <text>
+                  <paragraph>Gefitinib is a kinase inhibitor.</paragraph>
+                  <paragraph>The chemical name of gefitinib is 4-Quinazolinamine <content styleCode="italics">N</content>-(3-chloro-4-fluorophenyl)-7-methoxy-6-[3-(4-morpholinyl) propoxy] and the following structural formula:</paragraph>
+                  <renderMultiMedia ID="id-1734167980" referencedObject="ID_489c2e67-25bf-4075-a216-680d42cd3395"/>
+                  <paragraph>Gefitinib has the molecular formula C<sub>22</sub>H<sub>24</sub>ClFN<sub>4</sub>O<sub>3</sub>, a relative molecular mass of 446.91 daltons and is a white to off white powder. Gefitinib is a free base. The molecule has pK<sub>a</sub>s of 5.4 and 7.2. Gefitinib can be defined as sparingly soluble at pH 1, but is practically insoluble above pH 7, with the solubility decreasing sharply between pH 4 and pH 6. In non- aqueous solvents, gefitinib is freely soluble in glacial acetic acid and dimethyl sulfoxide, soluble in pyridine, sparingly soluble in tetrahydrofuran, and slightly soluble in methanol, ethanol (99.5%), ethyl acetate, propan-2-ol and acetonitrile.</paragraph>
+                  <paragraph>Gefitinib tablets are available as reddish-brown, round, biconvex coated tablets containing 250 mg of gefitinib, for oral administration. The inactive ingredients of the tablet core of gefitinib tablets are amino methacrylate copolymer, colloidal silicon dioxide, crospovidone, and magnesium stearate. The tablet coating is composed of ferric oxide red, polyethylene glycol, polyvinyl alcohol, talc, and titanium dioxide.</paragraph>
+               </text>
+               <effectiveTime value="20160713"/>
+               <component>
+                  <observationMedia ID="ID_489c2e67-25bf-4075-a216-680d42cd3395">
+                     <text>structure.jpg</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="structure.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_344a8479-fc42-4ddb-a767-2ae84eae8b70">
+               <id root="7e65d69c-dabb-8ec4-9f43-eb8d5bd231d7"/>
+               <code code="34090-1" displayName="CLINICAL PHARMACOLOGY SECTION" codeSystem="2.16.840.1.113883.6.1"/>
+               <title>12 CLINICAL PHARMACOLOGY</title>
+               <effectiveTime value="20160713"/>
+               <component>
+                  <section ID="ID_9b9a69eb-5b30-490f-9a7c-4ab773b16c59">
+                     <id root="116154b9-fb07-ba86-b892-694dc078014c"/>
+                     <code code="43679-0" displayName="MECHANISM OF ACTION SECTION" codeSystem="2.16.840.1.113883.6.1"/>
+                     <title>12.1 Mechanism of Action</title>
+                     <text>
+                        <paragraph>The epidermal growth factor receptor (EGFR) is expressed on the cell surface of both normal and cancer cells and plays a role in the processes of cell growth and proliferation. Some EGFR activating mutations (exon 19 deletion or exon 21 point mutation L858R) within NSCLC cells have been identified as contributing to the promotion of tumor cell growth, blocking of apoptosis, increasing the production of angiogenic factors and facilitating the processes of metastasis.</paragraph>
+                        <paragraph>Gefitinib reversibly inhibits the kinase activity of wild-type and certain activating mutations of EGFR, preventing autophosphorylation of tyrosine residues associated with the receptor, thereby inhibiting further downstream signaling and blocking EGFR-dependent proliferation.</paragraph>
+                        <paragraph>Gefitinib binding affinity for EGFR exon 19 deletion or exon 21 point mutation L858R mutations is higher than its affinity for the wild-type EGFR. Gefitinib also inhibits IGF and PDGF-mediated signaling at clinically relevant concentrations; inhibition of other tyrosine kinase receptors has not been fully characterized. </paragraph>
+                     </text>
+                     <effectiveTime value="20181030"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID_736fb4b1-02ee-4c08-95b6-5b2a1bf4f744">
+                     <id root="c89363eb-6e1b-3dc6-c5e8-4b67115ab809"/>
+                     <code code="43682-4" displayName="PHARMACOKINETICS SECTION" codeSystem="2.16.840.1.113883.6.1"/>
+                     <title>12.3 Pharmacokinetics</title>
+                     <text>
+                        <paragraph>
+                           <content styleCode="italics">Absorption and Distribution</content>
+                        </paragraph>
+                        <paragraph>The mean oral bioavailability of gefitinib is 60%, with peak plasma levels occurring 3 to 7 hours after dosing. Food does not alter gefitinib bioavailability to a clinically meaningful extent. Gefitinib tablets can be administered with or without food. Gefitinib is extensively distributed throughout the body with a mean steady state volume of distribution of 1400 L following intravenous administration. <content styleCode="italics">In vitro</content> binding of gefitinib to human plasma proteins (serum albumin and αl-acid glycoprotein) is 90%, independent of drug concentrations. Gefitinib is a substrate for the membrane transport P-glycoprotein (P-gp), but it is unlikely to influence gefitinib absorption as P-gp is saturated at higher concentrations.</paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Metabolism and Elimination</content>
+                        </paragraph>
+                        <paragraph>Gefitinib undergoes extensive hepatic metabolism in humans, predominantly by CYP3A4. Three sites of biotransformation have been identified: metabolism of the N-propoxymorpholino-group, demethylation of the methoxy-substituent on the quinazoline, and oxidative defluorination of the halogenated phenyl group. Five metabolites have been fully identified in fecal extracts and the major active component was O-desmethyl gefitinib produced by CYP2D6 metabolism and accounted for 14% of the dose.</paragraph>
+                        <paragraph>Eight metabolites were identified in human plasma. Only O-desmethyl gefitinib has exposure comparable to gefitinib. Although this metabolite has similar EGFR-TK activity to gefitinib in the isolated enzyme assay, it had only 1/14 of the potency of gefitinib in one of the cell-based assays.</paragraph>
+                        <paragraph>Gefitinib is cleared primarily by the liver, with total plasma clearance and elimination half-life of 48 hours after intravenous administration. The inter-subject variability (coefficient of variation) for AUC in healthy subjects was 67%. Daily oral administration of gefitinib to cancer patients resulted in a two-fold accumulation compared to single dose administration. Steady state plasma concentrations are achieved within 10 days after daily dosing. Excretion of gefitinib and its metabolites is predominantly via the feces (86%), with renal elimination accounting for less than 4% of the administered dose.</paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Specific Populations</content>
+                        </paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Age, gender, body weight, ethnicity or renal function</content>: Population pharmacokinetic analyses suggest that patient age, body weight, ethnicity (populations included) or creatinine clearance (above 20 mL/min) has no clinically meaningful effect on predicted steady state trough concentration of gefitinib. Population pharmacokinetic analyses of Study 1 showed that women had 27% higher exposure than men; however, this difference was not identified in the analyses of other gefitinib clinical studies. No dose adjustment based on patient gender is recommended.</paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Hepatic Impairment</content>
+                           <content styleCode="italics">:</content> The systemic exposure of gefitinib was compared between patients with mild, moderate, or severe hepatic impairment due to cirrhosis (according to Child-Pugh classification) and healthy subjects with normal hepatic function (N=10/group). The mean systemic exposure (AUC<sub>0-∞</sub>) was increased by 40% in patients with mild impairment, 263% in patients with moderate impairment, and 166% in patients with severe hepatic impairment. In a study comparing 13 patients with liver metastases and moderate hepatic impairment to 14 patients with liver metastases and normal hepatic function, the systemic exposure of gefitinib was similar [<content styleCode="italics">see <linkHtml href="#ID_2d77f7d3-944b-4aea-9e6d-1a83f173b9b3">Warnings and Precautions (5.2)</linkHtml>, <linkHtml href="#ID_ce6adf8e-1aea-4074-8a22-c98b474f8495">Use in Specific Populations (8.7)</linkHtml>
+                           </content>].</paragraph>
+                        <paragraph>
+                           <content styleCode="italics">CYP2D6 Poor metabolizer</content>
+                           <content styleCode="italics">:</content> CYP2D6 metabolizes gefitinib to O-desmethyl gefitinib <content styleCode="italics">in vitro</content>. In healthy CYP2D6 poor metabolizers, O-desmethyl gefitinib concentration was not measurable and the mean exposure to gefitinib was 2-fold higher as compared to the extensive metabolizers. This increase in exposure in CYP2D6 poor metabolizers may be clinically important because some adverse drug reactions are related to higher exposure of gefitinib. No dose adjustment is recommended in patients with a known CYP2D6 poor metabolizer genotype, but these patients should be closely monitored for adverse reactions. The impact of CYP2D6 inhibiting drugs on gefitinib pharmacokinetics has not been evaluated. However, similar precautions should be used when administering CYP2D6 inhibitors with gefitinib because of the possibility of increased exposure in these patients.</paragraph>
+                        <paragraph>An exploratory exposure response analysis showed an increase in the incidence of interstitial lung disease (ILD) with a greater than 2-fold increase in the gefitinib exposure [<content styleCode="italics">see <linkHtml href="#ID_2d045521-95aa-4d4d-9692-ed8f004e43df">Warnings and Precautions (5.1)</linkHtml>
+                           </content>].</paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Drug-Drug Interactions</content>
+                        </paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Strong CYP3A4 Inducer:</content>
+                        </paragraph>
+                        <paragraph>Concomitant administration of rifampicin (600 mg QD for 16 days), a strong inducer of CYP3A4, with gefitinib (500 mg single dose on Day 10 of gefitinib administration) reduced mean AUC of gefitinib by 83% <content styleCode="italics">[see <linkHtml href="#ID_1131d2b6-1ce8-49f7-a380-78cf3ca3b3b5"> Dosage and Administration (2.4)</linkHtml>, <linkHtml href="#ID_b227be78-1bf8-4067-a4cb-2b2a577754e9"> Drug Interactions (7)</linkHtml>]</content>.</paragraph>
+                        <paragraph>
+                           <content styleCode="italics">CYP3A4 Inhibitor:</content>
+                        </paragraph>
+                        <paragraph>Concomitant administration of itraconazole (200 mg QD for 12 days), an inhibitor of CYP3A4, with gefitinib (250 mg single dose on Day 4 of itraconazole administration) to healthy male subjects, increased mean gefitinib AUC by 80% <content styleCode="italics">[see <linkHtml href="#ID_b227be78-1bf8-4067-a4cb-2b2a577754e9"> Drug Interactions (7)</linkHtml>]</content>.</paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Drugs Affecting Gastric pH:</content>
+                        </paragraph>
+                        <paragraph>Co-administration of high doses of ranitidine with sodium bicarbonate (to maintain the gastric pH above pH 5.0) to healthy subjects decreased mean gefitinib AUC by 47% <content styleCode="italics">[see <linkHtml href="#ID_b227be78-1bf8-4067-a4cb-2b2a577754e9"> Drug Interactions (7)</linkHtml>]</content>.</paragraph>
+                        <paragraph>In human liver microsome studies, gefitinib had no inhibitory effect on CYP1A2, CYP2C9, and CYP3A4 activities at concentrations ranging from 2 to 5000 ng/mL. At the highest concentration studied (5000 ng/mL), gefitinib inhibited CYP2C19 by 24% and CYP2D6 by 43%.</paragraph>
+                        <paragraph>Exposure to metoprolol, a substrate of CYP2D6, was increased by 30% when it was given on Day 15 of gefitinib dosing (500 mg daily for 28 days) in patients with solid tumors.</paragraph>
+                     </text>
+                     <effectiveTime value="20170428"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_f86d37ec-4e82-40f0-8bde-6b170e59679c">
+               <id root="85199dde-8ce9-71eb-0a95-2fb67fe4f114"/>
+               <code code="43680-8" displayName="NONCLINICAL TOXICOLOGY SECTION" codeSystem="2.16.840.1.113883.6.1"/>
+               <title>13 NONCLINICAL TOXICOLOGY</title>
+               <effectiveTime value="20100217"/>
+               <component>
+                  <section ID="ID_1b6766df-089a-4bee-8830-896d43ad8137">
+                     <id root="e0c7cb9f-d688-a4d2-df41-676d94bfa736"/>
+                     <code code="34083-6" displayName="CARCINOGENESIS &amp; MUTAGENESIS &amp; IMPAIRMENT OF FERTILITY SECTION" codeSystem="2.16.840.1.113883.6.1"/>
+                     <title>13.1 Carcinogenesis, Mutagenesis, Impairment of Fertility</title>
+                     <text>
+                        <paragraph>Gefitinib has been tested for genotoxicity in a series of <content styleCode="italics">in vitro</content> (bacterial mutation, mouse lymphoma, and human lymphocyte) assays and an <content styleCode="italics">in vivo</content> rat micronucleus test.  Under the conditions of these assays, gefitinib did not cause genetic damage. </paragraph>
+                        <paragraph>In a two-year carcinogenicity study in mice, administration of gefitinib at a dose of 270 mg/m<sup>2</sup>/day (approximately twice the recommended daily dose of 250 mg on a mg/m<sup>2</sup> basis; dose reduced from 375 mg/m<sup>2</sup>/day from week 22) caused hepatocellular adenomas in females.  In a two-year carcinogenicity study in rats, administration of gefitinib at 60 mg/m<sup>2</sup>/day (approximately 0.4 times the recommended daily clinical dose on a mg/m<sup>2</sup> basis) caused hepatocellular adenomas and hemangiomas/hemagiosarcomas of the mesenteric lymph nodes in female rats.  The clinical relevance of these findings is unknown.</paragraph>
+                        <paragraph>In a dedicated fertility study in rats at doses ≥120 mg/m<sup>2</sup> (approximately equal to the recommended human dose of gefitinib on a mg/m<sup>2</sup> basis), animals presented with an increased incidence of irregular estrous, decreased corpora lutea, and decreases in uterine implants and live embryos per litter. </paragraph>
+                     </text>
+                     <effectiveTime value="20100217"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_fe83de02-e983-4558-94cb-37763a2c98b9">
+               <id root="cea31a02-62f9-4b8b-89ee-54936a67e96d"/>
+               <code code="34092-7" displayName="CLINICAL STUDIES SECTION" codeSystem="2.16.840.1.113883.6.1"/>
+               <title>14 CLINICAL STUDIES</title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">Non-Small Cell Lung Cancer (NSCLC) </content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="italics">Study 1</content>
+                  </paragraph>
+                  <paragraph>The efficacy and safety of gefitinib for the first-line treatment of patients with metastatic NSCLC containing EGFR exon 19 deletions or L858R substitution mutations was demonstrated in a multicenter, single-arm, open-label clinical study (Study 1). A total of 106 treatment-naive patients with metastatic EGFR mutation positive NSCLC received gefitinib at a dose of 250 mg once daily until disease progression or intolerable toxicity. The major efficacy outcome measure was objective response rate (ORR) according to RECIST v1.1 as evaluated by both a Blinded Independent Central Review (BICR) and investigators. Duration of response (DOR) was an additional outcome measure. Eligible patients were required to have a deletion in EGFR exon 19 or L858R, L861Q, or G719X substitution mutation and no T790M or S768I mutation or exon 20 insertion in tumor specimens as prospectively determined by a clinical trial assay. Tumor samples from 87 patients were tested retrospectively using the <content styleCode="italics">therascreen</content>
+                     <sup>®</sup> EGFR RGQ PCR Kit.</paragraph>
+                  <paragraph>The study population characteristics were: median age 65 years, age 75 years or older (25%), age less than 65 years (49%), white (100%), female (71%), never smokers (64%), WHO PS 0 (45%), WHO PS 1 (48%), WHO PS 2 (7%), and adenocarcinoma histology (97%). Sixty patients had exon 19 deletions (65%), 29 patients had L858R substitution (31%), while two patients each had tumors harboring L861Q or G719X substitution mutation.</paragraph>
+                  <paragraph>The median duration of treatment was 8.0 months. Efficacy results from Study 1 are summarized below.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Table 3 – Efficacy Results in Study </content>
+                     <content styleCode="bold">1 </content>
+                  </paragraph>
+                  <table rules="all" width="60%">
+                     <tbody align="center">
+                        <tr>
+                           <td align="left">Efficacy Parameter</td>
+                           <td>BICR<sup>1 </sup>Assessment <br/>(n=106)<sup>2</sup>
+                           </td>
+                           <td>Investigator Assessment <br/>(n=106)</td>
+                        </tr>
+                        <tr>
+                           <td align="left">Objective Response Rate<sup>3</sup>
+                              <br/>(95% CI)</td>
+                           <td>50% <br/>(41, 59)</td>
+                           <td rowspan="1">70% <br/>(61, 78)</td>
+                        </tr>
+                        <tr>
+                           <td align="left">Complete Response Rate</td>
+                           <td>0.9%</td>
+                           <td>1.9%</td>
+                        </tr>
+                        <tr>
+                           <td align="left">Partial Response Rate</td>
+                           <td>49%</td>
+                           <td>68%</td>
+                        </tr>
+                        <tr>
+                           <td align="left">Median Duration of Response (months) <br/>(95% CI)</td>
+                           <td>6<br/>(5.6, 11.1)</td>
+                           <td>8.3 <br/>(7.6, 11.3)</td>
+                        </tr>
+                     </tbody>
+                  </table>
+                  <paragraph>
+                     <sup>1 </sup>BICR, Blinded Independent Central Review</paragraph>
+                  <paragraph>
+                     <sup>2 </sup>17 patients without target lesion at baseline detected by BICR were deemed non responders</paragraph>
+                  <paragraph>
+                     <sup>3 </sup>Determined by RECIST v 1.1</paragraph>
+                  <paragraph/>
+                  <paragraph>The response rates were similar in patients whose tumors had EGFR exon 19 deletions and exon 21 L858R substitution mutations. Two partial responses were observed in both patients whose tumors had G719X substitution mutation with duration of response of at least 2.8 months and 5.6 months, respectively. One of two patients whose tumors had L861Q substitution mutation also achieved a partial response with duration of response of at least 2.8 months.</paragraph>
+                  <paragraph>
+                     <content styleCode="italics">Study 2</content>
+                  </paragraph>
+                  <paragraph>The results of Study 1 were supported by an exploratory analysis of a subset of a randomized, multicenter, open-label trial (Study 2) conducted in patients with metastatic adenocarcinoma histology NSCLC receiving first-line treatment. Patients were randomized (1:1) to receive gefitinib 250 mg orally once daily or up to 6 cycles of carboplatin/paclitaxel. The efficacy outcomes included progression-free survival (PFS) and objective response rate (ORR) as assessed by BICR.</paragraph>
+                  <paragraph>The subset population consisted of 186 of 1217 patients (15%) determined to be EGFR positive by the same clinical trial assay as used in Study 1 and had radiographic scans available for a retrospective assessment by BICR. In this subset, there were 88 gefitinib-treated patients and 98 carboplatin/paclitaxel-treated patients.</paragraph>
+                  <paragraph>Demographic and baseline characteristics of this subset were a median age of 59 years, age 75 years or older (7%), age less than 65 (70%), Asian (100%), female (83%), never smokers (96%), adenocarcinoma histology (100%), and PS 0 to 1 (94%). </paragraph>
+                  <paragraph>The median duration of treatment for gefitinib-treated patients was 9.8 months. The hazard ratio for PFS favored the gefitinib-treated patients [HR of 0.54 (95% CI: 0.38, 0.79)] with a median PFS of 10.9 months for the gefitinib-treated patients and 7.4 months for the carboplatin/paclitaxel-treated patients as assessed by BICR. In addition, the objective response rate was 67% (95% CI: 56, 77) for gefitinib-treated patients and 41% (95% CI: 31, 51) for carboplatin/paclitaxel-treated patients based on BICR assessment. The median duration of response was 9.6 months for gefitinib-treated patients and 5.5 months for carboplatin/paclitaxel-treated patients. </paragraph>
+               </text>
+               <effectiveTime value="20220614"/>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_8988ee29-ec80-49e7-9181-64207aa8b3c9">
+               <id root="2cc719db-3ae2-c162-f749-f27bc3e8484f"/>
+               <code code="34069-5" displayName="HOW SUPPLIED SECTION" codeSystem="2.16.840.1.113883.6.1"/>
+               <title>16 HOW SUPPLIED/STORAGE AND HANDLING</title>
+               <text>
+                  <paragraph>Gefitinib tablets are available as 250 mg tablets.</paragraph>
+                  <paragraph>Gefitinib tablets 250 mg are reddish-brown, round, biconvex coated tablets. Engraved "APO" over "250" on one side, plain on the other side.</paragraph>
+                  <paragraph>Gefitinib tablets are supplied as:</paragraph>
+                  <paragraph>
+                     <content styleCode="none">Bottle of 30 tablets NDC 60505-4512-3</content>
+                  </paragraph>
+                  <paragraph>Store at 20°C to 25°C (68°F to 77°F); excursions permitted from 15°C to 30°C (59°F to 86°F) [see USP Controlled Room Temperature].</paragraph>
+               </text>
+               <effectiveTime value="20221022"/>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_ef5a2501-8d7e-4bba-80b4-f66227a6f905">
+               <id root="a4b661c3-d45d-75da-8feb-3e65895b45ca"/>
+               <code code="34076-0" displayName="INFORMATION FOR PATIENTS SECTION" codeSystem="2.16.840.1.113883.6.1"/>
+               <title>17 PATIENT COUNSELING INFORMATION</title>
+               <text>
+                  <paragraph>Advise the patient to read the FDA-approved patient labelling (Patient Information).</paragraph>
+                  <paragraph>
+                     <content styleCode="underline">Interstitial Lung Disease</content>: Advise patients to immediately contact their healthcare provider for new onset or worsening of pulmonary symptoms such as dyspnea, cough and fever [<content styleCode="italics">see <linkHtml href="#ID_2d045521-95aa-4d4d-9692-ed8f004e43df">Warnings and Precautions (5.1)</linkHtml>
+                     </content>].</paragraph>
+                  <paragraph>
+                     <content styleCode="underline">Hepatotoxicity</content>: Inform patients that they will need to undergo lab tests to monitor for liver function. Advise patients to contact their healthcare provider to report any new symptoms indicating hepatic toxicity [<content styleCode="italics">see <linkHtml href="#ID_2d77f7d3-944b-4aea-9e6d-1a83f173b9b3">Warnings and Precautions (5.2)</linkHtml>
+                     </content>].</paragraph>
+                  <paragraph>
+                     <content styleCode="underline">Gastrointestinal Perforation</content>: Advise patients that gefitinib tablets can increase the risk of gastrointestinal perforation and to seek immediate medical attention for severe abdominal pain [<content styleCode="italics">see <linkHtml href="#ID_a5ee96b2-ff22-43fc-85bc-138eb31489c5">Warnings and Precautions (5.3)</linkHtml>
+                     </content>].</paragraph>
+                  <paragraph>
+                     <content styleCode="underline">Severe or Persistent Diarrhea</content>: Advise patients to contact their healthcare provider for severe or persistent diarrhea [<content styleCode="italics">see <linkHtml href="#ID_c6e16281-54c6-47eb-bbce-fba14bf70e40">Warnings and Precautions (5.4)</linkHtml>
+                     </content>].</paragraph>
+                  <paragraph>
+                     <content styleCode="underline">Ocular Disorders including Keratitis</content>: Advise patients promptly to contact their healthcare provider if they develop eye symptoms, lacrimation, light sensitivity, blurred vision, eye pain, red eye or changes in vision [<content styleCode="italics">see <linkHtml href="#ID_b08651dd-f6b1-4fdd-993c-c251d00ce1ff">Warnings and Precautions (5.5)</linkHtml>
+                     </content>]</paragraph>
+                  <paragraph>
+                     <content styleCode="underline">Bullous and Exfoliative Skin Disorders</content>: Advise patients that gefitinib tablets can increase the risk of bullous and exfoliative skin disorders and to seek immediately medical attention for severe skin reactions [<content styleCode="italics">see <linkHtml href="#ID_580caeb9-b38c-48a0-a048-92af625dad0b">Warnings and Precautions (5.6)</linkHtml>
+                     </content>].</paragraph>
+                  <paragraph>
+                     <content styleCode="underline">Embryo-fetal Toxicity</content>: Advise pregnant women of the potential risk to a fetus or potential risk for loss of the pregnancy [<content styleCode="italics">see <linkHtml href="#ID_a349679d-8114-4808-876f-1e8a87878c53">Warnings and Precautions (5.7)</linkHtml>, <linkHtml href="#ID_aed3107a-7c80-44f6-8f59-b839375bfd3e">Use in Specific Populations (8.1)</linkHtml>
+                     </content>]. Advise females of reproductive potential to use effective contraception during treatment with gefitinib tablets and for at least two weeks following completion of therapy [<content styleCode="italics">see <linkHtml href="#ID_32a77107-3925-4c54-a304-f0265cf650ff">Use in Specific Populations (8.3)</linkHtml>
+                     </content>].</paragraph>
+                  <paragraph>
+                     <content styleCode="underline">Lactation</content>: Advise women to discontinue breast-feeding during treatment with gefitinib tablets [<content styleCode="italics">see <linkHtml href="#ID_8168cd39-6a10-42ba-b5ad-57d43110c759">Use in Specific Populations (8.2)</linkHtml>
+                     </content>
+                     <content styleCode="italics">]</content>.</paragraph>
+                  <paragraph>All registered trademarks in this document are the property of their respective owners.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">APOTEX INC. <br/>GEFITINIB TABLETS <br/>250 mg</content>
+                  </paragraph>
+                  <table rules="all" width="40%">
+                     <tbody>
+                        <tr>
+                           <td>
+                              <content styleCode="bold">Manufactured by:</content>
+                           </td>
+                           <td>
+                              <content styleCode="bold">Manufactured for:</content>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td>Apotex Inc.</td>
+                           <td>Apotex Corp.</td>
+                        </tr>
+                        <tr>
+                           <td>Toronto, Ontario</td>
+                           <td>Weston, Florida</td>
+                        </tr>
+                        <tr>
+                           <td>Canada M9L 1T9 </td>
+                           <td>USA 33326</td>
+                        </tr>
+                     </tbody>
+                  </table>
+                  <paragraph>Rev. 7</paragraph>
+                  <paragraph/>
+               </text>
+               <effectiveTime value="20230820"/>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_1a756aa0-c353-470e-a91b-194075360ef8">
+               <id root="9932d853-904e-c004-a33d-b8573006bd6a"/>
+               <code code="42230-3" displayName="SPL PATIENT PACKAGE INSERT SECTION" codeSystem="2.16.840.1.113883.6.1"/>
+               <title>Patient Information</title>
+               <text>
+                  <content styleCode="bold">
+                     <content styleCode="bold">Gefitinib Tablets</content>
+                     <br/>
+                     <content styleCode="bold">(ge-fi-ti-nib)</content>
+                  </content>
+                  <paragraph/>
+                  <paragraph>
+                     <content styleCode="bold">What are <content styleCode="bold">gefitinib tablets</content>?</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="none">Gefitinib tablets</content> are a prescription medicine used to treat people with non-small cell lung cancer (NSCLC) that has spread to other parts of the body and:</paragraph>
+                  <list listType="unordered">
+                     <item>
+                        <caption>•</caption>that have certain types of abnormal epidermal growth factor receptor (EGFR) genes, and </item>
+                     <item>
+                        <caption>•</caption>who have not had previous treatment for cancer</item>
+                  </list>
+                  <paragraph>Your healthcare provider will perform a test to make sure that gefitinib tablets are right for you.</paragraph>
+                  <paragraph>It is not known if gefitinib tablets are safe and effective in people with NSCLC that have other types of EGFR genes.</paragraph>
+                  <paragraph>It is not known if gefitinib tablets are safe and effective in children.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Before taking gefitinib tablets, tell your healthcare provider about all of your medical conditions, including if you:</content>
+                  </paragraph>
+                  <list listType="unordered">
+                     <item>
+                        <caption>•</caption>have lung or breathing problems</item>
+                     <item>
+                        <caption>•</caption>ever had liver problems</item>
+                     <item>
+                        <caption>•</caption>have vision or eye problems</item>
+                     <item>
+                        <caption>•</caption>are pregnant or plan to become pregnant. Gefitinib tablets can harm your unborn baby.<list listType="unordered">
+                           <item>
+                              <caption>•</caption>Females who are able to become pregnant should use an effective method of birth control during treatment with gefitinib tablets and for at least 2 weeks after the last dose of gefitinib tablets. You should avoid becoming pregnant during treatment with gefitinib.</item>
+                           <item>
+                              <caption>•</caption>Tell your healthcare provider right away if you become pregnant during treatment with gefitinib tablets.</item>
+                        </list>
+                     </item>
+                     <item>
+                        <caption>•</caption>are breastfeeding or plan to breastfeed. It is not known if gefitinib passes into your breast milk. Do not breastfeed during treatment with gefitinib tablets. Talk to your healthcare provider about the best way to feed your baby during this time.</item>
+                  </list>
+                  <paragraph>Tell your healthcare provider about all the medicines you take, including prescription and over-the-counter medicines, vitamins, or herbal supplements.</paragraph>
+                  <paragraph>If you take a proton pump inhibitor (PPI), H2 blocker, or an antacid medicine, talk to your healthcare provider about the best time to take it during treatment with gefitinib tablets.</paragraph>
+                  <paragraph>If you take a blood thinner called warfarin, your healthcare provider should do blood tests regularly to check how fast your blood clots, during treatment with gefitinib tablets.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">How should I take gefitinib tablets?</content>
+                  </paragraph>
+                  <list listType="unordered">
+                     <item>
+                        <caption>•</caption>Take gefitinib tablets exactly as your healthcare provider tells you to take it.</item>
+                     <item>
+                        <caption>•</caption>Your healthcare provider may change your dose, temporarily stop, or permanently stop treatment with gefitinib tablets if you have side effects.</item>
+                     <item>
+                        <caption>•</caption>Take gefitinib tablets 1 time each day.</item>
+                     <item>
+                        <caption>•</caption>You can take gefitinib tablets with or without food.</item>
+                     <item>
+                        <caption>•</caption>If you miss a dose of gefitinib tablets, take it as soon as you remember. If it is less than 12 hours until your next dose, skip the missed dose. Take your next dose at your regular time.</item>
+                     <item>
+                        <caption>•</caption>If you take too much gefitinib tablets, call your healthcare provider or go to the nearest emergency room right away.</item>
+                     <item>
+                        <caption>•</caption>
+                        <content styleCode="bold">If you cannot swallow gefitinib tablets whole:</content>
+                        <list listType="unordered">
+                           <item>
+                              <caption>•</caption>place your dose of gefitinib tablets in a container with 4 to 8 ounces of water and stir for about 15 minutes</item>
+                           <item>
+                              <caption>•</caption>drink the mixture right away</item>
+                           <item>
+                              <caption>•</caption>place another 4 to 8 ounces of water in the same container, and drink it right away</item>
+                        </list>
+                     </item>
+                  </list>
+                  <paragraph>
+                     <content styleCode="bold">What are the possible side effects of gefitinib tablets?</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Gefitinib tablets may cause serious side effects, including:</content>
+                  </paragraph>
+                  <list listType="unordered">
+                     <item>
+                        <caption>•</caption>
+                        <content styleCode="bold">lung or breathing problems</content>
+                        <content styleCode="bold">.</content> Gefitinib tablets may cause inflammation of the lung that may lead to death. Symptoms may be similar to those symptoms from lung cancer. Tell your healthcare provider right away if you have any new or worsening lung problems, or any combination of the following symptoms: trouble breathing or shortness of breath, cough, or fever.</item>
+                     <item>
+                        <caption>•</caption>
+                        <content styleCode="bold">liver problems</content>
+                        <content styleCode="bold">.</content> Gefitinib tablets may cause inflammation of the liver that may lead to death. Tell your healthcare provider right away if you have any symptoms of a liver problem which may include:<list listType="unordered">
+                           <item>
+                              <caption>•</caption>yellowing of your skin or the white part of your eyes (jaundice)</item>
+                           <item>
+                              <caption>•</caption>dark or brown (tea colored) urine</item>
+                           <item>
+                              <caption>•</caption>light-colored bowel movements (stools)</item>
+                           <item>
+                              <caption>•</caption>decreased appetite</item>
+                           <item>
+                              <caption>•</caption>pain on the right side of your stomach (abdomen)</item>
+                        </list>
+                     </item>
+                  </list>
+                  <paragraph>Your healthcare provider will do blood tests to check your liver function during your treatment with gefitinib tablets.</paragraph>
+                  <list listType="unordered">
+                     <item>
+                        <caption>•</caption>
+                        <content styleCode="bold">a tear in the wall of your stomach or intestines (perforation)</content>
+                        <content styleCode="bold">.</content> Get emergency medical help right away if you have severe stomach (abdomen) pain.</item>
+                     <item>
+                        <caption>•</caption>
+                        <content styleCode="bold">diarrhea</content>
+                        <content styleCode="bold">.</content> Diarrhea is common with gefitinib tablets and can sometimes be severe. Tell your healthcare provider right away if you have severe diarrhea or diarrhea that will not go away.</item>
+                     <item>
+                        <caption>•</caption>
+                        <content styleCode="bold">eye problems</content>
+                        <content styleCode="bold">.</content> Tell your healthcare provider if you get watery eyes, sensitivity to light, blurred vision, eye pain, eye redness, or vision changes.</item>
+                     <item>
+                        <caption>•</caption>
+                        <content styleCode="bold">skin reactions</content>
+                        <content styleCode="bold">.</content> Skin redness, rash, itching, and acne are common with gefitinib tablets. This may occur on any part of your body. Get medical help right away if you develop severe skin reactions such as peeling or blistering of your skin.</item>
+                  </list>
+                  <paragraph>Gefitinib tablets may cause fertility problems in females. Talk to your healthcare provider if you plan to become pregnant.</paragraph>
+                  <paragraph>Tell your healthcare provider if you have any side effect that bothers you or that does not go away.</paragraph>
+                  <paragraph>These are not all the possible side effects of gefitinib tablets. For more information, ask your healthcare provider or pharmacist.</paragraph>
+                  <paragraph>Call your doctor for medical advice about side effects.</paragraph>
+                  <paragraph>You may report side effects to FDA at 1-800-FDA-1088.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">How should I store gefitinib tablets? </content>
+                  </paragraph>
+                  <paragraph>Store gefitinib tablets at 68°F to 77°F (20°C to 25°C).</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">
+                        <content styleCode="bold">Keep gefitinib tablets and all medicines out of the reach of children.</content>
+                     </content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">
+                        <content styleCode="bold">General information about the safe and effective use of gefitinib tablets.</content>
+                        <br/>
+                     </content>
+                     <content styleCode="none">Medicines are sometimes prescribed for purposes other than those listed in Patient Information leaflet. Do not use gefitinib tablets for a condition for which it was not prescribed. Do not give gefitinib tablets to other people, even if they have the same symptoms you have. It may harm them. You can ask your healthcare provider or pharmacist for information about gefitinib tablets that is written for health professionals.</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="none">For more information, go to www.apotex.com or call 1-800-706-5575.</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="none">
+                        <content styleCode="bold">What are the ingredients in gefitinib tablets? </content>
+                     </content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="none">
+                        <content styleCode="bold">Active ingredient: </content>gefitinib<br/>
+                     </content>
+                     <content styleCode="bold">Inactive ingredients: </content>amino methacrylate copolymer, colloidal silicon dioxide, crospovidone, and magnesium stearate</paragraph>
+                  <paragraph>Tablet coating contains: ferric oxide red, polyethylene glycol, polyvinyl alcohol, talc, and titanium dioxide.</paragraph>
+                  <paragraph>This Patient Information has been approved by the U.S. Food and Drug Administration.<content styleCode="none"/>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="none">All registered trademarks in this document are the property of their respective owners.</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="none">
+                        <content styleCode="bold">APOTEX INC. <br/>GEFITINIB Tablets <br/>250 mg</content>
+                     </content>
+                  </paragraph>
+                  <table rules="all" width="40%">
+                     <tbody>
+                        <tr>
+                           <td>
+                              <content styleCode="bold">Manufactured by:</content>
+                           </td>
+                           <td>
+                              <content styleCode="bold">Manufactured for:</content>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td>Apotex Inc.</td>
+                           <td>Apotex Corp.</td>
+                        </tr>
+                        <tr>
+                           <td>Toronto, Ontario</td>
+                           <td>Weston, Florida</td>
+                        </tr>
+                        <tr>
+                           <td>Canada M9L 1T9</td>
+                           <td>USA 33326</td>
+                        </tr>
+                     </tbody>
+                  </table>
+                  <paragraph>Revised: August 2023</paragraph>
+                  <paragraph>Rev. 7</paragraph>
+                  <paragraph/>
+                  <paragraph>
+                     <content styleCode="none">
+                        <content styleCode="bold"/>
+                     </content>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20230820"/>
+            </section>
+         </component>
+         <component>
+            <section ID="_89d5a3fc-63e0-6797-648b-06d6dc0d9a76">
+               <id root="87c6463b-6ce5-0bc7-6461-abc79e097c62"/>
+               <code code="51945-4" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL" codeSystem="2.16.840.1.113883.6.1"/>
+               <title>Principal Display Panel</title>
+               <text>
+                  <paragraph>Representative sample of labeling (see <content styleCode="bold">
+                        <linkHtml href="#ID_8988ee29-ec80-49e7-9181-64207aa8b3c9">HOW SUPPLIED</linkHtml>
+                     </content> section of complete listing):</paragraph>
+                  <paragraph>APOTEX CORP. </paragraph>
+                  <paragraph>NDC 60505-4512-3</paragraph>
+                  <paragraph>Gefitinib Tablets</paragraph>
+                  <paragraph>250 mg 30 count</paragraph>
+                  <paragraph>Rx Only</paragraph>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="MM698542777047"/>
+                  </paragraph>
+                  <paragraph/>
+               </text>
+               <effectiveTime value="20221022"/>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

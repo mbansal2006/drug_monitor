@@ -1,0 +1,1624 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="https://www.accessdata.fda.gov/spl/stylesheet/spl.xsl" type="text/xsl"?>
+<document xmlns="urn:hl7-org:v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 https://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="5eb42da3-7f4f-4071-9a35-14565343b49c"/>
+   <code code="34391-3" codeSystem="2.16.840.1.113883.6.1" displayName="HUMAN PRESCRIPTION DRUG LABEL"/>
+   <title>Extencilline, (benzathine benzylpenicillin) Powder and diluent for reconstitution for injection</title>
+   <effectiveTime value="20240718"/>
+   <setId root="5a026d0c-6f91-4ee3-b193-b2186a37e7ca"/>
+   <versionNumber value="5"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id root="1.3.6.1.4.1.519.1" extension="086861066"/>
+            <name>Provepharm Inc.</name>
+            <assignedEntity>
+               <assignedOrganization>
+                  <assignedEntity>
+                     <assignedOrganization>
+                        <id root="1.3.6.1.4.1.519.1" extension="338690598"/>
+                        <name>Haupt Pharma Latina Srl</name>
+                     </assignedOrganization>
+                     <performance>
+                        <actDefinition>
+                           <code code="C43360" displayName="manufacture" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="81284-521" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                     <performance>
+                        <actDefinition>
+                           <code code="C43360" displayName="manufacture" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="81284-523" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                     <performance>
+                        <actDefinition>
+                           <code code="C43360" displayName="manufacture" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="81284-735" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                     <performance>
+                        <actDefinition>
+                           <code code="C43360" displayName="manufacture" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="81284-522" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                     <performance>
+                        <actDefinition>
+                           <code code="C43360" displayName="manufacture" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="81284-524" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                  </assignedEntity>
+               </assignedOrganization>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section>
+               <id root="e5366745-65c4-46a7-b5a0-4c84445d97c6"/>
+               <code code="48780-1" codeSystem="2.16.840.1.113883.6.1" displayName="SPL product data elements section"/>
+               <title/>
+               <text/>
+               <effectiveTime value="20231213"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="81284-521" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>EXTENCILLINE</name>
+                        <formCode code="C47916" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="KIT"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>benzathine benzylpenicillin</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <asContent>
+                           <quantity>
+                              <numerator value="1" unit="1"/>
+                              <denominator value="1" unit="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="81284-521-01" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43182" displayName="CARTON" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <marketingAct>
+                                 <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 <statusCode code="active"/>
+                                 <effectiveTime>
+                                    <low value="20231221"/>
+                                 </effectiveTime>
+                              </marketingAct>
+                           </subjectOf>
+                        </asContent>
+                        <part>
+                           <quantity>
+                              <numerator value="1" unit="1"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <partProduct>
+                              <code code="81284-523" codeSystem="2.16.840.1.113883.6.69"/>
+                              <name>EXTENCILLINE</name>
+                              <formCode code="C42976" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="INJECTION, POWDER, FOR SUSPENSION"/>
+                              <asEntityWithGeneric>
+                                 <genericMedicine>
+                                    <name>benzathine benzylpenicillin</name>
+                                 </genericMedicine>
+                              </asEntityWithGeneric>
+                              <ingredient classCode="ACTIM">
+                                 <quantity>
+                                    <numerator value="1200000" unit="[iU]"/>
+                                    <denominator value="1" unit="1"/>
+                                 </quantity>
+                                 <ingredientSubstance>
+                                    <code code="RIT82F58GK" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>PENICILLIN G BENZATHINE</name>
+                                    <activeMoiety>
+                                       <activeMoiety>
+                                          <code code="Q42T66VG0C" codeSystem="2.16.840.1.113883.4.9"/>
+                                          <name>PENICILLIN G</name>
+                                       </activeMoiety>
+                                    </activeMoiety>
+                                 </ingredientSubstance>
+                              </ingredient>
+                              <ingredient classCode="IACT">
+                                 <ingredientSubstance>
+                                    <code code="1DI56QDM62" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>LECITHIN, SOYBEAN</name>
+                                 </ingredientSubstance>
+                              </ingredient>
+                              <ingredient classCode="IACT">
+                                 <ingredientSubstance>
+                                    <code code="6OZP39ZG8H" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>POLYSORBATE 80</name>
+                                 </ingredientSubstance>
+                              </ingredient>
+                              <ingredient classCode="IACT">
+                                 <ingredientSubstance>
+                                    <code code="K679OBS311" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>CARBOXYMETHYLCELLULOSE SODIUM, UNSPECIFIED</name>
+                                 </ingredientSubstance>
+                              </ingredient>
+                              <ingredient classCode="IACT">
+                                 <ingredientSubstance>
+                                    <code code="RS7A450LGA" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>ANHYDROUS TRISODIUM CITRATE</name>
+                                 </ingredientSubstance>
+                              </ingredient>
+                              <ingredient classCode="IACT">
+                                 <ingredientSubstance>
+                                    <code code="FZ989GH94E" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>POVIDONE</name>
+                                 </ingredientSubstance>
+                              </ingredient>
+                              <asContent>
+                                 <quantity>
+                                    <numerator value="1" unit="1"/>
+                                    <denominator value="1" unit="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code code="81284-523-00" codeSystem="2.16.840.1.113883.6.69"/>
+                                    <formCode code="C43226" displayName="VIAL" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 </containerPackagedProduct>
+                                 <subjectOf>
+                                    <characteristic classCode="OBS">
+                                       <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                       <value code="C102834" displayName="Type 1: Convenience Kit of Co-Package" codeSystem="2.16.840.1.113883.3.26.1.1" xsi:type="CE"/>
+                                    </characteristic>
+                                 </subjectOf>
+                              </asContent>
+                           </partProduct>
+                           <subjectOf>
+                              <approval>
+                                 <code code="C101533" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Unapproved drug for use in drug shortage"/>
+                                 <author>
+                                    <territorialAuthority>
+                                       <territory>
+                                          <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                       </territory>
+                                    </territorialAuthority>
+                                 </author>
+                              </approval>
+                           </subjectOf>
+                           <subjectOf>
+                              <marketingAct>
+                                 <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 <statusCode code="active"/>
+                                 <effectiveTime>
+                                    <low value="20231221"/>
+                                 </effectiveTime>
+                              </marketingAct>
+                           </subjectOf>
+                           <consumedIn>
+                              <substanceAdministration>
+                                 <routeCode code="C28161" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="INTRAMUSCULAR"/>
+                              </substanceAdministration>
+                           </consumedIn>
+                        </part>
+                        <part>
+                           <quantity>
+                              <numerator value="5" unit="mL"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <partProduct>
+                              <code code="81284-735" codeSystem="2.16.840.1.113883.6.69"/>
+                              <name>Water</name>
+                              <formCode code="C42945" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="INJECTION, SOLUTION"/>
+                              <asEntityWithGeneric>
+                                 <genericMedicine>
+                                    <name>water</name>
+                                 </genericMedicine>
+                              </asEntityWithGeneric>
+                              <ingredient classCode="IACT">
+                                 <ingredientSubstance>
+                                    <code code="059QF0KO0R" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>WATER</name>
+                                 </ingredientSubstance>
+                              </ingredient>
+                              <asContent>
+                                 <quantity>
+                                    <numerator value="5" unit="mL"/>
+                                    <denominator value="1" unit="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code code="81284-735-00" codeSystem="2.16.840.1.113883.6.69"/>
+                                    <formCode code="C43165" displayName="AMPULE" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 </containerPackagedProduct>
+                                 <subjectOf>
+                                    <characteristic classCode="OBS">
+                                       <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                       <value code="C102834" displayName="Type 1: Convenience Kit of Co-Package" codeSystem="2.16.840.1.113883.3.26.1.1" xsi:type="CE"/>
+                                    </characteristic>
+                                 </subjectOf>
+                              </asContent>
+                           </partProduct>
+                           <subjectOf>
+                              <approval>
+                                 <code code="C101533" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Unapproved drug for use in drug shortage"/>
+                                 <author>
+                                    <territorialAuthority>
+                                       <territory>
+                                          <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                       </territory>
+                                    </territorialAuthority>
+                                 </author>
+                              </approval>
+                           </subjectOf>
+                           <subjectOf>
+                              <marketingAct>
+                                 <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 <statusCode code="active"/>
+                                 <effectiveTime>
+                                    <low value="20231221"/>
+                                 </effectiveTime>
+                              </marketingAct>
+                           </subjectOf>
+                           <consumedIn>
+                              <substanceAdministration>
+                                 <routeCode code="C28161" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="INTRAMUSCULAR"/>
+                              </substanceAdministration>
+                           </consumedIn>
+                        </part>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <code code="C101533" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Unapproved drug for use in drug shortage"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20231221"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                  </manufacturedProduct>
+               </subject>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="81284-522" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>EXTENCILLINE</name>
+                        <formCode code="C47916" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="KIT"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>benzathine benzylpenicillin</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <asContent>
+                           <quantity>
+                              <numerator value="1" unit="1"/>
+                              <denominator value="1" unit="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="81284-522-01" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43182" displayName="CARTON" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <marketingAct>
+                                 <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 <statusCode code="active"/>
+                                 <effectiveTime>
+                                    <low value="20231221"/>
+                                 </effectiveTime>
+                              </marketingAct>
+                           </subjectOf>
+                        </asContent>
+                        <part>
+                           <quantity>
+                              <numerator value="1" unit="1"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <partProduct>
+                              <code code="81284-524" codeSystem="2.16.840.1.113883.6.69"/>
+                              <name>EXTENCILLINE</name>
+                              <formCode code="C42976" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="INJECTION, POWDER, FOR SUSPENSION"/>
+                              <asEntityWithGeneric>
+                                 <genericMedicine>
+                                    <name>benzathine benzylpenicillin</name>
+                                 </genericMedicine>
+                              </asEntityWithGeneric>
+                              <ingredient classCode="ACTIM">
+                                 <quantity>
+                                    <numerator value="2400000" unit="[iU]"/>
+                                    <denominator value="1" unit="1"/>
+                                 </quantity>
+                                 <ingredientSubstance>
+                                    <code code="RIT82F58GK" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>PENICILLIN G BENZATHINE</name>
+                                    <activeMoiety>
+                                       <activeMoiety>
+                                          <code code="Q42T66VG0C" codeSystem="2.16.840.1.113883.4.9"/>
+                                          <name>PENICILLIN G</name>
+                                       </activeMoiety>
+                                    </activeMoiety>
+                                 </ingredientSubstance>
+                              </ingredient>
+                              <ingredient classCode="IACT">
+                                 <ingredientSubstance>
+                                    <code code="1DI56QDM62" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>LECITHIN, SOYBEAN</name>
+                                 </ingredientSubstance>
+                              </ingredient>
+                              <ingredient classCode="IACT">
+                                 <ingredientSubstance>
+                                    <code code="6OZP39ZG8H" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>POLYSORBATE 80</name>
+                                 </ingredientSubstance>
+                              </ingredient>
+                              <ingredient classCode="IACT">
+                                 <ingredientSubstance>
+                                    <code code="K679OBS311" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>CARBOXYMETHYLCELLULOSE SODIUM, UNSPECIFIED</name>
+                                 </ingredientSubstance>
+                              </ingredient>
+                              <ingredient classCode="IACT">
+                                 <ingredientSubstance>
+                                    <code code="RS7A450LGA" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>ANHYDROUS TRISODIUM CITRATE</name>
+                                 </ingredientSubstance>
+                              </ingredient>
+                              <ingredient classCode="IACT">
+                                 <ingredientSubstance>
+                                    <code code="FZ989GH94E" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>POVIDONE</name>
+                                 </ingredientSubstance>
+                              </ingredient>
+                              <asContent>
+                                 <quantity>
+                                    <numerator value="1" unit="1"/>
+                                    <denominator value="1" unit="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code code="81284-524-00" codeSystem="2.16.840.1.113883.6.69"/>
+                                    <formCode code="C43226" displayName="VIAL" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 </containerPackagedProduct>
+                                 <subjectOf>
+                                    <characteristic classCode="OBS">
+                                       <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                       <value code="C102834" displayName="Type 1: Convenience Kit of Co-Package" codeSystem="2.16.840.1.113883.3.26.1.1" xsi:type="CE"/>
+                                    </characteristic>
+                                 </subjectOf>
+                              </asContent>
+                           </partProduct>
+                           <subjectOf>
+                              <approval>
+                                 <code code="C101533" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Unapproved drug for use in drug shortage"/>
+                                 <author>
+                                    <territorialAuthority>
+                                       <territory>
+                                          <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                       </territory>
+                                    </territorialAuthority>
+                                 </author>
+                              </approval>
+                           </subjectOf>
+                           <subjectOf>
+                              <marketingAct>
+                                 <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 <statusCode code="active"/>
+                                 <effectiveTime>
+                                    <low value="20231221"/>
+                                 </effectiveTime>
+                              </marketingAct>
+                           </subjectOf>
+                           <consumedIn>
+                              <substanceAdministration>
+                                 <routeCode code="C28161" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="INTRAMUSCULAR"/>
+                              </substanceAdministration>
+                           </consumedIn>
+                        </part>
+                        <part>
+                           <quantity>
+                              <numerator value="5" unit="mL"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <partProduct>
+                              <code code="81284-735" codeSystem="2.16.840.1.113883.6.69"/>
+                              <name>Water</name>
+                              <formCode code="C42945" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="INJECTION, SOLUTION"/>
+                              <asEntityWithGeneric>
+                                 <genericMedicine>
+                                    <name>water</name>
+                                 </genericMedicine>
+                              </asEntityWithGeneric>
+                              <ingredient classCode="IACT">
+                                 <ingredientSubstance>
+                                    <code code="059QF0KO0R" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>WATER</name>
+                                 </ingredientSubstance>
+                              </ingredient>
+                              <asContent>
+                                 <quantity>
+                                    <numerator value="5" unit="mL"/>
+                                    <denominator value="1" unit="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code code="81284-735-00" codeSystem="2.16.840.1.113883.6.69"/>
+                                    <formCode code="C43165" displayName="AMPULE" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 </containerPackagedProduct>
+                                 <subjectOf>
+                                    <characteristic classCode="OBS">
+                                       <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                       <value code="C102834" displayName="Type 1: Convenience Kit of Co-Package" codeSystem="2.16.840.1.113883.3.26.1.1" xsi:type="CE"/>
+                                    </characteristic>
+                                 </subjectOf>
+                              </asContent>
+                           </partProduct>
+                           <subjectOf>
+                              <approval>
+                                 <code code="C101533" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Unapproved drug for use in drug shortage"/>
+                                 <author>
+                                    <territorialAuthority>
+                                       <territory>
+                                          <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                       </territory>
+                                    </territorialAuthority>
+                                 </author>
+                              </approval>
+                           </subjectOf>
+                           <subjectOf>
+                              <marketingAct>
+                                 <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 <statusCode code="active"/>
+                                 <effectiveTime>
+                                    <low value="20231221"/>
+                                 </effectiveTime>
+                              </marketingAct>
+                           </subjectOf>
+                           <consumedIn>
+                              <substanceAdministration>
+                                 <routeCode code="C28161" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="INTRAMUSCULAR"/>
+                              </substanceAdministration>
+                           </consumedIn>
+                        </part>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <code code="C101533" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Unapproved drug for use in drug shortage"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20231221"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                  </manufacturedProduct>
+               </subject>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="81284-523" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>EXTENCILLINE</name>
+                        <formCode code="C42976" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="INJECTION, POWDER, FOR SUSPENSION"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>benzathine benzylpenicillin</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <ingredient classCode="ACTIM">
+                           <quantity>
+                              <numerator value="1200000" unit="[iU]"/>
+                              <denominator value="1" unit="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="RIT82F58GK" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>PENICILLIN G BENZATHINE</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="Q42T66VG0C" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>PENICILLIN G</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="1DI56QDM62" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>LECITHIN, SOYBEAN</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="6OZP39ZG8H" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>POLYSORBATE 80</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="K679OBS311" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>CARBOXYMETHYLCELLULOSE SODIUM, UNSPECIFIED</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="RS7A450LGA" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>ANHYDROUS TRISODIUM CITRATE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="FZ989GH94E" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>POVIDONE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator value="1" unit="1"/>
+                              <denominator value="1" unit="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="81284-523-00" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43226" displayName="VIAL" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic classCode="OBS">
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C102834" displayName="Type 1: Convenience Kit of Co-Package" codeSystem="2.16.840.1.113883.3.26.1.1" xsi:type="CE"/>
+                              </characteristic>
+                           </subjectOf>
+                           <subjectOf>
+                              <marketingAct>
+                                 <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 <statusCode code="active"/>
+                                 <effectiveTime>
+                                    <low value="20231221"/>
+                                 </effectiveTime>
+                              </marketingAct>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <code code="C101533" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Unapproved drug for use in drug shortage"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20231221"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C28161" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="INTRAMUSCULAR"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="81284-524" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>EXTENCILLINE</name>
+                        <formCode code="C42976" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="INJECTION, POWDER, FOR SUSPENSION"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>benzathine benzylpenicillin</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <ingredient classCode="ACTIM">
+                           <quantity>
+                              <numerator value="2400000" unit="[iU]"/>
+                              <denominator value="1" unit="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="RIT82F58GK" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>PENICILLIN G BENZATHINE</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="Q42T66VG0C" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>PENICILLIN G</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="1DI56QDM62" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>LECITHIN, SOYBEAN</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="6OZP39ZG8H" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>POLYSORBATE 80</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="K679OBS311" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>CARBOXYMETHYLCELLULOSE SODIUM, UNSPECIFIED</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="RS7A450LGA" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>ANHYDROUS TRISODIUM CITRATE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="FZ989GH94E" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>POVIDONE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator value="1" unit="1"/>
+                              <denominator value="1" unit="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="81284-524-00" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43226" displayName="VIAL" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic classCode="OBS">
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C102834" displayName="Type 1: Convenience Kit of Co-Package" codeSystem="2.16.840.1.113883.3.26.1.1" xsi:type="CE"/>
+                              </characteristic>
+                           </subjectOf>
+                           <subjectOf>
+                              <marketingAct>
+                                 <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 <statusCode code="active"/>
+                                 <effectiveTime>
+                                    <low value="20231221"/>
+                                 </effectiveTime>
+                              </marketingAct>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <code code="C101533" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Unapproved drug for use in drug shortage"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20231221"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C28161" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="INTRAMUSCULAR"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section ID="Lfe281c03-2960-455c-a7e0-a5536f579177">
+               <id root="843c9676-2412-4789-a15c-e738d3372311"/>
+               <code code="71744-7" codeSystem="2.16.840.1.113883.6.1" displayName="HEALTH CARE PROVIDER LETTER SECTION"/>
+               <title>HEALTH CARE PROVIDER LETTER</title>
+               <text>
+                  <paragraph>July 16, 2024</paragraph>
+                  <paragraph>Laboratoires DELBERT<br/>49 Rue Rouelle<br/>75015 Paris<br/>France<br/>Phone : +33(0)1 46 99 68 20<br/>
+                     <linkHtml href="https://laboratoires-delbert.fr/en/">https://laboratoires-delbert.fr/en/</linkHtml>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">IMPORTANT PRESCRIBING INFORMATION</content>
+                  </paragraph>
+                  <table width="90%" border="1" cellspacing="0" cellpadding="2">
+                     <tbody>
+                        <tr styleCode="First Last">
+                           <td styleCode="Botrule Lrule Rrule" align="left" valign="top">
+                              <paragraph>
+                                 <content styleCode="bold">Subject:</content>
+                              </paragraph>
+                              <paragraph>
+                                 <content styleCode="bold">Temporary Importation of Extencilline, (benzathine benzylpenicillin) Powder and diluent for reconstitution for injection, 1,200,000 units and 2,400,000 units with Foreign, non-U.S. Labeling to Address Supply Shortage</content>
+                              </paragraph>
+                           </td>
+                        </tr>
+                     </tbody>
+                  </table>
+                  <paragraph>Dear Healthcare Provider,</paragraph>
+                  <paragraph>To address the ongoing shortages of Bicillin® L-A (penicillin G benzathine injectable suspension) in the United States, Laboratoires Delbert in conjunction with Provepharm Inc. (Provepharm) through its distributors ("Distributors") coordinating with the U.S. Food and Drug Administration (FDA) to temporarily import Extencilline, (benzathine benzylpenicillin) Powder and diluent for reconstitution for injection, 1,200,000 units and 2,400,000 units into the U.S. market. Delbert’s Extencilline, (benzathine benzylpenicillin) Powder and diluent for reconstitution for injection, 1,200,000 units and 2,400,000 units marketed in France and manufactured in Italy for Delbert, is not FDA-approved. Benzathine benzylpenicillin is another name for Penicillin G benzathine.</paragraph>
+                  <paragraph>At this time, no other entity except Provepharm or its Distributors McKesson Corporation, Cencora Global Procurement Ltd., Cardinal Health, Morris &amp; Dickson, Anda Inc., Henry Schein, OptumRx and Direct Success Inc. are authorized by the FDA to import or distribute Extencilline powder and diluent for reconstitution for injection in the U.S.</paragraph>
+                  <paragraph>Effective immediately, Provepharm will distribute the following presentations of Extencilline, (benzathine benzylpenicillin) Powder and diluent for reconstitution for injection, 1,200,000 units and 2,400,000 units to address the critical shortage:</paragraph>
+                  <table width="90%" border="1" cellspacing="0" cellpadding="2">
+                     <colgroup>
+                        <col width="20%" align="left" valign="top"/>
+                        <col width="16%" align="left" valign="top"/>
+                        <col width="16%" align="left" valign="top"/>
+                        <col width="16%" align="left" valign="top"/>
+                        <col width="16%" align="left" valign="top"/>
+                        <col width="16%" align="left" valign="top"/>
+                     </colgroup>
+                     <tbody>
+                        <tr>
+                           <td styleCode="Botrule Lrule Rrule" align="left" valign="top">
+                              <paragraph>
+                                 <content styleCode="bold">Product Description</content>
+                              </paragraph>
+                           </td>
+                           <td styleCode="Botrule Lrule Rrule" align="left" valign="top">
+                              <paragraph>
+                                 <content styleCode="bold">Strength</content>
+                              </paragraph>
+                           </td>
+                           <td styleCode="Botrule Lrule Rrule" align="left" valign="top">
+                              <paragraph>
+                                 <content styleCode="bold">Packaging</content>
+                              </paragraph>
+                           </td>
+                           <td styleCode="Botrule Lrule Rrule" align="left" valign="top">
+                              <paragraph>
+                                 <content styleCode="bold">NDC number</content>
+                              </paragraph>
+                           </td>
+                           <td styleCode="Botrule Lrule Rrule" align="left" valign="top">
+                              <paragraph>
+                                 <content styleCode="bold">Lot/ </content>
+                              </paragraph>
+                              <paragraph>
+                                 <content styleCode="bold">Batch #</content>
+                              </paragraph>
+                           </td>
+                           <td styleCode="Botrule Lrule Rrule" align="left" valign="top">
+                              <paragraph>
+                                 <content styleCode="bold">Expiration Date</content>
+                              </paragraph>
+                              <paragraph>
+                                 <content styleCode="bold">(Labeled)</content>
+                              </paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Botrule Lrule Rrule" align="left" valign="top">
+                              <paragraph>Extencilline, (benzathine benzylpenicillin) Powder and diluent for reconstitution for injection 1,200,000 units</paragraph>
+                           </td>
+                           <td styleCode="Botrule Lrule Rrule" align="left" valign="top">
+                              <paragraph>1,200,000 units</paragraph>
+                           </td>
+                           <td styleCode="Botrule Lrule Rrule" align="left" valign="top">
+                              <paragraph>20 mL vials of powder for suspension<br/>5 mL of water for injection in ampules</paragraph>
+                           </td>
+                           <td styleCode="Botrule Lrule Rrule" align="left" valign="top">
+                              <paragraph>81284-521-01</paragraph>
+                           </td>
+                           <td styleCode="Botrule Lrule Rrule" align="left" valign="top">
+                              <paragraph>72L00127</paragraph>
+                           </td>
+                           <td styleCode="Botrule Lrule Rrule" align="left" valign="top">
+                              <paragraph>31 OCT 2025</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Botrule Lrule Rrule" align="left" valign="top">
+                              <paragraph>Extencilline, (benzathine benzylpenicillin) Powder and diluent for reconstitution for injection, 2,400,000 units</paragraph>
+                           </td>
+                           <td styleCode="Botrule Lrule Rrule" align="left" valign="top">
+                              <paragraph>2,400,000 units</paragraph>
+                           </td>
+                           <td styleCode="Botrule Lrule Rrule" align="left" valign="top">
+                              <paragraph>20 mL vials of powder for suspension<br/>5 mL of water for injection in ampules</paragraph>
+                           </td>
+                           <td styleCode="Botrule Lrule Rrule" align="left" valign="top">
+                              <paragraph>81284-522-01</paragraph>
+                           </td>
+                           <td styleCode="Botrule Lrule Rrule" align="left" valign="top">
+                              <paragraph>72L00122</paragraph>
+                           </td>
+                           <td styleCode="Botrule Lrule Rrule" align="left" valign="top">
+                              <paragraph>31 OCT 2025</paragraph>
+                           </td>
+                        </tr>
+                     </tbody>
+                  </table>
+                  <paragraph>
+                     <content styleCode="bold">The barcode on the imported product label may not register accurately on the U.S. scanning systems. </content>Institutions should manually input the imported product information into their systems and confirm that the barcode, if scanned, provides correct information. Alternative procedures should be followed to assure that the correct drug product is being used and administered to individual patients.</paragraph>
+                  <paragraph>In addition, the packaging of the imported product does not include serialization information. Delbert’s Extencilline does not meet the Drug Supply Chain Security Act (DSCSA) requirements for the Interoperable Exchange of Information for Tracing of Human, Finished Prescription Drugs.</paragraph>
+                  <paragraph styleCode="Default">There are key differences between the U.S. marketed Bicillin® L-A and Extencilline</paragraph>
+                  <list listType="unordered">
+                     <item>Extencilline labeling does not have a boxed warning. Please refer to the Bicillin L-A boxed warning.</item>
+                     <item>Extencilline carton labeling doesn’t have the warning “Fatal if given by other routes”</item>
+                     <item>Extencilline contains soy phospholipids and may cause hypersensitivity reactions (urticaria, anaphylactic shock) in patients with a history of allergy to soybeans.</item>
+                     <item>Extencilline is supplied as powder for reconstitution compared to prefilled disposable syringes for Bicillin L-A. Follow instructions for the preparation of an intramuscular injection of Extencilline in the Preparation section below.</item>
+                     <item>The volume of Extencilline 1,200,000 units after reconstitution is around 5 mL compared to 2 mL for Bicillin L-A 1,200,000 units. The volume of Extencilline 2,400,000 units after reconstitution is around 7 mL compared to 4 mL for Bicillin L-A 2,400,000 units.</item>
+                     <item>Extencilline labeling does not include detailed instructions for deep intramuscular administration. Please refer to the Bicillin L-A prescribing information.</item>
+                     <item>Extencilline does not require any special storage condition. Following reconstitution, benzylpenicillin benzathine should be used immediately.</item>
+                     <item>Extencilline will be available only by prescription in the U.S. However, the imported product does not have the statement “Rx only” on the labeling</item>
+                  </list>
+                  <paragraph>When using Extencilline from Delbert the following advice has to be taken into account:</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Method of administration:</content>
+                  </paragraph>
+                  <paragraph>For further Information please refer to the full prescribing information enclosed.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Prescription and Labeling:</content>
+                  </paragraph>
+                  <paragraph>Extencilline will be available only by prescription in the U.S. However, the imported product does not have the statement “Rx only” on the labeling.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">To place an order, </content>please contact one of the authorized Distributors listed below:</paragraph>
+                  <list listType="unordered">
+                     <item>McKesson Corporation,</item>
+                     <item>Cencora Global Procurement Ltd., (<content styleCode="italics">fka</content> Amerisource Bergen)</item>
+                     <item>Cardinal Health,</item>
+                     <item>Morris &amp; Dickson</item>
+                     <item>Anda Inc.</item>
+                     <item>Henry Schein</item>
+                     <item>OptumRx</item>
+                     <item>Direct Success Inc.</item>
+                  </list>
+                  <paragraph styleCode="Default">
+                     <content styleCode="bold">Reporting Adverse Events:</content>
+                  </paragraph>
+                  <paragraph>Healthcare providers should report adverse events associated with the use of Delbert’s Extencilline to Provepharm at:</paragraph>
+                  <paragraph styleCode="Default">Phone: 1-833-727-6556</paragraph>
+                  <paragraph styleCode="Default">email: <linkHtml href="http://mailto:safety-us@provepharm.com">safety-us@provepharm.com</linkHtml>
+                  </paragraph>
+                  <paragraph styleCode="Default">Adverse reactions or quality problems experienced with the use of this product may be reported to the FDA’s MedWatch Adverse Event Reporting program either online, by regular mail or by fax.</paragraph>
+                  <list listType="unordered">
+                     <item>Complete and submit the report <content styleCode="bold">Online</content>: <linkHtml href="http://www.fda.gov/MedWatch/report.htm">www.fda.gov/medwatch/report.htm</linkHtml>
+                     </item>
+                  </list>
+                  <list listType="unordered">
+                     <item>
+                        <content styleCode="bold">Regular Mail or Fax</content>: Download form <linkHtml href="https://www.accessdata.fda.gov/scripts/medwatch/index.cfm">https://www.accessdata.fda.gov/scripts/medwatch/index.cfm</linkHtml> or call 1-800-332-1088 to request a reporting form, then complete and return to the address on the pre-addressed form, or submit by fax to 1-800-FDA-0178 (1-800-332-0178).</item>
+                  </list>
+                  <paragraph styleCode="Default">You may also contact our medical information department at <linkHtml href="http://mailto:medicalaffairs@provepharm.com">medicalaffairs@provepharm.com</linkHtml> if you have any questions about the information contained in this letter or the safe and effective use of Extencilline.</paragraph>
+                  <paragraph styleCode="Default">This letter is not intended as a complete description of the benefits and risks related to the use of Extencilline. Please refer to the enclosed full prescribing information.</paragraph>
+                  <paragraph styleCode="Default">For additional information, please contact Provepharm Inc. at 610-601-8600 or at <linkHtml href="http://mailto:medicalaffairs@provepharm.com">medicalaffairs@provepharm.com</linkHtml>.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Finally, please ensure that your staff and others in your institution who may be involved in the administration of Extencilline receive a copy of this letter and review the information.</content>
+                  </paragraph>
+                  <paragraph styleCode="Default">Sincerely,</paragraph>
+                  <paragraph styleCode="Default">Thierry HOFFMANN<br/> Qualified Person</paragraph>
+                  <paragraph styleCode="Default">
+                     <content styleCode="bold">Side-by-Side Product Comparison of Bicillin L-A and Extencilline</content>
+                  </paragraph>
+                  <table width="99%" border="1" cellspacing="0" cellpadding="3">
+                     <colgroup>
+                        <col width="10%" align="left" valign="top"/>
+                        <col width="45%" align="left" valign="top"/>
+                        <col width="45%" align="left" valign="top"/>
+                     </colgroup>
+                     <tbody>
+                        <tr>
+                           <td styleCode="Botrule Lrule Rrule" align="left" valign="top"/>
+                           <td styleCode="Botrule Lrule Rrule" align="center" valign="top">
+                              <paragraph>US Product</paragraph>
+                           </td>
+                           <td styleCode="Botrule Lrule Rrule" align="center" valign="top">
+                              <paragraph>Imported Product</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Botrule Lrule Rrule" align="center" valign="middle">
+                              <paragraph>Product Name</paragraph>
+                           </td>
+                           <td styleCode="Botrule Lrule Rrule" align="left" valign="middle">
+                              <paragraph>Bicillin L-A</paragraph>
+                           </td>
+                           <td styleCode="Botrule Lrule Rrule" align="left" valign="middle">
+                              <paragraph>Extencilline</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Botrule Lrule Rrule" align="center" valign="middle">
+                              <paragraph>Dosage Form</paragraph>
+                           </td>
+                           <td styleCode="Botrule Lrule Rrule" align="left" valign="middle">
+                              <paragraph>injectable suspension</paragraph>
+                           </td>
+                           <td styleCode="Botrule Lrule Rrule" align="left" valign="middle">
+                              <paragraph>for injection</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Botrule Lrule Rrule" align="center" valign="middle">
+                              <paragraph styleCode="Default First">Label</paragraph>
+                           </td>
+                           <td styleCode="Botrule Lrule Rrule" align="left" valign="middle">
+                              <paragraph>
+                                 <renderMultiMedia referencedObject="Lbe88fea2-9f08-42c8-a265-5852497ced6a"/>
+                              </paragraph>
+                              <paragraph>
+                                 <renderMultiMedia referencedObject="Ld6daa997-a4f6-4eef-8379-0e50aba8d6c0"/>
+                              </paragraph>
+                           </td>
+                           <td styleCode="Botrule Lrule Rrule" align="left" valign="middle">
+                              <paragraph>
+                                 <renderMultiMedia referencedObject="Ldhcp3"/>
+                              </paragraph>
+                              <paragraph>
+                                 <renderMultiMedia referencedObject="Ldhcp4"/>
+                              </paragraph>
+                           </td>
+                           <td styleCode="Botrule Lrule Rrule" align="left" valign="middle"/>
+                        </tr>
+                        <tr>
+                           <td styleCode="Botrule Lrule Rrule" align="center" valign="middle">
+                              <paragraph styleCode="Default First">Composition</paragraph>
+                           </td>
+                           <td styleCode="Botrule Lrule Rrule" align="left" valign="middle">
+                              <paragraph>Bicillin L-A contains penicillin G benzathine in aqueous suspension with sodium citrate buffer and, as w/v, approximately 0.65% sodium citrate, 0.59% povidone, 0.54% carboxymethylcellulose sodium, 0.53% lecithin, 0.12% methylparaben, and 0.013% propylparaben.</paragraph>
+                              <br/>
+                              <paragraph>Bicillin L-A contains approximately 0.11 mEq of sodium per 600,000 units of penicillin G (approximately 2.59 mg of sodium per 600,000 units of penicillin G).</paragraph>
+                              <br/>
+                              <paragraph>Bicillin L-A suspension in the disposable-syringe formulation is viscous and opaque. It is available in a 1 mL, 2 mL, and 4 mL sizes containing the equivalent of 600,000 (actual volume of 1.17 mL contains 620,100), 1,200,000 (actual volume of 2.34 mL contains 1,240,200), and 2,400,000 (actual volume of 4.67 mL contains 2,475,100) units respectively of penicillin G as the benzathine salt. </paragraph>
+                              <paragraph/>
+                           </td>
+                           <td styleCode="Botrule Lrule Rrule" align="left" valign="middle">
+                              <paragraph>Vial:</paragraph>
+                              <paragraph>• The active substance is</paragraph>
+                              <paragraph>Benzathine benzylpenicillin 1,200,000 units or 2,400,000 units</paragraph>
+                              <paragraph>In the form of coated benzathine benzylpenicillin</paragraph>
+                              <paragraph>Composition of the coating: lecithin and polysorbate.</paragraph>
+                              <paragraph>For one vial of powder</paragraph>
+                              <paragraph>• The other excipient ingredients are:</paragraph>
+                              <paragraph>Carmellose sodium, anhydrous sodium citrate, povidone.</paragraph>
+                              <paragraph>This medicine contains sodium, soybean oil (from the lecithin).</paragraph>
+                              <paragraph/>
+                              <br/>
+                              <paragraph>Diluent for reconstitution :</paragraph>
+                              <paragraph>5 mL Water for injection</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Botrule Lrule Rrule" align="center" valign="middle">
+                              <paragraph styleCode="Default First">Indications</paragraph>
+                           </td>
+                           <td styleCode="Botrule Lrule Rrule" align="left" valign="middle">
+                              <paragraph>The following infections will usually respond to adequate dosage of intramuscular penicillin G benzathine:</paragraph>
+                              <br/>
+                              <paragraph>Mild-to-moderate infections of the upper-respiratory tract due to susceptible streptococci.</paragraph>
+                              <br/>
+                              <paragraph>
+                                 <content styleCode="italics">Venereal infections</content>—Syphilis, yaws, bejel, and pinta.</paragraph>
+                              <br/>
+                              <paragraph>Medical Conditions in which Penicillin G Benzathine Therapy is indicated as Prophylaxis:</paragraph>
+                              <br/>
+                              <paragraph>
+                                 <content styleCode="italics">Rheumatic fever and/or chorea</content>—Prophylaxis with penicillin G benzathine has proven effective in preventing recurrence of these conditions. It has also been used as follow-up prophylactic therapy for rheumatic heart disease and acute glomerulonephritis.</paragraph>
+                              <paragraph/>
+                           </td>
+                           <td styleCode="Botrule Lrule Rrule" align="left" valign="middle">
+                              <paragraph>Benzylpenicillin benzathine is indicated in adults, adolescents, children and neonates for the treatment and prophylaxis of the following infections</paragraph>
+                              <paragraph>For the treatment of:</paragraph>
+                              <paragraph>- erysipelas</paragraph>
+                              <paragraph>- syphilis: early syphilis (primary and secondary)</paragraph>
+                              <paragraph>- latent syphilis (except for neurosyphilis and presence of pathological CSF findings)</paragraph>
+                              <paragraph>- yaws</paragraph>
+                              <paragraph>- pinta</paragraph>
+                              <br/>
+                              <paragraph>For the prophylaxis of:</paragraph>
+                              <paragraph>- rheumatic fever (chorea, rheumatic carditis)</paragraph>
+                              <paragraph>- poststreptococcal glomerulonephritis</paragraph>
+                              <paragraph>- erysipelas</paragraph>
+                              <paragraph/>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Botrule Lrule Rrule" align="center" valign="middle">
+                              <paragraph styleCode="Default First">Contraindications</paragraph>
+                           </td>
+                           <td styleCode="Botrule Lrule Rrule" align="left" valign="middle">
+                              <paragraph>A history of a previous hypersensitivity reaction to any of the penicillins is a contraindication.</paragraph>
+                           </td>
+                           <td styleCode="Botrule Lrule Rrule" align="left" valign="middle">
+                              <paragraph>Hypersensitivity to penicillins.</paragraph>
+                              <paragraph>- History of a severe immediate hypersensitivity reaction (e.g. anaphylaxis) to another beta-lactam agent (e.g. cephalosporin, carbapenem or monobactam).</paragraph>
+                              <paragraph>- When lidocaine solution is used as a  diluent for reconstitution ,  contraindications to lidocaine must be excluded before intramuscular injection of benzylpenicillin benzathine.</paragraph>
+                              <br/>
+                              <paragraph/>
+                              <paragraph>This medicine contains soy phospholipids and may cause hypersensitivity reactions (urticaria, anaphylactic shock).</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Botrule Lrule Rrule" align="center" valign="middle">
+                              <paragraph styleCode="Default First">Precautions</paragraph>
+                           </td>
+                           <td styleCode="Botrule Lrule Rrule" align="left" valign="middle">
+                              <paragraph>PRECAUTIONS:</paragraph>
+                              <paragraph>Prescribing Bicillin L-A in the absence of a proven or strongly suspected bacterial infection or a prophylactic indication is unlikely to provide benefit to the patient and increases the risk of a development of drug-resistant bacteria.</paragraph>
+                           </td>
+                           <td styleCode="Botrule Lrule Rrule" align="left" valign="middle">
+                              <paragraph>Benzylpenicillin benzathine should not be used in tissues with reduced perfusion.</paragraph>
+                              <paragraph>Before initiating therapy with benzylpenicillin benzathine, a careful investigation should be made concerning previous hypersensitivity reactions to penicillins, cephalosporins or other beta-lactam agents.</paragraph>
+                              <br/>
+                              <paragraph>Caution should be exercised in patients with the following conditions:</paragraph>
+                              <paragraph>- allergic diathesis or bronchial asthma (there is an increased risk of a hypersensitivity reaction):</paragraph>
+                              <paragraph>- renal insufficiency</paragraph>
+                              <paragraph>- impaired hepatic function</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Botrule Lrule Rrule" align="center" valign="middle">
+                              <paragraph styleCode="Default First">Interactions</paragraph>
+                           </td>
+                           <td styleCode="Botrule Lrule Rrule" align="left" valign="middle">
+                              <paragraph>- Tetracycline, a bacteriostatic antibiotic, may antagonize the bactericidal effect of penicillin, and concurrent use of these drugs should be avoided.</paragraph>
+                              <br/>
+                              <paragraph>Concurrent administration of penicillin and probenecid increases and prolongs serum penicillin levels by decreasing the apparent volume of distribution and slowing the rate of excretion by competitively inhibiting renal tubular secretion of penicillin.</paragraph>
+                              <paragraph/>
+                           </td>
+                           <td styleCode="Botrule Lrule Rrule" align="left" valign="middle">
+                              <paragraph>Concomitant administration of benzylpenicillin benzathine is not recommended with:</paragraph>
+                              <paragraph>- <content styleCode="italics">bacteriostatic antibiotics</content>: based on the general principle not to combine bactericidal and bacteriostatic antibiotics.</paragraph>
+                              <paragraph>Caution should be exercised when co-administering the following:</paragraph>
+                              <paragraph>- <content styleCode="italics">probenecid</content>: the administration of probenecid leads to inhibition of the tubular secretion of benzylpenicillin, resulting in an increase in the serum concentration and prolongation of the elimination half-life. Furthermore,</paragraph>
+                              <paragraph>probenecid inhibits the penicillin transport from the cerebrospinal fluid, so that the concomitant administration of probenecid reduces the penetration of benzylpenicillin into brain tissue even further.</paragraph>
+                              <paragraph>- <content styleCode="italics">methotrexate</content>: when taken at the same time as benzylpenicillin benzathine, the excretion of methotrexate is reduced. This can lead to increased methotrexate toxicity. The combination with methotrexate is not recommended.</paragraph>
+                              <paragraph>- <content styleCode="italics">anticoagulants</content>: concomitant use with oral anticoagulants may increase the antivitamin K effect and the risk of bleeding. It is recommended that the International Normalized Ratio (INR) is monitored frequently and the posology of the antivitamin K drug adjusted accordingly, both during and</paragraph>
+                              <paragraph>after treatment with benzylpenicillin benzathine.</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Botrule Lrule Rrule" align="center" valign="middle">
+                              <paragraph styleCode="Default First">Warnings</paragraph>
+                           </td>
+                           <td styleCode="Botrule Lrule Rrule" align="left" valign="middle">
+                              <paragraph>NOT FOR INTRAVENOUS USE. DO NOT INJECT INTRAVENOUSLY OR ADMIX WITH OTHER INTRAVENOUS SOLUTIONS. THERE HAVE BEEN REPORTS OF INADVERTENT INTRAVENOUS ADMINISTRATION OF PENICILLIN G BENZATHINE WHICH HAS BEEN ASSOCIATED WITH CARDIORESPIRATORY ARREST AND DEATH. Prior to administration of this drug, carefully read the <content styleCode="underline">WARNINGS</content>, <content styleCode="underline">ADVERSE REACTIONS</content>, and <content styleCode="underline">DOSAGE AND ADMINISTRATION</content> sections of the labeling.</paragraph>
+                              <br/>
+                              <paragraph>Anaphylaxis</paragraph>
+                              <paragraph>SERIOUS AND OCCASIONALLY FATAL HYPERSENSITIVITY (ANAPHYLACTIC) REACTIONS HAVE BEEN REPORTED IN PATIENTS ON PENICILLIN THERAPY. THESE REACTIONS ARE MORE LIKELY TO OCCUR IN INDIVIDUALS WITH A HISTORY OF PENICILLIN HYPERSENSITIVITY AND/OR A HISTORY OF SENSITIVITY TO MULTIPLE ALLERGENS. THERE HAVE BEEN REPORTS OF INDIVIDUALS WITH A HISTORY OF PENICILLIN HYPERSENSITIVITY WHO HAVE EXPERIENCED SEVERE REACTIONS WHEN TREATED WITH CEPHALOSPORINS. BEFORE INITIATING THERAPY WITH BICILLIN L-A, CAREFUL INQUIRY SHOULD BE MADE CONCERNING PREVIOUS HYPERSENSITIVITY REACTIONS TO PENICILLINS, CEPHALOSPORINS, OR OTHER ALLERGENS. IF AN ALLERGIC REACTION OCCURS, BICILLIN L-A SHOULD BE DISCONTINUED AND APPROPRIATE THERAPY INSTITUTED. SERIOUS ANAPHYLACTIC REACTIONS REQUIRE IMMEDIATE EMERGENCY TREATMENT WITH EPINEPHRINE. OXYGEN, INTRAVENOUS STEROIDS AND AIRWAY MANAGEMENT, INCLUDING INTUBATION, SHOULD ALSO BE ADMINISTERED AS INDICATED.</paragraph>
+                              <br/>
+                              <paragraph>Severe cutaneous adverse reactions</paragraph>
+                              <paragraph>Severe cutaneous adverse reactions (SCAR), such as Stevens-Johnson syndrome (SJS), toxic epidermal necrolysis (TEN), drug reaction with eosinophilia and systemic symptoms (DRESS), and acute generalized exanthematous pustulosis (AGEP) have been reported in patients taking penicillin G (the active moiety in Bicillin L-A). When SCAR is suspected, Bicillin L-A should be discontinued immediately and an alternative treatment should be considered.</paragraph>
+                              <br/>
+                              <paragraph>
+                                 <content styleCode="italics">Clostridioides difficile</content> Associated Diarrhea</paragraph>
+                              <paragraph>
+                                 <content styleCode="italics">Clostridioides difficile</content> associated-diarrhea (CDAD) has been reported with use of nearly all antibacterial agents, including Bicillin L-A, and may range in severity from mild diarrhea to fatal colitis. Treatment with antibacterial agents alters the normal flora of the colon leading to overgrowth of <content styleCode="italics">C. difficile</content>.</paragraph>
+                              <br/>
+                              <paragraph>
+                                 <content styleCode="italics">C. difficile</content> produces toxins A and B which contribute to the development of CDAD. Hypertoxin producing strains of <content styleCode="italics">C. difficile</content> cause increased morbidity and mortality, as these infections can be refractory to antimicrobial therapy and may require colectomy. CDAD must be considered in all patients who present with diarrhea following antibacterial use. Careful medical history is necessary since CDAD has been reported to occur over two months after the administration of antibacterial agents.</paragraph>
+                              <br/>
+                              <paragraph>If CDAD is suspected or confirmed, ongoing antibiotic use not directed against <content styleCode="italics">C. difficile</content> may need to be discontinued. Appropriate fluid and electrolyte management, protein supplementation, antibiotic treatment of <content styleCode="italics">C. difficile</content>, and surgical evaluation should be instituted as clinically indicated.</paragraph>
+                              <br/>
+                              <paragraph>Method of Administration</paragraph>
+                              <paragraph>Do not inject into or near an artery or nerve. See administration instructions below.</paragraph>
+                              <br/>
+                              <paragraph>Injection into or near a nerve may result in permanent neurological damage.</paragraph>
+                              <br/>
+                              <paragraph>Inadvertent intravascular administration, including inadvertent direct intra-arterial injection or injection immediately adjacent to arteries, of Bicillin L-A and other penicillin preparations has resulted in severe neurovascular damage, including transverse myelitis with permanent paralysis, gangrene requiring amputation of digits and more proximal portions of extremities, and necrosis and sloughing at and surrounding the injection site consistent with the diagnosis of Nicolau syndrome. Such severe effects have been reported following injections into the buttock, thigh, and deltoid areas. Other serious complications of suspected intravascular administration which have been reported include immediate pallor, mottling, or cyanosis of the extremity both distal and proximal to the injection site, followed by bleb formation; severe edema requiring anterior and/or posterior compartment fasciotomy in the lower extremity. The above-described severe effects and complications have most often occurred in infants and small children. Prompt consultation with an appropriate specialist is indicated if any evidence of compromise of the blood supply occurs at, proximal to, or distal to the site of injection.<sup>1–9</sup> (See <content styleCode="underline">PRECAUTIONS</content>, and <content styleCode="underline">DOSAGE AND ADMINISTRATION</content> sections.)</paragraph>
+                              <br/>
+                              <paragraph>FOR DEEP INTRAMUSCULAR INJECTION ONLY. There have been reports of inadvertent intravenous administration of penicillin G benzathine which has been associated with cardiorespiratory arrest and death. Therefore, do not inject intravenously or admix with other intravenous solutions. (See <content styleCode="underline">DOSAGE AND ADMINISTRATION</content> section.)</paragraph>
+                              <br/>
+                              <paragraph>Administer by DEEP INTRAMUSCULAR INJECTION ONLY in the upper, outer quadrant of the buttock (dorsogluteal) or the ventrogluteal site. Quadriceps femoris fibrosis and atrophy have been reported following repeated intramuscular injections of penicillin preparations into the anterolateral thigh. Because of these adverse effects and the vascularity of this region, administration in the anterolateral thigh is not recommended.</paragraph>
+                              <paragraph/>
+                           </td>
+                           <td styleCode="Botrule Lrule Rrule" align="left" valign="middle">
+                              <paragraph>Benzylpenicillin benzathine should not be used in tissues with reduced perfusion.</paragraph>
+                              <paragraph>Before initiating therapy with benzylpenicillin benzathine, a careful investigation should be made concerning previous hypersensitivity reactions to penicillins, cephalosporins or other beta-lactam agent.</paragraph>
+                              <br/>
+                              <paragraph>Serious and occasionally fatal hypersensitivity (anaphylactoid) reactions have been reported in patients on penicillin therapy. These reactions are more likely to occur in individuals with a history of penicillin hypersensitivity and in atopic individuals. If an allergic reaction occurs, benzylpenicillin benzathine must be discontinued and appropriate therapy instituted. Prior to treatment, a hypersensitivity test should be performed if possible. The patient should be made aware of the possible occurrence of allergic symptoms and of the need to report them.</paragraph>
+                              <br/>
+                              <paragraph>Caution should be exercised in patients with the following conditions:</paragraph>
+                              <paragraph>- allergic diathesis or bronchial asthma (there is an increased risk of a hypersensitivity reaction):</paragraph>
+                              <paragraph>- renal insufficiency</paragraph>
+                              <paragraph>- impaired hepatic function</paragraph>
+                              <paragraph>Based on a general principle, particularly in some exposed patients, medical observation should if possible be ensured for at last half an hour after the administration of this antibiotic, as severe immediate allergic reactions may occur even after the first administration.</paragraph>
+                              <br/>
+                              <paragraph>Beta-lactams are associated with a risk of encephalopathy (confusion, altered levels of consciousness, epilepsy or movement abnormalities), particularly in cases of overdose or impaired renal function. When treating syphilis, a Jarisch-Herxheimer reaction may occur as a result of the bactericidal action of penicillin on pathogens. Within 2 to 12 hours after administration headaches, fever, sweating, shivering, myalgia, arthralgia, nausea, tachycardia, increased blood pressure followed by hypotension may occur. These symptoms resolve after 10 to 12 hours. Patients should be informed that this is a usual, transient sequela of antibiotic therapy. Appropriate therapy should be instituted to suppress or attenuate a Jarisch-Herxheimer reaction.</paragraph>
+                              <br/>
+                              <paragraph>With long-term treatment (more than a single dose), periodic assessment of organ system functions, including renal, hepatic and haematopoietic function is recommended.</paragraph>
+                              <paragraph>Prolonged use of benzylpenicillin benzathine may occasionally result in an overgrowth of non-susceptible organisms or yeast and patients should be observed carefully for superinfections.</paragraph>
+                              <br/>
+                              <paragraph>Antibiotic-associated colitis has been reported with nearly all antibacterial agents including benzylpenicillin benzathine and may range in severity from mild to life threatening. Therefore, it is important to consider this diagnosis in patients who present with diarrhea during or subsequent to the administration of any antibiotics. Should antibiotic-associated colitis occur, benzylpenicillin benzathine should be discontinued, a physician be consulted, and an appropriate therapy initiated.  Anti-peristaltic drugs are contraindicated in this situation. If neurological involvement cannot be excluded in patients with congenital syphilis, forms of penicillin that reach a higher level in cerebrospinal fluid should be used.  In diseases such as severe pneumonia, empyema, sepsis, meningitis or peritonitis, which require higher serum penicillin levels, alternative treatment such as the water soluble alkali salt of benzylpenicillin should be considered.</paragraph>
+                              <br/>
+                              <paragraph>In the event of inadvertent intravascular injection, Hoigné syndrome may occur (symptoms of shock with mortal fear, confusion, hallucinations, possibly cyanosis, tachycardia and motor disorders, although no circulatory collapse), caused by microemboli of the suspension. The symptoms regress within an hour. If progression is severe, parenteral administration of sedatives is indicated.</paragraph>
+                              <br/>
+                              <paragraph>In the event of inadvertent intra-arterial injection, particularly in children, serious complications may occur, such as vascular occlusion, thrombosis and gangrene.</paragraph>
+                              <paragraph>Initial signs are pale patches in the skin area of the gluteal region. As a result of high injection pressure, retrograde entry of the injected liquid into the common iliac artery, aorta or spinal arteries may occur.</paragraph>
+                              <paragraph>Repeated injections into a limited area of the muscle tissue, which are associated with long term therapy with depot-penicillins (e.g. in the treatment of syphilis) may induce tissue damage and increased local vascularization. Subsequent injections increase the possibility of penetration of injection substance into the blood, either by direct injection into a blood vessel or caused by the injection pressure itself, or by “rubbing” of the depot. During long term therapy it is therefore recommended to administer each injection a large distance from the preceding injection.</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Botrule Lrule Rrule" align="center" valign="middle">
+                              <paragraph styleCode="Default First">Dosage and Administration</paragraph>
+                           </td>
+                           <td styleCode="Botrule Lrule Rrule" align="left" valign="middle">
+                              <paragraph>Streptococcal (Group A) Upper Respiratory Infections (for example, pharyngitis)</paragraph>
+                              <paragraph>Adults—a single injection of 1,200,000 units; older pediatric patients—a single injection of 900,000 units; infants and pediatric patients under 60 lbs.—300,000 to 600,000 units.</paragraph>
+                              <br/>
+                              <paragraph>Syphilis</paragraph>
+                              <paragraph>Primary, secondary, and latent—2,400,000 units (1 dose). Late (tertiary and neurosyphilis)—2,400,000 units at 7-day intervals for three doses.</paragraph>
+                              <br/>
+                              <paragraph>Congenital—under 2 years of age: 50,000 units/kg/body weight; ages 2 to 12 years: adjust dosage based on adult dosage schedule.</paragraph>
+                              <br/>
+                              <paragraph>Yaws, Bejel, and Pinta—1,200,000 units (1 injection).</paragraph>
+                              <paragraph>Prophylaxis—for rheumatic fever and glomerulonephritis.</paragraph>
+                              <paragraph>Following an acute attack, penicillin G benzathine (parenteral) may be given in doses of 1,200,000 units once a month or 600,000 units every 2 weeks.</paragraph>
+                              <br/>
+                              <paragraph>METHOD OF ADMINISTRATION</paragraph>
+                              <paragraph>BICILLIN L-A IS INTENDED FOR INTRAMUSCULAR INJECTION ONLY. DO NOT INJECT INTO OR NEAR AN ARTERY OR NERVE, OR INTRAVENOUSLY OR ADMIX WITH OTHER INTRAVENOUS SOLUTIONS. (SEE <content styleCode="underline">WARNINGS</content> SECTION.)</paragraph>
+                              <paragraph>Administer by DEEP INTRAMUSCULAR INJECTION in the upper, outer quadrant of the buttock (dorsogluteal) or the ventrogluteal site. In neonates, infants and small children, the midlateral aspect of the thigh may be preferable. Administration in the anterolateral thigh is not recommended due to the adverse effects observed (see <content styleCode="underline">WARNINGS</content> section), and vascularity of this region. When doses are repeated, vary the injection site.</paragraph>
+                              <paragraph>Because of the high concentration of suspended material in this product, the needle may be blocked if the injection is not made at a slow, steady rate.</paragraph>
+                              <br/>
+                              <paragraph>Parenteral drug products should be inspected visually for particulate matter and discoloration prior to administration whenever solution and container permit.</paragraph>
+                              <paragraph/>
+                           </td>
+                           <td styleCode="Botrule Lrule Rrule" align="left" valign="middle">
+                              <paragraph>The preparation is strictly for intramuscular injection.</paragraph>
+                              <br/>
+                              <paragraph>1.General therapy:</paragraph>
+                              <paragraph>- Adults and adolescents: 1,200,000 units</paragraph>
+                              <paragraph>- Children (&gt; 30 kg body weight): 1,200.000 units.</paragraph>
+                              <paragraph>- Children (&lt; 30 kg body weight): 600,000 units</paragraph>
+                              <paragraph>Duration of treatment: Single dose</paragraph>
+                              <paragraph>Note: In streptococcal diseases, a 10-day minimum course of treatment should be observed to avoid secondary diseases. This is generally ensured with a single</paragraph>
+                              <paragraph>injection of 600,000 units, 1,200,000 units or 2,400,000 units.</paragraph>
+                              <br/>
+                              <paragraph>2. Treatment of syphilis:</paragraph>
+                              <paragraph>2.1. Primary and secondary stage</paragraph>
+                              <paragraph>- Adults and adolescents: 2,400,000 units</paragraph>
+                              <paragraph>- Children: 50,000 units per kg body weight; however not more than 2,400,000 units.</paragraph>
+                              <paragraph>Duration of treatment: Single dose (If clinical symptoms recur or laboratory findings remain strongly positive,</paragraph>
+                              <paragraph>treatment should be repeated.)</paragraph>
+                              <paragraph>2.2.Late-stage syphilis (latent seropositive syphilis)</paragraph>
+                              <paragraph>- Adults and adolescents: 2,400,000 units</paragraph>
+                              <paragraph>- Children: 50,000 units per kg body weight per week;</paragraph>
+                              <paragraph>however not more than 2,400,000 units.</paragraph>
+                              <paragraph>Duration of treatment: Once weekly for 3 weeks</paragraph>
+                              <paragraph>2.3.Treatment of congenital syphilis (without neurological involvement)</paragraph>
+                              <paragraph>- Neonates and infants: 50,000 units per kg body weight</paragraph>
+                              <paragraph>Duration of treatment: Single dose</paragraph>
+                              <br/>
+                              <paragraph>3. Treatment of yaws and pinta:</paragraph>
+                              <paragraph>- Adults and adolescents: 1,200,000 units.</paragraph>
+                              <paragraph>- Children (&gt; 30 kg body weight): 1,200,000 units</paragraph>
+                              <paragraph>- Children (&lt; 30 kg body weight): 600,000 units.</paragraph>
+                              <paragraph>Duration of treatment: Single dose</paragraph>
+                              <br/>
+                              <paragraph>4. Prophylaxis of rheumatic fever, poststreptococcal glomerulonephritis and erysipelas:</paragraph>
+                              <paragraph>- Adults and adolescents:1,200,000 units</paragraph>
+                              <paragraph>- Children (&gt; 30 kg body weight): 1,200,000 units</paragraph>
+                              <paragraph>- Children (&lt; 30 kg body weight): 600,000 units</paragraph>
+                              <paragraph>Duration of treatment:</paragraph>
+                              <paragraph>a) without cardiac involvement: at least 5 years (or up to 21 years of age) every 3-4 weeks</paragraph>
+                              <paragraph>b) transient cardiac involvement: at least 10 years (or up to 21 years of age) every 3-4 weeks</paragraph>
+                              <paragraph>c) persistent cardiac involvement: at least 10 years (or up to 40 years of age) every 3-4 weeks; life-long prophylaxis is sometimes necessary.</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Botrule Lrule Rrule" align="center" valign="middle">
+                              <paragraph styleCode="Default First">Preparation</paragraph>
+                           </td>
+                           <td styleCode="Botrule Lrule Rrule" align="left" valign="middle"/>
+                           <td styleCode="Botrule Lrule Rrule" align="left" valign="middle">
+                              <paragraph>
+                                 <content styleCode="bold">Instructions for the preparation of an intramuscular injection of a dose of 1,200,000 units of benzathine benzylpenicillin:</content>
+                              </paragraph>
+                              <br/>
+                              <paragraph>The suspension must be prepared aseptically.</paragraph>
+                              <br/>
+                              <paragraph>1/ With a graduated syringe for intramuscular injection (needle gauge: 22, 21 or 20), take 4 mL of water for injections from the ampule of diluent contained in the box.  The compatibility data are only available with water for injectable preparations and 1% or 0.5% lidocaine injectable solution. Warning: the ampule of diluent provided in the box contains 5 mL of water for injections. It is not necessary to use all the contents for the preparation of this suspension.</paragraph>
+                              <br/>
+                              <paragraph>2/ Into the vial of powder of 1,200,000 units, add the 4 mL of water for injections taken from the ampule of diluent, or the 4 mL of 1% or 0.5% lidocaine injectable solution.</paragraph>
+                              <br/>
+                              <paragraph>3/ Agitate this suspension carefully for at least 20 seconds until a homogenous suspension is obtained, then use the suspension immediately as soon as it is prepared. The suspension obtained in this way corresponds to a dose of 1,200,000 units.</paragraph>
+                              <br/>
+                              <paragraph>This reconstitution must only be done for one single injection.</paragraph>
+                              <br/>
+                              <paragraph>For doses of Extencilline less than 1,200,000 units, withdraw the appropriate volume of the reconstituted product and discard the remainder. For example, withdraw half the volume of the reconstituted 1,200,000 units for a 600,000 units dose of Extencilline.</paragraph>
+                              <br/>
+                              <paragraph>
+                                 <content styleCode="bold">Instructions for the preparation of an intramuscular injection of a dose of 2,400,000 units of benzathine benzylpenicillin:</content>
+                              </paragraph>
+                              <paragraph>The suspension must be prepared aseptically.</paragraph>
+                              <br/>
+                              <paragraph>1/ With a graduated syringe for intramuscular injection (needle gauge: 22, 21 or 20), take 5 mL of water for injections from the ampule of diluent contained in the box, or 5 mL of 1% or 0.5% lidocaine injectable solution.</paragraph>
+                              <br/>
+                              <paragraph>2/ Into the vial of powder 2,400,000 units, add the 5 mL of water for injections taken from the ampule of diluent, or 5 mL of 1% or  0.5% lidocaine injectable solution.</paragraph>
+                              <br/>
+                              <paragraph>3/ Agitate this for suspension carefully for at least 20 seconds until a homogenous for suspension is obtained, then use the for suspension immediately as soon as it is prepared. The suspension obtained in this way corresponds to a dose of 2,400,000 units.</paragraph>
+                              <br/>
+                              <paragraph>This reconstitution must only be done for one single injection.</paragraph>
+                              <br/>
+                              <paragraph>For doses of Extencilline less than 2,400,000 units, withdraw the appropriate volume of the reconstituted product and discard the remainder.</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Botrule Lrule Rrule" align="center" valign="middle">
+                              <paragraph styleCode="Default First">Overdosage</paragraph>
+                           </td>
+                           <td styleCode="Botrule Lrule Rrule" align="left" valign="middle">
+                              <paragraph>Penicillin in overdosage has the potential to cause neuromuscular hyperirritability or convulsive seizures.</paragraph>
+                           </td>
+                           <td styleCode="Botrule Lrule Rrule" align="left" valign="middle">
+                              <paragraph>At extremely high doses, penicillins can induce neuromuscular excitability or epileptiform seizures. If overdose is suspected, clinical monitoring and</paragraph>
+                              <paragraph>symptomatic measures are indicated.</paragraph>
+                              <br/>
+                              <paragraph>Beta-lactams pose a risk of encephalopathy (confusion, impaired consciousness, epilepsy, or abnormal movements) and, particularly, in the event of overdose or renal failure. At extremely high doses, penicillins can induce neuromuscular excitability or epileptiform seizures. If overdose is suspected, clinical monitoring and symptomatic measures are indicated. Benzylpenicillin can be hemodialyzed.</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Botrule Lrule Rrule" align="center" valign="middle">
+                              <paragraph styleCode="Default First">Adverse Reactions</paragraph>
+                           </td>
+                           <td styleCode="Botrule Lrule Rrule" align="left" valign="middle">
+                              <paragraph>As with other penicillins, untoward reactions of the sensitivity phenomena are likely to occur, particularly in individuals who have previously demonstrated hypersensitivity to penicillins or in those with a history of allergy, asthma, hay fever, or urticaria.</paragraph>
+                              <br/>
+                              <paragraph>As with other treatments for syphilis, the Jarisch-Herxheimer reaction has been reported.</paragraph>
+                              <br/>
+                              <paragraph>
+                                 <content styleCode="underline">The following adverse reactions have been reported with Bicillin L-A during post-marketing experience:</content>
+                              </paragraph>
+                              <paragraph>
+                                 <content styleCode="italics">Skin and Appendages:</content> Stevens-Johnson syndrome (SJS) and drug reaction with eosinophilia and systemic symptoms (DRESS). (See <content styleCode="underline">WARNINGS</content>)</paragraph>
+                              <paragraph>
+                                 <content styleCode="underline">The following have been reported with parenteral penicillin G (the active moiety in Bicillin L-A):</content>
+                              </paragraph>
+                              <paragraph>
+                                 <content styleCode="italics">General:</content> Hypersensitivity reactions including the following: skin eruptions (maculopapular to exfoliative dermatitis), urticaria, laryngeal edema, fever, eosinophilia; other serum sickness-like reactions (including chills, fever, edema, arthralgia, and prostration); and anaphylaxis including shock and death: severe cutaneous adverse reactions (SCAR), such as toxic epidermal necrolysis (TEN) and acute generalized exanthematous pustulosis (AGEP). (See <content styleCode="underline">WARNINGS</content>.) Note: Urticaria, other skin rashes, and serum sickness-like reactions may be controlled with antihistamines and, if necessary, systemic corticosteroids. Whenever such reactions occur, penicillin G should be discontinued unless, in the opinion of the physician, the condition being treated is life-threatening and amenable only to therapy with penicillin G. Serious anaphylactic reactions require immediate emergency treatment with epinephrine. Oxygen, intravenous steroids, and airway management, including intubation, should also be administered as indicated.</paragraph>
+                              <paragraph>
+                                 <content styleCode="italics">Gastrointestinal:</content> Pseudomembranous colitis. Onset of pseudomembranous colitis symptoms may occur during or after antibacterial treatment. (See <content styleCode="underline">WARNINGS</content> section.)</paragraph>
+                              <paragraph>
+                                 <content styleCode="italics">Hematologic: </content>Hemolytic anemia, leukopenia, thrombocytopenia.</paragraph>
+                              <paragraph>
+                                 <content styleCode="italics">Neurologic:</content> Neuropathy.</paragraph>
+                              <paragraph>
+                                 <content styleCode="italics">Urogenital:</content> Nephropathy.</paragraph>
+                              <paragraph>
+                                 <content styleCode="underline">The following adverse events have been temporally associated with parenteral administration of penicillin G benzathine (a component of Bicillin L-A):</content>
+                              </paragraph>
+                              <paragraph>
+                                 <content styleCode="italics">Body as a Whole:</content> Hypersensitivity reactions including allergic vasculitis, pruritus, fatigue, asthenia, and pain; aggravation of existing disorder; headache, Nicolau syndrome.</paragraph>
+                              <paragraph>
+                                 <content styleCode="italics">Cardiovascular:</content> Cardiac arrest; hypotension; tachycardia; palpitations; pulmonary hypertension; pulmonary embolism; vasodilation; vasovagal reaction; cerebrovascular accident; syncope.</paragraph>
+                              <paragraph>
+                                 <content styleCode="italics">Gastrointestinal:</content> Nausea, vomiting; blood in stool; intestinal necrosis.</paragraph>
+                              <paragraph>
+                                 <content styleCode="italics">Hemic and Lymphatic:</content> Lymphadenopathy.</paragraph>
+                              <paragraph>
+                                 <content styleCode="italics">Injection Site:</content> Injection site reactions including pain, inflammation, lump, abscess, necrosis, edema, hemorrhage, cellulitis, hypersensitivity, atrophy, ecchymosis, and skin ulcer. Neurovascular reactions including warmth, vasospasm, pallor, mottling, gangrene, numbness of the extremities, cyanosis of the extremities, and neurovascular damage.</paragraph>
+                              <paragraph>
+                                 <content styleCode="italics">Metabolic:</content> Elevated BUN, creatinine, and SGOT.</paragraph>
+                              <paragraph>
+                                 <content styleCode="italics">Musculoskeletal:</content> Joint disorder; periostitis; exacerbation of arthritis; myoglobinuria; rhabdomyolysis.</paragraph>
+                              <paragraph>
+                                 <content styleCode="italics">Nervous System:</content> Nervousness; tremors; dizziness; somnolence; confusion; anxiety; euphoria; transverse myelitis; seizures; coma. A syndrome manifested by a variety of CNS symptoms such as severe agitation with confusion, visual and auditory hallucinations, and a fear of impending death (Hoigne's syndrome), has been reported after administration of penicillin G procaine and, less commonly, after injection of the combination of penicillin G benzathine and penicillin G procaine. Other symptoms associated with this syndrome, such as psychosis, seizures, dizziness, tinnitus, cyanosis, palpitations, tachycardia, and/or abnormal perception in taste, also may occur.</paragraph>
+                              <paragraph>
+                                 <content styleCode="italics">Respiratory:</content> Hypoxia; apnea; dyspnea.</paragraph>
+                              <paragraph>
+                                 <content styleCode="italics">Skin:</content> Diaphoresis.</paragraph>
+                              <paragraph>
+                                 <content styleCode="italics">Special Senses:</content> Blurred vision; blindness.</paragraph>
+                              <paragraph>
+                                 <content styleCode="italics">Urogenital:</content> Neurogenic bladder; hematuria; proteinuria; renal failure; impotence; priapism.</paragraph>
+                              <paragraph/>
+                           </td>
+                           <td styleCode="Botrule Lrule Rrule" align="left" valign="middle">
+                              <paragraph>The most frequent and common adverse reactions related to benzylpenicillin benzathine are: candidiasis, diarrhea, nausea, laboratory investigation changes.</paragraph>
+                              <br/>
+                              <paragraph>Description of selected adverse reactions</paragraph>
+                              <paragraph>When treating syphilis, a Jarisch-Herxheimer reaction may occur as a result of bacteriolysis, characterized by fever, chills, general and focal symptoms.</paragraph>
+                              <paragraph>In patients with dermatomycosis, para-allergic reactions may occur, as common antigenicity may exist between penicillins and dermatophyte metabolites.</paragraph>
+                              <br/>
+                              <paragraph>In infants, local reactions are possible.</paragraph>
+                              <paragraph>It cannot be excluded that, in very rare cases and due to the povidone content, povidone may accumulate in the reticuloendothelial system (RES) or local deposits and foreign body granuloma may occur, which may be confused with tumors.</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Botrule Lrule Rrule" align="center" valign="middle">
+                              <paragraph styleCode="Default First">Usage in pregnancy</paragraph>
+                           </td>
+                           <td styleCode="Botrule Lrule Rrule" align="left" valign="middle">
+                              <paragraph>Safe use in pregnancy and lactation has not been established; therefore, use in pregnant women, nursing mothers or women who may become pregnant requires that possible benefits be weighed against possible hazards to mother and child.</paragraph>
+                           </td>
+                           <td styleCode="Botrule Lrule Rrule" align="left" valign="middle">
+                              <paragraph>Benzylpenicillin benzathine crosses the placenta. 10-30% of maternal plasma concentrations are found in the foetal circulation. High concentrations are also reached in the amniotic fluid. Animal studies do not indicate direct or indirect harmful effects with respect to reproductive toxicity. Benzylpenicillin benzathine can be used during pregnancy when appropriately indicated and with due consideration of the benefits and risks.</paragraph>
+                              <br/>
+                              <paragraph>Breast-feeding</paragraph>
+                              <paragraph>Benzylpenicillin benzathine is excreted in human milk in small amounts. The concentration in maternal milk may reach 2 to 15% of the mother’s serum concentrations.</paragraph>
+                              <paragraph>Although no undesirable effects in infants fed on breast milk have been reported to date, consideration must nevertheless be given to the possibility of sensitization or interference with the intestinal flora. Breast-feeding should be stopped in the case of occurrence of diarrhea, candidosis or rash in the child.</paragraph>
+                              <paragraph>In infants also being fed on baby food, mothers should express and discard breast milk during benzylpenicillin benzathine treatment. Breast-feeding can be</paragraph>
+                              <paragraph>resumed 24 hours after finishing treatment.</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Botrule Lrule Rrule" align="center" valign="middle">
+                              <paragraph styleCode="Default First">Storage Conditions</paragraph>
+                           </td>
+                           <td styleCode="Botrule Lrule Rrule" align="left" valign="middle">
+                              <paragraph>Store in a refrigerator, 2° to 8°C (36° to 46°F).</paragraph>
+                              <paragraph>Keep from freezing.</paragraph>
+                              <paragraph/>
+                           </td>
+                           <td styleCode="Botrule Lrule Rrule" align="left" valign="middle">
+                              <paragraph>This medicinal product does not require any special storage conditions.</paragraph>
+                              <paragraph>Following reconstitution, benzylpenicillin benzathine should be used immediately.</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Botrule Lrule Rrule" align="center" valign="middle">
+                              <paragraph styleCode="Default First">How Supplied</paragraph>
+                           </td>
+                           <td styleCode="Botrule Lrule Rrule" align="left" valign="middle">
+                              <paragraph>2 mL size, containing 1,200,000 units per syringe, (21 gauge, thin-wall 1-1/2-inch needle), with 0.22 mEq of sodium per 1,200,000 units of penicillin G (5.17 mg of sodium per 1,200,000 units of penicillin G), NDC 60793-701-10.</paragraph>
+                              <br/>
+                              <paragraph>4 mL size, containing 2,400,000 units per syringe (18 gauge, × 1–1/2-inch needle), with 0.45 mEq of sodium per 2,400,000 units of penicillin G (10.32 mg of sodium per 2,400,000 units of penicillin G), NDC 60793-702-10.</paragraph>
+                              <paragraph/>
+                           </td>
+                           <td styleCode="Botrule Lrule Rrule" align="left" valign="middle">
+                              <paragraph>1 vial and</paragraph>
+                              <paragraph>1 glass ampule of  diluent for reconstitution</paragraph>
+                           </td>
+                        </tr>
+                     </tbody>
+                  </table>
+                  <paragraph/>
+               </text>
+               <effectiveTime value="20240718"/>
+               <component>
+                  <observationMedia ID="Lbe88fea2-9f08-42c8-a265-5852497ced6a">
+                     <text>US Product Label 2,400,000 Units</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="dhcp-1.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="Ld6daa997-a4f6-4eef-8379-0e50aba8d6c0">
+                     <text>US Product Label 1,200,000 Units</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="dhcp-2.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="Ldhcp3">
+                     <text>Import Product Label Vials</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="dhcp-3.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="Ldhcp4">
+                     <text>Import Product Label Cartons</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="dhcp-4.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="L7dc71fab-573f-457d-9fb8-11cfeb74680d">
+               <id root="55293a36-f3fc-4ac1-9892-2f57bd96359c"/>
+               <code code="34068-7" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE &amp; ADMINISTRATION SECTION"/>
+               <title>
+                  <content styleCode="underline">Instruction on how to prepare and administer Extencilline</content>
+               </title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">Instructions for the preparation of an intramuscular injection of a dose of 1,200,000 units of benzathine benzylpenicillin:</content>
+                  </paragraph>
+                  <paragraph>The suspension must be prepared aseptically.</paragraph>
+                  <paragraph>1/ With a graduated syringe for intramuscular injection (needle gauge: 22, 21 or 20), take 4 mL of water for injections from the ampule of diluent contained in the box. The compatibility data are only available with water for injectable preparations and 1% or 0.5% lidocaine injectable solution. Warning: the ampule of diluent provided in the box contains 5 mL of water for injections. It is not necessary to use all the contents for the preparation of this suspension.</paragraph>
+                  <paragraph>2/ Into the vial of powder of 1,200,000 units, add the 4 mL of water for injections taken from the ampule of diluent, or the 4 mL of 1.0% or 0.5% lidocaine injectable solution.</paragraph>
+                  <paragraph>3/ Agitate this suspension carefully for at least 20 seconds until a homogenous suspension is obtained, then use the suspension immediately as soon as it is prepared. The suspension obtained in this way corresponds to a dose of 1,200,000 units.</paragraph>
+                  <paragraph>This reconstitution must only be done for one single injection.</paragraph>
+                  <paragraph>For doses of Extencilline less than 1,200,000 units, withdraw the appropriate volume of the reconstituted product and discard the remainder. For example, withdraw half the volume of the reconstituted 1,200,000 units for a 600,000 units dose of Extencilline.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Instructions for the preparation of an intramuscular injection of a dose of 2,400,000 units of benzathine benzylpenicillin:</content>
+                  </paragraph>
+                  <paragraph>The suspension must be prepared aseptically.</paragraph>
+                  <paragraph>1/ With a graduated syringe for intramuscular injection (needle gauge: 22, 21 or 20), take 5 mL of water for injections from the ampule of diluent contained in the box, or 5 mL of 1% or 0.5% lidocaine injectable solution.</paragraph>
+                  <paragraph>2/ Into the vial of powder 2,400,000 units, add the 5 mL of water for injections taken from the ampule of diluent, or 5 mL of 1% or 0.5% lidocaine injectable solution.</paragraph>
+                  <paragraph>3/ Agitate this for suspension carefully for at least 20 seconds until a homogenous for suspension is obtained, then use the for suspension immediately as soon as it is prepared. The suspension obtained in this way corresponds to a dose of 2,400,000 units.</paragraph>
+                  <paragraph>This reconstitution must only be done for one single injection.</paragraph>
+                  <paragraph>For doses of Extencilline less than 2,400,000 units, withdraw the appropriate volume of the reconstituted product and discard the remainder.</paragraph>
+               </text>
+               <effectiveTime value="20231128"/>
+            </section>
+         </component>
+         <component>
+            <section ID="L4abbb25c-eeb7-4e2a-8192-e11c36c1e383">
+               <id root="ccfeec74-7caf-4e3c-976e-9ec972aaeb9f"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>PRINCIPAL DISPLAY PANEL - 1,200,000 Units Carton</title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">EXTENCILLINE<sup>®</sup>
+                     </content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">1,200,000 Units</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Benzathine benzylpenicillin</content>
+                  </paragraph>
+                  <paragraph>Powder and diluent for reconstitution<br/>for injection IM</paragraph>
+                  <paragraph>1 vial of powder for reconsitution for injection.</paragraph>
+                  <paragraph>1 ampule of diluent containing<br/>5 mL of water for injections.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Intramuscular injection only.</content>
+                  </paragraph>
+                  <paragraph>Box of 1.</paragraph>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="L12carton"/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20231129"/>
+               <component>
+                  <observationMedia ID="L12carton">
+                     <text>1,200,000 Units Carton</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="ext-12carton.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="L339c75e7-ba38-44d3-b75d-7a87f126274c">
+               <id root="087718c4-ea38-4a0a-ad84-889640d12869"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>PRINCIPAL DISPLAY PANEL - 1,200,000 Units Vial</title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">EXTENCILLINE<sup>®</sup>
+                     </content>
+                  </paragraph>
+                  <paragraph>1,200,000 Units</paragraph>
+                  <paragraph>Benzathine benzylpenicillin</paragraph>
+                  <paragraph>Powder and diluent for reconstitution<br/>for injection IM</paragraph>
+                  <paragraph>Intramuscular injection only</paragraph>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="L12vial"/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20231129"/>
+               <component>
+                  <observationMedia ID="L12vial">
+                     <text>1,200,000 Units Vial</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="ext-12vial.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="Lfb592172-d27c-4a88-94d2-0a95f03f59ef">
+               <id root="9d21526e-5722-42fa-a0d1-c53c4e08b285"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>PRINCIPAL DISPLAY PANEL - 2,400,000 Units Carton</title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">EXTENCILLINE<sup>®</sup>
+                     </content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">2,400,000 Units</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Benzathine benzylpenicillin</content>
+                  </paragraph>
+                  <paragraph>Powder and diluent for reconstitution<br/>for injection IM</paragraph>
+                  <paragraph>1 vial of powder for reconsitution for injection.</paragraph>
+                  <paragraph>1 ampule of diluent containing<br/>5 mL of water for injections.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Intramuscular injection only.</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold"/>Box of 1.</paragraph>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="Lfdb1f831-d61d-451f-8778-fe5b6d0f7273"/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20231129"/>
+               <component>
+                  <observationMedia ID="Lfdb1f831-d61d-451f-8778-fe5b6d0f7273">
+                     <text>2,400,000 Units Carton</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="ext-24carton.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="Lb1a3c4f1-3e5d-431a-83f5-288ae1a98dd0">
+               <id root="4d932aa3-ebfa-4ac8-b63e-cb43dddb6dde"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>PRINCIPAL DISPLAY PANEL - 2,400,000 Units Vial</title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">EXTENCILLINE<sup>®</sup>
+                     </content>
+                  </paragraph>
+                  <paragraph>2,400,000 Units</paragraph>
+                  <paragraph>Benzathine benzylpenicillin</paragraph>
+                  <paragraph>Powder and diluent for reconstitution<br/>for injection IM</paragraph>
+                  <paragraph>Intramuscular injection only</paragraph>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="L9b7888c7-3e59-43e1-b79d-bb640d17765a"/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20231129"/>
+               <component>
+                  <observationMedia ID="L9b7888c7-3e59-43e1-b79d-bb640d17765a">
+                     <text>2,400,000 Units Vial</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="ext-24vial.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

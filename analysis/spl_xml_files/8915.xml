@@ -1,0 +1,1480 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="https://www.accessdata.fda.gov/spl/stylesheet/spl.xsl" type="text/xsl"?>
+<document xmlns="urn:hl7-org:v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 https://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="88628540-e907-4411-8aa3-bc2a368e460d"/>
+   <code code="34391-3" codeSystem="2.16.840.1.113883.6.1" displayName="HUMAN PRESCRIPTION DRUG LABEL"/>
+   <title>
+      <content styleCode="bold">IBUTILIDE FUMARATE INJECTION</content>
+   </title>
+   <effectiveTime value="20201223"/>
+   <setId root="c25d21e7-6136-4a7a-b139-12f53116fc3d"/>
+   <versionNumber value="10"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id extension="790384502" root="1.3.6.1.4.1.519.1"/>
+            <name>Mylan Institutional LLC</name>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section>
+               <id root="e18b3b80-7b8b-42b3-866a-cf2978af4efe"/>
+               <code code="48780-1" codeSystem="2.16.840.1.113883.6.1" displayName="SPL product data elements section"/>
+               <effectiveTime value="20201223"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="67457-366" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>Ibutilide Fumarate</name>
+                        <formCode code="C42945" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="INJECTION, SOLUTION"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>Ibutilide Fumarate</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator unit="mg" value="0.1"/>
+                              <denominator unit="mL" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="9L5X4M5L6I" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>IBUTILIDE FUMARATE</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="2436VX1U9B" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>IBUTILIDE</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <quantity>
+                              <numerator unit="mg" value="8.9"/>
+                              <denominator unit="mL" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="451W47IQ8X" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SODIUM CHLORIDE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <quantity>
+                              <numerator unit="mg" value="0.189"/>
+                              <denominator unit="mL" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="4550K0SC9B" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SODIUM ACETATE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="059QF0KO0R" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>WATER</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="QTT17582CB" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>HYDROCHLORIC ACID</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="55X04QC32I" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SODIUM HYDROXIDE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator unit="mL" value="10"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code/>
+                              <formCode code="C43209" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="VIAL, GLASS"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator unit="1" value="1"/>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code code="67457-366-10" codeSystem="2.16.840.1.113883.6.69"/>
+                                    <formCode code="C43182" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CARTON"/>
+                                 </containerPackagedProduct>
+                                 <subjectOf>
+                                    <marketingAct>
+                                       <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                       <statusCode code="completed"/>
+                                       <effectiveTime>
+                                          <low value="20100111"/>
+                                          <high value="20260331"/>
+                                       </effectiveTime>
+                                    </marketingAct>
+                                 </subjectOf>
+                              </asContent>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic classCode="OBS">
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CE"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <id extension="ANDA090643" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73584" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ANDA"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="completed"/>
+                           <effectiveTime>
+                              <low value="20100111"/>
+                              <high value="20260331"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38276" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="INTRAVENOUS"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section ID="i4i_section_id_eba9c1d4-90c7-4f6f-92ca-919071d571c6">
+               <id root="0516c0e5-e31e-4350-8d01-fca986b5b733"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">Rx only</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">FOR INTRAVENOUS INFUSION ONLY</content>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20121031"/>
+            </section>
+         </component>
+         <component>
+            <section ID="i4i_description_id_03d459ee-a5dd-470a-9856-49c4f4715951">
+               <id root="14e973ed-5ae0-483c-82ff-d688cf90b2be"/>
+               <code code="34089-3" codeSystem="2.16.840.1.113883.6.1" displayName="DESCRIPTION SECTION"/>
+               <title>DESCRIPTION</title>
+               <text>
+                  <paragraph>Ibutilide fumarate injection is an antiarrhythmic drug with predominantly class III (cardiac action potential prolongation) properties according to the Vaughan Williams Classification. Each milliliter of ibutilide fumarate injection contains 0.1 mg of ibutilide fumarate (equivalent to 0.087 mg ibutilide free base), 0.189 mg sodium acetate trihydrate, 8.9 mg sodium chloride, hydrochloric acid and/or sodium hydroxide to adjust pH to approximately 4.6, and water for injection.</paragraph>
+                  <paragraph>Ibutilide fumarate injection is an isotonic, clear, colorless, sterile aqueous solution.</paragraph>
+                  <paragraph>Ibutilide fumarate has one chiral center, and exists as a racemate of the (+) and (−) enantiomers.</paragraph>
+                  <paragraph>The chemical name for ibutilide fumarate is Methanesulfonamide, N-{4-{4-(ethylheptylamino)-1 -hydroxybutyl}phenyl}, (+)(−), (E)-2-butenedioate (1:0.5) (hemifumarate salt). Its molecular formula is C<sub>22</sub>H<sub>38</sub>N<sub>2</sub>O<sub>5</sub>S, and its molecular weight is 442.62.</paragraph>
+                  <paragraph>Ibutilide fumarate is a white to off-white powder with an aqueous solubility of over 100 mg/mL at pH 7 or lower.</paragraph>
+                  <paragraph>The structural formula is represented below:</paragraph>
+                  <renderMultiMedia ID="id255" referencedObject="ID_265997bd-07da-4414-aa06-7eaa581d2532">
+                     <caption>Ibutilide Fumerate </caption>
+                  </renderMultiMedia>
+               </text>
+               <effectiveTime value="20121031"/>
+               <component>
+                  <observationMedia ID="ID_265997bd-07da-4414-aa06-7eaa581d2532">
+                     <text>Chemical Structure</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="17751c36-e5ea-4d11-8103-3b3df46e6874-01.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="i4i_clinical_pharmacology_id_aac3f41f-4da4-4081-ac95-7cf11fd91149">
+               <id root="a5eb4651-6aed-4ebc-a045-653c3c5d7614"/>
+               <code code="34090-1" codeSystem="2.16.840.1.113883.6.1" displayName="CLINICAL PHARMACOLOGY SECTION"/>
+               <title>CLINICAL PHARMACOLOGY</title>
+               <effectiveTime value="20180525"/>
+               <component>
+                  <section ID="i4i_mechanism_action_id_734acd5f-a09a-44ec-8235-621742697e2b">
+                     <id root="e6b0dbda-555e-4905-b80d-3cba0cc14905"/>
+                     <code code="43679-0" codeSystem="2.16.840.1.113883.6.1" displayName="MECHANISM OF ACTION SECTION"/>
+                     <title>Mechanism of Action</title>
+                     <text>
+                        <paragraph>Ibutilide fumarate injection prolongs action potential duration in isolated adult cardiac myocytes and increases both atrial and ventricular refractoriness in vivo, i.e., class III electrophysiologic effects. Voltage clamp studies indicate that ibutilide fumarate injection, at nanomolar concentrations, delays repolarization by activation of a slow, inward current (predominantly sodium), rather than by blocking outward potassium currents, which is the mechanism by which most other class III antiarrhythmics act. These effects lead to prolongation of atrial and ventricular action potential duration and refractoriness, the predominant electrophysiologic properties of ibutilide fumarate injection in humans that are thought to be the basis for its antiarrhythmic effect.</paragraph>
+                     </text>
+                     <effectiveTime value="20121031"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="i4i_section_id_d2820d2f-054b-49bf-9003-8f454c0be5dd">
+                     <id root="aa7dca66-fc36-42ea-a8fa-58e38737379e"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Electrophysiologic Effects</title>
+                     <text>
+                        <paragraph>Ibutilide fumarate injection produces mild slowing of the sinus rate and atrioventricular conduction. Ibutilide fumarate injection produces no clinically significant effect on QRS duration at intravenous doses up to 0.03 mg/kg administered over a 10-minute period. Although there is no established relationship between plasma concentration and antiarrhythmic effect, ibutilide fumarate injection produces dose-related prolongation of the QT interval, which is thought to be associated with its antiarrhythmic activity. (See <content styleCode="bold">
+                              <linkHtml href="#i4i_warnings_ID_warnings">WARNINGS</linkHtml>
+                           </content> for relationship between QTc prolongation and torsades de pointes-type arrhythmias.) In a study in healthy volunteers, intravenous infusions of ibutilide fumarate injection resulted in prolongation of the QT interval that was directly correlated with ibutilide plasma concentration during and after 10-minute and 8-hour infusions. A steep ibutilide concentration/response (QT prolongation) relationship was shown. The maximum effect was a function of both the dose of ibutilide fumarate injection and the infusion rate.</paragraph>
+                     </text>
+                     <effectiveTime value="20121031"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="i4i_section_id_5d8c5684-2cb5-46b8-b6c7-8fdd270fbaa3">
+                     <id root="b6577277-f5c6-492b-a706-72e733335616"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Hemodynamic Effects</title>
+                     <text>
+                        <paragraph>A study of hemodynamic function in patients with ejection fractions both above and below 35% showed no clinically significant effects on cardiac output, mean pulmonary arterial pressure, or pulmonary capillary wedge pressure at doses of ibutilide fumarate injection up to 0.03 mg/kg.</paragraph>
+                     </text>
+                     <effectiveTime value="20121031"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="i4i_pharmacokinetics_id_b020bd2e-a5e4-4bf4-a77e-034bb7f60cca">
+                     <id root="c9f54f9e-45c7-4103-ae7a-e8f00bfd5c7d"/>
+                     <code code="43682-4" codeSystem="2.16.840.1.113883.6.1" displayName="PHARMACOKINETICS SECTION"/>
+                     <title>Pharmacokinetics</title>
+                     <text>
+                        <paragraph>After intravenous infusion, ibutilide plasma concentrations rapidly decrease in a multiexponential fashion. The pharmacokinetics of ibutilide are highly variable among subjects. Ibutilide has a high systemic plasma clearance that approximates liver blood flow (about 29 mL/min/kg), a large steady-state volume of distribution (about 11 L/kg) in healthy volunteers, and minimal (about 40%) protein binding. Ibutilide is also cleared rapidly and highly distributed in patients being treated for atrial flutter or atrial fibrillation. The elimination half-life averages about 6 hours (range from 2 to 12 hours). The pharmacokinetics of ibutilide are linear with respect to the dose of ibutilide fumarate injection over the dose range of 0.01 mg/kg to 0.10 mg/kg. The enantiomers of ibutilide fumarate have pharmacokinetic properties similar to each other and to ibutilide fumarate.</paragraph>
+                        <paragraph>The pharmacokinetics of ibutilide fumarate injection in patients with atrial flutter or atrial fibrillation are similar regardless of the type of arrhythmia, patient age, sex, or the concomitant use of digoxin, calcium channel blockers, or beta-blockers.</paragraph>
+                     </text>
+                     <effectiveTime value="20121031"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="i4i_section_id_d6de6fa8-a169-4bd3-89f8-a22281d8e0fb">
+                     <id root="3f5e3af8-795a-4643-9b5d-9779ada3af52"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Metabolism and Elimination</title>
+                     <text>
+                        <paragraph>In healthy male volunteers, about 82% of a 0.01 mg/kg dose of [<sup>14</sup>C] ibutilide fumarate was excreted in the urine (about 7% of the dose as unchanged ibutilide) and the remainder (about 19%) was recovered in the feces.</paragraph>
+                        <paragraph>Eight metabolites of ibutilide were detected in metabolic profiling of urine. These metabolites are thought to be formed primarily by ω-oxidation followed by sequential β-oxidation of the heptyl side chain of ibutilide. Of the eight metabolites, only the ω-hydroxy metabolite possesses class III electrophysiologic properties similar to that of ibutilide in an in vitro isolated rabbit myocardium model. The plasma concentrations of this active metabolite, however, are less than 10% of that of ibutilide.</paragraph>
+                     </text>
+                     <effectiveTime value="20121031"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="i4i_clinical_studies_ID_clinical_studies">
+                     <id root="27426ea3-cf7d-4fe4-9b1c-47ec6987c6ef"/>
+                     <code code="34092-7" codeSystem="2.16.840.1.113883.6.1" displayName="CLINICAL STUDIES SECTION"/>
+                     <title>Clinical Studies</title>
+                     <text>
+                        <paragraph>Treatment with intravenous ibutilide fumarate for acute termination of recent onset atrial flutter/fibrillation was evaluated in 466 patients participating in two randomized, double-blind, placebo-controlled clinical trials. Patients had had their arrhythmias for 3 hours to 90 days, were anticoagulated for at least 2 weeks if atrial fibrillation was present more than 3 days, had serum potassium of at least 4.0 mEq/L and QTc below 440 msec, and were monitored by telemetry for at least 24 hours. Patients could not be on class I or other class III antiarrhythmics (these had to be discontinued at least 5 half-lives prior to infusion) but could be on calcium channel blockers, beta-blockers, or digoxin. In one trial, single 10-minute infusions of 0.005 to 0.025 mg/kg were tested in parallel groups (0.3 to 1.5 mg in a 60 kg person). In the second trial, up to two infusions of ibutilide fumarate were evaluated the first 1.0 mg, the second given 10 minutes after completion of the first infusion, either 0.5 or 1.0 mg. In a third double-blind study, 319 patients with atrial fibrillation or atrial flutter of 3 hours to 45 days duration were randomized to receive single, 10-minute intravenous infusions of either sotalol (1.5 mg/kg) or ibutilide fumarate injection (1 mg or 2 mg). Among patients with atrial flutter, 53% receiving 1 mg ibutilide fumarate and 70% receiving 2 mg ibutilide fumarate converted, compared to 18% of those receiving sotalol. In patients with atrial fibrillation, 22% receiving 1 mg ibutilide fumarate and 43% receiving 2 mg ibutilide fumarate converted compared to 10% of patients receiving sotalol.</paragraph>
+                        <paragraph>Patients in registration trials were hemodynamically stable. Patients with specific cardiovascular conditions such as symptomatic heart failure, recent acute myocardial infarction, and angina were excluded. About two thirds had cardiovascular symptoms, and the majority of patients had left atrial enlargement, decreased left ventricular ejection fraction, a history of valvular disease, or previous history of atrial fibrillation or flutter. Electrical cardioversion was allowed 90 minutes after the infusion was complete. Patients could be given other antiarrhythmic drugs 4 hours postinfusion.</paragraph>
+                        <paragraph>Results of the first two studies are shown in the tables below. Conversion of atrial flutter/ fibrillation usually (70% of those who converted) occurred within 30 minutes of the start of infusion and was dose related. The latest conversion seen was at 90 minutes after the start of the infusion. Most converted patients remained in normal sinus rhythm for 24 hours. Overall responses in these patients, defined as termination of arrhythmias for any length of time during or within 1 hour following completed infusion of randomized dose, were in the range of 43% to 48% at doses above 0.0125 mg/kg (vs 2% for placebo). Twenty-four hour responses were similar. For these atrial arrhythmias, ibutilide was more effective in patients with flutter than fibrillation ( ≥ 48% vs ≤ 40%).</paragraph>
+                        <table width="100%">
+                           <col width="17%"/>
+                           <col width="17%"/>
+                           <col width="16%"/>
+                           <col width="13%"/>
+                           <col width="13%"/>
+                           <col width="12%"/>
+                           <col width="12%"/>
+                           <thead>
+                              <tr>
+                                 <th align="left" colspan="7" styleCode="Rrule Botrule Lrule Toprule " valign="top">
+                                    <content styleCode="bold">PERCENT OF PATIENTS WHO CONVERTED (Second Trial)</content>
+                                 </th>
+                              </tr>
+                              <tr>
+                                 <th align="left" rowspan="3" styleCode="Rrule Lrule Botrule " valign="top"/>
+                                 <th align="left" styleCode="Rrule Botrule " valign="top"/>
+                                 <th align="left" styleCode="Rrule Botrule " valign="top"/>
+                                 <th align="left" colspan="4" styleCode="Rrule Botrule " valign="top">
+                                    <content styleCode="bold">Ibutilide</content>
+                                 </th>
+                              </tr>
+                              <tr>
+                                 <th align="left" styleCode="Rrule Lrule Botrule " valign="top"/>
+                                 <th align="left" styleCode="Rrule Botrule " valign="top">
+                                    <content styleCode="bold">Placebo</content>
+                                 </th>
+                                 <th align="left" styleCode="Rrule Botrule " valign="top">
+                                    <content styleCode="bold">0.005 mg/mg</content>
+                                 </th>
+                                 <th align="left" styleCode="Rrule Botrule " valign="top">
+                                    <content styleCode="bold">0.01 mg/kg</content>
+                                 </th>
+                                 <th align="left" styleCode="Rrule Botrule " valign="top">
+                                    <content styleCode="bold">0.015 mg/kg</content>
+                                 </th>
+                                 <th align="left" styleCode="Rrule Botrule " valign="top">
+                                    <content styleCode="bold">0.025 mg/kg</content>
+                                 </th>
+                              </tr>
+                              <tr>
+                                 <th align="left" styleCode="Rrule Lrule Botrule " valign="top">
+                                    <content styleCode="bold">n</content>
+                                 </th>
+                                 <th align="left" styleCode="Rrule Botrule " valign="top">
+                                    <content styleCode="bold">41</content>
+                                 </th>
+                                 <th align="left" styleCode="Rrule Botrule " valign="top">
+                                    <content styleCode="bold">41</content>
+                                 </th>
+                                 <th align="left" styleCode="Rrule Botrule " valign="top">
+                                    <content styleCode="bold">40</content>
+                                 </th>
+                                 <th align="left" styleCode="Rrule Botrule " valign="top">
+                                    <content styleCode="bold">38</content>
+                                 </th>
+                                 <th align="left" styleCode="Rrule Botrule " valign="top">
+                                    <content styleCode="bold">40</content>
+                                 </th>
+                              </tr>
+                           </thead>
+                           <tbody>
+                              <tr>
+                                 <td align="center" rowspan="2" styleCode="Rrule Lrule Toprule Botrule " valign="top">
+                                    <paragraph>Both</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Toprule Botrule " valign="top">
+                                    <paragraph>Initially<footnote ID="_Reffootnote1">Percent of patients who converted within 70 minutes after the start of infusion.</footnote>
+                                    </paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Toprule Botrule " valign="top">
+                                    <paragraph>2</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Toprule Botrule " valign="top">
+                                    <paragraph>12</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Toprule Botrule " valign="top">
+                                    <paragraph>33</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Toprule Botrule " valign="top">
+                                    <paragraph>45</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Toprule Botrule " valign="top">
+                                    <paragraph>48</paragraph>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td align="center" styleCode="Rrule Lrule Botrule " valign="top">
+                                    <paragraph>At 24 hours<footnote ID="_Reffootnote2">Percent of patients who remained in sinus rhythm 24 hours after dosing.</footnote>
+                                    </paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Botrule " valign="top">
+                                    <paragraph>2</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Botrule " valign="top">
+                                    <paragraph>12</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Botrule " valign="top">
+                                    <paragraph>28</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Botrule " valign="top">
+                                    <paragraph>42</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Botrule " valign="top">
+                                    <paragraph>43</paragraph>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td align="center" rowspan="2" styleCode="Rrule Lrule Botrule " valign="top">
+                                    <paragraph>Atrial flutter</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Botrule " valign="top">
+                                    <paragraph>Initially<footnoteRef IDREF="_Reffootnote1"/>
+                                    </paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Botrule " valign="top">
+                                    <paragraph>0</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Botrule " valign="top">
+                                    <paragraph>14</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Botrule " valign="top">
+                                    <paragraph>30</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Botrule " valign="top">
+                                    <paragraph>58</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Botrule " valign="top">
+                                    <paragraph>55</paragraph>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td align="center" styleCode="Rrule Lrule Botrule " valign="top">
+                                    <paragraph>At 24 hours<footnoteRef IDREF="_Reffootnote2"/>
+                                    </paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Botrule " valign="top">
+                                    <paragraph>0</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Botrule " valign="top">
+                                    <paragraph>14</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Botrule " valign="top">
+                                    <paragraph>30</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Botrule " valign="top">
+                                    <paragraph>58</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Botrule " valign="top">
+                                    <paragraph>50</paragraph>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td align="center" rowspan="2" styleCode="Rrule Lrule Botrule " valign="top">
+                                    <paragraph>Atrial Fibrillation</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Botrule " valign="top">
+                                    <paragraph>Initially<footnoteRef IDREF="_Reffootnote1"/>
+                                    </paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Botrule " valign="top">
+                                    <paragraph>5</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Botrule " valign="top">
+                                    <paragraph>10</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Botrule " valign="top">
+                                    <paragraph>35</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Botrule " valign="top">
+                                    <paragraph>32</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Botrule " valign="top">
+                                    <paragraph>40</paragraph>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td align="center" styleCode="Rrule Botrule Lrule " valign="top">
+                                    <paragraph>At 24 hours<footnoteRef IDREF="_Reffootnote2"/>
+                                    </paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Botrule " valign="top">
+                                    <paragraph>5</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Botrule " valign="top">
+                                    <paragraph>10</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Botrule " valign="top">
+                                    <paragraph>25</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Botrule " valign="top">
+                                    <paragraph>26</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Botrule " valign="top">
+                                    <paragraph>35</paragraph>
+                                 </td>
+                              </tr>
+                           </tbody>
+                        </table>
+                        <table width="100%">
+                           <col width="21%"/>
+                           <col width="21%"/>
+                           <col width="21%"/>
+                           <col width="18%"/>
+                           <col width="18%"/>
+                           <thead>
+                              <tr>
+                                 <th align="left" colspan="5" styleCode="Rrule Botrule Lrule Toprule " valign="top">
+                                    <content styleCode="bold">PERCENT OF PATIENTS WHO CONVERTED (Second Trial)</content>
+                                 </th>
+                              </tr>
+                              <tr>
+                                 <th align="left" rowspan="3" styleCode="Rrule Lrule Botrule " valign="top"/>
+                                 <th align="left" styleCode="Rrule Botrule " valign="top"/>
+                                 <th align="left" styleCode="Rrule Botrule " valign="top"/>
+                                 <th align="left" colspan="2" styleCode="Rrule Botrule " valign="top">
+                                    <content styleCode="bold">Ibutilide</content>
+                                 </th>
+                              </tr>
+                              <tr>
+                                 <th align="left" styleCode="Rrule Lrule Botrule " valign="top"/>
+                                 <th align="left" styleCode="Rrule Botrule " valign="top">
+                                    <content styleCode="bold">Placebo</content>
+                                 </th>
+                                 <th align="left" styleCode="Rrule Botrule " valign="top">
+                                    <content styleCode="bold">1.0 mg/0.5 mg</content>
+                                 </th>
+                                 <th align="left" styleCode="Rrule Botrule " valign="top">
+                                    <content styleCode="bold">1.0 mg/1.0 mg</content>
+                                 </th>
+                              </tr>
+                              <tr>
+                                 <th align="left" styleCode="Rrule Lrule Botrule " valign="top">
+                                    <content styleCode="bold">n</content>
+                                 </th>
+                                 <th align="left" styleCode="Rrule Botrule " valign="top">
+                                    <content styleCode="bold">86</content>
+                                 </th>
+                                 <th align="left" styleCode="Rrule Botrule " valign="top">
+                                    <content styleCode="bold">86</content>
+                                 </th>
+                                 <th align="left" styleCode="Rrule Botrule " valign="top">
+                                    <content styleCode="bold">94</content>
+                                 </th>
+                              </tr>
+                           </thead>
+                           <tbody>
+                              <tr>
+                                 <td align="center" rowspan="2" styleCode="Rrule Lrule Toprule Botrule " valign="top">
+                                    <paragraph>Both</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Toprule Botrule " valign="top">
+                                    <paragraph>Initially<footnote ID="_Reffootnote3">Percent of patients who converted within 90 minutes after the start of infusion.</footnote>
+                                    </paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Toprule Botrule " valign="top">
+                                    <paragraph>2</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Toprule Botrule " valign="top">
+                                    <paragraph>43</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Toprule Botrule " valign="top">
+                                    <paragraph>44</paragraph>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td align="center" styleCode="Rrule Lrule Botrule " valign="top">
+                                    <paragraph>At 24 hours<footnote ID="_Reffootnote4">Percent of patients who remained in sinus rhythm 24 hours after dosing.</footnote>
+                                    </paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Botrule " valign="top">
+                                    <paragraph>2</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Botrule " valign="top">
+                                    <paragraph>34</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Botrule " valign="top">
+                                    <paragraph>37</paragraph>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td align="center" rowspan="2" styleCode="Rrule Lrule Botrule " valign="top">
+                                    <paragraph>Atrial flutter</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Botrule " valign="top">
+                                    <paragraph>Initially<footnoteRef IDREF="_Reffootnote3"/>
+                                    </paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Botrule " valign="top">
+                                    <paragraph>2</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Botrule " valign="top">
+                                    <paragraph>48</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Botrule " valign="top">
+                                    <paragraph>63</paragraph>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td align="center" styleCode="Rrule Lrule Botrule " valign="top">
+                                    <paragraph>At 24 hours<footnoteRef IDREF="_Reffootnote4"/>
+                                    </paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Botrule " valign="top">
+                                    <paragraph>2</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Botrule " valign="top">
+                                    <paragraph>45</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Botrule " valign="top">
+                                    <paragraph>59</paragraph>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td align="center" rowspan="2" styleCode="Rrule Lrule Botrule " valign="top">
+                                    <paragraph>Atrial Fibrillation</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Botrule " valign="top">
+                                    <paragraph>Initially<footnoteRef IDREF="_Reffootnote3"/>
+                                    </paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Botrule " valign="top">
+                                    <paragraph>2</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Botrule " valign="top">
+                                    <paragraph>38</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Botrule " valign="top">
+                                    <paragraph>25</paragraph>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td align="center" styleCode="Rrule Botrule Lrule " valign="top">
+                                    <paragraph>At 24 hours<footnoteRef IDREF="_Reffootnote4"/>
+                                    </paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Botrule " valign="top">
+                                    <paragraph>2</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Botrule " valign="top">
+                                    <paragraph>21</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Botrule " valign="top">
+                                    <paragraph>17</paragraph>
+                                 </td>
+                              </tr>
+                           </tbody>
+                        </table>
+                        <paragraph>The numbers of patients who remained in the converted rhythm at the end of 24 hours were slightly less than those patients who converted initially, but the difference between conversion rates for ibutilide compared to placebo was still statistically significant. In long-term follow-up, approximately 40% of all patients remained recurrence free, usually with chronic prophylactic treatment, 400 to 500 days after acute treatment, regardless of the method of conversion.</paragraph>
+                        <paragraph>Patients with more recent onset of arrhythmia had a higher rate of conversion. Response rates were 42% and 50% for patients with onset of atrial fibrillation/flutter for less than 30 days in the two efficacy studies compared to 16% and 31% in those with more chronic arrhythmias.</paragraph>
+                        <paragraph>Ibutilide was equally effective in patients below and above 65 years of age and in men and women. Female patients constituted about 20% of patients in controlled studies.</paragraph>
+                     </text>
+                     <effectiveTime value="20180525"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="i4i_section_id_d6f691f4-6f7f-4335-b80d-d692a2ea7f61">
+                     <id root="55d4d69f-53b9-4aa1-b129-1acaec937f2d"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Post-cardiac Surgery</title>
+                     <text>
+                        <paragraph>In a double-blind, parallel group study, 302 patients with atrial fibrillation (n=201) or atrial flutter (n=101) that occurred 1 to 7 days after coronary artery bypass graft or valvular surgery and lasted 1 hour to 3 days were randomized to receive two 10-minute infusions of placebo, or 0.25, 0.5 or 1 mg of ibutilide fumarate. Among patients with atrial flutter, conversion rates at 1.5 hours were: placebo, 4%; 0.25 mg ibutilide fumarate, 56%; 0.5 mg ibutilide fumarate, 61%; and 1 mg ibutilide fumarate, 78%. Among patients with atrial fibrillation, conversion rates at 1.5 hours were: placebo, 20%; 0.25 mg ibutilide fumarate, 28%; 0.5 mg ibutilide fumarate, 42%, and 1 mg ibutilide fumarate, 44%. The majority of patients (53% and 72% in the 0.5 mg and 1 mg dose groups, respectively) converted to sinus rhythm remained in sinus rhythm for 24 hours. Patients were not given other antiarrhythmic drugs within 24 hours of ibutilide fumarate infusion in this study.</paragraph>
+                     </text>
+                     <effectiveTime value="20121031"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="i4i_indications_id_cfab470c-a555-44fd-b9ea-96f52ed7599f">
+               <id root="413136f8-3267-4bf4-b4a1-93242826613f"/>
+               <code code="34067-9" codeSystem="2.16.840.1.113883.6.1" displayName="INDICATIONS &amp; USAGE SECTION"/>
+               <title>INDICATIONS AND USAGE</title>
+               <text>
+                  <paragraph>Ibutilide fumarate injection is indicated for the rapid conversion of atrial fibrillation or atrial flutter of recent onset to sinus rhythm. Patients with atrial arrhythmias of longer duration are less likely to respond to ibutilide fumarate injection. The effectiveness of ibutilide has not been determined in patients with arrhythmias of more than 90 days in duration.</paragraph>
+               </text>
+               <effectiveTime value="20121031"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_400caf1c-bbba-4bf3-b151-60d5a3c2182c">
+               <id root="5ffb0a96-f0f9-4285-a9c1-6c8dfcb1c539"/>
+               <code code="34066-1" codeSystem="2.16.840.1.113883.6.1" displayName="Boxed Warning section"/>
+               <title/>
+               <text>
+                  <paragraph>LIFE-THREATENING ARRHYTHMIAS-APPROPRIATE TREATMENT ENVIRONMENT</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Ibutilide fumarate injection can cause potentially fatal arrhythmias, particularly sustained polymorphic ventricular tachycardia, usually in association with QT prolongation (torsades de pointes), but sometimes without documented QT prolongation. In registration studies, these arrhythmias, which require cardioversion, occurred in 1.7% of treated patients during, or within a number of hours of, use of ibutilide fumarate injection. These arrhythmias can be reversed if treated promptly (see <linkHtml href="#i4i_section_ID_proarrhythmia">WARNINGS, Proarrhythmia</linkHtml>). It is essential that ibutilide fumarate injection be administered in a setting of continuous ECG monitoring and by personnel trained in identification and treatment of acute ventricular arrhythmias, particularly polymorphic ventricular tachycardia. <content styleCode="italics">Patients with atrial fibrillation of more than 2 to 3 days' duration must be adequately anticoagulated, generally for at least 2 weeks.</content>
+                     </content>
+                  </paragraph>
+                  <paragraph>CHOICE OF PATIENTS</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Patients with chronic atrial fibrillation have a strong tendency to revert after conversion to sinus rhythm (see <linkHtml href="#i4i_clinical_studies_ID_clinical_studies">CLINICAL PHARMACOLOGY: Clinical Studies</linkHtml>) and treatments to maintain sinus rhythm carry risks. Patients to be treated with ibutilide fumarate injection, therefore, should be carefully selected such that the expected benefits of maintaining sinus rhythm outweigh the immediate risks of ibutilide fumarate injection, and the risks of maintenance therapy, and are likely to offer an advantage compared with alternative management.</content>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20121031"/>
+            </section>
+         </component>
+         <component>
+            <section ID="i4i_contraindications_id_02373396-dbf8-422c-933f-e5b3974402f5">
+               <id root="f764cb17-4831-4a2c-8ad2-8bcee07d9805"/>
+               <code code="34070-3" codeSystem="2.16.840.1.113883.6.1" displayName="CONTRAINDICATIONS SECTION"/>
+               <title>CONTRAINDICATIONS</title>
+               <text>
+                  <paragraph>Ibutilide fumarate injection is contraindicated in patients who have previously demonstrated hypersensitivity to ibutilide fumarate or any of the other product components.</paragraph>
+               </text>
+               <effectiveTime value="20121031"/>
+            </section>
+         </component>
+         <component>
+            <section ID="i4i_warnings_ID_warnings">
+               <id root="c4fab7ab-4c9e-4628-a842-f0b7e90c88e4"/>
+               <code code="34071-1" codeSystem="2.16.840.1.113883.6.1" displayName="WARNINGS SECTION"/>
+               <title>WARNINGS</title>
+               <effectiveTime value="20121031"/>
+               <component>
+                  <section ID="i4i_section_ID_proarrhythmia">
+                     <id root="9cef396d-f3c6-47ab-9d04-2fe1c80dbc08"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Proarrhythmia</title>
+                     <text>
+                        <paragraph>Like other antiarrhythmic agents, ibutilide fumarate injection can induce or worsen ventricular arrhythmias in some patients. This may have potentially fatal consequences. Torsades de pointes, a polymorphic ventricular tachycardia that develops in the setting of a prolonged QT interval, may occur because of the effect ibutilide fumarate injection has on cardiac repolarization, but ibutilide fumarate injection can also cause polymorphic VT in the absence of excessive prolongation of the QT interval. In general, with drugs that prolong the QT interval, the risk of torsades de pointes is thought to increase progressively as the QT interval is prolonged and may be worsened with bradycardia, a varying heart rate, and hypokalemia. In clinical trials conducted in patients with atrial fibrillation and atrial flutter, those with QTc intervals &gt;440 msec were not usually allowed to participate, and serum potassium had to be above 4.0 mEq/L. Although change in QTc was dose dependent for ibutilide, there was no clear relationship between risk of serious proarrhythmia and dose in clinical studies, possibly due to the small number of events. In clinical trials of intravenous ibutilide, patients with a history of congestive heart failure (CHF) or low left ventricular ejection fraction appeared to have a higher incidence of sustained polymorphic ventricular tachycardia (VT), than those without such underlying conditions; for sustained polymorphic VT the rate was 5.4% in patients with a history of CHF and 0.8% without it. There was also a suggestion that women had a higher risk of proarrhythmia, but the sex difference was not observed in all studies and was most prominent for nonsustained ventricular tachycardia. The incidence of sustained ventricular arrhythmias was similar in male (1.8%) and female (1.5%) patients, possibly due to the small number of events. Ibutilide fumarate injection is not recommended in patients who have previously demonstrated polymorphic ventricular tachycardia (e.g., torsades de pointes).</paragraph>
+                        <paragraph>During registration trials, 1.7% of patients with atrial flutter or atrial fibrillation treated with ibutilide fumarate injection developed sustained polymorphic ventricular tachycardia requiring cardioversion. In these clinical trials, many initial episodes of polymorphic ventricular tachycardia occurred after the infusion of ibutilide fumarate injection was stopped but generally not more than 40 minutes after the start of the first infusion. There were, however, instances of recurrent polymorphic VT that occurred about 3 hours after the initial infusion. In two cases, the VT degenerated into ventricular fibrillation, requiring immediate defibrillation. Other cases were managed with cardiac pacing and magnesium sulfate infusions. Nonsustained polymorphic ventricular tachycardia occurred in 2.7% of patients and nonsustained monomorphic ventricular tachycardias occurred in 4.9% of the patients (see <content styleCode="bold">
+                              <linkHtml href="#i4i_adverse_effects_ID_adverse_reactions">ADVERSE REACTIONS</linkHtml>
+                           </content>).</paragraph>
+                        <paragraph>Proarrhythmic events must be anticipated. Skilled personnel and proper equipment, including cardiac monitoring equipment, intracardiac pacing facilities, a cardioverter/defibrillator, and medication for treatment of sustained ventricular tachycardia, including polymorphic ventricular tachycardia, must be available during and after administration of ibutilide fumarate injection. Before treatment with ibutilide fumarate injection, hypokalemia and hypomagnesemia should be corrected to reduce the potential for proarrhythmia. Patients should be observed with continuous ECG monitoring for at least 4 hours following infusion or until QTc has returned to baseline. Longer monitoring is required if any arrhythmic activity is noted. Management of polymorphic ventricular tachycardia includes discontinuation of ibutilide, correction of electrolyte abnormalities, especially potassium and magnesium, and overdrive cardiac pacing, electrical cardioversion, or defibrillation. Pharmacologic therapies include magnesium sulfate infusions. Treatment with antiarrhythmics should generally be avoided.</paragraph>
+                     </text>
+                     <effectiveTime value="20121031"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="i4i_precautions_id_86d10cc2-9eac-46c3-a04e-03bd40cbb7ab">
+               <id root="24d299ca-ea51-496a-b2f6-17e0378d0856"/>
+               <code code="42232-9" codeSystem="2.16.840.1.113883.6.1" displayName="PRECAUTIONS SECTION"/>
+               <title>PRECAUTIONS</title>
+               <effectiveTime value="20180525"/>
+               <component>
+                  <section ID="i4i_precautions_general_id_f1a6e9dc-7b1f-4138-a542-9ca7a4b2fee2">
+                     <id root="fe045b6d-c939-48d0-8ae7-de15bc17448a"/>
+                     <code code="34072-9" codeSystem="2.16.840.1.113883.6.1" displayName="GENERAL PRECAUTIONS SECTION"/>
+                     <title>General</title>
+                     <effectiveTime value="20121031"/>
+                     <component>
+                        <section ID="i4i_section_id_e899a60a-0d03-4de3-ae09-efc3dda203a6">
+                           <id root="571c0023-0c0e-4d1d-89d0-d5dc33628995"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title>
+                              <content styleCode="bold">
+                                 <content styleCode="italics">Antiarrhythmics</content>
+                              </content>
+                           </title>
+                           <text>
+                              <paragraph>Class Ia antiarrhythmic drugs (Vaughan Williams Classification), such as disopyramide, quinidine, and procainamide, and other class III drugs, such as amiodarone and sotalol, should not be given concomitantly with ibutilide fumarate injection or within 4 hours postinfusion because of their potential to prolong refractoriness. In the clinical trials, class I or other class III antiarrhythmic agents were withheld for at least 5 half-lives prior to ibutilide infusion and for 4 hours after dosing, but thereafter were allowed at the physician's discretion.</paragraph>
+                           </text>
+                           <effectiveTime value="20121031"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section ID="i4i_section_id_b036b64d-cf0d-4cef-be59-4c6fac01264b">
+                           <id root="4dd303a7-e9d8-424d-a9e9-837170fa099a"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title>
+                              <content styleCode="bold">
+                                 <content styleCode="italics">Other drugs that prolong the QT interval</content>
+                              </content>
+                           </title>
+                           <text>
+                              <paragraph>The potential for proarrhythmia may increase with the administration of ibutilide fumarate injection to patients who are being treated with drugs that prolong the QT interval, such as phenothiazines, tricyclic antidepressants, tetracyclic antidepressants, and certain antihistamine drugs (H<sub>1</sub> receptor antagonists).</paragraph>
+                           </text>
+                           <effectiveTime value="20121031"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section ID="i4i_section_id_ed78ac29-eb2d-447c-9f87-b1694679f21c">
+                           <id root="d7e996d8-dc98-4747-b3cb-69a575286e15"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title>
+                              <content styleCode="bold">
+                                 <content styleCode="italics">Heart block</content>
+                              </content>
+                           </title>
+                           <text>
+                              <paragraph>Of the nine (1.5%) ibutilide-treated patients with reports of reversible heart block, five had first degree, three had second degree, and one had complete heart block.</paragraph>
+                           </text>
+                           <effectiveTime value="20121031"/>
+                        </section>
+                     </component>
+                  </section>
+               </component>
+               <component>
+                  <section ID="i4i_drug_lab_interaction_id_5c9d5038-efe4-440b-98f2-7c4e0e3d5470">
+                     <id root="75b5f9a8-2bc1-4639-88fe-947959823cd6"/>
+                     <code code="34074-5" codeSystem="2.16.840.1.113883.6.1" displayName="DRUG &amp; OR LABORATORY TEST INTERACTIONS SECTION"/>
+                     <title>Laboratory Test Interactions</title>
+                     <text>
+                        <paragraph>None known.</paragraph>
+                     </text>
+                     <effectiveTime value="20121031"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="i4i_interactions_id_9416f18b-4d3e-4a52-b98d-ce895b65b4c5">
+                     <id root="3ce42e34-c3b5-4256-925f-7c636159a867"/>
+                     <code code="34073-7" codeSystem="2.16.840.1.113883.6.1" displayName="DRUG INTERACTIONS SECTION"/>
+                     <title>Drug Interactions</title>
+                     <text>
+                        <paragraph>No specific pharmacokinetic or other formal drug interaction studies were conducted.</paragraph>
+                     </text>
+                     <effectiveTime value="20121031"/>
+                     <component>
+                        <section ID="i4i_section_id_ed2dc9a3-fd9b-4e98-a4f2-b91780198286">
+                           <id root="491d9600-36d4-4c95-b5c1-ecd945acb42f"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <text>
+                              <paragraph>
+                                 <content styleCode="bold">Digoxin</content>
+                              </paragraph>
+                              <paragraph>Supraventricular arrhythmias may mask the cardiotoxicity associated with excessive digoxin levels. Therefore, it is advisable to be particularly cautious in patients whose plasma digoxin levels are above or suspected to be above the usual therapeutic range. Coadministration of digoxin did not have effects on either the safety or efficacy of ibutilide in the clinical trials.</paragraph>
+                           </text>
+                           <effectiveTime value="20121031"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section ID="i4i_section_id_993a7bdd-f5cc-4e11-a389-f16abdc02fdd">
+                           <id root="6b1db1f3-43e6-4cb7-924f-6811315ea662"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <text>
+                              <paragraph>
+                                 <content styleCode="bold">Calcium channel blocking agents</content>
+                              </paragraph>
+                              <paragraph>Coadministration of calcium channel blockers did not have any effect on either the safety or efficacy of ibutilide in the clinical trials.</paragraph>
+                           </text>
+                           <effectiveTime value="20121031"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section ID="i4i_section_id_fb16b28a-8af1-444a-9dbd-8ea1ffb7b698">
+                           <id root="5573a4c8-a724-4759-9699-5a16764cd101"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <text>
+                              <paragraph>
+                                 <content styleCode="bold">Beta-adrenergic blocking agents</content>
+                              </paragraph>
+                              <paragraph>Coadministration of beta-adrenergic blocking agents did not have any effect on either the safety or efficacy of ibutilide in the clinical trials.</paragraph>
+                           </text>
+                           <effectiveTime value="20121031"/>
+                        </section>
+                     </component>
+                  </section>
+               </component>
+               <component>
+                  <section ID="i4i_carcinogenesis_mutagenesis_fertility_id_954fb8cd-6f42-4e6f-a699-962d1cab4df1">
+                     <id root="a427631c-d1e2-4234-b07a-46e3043c61f7"/>
+                     <code code="34083-6" codeSystem="2.16.840.1.113883.6.1" displayName="CARCINOGENESIS &amp; MUTAGENESIS &amp; IMPAIRMENT OF FERTILITY SECTION"/>
+                     <title>Carcinogenesis, Mutagenesis, Impairment of Fertility</title>
+                     <text>
+                        <paragraph>No animal studies have been conducted to determine the carcinogenic potential of ibutilide fumarate injection; however, it was not genotoxic in a battery of assays, (Ames assay, mammalian cell forward gene mutation assay, unscheduled DNA synthesis assay, and mouse micronucleus assay). Similarly, no drug-related effects on fertility or mating were noted in a reproductive study in rats in which ibutilide was administered orally to both sexes up to doses of 20 mg/kg/day. On a mg/m<sup>2</sup> basis, corrected for 3% bioavailability, the highest dose tested was approximately four times the maximum recommended human dose (MRHD).</paragraph>
+                     </text>
+                     <effectiveTime value="20121031"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="i4i_pregnancy_id_18b0fe88-21c4-45cd-b357-53789b2ea918">
+                     <id root="3c198eee-fe60-4cc6-86a7-d5cfd9ad48e6"/>
+                     <code code="42228-7" codeSystem="2.16.840.1.113883.6.1" displayName="PREGNANCY SECTION"/>
+                     <title>Pregnancy</title>
+                     <text>
+                        <paragraph>Ibutilide administered orally was teratogenic (abnormalities included adactyly, interventricular septal defects, and scoliosis) and embryocidal in reproduction studies in rats. On a mg/m<sup>2</sup> basis, corrected for the 3% oral bioavailability, the "no adverse effect dose" (5 mg/kg/day given orally) was approximately the same as the maximum recommended human dose (MRHD); the teratogenic dose (20 mg/kg/day given orally) was about four times the MRHD on a mg/m<sup>2</sup> basis, or 16 times the MRHD on a mg/kg basis. Ibutilide fumarate injection should not be administered to a pregnant woman unless clinical benefit outweighs potential risk to the fetus.</paragraph>
+                     </text>
+                     <effectiveTime value="20180525"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="i4i_nursing_mothers_id_fdeed77b-f579-49b0-96e0-679086ff7ee2">
+                     <id root="e9648d21-1852-4abf-afc6-3392484958fb"/>
+                     <code code="34080-2" codeSystem="2.16.840.1.113883.6.1" displayName="NURSING MOTHERS SECTION"/>
+                     <title>Nursing Mothers</title>
+                     <text>
+                        <paragraph>The excretion of ibutilide into breast milk has not been studied; accordingly, breastfeeding should be discouraged during therapy with ibutilide fumarate injection.</paragraph>
+                     </text>
+                     <effectiveTime value="20121031"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="i4i_pediatric_use_id_680868c2-1fc6-477d-af68-77dcb10d52f2">
+                     <id root="171c1835-d5fe-498b-ab9b-f6d309f93c8c"/>
+                     <code code="34081-0" codeSystem="2.16.840.1.113883.6.1" displayName="PEDIATRIC USE SECTION"/>
+                     <title>Pediatric Use</title>
+                     <text>
+                        <paragraph>Clinical trials with ibutilide fumarate injection in patients with atrial fibrillation and atrial flutter did not include anyone under the age of 18. Safety and effectiveness of ibutilide in pediatric patients has not been established.</paragraph>
+                     </text>
+                     <effectiveTime value="20121031"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="i4i_geriatric_use_id_6ac60fb3-667c-4d61-b129-8b0b04efa386">
+                     <id root="0f10c863-ba11-4d3c-9bb6-42e8eb4eb2a1"/>
+                     <code code="34082-8" codeSystem="2.16.840.1.113883.6.1" displayName="GERIATRIC USE SECTION"/>
+                     <title>Geriatric Use</title>
+                     <text>
+                        <paragraph>Clinical studies of ibutilide fumarate (involving 586 patients) did not include sufficient numbers of subjects less than age 65 (45%) to determine whether they respond differently from older subjects. Other reported clinical experience has not identified differences in responses between the elderly and younger patients. In general, dose selection for an elderly patient should be cautious, usually starting at the low end of the dosing range, reflecting the greater frequency of decreased hepatic, renal, or cardiac function, and of concomitant disease or other drug therapy.</paragraph>
+                     </text>
+                     <effectiveTime value="20121031"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="i4i_section_id_ef6da59a-523d-4d85-aa20-789c9b98fa5e">
+                     <id root="00706559-81e7-43dd-adf0-5164f1e3ab33"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Use in Patients With Hepatic or Renal Dysfunction</title>
+                     <text>
+                        <paragraph>The safety, effectiveness, and pharmacokinetics of ibutilide fumarate injection have not been established in patients with hepatic or renal dysfunction. However, it is unlikely that dosing adjustments would be necessary in patients with compromised renal or hepatic function based on the following considerations: (1) ibutilide fumarate injection is indicated for rapid intravenous therapy (duration ≤ 30 minutes) and is dosed to a known, well-defined pharmacologic action (termination of arrhythmia) or to a maximum of two 10-minute infusions; (2) less than 10% of the dose of ibutilide fumarate injection is excreted unchanged in the urine; and (3) drug distribution appears to be one of the primary mechanisms responsible for termination of the pharmacologic effect. Nonetheless, patients with abnormal liver function should be monitored by telemetry for more than the 4-hour period generally recommended.</paragraph>
+                        <paragraph>In 285 patients with atrial fibrillation or atrial flutter who were treated with ibutilide fumarate injection, the clearance of ibutilide was independent of renal function, as assessed by creatinine clearance (range 21 to 140 mL/min).</paragraph>
+                     </text>
+                     <effectiveTime value="20121031"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="i4i_adverse_effects_ID_adverse_reactions">
+               <id root="c5597cb8-2ad4-422c-ae4f-7836be2d27c3"/>
+               <code code="34084-4" codeSystem="2.16.840.1.113883.6.1" displayName="ADVERSE REACTIONS SECTION"/>
+               <title>ADVERSE REACTIONS</title>
+               <text>
+                  <paragraph>Ibutilide fumarate injection was generally well tolerated in clinical trials. Of the 586 patients with atrial fibrillation or atrial flutter who received ibutilide fumarate injection in phase II/III studies, 149 (25%) reported medical events related to the cardiovascular system, including sustained polymorphic ventricular tachycardia (1.7%) and nonsustained polymorphic ventricular tachycardia (2.7%).</paragraph>
+                  <paragraph>Other clinically important adverse events with an uncertain relationship to ibutilide fumarate injection include the following (0.2% represents one patient): sustained monomorphic ventricular tachycardia (0.2%), nonsustained monomorphic ventricular tachycardia (4.9%), AV block (1.5%), bundle branch block (1.9%), ventricular extrasystoles (5.1%), supraventricular extrasystoles (0.9%), hypotension/postural hypotension (2.0%), bradycardia/sinus bradycardia (1.2%), nodal arrhythmia (0.7%), congestive heart failure (0.5%), tachycardia/sinus tachycardia/supraventricular tachycardia (2.7%), idioventricular rhythm (0.2%), syncope (0.3%), and renal failure (0.3%). The incidence of these events, except for syncope, was greater in the group treated with ibutilide fumarate injection than in the placebo group.</paragraph>
+                  <paragraph>Another adverse reaction that may be associated with the administration of ibutilide fumarate injection was nausea, which occurred with a frequency greater than 1% more in ibutilide-treated patients than those treated with placebo.</paragraph>
+                  <paragraph>The medical events reported for more than 1% of the placebo- and ibutilide-treated patients are shown in the following Table.</paragraph>
+                  <table ID="_Refid_73467a83-d631-43ae-8a5a-13332fdfc" width="100%">
+                     <caption>Treatment Emergent Medical Events with Frequency of More than 1% and Higher than that of Placebo</caption>
+                     <col width="30%"/>
+                     <col width="22%"/>
+                     <col width="23%"/>
+                     <col width="6%"/>
+                     <col width="19%"/>
+                     <thead>
+                        <tr>
+                           <th align="center" rowspan="3" styleCode="Rrule Lrule Toprule " valign="top">
+                              <content styleCode="bold">Event</content>
+                           </th>
+                           <th align="center" colspan="2" styleCode="Rrule Botrule Toprule " valign="top">
+                              <content styleCode="bold">Placebo</content>
+                              <br/>
+                              <content styleCode="bold">N=127</content>
+                           </th>
+                           <th align="center" colspan="2" styleCode="Rrule Botrule Toprule " valign="top">
+                              <content styleCode="bold">All Ibutilide</content>
+                              <br/>
+                              <content styleCode="bold">N=586</content>
+                           </th>
+                        </tr>
+                        <tr>
+                           <th align="center" colspan="2" styleCode="Rrule Lrule Botrule " valign="top">
+                              <content styleCode="bold">Patients</content>
+                           </th>
+                           <th align="center" colspan="2" styleCode="Rrule Botrule " valign="top">
+                              <content styleCode="bold">Patients</content>
+                           </th>
+                        </tr>
+                        <tr>
+                           <th align="center" styleCode="Rrule Lrule Botrule " valign="top">
+                              <content styleCode="bold">n</content>
+                           </th>
+                           <th align="center" styleCode="Rrule Botrule " valign="top">
+                              <content styleCode="bold">%</content>
+                           </th>
+                           <th align="center" styleCode="Rrule Botrule " valign="top">
+                              <content styleCode="bold">n</content>
+                           </th>
+                           <th align="center" styleCode="Rrule Botrule " valign="top">
+                              <content styleCode="bold">%</content>
+                           </th>
+                        </tr>
+                     </thead>
+                     <tbody>
+                        <tr>
+                           <td styleCode="Lrule Toprule " valign="top">
+                              <paragraph>CARDIOVASCULAR</paragraph>
+                           </td>
+                           <td styleCode="Toprule " valign="top"/>
+                           <td styleCode="Toprule " valign="top"/>
+                           <td styleCode="Toprule " valign="top"/>
+                           <td styleCode="Rrule Toprule " valign="top"/>
+                        </tr>
+                        <tr>
+                           <td styleCode="Lrule " valign="top">
+                              <paragraph>  Ventricular extrasystoles</paragraph>
+                           </td>
+                           <td align="center" valign="top">
+                              <paragraph>1</paragraph>
+                           </td>
+                           <td align="center" valign="top">
+                              <paragraph>0.8</paragraph>
+                           </td>
+                           <td align="center" valign="top">
+                              <paragraph>30</paragraph>
+                           </td>
+                           <td align="center" styleCode="Rrule " valign="top">
+                              <paragraph>5.1</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Lrule " valign="top">
+                              <paragraph>  Nonsustained monomorphic VT</paragraph>
+                           </td>
+                           <td align="center" valign="top">
+                              <paragraph>1</paragraph>
+                           </td>
+                           <td align="center" valign="top">
+                              <paragraph>0.8</paragraph>
+                           </td>
+                           <td align="center" valign="top">
+                              <paragraph>29</paragraph>
+                           </td>
+                           <td align="center" styleCode="Rrule " valign="top">
+                              <paragraph>4.9</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Lrule " valign="top">
+                              <paragraph>  Nonsustained polymorphic VT</paragraph>
+                           </td>
+                           <td align="center" valign="top">
+                              <paragraph>-</paragraph>
+                           </td>
+                           <td align="center" valign="top">
+                              <paragraph>-</paragraph>
+                           </td>
+                           <td align="center" valign="top">
+                              <paragraph>16</paragraph>
+                           </td>
+                           <td align="center" styleCode="Rrule " valign="top">
+                              <paragraph>2.7</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Lrule " valign="top">
+                              <paragraph>  Hypotension</paragraph>
+                           </td>
+                           <td align="center" valign="top">
+                              <paragraph>2</paragraph>
+                           </td>
+                           <td align="center" valign="top">
+                              <paragraph>1.6</paragraph>
+                           </td>
+                           <td align="center" valign="top">
+                              <paragraph>12</paragraph>
+                           </td>
+                           <td align="center" styleCode="Rrule " valign="top">
+                              <paragraph>2.0</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Lrule " valign="top">
+                              <paragraph>  Bundle branch block</paragraph>
+                           </td>
+                           <td align="center" valign="top">
+                              <paragraph>-</paragraph>
+                           </td>
+                           <td align="center" valign="top">
+                              <paragraph>-</paragraph>
+                           </td>
+                           <td align="center" valign="top">
+                              <paragraph>11</paragraph>
+                           </td>
+                           <td align="center" styleCode="Rrule " valign="top">
+                              <paragraph>1.9</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Lrule " valign="top">
+                              <paragraph>  Sustained polymorphic VT</paragraph>
+                           </td>
+                           <td align="center" valign="top">
+                              <paragraph>-</paragraph>
+                           </td>
+                           <td align="center" valign="top">
+                              <paragraph>-</paragraph>
+                           </td>
+                           <td align="center" valign="top">
+                              <paragraph>10</paragraph>
+                           </td>
+                           <td align="center" styleCode="Rrule " valign="top">
+                              <paragraph>1.7</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Lrule " valign="top">
+                              <paragraph>  AV block</paragraph>
+                           </td>
+                           <td align="center" valign="top">
+                              <paragraph>1</paragraph>
+                           </td>
+                           <td align="center" valign="top">
+                              <paragraph>0.8</paragraph>
+                           </td>
+                           <td align="center" valign="top">
+                              <paragraph>9</paragraph>
+                           </td>
+                           <td align="center" styleCode="Rrule " valign="top">
+                              <paragraph>1.5</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Lrule " valign="top">
+                              <paragraph>  Hypertension</paragraph>
+                           </td>
+                           <td align="center" valign="top">
+                              <paragraph>-</paragraph>
+                           </td>
+                           <td align="center" valign="top">
+                              <paragraph>-</paragraph>
+                           </td>
+                           <td align="center" valign="top">
+                              <paragraph>7</paragraph>
+                           </td>
+                           <td align="center" styleCode="Rrule " valign="top">
+                              <paragraph>1.2</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Lrule " valign="top">
+                              <paragraph>  QT segment prolonged</paragraph>
+                           </td>
+                           <td align="center" valign="top">
+                              <paragraph>-</paragraph>
+                           </td>
+                           <td align="center" valign="top">
+                              <paragraph>-</paragraph>
+                           </td>
+                           <td align="center" valign="top">
+                              <paragraph>7</paragraph>
+                           </td>
+                           <td align="center" styleCode="Rrule " valign="top">
+                              <paragraph>1.2</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Lrule " valign="top">
+                              <paragraph>  Bradycardia</paragraph>
+                           </td>
+                           <td align="center" valign="top">
+                              <paragraph>1</paragraph>
+                           </td>
+                           <td align="center" valign="top">
+                              <paragraph>0.8</paragraph>
+                           </td>
+                           <td align="center" valign="top">
+                              <paragraph>7</paragraph>
+                           </td>
+                           <td align="center" styleCode="Rrule " valign="top">
+                              <paragraph>1.2</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Lrule " valign="top">
+                              <paragraph>  Palpitation</paragraph>
+                           </td>
+                           <td align="center" valign="top">
+                              <paragraph>1</paragraph>
+                           </td>
+                           <td align="center" valign="top">
+                              <paragraph>0.8</paragraph>
+                           </td>
+                           <td align="center" valign="top">
+                              <paragraph>6</paragraph>
+                           </td>
+                           <td align="center" styleCode="Rrule " valign="top">
+                              <paragraph>1.0</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Lrule " valign="top">
+                              <paragraph>  Tachycardia</paragraph>
+                           </td>
+                           <td align="center" valign="top">
+                              <paragraph>1</paragraph>
+                           </td>
+                           <td align="center" valign="top">
+                              <paragraph>0.8</paragraph>
+                           </td>
+                           <td align="center" valign="top">
+                              <paragraph>16</paragraph>
+                           </td>
+                           <td align="center" styleCode="Rrule " valign="top">
+                              <paragraph>2.7</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Lrule " valign="top">
+                              <paragraph>GASTROINTESTINAL</paragraph>
+                           </td>
+                           <td valign="top"/>
+                           <td valign="top"/>
+                           <td valign="top"/>
+                           <td styleCode="Rrule " valign="top"/>
+                        </tr>
+                        <tr>
+                           <td styleCode="Lrule " valign="top">
+                              <paragraph>  Nausea</paragraph>
+                           </td>
+                           <td align="center" valign="top">
+                              <paragraph>1</paragraph>
+                           </td>
+                           <td align="center" valign="top">
+                              <paragraph>0.8</paragraph>
+                           </td>
+                           <td align="center" valign="top">
+                              <paragraph>11</paragraph>
+                           </td>
+                           <td align="center" styleCode="Rrule " valign="top">
+                              <paragraph>1.9</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Lrule " valign="top">
+                              <paragraph>CENTRAL NERVOUS SYSTEM</paragraph>
+                           </td>
+                           <td valign="top"/>
+                           <td valign="top"/>
+                           <td valign="top"/>
+                           <td styleCode="Rrule " valign="top"/>
+                        </tr>
+                        <tr>
+                           <td styleCode="Botrule Lrule " valign="top">
+                              <paragraph>  Headache</paragraph>
+                           </td>
+                           <td align="center" styleCode="Botrule " valign="top">
+                              <paragraph>4</paragraph>
+                           </td>
+                           <td align="center" styleCode="Botrule " valign="top">
+                              <paragraph>3.1</paragraph>
+                           </td>
+                           <td align="center" styleCode="Botrule " valign="top">
+                              <paragraph>21</paragraph>
+                           </td>
+                           <td align="center" styleCode="Rrule Botrule " valign="top">
+                              <paragraph>3.6</paragraph>
+                           </td>
+                        </tr>
+                     </tbody>
+                  </table>
+                  <paragraph>In the post-cardiac surgery study (see <content styleCode="bold">
+                        <linkHtml href="#i4i_clinical_studies_ID_clinical_studies">CLINICAL STUDIES</linkHtml>
+                     </content>), similar types of medical events were reported. In the 1 mg ibutilide fumarate treatment group (N=70), 2 patients (2.9%) developed sustained polymorphic ventricular tachycardia and 2 other patients (2.9%) developed nonsustained polymorphic ventricular tachycardia. Polymorphic ventricular tachycardia was not reported in the 73 patients in the 0.5 mg dose group or in the 75 patients in the 0.25 mg dose group.</paragraph>
+               </text>
+               <effectiveTime value="20180525"/>
+            </section>
+         </component>
+         <component>
+            <section ID="i4i_overdosage_id_723ff206-3b37-48e0-93a7-b02fa8cd2cfa">
+               <id root="e3984345-a930-4e65-8d6e-0d7a40ac2fba"/>
+               <code code="34088-5" codeSystem="2.16.840.1.113883.6.1" displayName="OVERDOSAGE SECTION"/>
+               <title>OVERDOSAGE</title>
+               <effectiveTime value="20121031"/>
+               <component>
+                  <section ID="i4i_section_id_5b42c503-8b64-4567-acf9-375a64283561">
+                     <id root="b8e17f7d-3ee6-4e90-b993-6837d405fdd5"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Acute Experience in Animals</title>
+                     <text>
+                        <paragraph>Acute overdose in animals results in CNS toxicity; notably, CNS depression, rapid gasping breathing, and convulsions. The intravenous median lethal dose in the rat was more than 50 mg/kg which is, on a mg/m<sup>2</sup> basis, at least 250 times the maximum recommended human dose.</paragraph>
+                     </text>
+                     <effectiveTime value="20121031"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="i4i_section_id_5ee88ab9-9d3b-4f79-a4b1-70d87932a1ba">
+                     <id root="334cf9a8-22bd-4e12-9746-40cf45ecc1c7"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Human Experience</title>
+                     <text>
+                        <paragraph>In the registration trials with ibutilide fumarate injection, four patients were unintentionally overdosed. The largest dose was 3.4 mg administered over 15 minutes. One patient (0.025 mg/kg) developed increased ventricular ectopy and monomorphic ventricular tachycardia, another patient (0.032 mg/kg) developed AV block-3<sup>rd</sup> degree and nonsustained polymorphic VT, and two patients (0.038 and 0.020 mg/kg) had no medical event reports. Based on known pharmacology, the clinical effects of an overdosage with ibutilide could exaggerate the expected prolongation of repolarization seen at usual clinical doses. Medical events (e.g., proarrhythmia, AV block) that occur after the overdosage should be treated with measures appropriate for that condition.</paragraph>
+                     </text>
+                     <effectiveTime value="20121031"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="i4i_dosage_admin_id_e2b8a78e-55e9-4d6d-b963-324ed0cf37d5">
+               <id root="43ab0b90-7f14-4b5e-a911-059a1c7e3db9"/>
+               <code code="34068-7" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE &amp; ADMINISTRATION SECTION"/>
+               <title>DOSAGE AND ADMINISTRATION</title>
+               <text>
+                  <paragraph>The recommended dose based on controlled trials (see <content styleCode="bold">
+                        <linkHtml href="#i4i_clinical_studies_ID_clinical_studies">CLINICAL PHARMACOLOGY: Clinical Studies</linkHtml>
+                     </content>) is outlined in the Table below. Ibutilide infusion should be stopped as soon as the presenting arrhythmia is terminated or in the event of sustained or nonsustained ventricular tachycardia, or marked prolongation of QT or QTc.</paragraph>
+                  <table ID="_Refid_13776360-6ec7-4d89-a450-6ba8345d6" width="100%">
+                     <caption>Recommended Dose of Ibutilide Fumarate Injection</caption>
+                     <col width="11%"/>
+                     <col width="18%"/>
+                     <col width="71%"/>
+                     <thead>
+                        <tr>
+                           <th align="left" styleCode="Rrule Botrule Lrule Toprule " valign="top">
+                              <content styleCode="bold">
+                                 <content styleCode="italics">Patient Weight</content>
+                              </content>
+                           </th>
+                           <th align="left" styleCode="Rrule Botrule Toprule " valign="top">
+                              <content styleCode="bold">
+                                 <content styleCode="italics">Initial Infusion</content>
+                              </content>
+                              <br/>
+                              <content styleCode="bold">
+                                 <content styleCode="italics">(over 10 minutes)</content>
+                              </content>
+                           </th>
+                           <th align="left" styleCode="Rrule Botrule Toprule " valign="top">
+                              <content styleCode="bold">
+                                 <content styleCode="italics">Second Infusion</content>
+                              </content>
+                           </th>
+                        </tr>
+                     </thead>
+                     <tbody>
+                        <tr>
+                           <td styleCode="Rrule Lrule Toprule Botrule " valign="top">
+                              <paragraph>
+                                 <content styleCode="italics">60 kg (132 lb) </content>
+                                 <br/>
+                                 <content styleCode="italics">or more</content>
+                              </paragraph>
+                           </td>
+                           <td styleCode="Rrule Toprule Botrule " valign="top">
+                              <paragraph>
+                                 <content styleCode="italics">One vial </content>
+                                 <br/>
+                                 <content styleCode="italics">  (1 mg ibutilide fumarate)</content>
+                              </paragraph>
+                           </td>
+                           <td rowspan="2" styleCode="Rrule Toprule Botrule " valign="top">
+                              <paragraph>
+                                 <content styleCode="italics">If the arrhythmia does not terminate within 10 minutes after the end of the initial infusion, a second 10-minute infusion of equal strength may be administered 10 minutes after completion of the first infusion.</content>
+                              </paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Rrule Botrule Lrule " valign="top">
+                              <paragraph>
+                                 <content styleCode="italics">Less than 60 kg </content>
+                                 <br/>
+                                 <content styleCode="italics">(132 lb)</content>
+                              </paragraph>
+                           </td>
+                           <td styleCode="Rrule Botrule " valign="top">
+                              <paragraph>
+                                 <content styleCode="italics">0.1 mL/kg </content>
+                                 <br/>
+                                 <content styleCode="italics">  (0.01 mg/kg ibutilide fumarate)</content>
+                              </paragraph>
+                           </td>
+                        </tr>
+                     </tbody>
+                  </table>
+                  <paragraph>In a trial comparing ibutilide and sotalol (see <content styleCode="bold">
+                        <linkHtml href="#i4i_clinical_studies_ID_clinical_studies">CLINICAL PHARMACOLOGY: Clinical Studies</linkHtml>
+                     </content>), 2 mg ibutilide fumarate administered as a single infusion to patients weighing more than 60 kg was also effective in terminating atrial fibrillation or atrial flutter.</paragraph>
+                  <paragraph>In the post-cardiac surgery study (see <content styleCode="bold">
+                        <linkHtml href="#i4i_clinical_studies_ID_clinical_studies">CLINICAL PHARMACOLOGY: Clinical Studies</linkHtml>
+                     </content>), one or two intravenous infusions of 0.5 mg (0.005 mg/kg per dose for patients weighing less than 60 kg) was effective in terminating atrial fibrillation or atrial flutter.</paragraph>
+                  <paragraph>Patients should be observed with continuous ECG monitoring for at least 4 hours following infusion or until QTc has returned to baseline. Longer monitoring is required if any arrhythmic activity is noted. Skilled personnel and proper equipment (see <linkHtml href="#i4i_section_ID_proarrhythmia">WARNINGS, Proarrhythmia</linkHtml>), such as a cardioverter/defibrillator, and medication for treatment of sustained ventricular tachycardia, including polymorphic ventricular tachycardia, must be available during administration of ibutilide fumarate injection and subsequent monitoring of the patient.</paragraph>
+               </text>
+               <effectiveTime value="20200413"/>
+               <component>
+                  <section ID="i4i_section_id_c74a8808-95d0-4f79-b0a0-b8eda6eab157">
+                     <id root="3eb7c1ab-2746-4faa-b599-2ec0b4143eda"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Dilution</title>
+                     <text>
+                        <paragraph>Ibutilide fumarate injection may be administered undiluted or diluted in 50 mL of diluent. Ibutilide fumarate injection may be added to 0.9% Sodium Chloride injection or 5% Dextrose injection before infusion. The contents of one 10 mL vial (0.1 mg/mL) may be added to a 50 mL infusion bag to form an admixture of approximately 0.017 mg/mL ibutilide fumarate. Parenteral drug products should be inspected visually for particulate matter and discoloration prior to administration whenever solution and container permit.</paragraph>
+                     </text>
+                     <effectiveTime value="20121031"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="i4i_section_id_c4b07b34-38ee-46b0-b219-48fdb1cf5799">
+                     <id root="cd2feb4a-4e2e-4492-8861-a523d5ccb281"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Compatibility and Stability</title>
+                     <text>
+                        <paragraph>The following diluents are compatible with ibutilide fumarate injection (0.1 mg/mL):</paragraph>
+                        <list listType="unordered">
+                           <item>
+                              <caption> </caption>5% Dextrose injection</item>
+                           <item>
+                              <caption> </caption>0.9% Sodium Chloride injection.</item>
+                        </list>
+                        <paragraph>The following intravenous solution containers are compatible with admixtures of ibutilide fumarate injection (0.1 mg/mL):</paragraph>
+                        <list listType="unordered">
+                           <item>
+                              <caption> </caption>polyvinyl chloride plastic bags</item>
+                           <item>
+                              <caption> </caption>polyolefin bags.</item>
+                        </list>
+                        <paragraph>Admixtures of the product, with approved diluents, are chemically and physically stable for 24 hours at room temperature (15° to 30°C or 59° to 86°F) and for 48 hours at refrigerated temperatures (2° to 8°C or 36° to 46°F). Strict adherence to the use of aseptic technique during the preparation of the admixture is recommended in order to maintain sterility.</paragraph>
+                        <paragraph>Discard unused portion.</paragraph>
+                     </text>
+                     <effectiveTime value="20200413"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="i4i_how_supplied_id_67fdd6e1-5cc4-45b5-8710-6fd7ce88aa71">
+               <id root="cf742196-690a-4ddc-be74-6ae7e60a470e"/>
+               <code code="34069-5" codeSystem="2.16.840.1.113883.6.1" displayName="HOW SUPPLIED SECTION"/>
+               <title>HOW SUPPLIED</title>
+               <text>
+                  <paragraph>Ibutilide Fumarate Injection is supplied as an acetate-buffered isotonic solution at a concentration of 0.1 mg/mL that has been adjusted to approximately pH 4.6 in 10 mL clear glass, single-dose, flip-top vials.</paragraph>
+                  <paragraph>NDC 67457-366-10<br/>carton containing single-dose 10 mL vial, 1 mg/10 mL (0.1 mg/mL).</paragraph>
+               </text>
+               <effectiveTime value="20201223"/>
+               <component>
+                  <section ID="i4i_storage_id_0ed5471f-a9a0-4274-9194-e6fc81818379">
+                     <id root="751b137b-4427-475b-b9f4-932aafb0ad72"/>
+                     <code code="44425-7" codeSystem="2.16.840.1.113883.6.1" displayName="STORAGE AND HANDLING SECTION"/>
+                     <text>
+                        <paragraph>
+                           <content styleCode="bold">Store at 20° to 25°C (68° to 77°F). [See USP Controlled Room Temperature.]</content>
+                        </paragraph>
+                        <paragraph>
+                           <content styleCode="bold">Store vial in carton until used.</content>
+                        </paragraph>
+                        <paragraph>Discard unused portion. </paragraph>
+                        <paragraph>Manufactured for:<br/>
+                           <content styleCode="bold">Mylan Institutional LLC</content>
+                           <br/>Morgantown, WV 26505 U.S.A.</paragraph>
+                        <paragraph>Manufactured by:<br/>
+                           <content styleCode="bold">Gland Pharma Ltd</content>
+                           <br/>Hyderabad 500 043<br/>India</paragraph>
+                        <paragraph>Code No.: AP/DRUGS/103/97</paragraph>
+                        <paragraph>Revised: 12/2020<br/>MI:IBUTIJ:R5</paragraph>
+                        <paragraph>PSLEA-019235-04</paragraph>
+                     </text>
+                     <effectiveTime value="20201223"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="i4i_Principal_display_panel_id_86d6268e-2e9d-4b15-8f6a-bbe5d04f9d5a">
+               <id root="71a61cba-432f-4dde-88a8-b03fbbcc28c8"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>PRINCIPAL DISPLAY PANEL - 10 mL Vial Label</title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">NDC 67457-366-10     10 mL</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Ibutilide </content>
+                     <br/>
+                     <content styleCode="bold">Fumarate</content>
+                     <br/>
+                     <content styleCode="bold">Injection</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">1 mg/10 mL</content>
+                     <br/>(0.1 mg/mL)</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">For Intravenous</content>
+                     <br/>
+                     <content styleCode="bold">Use Only</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Rx only     Single-Dose Vial</content>
+                  </paragraph>
+                  <paragraph>Sterile. Non-pyrogenic.</paragraph>
+                  <paragraph>Each mL contains:<br/>Ibutilide fumarate 0.1 mg, sodium<br/>chloride 8.90 mg, sodium acetate<br/>trihydrate 0.189 mg in water for<br/>injection. When necessary, pH<br/>was adjusted with hydrochloric<br/>acid and/or sodium hydroxide.</paragraph>
+                  <paragraph>Usual Dosage: See<br/>accompanying prescribing<br/>information.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Store at 20° to 25°C<br/>(68° to 77°F). [See USP<br/>Controlled Room Temperature.]</content>
+                  </paragraph>
+                  <paragraph>Store vial in carton until used.</paragraph>
+                  <paragraph>Discard unused portion.</paragraph>
+                  <paragraph>Manufactured for:<br/>
+                     <content styleCode="bold">Mylan Institutional LLC</content>
+                     <br/>Morgantown, WV 26505 U.S.A.</paragraph>
+                  <paragraph>Made in India     </paragraph>
+                  <paragraph>Code No.: AP/DRUGS/103/97</paragraph>
+                  <paragraph>MI:366:1C:R6</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Mylan.com</content>
+                  </paragraph>
+                  <renderMultiMedia ID="id-1353192153" referencedObject="C7EDAE0A-98AC-4ABB-A4FA-89156ECF191E"/>
+               </text>
+               <effectiveTime value="20201223"/>
+               <component>
+                  <observationMedia ID="C7EDAE0A-98AC-4ABB-A4FA-89156ECF191E">
+                     <text>Ibutilide Fumarate Injection 1 mg/10 mL Carton Label</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="image-01.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

@@ -1,0 +1,1034 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="https://www.accessdata.fda.gov/spl/stylesheet/spl.xsl" type="text/xsl"?>
+<document xmlns="urn:hl7-org:v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 https://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="9ed13551-325e-4b82-a266-72fc89ed27dc"/>
+   <code code="34391-3" displayName="HUMAN PRESCRIPTION DRUG LABEL" codeSystem="2.16.840.1.113883.6.1"/>
+   <title>
+      <content styleCode="bold">Naltrexone Hydrochloride Tablets USP<br/>50 mg<br/>Opioid Antagonist<br/>Rx only</content>
+   </title>
+   <effectiveTime value="20231207"/>
+   <setId root="06ff2d5a-e62b-4fa4-bbdb-01938535bc65"/>
+   <versionNumber value="14"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id extension="080679498" root="1.3.6.1.4.1.519.1"/>
+            <name>SpecGx LLC</name>
+            <assignedEntity>
+               <assignedOrganization>
+                  <assignedEntity>
+                     <assignedOrganization>
+                        <id extension="957414238" root="1.3.6.1.4.1.519.1"/>
+                        <name>SpecGx LLC</name>
+                     </assignedOrganization>
+                     <performance>
+                        <actDefinition>
+                           <code code="C25391" displayName="analysis" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="0406-1170" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                     <performance>
+                        <actDefinition>
+                           <code code="C43360" displayName="manufacture" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="0406-1170" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                  </assignedEntity>
+               </assignedOrganization>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section>
+               <id root="b5e744b6-dcca-4366-8480-aec0f0ff17c3"/>
+               <code code="48780-1" displayName="SPL listing data elements section" codeSystem="2.16.840.1.113883.6.1"/>
+               <effectiveTime value="20231207"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="0406-1170" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>NALTREXONE HYDROCHLORIDE</name>
+                        <formCode code="C42931" displayName="TABLET, FILM COATED" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>naltrexone hydrochloride</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator unit="mg" value="50"/>
+                              <denominator unit="1" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="Z6375YW9SF" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>NALTREXONE HYDROCHLORIDE</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="5S6W795CQM" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>NALTREXONE</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="68401960MK" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>CROSPOVIDONE (15 MPA.S AT 5%)</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="3NXW29V3WO" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>HYPROMELLOSE, UNSPECIFIED</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="EWQ57Q8I5X" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>LACTOSE MONOHYDRATE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="70097M6I30" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>MAGNESIUM STEARATE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="OP1R32D61U" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>MICROCRYSTALLINE CELLULOSE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="3WJQ0SDW1A" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>POLYETHYLENE GLYCOL, UNSPECIFIED</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="6OZP39ZG8H" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>POLYSORBATE 80</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="ETJ7Z6XBU4" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SILICON DIOXIDE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="15FIX9V2JP" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>TITANIUM DIOXIDE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="EX438O2MRT" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>FERRIC OXIDE YELLOW</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="1K09F3G675" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>FERRIC OXIDE RED</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator unit="1" value="30"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="0406-1170-03" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43169" displayName="BOTTLE" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" displayName="Type 0: Not a Combination Product" codeSystem="2.16.840.1.113883.3.26.1.1" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                           <subjectOf>
+                              <marketingAct>
+                                 <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 <statusCode code="active"/>
+                                 <effectiveTime>
+                                    <low value="20020322"/>
+                                 </effectiveTime>
+                              </marketingAct>
+                           </subjectOf>
+                        </asContent>
+                        <asContent>
+                           <quantity>
+                              <numerator unit="1" value="100"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="0406-1170-01" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43169" displayName="BOTTLE" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" displayName="Type 0: Not a Combination Product" codeSystem="2.16.840.1.113883.3.26.1.1" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                           <subjectOf>
+                              <marketingAct>
+                                 <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 <statusCode code="active"/>
+                                 <effectiveTime>
+                                    <low value="20020322"/>
+                                 </effectiveTime>
+                              </marketingAct>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <id extension="ANDA076264" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73584" displayName="ANDA" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20020322"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLCOLOR" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value code="C48330" displayName="yellow" codeSystem="2.16.840.1.113883.3.26.1.1" xsi:type="CV"/>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLIMPRINT" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value xsi:type="ST">5;0;1170</value>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSCORE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value value="2" xsi:type="INT"/>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSHAPE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value code="C48345" displayName="OVAL" codeSystem="2.16.840.1.113883.3.26.1.1" xsi:type="CV"/>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSIZE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value unit="mm" value="13" xsi:type="PQ"/>
+                        </characteristic>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38288" displayName="ORAL" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_d1faa4b2-e2ab-434c-9978-241aae9cb411">
+               <id root="478dacbb-d081-4e1c-9f1f-8d594819bb3f"/>
+               <code code="34089-3" codeSystem="2.16.840.1.113883.6.1" displayName="DESCRIPTION SECTION"/>
+               <title>DESCRIPTION</title>
+               <text>
+                  <paragraph>Naltrexone hydrochloride, an opioid antagonist, is a synthetic congener of oxymorphone with no opioid agonist properties. Naltrexone differs in structure from oxymorphone in that the methyl group on the nitrogen atom is replaced by a cyclopropylmethyl group. Naltrexone hydrochloride is also related to the potent opioid antagonist, naloxone, or n-allylnoroxymorphone.<br/>
+                     <br/>
+                  </paragraph>
+                  <renderMultiMedia referencedObject="MM1"/>
+                  <paragraph>naltrexone hydrochloride</paragraph>
+                  <paragraph>Naltrexone hydrochloride is a white, crystalline compound. The hydrochloride salt is soluble in water to the extent of about 100 mg/mL. Naltrexone Hydrochloride Tablets USP are available as film coated tablets, containing 50 mg of naltrexone hydrochloride.<br/>
+                     <br/>Naltrexone hydrochloride tablets also contain: crospovidone, hydroxypropyl methylcellulose, lactose monohydrate, magnesium stearate, microcrystalline cellulose, polyethylene glycol, polysorbate 80, silicon dioxide, titanium dioxide, yellow iron oxide and red iron oxide.<br/>
+                     <br/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20231207"/>
+               <component>
+                  <observationMedia ID="MM1">
+                     <text>Structural Formula</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="naltrexone-hydrochloride-1.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_1ed0a5c6-f230-4acb-8072-825cda6713e9">
+               <id root="30a7bb70-fe28-46ea-9b06-2f2cbe411547"/>
+               <code code="34090-1" codeSystem="2.16.840.1.113883.6.1" displayName="CLINICAL PHARMACOLOGY SECTION"/>
+               <title>CLINICAL PHARMACOLOGY</title>
+               <text>
+                  <br/>
+               </text>
+               <effectiveTime value="20231207"/>
+               <component>
+                  <section ID="LINK_3476703d-11ed-4bb7-9716-b52deadd5186">
+                     <id root="b541a247-ba3c-4b29-bba4-504d31fe3324"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Pharmacodynamic Actions</title>
+                     <text>
+                        <paragraph>Naltrexone is a pure opioid antagonist. It markedly attenuates or completely blocks, reversibly, the subjective effects of intravenously administered opioids.<br/>
+                           <br/>When coadministered with morphine, on a chronic basis, naltrexone blocks the physical dependence to morphine, heroin and other opioids.<br/>
+                           <br/>Naltrexone has few, if any, intrinsic actions besides its opioid blocking properties. However, it does produce some pupillary constriction, by an unknown mechanism.<br/>
+                           <br/>The administration of naltrexone is not associated with the development of tolerance or dependence. In subjects physically dependent on opioids, naltrexone will precipitate withdrawal symptomatology.<br/>Clinical studies indicate that 50 mg of naltrexone hydrochloride will block the pharmacologic effects of 25 mg of intravenously administered heroin for periods as long as 24 hours. Other data suggest that doubling the dose of naltrexone hydrochloride provides blockade for 48 hours, and tripling the dose of naltrexone hydrochloride provides blockade for about 72 hours.<br/>
+                           <br/>Naltrexone blocks the effects of opioids by competitive binding (i.e., analogous to competitive inhibition of enzymes) at opioid receptors. This makes the blockade produced potentially surmountable, but overcoming full naltrexone blockade by administration of very high doses of opiates has resulted in excessive symptoms of histamine release in experimental subjects.<br/>
+                           <br/>The mechanism of action of naltrexone in alcoholism is not understood; however, involvement of the endogenous opioid system is suggested by preclinical data. Naltrexone, an opioid receptor antagonist, competitively binds to such receptors and may block the effects of endogenous opioids. Opioid antagonists have been shown to reduce alcohol consumption by animals, and naltrexone has been shown to reduce alcohol consumption in clinical studies.<br/>
+                           <br/>Naltrexone is not aversive therapy and does not cause a disulfiram-like reaction either as a result of opiate use or ethanol ingestion.<br/>
+                           <br/>
+                        </paragraph>
+                     </text>
+                     <effectiveTime value="20231207"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_c1362229-c59a-4159-902f-5d6c83c5131f">
+                     <id root="db0471e6-7548-485c-9fa9-3e2583a3a756"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Pharmacokinetics</title>
+                     <text>
+                        <paragraph>Naltrexone is a pure opioid receptor antagonist. Although well absorbed orally, naltrexone is subject to significant first pass metabolism with oral bioavailability estimates ranging from 5% to 40%. The activity of naltrexone is believed to be due to both parent and the 6-β-naltrexol metabolite. Both parent drug and metabolites are excreted primarily by the kidney (53% to 79% of the dose), however, urinary excretion of unchanged naltrexone accounts for less than 2% of an oral dose and fecal excretion is a minor elimination pathway. The mean elimination half-life (T-1/2) values for naltrexone and 6-β-naltrexol are 4 hours and 13 hours, respectively. Naltrexone and 6-β-naltrexol are dose proportional in terms of AUC and C<sub>max </sub>over the range of 50 to 200 mg and do not accumulate after 100 mg daily doses.<br/>
+                           <br/>
+                           <content styleCode="italics">Absorption</content>
+                        </paragraph>
+                        <paragraph>Following oral administration, naltrexone undergoes rapid and nearly complete absorption with approximately 96% of the dose absorbed from the gastrointestinal tract. Peak plasma levels of both naltrexone and 6-β-naltrexol occur within one hour of dosing.<br/>
+                           <br/>
+                           <content styleCode="italics">Distribution</content>
+                        </paragraph>
+                        <paragraph>The volume of distribution for naltrexone following intravenous administration is estimated to be 1350 liters. In vitro tests with human plasma show naltrexone to be 21% bound to plasma proteins over the therapeutic dose range.</paragraph>
+                     </text>
+                     <effectiveTime value="20231207"/>
+                     <component>
+                        <section ID="LINK_3eaf83f8-231c-4435-bb01-5f156077a807">
+                           <id root="379b195c-356f-4e65-a108-721ada15f047"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title/>
+                           <text>
+                              <paragraph>
+                                 <content styleCode="italics">Metabolism</content>
+                              </paragraph>
+                              <paragraph>The systemic clearance (after intravenous administration) of naltrexone is ~3.5 L/min, which exceeds liver blood flow (~1.2 L/min). This suggests both that naltrexone is a highly extracted drug (&gt;98% metabolized) and that extrahepatic sites of drug metabolism exist. The major metabolite of naltrexone is 6-β-naltrexol. Two other minor metabolites are 2-hydroxy-3-methoxy-6-β-naltrexol and 2-hydroxy-3-methyl-naltrexone. Naltrexone and its metabolites are also conjugated to form additional metabolic products.<br/>
+                                 <br/>
+                                 <content styleCode="italics">Elimination</content>
+                              </paragraph>
+                              <paragraph>The renal clearance for naltrexone ranges from 30 to 127 mL/min and suggests that renal elimination is primarily by glomerular filtration. In comparison, the renal clearance for 6-β-naltrexol ranges from 230 to 369 mL/min, suggesting an additional renal tubular secretory mechanism. The urinary excretion of unchanged naltrexone accounts for less than 2% of an oral dose; urinary excretion of unchanged and conjugated 6-β-naltrexol accounts for 43% of an oral dose. The pharmacokinetic profile of naltrexone suggests that naltrexone and its metabolites may undergo enterohepatic recycling.</paragraph>
+                           </text>
+                           <effectiveTime value="20231207"/>
+                        </section>
+                     </component>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_90b63ff4-01cd-4ed8-8513-9c080b88e18d">
+                     <id root="a7b9fc67-657d-49c9-a862-57cf81febe84"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Hepatic and Renal Impairment</title>
+                     <text>
+                        <paragraph>Naltrexone appears to have extra-hepatic sites of drug metabolism and its major metabolite undergoes active tubular secretion (<content styleCode="italics">see </content>
+                           <content styleCode="bold">
+                              <linkHtml href="#LINK_3eaf83f8-231c-4435-bb01-5f156077a807">Metabolism</linkHtml> </content>
+                           <content styleCode="italics">above</content>). Adequate studies of naltrexone in patients with severe hepatic or renal impairment have not been conducted (<content styleCode="italics">see </content>
+                           <content styleCode="bold">
+                              <linkHtml href="#LINK_336e2bea-74ff-46ff-bba0-05a741d6528a">PRECAUTIONS, Special Risk Patients</linkHtml>
+                           </content>).<br/>
+                        </paragraph>
+                     </text>
+                     <effectiveTime value="20231207"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_b07f2d4a-2ee5-4d04-844a-95924dfcde12">
+                     <id root="d583589e-6243-4c0a-863d-3e4acb516d2f"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Clinical Trials</title>
+                     <text>
+                        <paragraph>
+                           <content styleCode="italics">Alcoholism</content>
+                        </paragraph>
+                        <paragraph>The efficacy of naltrexone as an aid to the treatment of alcoholism was tested in placebo-controlled, outpatient, double-blind trials. These studies used a dose of naltrexone hydrochloride 50 mg once daily for 12 weeks as an adjunct to social and psychotherapeutic methods when given under conditions that enhanced patient compliance. Patients with psychosis, dementia, and secondary psychiatric diagnoses were excluded from these studies.<br/>
+                           <br/>In one of these studies, 104 alcohol-dependent patients were randomized to receive either naltrexone hydrochloride 50 mg once daily or placebo. In this study, naltrexone proved superior to placebo in measures of drinking including abstention rates (51% vs. 23%), number of drinking days, and relapse (31% vs. 60%). In a second study with 82 alcohol-dependent patients, the group of patients receiving naltrexone were shown to have lower relapse rates (21% vs. 41%), less alcohol craving, and fewer drinking days compared with patients who received placebo, but these results depended on the specific analysis used.<br/>
+                           <br/>The clinical use of naltrexone as adjunctive pharmacotherapy for the treatment of alcoholism was also evaluated in a multicenter safety study. This study of 865 individuals with alcoholism included patients with comorbid psychiatric conditions, concomitant medications, polysubstance abuse and HIV disease. Results of this study demonstrated that the side effect profile of naltrexone appears to be similar in both alcoholic and opioid dependent populations, and that serious side effects are uncommon.<br/>
+                           <br/>In the clinical studies, treatment with naltrexone supported abstinence, prevented relapse and decreased alcohol consumption. In the uncontrolled study, the patterns of abstinence and relapse were similar to those observed in the controlled studies. Naltrexone was not uniformly helpful to all patients, and the expected effect of the drug is a modest improvement in the outcome of conventional treatment.</paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Treatment of Opioid Addiction</content>
+                        </paragraph>
+                        <paragraph>Naltrexone has been shown to produce complete blockade of the euphoric effects of opioids in both volunteer and addict populations. When administered by means that enforce compliance, it will produce an effective opioid blockade, but has not been shown to affect the use of cocaine or other non-opioid drugs of abuse.<br/>
+                           <br/>There are no data that demonstrate an unequivocally beneficial effect of naltrexone on rates of recidivism among detoxified, formerly opioid-dependent individuals who self-administer the drug. The failure of the drug in this setting appears to be due to poor medication compliance.</paragraph>
+                        <paragraph>The drug is reported to be of greatest use in good prognosis opioid addicts who take the drug as part of a comprehensive occupational rehabilitative program, behavioral contract, or other compliance-enhancing protocol. Naltrexone, unlike methadone or LAAM (levo-alpha-acetyl-methadol), does not reinforce medication compliance and is expected to have a therapeutic effect only when given under external conditions that support continued use of the medication.<br/>
+                        </paragraph>
+                     </text>
+                     <effectiveTime value="20231207"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_8fb4d22f-418b-4fdb-99e9-bd687195c31f">
+               <id root="5b22eec3-a608-4939-9104-b31a9b689f12"/>
+               <code code="34067-9" codeSystem="2.16.840.1.113883.6.1" displayName="INDICATIONS &amp; USAGE SECTION"/>
+               <title>INDICATIONS AND USAGE</title>
+               <text>
+                  <paragraph>Naltrexone hydrochloride tablets are indicated in the treatment of alcohol dependence and for the blockade of the effects of exogenously administered opioids.<br/>
+                     <br/>Naltrexone hydrochloride tablets have not been shown to provide any therapeutic benefit except as part of an appropriate plan of management for the addictions.<br/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20231207"/>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_23fac4db-3af1-43b8-a260-27460096f6eb">
+               <id root="f27ccaf1-63f1-4155-9ba7-17c8b1f949f1"/>
+               <code code="34070-3" codeSystem="2.16.840.1.113883.6.1" displayName="CONTRAINDICATIONS SECTION"/>
+               <title>CONTRAINDICATIONS</title>
+               <text>
+                  <paragraph>Naltrexone is contraindicated in:</paragraph>
+                  <paragraph>1. Patients receiving opioid analgesics.</paragraph>
+                  <paragraph>2. Patients currently dependent on opioids, including those currently maintained on opiate agonists (e.g., methadone) or partial agonists (e.g., buprenorphine).</paragraph>
+                  <paragraph>3. Patients in acute opioid withdrawal (<content styleCode="italics">see </content>
+                     <content styleCode="bold">
+                        <linkHtml href="#LINK_c80de123-25c0-47f5-a934-4051e65b4fb3">WARNINGS</linkHtml>
+                     </content>).</paragraph>
+                  <paragraph>4. Any individual who has failed the naloxone challenge test or who has a positive urine screen for opioids.</paragraph>
+                  <paragraph>5. Any individual with a history of sensitivity to naltrexone or any other components of this product. It is not known if there is any cross-sensitivity with naloxone or the phenanthrene containing opioids.</paragraph>
+               </text>
+               <effectiveTime value="20231207"/>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_c80de123-25c0-47f5-a934-4051e65b4fb3">
+               <id root="54625293-f74b-47ec-b376-67e7c36408b7"/>
+               <code code="34071-1" codeSystem="2.16.840.1.113883.6.1" displayName="WARNINGS SECTION"/>
+               <title>WARNINGS</title>
+               <text/>
+               <effectiveTime value="20231207"/>
+               <component>
+                  <section ID="LINK_508e7483-e9a0-4081-87ac-7a9b47e28438">
+                     <id root="bcf4ac10-39a8-4fa7-80ed-59c9f2bdd4ad"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Vulnerability to Opioid Overdose</title>
+                     <text>
+                        <paragraph>After opioid detoxification, patients are likely to have reduced tolerance to opioids. As the blockade of exogenous opioids provided by naltrexone wanes and eventually dissipates completely, patients who have been treated with naltrexone may respond to lower doses of opioids than previously used, just as they would shortly after completing detoxification.</paragraph>
+                        <paragraph>This could result in potentially life-threatening opioid intoxication (respiratory compromise or arrest, circulatory collapse, etc.) if the patient uses previously tolerated doses of opioids. Cases of opioid overdose with fatal outcomes have been reported in patients after discontinuing treatment.</paragraph>
+                        <paragraph>Patients should be alerted that they may be more sensitive to opioids, even at lower doses, after naltrexone treatment is discontinued. It is important that patients inform family members, and the people closest to the patient of this increased sensitivity to opioids and the risk of overdose (<content styleCode="italics">see </content>
+                           <content styleCode="bold">
+                              <linkHtml href="#LINK_c4f882ea-a5eb-485c-b7e4-d893cccdcc1d">PRECAUTIONS, Information for Patients</linkHtml>
+                           </content>).</paragraph>
+                        <paragraph>There is also the possibility that a patient who is treated with naltrexone could overcome the opioid blockade effect of naltrexone. Although naltrexone is a potent antagonist, the blockade produced by naltrexone is surmountable. The plasma concentration of exogenous opioids attained immediately following their acute administration may be sufficient to overcome the competitive receptor blockade. This poses a potential risk to individuals who attempt, on their own, to overcome the blockade by administering large amounts of exogenous opioids. Any attempt by a patient to overcome the antagonism by taking opioids is especially dangerous and may lead to life-threatening opioid intoxication or fatal overdose. Patients should be told of the serious consequences of trying to overcome the opioid blockade (<content styleCode="italics">see </content>
+                           <content styleCode="bold">
+                              <linkHtml href="#LINK_c4f882ea-a5eb-485c-b7e4-d893cccdcc1d">PRECAUTIONS, Information for Patients</linkHtml>
+                           </content>).</paragraph>
+                     </text>
+                     <effectiveTime value="20231207"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_f22ac6ac-a28e-46ce-8e7e-d19ca5caae5e">
+                     <id root="c7c989d9-d743-4f08-854c-c0aa2ffb3e89"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Precipitated Opioid Withdrawal</title>
+                     <text>
+                        <paragraph>The symptoms of spontaneous opioid withdrawal (which are associated with the discontinuation of opioid in a dependent individual) are uncomfortable, but they are not generally believed to be severe or necessitate hospitalization. However, when withdrawal is precipitated abruptly by the administration of an opioid antagonist to an opioid-dependent patient, the resulting withdrawal syndrome can be severe enough to require hospitalization. Symptoms of withdrawal have usually appeared within five minutes of ingestion of naltrexone and have lasted for up to 48 hours. Mental status changes including confusion, somnolence and visual hallucinations have occurred. Significant fluid losses from vomiting and diarrhea have required intravenous fluid administration. Review of postmarketing cases of precipitated opioid withdrawal in association with naltrexone treatment has identified cases with symptoms of withdrawal severe enough to require hospital admission, and in some cases, management in the intensive care unit.</paragraph>
+                        <paragraph>To prevent occurrence of precipitated withdrawal in patients dependent on opioids, or exacerbation of a pre-existing subclinical withdrawal syndrome, opioid-dependent patients, including those being treated for alcohol dependence, should be opioid-free (including tramadol) before starting naltrexone treatment. An opioid-free interval of a minimum of 7 to 10 days is recommended for patients previously dependent on short-acting opioids. Patients transitioning from buprenorphine or methadone may be vulnerable to precipitation of withdrawal symptoms for as long as two weeks.</paragraph>
+                        <paragraph>If a more rapid transition from agonist to antagonist therapy is deemed necessary and appropriate by the healthcare provider, monitor the patient closely in an appropriate medical setting where precipitated withdrawal can be managed.</paragraph>
+                        <paragraph>In every case, healthcare providers should always be prepared to manage withdrawal symptomatically with non-opioid medications because there is no completely reliable method for determining whether a patient has had an adequate opioid-free period. A naloxone challenge test may be helpful; however, a few case reports have indicated that patients may experience precipitated withdrawal despite having a negative urine toxicology screen or tolerating a naloxone challenge test (usually in the setting of transitioning from buprenorphine treatment). Patients should be made aware of the risks associated with precipitated withdrawal and encouraged to give an accurate account of last opioid use. Patients treated for alcohol dependence with naltrexone should also be assessed for underlying opioid dependence and for any recent use of opioids prior to initiation of treatment with naltrexone. Precipitated opioid withdrawal has been observed in alcohol-dependent patients in circumstances where the prescriber had been unaware of the additional use of opioids or co-dependence on opioids.</paragraph>
+                     </text>
+                     <effectiveTime value="20231207"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_fc8554a9-0279-4357-a801-05a9b7753d52">
+                     <id root="a2ff78b5-dd5f-41ea-a6bd-4e84095071ad"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Hepatotoxicity</title>
+                     <text>
+                        <paragraph>Cases of hepatitis and clinically significant liver dysfunction were observed in association with naltrexone exposure during the clinical development program and in the postmarketing period. Transient, asymptomatic hepatic transaminase elevations were also observed in the clinical trials and postmarketing period. When patients presented with elevated transaminases, there were often other potential causative or contributory etiologies identified, including pre-existing alcoholic liver disease, hepatitis B and/or C infection, and concomitant usage of other potentially hepatotoxic drugs. Although clinically significant liver dysfunction is not typically recognized as a manifestation of opioid withdrawal, opioid withdrawal that is precipitated abruptly may lead to systemic sequelae, including acute liver injury.</paragraph>
+                        <paragraph>Patients should be warned of the risk of hepatic injury and advised to seek medical attention if they experience symptoms of acute hepatitis. Use of naltrexone should be discontinued in the event of symptoms and/or signs of acute hepatitis.</paragraph>
+                     </text>
+                     <effectiveTime value="20231207"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_2528418f-1b02-47d0-997c-3f288f59d22f">
+                     <id root="be702ae8-b8e5-468e-bebc-ced8b9e8d617"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Depression and Suicidality</title>
+                     <text>
+                        <paragraph>Depression, suicide, attempted suicide and suicidal ideation have been reported in the postmarketing experience with naltrexone used in the treatment of opioid dependence. No causal relationship has been demonstrated. In the literature, endogenous opioids have been theorized to contribute to a variety of conditions.</paragraph>
+                        <paragraph> Alcohol- and opioid-dependent patients, including those taking naltrexone, should be monitored for the development of depression or suicidal thinking. Families and caregivers of patients being treated with naltrexone should be alerted to the need to monitor patients for the emergence of symptoms of depression or suicidality, and to report such symptoms to the patient’s healthcare provider.<br/>
+                        </paragraph>
+                     </text>
+                     <effectiveTime value="20231207"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_05297b9a-1447-4bbb-8b2c-0b5f46420492">
+                     <id root="e37e5f02-41f9-4bc7-a4e9-4ed1d2343d52"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Ultra Rapid Opioid Withdrawal</title>
+                     <text>
+                        <paragraph>Safe use of naltrexone in ultra rapid opiate detoxification programs has not been established (<content styleCode="italics">see </content>
+                           <content styleCode="bold">
+                              <linkHtml href="#LINK_1f03d544-dbca-4dfd-9140-2ac92cc6c154">ADVERSE REACTIONS</linkHtml>
+                           </content>).<br/>
+                        </paragraph>
+                     </text>
+                     <effectiveTime value="20231207"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_766b64e8-3e62-459e-9e0d-5f864ecfdcb2">
+               <id root="6e146b5e-c0f1-43e9-9763-a6cd3c4ca7c5"/>
+               <code code="42232-9" codeSystem="2.16.840.1.113883.6.1" displayName="PRECAUTIONS SECTION"/>
+               <title>PRECAUTIONS</title>
+               <text>
+                  <br/>
+               </text>
+               <effectiveTime value="20231207"/>
+               <component>
+                  <section ID="LINK_6ae7ecb5-976f-44ba-abf1-62f2bd088778">
+                     <id root="8bcecfb5-b0c9-4252-8dd2-1224e1ea1ddd"/>
+                     <code code="34072-9" codeSystem="2.16.840.1.113883.6.1" displayName="GENERAL PRECAUTIONS SECTION"/>
+                     <title>General</title>
+                     <text>
+                        <paragraph>
+                           <content styleCode="italics">When Reversal of Naltrexone Blockade is Required for Pain Management</content>
+                        </paragraph>
+                        <paragraph>In an emergency situation in patients receiving fully blocking doses of naltrexone, a suggested plan of management is regional analgesia, conscious sedation with a benzodiazepine, use of non-opioid analgesics or general anesthesia.<br/>
+                           <br/>In a situation requiring opioid analgesia, the amount of opioid required may be greater than usual, and the resulting respiratory depression may be deeper and more prolonged.<br/>
+                           <br/>A rapidly acting opioid analgesic which minimizes the duration of respiratory depression is preferred. The amount of analgesic administered should be titrated to the needs of the patient. Non-receptor mediated actions may occur and should be expected (e.g., facial swelling, itching, generalized erythema, or bronchoconstriction) presumably due to histamine release.<br/>
+                           <br/>Irrespective of the drug chosen to reverse naltrexone blockade, the patient should be monitored closely by appropriately trained personnel in a setting equipped and staffed for cardiopulmonary resuscitation.<br/>
+                        </paragraph>
+                     </text>
+                     <effectiveTime value="20231207"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_336e2bea-74ff-46ff-bba0-05a741d6528a">
+                     <id root="a7b4d156-eb9d-4159-8547-f1d11cc72686"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Special Risk Patients</title>
+                     <text>
+                        <paragraph>
+                           <content styleCode="italics">Renal Impairment</content>
+                        </paragraph>
+                        <paragraph>Naltrexone and its primary metabolite are excreted primarily in the urine, and caution is recommended in administering the drug to patients with renal impairment.<br/>
+                           <br/>
+                           <content styleCode="italics">Hepatic Impairment</content>
+                        </paragraph>
+                        <paragraph>An increase in naltrexone AUC of approximately 5- and 10-fold in patients with compensated and decompensated liver cirrhosis, respectively, compared with subjects with normal liver function has been reported. These data also suggest that alterations in naltrexone bioavailability are related to liver disease severity.</paragraph>
+                     </text>
+                     <effectiveTime value="20231207"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_c4f882ea-a5eb-485c-b7e4-d893cccdcc1d">
+                     <id root="f0008dcc-f269-476a-9026-31f6aab377a6"/>
+                     <code code="34076-0" codeSystem="2.16.840.1.113883.6.1" displayName="INFORMATION FOR PATIENTS SECTION"/>
+                     <title>Information for Patients</title>
+                     <text>
+                        <paragraph>It is recommended that the prescribing physician relate the following information to patients being treated with naltrexone:<br/>
+                           <br/>You have been prescribed naltrexone hydrochloride as part of the comprehensive treatment for your alcoholism or drug dependence. You should carry identification to alert medical personnel to the fact that you are taking naltrexone. A naltrexone medication card may be obtained from your physician and can be used for this purpose. Carrying the identification card should help to ensure that you can obtain adequate treatment in an emergency. If you require medical treatment, be sure to tell the treating physician that you are receiving naltrexone therapy. You should take naltrexone as directed by your physician.</paragraph>
+                        <list listType="unordered" styleCode="Disk">
+                           <item>Advise patients that if they previously used opioids, they may be more sensitive to lower doses of opioids and at risk of accidental overdose should they use opioids after naltrexone treatment is discontinued or temporarily interrupted. It is important that patients inform family members and the people closest to the patient of this increased sensitivity to opioids and the risk of overdose. </item>
+                           <item>Advise patients that because naltrexone can block the effects of opioids, patients will not perceive any effect if they attempt to self-administer heroin or any other opioid drug in small doses while on naltrexone. Further, emphasize that administration of large doses of heroin or any other opioid to try to bypass the blockade and get high while on naltrexone may lead to serious injury, coma, or death. </item>
+                           <item>Patients on naltrexone may not experience the expected effects from opioid-containing analgesic, antidiarrheal, or antitussive medications. </item>
+                           <item>Patients should be off all opioids, including opioid-containing medicines, for a minimum of 7 to 10 days before starting naltrexone in order to avoid precipitation of opioid withdrawal. Patients transitioning from buprenorphine or methadone may be vulnerable to precipitation of withdrawal symptoms for as long as two weeks. Ensure that patients understand that withdrawal precipitated by administration of an opioid antagonist may be severe enough to require hospitalization if they have not been opioid-free for an adequate period of time, and is different from the experience of spontaneous withdrawal that occurs with discontinuation of opioid in a dependent individual. Advise patients that they should not take naltrexone if they have any symptoms of opioid withdrawal. Advise all patients, including those with alcohol dependence, that it is imperative to notify healthcare providers of any recent use of opioids or any history of opioid dependence before starting naltrexone to avoid precipitation of opioid withdrawal. </item>
+                           <item>Advise patients that naltrexone may cause liver injury. Patients should immediately notify their physician if they develop symptoms and/or signs of liver disease. </item>
+                           <item>Advise patients that they may experience depression while taking naltrexone. It is important that patients inform family members and the people closest to the patient that they are taking naltrexone and that they should call a doctor right away should they become depressed or experience symptoms of depression. </item>
+                           <item>Advise patients that naltrexone has been shown to be effective only when used as part of a treatment program that includes counseling and support. </item>
+                           <item>Advise patients that dizziness may occur with naltrexone treatment, and they should avoid driving or operating heavy machinery until they have determined how naltrexone affects them.</item>
+                           <item>Advise patients to notify their physician if they:<list listType="unordered" styleCode="Circle">
+                                 <item>become pregnant or intend to become pregnant during treatment with naltrexone.</item>
+                                 <item>are breast-feeding.</item>
+                                 <item>experience other unusual or significant side effects while on naltrexone therapy. </item>
+                              </list>
+                           </item>
+                        </list>
+                     </text>
+                     <effectiveTime value="20231207"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_d4c9ff5d-5d5a-4888-b1b8-949f733f8a0f">
+                     <id root="e3bb57e1-c822-4d5d-9a78-be3b528b8267"/>
+                     <code code="34075-2" codeSystem="2.16.840.1.113883.6.1" displayName="LABORATORY TESTS SECTION"/>
+                     <title>Laboratory Tests</title>
+                     <text>
+                        <paragraph>Naltrexone does not interfere with thin-layer, gas-liquid, and high pressure liquid chromatographic methods which may be used for the separation and detection of morphine, methadone or quinine in the urine. Naltrexone may or may not interfere with enzymatic methods for the detection of opioids depending on the specificity of the test. Please consult the test manufacturer for specific details.<br/>
+                        </paragraph>
+                     </text>
+                     <effectiveTime value="20231207"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_cca9c9c3-4f7c-428f-b62e-97475ded9f6a">
+                     <id root="2fde1864-732b-45d2-ae59-93e1136ec845"/>
+                     <code code="34073-7" codeSystem="2.16.840.1.113883.6.1" displayName="DRUG INTERACTIONS SECTION"/>
+                     <title>Drug Interactions</title>
+                     <text>
+                        <paragraph>Studies to evaluate possible interactions between naltrexone and drugs other than opiates have not been performed. Consequently, caution is advised if the concomitant administration of naltrexone and other drugs is required.<br/>
+                        </paragraph>
+                        <paragraph>
+                           <br/>The safety and efficacy of concomitant use of naltrexone and disulfiram is unknown, and the concomitant use of two potentially hepatotoxic medications is not ordinarily recommended unless the probable benefits outweigh the known risks.<br/>
+                           <br/>Lethargy and somnolence have been reported following doses of naltrexone and thioridazine.<br/>
+                           <br/>Patients taking naltrexone may not benefit from opioid containing medicines, such as cough and cold preparations, antidiarrheal preparations, and opioid analgesics. In an emergency situation when opioid analgesia must be administered to a patient receiving naltrexone, the amount of opioid required may be greater than usual, and the resulting respiratory depression may be deeper and more prolonged (<content styleCode="italics">see </content>
+                           <content styleCode="bold">
+                              <linkHtml href="#LINK_766b64e8-3e62-459e-9e0d-5f864ecfdcb2">PRECAUTIONS</linkHtml>
+                           </content>).</paragraph>
+                     </text>
+                     <effectiveTime value="20231207"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_68a6d83e-233c-46c6-8591-cbe391c44a10">
+                     <id root="7bd1c6c3-76aa-4ae7-885b-a767731a94a2"/>
+                     <code code="34083-6" codeSystem="2.16.840.1.113883.6.1" displayName="CARCINOGENESIS &amp; MUTAGENESIS &amp; IMPAIRMENT OF FERTILITY SECTION"/>
+                     <title>Carcinogenesis, Mutagenesis and Impairment of Fertility</title>
+                     <text>
+                        <paragraph>The following statements are based on the results of experiments in mice and rats. The potential carcinogenic, mutagenic and fertility effects of the metabolite 6-β-naltrexol are unknown.<br/>
+                        </paragraph>
+                        <paragraph>
+                           <br/>In a two-year carcinogenicity study in rats, there were small increases in the numbers of testicular mesotheliomas in males and tumors of vascular origin in males and females. The incidence of mesothelioma in males given naltrexone at a dietary dose of 100 mg/kg/day (600 mg/m<sup>2</sup>/day; 16 times the recommended therapeutic dose, based on body surface area) was 6%, compared with a maximum historical incidence of 4%. The incidence of vascular tumors in males and females given dietary doses of 100 mg/kg/day (600 mg/m<sup>2</sup>/day) was 4%, but only the incidence in females was increased compared with a maximum historical control incidence of 2%. There was no evidence of carcinogenicity in a two-year dietary study with naltrexone in male and female mice.<br/>
+                           <br/>There was limited evidence of a weak genotoxic effect of naltrexone in one gene mutation assay in a mammalian cell line, in the <content styleCode="italics">Drosophila</content> recessive lethal assay, and in non-specific DNA repair tests with <content styleCode="italics">E. coli. </content>However, no evidence of genotoxic potential was observed in a range of other in vitro tests, including assays for gene mutation in bacteria, yeast, or in a second mammalian cell line, a chromosomal aberration assay, and an assay for DNA damage in human cells. Naltrexone did not exhibit clastogenicity in an in vivo mouse micronucleus assay.<br/>
+                           <br/>Naltrexone (100 mg/kg/day [600 mg/m<sup>2</sup>/day] PO; 16 times the recommended therapeutic dose, based on body surface area) caused a significant increase in pseudopregnancy in the rat. A decrease in the pregnancy rate of mated female rats also occurred. There was no effect on male fertility at this dose level. The relevance of these observations to human fertility is not known.</paragraph>
+                     </text>
+                     <effectiveTime value="20231207"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_1e023fce-ff8e-4125-8288-8587286daaa0">
+                     <id root="622bad88-0f43-41be-9e75-d7541002b62c"/>
+                     <code code="42228-7" codeSystem="2.16.840.1.113883.6.1" displayName="PREGNANCY SECTION"/>
+                     <title>Pregnancy</title>
+                     <text>
+                        <paragraph>
+                           <content styleCode="italics">Teratogenic Effects</content>
+                           <br/>
+                        </paragraph>
+                        <paragraph>Category C</paragraph>
+                        <paragraph>Naltrexone has been shown to increase the incidence of early fetal loss when given to rats at doses ≥ 30 mg/kg/day (180 mg/m<sup>2</sup>/day; 5 times the recommended therapeutic dose, based on body surface area) and to rabbits at oral doses ≥ 60 mg/kg/day (720 mg/m<sup>2</sup>/day; 18 times the recommended therapeutic dose, based on body surface area). There was no evidence of teratogenicity when naltrexone was administered orally to rats and rabbits during the period of major organogenesis at doses up to 200 mg/kg/day (32 and 65 times the recommended therapeutic dose, respectively, based on body surface area).<br/>
+                           <br/>Rats do not form appreciable quantities of the major human metabolite, 6-β-naltrexol; therefore, the potential reproductive toxicity of the metabolite in rats is not known.<br/>
+                           <br/>There are no adequate and well-controlled studies in pregnant women. Naltrexone should be used during pregnancy only if the potential benefit justifies the potential risk to the fetus.</paragraph>
+                     </text>
+                     <effectiveTime value="20231207"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_0272d868-8eb6-4de2-b8a7-c9c5cd86575a">
+                     <id root="b370a1b2-78cf-47e7-8ffe-21bd14f97a43"/>
+                     <code code="34079-4" codeSystem="2.16.840.1.113883.6.1" displayName="LABOR &amp; DELIVERY SECTION"/>
+                     <title>Labor and Delivery</title>
+                     <text>
+                        <paragraph>Whether or not naltrexone affects the duration of labor and delivery is unknown.<br/>
+                        </paragraph>
+                     </text>
+                     <effectiveTime value="20231207"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_a062117a-7d36-4dd4-b6a4-3c8247e074cf">
+                     <id root="dda4f5f7-2835-4e46-84ea-731121d62220"/>
+                     <code code="34080-2" codeSystem="2.16.840.1.113883.6.1" displayName="NURSING MOTHERS SECTION"/>
+                     <title>Nursing Mothers</title>
+                     <text>
+                        <paragraph>In animal studies, naltrexone and 6-β-naltrexol were excreted in the milk of lactating rats dosed orally with naltrexone. Whether or not naltrexone is excreted in human milk is unknown. Because many drugs are excreted in human milk, caution should be exercised when naltrexone is administered to a nursing woman.<br/>
+                        </paragraph>
+                     </text>
+                     <effectiveTime value="20231207"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_95c357d3-0a5d-4859-a860-5d6dbdbb8ba3">
+                     <id root="3f32416f-a694-4a25-9b7d-d5f9c173665f"/>
+                     <code code="34081-0" codeSystem="2.16.840.1.113883.6.1" displayName="PEDIATRIC USE SECTION"/>
+                     <title>Pediatric Use</title>
+                     <text>
+                        <paragraph>The safe use of naltrexone in pediatric patients younger than 18 years old has not been established.<br/>
+                        </paragraph>
+                     </text>
+                     <effectiveTime value="20231207"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_1f03d544-dbca-4dfd-9140-2ac92cc6c154">
+               <id root="1d2d0bc0-b723-4608-94ae-7c4360ff90a6"/>
+               <code code="34084-4" codeSystem="2.16.840.1.113883.6.1" displayName="ADVERSE REACTIONS SECTION"/>
+               <title>ADVERSE REACTIONS</title>
+               <text>
+                  <paragraph>During two randomized, double-blind placebo-controlled 12-week trials to evaluate the efficacy of naltrexone as an adjunctive treatment of alcohol dependence, most patients tolerated naltrexone well. In these studies, a total of 93 patients received naltrexone hydrochloride at a dose of 50 mg once daily. Five of these patients discontinued naltrexone because of nausea. No serious adverse events were reported during these two trials.<br/>
+                     <br/>While extensive clinical studies evaluating the use of naltrexone in detoxified, formerly opioid-dependent individuals failed to identify any single, serious untoward risk of naltrexone use, placebo-controlled studies employing up to five-fold higher doses of naltrexone hydrochloride (up to 300 mg per day) than that recommended for use in opiate receptor blockade have shown that naltrexone causes hepatocellular injury in a substantial proportion of patients exposed at higher doses (<content styleCode="italics">see </content>
+                     <content styleCode="bold">
+                        <linkHtml href="#LINK_c80de123-25c0-47f5-a934-4051e65b4fb3">WARNINGS</linkHtml>
+                     </content>
+                     <content styleCode="italics"> and </content>
+                     <content styleCode="bold">
+                        <linkHtml href="#LINK_d4c9ff5d-5d5a-4888-b1b8-949f733f8a0f">PRECAUTIONS, Laboratory Tests</linkHtml>
+                     </content>).<br/>
+                     <br/>Aside from this finding, and the risk of precipitated opioid withdrawal, available evidence does not incriminate naltrexone, used at any dose, as a cause of any other serious adverse reaction for the patient who is “opioid-free.” It is critical to recognize that naltrexone can precipitate or exacerbate abstinence signs and symptoms in any individual who is not completely free of exogenous opioids.<br/>
+                     <br/>Patients with addictive disorders, especially opioid addiction, are at risk for multiple numerous adverse events and abnormal laboratory findings, <content styleCode="underline">including liver function abnormalities</content>. Data from both controlled and observational studies suggest that these abnormalities, other than the dose-related hepatotoxicity described above, are not related to the use of naltrexone.<br/>
+                     <br/>Among opioid-free individuals, naltrexone administration at the recommended dose has not been associated with a predictable profile of serious adverse or untoward events. However, as mentioned above, among individuals using opioids, naltrexone may cause serious withdrawal reactions (<content styleCode="italics">see </content>
+                     <linkHtml href="#LINK_23fac4db-3af1-43b8-a260-27460096f6eb">CONTRAINDICATIONS</linkHtml>, <content styleCode="bold">
+                        <linkHtml href="#LINK_c80de123-25c0-47f5-a934-4051e65b4fb3">WARNINGS</linkHtml>
+                     </content>
+                     <content styleCode="italics"> and </content>
+                     <content styleCode="bold">
+                        <linkHtml href="#LINK_433bc200-4f3a-481d-b1c9-774374652f27">DOSAGE AND ADMINISTRATION</linkHtml>
+                     </content>).<br/>
+                     <br/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20231207"/>
+               <component>
+                  <section ID="LINK_bbd99e16-a295-43a6-be39-9ec40cbf2ac4">
+                     <id root="206354ad-49d9-4f64-bb02-b71301a6405b"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Reported Adverse Events</title>
+                     <text>
+                        <paragraph>Naltrexone has not been shown to cause significant increases in complaints in placebo-controlled trials in patients known to be free of opioids for more than 7 to 10 days. Studies in alcoholic populations and in volunteers in clinical pharmacology studies have suggested that a small fraction of patients may experience an opioid withdrawal-like symptom complex consisting of tearfulness, mild nausea, abdominal cramps, restlessness, bone or joint pain, myalgia, and nasal symptoms. This may represent the unmasking of occult opioid use, or it may represent symptoms attributable to naltrexone. A number of alternative dosing patterns have been recommended to try to reduce the frequency of these complaints.</paragraph>
+                     </text>
+                     <effectiveTime value="20231207"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_1a7ac16e-de3a-42b9-9e4a-2ee66b49f9f7">
+                     <id root="52f43811-dc48-427a-b168-faccc503da02"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Alcoholism</title>
+                     <text>
+                        <paragraph>In an open label safety study with approximately 570 individuals with alcoholism receiving naltrexone, the following new-onset adverse reactions occurred in 2% or more of the patients: nausea (10%), headache (7%), dizziness (4%), nervousness (4%), fatigue (4%), insomnia (3%), vomiting (3%), anxiety (2%) and somnolence (2%).<br/>
+                           <br/>Depression, suicidal ideation, and suicidal attempts have been reported in all groups when comparing naltrexone, placebo, or controls undergoing treatment for alcoholism.</paragraph>
+                        <table>
+                           <caption>RATE RANGES OF NEW ONSET EVENTS</caption>
+                           <col/>
+                           <col/>
+                           <col/>
+                           <tbody>
+                              <tr>
+                                 <td valign="top" styleCode="     Botrule          Toprule         Lrule          Rrule     "> </td>
+                                 <td valign="top" styleCode="     Botrule          Toprule         Lrule          Rrule     "> Naltrexone</td>
+                                 <td valign="top" styleCode="     Botrule          Toprule         Lrule          Rrule     "> Placebo</td>
+                              </tr>
+                              <tr>
+                                 <td valign="top" styleCode="     Botrule          Toprule         Lrule          Rrule     "> Depression</td>
+                                 <td valign="top" styleCode="     Botrule          Toprule         Lrule          Rrule     "> 0 to 15%</td>
+                                 <td valign="top" styleCode="     Botrule          Toprule         Lrule          Rrule     "> 0 to 17%</td>
+                              </tr>
+                              <tr>
+                                 <td valign="top" styleCode="     Botrule          Toprule         Lrule          Rrule     "> Suicide Attempt/Ideation</td>
+                                 <td valign="top" styleCode="     Botrule          Toprule         Lrule          Rrule     "> 0 to 1%</td>
+                                 <td valign="top" styleCode="     Botrule          Toprule         Lrule          Rrule     "> 0 to 3%</td>
+                              </tr>
+                           </tbody>
+                        </table>
+                        <paragraph>Although no causal relationship with naltrexone is suspected, physicians should be aware that treatment with naltrexone does not reduce the risk of suicide in these patients (<content styleCode="italics">see </content>
+                           <content styleCode="bold">
+                              <linkHtml href="#LINK_766b64e8-3e62-459e-9e0d-5f864ecfdcb2">PRECAUTIONS</linkHtml>
+                           </content>).</paragraph>
+                     </text>
+                     <effectiveTime value="20231207"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_3d2ec077-e960-4d0f-8bbd-b218efe586c8">
+                     <id root="11d18bfa-494c-4e79-9fce-21bc27cff9d2"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Opioid Addiction</title>
+                     <text>
+                        <paragraph>The following adverse reactions have been reported both at baseline and during the naltrexone clinical trials in opioid addiction at an incidence rate of more than 10%:<br/>
+                           <br/>Difficulty sleeping, anxiety, nervousness, abdominal pain/cramps, nausea and/or vomiting, low energy, joint and muscle pain, and headache.<br/>
+                           <br/>The incidence was less than 10% for:<br/>
+                           <br/>Loss of appetite, diarrhea, constipation, increased thirst, increased energy, feeling down, irritability, dizziness, skin rash, delayed ejaculation, decreased potency, and chills.<br/>
+                           <br/>The following events occurred in less than 1% of subjects:<br/>
+                           <br/>
+                           <content styleCode="italics">Respiratory</content>
+                        </paragraph>
+                        <paragraph>Nasal congestion, itching, rhinorrhea, sneezing, sore throat, excess mucus or phlegm, sinus trouble, heavy breathing, hoarseness, cough, shortness of breath.<br/>
+                           <br/>
+                           <content styleCode="italics">Cardiovascular</content>
+                        </paragraph>
+                        <paragraph>Nose bleeds, phlebitis, edema, increased blood pressure, non-specific ECG changes, palpitations, tachycardia.<br/>
+                           <br/>
+                           <content styleCode="italics">Gastrointestinal</content>
+                        </paragraph>
+                        <paragraph>Excessive gas, hemorrhoids, diarrhea, ulcer.<br/>
+                           <br/>
+                           <content styleCode="italics">Musculoskeletal</content>
+                           <br/>Painful shoulders, legs or knees; tremors, twitching.<br/>
+                           <br/>
+                           <content styleCode="italics">Genitourinary</content>
+                           <br/>Increased frequency of, or discomfort during, urination; increased or decreased sexual interest.<br/>
+                           <br/>
+                           <content styleCode="italics">Dermatologic</content>
+                        </paragraph>
+                        <paragraph>Oily skin, pruritus, acne, athlete’s foot, cold sores, alopecia.<br/>
+                           <br/>
+                           <content styleCode="italics">Psychiatric</content>
+                        </paragraph>
+                        <paragraph>Depression, paranoia, fatigue, restlessness, confusion, disorientation, hallucinations, nightmares, bad dreams.<br/>
+                           <br/>
+                           <content styleCode="italics">Special senses</content>
+                        </paragraph>
+                        <paragraph>Eyes-blurred, burning, light sensitive, swollen, aching, strained; ears “clogged”, aching, tinnitus.<br/>
+                           <br/>
+                           <content styleCode="italics">General</content>
+                        </paragraph>
+                        <paragraph>Increased appetite, weight loss, weight gain, yawning, somnolence, fever, dry mouth, head “pounding”, inguinal pain, swollen glands, “side” pains, cold feet, “hot spells.”<br/>
+                           <br/>
+                           <content styleCode="italics">Postmarketing Experience</content>
+                        </paragraph>
+                        <paragraph>Data collected from postmarketing use of naltrexone show that most events usually occur early in the course of drug therapy and are transient. It is not always possible to distinguish these occurrences from those signs and symptoms that may result from a withdrawal syndrome. Events that have been reported include anorexia, asthenia, chest pain, fatigue, headache, hot flashes, malaise, changes in blood pressure, agitation, dizziness, hyperkinesia, nausea, vomiting, tremor, abdominal pain, diarrhea, palpitations, myalgia, anxiety, confusion, euphoria, hallucinations, insomnia, nervousness, somnolence, abnormal thinking, dyspnea, rash, increased sweating, vision abnormalities, and idiopathic thrombocytopenic purpura.<br/>
+                           <br/>In some individuals the use of opioid antagonists has been associated with a change in baseline levels of some hypothalamic, pituitary, adrenal, or gonadal hormones. The clinical significance of such changes is not fully understood.<br/>
+                           <br/>Adverse events, including withdrawal symptoms and death, have been reported with the use of naltrexone in ultra rapid opiate detoxification programs. The cause of death in these cases is not known (<content styleCode="italics">see </content>
+                           <content styleCode="bold">
+                              <linkHtml href="#LINK_c80de123-25c0-47f5-a934-4051e65b4fb3">WARNINGS</linkHtml>
+                           </content>).<br/>
+                           <br/>
+                           <content styleCode="italics">Laboratory Tests</content>
+                        </paragraph>
+                        <paragraph>In a placebo controlled study in which naltrexone was administered to obese subjects at a dose approximately five-fold that recommended for the blockade of opiate receptors (300 mg per day), 19% (5/26) of naltrexone recipients and 0% (0/24) of placebo-treated patients developed elevations of serum transaminases (i.e., peak ALT values ranging from 121 to 532; or 3 to 19 times their baseline values) after three to eight weeks of treatment. The patients involved were generally clinically asymptomatic, and the transaminase levels of all patients on whom follow-up was obtained returned to (or toward) baseline values in a matter of weeks.</paragraph>
+                        <paragraph> Transaminase elevations were also observed in other placebo controlled studies in which exposure to naltrexone at doses above the amount recommended for the treatment of alcoholism or opioid blockade consistently produced more numerous and more significant elevations of serum transaminases than did placebo. Transaminase elevations occurred in 3 of 9 patients with Alzheimer’s Disease who received naltrexone (at doses up to 300 mg/day) for 5 to 8 weeks in an open clinical trial.<br/>
+                        </paragraph>
+                     </text>
+                     <effectiveTime value="20231207"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_86fff1b3-6f18-4bf8-995f-eeb0b0ccaa6c">
+               <id root="c8bb4145-bf5e-4b69-b0fa-83e20bb978df"/>
+               <code code="42227-9" codeSystem="2.16.840.1.113883.6.1" displayName="DRUG ABUSE AND DEPENDENCE SECTION"/>
+               <title>DRUG ABUSE AND DEPENDENCE</title>
+               <text>
+                  <paragraph>Naltrexone is a pure opioid antagonist. It does not lead to physical or psychological dependence. Tolerance to the opioid antagonist effect is not known to occur.</paragraph>
+               </text>
+               <effectiveTime value="20231207"/>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_e5516914-ce22-4660-a2c2-c82ab007458c">
+               <id root="3ecbaf9d-6a3b-4bdc-a738-2d7a6cae2548"/>
+               <code code="34088-5" codeSystem="2.16.840.1.113883.6.1" displayName="OVERDOSAGE SECTION"/>
+               <title>OVERDOSAGE</title>
+               <text>
+                  <paragraph>There is limited clinical experience with naltrexone overdosage in humans. In one study, subjects who received 800 mg daily naltrexone hydrochloride for up to one week showed no evidence of toxicity.</paragraph>
+                  <paragraph>In the mouse, rat and guinea pig, the oral LD50s were 1,100 to 1,550 mg/kg; 1,450 mg/kg; and 1,490 mg/kg; respectively. High doses of naltrexone hydrochloride (generally ≥ 1,000 mg/kg) produced salivation, depression/reduced activity, tremors, and convulsions. Mortalities in animals due to high-dose naltrexone administration usually were due to clonic-tonic convulsions and/or respiratory failure.<br/>
+                     <br/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20231207"/>
+               <component>
+                  <section ID="LINK_480633ef-c8dd-42f8-943a-8403e2d6ee1e">
+                     <id root="b2b01299-bc26-4aae-869c-05a678463fe8"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Treatment of Overdosage</title>
+                     <text>
+                        <paragraph>In view of the lack of actual experience in the treatment of naltrexone hydrochloride overdose, patients should be treated symptomatically in a closely supervised environment. Physicians should contact a poison control center for the most up-to-date information.</paragraph>
+                     </text>
+                     <effectiveTime value="20231207"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_433bc200-4f3a-481d-b1c9-774374652f27">
+               <id root="710db7f6-6de8-4ae8-8548-5d215a598f1c"/>
+               <code code="34068-7" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE &amp; ADMINISTRATION SECTION"/>
+               <title>DOSAGE AND ADMINISTRATION</title>
+               <text>
+                  <paragraph>To reduce the risk of precipitated withdrawal in patients dependent on opioids, or exacerbation of a preexisting subclinical withdrawal syndrome, opioid-dependent patients, including those being treated for alcohol dependence, should be opioid-free (including tramadol) before starting naltrexone treatment. An opioid-free interval of a minimum of 7 to 10 days is recommended for patients previously dependent on short-acting opioids. </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Switching from Buprenorphine, Buprenorphine/Naloxone, or Methadone</content>
+                  </paragraph>
+                  <paragraph> There are no systematically collected data that specifically address the switch from buprenorphine or methadone to naltrexone; however, review of postmarketing case reports have indicated that some patients may experience severe manifestations of precipitated withdrawal when being switched from opioid agonist therapy to opioid antagonist therapy (<content styleCode="italics">see </content>
+                     <content styleCode="bold">
+                        <linkHtml href="#LINK_c80de123-25c0-47f5-a934-4051e65b4fb3">WARNINGS</linkHtml>
+                     </content>). Patients transitioning from buprenorphine or methadone may be vulnerable to precipitation of withdrawal symptoms for as long as 2 weeks. Healthcare providers should be prepared to manage withdrawal symptomatically with non-opioid medications.</paragraph>
+               </text>
+               <effectiveTime value="20231207"/>
+               <component>
+                  <section ID="LINK_5bdde5b1-4b7f-4b83-9a4d-1391692f6a64">
+                     <id root="ca68692d-a5b3-44ca-b2fe-b2a180fdfa72"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Treatment of Alcoholism</title>
+                     <text>
+                        <paragraph>A dose of 50 mg once daily is recommended for most patients. The placebo-controlled studies that demonstrated the efficacy of naltrexone as an adjunctive treatment of alcoholism used a dose regimen of naltrexone 50 mg once daily for up to 12 weeks. Other dose regimens or durations of therapy were not evaluated in these trials.</paragraph>
+                        <paragraph> Naltrexone should be considered as only one of many factors determining the success of treatment of alcoholism. Factors associated with a good outcome in the clinical trials with naltrexone were the type, intensity, and duration of treatment; appropriate management of comorbid conditions; use of community-based support groups; and good medication compliance. To achieve the best possible treatment outcome, appropriate compliance-enhancing techniques should be implemented for all components of the treatment program, especially medication compliance.</paragraph>
+                     </text>
+                     <effectiveTime value="20231207"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_b5692bed-08c2-4d0d-aece-96c2252be1b5">
+                     <id root="55cc6c08-e7d4-412a-b0f8-0174c0beab85"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Treatment of Opioid Dependence</title>
+                     <text>
+                        <paragraph>Treatment should be initiated with an initial dose of 25 mg of naltrexone. If no withdrawal signs occur, the patient may be started on 50 mg a day thereafter.</paragraph>
+                        <paragraph>A dose of 50 mg once a day will produce adequate clinical blockade of the actions of parenterally administered opioids. As with many non-agonist treatments for addiction, naltrexone is of proven value only when given as part of a comprehensive plan of management that includes some measure to ensure the patient takes the medication.</paragraph>
+                     </text>
+                     <effectiveTime value="20231207"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_640ab4f7-dcf8-4651-8524-67f642cc0bb0">
+                     <id root="a6331304-96cd-4819-8e7d-341025d2036f"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Naloxone Challenge Test</title>
+                     <text>
+                        <paragraph>Clinicians are reminded that there is no completely reliable method for determining whether a patient has had an adequate opioid-free period. A naloxone challenge test may be helpful if there is any question of occult opioid dependence. If signs of opioid withdrawal are still observed following naloxone challenge, treatment with naltrexone should not be attempted. The naloxone challenge can be repeated in 24 hours.</paragraph>
+                        <paragraph> The naloxone challenge test should not be performed in a patient showing clinical signs or symptoms of opioid withdrawal, or in a patient whose urine contains opioids. The naloxone challenge test may be administered by either the intravenous or subcutaneous routes.</paragraph>
+                        <paragraph>
+                           <content styleCode="bold">Intravenous</content>
+                        </paragraph>
+                        <paragraph>Inject 0.2 mg naloxone.</paragraph>
+                        <paragraph>Observe for 30 seconds for signs or symptoms of withdrawal.</paragraph>
+                        <paragraph>If no evidence of withdrawal, inject 0.6 mg of naloxone. </paragraph>
+                        <paragraph>Observe for an additional 20 minutes.</paragraph>
+                        <paragraph>
+                           <content styleCode="bold">Subcutaneous</content>
+                        </paragraph>
+                        <paragraph>Administer 0.8 mg naloxone.</paragraph>
+                        <paragraph>Observe for 20 minutes for signs or symptoms of withdrawal.</paragraph>
+                        <paragraph>Note: Individual patients, especially those with opioid dependence, may respond to lower doses of naloxone. In some cases, 0.1 mg IV naloxone has produced a diagnostic response.</paragraph>
+                        <paragraph>
+                           <content styleCode="bold">Interpretation of the Challenge</content>
+                        </paragraph>
+                        <paragraph>Monitor vital signs and observe the patient for signs and symptoms of opioid withdrawal. These may include, but are not limited to: nausea, vomiting, dysphoria, yawning, sweating, tearing, rhinorrhea, stuffy nose, craving for opioids, poor appetite, abdominal cramps, sense of fear, skin erythema, disrupted sleep patterns, fidgeting, uneasiness, poor ability to focus, mental lapses, muscle aches or cramps, pupillary dilation, piloerection, fever, changes in blood pressure, pulse or temperature, anxiety, depression, irritability, backache, bone or joint pains, tremors, sensations of skin crawling or fasciculations. If signs or symptoms of withdrawal appear, the test is positive and no additional naloxone should be administered.</paragraph>
+                        <paragraph>
+                           <content styleCode="underline">Warning: If the test is positive, do NOT initiate naltrexone therapy.</content> Repeat the challenge in 24 hours. If the test is negative, naltrexone therapy may be started if no other contraindications are present. If there is any doubt about the result of the test, hold naltrexone and repeat the challenge in 24 hours.</paragraph>
+                     </text>
+                     <effectiveTime value="20231207"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_ad66b9c5-79cb-42b9-a5db-3ea82f91a6b8">
+                     <id root="51958025-f0ff-4fa1-a0f4-16c857483723"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Alternative Dosing Schedules</title>
+                     <text>
+                        <paragraph>A flexible approach to a dosing regimen may need to be employed in cases of supervised administration. Thus, patients may receive 50 mg of naltrexone hydrochloride every weekday with a 100 mg dose on Saturday, 100 mg every other day, or 150 mg every third day. The degree of blockade produced by naltrexone may be reduced by these extended dosing intervals.<br/>
+                           <br/>There may be a higher risk of hepatocellular injury with single doses above 50 mg, and use of higher doses and extended dosing intervals should balance the possible risks against the probable benefits (<content styleCode="italics">see </content>
+                           <content styleCode="bold">
+                              <linkHtml href="#LINK_c80de123-25c0-47f5-a934-4051e65b4fb3">WARNINGS</linkHtml>
+                           </content>).<br/>
+                        </paragraph>
+                     </text>
+                     <effectiveTime value="20231207"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_2c4930a2-d860-470c-97a9-a08dfc9b7ed9">
+                     <id root="969b4024-3d9b-4063-af6f-7607844aa508"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Patient Compliance</title>
+                     <text>
+                        <paragraph>Naltrexone should be considered as only one of many factors determining the success of treatment. To achieve the best possible treatment outcome, appropriate compliance-enhancing techniques should be implemented for all components of the treatment program, including medication compliance.</paragraph>
+                     </text>
+                     <effectiveTime value="20231207"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_d80b4599-056d-4c45-b318-40f616c83d7f">
+               <id root="4d987f6d-a035-40a1-bb3b-5b685681c23a"/>
+               <code code="34069-5" codeSystem="2.16.840.1.113883.6.1" displayName="HOW SUPPLIED SECTION"/>
+               <title>HOW SUPPLIED</title>
+               <text>
+                  <paragraph>Naltrexone Hydrochloride Tablets USP 50 mg are available as a yellow film coated capsule-shaped tablet with a convex surface, debossed with a number “50” and a full bisect in between the 5 and 0 on one side and “1170” on the other side.<br/>
+                     <br/>Bottles of 30……………NDC 0406-1170-03 <br/>Bottles of 100…………..NDC 0406-1170-01<br/>
+                     <br/>Store at 20° to 25°C (68° to 77°F) [see USP Controlled Room Temperature].</paragraph>
+                  <paragraph>Dispense in a tight container.<br/>
+                     <br/>Mallinckrodt, the “M” brand mark and the Mallinckrodt Pharmaceuticals logo are trademarks of a Mallinckrodt company. </paragraph>
+                  <paragraph>© 2022 Mallinckrodt.</paragraph>
+                  <paragraph>SpecGx LLC<br/>Webster Groves, MO 63119 USA</paragraph>
+                  <paragraph> Rev 07/2022                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Mallinckrodt™</content>
+                     <br/>Pharmaceuticals</paragraph>
+               </text>
+               <effectiveTime value="20231207"/>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_1886025f-0f3b-44cf-8911-aba4310a77f9">
+               <id root="74a55287-75b3-44a3-8f22-fe8ab2cf51e3"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>PACKAGE LABEL - PRINCIPAL DISPLAY PANEL - 50 mg</title>
+               <text>
+                  <paragraph>NDC 0406-1170-01</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">100 TABLETS</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Naltrexone<br/>Hydrochloride<br/>Tablets USP</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">50 mg</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Rx only</content>
+                     <br/>
+                     <br/>Each tablet contains:<br/>Naltrexone Hydrochloride USP . . . . . . 50 mg</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Mallinckrodt™</content>
+                  </paragraph>
+                  <paragraph>L00N02<br/>Rev 07/2017</paragraph>
+                  <renderMultiMedia referencedObject="MM2"/>
+               </text>
+               <effectiveTime value="20231207"/>
+               <component>
+                  <observationMedia ID="MM2">
+                     <text>PRINCIPAL DISPLAY PANEL - 50 mg</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="naltrexone-hydrochloride-2.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

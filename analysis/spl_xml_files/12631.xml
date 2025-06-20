@@ -1,0 +1,2150 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="https://www.accessdata.fda.gov/spl/stylesheet/spl.xsl" type="text/xsl"?>
+<document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:hl7-org:v3" xsi:schemaLocation="urn:hl7-org:v3 https://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="25893c92-c8f1-567a-e063-6294a90a00d4"/>
+   <code code="34391-3" codeSystem="2.16.840.1.113883.6.1" displayName="HUMAN PRESCRIPTION DRUG LABEL"/>
+   <title>Flurazepam Hydrochloride Capsules, USP
+ <br/>
+      <br/>
+These highlights do not include all the information needed to use FLURAZEPAM HYDROCHLORIDE CAPSULES safely and effectively. See full prescribing information for FLURAZEPAM HYDROCHLORIDE CAPSULES.
+ <br/>
+      <br/>
+FLURAZEPAM HYDROCHLORIDE capsules, for oral use CIV
+ <br/>
+Initial U.S. Approval: 1970
+</title>
+   <effectiveTime value="20241028"/>
+   <setId root="8f476891-1346-4e8c-ac1b-f8cbdc64f5a1"/>
+   <versionNumber value="3"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id root="1.3.6.1.4.1.519.1" extension="079394054"/>
+            <name>Chartwell RX, LLC</name>
+            <assignedEntity>
+               <assignedOrganization/>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section>
+               <id root="258975f9-8836-55c8-e063-6294a90a7655"/>
+               <code code="48780-1" codeSystem="2.16.840.1.113883.6.1" displayName="SPL product data elements section"/>
+               <effectiveTime value="20241028"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="62135-736" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>Flurazepam Hydrochloride</name>
+                        <formCode code="C25158" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CAPSULE"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>Flurazepam Hydrochloride</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="3SY5LH9PMK" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>ANHYDROUS LACTOSE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="ETJ7Z6XBU4" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SILICON DIOXIDE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="H3R47K3TBD" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>FD&amp;C BLUE NO. 1</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="PN2ZH5LOQY" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>FD&amp;C RED NO. 3</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="2G86QN327L" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>GELATIN, UNSPECIFIED</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="3OWL53L36A" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>MANNITOL</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="70097M6I30" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>MAGNESIUM STEARATE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="7SEV7J4R1U" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>TALC</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="15FIX9V2JP" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>TITANIUM DIOXIDE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="XM0M87F357" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>FERROSOFERRIC OXIDE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="8PJ61P6TS3" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>BUTYL ALCOHOL</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="3K9958V90M" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>ALCOHOL</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="ND2M416302" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>ISOPROPYL ALCOHOL</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="WZH3C48M4T" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>POTASSIUM HYDROXIDE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="6DC9Q167V3" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>PROPYLENE GLYCOL</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="46N107B71O" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SHELLAC</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="5138Q19F1X" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>AMMONIA</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="059QF0KO0R" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>WATER</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator unit="mg" value="15"/>
+                              <denominator unit="1" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="756RDM536M" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>FLURAZEPAM HYDROCHLORIDE</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="IHP475989U" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>FLURAZEPAM</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator value="30" unit="1"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="62135-736-30" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43169" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BOTTLE"/>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                           <subjectOf>
+                              <marketingAct>
+                                 <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 <statusCode code="active"/>
+                                 <effectiveTime>
+                                    <low value="20231219"/>
+                                 </effectiveTime>
+                              </marketingAct>
+                           </subjectOf>
+                        </asContent>
+                        <asContent>
+                           <quantity>
+                              <numerator value="90" unit="1"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="62135-736-90" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43169" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BOTTLE"/>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                           <subjectOf>
+                              <marketingAct>
+                                 <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 <statusCode code="active"/>
+                                 <effectiveTime>
+                                    <low value="20230908"/>
+                                 </effectiveTime>
+                              </marketingAct>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <id extension="ANDA072368" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73584" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ANDA"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="19890330"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLCOLOR" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value code="C48333" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="blue" xsi:type="CE">
+                              <originalText>cap</originalText>
+                           </value>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLCOLOR" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value code="C48325" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="white" xsi:type="CE">
+                              <originalText>body</originalText>
+                           </value>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSHAPE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value code="C48336" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CAPSULE" xsi:type="CE">
+                              <originalText>Size #2 hard gelatin capsules</originalText>
+                           </value>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSIZE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value unit="mm" value="18" xsi:type="PQ"/>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSCORE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value value="1" xsi:type="INT"/>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLIMPRINT" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value xsi:type="ST">CE;28</value>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <policy classCode="DEADrugSchedule">
+                           <code code="C48677" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CIV"/>
+                        </policy>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38288" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ORAL"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="62135-737" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>Flurazepam Hydrochloride</name>
+                        <formCode code="C25158" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CAPSULE"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>Flurazepam Hydrochloride</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="3SY5LH9PMK" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>ANHYDROUS LACTOSE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="ETJ7Z6XBU4" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SILICON DIOXIDE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="H3R47K3TBD" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>FD&amp;C BLUE NO. 1</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="PN2ZH5LOQY" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>FD&amp;C RED NO. 3</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="2G86QN327L" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>GELATIN, UNSPECIFIED</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="3OWL53L36A" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>MANNITOL</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="70097M6I30" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>MAGNESIUM STEARATE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="7SEV7J4R1U" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>TALC</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="15FIX9V2JP" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>TITANIUM DIOXIDE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="XM0M87F357" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>FERROSOFERRIC OXIDE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="8PJ61P6TS3" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>BUTYL ALCOHOL</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="3K9958V90M" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>ALCOHOL</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="ND2M416302" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>ISOPROPYL ALCOHOL</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="WZH3C48M4T" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>POTASSIUM HYDROXIDE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="6DC9Q167V3" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>PROPYLENE GLYCOL</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="46N107B71O" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SHELLAC</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="5138Q19F1X" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>AMMONIA</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="059QF0KO0R" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>WATER</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator unit="mg" value="30"/>
+                              <denominator unit="1" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="756RDM536M" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>FLURAZEPAM HYDROCHLORIDE</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="IHP475989U" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>FLURAZEPAM</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator value="30" unit="1"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="62135-737-30" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43169" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BOTTLE"/>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                           <subjectOf>
+                              <marketingAct>
+                                 <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 <statusCode code="active"/>
+                                 <effectiveTime>
+                                    <low value="20231219"/>
+                                 </effectiveTime>
+                              </marketingAct>
+                           </subjectOf>
+                        </asContent>
+                        <asContent>
+                           <quantity>
+                              <numerator value="90" unit="1"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="62135-737-90" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43169" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BOTTLE"/>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                           <subjectOf>
+                              <marketingAct>
+                                 <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 <statusCode code="active"/>
+                                 <effectiveTime>
+                                    <low value="20230908"/>
+                                 </effectiveTime>
+                              </marketingAct>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <id extension="ANDA072369" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73584" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ANDA"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="19890330"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLCOLOR" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value code="C48333" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="blue" xsi:type="CE">
+                              <originalText>cap</originalText>
+                           </value>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLCOLOR" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value code="C48325" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="white" xsi:type="CE">
+                              <originalText>body</originalText>
+                           </value>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSHAPE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value code="C48336" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CAPSULE" xsi:type="CE">
+                              <originalText>Size #2 hard gelatin capsules</originalText>
+                           </value>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSIZE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value unit="mm" value="18" xsi:type="PQ"/>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSCORE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value value="1" xsi:type="INT"/>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLIMPRINT" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value xsi:type="ST">CE;29</value>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <policy classCode="DEADrugSchedule">
+                           <code code="C48677" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CIV"/>
+                        </policy>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38288" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ORAL"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section ID="Labe1bf30-627a-4109-a0c3-ff71100dca2a">
+               <id root="0cde3360-2531-8f14-e063-6394a90a4307"/>
+               <code code="34066-1" codeSystem="2.16.840.1.113883.6.1" displayName="BOXED WARNING SECTION"/>
+               <title>WARNING: RISKS FROM CONCOMITANT USE WITH OPIOIDS; ABUSE, MISUSE, AND ADDICTION; and DEPENDENCE AND WITHDRAWAL REACTIONS</title>
+               <text>
+                  <list listType="unordered">
+                     <item>
+                        <content styleCode="bold">Concomitant use of benzodiazepines and opioids may result in profound sedation, respiratory depression, coma, and death. Reserve concomitant prescribing of these drugs in patients for whom alternative treatment options are inadequate. Limit dosages and durations to the minimum required. Follow patients for signs and symptoms of respiratory depression and sedation [see
+   
+    <content styleCode="italics">Warnings and Precautions (
+    
+     <linkHtml href="#L3e934bdb-6043-4bef-846d-af3aaee6ca1d">5.1</linkHtml>)
+   
+    </content>and
+   
+    <content styleCode="italics">Drug Interactions (
+    
+     <linkHtml href="#Lae6d034e-7f46-4c22-b67c-15c719debe75">7.1</linkHtml>)
+   
+    </content>].
+  
+   </content>
+                     </item>
+                     <item>
+                        <content styleCode="bold">The use of benzodiazepines, including flurazepam hydrochloride capsules, exposes users to risks of abuse, misuse, and addiction, which can lead to overdose or death. Abuse and misuse of benzodiazepines commonly involve concomitant use of other medications, alcohol, and/or illicit substances, which is associated with an increased frequency of serious adverse outcomes. Before prescribing flurazepam hydrochloride capsules, and throughout treatment, assess each patient’s risk for abuse, misuse, and addiction [
+   
+    <content styleCode="italics">see Warnings and Precautions (
+    
+     <linkHtml href="#L6fac83ed-6b07-4c4e-94b5-3bc0de4c79c2">5.2</linkHtml>)
+   
+    </content>].
+  
+   </content>
+                     </item>
+                     <item>
+                        <content styleCode="bold">The continued use of benzodiazepines, including flurazepam hydrochloride capsules, may lead to clinically significant physical dependence. The risks of dependence and withdrawal increase with longer treatment duration and higher daily dose. Abrupt discontinuation or rapid dosage reduction of flurazepam hydrochloride capsules after continued use may precipitate acute withdrawal reactions, which can be life-threatening. To reduce the risk of withdrawal reactions, use a gradual taper to discontinue flurazepam hydrochloride capsules or reduce the dosage [
+   
+    <content styleCode="italics">see Dosage and Administration (
+    
+     <linkHtml href="#L0afa24e1-5d6b-4407-ab4f-7667b406c7ed">2.3</linkHtml>) and Warnings and Precautions (
+    
+     <linkHtml href="#L234a3137-c60b-48cc-a0ca-cfce15a900e9">5.3</linkHtml>)
+   
+    </content>].
+  
+   </content>
+                     </item>
+                  </list>
+               </text>
+               <effectiveTime value="20230911"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <paragraph>
+                           <content styleCode="bold">WARNING: RISKS FROM CONCOMITANT USE WITH OPIOIDS; ABUSE, MISUSE, AND ADDICTION; and DEPENDENCE AND WITHDRAWAL REACTIONS</content>
+                        </paragraph>
+                        <paragraph>
+                           <content styleCode="bold">
+                              <content styleCode="italics">See full prescribing information for complete boxed warning.</content>
+                           </content>
+                        </paragraph>
+                        <list listType="unordered">
+                           <item>
+                              <content styleCode="bold">Concomitant use of benzodiazepines and opioids may result in </content>
+                              <content styleCode="bold">profound sedation, respiratory depression, coma, and death. </content>
+                              <content styleCode="bold">Reserve concomitant prescribing of these drugs in patients for </content>
+                              <content styleCode="bold">whom alternative treatment options are inadequate. Limit dosages </content>
+                              <content styleCode="bold">and durations to the minimum required. Follow patients for signs </content>
+                              <content styleCode="bold">and symptoms of respiratory depression and sedation (
+   
+      <linkHtml href="#L3e934bdb-6043-4bef-846d-af3aaee6ca1d">5.1</linkHtml>,
+   
+      <linkHtml href="#Lae6d034e-7f46-4c22-b67c-15c719debe75">7.1</linkHtml>).
+  
+     </content>
+                           </item>
+                        </list>
+                        <list listType="unordered">
+                           <item>
+                              <content styleCode="bold">The use of benzodiazepines, including flurazepam hydrochloride capsules, exposes users to risks of abuse, misuse, and addiction, which can lead to overdose or death. Before prescribing flurazepam </content>
+                              <content styleCode="bold">hydrochloride capsules and throughout treatment, assess each </content>
+                              <content styleCode="bold">patient’s risk for abuse, misuse, and addiction (
+   
+      <linkHtml href="#L6fac83ed-6b07-4c4e-94b5-3bc0de4c79c2">5.2</linkHtml>).
+  
+     </content>
+                           </item>
+                        </list>
+                        <list listType="unordered">
+                           <item>
+                              <content styleCode="bold">Abrupt discontinuation or rapid dosage reduction of flurazepam </content>
+                              <content styleCode="bold">hydrochloride capsules after continued use may precipitate acute </content>
+                              <content styleCode="bold">withdrawal reactions, which can be life-threatening. To reduce the </content>
+                              <content styleCode="bold">risk of withdrawal reactions, use a gradual taper to discontinue </content>
+                              <content styleCode="bold">flurazepam hydrochloride capsules or reduce the dosage (
+   
+      <linkHtml href="#L0afa24e1-5d6b-4407-ab4f-7667b406c7ed">2.3</linkHtml>,
+   
+      <linkHtml href="#L234a3137-c60b-48cc-a0ca-cfce15a900e9">5.3</linkHtml>).
+  
+     </content>
+                           </item>
+                        </list>
+                     </text>
+                  </highlight>
+               </excerpt>
+            </section>
+         </component>
+         <component>
+            <section ID="Lb71b51ed-6394-45d9-9b5b-f7f7a336195a">
+               <id root="0cde3360-2532-8f14-e063-6394a90a4307"/>
+               <code code="34067-9" codeSystem="2.16.840.1.113883.6.1" displayName="INDICATIONS &amp; USAGE SECTION"/>
+               <title>1 INDICATIONS AND USAGE</title>
+               <text>
+                  <paragraph>Flurazepam hydrochloride capsules are indicated for the treatment of insomnia characterized by difficulty in falling asleep, frequent nocturnal awakenings, and/or early morning awakenings [see
+ 
+  <content styleCode="italics">Clinical Studies (
+  
+   <linkHtml href="#L268140ed-76fc-41b5-b54f-b7e926c4b8e4">14</linkHtml>)
+ 
+  </content>].
+
+ </paragraph>
+                  <paragraph>Since insomnia is often transient and intermittent, short-term use is usually sufficient. Prolonged use of hypnotics is usually not indicated and should only be undertaken concomitantly with appropriate evaluation of the patient.</paragraph>
+               </text>
+               <effectiveTime value="20230911"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <paragraph>Flurazepam, a gamma-aminobutyric (GABA
+ 
+    <sub>A</sub>) agonist, is indicated for the treatment of insomnia characterized by difficulty falling asleep, frequent nocturnal awakenings, and/or early morning awakenings. (
+ 
+    <linkHtml href="#Lb71b51ed-6394-45d9-9b5b-f7f7a336195a">1</linkHtml>)
+
+   </paragraph>
+                        <br/>
+                     </text>
+                  </highlight>
+               </excerpt>
+            </section>
+         </component>
+         <component>
+            <section ID="Lbc1160d6-fce6-4b3d-abe7-96ff2cdd37e7">
+               <id root="0cde3360-2533-8f14-e063-6394a90a4307"/>
+               <code code="34068-7" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE &amp; ADMINISTRATION SECTION"/>
+               <title>2 DOSAGE AND ADMINISTRATION</title>
+               <text/>
+               <effectiveTime value="20230911"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <list listType="unordered">
+                           <item>Use the lowest dose effective for the patient.</item>
+                           <item>Recommended initial dose is 15 mg for women and 15 mg or 30 mg for men. (
+  
+     <linkHtml href="#L38d4a84c-f0b5-42fb-8c1c-6c40b7f34898">2.1</linkHtml>)
+ 
+    </item>
+                           <item>Elderly or debilitated patients: recommended dose is 15 mg. (
+  
+     <linkHtml href="#Lc759dae9-d2b8-4c72-a104-33ececdbbddf">2.2</linkHtml>)
+ 
+    </item>
+                        </list>
+                     </text>
+                  </highlight>
+               </excerpt>
+               <component>
+                  <section ID="L38d4a84c-f0b5-42fb-8c1c-6c40b7f34898">
+                     <id root="0cde3360-2534-8f14-e063-6394a90a4307"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>2.1 Dosage in Adults</title>
+                     <text>
+                        <paragraph>Use the lowest dose effective for the patient, as important adverse effects of flurazepam hydrochloride capsules are dose related.</paragraph>
+                        <paragraph>The recommended initial dose is 15 mg for women and either 15 mg or 30 mg for men. The 15 mg dose can be increased to 30 mg if necessary for efficacy.</paragraph>
+                        <paragraph>The recommended initial doses for women and men are different because flurazepam clearance is lower in women [see
+ 
+  <content styleCode="italics">Pharmacokinetics (
+  
+   <linkHtml href="#L7d32681e-bc67-48b9-ba3c-69aeb953bf67">12.3</linkHtml>)
+ 
+  </content>].
+
+ </paragraph>
+                     </text>
+                     <effectiveTime value="20230911"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="Lc759dae9-d2b8-4c72-a104-33ececdbbddf">
+                     <id root="0cde3360-2535-8f14-e063-6394a90a4307"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>2.2 Dosage in Elderly or Debilitated Patients</title>
+                     <text>
+                        <paragraph>Elderly or debilitated patients may be especially sensitive to flurazepam. Since the risk of the development of oversedation, dizziness, confusion and/or ataxia increases substantially with larger doses in elderly or debilitated patients, it is recommended that in such patients the dosage be limited to 15 mg. Staggering and falling have also been reported, particularly in geriatric patients [see
+ 
+  <content styleCode="italics">Warnings and Precautions (
+  
+   <linkHtml href="#L6fac83ed-6b07-4c4e-94b5-3bc0de4c79c2">5.2</linkHtml>)
+ 
+  </content>].
+
+ </paragraph>
+                     </text>
+                     <effectiveTime value="20230911"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="L0afa24e1-5d6b-4407-ab4f-7667b406c7ed">
+                     <id root="0cde3360-2536-8f14-e063-6394a90a4307"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>2.3 Discontinuation or Dosage Reduction of Flurazepam Hydrochloride Capsules</title>
+                     <text>
+                        <paragraph>To reduce the risk of withdrawal reactions, use a gradual taper to discontinue flurazepam hydrochloride capsules or reduce the dosage. If a patient develops withdrawal reactions, consider pausing the taper or increasing the dosage to the previous tapered dosage level. Subsequently decrease the dosage more slowly [
+ 
+  <content styleCode="italics">see Warnings and Precautions (
+  
+   <linkHtml href="#L234a3137-c60b-48cc-a0ca-cfce15a900e9">5.3</linkHtml>) and Drug Abuse and Dependence (
+  
+   <linkHtml href="#Lcbf2b714-e86c-4c2c-9e74-8656a093a9ff">9.3</linkHtml>)
+ 
+  </content>].
+
+ </paragraph>
+                     </text>
+                     <effectiveTime value="20230911"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="L115bd0dc-bb78-4b28-9709-a5760370da27">
+               <id root="0cde3360-2537-8f14-e063-6394a90a4307"/>
+               <code code="43678-2" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE FORMS &amp; STRENGTHS SECTION"/>
+               <title>3 DOSAGE FORMS AND STRENGTHS</title>
+               <text>
+                  <paragraph>Flurazepam Hydrochloride Capsules, USP are available containing either 15 mg or 30 mg of Flurazepam Hydrochloride, USP.</paragraph>
+                  <paragraph>Flurazepam Hydrochloride Capsules, USP 15 mg are Size #2 hard gelatin capsules, Blue opaque cap with white opaque body, imprinted with “
+ 
+  <content styleCode="bold">CE</content>” on the cap and “
+ 
+  <content styleCode="bold">28</content>” on the body with black ink, filled with white to off-white powder.
+
+ </paragraph>
+                  <paragraph>Flurazepam Hydrochloride Capsules, USP 30 mg are Size #2 hard gelatin capsules, Blue opaque cap with white opaque body, imprinted with “
+ 
+  <content styleCode="bold">CE</content>” on the cap and “
+ 
+  <content styleCode="bold">29</content>” on the body with black ink, filled with white to off-white powder.
+
+ </paragraph>
+               </text>
+               <effectiveTime value="20230911"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <list listType="unordered">
+                           <item>15 mg and 30 mg capsules. (
+  
+     <linkHtml href="#L115bd0dc-bb78-4b28-9709-a5760370da27">3</linkHtml>)
+ 
+    </item>
+                        </list>
+                     </text>
+                  </highlight>
+               </excerpt>
+            </section>
+         </component>
+         <component>
+            <section ID="Ld28d77ab-c791-43d2-bb9f-56de6d68c3a1">
+               <id root="0cde3360-2538-8f14-e063-6394a90a4307"/>
+               <code code="34070-3" codeSystem="2.16.840.1.113883.6.1" displayName="CONTRAINDICATIONS SECTION"/>
+               <title>4 CONTRAINDICATIONS</title>
+               <text>
+                  <paragraph>Flurazepam hydrochloride capsules are contraindicated in patients with known hypersensitivity to flurazepam or other benzodiazepines. Rare cases of angioedema involving the tongue, glottis or larynx have been reported in patients after taking the first or subsequent doses of flurazepam. Some patients have had additional symptoms such as dyspnea, throat closing, or nausea and vomiting that suggest anaphylaxis. Patients who develop such reactions should not be rechallenged with flurazepam.</paragraph>
+               </text>
+               <effectiveTime value="20230911"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <list listType="unordered">
+                           <item>Hypersensitivity to flurazepam or other benzodiazepines. (
+  
+     <linkHtml href="#Ld28d77ab-c791-43d2-bb9f-56de6d68c3a1">4</linkHtml>)
+ 
+    </item>
+                        </list>
+                     </text>
+                  </highlight>
+               </excerpt>
+            </section>
+         </component>
+         <component>
+            <section ID="Lf85cb255-bb43-4b70-854b-9c3230117057">
+               <id root="0cde3360-2539-8f14-e063-6394a90a4307"/>
+               <code code="43685-7" codeSystem="2.16.840.1.113883.6.1" displayName="WARNINGS AND PRECAUTIONS SECTION"/>
+               <title>5 WARNINGS AND PRECAUTIONS</title>
+               <text>
+                  <paragraph/>
+               </text>
+               <effectiveTime value="20230911"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <list listType="unordered">
+                           <item>CNS depressant effects: Impaired alertness and motor coordination, including risk of falling. Daytime impairment. Caution patients against driving and other activities requiring complete mental alertness. (
+  
+     <linkHtml href="#L4504975b-1e53-40d3-8331-e398dcb91f41">5.4</linkHtml>)
+ 
+    </item>
+                           <item>The failure of insomnia to remit after 7 to 10 days of treatment may indicate the presence of a primary psychiatric and/or medical illness that should be evaluated. (
+  
+     <linkHtml href="#L2cd420f1-2d74-4bfc-8c30-9e0074f24abc">5.5</linkHtml>)
+ 
+    </item>
+                           <item>Severe anaphylactic/anaphylactoid reactions: Angioedema and anaphylaxis have been reported. Do not rechallenge if such reactions occur. (
+  
+     <linkHtml href="#L51d19cfa-c0d7-459e-850c-cf3f526eb10d">5.6</linkHtml>)
+ 
+    </item>
+                           <item>Sleep driving and other complex behaviors while not fully awake: Risk increases with dose and concomitant CNS depressants and alcohol. Immediately evaluate any new onset behavioral changes. (
+  
+     <linkHtml href="#L23ba0231-1578-48d7-9853-a2a854ab8d0f">5.7</linkHtml>)
+ 
+    </item>
+                           <item>Worsening of depression or suicidal thinking may occur: Prescribe the least number of capsules feasible to avoid intentional overdose. (
+  
+     <linkHtml href="#L69053a3d-1c9b-4811-9cbd-685a33d9720e">5.8</linkHtml>)
+ 
+    </item>
+                           <item>Neonatal Sedation and Withdrawal Syndrome: Flurazepam use during pregnancy can result in neonatal sedation and/or neonatal withdrawal. (
+  
+     <linkHtml href="#L84d62988-3b5d-439b-a476-3d0eb8448bc6">5.9</linkHtml>)
+ 
+    </item>
+                        </list>
+                     </text>
+                  </highlight>
+               </excerpt>
+               <component>
+                  <section ID="L3e934bdb-6043-4bef-846d-af3aaee6ca1d">
+                     <id root="0cde3360-253a-8f14-e063-6394a90a4307"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>5.1 Risks from Concomitant Use of Opioids</title>
+                     <text>
+                        <paragraph>Concomitant use of benzodiazepines, including flurazepam, and opioids may result in profound sedation, respiratory depression, coma, and death. Because of these risks, reserve concomitant prescribing of benzodiazepines and opioids in patients for whom alternative treatment options are inadequate.</paragraph>
+                        <paragraph>Observational studies have demonstrated that concomitant use of opioid analgesics and benzodiazepines increases the risk of drug-related mortality compared to use of opioids alone. If a decision is made to prescribe flurazepam concomitantly with opioids, prescribe the lowest effective dosages and minimum durations of concomitant use, and follow patients closely for signs and symptoms of respiratory depression and sedation. Advise both patients and caregivers about the risks of respiratory depression and sedation when flurazepam is used with
+ 
+  <content styleCode="italics">opioids [see Drug Interactions (
+  
+   <linkHtml href="#L9e685865-d5b2-454f-9fe2-8c2002baf3de">7</linkHtml>)].
+ 
+  </content>
+                        </paragraph>
+                     </text>
+                     <effectiveTime value="20230911"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="L6fac83ed-6b07-4c4e-94b5-3bc0de4c79c2">
+                     <id root="0cde3360-253b-8f14-e063-6394a90a4307"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>5.2 Abuse, Misuse, and Addiction</title>
+                     <text>
+                        <paragraph>The use of benzodiazepines, including flurazepam hydrochloride capsules, exposes users to the risks of abuse, misuse, and addiction, which can lead to overdose or death. Abuse and misuse of benzodiazepines often (but not always) involve the use of doses greater than the maximum recommended dosage and commonly involve concomitant use of other medications, alcohol, and/or illicit substances, which is associated with an increased frequency of serious adverse outcomes, including respiratory depression, overdose, or death [see
+ 
+  <content styleCode="italics">Drug Abuse and Dependence (
+  
+   <linkHtml href="#Lb1325a20-ff39-4806-88bc-77add077c0d0">9.2</linkHtml>)
+ 
+  </content>].
+
+ </paragraph>
+                        <paragraph>Before prescribing flurazepam hydrochloride capsules and throughout treatment, assess each patient’s risk for abuse, misuse, and addiction (e.g., using a standardized screening tool). Use of flurazepam hydrochloride capsules, particularly in patients at elevated risk, necessitates counseling about the risks and proper use of flurazepam hydrochloride capsules along with monitoring for signs and symptoms of abuse, misuse, and addiction. Prescribe the lowest effective dosage; avoid or minimize concomitant use of CNS depressants and other substances associated with abuse, misuse, and addiction (e.g., opioid analgesics, stimulants); and advise patients on the proper disposal of unused drug. If a substance use disorder is suspected, evaluate the patient and institute (or refer them for) early treatment, as appropriate.</paragraph>
+                     </text>
+                     <effectiveTime value="20230911"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="L234a3137-c60b-48cc-a0ca-cfce15a900e9">
+                     <id root="0cde3360-253c-8f14-e063-6394a90a4307"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>5.3 Dependence and Withdrawal Reactions</title>
+                     <text>
+                        <paragraph>To reduce the risk of withdrawal reactions, use a gradual taper to discontinue flurazepam hydrochloride capsules or reduce the dosage (a patient-specific plan should be used to taper the dose)
+ 
+  <content styleCode="italics">[see Dosage and Administration (
+  
+   <linkHtml href="#L0afa24e1-5d6b-4407-ab4f-7667b406c7ed">2.3</linkHtml>)]
+ 
+  </content>. Patients at an increased risk of withdrawal adverse reactions after benzodiazepine discontinuation or rapid dosage reduction include those who take higher dosages, and those who have had longer durations of use.
+
+ </paragraph>
+                        <paragraph>
+                           <content styleCode="bold">
+                              <content styleCode="italics">Acute Withdrawal Reactions:</content>
+                           </content>The continued use of benzodiazepines, including flurazepam hydrochloride capsules, may lead to clinically significant physical dependence. Abrupt discontinuation or rapid dosage reduction of flurazepam hydrochloride capsules after continued use, or administration of flumazenil (a benzodiazepine antagonist) may precipitate acute withdrawal reactions, which can be life-threatening (e.g., seizures) [
+ 
+  <content styleCode="italics">see Drug Abuse and Dependence (
+  
+   <linkHtml href="#Lcbf2b714-e86c-4c2c-9e74-8656a093a9ff">9.3</linkHtml>)
+ 
+  </content>].
+
+ </paragraph>
+                        <paragraph>
+                           <content styleCode="bold">
+                              <content styleCode="italics">Protracted Withdrawal Syndrome:</content>
+                           </content>In some cases, benzodiazepine users have developed a protracted withdrawal syndrome with withdrawal symptoms lasting weeks to more than 12 months [
+ 
+  <content styleCode="italics">see Drug Abuse and Dependence (
+  
+   <linkHtml href="#Lcbf2b714-e86c-4c2c-9e74-8656a093a9ff">9.3</linkHtml>)
+ 
+  </content>].
+
+ </paragraph>
+                     </text>
+                     <effectiveTime value="20230911"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="L4504975b-1e53-40d3-8331-e398dcb91f41">
+                     <id root="0cde3360-253d-8f14-e063-6394a90a4307"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>5.4 CNS-Depressant Effects and Next-Day Impairment</title>
+                     <text>
+                        <paragraph>Dizziness, drowsiness, light-headedness, staggering, ataxia and falling can occur, particularly in elderly or debilitated persons. Severe sedation, lethargy, disorientation and coma, probably indicative of drug intolerance or overdosage, have been reported.</paragraph>
+                        <paragraph>Flurazepam is a central nervous system (CNS) depressant and can impair daytime function even when used as prescribed. Prescribers should monitor for excess depressant effects, but impairment can occur in the absence of subjective symptoms, and may not be reliably detected by ordinary clinical exam (i.e., less than formal psychomotor testing). While pharmacodynamic tolerance or adaptation to some adverse depressant effects of flurazepam may develop, patients using flurazepam should be cautioned against driving or engaging in other hazardous activities or activities requiring complete mental alertness.</paragraph>
+                        <paragraph>Additive effects occur with concomitant use of other CNS depressants (e.g., other benzodiazepines, opioids, tricyclic antidepressants, alcohol). Downward dose adjustment of flurazepam and concomitant CNS depressants should be considered. The potential for adverse drug interactions continues for several days following discontinuation of flurazepam, until serum levels of psychoactive metabolites decline.</paragraph>
+                        <paragraph>Use of flurazepam with other sedative-hypnotics is not recommended. Alcohol generally should not be used during treatment with flurazepam. The risk of next-day psychomotor impairment is increased if flurazepam is taken with less than a full night of sleep remaining (7 to 8 hours); if higher than the recommended dose is taken; if coadministered with other CNS depressants
+ 
+  <content styleCode="italics">[see Dosage and Administration (
+  
+   <linkHtml href="#Lbc1160d6-fce6-4b3d-abe7-96ff2cdd37e7">2</linkHtml>)].
+ 
+  </content>
+                        </paragraph>
+                        <paragraph>Because flurazepam can cause drowsiness and a decreased level of consciousness, patients, particularly the elderly, are at higher risk of falls.</paragraph>
+                     </text>
+                     <effectiveTime value="20230911"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="L2cd420f1-2d74-4bfc-8c30-9e0074f24abc">
+                     <id root="0cde3360-253e-8f14-e063-6394a90a4307"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>5.5 Need to Evaluate for Co-morbid Disorders</title>
+                     <text>
+                        <paragraph>Because sleep disturbances may be the presenting manifestation of a physical and/or psychiatric disorder, symptomatic treatment of insomnia should be initiated only after a careful evaluation of the patient. The failure of insomnia to remit after 7 to 10 days of treatment may indicate the presence of a primary psychiatric and/or medical illness that should be evaluated. Worsening of insomnia or the emergence of new thinking or behavior abnormalities may be the consequence of an unrecognized psychiatric or physical disorder. Such findings have emerged during the course of treatment with sedative-hypnotic drugs.</paragraph>
+                     </text>
+                     <effectiveTime value="20230911"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="L51d19cfa-c0d7-459e-850c-cf3f526eb10d">
+                     <id root="0cde3360-253f-8f14-e063-6394a90a4307"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>5.6 Severe Anaphylactic or Anaphylactoid Reactions</title>
+                     <text>
+                        <paragraph>Rare cases of angioedema involving the tongue, glottis or larynx have been reported in patients after taking the first or subsequent doses of sedative-hypnotics, including flurazepam. Some patients have had additional symptoms such as dyspnea, throat closing, or nausea and vomiting that suggest anaphylaxis.</paragraph>
+                        <paragraph>Some patients have required medical therapy in the emergency department. If angioedema involves the tongue, glottis or larynx, airway obstruction may occur and be fatal. Patients who develop angioedema after treatment with flurazepam should not be rechallenged with the drug.</paragraph>
+                     </text>
+                     <effectiveTime value="20230911"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="L23ba0231-1578-48d7-9853-a2a854ab8d0f">
+                     <id root="0cde3360-2540-8f14-e063-6394a90a4307"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>5.7 Abnormal Thinking and Behavior Changes</title>
+                     <text>
+                        <paragraph>Abnormal thinking and behavior changes have been reported in patients treated with sedative-hypnotics including flurazepam. Some of these changes include decreased inhibition (e.g., aggressiveness and extroversion that seemed out of character), bizarre behavior, and depersonalization. Visual and auditory hallucinations have also been reported. Amnesia, and other neuro-psychiatric symptoms, may occur.</paragraph>
+                        <paragraph>Paradoxical reactions such as stimulation, agitation, increased muscle spasticity, and sleep disturbances may occur unpredictably.</paragraph>
+                        <paragraph>Complex behaviors such as “sleep-driving” (i.e., driving while not fully awake, with amnesia for the event) have been reported with use of sedative-hypnotics. These behaviors can occur with initial treatment or in patients previously tolerant of flurazepam or other sedative-hypnotics. Although these behaviors can occur with use at therapeutic doses, risk is increased by higher doses or concomitant use of alcohol or other CNS depressants. Due to risk to the patient and community, flurazepam should be discontinued if “sleep-driving” occurs.</paragraph>
+                        <paragraph>Other complex behaviors (e.g., preparing and eating food, making phone calls, or having sex) have been reported in patients who are not fully awake after taking a sedative-hypnotic. As with sleep-driving, patients usually do not remember these events.</paragraph>
+                     </text>
+                     <effectiveTime value="20230911"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="L69053a3d-1c9b-4811-9cbd-685a33d9720e">
+                     <id root="0cde3360-2541-8f14-e063-6394a90a4307"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>5.8 Worsening of Depression</title>
+                     <text>
+                        <paragraph>Benzodiazepines may worsen depression. Consequently, appropriate precautions (e.g., limiting the total prescription size and increased monitoring for suicidal ideation) should be considered.</paragraph>
+                     </text>
+                     <effectiveTime value="20230911"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="L84d62988-3b5d-439b-a476-3d0eb8448bc6">
+                     <id root="0cde3360-2542-8f14-e063-6394a90a4307"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>5.9 Neonatal Sedation and Withdrawal Syndrome</title>
+                     <text>
+                        <paragraph>Use of flurazepam late in pregnancy can result in sedation (respiratory depression, lethargy, hypotonia) and/or withdrawal symptoms (hyperreflexia, irritability, restlessness, tremors, inconsolable crying, and feeding difficulties) in the neonate
+ 
+  <content styleCode="italics">[see Use in Specific Populations (
+  
+   <linkHtml href="#Ld938378f-5643-4a3e-924c-3b019d22337a">8.1</linkHtml>)].
+ 
+  </content>Monitor neonates exposed to flurazepam during pregnancy or labor for signs of sedation and monitor neonates exposed to flurazepam during pregnancy for signs of withdrawal; manage these neonates accordingly.
+
+ </paragraph>
+                     </text>
+                     <effectiveTime value="20230911"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="Lfccc7495-6cab-49eb-95f8-a0090b9983e9">
+               <id root="0cde3360-2543-8f14-e063-6394a90a4307"/>
+               <code code="34084-4" codeSystem="2.16.840.1.113883.6.1" displayName="ADVERSE REACTIONS SECTION"/>
+               <title>6 ADVERSE REACTIONS</title>
+               <text>
+                  <paragraph>The following serious adverse reactions are discussed in greater detail in other sections of the label:</paragraph>
+                  <list listType="unordered">
+                     <item>Risks from Concomitant Use with Opioids
+  
+   <content styleCode="italics">[see </content>
+                        <content styleCode="italics">Warnings and Precautions (
+   
+    <linkHtml href="#L3e934bdb-6043-4bef-846d-af3aaee6ca1d">5.1</linkHtml>)
+  
+   </content>
+                        <content styleCode="italics">]</content>
+                     </item>
+                     <item>Abuse, Misuse, and Addiction
+  
+   <content styleCode="italics">[see Warnings and Precautions (
+   
+    <linkHtml href="#L6fac83ed-6b07-4c4e-94b5-3bc0de4c79c2">5.2</linkHtml>)]
+  
+   </content>
+                     </item>
+                     <item>Dependence and Withdrawal Reactions
+  
+   <content styleCode="italics">[see </content>
+                        <content styleCode="italics">Warnings and Precautions (
+   
+    <linkHtml href="#L234a3137-c60b-48cc-a0ca-cfce15a900e9">5.3</linkHtml>)
+  
+   </content>
+                        <content styleCode="italics">]</content>
+                     </item>
+                     <item>CNS-depressant effects and next-day impairment
+  
+   <content styleCode="italics">[see </content>
+                        <content styleCode="italics">Warnings and Precautions (
+   
+    <linkHtml href="#L4504975b-1e53-40d3-8331-e398dcb91f41">5.4</linkHtml>)]
+  
+   </content>
+                     </item>
+                     <item>Severe Anaphylactic and Anaphylactoid Reactions
+  
+   <content styleCode="italics">[see </content>
+                        <content styleCode="italics">Warnings and Precautions (
+   
+    <linkHtml href="#L51d19cfa-c0d7-459e-850c-cf3f526eb10d">5.6</linkHtml>)]
+  
+   </content>
+                     </item>
+                     <item>Abnormal thinking and behavior changes, and complex behaviors
+  
+   <content styleCode="italics">[see </content>
+                        <content styleCode="italics">Warnings and Precautions (
+   
+    <linkHtml href="#L23ba0231-1578-48d7-9853-a2a854ab8d0f">5.7</linkHtml>)]
+  
+   </content>
+                     </item>
+                     <item>Worsening of depression
+  
+   <content styleCode="italics">[see </content>
+                        <content styleCode="italics">Warnings and Precautions (
+   
+    <linkHtml href="#L69053a3d-1c9b-4811-9cbd-685a33d9720e">5.8</linkHtml>)]
+  
+   </content>
+                     </item>
+                     <item>Neonatal Sedation and Withdrawal Syndrome
+  
+   <content styleCode="italics">[see Warnings and Precautions (
+   
+    <linkHtml href="#L84d62988-3b5d-439b-a476-3d0eb8448bc6">5.9</linkHtml>)]
+  
+   </content>
+                     </item>
+                  </list>
+               </text>
+               <effectiveTime value="20230911"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <paragraph>Adverse reactions: dizziness, drowsiness, light-headedness, staggering, ataxia, falling. (
+ 
+    <linkHtml href="#L9712f734-0ee8-4e4e-8fa9-3752ee859da9">6.1</linkHtml>)
+
+   </paragraph>
+                        <br/>
+                        <paragraph>
+                           <content styleCode="bold">To report SUSPECTED ADVERSE REACTIONS, contact Chartwell RX, LLC. at 1-845-232-1683 or FDA at 1-800-FDA-1088 or
+  
+     <linkHtml href="https://www.fda.gov/safety/medwatch-fda-safety-information-and-adverse-event-reporting-program">www.fda.gov/medwatch</linkHtml>.
+ 
+    </content>
+                        </paragraph>
+                     </text>
+                  </highlight>
+               </excerpt>
+               <component>
+                  <section ID="L9712f734-0ee8-4e4e-8fa9-3752ee859da9">
+                     <id root="0cde3360-2544-8f14-e063-6394a90a4307"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>6.1 Clinical Trials Experience</title>
+                     <text>
+                        <paragraph>Reported were headache, heartburn, upset stomach, nausea, vomiting, diarrhea, constipation, gastrointestinal pain, nervousness, talkativeness, apprehension, irritability, weakness, palpitations, chest pains, body and joint pains, and genitourinary complaints. There have also been rare occurrences of leukopenia, granulocytopenia, sweating, flushes, difficulty in focusing, blurred vision, burning eyes, faintness, hypotension, shortness of breath, pruritus, skin rash, dry mouth, bitter taste, excessive salivation, anorexia, euphoria, depression, slurred speech, confusion, restlessness, hallucinations and elevated SGOT, SGPT, total and direct bilirubin elevations, and elevated alkaline phosphatase.</paragraph>
+                     </text>
+                     <effectiveTime value="20230911"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="L9e685865-d5b2-454f-9fe2-8c2002baf3de">
+               <id root="0cde3360-2545-8f14-e063-6394a90a4307"/>
+               <code code="34073-7" codeSystem="2.16.840.1.113883.6.1" displayName="DRUG INTERACTIONS SECTION"/>
+               <title>7 DRUG INTERACTIONS</title>
+               <text>
+                  <paragraph/>
+               </text>
+               <effectiveTime value="20230911"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <list listType="unordered">
+                           <item>Concomitant use of benzodiazepines and opioids may result in profound sedation, respiratory depression, and death. (
+  
+     <linkHtml href="#Lae6d034e-7f46-4c22-b67c-15c719debe75">7.1</linkHtml>)
+ 
+    </item>
+                           <item>CNS Depressants: Downward dose adjustment may be necessary due to additive effects. (
+  
+     <linkHtml href="#L7df1a11c-bb3f-4671-b770-e203bb322634">7.2</linkHtml>)
+ 
+    </item>
+                        </list>
+                     </text>
+                  </highlight>
+               </excerpt>
+               <component>
+                  <section ID="Lae6d034e-7f46-4c22-b67c-15c719debe75">
+                     <id root="0cde3360-2546-8f14-e063-6394a90a4307"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>7.1 Opioids</title>
+                     <text>
+                        <paragraph>The concomitant use of benzodiazepines and opioids increases the risk of respiratory depression because of actions at different receptor sites in the CNS that control respiration. Benzodiazepines interact at GABA
+ 
+  <sub>A</sub>sites, and opioids interact primarily at mu receptors. When benzodiazepines and opioids are combined, the potential for benzodiazepines to significantly worsen opioid-related respiratory depression exists. Limit dosage and duration of concomitant use of benzodiazepines and opioids, and follow patients closely for respiratory depression and sedation.
+
+ </paragraph>
+                     </text>
+                     <effectiveTime value="20230911"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="L7df1a11c-bb3f-4671-b770-e203bb322634">
+                     <id root="0cde3360-2547-8f14-e063-6394a90a4307"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>7.2 CNS Depressants</title>
+                     <text>
+                        <paragraph>Benzodiazepines, including flurazepam, produce additive CNS depressant effects when co-administered with ethanol or other CNS depressants (e.g., psychotropic medications, anticonvulsants, antihistamines). Downward dose adjustment of flurazepam and/or concomitant CNS depressants may be necessary because of additive effects.</paragraph>
+                     </text>
+                     <effectiveTime value="20230911"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="L8518b756-869d-4ce5-a1d0-2a0a234700ac">
+               <id root="0cde3360-2548-8f14-e063-6394a90a4307"/>
+               <code code="43684-0" codeSystem="2.16.840.1.113883.6.1" displayName="USE IN SPECIFIC POPULATIONS SECTION"/>
+               <title>8 USE IN SPECIFIC POPULATIONS</title>
+               <text/>
+               <effectiveTime value="20231219"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <list listType="unordered">
+                           <item>Lactation: Breastfeeding not recommended. (
+  
+     <linkHtml href="#L5395bbe6-d284-4f22-b2d2-249896f33822">8.2</linkHtml>)
+ 
+    </item>
+                        </list>
+                     </text>
+                  </highlight>
+               </excerpt>
+               <component>
+                  <section ID="Ld938378f-5643-4a3e-924c-3b019d22337a">
+                     <id root="0cde3360-2549-8f14-e063-6394a90a4307"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>8.1 Pregnancy</title>
+                     <text>
+                        <paragraph>
+                           <content styleCode="underline">Pregnancy Exposure Registry:</content>
+                        </paragraph>
+                        <paragraph>There is a pregnancy exposure registry that monitors pregnancy outcomes in women exposed to psychiatric medications, including flurazepam, during pregnancy. Healthcare providers are encouraged to register patients by calling the National Pregnancy Registry for Psychiatric Medications at 1-866-961-2388 or visiting online at
+ 
+  <content styleCode="underline">
+                              <linkHtml href="https://womensmentalhealth.org/pregnancyregistry/">https://womensmentalhealth.org/pregnancyregistry/</linkHtml>.
+ 
+  </content>
+                        </paragraph>
+                        <paragraph>
+                           <content styleCode="underline">Risk Summary</content>
+                        </paragraph>
+                        <paragraph>Neonates born to mothers using benzodiazepines late in pregnancy have been reported to experience symptoms of sedation and/or neonatal withdrawal [
+ 
+  <content styleCode="italics">see Warnings and Precautions (
+  
+   <linkHtml href="#L84d62988-3b5d-439b-a476-3d0eb8448bc6">5.9</linkHtml>) and Clinical Considerations].
+ 
+  </content>Available data from published observational studies of pregnant women exposed to benzodiazepines do not report a clear association with benzodiazepines and major birth defects
+ 
+  <content styleCode="italics">(see Data)</content>.
+
+ </paragraph>
+                        <paragraph>The background risk of major birth defects and miscarriage for the indicated population is unknown. All pregnancies have a background risk of birth defect, loss, or other adverse outcomes. In the U.S. general population, the estimated background risk of major birth defects and miscarriage in clinically recognized pregnancies is 2 to 4% and 15 to 20%, respectively.</paragraph>
+                        <paragraph>
+                           <content styleCode="underline">Clinical Considerations</content>
+                        </paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Fetal/Neonatal Adverse Reactions</content>
+                        </paragraph>
+                        <paragraph>Benzodiazepines cross the placenta and may produce respiratory depression, hypotonia, and sedation in neonates. Monitor neonates exposed to flurazepam during pregnancy or labor for signs of sedation, respiratory depression, hypotonia, and feeding problems. Monitor neonates exposed to HALCION during pregnancy for signs of withdrawal. Manage these neonates accordingly
+ 
+  <content styleCode="italics">[see Warnings and Precautions (
+  
+   <linkHtml href="#L84d62988-3b5d-439b-a476-3d0eb8448bc6">5.9</linkHtml>)].
+ 
+  </content>
+                        </paragraph>
+                        <paragraph>
+                           <content styleCode="underline">Data</content>
+                        </paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Human Data</content>
+                        </paragraph>
+                        <paragraph>Published data from observational studies on the use of benzodiazepines during pregnancy do not report a clear association with benzodiazepines and major birth defects. Although early studies reported an increased risk of congenital malformations with diazepam and chlordiazepoxide, there was no consistent pattern noted. In addition, the majority of more recent case-control and cohort studies of benzodiazepine use during pregnancy, which were adjusted for confounding exposures to alcohol, tobacco and other medications, have not confirmed these findings.</paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Animal Data</content>
+                        </paragraph>
+                        <paragraph>Administration of flurazepam to pregnant animals did not indicate a risk for adverse effects on morphological development at clinically relevant doses; however, animal data for other benzodiazepines suggest that possibility of adverse developmental effects (including long-term effects on neurobehavioral and immunological function) following prenatal exposure.</paragraph>
+                     </text>
+                     <effectiveTime value="20230911"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="L5395bbe6-d284-4f22-b2d2-249896f33822">
+                     <id root="0cde3360-254a-8f14-e063-6394a90a4307"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>8.2 Lactation</title>
+                     <text>
+                        <paragraph>
+                           <content styleCode="underline">Risk Summary</content>
+                        </paragraph>
+                        <paragraph>There are no data on the presence of flurazepam in human or animal milk. There are reports of sedation, poor feeding and poor weight gain in infants exposed to benzodiazepines through breast milk. The effects of flurazepam on milk production are unknown. Because of the flurazepam’s long half-life, the potential for flurazepam to accumulate in breast milk, and the potential for serious adverse reactions, including sedation and withdrawal symptoms in breastfed infants, advise patients that breastfeeding is not recommended during treatment with flurazepam.</paragraph>
+                     </text>
+                     <effectiveTime value="20230911"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="L54c3477b-3234-470e-ac59-8030a16f6540">
+                     <id root="0cde3360-254b-8f14-e063-6394a90a4307"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>8.4 Pediatric Use</title>
+                     <text>
+                        <paragraph>Safety and effectiveness in pediatric patients have not been established.</paragraph>
+                     </text>
+                     <effectiveTime value="20230911"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="Ld264c766-ea34-45c5-85fc-498b58167a9d">
+                     <id root="0cde3360-254c-8f14-e063-6394a90a4307"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>8.5 Geriatric Use</title>
+                     <text>
+                        <paragraph>Flurazepam may cause confusion and over-sedation in the elderly. Elderly patients generally should be started on a low dose of flurazepam and observed closely.</paragraph>
+                        <paragraph>Elderly or debilitated patients may be more sensitive to benzodiazepines, reflecting the greater frequency of decreased hepatic, renal, or cardiac function, and of concomitant disease or other drug therapy.</paragraph>
+                     </text>
+                     <effectiveTime value="20230911"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="L012e934b-29a9-4ca6-8618-8e858edfc6b8">
+               <id root="0cde3360-254d-8f14-e063-6394a90a4307"/>
+               <code code="42227-9" codeSystem="2.16.840.1.113883.6.1" displayName="DRUG ABUSE AND DEPENDENCE SECTION"/>
+               <title>9 DRUG ABUSE AND DEPENDENCE</title>
+               <text/>
+               <effectiveTime value="20230911"/>
+               <component>
+                  <section ID="L4f12c1ad-9c35-4fa1-be48-d09e620d4ba1">
+                     <id root="0cde3360-254e-8f14-e063-6394a90a4307"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>9.1 Controlled Substance</title>
+                     <text>
+                        <paragraph>Flurazepam is a Schedule IV controlled substance.</paragraph>
+                     </text>
+                     <effectiveTime value="20230911"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="Lb1325a20-ff39-4806-88bc-77add077c0d0">
+                     <id root="0cde3360-254f-8f14-e063-6394a90a4307"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>9.2 Abuse</title>
+                     <text>
+                        <paragraph>Flurazepam hydrochloride capsules are a benzodiazepine and a CNS depressant with a potential for abuse and addiction. Abuse is the intentional, non-therapeutic use of a drug, even once, for its desirable psychological or physiological effects. Misuse is the intentional use, for therapeutic purposes, of a drug by an individual in a way other than prescribed by a health care provider or for whom it was not prescribed. Drug addiction is a cluster of behavioral, cognitive, and physiological phenomena that may include a strong desire to take the drug, difficulties in controlling drug use (e.g., continuing drug use despite harmful consequences, giving a higher priority to drug use than other activities and obligations), and possible tolerance or physical dependence. Even taking benzodiazepines as prescribed may put patients at risk for abuse and misuse of their medication. Abuse and misuse may lead to addiction.</paragraph>
+                        <paragraph>Abuse and misuse of benzodiazepines often (but not always) involve the use of doses greater than the maximum recommended dosage and commonly involve concomitant use of other medications, alcohol, and/or illicit substances, which is associated with an increased frequency of serious adverse outcomes, including respiratory depression, overdose, or death. Benzodiazepines are often sought by individuals who abuse drugs and other substances, and by individuals with addictive disorders
+ 
+  <content styleCode="italics">[see Warnings and Precautions (
+  
+   <linkHtml href="#L6fac83ed-6b07-4c4e-94b5-3bc0de4c79c2">5.2</linkHtml>)]
+ 
+  </content>.
+
+ </paragraph>
+                        <paragraph>The following adverse reactions have occurred with benzodiazepine abuse and/or misuse: abdominal pain, amnesia, anorexia, anxiety, aggression, ataxia, blurred vision, confusion, depression, disinhibition, disorientation, dizziness, euphoria, impaired concentration and memory, indigestion, irritability, muscle pain, slurred speech, tremors, and vertigo.</paragraph>
+                        <paragraph>The following severe adverse reactions have occurred with benzodiazepine abuse and/or misuse: delirium, paranoia, suicidal ideation and behavior, seizures, coma, breathing difficulty, and death. Death is more often associated with polysubstance use (especially benzodiazepines with other CNS depressants such as opioids and alcohol)
+ 
+  <content styleCode="italics">.</content>
+                        </paragraph>
+                     </text>
+                     <effectiveTime value="20230911"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="Lcbf2b714-e86c-4c2c-9e74-8656a093a9ff">
+                     <id root="0cde3360-2550-8f14-e063-6394a90a4307"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>9.3 Dependence</title>
+                     <text>
+                        <paragraph>
+                           <content styleCode="italics">
+                              <content styleCode="bold">Physical Dependence: </content>
+                           </content>Flurazepam hydrochloride capsules may produce physical dependence from continued therapy. Physical dependence is a state that develops as a result of physiological adaptation in response to repeated drug use, manifested by withdrawal signs and symptoms after abrupt discontinuation or a significant dose reduction of a drug. Abrupt discontinuation or rapid dosage reduction of benzodiazepines or administration of flumazenil, a benzodiazepine antagonist, may precipitate acute withdrawal reactions, including seizures, which can be life- threatening. Patients at an increased risk of withdrawal adverse reactions after benzodiazepine discontinuation or rapid dosage reduction include those who take higher dosages (i.e., higher and/or more frequent doses) and those who have had longer durations of use
+ 
+  <content styleCode="italics">[see Warnings and Precautions (
+  
+   <linkHtml href="#L234a3137-c60b-48cc-a0ca-cfce15a900e9">5.3</linkHtml>)].
+ 
+  </content>
+                        </paragraph>
+                        <paragraph>To reduce the risk of withdrawal reactions, use a gradual taper to discontinue flurazepam hydrochloride capsules or reduce the dosage
+ 
+  <content styleCode="italics">[see Dosage and Administration (
+  
+   <linkHtml href="#L0afa24e1-5d6b-4407-ab4f-7667b406c7ed">2.3</linkHtml>) and Warnings and Precautions (
+  
+   <linkHtml href="#L234a3137-c60b-48cc-a0ca-cfce15a900e9">5.3</linkHtml>)].
+ 
+  </content>
+                        </paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Acute Withdrawal Signs and Symptoms:</content>Acute withdrawal signs and symptoms associated with benzodiazepines have included abnormal involuntary movements, anxiety, blurred vision, depersonalization, depression, derealization, dizziness, fatigue, gastrointestinal adverse reactions (e.g., nausea, vomiting, diarrhea, weight loss, decreased appetite), headache, hyperacusis, hypertension, irritability, insomnia, memory impairment, muscle pain and stiffness, panic attacks, photophobia, restlessness, tachycardia, and tremor. More severe acute withdrawal signs and symptoms, including life-threatening reactions, have included catatonia, convulsions, delirium tremens, depression, hallucinations, mania, psychosis, seizures, and suicidality.
+
+ </paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Protracted Withdrawal Syndrome:</content>Protracted withdrawal syndrome associated with benzodiazepines is characterized by anxiety, cognitive impairment, depression, insomnia, formication, motor symptoms (e.g., weakness, tremor, muscle twitches), paresthesia, and tinnitus that persists beyond 4 to 6 weeks after initial benzodiazepine withdrawal. Protracted withdrawal symptoms may last weeks to more than 12 months
+ 
+  <content styleCode="italics">.</content>As a result, there may be difficulty in differentiating withdrawal symptoms from potential re-emergence or continuation of symptoms for which the benzodiazepine was being used.
+
+ </paragraph>
+                        <paragraph>
+                           <content styleCode="bold">
+                              <content styleCode="italics">Tolerance:</content>
+                           </content>Tolerance to flurazepam hydrochloride capsules may develop from continued therapy. Tolerance is a physiological state characterized by a reduced response to a drug after repeated administration (i.e., a higher dose of a drug is required to produce the same effect that was once obtained at a lower dose). Tolerance to the therapeutic effect of flurazepam hydrochloride capsules may develop; however, little tolerance develops to the amnestic reactions and other cognitive impairments caused by benzodiazepines.
+
+ </paragraph>
+                     </text>
+                     <effectiveTime value="20230911"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="L72586261-6b31-41f7-a7d2-3a278dc91f37">
+               <id root="0cde3360-2551-8f14-e063-6394a90a4307"/>
+               <code code="34088-5" codeSystem="2.16.840.1.113883.6.1" displayName="OVERDOSAGE SECTION"/>
+               <title>10 OVERDOSAGE</title>
+               <text>
+                  <paragraph>Overdosage of benzodiazepines is characterized by central nervous system depression ranging from drowsiness to coma. In mild to moderate cases, symptoms can include drowsiness, confusion, dysarthria, lethargy, hypnotic state, diminished reflexes, ataxia, and hypotonia. Rarely, paradoxical or disinhibitory reactions (including agitation, irritability, impulsivity, violent behavior, confusion, restlessness, excitement, and talkativeness) may occur. In severe overdosage cases, patients may develop respiratory depression and coma. Overdosage of benzodiazepines in combination with other CNS depressants (including alcohol and opioids) may be fatal
+ 
+  <content styleCode="italics">[see Warnings and Precautions (
+  
+   <linkHtml href="#L6fac83ed-6b07-4c4e-94b5-3bc0de4c79c2">5.2</linkHtml>)]
+ 
+  </content>. Markedly abnormal (lowered or elevated) blood pressure, heart rate, or respiratory rate raise the concern that additional drugs and/or alcohol are involved in the overdosage.
+
+ </paragraph>
+                  <paragraph>In managing benzodiazepine overdosage, employ general supportive measures, including intravenous fluids and airway management. Flumazenil, a specific benzodiazepine receptor antagonist indicated for the complete or partial reversal of the sedative effects of benzodiazepines in the management of benzodiazepine overdosage, can lead to withdrawal and adverse reactions, including seizures, particularly in the context of mixed overdosage with drugs that increase seizure risk (e.g., tricyclic and tetracyclic antidepressants) and in patients with long-term benzodiazepine use and physical dependency. The risk of withdrawal seizures with flumazenil use may be increased in patients with epilepsy. Flumazenil is contraindicated in patients who have received a benzodiazepine for control of a potentially life-threatening condition (e.g., status epilepticus). If the decision is made to use flumazenil, it should be used as an adjunct to, not as a substitute for, supportive management of benzodiazepine overdosage. See the flumazenil injection Prescribing Information.</paragraph>
+                  <paragraph>Consider contacting a poison center (1-800-222-1222),
+ 
+  <content styleCode="underline">poisoncontrol.org</content>, or a medical toxicologist for additional overdosage management recommendations.
+
+ </paragraph>
+               </text>
+               <effectiveTime value="20230911"/>
+            </section>
+         </component>
+         <component>
+            <section ID="L778ce4ff-c475-422a-8f4f-3edc8b9687f5">
+               <id root="0cde3360-2552-8f14-e063-6394a90a4307"/>
+               <code code="34089-3" codeSystem="2.16.840.1.113883.6.1" displayName="DESCRIPTION SECTION"/>
+               <title>11 DESCRIPTION</title>
+               <text>
+                  <paragraph>Flurazepam Hydrochloride, USP is chemically 7-chloro-1-[2-(diethylamino)ethyl]-5-(
+ 
+  <content styleCode="italics">ο</content>-fluro-phenyl)-1,3-dihydro-2
+ 
+  <content styleCode="italics">H</content>-1,4- benzodiazepin-2-one dihydrochloride. It is a pale yellow, crystalline compound, freely soluble in alcohol and very soluble in water. It has a molecular weight of 460.81 and the following structural formula:
+
+ </paragraph>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="L21780cb4-beb3-4120-b42a-498c4417825f"/>
+                  </paragraph>
+                  <paragraph>Each capsule, for oral administration, contains either 15 mg or 30 mg of Flurazepam Hydrochloride, USP. In addition, each capsule contains the following inactive ingredients: anhydrous lactose, colloidal silicon dioxide, FD&amp;C Blue #1, FD&amp;C Red #3, gelatin, mannitol, magnesium stearate, talc, and titanium dioxide.</paragraph>
+                  <paragraph>Additionally, capsule shells of 15 mg and 30 mg are imprinted with black pharmaceutical ink. The compositions of the black pharmaceutical ink are black iron oxide, butyl alcohol, dehydrated alcohol, isopropyl alcohol, potassium hydroxide, propylene glycol, purified water, shellac, and strong ammonia solution.</paragraph>
+               </text>
+               <effectiveTime value="20230911"/>
+               <component>
+                  <observationMedia ID="L21780cb4-beb3-4120-b42a-498c4417825f">
+                     <text>flurazepam-hydrochloride-structure</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="flurazepam-hydrochloride-structure.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="L31b9d67e-0ae5-4919-837d-e19f18ddc127">
+               <id root="0cde3360-2553-8f14-e063-6394a90a4307"/>
+               <code code="34090-1" codeSystem="2.16.840.1.113883.6.1" displayName="CLINICAL PHARMACOLOGY SECTION"/>
+               <title>12 CLINICAL PHARMACOLOGY</title>
+               <text/>
+               <effectiveTime value="20230911"/>
+               <component>
+                  <section ID="Lf3b18827-0ce6-4028-b3da-1c9a3e33b21d">
+                     <id root="0cde3360-2554-8f14-e063-6394a90a4307"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>12.1 Mechanism of Action</title>
+                     <text>
+                        <paragraph>Flurazepam, like other central nervous system agents of the 1,4-benzodiazepine class, presumably exerts its effects by binding to stereo-specific receptors at several sites within the central nervous system (CNS). The exact mechanism of action is unknown.</paragraph>
+                     </text>
+                     <effectiveTime value="20230911"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="L7d32681e-bc67-48b9-ba3c-69aeb953bf67">
+                     <id root="0cde3360-2555-8f14-e063-6394a90a4307"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>12.3 Pharmacokinetics</title>
+                     <text>
+                        <paragraph>Flurazepam hydrochloride is rapidly absorbed from the gastro-intestinal tract. Flurazepam is rapidly metabolized and is excreted primarily in the urine. Following a single oral dose, peak flurazepam plasma concentrations ranging from 0.5 to 4.0 ng/mL occur at 30 to 60 minutes post-dosing. The harmonic mean apparent half-life of flurazepam is 2.3 hours. The blood level profile of flurazepam and its major metabolites was determined in man following the oral administration of 30 mg daily for 2 weeks. The N1-hydroxyethyl-flurazepam was measurable only during the early hours after a 30 mg dose and was not detectable after 24 hours. The major metabolite in blood was N1-desalkyl-flurazepam, which reached steady-state (plateau) levels after 7 to 10 days of dosing, at levels approximately 5- to 6-fold greater than the 24-hour levels observed on Day 1. The half-life of elimination of N1-desalkyl-flurazepam ranged from 47 to 100 hours. The major urinary metabolite is conjugated N1-hydroxyethyl-flurazepam which accounts for 22% to 55% of the dose. Less than 1% of the dose is excreted in the urine as N1-desalkyl-flurazepam.</paragraph>
+                        <paragraph>This pharmacokinetic profile may be responsible for the clinical observation that flurazepam is increasingly effective on the second or third night of consecutive use and that for 1 or 2 nights after the drug is discontinued both sleep latency and total wake time may still be decreased.</paragraph>
+                        <paragraph>The single dose pharmacokinetics of flurazepam were studied in 12 healthy geriatric subjects (aged 61 to 85 years). The mean elimination half-life of desalkyl-flurazepam was longer in elderly male subjects (160 hours) compared with younger male subjects (74 hours), while mean elimination half-life was similar in geriatric female subjects (120 hours) and younger female subjects (90 hours). After multiple dosing, mean steady-state plasma levels of desalkyl-flurazepam were higher in elderly male subjects (81 ng/mL) compared with younger male subjects (53 ng/mL), while values were similar between elderly female subjects (85 ng/mL) and younger female subjects (86 ng/mL). The mean washout half-life of desalkyl-flurazepam was longer in elderly male and female subjects (126 and 158 hours, respectively) compared with younger male and female subjects (111 and 113 hours, respectively).
+ 
+  <sup>1</sup>
+                        </paragraph>
+                        <paragraph>
+                           <sup>1</sup>Greenblatt DJ, Divoll M, Hammatz JS, MacLauglin DS, Shader RI: Kinetics and clinical effects of flurazepam in young and elderly noninsomniacs. Clin Pharmacol Ther 30: 475-486, 1981.
+
+ </paragraph>
+                     </text>
+                     <effectiveTime value="20230911"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="L4c85bead-7699-4f03-abc5-99fe6b346371">
+               <id root="0cde3360-2556-8f14-e063-6394a90a4307"/>
+               <code code="43680-8" codeSystem="2.16.840.1.113883.6.1" displayName="NONCLINICAL TOXICOLOGY SECTION"/>
+               <title>13 NONCLINICAL TOXICOLOGY</title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">Carcinogenesis, Mutagenesis, Impairment of Fertility</content>
+                  </paragraph>
+                  <paragraph>Studies to assess the genotoxic or carcinogenic potential of flurazepam or the effects of flurazepam on fertility have not been conducted.</paragraph>
+               </text>
+               <effectiveTime value="20230911"/>
+            </section>
+         </component>
+         <component>
+            <section ID="L268140ed-76fc-41b5-b54f-b7e926c4b8e4">
+               <id root="0cde3360-2557-8f14-e063-6394a90a4307"/>
+               <code code="34092-7" codeSystem="2.16.840.1.113883.6.1" displayName="CLINICAL STUDIES SECTION"/>
+               <title>14 CLINICAL STUDIES</title>
+               <text>
+                  <paragraph>Sleep laboratory studies have objectively determined that flurazepam hydrochloride capsules are effective for at least 28 consecutive nights of drug administration.</paragraph>
+               </text>
+               <effectiveTime value="20230911"/>
+            </section>
+         </component>
+         <component>
+            <section ID="L715e0958-e533-4e63-bb13-0811f302b477">
+               <id root="0cde3360-2558-8f14-e063-6394a90a4307"/>
+               <code code="34069-5" codeSystem="2.16.840.1.113883.6.1" displayName="HOW SUPPLIED SECTION"/>
+               <title>16 HOW SUPPLIED/STORAGE AND HANDLING</title>
+               <text>
+                  <paragraph>Flurazepam Hydrochloride Capsules, USP are available containing either 15 mg or 30 mg of Flurazepam Hydrochloride, USP.</paragraph>
+                  <paragraph/>
+                  <paragraph>Flurazepam Hydrochloride Capsules, USP 15 mg are Size #2 hard gelatin capsules, Blue opaque cap with white opaque body, imprinted with “
+ 
+  <content styleCode="bold">CE</content>” on the cap and “
+ 
+  <content styleCode="bold">28</content>” on the body with black ink, filled with white to off-white powder.
+
+ </paragraph>
+                  <paragraph>They are available as follows,</paragraph>
+                  <paragraph>Bottle of 30's - NDC 62135-736-30 
+  <br/>  Bottle of 90’s - NDC 62135-736-90
+ </paragraph>
+                  <paragraph>Flurazepam Hydrochloride Capsules, USP 30 mg are Size #2 hard gelatin capsules, Blue opaque cap with white opaque body, imprinted with “
+ 
+  <content styleCode="bold">CE</content>” on the cap and “
+ 
+  <content styleCode="bold">29</content>” on the body with black ink, filled with white to off-white powder.
+
+ </paragraph>
+                  <paragraph>They are available as follows,</paragraph>
+                  <paragraph>Bottle of 30's - NDC 62135-737-30 
+  <br/>  Bottle of 90’s - NDC 62135-737-90
+ </paragraph>
+                  <paragraph/>
+                  <paragraph>
+                     <content styleCode="bold">Store at 20° to 25°C (68° to 77°F) [See USP Controlled Room Temperature].</content>
+                  </paragraph>
+                  <paragraph>Protect from light and moisture.</paragraph>
+                  <paragraph>Dispense in a tight, light-resistant container as defined in the USP using a child-resistant closure.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">PHARMACIST:</content>Dispense a Medication Guide with each prescription.
+
+ </paragraph>
+               </text>
+               <effectiveTime value="20230911"/>
+            </section>
+         </component>
+         <component>
+            <section ID="L8b8705c5-5ef1-4327-aa0d-a2145c30db60">
+               <id root="0cde3360-2559-8f14-e063-6394a90a4307"/>
+               <code code="34076-0" codeSystem="2.16.840.1.113883.6.1" displayName="INFORMATION FOR PATIENTS SECTION"/>
+               <title>17 PATIENT COUNSELING INFORMATION</title>
+               <text>
+                  <paragraph>Advise the patient to read the
+ 
+  <content styleCode="italics">FDA-approved patient labeling (
+  
+   <linkHtml href="#L7291e3dd-dd95-49a2-a5e3-764473ebc7bd">Medication Guide</linkHtml>).
+ 
+  </content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">
+                        <content styleCode="italics">Risks from Concomitant Use with Opioids:</content>
+                     </content>Advise both patients and caregivers about the risks of potentially fatal respiratory depression and sedation when flurazepam hydrochloride capsules are used with opioids and not to use such drugs concomitantly unless supervised by a healthcare provider
+ 
+  <content styleCode="italics">[see Warnings and Precautions (
+  
+   <linkHtml href="#L3e934bdb-6043-4bef-846d-af3aaee6ca1d">5.1</linkHtml>), Drug Interactions (
+  
+   <linkHtml href="#Lae6d034e-7f46-4c22-b67c-15c719debe75">7.1</linkHtml>)].
+ 
+  </content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">
+                        <content styleCode="italics">Abuse, Misuse, and Addiction:</content>
+                     </content>Inform patients that the use of flurazepam hydrochloride capsules, even at recommended dosages, exposes users to risks of abuse, misuse, and addiction, which can lead to overdose and death, especially when used in combination with other medications (e.g., opioid analgesics), alcohol, and/or illicit substances
+ 
+  <content styleCode="italics">.</content>Inform patients about the signs and symptoms of benzodiazepine abuse, misuse, and addiction; to seek medical help if they develop these signs and/or symptoms; and on the proper disposal of unused drug
+ 
+  <content styleCode="italics">[see Warnings and Precautions (
+  
+   <linkHtml href="#L6fac83ed-6b07-4c4e-94b5-3bc0de4c79c2">5.2</linkHtml>) and Drug Abuse and Dependence (
+  
+   <linkHtml href="#Lb1325a20-ff39-4806-88bc-77add077c0d0">9.2</linkHtml>)].
+ 
+  </content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">
+                        <content styleCode="italics">Withdrawal Reactions:</content>
+                     </content>Inform patients that the continued use of flurazepam hydrochloride capsules may lead to clinically significant physical dependence and that abrupt discontinuation or rapid dosage reduction of flurazepam hydrochloride capsules may precipitate acute withdrawal reactions, which can be life-threatening. Inform patients that in some cases, patients taking benzodiazepines have developed a protracted withdrawal syndrome with withdrawal symptoms lasting weeks to more than 12 months. Instruct patients that discontinuation or dosage reduction of flurazepam hydrochloride capsules may require a slow taper
+ 
+  <content styleCode="italics">[see Warnings and Precautions (
+  
+   <linkHtml href="#L234a3137-c60b-48cc-a0ca-cfce15a900e9">5.3</linkHtml>) and Drug Abuse and Dependence (
+  
+   <linkHtml href="#Lcbf2b714-e86c-4c2c-9e74-8656a093a9ff">9.3</linkHtml>)].
+ 
+  </content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">
+                        <content styleCode="italics">CNS Depressant Effects and Next-Day Impairment:</content>
+                     </content>Tell patients that flurazepam can cause next-day impairment, even in the absence of symptoms. Caution patients against driving or engaging in other hazardous activities or activities requiring complete mental alertness when using flurazepam. Tell patients that daytime impairment may persist for several days following discontinuation of flurazepam. Advise patients that increased drowsiness and decreased consciousness may increase the risk of falls in some patients
+ 
+  <content styleCode="italics">[see Warnings and Precautions (
+  
+   <linkHtml href="#L4504975b-1e53-40d3-8331-e398dcb91f41">5.4</linkHtml>)].
+ 
+  </content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">
+                        <content styleCode="italics">Abnormal Thinking and Behavior Change:</content>
+                     </content>Instruct patients that sedative hypnotics can cause abnormal thinking and behavior change, including “sleep-driving” and other complex behaviors while not being fully awake (preparing and eating food, making phone calls, or having sex). Tell patients to call you immediately if they develop any of these symptoms
+ 
+  <content styleCode="italics">[see Warnings and Precautions (
+  
+   <linkHtml href="#L23ba0231-1578-48d7-9853-a2a854ab8d0f">5.7</linkHtml>)].
+ 
+  </content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">
+                        <content styleCode="italics">Severe Allergic Reactions:</content>
+                     </content>Inform patients that severe allergic reactions can occur from flurazepam. Describe the signs/symptoms of these reactions and advise patients to seek medical attention immediately if these occur.
+
+ </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">
+                        <content styleCode="italics">Worsening of Depression:</content>
+                     </content>Tell patients that flurazepam can worsen depression, and to immediately report any suicidal thoughts
+ 
+  <content styleCode="italics">[see Warnings and Precautions (
+  
+   <linkHtml href="#L69053a3d-1c9b-4811-9cbd-685a33d9720e">5.8</linkHtml>)].
+ 
+  </content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">
+                        <content styleCode="italics">Alcohol and Other Drugs:</content>
+                     </content>Ask patients about alcohol consumption, medicines they are taking now, and drugs they may be taking without a prescription. Advise patients that alcohol generally should not be used during treatment with flurazepam.
+
+ </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">
+                        <content styleCode="italics">Pregnancy:</content>
+                     </content>Advise pregnant females that use flurazepam late in pregnancy can result in sedation (respiratory depression, lethargy, hypotonia) and/or withdrawal symptoms (hyperreflexia, irritability, restlessness, tremors, inconsolable crying, and feeding difficulties) in newborns
+ 
+  <content styleCode="italics">[see Warnings and Precautions (
+  
+   <linkHtml href="#L84d62988-3b5d-439b-a476-3d0eb8448bc6">5.9</linkHtml>), Use in Specific Populations (
+  
+   <linkHtml href="#Ld938378f-5643-4a3e-924c-3b019d22337a">8.1</linkHtml>)]
+ 
+  </content>. Instruct patients to inform their healthcare provider if they are pregnant.
+
+ </paragraph>
+                  <paragraph>Advise patients that there is a pregnancy exposure registry that monitors pregnancy outcomes in women exposed to flurazepam during pregnancy
+ 
+  <content styleCode="italics">[see Use in Specific Populations (
+  
+   <linkHtml href="#Ld938378f-5643-4a3e-924c-3b019d22337a">8.1</linkHtml>)].
+ 
+  </content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="underline">Lactation</content>
+                  </paragraph>
+                  <paragraph>Advise patients that breastfeeding is not recommended during treatment with flurazepam
+ 
+  <content styleCode="italics">[see Use in Specific Populations (
+  
+   <linkHtml href="#L5395bbe6-d284-4f22-b2d2-249896f33822">8.2</linkHtml>)]
+ 
+  </content>.
+
+ </paragraph>
+                  <paragraph/>
+                  <paragraph>
+                     <content styleCode="bold">Manufactured for:</content>
+                  </paragraph>
+                  <paragraph>Chartwell RX, LLC.</paragraph>
+                  <paragraph>Congers, NY 10920</paragraph>
+                  <paragraph/>
+                  <paragraph>Revised: 12/2023</paragraph>
+                  <paragraph>L71652</paragraph>
+                  <paragraph/>
+                  <paragraph>
+                     <content styleCode="bold">Print Medication Guides at:
+  
+   <content styleCode="underline">
+                           <linkHtml href="http://www.chartwellpharma.com/medguides">www.chartwellpharma.com/medguides</linkHtml>
+                        </content>
+                     </content>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20230911"/>
+            </section>
+         </component>
+         <component>
+            <section ID="L7291e3dd-dd95-49a2-a5e3-764473ebc7bd">
+               <id root="0cde3360-255a-8f14-e063-6394a90a4307"/>
+               <code code="42231-1" codeSystem="2.16.840.1.113883.6.1" displayName="SPL MEDGUIDE SECTION"/>
+               <title/>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">Print Medication Guides at:
+  
+   <content styleCode="underline">
+                           <linkHtml href="http://www.chartwellpharma.com/medguides">www.chartwellpharma.com/medguides</linkHtml>
+                        </content>
+                     </content>
+                  </paragraph>
+                  <table width="100%" border="1" cellspacing="0" cellpadding="0">
+                     <tbody>
+                        <tr>
+                           <td align="right" styleCode="Botrule  Lrule" valign="top">
+                              <paragraph>
+                                 <content styleCode="bold">Medication Guide 
+       <br/>  Flurazepam Hydrochloride Capsules, USP 
+       <br/>  (flur az' e pam hye" droe klor' ide)
+      </content>
+                              </paragraph>
+                           </td>
+                           <td align="left" styleCode="Botrule Rrule " valign="top">
+                              <renderMultiMedia referencedObject="Le1fa5616-0ed3-4cea-98f1-4dca4db53f13"/>                                                   
+   
+    </td>
+                        </tr>
+                        <tr>
+                           <td colspan="2" styleCode="Botrule Lrule Rrule" valign="top">
+                              <paragraph styleCode="First TableParagraph">
+                                 <content styleCode="bold">What is the most important information I should know about flurazepam hydrochloride capsules?</content>
+                              </paragraph>
+                              <list listType="unordered">
+                                 <item>
+                                    <content styleCode="bold">Flurazepam hydrochloride capsules are a benzodiazepine medicine. Taking benzodiazepines with opioid medicines, alcohol, or other central nervous system</content>(CNS)
+      
+       <content styleCode="bold">depressants (including street drugs) can cause severe drowsiness, breathing problems (respiratory depression), coma and death.</content>Get emergency help right away if any of the following happens:
+      
+       <list listType="unordered">
+                                       <item>shallow or slowed breathing</item>
+                                       <item>breathing stops (which may lead to the heart stopping)</item>
+                                       <item>excessive sleepiness (sedation).</item>
+                                    </list>
+                                 </item>
+                              </list>
+                              <paragraph>Do not drive or operate heavy machinery until you know how taking flurazepam hydrochloride capsules with opioids affect you.</paragraph>
+                              <list listType="unordered">
+                                 <item>
+                                    <content styleCode="bold">Risk</content>
+                                    <content styleCode="bold">of</content>
+                                    <content styleCode="bold">abuse, misuse,</content>
+                                    <content styleCode="bold">and</content>
+                                    <content styleCode="bold">addiction.</content>There is a risk of abuse, misuse, and addiction with benzodiazepines, including flurazepam hydrochloride capsules, which can lead to overdose and serious side effects including coma and death.
+      
+       <list listType="unordered">
+                                       <item>
+                                          <content styleCode="bold">Serious side effects including coma and death have happened in people who have abused or misused benzodiazepines, including flurazepam hydrochloride capsules.</content>These serious side effects may also include delirium, paranoia, suicidal thoughts or actions, seizures, and difficulty breathing.
+        
+         <content styleCode="bold">Call your healthcare provider or go to the nearest hospital emergency room right away if you get any of these serious side effects.</content>
+                                       </item>
+                                       <item>
+                                          <content styleCode="bold">You can develop an addiction even if you take flurazepam hydrochloride capsules exactly as prescribed by your healthcare provider.</content>
+                                       </item>
+                                       <item>
+                                          <content styleCode="bold">Take flurazepam hydrochloride capsules exactly as your healthcare provider prescribed.</content>
+                                       </item>
+                                       <item>Do not share your flurazepam hydrochloride capsules with other people.</item>
+                                       <item>Keep flurazepam hydrochloride capsules in a safe place and away from children.</item>
+                                    </list>
+                                 </item>
+                                 <item>
+                                    <content styleCode="bold">Physical dependence and withdrawal reactions.</content>Flurazepam hydrochloride capsules can cause physical dependence and withdrawal reactions, especially if you continue to take flurazepam hydrochloride capsules for several days to several weeks.
+      
+       <list listType="unordered">
+                                       <item>
+                                          <content styleCode="bold">Do not suddenly stop taking flurazepam hydrochloride capsules</content>. Stopping flurazepam hydrochloride capsules suddenly can cause serious and life-threatening side effects, including unusual movements, responses, or expressions, seizures, sudden and severe mental or nervous system changes, depression, seeing or hearing things that others do not see or hear, an extreme increase in activity or talking, losing touch with reality, and suicidal thoughts or actions.
+        
+         <content styleCode="bold">Call your healthcare provider or go to the nearest hospital emergency room right away if you get any of these symptoms.</content>
+                                       </item>
+                                       <item>
+                                          <content styleCode="bold">Some people who suddenly stop benzodiazepines have symptoms that can last for several weeks to more than 12 months</content>, including anxiety, trouble remembering, learning, or concentrating, depression, problems sleeping, feeling like insects are crawling under your skin, weakness, shaking, muscle twitching, burning or prickling feeling in your hands, arms, legs or feet, and ringing in your ears.
+       
+        </item>
+                                       <item>Physical dependence is not the same as drug addiction. Your healthcare provider can tell you more about the differences between physical dependence and drug addiction.</item>
+                                       <item>Do not take more flurazepam hydrochloride capsules than prescribed or take flurazepam hydrochloride capsules for longer than prescribed.</item>
+                                    </list>
+                                 </item>
+                                 <item>After taking flurazepam hydrochloride capsules, you may get up out of bed while not being fully awake and do an activity that you do not know you are doing. The next morning, you may not remember that you did anything during the night. You have a higher chance for doing these activities if you drink alcohol or take other medicines that make you sleepy with flurazepam hydrochloride capsules. Reported activities include:
+      
+       <list listType="unordered">
+                                       <item>driving a car (“sleep-driving”)                               ◦  having sex</item>
+                                       <item>making and eating food                                          ◦  sleep-walking</item>
+                                       <item>talking on the phone</item>
+                                    </list>
+                                 </item>
+                              </list>
+                              <paragraph>
+                                 <content styleCode="bold">Call your healthcare provider right away if you find out that you have done any of the above activities after taking flurazepam hydrochloride capsules.</content>
+                              </paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td colspan="2" styleCode="Botrule Lrule Rrule" valign="top">
+                              <paragraph styleCode="First TableParagraph">
+                                 <content styleCode="bold">What are flurazepam hydrochloride capsules?</content>
+                              </paragraph>
+                              <list listType="unordered">
+                                 <item>Flurazepam hydrochloride capsules are a prescription medicine used to treat certain types of insomnia including difficulty falling asleep, waking up often during the night, or waking up early in the morning.</item>
+                                 <item>
+                                    <content styleCode="bold">Flurazepam hydrochloride is a federal controlled substance (C-IV) because it contains flurazepam that can be abused or lead to dependence.</content>Keep in a safe place to prevent misuse and abuse. Selling or giving away flurazepam hydrochloride capsules may harm others, and is against the law. Tell your healthcare provider if you have ever abused or been dependent on alcohol, prescription medicines or street drugs.
+     
+      </item>
+                                 <item>It is not known if flurazepam hydrochloride capsules are safe and effective in children.</item>
+                              </list>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td colspan="2" styleCode="Botrule Lrule Rrule" valign="top">
+                              <paragraph styleCode="First TableParagraph">
+                                 <content styleCode="bold">Do not take flurazepam hydrochloride capsules if you:</content>
+                              </paragraph>
+                              <list listType="unordered">
+                                 <item>are allergic to flurazepam hydrochloride, other benzodiazepines, or any of the ingredients in flurazepam hydrochloride capsules. See the end of this Medication Guide for a complete list of ingredients in flurazepam hydrochloride capsules. Symptoms of a serious allergic reaction can include:
+      
+       <list listType="unordered">
+                                       <item>swelling of your face, lips, and throat that may cause difficulty breathing or swallowing</item>
+                                       <item>nausea and vomiting</item>
+                                    </list>
+                                 </item>
+                              </list>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td colspan="2" styleCode="Botrule Lrule Rrule" valign="top">
+                              <paragraph styleCode="First TableParagraph">
+                                 <content styleCode="bold">Before you take flurazepam hydrochloride capsules, tell your healthcare provider about all of your medical conditions, including if you:</content>
+                              </paragraph>
+                              <list listType="unordered">
+                                 <item>have a history of depression, mental illness or, suicidal thoughts</item>
+                                 <item>have a history of drug or alcohol abuse or addiction</item>
+                                 <item>are pregnant or planning to become pregnant.
+      
+       <list listType="unordered">
+                                       <item>Taking Flurazepam hydrochloride late in pregnancy may cause your baby to have symptoms of sedation (breathing problems, sluggishness, low muscle tone), and/or withdrawal symptoms (jitteriness, irritability, restlessness, shaking, excessive crying, feeding problems).</item>
+                                       <item>Tell your healthcare provider right away if you become pregnant or think you are pregnant during treatment with Flurazepam hydrochloride.</item>
+                                       <item>There is a pregnancy registry for women who take Flurazepam hydrochloride during pregnancy. The purpose of the registry is to collect information about the health of you and your baby. If you become pregnant during treatment with Flurazepam hydrochloride, talk to your healthcare provider about registering with the National Pregnancy Registry for Psychiatric Medications. You can register by calling 1-866-961-2388 or visiting
+        
+         <content styleCode="underline">https://womensmentalhealth.org/pregnancyregistry/.</content>
+                                       </item>
+                                    </list>
+                                 </item>
+                                 <item>are breastfeeding, or plan to breastfeed.
+      
+       <list listType="unordered">
+                                       <item>Talk to your healthcare provider about the best way to feed your baby if you take flurazepam hydrochloride capsules.</item>
+                                       <item>Breastfeeding is not recommended during treatment with Flurazepam hydrochloride.</item>
+                                    </list>
+                                 </item>
+                              </list>
+                              <paragraph styleCode="TableParagraph">
+                                 <content styleCode="bold">Tell your healthcare provider about all of the medicines you take,</content>including prescription and over-the-counter medicines, vitamins, and herbal supplements.
+    
+     </paragraph>
+                              <paragraph styleCode="TableParagraph">Taking flurazepam hydrochloride capsules with certain other medicines can cause side effects or affect how well flurazepam hydrochloride capsules or the other medicines work. Do not start or stop other medicines without talking to your healthcare provider.</paragraph>
+                              <paragraph styleCode="TableParagraph">Do not take flurazepam hydrochloride capsules with other medicines that can make you sleepy unless your healthcare provider tells you to.</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td colspan="2" styleCode="Botrule Lrule Rrule" valign="top">
+                              <paragraph styleCode="First TableParagraph">
+                                 <content styleCode="bold">How should I take flurazepam hydrochloride capsules?</content>
+                              </paragraph>
+                              <list listType="unordered">
+                                 <item>
+                                    <content styleCode="bold">See “What is the most important information I should know about flurazepam hydrochloride capsules?”</content>
+                                 </item>
+                                 <item>Take flurazepam hydrochloride capsules exactly as your healthcare provider tells you to take it.</item>
+                                 <item>Take flurazepam hydrochloride capsules right before you get into bed.</item>
+                                 <item>Do not take flurazepam hydrochloride capsules unless you are able to get a full night’s sleep before you must be active again.</item>
+                                 <item>If you take too many flurazepam hydrochloride capsules, get emergency treatment right away.</item>
+                              </list>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td colspan="2" styleCode="Botrule Lrule Rrule" valign="top">
+                              <paragraph styleCode="First TableParagraph">
+                                 <content styleCode="bold">What are the possible side effects of flurazepam hydrochloride capsules? Flurazepam hydrochloride capsules may cause serious side effects, including:</content>
+                              </paragraph>
+                              <list listType="unordered">
+                                 <item>
+                                    <content styleCode="bold">See “What is the most important information I should know about flurazepam hydrochloride capsules?”</content>
+                                 </item>
+                                 <item>
+                                    <content styleCode="bold">Other conditions.</content>Call your healthcare provider if your insomnia worsens or is not better within 7 to 10 days. This may mean that there is another condition causing your sleep problem.
+     
+      </item>
+                                 <item>
+                                    <content styleCode="bold">Severe allergic reactions.</content>Symptoms include swelling of the tongue or throat, and trouble breathing. Other symptoms may include nausea and vomiting. Get emergency medical help right away if you have these symptoms after taking flurazepam hydrochloride capsules.
+     
+      </item>
+                                 <item>
+                                    <content styleCode="bold">Abnormal thoughts and behavior.</content>Symptoms include more outgoing or aggressive behavior than normal, confusion, agitation, hallucinations, worsening of depression, and suicidal thoughts.
+     
+      </item>
+                                 <item>
+                                    <content styleCode="bold">Flurazepam hydrochloride capsules can make you sleepy or dizzy and can slow your thinking and motor skills.</content>
+                                    <list listType="unordered" styleCode="Circle">
+                                       <item>Do not drive, operate heavy machinery, or do other dangerous activities until you know how flurazepam hydrochloride capsules affect you.</item>
+                                       <item>Do not drink alcohol or take other drugs that may make you sleepy or dizzy while taking flurazepam hydrochloride capsules without first talking to your healthcare provider. When taken with alcohol or drugs that cause sleepiness or dizziness, flurazepam hydrochloride capsules may make your sleepiness or dizziness much worse.</item>
+                                    </list>
+                                 </item>
+                                 <item>
+                                    <content styleCode="bold">Depression.</content>Pre-existing depression may emerge or worsen during use of benzodiazepines including flurazepam hydrochloride capsules.
+     
+      </item>
+                              </list>
+                              <paragraph styleCode="TableParagraph">
+                                 <content styleCode="bold">The most common side effects of flurazepam hydrochloride capsules include:</content>
+                              </paragraph>
+                              <paragraph>               • dizziness                                           • drowsiness</paragraph>
+                              <paragraph>               • light-headedness                              • staggering</paragraph>
+                              <paragraph>               • loss of coordination                          • falling</paragraph>
+                              <paragraph styleCode="TableParagraph">These are not all the possible side effects of flurazepam hydrochloride capsules.
+     
+      <content styleCode="bold">Call your doctor for medical advice about side effects. You may report side effects to FDA at 1-800- FDA-1088.</content>
+                              </paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td colspan="2" styleCode="Botrule Lrule Rrule" valign="top">
+                              <paragraph styleCode="First TableParagraph">
+                                 <content styleCode="bold">How should I store flurazepam hydrochloride capsules?</content>
+                              </paragraph>
+                              <list listType="unordered">
+                                 <item>Store at 20° to 25°C (68° to 77°F).</item>
+                                 <item>Keep flurazepam hydrochloride capsules in a tightly closed container and out of the light.</item>
+                                 <item>
+                                    <content styleCode="bold">Keep flurazepam hydrochloride capsules and all medicines out of the reach of children.</content>
+                                 </item>
+                              </list>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td colspan="2" styleCode="Botrule Lrule Rrule" valign="top">
+                              <paragraph styleCode="First TableParagraph">
+                                 <content styleCode="bold">General information about the safe and effective use of flurazepam hydrochloride capsules.</content>
+                              </paragraph>
+                              <paragraph styleCode="TableParagraph">Medicines are sometimes prescribed for purposes other than those listed in a Medication Guide. Do not use flurazepam hydrochloride capsules for a condition for which it was not prescribed. Do not give flurazepam hydrochloride capsules to other people, even if they have the same symptoms that you have. It may harm them. You can ask your healthcare provider or pharmacist for information about flurazepam hydrochloride capsules that is written for healthcare professionals.</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td colspan="2" styleCode="Botrule Lrule Rrule" valign="top">
+                              <paragraph styleCode="First TableParagraph">
+                                 <content styleCode="bold">What are the ingredients in flurazepam hydrochloride capsules?</content>
+                              </paragraph>
+                              <paragraph styleCode="TableParagraph">
+                                 <content styleCode="bold">Active Ingredient:</content>flurazepam hydrochloride
+    
+     </paragraph>
+                              <paragraph>
+                                 <content styleCode="bold">Inactive Ingredients:</content>Anhydrous lactose, colloidal silicon dioxide, gelatin, FD&amp;C Blue #1, FD&amp;C Red #3, mannitol, magnesium stearate, talc, and titanium dioxide.
+    
+     </paragraph>
+                              <paragraph>Additionally, capsule shells of 15 mg and 30 mg are imprinted with black pharmaceutical ink. The compositions of the black pharmaceutical ink are black iron oxide, butyl alcohol, dehydrated alcohol, isopropyl alcohol, potassium hydroxide, propylene glycol, purified water, shellac, and strong ammonia solution.</paragraph>
+                              <br/>
+                              <paragraph/>
+                              <paragraph>
+                                 <content styleCode="bold">Manufactured for:</content>
+                                 <br/>  Chartwell RX, LLC. 
+      <br/>  Congers, NY 10920
+    
+     </paragraph>
+                              <br/>
+                              <paragraph/>
+                              <paragraph>Revised: 09/2023</paragraph>
+                              <paragraph>L71653</paragraph>
+                              <br/>
+                              <paragraph/>
+                              <paragraph styleCode="TableParagraph">If you would like more information, call
+     
+      <content styleCode="bold">Chartwell RX, LLC. at 1-845-232-1683</content>.
+    
+     </paragraph>
+                           </td>
+                        </tr>
+                     </tbody>
+                  </table>
+                  <paragraph>This Medication Guide has been approved by the U.S. Food and Drug Administration.</paragraph>
+                  <paragraph/>
+               </text>
+               <effectiveTime value="20230911"/>
+               <component>
+                  <observationMedia ID="Le1fa5616-0ed3-4cea-98f1-4dca4db53f13">
+                     <text>dea-civ-logo</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="flurazepam-hydrochloride-dea-civ-logo.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="L9895387a-10f1-4982-9d05-df165a284b6f">
+               <id root="0cde3360-255b-8f14-e063-6394a90a4307"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>PACKAGE LABEL.PRINCIPAL DISPLAY PANEL</title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">Flurazepam Hydrochloride Capsules, USP CIV - 15 mg - NDC-62135-736-30 - Bottle Label</content>
+                  </paragraph>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="IM01"/>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Flurazepam Hydrochloride Capsules, USP CIV - 15 mg - NDC-62135-736-90 - Bottle Label</content>
+                  </paragraph>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="IM02"/>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Flurazepam Hydrochloride Capsules, USP CIV - 30 mg - NDC-62135-737-30 - Bottle Label</content>
+                  </paragraph>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="IM03"/>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Flurazepam Hydrochloride Capsules, USP CIV - 30 mg - NDC-62135-737-90 - Bottle Label</content>
+                  </paragraph>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="IM04"/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20230911"/>
+               <component>
+                  <observationMedia ID="IM01">
+                     <text>flurazepam-hydrochloride-15mg-30s-bottle-label</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="flurazepam-hydrochloride-15mg-30s-bottle-label.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="IM02">
+                     <text>flurazepam-hydrochloride-15mg-90s-bottle-label</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="flurazepam-hydrochloride-15mg-90s-bottle-label.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="IM03">
+                     <text>flurazepam-hydrochloride-30mg-30s-bottle-label</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="flurazepam-hydrochloride-30mg-30s-bottle-label.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="IM04">
+                     <text>flurazepam-hydrochloride-30mg-90s-bottle-label</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="flurazepam-hydrochloride-30mg-90s-bottle-label.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

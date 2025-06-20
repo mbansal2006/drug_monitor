@@ -1,0 +1,2278 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="https://www.accessdata.fda.gov/spl/stylesheet/spl.xsl" type="text/xsl"?>
+<document xmlns="urn:hl7-org:v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 https://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="5e54002e-7b03-46ad-ae01-c76c76967201"/>
+   <code code="34391-3" codeSystem="2.16.840.1.113883.6.1" displayName="HUMAN PRESCRIPTION DRUG LABEL"/>
+   <title>These highlights do not include all the information needed to use FLOLAN safely and effectively. See full prescribing information for FLOLAN.<br/>
+      <br/>FLOLAN (epoprostenol sodium) for injection, for intravenous use<br/>Initial U.S. Approval: 1995</title>
+   <effectiveTime value="20231026"/>
+   <setId root="8e4b636e-ee9c-4111-779d-28c8369d283b"/>
+   <versionNumber value="23"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id extension="167380711" root="1.3.6.1.4.1.519.1"/>
+            <name>GlaxoSmithKline LLC</name>
+            <assignedEntity>
+               <assignedOrganization/>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section>
+               <id root="d91aa103-bb3b-49dc-984b-abb372161a9d"/>
+               <code code="48780-1" codeSystem="2.16.840.1.113883.6.1" displayName="SPL product data elements section"/>
+               <effectiveTime value="20210824"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="0173-0517" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>FLOLAN</name>
+                        <formCode code="C42957" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="INJECTION, POWDER, LYOPHILIZED, FOR SOLUTION"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>epoprostenol sodium</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <ingredient classCode="ACTIM">
+                           <quantity>
+                              <numerator unit="mg" value="0.5"/>
+                              <denominator unit="1" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="4K04IQ1OF4" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>EPOPROSTENOL SODIUM</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="DCR9Z582X0" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>EPOPROSTENOL</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="TE7660XO1C" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>GLYCINE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="451W47IQ8X" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SODIUM CHLORIDE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="3OWL53L36A" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>MANNITOL</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator unit="1" value="1"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="0173-0517-00" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43182" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CARTON"/>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <marketingAct>
+                                 <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 <statusCode code="active"/>
+                                 <effectiveTime>
+                                    <low value="19951208"/>
+                                 </effectiveTime>
+                              </marketingAct>
+                           </subjectOf>
+                           <subjectOf>
+                              <characteristic classCode="OBS">
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CE"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <id extension="NDA020444" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73594" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="NDA"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="19951208"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38276" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="INTRAVENOUS"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="0173-0519" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>FLOLAN</name>
+                        <formCode code="C42957" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="INJECTION, POWDER, LYOPHILIZED, FOR SOLUTION"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>epoprostenol sodium</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <ingredient classCode="ACTIM">
+                           <quantity>
+                              <numerator unit="mg" value="1.5"/>
+                              <denominator unit="1" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="4K04IQ1OF4" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>EPOPROSTENOL SODIUM</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="DCR9Z582X0" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>EPOPROSTENOL</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="TE7660XO1C" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>GLYCINE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="451W47IQ8X" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SODIUM CHLORIDE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="3OWL53L36A" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>MANNITOL</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator unit="1" value="1"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="0173-0519-00" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43182" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CARTON"/>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <marketingAct>
+                                 <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 <statusCode code="active"/>
+                                 <effectiveTime>
+                                    <low value="19951208"/>
+                                 </effectiveTime>
+                              </marketingAct>
+                           </subjectOf>
+                           <subjectOf>
+                              <characteristic classCode="OBS">
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CE"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <id extension="NDA020444" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73594" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="NDA"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="19951208"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38276" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="INTRAVENOUS"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="0173-0857" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>Diluent</name>
+                        <formCode code="C42986" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="SOLUTION"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>water</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator unit="mL" value="1"/>
+                              <denominator unit="mL" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="059QF0KO0R" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>WATER</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="059QF0KO0R" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>WATER</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="TE7660XO1C" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>GLYCINE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="451W47IQ8X" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SODIUM CHLORIDE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="55X04QC32I" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SODIUM HYDROXIDE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator unit="mL" value="50"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code/>
+                              <formCode code="C43226" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="VIAL"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator unit="1" value="2"/>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code code="0173-0857-02" codeSystem="2.16.840.1.113883.6.69"/>
+                                    <formCode code="C53438" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="TRAY"/>
+                                 </containerPackagedProduct>
+                                 <subjectOf>
+                                    <marketingAct>
+                                       <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                       <statusCode code="active"/>
+                                       <effectiveTime>
+                                          <low value="20160401"/>
+                                       </effectiveTime>
+                                    </marketingAct>
+                                 </subjectOf>
+                              </asContent>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic classCode="OBS">
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CE"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <id extension="NDA020444" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73594" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="NDA"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20160401"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38276" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="INTRAVENOUS"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_b7d55a0b-fee6-452c-9057-4e96dc144f7f">
+               <id root="2639b51e-38f0-4b98-b6a4-6b61a7a15029"/>
+               <code code="34067-9" codeSystem="2.16.840.1.113883.6.1" displayName="INDICATIONS &amp; USAGE SECTION"/>
+               <title>1 INDICATIONS AND USAGE</title>
+               <text>
+                  <paragraph>FLOLAN is indicated for the treatment of pulmonary arterial hypertension (PAH) (WHO Group I) to improve exercise capacity. Trials establishing effectiveness included predominantly (97%) patients with New York Heart Association (NYHA) Functional Class III-IV symptoms and etiologies of idiopathic or heritable PAH (49%) or PAH associated with connective tissue diseases (51%).</paragraph>
+               </text>
+               <effectiveTime value="20180514"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <paragraph>FLOLAN is a prostacyclin vasodilator indicated for the treatment of pulmonary arterial hypertension (PAH) (WHO Group I) to improve exercise capacity. Studies establishing effectiveness included predominantly (97%) patients with NYHA Functional Class III-IV symptoms and etiologies of idiopathic or heritable PAH (49%) or PAH associated with connective tissue diseases (51%). (<linkHtml href="#ID_b7d55a0b-fee6-452c-9057-4e96dc144f7f">1</linkHtml>)</paragraph>
+                     </text>
+                  </highlight>
+               </excerpt>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_27238ddc-bece-4f7b-a309-f06eb09642ef">
+               <id root="fcda0836-f4c7-463d-b016-af13483f54c3"/>
+               <code code="34068-7" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE &amp; ADMINISTRATION SECTION"/>
+               <title>2 DOSAGE AND ADMINISTRATION</title>
+               <effectiveTime value="20231026"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <list listType="unordered">
+                           <item>
+                              <caption>•</caption>Initiate intravenous infusion through a central venous catheter at 2 ng/kg/min. (<linkHtml href="#ID_b31567ce-968c-4df5-a52c-7b53e0e5b74e">2.2</linkHtml>, <linkHtml href="#ID_6dce06fb-9615-44bf-8929-8b68aab28af4">2.3</linkHtml>)</item>
+                           <item>
+                              <caption>•</caption>Change dose in 1- to 2-ng/kg/min increments at intervals of at least 15 minutes based on clinical response. (<linkHtml href="#ID_b31567ce-968c-4df5-a52c-7b53e0e5b74e">2.2</linkHtml>)</item>
+                           <item>
+                              <caption>•</caption>Avoid sudden large dose reductions. (<linkHtml href="#ID_b31567ce-968c-4df5-a52c-7b53e0e5b74e">2.2</linkHtml>, <linkHtml href="#ID_be52af2e-6efa-4d2f-8983-1018ba8c1f76">5.2</linkHtml>)</item>
+                        </list>
+                     </text>
+                  </highlight>
+               </excerpt>
+               <component>
+                  <section ID="ID_2e6732a2-78a3-40ab-be1d-97fef36bd569">
+                     <id root="38161072-4927-46cb-a436-ebe93b29a37d"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>2.1 Reconstitution</title>
+                     <text>
+                        <paragraph>Each vial is for single use only; discard any unused diluent or unused reconstituted solution.</paragraph>
+                        <paragraph>Select a concentration for the solution of FLOLAN that is compatible with the infusion pump being used with respect to minimum and maximum flow rates, reservoir capacity, and the infusion pump criteria listed below <content styleCode="italics">[see Dosage and Administration (</content>
+                           <linkHtml href="#ID_6dce06fb-9615-44bf-8929-8b68aab28af4">2.3</linkHtml>
+                           <content styleCode="italics">)]</content>.</paragraph>
+                        <paragraph>Using aseptic technique, reconstitute FLOLAN only with pH 12 STERILE DILUENT for FLOLAN. <linkHtml href="#_Ref78463800">Table 1</linkHtml> gives directions for preparing several different concentrations of FLOLAN. See storage and administration time limits for the reconstituted FLOLAN below.</paragraph>
+                        <table ID="_Ref78463800" width="100%">
+                           <caption>Table 1. Reconstitution and Dilution Instructions for FLOLAN Using pH 12 STERILE DILUENT for FLOLAN.</caption>
+                           <col width="31%"/>
+                           <col width="69%"/>
+                           <tfoot>
+                              <tr>
+                                 <td align="left" colspan="2" styleCode="Botrule" valign="top">
+                                    <sup>a</sup>  Higher concentrations may be prepared for patients who receive FLOLAN long-term.</td>
+                              </tr>
+                           </tfoot>
+                           <tbody>
+                              <tr>
+                                 <td align="center" styleCode="Rrule Botrule Lrule Toprule " valign="bottom">
+                                    <paragraph>
+                                       <content styleCode="bold">To make 100 mL of solution with final concentration of:</content>
+                                    </paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Botrule Lrule Toprule " valign="bottom">
+                                    <paragraph>
+                                       <content styleCode="bold">Directions:</content>
+                                    </paragraph>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td align="center" styleCode="Rrule Lrule Botrule " valign="top">
+                                    <paragraph>3,000 ng/mL</paragraph>
+                                 </td>
+                                 <td styleCode="Rrule Lrule Botrule " valign="top">
+                                    <paragraph>Dissolve contents of <content styleCode="bold">one 0.5</content>‑<content styleCode="bold">mg vial</content> with 5 mL of sterile diluent. Withdraw 3 mL and add to sufficient sterile diluent to make a total of 100 mL.</paragraph>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td align="center" styleCode="Rrule Lrule Botrule " valign="top">
+                                    <paragraph>5,000 ng/mL</paragraph>
+                                 </td>
+                                 <td styleCode="Rrule Lrule Botrule " valign="top">
+                                    <paragraph>Dissolve contents of <content styleCode="bold">one 0.5</content>‑<content styleCode="bold">mg vial</content> with 5 mL of sterile diluent. Withdraw entire vial contents and add sufficient sterile diluent to make a total of 100 mL.</paragraph>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td align="center" styleCode="Rrule Lrule Botrule " valign="top">
+                                    <paragraph>10,000 ng/mL</paragraph>
+                                 </td>
+                                 <td styleCode="Rrule Lrule Botrule " valign="top">
+                                    <paragraph>Dissolve contents of <content styleCode="bold">two 0.5</content>‑<content styleCode="bold">mg vials</content> each with 5 mL of sterile diluent. Withdraw entire vial contents and add sufficient sterile diluent to make a total of 100 mL.</paragraph>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td align="center" styleCode="Rrule Botrule Lrule " valign="top">
+                                    <paragraph>15,000 ng/mL<sup>a</sup>
+                                    </paragraph>
+                                 </td>
+                                 <td styleCode="Rrule Botrule Lrule " valign="top">
+                                    <paragraph>Dissolve contents of <content styleCode="bold">one 1.5</content>‑<content styleCode="bold">mg vial</content> with 5 mL of sterile diluent. Withdraw entire vial contents and add sufficient sterile diluent to make a total of 100 mL.</paragraph>
+                                 </td>
+                              </tr>
+                           </tbody>
+                        </table>
+                        <paragraph>
+                           <content styleCode="underline">Storage and Administration Limits for Reconstituted FLOLAN</content>
+                        </paragraph>
+                        <list listType="unordered">
+                           <item>
+                              <caption>•</caption>Freshly prepared reconstituted solutions or reconstituted solutions that have been stored at 2°C to 8°C (36°F to 46°F) for no longer than 8 days can be administered up to:</item>
+                           <item>
+                              <caption>•</caption>48 hours at up to 25°C (77°F).<list listType="unordered">
+                                 <item>
+                                    <caption>•</caption>36 hours at up to 30°C (86°F).</item>
+                                 <item>
+                                    <caption>•</caption>24 hours at up to 35°C (95°F).</item>
+                                 <item>
+                                    <caption>•</caption>12 hours at up to 40°C (104°F).</item>
+                              </list>
+                           </item>
+                           <item>
+                              <caption> </caption>Discard any unused solution after these times.</item>
+                           <item>
+                              <caption>•</caption>Reconstituted solutions can be used immediately. Refrigerate at 2°C to 8°C (36°F to 46°F) if not used immediately.</item>
+                           <item>
+                              <caption>•</caption>Protect from light.</item>
+                           <item>
+                              <caption>•</caption>Do not freeze reconstituted solutions.</item>
+                        </list>
+                     </text>
+                     <effectiveTime value="20231026"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID_b31567ce-968c-4df5-a52c-7b53e0e5b74e">
+                     <id root="4925c875-6438-44c5-a5a5-c74fcc053897"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>2.2 Dosage</title>
+                     <text>
+                        <paragraph>Initiate intravenous infusions of FLOLAN at 2 ng/kg/min. Alter the infusion by 1- to 2-ng/kg/min increments at intervals sufficient to allow assessment of clinical response. These intervals should be at least 15 minutes.</paragraph>
+                        <paragraph>During dose initiation, asymptomatic increases in pulmonary artery pressure coincident with increases in cardiac output may occur. In such cases, consider dose reduction, but such an increase does not imply that chronic treatment is contraindicated.</paragraph>
+                        <paragraph>Base changes in the chronic infusion rate on persistence, recurrence, or worsening of the patient's symptoms of pulmonary hypertension and the occurrence of adverse vasodilatory reactions. In general, expect progressive increases in dose.</paragraph>
+                        <paragraph>If dose-related adverse reactions occur, make dose decreases gradually in 2-ng/kg/min decrements every 15 minutes or longer until the dose-limiting effects resolve <content styleCode="italics">[see Adverse Reactions (<linkHtml href="#ID_6ec763e4-6ef8-4cc0-8c90-f361546c4cb5">6.1</linkHtml>, <linkHtml href="#ID_1647f0c2-5b73-4b48-9d54-b0b5c320ee84">6.2</linkHtml>)]</content>. Avoid abrupt withdrawal of FLOLAN or sudden large reductions in infusion rates <content styleCode="italics">[see Warnings and Precautions (<linkHtml href="#ID_be52af2e-6efa-4d2f-8983-1018ba8c1f76">5.2</linkHtml>)]</content>.</paragraph>
+                        <paragraph>Following establishment of a new chronic infusion rate, measure standing and supine blood pressure for several hours.</paragraph>
+                        <paragraph>Taper doses of FLOLAN after initiation of cardiopulmonary bypass in patients receiving lung transplants.</paragraph>
+                     </text>
+                     <effectiveTime value="20210824"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID_6dce06fb-9615-44bf-8929-8b68aab28af4">
+                     <id root="816360aa-c7c2-45f8-b404-d8f5544c15cf"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>2.3 Administration</title>
+                     <text>
+                        <paragraph>Initiate FLOLAN in a setting with adequate personnel and equipment for physiologic monitoring and emergency care.</paragraph>
+                        <paragraph>Inspect parenteral drug products for particulate matter and discoloration prior to administration whenever solution and container permit. If either particulate matter or discoloration is noted, do not use.</paragraph>
+                        <paragraph>Administer continuous chronic infusion of FLOLAN through a central venous catheter. Temporary peripheral intravenous infusion may be used until central access is established. Do not administer bolus injections of FLOLAN.</paragraph>
+                        <paragraph>The ambulatory infusion pump used to administer FLOLAN should: (1) be small and lightweight, (2) be able to adjust infusion rates in 2‑ng/kg/min increments, (3) have occlusion, end-of-infusion, and low-battery alarms, (4) be accurate to ± 6% of the programmed rate, and (5) be positive-pressure‑driven (continuous or pulsatile) with intervals between pulses not exceeding 3 minutes at infusion rates used to deliver FLOLAN. The reservoir should be made of polyvinyl chloride, polypropylene, or glass. Use a 60-inch microbore non-di-(2-ethylhexyl)phthalate (DEHP) extension set with proximal antisyphon valve, low-priming volume (0.9 mL), and in-line 0.22-micron filter.</paragraph>
+                        <paragraph>Preparation and administration materials containing polyethylene terephthalate (PET) or polyethylene terephthalate glycol (PETG) may become damaged when used with FLOLAN prepared with pH 12 STERILE DILUENT for FLOLAN and therefore must not be used.</paragraph>
+                        <paragraph>Consult the manufacturer of the sets to confirm that they are considered compatible with highly alkaline solutions, such as FLOLAN prepared with pH 12 STERILE DILUENT for FLOLAN.</paragraph>
+                        <paragraph>To avoid interruptions in drug delivery, the patient should have access to a backup infusion pump and intravenous infusion sets.</paragraph>
+                        <paragraph>Do not administer or dilute reconstituted solutions of FLOLAN with other parenteral solutions or medications. Consider a multi‑lumen catheter if other intravenous therapies are routinely administered.</paragraph>
+                        <paragraph>Select a concentration for the solution of FLOLAN that is compatible with the infusion pump being used with respect to minimum and maximum flow rates, reservoir capacity, and the infusion pump criteria listed above. When administered chronically, prepare FLOLAN in a drug delivery reservoir appropriate for the infusion pump with a total reservoir volume of at least 100 mL, using 2 vials of pH 12 STERILE DILUENT for FLOLAN.</paragraph>
+                        <paragraph>Generally, 3,000 ng/mL and 10,000 ng/mL are satisfactory concentrations to deliver between 2 to 16 ng/kg/min in adults. Higher infusion rates, and therefore, more concentrated solutions may be necessary with long‑term administration of FLOLAN.</paragraph>
+                        <paragraph>Infusion rates may be calculated using the following formula:</paragraph>
+                        <renderMultiMedia ID="id253745176" referencedObject="ID_7b9b623f-8feb-4ea9-a7ec-5e40524769b6"/>
+                     </text>
+                     <effectiveTime value="20210824"/>
+                     <component>
+                        <observationMedia ID="ID_7b9b623f-8feb-4ea9-a7ec-5e40524769b6">
+                           <text>Flolan infusion rate formula</text>
+                           <value mediaType="image/jpeg" xsi:type="ED">
+                              <reference value="flolan-spl-graphic-01.jpg"/>
+                           </value>
+                        </observationMedia>
+                     </component>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_584f732c-c66a-4c5a-b191-2c30abd8f6fa">
+               <id root="39cabebc-7db7-4633-97d3-c215b1548827"/>
+               <code code="43678-2" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE FORMS &amp; STRENGTHS SECTION"/>
+               <title>3 DOSAGE FORMS AND STRENGTHS</title>
+               <text>
+                  <paragraph>For injection: 0.5 mg or 1.5 mg of epoprostenol, freeze-dried powder in a single-dose vial for reconstitution with the supplied diluent.</paragraph>
+               </text>
+               <effectiveTime value="20180514"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <paragraph>For injection: 0.5 mg or 1.5 mg of epoprostenol freeze-dried powder in a single-dose vial for reconstitution with the supplied diluent. (<linkHtml href="#ID_584f732c-c66a-4c5a-b191-2c30abd8f6fa">3</linkHtml>)</paragraph>
+                     </text>
+                  </highlight>
+               </excerpt>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_c50884b2-5154-4732-8d5c-c56ea11bdd03">
+               <id root="27cbc53a-07ba-419a-84ad-d639f5bb6ef8"/>
+               <code code="34070-3" codeSystem="2.16.840.1.113883.6.1" displayName="CONTRAINDICATIONS SECTION"/>
+               <title>4 CONTRAINDICATIONS</title>
+               <text>
+                  <paragraph>FLOLAN is contraindicated in patients with heart failure caused by reduced left ventricular ejection fraction <content styleCode="italics">[see Clinical Studies (<linkHtml href="#ID_47d20deb-429e-492c-9788-d0464a1574c5">14.3</linkHtml>)]</content>.</paragraph>
+                  <paragraph>FLOLAN is contraindicated in patients with a hypersensitivity to the drug or any of its ingredients.</paragraph>
+               </text>
+               <effectiveTime value="20210824"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <list listType="unordered">
+                           <item>
+                              <caption>•</caption>Heart failure with reduced ejection fraction. (<linkHtml href="#ID_c50884b2-5154-4732-8d5c-c56ea11bdd03">4</linkHtml>)</item>
+                           <item>
+                              <caption>•</caption>Hypersensitivity to FLOLAN or any of its ingredients. (<linkHtml href="#ID_c50884b2-5154-4732-8d5c-c56ea11bdd03">4</linkHtml>)</item>
+                        </list>
+                     </text>
+                  </highlight>
+               </excerpt>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_4f9e6f74-906d-4a6e-8625-74ff4f7a2544">
+               <id root="eb6836b4-9787-4030-a7b9-33f5d4ca3098"/>
+               <code code="43685-7" codeSystem="2.16.840.1.113883.6.1" displayName="WARNINGS AND PRECAUTIONS SECTION"/>
+               <title>5 WARNINGS AND PRECAUTIONS</title>
+               <effectiveTime value="20210824"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <list listType="unordered">
+                           <item>
+                              <caption>•</caption>Pulmonary edema: Discontinue therapy if pulmonary edema occurs. (<linkHtml href="#ID_4347c32c-2e06-44dc-b82d-968884d96ce5">5.1</linkHtml>)</item>
+                           <item>
+                              <caption>•</caption>Rebound pulmonary hypertension: Do not abruptly discontinue or decrease the dose. (<linkHtml href="#ID_be52af2e-6efa-4d2f-8983-1018ba8c1f76">5.2</linkHtml>)</item>
+                           <item>
+                              <caption>•</caption>Vasodilation reactions: Monitor blood pressure and symptoms regularly during initiation and after dose change. (<linkHtml href="#ID_045b740a-2681-4b8b-91a0-ea0c4a74d016">5.3</linkHtml>)</item>
+                           <item>
+                              <caption>•</caption>Increased risk for bleeding: Increased risk for hemorrhagic complications, particularly for patients with other risk factors for bleeding. (<linkHtml href="#ID_304fcf48-3d44-4679-a124-9ecfdb6169d8">5.4</linkHtml>)</item>
+                        </list>
+                     </text>
+                  </highlight>
+               </excerpt>
+               <component>
+                  <section ID="ID_4347c32c-2e06-44dc-b82d-968884d96ce5">
+                     <id root="7e70c55c-12b2-4bac-8141-7adae3fa0637"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>5.1 Pulmonary Edema</title>
+                     <text>
+                        <paragraph>If the patient develops pulmonary edema during initiation with FLOLAN, discontinue therapy and do not readminister. Consider the possibility of associated pulmonary veno-occlusive disease in such patients.</paragraph>
+                     </text>
+                     <effectiveTime value="20150421"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID_be52af2e-6efa-4d2f-8983-1018ba8c1f76">
+                     <id root="ead0cf4b-b577-4a04-9919-7da7780bfd0d"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>5.2 Rebound Pulmonary Hypertension following Abrupt Withdrawal</title>
+                     <text>
+                        <paragraph>Avoid abrupt withdrawal (including interruptions in drug delivery) or sudden large reductions in dosage of FLOLAN because symptoms associated with rebound pulmonary hypertension (e.g., dyspnea, dizziness, and asthenia) may occur. In clinical trials, one Class III patient's death was judged attributable to the interruption of FLOLAN.</paragraph>
+                     </text>
+                     <effectiveTime value="20150421"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID_045b740a-2681-4b8b-91a0-ea0c4a74d016">
+                     <id root="d078b92f-39cd-46a9-97dc-4817c1bab5ae"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>5.3 Vasodilation</title>
+                     <text>
+                        <paragraph>FLOLAN is a potent pulmonary and systemic vasodilator and can cause hypotension and other reactions such as flushing, nausea, vomiting, dizziness, and headache. Monitor blood pressure and symptoms regularly during initiation and after dose change <content styleCode="italics">[see Dosage and Administration (<linkHtml href="#ID_b31567ce-968c-4df5-a52c-7b53e0e5b74e">2.2</linkHtml>)]</content>.</paragraph>
+                     </text>
+                     <effectiveTime value="20210824"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID_304fcf48-3d44-4679-a124-9ecfdb6169d8">
+                     <id root="af71e17f-f720-4916-b5b6-5a1fc61d2fa4"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>5.4 Increased Risk for Bleeding</title>
+                     <text>
+                        <paragraph>FLOLAN is a potent inhibitor of platelet aggregation. Therefore, expect an increased risk for hemorrhagic complications, particularly for patients with other risk factors for bleeding <content styleCode="italics">[see Clinical Pharmacology (<linkHtml href="#ID_df7145ac-ce37-47ef-b7a4-52a5366ecd8b">12.3</linkHtml>)]</content>.</paragraph>
+                     </text>
+                     <effectiveTime value="20210824"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_ddf01e1e-7bdf-48a1-83af-6e88ce5bd735">
+               <id root="e90eea30-4f66-4136-9114-348544ce11e0"/>
+               <code code="34084-4" codeSystem="2.16.840.1.113883.6.1" displayName="ADVERSE REACTIONS SECTION"/>
+               <title>6 ADVERSE REACTIONS</title>
+               <effectiveTime value="20231026"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <paragraph>The most common adverse reactions are dizziness, jaw pain, headache, musculoskeletal pain, and nausea/vomiting, and are generally associated with vasodilation. (<linkHtml href="#ID_ddf01e1e-7bdf-48a1-83af-6e88ce5bd735">6</linkHtml>)</paragraph>
+                        <paragraph>
+                           <content styleCode="bold">To report SUSPECTED ADVERSE REACTIONS, contact GlaxoSmithKline at 1-888-825-5249 or FDA at 1-800-FDA-1088 or <linkHtml href="http://www.fda.gov/medwatch">www.fda.gov/medwatch</linkHtml>.</content>
+                        </paragraph>
+                     </text>
+                  </highlight>
+               </excerpt>
+               <component>
+                  <section ID="ID_6ec763e4-6ef8-4cc0-8c90-f361546c4cb5">
+                     <id root="a1bdeed3-992f-4ffb-ad55-1b889a083a25"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>6.1 Clinical Trials Experience</title>
+                     <text>
+                        <paragraph>Because clinical trials are conducted under widely varying conditions, adverse reaction rates observed in the clinical trials of a drug cannot be directly compared with rates in the clinical trials of another drug and may not reflect the rates observed in practice.</paragraph>
+                        <paragraph>Adverse reactions are shown in <linkHtml href="#_Ref78463857">Table 2</linkHtml> and are generally related to vasodilatory effects.</paragraph>
+                        <table ID="_Ref78463857" width="100%">
+                           <caption>Table 2. Adverse Reactions Occurring in Patients with Idiopathic or Heritable PAH and with PAH Associated with Scleroderma Spectrum of Diseases (PAH/SSD) Occurring ≥10% More Frequently on FLOLAN than Conventional Therapy</caption>
+                           <col width="36%"/>
+                           <col width="23%"/>
+                           <col width="16%"/>
+                           <col width="12%"/>
+                           <col width="13%"/>
+                           <tbody>
+                              <tr>
+                                 <td align="center" rowspan="3" styleCode="Rrule Botrule Lrule Toprule " valign="bottom">
+                                    <paragraph>
+                                       <content styleCode="bold">Adverse Reaction</content>
+                                    </paragraph>
+                                 </td>
+                                 <td align="center" colspan="2" styleCode="Rrule Botrule Lrule Toprule " valign="bottom">
+                                    <paragraph>
+                                       <content styleCode="bold">Idiopathic or Heritable</content>
+                                    </paragraph>
+                                    <paragraph>
+                                       <content styleCode="bold">PAH</content>
+                                    </paragraph>
+                                 </td>
+                                 <td align="center" colspan="2" styleCode="Rrule Botrule Lrule Toprule " valign="bottom">
+                                    <paragraph>
+                                       <content styleCode="bold">PAH/SSD</content>
+                                    </paragraph>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td align="center" styleCode="Lrule " valign="bottom">
+                                    <paragraph>
+                                       <content styleCode="bold">FLOLAN</content>
+                                    </paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule " valign="bottom">
+                                    <paragraph>
+                                       <content styleCode="bold">Conventional Therapy</content>
+                                    </paragraph>
+                                 </td>
+                                 <td align="center" valign="bottom">
+                                    <paragraph>
+                                       <content styleCode="bold">FLOLAN</content>
+                                    </paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule " valign="bottom">
+                                    <paragraph>
+                                       <content styleCode="bold">Conventional Therapy</content>
+                                    </paragraph>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td align="center" styleCode="Lrule Botrule " valign="bottom">
+                                    <paragraph>
+                                       <content styleCode="bold">(n = 52)</content>
+                                    </paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Botrule " valign="bottom">
+                                    <paragraph>
+                                       <content styleCode="bold">(n = 54)</content>
+                                    </paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Botrule " valign="bottom">
+                                    <paragraph>
+                                       <content styleCode="bold">(n = 56)</content>
+                                    </paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Botrule " valign="bottom">
+                                    <paragraph>
+                                       <content styleCode="bold">(n = 55)</content>
+                                    </paragraph>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Rrule Lrule " valign="top">
+                                    <paragraph>
+                                       <content styleCode="bold">Body as a whole</content>
+                                    </paragraph>
+                                 </td>
+                                 <td styleCode="Lrule " valign="top"/>
+                                 <td styleCode="Rrule " valign="top"/>
+                                 <td valign="top"/>
+                                 <td styleCode="Rrule " valign="top"/>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Rrule Lrule " valign="top">
+                                    <paragraph>Jaw pain</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Lrule " valign="top">
+                                    <paragraph>54%</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule " valign="top">
+                                    <paragraph>0%</paragraph>
+                                 </td>
+                                 <td align="center" valign="top">
+                                    <paragraph>75%</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule " valign="top">
+                                    <paragraph>0%</paragraph>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Rrule Lrule " valign="top">
+                                    <paragraph>Nonspecific musculoskeletal pain</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Lrule " valign="top">
+                                    <paragraph>35%</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule " valign="top">
+                                    <paragraph>15%</paragraph>
+                                 </td>
+                                 <td align="center" valign="top">
+                                    <paragraph>84%</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule " valign="top">
+                                    <paragraph>65%</paragraph>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Rrule Lrule " valign="top">
+                                    <paragraph>Headache</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Lrule " valign="top">
+                                    <paragraph>83%</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule " valign="top">
+                                    <paragraph>33%</paragraph>
+                                 </td>
+                                 <td align="center" valign="top">
+                                    <paragraph>46%</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule " valign="top">
+                                    <paragraph>5%</paragraph>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Rrule Lrule " valign="top">
+                                    <paragraph>Chills/fever/sepsis/flu-like symptoms</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Lrule " valign="top">
+                                    <paragraph>25%</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule " valign="top">
+                                    <paragraph>11%</paragraph>
+                                 </td>
+                                 <td align="center" valign="top">
+                                    <paragraph>13%</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule " valign="top">
+                                    <paragraph>11%</paragraph>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Rrule Lrule " valign="top">
+                                    <paragraph>
+                                       <content styleCode="bold">Cardiovascular system</content>
+                                    </paragraph>
+                                 </td>
+                                 <td styleCode="Lrule " valign="top"/>
+                                 <td styleCode="Rrule " valign="top"/>
+                                 <td valign="top"/>
+                                 <td styleCode="Rrule " valign="top"/>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Rrule Lrule " valign="top">
+                                    <paragraph>Flushing</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Lrule " valign="top">
+                                    <paragraph>42%</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule " valign="top">
+                                    <paragraph>2%</paragraph>
+                                 </td>
+                                 <td align="center" valign="top">
+                                    <paragraph>23%</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule " valign="top">
+                                    <paragraph>0%</paragraph>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Rrule Lrule " valign="top">
+                                    <paragraph>Hypotension</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Lrule " valign="top">
+                                    <paragraph>27%</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule " valign="top">
+                                    <paragraph>31%</paragraph>
+                                 </td>
+                                 <td align="center" valign="top">
+                                    <paragraph>13%</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule " valign="top">
+                                    <paragraph>0%</paragraph>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Rrule Lrule " valign="top">
+                                    <paragraph>Tachycardia</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Lrule " valign="top">
+                                    <paragraph>35%</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule " valign="top">
+                                    <paragraph>24%</paragraph>
+                                 </td>
+                                 <td align="center" valign="top">
+                                    <paragraph>43%</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule " valign="top">
+                                    <paragraph>42%</paragraph>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Rrule Lrule " valign="top">
+                                    <paragraph>
+                                       <content styleCode="bold">Digestive system</content>
+                                    </paragraph>
+                                 </td>
+                                 <td styleCode="Lrule " valign="top"/>
+                                 <td styleCode="Rrule " valign="top"/>
+                                 <td valign="top"/>
+                                 <td styleCode="Rrule " valign="top"/>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Rrule Lrule " valign="top">
+                                    <paragraph>Anorexia</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Lrule " valign="top">
+                                    <paragraph>25%</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule " valign="top">
+                                    <paragraph>30%</paragraph>
+                                 </td>
+                                 <td align="center" valign="top">
+                                    <paragraph>66%</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule " valign="top">
+                                    <paragraph>47%</paragraph>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Rrule Lrule " valign="top">
+                                    <paragraph>Nausea/Vomiting</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Lrule " valign="top">
+                                    <paragraph>67%</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule " valign="top">
+                                    <paragraph>48%</paragraph>
+                                 </td>
+                                 <td align="center" valign="top">
+                                    <paragraph>41%</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule " valign="top">
+                                    <paragraph>16%</paragraph>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Rrule Lrule " valign="top">
+                                    <paragraph>Diarrhea</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Lrule " valign="top">
+                                    <paragraph>37%</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule " valign="top">
+                                    <paragraph>6%</paragraph>
+                                 </td>
+                                 <td align="center" valign="top">
+                                    <paragraph>50%</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule " valign="top">
+                                    <paragraph>5%</paragraph>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Rrule Lrule " valign="top">
+                                    <paragraph>
+                                       <content styleCode="bold">Skin and Appendages</content>
+                                    </paragraph>
+                                 </td>
+                                 <td styleCode="Lrule " valign="top"/>
+                                 <td styleCode="Rrule " valign="top"/>
+                                 <td valign="top"/>
+                                 <td styleCode="Rrule " valign="top"/>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Rrule Lrule " valign="top">
+                                    <paragraph>Skin ulcer</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Lrule " valign="top">
+                                    <paragraph>-</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule " valign="top">
+                                    <paragraph>-</paragraph>
+                                 </td>
+                                 <td align="center" valign="top">
+                                    <paragraph>39%</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule " valign="top">
+                                    <paragraph>24%</paragraph>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Rrule Lrule " valign="top">
+                                    <paragraph>Eczema/rash/urticaria</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Lrule " valign="top">
+                                    <paragraph>10%</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule " valign="top">
+                                    <paragraph>13%</paragraph>
+                                 </td>
+                                 <td align="center" valign="top">
+                                    <paragraph>25%</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule " valign="top">
+                                    <paragraph>4%</paragraph>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Rrule Lrule " valign="top">
+                                    <paragraph>
+                                       <content styleCode="bold">Musculoskeletal System</content>
+                                    </paragraph>
+                                 </td>
+                                 <td styleCode="Lrule " valign="top"/>
+                                 <td styleCode="Rrule " valign="top"/>
+                                 <td valign="top"/>
+                                 <td styleCode="Rrule " valign="top"/>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Rrule Lrule " valign="top">
+                                    <paragraph>Myalgia</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Lrule " valign="top">
+                                    <paragraph>44%</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule " valign="top">
+                                    <paragraph>31%</paragraph>
+                                 </td>
+                                 <td align="center" valign="top">
+                                    <paragraph>-</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule " valign="top">
+                                    <paragraph>-</paragraph>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Rrule Lrule " valign="top">
+                                    <paragraph>
+                                       <content styleCode="bold">Nervous system</content>
+                                    </paragraph>
+                                 </td>
+                                 <td styleCode="Lrule " valign="top"/>
+                                 <td styleCode="Rrule " valign="top"/>
+                                 <td valign="top"/>
+                                 <td styleCode="Rrule " valign="top"/>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Rrule Lrule " valign="top">
+                                    <paragraph>Anxiety/hyperkinesias/nervousness/tremor</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Lrule " valign="top">
+                                    <paragraph>21%</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule " valign="top">
+                                    <paragraph>9%</paragraph>
+                                 </td>
+                                 <td align="center" valign="top">
+                                    <paragraph>7%</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule " valign="top">
+                                    <paragraph>5%</paragraph>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Rrule Lrule " valign="top">
+                                    <paragraph>Hyperesthesia/hypesthesia/paresthesia</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Lrule " valign="top">
+                                    <paragraph>12%</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule " valign="top">
+                                    <paragraph>2%</paragraph>
+                                 </td>
+                                 <td align="center" valign="top">
+                                    <paragraph>5%</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule " valign="top">
+                                    <paragraph>0%</paragraph>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Rrule Botrule Lrule " valign="top">
+                                    <paragraph>Dizziness</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Botrule Lrule " valign="top">
+                                    <paragraph>83%</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Botrule " valign="top">
+                                    <paragraph>70%</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Botrule " valign="top">
+                                    <paragraph>59%</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Botrule " valign="top">
+                                    <paragraph>76%</paragraph>
+                                 </td>
+                              </tr>
+                           </tbody>
+                        </table>
+                        <paragraph>PAH = Pulmonary Arterial Hypertension, SSD = Scleroderma Spectrum of Diseases.</paragraph>
+                        <paragraph>
+                           <content styleCode="underline">Adverse Events Attributable to the Drug Delivery System</content>
+                        </paragraph>
+                        <paragraph>Chronic infusions of FLOLAN are delivered using a small, portable infusion pump through an indwelling central venous catheter. During controlled PAH trials of up to 12 weeks’ duration, the local infection rate was about 18% and the rate for pain was about 11%. During long‑term follow‑up, sepsis was reported at a rate of 0.3 infections/patient per year in patients treated with FLOLAN.</paragraph>
+                     </text>
+                     <effectiveTime value="20231026"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID_1647f0c2-5b73-4b48-9d54-b0b5c320ee84">
+                     <id root="3baf2096-a2cc-4df6-98fc-01529c2ddb26"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>6.2 Postmarketing Experience</title>
+                     <text>
+                        <paragraph>The following events have been identified during postapproval use of FLOLAN. Because these reactions are reported voluntarily from a population of uncertain size, it is not always possible to estimate reliably their frequency or establish a causal relationship to drug exposure.</paragraph>
+                        <paragraph>
+                           <content styleCode="underline">Blood and Lymphatic</content>
+                        </paragraph>
+                        <paragraph>Anemia, hypersplenism, pancytopenia, splenomegaly, thrombocytopenia.</paragraph>
+                        <paragraph>
+                           <content styleCode="underline">Cardiac</content>
+                        </paragraph>
+                        <paragraph>High output cardiac failure.</paragraph>
+                        <paragraph>
+                           <content styleCode="underline">Endocrine and Metabolic</content>
+                        </paragraph>
+                        <paragraph>Hyperthyroidism.</paragraph>
+                        <paragraph>
+                           <content styleCode="underline">Gastrointestinal </content>
+                        </paragraph>
+                        <paragraph>Hepatic failure.</paragraph>
+                        <paragraph>
+                           <content styleCode="underline">Respiratory, Thoracic, and Mediastinal</content>
+                        </paragraph>
+                        <paragraph>Pulmonary embolism.</paragraph>
+                     </text>
+                     <effectiveTime value="20181212"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_f94e8fb5-7e0e-4ee7-97e4-af9d5d804ce6">
+               <id root="8ef53a2e-aef2-4fd8-9096-32ee47653d03"/>
+               <code code="43684-0" codeSystem="2.16.840.1.113883.6.1" displayName="USE IN SPECIFIC POPULATIONS SECTION"/>
+               <title>8 USE IN SPECIFIC POPULATIONS</title>
+               <effectiveTime value="20210824"/>
+               <component>
+                  <section ID="ID_f5b3eebe-0fe7-45d4-8e4d-b26976393f04">
+                     <id root="52f6f66c-50b2-47a3-8c2c-a7436364e25b"/>
+                     <code code="42228-7" codeSystem="2.16.840.1.113883.6.1" displayName="PREGNANCY SECTION"/>
+                     <title>8.1 Pregnancy</title>
+                     <text>
+                        <paragraph>
+                           <content styleCode="underline">Risk Summary</content>
+                        </paragraph>
+                        <paragraph>Limited published data from case series and case reports have not established an association with FLOLAN and major birth defects, miscarriage or adverse maternal or fetal outcomes when FLOLAN is used during pregnancy. There are risks to the mother and fetus from untreated pulmonary arterial hypertension <content styleCode="italics">(see Clinical Considerations)</content>. In animal reproduction studies, pregnant rats and rabbits received epoprostenol sodium during organogenesis at exposures of 2.5 and 4.8 times the maximum recommended human dose (MRHD), respectively, and there was no effect on the fetus <content styleCode="italics">(see Data)</content>.</paragraph>
+                        <paragraph>The estimated background risk of major birth defects and miscarriage for the indicated population is unknown. All pregnancies have a background risk of birth defect, loss, or other adverse outcomes. In the U.S. general population, the estimated background risk of major birth defects and miscarriage in clinically recognized pregnancies is 2% to 4% and 15% to 20%, respectively.</paragraph>
+                        <paragraph>
+                           <content styleCode="underline">Clinical Considerations</content>
+                        </paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Disease-Associated Maternal and/or Embryo/Fetal Risk:</content> Pregnant women with untreated pulmonary arterial hypertension are at risk for heart failure, stroke, preterm delivery, and maternal and fetal death.</paragraph>
+                        <paragraph>
+                           <content styleCode="underline">Data</content>
+                        </paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Animal Data:</content> Embryo-fetal development studies have been performed in rats and rabbits during organogenesis. Epoprostenol sodium doses up to 100 mcg/kg/day, a dose that was maternally toxic in rabbits but not in rats (600 mcg/m<sup>2</sup>/day in rats, 2.5 times the MRHD, and 1,180 mcg/m<sup>2</sup>/day in rabbits, 4.8 times the MRHD based on body surface area), had no effect on the fetus.</paragraph>
+                        <paragraph>In a postnatal development study, epoprostenol sodium was administered subcutaneously to female rats for 2 weeks prior to mating through weaning and to male rats for 60 days prior to and through mating at a male and female toxic dose of up to 100 mcg/kg/day (600 mcg/m<sup>2</sup>/day, 2.5 times the MRHD based on body surface area). There was no effect on growth and development of the offspring.</paragraph>
+                     </text>
+                     <effectiveTime value="20210824"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID_fb793d45-0324-42f3-910d-0c1c390862bd">
+                     <id root="8c5a86dd-eb66-4d0a-84e2-29c7d024bf22"/>
+                     <code code="77290-5" codeSystem="2.16.840.1.113883.6.1" displayName="LACTATION SECTION"/>
+                     <title>8.2 Lactation </title>
+                     <text>
+                        <paragraph>
+                           <content styleCode="underline">Risk Summary</content>
+                        </paragraph>
+                        <paragraph>There are no data on the presence of epoprostenol in either human or animal milk, the effects on the breastfed infant, or the effect on milk production.</paragraph>
+                        <paragraph>The developmental and health benefits of breastfeeding should be considered along with the mother’s clinical need for FLOLAN and any potential adverse effects on the breastfed child from epoprostenol or from the underlying maternal condition.</paragraph>
+                     </text>
+                     <effectiveTime value="20180514"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID_5f5bb33f-b162-4d3f-9f97-ede293d9acd8">
+                     <id root="701dc063-8853-4f9f-aca1-a150021b0953"/>
+                     <code code="34081-0" codeSystem="2.16.840.1.113883.6.1" displayName="PEDIATRIC USE SECTION"/>
+                     <title>8.4 Pediatric Use</title>
+                     <text>
+                        <paragraph>Safety and effectiveness in pediatric patients have not been established.</paragraph>
+                     </text>
+                     <effectiveTime value="20150421"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID_0fd20b00-e18f-40f6-a45b-fc27d97652e3">
+                     <id root="0d6a4519-c1e3-4dc7-8964-6a048c344539"/>
+                     <code code="34082-8" codeSystem="2.16.840.1.113883.6.1" displayName="GERIATRIC USE SECTION"/>
+                     <title>8.5 Geriatric Use</title>
+                     <text>
+                        <paragraph>Clinical trials of FLOLAN in pulmonary hypertension did not include sufficient numbers of subjects aged 65 and over to determine whether they respond differently from younger subjects. Other reported clinical experience has not identified differences in responses between the elderly and younger patients. In general, dose selection for an elderly patient should be cautious, usually starting at the low end of the dosing range, reflecting the greater frequency of decreased hepatic, renal, or cardiac function and of concomitant disease or other drug therapy.</paragraph>
+                     </text>
+                     <effectiveTime value="20150421"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_b7e89c10-d3ed-41ea-9723-276ed3dfbc3f">
+               <id root="47b80f8a-2d7c-4a0b-8d66-df46f2731afc"/>
+               <code code="34088-5" codeSystem="2.16.840.1.113883.6.1" displayName="OVERDOSAGE SECTION"/>
+               <title>10 OVERDOSAGE</title>
+               <text>
+                  <paragraph>
+                     <content styleCode="underline">Signs and Symptoms</content>
+                  </paragraph>
+                  <paragraph>Hypoxemia, hypotension, and respiratory arrest leading to death have been reported in clinical practice following overdosage of FLOLAN.</paragraph>
+                  <paragraph>Excessive doses of FLOLAN were associated with flushing, headache, hypotension, tachycardia, nausea, vomiting, and diarrhea during clinical trials.</paragraph>
+                  <paragraph>One patient with PAH/SSD accidentally received 50 mL of an unspecified concentration of FLOLAN. The patient vomited and became unconscious with an initially unrecordable blood pressure. FLOLAN was discontinued and the patient regained consciousness within seconds.</paragraph>
+                  <paragraph>Single intravenous doses of FLOLAN at 10 and 50 mg/kg (2,703 and 27,027 times the recommended acute phase human dose based on body surface area) were lethal to mice and rats, respectively. Symptoms of acute toxicity were hypoactivity, ataxia, loss of righting reflex, deep slow breathing, and hypothermia.</paragraph>
+                  <paragraph>
+                     <content styleCode="underline">Treatment</content>
+                  </paragraph>
+                  <paragraph>Discontinue or reduce dose of FLOLAN.</paragraph>
+               </text>
+               <effectiveTime value="20150421"/>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_8d6c8439-f951-457d-b72a-12477358e0a0">
+               <id root="bab99c65-c877-41dc-b1ad-512307ca2e48"/>
+               <code code="34089-3" codeSystem="2.16.840.1.113883.6.1" displayName="DESCRIPTION SECTION"/>
+               <title>11 DESCRIPTION</title>
+               <text>
+                  <paragraph>FLOLAN (epoprostenol sodium) for injection is sterile sodium salt that is a white or off-white powder formulated for intravenous (IV) administration. Each vial of FLOLAN contains epoprostenol sodium equivalent to either 0.5 mg (500,000 ng) or 1.5 mg (1,500,000 ng) epoprostenol, 3.76 mg glycine, 50 mg mannitol, and 2.93 mg sodium chloride. Sodium hydroxide may have been added to adjust pH.</paragraph>
+                  <paragraph>Epoprostenol (PGI<sub>2</sub>, PGX, prostacyclin), a metabolite of arachidonic acid, is a naturally occurring prostaglandin with potent vasodilatory activity and inhibitory activity of platelet aggregation. The chemical name of epoprostenol is (5Z,9α,11α,13<content styleCode="italics">E</content>,15<content styleCode="italics">S</content>)-6,9-epoxy-11,15-dihydroxyprosta-5,13-dien-1-oic acid. Epoprostenol sodium has a molecular weight of 374.45 and a molecular formula of C<sub>20</sub>H<sub>31</sub>NaO<sub>5</sub>. The structural formula is:</paragraph>
+                  <renderMultiMedia ID="id3837597" referencedObject="ID_6f81a6b5-9912-4358-a884-5c784eb6f0f6"/>
+                  <paragraph>FLOLAN must be reconstituted with pH 12 STERILE DILUENT for FLOLAN.</paragraph>
+                  <paragraph>pH 12 STERILE DILUENT for FLOLAN is supplied in plastic vials each containing 50 mL of 94 mg glycine, 73.3 mg sodium chloride, sodium hydroxide (added to adjust the pH to 11.7 to 12.3), and Water for Injection. The stability of reconstituted solutions of FLOLAN is pH-dependent and is greater at higher pH.</paragraph>
+               </text>
+               <effectiveTime value="20210824"/>
+               <component>
+                  <observationMedia ID="ID_6f81a6b5-9912-4358-a884-5c784eb6f0f6">
+                     <text>epoprostenol sodium chemical structure</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="flolan-spl-graphic-02.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_0f165dc6-300e-4a0d-9a5f-9586c5827188">
+               <id root="a24f5708-9c8c-4664-9d24-dd9b449263c7"/>
+               <code code="34090-1" codeSystem="2.16.840.1.113883.6.1" displayName="CLINICAL PHARMACOLOGY SECTION"/>
+               <title>12 CLINICAL PHARMACOLOGY</title>
+               <effectiveTime value="20180514"/>
+               <component>
+                  <section ID="ID_fcb8f7e0-facc-4a44-88bf-04c2b1e0dbaf">
+                     <id root="5868e3a1-f3de-46e0-a6a3-32cdf00a9a47"/>
+                     <code code="43679-0" codeSystem="2.16.840.1.113883.6.1" displayName="MECHANISM OF ACTION SECTION"/>
+                     <title>12.1 Mechanism of Action</title>
+                     <text>
+                        <paragraph>Epoprostenol has 2 major pharmacological actions: (1) direct vasodilation of pulmonary and systemic arterial vascular beds and (2) inhibition of platelet aggregation.</paragraph>
+                     </text>
+                     <effectiveTime value="20180514"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID_4e4ccbf3-7e1b-45fd-aad9-cc201edd9882">
+                     <id root="edb4e935-7f3f-4f1d-ad29-6e684176b9c9"/>
+                     <code code="43681-6" codeSystem="2.16.840.1.113883.6.1" displayName="PHARMACODYNAMICS SECTION"/>
+                     <title>12.2 Pharmacodynamics</title>
+                     <text>
+                        <paragraph>
+                           <content styleCode="underline">Acute Hemodynamic Effects</content>
+                        </paragraph>
+                        <paragraph>Acute intravenous infusions of FLOLAN for up to 15 minutes in patients with idiopathic or heritable PAH or PAH/SSD produce dose‑related increases in cardiac index (CI) and stroke volume (SV) and dose‑related decreases in pulmonary vascular resistance (PVR), total pulmonary resistance (TPR), and mean systemic arterial pressure (SAPm). The effects of FLOLAN on mean pulmonary artery pressure (PAPm) were variable and minor.</paragraph>
+                        <paragraph>In humans, hemodynamic changes due to epoprostenol (e.g., increased heart rate, facial flushing) returned to baseline within 10 minutes of termination of 60-minute infusions of 1 to 16 ng/kg/min. This pharmacodynamic behavior is consistent with a short in vivo half-life and rapid clearance in humans, as suggested by the results of animal and in vitro studies.</paragraph>
+                        <paragraph>In animals, the vasodilatory effects reduce right- and left-ventricular afterload and increase cardiac output and stroke volume. The effect of epoprostenol on heart rate in animals varies with dose. At low doses, there is vagally-mediated bradycardia, but at higher doses, epoprostenol causes reflex tachycardia in response to direct vasodilation and hypotension. No major effects on cardiac conduction have been observed. Additional pharmacologic effects of epoprostenol in animals include bronchodilation, inhibition of gastric acid secretion, and decreased gastric emptying.</paragraph>
+                        <paragraph>
+                           <content styleCode="underline">Drug Interaction Studies</content>
+                        </paragraph>
+                        <paragraph>Additional reductions in blood pressure may occur when FLOLAN is administered with diuretics, antihypertensive agents, or other vasodilators.</paragraph>
+                        <paragraph>When other antiplatelet agents or anticoagulants are used concomitantly, there is a potential for FLOLAN to increase the risk of bleeding. However, patients receiving infusions of FLOLAN in clinical trials were maintained on anticoagulants without evidence of increased bleeding.</paragraph>
+                     </text>
+                     <effectiveTime value="20180514"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID_df7145ac-ce37-47ef-b7a4-52a5366ecd8b">
+                     <id root="75c6a6db-b3f2-4a9a-9082-0d849bae426e"/>
+                     <code code="43682-4" codeSystem="2.16.840.1.113883.6.1" displayName="PHARMACOKINETICS SECTION"/>
+                     <title>12.3 Pharmacokinetics</title>
+                     <text>
+                        <paragraph>
+                           <content styleCode="underline">Absorption/Distribution</content>
+                        </paragraph>
+                        <paragraph>Epoprostenol is rapidly hydrolyzed at neutral pH in blood and is also subject to enzymatic degradation. No available chemical assay is sufficiently sensitive and specific to assess the in vivo human pharmacokinetics of epoprostenol. Animal studies using tritium‑labeled epoprostenol have indicated a high clearance (93 mL/kg/min), small volume of distribution (357 mL/kg), and a short half‑life (2.7 minutes). During infusions in animals, steady‑state plasma concentrations of tritium‑labeled epoprostenol were reached within 15 minutes and were proportional to infusion rates.</paragraph>
+                        <paragraph>
+                           <content styleCode="underline">Metabolism</content>
+                        </paragraph>
+                        <paragraph>Tritium‑labeled epoprostenol has been administered to humans in order to identify the metabolic products of epoprostenol. Epoprostenol is metabolized to 2 primary metabolites: 6‑keto-PGF<sub>1α</sub> (formed by spontaneous degradation) and 6,15-diketo-13,14-dihydro-PGF<sub>1α</sub> (enzymatically formed), both of which have pharmacological activity orders of magnitude less than epoprostenol in animal test systems. The recovery of radioactivity in urine and feces over a 1‑week period was 82% and 4% of the administered dose, respectively. Fourteen additional minor metabolites have been isolated from urine, indicating that epoprostenol is extensively metabolized in humans.</paragraph>
+                        <paragraph>
+                           <content styleCode="underline">Elimination</content>
+                        </paragraph>
+                        <paragraph>The in vitro half‑life of epoprostenol in human blood at 37°C and pH 7.4 is approximately 6 minutes; therefore, the in vivo half‑life of epoprostenol in humans is expected to be no greater than 6 minutes.</paragraph>
+                        <paragraph>
+                           <content styleCode="underline">Drug Interaction Studies</content>
+                        </paragraph>
+                        <paragraph>In a pharmacokinetic substudy in patients with congestive heart failure receiving furosemide in whom therapy with FLOLAN was initiated, apparent oral clearance values for furosemide (n = 23) were decreased by 13% on the second day of therapy and returned to baseline values by Day 87. The change in furosemide clearance value is not likely to be clinically significant.</paragraph>
+                        <paragraph>In a pharmacokinetic substudy in patients with congestive heart failure receiving digoxin in whom therapy with FLOLAN was initiated, apparent oral clearance values for digoxin (n = 30) were decreased by 15% on the second day of therapy and returned to baseline values by Day 87. Clinical significance of this interaction is not known.</paragraph>
+                     </text>
+                     <effectiveTime value="20180514"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_86bc230a-480d-4604-b1e1-1ff6fc75d9ce">
+               <id root="d637e6b9-4c14-4626-ba98-8fdeaf155fd9"/>
+               <code code="43680-8" codeSystem="2.16.840.1.113883.6.1" displayName="NONCLINICAL TOXICOLOGY SECTION"/>
+               <title>13 NONCLINICAL TOXICOLOGY</title>
+               <effectiveTime value="20180514"/>
+               <component>
+                  <section ID="ID_a9c62346-1975-40a3-a36f-e81ad516e48e">
+                     <id root="c94c4008-625e-4155-a5b7-8fe5b60416b6"/>
+                     <code code="34083-6" codeSystem="2.16.840.1.113883.6.1" displayName="CARCINOGENESIS &amp; MUTAGENESIS &amp; IMPAIRMENT OF FERTILITY SECTION"/>
+                     <title>13.1 Carcinogenesis, Mutagenesis, Impairment of Fertility</title>
+                     <text>
+                        <paragraph>Long‑term studies in animals have not been performed to evaluate carcinogenic potential. A micronucleus test in rats revealed no evidence of mutagenicity. The Ames test and DNA elution tests were also negative, although the instability of epoprostenol makes the significance of these tests uncertain.</paragraph>
+                        <paragraph>In a fertility/postnatal development study, epoprostenol sodium was administered subcutaneously to female rats for 2 weeks prior to mating through weaning and to male rats for 60 days prior to and through mating at an adult toxic dose of up to 100 mcg/kg/day (600 mcg/m<sup>2</sup>/day, 2.5 times the MRHD based on body surface area). There was no effect on fertility in female or male rats.</paragraph>
+                     </text>
+                     <effectiveTime value="20180514"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_33faae08-cf3e-4933-b98e-979fbe1b2bbe">
+               <id root="d65d9ddd-ea77-4ecc-ae6d-3b5b3b262dbe"/>
+               <code code="34092-7" codeSystem="2.16.840.1.113883.6.1" displayName="CLINICAL STUDIES SECTION"/>
+               <title>14 CLINICAL STUDIES</title>
+               <effectiveTime value="20231026"/>
+               <component>
+                  <section ID="ID_ecb6fd7c-5e99-4709-96f0-866a6fa3d021">
+                     <id root="036c27b9-28ff-4504-b3c6-160919522bb0"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>14.1 Chronic Infusion in Idiopathic or Heritable PAH</title>
+                     <text>
+                        <paragraph>
+                           <content styleCode="underline">Hemodynamic Effects</content>
+                        </paragraph>
+                        <paragraph>Chronic continuous infusions of FLOLAN in patients with idiopathic or heritable PAH were studied in 2 prospective, open, randomized trials of 8 and 12 weeks’ duration comparing FLOLAN plus conventional therapy with conventional therapy alone. Dosage of FLOLAN was determined as described in <content styleCode="italics">Dosage and Administration (<linkHtml href="#ID_27238ddc-bece-4f7b-a309-f06eb09642ef">2</linkHtml>)</content> and averaged 9.2 ng/kg/min at trials’ end. Conventional therapy varied among patients and included some or all of the following: anticoagulants in essentially all patients; oral vasodilators, diuretics, and digoxin in one-half to two-thirds of patients; and supplemental oxygen in about half the patients. Except for 2 NYHA Functional Class II patients, all patients were either functional Class III or Class IV. As results were similar in the 2 trials, the pooled results are described.</paragraph>
+                        <paragraph>Chronic hemodynamic effects were generally similar to acute effects. Increases in CI, SV, and arterial oxygen saturation and decreases in PAPm, mean right atrial pressure (RAPm), TPR, and systemic vascular resistance (SVR) were observed in patients who received FLOLAN chronically compared with those who did not. <linkHtml href="#_Ref78464951">Table 3</linkHtml> illustrates the treatment‑related hemodynamic changes in these patients after 8 or 12 weeks of treatment.</paragraph>
+                        <table ID="_Ref78464951" width="100%">
+                           <caption>Table 3. Hemodynamics during Chronic Administration of FLOLAN in Patients with Idiopathic or Heritable PAH</caption>
+                           <col width="24%"/>
+                           <col width="19%"/>
+                           <col width="19%"/>
+                           <col width="19%"/>
+                           <col width="19%"/>
+                           <tfoot>
+                              <tr>
+                                 <td align="left" colspan="5" styleCode="Botrule" valign="top">  CI = Cardiac index, PAPm = Mean pulmonary arterial pressure, PVR = Pulmonary vascular resistance, SAPm = Mean systemic arterial pressure, SV = Stroke volume, TPR = Total pulmonary resistance.</td>
+                              </tr>
+                              <tr>
+                                 <td align="left" colspan="5" styleCode="Botrule" valign="top">
+                                    <sup>a  </sup>At 8 weeks: FLOLAN n = 10, conventional therapy n = 11 (n is the number of patients with hemodynamic data).<br/>  At 12 weeks: FLOLAN n = 38, conventional therapy n = 30 (n is the number of patients with hemodynamic data).<br/>
+                                    <sup>b  </sup>Denotes statistically significant difference between group receiving FLOLAN and group receiving conventional therapy.<br/>
+                                 </td>
+                              </tr>
+                           </tfoot>
+                           <tbody>
+                              <tr>
+                                 <td styleCode="Rrule Lrule Toprule " valign="top"/>
+                                 <td align="center" colspan="2" styleCode="Botrule Lrule Toprule " valign="bottom">
+                                    <paragraph>
+                                       <content styleCode="bold">Baseline</content>
+                                    </paragraph>
+                                 </td>
+                                 <td align="center" colspan="2" styleCode="Rrule Botrule Lrule Toprule " valign="bottom">
+                                    <paragraph>
+                                       <content styleCode="bold">Mean Change from Baseline at End of Treatment Period<sup>a</sup>
+                                       </content>
+                                    </paragraph>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td align="center" styleCode="Rrule Lrule Botrule " valign="bottom">
+                                    <paragraph>
+                                       <content styleCode="bold">Hemodynamic</content>
+                                    </paragraph>
+                                    <paragraph>
+                                       <content styleCode="bold">Parameter</content>
+                                    </paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule Botrule " valign="bottom">
+                                    <paragraph>
+                                       <content styleCode="bold">FLOLAN</content>
+                                    </paragraph>
+                                    <paragraph>
+                                       <content styleCode="bold">(n = 52)</content>
+                                    </paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule Botrule " valign="bottom">
+                                    <paragraph>
+                                       <content styleCode="bold">Standard Therapy</content>
+                                    </paragraph>
+                                    <paragraph>
+                                       <content styleCode="bold">(n = 54)</content>
+                                    </paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule Botrule " valign="bottom">
+                                    <paragraph>
+                                       <content styleCode="bold">FLOLAN</content>
+                                    </paragraph>
+                                    <paragraph>
+                                       <content styleCode="bold">(n = 48)</content>
+                                    </paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule Botrule " valign="bottom">
+                                    <paragraph>
+                                       <content styleCode="bold">Standard Therapy</content>
+                                    </paragraph>
+                                    <paragraph>
+                                       <content styleCode="bold">(n = 41)</content>
+                                    </paragraph>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Rrule Lrule Botrule " valign="top">
+                                    <paragraph>CI</paragraph>
+                                    <paragraph>(L/min/m<sup>2</sup>)</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule Botrule " valign="top">
+                                    <paragraph>2.0</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule Botrule " valign="top">
+                                    <paragraph>2.0</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule Botrule " valign="top">
+                                    <paragraph>0.3<sup>b</sup>
+                                    </paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule Botrule " valign="top">
+                                    <paragraph>-0.1</paragraph>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Rrule Lrule Botrule " valign="top">
+                                    <paragraph>PAPm</paragraph>
+                                    <paragraph>(mm Hg)</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule Botrule " valign="top">
+                                    <paragraph>60</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule Botrule " valign="top">
+                                    <paragraph>60</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule Botrule " valign="top">
+                                    <paragraph>-5<sup>b</sup>
+                                    </paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule Botrule " valign="top">
+                                    <paragraph>1</paragraph>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Rrule Lrule Botrule " valign="top">
+                                    <paragraph>PVR</paragraph>
+                                    <paragraph>(Wood U)</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule Botrule " valign="top">
+                                    <paragraph>16</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule Botrule " valign="top">
+                                    <paragraph>17</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule Botrule " valign="top">
+                                    <paragraph>-4<sup>b</sup>
+                                    </paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule Botrule " valign="top">
+                                    <paragraph>1</paragraph>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Rrule Lrule Botrule " valign="top">
+                                    <paragraph>SAPm</paragraph>
+                                    <paragraph>(mm Hg)</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule Botrule " valign="top">
+                                    <paragraph>89</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule Botrule " valign="top">
+                                    <paragraph>91</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule Botrule " valign="top">
+                                    <paragraph>-4</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule Botrule " valign="top">
+                                    <paragraph>-3</paragraph>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Rrule Lrule Botrule " valign="top">
+                                    <paragraph>SV</paragraph>
+                                    <paragraph>(mL/beat)</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule Botrule " valign="top">
+                                    <paragraph>44</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule Botrule " valign="top">
+                                    <paragraph>43</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule Botrule " valign="top">
+                                    <paragraph>6<sup>b</sup>
+                                    </paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule Botrule " valign="top">
+                                    <paragraph>-1</paragraph>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Rrule Botrule Lrule " valign="top">
+                                    <paragraph>TPR</paragraph>
+                                    <paragraph>(Wood U)</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Botrule Lrule " valign="top">
+                                    <paragraph>20</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Botrule Lrule " valign="top">
+                                    <paragraph>21</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Botrule Lrule " valign="top">
+                                    <paragraph>-5<sup>b</sup>
+                                    </paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Botrule Lrule " valign="top">
+                                    <paragraph>1</paragraph>
+                                 </td>
+                              </tr>
+                           </tbody>
+                        </table>
+                        <paragraph>These hemodynamic improvements appeared to persist when FLOLAN was administered for at least 36 months in an open, nonrandomized trial.</paragraph>
+                        <paragraph>The acute hemodynamic response to FLOLAN did not correlate well with improvement in exercise tolerance or survival during chronic use of FLOLAN.</paragraph>
+                        <paragraph>
+                           <content styleCode="underline">Clinical Effects</content>
+                        </paragraph>
+                        <paragraph>A statistically significant improvement was observed in exercise capacity, as measured by the 6‑minute walk test in patients receiving continuous intravenous FLOLAN plus conventional therapy (n = 52) for 8 or 12 weeks compared with those receiving conventional therapy alone (n = 54). Improvements were apparent as early as the first week of therapy. Increases in exercise capacity were accompanied by statistically significant improvement in dyspnea and fatigue, as measured by the Chronic Heart Failure Questionnaire and the Dyspnea Fatigue Index, respectively.</paragraph>
+                        <paragraph>Survival was improved in NYHA Functional Class III and Class IV patients with idiopathic or heritable PAH treated with FLOLAN for 12 weeks in a multicenter, open, randomized, parallel trial. At the end of the treatment period, 8 of 40 (20%) patients receiving conventional therapy alone died, whereas none of the 41 patients receiving FLOLAN died (<content styleCode="italics">P </content>= 0.003).</paragraph>
+                     </text>
+                     <effectiveTime value="20231026"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID_d8e9fdc0-db21-48e5-a99d-215cb6c04f64">
+                     <id root="d3c8a982-6952-4ddd-924f-8d0687065926"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>14.2 Chronic Infusion in PAH/SSD</title>
+                     <text>
+                        <paragraph>
+                           <content styleCode="underline">Hemodynamic Effects</content>
+                        </paragraph>
+                        <paragraph>Chronic continuous infusions of FLOLAN in patients with PAH/SSD were studied in a prospective, open, randomized trial of 12 weeks’ duration comparing FLOLAN plus conventional therapy (n = 56) with conventional therapy alone (n = 55). Except for 5 NYHA Functional Class II patients, all patients were either functional Class III or Class IV. In the controlled 12-week trial in PAH/SSD, for example, the dose increased from a mean starting dose of 2.2 ng/kg/min. During the first 7 days of treatment, the dose was increased daily to a mean dose of 4.1 ng/kg/min on Day 7 of treatment. At the end of Week 12, the mean dose was 11.2 ng/kg/min. The mean incremental increase was 2 to 3 ng/kg/min every 3 weeks.</paragraph>
+                        <paragraph>Conventional therapy varied among patients and included some or all of the following: anticoagulants in essentially all patients, supplemental oxygen and diuretics in two-thirds of the patients, oral vasodilators in 40% of the patients, and digoxin in a third of the patients. A statistically significant increase in CI and statistically significant decreases in PAPm, RAPm, PVR, and SAPm after 12 weeks of treatment were observed in patients who received FLOLAN chronically compared with those who did not. <linkHtml href="#_Ref78464075">Table 4</linkHtml> illustrates the treatment-related hemodynamic changes in these patients after 12 weeks of treatment.</paragraph>
+                        <table ID="_Ref78464075" width="100%">
+                           <caption>Table 4. Hemodynamics during Chronic Administration of FLOLAN in Patients with PAH/SSD</caption>
+                           <col width="25%"/>
+                           <col width="19%"/>
+                           <col width="19%"/>
+                           <col width="19%"/>
+                           <col width="19%"/>
+                           <tfoot>
+                              <tr>
+                                 <td align="left" colspan="5" styleCode="Botrule" valign="top">  CI = Cardiac index, PAPm = Mean pulmonary arterial pressure, RAPm = Mean right arterial pressure, PVR = Pulmonary vascular resistance, SAPm = Mean systemic arterial pressure.</td>
+                              </tr>
+                              <tr>
+                                 <td align="left" colspan="5" styleCode="Botrule" valign="top">
+                                    <sup>a  </sup>Denotes statistically significant difference between group receiving FLOLAN and group receiving conventional therapy (n is the number of patients with hemodynamic data).</td>
+                              </tr>
+                           </tfoot>
+                           <tbody>
+                              <tr>
+                                 <td styleCode="Rrule Lrule Toprule " valign="top"/>
+                                 <td align="center" colspan="2" styleCode="Botrule Lrule Toprule " valign="bottom">
+                                    <paragraph>
+                                       <content styleCode="bold">Baseline</content>
+                                    </paragraph>
+                                 </td>
+                                 <td align="center" colspan="2" styleCode="Rrule Botrule Lrule Toprule " valign="bottom">
+                                    <paragraph>
+                                       <content styleCode="bold">Mean Change from Baseline at 12 Weeks</content>
+                                    </paragraph>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td align="center" styleCode="Rrule Lrule Botrule " valign="bottom">
+                                    <paragraph>
+                                       <content styleCode="bold">Hemodynamic</content>
+                                    </paragraph>
+                                    <paragraph>
+                                       <content styleCode="bold">Parameter</content>
+                                    </paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule Botrule " valign="bottom">
+                                    <paragraph>
+                                       <content styleCode="bold">FLOLAN</content>
+                                    </paragraph>
+                                    <paragraph>
+                                       <content styleCode="bold">(n = 56)</content>
+                                    </paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule Botrule " valign="bottom">
+                                    <paragraph>
+                                       <content styleCode="bold">Conventional Therapy</content>
+                                    </paragraph>
+                                    <paragraph>
+                                       <content styleCode="bold">(n = 55)</content>
+                                    </paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule Botrule " valign="bottom">
+                                    <paragraph>
+                                       <content styleCode="bold">FLOLAN</content>
+                                    </paragraph>
+                                    <paragraph>
+                                       <content styleCode="bold">(n = 50)</content>
+                                    </paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule Botrule " valign="bottom">
+                                    <paragraph>
+                                       <content styleCode="bold">Conventional Therapy</content>
+                                    </paragraph>
+                                    <paragraph>
+                                       <content styleCode="bold">(n = 48)</content>
+                                    </paragraph>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Rrule Lrule Botrule " valign="top">
+                                    <paragraph>CI</paragraph>
+                                    <paragraph>(L/min/m<sup>2</sup>)</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule Botrule " valign="top">
+                                    <paragraph>1.9</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule Botrule " valign="top">
+                                    <paragraph>2.2</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule Botrule " valign="top">
+                                    <paragraph>0.5<sup>a</sup>
+                                    </paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule Botrule " valign="top">
+                                    <paragraph>-0.1</paragraph>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Rrule Lrule " valign="top">
+                                    <paragraph>PAPm</paragraph>
+                                    <paragraph>(mm Hg)</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule " valign="top">
+                                    <paragraph>51</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule " valign="top">
+                                    <paragraph>49</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule " valign="top">
+                                    <paragraph>-5<sup>a</sup>
+                                    </paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule " valign="top">
+                                    <paragraph>1</paragraph>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Rrule Lrule Botrule " valign="top">
+                                    <paragraph>RAPm</paragraph>
+                                    <paragraph>(mm Hg)</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule Botrule " valign="top">
+                                    <paragraph>13</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule Botrule " valign="top">
+                                    <paragraph>11</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule Botrule " valign="top">
+                                    <paragraph>-1<sup>a</sup>
+                                    </paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule Botrule " valign="top">
+                                    <paragraph>1</paragraph>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Rrule Lrule Botrule " valign="top">
+                                    <paragraph>PVR</paragraph>
+                                    <paragraph>(Wood U)</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule Botrule " valign="top">
+                                    <paragraph>14</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule Botrule " valign="top">
+                                    <paragraph>11</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule Botrule " valign="top">
+                                    <paragraph>-5<sup>a</sup>
+                                    </paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule Botrule " valign="top">
+                                    <paragraph>1</paragraph>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Rrule Botrule Lrule " valign="top">
+                                    <paragraph>SAPm</paragraph>
+                                    <paragraph>(mm Hg)</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Botrule Lrule " valign="top">
+                                    <paragraph>93</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Botrule Lrule " valign="top">
+                                    <paragraph>89</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Botrule Lrule " valign="top">
+                                    <paragraph>-8<sup>a</sup>
+                                    </paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Botrule Lrule " valign="top">
+                                    <paragraph>-1</paragraph>
+                                 </td>
+                              </tr>
+                           </tbody>
+                        </table>
+                        <paragraph>
+                           <content styleCode="underline">Clinical Effects</content>
+                        </paragraph>
+                        <paragraph>Statistically significant improvement was observed in exercise capacity, as measured by the 6‑minute walk, in patients receiving continuous intravenous FLOLAN plus conventional therapy for 12 weeks compared with those receiving conventional therapy alone. Improvements were apparent in some patients at the end of the first week of therapy. Increases in exercise capacity were accompanied by statistically significant improvements in dyspnea and fatigue, as measured by the Borg Dyspnea Index and Dyspnea Fatigue Index. At Week 12, NYHA functional class improved in 21 of 51 (41%) patients treated with FLOLAN compared with none of the 48 patients treated with conventional therapy alone. However, more patients in both treatment groups (28/51 [55%] with FLOLAN and 35/48 [73%] with conventional therapy alone) showed no change in functional class, and 2/51 (4%) with FLOLAN and 13/48 (27%) with conventional therapy alone worsened.</paragraph>
+                        <paragraph>No statistical difference in survival over 12 weeks was observed in patients with PAH/SSD treated with FLOLAN as compared with those receiving conventional therapy alone. At the end of the treatment period, 4 of 56 (7%) patients receiving FLOLAN died, whereas 5 of 55 (9%) patients receiving conventional therapy alone died.</paragraph>
+                     </text>
+                     <effectiveTime value="20231026"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID_47d20deb-429e-492c-9788-d0464a1574c5">
+                     <id root="e0df8ec7-6732-4d89-b5bd-1104d28d1c87"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>14.3 Increased Mortality in Patients with Heart Failure Caused by Severe Left Ventricular Systolic Dysfunction</title>
+                     <text>
+                        <paragraph>A large trial evaluating the effect of FLOLAN on survival in NYHA Class III and IV patients with congestive heart failure due to severe left ventricular systolic dysfunction was terminated after an interim analysis of 471 patients revealed a higher mortality in patients receiving FLOLAN plus conventional therapy than in those receiving conventional therapy alone. The chronic use of FLOLAN in patients with heart failure due to severe left ventricular systolic dysfunction is therefore contraindicated.</paragraph>
+                     </text>
+                     <effectiveTime value="20150421"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_2ed1e7ee-0625-4a6b-b19e-c50316210b9f">
+               <id root="04d842d5-58c8-4cc3-aa97-00cb55f3cf03"/>
+               <code code="34069-5" codeSystem="2.16.840.1.113883.6.1" displayName="HOW SUPPLIED SECTION"/>
+               <title>16 HOW SUPPLIED/STORAGE AND HANDLING</title>
+               <effectiveTime value="20231026"/>
+               <component>
+                  <section ID="ID_d3bdf736-764e-4806-afed-3a0804d18963">
+                     <id root="2bf228b9-307a-4551-8db2-ea3cfc23499b"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>16.1 How Supplied</title>
+                     <text>
+                        <paragraph>FLOLAN for injection is supplied as a sterile freeze‑dried powder in 17‑mL flint glass vials with gray butyl rubber closures.</paragraph>
+                        <paragraph>pH 12 STERILE DILUENT for FLOLAN is supplied in plastic vials containing 50‑mL diluent with fluororesin‑faced butyl rubber closures with aluminum overseal and lavender plastic flip-off cap.</paragraph>
+                        <table width="100%">
+                           <col width="33%"/>
+                           <col width="33%"/>
+                           <col width="33%"/>
+                           <tbody>
+                              <tr>
+                                 <td rowspan="2" styleCode="Rrule Botrule Lrule Toprule " valign="top">
+                                    <paragraph>FLOLAN for injection</paragraph>
+                                 </td>
+                                 <td styleCode="Rrule Lrule Toprule " valign="top">
+                                    <paragraph>0.5-mg (500,000 ng) per vial, carton of 1</paragraph>
+                                 </td>
+                                 <td styleCode="Rrule Lrule Toprule " valign="top">
+                                    <paragraph>NDC 0173-0517-00</paragraph>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Botrule " valign="top">
+                                    <paragraph>1.5-mg (1,500,000 ng) per vial, carton of 1</paragraph>
+                                 </td>
+                                 <td styleCode="Rrule Lrule Botrule " valign="top">
+                                    <paragraph>NDC 0173-0519-00</paragraph>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Rrule Botrule Lrule " valign="top">
+                                    <paragraph>pH 12 STERILE DILUENT for FLOLAN</paragraph>
+                                 </td>
+                                 <td styleCode="Rrule Botrule Lrule " valign="top">
+                                    <paragraph>50 mL per vial (NDC 0173-0857-01), carton of 2</paragraph>
+                                 </td>
+                                 <td styleCode="Rrule Botrule Lrule " valign="top">
+                                    <paragraph>NDC 0173-0857-02</paragraph>
+                                 </td>
+                              </tr>
+                           </tbody>
+                        </table>
+                     </text>
+                     <effectiveTime value="20231026"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID_b283229a-b6eb-4ddc-b707-0c5b41c2489f">
+                     <id root="91a3d1ab-6462-49db-9ce1-c4c99885381b"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>16.2 Storage and Handling </title>
+                     <text>
+                        <paragraph>Proper storage and handling are essential to maintain the potency of FLOLAN for injection. </paragraph>
+                        <paragraph>Unopened vials of FLOLAN powder are stable until the date indicated on the package when stored at room temperature, 15°C to 25°C (59°F to 77°F) and protected from light in the carton.</paragraph>
+                        <paragraph>Unopened vials of pH 12 STERILE DILUENT for FLOLAN are stable until the date indicated on the package when stored at room temperature, 15°C to 25°C (59°F to 77°F). DO NOT FREEZE.</paragraph>
+                     </text>
+                     <effectiveTime value="20210824"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_7555f13a-a02f-47de-bdce-4fef0d47a5e5">
+               <id root="98f752a1-705b-4386-8fae-06a599e100f0"/>
+               <code code="34076-0" codeSystem="2.16.840.1.113883.6.1" displayName="INFORMATION FOR PATIENTS SECTION"/>
+               <title>17 PATIENT COUNSELING INFORMATION</title>
+               <text>
+                  <paragraph>
+                     <content styleCode="italics">Advise the patient to read the FDA-approved patient labeling (Patient Information).</content>
+                  </paragraph>
+                  <paragraph>Advise patients:</paragraph>
+                  <list listType="unordered">
+                     <item>
+                        <caption>•</caption>FLOLAN must be reconstituted only with pH 12 STERILE DILUENT for FLOLAN.</item>
+                     <item>
+                        <caption>•</caption>Reconstituted solutions prepared with pH 12 STERILE DILUENT for FLOLAN do NOT require use with a cold pouch.</item>
+                     <item>
+                        <caption>•</caption>FLOLAN is infused continuously through a permanent indwelling central venous catheter via a small, portable infusion pump. Thus, therapy with FLOLAN requires commitment by the patient to drug reconstitution, drug administration, and care of the permanent central venous catheter. Patients must adhere to sterile technique in preparing the drug and in the care of the catheter, and even brief interruptions in the delivery of FLOLAN may result in rapid symptomatic deterioration. A patient’s decision to receive FLOLAN should be based upon the understanding that there is a high likelihood that therapy with FLOLAN will be needed for prolonged periods, possibly years. Consider the patient's ability to accept and care for a permanent intravenous catheter and infusion pump.</item>
+                     <item>
+                        <caption>•</caption>FLOLAN prepared with pH 12 STERILE DILUENT for FLOLAN must not be used with any preparation or administration materials containing PET or PETG. Only use materials provided by a healthcare provider or pharmacist.</item>
+                     <item>
+                        <caption>•</caption>To adjust infusion rates of FLOLAN only under the direction of a physician.</item>
+                     <item>
+                        <caption>•</caption>To avoid interruptions in drug delivery, the patient should have access to a backup infusion pump and intravenous infusion sets.</item>
+                     <item>
+                        <caption>•</caption>To contact their healthcare providers if any unusual bruising or bleeding develops.</item>
+                  </list>
+                  <paragraph>Trademark is owned by or licensed to the GSK group of companies.</paragraph>
+                  <paragraph>GlaxoSmithKline</paragraph>
+                  <paragraph>Durham, NC 27701</paragraph>
+                  <paragraph>©2023 GSK group of companies or its licensor.</paragraph>
+                  <paragraph>FLL:11PI</paragraph>
+               </text>
+               <effectiveTime value="20231026"/>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_01d8e909-09a7-46a6-875f-8ef0ce6d37d8">
+               <id root="593ef137-6279-4b95-ac9c-58bde29c08f5"/>
+               <code code="42230-3" codeSystem="2.16.840.1.113883.6.1" displayName="SPL PATIENT PACKAGE INSERT SECTION"/>
+               <text>
+                  <table width="100%">
+                     <col width="100%"/>
+                     <tbody>
+                        <tr>
+                           <td align="center" styleCode="Rrule Lrule Toprule " valign="top">
+                              <paragraph>
+                                 <content styleCode="bold">PATIENT INFORMATION</content>
+                              </paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td align="center" styleCode="Rrule Lrule Botrule " valign="top">
+                              <paragraph>
+                                 <content styleCode="bold">FLOLAN (flow-lan)</content>
+                              </paragraph>
+                              <paragraph>
+                                 <content styleCode="bold">(epoprostenol sodium)</content>
+                              </paragraph>
+                              <paragraph>
+                                 <content styleCode="bold">for injection, for intravenous use</content>
+                              </paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Rrule Lrule " valign="top">
+                              <paragraph>
+                                 <content styleCode="bold">What is FLOLAN?</content>
+                              </paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Rrule Lrule " valign="top">
+                              <paragraph>FLOLAN is a prescription medicine used to treat people with certain types of pulmonary arterial hypertension (PAH), which is high blood pressure in the arteries of the lungs. FLOLAN can improve your ability to be physically active.</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Rrule Lrule Botrule " valign="top">
+                              <paragraph>It is not known if FLOLAN is safe and effective in children.</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Rrule Lrule Botrule " valign="top">
+                              <paragraph>
+                                 <content styleCode="bold">Do not use FLOLAN if you</content>: </paragraph>
+                              <list listType="unordered">
+                                 <item>
+                                    <caption>•</caption>have certain types of heart failure. Talk to your healthcare provider before using FLOLAN if you have heart failure.</item>
+                                 <item>
+                                    <caption>•</caption>are allergic to FLOLAN or any of the ingredients in FLOLAN. See the end of this leaflet for a complete list of ingredients in FLOLAN.</item>
+                              </list>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Rrule Lrule Botrule " valign="top">
+                              <paragraph>
+                                 <content styleCode="bold">Before you use FLOLAN, tell your healthcare provider about all of your medical conditions, including if you:</content>
+                              </paragraph>
+                              <list listType="unordered">
+                                 <item>
+                                    <caption>•</caption>are allergic to any medicine.</item>
+                                 <item>
+                                    <caption>•</caption>are pregnant or plan to become pregnant. It is not known if FLOLAN will harm your unborn baby. You and your healthcare provider should decide if you will use FLOLAN.</item>
+                                 <item>
+                                    <caption>•</caption>are breastfeeding or plan to breastfeed. It is not known if FLOLAN passes into your breast milk. You and your healthcare provider should decide if you will take FLOLAN or breastfeed. You should not do both.</item>
+                              </list>
+                              <paragraph>
+                                 <content styleCode="bold">Tell your healthcare provider about all the medicines you take</content>, including prescription and over-the-counter medicines, vitamins, and herbal supplements.</paragraph>
+                              <paragraph>Especially tell your healthcare provider if you take: </paragraph>
+                              <list listType="unordered">
+                                 <item>
+                                    <caption>•</caption>a “water pill” (diuretic)</item>
+                                 <item>
+                                    <caption>•</caption>a medicine for high blood pressure (hypertension)</item>
+                                 <item>
+                                    <caption>•</caption>a blood thinner medicine (antiplatelet or anticoagulant medicine)</item>
+                              </list>
+                              <paragraph>Ask your healthcare provider or pharmacist for a list of these medicines, if you are not sure.</paragraph>
+                              <paragraph>Know the medicines you take. Keep a list of your medicines with you to show your healthcare provider and pharmacist when you get a new medicine.</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Rrule Lrule Botrule " valign="top">
+                              <paragraph>
+                                 <content styleCode="bold">How should I use FLOLAN?</content>
+                              </paragraph>
+                              <list listType="unordered">
+                                 <item>
+                                    <caption>•</caption>FLOLAN should only be given by infusion through a catheter placed in a vein (intravenous infusion) using an infusion pump.</item>
+                                 <item>
+                                    <caption>•</caption>Your first treatment will be given to you by your healthcare provider or nurse. This is so your healthcare provider can monitor you and find the best dose for you.</item>
+                                 <item>
+                                    <caption>•</caption>If your healthcare provider decides that you or your caregiver can give infusions of FLOLAN at home, you or your caregiver will receive training on the right way to mix and infuse FLOLAN. Do not try to infuse FLOLAN until you have been shown the right way to infuse FLOLAN by your healthcare provider.</item>
+                                 <item>
+                                    <caption>•</caption>Treatment will be needed for a long period of time, possibly years. You must be able to accept and care for a catheter and infusion pump in order to be treated with FLOLAN.</item>
+                                 <item>
+                                    <caption>•</caption>Use FLOLAN exactly as your healthcare provider tells you to.</item>
+                                 <item>
+                                    <caption>•</caption>Do not change your dose or stop your infusion without talking to your healthcare provider. Stopping FLOLAN suddenly can cause serious side effects.</item>
+                                 <item>
+                                    <caption>•</caption>You should have a backup infusion pump and extra supplies needed for your infusion of FLOLAN.</item>
+                                 <item>
+                                    <caption>•</caption>Follow your healthcare provider’s instructions for taking blood thinner medicines, if prescribed for you.</item>
+                                 <item>
+                                    <caption>•</caption>Before you use FLOLAN, you must mix (reconstitute) FLOLAN powder with <content styleCode="bold">pH 12 STERILE DILUENT for FLOLAN (comes in a plastic bottle)</content>.<list listType="unordered">
+                                       <item>
+                                          <caption>o</caption>Do not mix FLOLAN with any other diluent. You must use pH 12 STERILE DILUENT for FLOLAN.</item>
+                                       <item>
+                                          <caption>o</caption>FLOLAN prepared with pH 12 STERILE DILUENT for FLOLAN must not be used with any preparation or administration materials containing polyethylene terephthalate (PET) or polyethylene terephthalate glycol (PETG). Only use materials provided by a healthcare provider or pharmacist.</item>
+                                    </list>
+                                 </item>
+                                 <item>
+                                    <caption> </caption>See “<content styleCode="bold">How should I store and use FLOLAN?</content>” for more information about how to use and store FLOLAN the right way.</item>
+                                 <item>
+                                    <caption>•</caption>A mixed solution of FLOLAN is clear and colorless. Do not use FLOLAN if the mixed solution looks discolored or cloudy, or if the solution has flakes or particles in it.</item>
+                              </list>
+                              <paragraph>Using more than the prescribed dose of FLOLAN can lead to death. If you use more than the prescribed dose of FLOLAN, call your healthcare provider or go to the nearest emergency room right away.</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Rrule Lrule Botrule " valign="top">
+                              <paragraph>
+                                 <content styleCode="bold">What are the possible side effects of FLOLAN?</content>
+                              </paragraph>
+                              <paragraph>
+                                 <content styleCode="bold">FLOLAN can cause serious side effects, including: </content>
+                              </paragraph>
+                              <list listType="unordered">
+                                 <item>
+                                    <caption>•</caption>
+                                    <content styleCode="bold">Fluid in your lungs (pulmonary edema)</content>. If you develop pulmonary edema after starting FLOLAN, your healthcare provider will stop your treatment and you should not receive FLOLAN again.</item>
+                                 <item>
+                                    <caption>•</caption>
+                                    <content styleCode="bold">Worsening symptoms of pulmonary arterial hypertension (PAH) with a sudden decrease in the dose of FLOLAN</content>. Do not change your dose of FLOLAN or stop your infusion without talking to your healthcare provider. If you suddenly stop or decrease your dose of FLOLAN you may develop worsening symptoms of your PAH, including shortness of breath, dizziness, weakness, or loss of strength.</item>
+                                 <item>
+                                    <caption>•</caption>
+                                    <content styleCode="bold">Widening of your blood vessels (vasodilation)</content>. Vasodilation reactions can happen after you start FLOLAN. These reactions are common and may cause low blood pressure (hypotension), flushing, nausea, vomiting, dizziness, and headache. Your healthcare provider should check your blood pressure regularly during treatment with FLOLAN, especially when you start FLOLAN and after your dose is changed.</item>
+                                 <item>
+                                    <caption>•</caption>
+                                    <content styleCode="bold">Increased risk for bleeding</content>. FLOLAN affects how well your blood clots, so your risk for bleeding is increased. This is especially true if you have other risk factors for bleeding. Tell your healthcare provider if you develop any unusual bruising or bleeding.</item>
+                              </list>
+                              <paragraph>The most common side effects of FLOLAN include:</paragraph>
+                              <list listType="unordered">
+                                 <item>
+                                    <caption>•</caption>dizziness</item>
+                                 <item>
+                                    <caption>•</caption>jaw pain</item>
+                                 <item>
+                                    <caption>•</caption>headache</item>
+                                 <item>
+                                    <caption>•</caption>muscle or bone pain</item>
+                                 <item>
+                                    <caption>•</caption>nausea or vomiting</item>
+                              </list>
+                              <paragraph>These are not all the possible side effects of FLOLAN. For more information, ask your healthcare provider or pharmacist.</paragraph>
+                              <paragraph>Call your doctor for medical advice about side effects. You may report side effects to FDA at 1-800-FDA-1088.</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Rrule Lrule Botrule " valign="top">
+                              <paragraph>
+                                 <content styleCode="bold">How should I store and use FLOLAN?</content>
+                              </paragraph>
+                              <list listType="unordered">
+                                 <item>
+                                    <caption>•</caption>Store FLOLAN powder at room temperature between 59°F to 77°F (15°C to 25°C). </item>
+                                 <item>
+                                    <caption>•</caption>Protect FLOLAN powder from light. Keep unopened vial of FLOLAN in the carton until you are ready to mix.</item>
+                                 <item>
+                                    <caption>•</caption>Store the pH 12 STERILE DILUENT for FLOLAN at room temperature, 59°F to 77°F (15°C to 25°C). Do not freeze.</item>
+                                 <item>
+                                    <caption>•</caption>
+                                    <content styleCode="bold">Vials of pH 12 STERILE DILUENT for FLOLAN are for one-time use only.</content> Throw away any unused diluent.</item>
+                                 <item>
+                                    <caption>•</caption>Throw away any vials of FLOLAN powder and pH 12 STERILE DILUENT for FLOLAN that are out of date or that you no longer need.</item>
+                              </list>
+                              <paragraph>
+                                 <content styleCode="bold">How to store mixed solutions of FLOLAN:</content>
+                              </paragraph>
+                              <list listType="unordered">
+                                 <item>
+                                    <caption>•</caption>Once FLOLAN and the diluent are mixed together, you may use right away or store in the refrigerator. Refrigerate at 36°F to 46°F (2°C to 8°C). </item>
+                                 <item>
+                                    <caption>•</caption>Protect the mixed solution of FLOLAN from light until you are ready to use it. </item>
+                                 <item>
+                                    <caption>•</caption>
+                                    <content styleCode="bold">Do not freeze mixed solutions. Throw away any mixed solution that has been frozen.</content>
+                                 </item>
+                                 <item>
+                                    <caption>•</caption>Freshly prepared mixed solutions may be stored in the refrigerator for up to<content styleCode="bold"> 8 days</content>.</item>
+                                 <item>
+                                    <caption> </caption>Mixed solutions (freshly prepared or taken out of the refrigerator) are stable for up to <content styleCode="bold">48 hours</content> at 77°F (25°C), up to <content styleCode="bold">36 hours</content> at 86°F (30°C), up to <content styleCode="bold">24 hours</content> at 95°F (35°C) or up to <content styleCode="bold">12 hours</content> at 104°F (40°C). Discard any unused solution after these times.</item>
+                                 <item>
+                                    <caption>•</caption>
+                                    <content styleCode="bold">FLOLAN mixed with pH 12 STERILE DILUENT for FLOLAN does not require use with a cold pouch.</content>
+                                 </item>
+                                 <item>
+                                    <caption>•</caption>Throw away any mixed solution if it has been refrigerated for more than <content styleCode="bold">8 days</content>.</item>
+                              </list>
+                              <paragraph>
+                                 <content styleCode="bold">Keep FLOLAN and all medicines out of the reach of children.</content>
+                              </paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Rrule Lrule Botrule " valign="top">
+                              <paragraph>
+                                 <content styleCode="bold">General information about the safe and effective use of FLOLAN</content>
+                              </paragraph>
+                              <paragraph>Medicines are sometimes prescribed for purposes other than those listed in a Patient Information leaflet. Do not use FLOLAN for a condition for which it was not prescribed. Do not give FLOLAN to other people, even if they have the same symptoms that you have. It may harm them.</paragraph>
+                              <paragraph>This leaflet summarizes the most important information about FLOLAN. You can ask your healthcare provider or pharmacist for information about FLOLAN that is written for health professionals.</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Rrule Lrule Botrule " valign="top">
+                              <paragraph>
+                                 <content styleCode="bold">What are the ingredients in FLOLAN?</content>
+                              </paragraph>
+                              <paragraph>
+                                 <content styleCode="bold">Active ingredient:</content> epoprostenol sodium.</paragraph>
+                              <paragraph>
+                                 <content styleCode="bold">Inactive ingredients:</content> glycine, mannitol, sodium chloride. Sodium hydroxide may have been added.</paragraph>
+                              <paragraph>The pH 12 STERILE DILUENT for FLOLAN contains: glycine, sodium chloride, sodium hydroxide, and Water for Injection.</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Rrule Botrule Lrule " valign="top">
+                              <paragraph>GlaxoSmithKline</paragraph>
+                              <paragraph>Durham, NC 27701</paragraph>
+                              <paragraph>Trademark is owned by or licensed to the GSK group of companies.</paragraph>
+                              <paragraph>©2023 GSK group of companies or its licensor.</paragraph>
+                              <paragraph>FLL:7PIL</paragraph>
+                           </td>
+                        </tr>
+                     </tbody>
+                  </table>
+                  <list listType="unordered">
+                     <item>
+                        <caption> </caption>This Patient Information has been approved by the U.S. Food and Drug Administration.          Revised: 10/2023</item>
+                  </list>
+               </text>
+               <effectiveTime value="20231026"/>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_adb619d8-3201-4233-bc6d-091a61a7356f">
+               <id root="320765f7-5eed-4b54-957a-471d01844975"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">PRINCIPAL DISPLAY PANEL</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">NDC 0173-0517-00</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">
+                        <content styleCode="italics">FLOLAN</content>
+                     </content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">
+                        <content styleCode="italics">(epoprostenol sodium)</content>
+                     </content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">
+                        <content styleCode="italics">for Injection</content>
+                     </content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">
+                        <content styleCode="italics">0.5 mg/vial (500,000 ng/vial)</content>
+                     </content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Must be reconstituted.  For intravenous infusion after dilution.</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Note: Use only pH 12 STERILE DILUENT for FLOLAN for reconstitution and dilution.</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">R<sub>x</sub> only</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Single-Use Vial</content>
+                  </paragraph>
+                  <paragraph>Each vial contains epoprostenol sodium equivalent to 0.5 mg (500,000 ng) epoprostenol, 3.76 mg glycine, 2.93 mg sodium chloride, and 50 mg mannitol. Sodium hydroxide may have been added to adjust pH. </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Usual Dose:</content> See prescribing information.</paragraph>
+                  <paragraph>Store at 15<sup>o</sup> and 25<sup>o</sup> C (59<sup>o</sup> to 77<sup>o</sup>F). </paragraph>
+                  <paragraph>Protect from light.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Do not accept if plastic overseal is missing or not securely fitted.</content>
+                  </paragraph>
+                  <paragraph>GlaxoSmithKline</paragraph>
+                  <paragraph>Durham, NC 27701</paragraph>
+                  <paragraph>Rev. 12/23</paragraph>
+                  <paragraph>62000000091775</paragraph>
+                  <renderMultiMedia ID="id834576190" referencedObject="E60F5165-3444-4BC6-BD6C-263A4358F35B"/>
+               </text>
+               <effectiveTime value="20231026"/>
+               <component>
+                  <observationMedia ID="E60F5165-3444-4BC6-BD6C-263A4358F35B">
+                     <text>Flolan 0.5 mg label</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="flolan-spl-graphic-03.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_fb2701af-f7ca-487e-9c2e-9ab6b915036b">
+               <id root="55ce217a-98e2-4d6c-b0f9-7f593dcbe10e"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">PRINCIPAL DISPLAY PANEL </content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">NDC 0173-0519-00</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">
+                        <content styleCode="italics">FLOLAN</content>
+                     </content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">
+                        <content styleCode="italics">(epoprostenol sodium)</content>
+                     </content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">
+                        <content styleCode="italics">for Injection</content>
+                     </content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">
+                        <content styleCode="italics">1.5 mg/vial (1,500,000 ng/vial)</content>
+                     </content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Must be reconstituted.  For intravenous infusion after dilution.</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Note: Use only pH 12 STERILE DILUENT for FLOLAN for reconstitution and dilution.</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">R<sub>x</sub> only</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Single-Use Vial</content>
+                  </paragraph>
+                  <paragraph>Each vial contains epoprostenol sodium equivalent to 1.5 mg (1,500,000 ng) epoprostenol, 3.76 mg glycine, 2.93 mg sodium chloride, and 50 mg mannitol. Sodium hydroxide may have been added to adjust pH. </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Usual Dose:</content> See prescribing information.</paragraph>
+                  <paragraph>Store at 15<sup>o</sup> and 25<sup>o</sup> C (59<sup>o</sup> to 77<sup>o</sup>F). </paragraph>
+                  <paragraph>Protect from light.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Do not accept if plastic overseal is missing or not securely fitted.</content>
+                  </paragraph>
+                  <paragraph>GlaxoSmithKline</paragraph>
+                  <paragraph>Durham, NC 27701</paragraph>
+                  <paragraph>Rev. 12/23</paragraph>
+                  <paragraph>62000000091772</paragraph>
+                  <renderMultiMedia ID="id-950779317" referencedObject="ID_900fe89c-6cae-42de-8884-91def5228e66"/>
+               </text>
+               <effectiveTime value="20231026"/>
+               <component>
+                  <observationMedia ID="ID_900fe89c-6cae-42de-8884-91def5228e66">
+                     <text>Flolan 1.5 mg label</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="flolan-spl-graphic-04.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_16b72218-1d8e-4da2-9117-3d68007d285f">
+               <id root="1bb03240-4d8a-4ece-94ab-3476f92fa362"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">PRINCIPAL DISPLAY PANEL </content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">NDC 0173-0857-02</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">
+                        <content styleCode="italics">pH 12 Sterile Diluent for FLOLAN</content>
+                     </content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Rx only </content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Use only with FLOLAN (epoprostenol sodium) for Injection</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Single-Dose Vial.  Discard Unused Portion.</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">2 vials, each vial contains 50 mL</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">GSK</content>
+                  </paragraph>
+                  <paragraph>Made in England</paragraph>
+                  <paragraph>©2023 GSK group of companies or its licensor.</paragraph>
+                  <list listType="unordered">
+                     <item>
+                        <caption> </caption>Rev. 09/23</item>
+                     <item>
+                        <caption> </caption>62000000090121</item>
+                  </list>
+                  <renderMultiMedia ID="id463864138" referencedObject="DCDF799E-325E-4B9F-84DA-70BB0A91CEC7"/>
+               </text>
+               <effectiveTime value="20231026"/>
+               <component>
+                  <observationMedia ID="DCDF799E-325E-4B9F-84DA-70BB0A91CEC7">
+                     <text>Flolan Diluent pH 12 carton</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="flolan-spl-graphic-05.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

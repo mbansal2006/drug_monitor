@@ -1,0 +1,2209 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="https://www.accessdata.fda.gov/spl/stylesheet/spl.xsl"?>
+<document xmlns="urn:hl7-org:v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 https://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="e2428dde-40ac-4b79-b43f-d2ed2ef8af3a"/>
+   <code code="34391-3" displayName="HUMAN PRESCRIPTION DRUG LABEL" codeSystem="2.16.840.1.113883.6.1"/>
+   <title>
+      <content styleCode="bold">These highlights do not include all the information needed to use </content>
+      <content styleCode="bold">LAYOLIS</content>
+      <content styleCode="bold"> Fe safely and effectively. See full prescribing information for </content>
+      <content styleCode="bold">
+         <content styleCode="bold">LAYOLIS </content>Fe.</content>
+      <br/>
+      <br/>
+      <content styleCode="bold">
+         <content styleCode="bold">LAYOLIS<content styleCode="bold">
+               <sup>®</sup>
+            </content> </content>Fe (norethindrone and ethinyl estradiol chewable tablets and ferrous fumarate chewable tablets) </content>
+      <content styleCode="bold">
+         <br/>
+Initial U.S. Approval: 1974</content>
+      <br/>
+   </title>
+   <effectiveTime value="20240322"/>
+   <setId root="c0db84ca-b8d4-4ed2-b2f6-19347283146e"/>
+   <versionNumber value="9"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id extension="119723554" root="1.3.6.1.4.1.519.1"/>
+            <name>Actavis Pharma, Inc.</name>
+            <assignedEntity>
+               <assignedOrganization/>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section>
+               <id root="c93f386a-29f0-451a-82be-15a6e37c6082"/>
+               <code code="48780-1" displayName="SPL listing data elements section" codeSystem="2.16.840.1.113883.6.1"/>
+               <effectiveTime value="20240322"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="52544-064" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>Layolis Fe</name>
+                        <formCode code="C47916" displayName="KIT" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>norethindrone, ethinyl estradiol, and ferrous fumarate</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <asContent>
+                           <quantity>
+                              <numerator unit="1" value="1"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code/>
+                              <formCode code="C43168" displayName="BLISTER PACK" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator unit="1" value="3"/>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code code="52544-064-31" codeSystem="2.16.840.1.113883.6.69"/>
+                                    <formCode code="C43182" displayName="CARTON" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 </containerPackagedProduct>
+                                 <subjectOf>
+                                    <marketingAct>
+                                       <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                       <statusCode code="active"/>
+                                       <effectiveTime>
+                                          <low value="20111223"/>
+                                       </effectiveTime>
+                                    </marketingAct>
+                                 </subjectOf>
+                              </asContent>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" displayName="Type 0: Not a Combination Product" codeSystem="2.16.840.1.113883.3.26.1.1" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                        <part>
+                           <quantity>
+                              <numerator unit="1" value="24"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <partProduct>
+                              <name>Layolis Fe</name>
+                              <formCode code="C42893" displayName="TABLET, CHEWABLE" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                              <asEntityWithGeneric>
+                                 <genericMedicine>
+                                    <name>norethindrone and ethinyl estradiol</name>
+                                 </genericMedicine>
+                              </asEntityWithGeneric>
+                              <ingredient classCode="ACTIB">
+                                 <quantity>
+                                    <numerator unit="mg" value="0.8"/>
+                                    <denominator unit="1" value="1"/>
+                                 </quantity>
+                                 <ingredientSubstance>
+                                    <code code="T18F433X4S" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>NORETHINDRONE</name>
+                                    <activeMoiety>
+                                       <activeMoiety>
+                                          <code code="T18F433X4S" codeSystem="2.16.840.1.113883.4.9"/>
+                                          <name>NORETHINDRONE</name>
+                                       </activeMoiety>
+                                    </activeMoiety>
+                                 </ingredientSubstance>
+                              </ingredient>
+                              <ingredient classCode="ACTIB">
+                                 <quantity>
+                                    <numerator unit="mg" value="0.025"/>
+                                    <denominator unit="1" value="1"/>
+                                 </quantity>
+                                 <ingredientSubstance>
+                                    <code code="423D2T571U" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>ETHINYL ESTRADIOL</name>
+                                    <activeMoiety>
+                                       <activeMoiety>
+                                          <code code="423D2T571U" codeSystem="2.16.840.1.113883.4.9"/>
+                                          <name>ETHINYL ESTRADIOL</name>
+                                       </activeMoiety>
+                                    </activeMoiety>
+                                 </ingredientSubstance>
+                              </ingredient>
+                              <ingredient classCode="IACT">
+                                 <ingredientSubstance>
+                                    <code code="35SW5USQ3G" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>D&amp;C YELLOW NO. 10</name>
+                                 </ingredientSubstance>
+                              </ingredient>
+                              <ingredient classCode="IACT">
+                                 <ingredientSubstance>
+                                    <code code="H3R47K3TBD" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>FD&amp;C BLUE NO. 1</name>
+                                 </ingredientSubstance>
+                              </ingredient>
+                              <ingredient classCode="IACT">
+                                 <ingredientSubstance>
+                                    <code code="H77VEI93A8" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>FD&amp;C YELLOW NO. 6</name>
+                                 </ingredientSubstance>
+                              </ingredient>
+                              <ingredient classCode="IACT">
+                                 <ingredientSubstance>
+                                    <code code="EWQ57Q8I5X" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>LACTOSE MONOHYDRATE</name>
+                                 </ingredientSubstance>
+                              </ingredient>
+                              <ingredient classCode="IACT">
+                                 <ingredientSubstance>
+                                    <code code="70097M6I30" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>MAGNESIUM STEARATE</name>
+                                 </ingredientSubstance>
+                              </ingredient>
+                              <ingredient classCode="IACT">
+                                 <ingredientSubstance>
+                                    <code code="3OWL53L36A" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>MANNITOL</name>
+                                 </ingredientSubstance>
+                              </ingredient>
+                              <ingredient classCode="IACT">
+                                 <ingredientSubstance>
+                                    <code code="OP1R32D61U" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>CELLULOSE, MICROCRYSTALLINE</name>
+                                 </ingredientSubstance>
+                              </ingredient>
+                              <ingredient classCode="IACT">
+                                 <ingredientSubstance>
+                                    <code code="FZ989GH94E" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>POVIDONE</name>
+                                 </ingredientSubstance>
+                              </ingredient>
+                              <ingredient classCode="IACT">
+                                 <ingredientSubstance>
+                                    <code code="5856J3G2A2" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>SODIUM STARCH GLYCOLATE TYPE A POTATO</name>
+                                 </ingredientSubstance>
+                              </ingredient>
+                              <ingredient classCode="IACT">
+                                 <ingredientSubstance>
+                                    <code code="J7I2T6IV1N" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>SPEARMINT</name>
+                                 </ingredientSubstance>
+                              </ingredient>
+                              <ingredient classCode="IACT">
+                                 <ingredientSubstance>
+                                    <code code="96K6UQ3ZD4" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>SUCRALOSE</name>
+                                 </ingredientSubstance>
+                              </ingredient>
+                              <ingredient classCode="IACT">
+                                 <ingredientSubstance>
+                                    <code code="H4N855PNZ1" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>ALPHA-TOCOPHEROL</name>
+                                 </ingredientSubstance>
+                              </ingredient>
+                           </partProduct>
+                           <subjectOf>
+                              <approval>
+                                 <id extension="NDA022573" root="2.16.840.1.113883.3.150"/>
+                                 <code code="C73605" displayName="NDA authorized generic" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 <author>
+                                    <territorialAuthority>
+                                       <territory>
+                                          <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                       </territory>
+                                    </territorialAuthority>
+                                 </author>
+                              </approval>
+                           </subjectOf>
+                           <subjectOf>
+                              <marketingAct>
+                                 <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 <statusCode code="active"/>
+                                 <effectiveTime>
+                                    <low value="20101222"/>
+                                 </effectiveTime>
+                              </marketingAct>
+                           </subjectOf>
+                           <subjectOf>
+                              <characteristic classCode="OBS">
+                                 <code code="SPLCOLOR" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C48329" displayName="green" codeSystem="2.16.840.1.113883.3.26.1.1" xsi:type="CV">
+                                    <originalText>light green</originalText>
+                                 </value>
+                              </characteristic>
+                           </subjectOf>
+                           <subjectOf>
+                              <characteristic classCode="OBS">
+                                 <code code="SPLFLAVOR" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C73416" displayName="SPEARMINT" codeSystem="2.16.840.1.113883.3.26.1.1" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                           <subjectOf>
+                              <characteristic classCode="OBS">
+                                 <code code="SPLIMPRINT" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value xsi:type="ST">WC;483</value>
+                              </characteristic>
+                           </subjectOf>
+                           <subjectOf>
+                              <characteristic classCode="OBS">
+                                 <code code="SPLSCORE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value value="1" xsi:type="INT"/>
+                              </characteristic>
+                           </subjectOf>
+                           <subjectOf>
+                              <characteristic classCode="OBS">
+                                 <code code="SPLSHAPE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C48348" displayName="ROUND" codeSystem="2.16.840.1.113883.3.26.1.1" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                           <subjectOf>
+                              <characteristic classCode="OBS">
+                                 <code code="SPLSIZE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value unit="mm" value="6" xsi:type="PQ"/>
+                              </characteristic>
+                           </subjectOf>
+                           <consumedIn>
+                              <substanceAdministration>
+                                 <routeCode code="C38288" displayName="ORAL" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                              </substanceAdministration>
+                           </consumedIn>
+                        </part>
+                        <part>
+                           <quantity>
+                              <numerator unit="1" value="4"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <partProduct>
+                              <name>INERT</name>
+                              <formCode code="C42893" displayName="TABLET, CHEWABLE" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                              <asEntityWithGeneric>
+                                 <genericMedicine>
+                                    <name>ferrous fumarate</name>
+                                 </genericMedicine>
+                              </asEntityWithGeneric>
+                              <ingredient classCode="IACT">
+                                 <quantity>
+                                    <numerator unit="mg" value="75"/>
+                                    <denominator unit="1" value="1"/>
+                                 </quantity>
+                                 <ingredientSubstance>
+                                    <code code="R5L488RY0Q" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>FERROUS FUMARATE</name>
+                                 </ingredientSubstance>
+                              </ingredient>
+                              <ingredient classCode="IACT">
+                                 <ingredientSubstance>
+                                    <code code="70097M6I30" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>MAGNESIUM STEARATE</name>
+                                 </ingredientSubstance>
+                              </ingredient>
+                              <ingredient classCode="IACT">
+                                 <ingredientSubstance>
+                                    <code code="3OWL53L36A" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>MANNITOL</name>
+                                 </ingredientSubstance>
+                              </ingredient>
+                              <ingredient classCode="IACT">
+                                 <ingredientSubstance>
+                                    <code code="OP1R32D61U" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>CELLULOSE, MICROCRYSTALLINE</name>
+                                 </ingredientSubstance>
+                              </ingredient>
+                              <ingredient classCode="IACT">
+                                 <ingredientSubstance>
+                                    <code code="FZ989GH94E" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>POVIDONE</name>
+                                 </ingredientSubstance>
+                              </ingredient>
+                              <ingredient classCode="IACT">
+                                 <ingredientSubstance>
+                                    <code code="5856J3G2A2" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>SODIUM STARCH GLYCOLATE TYPE A POTATO</name>
+                                 </ingredientSubstance>
+                              </ingredient>
+                              <ingredient classCode="IACT">
+                                 <ingredientSubstance>
+                                    <code code="J7I2T6IV1N" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>SPEARMINT</name>
+                                 </ingredientSubstance>
+                              </ingredient>
+                              <ingredient classCode="IACT">
+                                 <ingredientSubstance>
+                                    <code code="96K6UQ3ZD4" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>SUCRALOSE</name>
+                                 </ingredientSubstance>
+                              </ingredient>
+                           </partProduct>
+                           <subjectOf>
+                              <approval>
+                                 <id extension="NDA022573" root="2.16.840.1.113883.3.150"/>
+                                 <code code="C73605" displayName="NDA authorized generic" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 <author>
+                                    <territorialAuthority>
+                                       <territory>
+                                          <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                       </territory>
+                                    </territorialAuthority>
+                                 </author>
+                              </approval>
+                           </subjectOf>
+                           <subjectOf>
+                              <marketingAct>
+                                 <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 <statusCode code="active"/>
+                                 <effectiveTime>
+                                    <low value="20101222"/>
+                                 </effectiveTime>
+                              </marketingAct>
+                           </subjectOf>
+                           <subjectOf>
+                              <characteristic classCode="OBS">
+                                 <code code="SPLCOLOR" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C48332" displayName="brown" codeSystem="2.16.840.1.113883.3.26.1.1" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                           <subjectOf>
+                              <characteristic classCode="OBS">
+                                 <code code="SPLFLAVOR" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C73416" displayName="SPEARMINT" codeSystem="2.16.840.1.113883.3.26.1.1" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                           <subjectOf>
+                              <characteristic classCode="OBS">
+                                 <code code="SPLIMPRINT" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value xsi:type="ST">WC;624</value>
+                              </characteristic>
+                           </subjectOf>
+                           <subjectOf>
+                              <characteristic classCode="OBS">
+                                 <code code="SPLSCORE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value value="1" xsi:type="INT"/>
+                              </characteristic>
+                           </subjectOf>
+                           <subjectOf>
+                              <characteristic classCode="OBS">
+                                 <code code="SPLSHAPE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C48348" displayName="ROUND" codeSystem="2.16.840.1.113883.3.26.1.1" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                           <subjectOf>
+                              <characteristic classCode="OBS">
+                                 <code code="SPLSIZE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value unit="mm" value="6" xsi:type="PQ"/>
+                              </characteristic>
+                           </subjectOf>
+                           <consumedIn>
+                              <substanceAdministration>
+                                 <routeCode code="C38288" displayName="ORAL" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                              </substanceAdministration>
+                           </consumedIn>
+                        </part>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <id extension="NDA022573" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73605" displayName="NDA authorized generic" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20111223"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38288" displayName="ORAL" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_52a22547-67dc-4585-bba1-c024a56b180a">
+               <id root="6c932b4b-cd72-437b-96b9-4bc6d0e2b377"/>
+               <code code="34066-1" codeSystem="2.16.840.1.113883.6.1" displayName="BOXED WARNING SECTION"/>
+               <title>
+                  <content styleCode="bold">WARNING:  CIGARETTE SMOKING AND SERIOUS CARDIOVASCULAR EVENTS </content>
+               </title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">Cigarette smoking increases the risk of serious cardiovascular events from combination oral contraceptive (COC) use. This risk increases with age, particularly in women over 35 years of age, and with the number of cigarettes smoked.  For this reason, COCs should not be used by women who are over 35 years of age and smoke </content>
+                     <content styleCode="bold">
+                        <content styleCode="italics">[see Contraindications</content>
+                     </content>
+                     <content styleCode="bold">
+                        <content styleCode="italics"> </content>
+                     </content>
+                     <content styleCode="bold">
+                        <content styleCode="italics">(</content>
+                     </content>
+                     <content styleCode="bold">
+                        <content styleCode="italics">
+                           <linkHtml href="#LINK_5b0b832a-6e8a-4d08-bcda-3c648e8d7450">4</linkHtml>
+                        </content>
+                     </content>
+                     <content styleCode="bold">
+                        <content styleCode="italics">) </content>
+                     </content>
+                     <content styleCode="italics"> </content>
+                     <content styleCode="italics">
+                        <content styleCode="bold">and Warnings and Precautions (</content>
+                     </content>
+                     <content styleCode="bold">
+                        <content styleCode="italics">
+                           <linkHtml href="#LINK_eb45eea1-149c-4a42-9b23-e02d56ccf5a3">5.1</linkHtml>
+                        </content>
+                        <content styleCode="italics">)</content>
+                        <content styleCode="italics">]. </content>
+                     </content>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20240322"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <paragraph>
+                           <content styleCode="bold">WARNING: CIGARETTE SMOKING AND SERIOUS CARDIOVASCULAR EVENTS</content>
+                        </paragraph>
+                        <paragraph>
+                           <content styleCode="bold">
+                              <content styleCode="italics">See full prescribing information for complete boxed warning.</content>
+                           </content>
+                        </paragraph>
+                        <list listType="unordered" styleCode="Disk">
+                           <item>
+                              <content styleCode="bold">Women over 35 years old who smoke should not use <content styleCode="bold">LAYOLIS </content>Fe. (</content>
+                              <content styleCode="bold">
+                                 <linkHtml href="#LINK_5b0b832a-6e8a-4d08-bcda-3c648e8d7450">4</linkHtml>
+                              </content>
+                              <content styleCode="bold">)</content>
+                           </item>
+                           <item>
+                              <content styleCode="bold">Cigarette smoking increases the risk of serious cardiovascular events from combination oral contraceptive (COC) use. (</content>
+                              <content styleCode="bold">
+                                 <linkHtml href="#LINK_5b0b832a-6e8a-4d08-bcda-3c648e8d7450">4</linkHtml>
+                              </content>
+                              <content styleCode="bold">)</content>
+                           </item>
+                        </list>
+                     </text>
+                  </highlight>
+               </excerpt>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_00a63bf3-28b7-4705-a7ab-a87c446038ec">
+               <id root="db2518bd-4fcf-40ab-8140-074a73fe2d62"/>
+               <code code="34067-9" codeSystem="2.16.840.1.113883.6.1" displayName="INDICATIONS &amp; USAGE SECTION"/>
+               <title>
+                  <content styleCode="bold">1 INDICATIONS AND USAGE</content>
+               </title>
+               <text>
+                  <paragraph>LAYOLIS Fe is indicated for use by women to prevent pregnancy.</paragraph>
+                  <paragraph>The efficacy of LAYOLIS Fe in women with a body mass index (BMI) of &gt; 35 kg/m<sup>2</sup> has not been evaluated. </paragraph>
+               </text>
+               <effectiveTime value="20240322"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <list listType="unordered" styleCode="Disk">
+                           <item>LAYOLIS Fe is a combination of norethindrone, a progestin, and ethinyl estradiol, an estrogen, indicated for use by females of reproductive potential to prevent pregnancy. (<linkHtml href="#LINK_00a63bf3-28b7-4705-a7ab-a87c446038ec">1</linkHtml>)</item>
+                           <item>The efficacy in females of reproductive potential with a body mass index (BMI) of &gt; 35 kg/m<sup>2</sup> has not been evaluated. (<linkHtml href="#LINK_00a63bf3-28b7-4705-a7ab-a87c446038ec">1</linkHtml>, <linkHtml href="#LINK_3ce85b54-36f3-4f74-9d50-6bb73dee2b73">8.8</linkHtml>)</item>
+                        </list>
+                     </text>
+                  </highlight>
+               </excerpt>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_1dc2ef4d-14fd-48b0-9466-31a98b688c30">
+               <id root="6375ece9-9d7b-4083-85f4-b47a807ad97a"/>
+               <code code="34068-7" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE &amp; ADMINISTRATION SECTION"/>
+               <title>
+                  <content styleCode="bold">2 DOSAGE AND ADMINISTRATION</content>
+               </title>
+               <text/>
+               <effectiveTime value="20240322"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <list listType="unordered" styleCode="Disk">
+                           <item>Chew one tablet without water at the same time every day. (<linkHtml href="#LINK_049e0b48-8589-4444-a82a-c9cf9a9e0ecf">2.1</linkHtml>)<br/>
+                           </item>
+                           <item>Take tablets in the order directed on the blister pack. (<linkHtml href="#LINK_049e0b48-8589-4444-a82a-c9cf9a9e0ecf">2.1</linkHtml>)</item>
+                        </list>
+                     </text>
+                  </highlight>
+               </excerpt>
+               <component>
+                  <section ID="LINK_049e0b48-8589-4444-a82a-c9cf9a9e0ecf">
+                     <id root="a7f4e61a-26c2-4dfc-9d0f-e1a40b66f945"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>
+                        <content styleCode="bold">2.1 How to Take </content>
+                        <content styleCode="bold">LAYOLIS Fe</content>
+                     </title>
+                     <text>
+                        <paragraph>To achieve maximum contraceptive effectiveness, LAYOLIS Fe must be taken exactly as directed.  Chew and swallow one tablet without water at the same time every day.  Tablets must be taken in the order directed on the blister pack.  Tablets should not be skipped or taken at intervals exceeding 24 hours. LAYOLIS Fe may be administered without regard to meals <content styleCode="italics">[see Clinical Pharmacology (</content>
+                           <content styleCode="italics">
+                              <linkHtml href="#LINK_cdd54ca7-e422-4be8-a062-221bb9adc728">12.3</linkHtml>
+                           </content>
+                           <content styleCode="italics">)]</content>. </paragraph>
+                     </text>
+                     <effectiveTime value="20240322"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_f9aa7a9f-3bc8-4bf6-a2ee-4e96402bb6c0">
+                     <id root="2cf9c50e-d5a2-4047-b397-c72c66375b20"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>
+                        <content styleCode="bold">2.2 How to Start </content>
+                        <content styleCode="bold">LAYOLIS Fe</content>
+                     </title>
+                     <text>
+                        <paragraph>Instruct the patient to begin taking LAYOLIS Fe on Day 1 of her menstrual cycle (that is, the first day of her menstrual bleeding). One light green tablet should be taken daily for 24 consecutive days followed by one brown tablet daily for 4 consecutive days<content styleCode="italics">.</content>  Instruct the patient to use a non-hormonal contraceptive as back-up during the first 7 days if she starts taking LAYOLIS Fe other than on the first day of her menstrual cycle. </paragraph>
+                        <paragraph>For postpartum women who do not breastfeed or after a second trimester abortion, LAYOLIS Fe may be started no earlier than 4 weeks postpartum. Recommend use of a non-hormonal back-up method for the first 7 days. When combined oral contraceptives (COCs) are used during the postpartum period, the increased risk of thromboembolic disease associated with the postpartum period must be considered.  The possibility of ovulation and conception before starting COCs should also be considered.</paragraph>
+                        <paragraph>If the patient is switching from a combination hormonal method such as:<br/>
+            - Another pill<br/>
+            - Vaginal ring<br/>
+            - Patch</paragraph>
+                        <list listType="unordered" styleCode="Disk">
+                           <item>Instruct her to take the first light green pill on the day she would have started a new cycle of her previous birth control pack (Day 1). </item>
+                           <item>If she previously used a vaginal ring or transdermal patch, she should start using LAYOLIS Fe on the day she would have restarted the ring or patch.</item>
+                           <item>Instruct the patient to use a non-hormonal back-up method such as a condom and spermicide for the first 7 days.</item>
+                        </list>
+                        <paragraph>If the patient is switching from a progestin-only method such as:<br/>
+            - Progestin-only pill<br/>
+            - Implant<br/>
+            - Intrauterine system<br/>
+            - Injection</paragraph>
+                        <list listType="unordered" styleCode="Disk">
+                           <item>Instruct her to take the first light green pill on the day she would have taken her next progestin-only pill or on the day of removal of her implant or intrauterine system or on the day when she would have had her next injection.</item>
+                           <item>Instruct the patient to use a non-hormonal back-up method such as a condom and spermicide for the first 7 days.</item>
+                        </list>
+                     </text>
+                     <effectiveTime value="20240322"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_6ecefae7-d46f-4578-8518-370eaddca186">
+                     <id root="d3332a03-e0a8-4041-a0cc-729c9fbe410f"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>
+                        <content styleCode="bold">2.3 </content>
+                        <content styleCode="bold">Missed Doses</content>
+                     </title>
+                     <text>
+                        <table>
+                           <caption>Table 1. Instructions for Missed LAYOLIS Fe Tablets</caption>
+                           <col width="319"/>
+                           <col width="319"/>
+                           <tbody>
+                              <tr>
+                                 <td styleCode=" Toprule Lrule Rrule">If one light green tablet is missed</td>
+                                 <td styleCode=" Toprule Lrule Rrule">Take the missed tablet as soon as possible. Take the next tablet at the regular time. Continue taking one tablet a day until the pack is finished. <br/>
+                                    <br/>
+            Additional nonhormonal contraception (such as condoms) is not needed.</td>
+                              </tr>
+                              <tr>
+                                 <td styleCode=" Toprule Lrule Rrule">If two light green tablets in a row are missed in Week 1 or Week 2 of the tablet pack<br/>
+                                 </td>
+                                 <td styleCode=" Toprule Lrule Rrule">Take the two missed tablets as soon as possible, and the next two tablets the next day. Continue taking one tablet a day until the pack is finished. <br/>
+                                    <br/>
+            Use additional nonhormonal contraception (such as condoms) until hormonal tablets have been taken for 7 days after missing tablets.</td>
+                              </tr>
+                              <tr>
+                                 <td styleCode=" Toprule Lrule Rrule">If two light green tablets in a row are missed in Week 3 or Week 4 of the tablet pack</td>
+                                 <td styleCode=" Toprule Lrule Rrule">Throw away the remainder of the tablet pack. Start a new tablet pack the same day.<br/>
+                                    <br/>
+            Use additional nonhormonal contraception (such as condoms) until hormonal tablets have been taken for 7 days after missing tablets.</td>
+                              </tr>
+                              <tr>
+                                 <td styleCode=" Toprule Lrule Rrule">If three or more light green tablets in a row are missed</td>
+                                 <td styleCode=" Toprule Lrule Rrule">Throw away the missed tablets. Continue taking one tablet every day as indicated on the pack until the pack is finished. Bleeding may occur during the week following the missed tablets. <br/>
+                                    <br/>
+            Use additional nonhormonal contraception (such as condoms) until hormonal tablets have been taken for 7 days after missing tablets.</td>
+                              </tr>
+                              <tr>
+                                 <td styleCode=" Toprule Lrule Rrule">If any of the four brown tablets are missed</td>
+                                 <td styleCode=" Toprule Lrule Rrule">Throw away the missed tablets. Continue taking the remaining tablets until the pack is finished. <br/>
+            Additional nonhormonal contraception (such as condoms) is not needed.</td>
+                              </tr>
+                           </tbody>
+                        </table>
+                     </text>
+                     <effectiveTime value="20240322"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_5d090a44-584d-442b-96a5-c91b45ff2086">
+                     <id root="d811d06a-0668-4f17-b381-e566de6d9aac"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>
+                        <content styleCode="bold">2.</content>
+                        <content styleCode="bold">4</content>
+                        <content styleCode="bold"> Advice in Case of Gastrointestinal Disturbances</content>
+                     </title>
+                     <text>
+                        <paragraph>In case of severe vomiting or diarrhea, absorption may not be complete and additional contraceptive measures should be taken.  If vomiting or diarrhea occurs within 3-4 hours after taking a light green tablet, this can be regarded as a missed tablet <content styleCode="italics">[see</content>
+                           <content styleCode="italics"> </content>
+                           <content styleCode="italics">Dosage and Administration (</content>
+                           <content styleCode="italics">
+                              <linkHtml href="#LINK_6ecefae7-d46f-4578-8518-370eaddca186">2.3</linkHtml>
+                           </content>
+                           <content styleCode="italics">)</content>
+                           <content styleCode="italics">].</content>
+                        </paragraph>
+                     </text>
+                     <effectiveTime value="20240322"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_2af8641a-b40f-4561-b999-6d403e0b3d82">
+               <id root="869e31ff-a768-4244-aecf-fb9cc2181d45"/>
+               <code code="43678-2" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE FORMS &amp; STRENGTHS SECTION"/>
+               <title>
+                  <content styleCode="bold">3 DOSAGE FORMS AND STRENGTHS</content>
+               </title>
+               <text>
+                  <paragraph>LAYOLIS Fe is available in blister packs.</paragraph>
+                  <paragraph>Each blister pack (28 tablets) contains in the following order:</paragraph>
+                  <list listType="unordered" styleCode="Disk">
+                     <item>24 light green, round tablets (active) imprinted with “WC” on one side and “483” on the other and each containing 0.8 mg norethindrone and 0.025 mg ethinyl estradiol.</item>
+                     <item>4 brown, round tablets (non-hormonal placebo) imprinted with “WC” on one side and “624” on the other and each containing 75 mg ferrous fumarate. The ferrous fumarate chewable tablets do not serve any therapeutic purpose.</item>
+                  </list>
+               </text>
+               <effectiveTime value="20240322"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <paragraph>LAYOLIS Fe consists of 28 tablets in the following order (<linkHtml href="#LINK_2af8641a-b40f-4561-b999-6d403e0b3d82">3</linkHtml>):</paragraph>
+                        <list listType="unordered" styleCode="Disk">
+                           <item>24 light green, round tablets (active) each containing 0.8 mg norethindrone and 0.025 mg ethinyl estradiol.</item>
+                           <item>4 brown, round tablets (non-hormonal placebo) each containing 75 mg ferrous fumarate, which does not serve any therapeutic purpose.</item>
+                        </list>
+                     </text>
+                  </highlight>
+               </excerpt>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_5b0b832a-6e8a-4d08-bcda-3c648e8d7450">
+               <id root="ef7c92b9-50bf-4643-aef1-873a77f9092d"/>
+               <code code="34070-3" codeSystem="2.16.840.1.113883.6.1" displayName="CONTRAINDICATIONS SECTION"/>
+               <title>
+                  <content styleCode="bold">4 CONTRAINDICATIONS</content>
+               </title>
+               <text>
+                  <paragraph>LAYOLIS FE is contraindicated in females who are known to have or develop the following conditions:</paragraph>
+                  <list listType="unordered" styleCode="Disk">
+                     <item>A high risk of arterial or venous thrombotic diseases. Examples include women who are known to: <br/>
+    - Smoke, if over age 35 <content styleCode="italics">[see </content>
+                        <content styleCode="italics">
+                           <linkHtml href="#LINK_52a22547-67dc-4585-bba1-c024a56b180a">Boxed Warning</linkHtml>
+                        </content>
+                        <content styleCode="italics">,</content> and <content styleCode="italics">Warnings and Precautions (</content>
+                        <content styleCode="italics">
+                           <linkHtml href="#LINK_eb45eea1-149c-4a42-9b23-e02d56ccf5a3">5.1</linkHtml>
+                        </content>
+                        <content styleCode="italics">)]</content>
+                        <br/>
+    - Have deep vein thrombosis or pulmonary embolism, now or in the past <content styleCode="italics">[see Warnings and Precautions (</content>
+                        <content styleCode="italics">
+                           <linkHtml href="#LINK_eb45eea1-149c-4a42-9b23-e02d56ccf5a3">5.1</linkHtml>
+                        </content>
+                        <content styleCode="italics">)]</content>
+                        <br/>
+    - Have cerebrovascular disease <content styleCode="italics">[see Warnings and Precautions (</content>
+                        <content styleCode="italics">
+                           <linkHtml href="#LINK_eb45eea1-149c-4a42-9b23-e02d56ccf5a3">5.1</linkHtml>
+                        </content>
+                        <content styleCode="italics">)]</content>
+                        <br/>
+    - Have coronary artery disease <content styleCode="italics">[see Warnings and Precautions (</content>
+                        <content styleCode="italics">
+                           <linkHtml href="#LINK_eb45eea1-149c-4a42-9b23-e02d56ccf5a3">5.1</linkHtml>
+                        </content>
+                        <content styleCode="italics">)]</content>
+                        <br/>
+    - Have thrombogenic valvular or thrombogenic rhythm diseases of the heart (for example, subacute bacterial endocarditis with valvular disease, or atrial fibrillation) <content styleCode="italics">[see Warnings and Precautions (</content>
+                        <content styleCode="italics">
+                           <linkHtml href="#LINK_eb45eea1-149c-4a42-9b23-e02d56ccf5a3">5.1</linkHtml>
+                        </content>
+                        <content styleCode="italics">)]</content>
+                        <br/>
+    - Have inherited or acquired hypercoagulopathies <content styleCode="italics">[see Warnings and Precautions (</content>
+                        <content styleCode="italics">
+                           <linkHtml href="#LINK_eb45eea1-149c-4a42-9b23-e02d56ccf5a3">5.1</linkHtml>
+                        </content>
+                        <content styleCode="italics">)]</content>
+                        <br/>
+    - Have uncontrolled hypertension <content styleCode="italics">[see Warnings and Precautions (</content>
+                        <content styleCode="italics">
+                           <linkHtml href="#LINK_3fd7d91b-60e1-419b-a559-fa5a97a1b994">5.5</linkHtml>
+                        </content>
+                        <content styleCode="italics">)]</content>
+                        <br/>
+    - Have diabetes with vascular disease <content styleCode="italics">[see Warnings and Precautions (</content>
+                        <content styleCode="italics">
+                           <linkHtml href="#LINK_26956803-d6e0-477a-a207-62cd5c858c38">5.7</linkHtml>
+                        </content>
+                        <content styleCode="italics">)]</content>
+                        <br/>
+    - Have headaches with focal neurological symptoms or have migraine headaches with or without aura if over age 35 <content styleCode="italics">[see Warnings and Precautions (</content>
+                        <content styleCode="italics">
+                           <linkHtml href="#LINK_53b5d49b-89ca-484e-8f78-29906c01af11">5.8</linkHtml>
+                        </content>
+                        <content styleCode="italics">)]</content>
+                     </item>
+                     <item>Current diagnosis of, or history of, breast cancer, which may be hormone-sensitive <content styleCode="italics">[see Warnings and Precautions </content>
+                        <content styleCode="italics">(</content>
+                        <content styleCode="italics">
+                           <linkHtml href="#LINK_2ac77a8d-7086-4cc9-8e70-cd93a3e5d2d9">5.2</linkHtml>
+                        </content>
+                        <content styleCode="italics">)]</content>
+                     </item>
+                     <item>Liver tumors, benign or malignant, or liver disease <content styleCode="italics">[see Warnings and Precautions (</content>
+                        <content styleCode="italics">
+                           <linkHtml href="#LINK_067ce5a7-84c4-4c6d-83e8-80a6c286153d">5.3</linkHtml>
+                        </content>
+                        <content styleCode="italics">), Use in Specific Populations (</content>
+                        <content styleCode="italics">
+                           <linkHtml href="#LINK_d02722e3-1cef-4bd2-ac06-72dd994a401c">8.7</linkHtml>
+                        </content>
+                        <content styleCode="italics">),</content> and <content styleCode="italics">Clinical Pharmacology (</content>
+                        <content styleCode="italics">
+                           <linkHtml href="#LINK_cdd54ca7-e422-4be8-a062-221bb9adc728">12.3</linkHtml>
+                        </content>
+                        <content styleCode="italics">)]</content>
+                     </item>
+                     <item>Undiagnosed abnormal uterine bleeding <content styleCode="italics">[see Warnings and Precautions (</content>
+                        <content styleCode="italics">
+                           <linkHtml href="#LINK_10020441-6c3a-4d10-b88d-2bb43d512e29">5.9</linkHtml>
+                        </content>
+                        <content styleCode="italics">)]</content>
+                     </item>
+                     <item>Use of Hepatitis C drug combinations containing ombitasvir/paritaprevir/ritonavir, with or without dasabuvir, due to the potential for ALT elevations <content styleCode="italics">[see</content> <content styleCode="italics">Warnings and Precautions (</content>
+                        <content styleCode="italics">
+                           <linkHtml href="#LINK_07ef3e18-6dea-4c80-90c4-299995836862">5.4</linkHtml>
+                        </content>
+                        <content styleCode="italics">)]</content>
+                     </item>
+                  </list>
+               </text>
+               <effectiveTime value="20240322"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <list listType="unordered" styleCode="Disk">
+                           <item>A high risk of arterial or venous thrombotic diseases. (<linkHtml href="#LINK_5b0b832a-6e8a-4d08-bcda-3c648e8d7450">4</linkHtml>)</item>
+                           <item>Undiagnosed abnormal uterine bleeding. (<linkHtml href="#LINK_5b0b832a-6e8a-4d08-bcda-3c648e8d7450">4</linkHtml>)</item>
+                           <item>Breast cancer (<linkHtml href="#LINK_5b0b832a-6e8a-4d08-bcda-3c648e8d7450">4</linkHtml>)</item>
+                           <item>Liver tumors or liver disease (<linkHtml href="#LINK_5b0b832a-6e8a-4d08-bcda-3c648e8d7450">4</linkHtml>)</item>
+                           <item>Co-administration with Hepatitis C drug combinations containing ombitasvir/paritaprevir/ritonavir, with or without dasabuvir. (<linkHtml href="#LINK_5b0b832a-6e8a-4d08-bcda-3c648e8d7450">4</linkHtml>)</item>
+                        </list>
+                     </text>
+                  </highlight>
+               </excerpt>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_6652c9d9-b8d5-4e2d-a410-9a66e3b796b4">
+               <id root="b9d42e13-6d0b-4407-9359-bd22ce7b1b72"/>
+               <code code="43685-7" codeSystem="2.16.840.1.113883.6.1" displayName="WARNINGS AND PRECAUTIONS SECTION"/>
+               <title>
+                  <content styleCode="bold">5 WARNINGS AND PRECAUTIONS</content>
+               </title>
+               <text/>
+               <effectiveTime value="20240322"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <list listType="unordered" styleCode="Disk">
+                           <item>Vascular risks: Stop LAYOLIS Fe if a thrombotic event occurs.  Stop at least 4 weeks before and through 2 weeks after major surgery.  Start no earlier than 4 weeks after delivery in women who are not breastfeeding. (<linkHtml href="#LINK_eb45eea1-149c-4a42-9b23-e02d56ccf5a3">5.1</linkHtml>)</item>
+                           <item>Liver disease: Discontinue if jaundice occurs. (<linkHtml href="#LINK_067ce5a7-84c4-4c6d-83e8-80a6c286153d">5.3</linkHtml>)</item>
+                           <item>High blood pressure: Do not prescribe for women with uncontrolled hypertension or hypertension with vascular disease. (<linkHtml href="#LINK_3fd7d91b-60e1-419b-a559-fa5a97a1b994">5.5</linkHtml>)</item>
+                           <item>Carbohydrate and lipid metabolic effects: Monitor prediabetic and diabetic women taking LAYOLIS Fe.  Consider an alternate contraceptive method for women with uncontrolled dyslipidemia. (<linkHtml href="#LINK_26956803-d6e0-477a-a207-62cd5c858c38">5.7</linkHtml>)</item>
+                           <item>Headache: Evaluate significant change in headaches and discontinue if indicated. (<linkHtml href="#LINK_53b5d49b-89ca-484e-8f78-29906c01af11">5.8</linkHtml>).</item>
+                           <item>Uterine bleeding: Evaluate irregular bleeding or amenorrhea. (<linkHtml href="#LINK_10020441-6c3a-4d10-b88d-2bb43d512e29">5.9</linkHtml>)</item>
+                        </list>
+                     </text>
+                  </highlight>
+               </excerpt>
+               <component>
+                  <section ID="LINK_eb45eea1-149c-4a42-9b23-e02d56ccf5a3">
+                     <id root="a3d8f975-472c-4cbd-866f-a8c33f13fce0"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>
+                        <content styleCode="bold">5.1 Thrombotic and Other Vascular Events</content>
+                     </title>
+                     <text>
+                        <paragraph>Stop LAYOLIS Fe if an arterial or deep venous thrombotic (VTE) event occurs. Although the use of COCs increases the risk of venous thromboembolism, pregnancy increases the risk of venous thromboembolism as much or more than the use of COCs. The risk of venous thromboembolism in women using COCs is 3 to 9 per 10,000 woman-years. The excess risk is highest during the first year of use of a COC.  Use of COCs also increases the risk of arterial thromboses such as strokes and myocardial infarctions, especially in women with other risk factors for these events.  The risk of thromboembolic disease due to oral contraceptives gradually disappears after COC use is discontinued.</paragraph>
+                        <paragraph>If feasible, stop LAYOLIS Fe at least 4 weeks before and through 2 weeks after major surgery or other surgeries known to have an elevated risk of thromboembolism. </paragraph>
+                        <paragraph>Start LAYOLIS Fe no earlier than 4 weeks after delivery, in women who are not breastfeeding. The risk of postpartum thromboembolism decreases after the third postpartum week, whereas the risk of ovulation increases after the third postpartum week.</paragraph>
+                        <paragraph>COCs have been shown to increase both the relative and attributable risks of cerebrovascular events (thrombotic and hemorrhagic strokes), although, in general, the risk is greatest among older (&gt; 35 years of age), hypertensive women who also smoke. COCs also increase the risk for stroke in women with other underlying risk factors.</paragraph>
+                        <paragraph>Oral contraceptives must be used with caution in women with cardiovascular disease risk factors.  </paragraph>
+                        <paragraph>Stop LAYOLIS Fe if there is unexplained loss of vision, proptosis, diplopia, papilledema, or retinal vascular lesions. Evaluate for retinal vein thrombosis immediately.</paragraph>
+                     </text>
+                     <effectiveTime value="20240322"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_2ac77a8d-7086-4cc9-8e70-cd93a3e5d2d9">
+                     <id root="5e7761d5-e6e9-404f-86e2-29c25f1d2dbf"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>
+                        <content styleCode="bold">5.2 </content>
+                        <content styleCode="bold">Malignant Neoplasms</content>
+                     </title>
+                     <text>
+                        <paragraph>
+                           <content styleCode="italics">Breast Cancer</content>
+                        </paragraph>
+                        <paragraph>LAYOLIS Fe is contraindicated in females who currently have or have had breast cancer because breast cancer may be hormonally sensitive <content styleCode="italics">[see Contraindications (</content>
+                           <content styleCode="italics">
+                              <linkHtml href="#LINK_5b0b832a-6e8a-4d08-bcda-3c648e8d7450">4</linkHtml>
+                           </content>
+                           <content styleCode="italics">)]</content>. </paragraph>
+                        <paragraph>Epidemiology studies have not found a consistent association between use of combined oral contraceptives (COCs) and breast cancer risk. Studies do not show an association between ever (current or past) use of COCs and risk of breast cancer. However, some studies report a small increase in the risk of breast cancer among current or recent users (&lt;6 months since last use) and current users with longer duration of COC use <content styleCode="italics">[see Adverse Reactions (</content>
+                           <content styleCode="italics">
+                              <linkHtml href="#LINK_2a13367a-3637-4279-9dcd-3c65dc43a4c0">6.2</linkHtml>
+                           </content>
+                           <content styleCode="italics">)].</content>
+                        </paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Cervical Cancer</content>
+                        </paragraph>
+                        <paragraph>Some studies suggest that COCs are associated with an increase in the risk of cervical cancer or intraepithelial neoplasia. However, there is controversy about the extent to which these findings may be due to differences in sexual behavior and other factors.</paragraph>
+                     </text>
+                     <effectiveTime value="20240322"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_067ce5a7-84c4-4c6d-83e8-80a6c286153d">
+                     <id root="3e5f93ae-c1e1-4e61-9d57-811a8d99e7d5"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>
+                        <content styleCode="bold">5.3 Liver Disease</content>
+                     </title>
+                     <text>
+                        <paragraph>Discontinue LAYOLIS Fe if jaundice develops. Steroid hormones may be poorly metabolized in patients with impaired liver function. Acute or chronic disturbances of liver function may necessitate the discontinuation of COC use until markers of liver function return to normal and COC causation has been excluded.</paragraph>
+                        <paragraph>Hepatic adenomas are associated with COC use. An estimate of the attributable risk is 3.3 cases/100,000 COC users.  Rupture of hepatic adenomas may cause death through intra-abdominal hemorrhage.</paragraph>
+                        <paragraph>Studies have shown an increased risk of developing hepatocellular carcinoma in long-term (&gt; 8 years) COC users.  However, the attributable risk of liver cancers in COC users is less than one case per million users. </paragraph>
+                        <paragraph>Oral contraceptive-related cholestasis may occur in women with a history of pregnancy-related cholestasis. Women with a history of COC-related cholestasis may have the condition recur with subsequent COC use.</paragraph>
+                     </text>
+                     <effectiveTime value="20240322"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_07ef3e18-6dea-4c80-90c4-299995836862">
+                     <id root="2b4053d4-6f49-4c4f-b28f-a3ce3033334e"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>
+                        <content styleCode="bold">5.4 </content>
+                        <content styleCode="bold">Risk of Liver Enzyme Elevations with Concomitant Hepatitis C Treatment</content>
+                     </title>
+                     <text>
+                        <paragraph>During clinical trials with Hepatitis C combination drug regimen that contains ombitasvir/paritaprevir/ritonavir, with or without dasabuvir, ALT elevations greater than 5 times the upper limit of normal (ULN), including some cases greater than 20 times the ULN, were significantly more frequent in women using ethinyl estradiol-containing medications, such as COCs.  Discontinue LAYOLIS Fe prior to starting therapy with the combination drug regimen ombitasvir/paritaprevir/ritonavir, with or without dasabuvir <content styleCode="italics">[see Contraindications (<linkHtml href="#LINK_5b0b832a-6e8a-4d08-bcda-3c648e8d7450">4</linkHtml>)]</content>.  LAYOLIS Fe can be restarted approximately 2 weeks following completion of treatment with the Hepatitis C combination drug regimen.</paragraph>
+                     </text>
+                     <effectiveTime value="20240322"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_3fd7d91b-60e1-419b-a559-fa5a97a1b994">
+                     <id root="999ec12f-d8a0-4409-bda1-def79c4f33e6"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>
+                        <content styleCode="bold">5.5 </content>
+                        <content styleCode="bold">High Blood Pressure</content>
+                     </title>
+                     <text>
+                        <paragraph>For women with well-controlled hypertension, monitor blood pressure and stop LAYOLIS Fe if blood pressure rises significantly.  Women with uncontrolled hypertension or hypertension with vascular disease should not use COCs.</paragraph>
+                        <paragraph>An increase in blood pressure has been reported in women taking COCs, and this increase is more likely in older women and with extended duration of use. The incidence of hypertension increases with increasing concentration of progestin.</paragraph>
+                     </text>
+                     <effectiveTime value="20240322"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_d6cd5e22-f99e-4a15-8927-f6b89bf3d1e7">
+                     <id root="a08695a2-7a73-4e1a-8e23-fc346470f012"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>
+                        <content styleCode="bold">5.</content>
+                        <content styleCode="bold">6</content>
+                        <content styleCode="bold"> Gallbladder Disease</content>
+                     </title>
+                     <text>
+                        <paragraph>Studies suggest the relative risk of developing gallbladder disease may be increased among COC users.</paragraph>
+                     </text>
+                     <effectiveTime value="20240322"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_26956803-d6e0-477a-a207-62cd5c858c38">
+                     <id root="02b6712a-e877-4aa3-8ffd-c2347a2a5891"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>
+                        <content styleCode="bold">5.</content>
+                        <content styleCode="bold">7</content>
+                        <content styleCode="bold"> Carbohydrate and Lipid Metabolic Effects</content>
+                     </title>
+                     <text>
+                        <paragraph>Carefully monitor prediabetic and diabetic women who are taking LAYOLIS Fe. COCs may decrease glucose tolerance in a dose-related fashion.  </paragraph>
+                        <paragraph>Consider alternative contraception for women with uncontrolled dyslipidemia. A small proportion of women will have adverse lipid changes while on COCs.</paragraph>
+                        <paragraph>Women with hypertriglyceridemia, or a family history thereof, may be at an increased risk of pancreatitis when using COCs.</paragraph>
+                     </text>
+                     <effectiveTime value="20240322"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_53b5d49b-89ca-484e-8f78-29906c01af11">
+                     <id root="3ee01149-931e-4b22-bd5b-9dd61c9b7c24"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>
+                        <content styleCode="bold">5.</content>
+                        <content styleCode="bold">8</content>
+                        <content styleCode="bold"> Headache</content>
+                     </title>
+                     <text>
+                        <paragraph>If a woman taking LAYOLIS Fe develops new headaches that are recurrent, persistent, or severe, evaluate the cause and discontinue LAYOLIS Fe if indicated.</paragraph>
+                        <paragraph>An increase in frequency or severity of migraine during COC use (which may be prodromal of a cerebrovascular event) may be a reason for immediate discontinuation of the COC. <content styleCode="italics"> </content>
+                        </paragraph>
+                     </text>
+                     <effectiveTime value="20240322"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_10020441-6c3a-4d10-b88d-2bb43d512e29">
+                     <id root="6610f65d-0cfc-44a2-a940-4367bcd000e5"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>
+                        <content styleCode="bold">5.</content>
+                        <content styleCode="bold">9</content>
+                        <content styleCode="bold"> Bleeding Irregularities</content>
+                     </title>
+                     <text>
+                        <paragraph>Unscheduled (breakthrough or intracyclic) bleeding and spotting sometimes occur in patients on COCs, especially during the first three months of use.  If bleeding persists or occurs after previously regular cycles, check for causes such as pregnancy or malignancy. If pathology and pregnancy are excluded, bleeding irregularities may resolve over time or with a change to a different COC.</paragraph>
+                        <paragraph>Patient diaries from the clinical trial of LAYOLIS Fe showed that on the first cycle of use, 37% of subjects taking LAYOLIS Fe had unscheduled bleeding and/or spotting.  From Cycle 2-13, the percent of women with unscheduled bleeding/spotting ranged from 21-31% per cycle. For those women with unscheduled bleeding/spotting, the mean number of days of unscheduled bleeding/spotting was 5.2 in the first cycle of use and ranged from 3.6 – 4.2 in cycles 2-13. A total of 15 subjects out of 1,677 (0.9%) discontinued the study prematurely due to metrorrhagia or irregular menstruation.</paragraph>
+                        <paragraph>Women who are not pregnant and use LAYOLIS Fe may not have scheduled (withdrawal) bleeding every cycle or may experience amenorrhea (absence of any bleeding and spotting). The incidence of amenorrhea in the clinical trial increased from 8.1% of the subjects in Cycle 2 to 18.4% by Cycle 13.  For those women who had scheduled (withdrawal) bleeding, the average duration of bleeding per cycle in Cycles 2-13 was 3.7 days.  </paragraph>
+                        <paragraph>If the patient has not adhered to the prescribed dosing schedule (missed one or more active tablets or started taking them on a day later than she should have), consider the possibility of pregnancy at the time of the first missed period and take appropriate diagnostic measures. If the patient has adhered to the prescribed regimen and misses two consecutive periods, rule out pregnancy. </paragraph>
+                        <paragraph>Some women may encounter amenorrhea or oligomenorrhea after stopping COCs, especially when such a condition was pre-existent.</paragraph>
+                     </text>
+                     <effectiveTime value="20240322"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_fab0b145-2cfa-48a2-a034-c1e9f01360e4">
+                     <id root="080fdba0-9c7b-4635-b3fb-39246ae133ad"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>
+                        <content styleCode="bold">5.</content>
+                        <content styleCode="bold">10</content>
+                        <content styleCode="bold"> COC Use Before or During Early Pregnancy</content>
+                     </title>
+                     <text>
+                        <paragraph>Extensive epidemiological studies have revealed no increased risk of birth defects in women who have used oral contraceptives prior to pregnancy. Studies also do not suggest a teratogenic effect, particularly in so far as cardiac anomalies and limb-reduction defects are concerned, when taken inadvertently during early pregnancy. LAYOLIS Fe use should be discontinued if pregnancy is confirmed.</paragraph>
+                        <paragraph>The administration of oral contraceptives to induce withdrawal bleeding should not be used as a test for pregnancy <content styleCode="italics">[see Use in Specific Populations (</content>
+                           <content styleCode="italics">
+                              <linkHtml href="#LINK_e168f0e4-0a33-47d6-ac8c-1dbae8701214">8.1</linkHtml>
+                           </content>
+                           <content styleCode="italics">)]</content>.</paragraph>
+                     </text>
+                     <effectiveTime value="20240322"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_4f8dca1b-7c18-4e88-adb0-68cd3c02478b">
+                     <id root="226fe833-e2bb-4c7f-8feb-24bbc8f76944"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>
+                        <content styleCode="bold">5.1</content>
+                        <content styleCode="bold">1</content>
+                        <content styleCode="bold"> Depression</content>
+                     </title>
+                     <text>
+                        <paragraph>Women with a history of depression should be carefully observed and LAYOLIS Fe discontinued if depression recurs to a serious degree.</paragraph>
+                     </text>
+                     <effectiveTime value="20240322"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_bb4baa46-e4cd-4aea-ada0-da9656b24a9e">
+                     <id root="204580b5-035f-4848-a2b5-2ec19fb6f028"/>
+                     <code code="34075-2" codeSystem="2.16.840.1.113883.6.1" displayName="LABORATORY TESTS SECTION"/>
+                     <title>
+                        <content styleCode="bold">5.1</content>
+                        <content styleCode="bold">2</content>
+                        <content styleCode="bold"> Interference with Laboratory Tests</content>
+                     </title>
+                     <text>
+                        <paragraph>The use of COCs may change the results of some laboratory tests, such as coagulation factors, lipids, glucose tolerance, and binding proteins. Women on thyroid hormone replacement therapy may need increased doses of thyroid hormone because serum concentrations of thyroid-binding globulin increase with use of COCs.</paragraph>
+                     </text>
+                     <effectiveTime value="20240322"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_663b9e11-5d47-4196-aba3-8f570f33954f">
+                     <id root="903d39c3-2291-463e-a58a-57c1760bf666"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>
+                        <content styleCode="bold">5.1</content>
+                        <content styleCode="bold">3</content>
+                        <content styleCode="bold"> Monitoring</content>
+                     </title>
+                     <text>
+                        <paragraph>A woman who is taking COCs should have a yearly visit with her healthcare provider for a blood pressure check and for other indicated healthcare.</paragraph>
+                     </text>
+                     <effectiveTime value="20240322"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_92641357-deba-4288-860c-87b02fe3bf3c">
+                     <id root="fbc30d01-d7f4-406c-affa-d5fed54f727f"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>
+                        <content styleCode="bold">5.1</content>
+                        <content styleCode="bold">4</content>
+                        <content styleCode="bold"> Other Conditions</content>
+                     </title>
+                     <text>
+                        <paragraph>In women with hereditary angioedema, exogenous estrogens may induce or exacerbate symptoms of angioedema.  Chloasma may occasionally occur, especially in women with a history of chloasma gravidarum. Women with a tendency to chloasma should avoid exposure to the sun or ultraviolet radiation while taking COCs.</paragraph>
+                     </text>
+                     <effectiveTime value="20240322"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_d9569d8c-e44c-46e3-a6a7-7d46ac328ef2">
+               <id root="553b25e9-5b26-40df-a120-b22874cfccc1"/>
+               <code code="34084-4" codeSystem="2.16.840.1.113883.6.1" displayName="ADVERSE REACTIONS SECTION"/>
+               <title>
+                  <content styleCode="bold">6 ADVERSE REACTIONS</content>
+               </title>
+               <text>
+                  <paragraph>The following serious adverse reactions with the use of COCs are discussed elsewhere in the labeling:</paragraph>
+                  <list listType="unordered" styleCode="Disk">
+                     <item>Serious cardiovascular events and smoking <content styleCode="italics">[see </content>
+                        <content styleCode="italics">
+                           <linkHtml href="#LINK_52a22547-67dc-4585-bba1-c024a56b180a">Boxed Warning</linkHtml>
+                        </content>
+                        <content styleCode="italics">,</content> and <content styleCode="italics">Warnings and Precautions (</content>
+                        <content styleCode="italics">
+                           <linkHtml href="#LINK_eb45eea1-149c-4a42-9b23-e02d56ccf5a3">5.1</linkHtml>
+                        </content>
+                        <content styleCode="italics">)]</content>
+                     </item>
+                     <item>Vascular events <content styleCode="italics">[see Warnings and Precautions (</content>
+                        <content styleCode="italics">
+                           <linkHtml href="#LINK_eb45eea1-149c-4a42-9b23-e02d56ccf5a3">5.1</linkHtml>
+                        </content>
+                        <content styleCode="italics">)]</content>
+                     </item>
+                     <item>Liver disease <content styleCode="italics">[see Warnings and Precautions (</content>
+                        <content styleCode="italics">
+                           <linkHtml href="#LINK_067ce5a7-84c4-4c6d-83e8-80a6c286153d">5.3</linkHtml>
+                        </content>
+                        <content styleCode="italics">)]</content>
+                     </item>
+                  </list>
+                  <paragraph>Adverse reactions commonly reported by COC users are:</paragraph>
+                  <list listType="unordered" styleCode="Disk">
+                     <item>Irregular uterine bleeding</item>
+                     <item>Nausea</item>
+                     <item>Breast tenderness</item>
+                     <item>Headache</item>
+                  </list>
+               </text>
+               <effectiveTime value="20240322"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <paragraph>The most common adverse reactions (≥ 2%) are nausea/vomiting (8.8%), headaches/migraine (7.5%), depression/mood complaints (4.1%), dysmenorrhea (3.9%), acne (3.2%), anxiety symptoms (2.4%), breast pain/tenderness (2.4%), and increased weight (2.3%). (<linkHtml href="#LINK_1a2255d5-25d4-486e-8160-3b459c649b26">6.1</linkHtml>)</paragraph>
+                        <paragraph>
+                           <content styleCode="bold">To report SUSPECTED ADVERSE REACTIONS, contact Actavis at 1-888-838-2872 or FDA at 1-800-FDA-1088 or www.fda.gov/medwatch.</content>
+                        </paragraph>
+                     </text>
+                  </highlight>
+               </excerpt>
+               <component>
+                  <section ID="LINK_1a2255d5-25d4-486e-8160-3b459c649b26">
+                     <id root="984ccf0f-8731-4ac6-9049-34108cdd5cff"/>
+                     <code code="90374-0" codeSystem="2.16.840.1.113883.6.1" displayName="CLINICAL TRIALS EXPERIENCE SECTION"/>
+                     <title>
+                        <content styleCode="bold">6.1 Clinical Trial Experience</content>
+                     </title>
+                     <text>
+                        <paragraph>Because clinical trials are conducted under widely varying conditions, adverse reaction rates observed in the clinical trials of a drug cannot be directly compared to rates in the clinical trials of another drug and may not reflect the rates observed in clinical practice.</paragraph>
+                        <paragraph>A phase 3 clinical trial evaluated the safety and efficacy of LAYOLIS Fe for pregnancy prevention.  The study was a multicenter, non-comparative, open-label study with a treatment duration of 12 months (thirteen 28-day cycles).  A total of 1,677 women aged 18-46 were enrolled and took at least one dose of LAYOLIS Fe.</paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Adverse Reactions Leading to Study Discontinuation:</content> 8.5% of the women discontinued from the clinical trial due to an adverse reaction. The most common adverse reactions leading to discontinuation were nausea (1.0%), weight increase (0.8%), acne (0.8%), metrorrhagia (0.7%), altered mood (0.4%), hypertension (0.4%), irritability (0.3%), migraine (0.3%), decreased libido (0.3%) and mood swings (0.3%).</paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Common Adverse Reactions (≥ 2% of all treated subjects):</content>  nausea/vomiting (8.8%), headaches/migraine (7.5%), depression/mood complaints (4.1%), dysmenorrhea (3.9%), acne (3.2%), anxiety symptoms (2.4%), breast pain/tenderness (2.4%), and increased weight (2.3%). </paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Serious Adverse Reactions:</content>  Hypertension, depression, cholecystitis, and deep vein thrombosis. </paragraph>
+                     </text>
+                     <effectiveTime value="20240322"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_2a13367a-3637-4279-9dcd-3c65dc43a4c0">
+                     <id root="72aa3d13-caf9-49bc-9bcf-6c13ecf8f974"/>
+                     <code code="90375-7" codeSystem="2.16.840.1.113883.6.1" displayName="POSTMARKETING EXPERIENCE SECTION"/>
+                     <title>
+                        <content styleCode="bold">6.</content>
+                        <content styleCode="bold">2</content>
+                        <content styleCode="bold"> </content>
+                        <content styleCode="bold">Postmarketing Experience</content>
+                     </title>
+                     <text>
+                        <paragraph>Five studies that compared breast cancer risk between ever-users (current or past use) of COCs and never-users of COCs reported no association between ever use of COCs and breast cancer risk, with effect estimates ranging from 0.90 - 1.12 (Figure 1). </paragraph>
+                        <paragraph>Three studies compared breast cancer risk between current or recent COC users (&lt;6 months since last use) and never users of COCs (Figure 1). One of these studies reported no association between breast cancer risk and COC use. The other two studies found an increased relative risk of 1.19 - 1.33 with current or recent use. Both of these studies found an increased risk of breast cancer with current use of longer duration, with relative risks ranging from 1.03 with less than one year of COC use to approximately 1.4 with more than 8-10 years of COC use.</paragraph>
+                        <paragraph>Figure 1.</paragraph>
+                        <renderMultiMedia referencedObject="MM1"/>
+                        <paragraph>RR = relative risk; OR = odds ratio; HR = hazard ratio. “ever COC” are females with current or past COC use; “never COC use” are females that never used COCs.</paragraph>
+                     </text>
+                     <effectiveTime value="20240322"/>
+                     <component>
+                        <observationMedia ID="MM1">
+                           <text>Figure 1</text>
+                           <value xsi:type="ED" mediaType="image/jpeg">
+                              <reference value="layolis-fe-n022573-1.jpg"/>
+                           </value>
+                        </observationMedia>
+                     </component>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_39dc00b2-b5e5-43a7-a17b-cbe965acc1ad">
+               <id root="0c4b0fff-513c-47ae-9b60-c68795fb3f5b"/>
+               <code code="34073-7" codeSystem="2.16.840.1.113883.6.1" displayName="DRUG INTERACTIONS SECTION"/>
+               <title>
+                  <content styleCode="bold">7 DRUG INTERACTIONS</content>
+               </title>
+               <text>
+                  <paragraph>No drug-drug interaction studies were conducted with LAYOLIS Fe.</paragraph>
+               </text>
+               <effectiveTime value="20240322"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <list listType="unordered" styleCode="Disk">
+                           <item>Drugs or herbal products that induce certain enzymes, including CYP3A4, may decrease the effectiveness of COCs or increase breakthrough bleeding. Counsel patients to use a back-up method or alternative method of contraception when enzyme inducers are used with COCs. (<linkHtml href="#LINK_3d5c6df7-52fe-4a3f-8edb-c38d5b0965dd">7.1</linkHtml>)</item>
+                        </list>
+                     </text>
+                  </highlight>
+               </excerpt>
+               <component>
+                  <section ID="LINK_3d5c6df7-52fe-4a3f-8edb-c38d5b0965dd">
+                     <id root="0851f75f-0f57-4b5f-b788-8c8740db8f74"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>
+                        <content styleCode="bold">7.1 Changes in Contraceptive Effectiveness Associated with Co-Administration of Other Products</content>
+                     </title>
+                     <text>
+                        <paragraph>If a woman on hormonal contraceptives takes a drug or herbal product that induces enzymes, including CYP3A4, that metabolize contraceptive hormones, counsel her to use additional contraception or a different method of contraception.  Drugs or herbal products that induce such enzymes may decrease the plasma concentrations of contraceptive hormones, and may decrease the effectiveness of hormonal contraceptives or increase breakthrough bleeding.  Some drugs or herbal products that may decrease the effectiveness of hormonal contraceptives include: </paragraph>
+                        <list listType="unordered" styleCode="Disk">
+                           <item>barbiturates<br/>
+                           </item>
+                           <item>bosentan<br/>
+                           </item>
+                           <item>carbamazepine<br/>
+                           </item>
+                           <item>felbamate<br/>
+                           </item>
+                           <item>griseofulvin<br/>
+                           </item>
+                           <item>oxcarbazepine<br/>
+                           </item>
+                           <item>phenytoin<br/>
+                           </item>
+                           <item>rifampin<br/>
+                           </item>
+                           <item>St. John’s wort<br/>
+                           </item>
+                           <item>topiramate</item>
+                        </list>
+                        <paragraph>HIV protease inhibitors and non-nucleoside reverse transcriptase inhibitors:  Significant changes (increase or decrease) in the plasma levels of the estrogen and progestin have been noted in some cases of co-administration of HIV protease inhibitors or with non-nucleoside reverse transcriptase inhibitors.  </paragraph>
+                        <paragraph>Antibiotics:  There have been reports of pregnancy while taking hormonal contraceptives and antibiotics, but clinical pharmacokinetic studies have not shown consistent effects of antibiotics on plasma concentrations of synthetic steroids.   </paragraph>
+                        <paragraph>Consult the labeling of all concurrently-used drugs to obtain further information about interactions with hormonal contraceptives or the potential for enzyme alterations.</paragraph>
+                     </text>
+                     <effectiveTime value="20240322"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_55cbcadb-7088-4ba0-96e5-d13eca975f0a">
+                     <id root="fc6e77bf-a521-4859-9a03-84525d0f421b"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>
+                        <content styleCode="bold">7.2 Increase in Plasma Levels of Ethinyl Estradiol Associated with Co-Administered Drugs</content>
+                     </title>
+                     <text>
+                        <paragraph>Co-administration of atorvastatin and certain combination oral contraceptives containing ethinyl estradiol increase AUC values for ethinyl estradiol by approximately 20%. Ascorbic acid and acetaminophen may increase plasma ethinyl estradiol levels, possibly by inhibition of conjugation. CYP3A4 inhibitors such as itraconazole or ketoconazole may increase plasma hormone levels.</paragraph>
+                     </text>
+                     <effectiveTime value="20240322"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_c8e037bd-3cf3-48bb-b0e2-610108667112">
+                     <id root="30e4c07d-30a6-45ce-85d3-e3b28f609599"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>
+                        <content styleCode="bold">7.3 </content>
+                        <content styleCode="bold">Concomitant Use with HCV Combination Therapy – Liver Enzyme Elevation</content>
+                     </title>
+                     <text>
+                        <paragraph>Do not co-administer LAYOLIS Fe with HCV drug combinations containing ombitasvir/paritaprevir/ritonavir, with or without dasabuvir, due to potential for ALT elevations <content styleCode="italics">[see </content>
+                           <content styleCode="italics">Warnings and Precautions (</content>
+                           <content styleCode="italics">
+                              <linkHtml href="#LINK_07ef3e18-6dea-4c80-90c4-299995836862">5.4</linkHtml>
+                           </content>
+                           <content styleCode="italics">)]</content>.</paragraph>
+                     </text>
+                     <effectiveTime value="20240322"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_ddf8ad0f-be55-4ac3-b266-e6c79318c31f">
+                     <id root="2e5522e9-5053-4cd9-88c9-4c0c7d058971"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>
+                        <content styleCode="bold">7.4 </content>
+                        <content styleCode="bold">Changes in Plasma Levels of Co-Administered Drugs</content>
+                     </title>
+                     <text>
+                        <paragraph>COCs containing some synthetic estrogens (e.g., ethinyl estradiol) may inhibit the metabolism of other compounds.  COCs have been shown to significantly decrease plasma concentrations of lamotrigine, likely due to induction of lamotrigine glucuronidation.  This may reduce seizure control; therefore, dosage adjustments of lamotrigine may be necessary.  Consult the labeling of the concurrently-used drug to obtain further information about interactions with COCs or the potential for enzyme alterations.</paragraph>
+                     </text>
+                     <effectiveTime value="20240322"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_c4048555-e0b2-465d-bc59-07ca3ad16b4e">
+               <id root="c34b48b6-8281-4794-8d4d-cebc32417ec4"/>
+               <code code="43684-0" codeSystem="2.16.840.1.113883.6.1" displayName="USE IN SPECIFIC POPULATIONS SECTION"/>
+               <title>
+                  <content styleCode="bold">8 USE IN SPECIFIC POPULATIONS</content>
+               </title>
+               <text/>
+               <effectiveTime value="20240322"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <list listType="unordered" styleCode="Disk">
+                           <item>Lactation: Not recommended, LAYOLIS Fe can decrease milk production. (<linkHtml href="#LINK_33c12dc1-6e48-4a69-baba-982df56e202d">8.2</linkHtml>)</item>
+                        </list>
+                     </text>
+                  </highlight>
+               </excerpt>
+               <component>
+                  <section ID="LINK_e168f0e4-0a33-47d6-ac8c-1dbae8701214">
+                     <id root="58f38710-19d6-4784-9484-3aa8dc352c90"/>
+                     <code code="42228-7" codeSystem="2.16.840.1.113883.6.1" displayName="PREGNANCY SECTION"/>
+                     <title>
+                        <content styleCode="bold">8.1 Pregnancy</content>
+                     </title>
+                     <text>
+                        <paragraph>
+                           <content styleCode="underline">Risk Summary</content>
+                        </paragraph>
+                        <paragraph>There is no use for contraception in pregnancy; therefore, LAYOLIS Fe should be discontinued during pregnancy. Epidemiologic studies and meta-analyses have not found an increased risk of genital or nongenital birth defects (including cardiac anomalies and limb-reduction defects) following exposure to COCs before conception or during early pregnancy. </paragraph>
+                        <paragraph>In the U.S. general population, the estimated background risk of major birth defects and miscarriage in clinically recognized pregnancies is 2 to 4 percent and 15 to 20 percent, respectively.</paragraph>
+                     </text>
+                     <effectiveTime value="20240322"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_33c12dc1-6e48-4a69-baba-982df56e202d">
+                     <id root="4ff237c9-ebb2-454e-abff-74e63f98b443"/>
+                     <code code="77290-5" codeSystem="2.16.840.1.113883.6.1" displayName="LACTATION SECTION"/>
+                     <title>
+                        <content styleCode="bold">8.2 Lactation</content>
+                     </title>
+                     <text>
+                        <paragraph>
+                           <content styleCode="underline">Risk Summary</content>
+                        </paragraph>
+                        <paragraph>Contraceptive hormones and/or metabolites are present in human milk. COCs can reduce milk production in breast-feeding females. This reduction can occur at any time but is less likely to occur once breast-feeding is well-established. When possible, advise the nursing female to use other methods of contraception until she discontinues breast-feeding <content styleCode="italics">[see Dosage and Administration (2.2)]</content>. The developmental and health benefits of breast-feeding should be considered along with the mother’s clinical need for LAYOLIS Fe and any potential adverse effects on the breast-fed child from LAYOLIS Fe or from the underlying maternal condition.</paragraph>
+                     </text>
+                     <effectiveTime value="20240322"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_41ae24c3-c0f3-4704-a6e3-22de82b1c47f">
+                     <id root="c954344a-deea-4dfe-8b9e-7cf04b21dfea"/>
+                     <code code="34081-0" codeSystem="2.16.840.1.113883.6.1" displayName="PEDIATRIC USE SECTION"/>
+                     <title>
+                        <content styleCode="bold">8.4 Pediatric Use</content>
+                     </title>
+                     <text>
+                        <paragraph>Safety and efficacy of LAYOLIS Fe have been established in women of reproductive age. Efficacy is expected to be the same in postpubertal adolescents under the age of 18 years as for users 18 years and older. Use of this product before menarche is not indicated.  <content styleCode="italics"> </content>
+                        </paragraph>
+                     </text>
+                     <effectiveTime value="20240322"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_ff207082-8d94-4e1d-8dbb-2e214737b1bd">
+                     <id root="71600d47-f47e-4656-9cec-4344ce61eae0"/>
+                     <code code="34082-8" codeSystem="2.16.840.1.113883.6.1" displayName="GERIATRIC USE SECTION"/>
+                     <title>
+                        <content styleCode="bold">8.5 Geriatric Use</content>
+                     </title>
+                     <text>
+                        <paragraph>LAYOLIS Fe has not been studied in postmenopausal women and is not indicated in this population.  <content styleCode="italics"> </content>
+                        </paragraph>
+                     </text>
+                     <effectiveTime value="20240322"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_1ff60295-66be-4d44-abf0-5aef18622ef9">
+                     <id root="d41b63fb-0677-40ce-b45b-2564c9887e1f"/>
+                     <code code="88828-9" codeSystem="2.16.840.1.113883.6.1" displayName="RENAL IMPAIRMENT SUBSECTION"/>
+                     <title>
+                        <content styleCode="bold">8.6 Renal Impairment</content>
+                     </title>
+                     <text>
+                        <paragraph>The pharmacokinetics of LAYOLIS Fe have not been studied in subjects with renal impairment. </paragraph>
+                     </text>
+                     <effectiveTime value="20240322"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_d02722e3-1cef-4bd2-ac06-72dd994a401c">
+                     <id root="ae4414b9-3610-4e05-8917-f7ae1352526a"/>
+                     <code code="88829-7" codeSystem="2.16.840.1.113883.6.1" displayName="HEPATIC IMPAIRMENT SUBSECTION"/>
+                     <title>
+                        <content styleCode="bold">8.7 Hepatic Impairment</content>
+                     </title>
+                     <text>
+                        <paragraph>No studies have been conducted to evaluate the effect of hepatic disease on the disposition of LAYOLIS Fe. However, steroid hormones may be poorly metabolized in patients with impaired liver function. Acute or chronic disturbances of liver function may necessitate the discontinuation of COC use until markers of liver function return to normal <content styleCode="italics">[see Contraindications (</content>
+                           <content styleCode="italics">
+                              <linkHtml href="#LINK_5b0b832a-6e8a-4d08-bcda-3c648e8d7450">4</linkHtml>
+                           </content>
+                           <content styleCode="italics">),</content> and <content styleCode="italics">Warnings and Precautions (</content>
+                           <content styleCode="italics">
+                              <linkHtml href="#LINK_067ce5a7-84c4-4c6d-83e8-80a6c286153d">5.3</linkHtml>
+                           </content>
+                           <content styleCode="italics">)].</content>
+                        </paragraph>
+                     </text>
+                     <effectiveTime value="20240322"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_3ce85b54-36f3-4f74-9d50-6bb73dee2b73">
+                     <id root="e499eed7-3a9c-42ed-81e0-abc779ccf103"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>
+                        <content styleCode="bold">8.8 Body Mass Index</content>
+                     </title>
+                     <text>
+                        <paragraph>The safety and efficacy of LAYOLIS Fe in women with a BMI &gt; 35 kg/m<sup>2</sup> have not been evaluated.  <content styleCode="italics"> </content>
+                        </paragraph>
+                     </text>
+                     <effectiveTime value="20240322"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_7fe655a2-0da0-47fd-90ae-f6c139d86172">
+               <id root="d64cc4d5-47de-4cdf-899c-fa40fbba5ead"/>
+               <code code="34088-5" codeSystem="2.16.840.1.113883.6.1" displayName="OVERDOSAGE SECTION"/>
+               <title>
+                  <content styleCode="bold">10 OVERDOSAGE</content>
+               </title>
+               <text>
+                  <paragraph>There have been no reports of serious ill effects from overdose of oral contraceptives including ingestion by children.  Overdosage may cause nausea, and withdrawal bleeding may occur in females.</paragraph>
+               </text>
+               <effectiveTime value="20240322"/>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_474d93f5-e127-41bd-9b0b-b53998e40855">
+               <id root="c928988c-3da7-4b69-aeb4-801961864d49"/>
+               <code code="34089-3" codeSystem="2.16.840.1.113883.6.1" displayName="DESCRIPTION SECTION"/>
+               <title>
+                  <content styleCode="bold">11 DESCRIPTION</content>
+               </title>
+               <text>
+                  <paragraph>LAYOLIS Fe provides an oral contraceptive regimen consisting of 24 tablets that contain the active ingredients specified below, followed by four non-hormonal placebo tablets:</paragraph>
+                  <list listType="unordered" styleCode="Disk">
+                     <item>24 light green, round tablets each containing 0.8 mg norethindrone and 0.025 mg ethinyl estradiol</item>
+                     <item>4 brown, round tablets each containing 75 mg ferrous fumarate</item>
+                  </list>
+                  <paragraph>Each light green tablet also contains the following inactive ingredients: D&amp;C Yellow No. 10 aluminum lake, FD&amp;C Blue No. 1 aluminum lake, FD&amp;C Yellow No. 6 aluminum lake, lactose monohydrate, magnesium stearate, mannitol, microcrystalline cellulose, povidone, sodium starch glycolate, spearmint flavor, sucralose and vitamin E.</paragraph>
+                  <paragraph>Each brown, round tablet contains ferrous fumarate, magnesium stearate, mannitol, microcrystalline cellulose, povidone, sodium starch glycolate, spearmint flavor and sucralose. The ferrous fumarate chewable tablets do not serve any therapeutic purpose. Ferrous fumarate chewable tablets are not USP for dissolution and assay.</paragraph>
+                  <paragraph>The empirical formula of ethinyl estradiol is C<sub>20</sub>H<sub>24</sub>O<sub>2 </sub>and the chemical structure is:</paragraph>
+                  <renderMultiMedia referencedObject="MM2"/>
+                  <paragraph>The chemical name of ethinyl estradiol is [19-Norpregna-1,3,5(10)-trien-20-yne-3,17-diol,(17α)-]</paragraph>
+                  <paragraph>The empirical formula of norethindrone is C<sub>20</sub>H<sub>26</sub>O<sub>2 </sub>and the chemical structure is:</paragraph>
+                  <renderMultiMedia referencedObject="MM3"/>
+                  <paragraph>The chemical name of norethindrone is [17-hydroxy-19-nor-17α-pregn-4-en-20-yn-3-one]</paragraph>
+               </text>
+               <effectiveTime value="20240322"/>
+               <component>
+                  <observationMedia ID="MM2">
+                     <text>Chemical structure of ethinyl estradiol.</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="layolis-fe-n022573-2.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="MM3">
+                     <text>Chemical structure for norethindrone.</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="layolis-fe-n022573-3.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_7d8f1f76-cfe6-4ef3-a519-86e87263eaaf">
+               <id root="79ea26e6-bd76-4ef4-aa66-ab597104faa5"/>
+               <code code="34090-1" codeSystem="2.16.840.1.113883.6.1" displayName="CLINICAL PHARMACOLOGY SECTION"/>
+               <title>
+                  <content styleCode="bold">12 CLINICAL PHARMACOLOGY</content>
+               </title>
+               <text/>
+               <effectiveTime value="20240322"/>
+               <component>
+                  <section ID="LINK_02fb7570-566a-4475-acd1-af65f0758009">
+                     <id root="9bfeecfb-9913-4e5d-a8cd-87edb674395e"/>
+                     <code code="43679-0" codeSystem="2.16.840.1.113883.6.1" displayName="MECHANISM OF ACTION SECTION"/>
+                     <title>
+                        <content styleCode="bold">12.1 Mechanism of Action</content>
+                     </title>
+                     <text>
+                        <paragraph>CHCs lower the risk of becoming pregnant primarily by suppressing ovulation. </paragraph>
+                     </text>
+                     <effectiveTime value="20240322"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_97088f87-ca19-496b-b05b-3ad7e08af670">
+                     <id root="174fe0f4-d583-4a9d-b614-02c5196ddd9f"/>
+                     <code code="43681-6" codeSystem="2.16.840.1.113883.6.1" displayName="PHARMACODYNAMICS SECTION"/>
+                     <title>
+                        <content styleCode="bold">12.2 Pharmacodynamics</content>
+                     </title>
+                     <text>
+                        <paragraph>No specific pharmacodynamic studies were conducted with LAYOLIS Fe.</paragraph>
+                     </text>
+                     <effectiveTime value="20240322"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_cdd54ca7-e422-4be8-a062-221bb9adc728">
+                     <id root="0ccc56cb-1b82-4d28-ae67-59fbc071f3de"/>
+                     <code code="43682-4" codeSystem="2.16.840.1.113883.6.1" displayName="PHARMACOKINETICS SECTION"/>
+                     <title>
+                        <content styleCode="bold">12.3 Pharmacokinetics</content>
+                     </title>
+                     <text>
+                        <paragraph>
+                           <content styleCode="italics">Absorption</content>
+                        </paragraph>
+                        <paragraph>Norethindrone and ethinyl estradiol are absorbed with maximum plasma concentrations occurring within 2 hours after LAYOLIS Fe administration (see Table 1). Both are subject to first-pass metabolism after oral dosing, resulting in an absolute bioavailability of approximately 64% for norethindrone and 43% for ethinyl estradiol. </paragraph>
+                        <paragraph>The plasma norethindrone and ethinyl estradiol pharmacokinetics following single- and multiple-dose administrations of LAYOLIS Fe in 17 healthy female volunteers are provided in Table 1.  </paragraph>
+                        <paragraph>Following multiple-dose administration of LAYOLIS Fe, mean maximum concentrations of norethindrone and ethinyl estradiol were increased by 126% and 14%, respectively, as compared to single-dose administration. Mean norethindrone and ethinyl estradiol exposures (AUC values) were increased by 239% and 55% respectively, as compared to single-dose administration of LAYOLIS Fe. </paragraph>
+                        <paragraph>Mean sex hormone binding globulin (SHBG) concentrations were increased by 170% from baseline (40.0 pg/mL; CV = 65%) to 108 pg/mL (CV = 45%) at steady-state.</paragraph>
+                        <table>
+                           <caption> Table 1. Pharmacokinetic Parameter Values Following Single and Multiple Dose Administration of LAYOLIS Fe</caption>
+                           <col/>
+                           <col/>
+                           <col/>
+                           <col/>
+                           <col/>
+                           <col/>
+                           <tbody>
+                              <tr>
+                                 <td align="center" styleCode=" Toprule Lrule Rrule">  </td>
+                                 <td align="center" colspan="5" styleCode=" Toprule Lrule Rrule"> <content styleCode="bold">Arithmetic mean parameters (%CV)</content>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td align="center" styleCode=" Toprule Lrule Rrule">
+                                    <content styleCode="bold">Regimen</content> </td>
+                                 <td align="center" styleCode=" Toprule Lrule Rrule">
+                                    <content styleCode="bold">Analyte</content>
+                                 </td>
+                                 <td align="center" styleCode=" Toprule Lrule Rrule"> <content styleCode="bold">C</content>
+                                    <content styleCode="bold">
+                                       <sub>max</sub>
+                                    </content>
+                                 </td>
+                                 <td align="center" styleCode=" Toprule Lrule Rrule"> <content styleCode="bold"> t</content>
+                                    <content styleCode="bold">
+                                       <sub>max</sub>
+                                    </content>
+                                 </td>
+                                 <td align="center" styleCode=" Toprule Lrule Rrule">
+                                    <content styleCode="bold">AUC</content>
+                                    <content styleCode="bold">
+                                       <sub>0 - 24h</sub>
+                                    </content> </td>
+                                 <td align="center" styleCode=" Toprule Lrule Rrule"> <content styleCode="bold">t</content>
+                                    <content styleCode="bold">
+                                       <sub>1/2</sub>
+                                    </content>
+                                    <content styleCode="bold">*</content> </td>
+                              </tr>
+                              <tr>
+                                 <td align="center" styleCode=" Toprule Lrule Rrule">Day 1<br/>
+            (Single Dose) <br/>
+            N = 17</td>
+                                 <td align="center" styleCode=" Toprule Lrule Rrule">NE</td>
+                                 <td align="center" styleCode=" Toprule Lrule Rrule"> 9,840<br/>
+            (36)</td>
+                                 <td align="center" styleCode=" Toprule Lrule Rrule"> 1.4<br/>
+            (49)</td>
+                                 <td align="center" styleCode=" Toprule Lrule Rrule">41,680<br/>
+            (47)</td>
+                                 <td align="center" styleCode=" Toprule Lrule Rrule"> </td>
+                              </tr>
+                              <tr>
+                                 <td styleCode=" Lrule Rrule"/>
+                                 <td align="center" styleCode=" Toprule Lrule Rrule">EE</td>
+                                 <td align="center" styleCode=" Toprule Lrule Rrule">147<br/>
+            (25)</td>
+                                 <td align="center" styleCode=" Toprule Lrule Rrule">1.2<br/>
+            (27)</td>
+                                 <td align="center" styleCode=" Toprule Lrule Rrule">903<br/>
+            (18)</td>
+                                 <td align="center" styleCode=" Toprule Lrule Rrule"/>
+                              </tr>
+                              <tr>
+                                 <td align="center" styleCode=" Toprule Lrule Rrule">Day 24<br/>
+            (Multiple Dose) <br/>
+            N = 17</td>
+                                 <td align="center" styleCode=" Toprule Lrule Rrule">NE</td>
+                                 <td align="center" styleCode=" Toprule Lrule Rrule"> 22,200 <br/>
+            (30)</td>
+                                 <td align="center" styleCode=" Toprule Lrule Rrule">1.6 <br/>
+            (76)</td>
+                                 <td align="center" styleCode=" Toprule Lrule Rrule">141,200 <br/>
+            (32)</td>
+                                 <td align="center" styleCode=" Toprule Lrule Rrule">10.8</td>
+                              </tr>
+                              <tr>
+                                 <td styleCode=" Lrule Rrule"/>
+                                 <td align="center" styleCode=" Toprule Lrule Rrule">EE</td>
+                                 <td align="center" styleCode=" Toprule Lrule Rrule">168<br/>
+            (25)</td>
+                                 <td align="center" styleCode=" Toprule Lrule Rrule">1.2<br/>
+            (35)</td>
+                                 <td align="center" styleCode=" Toprule Lrule Rrule">1,400<br/>
+            (32)</td>
+                                 <td align="center" styleCode=" Toprule Lrule Rrule">17.1</td>
+                              </tr>
+                           </tbody>
+                        </table>
+                        <paragraph>*The harmonic mean for t<sub>1/2</sub> is presented</paragraph>
+                        <paragraph>EE = ethinyl estradiol; NE = norethindrone <br/>
+%CV = coefficient of variation; C<sub>max</sub> = maximum plasma concentration (pg/mL); <br/>
+t<sub>max</sub> = time of the maximum measured plasma concentration (h); <br/>
+AUC<sub>0-24h</sub> = area under the plasma concentration versus time curve from time 0 to 24h (pg•h/mL); t<sub>1/2</sub> = apparent elimination half life (h)</paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Food Effect</content>
+                        </paragraph>
+                        <paragraph>LAYOLIS Fe may be administered with or without food. A single-dose administration of LAYOLIS Fe with food decreased the maximum concentration of norethindrone by 47% and increased the extent of absorption by 10-14% and decreased the maximum concentration of ethinyl estradiol by 39% but not the extent of absorption.</paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Distribution</content>
+                        </paragraph>
+                        <paragraph>Volume of distribution of norethindrone and ethinyl estradiol ranges from 2 to 4 L/kg. Plasma protein binding of both steroids is extensive (&gt; 95%); norethindrone binds to both albumin and SHBG, whereas ethinyl estradiol binds only to albumin. Although ethinyl estradiol does not bind to SHBG, it induces SHBG synthesis.   </paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Metabolism</content>
+                        </paragraph>
+                        <paragraph>Norethindrone undergoes extensive biotransformation, primarily via reduction, followed by sulfate and glucuronide conjugation. The majority of metabolites in the circulation are sulfates, with glucuronides accounting for most of the urinary metabolites. A small amount of norethindrone is metabolically converted to ethinyl estradiol, such that exposure to ethinyl estradiol following administration of 1 mg of norethindrone acetate is equivalent to oral administration of 2.8 mcg ethinyl estradiol; therefore 0.8 mg norethindrone would be equivalent to the oral administration of 2.6 mcg ethinyl estradiol. </paragraph>
+                        <paragraph>Ethinyl estradiol is also extensively metabolized, both by oxidation and by conjugation with sulfate and glucuronide. Sulfates are the major circulating conjugates of ethinyl estradiol and glucuronides predominate in urine. The primary oxidative metabolite is 2-hydroxy ethinyl estradiol, formed by the CYP3A4 isoform of cytochrome P450. Part of the first-pass metabolism of ethinyl estradiol is believed to occur in gastrointestinal mucosa. Ethinyl estradiol may undergo enterohepatic circulation. </paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Excretion</content>
+                        </paragraph>
+                        <paragraph>Norethindrone and ethinyl estradiol are excreted in both urine and feces, primarily as metabolites. Plasma clearance values for norethindrone and ethinyl estradiol are similar (approximately 0.4 L/hr/kg). Elimination half-lives of norethindrone and ethinyl estradiol following administration of 0.8 mg norethindrone / 0.025 mcg ethinyl estradiol tablets are approximately 11 hours and 17 hours, respectively.</paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Specific Populations</content>
+                        </paragraph>
+                        <paragraph>Pediatric Use: Safety and efficacy of LAYOLIS Fe have been established in women of reproductive age. Efficacy is expected to be the same for postpubertal adolescents under the age of 18 and for users 18 years and older. Use of this product before menarche is not indicated.  <content styleCode="italics"> </content>
+                        </paragraph>
+                        <paragraph>Geriatric Use:  LAYOLIS Fe has not been studied in postmenopausal women and is not indicated in this population. <content styleCode="italics"> </content>
+                        </paragraph>
+                        <paragraph>Renal Impairment: The pharmacokinetics of LAYOLIS Fe have not been studied in subjects with renal impairment. <content styleCode="italics"> </content>
+                        </paragraph>
+                        <paragraph>Hepatic Impairment: The pharmacokinetics of LAYOLIS Fe have not been studied in subjects with hepatic impairment. Steroid hormones may be poorly metabolized in patients with impaired liver function. Acute or chronic disturbances of liver function may necessitate the discontinuation of COC use until markers of liver function return to normal <content styleCode="italics">[see Contraindications (</content>
+                           <content styleCode="italics">
+                              <linkHtml href="#LINK_5b0b832a-6e8a-4d08-bcda-3c648e8d7450">4</linkHtml>
+                           </content>
+                           <content styleCode="italics">),</content> and <content styleCode="italics">Warnings and Precautions (</content>
+                           <content styleCode="italics">
+                              <linkHtml href="#LINK_067ce5a7-84c4-4c6d-83e8-80a6c286153d">5.3</linkHtml>
+                           </content>
+                           <content styleCode="italics">)].</content>
+                        </paragraph>
+                        <paragraph>Body Mass Index: The efficacy of LAYOLIS Fe in women with a BMI of &gt; 35 kg/m<sup>2</sup> has not been evaluated. <content styleCode="italics"> </content>
+                        </paragraph>
+                     </text>
+                     <effectiveTime value="20240322"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_dc3e4c9c-b64c-479b-9a6e-fc976cc8a87f">
+               <id root="3f8e1725-9bc4-4f52-b375-0375499adeda"/>
+               <code code="43680-8" codeSystem="2.16.840.1.113883.6.1" displayName="NONCLINICAL TOXICOLOGY SECTION"/>
+               <title>
+                  <content styleCode="bold">13 NONCLINICAL TOXICOLOGY</content>
+               </title>
+               <text/>
+               <effectiveTime value="20240322"/>
+               <component>
+                  <section ID="LINK_d2bd42ea-2ac5-42e3-a46d-c77eefde0213">
+                     <id root="8b9cf956-1eda-4775-948e-e80c9c93e716"/>
+                     <code code="34083-6" codeSystem="2.16.840.1.113883.6.1" displayName="CARCINOGENESIS &amp; MUTAGENESIS &amp; IMPAIRMENT OF FERTILITY SECTION"/>
+                     <title>
+                        <content styleCode="bold">13.1 </content>
+                        <content styleCode="bold">Carcinogenesis</content>
+                        <content styleCode="bold">, Mutagenesis, Impairment of Fertility</content>
+                     </title>
+                     <text>
+                        <paragraph>
+                           <content styleCode="italics">[See Warnings and Precautions (</content>
+                           <content styleCode="italics">
+                              <linkHtml href="#LINK_2ac77a8d-7086-4cc9-8e70-cd93a3e5d2d9">5.2</linkHtml>
+                           </content>
+                           <content styleCode="italics">, </content>
+                           <content styleCode="italics">
+                              <linkHtml href="#LINK_067ce5a7-84c4-4c6d-83e8-80a6c286153d">5.3</linkHtml>
+                           </content>
+                           <content styleCode="italics">)]</content>
+                           <content styleCode="italics">.</content>
+                        </paragraph>
+                     </text>
+                     <effectiveTime value="20240322"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_0c5679e4-024a-438e-92ac-1e10ca86c9de">
+               <id root="75c84a30-aaa5-4b43-a638-aa1dae6298e0"/>
+               <code code="34092-7" codeSystem="2.16.840.1.113883.6.1" displayName="CLINICAL STUDIES SECTION"/>
+               <title>
+                  <content styleCode="bold">14 CLINICAL STUDIES</content>
+               </title>
+               <text/>
+               <effectiveTime value="20240322"/>
+               <component>
+                  <section ID="LINK_3f5d68de-98ae-45ff-b94b-3834da70fc38">
+                     <id root="7a30035c-9f00-4923-80c8-da49d3a239d7"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>
+                        <content styleCode="bold">14.1 Oral Contraceptive Clinical Trial</content>
+                     </title>
+                     <text>
+                        <paragraph>In a one-year (thirteen 28-day cycles) multicenter, open-label clinical trial, 1,677 women 18 to 46 years of age were studied to assess the safety and efficacy of LAYOLIS Fe. The ethnic origin of the 1,570 treated subjects who were evaluable for efficacy was: Caucasian (72.0%), African-American (13.0%), Hispanic (11.2%) and Asian (1.8%). The weight range was 74 to 243 pounds with a mean weight of 148.8 pounds. Of treated women, 16.2% were lost to follow-up, 8.9% discontinued by withdrawing their consent and 8.5% discontinued due to an adverse event.</paragraph>
+                        <paragraph>The pregnancy rate (Pearl Index) in 1,251 women 18 to 35 years of age was 2.01 (95% confidence interval 1.21, 3.14) pregnancies per 100 women-years of treatment based on 19 pregnancies that occurred after onset of treatment and within 7 days after the last pill in 12,297 cycles of treatment during which no back-up contraception was used. </paragraph>
+                     </text>
+                     <effectiveTime value="20240322"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_c51ac593-e51f-4362-9fae-3a8665b7b08a">
+               <id root="9bb4119b-e521-4374-a82e-6bd8d5645300"/>
+               <code code="34069-5" codeSystem="2.16.840.1.113883.6.1" displayName="HOW SUPPLIED SECTION"/>
+               <title>
+                  <content styleCode="bold">16 HOW SUPPLIED/STORAGE AND HANDLING</content>
+               </title>
+               <text/>
+               <effectiveTime value="20240322"/>
+               <component>
+                  <section ID="LINK_a01836a2-13f2-427e-a1c5-6fa84c6cd236">
+                     <id root="3650eb12-6812-4901-9a38-a0d1dc962ee5"/>
+                     <code code="34069-5" codeSystem="2.16.840.1.113883.6.1" displayName="HOW SUPPLIED SECTION"/>
+                     <title>
+                        <content styleCode="bold">16.1 How Supplied</content>
+                     </title>
+                     <text>
+                        <paragraph>LAYOLIS Fe<sup>®</sup> is available in cartons of 3 blister cards (dispensers) (NDC 52544-064-31).</paragraph>
+                        <paragraph>Each blister card (28 tablets) contains in the following order:</paragraph>
+                        <list listType="unordered" styleCode="Disk">
+                           <item>24 light green, round tablets (active) imprinted with “WC” on one side and “483” on the other and each containing 0.8 mg norethindrone and 0.025 mg ethinyl estradiol.</item>
+                           <item>4 brown, round tablets (non-hormonal placebo) imprinted with “WC” on one side and “624” on the other and each containing 75 mg ferrous fumarate.</item>
+                        </list>
+                     </text>
+                     <effectiveTime value="20240322"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_40a65483-1bd6-43c5-b339-a2abd50c5f2c">
+                     <id root="22ee7a41-bd1a-496e-a477-beed16ab7267"/>
+                     <code code="44425-7" codeSystem="2.16.840.1.113883.6.1" displayName="STORAGE AND HANDLING SECTION"/>
+                     <title>
+                        <content styleCode="bold">16.2 Storage Conditions</content>
+                     </title>
+                     <text>
+                        <paragraph>Store at  20-25ºC (68-77ºF). [See USP controlled room temperature.]</paragraph>
+                        <paragraph>
+                           <content styleCode="bold">Keep out of reach of children.</content>
+                        </paragraph>
+                     </text>
+                     <effectiveTime value="20240322"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_9cc35322-3db1-426a-90e7-9a8df4f46fe9">
+               <id root="dd9a9ae5-bd11-4dc1-a1b7-de701d452505"/>
+               <code code="34076-0" codeSystem="2.16.840.1.113883.6.1" displayName="INFORMATION FOR PATIENTS SECTION"/>
+               <title>
+                  <content styleCode="bold">17 PATIENT COUNSELING INFORMATION</content>
+               </title>
+               <text>
+                  <paragraph>
+                     <content styleCode="italics">See </content>
+                     <content styleCode="italics">
+                        <linkHtml href="#LINK_f4dd2685-3b3d-4adb-b676-ce997a4ea25b">FDA-Approved Patient Labeling</linkHtml>
+                     </content>
+                  </paragraph>
+                  <list listType="unordered" styleCode="Disk">
+                     <item>Counsel patients that cigarette smoking increases the risk of serious cardiovascular events from COC use, and that women who are over 35 years old and smoke should not use COCs.</item>
+                     <item>Counsel patients that this product does not protect against HIV infection (AIDS) and other sexually transmitted diseases.</item>
+                     <item>Counsel patients on Warnings and Precautions associated with COCs.</item>
+                     <item>Counsel patients to chew one tablet daily by mouth without water at the same time every day in the exact order noted on the blister.  Instruct patients what to do in the event pills are missed.  <content styleCode="italics">See </content>
+                        <content styleCode="bold">
+                           <content styleCode="italics">What Should I Do if I Miss any Pills</content>
+                        </content>
+                        <content styleCode="italics"> section in </content>
+                        <content styleCode="bold">
+                           <content styleCode="italics">FDA-Approved Patient Labeling </content>
+                        </content>
+                        <content styleCode="italics"> </content>
+                        <content styleCode="italics">[see Dosage and Administration (</content>
+                        <content styleCode="italics">
+                           <linkHtml href="#LINK_049e0b48-8589-4444-a82a-c9cf9a9e0ecf">2.1</linkHtml>
+                        </content>
+                        <content styleCode="italics">)]</content>
+                        <content styleCode="italics">.</content>
+                     </item>
+                     <item>Counsel patients to use a back-up or alternative method of contraception when enzyme inducers are used with LAYOLIS Fe.</item>
+                     <item>Counsel patients who are breastfeeding or who desire to breastfeed that COCs may reduce breast milk production.  This is less likely to occur if breastfeeding is well established.</item>
+                     <item>Counsel any patient who starts COCs postpartum, and who has not yet had a period, to use an additional method of contraception until she has taken a light green tablet for 7 consecutive days.</item>
+                     <item>Counsel patients that amenorrhea may occur.  Pregnancy should be ruled out in the event of amenorrhea in two or more consecutive cycles.</item>
+                  </list>
+                  <paragraph>Distributed By:<br/>
+Actavis Pharma, Inc.<br/>
+Parsippany, NJ 07054</paragraph>
+                  <paragraph> Revised: 3/2024</paragraph>
+               </text>
+               <effectiveTime value="20240322"/>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_f4dd2685-3b3d-4adb-b676-ce997a4ea25b">
+               <id root="cd3846da-38af-42a4-a788-e71499d2232d"/>
+               <code code="42230-3" codeSystem="2.16.840.1.113883.6.1" displayName="SPL PATIENT PACKAGE INSERT SECTION"/>
+               <title>
+                  <content styleCode="bold">FDA-APPROVED PATIENT LABELING</content>
+               </title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">Guide for Using </content>
+                     <content styleCode="bold">LAYOLIS<sup>®</sup>
+                     </content>
+                     <content styleCode="bold"> Fe (norethindrone and ethinyl estradiol chewable tablets and ferrous fumarate chewable tablets)</content>
+                  </paragraph>
+                  <table>
+                     <col width="615"/>
+                     <tbody>
+                        <tr>
+                           <td styleCode=" Toprule Lrule Rrule">
+                              <content styleCode="bold">WARNING TO WOMEN WHO SMOKE</content>
+                              <br/>
+                              <content styleCode="bold">Do not use </content>
+                              <content styleCode="bold">
+                                 <content styleCode="bold">LAYOLIS</content>
+                              </content>
+                              <content styleCode="bold"> Fe if you smoke cigarettes and are over 35 years old. Smoking increases your risk of serious cardiovascular side effects (heart and blood vessel problems) from birth control pills, including death from heart attack, blood clots or stroke. This risk increases with age and the number of cigarettes you smoke. </content>
+                           </td>
+                        </tr>
+                     </tbody>
+                  </table>
+                  <paragraph>Birth control pills help to lower the chances of becoming pregnant when taken as directed.  They do not protect against HIV infection (AIDS) and other sexually transmitted diseases.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">What is </content>
+                     <content styleCode="bold">
+                        <content styleCode="bold">LAYOLIS</content>
+                     </content>
+                     <content styleCode="bold"> Fe?</content>
+                  </paragraph>
+                  <paragraph>LAYOLIS Fe is a birth control pill.  It contains two female hormones, an estrogen called ethinyl estradiol and a progestin called norethindrone.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">How Do I Take </content>
+                     <content styleCode="bold">
+                        <content styleCode="bold">LAYOLIS</content>
+                     </content>
+                     <content styleCode="bold"> Fe?</content>
+                  </paragraph>
+                  <list listType="unordered" styleCode="Disk">
+                     <item>Chew and swallow one pill every day without water at the same time. Take the pills in the order directed on the blister pack.</item>
+                     <item>Do not skip pills or take at intervals exceeding 24 hours. If you miss pills (including starting the pack late), you could get pregnant. The more pills you miss, the more likely you are to get pregnant.    </item>
+                     <item>If you have trouble remembering to take LAYOLIS Fe, talk to your healthcare provider about how to make pill‑taking easier or about using another method of birth control.</item>
+                     <item>You may have spotting or light bleeding when you first take LAYOLIS Fe.  Spotting or light bleeding is normal at first.</item>
+                     <item>You may feel sick to your stomach (nauseated), especially during the first few months that you take LAYOLIS Fe.  If you feel sick to your stomach, do not stop taking the pill. The problem will usually go away. If your nausea doesn't go away, call your healthcare provider.</item>
+                     <item>If you vomit or have diarrhea within 3-4 hours of taking your pill, follow the instructions for “What Should I Do if I Miss any Pills.”</item>
+                     <item>Missing pills can also cause spotting or light bleeding, even when you take the missed pills late.  On the days you take 2 pills to make up for missed pills, you could also feel a little sick to your stomach.</item>
+                  </list>
+                  <paragraph>
+                     <content styleCode="bold">How Well Does </content>
+                     <content styleCode="bold">LAYOLIS Fe Work?</content>
+                  </paragraph>
+                  <paragraph>Your chance of getting pregnant depends on how well you follow the directions for taking your birth control pills. The more carefully you follow the directions, the less chance you have of getting pregnant.</paragraph>
+                  <paragraph>Based on the results of one clinical study, 1 to 3 women out of 100 women may get pregnant during the first year they use LAYOLIS Fe.</paragraph>
+                  <paragraph>The following chart shows the chance of getting pregnant for women who use different methods of birth control. Each box on the chart contains a list of birth control methods that are similar in effectiveness. The most effective methods are at the top of the chart. The box on the bottom of the chart shows the chance of getting pregnant for women who do not use birth control and are trying to get pregnant.</paragraph>
+                  <renderMultiMedia referencedObject="MM4"/>
+                  <paragraph>
+                     <content styleCode="bold">Before you start taking </content>
+                     <content styleCode="bold">LAYOLIS</content>
+                     <content styleCode="bold"> Fe</content>
+                  </paragraph>
+                  <list listType="unordered" styleCode="Disk">
+                     <item>Decide what time of day to take your pill.  It is important to take it at the same time every day and in the order as directed on the blister pack.</item>
+                  </list>
+                  <renderMultiMedia referencedObject="MM5"/>
+                  <list listType="unordered" styleCode="Disk">
+                     <item>Look at your LAYOLIS Fe blister pack.  The blister pack has four rows of 7 pills each, for a total of 28 pills.  <br/>
+    Find: <br/>
+        -      where on the pack to start taking your pills<br/>
+        -      in what order to take the pills</item>
+                  </list>
+                  <paragraph>Each LAYOLIS Fe blister pack has 28 pills</paragraph>
+                  <paragraph>                      -      24 light green pills with hormones for Weeks 1, 2 and 3 and the first part of Week 4<br/>
+                      -      4 brown pills without hormones for the remainder of Week 4</paragraph>
+                  <list listType="unordered" styleCode="Disk">
+                     <item>Be sure to have ready at all times another kind of birth control (such as a condom and spermicide) to use as a back-up in case you miss pills.</item>
+                  </list>
+                  <paragraph>
+                     <content styleCode="bold">When to Start </content>
+                     <content styleCode="bold">LAYOLIS Fe</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">If you start taking </content>
+                     <content styleCode="bold">LAYOLIS Fe and you did not use a hormonal birth control method before:</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">DAY-1 START:</content>
+                  </paragraph>
+                  <list listType="unordered" styleCode="Disk">
+                     <item>Pick the day label strip that starts with the first day of your period (this is the day you start bleeding or spotting, even if it is almost midnight when the bleeding begins). Pick a time of day that will be easy to remember.</item>
+                     <item>Place this day label strip on the tablet dispenser over the area that has the days of the week (starting with Sunday) printed on the plastic.</item>
+                     <item>Take the first light green pill of the first pack during the first 24 hours of your period.</item>
+                     <item>You will not need to use a back-up method of birth control because you are starting the pill at the beginning of your period.  However, if you start on a day other than the first day of your period or if you are starting after having been pregnant and have not yet had a period, use a back-up method of birth control such as a condom and spermicide until you have taken a light green pill for <content styleCode="italics">7 days</content> in a row.</item>
+                     <item>After taking the last brown pill (day 28) of the blister pack, start taking the first light green pill from a new blister pack the very next day whether or not you are having your period.</item>
+                  </list>
+                  <paragraph>
+                     <content styleCode="bold">If you start taking </content>
+                     <content styleCode="bold">LAYOLIS Fe and you are switching from a combination hormonal method such as:</content>
+                  </paragraph>
+                  <paragraph>            -      another pill<br/>
+            -      vaginal ring<br/>
+            -      patch</paragraph>
+                  <list listType="unordered" styleCode="Disk">
+                     <item>Take the first light green pill on the first day you would have started your previous birth control pack.</item>
+                     <item>If you previously used a vaginal ring or transdermal patch, finish the 21 days of use and wait <content styleCode="italics">7 days</content> after removal of the ring or transdermal patch before starting LAYOLIS Fe.</item>
+                     <item>Use a non-hormonal back-up method such as a condom and spermicide for the first <content styleCode="italics">7 days</content> you take LAYOLIS Fe.</item>
+                  </list>
+                  <paragraph>
+                     <content styleCode="bold">If you start taking </content>
+                     <content styleCode="bold">LAYOLIS Fe and you are switching from a progestin-only method such as a:</content>
+                  </paragraph>
+                  <paragraph>            -      progestin-only pill<br/>
+            -      implant<br/>
+            -      intrauterine system<br/>
+            -      injection</paragraph>
+                  <list listType="unordered" styleCode="Disk">
+                     <item>Take the first light green pill on the day you would have taken your next progestin-only pill or on the day of removal of your implant or intrauterine system or on the day when you would have had your next injection.</item>
+                     <item>Use a non-hormonal back-up method such as a condom and spermicide for the first <content styleCode="italics">7 days</content> you take LAYOLIS Fe.</item>
+                  </list>
+                  <paragraph>
+                     <content styleCode="bold">What Should I do if I Miss any Pills</content>
+                  </paragraph>
+                  <paragraph>If you forgot to start a new blister pack, <content styleCode="bold">you may already be pregnant</content>.  Use back-up contraception (such as a condom and spermicide) anytime you have sex.  Call your healthcare provider if you are unsure whether you are pregnant.  </paragraph>
+                  <paragraph>Your birth control pills may not be as effective if you miss any light green pills, and particularly if you miss the first few or the last few light green pills in a pack.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">If you MISS ONE light green pill</content>
+                  </paragraph>
+                  <list listType="unordered" styleCode="Disk">
+                     <item>Take it as soon as you remember. Take the next pill at your regular time. This means you may take two pills in 1 day.</item>
+                     <item>You do not need to use a back‑up birth control method if you have sex.</item>
+                  </list>
+                  <paragraph>
+                     <content styleCode="bold">If you MISS TWO light green pills in a row in WEEK 1 or WEEK 2 of your pack</content>
+                  </paragraph>
+                  <list listType="unordered" styleCode="Disk">
+                     <item>Take two pills on the day you remember and two pills the next day.</item>
+                     <item>Then take one pill a day until you finish the pack.</item>
+                     <item>You could become pregnant if you have sex during the <content styleCode="italics">7 days</content> after you restart your pills. You MUST use a non-hormonal birth  control method (such as a condom and spermicide) as a back‑up for those <content styleCode="italics">7 days</content>.</item>
+                  </list>
+                  <paragraph>
+                     <content styleCode="bold">If you MISS TWO light green pills in a row in WEEK 3 or WEEK 4 of your pack</content>
+                  </paragraph>
+                  <list listType="unordered" styleCode="Disk">
+                     <item>THROW OUT the rest of the pill pack and start a new pack that same day.</item>
+                     <item>You could become pregnant if you have sex during the <content styleCode="italics">7 days</content> after you restart your pills. You MUST use a non-hormonal birth control method (such as a condom and spermicide) as a back‑up for those <content styleCode="italics">7 days</content> after you restart your pills.</item>
+                  </list>
+                  <paragraph>
+                     <content styleCode="bold">If you MISS THREE OR MORE light green pills in a row at any time</content>
+                  </paragraph>
+                  <list listType="unordered" styleCode="Disk">
+                     <item>THROW OUT the rest of the pill pack and start a new pack that same day.</item>
+                     <item>You could become pregnant if you have sex on the days when you missed pills or during the first <content styleCode="italics">7 days</content> after restarting your pills. You MUST use a non-hormonal birth control method (such as a condom and spermicide) as a back‑up the next time you have sex and for the first <content styleCode="italics">7 days</content> after you restart your pills.</item>
+                  </list>
+                  <paragraph>
+                     <content styleCode="bold">If you forget any of the four brown "reminder" pills in WEEK 4</content>
+                  </paragraph>
+                  <list listType="unordered" styleCode="Disk">
+                     <item>THROW AWAY the pills you missed.</item>
+                     <item>Keep taking one pill each day until the pack is finished.</item>
+                     <item>You do not need to use a back‑up method of birth control.</item>
+                  </list>
+                  <table>
+                     <col width="614"/>
+                     <tbody>
+                        <tr>
+                           <td styleCode=" Toprule Lrule Rrule">
+                              <content styleCode="bold">You may already be pregnant or COULD BECOME PREGNANT if you had sex on the days after the pills were missed. The more pills missed and the closer they are to the end of the cycle, the higher the risk of a pregnancy. You should call your doctor or healthcare provider if you are unsure whether you are already pregnant.</content>
+                           </td>
+                        </tr>
+                     </tbody>
+                  </table>
+                  <paragraph>
+                     <content styleCode="bold">If you are still not sure of what to do about the pills you have missed:</content>
+                  </paragraph>
+                  <list listType="unordered" styleCode="Disk">
+                     <item>Call your healthcare provider.</item>
+                     <item>Use a back-up contraception (such as a condom and spermicide) anytime you have sex and keep taking 1 pill each day.</item>
+                  </list>
+                  <paragraph>
+                     <content styleCode="bold">Who Should not Take </content>
+                     <content styleCode="bold">LAYOLIS Fe?</content>
+                  </paragraph>
+                  <paragraph>Your healthcare provider will not give you LAYOLIS Fe if you have:</paragraph>
+                  <list listType="unordered" styleCode="Disk">
+                     <item>Ever had breast cancer, which may be sensitive to female hormones</item>
+                     <item>Liver disease, including liver tumors</item>
+                     <item>Take any Hepatitis C drug combination containing ombitasvir/paritaprevir/ritonavir, with or without dasabuvir.  This may increase levels of the liver enzyme “alanine aminotransferase” (ALT) in the blood.</item>
+                     <item>Ever had blood clots in your arms, legs, or lungs</item>
+                     <item>Ever had a stroke</item>
+                     <item>Ever had a heart attack</item>
+                     <item>Certain heart valve problems or heart rhythm abnormalities that can cause blood clots to form in the heart</item>
+                     <item>An inherited problem with your blood that makes it clot more than normal</item>
+                     <item>High blood pressure that medicine can't control</item>
+                     <item>Diabetes with kidney, eye, or blood vessel damage</item>
+                     <item>Certain kinds of severe migraine headaches with aura, numbness, weakness or changes in vision</item>
+                  </list>
+                  <paragraph>Also, do not take birth control pills if you: </paragraph>
+                  <list listType="unordered" styleCode="Disk">
+                     <item>Smoke and are over 35 years old</item>
+                     <item>Are pregnant</item>
+                  </list>
+                  <paragraph>Birth control pills may not be a good choice for you if you have ever had jaundice (yellowing of the skin or eyes) caused by pregnancy (also called cholestasis of pregnancy).</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">What Else Should I Know about Taking </content>
+                     <content styleCode="bold">LAYOLIS Fe?</content>
+                  </paragraph>
+                  <paragraph>Birth control pills do not protect you against any sexually transmitted disease, including HIV, the virus that causes AIDS.</paragraph>
+                  <paragraph>Do not skip any pills, even if you do not have sex often.</paragraph>
+                  <paragraph>If you miss a period, you could be pregnant. However, some women miss periods or have light periods on birth control pills, even when they are not pregnant. Contact your healthcare provider for advice if you:</paragraph>
+                  <list listType="unordered" styleCode="Disk">
+                     <item>Think you are pregnant</item>
+                     <item>Miss one period and have not taken your birth control pills according to directions</item>
+                     <item>Miss two periods in a row</item>
+                  </list>
+                  <paragraph>Birth control pills should not be taken during pregnancy. However, birth control pills taken by accident during pregnancy are not known to cause birth defects.</paragraph>
+                  <paragraph>You should stop LAYOLIS Fe at least four weeks before you have major surgery and not restart it until at least two weeks after the surgery due to an increased risk of blood clots.  </paragraph>
+                  <paragraph>If you are breastfeeding, consider another birth control method until you are ready to stop breastfeeding. Birth control pills that contain estrogen, like LAYOLIS Fe, may decrease the amount of milk you make. A small amount of the pill's hormones pass into breast milk.</paragraph>
+                  <paragraph>Tell your healthcare provider about all medicines and herbal products that you take. Some medicines and herbal products may make birth control pills less effective, including:</paragraph>
+                  <list listType="unordered" styleCode="Disk">
+                     <item>barbiturates</item>
+                     <item>bosentan</item>
+                     <item>carbamazepine</item>
+                     <item>felbamate</item>
+                     <item>griseofulvin</item>
+                     <item>oxcarbazepine</item>
+                     <item>phenytoin</item>
+                     <item>rifampin</item>
+                     <item>St. John’s wort</item>
+                     <item>topiramate</item>
+                  </list>
+                  <paragraph>Consider using another birth control method when you take medicines that may make birth control pills less effective.</paragraph>
+                  <paragraph>Birth control pills may interact with lamotrigine, an anticonvulsant used for epilepsy. This may increase the risk of seizures, so your healthcare provider may need to adjust the dose of lamotrigine.</paragraph>
+                  <paragraph>If you have vomiting or diarrhea, your birth control pills may not work as well. Use another birth control method, like a condom and spermicide, until you check with your healthcare provider.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">What are the Most Serious Risks of Taking Birth Control Pills?</content>
+                  </paragraph>
+                  <paragraph>Like pregnancy, birth control pills increase the risk of serious blood clots, especially in women who have other risk factors, such as smoking, obesity, or age greater than 35. It is possible to die from a problem caused by a blood clot, such as a heart attack or a stroke. Some examples of serious blood clots are blood clots in the:</paragraph>
+                  <list listType="unordered" styleCode="Disk">
+                     <item>Legs (thrombophlebitis)</item>
+                     <item>Lungs (pulmonary embolus)</item>
+                     <item>Eyes (loss of eyesight)</item>
+                     <item>Heart (heart attack)</item>
+                     <item>Brain (stroke)</item>
+                  </list>
+                  <paragraph>A few women who take birth control pills may get:</paragraph>
+                  <list listType="unordered" styleCode="Disk">
+                     <item>High blood pressure</item>
+                     <item>Gallbladder problems</item>
+                     <item>Rare cancerous or noncancerous liver tumors</item>
+                  </list>
+                  <paragraph>All of these events are uncommon in healthy women.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Call your healthcare provider right away if you have:</content>
+                  </paragraph>
+                  <list listType="unordered" styleCode="Disk">
+                     <item>Persistent leg pain</item>
+                     <item>Sudden shortness of breath</item>
+                     <item>Sudden blindness, partial or complete</item>
+                     <item>Severe pain in your chest</item>
+                     <item>Sudden, severe headache unlike your usual headaches</item>
+                     <item>Weakness or numbness in an arm or leg, or trouble speaking</item>
+                     <item>Yellowing of the skin or eyeballs</item>
+                  </list>
+                  <paragraph>
+                     <content styleCode="bold">What are the Common Side Effects of Birth Control Pills?</content>
+                  </paragraph>
+                  <paragraph>The most common side effects of birth control pills are:</paragraph>
+                  <list listType="unordered" styleCode="Disk">
+                     <item>Spotting or bleeding between menstrual periods</item>
+                     <item>Nausea</item>
+                     <item>Breast tenderness</item>
+                     <item>Headache</item>
+                  </list>
+                  <paragraph>These side effects are usually mild and usually disappear with time.</paragraph>
+                  <paragraph>Less common side effects are:</paragraph>
+                  <list listType="unordered" styleCode="Disk">
+                     <item>Acne</item>
+                     <item>Less sexual desire</item>
+                     <item>Bloating or fluid retention</item>
+                     <item>Blotchy darkening of the skin, especially on the face</item>
+                     <item>High blood sugar, especially in women who already have diabetes</item>
+                     <item>High fat levels in the blood</item>
+                     <item>Depression, especially if you have had depression in the past.  Call your healthcare provider immediately if you have any thoughts of harming yourself.</item>
+                     <item>Problems tolerating contact lenses</item>
+                     <item>Weight changes</item>
+                  </list>
+                  <paragraph>This is not a complete list of possible side effects. Talk to your healthcare provider if you develop any side effects that concern you. You may report side effects to the FDA at 1-800-FDA-1088.</paragraph>
+                  <paragraph>No serious problems have been reported from a birth control pill overdose, even when accidentally taken by children.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Do Birth Control Pills Cause Cancer?</content>
+                  </paragraph>
+                  <paragraph>It is not known if hormonal birth control pills cause breast cancer. Some studies, but not all, suggest that there could be a slight increase in the risk of breast cancer among current users with longer duration of use.</paragraph>
+                  <paragraph>If you have breast cancer now, or have had it in the past, do not use hormonal birth control because some breast cancers are sensitive to hormones.</paragraph>
+                  <paragraph>Women who use birth control pills may have a slightly higher chance of getting cervical cancer.  However, this may be due to other reasons such as having more sexual partners.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">What Should I Know about My Period when Taking </content>
+                     <content styleCode="bold">LAYOLIS Fe?</content>
+                  </paragraph>
+                  <paragraph>Unscheduled (irregular) vaginal bleeding or spotting may occur while you are taking LAYOLIS Fe. Unscheduled bleeding may vary from slight staining to breakthrough bleeding, which is a flow much like a regular period, but which occurs between menstrual periods. Unscheduled bleeding occurs most often during the first few months of oral contraceptive use, but may also occur after you have been taking the pill for some time. Such bleeding may be temporary and usually does not indicate any serious problems. </paragraph>
+                  <paragraph>Approximately one-third of the women who use LAYOLIS Fe have unscheduled bleeding or spotting in the first months of use.  About one-quarter of users continue to have unscheduled bleeding or spotting after one year of use.  </paragraph>
+                  <paragraph>It is important to continue taking your pills on schedule. If the bleeding occurs in more than one cycle, is unusually heavy, or lasts for more than a few days, call your healthcare provider.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">What if I Miss My Scheduled Period when Taking </content>
+                     <content styleCode="bold">LAYOLIS Fe?</content>
+                  </paragraph>
+                  <paragraph>Women who use LAYOLIS Fe may not have a period at the end of every 28-day pack of pills.  </paragraph>
+                  <paragraph>If you miss more than two periods in a row or miss one period when you have not taken your birth control pills according to directions, call your healthcare provider. Also notify your healthcare provider if you have symptoms of pregnancy such as morning sickness or unusual breast tenderness. It is important that your healthcare provider checks you to find out if you are pregnant. Stop taking LAYOLIS Fe if you are pregnant.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">What If I Want to Become Pregnant?</content>
+                  </paragraph>
+                  <paragraph>You may stop taking the pill whenever you wish. Consider a visit with your healthcare provider for a pre-pregnancy checkup before you stop taking the pill.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">General Advice about </content>
+                     <content styleCode="bold">LAYOLIS Fe</content>
+                  </paragraph>
+                  <paragraph>Your healthcare provider prescribed LAYOLIS Fe for you. Please do not share LAYOLIS Fe with anyone else.  Keep LAYOLIS Fe out of the reach of children. </paragraph>
+                  <paragraph>If you have concerns or questions, ask your healthcare provider.  You may also ask your healthcare provider for a more detailed label written for medical professionals.</paragraph>
+                  <paragraph>For more information contact Actavis Medical Communications at 1-888-838-2872.</paragraph>
+                  <paragraph>For all medical inquiries contact:<br/>
+ACTAVIS<br/>
+Medical Communications<br/>
+Parsippany, NJ 07054 USA<br/>
+1-888-838-2872</paragraph>
+                  <paragraph>Distributed By:<br/>
+Actavis Pharma, Inc.<br/>
+Parsippany, NJ 07054</paragraph>
+                  <paragraph>Revised: 3/2024</paragraph>
+               </text>
+               <effectiveTime value="20240322"/>
+               <component>
+                  <observationMedia ID="MM4">
+                     <text>How Well Does Layolis Fe Work?</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="layolis-fe-n022573-4.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="MM5">
+                     <text>· Decide what time of day to take your pill. It is important to take it at the same time every day and in the order as directed on the blister pack.</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="layolis-fe-n022573-5.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_4c508d80-c076-4755-ab13-a9813028b7c4">
+               <id root="18e3104e-7611-4c74-94d9-61154ce0f2d2"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>
+                  <content styleCode="bold">PRINCIPAL DISPLAY PANEL</content>
+               </title>
+               <text>
+                  <paragraph>NDC 52544-064-31<br/>Layolis<sup>™</sup> Fe <br/>(norethindrone and ethinyl estradiol chewable tablets <br/>and ferrous fumarate chewable tablets) 0.8 mg/25 mcg<br/>
+                     <br/>Three 28-Tablet Dispensers<br/>Rx Only</paragraph>
+                  <renderMultiMedia referencedObject="MM6"/>
+               </text>
+               <effectiveTime value="20240322"/>
+               <component>
+                  <observationMedia ID="MM6">
+                     <text>PRINCIPAL DISPLAY PANEL NDC 52544-064-31 Layolis™ Fe (norethindrone and ethinyl estradiol chewable tablets and ferrous fumarate chewable tablets) 0.8 mg/25 mcg Three 28-Tablet Dispensers Rx Only</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="layolis-fe-n022573-6.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

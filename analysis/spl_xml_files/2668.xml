@@ -1,0 +1,2256 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="https://www.accessdata.fda.gov/spl/stylesheet/spl.xsl" type="text/xsl"?>
+<document xmlns="urn:hl7-org:v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 https://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="e0429a55-e69e-4d8b-9498-46c52b696642"/>
+   <code code="34391-3" codeSystem="2.16.840.1.113883.6.1" displayName="HUMAN PRESCRIPTION DRUG LABEL"/>
+   <title>These highlights do not include all the information needed to use AZACITIDINE FOR INJECTION safely and effectively. See full prescribing information for AZACITIDINE FOR INJECTION.<br/>AZACITIDINE for injection for subcutaneous or intravenous use <br/>Initial U.S. Approval: 2004</title>
+   <effectiveTime value="20230725"/>
+   <setId root="5c0a2d5f-8c34-4c04-8425-7543965cedd4"/>
+   <versionNumber value="3"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id extension="098405973" root="1.3.6.1.4.1.519.1"/>
+            <name>Armas Pharmaceuticals Inc.</name>
+            <assignedEntity>
+               <assignedOrganization/>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section>
+               <id root="2063f207-ef68-4093-901f-6d4b4965d59b"/>
+               <code code="48780-1" codeSystem="2.16.840.1.113883.6.1" displayName="SPL Product Data Elements Section"/>
+               <effectiveTime value="20201222"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="72485-201" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>AZACITIDINE</name>
+                        <formCode code="C42957" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="INJECTION, POWDER, LYOPHILIZED, FOR SOLUTION"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>azacitidine</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator value="100" unit="mg"/>
+                              <denominator value="1" unit="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="M801H13NRU" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>AZACITIDINE</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="M801H13NRU" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>AZACITIDINE</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="3OWL53L36A" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>MANNITOL</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator value="1" unit="1"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="72485-201-01" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43182" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CARTON"/>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic classCode="OBS">
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CE"/>
+                              </characteristic>
+                           </subjectOf>
+                           <subjectOf>
+                              <marketingAct>
+                                 <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 <statusCode code="active"/>
+                                 <effectiveTime>
+                                    <low value="20180910"/>
+                                 </effectiveTime>
+                              </marketingAct>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <id extension="ANDA207518" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73584" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ANDA"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20180910"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic>
+                           <code code="SPLCOLOR" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value code="C48325" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="white" xsi:type="CE">
+                              <originalText>White to off white</originalText>
+                           </value>
+                        </characteristic>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38276" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="INTRAVENOUS"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38299" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="SUBCUTANEOUS"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section ID="Le2a114e0-ec07-40ed-988a-65944ff10caa">
+               <id root="a6f58e07-bc0c-40a8-8f99-f8ab96b1f66c"/>
+               <code code="43683-2" codeSystem="2.16.840.1.113883.6.1" displayName="RECENT MAJOR CHANGES SECTION"/>
+               <text/>
+               <effectiveTime value="20230807"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <paragraph>Dosage and Administration (<linkHtml href="#Lb3b7bb35-f545-4873-8eb6-d89a0ea137b8">2.1</linkHtml>)                                   8/2022<br/>Warnings and Precautions (<linkHtml href="#L3dfc8191-43c9-4ff9-b10a-9d846059b029">5.1</linkHtml>, <linkHtml href="#Lbc777e43-d753-4466-8178-d6d14e8fa10e">5.6</linkHtml>)                              8/2022</paragraph>
+                     </text>
+                  </highlight>
+               </excerpt>
+            </section>
+         </component>
+         <component>
+            <section ID="ID1">
+               <id root="39ce0b39-c6fb-4137-85fd-1e2610fa51a8"/>
+               <code code="34067-9" codeSystem="2.16.840.1.113883.6.1" displayName="INDICATIONS &amp; USAGE SECTION"/>
+               <title>1    INDICATIONS AND USAGE</title>
+               <effectiveTime value="20230726"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <paragraph ID="ID150">Azacitidine for injection is a nucleoside metabolic inhibitor indicated for the treatment of:</paragraph>
+                        <list listType="unordered">
+                           <item>Adult patients with the following FAB myelodysplastic syndrome (MDS) subtypes: Refractory anemia (RA) or refractory anemia with ringed sideroblasts (RARS) (if accompanied by neutropenia or thrombocytopenia or requiring transfusions), refractory anemia with excess blasts (RAEB), refractory anemia with excess blasts in transformation (RAEB-T), and chronic myelomonocytic leukemia (CMMoL). <linkHtml href="#ID1">(1.1)</linkHtml>
+                           </item>
+                        </list>
+                     </text>
+                  </highlight>
+               </excerpt>
+               <component>
+                  <section ID="ID2">
+                     <id root="195058cb-d6e9-4531-85d2-fdbc32c2fca8"/>
+                     <title>1.1 Myelodysplastic Syndromes (MDS)</title>
+                     <text>
+                        <paragraph ID="ID3">Azacitidine for injection is indicated for treatment of adult patients with the following French-American-British (FAB) myelodysplastic syndrome subtypes: refractory anemia (RA) or refractory anemia with ringed sideroblasts (if accompanied by neutropenia or thrombocytopenia or requiring transfusions), refractory anemia with excess blasts (RAEB), refractory anemia with excess blasts in transformation (RAEB-T), and chronic myelomonocytic leukemia (CMMoL).</paragraph>
+                     </text>
+                     <effectiveTime value="20230726"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="ID4">
+               <id root="4eff8476-a4f8-4b15-824b-89d5fa6c415a"/>
+               <code code="34068-7" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE &amp; ADMINISTRATION SECTION"/>
+               <title>2    DOSAGE AND ADMINISTRATION</title>
+               <effectiveTime value="20230807"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <list listType="unordered" styleCode="Disc">
+                           <item>
+                              <content styleCode="bold">Do not substitute Azacitidine for injection for oral azacitidine. The indications and dosing regimen for </content>
+                              <content styleCode="bold">Azacitidine for injection differ from that of oral azacitidine (<linkHtml href="#Lb3b7bb35-f545-4873-8eb6-d89a0ea137b8">2.1</linkHtml>, <linkHtml href="#L3dfc8191-43c9-4ff9-b10a-9d846059b029">5.1</linkHtml>).</content>
+                           </item>
+                           <item>MDS: The recommended starting dosage for the first treatment cycle, for all patients regardless of baseline hematology values, is Azacitidine for injection 75 mg/m<sup>2</sup> daily for 7 days to be administered by subcutaneous injection or intravenous infusion. See full prescribing information for schedule for subsequent cycles. Premedicate for nausea and vomiting (<linkHtml href="#ID5">2.2</linkHtml>).</item>
+                           <item>Continue treatment as long as the patient continues to benefit (<linkHtml href="#ID7">2.3</linkHtml>).</item>
+                           <item>Monitor all patients for hematologic response and for renal toxicity; delay or reduce dosage as appropriate (<linkHtml href="#ID7">2.3</linkHtml>, <linkHtml href="#ID15">2.6</linkHtml>, <linkHtml href="#ID17">2.7</linkHtml>).</item>
+                        </list>
+                     </text>
+                  </highlight>
+               </excerpt>
+               <component>
+                  <section ID="Lb3b7bb35-f545-4873-8eb6-d89a0ea137b8">
+                     <id root="5c4b1c6b-9d3e-469a-8f22-851d8f8aee99"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>│2.1 Important Administration Information</title>
+                     <text>
+                        <paragraph>
+                           <content styleCode="bold">│Do not substitute Azacitidine for injection for oral azacitidine. The indications and dosing regimen for Azacitidine for injection differ from that of oral azacitidine [<content styleCode="italics">see Warnings and Precautions (<linkHtml href="#L3dfc8191-43c9-4ff9-b10a-9d846059b029">5.1</linkHtml>)</content>]</content>
+                        </paragraph>
+                     </text>
+                     <effectiveTime value="20230807"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID5">
+                     <id root="f77d705d-3932-4740-b650-0cae78c0266b"/>
+                     <title>2.2 First Treatment Cycle for Adults</title>
+                     <text>
+                        <paragraph ID="ID6">The recommended starting dose for the first treatment cycle, for all patients regardless of baseline hematology laboratory values, is 75 mg/m<sup>2</sup> subcutaneously or intravenously, daily for 7 days. Premedicate patients for nausea and vomiting.</paragraph>
+                        <paragraph>Obtain complete blood counts, liver chemistries and serum creatinine prior to the first dose.</paragraph>
+                     </text>
+                     <effectiveTime value="20230801"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID7">
+                     <id root="a12ce188-cc25-4b5e-92ce-71a66a08b0da"/>
+                     <title>2.3 Subsequent Treatment Cycles for Adults</title>
+                     <text>
+                        <paragraph>Repeat cycles every 4 weeks. The dose may be increased to 100 mg/m<sup>2</sup> if no beneficial effect is seen after 2 treatment cycles and if no toxicity other than nausea and vomiting has occurred. It is recommended that patients be treated for a minimum of 4 to 6 cycles. However, complete or partial response may require additional treatment cycles. Treatment may be continued as long as the patient continues to benefit.</paragraph>
+                        <paragraph>Monitor patients for hematologic response and renal toxicities [<content styleCode="italics">see <linkHtml href="#L2f0fd952-becd-45e2-8228-e6da424260d0">Warnings and Precautions (5.4)</linkHtml>
+                           </content>], and delay or reduce dosage if necessary [<content styleCode="italics">see <linkHtml href="#ID15">Dosage and Administration (2.6)</linkHtml>
+                           </content>].</paragraph>
+                     </text>
+                     <effectiveTime value="20230807"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID9">
+                     <id root="4a72c8d7-a78f-4790-b425-fb62f89efc87"/>
+                     <title>2.5 Dosage Adjustment Based on Hematology Laboratory Values</title>
+                     <text>
+                        <list listType="unordered" ID="ID10" styleCode="Disc">
+                           <item>For adult patients with baseline (start of treatment) WBC greater than or equal to 3 x 10<sup>9</sup>/L, ANC greater than or equal to 1.5 x 10<sup>9</sup>/L, and platelets greater than or equal to 75 x 10<sup>9</sup>/L, adjust the dose as follows, based on nadir counts for any given cycle:</item>
+                        </list>
+                        <table ID="ID11" width="99%">
+                           <colgroup>
+                              <col width="33%"/>
+                              <col width="33%"/>
+                              <col width="33%"/>
+                           </colgroup>
+                           <tbody>
+                              <tr>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" colspan="2" align="center" valign="middle">Nadir Counts</td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" colspan="1" align="center" valign="middle">% Dose in the Next Course</td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Lrule Rrule Toprule" align="center" valign="middle">
+                                    <content styleCode="underline">ANC (x10</content>
+                                    <sup>9</sup>
+                                    <content styleCode="underline">/L)</content>
+                                 </td>
+                                 <td styleCode="Lrule Rrule Toprule" align="center" valign="middle">
+                                    <content styleCode="underline">Platelets </content>
+                                    <content styleCode="underline">(</content>
+                                    <content styleCode="underline">x1</content>
+                                    <content styleCode="underline">0</content>
+                                    <sup>9</sup>
+                                    <content styleCode="underline">/L</content>
+                                    <content styleCode="underline">)</content>
+                                 </td>
+                                 <td styleCode="Lrule Rrule Toprule" align="center" valign="middle"/>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Lrule Rrule" align="center" valign="middle">Less than 0.5</td>
+                                 <td styleCode="Lrule Rrule" align="center" valign="middle">Less than 25</td>
+                                 <td styleCode="Lrule Rrule" align="center" valign="middle">50%</td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Lrule Rrule" align="center" valign="middle">0.5 1.5</td>
+                                 <td styleCode="Lrule Rrule" align="center" valign="middle">25-50</td>
+                                 <td styleCode="Lrule Rrule" align="center" valign="middle">67%</td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Botrule Lrule Rrule" align="center" valign="middle">Greater than 1.5</td>
+                                 <td styleCode="Botrule Lrule Rrule" align="center" valign="middle">Greater than 50</td>
+                                 <td styleCode="Botrule Lrule Rrule" align="center" valign="middle">100%</td>
+                              </tr>
+                           </tbody>
+                        </table>
+                        <list listType="unordered" ID="ID12" styleCode="Disc">
+                           <item>For adult patients whose baseline counts are WBC less than 3 x 10<sup>9</sup>/L, ANC less than 1.5 x 10<sup>9</sup>/L, or platelets less than 75 x 10<sup>9</sup>/L, base dose adjustments on nadir counts and bone marrow biopsy cellularity at the time of the nadir as noted below, unless there is clear improvement in differentiation (percentage of mature granulocytes is higher and ANC is higher than at onset of that course) at the time of the next cycle, in which case continue the current dose.</item>
+                        </list>
+                        <table width="100%">
+                           <tbody>
+                              <tr>
+                                 <td styleCode="Lrule Rrule Botrule" align="center" rowspan="2"> WBC or Platelet Nadir<br/>% decrease in<br/>counts from baseline </td>
+                                 <td styleCode="Rrule Botrule" align="center" colspan="3">
+                                    <paragraph>Bone Marrow</paragraph>
+                                    <paragraph>   Biopsy Cellularity at Time of Nadir</paragraph>
+                                    <paragraph>(%)</paragraph>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Botrule" align="center">30-60 </td>
+                                 <td styleCode="Lrule Rrule Botrule" align="center">15-30 </td>
+                                 <td styleCode="Rrule Botrule" align="center">Less than 15 </td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Lrule Rrule Botrule" align="center" rowspan="3"> 50 - 75<br/>Greater than 75  </td>
+                                 <td styleCode="Rrule Botrule" align="center" colspan="3">% Dose in the Next Course   </td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Botrule" align="center"> 100</td>
+                                 <td styleCode="Lrule Rrule Botrule" align="center">50 </td>
+                                 <td styleCode="Rrule Botrule" align="center">33 </td>
+                              </tr>
+                              <tr>
+                                 <td align="center"> 75</td>
+                                 <td styleCode="Lrule Rrule" align="center">50 </td>
+                                 <td styleCode="Rrule" align="center"> 33   </td>
+                              </tr>
+                           </tbody>
+                        </table>
+                        <paragraph>If a nadir as defined in the table above has occurred, give the next course 28 days after the start of the preceding course, provided that both the WBC and the platelet counts are greater than 25% above the nadir and rising. If a greater than 25% increase above the nadir is not seen by day 28, reassess counts every 7 days. If a 25% increase is not seen by day 42, reduce the scheduled dose by 50%.</paragraph>
+                     </text>
+                     <effectiveTime value="20230807"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID15">
+                     <id root="7d6e24f4-49fe-40c6-aec8-0bbacda5789a"/>
+                     <title>2.6 Dosage Adjustment Based on Serum Electrolytes and Renal Toxicity</title>
+                     <text>
+                        <paragraph ID="ID16">If unexplained reductions in serum bicarbonate levels to less than 20 mEq/L occur, reduce the dosage by 50% for the next course. Similarly, if unexplained elevations of BUN or serum creatinine occur, delay the next cycle until values return to normal or baseline and reduce the dose by 50% for the next course [<content styleCode="italics">see <linkHtml href="#L2f0fd952-becd-45e2-8228-e6da424260d0">Warnings and Precautions (5.4)</linkHtml>
+                           </content>].</paragraph>
+                     </text>
+                     <effectiveTime value="20230807"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID17">
+                     <id root="9d239412-30bd-4ded-a41d-9634d6482b02"/>
+                     <title>2.7 Use in Geriatric Patients</title>
+                     <text>
+                        <paragraph ID="ID18">Azacitidine and its metabolites are known to be substantially excreted by the kidney, and the risk of toxic reactions to this drug may be greater in patients with impaired renal function. Because elderly patients are more likely to have decreased renal function, select the dose carefully and monitor renal function [<content styleCode="italics">see <linkHtml href="#L2f0fd952-becd-45e2-8228-e6da424260d0">Warnings and Precautions (5.4)</linkHtml> and <linkHtml href="#ID65">Use in Specific Populations (8.5)</linkHtml>
+                           </content>].</paragraph>
+                     </text>
+                     <effectiveTime value="20230801"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="Ld7b9c177-057f-4a9b-a5e0-7ceceaa533f6">
+                     <id root="7b6f8d36-1578-4138-86a1-94341e32027b"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>2.8 Preparation of Azacitidine for Injection</title>
+                     <text>
+                        <paragraph>Azacitidine for injection is a hazardous drug. Follow applicable special handling and disposal procedures.<sup>1</sup>
+                        </paragraph>
+                        <paragraph>The Azacitidine for injection vial is single-dose and does not contain any preservatives. Discard unused portions of each vial properly <content styleCode="italics">[see <linkHtml href="#ID100">How Supplied/Storage and Handling (16)</linkHtml>
+                           </content>]. Do not save any unused portions for later administration.</paragraph>
+                     </text>
+                     <effectiveTime value="20230807"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID21">
+                     <id root="36c26f73-4ce4-4ee7-ad41-f10ed0aac9b9"/>
+                     <title>2.9 Instructions for Subcutaneous Administration</title>
+                     <text>
+                        <paragraph ID="ID22">Reconstitute Azacitidine for injection aseptically with 4 mL Sterile Water for Injection, USP to obtain a concentration of 25 mg/mL. Inject the diluent slowly into the vial. Vigorously shake or roll the vial until a uniform suspension is achieved. The suspension will be cloudy. Do not filter the suspension after reconstitution. Doing so could remove the active substance.</paragraph>
+                        <paragraph>
+                           <content styleCode="bold">Preparation for Immediate Subcutaneous Administration</content>: For doses requiring more than 1 vial, divide the dose equally between the syringes (e.g., dose 150 mg = 6 mL, 2 syringes with 3 mL in each syringe) and inject into two separate sites. Due to retention in the vial and needle, it may not be feasible to withdraw all of the suspension from the vial. The product may be held at room temperature for up to 1 hour, but must be administered within 1 hour after reconstitution.</paragraph>
+                        <paragraph>
+                           <content styleCode="bold">Preparation for Delayed Subcutaneous Administration</content>: The reconstituted product may be kept in the vial or drawn into a syringe. For doses requiring more than 1 vial, divide the dose equally between the syringes (e.g., dose 150 mg = 6 mL, 2 syringes with 3 mL in each syringe) and inject into two separate sites. Due to retention in the vial and needle, it may not be feasible to withdraw all of the suspension from the vial. The product must be refrigerated immediately. See Table 2 for suspension stability storage timelines based on the temperature of the diluent for delayed subcutaneous administration.</paragraph>
+                        <paragraph>After removal from refrigerated conditions, the suspension may be allowed to equilibrate to room temperature for up to 30 minutes prior to administration.</paragraph>
+                        <paragraph>
+                           <content styleCode="bold">Subcutaneous Administration</content>
+                        </paragraph>
+                        <paragraph>To provide a homogeneous suspension, the contents of the dosing syringe must be re-suspended immediately prior to administration. To re-suspend, vigorously roll the syringe between the palms until a uniform, cloudy suspension is achieved.</paragraph>
+                        <paragraph>Azacitidine for injection suspension is administered subcutaneously. Rotate sites for each injection (thigh, abdomen, or upper arm). New injections should be given at least one inch from an old site and never into areas where the site is tender, bruised, red, or hard.</paragraph>
+                        <paragraph>
+                           <content styleCode="bold">Table 2 Suspension Stability:</content> Storage timelines based on the temperature of the diluent for suspension stability storage:</paragraph>
+                        <table width="80%">
+                           <tbody>
+                              <tr>
+                                 <td styleCode="Botrule Lrule Rrule" colspan="2">
+                                    <content styleCode="bold"> Suspension Stability Storage timelines</content>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Botrule Lrule Rrule"> Diluent</td>
+                                 <td styleCode="Botrule Rrule"> Storage Temperature/Duration</td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Botrule Lrule Rrule"> Room temperature (25°C / 77°F)<br/> Sterile Water for Injection, USP</td>
+                                 <td styleCode="Botrule Rrule"> Store at room temperature at 25°C (77°F) for up to 1 hour or<br/> refrigerated at 2°C to 8°C (36°F to 46°F) for up to 8 hours.</td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Lrule"> Cold (2°C to 8°C / 36°F to 46°F)<br/> Sterile Water for Injection, USP</td>
+                                 <td styleCode="Lrule Rrule"> Store refrigerated at 2°C to 8°C (36°F to 46°F) for up to 22 hours.</td>
+                              </tr>
+                           </tbody>
+                        </table>
+                        <paragraph/>
+                     </text>
+                     <effectiveTime value="20230726"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID23">
+                     <id root="875b5762-05a7-4224-84a4-a4307d024128"/>
+                     <title>2.10 Instructions for Intravenous Administration</title>
+                     <text>
+                        <paragraph ID="ID24">Parenteral drug product should be inspected visually for particulate matter and discoloration prior to administration, whenever solution and container permit. Do not use the product if there is evidence of particulate matter or discoloration.</paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Adult Patients with MDS</content>
+                        </paragraph>
+                        <paragraph>Reconstitute the appropriate number of Azacitidine for injection vials to achieve the desired dose. Reconstitute each vial with 10 mL Sterile Water for Injection, USP. Vigorously shake or roll the vial until all solids are dissolved. The resulting solution will contain azacitidine 10 mg/mL. The solution should be clear.</paragraph>
+                        <paragraph>Withdraw the required amount of Azacitidine for injection solution to deliver the desired dose and inject into a 50 -100 mL infusion bag of either 0.9% Sodium Chloride Injection, USP or Lactated Ringer's Injection, USP.</paragraph>
+                        <paragraph>
+                           <content styleCode="bold">Intravenous Solution Incompatibility</content>
+                        </paragraph>
+                        <paragraph>Azacitidine for injection is incompatible with 5% Dextrose Injection, USP solutions, Hespan, or solutions that contain bicarbonate. These solutions have the potential to increase the rate of degradation of Azacitidine for injection and should therefore be avoided.</paragraph>
+                        <paragraph>
+                           <content styleCode="bold">Intravenous Administration</content>
+                        </paragraph>
+                        <paragraph>Azacitidine for injection solution is administered intravenously. Administer the total dose over a period of 10 - 40 minutes. The administration must be completed within 1 hour of reconstitution of the Azacitidine for injection vial.</paragraph>
+                        <paragraph>
+                           <content styleCode="bold">Solution Stability</content>: Azacitidine for injection reconstituted and diluted for intravenous administration may be stored at 25°C (77°F), but administration must be completed within 1 hour of reconstitution.</paragraph>
+                     </text>
+                     <effectiveTime value="20230807"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="ID25">
+               <id root="cbbae1e0-ae93-4a9a-af46-d78d480198fc"/>
+               <code code="43678-2" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE FORMS &amp; STRENGTHS SECTION"/>
+               <title>3    DOSAGE FORMS AND STRENGTHS</title>
+               <effectiveTime value="20230726"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <list listType="unordered" ID="ID130" styleCode="Disc">
+                           <item>Lyophilized powder in 100 mg single-dose vials (<linkHtml href="#ID25">3</linkHtml>).</item>
+                        </list>
+                     </text>
+                  </highlight>
+               </excerpt>
+               <component>
+                  <section ID="ID154">
+                     <id root="f70291e3-18b9-44be-9dde-989f8239fc4c"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <text>
+                        <paragraph ID="ID155">Azacitidine for injection is supplied as lyophilized powder in 100 mg single-dose vials.</paragraph>
+                     </text>
+                     <effectiveTime value="20230726"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="ID27">
+               <id root="a3c8d726-0faa-4bf5-8e2f-31286265b4fa"/>
+               <code code="34070-3" codeSystem="2.16.840.1.113883.6.1" displayName="CONTRAINDICATIONS SECTION"/>
+               <title>4    CONTRAINDICATIONS</title>
+               <effectiveTime value="20230807"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <list listType="unordered" ID="ID141" styleCode="Disc">
+                           <item>Advanced Malignant Hepatic Tumors (<linkHtml href="#ID28">4.1</linkHtml>).</item>
+                           <item>Hypersensitivity to Azacitidine or Mannitol (<linkHtml href="#ID30">4.2</linkHtml>).</item>
+                        </list>
+                     </text>
+                  </highlight>
+               </excerpt>
+               <component>
+                  <section ID="ID28">
+                     <id root="c7b02284-d0d4-46b2-b7ec-5fdea61c53ee"/>
+                     <title>4.1 Advanced Malignant Hepatic Tumors</title>
+                     <text>
+                        <paragraph>Azacitidine is contraindicated in patients with advanced malignant hepatic tumors [<content styleCode="italics">see <linkHtml href="#Laf0556f7-2f41-49bb-9b37-78f8283c55be">Warnings and Precautions (5.3)</linkHtml>
+                           </content>].</paragraph>
+                     </text>
+                     <effectiveTime value="20230807"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID30">
+                     <id root="7471a588-f2d3-460c-af4e-590019e65f7f"/>
+                     <title>4.2 Hypersensitivity to Azacitidine or Mannitol</title>
+                     <text>
+                        <paragraph ID="ID31">Azacitidine is contraindicated in patients with a known hypersensitivity to azacitidine or mannitol.</paragraph>
+                     </text>
+                     <effectiveTime value="20230801"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="ID32">
+               <id root="b4089e17-3330-479b-8e14-9e2c0e80b8af"/>
+               <code code="43685-7" codeSystem="2.16.840.1.113883.6.1" displayName="WARNINGS AND PRECAUTIONS SECTION"/>
+               <title>5    WARNINGS AND PRECAUTIONS</title>
+               <effectiveTime value="20230807"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <list listType="unordered" ID="ID142" styleCode="Disc">
+                           <item>
+                              <content styleCode="underline">Risks of Substitution with Other Azacitidine Products:</content> Do not substitute Azacitidine for oral azacitidine (<linkHtml href="#Lb3b7bb35-f545-4873-8eb6-d89a0ea137b8">2.1</linkHtml>, <linkHtml href="#L3dfc8191-43c9-4ff9-b10a-9d846059b029">5.1</linkHtml>).</item>
+                           <item>
+                              <content styleCode="underline">Anemia, Neutropenia and Thrombocytopenia:</content> Monitor complete blood counts (CBC) frequently (<linkHtml href="#Lc1db4047-bcab-4a1b-8c18-ff833fc8d9ce">5.2</linkHtml>).</item>
+                           <item>
+                              <content styleCode="underline">Hepatotoxicity:</content> Patients with severe preexisting hepatic impairment are at higher risk for toxicity (<linkHtml href="#Laf0556f7-2f41-49bb-9b37-78f8283c55be">5.3</linkHtml>).</item>
+                           <item>
+                              <content styleCode="underline">Renal Toxicity:</content> Monitor patients with renal impairment for toxicity since azacitidine and its metabolites are primarily excreted by the kidneys (<linkHtml href="#L2f0fd952-becd-45e2-8228-e6da424260d0">5.4</linkHtml>).</item>
+                           <item>
+                              <content styleCode="underline">Tumor Lysis Syndrome:</content> Azacitidine may cause fatal or serious tumor lysis syndrome, including in patients with MDS. Assess baseline risk and monitor and treat as appropriate (<linkHtml href="#L260fafcc-3ad3-40f6-b837-a2a4fe97c743">5.5</linkHtml>).</item>
+                           <item>
+                              <content styleCode="underline">Embryo-Fetal Toxicity:</content> Azacitidine can cause fetal harm. Advise female patients and male patients with female partners of reproductive potential of the potential risk to a fetus and to use effective contraception (<linkHtml href="#Lbc777e43-d753-4466-8178-d6d14e8fa10e">5.6</linkHtml>).</item>
+                        </list>
+                     </text>
+                  </highlight>
+               </excerpt>
+               <component>
+                  <section ID="L3dfc8191-43c9-4ff9-b10a-9d846059b029">
+                     <id root="0480ca9e-beae-48b7-bfa7-2642cb8a60db"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>│5.1 Risks of Substitution with Other Azacitidine Products</title>
+                     <text>
+                        <paragraph>│Due to substantial differences in the pharmacokinetic parameters [<content styleCode="italics">see <linkHtml href="#ID82">Clinical Pharmacology (12.3)</linkHtml>
+                           </content>], the recommended dose and schedule for Azacitidine for Injection are different from those of oral azacitidine products. Treatment of patients using Azacitidine for Injection at the recommended dosage of oral azacitidine may result in a fatal adverse reaction. Treatment of patients using oral azacitidine at the doses recommended for Azacitidine may not be effective.</paragraph>
+                        <paragraph>│Do not substitute Azacitidine for Injection for oral azacitidine [<content styleCode="italics">see <linkHtml href="#Lb3b7bb35-f545-4873-8eb6-d89a0ea137b8">Dosage and Administration (2.1)</linkHtml>
+                           </content>].</paragraph>
+                     </text>
+                     <effectiveTime value="20230807"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="Lc1db4047-bcab-4a1b-8c18-ff833fc8d9ce">
+                     <id root="7482161b-7965-4a67-9919-2244024c9e30"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>5.2 Anemia, Neutropenia and Thrombocytopenia</title>
+                     <text>
+                        <paragraph>Azacitidine causes anemia, neutropenia and thrombocytopenia in adult patients with MDS. Monitor complete blood counts frequently for response and/or toxicity, at a minimum, prior to each dosing cycle.</paragraph>
+                        <paragraph>In adult patients with MDS, after administration of the recommended dosage for the first cycle, adjust dosage for subsequent cycles based on nadir counts and hematologic response [<content styleCode="italics">see <linkHtml href="#ID9">Dosage and Administration (2.5)</linkHtml>
+                           </content>].</paragraph>
+                     </text>
+                     <effectiveTime value="20230802"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="Laf0556f7-2f41-49bb-9b37-78f8283c55be">
+                     <id root="191c0ec2-db68-406d-b184-e69b840fc90d"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>5.3 Hepatotoxicity in Patients with Severe Pre-existing Hepatic Impairment</title>
+                     <text>
+                        <paragraph>Because azacitidine is potentially hepatotoxic in patients with severe pre-existing hepatic impairment, caution is needed in patients with liver disease. Patients with extensive tumor burden due to metastatic disease have been reported to experience progressive hepatic coma and death during azacitidine treatment, especially in such patients with baseline albumin &lt;30 g/L. Azacitidine is contraindicated in patients with advanced malignant hepatic tumors [<content styleCode="italics">see <linkHtml href="#ID28">Contraindications (4.1)</linkHtml>
+                           </content>]. Monitor liver chemistries prior to initiation of therapy and with each cycle.</paragraph>
+                        <paragraph>Safety and effectiveness of Azacitidine in patients with MDS and hepatic impairment have not been studied as these patients were excluded from the clinical trials.</paragraph>
+                     </text>
+                     <effectiveTime value="20230726"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="L2f0fd952-becd-45e2-8228-e6da424260d0">
+                     <id root="9031b5f9-71c2-43e7-92e6-c8bff72f1bfd"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>5.4 Renal Toxicity</title>
+                     <text>
+                        <paragraph>Renal toxicity ranging from elevated serum creatinine to renal failure and death have been reported in patients treated with intravenous azacitidine in combination with other chemotherapeutic agents for non-MDS conditions. In addition, renal tubular acidosis, defined as a fall in serum bicarbonate to &lt;20 mEq/L in association with an alkaline urine and hypokalemia (serum potassium &lt;3 mEq/L) developed in 5 patients with CML treated with azacitidine and etoposide. Monitor serum creatinine and electrolytes prior to initiation of therapy and with each cycle. If unexplained reductions in serum bicarbonate &lt;20 mEq/L or elevations of BUN or serum creatinine occur, reduce or hold the dose [<content styleCode="italics">see <linkHtml href="#ID15">Dosage and Administration (2.6)</linkHtml>
+                           </content>].</paragraph>
+                        <paragraph>Patients with renal impairment may be at increased risk for renal toxicity. Also, azacitidine and its metabolites are primarily excreted by the kidney. Therefore, monitor these patients closely for toxicity [<content styleCode="italics">see <linkHtml href="#ID15">Dosage and Administration (2.6</linkHtml>, <linkHtml href="#ID17">2.7</linkHtml>)</content>]. Patients with MDS and renal impairment were excluded from the clinical studies.</paragraph>
+                     </text>
+                     <effectiveTime value="20230726"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="L260fafcc-3ad3-40f6-b837-a2a4fe97c743">
+                     <id root="9cf3b279-cd7a-4eed-a040-3fc365920cff"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>5.5 Tumor Lysis Syndrome</title>
+                     <text>
+                        <paragraph>Azacitidine may cause fatal or serious tumor lysis syndrome, including in patients with MDS. Tumor lysis syndrome may occur despite concomitant use of allopurinol. Assess baseline risk and monitor and treat as appropriate.</paragraph>
+                     </text>
+                     <effectiveTime value="20230726"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="Lbc777e43-d753-4466-8178-d6d14e8fa10e">
+                     <id root="d257ba63-8358-4705-8d70-8437c4cc8b5f"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>5.6 Embryo-Fetal Toxicity</title>
+                     <text>
+                        <paragraph>Based on the mechanism of action and findings in animals, azacitidine can cause fetal harm when administered to a pregnant woman. Azacitidine administered to pregnant rats via a single intraperitoneal (IP) dose approximating 8% of the recommended human daily dose caused fetal death and anomalies.</paragraph>
+                        <paragraph>│Advise pregnant women of the potential risk to a fetus. Advise females of reproductive potential to use effective contraception during treatment with Azacitidine and for 6 months after the last dose. Advise males with female partners of reproductive potential to use effective contraception during treatment with Azacitidine and for 3 months after the last dose [<content styleCode="italics">see <linkHtml href="#ID59">Use in Specific Populations (8.1</linkHtml>, <linkHtml href="#ID61">8.3</linkHtml>
+                           </content>)].</paragraph>
+                     </text>
+                     <effectiveTime value="20230807"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="ID43">
+               <id root="83ca8294-4d2e-4133-a4d8-68e67ad71e90"/>
+               <code code="34084-4" codeSystem="2.16.840.1.113883.6.1" displayName="ADVERSE REACTIONS SECTION"/>
+               <title>6    ADVERSE REACTIONS</title>
+               <effectiveTime value="20230807"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <paragraph>Most common adverse reactions (&gt;30%) in adult patients with MDS by subcutaneous route are: nausea, anemia, thrombocytopenia, vomiting, pyrexia, leukopenia, diarrhea, injection site erythema, constipation, neutropenia and ecchymosis. Most common adverse reactions by intravenous route also included petechiae, rigors, weakness and hypokalemia (<linkHtml href="#ID53">6.1</linkHtml>).</paragraph>
+                        <paragraph/>
+                        <paragraph>
+                           <content styleCode="bold">To report SUSPECTED ADVERSE REACTIONS, contact Shilpa Medicare Limited 1-888-557-1212 or FDA at 1-800-FDA-1088 or</content>
+                           <content styleCode="bold"> www.fda.gov/medwatch.</content>
+                        </paragraph>
+                     </text>
+                  </highlight>
+               </excerpt>
+               <component>
+                  <section ID="ID121">
+                     <id root="edd9e706-d974-483d-9001-bea97704e082"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <text>
+                        <paragraph ID="ID44">The following adverse reactions are described in other labeling sections:</paragraph>
+                        <list listType="unordered" ID="ID45" styleCode="Disc">
+                           <item>Anemia, Neutropenia and Thrombocytopenia [<content styleCode="italics">see <linkHtml href="#Lc1db4047-bcab-4a1b-8c18-ff833fc8d9ce">Warnings and Precautions (5.2)</linkHtml>
+                              </content>]</item>
+                           <item>Hepatotoxicity in Patients with Severe Pre-existing Hepatic Impairment [<content styleCode="italics">see <linkHtml href="#Laf0556f7-2f41-49bb-9b37-78f8283c55be">Warnings and Precautions (5.3)</linkHtml>
+                              </content>]</item>
+                           <item>Renal Toxicity [<content styleCode="italics">see <linkHtml href="#L2f0fd952-becd-45e2-8228-e6da424260d0">Warnings and Precautions (5.4)</linkHtml>
+                              </content>]</item>
+                           <item>Tumor Lysis Syndrome [<content styleCode="italics">see <linkHtml href="#L260fafcc-3ad3-40f6-b837-a2a4fe97c743">Warnings and Precautions (5.5)</linkHtml>
+                              </content>]</item>
+                        </list>
+                     </text>
+                     <effectiveTime value="20230807"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID53">
+                     <id root="e7849aba-402d-4258-a92d-b46948ce220d"/>
+                     <title>6.1 Clinical Trials Experience</title>
+                     <text>
+                        <paragraph>Because clinical trials are conducted under widely varying conditions, adverse reaction rates observed in the clinical trials of a drug cannot be directly compared to rates in the clinical trials of another drug and may not reflect the rates observed in practice.</paragraph>
+                        <paragraph>
+                           <content styleCode="underline">MDS</content>
+                        </paragraph>
+                        <paragraph>The data described below reflect exposure to Azacitidine in 443 patients with MDS from 4 clinical studies. Study 1 was a supportive-care controlled trial (subcutaneous administration), Studies 2 and 3 were single arm studies (one with subcutaneous administration and one with intravenous administration), and Study 4 was an international randomized trial (subcutaneous administration) [<content styleCode="italics">see <linkHtml href="#L7e18e1f6-030d-4e10-b6e3-33fcdc68f02d">Clinical Studies (14.1)</linkHtml>
+                           </content>].</paragraph>
+                        <paragraph>In Studies 1, 2 and 3, a total of 268 patients were exposed to Azacitidine, including 116 exposed for 6 cycles (approximately 6 months) or more and 60 exposed for greater than 12 cycles (approximately one year). Azacitidine was studied primarily in supportive-care controlled and uncontrolled trials (n=150 and n=118, respectively). The population in the subcutaneous studies (n=220) was 23 to 92 years old (mean 66.4 years), 68% male, and 94% white, and had MDS or AML. The population in the intravenous study (n=48) was 35 to 81 years old (mean 63.1 years), 65% male, and 100% white. Most patients received average daily doses between 50 and 100 mg/m².</paragraph>
+                        <paragraph>In Study 4, a total of 175 patients with higher-risk MDS (primarily RAEB and RAEB-T subtypes) were exposed to Azacitidine. Of these patients, 119 were exposed for 6 or more cycles, and 63 for at least 12 cycles. The mean age of this population was 68.1 years (ranging from 42 to 83 years), 74% were male, and 99% were white. Most patients received daily Azacitidine doses of 75 mg/m².</paragraph>
+                        <paragraph>Most Commonly Occurring Adverse Reactions (Subcutaneous or Intravenous Route) in Adult Patients with MDS: nausea, anemia, thrombocytopenia, vomiting, pyrexia, leukopenia, diarrhea, injection site erythema, constipation, neutropenia, ecchymosis. The most common adverse reactions by intravenous route also included petechiae, rigors, weakness and hypokalemia.</paragraph>
+                        <paragraph>Adverse Reactions Most Frequently (&gt;2%) Resulting in Clinical Intervention (Subcutaneous or Intravenous Route) in Adult Patients with MDS:</paragraph>
+                        <paragraph>Discontinuation: leukopenia, thrombocytopenia, neutropenia.</paragraph>
+                        <paragraph>Dose Held: leukopenia, neutropenia, thrombocytopenia, pyrexia, pneumonia, febrile neutropenia.</paragraph>
+                        <paragraph>Dose Reduced: leukopenia, neutropenia, thrombocytopenia.</paragraph>
+                        <paragraph>Table 3 presents adverse reactions occurring in at least 5% of patients treated with Azacitidine (subcutaneous) in Studies 1 and 2. It is important to note that duration of exposure was longer for the Azacitidine-treated group than for the observation group: patients received Azacitidine for a mean of 11.4 months while mean time in the observation arm was 6.1 months.</paragraph>
+                        <paragraph>
+                           <content styleCode="bold">Table 3: Most Frequently Observed Adverse Reactions (≥ 5% in All Subcutaneous Azacitidine Treated Patients; </content>
+                           <content styleCode="bold">Studies 1 and 2)</content>
+                        </paragraph>
+                        <table width="100%">
+                           <tbody>
+                              <tr>
+                                 <td styleCode="Botrule Lrule Rrule Toprule"/>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" colspan="2" align="center">
+                                    <content styleCode="bold">Number (%) of Patients</content>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Botrule Lrule Rrule Toprule">
+                                    <content styleCode="bold"> System Organ Class <br/> Preferred Term<sup>a</sup>
+                                    </content>
+                                 </td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center">
+                                    <content styleCode="bold">All Azacitidine<sup>b</sup>
+                                    </content>
+                                    <br/>
+                                    <content styleCode="bold">(N=220)</content>
+                                 </td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center">
+                                    <content styleCode="bold">Observation<sup>c</sup>
+                                    </content>
+                                    <br/>
+                                    <content styleCode="bold">(N=92)</content>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Botrule Lrule Rrule Toprule">
+                                    <content styleCode="bold"> Blood and lymphatic system disorders</content>
+                                 </td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule"/>
+                                 <td styleCode="Botrule Lrule Rrule Toprule"/>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Botrule Lrule Rrule Toprule">   Anemia</td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center">153 (70)</td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center">59 (64)</td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Botrule Lrule Rrule Toprule">   Anemia aggravated</td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center">12 (6)</td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center">5 (5)</td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Botrule Lrule Rrule Toprule">   Febrile neutropenia</td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center">36 (16)</td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center">4 (4)</td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Botrule Lrule Rrule Toprule">   Leukopenia</td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center">106 (48)</td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center">27 (29)</td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Botrule Lrule Rrule Toprule">   Neutropenia</td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center">71 (32)</td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center">10 (11)</td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Botrule Lrule Rrule Toprule">   Thrombocytopenia</td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center">144 (66)</td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center">42 (46)</td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" colspan="3">
+                                    <content styleCode="bold">Gastrointestinal disorders</content>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Botrule Lrule Rrule Toprule">   Abdominal tenderness</td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center">26 (12)</td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center">1 (1)</td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Botrule Lrule Rrule Toprule">   Constipation</td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center">74 (34)</td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center">6 (7)</td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Botrule Lrule Rrule Toprule">   Diarrhea</td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center">80 (36)</td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center">13 (14)</td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Botrule Lrule Rrule Toprule">   Gingival bleeding</td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center">21 (10)</td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center">4 (4)</td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Botrule Lrule Rrule Toprule">   Loose stools</td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center">12 (6)</td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center">0</td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Botrule Lrule Rrule Toprule">   Mouth hemorrhage</td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center">11 (5)</td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center">1 (1)</td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Botrule Lrule Rrule Toprule">   Nausea</td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center">155 (71)</td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center">16 (17)</td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Botrule Lrule Rrule Toprule">   Stomatitis</td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center">17 (8)</td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center">0</td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Botrule Lrule Rrule Toprule">   Vomiting</td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center">119 (54)</td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center">5 (5)</td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" colspan="3">
+                                    <content styleCode="bold">General disorders and administration site conditions</content>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Botrule Lrule Rrule Toprule">   Chest pain</td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center">36 (16)</td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center">5 (5)</td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Botrule Lrule Rrule Toprule">   Injection site bruising</td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center">31 (14)</td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center">0</td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Botrule Lrule Rrule Toprule">   Injection site erythema</td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center">77 (35)</td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center">0</td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Botrule Lrule Rrule Toprule">   Injection site granuloma</td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center">11 (5)</td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center">0</td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Botrule Lrule Rrule Toprule">   Injection site pain</td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center">50 (23)</td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center">0</td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Botrule Lrule Rrule Toprule">   Injection site pigmentation changes</td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center">11 (5)</td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center">0</td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Botrule Lrule Rrule Toprule">   Injection site pruritus</td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center">15 (7)</td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center">0</td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Botrule Lrule Rrule Toprule">   Injection site reaction</td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center">30 (14)</td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center">0</td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Botrule Lrule Rrule Toprule">   Injection site swelling</td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center">11 (5)</td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center">0</td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Botrule Lrule Rrule Toprule">   Lethargy</td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center">17 (8)</td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center">2 (2)</td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Botrule Lrule Rrule Toprule">   Malaise</td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center">24 (11)</td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center">1 (1)</td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Botrule Lrule Rrule Toprule">   Pyrexia</td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center">114 (52)</td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center">28 (30)</td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" colspan="3">
+                                    <content styleCode="bold">Infections and infestations</content>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Botrule Lrule Rrule Toprule">   Nasopharyngitis</td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center">32 (15)</td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center">3 (3)</td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Botrule Lrule Rrule Toprule">   Pneumonia</td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center">24 (11)</td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center">5 (5)</td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Botrule Lrule Rrule Toprule">   Upper respiratory tract infection</td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center">28 (13)</td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center">4 (4)</td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" colspan="3">
+                                    <content styleCode="bold">Injury, poisoning, and procedural complications</content>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Botrule Lrule Rrule Toprule">   Post procedural hemorrhage</td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center">13 (6)</td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center">1 (1)</td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" colspan="3">
+                                    <content styleCode="bold">Metabolism and nutrition disorders</content>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Botrule Lrule Rrule Toprule">   Anorexia</td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center">45 (21)</td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center">6 (7)</td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" colspan="3">
+                                    <content styleCode="bold">Musculoskeletal and connective tissue disorders</content>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Botrule Lrule Rrule Toprule">   Arthralgia</td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center">49 (22)</td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center">3 (3)</td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Botrule Lrule Rrule Toprule">   Chest wall pain</td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center">11 (5)</td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center">0</td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Botrule Lrule Rrule Toprule">   Myalgia</td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center">35 (16)</td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center">2 (2)</td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Botrule Lrule Rrule Toprule">
+                                    <content styleCode="bold">Nervous system disorders</content>
+                                 </td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule"/>
+                                 <td styleCode="Botrule Lrule Rrule Toprule"/>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Botrule Lrule Rrule Toprule">   Dizziness</td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center">41 (19)</td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center">5 (5)</td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Botrule Lrule Rrule Toprule">   Headache</td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center">48 (22)</td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center">10 (11)</td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Botrule Lrule Rrule Toprule">
+                                    <content styleCode="bold">Psychiatric disorders</content>
+                                 </td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule"/>
+                                 <td styleCode="Botrule Lrule Rrule Toprule"/>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Botrule Lrule Rrule Toprule">   Anxiety</td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center">29 (13)</td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center">3 (3)</td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Botrule Lrule Rrule Toprule">   Insomnia</td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center">24 (11)</td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center">4 (4)</td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" colspan="3">
+                                    <content styleCode="bold">Respiratory, thoracic and mediastinal disorders</content>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Botrule Lrule Rrule Toprule">   Dyspnea</td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center">64 (29)</td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center">11 (12)</td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" colspan="3">
+                                    <content styleCode="bold">Skin and subcutaneous tissue disorders</content>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Botrule Lrule Rrule Toprule">   Dry skin</td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center">11 (5)</td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center">1 (1)</td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Botrule Lrule Rrule Toprule">   Ecchymosis</td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center">67 (31)</td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center">14 (15)</td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Botrule Lrule Rrule Toprule">   Erythema</td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center">37 (17)</td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center">4 (4)</td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Botrule Lrule Rrule Toprule">   Rash</td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center">31 (14)</td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center">9 (10)</td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Botrule Lrule Rrule Toprule">   Skin nodule</td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center">11 (5)</td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center">1 (1)</td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Botrule Lrule Rrule Toprule">   Urticaria</td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center">13 (6)</td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center">1 (1)</td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" colspan="3">
+                                    <content styleCode="bold">Vascular disorders</content>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Botrule Lrule Rrule Toprule">   Hematoma</td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center">19 (9)</td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center">0</td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Botrule Lrule Rrule Toprule">   Hypotension</td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center">15 (7)</td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center">2 (2)</td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Botrule Lrule Rrule Toprule">   Petechiae</td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center">52 (24)</td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center">8 (9)</td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" colspan="3">
+                                    <sup>a</sup> Multiple terms of the same preferred terms for a patient are only counted once within each treatment group.<br/>
+                                    <sup>b</sup> Includes adverse reactions from all patients exposed to Azacitidine, including patients after crossing over from observations.<br/>
+                                    <sup>c</sup> Includes adverse reactions from observation period only; excludes any adverse events after crossover to Azacitidine.</td>
+                              </tr>
+                           </tbody>
+                        </table>
+                        <paragraph>Table 4 presents adverse reactions occurring in at least 5% of patients treated with Azacitidine in Study 4. Similar to Studies 1 and 2 described above, duration of exposure to treatment with Azacitidine was longer (mean 12.2 months) compared with best supportive care (mean 7.5 months).</paragraph>
+                        <paragraph>
+                           <content styleCode="bold">Table 4: Most Frequently Observed Adverse Reactions (≥ 5% in the Azacitidine Treated Patients and the Percentage with NCI CTC Grade 3/4 Reactions; Study 4)</content>
+                        </paragraph>
+                        <table width="100%">
+                           <tbody>
+                              <tr>
+                                 <td styleCode="Botrule Lrule Rrule Toprule"/>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" colspan="4" align="center">
+                                    <content styleCode="bold">Number (%) of Patients</content>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Botrule Lrule Rrule Toprule"/>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" colspan="2" align="center">
+                                    <content styleCode="bold">Any Grade</content>
+                                 </td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" colspan="2" align="center">
+                                    <content styleCode="bold">Grade 3/4</content>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center">
+                                    <content styleCode="bold">System Organ Class</content>
+                                    <br/>
+                                    <content styleCode="bold">Preferred Term<sup>a</sup>
+                                    </content>
+                                 </td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center">
+                                    <content styleCode="bold">Azacitidine</content>
+                                    <br/>
+                                    <content styleCode="bold">(N=175) </content>
+                                 </td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center">
+                                    <content styleCode="bold">Best</content>
+                                    <br/>
+                                    <content styleCode="bold">Supportive</content>
+                                    <br/>
+                                    <content styleCode="bold">Care Only</content>
+                                    <br/>
+                                    <content styleCode="bold">(N=102)</content>
+                                 </td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center">
+                                    <content styleCode="bold">Azacitidine</content>
+                                    <br/>
+                                    <content styleCode="bold">(N=175)</content>
+                                 </td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center">
+                                    <content styleCode="bold">Best</content>
+                                    <br/>
+                                    <content styleCode="bold">Supportive</content>
+                                    <br/>
+                                    <content styleCode="bold">Care Only</content>
+                                    <br/>
+                                    <content styleCode="bold">(N=102) </content>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" colspan="5">
+                                    <content styleCode="bold">Blood and lymphatic system disorders</content>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Botrule Lrule Rrule Toprule">   Anemia</td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center">90 (51)</td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center">45 (44)</td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center">24 (14)</td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center">9 (9)</td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Botrule Lrule Rrule Toprule">   Febrile neutropenia</td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center">24 (14)</td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center">10 (10)</td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center">22 (13)</td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center">7 (7)</td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Botrule Lrule Rrule Toprule">   Leukopenia</td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center">32 (18)</td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center">2 (2)</td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center">26 (15)</td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center">1 (1)</td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Botrule Lrule Rrule Toprule">   Neutropenia</td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center">115 (66)</td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center">29 (28)</td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center">107 (61)</td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center">22 (22)</td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Botrule Lrule Rrule Toprule">   Thrombocytopenia</td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center">122 (70)</td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center">35 (34)</td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center">102 (58)</td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center">29 (28)</td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" colspan="5">
+                                    <content styleCode="bold">Gastrointestinal disorders</content>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Botrule Lrule Rrule Toprule">   Abdominal pain</td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center">22 (13)</td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center">7 (7)</td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center">7 (4)</td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center"> 0</td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Botrule Lrule Rrule Toprule">   Constipation</td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center">88 (50)</td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center">8 (8)</td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center">2 (1)</td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center"> 0</td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Botrule Lrule Rrule Toprule">   Dyspepsia</td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center">10 (6)</td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center"> 2 (2)</td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center">0</td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center"> 0</td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Botrule Lrule Rrule Toprule">   Nausea</td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center">84 (48)</td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center">12 (12)</td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center"> 3 (2)</td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center"> 0</td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Botrule Lrule Rrule Toprule">   Vomiting</td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center">47 (27)</td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center">7(7)</td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center">0</td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center">0</td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" colspan="5">
+                                    <content styleCode="bold">General disorders and administration site conditions</content>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Botrule Lrule Rrule Toprule">   Fatigue</td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center">42 (24)</td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center">12 (12)</td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center">6 (3)</td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center">2 (2)</td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Botrule Lrule Rrule Toprule">   Injection site bruising</td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center">9 (5)</td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center">0</td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center">0</td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center">0</td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Botrule Lrule Rrule Toprule">   Injection site erythema</td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center">75 (43)</td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center">0</td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center">0</td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center">0</td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Botrule Lrule Rrule Toprule">   Injection site hematoma</td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center">11 (6)</td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center">0</td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center">0</td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center">0</td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Botrule Lrule Rrule Toprule">   Injection site induration</td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center">9 (5)</td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center">0</td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center">0</td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center">0</td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Botrule Lrule Rrule Toprule">   Injection site pain</td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center">33 (19)</td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center">0</td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center">0</td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center">0</td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Botrule Lrule Rrule Toprule">   Injection site rash</td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center">10 (6)</td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center">0</td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center">0</td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center">0</td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Botrule Lrule Rrule Toprule">   Injection site reaction</td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center">51 (29)</td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center">0</td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center">1 (1)</td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center">0</td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Botrule Lrule Rrule Toprule">   Pyrexia</td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center">53 (30)</td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center">18 (18)</td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center">8 (5)</td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center">1 (1)</td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" colspan="5">
+                                    <content styleCode="bold">Infections and infestations</content>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Botrule Lrule Rrule Toprule">   Rhinitis</td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center">10 (6)</td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center">1 (1)</td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center">0</td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center">0</td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Botrule Lrule Rrule Toprule">   Upper respiratory tract infection</td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center">16 (9)</td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center">4 (4)</td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center">3 (2)</td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center">0</td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Botrule Lrule Rrule Toprule">   Urinary tract infection</td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center">15 (9)</td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center">3 (3)</td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center">3 (2)</td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center">0</td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" colspan="5">
+                                    <content styleCode="bold">Investigations</content>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Botrule Lrule Rrule Toprule">   Weight decreased</td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center">14 (8)</td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center">0</td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center">1 (1)</td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center">0</td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" colspan="5">
+                                    <content styleCode="bold">Metabolism and nutrition disorders</content>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Botrule Lrule Rrule Toprule">   Hypokalemia</td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center">11 (6)</td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center">3 (3)</td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center">3 (2)</td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center">3 (3)</td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" colspan="5">
+                                    <content styleCode="bold">Nervous system disorders</content>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Botrule Lrule Rrule Toprule">   Lethargy</td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center">13 (7)</td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center">2 (2)</td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center">0</td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center"> 1 (1)</td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" colspan="5">
+                                    <content styleCode="bold">Psychiatric disorders</content>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Botrule Lrule Rrule Toprule">   Anxiety</td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center">9 (5)</td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center">1 (1)</td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center">0</td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center">0</td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Botrule Lrule Rrule Toprule">   Insomnia</td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center">15 (9)</td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center"> 3 (3)</td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center"> 0</td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center">0</td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" colspan="5">
+                                    <content styleCode="bold">Renal and urinary disorders</content>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Botrule Lrule Rrule Toprule">   Hematuria</td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center">11 (6)</td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center">2 (2)</td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center"> 4 (2)</td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center"> 1 (1)</td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" colspan="5">
+                                    <content styleCode="bold">Respiratory, thoracic and mediastinal disorders</content>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Botrule Lrule Rrule Toprule">   Dyspnea</td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center">26 (15)</td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center">5 (5)</td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center"> 6 (3)</td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center"> 2 (2)</td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Botrule Lrule Rrule Toprule">   Dyspnea exertional</td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center">9 (5)</td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center"> 1 (1)</td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center">0</td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center"> 0</td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Botrule Lrule Rrule Toprule">   Pharyngolaryngeal pain</td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center">11 (6)</td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center"> 3 (3)</td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center"> 0</td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center"> 0</td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" colspan="5">
+                                    <content styleCode="bold">Skin and subcutaneous tissue disorders</content>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Botrule Lrule Rrule Toprule">   Erythema</td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center">13 (7)</td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center"> 3 (3)</td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center"> 0</td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center"> 0</td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Botrule Lrule Rrule Toprule">   Petechiae</td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center">20 (11)</td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center"> 4 (4)</td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center"> 2 (1)</td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center"> 0</td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Botrule Lrule Rrule Toprule">   Pruritus</td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center">21 (12)</td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center"> 2 (2)</td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center"> 0</td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center"> 0</td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Botrule Lrule Rrule Toprule">   Rash</td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center">18 (10)</td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center"> 1 (1)</td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center"> 0</td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center"> 0</td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" colspan="5">
+                                    <content styleCode="bold">Vascular disorders</content>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Botrule Lrule Rrule Toprule">   Hypertension</td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center"> 15 (9)</td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center">4 (4)</td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center">2 (1)</td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center">2 (2)</td>
+                              </tr>
+                           </tbody>
+                        </table>
+                        <paragraph>
+                           <sup>a</sup>Multiple reports of the same preferred term from a patient were only counted once within each treatment.</paragraph>
+                        <paragraph>In Studies 1, 2 and 4 with subcutaneous administration of Azacitidine, adverse reactions of neutropenia, thrombocytopenia, anemia, nausea, vomiting, diarrhea, constipation, and injection site erythema/reaction tended to increase in incidence with higher doses of Azacitidine. Adverse reactions that tended to be more pronounced during the first 1 to 2 cycles of subcutaneous treatment compared with later cycles included thrombocytopenia, neutropenia, anemia, nausea, vomiting, injection site erythema/pain/bruising/reaction, constipation, petechiae, dizziness, anxiety, hypokalemia, and insomnia. There did not appear to be any adverse reactions that increased in frequency over the course of treatment.</paragraph>
+                        <paragraph>Overall, adverse reactions were qualitatively similar between the intravenous and subcutaneous studies. Adverse reactions that appeared to be specifically associated with the intravenous route of administration included infusion site reactions (e.g. erythema or pain) and catheter site reactions (e.g. infection, erythema, or hemorrhage).</paragraph>
+                        <paragraph>In clinical studies of either subcutaneous or intravenous Azacitidine, the following serious adverse reactions occurring at a rate of &lt; 5% (and not described in Tables 2 or 3) were reported:</paragraph>
+                        <paragraph>
+                           <content styleCode="bold">Blood and lymphatic system disorders:</content> agranulocytosis, bone marrow failure, pancytopenia splenomegaly.</paragraph>
+                        <paragraph>
+                           <content styleCode="bold">Cardiac disorders:</content> atrial fibrillation, cardiac failure, cardiac failure congestive, cardiorespiratory arrest, congestive cardiomyopathy.</paragraph>
+                        <paragraph>
+                           <content styleCode="bold">Eye disorders:</content> eye hemorrhage</paragraph>
+                        <paragraph>
+                           <content styleCode="bold">Gastrointestinal disorders:</content> diverticulitis, gastrointestinal hemorrhage, melena, perirectal abscess.</paragraph>
+                        <paragraph>
+                           <content styleCode="bold">General disorders and administration site conditions:</content> catheter site hemorrhage, general physical health deterioration, systemic inflammatory response syndrome.</paragraph>
+                        <paragraph>
+                           <content styleCode="bold">Hepatobiliary disorders:</content> cholecystitis.</paragraph>
+                        <paragraph>
+                           <content styleCode="bold">Immune system disorders:</content> anaphylactic shock, hypersensitivity.</paragraph>
+                        <paragraph>
+                           <content styleCode="bold">Infections and infestations:</content> abscess limb, bacterial infection, cellulitis, blastomycosis, injection site infection, Klebsiella sepsis, neutropenic sepsis, pharyngitis streptococcal, pneumonia Klebsiella, sepsis, septic shock, Staphylococcal bacteremia, Staphylococcal infection, toxoplasmosis.</paragraph>
+                        <paragraph>
+                           <content styleCode="bold">Metabolism and nutrition disorders:</content> dehydration.</paragraph>
+                        <paragraph>
+                           <content styleCode="bold">Musculoskeletal and connective tissue disorders:</content> bone pain aggravated, muscle weakness, neck pain.</paragraph>
+                        <paragraph>
+                           <content styleCode="bold">Neoplasms benign, malignant and unspecified:</content> leukemia cutis.</paragraph>
+                        <paragraph>
+                           <content styleCode="bold">Nervous system disorders:</content> cerebral hemorrhage, convulsions, intracranial hemorrhage.</paragraph>
+                        <paragraph>
+                           <content styleCode="bold">Renal and urinary disorders:</content> loin pain, renal failure.</paragraph>
+                        <paragraph>
+                           <content styleCode="bold">Respiratory, thoracic and mediastinal disorders:</content> hemoptysis, lung infiltration, pneumonitis, respiratory distress.</paragraph>
+                        <paragraph>
+                           <content styleCode="bold">Skin and subcutaneous tissue disorders:</content> pyoderma gangrenosum, rash pruritic, skin induration.</paragraph>
+                        <paragraph>
+                           <content styleCode="bold">Surgical and medical procedures:</content> cholecystectomy.</paragraph>
+                        <paragraph>
+                           <content styleCode="bold">Vascular disorders:</content> orthostatic hypotension.</paragraph>
+                     </text>
+                     <effectiveTime value="20230807"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="L6f12d7d2-cc86-4cc2-bcbe-026c64b05309">
+                     <id root="37cbba0f-8457-4573-9485-0b7625c9a6b6"/>
+                     <title>6.2 Postmarketing Experience</title>
+                     <text>
+                        <paragraph ID="ID54">The following adverse reactions have been identified during postmarketing use of Azacitidine. Because these reactions are reported voluntarily from a population of uncertain size, it is not always possible to reliably estimate their frequency or establish a causal relationship to drug exposure.</paragraph>
+                        <paragraph>-   Interstitial lung disease</paragraph>
+                        <paragraph>-   Tumor lysis syndrome</paragraph>
+                        <paragraph>-   Injection site necrosis</paragraph>
+                        <paragraph>-   Sweet's syndrome (acute febrile neutrophilic dermatosis)</paragraph>
+                        <paragraph>-   Necrotizing fasciitis (including fatal cases)</paragraph>
+                        <paragraph>-   Differentiation syndrome</paragraph>
+                        <paragraph>-   Pericardial effusion</paragraph>
+                        <paragraph>-   Pericarditis</paragraph>
+                     </text>
+                     <effectiveTime value="20230807"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="ID58">
+               <id root="ca49dace-91fb-4e27-8dbf-91c45c250f11"/>
+               <code code="43684-0" codeSystem="2.16.840.1.113883.6.1" displayName="USE IN SPECIFIC POPULATIONS SECTION"/>
+               <title>8    USE IN SPECIFIC POPULATIONS</title>
+               <effectiveTime value="20230802"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <list listType="unordered" ID="ID144" styleCode="Disc">
+                           <item>Lactation: Advise not to breastfeed <linkHtml href="#ID163">(8.2)</linkHtml>.</item>
+                        </list>
+                     </text>
+                  </highlight>
+               </excerpt>
+               <component>
+                  <section ID="ID59">
+                     <id root="974e9dd5-d566-48b4-8549-740577aef19f"/>
+                     <code code="42228-7" codeSystem="2.16.840.1.113883.6.1" displayName="PREGNANCY SECTION"/>
+                     <title>8.1 Pregnancy</title>
+                     <text>
+                        <paragraph ID="ID60">
+                           <content styleCode="italics">Risk Summary</content>
+                        </paragraph>
+                        <paragraph>Based on its mechanism of action and findings in animals, Azacitidine can cause fetal harm when administered to a pregnant woman [<content styleCode="italics">see <linkHtml href="#ID80">Clinical Pharmacology (12.1)</linkHtml>
+                           </content>]. There are no data on the use of azacitidine in pregnant women. Azacitidine was teratogenic and caused embryo-fetal lethality in animals at doses lower than the recommended human daily dose [<content styleCode="italics">see </content>
+                           <content styleCode="italics">Data</content>]. Advise pregnant women of the potential risk to the fetus.</paragraph>
+                        <paragraph>The background rate of major birth defects and miscarriage is unknown for the indicated population. All pregnancies have a background risk of birth defect, loss or other adverse outcomes. In the U.S. general population, the estimated background risk of major birth defects and miscarriage in clinically recognized pregnancies is 2%-4% and 15%-20%, respectively.</paragraph>
+                        <paragraph>
+                           <content styleCode="underline">Data</content>
+                        </paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Animal Data</content>
+                        </paragraph>
+                        <paragraph>Early embryotoxicity studies in mice revealed a 44% frequency of intrauterine embryonal death (increased resorption) after a single IP (intraperitoneal) injection of 6 mg/m<sup>2</sup> (approximately 8% of the recommended human daily dose on a mg/m<sup>2</sup> basis) azacitidine on gestation day 10. Developmental abnormalities in the brain have been detected in mice given azacitidine on or before gestation day 15 at doses of ~3-12 mg/m<sup>2</sup> (approximately 4%-16% the recommended human daily dose on a mg/m<sup>2</sup> basis).</paragraph>
+                        <paragraph>In rats, azacitidine was clearly embryotoxic when given IP on gestation days 4-8 (postimplantation) at a dose of 6 mg/m<sup>2</sup> (approximately 8% of the recommended human daily dose on a mg/m<sup>2</sup> basis), although treatment in the preimplantation period (on gestation days 1-3) had no adverse effect on the embryos. Azacitidine caused multiple fetal abnormalities in rats after a single IP dose of 3 to 12 mg/m<sup>2</sup> (approximately 8% the recommended human daily dose on a mg/m<sup>2</sup> basis) given on gestation day 9, 10, 11 or 12. In this study azacitidine caused fetal death when administered at 3-12 mg/m<sup>2</sup> on gestation days 9 and 10; average live animals per litter was reduced to 9% of control at the highest dose on gestation day 9. Fetal anomalies included: CNS anomalies (exencephaly/encephalocele), limb anomalies (micromelia, club foot, syndactyly, oligodactyly), and others (micrognathia, gastroschisis, edema, and rib abnormalities).</paragraph>
+                     </text>
+                     <effectiveTime value="20230802"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID163">
+                     <id root="1558afcc-217a-4886-b2ef-7250453b5534"/>
+                     <title>8.2 Lactation</title>
+                     <text>
+                        <paragraph ID="ID164">
+                           <content styleCode="italics">Risk Summary </content>
+                        </paragraph>
+                        <paragraph>There is no information regarding the presence of azacitidine in human milk, the effects of Azacitidine on the breastfed infant, or the effects of Azacitidine on milk production. Because many drugs are excreted in human milk and because of the potential for tumorigenicity shown for azacitidine in animal studies <content styleCode="italics">[<linkHtml href="#ID85">see Nonclinical Toxicology (13.1)</linkHtml>] </content>and the potential for serious adverse reactions in nursing infants from Azacitidine, advise patients not to breastfeed during treatment with Azacitidine and for 1 week after the last dose.</paragraph>
+                     </text>
+                     <effectiveTime value="20230726"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID61">
+                     <id root="802f53fb-d293-4e73-a3d1-37b4b82d5cc7"/>
+                     <code code="34080-2" codeSystem="2.16.840.1.113883.6.1" displayName="NURSING MOTHERS SECTION"/>
+                     <title>8.3 Females and Males of Reproductive Potential</title>
+                     <text>
+                        <paragraph ID="ID62">Based on its mechanism of action and findings in animals, Azacitidine can cause fetal harm when administered to a pregnant woman [<content styleCode="italics">see <linkHtml href="#ID59">Use in Specific Populations (8.1)</linkHtml>
+                           </content>].</paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Pregnancy Testing</content>
+                        </paragraph>
+                        <paragraph>Verify the pregnancy status of females of reproductive potential prior to initiating azacitidine.</paragraph>
+                        <paragraph>
+                           <content styleCode="bold">Contraception</content>
+                        </paragraph>
+                        <paragraph>
+                           <content styleCode="underline">Females</content>
+                        </paragraph>
+                        <paragraph>Advise pregnant women of the potential risk to a fetus. Advise females of reproductive potential to use effective contraception during treatment with azacitidine and for 6 months after the last dose.</paragraph>
+                        <paragraph>
+                           <content styleCode="underline">Males</content>
+                        </paragraph>
+                        <paragraph>Advise males with female partners of reproductive potential to use effective contraception during treatment with azacitidine and for 3 months after the last dose.</paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Infertility</content>
+                        </paragraph>
+                        <paragraph>Based on animal data, azacitidine could have an effect on male or female fertility [<content styleCode="italics">see <linkHtml href="#ID85">Nonclinical Toxicology (13.1)</linkHtml>
+                           </content>].</paragraph>
+                     </text>
+                     <effectiveTime value="20230726"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID63">
+                     <id root="b7089cf4-9ec9-4a9c-ad6a-42c0e658a9ae"/>
+                     <code code="34081-0" codeSystem="2.16.840.1.113883.6.1" displayName="PEDIATRIC USE SECTION"/>
+                     <title>8.4 Pediatric Use</title>
+                     <text>
+                        <paragraph ID="ID64">Safety and effectiveness of azacitidine in pediatric patients with MDS have not been established.</paragraph>
+                     </text>
+                     <effectiveTime value="20230726"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID65">
+                     <id root="0aa620b9-520d-44d5-a6f1-536d41b1cf42"/>
+                     <code code="34082-8" codeSystem="2.16.840.1.113883.6.1" displayName="GERIATRIC USE SECTION"/>
+                     <title>8.5 Geriatric Use</title>
+                     <text>
+                        <paragraph ID="ID66">Of the total number of patients in Studies 1, 2 and 3, 62% were 65 years and older and 21% were 75 years and older. No overall differences in effectiveness were observed between these patients and younger patients. In addition there were no relevant differences in the frequency of adverse reactions observed in patients 65 years and older compared to younger patients.</paragraph>
+                        <paragraph>Of the 179 patients randomized to azacitidine in Study 4, 68% were 65 years and older and 21% were 75 years and older. Survival data for patients 65 years and older were consistent with overall survival results. The majority of adverse reactions occurred at similar frequencies in patients &lt; 65 years of age and patients 65 years of age and older.</paragraph>
+                        <paragraph>Elderly patients are more likely to have decreased renal function. Monitor renal function in these patients [<content styleCode="italics">see <linkHtml href="#ID9">Dosage and Administration (2.5)</linkHtml> and <linkHtml href="#L2f0fd952-becd-45e2-8228-e6da424260d0">Warnings and Precautions (5.4)</linkHtml>
+                           </content>].</paragraph>
+                     </text>
+                     <effectiveTime value="20230802"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="ID73">
+               <id root="fc34087a-42f0-4ff5-897f-6046a7e9df43"/>
+               <code code="34088-5" codeSystem="2.16.840.1.113883.6.1" displayName="OVERDOSAGE SECTION"/>
+               <title>10    OVERDOSAGE</title>
+               <effectiveTime value="20230726"/>
+               <component>
+                  <section ID="ID156">
+                     <id root="af9a2e57-e856-4c22-83c7-61c479ce6faa"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <text>
+                        <paragraph ID="ID74">One case of overdose with Azacitidine was reported during clinical trials. A patient experienced diarrhea, nausea, and vomiting after receiving a single intravenous dose of approximately 290 mg/m<sup>2</sup>, almost 4 times the recommended starting dose. The events resolved without sequelae, and the correct dose was resumed the following day. In the event of overdosage, the patient should be monitored with appropriate blood counts and should receive supportive treatment, as necessary. There is no known specific antidote for Azacitidine overdosage.</paragraph>
+                     </text>
+                     <effectiveTime value="20230726"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="ID75">
+               <id root="b0ad0196-8c5a-4ded-a5af-1f8db51e2684"/>
+               <code code="34089-3" codeSystem="2.16.840.1.113883.6.1" displayName="DESCRIPTION SECTION"/>
+               <title>11    DESCRIPTION</title>
+               <text>
+                  <paragraph ID="ID76">Azacitidine for injection contains azacitidine, which is a nucleoside metabolic inhibitor. Azacitidine is 4-amino-1-β-D-ribofuranosyl-s-triazin-2(1H)-one. The structural formula is as follows:</paragraph>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="L1bb30df8-01ee-4f6d-aeb3-8a30d549b034"/>
+                  </paragraph>
+                  <paragraph>The empirical formula is C<sub>8</sub>H<sub>12</sub>N<sub>4</sub>O<sub>5</sub>. The molecular weight is 244. Azacitidine is a white to off-white solid. Azacitidine was found to be insoluble in acetone, ethanol, and methyl ethyl ketone; slightly soluble in ethanol/water (50/50), propylene glycol, and polyethylene glycol; sparingly soluble in water, water saturated octanol, 5% dextrose in water, N-methyl-2-pyrrolidone, normal saline and 5% Tween 80 in water; and soluble in dimethylsulfoxide (DMSO).</paragraph>
+                  <paragraph>The finished product is supplied in a sterile form for reconstitution as a suspension for subcutaneous injection or reconstitution as a solution with further dilution for intravenous infusion. Vials of Azacitidine for injection contain 100 mg of azacitidine and 100 mg mannitol as a sterile lyophilized powder.</paragraph>
+               </text>
+               <effectiveTime value="20230727"/>
+               <component>
+                  <observationMedia ID="L1bb30df8-01ee-4f6d-aeb3-8a30d549b034">
+                     <text>IMAGE</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="Structure.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="ID79">
+               <id root="bf4adbeb-4d16-4448-b713-680b4b9e770d"/>
+               <code code="34090-1" codeSystem="2.16.840.1.113883.6.1" displayName="CLINICAL PHARMACOLOGY SECTION"/>
+               <title>12    CLINICAL PHARMACOLOGY</title>
+               <effectiveTime value="20230726"/>
+               <component>
+                  <section ID="ID80">
+                     <id root="4e5a3f59-1570-454d-bde6-6fe365c764a4"/>
+                     <code code="43679-0" codeSystem="2.16.840.1.113883.6.1" displayName="MECHANISM OF ACTION SECTION"/>
+                     <title>12.1 Mechanism of Action</title>
+                     <text>
+                        <paragraph ID="ID81">Azacitidine is a pyrimidine nucleoside analog of cytidine. Azacitidine is believed to exert its antineoplastic effects by causing hypomethylation of DNA and direct cytotoxicity on abnormal hematopoietic cells in the bone marrow. The concentration of azacitidine required for maximum inhibition of DNA methylation <content styleCode="italics">in vitro</content> does not cause major suppression of DNA synthesis. Hypomethylation may restore normal function to genes that are critical for differentiation and proliferation. The cytotoxic effects of azacitidine cause the death of rapidly dividing cells, including cancer cells that are no longer responsive to normal growth control mechanisms. Non-proliferating cells are relatively insensitive to azacitidine.</paragraph>
+                     </text>
+                     <effectiveTime value="20230726"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID82">
+                     <id root="3b70b8a2-2935-4a75-985f-fb1f2bb2bcd8"/>
+                     <code code="43682-4" codeSystem="2.16.840.1.113883.6.1" displayName="PHARMACOKINETICS SECTION"/>
+                     <title>12.3 Pharmacokinetics</title>
+                     <text>
+                        <paragraph ID="ID83">The pharmacokinetics of azacitidine were studied in 6 adult patients with MDS following a single 75 mg/m<sup>2</sup> subcutaneous dose and a single 75 mg/m<sup>2</sup> intravenous dose.</paragraph>
+                        <paragraph>
+                           <content styleCode="bold">Absorption</content>
+                        </paragraph>
+                        <paragraph>Azacitidine is rapidly absorbed after subcutaneous administration; the peak plasma azacitidine concentration of 750 ± 403 ng/ml occurred in 0.5 hour after subcutaneous administration.</paragraph>
+                        <paragraph>
+                           <content styleCode="bold">Distribution</content>
+                        </paragraph>
+                        <paragraph>The bioavailability of subcutaneous azacitidine relative to intravenous azacitidine is approximately 89%, based on area under the curve. Mean volume of distribution following intravenous dosing is 76 ± 26 L. Mean apparent subcutaneous clearance is 167 ± 49 L/hour and mean half-life after subcutaneous administration is 41 ± 8 minutes. The AUC and C<sub>max</sub> of subcutaneous administration of azacitidine in 21 patients with cancer were approximately dose proportional within the 25 to 100 mg/m² dose range. Multiple dosing at the recommended dose-regimen does not result in drug accumulation with intravenous or subcutaneous administration.</paragraph>
+                        <paragraph>
+                           <content styleCode="bold">Elimination</content>
+                        </paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Metabolism</content>
+                        </paragraph>
+                        <paragraph>An in vitro study of azacitidine incubation in human liver fractions indicated that azacitidine is not metabolized by the cytochrome P450 (CYP) enzymes. Azacitidine undergoes spontaneous hydrolysis and deamination mediated by cytidine deaminase.</paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Excretion</content>
+                        </paragraph>
+                        <paragraph>Published studies indicate that urinary excretion is the primary route of elimination of azacitidine and its metabolites. Following intravenous administration of radioactive azacitidine to 5 cancer patients, the cumulative urinary excretion was 85% of the radioactive dose. Fecal excretion accounted for &lt;1% of administered radioactivity over 3 days. Mean excretion of radioactivity in urine following subcutaneous administration of <sup>14</sup>C-azacitidine was 50%. The mean elimination half-lives of total radioactivity (azacitidine and its metabolites) were similar after intravenous and subcutaneous administrations, about 4 hours.</paragraph>
+                        <paragraph>
+                           <content styleCode="bold">Specific Populations</content>
+                        </paragraph>
+                        <paragraph>The effects of hepatic impairment, gender, or race/ethnicity on the pharmacokinetics of intravenous and subcutaneous azacitidine have not been studied.</paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Patients with Renal Impairment</content>
+                        </paragraph>
+                        <paragraph>In adult patients with cancer the pharmacokinetics of azacitidine in 6 patients with normal renal function (CLcr &gt; 80 mL/min) and 6 patients with severe renal impairment (CLcr &lt; 30 mL/min) were compared following daily subcutaneous dosing (Days 1 through 5) at 75 mg/m<sup>2</sup>/day. Severe renal impairment increased azacitidine exposure by approximately 70% after single and 41% after multiple subcutaneous administrations. This increase in exposure was not correlated with an increase in adverse events. The exposure was similar to exposure in patients with normal renal function receiving 100 mg/m<sup>2</sup>. </paragraph>
+                        <paragraph>
+                           <content styleCode="bold">Drug-Drug Interactions</content>
+                        </paragraph>
+                        <paragraph>No formal clinical drug interaction studies with azacitidine have been conducted.</paragraph>
+                        <paragraph>
+                           <content styleCode="italics">In vitro Studies</content>
+                        </paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Cytochrome P450 (CYP) Enzymes: </content>An in vitro study at azacitidine concentrations up to 100 μM (IV C<sub>max</sub> = 10.6 μM) in human liver microsomes indicated that azacitidine does not cause any inhibition of CYP isoforms CYP1A2, CYP2B6, CYP2C8, CYP2C9, CYP2C19, CYP2D6, CYP3A4, or CYP2E1 at clinically achievable concentrations.</paragraph>
+                        <paragraph>In vitro studies with human cultured hepatocytes indicate that azacitidine at concentrations of 1.0 μM to 100 μM does not induce CYP 1A2, 2C19, or 3A4/5.</paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Transporter Systems:</content> An in vitro study with LLC-PK1 cells expressing P-glycoprotein (P-gp) indicated that azacitidine is not a substrate or inhibitor of P-gp.</paragraph>
+                        <paragraph>Azacitidine does not inhibit, breast cancer resistance protein (BCRP), organic anion transporters (OAT) OAT1 and OAT3, organic anion transporting polypeptides (OATP) OATP1B1 and OATP1B3, or organic cation transporter (OCT) OCT2 at clinically relevant concentrations.</paragraph>
+                     </text>
+                     <effectiveTime value="20230726"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="ID84">
+               <id root="aad76459-5346-48ae-90ac-0e385eab0d75"/>
+               <code code="43680-8" codeSystem="2.16.840.1.113883.6.1" displayName="NONCLINICAL TOXICOLOGY SECTION"/>
+               <title>13    NONCLINICAL TOXICOLOGY</title>
+               <effectiveTime value="20230807"/>
+               <component>
+                  <section ID="ID85">
+                     <id root="3136bd08-b069-419b-9811-b85de4c7b9d3"/>
+                     <title>13.1 Carcinogenesis, Mutagenesis, Impairment of Fertility</title>
+                     <text>
+                        <paragraph ID="ID86">The potential carcinogenicity of azacitidine was evaluated in mice and rats. Azacitidine induced tumors of the hematopoietic system in female mice at 2.2 mg/kg (6.6 mg/m<sup>2</sup>, approximately 8% the recommended human daily dose on a mg/m<sup>2</sup> basis) administered IP three times per week for 52 weeks. An increased incidence of tumors in the lymphoreticular system, lung, mammary gland, and skin was seen in mice treated with azacitidine IP at 2.0 mg/kg (6.0 mg/m<sup>2</sup>, approximately 8% the recommended human daily dose on a mg/m<sup>2</sup> basis) once a week for 50 weeks. A tumorigenicity study in rats dosed twice weekly at 15 or 60 mg/m<sup>2</sup> (approximately 20%-80% the recommended human daily dose on a mg/m<sup>2</sup> basis) revealed an increased incidence of testicular tumors compared with controls.</paragraph>
+                        <paragraph>The mutagenic and clastogenic potential of azacitidine was tested in <content styleCode="italics">in vitro</content> bacterial systems Salmonella typhimurium strains TA100 and several strains of trpE8, <content styleCode="italics">Escherichia coli</content> strains WP14 Pro, WP3103P, WP3104P, and CC103; in <content styleCode="italics">in vitro</content> forward gene mutation assay in mouse lymphoma cells and human lymphoblast cells; and in an <content styleCode="italics">in vitro</content> micronucleus assay in mouse L5178Y lymphoma cells and Syrian hamster embryo cells. Azacitidine was mutagenic in bacterial and mammalian cell systems. The clastogenic effect of azacitidine was shown by the induction of micronuclei in L5178Y mouse cells and Syrian hamster embryo cells.</paragraph>
+                        <paragraph>Administration of azacitidine to male mice at 9.9 mg/m<sup>2</sup> (approximately 9% the recommended human daily dose on a mg/m<sup>2</sup> basis) daily for 3 days prior to mating with untreated female mice resulted in decreased fertility and loss of offspring during subsequent embryonic and postnatal development. Treatment of male rats 3 times per week for 11 or 16 weeks at doses of 15-30 mg/m<sup>2</sup> (approximately 20%-40%, the recommended human daily dose on a mg/m<sup>2</sup> basis) resulted in decreased weight of the testes and epididymides, and decreased sperm counts accompanied by decreased pregnancy rates and increased loss of embryos in mated females. In a related study, male rats treated for 16 weeks at 24 mg/m<sup>2</sup> resulted in an increase in abnormal embryos in mated females when examined on day 2 of gestation.</paragraph>
+                     </text>
+                     <effectiveTime value="20230807"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="L7e18e1f6-030d-4e10-b6e3-33fcdc68f02d">
+               <id root="569f9542-b9ad-4086-a78f-affe4ec08dd8"/>
+               <code code="34092-7" codeSystem="2.16.840.1.113883.6.1" displayName="CLINICAL STUDIES SECTION"/>
+               <title>14    CLINICAL STUDIES</title>
+               <text>
+                  <paragraph/>
+               </text>
+               <effectiveTime value="20230807"/>
+               <component>
+                  <section ID="ID87">
+                     <id root="ceeca841-61f4-49ad-b017-73a9041d22af"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>14.1 Myelodysplastic Syndromes (MDS)</title>
+                     <text>
+                        <paragraph ID="ID88">Study 1 was a randomized, open-label, controlled trial carried out in 53 U.S. sites compared the safety and efficacy of subcutaneous Azacitidine  plus supportive care with supportive care alone ("observation") in adult patients with any of the five FAB subtypes of myelodysplastic syndromes (MDS): refractory anemia (RA), RA with ringed sideroblasts (RARS), RA with excess blasts (RAEB), RAEB in transformation (RAEB-T), and chronic myelomonocytic leukemia (CMMoL). RA and RARS patients were included if they met one or more of the following criteria: required packed RBC transfusions; had platelet counts 50.0 x 10<sup>9</sup>/L; required platelet transfusions; or were neutropenic (ANC &lt;1.0 x 10<sup>9</sup>/L) with infections requiring treatment with antibiotics. Patients with acute myelogenous leukemia (AML) were not intended to be included. Supportive care allowed in this study included blood transfusion products, antibiotics, antiemetics, analgesics and antipyretics. The use of hematopoeitic growth factors was prohibited. Baseline patient and disease characteristics are summarized in Table 6; the 2 groups were similar.</paragraph>
+                        <paragraph>Azacitidine was administered at a subcutaneous dose of 75 mg/m<sup>2</sup> daily for 7 days every 4 weeks. The dose was increased to 100 mg/m<sup>2</sup> if no beneficial effect was seen after 2 treatment cycles. The dose was decreased and/or delayed based on hematologic response or evidence of renal toxicity. Patients in the observation arm were allowed by protocol to cross over to Azacitidine if they had increases in bone marrow blasts, decreases in hemoglobin, increases in red cell transfusion requirements, or decreases in platelets, or if they required a platelet transfusion or developed a clinical infection requiring treatment with antibiotics. For purposes of assessing efficacy, the primary endpoint was response rate (as defined in Table 7).</paragraph>
+                        <paragraph>Of the 191 patients included in the study, independent review (adjudicated diagnosis) found that 19 had the diagnosis of AML at baseline. These patients were excluded from the primary analysis of response rate, although they were included in an intent-to-treat (ITT) analysis of all patients randomized. Approximately 55% of the patients randomized to observation crossed over to receive Azacitidine treatment.</paragraph>
+                        <paragraph>
+                           <content styleCode="bold">Table 6. Baseline Demographics and Disease Characteristics</content>
+                        </paragraph>
+                        <table ID="ID89" width="100%">
+                           <colgroup/>
+                           <colgroup>
+                              <col width="50%"/>
+                              <col width="26%"/>
+                              <col width="24%"/>
+                           </colgroup>
+                           <tbody>
+                              <tr>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="left" valign="top"/>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center" valign="top">
+                                    <content styleCode="bold">Azacitidine </content>
+                                    <content styleCode="bold">
+                                       <br/>(</content>
+                                    <content styleCode="bold">N</content>
+                                    <content styleCode="bold">=</content>
+                                    <content styleCode="bold">99</content>
+                                    <content styleCode="bold">)</content>
+                                 </td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center" valign="top">
+                                    <content styleCode="bold">Observation  </content>
+                                    <content styleCode="bold">
+                                       <br/>(</content>
+                                    <content styleCode="bold">N</content>
+                                    <content styleCode="bold">=</content>
+                                    <content styleCode="bold">92</content>
+                                    <content styleCode="bold">)</content>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Botrule Lrule Toprule" align="left" valign="top">
+                                    <content styleCode="bold">Gender </content>
+                                    <content styleCode="bold">(</content>
+                                    <content styleCode="bold">n</content>
+                                    <content styleCode="bold">%)</content>
+                                 </td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center" valign="top"/>
+                                 <td styleCode="Botrule Rrule Toprule" align="center" valign="top"/>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="left" valign="top">    Male</td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center" valign="top">72 (72.7)</td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center" valign="top">60 (65.2)</td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="left" valign="top">    Female</td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center" valign="top">27 (27.3)</td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center" valign="top">32 (34.8)</td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Botrule Lrule Toprule" align="left" valign="top">
+                                    <content styleCode="bold">Race </content>
+                                    <content styleCode="bold">(</content>
+                                    <content styleCode="bold">n</content>
+                                    <content styleCode="bold">%)</content>
+                                 </td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center" valign="top"/>
+                                 <td styleCode="Botrule Rrule Toprule" align="center" valign="top"/>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="left" valign="top">   White</td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center" valign="top">93 (93.9)</td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center" valign="top">85 (92.4)</td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="left" valign="top">   Black</td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center" valign="top">1   (1.0)</td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center" valign="top">1   (1.1)</td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="left" valign="top">   Hispanic</td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center" valign="top">3   (3.0)</td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center" valign="top">5   (5.4)</td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="left" valign="top">   Asian/Oriental</td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center" valign="top">2   (2.0)</td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center" valign="top">1   (1.1)</td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="left" valign="top">
+                                    <content styleCode="bold">Age </content>
+                                    <content styleCode="bold">(</content>
+                                    <content styleCode="bold">years</content>
+                                    <content styleCode="bold">)</content>
+                                 </td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center" valign="top"/>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center" valign="top"/>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="left" valign="top">  N</td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center" valign="top">99</td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center" valign="top">91</td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="left" valign="top">  Mean ± SD</td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center" valign="top">67.3 ± 10.39</td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center" valign="top">68.0 ± 10.23</td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="left" valign="top">  Range</td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center" valign="top">31 - 92</td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center" valign="top">35 - 88</td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Botrule Lrule Toprule" colspan="3" align="left" valign="top">
+                                    <content styleCode="bold">Adjudicated </content>
+                                    <content styleCode="bold">MDS </content>
+                                    <content styleCode="bold">diagnosis </content>
+                                    <content styleCode="bold">at </content>
+                                    <content styleCode="bold">study </content>
+                                    <content styleCode="bold">entry </content>
+                                    <content styleCode="bold">(</content>
+                                    <content styleCode="bold">n</content>
+                                    <content styleCode="bold">%)</content>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="left" valign="top">  RA</td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center" valign="top">21 (21.2)</td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center" valign="top">18 (19.6)</td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="left" valign="top">  RARS</td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center" valign="top">6 (6.1)</td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center" valign="top">5 (5.4)</td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="left" valign="top">  RAEB</td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center" valign="top">38 (38.4)</td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center" valign="top">39 (42.4)</td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="left" valign="top">  RAEB-T</td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center" valign="top">16 (16.2)</td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center" valign="top">14 (15.2)</td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="left" valign="top">  CMMoL</td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center" valign="top">8 (8.1)</td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center" valign="top">7 (7.6)</td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="left" valign="top">  AML</td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center" valign="top">10 (10.1)</td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center" valign="top">9 (9.8)</td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Botrule Lrule Toprule" colspan="3" align="left" valign="top">
+                                    <content styleCode="bold">Transfusion </content>
+                                    <content styleCode="bold">product </content>
+                                    <content styleCode="bold">used </content>
+                                    <content styleCode="bold">in </content>
+                                    <content styleCode="bold">3 </content>
+                                    <content styleCode="bold">months </content>
+                                    <content styleCode="bold">before </content>
+                                    <content styleCode="bold">study </content>
+                                    <content styleCode="bold">entry </content>
+                                    <content styleCode="bold">(</content>
+                                    <content styleCode="bold">n</content>
+                                    <content styleCode="bold">%)</content>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="left" valign="top">  Any transfusion product</td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center" valign="top">70 (70.7)</td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center" valign="top">59 (64.1)</td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="left" valign="top">
+                                    <paragraph>Blood cells, packed human</paragraph>
+                                 </td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center" valign="top">66 (66.7)</td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center" valign="top">55 (59.8)</td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="left" valign="top">  Platelets, human blood</td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center" valign="top">15 (15.2)</td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center" valign="top">12 (13.0)</td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="left" valign="top">  Hetastarch</td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center" valign="top">0 (0.0)</td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center" valign="top">1 (1.1)</td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="left" valign="top">  Plasma protein fraction</td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center" valign="top">1 (1.0)</td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center" valign="top">0 (0.0)</td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="left" valign="top">  Other</td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center" valign="top">2 (2.0)</td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center" valign="top">2 (2.2)</td>
+                              </tr>
+                           </tbody>
+                        </table>
+                        <paragraph>
+                           <content styleCode="bold">Table 7. Response Criteria</content>
+                        </paragraph>
+                        <table ID="ID90" width="100%">
+                           <colgroup/>
+                           <colgroup>
+                              <col width="20%"/>
+                              <col width="16%"/>
+                              <col width="9%"/>
+                              <col width="14%"/>
+                              <col width="12%"/>
+                              <col width="14%"/>
+                              <col width="15%"/>
+                           </colgroup>
+                           <tbody>
+                              <tr>
+                                 <td styleCode="Lrule Rrule Toprule" align="left" valign="top"/>
+                                 <td styleCode="Lrule Rrule Toprule" align="left" valign="top"/>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center" valign="top">
+                                    <content styleCode="bold">RA</content>
+                                 </td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center" valign="top">
+                                    <content styleCode="bold">RARS</content>
+                                 </td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center" valign="top">
+                                    <content styleCode="bold">RAEB</content>
+                                 </td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center" valign="top">
+                                    <content styleCode="bold">RAEB</content>
+                                    <content styleCode="bold">-</content>
+                                    <content styleCode="bold">T</content>
+                                 </td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center" valign="top">
+                                    <content styleCode="bold">CMMoL</content>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" rowspan="2" align="left" valign="top">
+                                    <content styleCode="bold"> Complete Response  (CR), </content>duration <content styleCode="underline">&gt;</content> 4 weeks</td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" colspan="1" align="left" valign="top">
+                                    <content styleCode="bold"> Marrow</content>
+                                 </td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" colspan="5" align="left" valign="top"> &lt;5% blasts </td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" colspan="1" align="left" valign="top">
+                                    <content styleCode="bold"> Peripheral </content>
+                                    <content styleCode="bold">Blood</content>
+                                 </td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" colspan="5" align="left" valign="top"> Normal CBC if abnormal at baseline <br/> Absence of blasts in the peripheral circulation</td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" rowspan="2" align="left" valign="top">
+                                    <content styleCode="bold"> Partial </content>
+                                    <content styleCode="bold">Response </content>
+                                    <content styleCode="bold">(</content>
+                                    <content styleCode="bold">PR</content>
+                                    <content styleCode="bold">),  </content>
+                                    <br/> duration <content styleCode="underline">&gt;</content> 4 weeks  </td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" colspan="1" align="left" valign="top">
+                                    <content styleCode="bold"> Marrow</content>
+                                 </td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" colspan="2" align="left" valign="top"> No marrow requirements </td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" colspan="3" align="left" valign="top"> 50% decrease in blasts <br/> Improvement of marrow dyspoiesis</td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" colspan="1" align="left" valign="top">
+                                    <content styleCode="bold"> Peripheral </content>
+                                    <content styleCode="bold">Blood</content>
+                                 </td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" colspan="5" align="left" valign="top"> 50% restoration in the deficit from normal levels of baseline white cells, <br/> hemoglobin and platelets if abnormal at baseline <br/>
+                                    <br/> No blasts in the peripheral circulation <br/>
+                                    <br/> For CMMoL, if WBC is elevated at baseline, a 75% reduction in the <br/> excess count over the upper limit of normal </td>
+                              </tr>
+                           </tbody>
+                        </table>
+                        <paragraph>The overall response rate (CR + PR) of 15.7% in Azacitidine -treated patients without AML (16.2% for all Azacitidine randomized patients including AML) was statistically significantly higher than the response rate of 0% in the observation group (p&lt;0.0001) (Table 8). The majority of patients who achieved either CR or PR had either 2 or 3 cell line abnormalities at baseline (79%; 11/14) and had elevated bone marrow blasts or were transfusion dependent at baseline. Patients responding to Azacitidine had a decrease in bone marrow blasts percentage, or an increase in platelets, hemoglobin or WBC. Greater than 90% of the responders initially demonstrated these changes by the 5<sup>th</sup> treatment cycle. All patients who had been transfusion dependent became transfusion independent during PR or CR. The mean and median duration of clinical response of PR or better was estimated as 512 and 330 days, respectively; 75% of the responding patients were still in PR or better at completion of treatment. Response occurred in all MDS subtypes as well as in patients with adjudicated baseline diagnosis of AML.</paragraph>
+                        <paragraph>
+                           <content styleCode="bold">Table 8. Response Rates</content>
+                        </paragraph>
+                        <table ID="ID92" width="100%">
+                           <colgroup/>
+                           <colgroup>
+                              <col width="21%"/>
+                              <col width="24%"/>
+                              <col width="30%"/>
+                              <col width="25%"/>
+                           </colgroup>
+                           <tbody>
+                              <tr>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center" valign="top"/>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center" valign="top">
+                                    <paragraph>
+                                       <content styleCode="bold">Azacitidine </content>
+                                    </paragraph>
+                                    <paragraph>
+                                       <content styleCode="bold">(</content>
+                                       <content styleCode="bold">N</content>
+                                       <content styleCode="bold">=</content>
+                                       <content styleCode="bold">89</content>
+                                       <content styleCode="bold">)</content>
+                                    </paragraph>
+                                 </td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center" valign="top">
+                                    <paragraph>
+                                       <content styleCode="bold">Observation </content>
+                                       <content styleCode="bold">Before </content>
+                                       <content styleCode="bold">Crossover </content>
+                                    </paragraph>
+                                    <paragraph>
+                                       <content styleCode="bold"/>
+                                       <content styleCode="bold">(</content>
+                                       <content styleCode="bold">N</content>
+                                       <content styleCode="bold">=</content>
+                                       <content styleCode="bold">83</content>
+                                       <content styleCode="bold">)</content>
+                                    </paragraph>
+                                 </td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center" valign="top"/>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="left" valign="top">
+                                    <content styleCode="bold"> Response</content>
+                                 </td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center" valign="top">
+                                    <content styleCode="bold">n </content>
+                                    <content styleCode="bold">(%)</content>
+                                 </td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center" valign="top">
+                                    <content styleCode="bold">n </content>
+                                    <content styleCode="bold">(%)</content>
+                                 </td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center" valign="top">
+                                    <content styleCode="bold">P </content>
+                                    <content styleCode="bold">value</content>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="left" valign="top">   Overall (CR+PR)</td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center" valign="top">14 (15.7)</td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center" valign="top">0 (0.0)</td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center" valign="top">(&lt;0.0001)</td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="left" valign="top">     Complete (CR)</td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center" valign="top">5 (5.6)</td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center" valign="top">0 (0.0)</td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center" valign="top">(0.06)</td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="left" valign="top">     Partial (PR)</td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center" valign="top">9 (10.1)</td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center" valign="top">0 (0.0)</td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center" valign="top">--</td>
+                              </tr>
+                           </tbody>
+                        </table>
+                        <paragraph ID="ID93">Patients in the observation group who crossed over to receive Azacitidine treatment (47 patients) had a response rate of 12.8%.</paragraph>
+                        <paragraph>Study 2, a multi-center, open-label, single-arm study of 72 patients with RAEB, RAEB-T, CMMoL, or AML was also carried out. Treatment with subcutaneous Azacitidine resulted in a response rate (CR + PR) of 13.9%, using criteria similar to those described above. The mean and median duration of clinical response of PR or better was estimated as 810 and 430 days, respectively; 80% of the responding patients were still in PR or better at the time of completion of study involvement. In Study 3, another open-label, single-arm study of 48 patients with RAEB, RAEB-T, or AML, treatment with intravenous Azacitidine resulted in a response rate of 18.8%, again using criteria similar to those described above. The mean and median duration of clinical response of PR or better was estimated as 389 and 281 days, respectively; 67% of the responding patients were still in PR or better at the time of completion of treatment. Response occurred in all MDS subtypes as well as in patients with adjudicated baseline diagnosis of AML in both of these studies. Azacitidine dosage regimens in these 2 studies were similar to the regimen used in the controlled study.</paragraph>
+                        <paragraph>Benefit was seen in patients who did not meet the criteria for PR or better, but were considered "improved." About 24% of Azacitidine-treated patients were considered improved, and about 2/3 of those lost transfusion dependence. In the observation group, only 5/83 patients met criteria for improvement; none lost transfusion dependence. In all 3 studies, about 19% of patients met criteria for improvement with a median duration of 195 days.</paragraph>
+                        <paragraph>Study 4 was an international, multicenter, open-label, randomized trial in patients with MDS with RAEB, RAEB-T or modified CMMoL according to FAB classification and Intermediate-2 and High risk according to IPSS classification. Of the 358 patients enrolled in the study, 179 were randomized to receive azacitidine plus best supportive care (BSC) and 179 were randomized to receive conventional care regimens (CCR) plus BSC (105 to BSC alone, 49 to low dose cytarabine and 25 to chemotherapy with cytarabine and anthracycline). The primary efficacy endpoint was overall survival.</paragraph>
+                        <paragraph>The azacitidine and CCR groups were comparable for baseline parameters. The median age of patients was 69 years (range was 38-88 years), 98% were Caucasian, and 70% were male. At baseline, 95% of the patients were higher risk by FAB classification: RAEB (58%), RAEB-T (34%), and CMMoL (3%). By IPSS classification, 87% were higher risk: Int-2 (41%), High (47%). At baseline, 32% of patients met WHO criteria for AML.</paragraph>
+                        <paragraph>Azacitidine was administered subcutaneously at a dose of 75 mg/m<sup>2</sup> daily for 7 consecutive days every 28 days (which constituted one cycle of therapy). Patients continued treatment until disease progression, relapse after response, or unacceptable toxicity. Azacitidine patients were treated for a median of 9 cycles (range 1 to 39), BSC only patients for a median of 7 cycles (range 1 to 26), low dose cytarabine patients for a median of 4.5 cycles (range 1 to 15), and chemotherapy with cytarabine and anthracycline patients for a median of 1 cycle (range 1 to 3, i.e. induction plus 1 or 2 consolidation cycles).</paragraph>
+                        <paragraph>In the Intent-to-Treat analysis, patients treated with azacitidine demonstrated a statistically significant difference in overall survival as compared to patients treated with CCR (median survival of 24.5 months vs. 15.0 months; stratified log-rank p=0.0001). The hazard ratio describing this treatment effect was 0.58 (95% CI: 0.43, 0.77).</paragraph>
+                        <paragraph>
+                           <content styleCode="bold">Kaplan-Meier Curve of Time to Death from Any Cause: (</content>Intent-to-Treat Population<content styleCode="bold">)</content>
+                        </paragraph>
+                        <paragraph styleCode="MultiMediaCaption"/>
+                        <paragraph styleCode="MultiMediaCaption"/>
+                        <paragraph styleCode="MultiMediaCaption">
+                           <renderMultiMedia referencedObject="Lbcf3c4e9-357e-49c9-9d6a-1e732f836d2f"/>
+                        </paragraph>
+                        <paragraph styleCode="MultiMediaCaption"/>
+                        <paragraph ID="ID95">Key: AZA = azacitidine; CCR = conventional care regimens; CI = confidence interval; HR = Hazard Ratio</paragraph>
+                        <paragraph>Azacitidine treatment led to a reduced need for red blood cell transfusions (see Table 8). In patients treated with azacitidine who were RBC transfusion dependent at baseline and became transfusion independent, the median duration of RBC transfusion independence was 13.0 months.</paragraph>
+                        <paragraph>
+                           <content styleCode="bold">Table 9. Effect of Azacitidine on RBC Transfusions in Patients with MDS</content>
+                        </paragraph>
+                        <table width="70%">
+                           <tbody>
+                              <tr>
+                                 <td styleCode="Botrule Lrule Rrule" align="center">
+                                    <content styleCode="bold">Efficacy Parameter </content>
+                                 </td>
+                                 <td styleCode="Rrule" align="center">
+                                    <content styleCode="bold"> Azacitidine plus BSC</content>
+                                    <br/>
+                                    <content styleCode="bold">(n= 179)</content>
+                                 </td>
+                                 <td styleCode="Botrule Rrule" align="center">
+                                    <content styleCode="bold">Conventional Care Regimens</content>
+                                    <br/>
+                                    <content styleCode="bold">(n= 179)</content>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Lrule Rrule"> Number and percent of patients who were<br/> transfusion dependent at baseline who<br/> became transfusion independent on<br/> treatment<sup>1</sup>
+                                    <br/>
+                                    <br/> Number and percent of patients who were<br/> transfusions independent at baseline who<br/> became transfusion-dependent on treatment</td>
+                                 <td styleCode="Rrule Toprule" align="center"> 50/111 (45.0%)<br/>(95% CI: 35.6%, 54.8%)<br/>
+                                    <br/>
+                                    <br/>
+                                    <br/>10/68 (14.7%)<br/>(95% CI: 7.3%, 25.4%)</td>
+                                 <td styleCode="Botrule Rrule" align="center">13/114 (11.4%)<br/>(95% CI: 6.2%, 18.7%)<br/>
+                                    <br/>
+                                    <br/>
+                                    <br/>28/65 (43.1%)<br/>(95% CI: 30.9%, 56.0%) </td>
+                              </tr>
+                           </tbody>
+                        </table>
+                        <paragraph>
+                           <sup>1</sup>A patient was considered RBC transfusion independent during the treatment period if the patient had no RBC transfusions during any 56 consecutive days or more during the treatment period. Otherwise, the patient was considered transfusion dependent.</paragraph>
+                     </text>
+                     <effectiveTime value="20230807"/>
+                     <component>
+                        <observationMedia ID="Lbcf3c4e9-357e-49c9-9d6a-1e732f836d2f">
+                           <text>IMAGE</text>
+                           <value mediaType="image/jpeg" xsi:type="ED">
+                              <reference value="Graph.jpg"/>
+                           </value>
+                        </observationMedia>
+                     </component>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="ID97">
+               <id root="f39af54a-0431-4a52-811a-d169020865c0"/>
+               <code code="34093-5" codeSystem="2.16.840.1.113883.6.1" displayName="REFERENCES SECTION"/>
+               <title>15    REFERENCES</title>
+               <effectiveTime value="20230726"/>
+               <component>
+                  <section ID="ID157">
+                     <id root="39bbcd94-7928-4029-bd0c-7c6bae92881d"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <text>
+                        <list listType="ordered" ID="ID98">
+                           <item>"OSHA Hazardous Drugs." OSHA. http://www.osha.gov/SLTC/ hazardousdrugs/index.html</item>
+                        </list>
+                     </text>
+                     <effectiveTime value="20230726"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="ID100">
+               <id root="c89737bf-f422-4304-a7e0-1196bf6d0694"/>
+               <code code="34069-5" codeSystem="2.16.840.1.113883.6.1" displayName="HOW SUPPLIED SECTION"/>
+               <title>16    HOW SUPPLIED/STORAGE AND HANDLING</title>
+               <text>
+                  <paragraph ID="ID101">
+                     <content styleCode="underline">How Supplied</content>
+                  </paragraph>
+                  <paragraph>Azacitidine for injection is supplied as a lyophilized powder in 100 mg single-dose vials packaged in cartons of 1 vial (NDC 72485-201-01).</paragraph>
+                  <paragraph>
+                     <content styleCode="underline">Storage</content>
+                  </paragraph>
+                  <paragraph>Store unreconstituted vials at 25º C (77º F); excursions permitted to 15º-30º C (59º-86º F) (See USP Controlled Room Temperature).</paragraph>
+                  <paragraph>
+                     <content styleCode="underline">Handling and Disposal</content>
+                  </paragraph>
+                  <paragraph>Azacitidine for injection is a hazardous drug. Follow applicable special handling and disposal procedures.<sup>1</sup>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20230807"/>
+            </section>
+         </component>
+         <component>
+            <section ID="ID102">
+               <id root="f6182edf-9bb6-445a-ad7c-fab247d71cbd"/>
+               <code code="34076-0" codeSystem="2.16.840.1.113883.6.1" displayName="INFORMATION FOR PATIENTS SECTION"/>
+               <title>17    PATIENT COUNSELING INFORMATION</title>
+               <text>
+                  <paragraph ID="ID103">
+                     <content styleCode="underline">Hepatotoxicity in Patients with Severe Pre-Existing Hepatic Impairment</content>
+                  </paragraph>
+                  <paragraph>Instruct patients to inform their physician about any underlying liver disease [<content styleCode="italics">see <linkHtml href="#Laf0556f7-2f41-49bb-9b37-78f8283c55be">Warnings and Precautions (5.3)</linkHtml>].</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="underline">Renal Toxicity </content>
+                  </paragraph>
+                  <paragraph>Instruct patients to inform their physician about any underlying renal disease [<content styleCode="italics">see <linkHtml href="#L2f0fd952-becd-45e2-8228-e6da424260d0">Warnings and Precautions (5.4)</linkHtml>]. </content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="underline">Embryo-Fetal Toxicity</content>
+                  </paragraph>
+                  <paragraph>Advise pregnant women of the potential risk to a fetus [<content styleCode="italics">see <linkHtml href="#Lbc777e43-d753-4466-8178-d6d14e8fa10e">Warnings and Precautions (5.6)</linkHtml>
+                     </content>
+                     <content styleCode="italics">and <linkHtml href="#ID59">Use in Specific Populations (8.1)</linkHtml>].</content>
+                  </paragraph>
+                  <paragraph>Advise females of reproductive potential to use effective contraception during treatment with Azacitidine for injection and for 6 months after the last dose. Advise males with female partners of reproductive potential to use effective contraception during treatment with Azacitidine for injection and for 3 months after the last dose. Advise patients to report known or suspected pregnancy to their physicians immediately [<content styleCode="italics">see <linkHtml href="#Lbc777e43-d753-4466-8178-d6d14e8fa10e">Warnings and Precautions (5.6)</linkHtml> and <linkHtml href="#ID61">Use in Specific Populations (8.3)</linkHtml>]</content>.</paragraph>
+                  <paragraph>
+                     <content styleCode="underline">Lactation</content>
+                  </paragraph>
+                  <paragraph>Advise patients to avoid breastfeeding while receiving Azacitidine for injection and for 1 week after the last dose <content styleCode="italics">[see <linkHtml href="#ID163">Use in Specific Populations (8.2)</linkHtml>].</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="underline">Infertility</content>
+                  </paragraph>
+                  <paragraph>Advise males and females that Azacitidine for injection may impair fertility [<content styleCode="italics">see <linkHtml href="#ID61">Use in Specific Populations (8.3)</linkHtml> and <linkHtml href="#ID85">Nonclinical Toxicology (13.1)</linkHtml>].</content>
+                  </paragraph>
+                  <paragraph>Manufactured by:<br/>
+                     <content styleCode="bold">Shilpa Medicare Limited</content>
+                     <br/>Jadcherla - 509301<br/>INDIA</paragraph>
+                  <paragraph>Distributed by:<br/>
+                     <content styleCode="bold">Armas Pharmaceuticals, Inc.</content>
+                     <br/>Freehold, NJ 07728 (USA)</paragraph>
+                  <paragraph>Revised: 10/2022</paragraph>
+               </text>
+               <effectiveTime value="20230807"/>
+            </section>
+         </component>
+         <component>
+            <section ID="L88bec40a-aa92-4570-9309-80850ca49fac">
+               <id root="8b4d19a8-37e9-4928-b53b-9e22146df8ee"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">Caution: Cytotoxic Agent</content>
+                  </paragraph>
+                  <paragraph>See prescribing information for dosing and administration.</paragraph>
+                  <paragraph>Keep out of reach of children</paragraph>
+               </text>
+               <effectiveTime value="20230802"/>
+            </section>
+         </component>
+         <component>
+            <section ID="L859af1e6-febe-426d-b604-43b55b1bbb21">
+               <id root="b81287b7-c80f-43a8-90dd-a86dcda8ae71"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>Packaging</title>
+               <text>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="L9e376293-9510-4a4e-9bc7-2f790307d254"/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20230727"/>
+               <component>
+                  <observationMedia ID="L9e376293-9510-4a4e-9bc7-2f790307d254">
+                     <text>AZACITIDINE-201</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="7248520101-1.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

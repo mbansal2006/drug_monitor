@@ -1,0 +1,1021 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="https://www.accessdata.fda.gov/spl/stylesheet/spl.xsl" type="text/xsl"?>
+<document xmlns="urn:hl7-org:v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 https://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="147b55d9-c9f9-4a22-814a-acf834a1864d"/>
+   <code code="34391-3" codeSystem="2.16.840.1.113883.6.1" displayName="Human Prescription Drug Label"/>
+   <title>Ipratropium Bromide Inhalation Solution, USP 0.02%<br/> Rx only<br/>
+      <br/> PRESCRIBING INFORMATION<br/>
+      <br/> FOR INHALATION USE ONLY–NOT FOR INJECTION.</title>
+   <effectiveTime value="20220413"/>
+   <setId root="231ae8f2-1ec9-4e0f-90a8-11d7b6222576"/>
+   <versionNumber value="5"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id extension="146974886" root="1.3.6.1.4.1.519.1"/>
+            <name>Sun Pharmaceutical Industries, Inc.</name>
+            <assignedEntity>
+               <assignedOrganization>
+                  <assignedEntity>
+                     <assignedOrganization>
+                        <id extension="725420835" root="1.3.6.1.4.1.519.1"/>
+                        <name>Sun Pharmaceutical Medicare Limited</name>
+                     </assignedOrganization>
+                     <performance>
+                        <actDefinition>
+                           <code code="C25391" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ANALYSIS"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="47335-706" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                     <performance>
+                        <actDefinition>
+                           <code code="C43360" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="MANUFACTURE"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="47335-706" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                  </assignedEntity>
+               </assignedOrganization>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section>
+               <id root="97845695-ec69-401b-ab02-214e07c5aa65"/>
+               <code code="48780-1" codeSystem="2.16.840.1.113883.6.1" displayName="SPL PRODUCT DATA ELEMENTS SECTION"/>
+               <effectiveTime value="20220413"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="47335-706" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>Ipratropium Bromide<suffix/>
+                        </name>
+                        <formCode code="C42986" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="SOLUTION"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>Ipratropium Bromide</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <ingredient classCode="ACTIR">
+                           <quantity>
+                              <numerator value="0.5" unit="mg"/>
+                              <denominator value="2.5" unit="mL"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="J697UZ2A9J" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>IPRATROPIUM BROMIDE</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="GR88G0I6UL" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>IPRATROPIUM</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                              <asEquivalentSubstance>
+                                 <definingSubstance>
+                                    <code code="J697UZ2A9J" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>IPRATROPIUM BROMIDE</name>
+                                 </definingSubstance>
+                              </asEquivalentSubstance>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="QTT17582CB" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>HYDROCHLORIC ACID</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="451W47IQ8X" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SODIUM CHLORIDE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="059QF0KO0R" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>WATER</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator value="2.5" unit="mL"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code/>
+                              <formCode code="C43226" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="VIAL"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator value="5" unit="1"/>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code code="47335-706-48" codeSystem="2.16.840.1.113883.6.69"/>
+                                    <formCode code="C43200" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="POUCH"/>
+                                    <asContent>
+                                       <quantity>
+                                          <numerator value="5" unit="1"/>
+                                          <denominator value="1"/>
+                                       </quantity>
+                                       <containerPackagedProduct>
+                                          <code code="47335-706-49" codeSystem="2.16.840.1.113883.6.69"/>
+                                          <formCode code="C43182" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CARTON"/>
+                                       </containerPackagedProduct>
+                                       <subjectOf>
+                                          <marketingAct>
+                                             <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                             <statusCode code="active"/>
+                                             <effectiveTime>
+                                                <low value="20200204"/>
+                                             </effectiveTime>
+                                          </marketingAct>
+                                       </subjectOf>
+                                    </asContent>
+                                 </containerPackagedProduct>
+                              </asContent>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                        <asContent>
+                           <quantity>
+                              <numerator value="2.5" unit="mL"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code/>
+                              <formCode code="C43226" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="VIAL"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator value="5" unit="1"/>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code/>
+                                    <formCode code="C43200" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="POUCH"/>
+                                    <asContent>
+                                       <quantity>
+                                          <numerator value="6" unit="1"/>
+                                          <denominator value="1"/>
+                                       </quantity>
+                                       <containerPackagedProduct>
+                                          <code code="47335-706-52" codeSystem="2.16.840.1.113883.6.69"/>
+                                          <formCode code="C43182" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CARTON"/>
+                                       </containerPackagedProduct>
+                                       <subjectOf>
+                                          <marketingAct>
+                                             <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                             <statusCode code="active"/>
+                                             <effectiveTime>
+                                                <low value="20200204"/>
+                                             </effectiveTime>
+                                          </marketingAct>
+                                       </subjectOf>
+                                    </asContent>
+                                 </containerPackagedProduct>
+                              </asContent>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                        <asContent>
+                           <quantity>
+                              <numerator value="2.5" unit="mL"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code/>
+                              <formCode code="C43226" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="VIAL"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator value="5" unit="1"/>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code/>
+                                    <formCode code="C43200" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="POUCH"/>
+                                    <asContent>
+                                       <quantity>
+                                          <numerator value="12" unit="1"/>
+                                          <denominator value="1"/>
+                                       </quantity>
+                                       <containerPackagedProduct>
+                                          <code code="47335-706-54" codeSystem="2.16.840.1.113883.6.69"/>
+                                          <formCode code="C43182" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CARTON"/>
+                                       </containerPackagedProduct>
+                                       <subjectOf>
+                                          <marketingAct>
+                                             <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                             <statusCode code="active"/>
+                                             <effectiveTime>
+                                                <low value="20200204"/>
+                                             </effectiveTime>
+                                          </marketingAct>
+                                       </subjectOf>
+                                    </asContent>
+                                 </containerPackagedProduct>
+                              </asContent>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <id extension="ANDA207903" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73584" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ANDA"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20200204"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38216" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="RESPIRATORY (INHALATION)"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section ID="Section_1">
+               <id root="fd11f80c-034e-45ed-8536-417c16b6c99c"/>
+               <code code="34089-3" codeSystem="2.16.840.1.113883.6.1" displayName="DESCRIPTION SECTION"/>
+               <title>DESCRIPTION</title>
+               <text>
+                  <paragraph>The active ingredient in Ipratropium Bromide Inhalation Solution, USP is ipratropium bromide monohydrate, USP. It is an anticholinergic bronchodilator chemically described as 8-azoniabicyclo[3.2.1]-octane,3-(3-hydroxy-1-oxo-2-phenylpropoxy)-8-methyl-8-(1- methylethyl)-, bromide, monohydrate (endo, syn)-,(±)-; a synthetic quaternary ammonium compound, chemically related to atropine.<br/>
+                     <br/>
+                     <renderMultiMedia referencedObject="MM1"/>
+                     <br/>
+                     <br/>Ipratropium bromide is a white crystalline substance, freely soluble in water and lower alcohols. It is a quaternary ammonium compound and thus exists in an ionized state in aqueous solutions. It is relatively insoluble in non-polar media.<br/>
+                     <br/> Ipratropium Bromide Inhalation Solution, USP is administered by oral inhalation with the aid of a nebulizer. Each mL contains ipratropium bromide, USP 0.02% (anhydrous basis) in a sterile, preservative-free, isotonic saline solution, pH adjusted to 3.4 (3 to 4) with hydrochloric acid.</paragraph>
+               </text>
+               <effectiveTime value="20220413"/>
+               <component>
+                  <observationMedia ID="MM1">
+                     <text>structure</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="structure.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="Section_2">
+               <id root="d9b9e19c-47ab-4354-a3a0-5c79fd1be458"/>
+               <code code="34090-1" codeSystem="2.16.840.1.113883.6.1" displayName="CLINICAL PHARMACOLOGY SECTION"/>
+               <title>CLINICAL PHARMACOLOGY</title>
+               <text>
+                  <paragraph>Ipratropium Bromide Inhalation Solution is an anticholinergic (parasympatholytic) agent that, based on animal studies, appears to inhibit vagally-mediated reflexes by antagonizing the action of acetylcholine, the transmitter agent released from the vagus nerve.<br/>
+                     <br/> Anticholinergics prevent the increases in intracellular concentration of cyclic guanosine monophosphate (cyclic GMP) which are caused by interaction of acetylcholine with the muscarinic receptor on bronchial smooth muscle.<br/>
+                     <br/> The bronchodilation following inhalation of Ipratropium Bromide Inhalation Solution is primarily a local, site-specific effect, not a systemic one. Much of an administered dose is swallowed but not absorbed as shown by fecal excretion studies. Following nebulization of a 2 mg dose, a mean 7% of the dose was absorbed into the systemic circulation either from the surface of the lung or from the gastrointestinal tract. The half-life of elimination is about 1.6 hours after intravenous administration. Ipratropium bromide is minimally    (0 to 9% in vitro) bound to plasma albumin and α<sub>1</sub>–acid glycoproteins. It is partially metabolized. Autoradiographic studies in rats have shown that ipratropium bromide does not penetrate the blood-brain barrier. Ipratropium Bromide Inhalation Solution has not been studied in patients with hepatic or renal insufficiency. It should be used with caution in those patient populations.<br/>
+                     <br/> In controlled twelve-week studies in patients with bronchospasm associated with chronic obstructive pulmonary disease (chronic bronchitis and emphysema) significant improvements in pulmonary function (FEV<sub>1</sub> increases of 15% or more) occurred within 15 to 30 minutes, reached a peak in 1 to 2 hours and persisted for periods of 4 to 5 hours in the majority of patients, with about 25 to 38% of the patients demonstrating increases of 15% or more for at least 7 to 8 hours. Continued effectiveness of ipratropium bromide was demonstrated throughout the 12-week period. In addition, significant increases in forced vital capacity (FVC) have been demonstrated. However, ipratropium bromide did not consistently produce significant improvement in subjective symptom scores nor in quality of life scores over the 12-week duration of study.<br/>
+                     <br/> Additional controlled 12-week studies were conducted to evaluate the safety and effectiveness of Ipratropium Bromide Inhalation Solution administered concomitantly with the beta adrenergic bronchodilator solutions metaproterenol and albuterol compared with the administration of each of the beta agonists alone. Combined therapy produced significant additional improvement in FEV<sub>1</sub> and FVC. On combined therapy, the median duration of 15% improvement in FEV<sub>1</sub> was 5 to 7 hours, compared with 3 to 4 hours in patients receiving a beta agonist alone.</paragraph>
+               </text>
+               <effectiveTime value="20220413"/>
+            </section>
+         </component>
+         <component>
+            <section ID="Section_3">
+               <id root="33744964-2bd9-4f7c-8d9b-fd3619304550"/>
+               <code code="34067-9" codeSystem="2.16.840.1.113883.6.1" displayName="INDICATIONS &amp; USAGE SECTION"/>
+               <title>INDICATIONS AND USAGE</title>
+               <text>
+                  <paragraph>Ipratropium Bromide Inhalation Solution administered either alone or with other bronchodilators, especially beta adrenergics, is indicated as a bronchodilator for maintenance treatment of bronchospasm associated with chronic obstructive pulmonary disease, including chronic bronchitis and emphysema.</paragraph>
+               </text>
+               <effectiveTime value="20220413"/>
+            </section>
+         </component>
+         <component>
+            <section ID="Section_4">
+               <id root="4ebcb193-688d-4979-8a85-23769eb1b2ea"/>
+               <code code="34070-3" codeSystem="2.16.840.1.113883.6.1" displayName="CONTRAINDICATIONS SECTION"/>
+               <title>CONTRAINDICATIONS</title>
+               <text>
+                  <paragraph>Ipratropium bromide is contraindicated in known or suspected cases of hypersensitivity to ipratropium bromide, or to atropine and its derivatives.</paragraph>
+               </text>
+               <effectiveTime value="20220413"/>
+            </section>
+         </component>
+         <component>
+            <section ID="Section_5">
+               <id root="15d1233c-2f6f-4137-99c8-4879356d729e"/>
+               <code code="34071-1" codeSystem="2.16.840.1.113883.6.1" displayName="WARNINGS SECTION"/>
+               <title>WARNINGS</title>
+               <text>
+                  <paragraph>The use of Ipratropium Bromide Inhalation Solution as a single agent for the relief of bronchospasm in acute COPD exacerbation has not been adequately studied. Drugs with faster onset of action may be preferable as initial therapy in this situation. Combination of Ipratropium Bromide Inhalation Solution and beta agonists has not been shown to be more effective than either drug alone in reversing the bronchospasm associated with acute COPD exacerbation.<br/>
+                     <br/> Immediate hypersensitivity reactions may occur after administration of ipratropium bromide, as demonstrated by rare cases of urticaria, angioedema, rash, bronchospasm and oropharyngeal edema.</paragraph>
+               </text>
+               <effectiveTime value="20220413"/>
+            </section>
+         </component>
+         <component>
+            <section ID="Section_6">
+               <id root="60797ae9-5712-44e4-9e74-387b5be40779"/>
+               <code code="42232-9" codeSystem="2.16.840.1.113883.6.1" displayName="PRECAUTIONS SECTION"/>
+               <title>PRECAUTIONS</title>
+               <effectiveTime value="20220413"/>
+               <component>
+                  <section ID="Section_6.1">
+                     <id root="6b301446-3fe3-4da4-ba59-9b6503f15040"/>
+                     <code code="34072-9" codeSystem="2.16.840.1.113883.6.1" displayName="GENERAL PRECAUTIONS SECTION"/>
+                     <title>General</title>
+                     <text>
+                        <paragraph>Ipratropium bromide should be used with caution in patients with narrow angle glaucoma, prostatic hypertrophy or bladder neck obstruction.</paragraph>
+                     </text>
+                     <effectiveTime value="20220413"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="Section_6.2">
+                     <id root="25485d90-4d4b-4a83-a388-832e7879fc3c"/>
+                     <code code="34076-0" codeSystem="2.16.840.1.113883.6.1" displayName="INFORMATION FOR PATIENTS SECTION"/>
+                     <title>Information for Patients</title>
+                     <text>
+                        <paragraph>Patients should be advised that mydriasis, temporary blurring of vision, precipitation or worsening of narrow-angle glaucoma or eye pain may result if the solution comes into direct contact with the eyes. Use of a nebulizer with mouthpiece rather than face mask may be preferable, to reduce the likelihood of the nebulizer solution reaching the eyes. Patients should be advised that Ipratropium Bromide Inhalation Solution can be mixed in the nebulizer with albuterol or metaproterenol if used within one hour. Drug stability and safety of Ipratropium Bromide inhalation solution when mixed with other drugs in a nebulizer have not been established. Patients should be reminded that Ipratropium Bromide Inhalation Solution should be used consistently as prescribed throughout the course of therapy.</paragraph>
+                     </text>
+                     <effectiveTime value="20220413"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="Section_6.4">
+                     <id root="8b658405-630f-4ba0-96f4-a9cd46c2ef68"/>
+                     <code code="34073-7" codeSystem="2.16.840.1.113883.6.1" displayName="DRUG INTERACTIONS SECTION"/>
+                     <title>Drug Interactions</title>
+                     <text>
+                        <paragraph>Ipratropium bromide has been shown to be a safe and effective bronchodilator when used in conjunction with beta adrenergic bronchodilators. Ipratropium bromide has also been used with other pulmonary medications, including methylxanthines and corticosteroids, without adverse drug interactions.</paragraph>
+                     </text>
+                     <effectiveTime value="20220413"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="Section_6.6">
+                     <id root="7564129b-3d86-40cf-ba9d-99bbc7ece538"/>
+                     <code code="34083-6" codeSystem="2.16.840.1.113883.6.1" displayName="CARCINOGENESIS &amp; MUTAGENESIS &amp; IMPAIRMENT OF FERTILITY SECTION"/>
+                     <title>Carcinogenesis, Mutagenesis, Impairment of Fertility</title>
+                     <text>
+                        <paragraph>Two-year oral carcinogenicity studies in rats and mice have revealed no carcinogenic potential at dietary doses up to 6 mg/kg/day of ipratropium bromide.<br/>
+                           <br/> Results of various mutagenicity studies (Ames test, mouse dominal lethal test, mouse micronucleus test and chromosome aberration of bone marrow in Chinese hamsters) were negative.<br/>
+                           <br/> Fertility of male or female rats at oral doses up to 50 mg/kg/day was unaffected by ipratropium bromide administration. At doses above 90 mg/kg, increased resorption and decreased conception rates were observed.</paragraph>
+                     </text>
+                     <effectiveTime value="20220413"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="Section_6.7">
+                     <id root="3f71567d-17eb-4848-a2d2-db4990ca955d"/>
+                     <code code="42228-7" codeSystem="2.16.840.1.113883.6.1" displayName="PREGNANCY SECTION"/>
+                     <title>Pregnancy</title>
+                     <text>
+                        <paragraph>Teratogenic Effects<br/>
+                        </paragraph>
+                        <paragraph>Oral reproduction studies performed in mice, rats and rabbits at doses of 10, 100, and 125 mg/kg respectively and inhalation reproduction studies in rats and rabbits at doses of 1.5 and 1.8 mg/kg (or approximately 38 and 45 times the recommended human daily dose) respectively, have demonstrated no evidence of teratogenic effects as a result of ipratropium bromide. However, no adequate or well controlled studies have been conducted in pregnant women. Because animal reproduction studies are not always predictive of human response, ipratropium bromide should be used during pregnancy only if clearly needed.</paragraph>
+                     </text>
+                     <effectiveTime value="20220413"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="Section_6.9">
+                     <id root="567f7ae5-6a62-4a05-891e-121b7221014d"/>
+                     <code code="34080-2" codeSystem="2.16.840.1.113883.6.1" displayName="NURSING MOTHERS SECTION"/>
+                     <title>Nursing Mothers</title>
+                     <text>
+                        <paragraph>It is not known whether ipratropium bromide is excreted in human milk. Although lipid-insoluble quaternary bases pass into breast milk, it is unlikely that ipratropium bromide would reach the infant to a significant extent, especially when taken by inhalation since ipratropium bromide is not well absorbed systemically after inhalation or oral administration. However, because many drugs are excreted in human milk, caution should be exercised when ipratropium bromide is administered to a nursing woman.</paragraph>
+                     </text>
+                     <effectiveTime value="20220413"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="Section_6.10">
+                     <id root="7c48eb54-a71b-4ee9-a053-a6bfd27bcba8"/>
+                     <code code="34081-0" codeSystem="2.16.840.1.113883.6.1" displayName="PEDIATRIC USE SECTION"/>
+                     <title>Pediatric Use</title>
+                     <text>
+                        <paragraph>Safety and effectiveness in pediatric patients below the age of 12 have not been established.</paragraph>
+                     </text>
+                     <effectiveTime value="20220413"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="Section_7">
+               <id root="671d2751-fa57-4734-9f2c-a4371fc96035"/>
+               <code code="34084-4" codeSystem="2.16.840.1.113883.6.1" displayName="ADVERSE REACTIONS SECTION"/>
+               <title>ADVERSE REACTIONS</title>
+               <text>
+                  <paragraph>Adverse reaction information concerning Ipratropium Bromide Inhalation Solution is derived from 12-week active-controlled clinical trials. Additional information is derived from foreign postmarketing experience and the published literature.<br/>
+                     <br/> All adverse events, regardless of drug relationship, reported by three percent or more patients in the 12-week controlled clinical trials appear in the table.<br/>
+                     <br/> Additional adverse reactions reported in less than three percent of the patients treated with ipratropium bromide include tachycardia, palpitations, eye pain, urinary retention, urinary tract infection and urticaria. Cases of precipitation or worsening of narrow-angle glaucoma, mydriasis, and acute eye pain have been reported.<br/>
+                     <br/> Lower respiratory adverse reactions (bronchitis, dyspnea and bronchospasm) were the most common events leading to discontinuation of ipratropium bromide therapy in the 12-week trials. Headache, mouth dryness and aggravation of COPD symptoms are more common when the total daily dose of ipratropium bromide equals or exceeds 2,000 mcg. Allergic-type reactions such as skin rash, angioedema of tongue, lips and face, urticaria, laryngospasm and anaphylactic reaction have been reported. Many of the patients had a history of allergies to other drugs and/or foods.</paragraph>
+                  <br/>
+                  <br/>
+                  <table cellspacing="0" cellpadding="0" border="0" width="981.54">
+                     <caption>All Adverse Events, From a Double-blind, Parallel, 12-week Study of Patients with COPD<footnote ID="fn5600">All adverse events, regardless of drug relationship, reported by the three percent or more patients in the 12-week controlled clinical trials.</footnote>
+                     </caption>
+                     <colgroup>
+                        <col width="26.9647696476965%"/>
+                        <col width="13.9566395663957%"/>
+                        <col width="16.3956639566396%"/>
+                        <col width="16.3956639566396%"/>
+                        <col width="12.3306233062331%"/>
+                        <col width="13.9566395663957%"/>
+                     </colgroup>
+                     <tbody>
+                        <tr styleCode="Botrule">
+                           <td styleCode="Lrule Rrule" rowspan="2" align="justify" valign="top"> <br/>
+                           </td>
+                           <td styleCode="Rrule" colspan="5" align="center" valign="top">
+                              <content styleCode="bold">PERCENT OF PATIENTS</content>
+                              <br/>
+                           </td>
+                        </tr>
+                        <tr styleCode="Botrule">
+                           <td styleCode="Lrule Rrule" align="center" valign="top">
+                              <content styleCode="underline">Ipratropium</content>
+                              <br/>
+                              <content styleCode="underline">Bromide</content>
+                              <br/>(500 mcg<br/>t.i.d.)<br/>n = 219<br/>
+                           </td>
+                           <td styleCode="Rrule" align="center" valign="top">
+                              <content styleCode="underline">Metaproterenol</content>
+                              <br/>(15 mg t.i.d.)<br/>n = 212<br/>
+                           </td>
+                           <td styleCode="Rrule" align="center" valign="top">
+                              <content styleCode="underline">Ipratropium</content>
+                              <br/>
+                              <content styleCode="underline">Bromide/ Metaproterenol</content>
+                              <br/>(500 mcg t.i.d./15 mg<br/>t.i.d.)<br/>n = 108<br/>
+                           </td>
+                           <td styleCode="Rrule" align="center" valign="top">
+                              <content styleCode="underline">Albuterol</content>
+                              <br/>(2.5 mg<br/>t.i.d.)<br/>n = 205<br/>
+                           </td>
+                           <td styleCode="Rrule" align="center" valign="top">
+                              <content styleCode="underline">Ipratropium</content>
+                              <br/>
+                              <content styleCode="underline">Bromide/ Albuterol</content>
+                              <br/>(500 mcg t.i.d./2.5<br/>mg t.i.d.)<br/>n = 100<br/>
+                           </td>
+                        </tr>
+                        <tr styleCode="Botrule">
+                           <td styleCode="Lrule Rrule" colspan="6" align="justify" valign="top">Body as a Whole-General Disorders<br/>
+                           </td>
+                        </tr>
+                        <tr styleCode="Botrule">
+                           <td styleCode="Lrule Rrule" align="justify" valign="top">Headache<br/>
+                           </td>
+                           <td styleCode="Rrule" align="center" valign="top">6.4<br/>
+                           </td>
+                           <td styleCode="Rrule" align="center" valign="top">5.2<br/>
+                           </td>
+                           <td styleCode="Rrule" align="center" valign="top">6.5<br/>
+                           </td>
+                           <td styleCode="Rrule" align="center" valign="top">6.3<br/>
+                           </td>
+                           <td styleCode="Rrule" align="center" valign="top">9<br/>
+                           </td>
+                        </tr>
+                        <tr styleCode="Botrule">
+                           <td styleCode="Lrule Rrule" align="justify" valign="top">Pain<br/>
+                           </td>
+                           <td styleCode="Rrule" align="center" valign="top">4.1<br/>
+                           </td>
+                           <td styleCode="Rrule" align="center" valign="top">3.3<br/>
+                           </td>
+                           <td styleCode="Rrule" align="center" valign="top">0.9<br/>
+                           </td>
+                           <td styleCode="Rrule" align="center" valign="top">2.9<br/>
+                           </td>
+                           <td styleCode="Rrule" align="center" valign="top">5<br/>
+                           </td>
+                        </tr>
+                        <tr styleCode="Botrule">
+                           <td styleCode="Lrule Rrule" align="justify" valign="top">Influenza-like symptoms<br/>
+                           </td>
+                           <td styleCode="Rrule" align="center" valign="top">3.7<br/>
+                           </td>
+                           <td styleCode="Rrule" align="center" valign="top">4.7<br/>
+                           </td>
+                           <td styleCode="Rrule" align="center" valign="top">6.5<br/>
+                           </td>
+                           <td styleCode="Rrule" align="center" valign="top">0.5<br/>
+                           </td>
+                           <td styleCode="Rrule" align="center" valign="top">1<br/>
+                           </td>
+                        </tr>
+                        <tr styleCode="Botrule">
+                           <td styleCode="Lrule Rrule" align="justify" valign="top">Back Pain<br/>
+                           </td>
+                           <td styleCode="Rrule" align="center" valign="top">3.2<br/>
+                           </td>
+                           <td styleCode="Rrule" align="center" valign="top">1.9<br/>
+                           </td>
+                           <td styleCode="Rrule" align="center" valign="top">1.9<br/>
+                           </td>
+                           <td styleCode="Rrule" align="center" valign="top">2.4<br/>
+                           </td>
+                           <td styleCode="Rrule" align="center" valign="top">0<br/>
+                           </td>
+                        </tr>
+                        <tr styleCode="Botrule">
+                           <td styleCode="Lrule Rrule" align="justify" valign="top">Chest Pain<br/>
+                           </td>
+                           <td styleCode="Rrule" align="center" valign="top">3.2<br/>
+                           </td>
+                           <td styleCode="Rrule" align="center" valign="top">4.2<br/>
+                           </td>
+                           <td styleCode="Rrule" align="center" valign="top">5.6<br/>
+                           </td>
+                           <td styleCode="Rrule" align="center" valign="top">2<br/>
+                           </td>
+                           <td styleCode="Rrule" align="center" valign="top">1<br/>
+                           </td>
+                        </tr>
+                        <tr styleCode="Botrule">
+                           <td styleCode="Lrule Rrule" colspan="6" align="justify" valign="top">Cardiovascular Disorders<br/>
+                           </td>
+                        </tr>
+                        <tr styleCode="Botrule">
+                           <td styleCode="Lrule Rrule" align="justify" valign="top">Hypertension/hypertension Aggravated<br/>
+                           </td>
+                           <td styleCode="Rrule" align="center" valign="top">0.9<br/>
+                           </td>
+                           <td styleCode="Rrule" align="center" valign="top">1.9<br/>
+                           </td>
+                           <td styleCode="Rrule" align="center" valign="top">0.9<br/>
+                           </td>
+                           <td styleCode="Rrule" align="center" valign="top">1.5<br/>
+                           </td>
+                           <td styleCode="Rrule" align="center" valign="top">4<br/>
+                           </td>
+                        </tr>
+                        <tr styleCode="Botrule">
+                           <td styleCode="Lrule Rrule" colspan="6" align="justify" valign="top">Central &amp; Peripheral Nervous System<br/>
+                           </td>
+                        </tr>
+                        <tr styleCode="Botrule">
+                           <td styleCode="Lrule Rrule" align="justify" valign="top">Dizziness<br/>
+                           </td>
+                           <td styleCode="Rrule" align="center" valign="top">2.3<br/>
+                           </td>
+                           <td styleCode="Rrule" align="center" valign="top">3.3<br/>
+                           </td>
+                           <td styleCode="Rrule" align="center" valign="top">1.9<br/>
+                           </td>
+                           <td styleCode="Rrule" align="center" valign="top">3.9<br/>
+                           </td>
+                           <td styleCode="Rrule" align="center" valign="top">4<br/>
+                           </td>
+                        </tr>
+                        <tr styleCode="Botrule">
+                           <td styleCode="Lrule Rrule" align="justify" valign="top">Insomnia<br/>
+                           </td>
+                           <td styleCode="Rrule" align="center" valign="top">0.9<br/>
+                           </td>
+                           <td styleCode="Rrule" align="center" valign="top">0.5<br/>
+                           </td>
+                           <td styleCode="Rrule" align="center" valign="top">4.6<br/>
+                           </td>
+                           <td styleCode="Rrule" align="center" valign="top">1<br/>
+                           </td>
+                           <td styleCode="Rrule" align="center" valign="top">1<br/>
+                           </td>
+                        </tr>
+                        <tr styleCode="Botrule">
+                           <td styleCode="Lrule Rrule" align="justify" valign="top">Tremor<br/>
+                           </td>
+                           <td styleCode="Rrule" align="center" valign="top">0.9<br/>
+                           </td>
+                           <td styleCode="Rrule" align="center" valign="top">7.1<br/>
+                           </td>
+                           <td styleCode="Rrule" align="center" valign="top">8.3<br/>
+                           </td>
+                           <td styleCode="Rrule" align="center" valign="top">1<br/>
+                           </td>
+                           <td styleCode="Rrule" align="center" valign="top">0<br/>
+                           </td>
+                        </tr>
+                        <tr styleCode="Botrule">
+                           <td styleCode="Lrule Rrule" align="justify" valign="top">Nervousness<br/>
+                           </td>
+                           <td styleCode="Rrule" align="center" valign="top">0.5<br/>
+                           </td>
+                           <td styleCode="Rrule" align="center" valign="top">4.7<br/>
+                           </td>
+                           <td styleCode="Rrule" align="center" valign="top">6.5<br/>
+                           </td>
+                           <td styleCode="Rrule" align="center" valign="top">1<br/>
+                           </td>
+                           <td styleCode="Rrule" align="center" valign="top">1<br/>
+                           </td>
+                        </tr>
+                        <tr styleCode="Botrule">
+                           <td styleCode="Lrule Rrule" colspan="6" align="justify" valign="top">Gastrointestinal System Disorders<br/>
+                           </td>
+                        </tr>
+                        <tr styleCode="Botrule">
+                           <td styleCode="Lrule Rrule" align="justify" valign="top">Mouth Dryness<br/>
+                           </td>
+                           <td styleCode="Rrule" align="center" valign="top">3.2<br/>
+                           </td>
+                           <td styleCode="Rrule" align="center" valign="top">0<br/>
+                           </td>
+                           <td styleCode="Rrule" align="center" valign="top">1.9<br/>
+                           </td>
+                           <td styleCode="Rrule" align="center" valign="top">2<br/>
+                           </td>
+                           <td styleCode="Rrule" align="center" valign="top">3<br/>
+                           </td>
+                        </tr>
+                        <tr styleCode="Botrule">
+                           <td styleCode="Lrule Rrule" align="justify" valign="top">Nausea<br/>
+                           </td>
+                           <td styleCode="Rrule" align="center" valign="top">4.1<br/>
+                           </td>
+                           <td styleCode="Rrule" align="center" valign="top">3.8<br/>
+                           </td>
+                           <td styleCode="Rrule" align="center" valign="top">1.9<br/>
+                           </td>
+                           <td styleCode="Rrule" align="center" valign="top">2.9<br/>
+                           </td>
+                           <td styleCode="Rrule" align="center" valign="top">2<br/>
+                           </td>
+                        </tr>
+                        <tr styleCode="Botrule">
+                           <td styleCode="Lrule Rrule" align="justify" valign="top">Constipation<br/>
+                           </td>
+                           <td styleCode="Rrule" align="center" valign="top">0.9<br/>
+                           </td>
+                           <td styleCode="Rrule" align="center" valign="top">0<br/>
+                           </td>
+                           <td styleCode="Rrule" align="center" valign="top">3.7<br/>
+                           </td>
+                           <td styleCode="Rrule" align="center" valign="top">1<br/>
+                           </td>
+                           <td styleCode="Rrule" align="center" valign="top">1<br/>
+                           </td>
+                        </tr>
+                        <tr styleCode="Botrule">
+                           <td styleCode="Lrule Rrule" colspan="6" align="justify" valign="top">Musculo-skeletal System Disorders<br/>
+                           </td>
+                        </tr>
+                        <tr styleCode="Botrule">
+                           <td styleCode="Lrule Rrule" align="justify" valign="top">Arthritis<br/>
+                           </td>
+                           <td styleCode="Rrule" align="center" valign="top">0.9<br/>
+                           </td>
+                           <td styleCode="Rrule" align="center" valign="top">1.4<br/>
+                           </td>
+                           <td styleCode="Rrule" align="center" valign="top">0.9<br/>
+                           </td>
+                           <td styleCode="Rrule" align="center" valign="top">0.5<br/>
+                           </td>
+                           <td styleCode="Rrule" align="center" valign="top">3<br/>
+                           </td>
+                        </tr>
+                        <tr styleCode="Botrule">
+                           <td styleCode="Lrule Rrule" colspan="6" align="justify" valign="top">Respiratory System Disorders (Lower)<br/>
+                           </td>
+                        </tr>
+                        <tr styleCode="Botrule">
+                           <td styleCode="Lrule Rrule" align="justify" valign="top">Coughing<br/>
+                           </td>
+                           <td styleCode="Rrule" align="center" valign="top">4.6<br/>
+                           </td>
+                           <td styleCode="Rrule" align="center" valign="top">8<br/>
+                           </td>
+                           <td styleCode="Rrule" align="center" valign="top">6.5<br/>
+                           </td>
+                           <td styleCode="Rrule" align="center" valign="top">5.4<br/>
+                           </td>
+                           <td styleCode="Rrule" align="center" valign="top">6<br/>
+                           </td>
+                        </tr>
+                        <tr styleCode="Botrule">
+                           <td styleCode="Lrule Rrule" align="justify" valign="top">Dyspnea<br/>
+                           </td>
+                           <td styleCode="Rrule" align="center" valign="top">9.6<br/>
+                           </td>
+                           <td styleCode="Rrule" align="center" valign="top">13.2<br/>
+                           </td>
+                           <td styleCode="Rrule" align="center" valign="top">16.7<br/>
+                           </td>
+                           <td styleCode="Rrule" align="center" valign="top">12.7<br/>
+                           </td>
+                           <td styleCode="Rrule" align="center" valign="top">9<br/>
+                           </td>
+                        </tr>
+                        <tr styleCode="Botrule">
+                           <td styleCode="Lrule Rrule" align="justify" valign="top">Bronchitis<br/>
+                           </td>
+                           <td styleCode="Rrule" align="center" valign="top">14.6<br/>
+                           </td>
+                           <td styleCode="Rrule" align="center" valign="top">24.5<br/>
+                           </td>
+                           <td styleCode="Rrule" align="center" valign="top">15.7<br/>
+                           </td>
+                           <td styleCode="Rrule" align="center" valign="top">16.6<br/>
+                           </td>
+                           <td styleCode="Rrule" align="center" valign="top">20<br/>
+                           </td>
+                        </tr>
+                        <tr styleCode="Botrule">
+                           <td styleCode="Lrule Rrule" align="justify" valign="top">Bronchospasm<br/>
+                           </td>
+                           <td styleCode="Rrule" align="center" valign="top">2.3<br/>
+                           </td>
+                           <td styleCode="Rrule" align="center" valign="top">2.8<br/>
+                           </td>
+                           <td styleCode="Rrule" align="center" valign="top">4.6<br/>
+                           </td>
+                           <td styleCode="Rrule" align="center" valign="top">5.4<br/>
+                           </td>
+                           <td styleCode="Rrule" align="center" valign="top">5<br/>
+                           </td>
+                        </tr>
+                        <tr styleCode="Botrule">
+                           <td styleCode="Lrule Rrule" align="justify" valign="top">Sputum Increased<br/>
+                           </td>
+                           <td styleCode="Rrule" align="center" valign="top">1.4<br/>
+                           </td>
+                           <td styleCode="Rrule" align="center" valign="top">1.4<br/>
+                           </td>
+                           <td styleCode="Rrule" align="center" valign="top">4.6<br/>
+                           </td>
+                           <td styleCode="Rrule" align="center" valign="top">3.4<br/>
+                           </td>
+                           <td styleCode="Rrule" align="center" valign="top">0<br/>
+                           </td>
+                        </tr>
+                        <tr styleCode="Botrule">
+                           <td styleCode="Lrule Rrule" align="justify" valign="top">Respiratory Disorder<br/>
+                           </td>
+                           <td styleCode="Rrule" align="center" valign="top">0<br/>
+                           </td>
+                           <td styleCode="Rrule" align="center" valign="top">6.1<br/>
+                           </td>
+                           <td styleCode="Rrule" align="center" valign="top">6.5<br/>
+                           </td>
+                           <td styleCode="Rrule" align="center" valign="top">2<br/>
+                           </td>
+                           <td styleCode="Rrule" align="center" valign="top">4<br/>
+                           </td>
+                        </tr>
+                        <tr styleCode="Botrule">
+                           <td styleCode="Lrule Rrule" colspan="6" align="justify" valign="top">Respiratory System Disorders (Upper)<br/>
+                           </td>
+                        </tr>
+                        <tr styleCode="Botrule">
+                           <td styleCode="Lrule Rrule" align="justify" valign="top">Upper Respiratory Tract<br/>Infection<br/>
+                           </td>
+                           <td styleCode="Rrule" align="center" valign="top">13.2<br/>
+                           </td>
+                           <td styleCode="Rrule" align="center" valign="top">11.3<br/>
+                           </td>
+                           <td styleCode="Rrule" align="center" valign="top">9.3<br/>
+                           </td>
+                           <td styleCode="Rrule" align="center" valign="top">12.2<br/>
+                           </td>
+                           <td styleCode="Rrule" align="center" valign="top">16<br/>
+                           </td>
+                        </tr>
+                        <tr styleCode="Botrule">
+                           <td styleCode="Lrule Rrule" align="justify" valign="top">Pharyngitis<br/>
+                           </td>
+                           <td styleCode="Rrule" align="center" valign="top">3.7<br/>
+                           </td>
+                           <td styleCode="Rrule" align="center" valign="top">4.2<br/>
+                           </td>
+                           <td styleCode="Rrule" align="center" valign="top">5.6<br/>
+                           </td>
+                           <td styleCode="Rrule" align="center" valign="top">2.9<br/>
+                           </td>
+                           <td styleCode="Rrule" align="center" valign="top">4<br/>
+                           </td>
+                        </tr>
+                        <tr styleCode="Botrule">
+                           <td styleCode="Lrule Rrule" align="justify" valign="top">Rhinitis<br/>
+                           </td>
+                           <td styleCode="Rrule" align="center" valign="top">2.3<br/>
+                           </td>
+                           <td styleCode="Rrule" align="center" valign="top">4.2<br/>
+                           </td>
+                           <td styleCode="Rrule" align="center" valign="top">1.9<br/>
+                           </td>
+                           <td styleCode="Rrule" align="center" valign="top">2.4<br/>
+                           </td>
+                           <td styleCode="Rrule" align="center" valign="top">0<br/>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Lrule Rrule" align="justify" valign="top">Sinusitis<br/>
+                           </td>
+                           <td styleCode="Rrule" align="center" valign="top">2.3<br/>
+                           </td>
+                           <td styleCode="Rrule" align="center" valign="top">2.8<br/>
+                           </td>
+                           <td styleCode="Rrule" align="center" valign="top">0.9<br/>
+                           </td>
+                           <td styleCode="Rrule" align="center" valign="top">5.4<br/>
+                           </td>
+                           <td styleCode="Rrule" align="center" valign="top">4<br/>
+                           </td>
+                        </tr>
+                     </tbody>
+                  </table>
+               </text>
+               <effectiveTime value="20220413"/>
+            </section>
+         </component>
+         <component>
+            <section ID="Section_9">
+               <id root="e7008c5f-b494-4093-a6c6-b2b7e271d6b8"/>
+               <code code="34088-5" codeSystem="2.16.840.1.113883.6.1" displayName="OVERDOSAGE SECTION"/>
+               <title>OVERDOSAGE</title>
+               <text>
+                  <paragraph>Acute systemic overdosage by inhalation is unlikely since ipratropium bromide is not well absorbed after inhalation at up to four-fold the recommended dose, or after oral administration at up to forty-fold the recommended dose. The oral LD<sub>50</sub> of ipratropium bromide ranged between 1,001 and 2,010 mg/kg in mice; between 1,667 and 4,000 mg/kg in rats; and between 400 and 1,300 mg/kg in dogs.</paragraph>
+               </text>
+               <effectiveTime value="20220413"/>
+            </section>
+         </component>
+         <component>
+            <section ID="Section_10">
+               <id root="3240be03-9068-40d1-9794-6c03937a3e48"/>
+               <code code="34068-7" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE &amp; ADMINISTRATION SECTION"/>
+               <title>DOSAGE AND ADMINISTRATION</title>
+               <text>
+                  <paragraph>The usual dosage of Ipratropium Bromide Inhalation Solution is 500 mcg (1 Unit-Dose Vial) administered three to four times a day by oral nebulization, with doses 6 to 8 hours apart. Ipratropium Bromide Inhalation Solution Unit-Dose Vials contain 500 mcg ipratropium bromide, USP anhydrous in 2.5 mL normal saline. Ipratropium Bromide Inhalation Solution can be mixed in the nebulizer with albuterol or metaproterenol if used within one hour. Drug stability and safety of Ipratropium Bromide Inhalation Solution when mixed with other drugs in a nebulizer have not been established.</paragraph>
+               </text>
+               <effectiveTime value="20220413"/>
+            </section>
+         </component>
+         <component>
+            <section ID="Section_11">
+               <id root="5a317904-8410-400f-8701-3338ff743ff0"/>
+               <code code="34069-5" codeSystem="2.16.840.1.113883.6.1" displayName="HOW SUPPLIED SECTION"/>
+               <title>HOW SUPPLIED</title>
+               <text>
+                  <paragraph>Ipratropium Bromide Inhalation Solution, USP is a clear, colorless solution supplied in a unit-dose vial containing 2.5 mL. Supplied in cartons as listed below:<br/>
+                     <br/> NDC 47335-706-49    carton of 25 vials (5 vials per foil pouch)</paragraph>
+                  <paragraph>NDC 47335-706-52    carton of 30 vials (5 vials per foil pouch)</paragraph>
+                  <paragraph>NDC 47335-706-54    carton of 60 vials (5 vials per foil pouch)<br/>
+                     <br/> Each vial is made from a low density polyethylene (LDPE) resin.<br/>
+                     <br/>
+                     <content styleCode="bold">Store at 20° to 25°C (68° to 77°F); excursions permitted between 15° and 30°C (59° and 86°F) [see USP Controlled Room Temperature]. Protect from light. Store in pouch until time of use.<br/>
+                        <br/>
+                     </content>Dispense with Patient's Instructions For Use available at: https://www.sunpharma.com/usa/products</paragraph>
+               </text>
+               <effectiveTime value="20220413"/>
+            </section>
+         </component>
+         <component>
+            <section ID="Section_16">
+               <id root="1a94de1a-7fd7-4c37-b145-48758dbdf4b5"/>
+               <code code="42230-3" codeSystem="2.16.840.1.113883.6.1" displayName="SPL PATIENT PACKAGE INSERT SECTION"/>
+               <title>Patient's Instructions for Use</title>
+               <text>
+                  <br/>
+                  <paragraph>
+                     <content styleCode="bold">
+                        <br/>Ipratropium Bromide (IH-pruh-TROE-pee-uhm BROE-mide) <br/> Inhalation Solution, USP 0.02%</content>
+                  </paragraph>
+                  <br/>
+                  <paragraph>Read complete instructions carefully before using.</paragraph>
+                  <paragraph>1. Remove vial from the foil pouch.<br/>
+                     <renderMultiMedia referencedObject="MM2"/>
+                  </paragraph>
+                  <paragraph>
+                     <br/> 2. Twist open the top of one unit dose vial and squeeze the contents into the nebulizer reservoir (Figure 1).</paragraph>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="MM3"/>
+                     <br/>
+                     <br/> 3. Connect the nebulizer reservoir to the mouthpiece or face mask (Figure 2).<br/>
+                     <br/>4. Connect the nebulizer to the compressor.<br/>
+                     <br/>
+                     <renderMultiMedia referencedObject="MM4"/>
+                     <br/>
+                  </paragraph>
+                  <paragraph>5. Sit in a comfortable, upright position; place the mouthpiece in your mouth (Figure 3) or put on the face mask and turn on the compressor. If a face mask is used, care should be taken to avoid leakage around the mask as temporary blurring of vision, pupil enlargement, precipitation or worsening of narrow-angle glaucoma, or eye pain may occur if the solution comes into direct contact with the eyes.<br/>
+                  </paragraph>
+                  <paragraph>6. <content styleCode="bold">Breathe as calmly, deeply, and evenly </content>as possible until no more mist is formed in the nebulizer chamber (about 5 to 15 minutes). At this point, the treatment is finished.<br/>
+                  </paragraph>
+                  <paragraph>7. Clean the nebulizer (see manufacturer’s instructions).</paragraph>
+                  <paragraph>
+                     <content styleCode="bold"> Note: Use only as directed by your physician. More frequent administration or higher doses are not recommended. Ipratropium Bromide Inhalation Solution can be mixed in the nebulizer with albuterol or metaproterenol if used within one hour but not with other drugs. Drug stability and safety of Ipratropium Bromide Inhalation Solution when mixed with other drugs in a nebulizer have not been     established.</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold"> Store at 20° to 25°C (68° to 77°F); excursions permitted between 15° and 30°C (59° and 86°F) [see USP Controlled Room Temperature]. Protect from light. Store in pouch until time of use</content>.</paragraph>
+                  <br/>
+                  <br/>
+                  <paragraph>ADDITIONAL INSTRUCTIONS: __________________________________________ <content styleCode="underline"> </content>
+                  </paragraph>
+                  <br/>
+                  <paragraph>Dispense with Patient's Instructions For Use available at: https://www.sunpharma.com/usa/products<br/>
+                     <br/> Distributed by: <br/>
+                     <content styleCode="bold">Sun Pharmaceutical Industries, Inc. <br/>
+                     </content>Cranbury, NJ 08512 <br/>  </paragraph>
+                  <paragraph>Manufactured by: </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Sun Pharmaceutical Medicare Limited</content>
+                  </paragraph>
+                  <paragraph>Baska Ujeti Road, Ujeti</paragraph>
+                  <paragraph>Halol-389350, Gujarat, India</paragraph>
+                  <paragraph>5230899</paragraph>
+                  <paragraph>ISS. 4/2022</paragraph>
+               </text>
+               <effectiveTime value="20220413"/>
+               <component>
+                  <observationMedia ID="MM2">
+                     <text>figure-1</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="figure-1.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="MM3">
+                     <text>figure-2</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="figure-2.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="MM4">
+                     <text>figure-3</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="figure-3.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="Section_17">
+               <id root="34c6c072-5b60-47cd-8a47-de777b100f2e"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>PACKAGE LABEL.PRINCIPAL DISPLAY PANEL</title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">NDC 47335-706-54<br/> Ipratropium Bromide Inhalation Solution, USP<br/> 0.02% (0.5 mg/2.5 mL)<br/> For Oral Inhalation Only<br/> Rx only<br/> 60 X 2.5 mL Sterile Unit-Dose Vials<br/> (5 Unit-Dose Vials per pouch, 12 pouches per carton)<br/> PHARMACIST:  Dispense with "Patient's Instructions For Use" to each patient.<br/> SUN PHARMA<br/>
+                        <renderMultiMedia referencedObject="MM5"/>
+                        <br/>
+                     </content>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20220413"/>
+               <component>
+                  <observationMedia ID="MM5">
+                     <text>Snowbox-1.jpg</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="snowbox--1.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

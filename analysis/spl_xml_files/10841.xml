@@ -1,0 +1,711 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="https://www.accessdata.fda.gov/spl/stylesheet/spl.xsl" type="text/xsl"?>
+<document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:hl7-org:v3" xsi:schemaLocation="urn:hl7-org:v3 https://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="1e1a2eb7-408a-9cae-e063-6394a90a544b"/>
+   <code code="34391-3" codeSystem="2.16.840.1.113883.6.1" displayName="HUMAN PRESCRIPTION DRUG LABEL"/>
+   <title>
+      <content styleCode="bold">LACRISERT 
+  <sup>®</sup>(hydroxypropyl cellulose ophthalmic insert) 
+ </content>
+      <br/>
+      <content styleCode="bold">STERILE OPHTHALMIC INSERT</content>
+      <br/>
+      <content styleCode="bold">5 mg</content>
+   </title>
+   <effectiveTime value="20240725"/>
+   <setId root="cc7a6a52-0b77-4df7-8403-dd21c1334f6c"/>
+   <versionNumber value="8"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id root="1.3.6.1.4.1.519.1" extension="196603781"/>
+            <name>Bausch &amp; Lomb Incorporated</name>
+            <assignedEntity>
+               <assignedOrganization>
+                  <assignedEntity>
+                     <assignedOrganization>
+                        <id root="1.3.6.1.4.1.519.1" extension="077744035"/>
+                        <name>Renaissance Lakewood LLC</name>
+                     </assignedOrganization>
+                     <performance>
+                        <actDefinition>
+                           <code code="C43360" displayName="manufacture" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="24208-800" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                     <performance>
+                        <actDefinition>
+                           <code code="C84731" displayName="pack" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="24208-800" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                  </assignedEntity>
+               </assignedOrganization>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section>
+               <id root="1e1a7943-4008-79aa-e063-6394a90a3b02"/>
+               <code code="48780-1" codeSystem="2.16.840.1.113883.6.1" displayName="SPL product data elements section"/>
+               <effectiveTime value="20240725"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="24208-800" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>Lacrisert</name>
+                        <formCode code="C60933" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="INSERT"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>hydroxypropyl cellulose</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator unit="mg" value="5"/>
+                              <denominator unit="1" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="RFW2ET671P" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>HYDROXYPROPYL CELLULOSE (1600000 WAMW)</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="RFW2ET671P" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>HYDROXYPROPYL CELLULOSE (1600000 WAMW)</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator value="1" unit="1"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code/>
+                              <formCode code="C43168" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BLISTER PACK"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator value="60" unit="1"/>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code code="24208-800-60" codeSystem="2.16.840.1.113883.6.69"/>
+                                    <formCode code="C43182" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CARTON"/>
+                                 </containerPackagedProduct>
+                                 <subjectOf>
+                                    <marketingAct>
+                                       <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                       <statusCode code="completed"/>
+                                       <effectiveTime>
+                                          <low value="19810601"/>
+                                          <high value="20240620"/>
+                                       </effectiveTime>
+                                    </marketingAct>
+                                 </subjectOf>
+                              </asContent>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                        <asContent>
+                           <quantity>
+                              <numerator value="1" unit="1"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code/>
+                              <formCode code="C43168" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BLISTER PACK"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator value="10" unit="1"/>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code code="24208-800-10" codeSystem="2.16.840.1.113883.6.69"/>
+                                    <formCode code="C43182" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CARTON"/>
+                                 </containerPackagedProduct>
+                                 <subjectOf>
+                                    <marketingAct>
+                                       <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                       <statusCode code="completed"/>
+                                       <effectiveTime>
+                                          <low value="19810601"/>
+                                          <high value="20240620"/>
+                                       </effectiveTime>
+                                    </marketingAct>
+                                 </subjectOf>
+                              </asContent>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <id extension="NDA018771" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73594" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="NDA"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="19810601"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38287" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="OPHTHALMIC"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_a1fed401-b58e-e079-a471-18cf796ed5d1">
+               <id root="1e1a2eb7-408b-9cae-e063-6394a90a544b"/>
+               <code code="34089-3" codeSystem="2.16.840.1.113883.6.1" displayName="DESCRIPTION SECTION"/>
+               <title>DESCRIPTION</title>
+               <text>
+                  <paragraph>LACRISERT
+ 
+  <sup>®</sup>(hydroxypropyl cellulose ophthalmic insert) is a sterile, translucent, rod-shaped, water soluble, ophthalmic insert made of hydroxypropyl cellulose, for administration into the inferior cul-de-sac of the eye.
+
+ </paragraph>
+                  <paragraph>The chemical name for hydroxypropyl cellulose is cellulose, 2-hydroxypropyl ether. It is an ether of cellulose in which hydroxypropyl groups (-CH
+ 
+  <sub>2</sub>CHOHCH
+ 
+  <sub>3</sub>) are attached to the hydroxyls present in the anhydroglucose rings of cellulose by ether linkages. A representative structure of the monomer is:
+
+ </paragraph>
+                  <renderMultiMedia ID="id220" referencedObject="ID_63938809-a5d0-49d8-8a62-c50a9b7209d3"/>
+                  <paragraph>The molecular weight is typically 1 × 10
+ 
+  <sup>6</sup>.
+
+ </paragraph>
+                  <paragraph>Hydroxypropyl cellulose is an off-white, odorless, tasteless powder. It is soluble in water below 38°C, and in many polar organic solvents such as ethanol, propylene glycol, dioxane, methanol, isopropyl alcohol (95%), dimethyl sulfoxide, and dimethyl formamide.</paragraph>
+                  <paragraph>Each LACRISERT is 5 mg of hydroxypropyl cellulose. LACRISERT contains no preservatives or other ingredients. It is about 1.27 mm in diameter by about 3.5 mm long.</paragraph>
+                  <paragraph>LACRISERT is supplied in packages of 60 units, together with illustrated instructions and a special applicator for removing LACRISERT from the unit dose blister and inserting it into the eye. A spare applicator is included in each package.</paragraph>
+               </text>
+               <effectiveTime value="20191001"/>
+               <component>
+                  <observationMedia ID="ID_63938809-a5d0-49d8-8a62-c50a9b7209d3">
+                     <text>Chemical Structure</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="lacrisert-01.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_3d6da05f-d052-9908-9bae-8ac3f781bed9">
+               <id root="1e1a2eb7-408c-9cae-e063-6394a90a544b"/>
+               <code code="34090-1" codeSystem="2.16.840.1.113883.6.1" displayName="CLINICAL PHARMACOLOGY SECTION"/>
+               <title>CLINICAL PHARMACOLOGY</title>
+               <effectiveTime value="20191001"/>
+               <component>
+                  <section ID="ID_2e173927-59d5-95c1-1985-dec2c9e8d987">
+                     <id root="1e1a2eb7-408d-9cae-e063-6394a90a544b"/>
+                     <code code="43681-6" codeSystem="2.16.840.1.113883.6.1" displayName="PHARMACODYNAMICS SECTION"/>
+                     <title>
+                        <content styleCode="italics">Pharmacodynamics</content>
+                     </title>
+                     <text>
+                        <paragraph>LACRISERT acts to stabilize and thicken the precorneal tear film and prolong the tear film breakup time which is usually accelerated in patients with dry eye states. LACRISERT also acts to lubricate and protect the eye.</paragraph>
+                        <paragraph>LACRISERT usually reduces the signs and symptoms resulting from moderate to severe dry eye syndromes, such as conjunctival hyperemia, corneal and conjunctival staining with rose bengal, exudation, itching, burning, foreign body sensation, smarting, photophobia, dryness and blurred or cloudy vision. Progressive visual deterioration which occurs in some patients may be retarded, halted, or sometimes reversed.</paragraph>
+                        <paragraph>In a multicenter crossover study the 5 mg LACRISERT administered once a day during the waking hours was compared to artificial tears used four or more times daily. There was a prolongation of tear film breakup time and a decrease in foreign body sensation associated with dry eye syndrome in patients during treatment with inserts as compared to artificial tears; these findings were statistically significantly different between the treatment groups. Improvement, as measured by amelioration of symptoms, by slit lamp examination and by rose bengal staining of the cornea and conjunctiva, was greater in most patients with moderate to severe symptoms during treatment with LACRISERT. Patient comfort was usually better with LACRISERT than with artificial tears solution, and most patients preferred LACRISERT.</paragraph>
+                        <paragraph>In most patients treated with LACRISERT for over one year, improvement was observed as evidenced by amelioration of symptoms generally associated with keratoconjunctivitis sicca such as burning, tearing, foreign body sensation, itching, photophobia and blurred or cloudy vision.</paragraph>
+                        <paragraph>During studies in healthy volunteers, a thickened precorneal tear film was usually observed through the slit - lamp while LACRISERT was present in the conjunctival sac.</paragraph>
+                     </text>
+                     <effectiveTime value="20191001"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID_285a6d5a-c90b-e216-b798-43b19ddd11cc">
+                     <id root="1e1a2eb7-408e-9cae-e063-6394a90a544b"/>
+                     <code code="43682-4" codeSystem="2.16.840.1.113883.6.1" displayName="PHARMACOKINETICS SECTION"/>
+                     <title>
+                        <content styleCode="italics">Pharmacokinetics and Metabolism</content>
+                     </title>
+                     <text>
+                        <paragraph>Hydroxypropyl cellulose is a physiologically inert substance. In a study of rats fed hydroxypropyl cellulose or unmodified cellulose at levels up to 5% of their diet, it was found that the two were biologically equivalent in that neither was metabolized.</paragraph>
+                        <paragraph>Studies conducted in rats fed
+ 
+  <sup>14</sup>C-labeled hydroxypropyl cellulose demonstrated that when orally administered, hydroxypropyl cellulose is not absorbed from the gastrointestinal tract and is quantitatively excreted in the feces.
+
+ </paragraph>
+                        <paragraph>Dissolution studies in rabbits showed that hydroxypropyl cellulose inserts became softer within 1 hour after they were placed in the conjunctival sac. Most of the inserts dissolved completely in 14 to 18 hours; with a single exception, all had disappeared by 24 hours after insertion. Similar dissolution of the inserts was observed during prolonged administration (up to 54 weeks).</paragraph>
+                     </text>
+                     <effectiveTime value="20191001"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_3a1eeafc-3fc5-6502-6e5b-96e9c33d8872">
+               <id root="1e1a2eb7-408f-9cae-e063-6394a90a544b"/>
+               <code code="34067-9" codeSystem="2.16.840.1.113883.6.1" displayName="INDICATIONS &amp; USAGE SECTION"/>
+               <title>INDICATIONS AND USAGE</title>
+               <text>
+                  <paragraph>LACRISERT is indicated in patients with moderate to severe dry eye syndromes, including keratoconjunctivitis sicca. LACRISERT is indicated especially in patients who remain symptomatic after an adequate trial of therapy with artificial tear solutions.</paragraph>
+                  <paragraph>LACRISERT is also indicated for patients with:</paragraph>
+                  <list listType="unordered">
+                     <item>Exposure keratitis 
+   <br/>  Decreased corneal sensitivity 
+   <br/>  Recurrent corneal erosions
+  </item>
+                  </list>
+               </text>
+               <effectiveTime value="20191001"/>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_123b752e-3e01-d7ea-4fc7-5bd766c2b6b4">
+               <id root="1e1a2eb7-4090-9cae-e063-6394a90a544b"/>
+               <code code="34070-3" codeSystem="2.16.840.1.113883.6.1" displayName="CONTRAINDICATIONS SECTION"/>
+               <title>CONTRAINDICATIONS</title>
+               <text>
+                  <paragraph>LACRISERT is contraindicated in patients who are hypersensitive to hydroxypropyl cellulose.</paragraph>
+               </text>
+               <effectiveTime value="20191001"/>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_5943ebc8-af1d-dece-fd7e-09ef347f5f28">
+               <id root="1e1a2eb7-4091-9cae-e063-6394a90a544b"/>
+               <code code="34071-1" codeSystem="2.16.840.1.113883.6.1" displayName="WARNINGS SECTION"/>
+               <title>WARNINGS</title>
+               <text>
+                  <paragraph>Instructions for inserting and removing LACRISERT should be carefully followed.</paragraph>
+               </text>
+               <effectiveTime value="20191001"/>
+            </section>
+         </component>
+         <component>
+            <section ID="Precautions">
+               <id root="1e1a2eb7-4092-9cae-e063-6394a90a544b"/>
+               <code code="42232-9" codeSystem="2.16.840.1.113883.6.1" displayName="PRECAUTIONS SECTION"/>
+               <title>PRECAUTIONS</title>
+               <effectiveTime value="20191001"/>
+               <component>
+                  <section ID="ID_1ba34c87-4d5c-45b7-3f56-c1c7c9d0484e">
+                     <id root="1e1a2eb7-4093-9cae-e063-6394a90a544b"/>
+                     <code code="34072-9" codeSystem="2.16.840.1.113883.6.1" displayName="GENERAL PRECAUTIONS SECTION"/>
+                     <title>
+                        <content styleCode="italics">General</content>
+                     </title>
+                     <text>
+                        <paragraph>If improperly placed, LACRISERT may result in corneal abrasion (see
+ 
+  <linkHtml href="#_RefDA">DOSAGE AND ADMINISTRATION</linkHtml>).
+
+ </paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Information for Patients</content>
+                        </paragraph>
+                        <paragraph>Patients should be advised to follow the instructions for using LACRISERT which accompany the package.</paragraph>
+                        <paragraph>Because this product may produce transient blurring of vision, patients should be instructed to exercise caution when operating hazardous machinery or driving a motor vehicle.</paragraph>
+                     </text>
+                     <effectiveTime value="20191001"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID_d67f0711-376e-2f2f-8af3-2fe22dc16e98">
+                     <id root="1e1a2eb7-4094-9cae-e063-6394a90a544b"/>
+                     <code code="34073-7" codeSystem="2.16.840.1.113883.6.1" displayName="DRUG INTERACTIONS SECTION"/>
+                     <title>
+                        <content styleCode="italics">Drug Interactions</content>
+                     </title>
+                     <text>
+                        <paragraph>Application of hydroxypropyl cellulose ophthalmic inserts to the eyes of unanesthetized rabbits immediately prior to or two hours before instilling pilocarpine, proparacaine HCl (0.5%), or phenylephrine (5%) did not markedly alter the magnitude and/or duration of the miotic, local corneal anesthetic, or mydriatic activity, respectively, of these agents. Under various treatment schedules, the anti-inflammatory effect of ocularly instilled dexamethasone (0.1%) in unanesthetized rabbits with primary uveitis was not affected by the presence of hydroxypropyl cellulose inserts.</paragraph>
+                     </text>
+                     <effectiveTime value="20191001"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID_2eb25af6-85dd-9b8d-69cc-123e1b56d2aa">
+                     <id root="1e1a2eb7-4095-9cae-e063-6394a90a544b"/>
+                     <code code="34083-6" codeSystem="2.16.840.1.113883.6.1" displayName="CARCINOGENESIS &amp; MUTAGENESIS &amp; IMPAIRMENT OF FERTILITY SECTION"/>
+                     <title>
+                        <content styleCode="italics">Carcinogenesis, Mutagenesis, Impairment of Fertility</content>
+                     </title>
+                     <text>
+                        <paragraph>Feeding of hydroxypropyl cellulose to rats at levels up to 5% of their diet produced no gross or histopathologic changes or other deleterious effects.</paragraph>
+                     </text>
+                     <effectiveTime value="20191001"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID_ec2393d3-b3f5-78a9-9251-bbae667345e8">
+                     <id root="1e1a2eb7-4096-9cae-e063-6394a90a544b"/>
+                     <code code="34081-0" codeSystem="2.16.840.1.113883.6.1" displayName="PEDIATRIC USE SECTION"/>
+                     <title>
+                        <content styleCode="italics">Pediatric Use</content>
+                     </title>
+                     <text>
+                        <paragraph>Safety and effectiveness in pediatric patients have not been established.</paragraph>
+                     </text>
+                     <effectiveTime value="20191001"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID_2be25f6d-3f7a-10c4-e798-cb0159b96978">
+                     <id root="1e1a2eb7-4097-9cae-e063-6394a90a544b"/>
+                     <code code="34082-8" codeSystem="2.16.840.1.113883.6.1" displayName="GERIATRIC USE SECTION"/>
+                     <title>
+                        <content styleCode="italics">Geriatric Use</content>
+                     </title>
+                     <text>
+                        <paragraph>No overall differences in safety or effectiveness have been observed between elderly and younger patients.</paragraph>
+                     </text>
+                     <effectiveTime value="20191001"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_c403b247-1bdc-33af-8ce6-4e8fa333204a">
+               <id root="1e1a2eb7-4098-9cae-e063-6394a90a544b"/>
+               <code code="34084-4" codeSystem="2.16.840.1.113883.6.1" displayName="ADVERSE REACTIONS SECTION"/>
+               <title>ADVERSE REACTIONS</title>
+               <text>
+                  <paragraph>The following adverse reactions have been reported in patients treated with LACRISERT, but were in most instances mild and transient:</paragraph>
+                  <list listType="unordered">
+                     <item>
+                        <br/>  Transient blurring of vision (see
+  
+   <linkHtml href="#_RefPrecautions">PRECAUTIONS</linkHtml>) 
+   <br/>  Ocular discomfort or irritation 
+   <br/>  Matting or stickiness of eyelashes 
+   <br/>  Photophobia 
+   <br/>  Hypersensitivity 
+   <br/>  Edema of the eyelids 
+   <br/>  Hyperemia
+ 
+  </item>
+                  </list>
+                  <paragraph>
+                     <content styleCode="bold">To report SUSPECTED ADVERSE REACTIONS, contact Bausch &amp; Lomb Incorporated at 1-800-321-4576 or FDA at 1-800-FDA-1088 or www.fda.gov/medwatch.</content>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20191001"/>
+            </section>
+         </component>
+         <component>
+            <section ID="DA">
+               <id root="1e1a2eb7-4099-9cae-e063-6394a90a544b"/>
+               <code code="34068-7" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE &amp; ADMINISTRATION SECTION"/>
+               <title>DOSAGE AND ADMINISTRATION</title>
+               <text>
+                  <paragraph>One LACRISERT ophthalmic insert in each eye once daily is usually sufficient to relieve the symptoms associated with moderate to severe dry eye syndromes.</paragraph>
+                  <paragraph>Individual patients may require more flexibility in the use of LACRISERT; some patients may require twice daily use for optimal results.</paragraph>
+                  <paragraph>Clinical experience with LACRISERT indicates that in some patients several weeks may be required before satisfactory improvement of symptoms is achieved.</paragraph>
+                  <paragraph>LACRISERT is inserted into the inferior cul-de-sac of the eye beneath the base of the tarsus, not in apposition to the cornea, nor beneath the eyelid at the level of the tarsal plate. If not properly positioned, it will be expelled into the interpalpebral fissure, and may cause symptoms of a foreign body. Illustrated instructions are included in each package. While in the licensed practitioner's office, the patient should read the instructions, then practice insertion and removal of LACRISERT until proficiency is achieved.</paragraph>
+                  <paragraph>NOTE: Occasionally LACRISERT is inadvertently expelled from the eye, especially in patients with shallow conjunctival fornices. The patient should be cautioned against rubbing the eye(s) containing LACRISERT, especially upon awakening, so as not to dislodge or expel the insert. If required, another LACRISERT ophthalmic insert may be inserted. If experience indicates that transient blurred vision develops in an individual patient, the patient may want to remove LACRISERT a few hours after insertion to avoid this. Another LACRISERT ophthalmic insert may be inserted if needed.</paragraph>
+                  <paragraph>If LACRISERT causes worsening of symptoms, the patient should be instructed to inspect the conjunctival sac to make certain LACRISERT is in the proper location, deep in the inferior cul-de-sac of the eye beneath the base of the tarsus. If these symptoms persist, LACRISERT should be removed and the patient should contact the practitioner.</paragraph>
+               </text>
+               <effectiveTime value="20191001"/>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_38ab23bd-18eb-aba3-1e0a-738ae8df177d">
+               <id root="1e1a2eb7-409a-9cae-e063-6394a90a544b"/>
+               <code code="34069-5" codeSystem="2.16.840.1.113883.6.1" displayName="HOW SUPPLIED SECTION"/>
+               <title>HOW SUPPLIED</title>
+               <text>
+                  <paragraph>LACRISERT, a sterile, translucent, rod-shaped, water-soluble, ophthalmic insert made of hydroxypropyl cellulose, 5 mg, is supplied as follows:</paragraph>
+                  <paragraph>NDC 24208-800-60 in packages containing 60 unit doses (each wrapped in an aluminum blister), two reusable applicators, and a plastic storage container to store the applicators after use.</paragraph>
+               </text>
+               <effectiveTime value="20191001"/>
+               <component>
+                  <section ID="ID_4b31d522-8579-bf51-2e3b-19201badf1ec">
+                     <id root="1e1a2eb7-409b-9cae-e063-6394a90a544b"/>
+                     <code code="44425-7" codeSystem="2.16.840.1.113883.6.1" displayName="STORAGE AND HANDLING SECTION"/>
+                     <title>
+                        <content styleCode="italics">Storage</content>
+                     </title>
+                     <text>
+                        <paragraph>Store below 30°C (86°F).</paragraph>
+                     </text>
+                     <effectiveTime value="20191001"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_208bbfc4-1709-42b1-83d0-74cb77515a36">
+               <id root="1e1a2eb7-409c-9cae-e063-6394a90a544b"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">Distributed by:</content>
+                     <br/>  Bausch + Lomb, a division of 
+  <br/>  Bausch Health US, LLC 
+  <br/>  Bridgewater, NJ 08807 USA
+
+ </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Manufactured by:</content>
+                     <br/>  Renaissance Lakewood, LLC 
+  <br/>  Lakewood, NJ 08701 USA
+
+ </paragraph>
+                  <paragraph>LACRISERT is a trademark of 
+  <br/>  Bausch &amp; Lomb Incorporated or its affiliates.
+ </paragraph>
+                  <paragraph>© 2019 Bausch &amp; Lomb Incorporated or its affiliates</paragraph>
+                  <paragraph>9421405</paragraph>
+                  <paragraph>Revised: 10/2019</paragraph>
+               </text>
+               <effectiveTime value="20191001"/>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_3041bcb0-cb11-4b1a-881e-9ca10458545d">
+               <id root="1e1a2eb7-409d-9cae-e063-6394a90a544b"/>
+               <code code="59845-8" codeSystem="2.16.840.1.113883.6.1" displayName="INSTRUCTIONS FOR USE SECTION"/>
+               <effectiveTime value="20191001"/>
+               <component>
+                  <section ID="ID_83114fa2-5ea2-425a-ba46-0bcbabfa7a8b">
+                     <id root="1e1a2eb7-409e-9cae-e063-6394a90a544b"/>
+                     <code code="59845-8" codeSystem="2.16.840.1.113883.6.1" displayName="INSTRUCTIONS FOR USE SECTION"/>
+                     <title>INSTRUCTIONS FOR USE 
+ <br/>  LACRISERT
+
+ <sup>®</sup>(hydroxypropyl cellulose ophthalmic insert) 
+ <br/>  FOR OPHTHALMIC USE ONLY
+</title>
+                     <text>
+                        <list listType="unordered">
+                           <item>Note: 
+   <br/>  Your licensed practitioner or a trained associate can demonstrate the proper use of LACRISERT
+  
+   <content styleCode="bold">
+                                 <sup>®</sup>
+                              </content>. Please read and follow these instructions carefully for your subsequent use.
+ 
+  </item>
+                        </list>
+                        <paragraph>Clinical experience with LACRISERT indicates that in some patients several weeks may be required before satisfactory improvement of symptoms is achieved.</paragraph>
+                        <paragraph>Two applicators (one spare) are supplied with each package.</paragraph>
+                        <paragraph>
+                           <content styleCode="bold">Preparing to Insert LACRISERT</content>
+                        </paragraph>
+                        <paragraph>Before opening the package of LACRISERT, wash your hands thoroughly with soap and water.</paragraph>
+                        <renderMultiMedia ID="id455" referencedObject="F0A57EE0-82AC-4552-9A3B-B5A250286D28"/>
+                        <paragraph>
+                           <content styleCode="bold">STEP 1:</content>On a flat surface, open blister pocket slowly and smoothly by peeling back label area. Each blister pocket contains one LACRISERT ophthalmic insert.
+
+ </paragraph>
+                        <renderMultiMedia ID="id458" referencedObject="ID_44bdbcbd-0fcc-47a6-a9e6-d51a1be4622a"/>
+                        <paragraph>
+                           <content styleCode="bold">STEP 2:</content>Open applicator package with label side up. Avoid touching grooved tip of the applicator. Pick up applicator by the wide end and rinse the tip thoroughly under hot running tap water. Gently shake off excess water.
+
+ </paragraph>
+                        <renderMultiMedia ID="id461" referencedObject="ID_1ec5e58f-19ff-4771-abd7-fe8a3654bccd"/>
+                        <paragraph>
+                           <content styleCode="bold">STEP 3:</content>Hold applicator with tip facing down and with forefinger on top to guide and apply gentle pressure. Lightly press the grooved tip of the applicator onto the LACRISERT ophthalmic insert and it will adhere to the applicator.
+
+ </paragraph>
+                        <paragraph>
+                           <content styleCode="bold">It is important to follow STEPS 4 and 5 carefully or you might experience difficulty in keeping LACRISERT (hydroxypropyl cellulose ophthalmic insert) in your eye.</content>
+                        </paragraph>
+                        <renderMultiMedia ID="id466" referencedObject="ID_78eb7c96-c3e6-4960-8f41-562d5b75ecf3"/>
+                        <paragraph>
+                           <content styleCode="bold">STEP 4:</content>Look into a mirror. Starting with the right eye, turn your head to the right so that the colored part of the eye is close to your nose. Use your free hand to grasp the lower lid between the thumb and index finger. Pull the lid away from the eyeball and create a pocket between the white part of the eyeball and the lid.
+
+ </paragraph>
+                        <renderMultiMedia ID="id469" referencedObject="FAC91409-2F7D-4455-9A83-DDD2B5C92D4C"/>
+                        <paragraph>
+                           <content styleCode="bold">STEP 5:</content>Place the tip of the applicator containing LACRISERT into the pocket. Avoid touching the colored part of the eye.
+
+ </paragraph>
+                        <paragraph>
+                           <content styleCode="bold">Remove the applicator. It is important, after removing the applicator, to look down, then release the lower eyelid. LACRISERT (hydroxypropyl cellulose ophthalmic insert) should remain deep in the lower pocket recess of the eye and not near the edge of the lower eyelid.</content>
+                        </paragraph>
+                        <paragraph>Repeat procedure with left eye, turning head to the left so that the colored part of the eye is close to your nose.</paragraph>
+                        <paragraph>Rinse the applicator thoroughly under hot running tap water after use. Gently shake off visible water droplets and promptly return it to the storage container. Note that the storage container provides space for a strip of two LACRISERT ophthalmic inserts next to the applicator storage compartment.</paragraph>
+                        <paragraph>
+                           <content styleCode="bold">IMPORTANT</content>
+                        </paragraph>
+                        <paragraph>If LACRISERT causes worsening of symptoms, or if new symptoms develop, it should be removed and your prescriber contacted.</paragraph>
+                        <paragraph>Should the removal of the LACRISERT ophthalmic insert be necessary, follow these instructions.</paragraph>
+                        <list listType="ordered">
+                           <item>Locate LACRISERT by pulling the lid away from the eyeball while looking for LACRISERT in a mirror.</item>
+                           <item>Then close the eyelids.</item>
+                           <item>When located, move LACRISERT upward with your fingers through the closed eyelids.</item>
+                           <item>Keep the lids against the eyeball and LACRISERT should slip over the lid margin so that you can remove it with a clean facial tissue without touching the colored part of the eye.</item>
+                        </list>
+                        <paragraph>
+                           <content styleCode="bold">CAUTION:</content>Because this product may produce transient blurring of vision, you should exercise caution when operating hazardous machinery or driving a motor vehicle.
+
+ </paragraph>
+                        <paragraph>
+                           <content styleCode="bold">Store below 86°F (30°C)</content>
+                        </paragraph>
+                        <paragraph>
+                           <content styleCode="bold">Distributed by:</content>
+                           <br/>  Bausch + Lomb, a division of 
+  <br/>  Bausch Health US, LLC 
+  <br/>  Bridgewater, NJ 08807 USA
+
+ </paragraph>
+                        <paragraph>
+                           <content styleCode="bold">Manufactured by:</content>
+                           <br/>  Renaissance Lakewood, LLC, Lakewood, NJ 
+  <br/>  08701 USA
+
+ </paragraph>
+                        <paragraph>This Instructions for Use has been approved by the U.S. Food and Drug Administration.</paragraph>
+                        <paragraph>LACRISERT is a trademark of 
+  <br/>  Bausch &amp; Lomb Incorporated or its affiliates.
+ </paragraph>
+                        <paragraph>© 2019 Bausch &amp; Lomb Incorporated or its affiliates</paragraph>
+                        <paragraph>
+                           <br/>  9421304 
+  <br/>  Revised: 10/2019
+ </paragraph>
+                     </text>
+                     <effectiveTime value="20191001"/>
+                     <component>
+                        <observationMedia ID="F0A57EE0-82AC-4552-9A3B-B5A250286D28">
+                           <text>Figure</text>
+                           <value mediaType="image/jpeg" xsi:type="ED">
+                              <reference value="lacrisert-02.jpg"/>
+                           </value>
+                        </observationMedia>
+                     </component>
+                     <component>
+                        <observationMedia ID="ID_44bdbcbd-0fcc-47a6-a9e6-d51a1be4622a">
+                           <text>Figure</text>
+                           <value mediaType="image/jpeg" xsi:type="ED">
+                              <reference value="lacrisert-03.jpg"/>
+                           </value>
+                        </observationMedia>
+                     </component>
+                     <component>
+                        <observationMedia ID="ID_1ec5e58f-19ff-4771-abd7-fe8a3654bccd">
+                           <text>Figure</text>
+                           <value mediaType="image/jpeg" xsi:type="ED">
+                              <reference value="lacrisert-04.jpg"/>
+                           </value>
+                        </observationMedia>
+                     </component>
+                     <component>
+                        <observationMedia ID="ID_78eb7c96-c3e6-4960-8f41-562d5b75ecf3">
+                           <text>Figure</text>
+                           <value mediaType="image/jpeg" xsi:type="ED">
+                              <reference value="lacrisert-05.jpg"/>
+                           </value>
+                        </observationMedia>
+                     </component>
+                     <component>
+                        <observationMedia ID="FAC91409-2F7D-4455-9A83-DDD2B5C92D4C">
+                           <text>Figure</text>
+                           <value mediaType="image/jpeg" xsi:type="ED">
+                              <reference value="lacrisert-06.jpg"/>
+                           </value>
+                        </observationMedia>
+                     </component>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="PDP1">
+               <id root="1e1a2eb7-409f-9cae-e063-6394a90a544b"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>PRINCIPAL DISPLAY PANEL - 5 mg Carton of 60</title>
+               <text>
+                  <paragraph>
+                     <br/>
+                     <content styleCode="bold">NDC</content>24208-800-60
+
+ </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Rx only</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">LACRISERT
+  
+   <sup>®</sup>
+                     </content>
+                     <br/>
+                     <content styleCode="bold">(hydroxypropyl cellulose</content>
+                     <br/>
+                     <content styleCode="bold">ophthalmic insert)</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">5 mg</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">FOR OPHTHALMIC USE ONLY</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Carton also contains two sterile</content>
+                     <br/>
+                     <content styleCode="bold">applicators and a storage container.</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">CONTAINS NO PRESERVATIVE</content>
+                     <br/>
+                     <content styleCode="bold">60 STERILE OPHTHALMIC INSERTS</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">BAUSCH + LOMB</content>
+                     <br/>  9421104
+
+ </paragraph>
+                  <renderMultiMedia ID="id1960381150" referencedObject="AB5C3DB8-DEE3-4009-B5F7-ECF9A8D99D7D"/>
+               </text>
+               <effectiveTime value="20191001"/>
+               <component>
+                  <observationMedia ID="AB5C3DB8-DEE3-4009-B5F7-ECF9A8D99D7D">
+                     <text>carton</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="image-01.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

@@ -1,0 +1,616 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="https://www.accessdata.fda.gov/spl/stylesheet/spl.xsl"?>
+<document xmlns="urn:hl7-org:v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 https://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="969bdf41-6565-42fb-8ac1-8661a928cc22"/>
+   <code code="34391-3" displayName="HUMAN PRESCRIPTION DRUG LABEL" codeSystem="2.16.840.1.113883.6.1"/>
+   <title>Package Insert<br/>
+      <content styleCode="bold">PIC™ (Plastic Irrigation Containers)</content>
+      <br/>
+      <content styleCode="bold">Sterile Water for Irrigation USP<br/>
+Rx only</content>
+   </title>
+   <effectiveTime value="20230906"/>
+   <setId root="f4284eb6-e553-46d4-90d8-efc80a90a480"/>
+   <versionNumber value="8"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id extension="002397347" root="1.3.6.1.4.1.519.1"/>
+            <name>B. Braun Medical Inc.</name>
+            <assignedEntity>
+               <assignedOrganization/>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section>
+               <id root="b3b89fee-a854-47f1-a491-8f402641474f"/>
+               <code code="48780-1" displayName="SPL listing data elements section" codeSystem="2.16.840.1.113883.6.1"/>
+               <effectiveTime value="20230906"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="0264-2101" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>Sterile Water</name>
+                        <formCode code="C42947" displayName="IRRIGANT" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>Water</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator unit="mL" value="1"/>
+                              <denominator unit="mL" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="059QF0KO0R" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>WATER</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="059QF0KO0R" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>WATER</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator unit="mL" value="1000"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code/>
+                              <formCode code="C43186" displayName="CONTAINER" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator unit="1" value="16"/>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code code="0264-2101-00" codeSystem="2.16.840.1.113883.6.69"/>
+                                    <formCode code="C43184" displayName="CASE" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 </containerPackagedProduct>
+                                 <subjectOf>
+                                    <marketingAct>
+                                       <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                       <statusCode code="active"/>
+                                       <effectiveTime>
+                                          <low value="19700910"/>
+                                       </effectiveTime>
+                                    </marketingAct>
+                                 </subjectOf>
+                              </asContent>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" displayName="Type 0: Not a Combination Product" codeSystem="2.16.840.1.113883.3.26.1.1" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                        <asContent>
+                           <quantity>
+                              <numerator unit="mL" value="500"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code/>
+                              <formCode code="C43186" displayName="CONTAINER" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator unit="1" value="16"/>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code code="0264-2101-10" codeSystem="2.16.840.1.113883.6.69"/>
+                                    <formCode code="C43184" displayName="CASE" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 </containerPackagedProduct>
+                                 <subjectOf>
+                                    <marketingAct>
+                                       <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                       <statusCode code="active"/>
+                                       <effectiveTime>
+                                          <low value="19700910"/>
+                                       </effectiveTime>
+                                    </marketingAct>
+                                 </subjectOf>
+                              </asContent>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" displayName="Type 0: Not a Combination Product" codeSystem="2.16.840.1.113883.3.26.1.1" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                        <asContent>
+                           <quantity>
+                              <numerator unit="mL" value="2000"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code/>
+                              <formCode code="C43186" displayName="CONTAINER" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator unit="1" value="8"/>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code code="0264-2101-50" codeSystem="2.16.840.1.113883.6.69"/>
+                                    <formCode code="C43184" displayName="CASE" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 </containerPackagedProduct>
+                                 <subjectOf>
+                                    <marketingAct>
+                                       <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                       <statusCode code="completed"/>
+                                       <effectiveTime>
+                                          <low value="19700910"/>
+                                          <high value="20220831"/>
+                                       </effectiveTime>
+                                    </marketingAct>
+                                 </subjectOf>
+                              </asContent>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" displayName="Type 0: Not a Combination Product" codeSystem="2.16.840.1.113883.3.26.1.1" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                        <asContent>
+                           <quantity>
+                              <numerator unit="mL" value="4000"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code/>
+                              <formCode code="C43186" displayName="CONTAINER" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator unit="1" value="4"/>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code code="0264-2101-70" codeSystem="2.16.840.1.113883.6.69"/>
+                                    <formCode code="C43184" displayName="CASE" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 </containerPackagedProduct>
+                                 <subjectOf>
+                                    <marketingAct>
+                                       <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                       <statusCode code="completed"/>
+                                       <effectiveTime>
+                                          <low value="19700910"/>
+                                          <high value="20210930"/>
+                                       </effectiveTime>
+                                    </marketingAct>
+                                 </subjectOf>
+                              </asContent>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" displayName="Type 0: Not a Combination Product" codeSystem="2.16.840.1.113883.3.26.1.1" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <id extension="NDA016734" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73594" displayName="NDA" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="19700910"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38281" displayName="IRRIGATION" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_763105b0-fb93-42a2-9b5a-a6d1b1cff5b0">
+               <id root="9b62a93f-e1e1-4dec-a8d3-abe2c5d6f0f6"/>
+               <code code="34089-3" codeSystem="2.16.840.1.113883.6.1" displayName="DESCRIPTION SECTION"/>
+               <title>DESCRIPTION</title>
+               <text>
+                  <paragraph>Sterile Water for Irrigation USP is a sterile, hypotonic, nonpyrogenic irrigating fluid or pharmaceutic aid (solvent) entirely composed of Sterile Water for Injection USP. It is prepared by distillation and contains no antimicrobial or bacteriostatic agents or added buffers. The pH is 5.7 (5.0–7.0)</paragraph>
+                  <paragraph>The plastic container is a copolymer of ethylene and propylene formulated and developed for parenteral drugs. The copolymer contains no plasticizers and exhibits virtually no leachability. The plastic container is also virtually impermeable to vapor transmission and therefore, requires no overwrap to maintain the proper drug concentration. The safety of the plastic container has been confirmed by biological evaluation procedures. The material passes Class Vl testing as specified in the U.S. Pharmacopeia for Biological Tests — Plastic Containers. These tests have shown that the container is nontoxic and biologically inert.</paragraph>
+                  <paragraph>Not made with natural rubber Latex, PVC or DEHP.</paragraph>
+               </text>
+               <effectiveTime value="20230906"/>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_d696adc7-81bc-427b-8b0f-8b72b65f98b7">
+               <id root="cc9412c4-ea19-4dbf-99e5-3c73058d96fa"/>
+               <code code="34090-1" codeSystem="2.16.840.1.113883.6.1" displayName="CLINICAL PHARMACOLOGY SECTION"/>
+               <title>CLINICAL PHARMACOLOGY</title>
+               <text>
+                  <paragraph>Sterile Water for Irrigation USP is utilized for a variety of clinical indications. Because of its low refractive index (1.3325), water provides excellent visibility during endoscopic urological procedures. It is also utilized as a pharmaceutic aid, as well as in the preparation of enteral nutrient products.</paragraph>
+                  <paragraph>Water is hypotonic and will cause hemolysis and will be readily absorbed by the tissues during surgical procedures; therefore, its use under such conditions is not recommended.</paragraph>
+               </text>
+               <effectiveTime value="20230906"/>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_a9909b97-415d-4990-96d2-cb4c6db2c337">
+               <id root="941f46a3-b794-42bf-ab7f-6d9cda939ab4"/>
+               <code code="34067-9" codeSystem="2.16.840.1.113883.6.1" displayName="INDICATIONS &amp; USAGE SECTION"/>
+               <title>INDICATIONS AND USAGE</title>
+               <text>
+                  <paragraph>Sterile Water for Irrigation USP is indicated for use as an irrigating fluid or pharmaceutic aid. Sterile Water may also be used as an adjunct in the preparation of non-intravenously administered nutrient mixtures (see <content styleCode="bold">
+                        <linkHtml href="#LINK_42fdb82e-8f28-44a0-a8b0-a993e4bca317">DOSAGE AND ADMINISTRATION</linkHtml>
+                     </content>).</paragraph>
+               </text>
+               <effectiveTime value="20230906"/>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_8b00283c-906e-492e-8510-d1b2b7a37d6d">
+               <id root="6fc975a9-746e-4264-8fee-cf9079a8e446"/>
+               <code code="34070-3" codeSystem="2.16.840.1.113883.6.1" displayName="CONTRAINDICATIONS SECTION"/>
+               <title>CONTRAINDICATIONS</title>
+               <text>
+                  <paragraph>Not for injection.</paragraph>
+               </text>
+               <effectiveTime value="20230906"/>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_8637f089-c7f2-446e-aca0-22b5d8052d48">
+               <id root="957d03a6-4b66-4e63-9be8-85b60d4f78a5"/>
+               <code code="34071-1" codeSystem="2.16.840.1.113883.6.1" displayName="WARNINGS SECTION"/>
+               <title>WARNINGS</title>
+               <text>
+                  <paragraph>Sterile Water for Irrigation USP is hypotonic and will cause hemolysis, and is not recommended for use during surgical procedures. </paragraph>
+                  <paragraph>After opening container, its contents should be used promptly to minimize the possibility of bacterial growth or pyrogen formation.</paragraph>
+                  <paragraph>Discard unused portion of irrigating solution since it contains no preservative.</paragraph>
+               </text>
+               <effectiveTime value="20230906"/>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_f5c82a13-7200-4487-b599-fd8ec1c7a65a">
+               <id root="5dd6b651-b4f5-4331-a74b-6bf35f931d0d"/>
+               <code code="42232-9" codeSystem="2.16.840.1.113883.6.1" displayName="PRECAUTIONS SECTION"/>
+               <title>PRECAUTIONS</title>
+               <text>
+                  <paragraph>Use only if solution is clear and container and seal are intact.</paragraph>
+               </text>
+               <effectiveTime value="20230906"/>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_6cafe291-5156-444f-bdca-5347ba9cc5c3">
+               <id root="8dec38f1-6424-4799-a58d-3f1e7c8798f8"/>
+               <code code="34084-4" codeSystem="2.16.840.1.113883.6.1" displayName="ADVERSE REACTIONS SECTION"/>
+               <title>ADVERSE REACTIONS</title>
+               <text>
+                  <paragraph>None known.</paragraph>
+               </text>
+               <effectiveTime value="20230906"/>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_bc610013-4960-411a-9ff9-da77188a8a16">
+               <id root="d1956cdf-54a5-4210-be76-f9bed8e68625"/>
+               <code code="34088-5" codeSystem="2.16.840.1.113883.6.1" displayName="OVERDOSAGE SECTION"/>
+               <title>OVERDOSAGE</title>
+               <text>
+                  <paragraph>None known.</paragraph>
+               </text>
+               <effectiveTime value="20230906"/>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_42fdb82e-8f28-44a0-a8b0-a993e4bca317">
+               <id root="508c5d50-6013-4d39-a8fb-a3106dec40fa"/>
+               <code code="34068-7" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE &amp; ADMINISTRATION SECTION"/>
+               <title>DOSAGE AND ADMINISTRATION</title>
+               <effectiveTime value="20230906"/>
+               <component>
+                  <section ID="LINK_73968d61-6fec-4466-9d4f-990960b05062">
+                     <id root="ee6a0ded-56ff-4a47-a801-23a603f544f0"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>
+                        <content styleCode="bold">
+                           <content styleCode="italics">Irrigation</content>
+                        </content>
+                     </title>
+                     <text>
+                        <paragraph>Use as directed by physician.</paragraph>
+                        <paragraph>This drug product should be inspected visually for particulate matter and discoloration prior to administration, whenever solution and container permit.</paragraph>
+                     </text>
+                     <effectiveTime value="20230906"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_496cb5d0-cd5d-4134-9912-d127c0147362">
+                     <id root="c0a4066b-97ae-4151-bae9-b795a22c964d"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>
+                        <content styleCode="italics">
+                           <content styleCode="bold">Nutrient Mixtures</content>
+                        </content>
+                     </title>
+                     <text>
+                        <paragraph>Sterile Water for Irrigation USP may be used to prepare non-intravenously administered nutrient mixtures. It contains no electrolytes or other added substances. Refer to preparation instructions of particular mixture to be used. The plastic container may be used for administration of non-intravenous nutrient mixture to the patient as appropriate.</paragraph>
+                     </text>
+                     <effectiveTime value="20230906"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_8ec6ef3e-fbbb-4bfc-b45d-c66d27686e0c">
+               <id root="2fccf67a-8b7d-4d55-b779-9b47f5a1a306"/>
+               <code code="34069-5" codeSystem="2.16.840.1.113883.6.1" displayName="HOW SUPPLIED SECTION"/>
+               <title>HOW SUPPLIED</title>
+               <text>
+                  <paragraph>Sterile Water for Irrigation USP is supplied sterile and nonpyrogenic in plastic irrigating containers. The 1000 mL and 500 mL containers are packaged 16 per case.</paragraph>
+                  <table>
+                     <col/>
+                     <col/>
+                     <col/>
+                     <thead>
+                        <tr>
+                           <th align="center"> NDC</th>
+                           <th> Cat. No.</th>
+                           <th align="center"> Size</th>
+                        </tr>
+                     </thead>
+                     <tbody>
+                        <tr>
+                           <td> Sterile Water for Irrigation USP<br/>
+            (Canada DIN 01963961)</td>
+                           <td> </td>
+                           <td align="right"> </td>
+                        </tr>
+                        <tr>
+                           <td align="center"> 0264-2101-00</td>
+                           <td> R5000-01</td>
+                           <td align="right"> 1000 mL</td>
+                        </tr>
+                        <tr>
+                           <td align="center"> 0264-2101-10</td>
+                           <td> R5001-01</td>
+                           <td align="right"> 500 mL</td>
+                        </tr>
+                     </tbody>
+                  </table>
+                  <paragraph>Exposure of pharmaceutical products to heat should be minimized. Avoid excessive heat. Protect from freezing. It is recommended that the product be stored at room temperature (25°C); however, brief exposure up to 40°C does not adversely affect the product. </paragraph>
+                  <paragraph>Do not warm above 150°F (66°C).</paragraph>
+               </text>
+               <effectiveTime value="20230906"/>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_9dff426b-c9f2-4666-bdb1-6a8c79b84d2e">
+               <id root="73f20ed2-8ce1-4288-9950-fab6827cacb5"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <title/>
+               <text>
+                  <paragraph>Revised: May 2023</paragraph>
+                  <paragraph>PIC is a trademark of B. Braun Medical Inc.</paragraph>
+               </text>
+               <effectiveTime value="20230906"/>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_f96923f2-7c6e-475f-95b0-55d1025adb26">
+               <id root="06bdf277-3550-488a-a826-3c99f033bd61"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <title>
+                  <content styleCode="bold">Directions for Use of
+PIC™ (Plastic Irrigation Container)</content>
+               </title>
+               <text>
+                  <paragraph>Not for injection.</paragraph>
+                  <paragraph>Aseptic technique is required.</paragraph>
+                  <list listType="ordered" styleCode="Arabic">
+                     <item>Caution – Before use, perform the following checks: <br/>
+    (a) Read the label. Ensure solution is the one ordered and is within the expiration date. <br/>
+    (b) Invert container and inspect the solution in good light for cloudiness, haze, or particulate matter; check the container for leakage or damage. Any container which is suspect should not be used. <br/>
+                        <br/>
+    Use only if solution is clear and container and seal are intact.<br/>
+                        <br/>
+    Single-dose container. Discard unused portion.<br/>
+                        <br/>
+                     </item>
+                     <item>Outer Closure Removal – Grasp the container with one hand and turn the breakaway ring counterclockwise with the other hand until slight resistance is felt. Then, twisting the container in the opposite direction, turn the breakaway ring <content styleCode="bold">sharply</content> until the entire outer cap is loose and can be lifted off. (Figure 1)<br/>
+                        <renderMultiMedia referencedObject="MM1"/>
+                     </item>
+                     <item>Connect the administration set through the sterile set port according to set instructions (Figure 2) or remove screw cap and pour. <br/>
+                        <renderMultiMedia referencedObject="MM2"/> 
+    </item>
+                     <item>Do not warm above 150°F (66°C) to assure minimal bottle distortion. Keep bottles upright.</item>
+                  </list>
+               </text>
+               <effectiveTime value="20230906"/>
+               <component>
+                  <observationMedia ID="MM1">
+                     <text>Figure 1</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="sterile-water-for-irrigation-usp-in-pic-1.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="MM2">
+                     <text>Figure 2</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="sterile-water-for-irrigation-usp-in-pic-2.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_8ec797bc-3676-48a0-88d7-ac60a82a35be">
+               <id root="5b649e65-736f-446c-a0fc-3012e036ae01"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <title/>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">
+                        <content styleCode="bold">B. Braun Medical Inc.<br/>
+                        </content>
+                     </content>Bethlehem, PA 18018-3524 USA<br/>
+1-800-227-2862</paragraph>
+                  <paragraph>Imported by:<br/>
+                     <content styleCode="bold">
+                        <content styleCode="bold">B. Braun of Canada, Ltd.</content>
+                        <br/>
+                     </content>Scarborough, Ontario M1H 2W4</paragraph>
+                  <paragraph>Y36-003-075   LD-774-1</paragraph>
+               </text>
+               <effectiveTime value="20230906"/>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_0cdae87e-7e0f-48c7-9172-e306717223e3">
+               <id root="3468f204-c364-4e5a-b3a7-dae552b3d7b9"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>PRINCIPAL DISPLAY PANEL - 1000 mL Container</title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">Sterile Water for Irrigation USP</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Warnings: Hypotonic and Hemolytic</content>
+                  </paragraph>
+                  <paragraph>REF R5000-01<br/>
+NDC 0264-2101-00<br/>
+DIN 01963961<br/>
+HK 23675</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">1000 mL<br/>
+                     </content>PIC™ Container</paragraph>
+                  <paragraph>Rx only</paragraph>
+                  <paragraph>Lot<br/>
+Exp.</paragraph>
+                  <paragraph>No antimicrobial agent or other substance has been added.</paragraph>
+                  <paragraph>pH: 5.7 (5.0-7.0)</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Not for Injection.<br/>
+                     </content>See Package Insert.</paragraph>
+                  <paragraph>Use only if solution is clear and container and seal are intact.</paragraph>
+                  <paragraph>Sterile, nonpyrogenic. Single-dose container. Discard unused portion.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Warning: </content>Do not warm above 150°F (66°C).</paragraph>
+                  <paragraph>Recommended Storage: Room temperature (25°C). Avoid excessive heat. Protect from freezing. </paragraph>
+                  <paragraph>Dosage: See Prescribing Information.</paragraph>
+                  <paragraph>Not made with natural rubber latex, PVC or DEHP.</paragraph>
+                  <paragraph>Y37-002-594   LD-775-1</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">B. Braun Medical Inc.<br/>
+                     </content>Bethlehem, PA 18018-3524 USA<br/>
+1-800-227-2862</paragraph>
+                  <paragraph>Imported by:<br/>
+                     <content styleCode="bold">B. Braun of Canada, Ltd.<br/>
+                     </content>Scarborough, Ontario M1H 2W4</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">
+                        <content styleCode="bold">Sterile Water for Irrigation USP</content>
+                     </content>
+                  </paragraph>
+                  <renderMultiMedia referencedObject="MM3"/>
+               </text>
+               <effectiveTime value="20230906"/>
+               <component>
+                  <observationMedia ID="MM3">
+                     <text>1000 mL Container Label R5000-01</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="sterile-water-for-irrigation-usp-in-pic-3.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_364d948e-024f-42f5-a75a-d9225ce38d87">
+               <id root="83d53e2e-6ad6-46f8-86f3-beb4a62d7d0f"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>PRINCIPAL DISPLAY PANEL - 500 mL Container</title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">Sterile Water for Irrigation USP</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Warnings: Hypotonic and Hemolytic</content>
+                  </paragraph>
+                  <paragraph>REF R5001-01<br/>
+NDC 0264-2101-10<br/>
+DIN 01963961<br/>
+HK 23675</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">500 mL<br/>
+                     </content>PIC™ Container</paragraph>
+                  <paragraph>Rx only</paragraph>
+                  <paragraph>Lot<br/>
+Exp.</paragraph>
+                  <paragraph>No antimicrobial agent or other substance has been added.</paragraph>
+                  <paragraph>pH: 5.7 (5.0-7.0)</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Not for Injection.<br/>
+                     </content>See Package Insert.</paragraph>
+                  <paragraph>Use only if solution is clear and container and seal are intact.</paragraph>
+                  <paragraph>Sterile, nonpyrogenic. Single-dose container. Discard unused portion.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Warning: </content>Do not warm above 150°F (66°C).</paragraph>
+                  <paragraph>Recommended Storage: Room temperature (25°C). Avoid excessive heat. Protect from freezing. </paragraph>
+                  <paragraph>Dosage: See Prescribing Information.</paragraph>
+                  <paragraph>Not made with natural rubber latex, PVC or DEHP.</paragraph>
+                  <paragraph>Y37-002-595   LD-776-1</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">B. Braun Medical Inc.<br/>
+                     </content>Bethlehem, PA 18018-3524 USA<br/>
+1-800-227-2862</paragraph>
+                  <paragraph>Imported by:<br/>
+                     <content styleCode="bold">B. Braun of Canada, Ltd.<br/>
+                     </content>Scarborough, Ontario M1H 2W4</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">
+                        <content styleCode="bold">Sterile Water for Irrigation USP</content>
+                     </content>
+                  </paragraph>
+                  <renderMultiMedia referencedObject="MM4"/>
+               </text>
+               <effectiveTime value="20230906"/>
+               <component>
+                  <observationMedia ID="MM4">
+                     <text>500 mL Container Label R5001-01</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="sterile-water-for-irrigation-usp-in-pic-4.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

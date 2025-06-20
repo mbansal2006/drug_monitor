@@ -1,0 +1,1589 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="https://www.accessdata.fda.gov/spl/stylesheet/spl.xsl"?>
+<document xmlns="urn:hl7-org:v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 https://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="4662502b-ce7c-4278-854d-cf8632ac9b83"/>
+   <code code="34391-3" codeSystem="2.16.840.1.113883.6.1" displayName="HUMAN PRESCRIPTION DRUG LABEL"/>
+   <title>Clindamycin Injection, USP
+</title>
+   <effectiveTime value="20240916"/>
+   <setId root="7a6967b3-5563-4bed-9eee-d400f800e799"/>
+   <versionNumber value="21"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id extension="080579617" root="1.3.6.1.4.1.519.1"/>
+            <name>Sagent Pharmaceuticals</name>
+            <assignedEntity>
+               <assignedOrganization/>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section ID="dcl-dpl">
+               <id root="8eb78080-0a8b-4671-9264-4e341569a609"/>
+               <code code="48780-1" codeSystem="2.16.840.1.113883.6.1" displayName="SPL PRODUCT DATA ELEMENTS SECTION"/>
+               <effectiveTime value="20240916"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="25021-115" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>Clindamycin</name>
+                        <formCode code="C42945" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="INJECTION, SOLUTION"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>Clindamycin Phosphate</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <ingredient classCode="ACTIM">
+                           <quantity>
+                              <numerator value="150" unit="mg"/>
+                              <denominator value="1" unit="mL"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="EH6D7113I8" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>clindamycin phosphate</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="3U02EL437C" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>clindamycin</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="7FLD91C86K" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>edetate disodium</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="LKG8494WBH" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>benzyl alcohol</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="55X04QC32I" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>sodium hydroxide</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="QTT17582CB" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>hydrochloric acid</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator value="2" unit="mL"/>
+                              <denominator value="1" unit="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43226" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="VIAL"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator value="25" unit="1"/>
+                                    <denominator value="1" unit="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code code="25021-115-02" codeSystem="2.16.840.1.113883.6.69"/>
+                                    <formCode code="C43182" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CARTON"/>
+                                 </containerPackagedProduct>
+                                 <subjectOf>
+                                    <marketingAct>
+                                       <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                       <statusCode code="active"/>
+                                       <effectiveTime>
+                                          <low value="20120515"/>
+                                       </effectiveTime>
+                                    </marketingAct>
+                                 </subjectOf>
+                              </asContent>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" xsi:type="CV" displayName="Type 0: Not a Combination Product"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                        <asContent>
+                           <quantity>
+                              <numerator value="4" unit="mL"/>
+                              <denominator value="1" unit="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43226" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="VIAL"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator value="25" unit="1"/>
+                                    <denominator value="1" unit="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code code="25021-115-04" codeSystem="2.16.840.1.113883.6.69"/>
+                                    <formCode code="C43182" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CARTON"/>
+                                 </containerPackagedProduct>
+                                 <subjectOf>
+                                    <marketingAct>
+                                       <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                       <statusCode code="active"/>
+                                       <effectiveTime>
+                                          <low value="20120515"/>
+                                       </effectiveTime>
+                                    </marketingAct>
+                                 </subjectOf>
+                              </asContent>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" xsi:type="CV" displayName="Type 0: Not a Combination Product"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                        <asContent>
+                           <quantity>
+                              <numerator value="6" unit="mL"/>
+                              <denominator value="1" unit="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43226" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="VIAL"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator value="25" unit="1"/>
+                                    <denominator value="1" unit="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code code="25021-115-06" codeSystem="2.16.840.1.113883.6.69"/>
+                                    <formCode code="C43182" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CARTON"/>
+                                 </containerPackagedProduct>
+                                 <subjectOf>
+                                    <marketingAct>
+                                       <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                       <statusCode code="active"/>
+                                       <effectiveTime>
+                                          <low value="20120515"/>
+                                       </effectiveTime>
+                                    </marketingAct>
+                                 </subjectOf>
+                              </asContent>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" xsi:type="CV" displayName="Type 0: Not a Combination Product"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20120515"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <subjectOf>
+                        <approval>
+                           <id extension="ANDA090108" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73584" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ANDA"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38276" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="INTRAVENOUS"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C28161" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="INTRAMUSCULAR"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section ID="s1">
+               <id root="668ad1f4-9b7d-41f5-ae38-f02f3b0e8dca"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <text>
+                  <paragraph>SAGENT<sup>®</sup>
+                     <br/>Rx only
+</paragraph>
+                  <paragraph>To reduce the development of drug-resistant bacteria and maintain the effectiveness of Clindamycin Injection, USP and other antibacterial drugs, Clindamycin Injection, USP should be used only to treat or prevent infections that are proven or strongly suspected to be caused by bacteria.
+</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Sterile Solution is for Intramuscular and Intravenous Use</content>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20240916"/>
+            </section>
+         </component>
+         <component>
+            <section ID="s2">
+               <id root="f7e3d447-cf07-4c89-9b5b-028cb262e381"/>
+               <code code="34066-1" codeSystem="2.16.840.1.113883.6.1" displayName="BOXED WARNING SECTION"/>
+               <title>WARNING
+</title>
+               <text>
+                  <paragraph>
+                     <content styleCode="italics">Clostridioides difficile</content>-associated diarrhea (CDAD) has been reported with use of nearly all antibacterial agents, including clindamycin and may range in severity from mild diarrhea to fatal colitis. Treatment with antibacterial agents alters the normal flora of the colon leading to overgrowth of <content styleCode="italics">C. difficile</content>.
+</paragraph>
+                  <paragraph>Because clindamycin therapy has been associated with severe colitis which may end fatally, it should be reserved for serious infections where less toxic antimicrobial agents are inappropriate, as described in the <content styleCode="bold">
+                        <linkHtml href="#s18">INDICATIONS AND USAGE</linkHtml>
+                     </content> section. It should not be used in patients with nonbacterial infections such as most upper respiratory tract infections. <content styleCode="italics">C. difficile</content> produces toxins A and B which contribute to the development of CDAD. Hypertoxin producing strains of <content styleCode="italics">C. difficile</content> cause increased morbidity and mortality, as these infections can be refractory to antimicrobial therapy and may require colectomy. CDAD must be considered in all patients who present with diarrhea following antibiotic use. Careful medical history is necessary since CDAD has been reported to occur over two months after the administration of antibacterial agents.
+</paragraph>
+                  <paragraph>If CDAD is suspected or confirmed, ongoing antibiotic use not directed against <content styleCode="italics">C. difficile</content> may need to be discontinued. Appropriate fluid and electrolyte management, protein supplementation, antibiotic treatment of <content styleCode="italics">C. difficile</content>, and surgical evaluation should be instituted as clinically indicated.
+</paragraph>
+               </text>
+               <effectiveTime value="20240916"/>
+            </section>
+         </component>
+         <component>
+            <section ID="s3">
+               <id root="beac40be-392c-4e9f-929a-14bfb55aea4c"/>
+               <code code="34089-3" codeSystem="2.16.840.1.113883.6.1" displayName="DESCRIPTION SECTION"/>
+               <title>DESCRIPTION
+</title>
+               <text>
+                  <paragraph>Clindamycin Injection, USP, a clear colorless to pale yellow sterile solution, contains clindamycin phosphate, a water soluble ester of clindamycin and phosphoric acid. Each mL contains the equivalent of 150 mg clindamycin, 0.5 mg disodium edetate and 9.45 mg benzyl alcohol added as preservative in each mL. Sodium hydroxide and/or hydrochloric acid may be added to adjust pH. Clindamycin is a semisynthetic antibiotic produced by a 7(S)-chloro-substitution of the 7(R)-hydroxyl group of the parent compound lincomycin.
+</paragraph>
+                  <paragraph>The chemical name of clindamycin phosphate is L-<content styleCode="italics">threo</content>-α-D-<content styleCode="italics">galacto-</content>Octopyranoside, methyl-7-chloro-6,7,8-trideoxy-6-[[(1-methyl-4-propyl-2-pyrrolidinyl)carbonyl]amino]-1-thio-,2-(dihydrogen phosphate), (2<content styleCode="italics">S-trans</content>)-.
+</paragraph>
+                  <paragraph>The molecular formula is C<sub>18</sub>H<sub>34</sub>ClN<sub>2</sub>O<sub>8</sub>PS and the molecular weight is 504.96.
+</paragraph>
+                  <paragraph>The structural formula is represented below:
+</paragraph>
+                  <renderMultiMedia ID="f01" referencedObject="mm01"/>
+               </text>
+               <effectiveTime value="20240916"/>
+               <component>
+                  <observationMedia ID="mm01">
+                     <text>Structural Formula
+</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="cli04-0020-01.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="s4">
+               <id root="821bd52b-ad06-442d-9ee6-b0990dee7b07"/>
+               <code code="34090-1" codeSystem="2.16.840.1.113883.6.1" displayName="CLINICAL PHARMACOLOGY SECTION"/>
+               <title>CLINICAL PHARMACOLOGY
+</title>
+               <effectiveTime value="20240916"/>
+               <component>
+                  <section ID="s5">
+                     <id root="4359ecf1-024d-446f-a634-8119fab87330"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Distribution
+</title>
+                     <text>
+                        <paragraph>Biologically inactive clindamycin phosphate is converted to active clindamycin. By the end of short-term intravenous infusion, peak serum concentrations of active clindamycin are reached.
+</paragraph>
+                        <paragraph>After intramuscular injection of clindamycin phosphate, peak concentrations of active clindamycin are reached within 3 hours in adults and 1 hour in pediatric patients.
+</paragraph>
+                        <paragraph>Serum concentrations of clindamycin can be maintained above the <content styleCode="italics">in vitro</content> minimum inhibitory concentrations for most indicated organisms by administration of clindamycin phosphate every 8 to 12 hours in adults and every 6 to 8 hours in pediatric patients, or by continuous intravenous infusion. An equilibrium state is reached by the third dose.
+</paragraph>
+                        <paragraph>No significant concentrations of clindamycin are attained in the cerebrospinal fluid even in the presence of inflamed meninges.
+</paragraph>
+                     </text>
+                     <effectiveTime value="20240916"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s6">
+                     <id root="01e18a75-4b22-46a3-85dd-b6a8d406c5c9"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Metabolism
+</title>
+                     <text>
+                        <paragraph>
+                           <content styleCode="italics">In vitro</content> studies in human liver and intestinal microsomes indicated that clindamycin is predominantly metabolized by Cytochrome P450 3A4 (CYP3A4), with minor contribution from CYP3A5, to form clindamycin sulfoxide and a minor metabolite, N-desmethylclindamycin.
+</paragraph>
+                     </text>
+                     <effectiveTime value="20240916"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s7">
+                     <id root="4ee98791-58d1-4181-a063-e88af47d47a3"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Excretion
+</title>
+                     <text>
+                        <paragraph>Biologically inactive clindamycin phosphate disappears from the serum with 6 minutes of the average elimination half-life; however, the average serum elimination half-life of active clindamycin is about 3 hours in adults and 2½ hours in pediatric patients.
+</paragraph>
+                     </text>
+                     <effectiveTime value="20240916"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s8">
+                     <id root="406ee8f3-33b3-4a99-abc5-0e5cfa6a33d6"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Specific Populations
+</title>
+                     <effectiveTime value="20240916"/>
+                     <component>
+                        <section ID="s9">
+                           <id root="be9a4e2c-ca68-4903-9fc2-dbfb553a5038"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title>Patients with Renal/Hepatic Impairment
+</title>
+                           <text>
+                              <paragraph>The elimination half-life of clindamycin is increased slightly in patients with markedly reduced renal or hepatic function. Hemodialysis and peritoneal dialysis are not effective in removing clindamycin from the serum. Dosage schedules do not need to be modified in patients with renal or hepatic disease.
+</paragraph>
+                           </text>
+                           <effectiveTime value="20240916"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section ID="s10">
+                           <id root="d11516b9-3f56-4f34-8e23-b8802a423708"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title>Geriatric Patients
+</title>
+                           <text>
+                              <paragraph>Pharmacokinetic studies in elderly volunteers (61 to 79 years) and younger adults (18 to 39 years) indicate that age alone does not alter clindamycin pharmacokinetics (clearance, elimination half-life, volume of distribution, and area under the serum concentration-time curve) after IV administration of clindamycin phosphate. After oral administration of clindamycin hydrochloride, the average elimination half-life is increased to approximately 4 hours (range 3.4 to 5.1 h) in the elderly, compared to 3.2 hours (range 2.1 to 4.2 h) in younger adults. The extent of absorption, however, is not different between age groups and no dosage alteration is necessary for the elderly with normal hepatic function and normal (age-adjusted) renal function<sup>1</sup>.
+</paragraph>
+                           </text>
+                           <effectiveTime value="20240916"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section ID="s11">
+                           <id root="af8bac2d-ad9c-45f0-8f2b-f14bee089946"/>
+                           <code code="43682-4" codeSystem="2.16.840.1.113883.6.1" displayName="PHARMACOKINETICS SECTION"/>
+                           <title>Pharmacokinetics in Pediatric Patients with PMA ≤32 weeks, or &gt;32 to ≤40 weeks
+</title>
+                           <text>
+                              <paragraph>Systemic clearance (CL) in premature infants increases with increases in body weight (kg) and post-menstrual age (PMA). The dosing regimens for pediatric patients ≤32 weeks PMA (5 mg/kg) and &gt;32 to <content styleCode="underline">≤</content>40 weeks PMA (7 mg/kg), both administered intravenously every 8 hours, achieve exposures comparable to therapeutic exposures in adults (weighing 70 kg) administered clindamycin 600 mg every 8 hours (<linkHtml href="#t1">Table 1</linkHtml>).
+</paragraph>
+                              <table ID="t1" width="100%">
+                                 <caption>Table 1. Predicted Drug Exposure (Mean ± SD) of Clindamycin in Adults and in Pediatric Patients with PMA ≤32 weeks, or &gt;32 to ≤40 weeks
+</caption>
+                                 <col width="25.000%" align="left"/>
+                                 <col width="25.000%" align="left"/>
+                                 <col width="25.000%" align="left"/>
+                                 <col width="25.000%" align="left"/>
+                                 <tbody>
+                                    <tr>
+                                       <td align="center" valign="top" styleCode="Toprule Botrule Lrule Rrule">
+                                          <content styleCode="bold">Age</content>
+                                       </td>
+                                       <td align="center" valign="top" styleCode="Toprule Botrule Rrule">
+                                          <content styleCode="bold">Adult (70 kg)</content>
+                                       </td>
+                                       <td align="center" valign="top" styleCode="Toprule Botrule Rrule">
+                                          <content styleCode="bold">PMA ≤32 weeks</content>
+                                       </td>
+                                       <td align="center" valign="top" styleCode="Toprule Botrule Rrule">
+                                          <content styleCode="bold">PMA&gt;32 - ≤40 weeks</content>
+                                       </td>
+                                    </tr>
+                                    <tr>
+                                       <td align="center" valign="top" styleCode="Botrule Lrule Rrule">
+                                          <content styleCode="bold">Dose (every 8 hours)</content>
+                                       </td>
+                                       <td align="center" valign="top" styleCode="Botrule Rrule">600 mg
+</td>
+                                       <td align="center" valign="top" styleCode="Botrule Rrule">5 mg/kg
+</td>
+                                       <td align="center" valign="top" styleCode="Botrule Rrule">7 mg/kg
+</td>
+                                    </tr>
+                                    <tr>
+                                       <td align="center" valign="top" styleCode="Botrule Lrule Rrule">
+                                          <content styleCode="bold">AUC</content>
+                                          <content styleCode="bold">
+                                             <sub>ss,0-8 hour
+</sub>
+                                          </content>
+                                          <content styleCode="bold">(mcg•h/mL)</content>
+                                       </td>
+                                       <td align="center" valign="top" styleCode="Botrule Rrule">50.5 (30.95)
+</td>
+                                       <td align="center" valign="top" styleCode="Botrule Rrule">52.5 (17)
+</td>
+                                       <td align="center" valign="top" styleCode="Botrule Rrule">55.9 (23.55)
+</td>
+                                    </tr>
+                                    <tr>
+                                       <td align="center" valign="top" styleCode="Botrule Lrule Rrule">
+                                          <content styleCode="bold">C</content>
+                                          <content styleCode="bold">
+                                             <sub>max,ss
+</sub>
+                                          </content>
+                                          <content styleCode="bold">(mcg/mL)</content>
+                                       </td>
+                                       <td align="center" valign="top" styleCode="Botrule Rrule">12 (3.49)
+</td>
+                                       <td align="center" valign="top" styleCode="Botrule Rrule">9 (2.02)
+</td>
+                                       <td align="center" valign="top" styleCode="Botrule Rrule">10.5 (2.79)
+</td>
+                                    </tr>
+                                    <tr>
+                                       <td align="center" valign="top" styleCode="Botrule Lrule Rrule">
+                                          <content styleCode="bold">C</content>
+                                          <content styleCode="bold">
+                                             <sub>min,ss
+</sub>
+                                          </content>
+                                          <content styleCode="bold">(mcg/mL)</content>
+                                       </td>
+                                       <td align="center" valign="top" styleCode="Botrule Rrule">3.1 (3.34)
+</td>
+                                       <td align="center" valign="top" styleCode="Botrule Rrule">4.6 (2)
+</td>
+                                       <td align="center" valign="top" styleCode="Botrule Rrule">4.4 (2.77)
+</td>
+                                    </tr>
+                                 </tbody>
+                              </table>
+                              <paragraph>PMA: post-menstrual age; AUC<sub>ss,0-8 hour</sub>: area under the concentration-time curve during a dosing interval at steady state; C<sub>max,ss</sub>: maximum drug concentration at steady state; C<sub>min,ss</sub>: minimum or trough drug concentration at steady state.
+</paragraph>
+                           </text>
+                           <effectiveTime value="20240916"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section ID="s12">
+                           <id root="4bcb3fc3-0733-42f1-8149-2621b0a4f169"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title>Obese Pediatric Patients Aged 2 to Less than 18 Years and Obese Adults Aged 18 to 20 Years
+</title>
+                           <text>
+                              <paragraph>An analysis of pharmacokinetic data in obese pediatric patients aged 2 to less than 18 years and obese adults aged 18 to 20 years demonstrated that clindamycin clearance and volume of distribution, normalized by total body weight, are comparable regardless of obesity.
+</paragraph>
+                           </text>
+                           <effectiveTime value="20240916"/>
+                        </section>
+                     </component>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s13">
+                     <id root="e3db9bdc-54c0-4c99-ae2f-569b8c843c3e"/>
+                     <code code="49489-8" codeSystem="2.16.840.1.113883.6.1" displayName="MICROBIOLOGY SECTION"/>
+                     <title>Microbiology
+</title>
+                     <effectiveTime value="20240916"/>
+                     <component>
+                        <section ID="s14">
+                           <id root="83af0752-9f94-43fd-b6a8-e57d98bffbdf"/>
+                           <code code="43679-0" codeSystem="2.16.840.1.113883.6.1" displayName="MECHANISM OF ACTION SECTION"/>
+                           <title>Mechanism of Action
+</title>
+                           <text>
+                              <paragraph>Clindamycin inhibits bacterial protein synthesis by binding to the 23S RNA of the 50S subunit of the ribosome. Clindamycin is bacteriostatic.
+</paragraph>
+                           </text>
+                           <effectiveTime value="20240916"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section ID="s15">
+                           <id root="96e55a3e-bbf5-4e21-950a-b5b88123a15b"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title>Resistance
+</title>
+                           <text>
+                              <paragraph>Resistance to clindamycin is most often caused by modification of specific bases of the 23S ribosomal RNA. Cross-resistance between clindamycin and lincomycin is complete. Because the binding sites for these antibacterial drugs overlap, cross-resistance is sometimes observed among lincosamides, macrolides and streptogramin B. Macrolide-inducible resistance to clindamycin occurs in some isolates of macrolide-resistant bacteria. Macrolide-resistant isolates of staphylococci and beta-hemolytic streptococci should be screened for induction of clindamycin resistance using the D-zone test.
+</paragraph>
+                           </text>
+                           <effectiveTime value="20240916"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section ID="s16">
+                           <id root="351fbde5-c95d-47f1-80bc-4782f169dc59"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title>Antimicrobial Activity
+</title>
+                           <text>
+                              <paragraph>Clindamycin has been shown to be active against most of the isolates of the following microorganisms, both <content styleCode="italics">in vitro</content> and in clinical infections (see <content styleCode="bold">
+                                    <linkHtml href="#s18">INDICATIONS AND USAGE</linkHtml>
+                                 </content>):
+</paragraph>
+                              <paragraph>
+                                 <content styleCode="bold">Gram-positive bacteria</content>
+                              </paragraph>
+                              <list listType="unordered">
+                                 <item>
+                                    <caption> 
+</caption>
+                                    <content styleCode="italics">Staphylococcus aureus</content> (methicillin-susceptible strains)
+</item>
+                                 <item>
+                                    <caption> 
+</caption>
+                                    <content styleCode="italics">Streptococcus pneumoniae</content> (penicillin-susceptible strains)
+</item>
+                                 <item>
+                                    <caption> 
+</caption>
+                                    <content styleCode="italics">Streptococcus pyogenes</content>
+                                 </item>
+                              </list>
+                              <paragraph>
+                                 <content styleCode="bold">Anaerobic bacteria</content>
+                              </paragraph>
+                              <list listType="unordered">
+                                 <item>
+                                    <caption> 
+</caption>
+                                    <content styleCode="italics">Clostridium perfringens</content>
+                                 </item>
+                                 <item>
+                                    <caption> 
+</caption>
+                                    <content styleCode="italics">Fusobacterium necrophorum</content>
+                                 </item>
+                                 <item>
+                                    <caption> 
+</caption>
+                                    <content styleCode="italics">Fusobacterium nucleatum</content>
+                                 </item>
+                                 <item>
+                                    <caption> 
+</caption>
+                                    <content styleCode="italics">Peptostreptococcus anaerobius</content>
+                                 </item>
+                                 <item>
+                                    <caption> 
+</caption>
+                                    <content styleCode="italics">Prevotella melaninogenica</content>
+                                 </item>
+                              </list>
+                              <paragraph>The following <content styleCode="italics">in vitro</content> data are available, but their clinical significance is unknown. At least 90 percent of the following bacteria exhibit an <content styleCode="italics">in vitro</content> minimum inhibitory concentration (MIC) less than or equal to the susceptible breakpoint for clindamycin against isolates of a similar genus or organism group. However, the efficacy of clindamycin in treating clinical infections due to these bacteria has not been established in adequate and well-controlled clinical trials.
+</paragraph>
+                              <paragraph>
+                                 <content styleCode="bold">Gram-positive bacteria</content>
+                              </paragraph>
+                              <list listType="unordered">
+                                 <item>
+                                    <caption> 
+</caption>
+                                    <content styleCode="italics">Staphylococcus epidermidis</content> (methicillin-susceptible strains)
+</item>
+                                 <item>
+                                    <caption> 
+</caption>
+                                    <content styleCode="italics">Streptococcus agalactiae</content>
+                                 </item>
+                                 <item>
+                                    <caption> 
+</caption>
+                                    <content styleCode="italics">Streptococcus anginosus</content>
+                                 </item>
+                                 <item>
+                                    <caption> 
+</caption>
+                                    <content styleCode="italics">Streptococcus mitis</content>
+                                 </item>
+                                 <item>
+                                    <caption> 
+</caption>
+                                    <content styleCode="italics">Streptococcus oralis</content>
+                                 </item>
+                              </list>
+                              <paragraph>
+                                 <content styleCode="bold">Anaerobic bacteria</content>
+                              </paragraph>
+                              <list listType="unordered">
+                                 <item>
+                                    <caption> 
+</caption>
+                                    <content styleCode="italics">Actinomyces israelii</content>
+                                 </item>
+                                 <item>
+                                    <caption> 
+</caption>
+                                    <content styleCode="italics">Clostridium clostridioforme</content>
+                                 </item>
+                                 <item>
+                                    <caption> 
+</caption>
+                                    <content styleCode="italics">Eggerthella lenta</content>
+                                 </item>
+                                 <item>
+                                    <caption> 
+</caption>
+                                    <content styleCode="italics">Finegoldia (Peptostreptococcus) magna</content>
+                                 </item>
+                                 <item>
+                                    <caption> 
+</caption>
+                                    <content styleCode="italics">Micromonas (Peptostreptococcus) micros</content>
+                                 </item>
+                                 <item>
+                                    <caption> 
+</caption>
+                                    <content styleCode="italics">Prevotella bivia</content>
+                                 </item>
+                                 <item>
+                                    <caption> 
+</caption>
+                                    <content styleCode="italics">Prevotella intermedia</content>
+                                 </item>
+                                 <item>
+                                    <caption> 
+</caption>
+                                    <content styleCode="italics">Cutibacterium acnes</content>
+                                 </item>
+                              </list>
+                           </text>
+                           <effectiveTime value="20240916"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section ID="s17">
+                           <id root="0befe55c-babb-4e7a-b0b3-198f05a98589"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title>Susceptibility Testing
+</title>
+                           <text>
+                              <paragraph>For specific information regarding susceptibility test interpretive criteria and associated test methods and quality control standards recognized by FDA for this drug, please see: https://www.fda.gov/STIC.
+</paragraph>
+                           </text>
+                           <effectiveTime value="20240916"/>
+                        </section>
+                     </component>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="s18">
+               <id root="508ec13a-b57c-42da-aa8f-bfe421ae5af5"/>
+               <code code="34067-9" codeSystem="2.16.840.1.113883.6.1" displayName="INDICATIONS &amp; USAGE SECTION"/>
+               <title>INDICATIONS AND USAGE
+</title>
+               <text>
+                  <paragraph>Clindamycin Injection, USP is indicated in the treatment of serious infections caused by susceptible anaerobic bacteria.
+</paragraph>
+                  <paragraph>Clindamycin Injection, USP is also indicated in the treatment of serious infections due to susceptible strains of streptococci, pneumococci, and staphylococci. Its use should be reserved for penicillin-allergic patients or other patients for whom, in the judgment of the physician, a penicillin is inappropriate. Because of the risk of antibiotic-associated pseudomembranous colitis, as described in the <content styleCode="bold">
+                        <linkHtml href="#s2">BOXED WARNING</linkHtml>
+                     </content>, before selecting clindamycin the physician should consider the nature of the infection and the suitability of less toxic alternatives (e.g., erythromycin).
+</paragraph>
+                  <paragraph>Bacteriologic studies should be performed to determine the causative organisms and their susceptibility to clindamycin.
+</paragraph>
+                  <paragraph>Indicated surgical procedures should be performed in conjunction with antibiotic therapy.
+</paragraph>
+                  <paragraph>Clindamycin Injection, USP is indicated in the treatment of serious infections caused by susceptible strains of the designated organisms in the conditions listed below:
+</paragraph>
+                  <paragraph>Lower respiratory tract infections including pneumonia, empyema, and lung abscess caused by anaerobes, <content styleCode="italics">Streptococcus pneumoniae,</content> other streptococci (except <content styleCode="italics">E. faecalis</content>), and <content styleCode="italics">Staphylococcus aureus.</content>
+                  </paragraph>
+                  <paragraph>Skin and skin structure infections caused by <content styleCode="italics">Streptococcus pyogenes, Staphylococcus aureus</content>, and anaerobes.
+</paragraph>
+                  <paragraph>Gynecological infections including endometritis, nongonococcal tubo-ovarian abscess, pelvic cellulitis, and postsurgical vaginal cuff infection caused by susceptible anaerobes.
+</paragraph>
+                  <paragraph>Intra-abdominal infections including peritonitis and intra-abdominal abscess caused by susceptible anaerobic organisms.
+</paragraph>
+                  <paragraph>Septicemia caused by <content styleCode="italics">Staphylococcus aureus</content>, streptococci (except <content styleCode="italics">Enterococcus faecalis</content>), and susceptible anaerobes.
+</paragraph>
+                  <paragraph>Bone and joint infections including acute hematogenous osteomyelitis caused by <content styleCode="italics">Staphylococcus aureus</content> and as adjunctive therapy in the surgical treatment of chronic bone and joint infections due to susceptible organisms.
+</paragraph>
+                  <paragraph>To reduce the development of drug-resistant bacteria and maintain the effectiveness of Clindamycin Injection, USP and other antibacterial drugs, Clindamycin Injection, USP should be used only to treat or prevent infections that are proven or strongly suspected to be caused by susceptible bacteria. When culture and susceptibility information are available, they should be considered in selecting or modifying antibacterial therapy. In the absence of such data, local epidemiology and susceptibility patterns may contribute to the empiric selection of therapy.
+</paragraph>
+               </text>
+               <effectiveTime value="20240916"/>
+            </section>
+         </component>
+         <component>
+            <section ID="s19">
+               <id root="034c65d4-dbe6-4b76-886d-344cbf5635ef"/>
+               <code code="34070-3" codeSystem="2.16.840.1.113883.6.1" displayName="CONTRAINDICATIONS SECTION"/>
+               <title>CONTRAINDICATIONS
+</title>
+               <text>
+                  <paragraph>This drug is contraindicated in individuals with a history of hypersensitivity to preparations containing clindamycin or lincomycin.
+</paragraph>
+               </text>
+               <effectiveTime value="20240916"/>
+            </section>
+         </component>
+         <component>
+            <section ID="s20">
+               <id root="bc34d7e7-fd60-451f-8cab-84d958a7b599"/>
+               <code code="34071-1" codeSystem="2.16.840.1.113883.6.1" displayName="WARNINGS SECTION"/>
+               <title>WARNINGS
+</title>
+               <text>
+                  <paragraph>See <content styleCode="bold">
+                        <linkHtml href="#s2">BOXED WARNING</linkHtml>
+                     </content>.
+</paragraph>
+               </text>
+               <effectiveTime value="20240916"/>
+               <component>
+                  <section ID="s21">
+                     <id root="2713d8eb-d0e0-4adf-9b4d-eb6a5447f130"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>
+                        <content styleCode="italics">Clostridioides difficile</content>-Associated Diarrhea
+</title>
+                     <text>
+                        <paragraph>
+                           <content styleCode="italics">Clostridioides difficile</content>-associated diarrhea (CDAD) has been reported with use of nearly all antibacterial agents, including clindamycin injection, and may range in severity from mild diarrhea to fatal colitis. Treatment with antibacterial agents alters the normal flora of the colon leading to overgrowth of <content styleCode="italics">C. difficile.</content>
+                        </paragraph>
+                        <paragraph>
+                           <content styleCode="italics">C. difficile</content> produces toxins A and B which contribute to the development of CDAD. Hypertoxin producing strains of <content styleCode="italics">C. difficile</content> cause increased morbidity and mortality, as these infections can be refractory to antimicrobial therapy and may require colectomy. CDAD must be considered in all patients who present with diarrhea following antibiotic use. Careful medical history is necessary since CDAD has been reported to occur over two months after the administration of antibacterial agents.
+</paragraph>
+                        <paragraph>If CDAD is suspected or confirmed, ongoing antibiotic use not directed against <content styleCode="italics">C. difficile</content> may need to be discontinued. Appropriate fluid and electrolyte management, protein supplementation, antibiotic treatment of <content styleCode="italics">C. difficile</content>, and surgical evaluation should be instituted as clinically indicated.
+</paragraph>
+                     </text>
+                     <effectiveTime value="20240916"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s22">
+                     <id root="c576c42a-82aa-4510-b077-6ceef66a4869"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Anaphylactic and Severe Hypersensitivity Reactions
+</title>
+                     <text>
+                        <paragraph>Anaphylactic shock and anaphylactic reactions have been reported (see <content styleCode="bold">
+                              <linkHtml href="#s36">ADVERSE REACTIONS</linkHtml>
+                           </content>).
+</paragraph>
+                        <paragraph>Severe hypersensitivity reactions, including severe skin reactions such as toxic epidermal necrolysis (TEN), drug reaction with eosinophilia and systemic symptoms (DRESS), and Stevens-Johnson syndrome (SJS), some with fatal outcome, have been reported (see <content styleCode="bold">
+                              <linkHtml href="#s36">ADVERSE REACTIONS</linkHtml>
+                           </content>).
+</paragraph>
+                        <paragraph>In case of such an anaphylactic or severe hypersensitivity reaction, discontinue treatment permanently and institute appropriate therapy.
+</paragraph>
+                        <paragraph>A careful inquiry should be made concerning previous sensitivities to drugs and other allergens.
+</paragraph>
+                     </text>
+                     <effectiveTime value="20240916"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s23">
+                     <id root="810fabde-8ef2-414e-8703-3c0479761861"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Benzyl Alcohol Toxicity in Neonates (“Gasping Syndrome”)
+</title>
+                     <text>
+                        <paragraph>This product contains benzyl alcohol as a preservative. The administration of intravenous solutions containing the preservative benzyl alcohol has been associated with the “gasping syndrome”, and death in neonates. Symptoms include a striking onset of gasping respiration, hypotension, bradycardia, and cardiovascular collapse. Although the normal therapeutic dose of this product delivers amounts of benzyl alcohol that are substantially lower than those reported in association with the “gasping syndrome”, the minimum amount of benzyl alcohol at which toxicity may occur is not known and total daily benzyl alcohol exposure may be increased by concomitant medications.
+</paragraph>
+                        <paragraph>The risk of benzyl alcohol toxicity depends on the quantity administered and the liver and kidneys' capacity to detoxify the chemical. Premature and low birth weight infants may be more likely to develop toxicity.
+</paragraph>
+                     </text>
+                     <effectiveTime value="20240916"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s24">
+                     <id root="693be95c-4ba5-49ee-98e5-a29500c6ac82"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Nephrotoxicity
+</title>
+                     <text>
+                        <paragraph>Clindamycin is potentially nephrotoxic and cases with acute kidney injury have been reported. Consider monitoring of renal function particularly in patients with pre-existing renal dysfunction or those taking concomitant nephrotoxic drugs. In case of acute kidney injury, discontinue clindamycin when no other etiology is identified.
+</paragraph>
+                        <paragraph>
+                           <content styleCode="bold">Usage in Meningitis</content>—Since clindamycin does not diffuse adequately into the cerebrospinal fluid, the drug should not be used in the treatment of meningitis.
+</paragraph>
+                     </text>
+                     <effectiveTime value="20240916"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="s25">
+               <id root="579ac6ea-7a17-457e-9c30-9d84198def50"/>
+               <code code="42232-9" codeSystem="2.16.840.1.113883.6.1" displayName="PRECAUTIONS SECTION"/>
+               <title>PRECAUTIONS
+</title>
+               <effectiveTime value="20240916"/>
+               <component>
+                  <section ID="s26">
+                     <id root="bba973f6-b12a-4681-9fb3-ac548f689f7b"/>
+                     <code code="34072-9" codeSystem="2.16.840.1.113883.6.1" displayName="GENERAL PRECAUTIONS SECTION"/>
+                     <title>General
+</title>
+                     <text>
+                        <paragraph>Review of experience to date suggests that a subgroup of older patients with associated severe illness may tolerate diarrhea less well. When clindamycin is indicated in these patients, they should be carefully monitored for change in bowel frequency.
+</paragraph>
+                        <paragraph>Clindamycin injection products should be prescribed with caution in individuals with a history of gastrointestinal disease, particularly colitis.
+</paragraph>
+                        <paragraph>Clindamycin injection should be prescribed with caution in atopic individuals.
+</paragraph>
+                        <paragraph>Certain infections may require incision and drainage or other indicated surgical procedures in addition to antibiotic therapy.
+</paragraph>
+                        <paragraph>The use of clindamycin injection may result in overgrowth of nonsusceptible organisms-particularly yeasts. Should superinfections occur, appropriate measures should be taken as indicated by the clinical situation.
+</paragraph>
+                        <paragraph>Clindamycin injection should not be injected intravenously undiluted as a bolus, but should be infused over at least 10 to 60 minutes as directed in the <content styleCode="bold">
+                              <linkHtml href="#s38">DOSAGE AND ADMINISTRATION</linkHtml>
+                           </content> section.
+</paragraph>
+                        <paragraph>Clindamycin dosage modification is not necessary in patients with renal disease. In patients with moderate to severe liver disease, prolongation of clindamycin half-life has been found. However, it was postulated from studies that when given every eight hours, accumulation should rarely occur. Therefore, dosage modification in patients with liver disease may not be necessary. However, periodic liver enzyme determinations should be made when treating patients with severe liver disease.
+</paragraph>
+                        <paragraph>Prescribing clindamycin injection in the absence of a proven or strongly suspected bacterial infection or a prophylactic indication is unlikely to provide benefit to the patient and increases the risk of the development of drug-resistant bacteria.
+</paragraph>
+                     </text>
+                     <effectiveTime value="20240916"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s27">
+                     <id root="f74960b2-0d50-4ade-bbf8-b2181a5664f8"/>
+                     <code code="34076-0" codeSystem="2.16.840.1.113883.6.1" displayName="INFORMATION FOR PATIENTS SECTION"/>
+                     <title>Information for Patients
+</title>
+                     <text>
+                        <paragraph>Patients should be counseled that antibacterial drugs including clindamycin injection should only be used to treat bacterial infections. They do not treat viral infections (e.g., the common cold). When clindamycin injection is prescribed to treat a bacterial infection, patients should be told that although it is common to feel better early in the course of therapy, the medication should be taken exactly as directed. Skipping doses or not completing the full course of therapy may (1) decrease the effectiveness of the immediate treatment and (2) increase the likelihood that bacteria will develop resistance and will not be treatable by clindamycin injection or other antibacterial drugs in the future.
+</paragraph>
+                        <paragraph>Diarrhea is a common problem caused by antibiotics which usually ends when the antibiotic is discontinued. Sometimes after starting treatment with antibiotics, patients can develop watery and bloody stools (with or without stomach cramps and fever) even as late as two or more months after having taken the last dose of the antibiotic. If this occurs, patients should contact their physician as soon as possible.
+</paragraph>
+                     </text>
+                     <effectiveTime value="20240916"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s28">
+                     <id root="c9d50f76-b2ec-4736-864a-f2aa32c964d6"/>
+                     <code code="34075-2" codeSystem="2.16.840.1.113883.6.1" displayName="LABORATORY TESTS SECTION"/>
+                     <title>Laboratory Tests
+</title>
+                     <text>
+                        <paragraph>During prolonged therapy periodic liver and kidney function tests and blood counts should be performed.
+</paragraph>
+                     </text>
+                     <effectiveTime value="20240916"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s29">
+                     <id root="e6ba8b42-50ab-44fa-a677-0310d089ae1a"/>
+                     <code code="34073-7" codeSystem="2.16.840.1.113883.6.1" displayName="DRUG INTERACTIONS SECTION"/>
+                     <title>Drug Interactions
+</title>
+                     <text>
+                        <paragraph>Clindamycin has been shown to have neuromuscular blocking properties that may enhance the action of other neuromuscular blocking agents. Therefore, it should be used with caution in patients receiving such agents.
+</paragraph>
+                        <paragraph>Clindamycin is metabolized predominantly by CYP3A4, and to a lesser extent by CYP3A5, to the major metabolite clindamycin sulfoxide and minor metabolite N-desmethylclindamycin. Therefore, inhibitors of CYP3A4 and CYP3A5 may increase plasma concentrations of clindamycin and inducers of these isoenzymes may reduce plasma concentrations of clindamycin. In the presence of strong CYP3A4 inhibitors, monitor for adverse reactions. In the presence of strong CYP3A4 inducers such as rifampicin, monitor for loss of effectiveness.
+</paragraph>
+                        <paragraph>
+                           <content styleCode="italics">In vitro</content> studies indicate that clindamycin does not inhibit CYP1A2, CYP2C9, CYP2C19, CYP2E1 or CYP2D6 and only moderately inhibits CYP3A4.
+</paragraph>
+                     </text>
+                     <effectiveTime value="20240916"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s30">
+                     <id root="04fa5cdf-55a4-4331-917f-e1eac749e851"/>
+                     <code code="34083-6" codeSystem="2.16.840.1.113883.6.1" displayName="CARCINOGENESIS &amp; MUTAGENESIS &amp; IMPAIRMENT OF FERTILITY SECTION"/>
+                     <title>Carcinogenesis, Mutagenesis, Impairment of Fertility
+</title>
+                     <text>
+                        <paragraph>Long term studies in animals have not been performed with clindamycin to evaluate carcinogenic potential. Genotoxicity tests performed included a rat micronucleus test and an Ames Salmonella reversion test. Both tests were negative.
+</paragraph>
+                        <paragraph>Fertility studies in rats treated orally with up to 300 mg/kg/day (approximately 1.1 times the highest recommended adult human dose based on mg/m<sup>2</sup>) revealed no effects on fertility or mating ability.
+</paragraph>
+                     </text>
+                     <effectiveTime value="20240916"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s31">
+                     <id root="58c9ff8e-927d-4580-8af1-35793370136c"/>
+                     <code code="42228-7" codeSystem="2.16.840.1.113883.6.1" displayName="PREGNANCY SECTION"/>
+                     <text>
+                        <paragraph>
+                           <content styleCode="bold">Pregnancy:</content> Teratogenic effects
+</paragraph>
+                        <paragraph>In clinical trials with pregnant women, the systemic administration of clindamycin during the second and third trimesters, has not been associated with an increased frequency of congenital abnormalities.
+</paragraph>
+                        <paragraph>Clindamycin should be used during the first trimester of pregnancy only if clearly needed. There are no adequate and well-controlled studies in pregnant women during the first trimester of pregnancy. Because animal reproduction studies are not always predictive of the human response, this drug should be used during pregnancy only if clearly needed.
+</paragraph>
+                        <paragraph>Reproduction studies performed in rats and mice using oral doses of clindamycin up to 600 mg/kg/day (2.1 and 1.1 times the highest recommended adult human dose based on mg/m<sup>2</sup>, respectively) or subcutaneous doses of clindamycin up to 250 mg/kg/day (0.9 and 0.5 times the highest recommended adult human dose based on mg/m<sup>2</sup>, respectively) revealed no evidence of teratogenicity.
+</paragraph>
+                        <paragraph>Clindamycin injection contains benzyl alcohol. Benzyl alcohol can cross the placenta. See <content styleCode="bold">
+                              <linkHtml href="#s20">WARNINGS</linkHtml>
+                           </content>.
+</paragraph>
+                     </text>
+                     <effectiveTime value="20240916"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s32">
+                     <id root="ec887b20-840e-402d-b8c9-f597423a1bbd"/>
+                     <code code="34080-2" codeSystem="2.16.840.1.113883.6.1" displayName="NURSING MOTHERS SECTION"/>
+                     <title>Nursing Mothers
+</title>
+                     <text>
+                        <paragraph>Limited published data based on breast milk sampling reports that clindamycin appears in human breast milk in the range of less than 0.5 to 3.8 mcg/mL at dosages of 150 mg orally to 600 mg intravenously. Clindamycin has the potential to cause adverse effects on the breastfed infant's gastrointestinal flora. If oral or intravenous clindamycin is required by a nursing mother, it is not a reason to discontinue breastfeeding, but an alternate drug may be preferred. Monitor the breastfed infant for possible adverse effects on the gastrointestinal flora, such as diarrhea, candidiasis (thrush, diaper rash) or rarely, blood in the stool indicating possible antibiotic-associated colitis.
+</paragraph>
+                        <paragraph>The developmental and health benefits of breastfeeding should be considered along with the mother's clinical need for clindamycin and any potential adverse effects on the breastfed child from clindamycin or from the underlying maternal condition.
+</paragraph>
+                     </text>
+                     <effectiveTime value="20240916"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s33">
+                     <id root="f39b7e6d-b694-49f6-b716-dd1d272c5dac"/>
+                     <code code="34081-0" codeSystem="2.16.840.1.113883.6.1" displayName="PEDIATRIC USE SECTION"/>
+                     <title>Pediatric Use
+</title>
+                     <text>
+                        <paragraph>When clindamycin injection is administered to the pediatric population (birth to 16 years) appropriate monitoring of organ system functions is desirable (see <content styleCode="bold">
+                              <linkHtml href="#s4">CLINICAL PHARMACOLOGY</linkHtml>
+                           </content> and <content styleCode="bold">
+                              <linkHtml href="#s38">DOSAGE AND ADMINISTRATION</linkHtml>)</content>.
+</paragraph>
+                     </text>
+                     <effectiveTime value="20240916"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s34">
+                     <id root="9f430730-45e1-4b2a-a881-0f48674816e6"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Usage in Newborns and Infants
+</title>
+                     <text>
+                        <paragraph>This product contains benzyl alcohol as a preservative. Benzyl alcohol has been associated with a fatal "Gasping Syndrome" in premature infants. See <content styleCode="bold">
+                              <linkHtml href="#s20">WARNINGS</linkHtml>
+                           </content>.
+</paragraph>
+                        <paragraph>The potential for the toxic effect in the pediatric population from chemicals that may leach from the single dose premixed IV preparation in plastic has not been evaluated. See <content styleCode="bold">
+                              <linkHtml href="#s20">WARNINGS</linkHtml>
+                           </content>.
+</paragraph>
+                     </text>
+                     <effectiveTime value="20240916"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s35">
+                     <id root="35d2e84f-0c92-4c7c-b85a-eb3d59c15c3e"/>
+                     <code code="34082-8" codeSystem="2.16.840.1.113883.6.1" displayName="GERIATRIC USE SECTION"/>
+                     <title>Geriatric Use
+</title>
+                     <text>
+                        <paragraph>Clinical studies of clindamycin did not include sufficient numbers of patients age 65 and over to determine whether they respond differently from younger patients. However, other reported clinical experience indicates that antibiotic-associated colitis and diarrhea (due to <content styleCode="italics">Clostridioides difficile</content>) seen in association with most antibiotics occur more frequently in the elderly (&gt;60 years) and may be more severe. These patients should be carefully monitored for the development of diarrhea.
+</paragraph>
+                        <paragraph>Pharmacokinetic studies with clindamycin have shown no clinically important differences between young and elderly subjects with normal hepatic function and normal (age-adjusted) renal function after oral or intravenous administration.
+</paragraph>
+                     </text>
+                     <effectiveTime value="20240916"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="s36">
+               <id root="8ae1685b-0bca-43f8-8d86-28eedfc9d0e3"/>
+               <code code="34084-4" codeSystem="2.16.840.1.113883.6.1" displayName="ADVERSE REACTIONS SECTION"/>
+               <title>ADVERSE REACTIONS
+</title>
+               <text>
+                  <paragraph>The following reactions have been reported with the use of clindamycin.
+</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Infections and Infestations:
+</content>
+                     <content styleCode="italics">Clostridioides difficile</content> colitis.
+</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Gastrointestinal:</content> Antibiotic-associated colitis (see <content styleCode="bold">
+                        <linkHtml href="#s20">WARNINGS</linkHtml>
+                     </content>), pseudomembranous colitis, abdominal pain, nausea, and vomiting. The onset of pseudomembranous colitis symptoms may occur during or after antibacterial treatment (see <content styleCode="bold">
+                        <linkHtml href="#s20">WARNINGS</linkHtml>
+                     </content>). An unpleasant or metallic taste has been reported after intravenous administration of the higher doses of clindamycin phosphate.
+</paragraph>
+               </text>
+               <effectiveTime value="20240916"/>
+               <component>
+                  <section ID="e36">
+                     <id root="8e79d701-45e9-42d0-81af-f003ccea7711"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <text>
+                        <paragraph>
+                           <content styleCode="bold">Hypersensitivity Reactions:</content> Maculopapular rash and urticaria have been observed during drug therapy. Generalized mild to moderate morbilliform-like skin rashes are the most frequently reported of all adverse reactions.
+</paragraph>
+                        <paragraph>Severe skin reactions such as Toxic Epidermal Necrolysis, some with fatal outcome, have been reported (see <content styleCode="bold">
+                              <linkHtml href="#s20">WARNINGS</linkHtml>
+                           </content>). Cases of Acute Generalized Exanthematous Pustulosis (AGEP), erythema multiforme, some resembling Stevens-Johnson syndrome, have been associated with clindamycin. Anaphylactic shock, anaphylactic reaction and hypersensitivity have also been reported (see <content styleCode="bold">
+                              <linkHtml href="#s20">WARNINGS</linkHtml>
+                           </content>).
+</paragraph>
+                        <paragraph>
+                           <content styleCode="bold">Skin and Mucous Membranes:</content> Pruritus, vaginitis, angioedema and rare instances of exfoliative dermatitis have been reported (see <content styleCode="bold">
+                              <linkHtml href="#e36">Hypersensitivity Reactions</linkHtml>
+                           </content>).
+</paragraph>
+                        <paragraph>
+                           <content styleCode="bold">Liver:</content> Jaundice and abnormalities in liver function tests have been observed during clindamycin therapy.
+</paragraph>
+                        <paragraph>
+                           <content styleCode="bold">Renal:</content> Acute kidney injury (see <content styleCode="bold">
+                              <linkHtml href="#s20">WARNINGS</linkHtml>
+                           </content>).
+</paragraph>
+                        <paragraph>
+                           <content styleCode="bold">Hematopoietic:</content> Transient neutropenia (leukopenia) and eosinophilia have been reported. Reports of agranulocytosis and thrombocytopenia have been made. No direct etiologic relationship to concurrent clindamycin therapy could be made in any of the foregoing.
+</paragraph>
+                        <paragraph>
+                           <content styleCode="bold">Immune System:</content> Drug reaction with eosinophilia and systemic symptoms (DRESS) cases have been reported.
+</paragraph>
+                        <paragraph>
+                           <content styleCode="bold">Local Reactions:</content> Injection site irritation, pain, induration and sterile abscess have been reported after intramuscular injection and thrombophlebitis after intravenous infusion. Reactions can be minimized or avoided by giving deep intramuscular injections and avoiding prolonged use of indwelling intravenous catheters.
+</paragraph>
+                        <paragraph>
+                           <content styleCode="bold">Musculoskeletal:</content> Polyarthritis cases have been reported.
+</paragraph>
+                        <paragraph>
+                           <content styleCode="bold">Cardiovascular:</content> Cardiopulmonary arrest and hypotension have been reported following too rapid intravenous administration (see <content styleCode="bold">
+                              <linkHtml href="#s38">DOSAGE AND ADMINISTRATION</linkHtml>
+                           </content>).
+</paragraph>
+                        <paragraph>
+                           <content styleCode="bold">To report SUSPECTED ADVERSE REACTIONS, contact Sagent Pharmaceuticals at 1-866-625-1618 or FDA at 1-800-FDA-1088 or </content>
+                           <content styleCode="bold underline">www.fda.gov/medwatch</content>
+                           <content styleCode="bold">.</content>
+                        </paragraph>
+                     </text>
+                     <effectiveTime value="20240916"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="s37">
+               <id root="31fd101b-182f-4530-b3c4-68165a76bf95"/>
+               <code code="34088-5" codeSystem="2.16.840.1.113883.6.1" displayName="OVERDOSAGE SECTION"/>
+               <title>OVERDOSAGE
+</title>
+               <text>
+                  <paragraph>Significant mortality was observed in mice at an intravenous dose of 855 mg/kg and in rats at an oral or subcutaneous dose of approximately 2618 mg/kg. In the mice, convulsions and depression were observed.
+</paragraph>
+                  <paragraph>Hemodialysis and peritoneal dialysis are not effective in removing clindamycin from the serum.
+</paragraph>
+               </text>
+               <effectiveTime value="20240916"/>
+            </section>
+         </component>
+         <component>
+            <section ID="s38">
+               <id root="a8d0fed6-4479-4c90-849b-c50c7ad0ae74"/>
+               <code code="34068-7" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE &amp; ADMINISTRATION SECTION"/>
+               <title>DOSAGE AND ADMINISTRATION
+</title>
+               <text>
+                  <paragraph>If diarrhea occurs during therapy, this antibiotic should be discontinued (see <content styleCode="bold">
+                        <linkHtml href="#s2">WARNING</linkHtml>
+                     </content> box).
+</paragraph>
+                  <paragraph>
+                     <content styleCode="underline">Clindamycin injection IM administration should be used undiluted.</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="underline">Clindamycin injection IV administration should be diluted</content> (see <content styleCode="bold">
+                        <linkHtml href="#e42">Dilution for IV use and IV Infusion Rates</linkHtml>
+                     </content> below).
+</paragraph>
+               </text>
+               <effectiveTime value="20240916"/>
+               <component>
+                  <section ID="s39">
+                     <id root="e0e58b2c-7884-41b9-89e4-37d0d735da15"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <text>
+                        <paragraph>
+                           <content styleCode="bold">Adults:</content> Parenteral (IM or IV Administration): Serious infections due to aerobic gram-positive cocci and the more susceptible anaerobes (NOT generally including <content styleCode="italics">Bacteroides fragilis</content>, <content styleCode="italics">Peptococcus</content> species and <content styleCode="italics">Clostridium</content> species other than <content styleCode="italics">Clostridium perfringens</content>):
+</paragraph>
+                        <list listType="unordered">
+                           <item>
+                              <caption> 
+</caption> 600 mg to 1,200 mg per day in 2, 3 or 4 equal doses.
+</item>
+                        </list>
+                        <paragraph>More severe infections, particularly those due to proven or suspected <content styleCode="italics">Bacteroides fragilis</content>, <content styleCode="italics">Peptococcus</content> species, or <content styleCode="italics">Clostridium</content> species other than <content styleCode="italics">Clostridium perfringens</content>:
+</paragraph>
+                        <list listType="unordered">
+                           <item>
+                              <caption> 
+</caption> 1,200 mg to 2,700 mg per day in 2, 3 or 4 equal doses.
+</item>
+                        </list>
+                        <paragraph>For more serious infections, these doses may have to be increased. In life-threatening situations due to either aerobes or anaerobes these doses may be increased. Doses of as much as 4,800 mg daily have been given intravenously to adults. See <content styleCode="bold">
+                              <linkHtml href="#e42">Dilution for IV use and IV Infusion Rates</linkHtml>
+                           </content> section below.
+</paragraph>
+                        <paragraph>Single intramuscular injections of greater than 600 mg are not recommended.
+</paragraph>
+                        <paragraph>Alternatively, drug may be administered in the form of a single rapid infusion of the first dose followed by continuous IV infusion as follows:
+</paragraph>
+                        <table ID="t2" width="100%">
+                           <caption>Table 2: Serum Clindamycin Levels Maintained, Rapid Infusion Rate and Maintenance Infusion Rate
+</caption>
+                           <col width="33.855%" align="left"/>
+                           <col width="34.755%" align="left"/>
+                           <col width="31.390%" align="left"/>
+                           <tbody>
+                              <tr>
+                                 <td align="center" valign="middle" styleCode="Toprule Botrule Lrule Rrule">
+                                    <content styleCode="bold">To maintain serum</content>
+                                    <br/>
+                                    <content styleCode="bold">clindamycin levels</content>
+                                 </td>
+                                 <td align="center" valign="middle" styleCode="Toprule Botrule Rrule">
+                                    <content styleCode="bold">Rapid infusion rate</content>
+                                 </td>
+                                 <td align="center" valign="middle" styleCode="Toprule Botrule Rrule">
+                                    <content styleCode="bold">Maintenance</content>
+                                    <br/>
+                                    <content styleCode="bold">infusion rate</content>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td align="center" valign="middle" styleCode="Botrule Lrule Rrule">Above 4 mcg per mL<br/>Above 5 mcg per mL<br/>Above 6 mcg per mL
+</td>
+                                 <td align="center" valign="middle" styleCode="Botrule Rrule">10 mg/min for 30 min<br/>15 mg/min for 30 min<br/>20 mg/min for 30 min
+</td>
+                                 <td align="center" valign="middle" styleCode="Botrule Rrule">0.75 mg/min<br/>1 mg/min<br/>1.25 mg/min
+</td>
+                              </tr>
+                           </tbody>
+                        </table>
+                     </text>
+                     <effectiveTime value="20240916"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s40">
+                     <id root="a6edcfea-1901-4ca8-96cb-89e901007e63"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <text>
+                        <paragraph>
+                           <content styleCode="bold">Pediatric Patients 1 month of age to 16 years:</content> Parenteral (IM or IV) Administration: 20 to 40 mg/kg/day in 3 or 4 equal doses. The higher doses would be used for more severe infections. Clindamycin should be dosed based on total body weight regardless of obesity. As an alternative to dosing on a body weight basis, pediatric patients may be dosed on the basis of square meters body surface: 350 mg/m<sup>2</sup>/day for serious infections and 450 mg/m<sup>2</sup>/day for more severe infections.
+</paragraph>
+                        <paragraph>Parenteral therapy may be changed to oral clindamycin flavored granules (clindamycin palmitate hydrochloride) or clindamycin capsules (clindamycin hydrochloride) when the condition warrants and at the discretion of the physician.
+</paragraph>
+                        <paragraph>In cases of β-hemolytic streptococcal infections, treatment should be continued for at least 10 days.
+</paragraph>
+                     </text>
+                     <effectiveTime value="20240916"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s41">
+                     <id root="4019b0e7-a452-4846-9b6e-0052ec049548"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <text>
+                        <paragraph>
+                           <content styleCode="bold">Pediatric Patients less than 1 month:</content> The recommended dosage is 15 to 20 mg/kg/day in 3 to 4 equal doses. See <linkHtml href="#t3">Table 3</linkHtml> regarding the dosing regimen for pediatric patients with post-menstrual age (PMA) less than or equal to 32 weeks, or greater than 32 weeks to less than or equal to 40 weeks.
+</paragraph>
+                        <table ID="t3" width="100%">
+                           <caption>Table 3: Dosing Regimens for Pediatric Patients with PMA less than or equal to 32 weeks, or greater than 32 weeks to less than or equal to 40 weeks
+</caption>
+                           <col width="33.333%" align="left"/>
+                           <col width="33.333%" align="left"/>
+                           <col width="33.333%" align="left"/>
+                           <tbody>
+                              <tr>
+                                 <td align="center" valign="top" styleCode="Toprule Botrule Lrule Rrule">
+                                    <content styleCode="bold">PMA (weeks)</content>
+                                 </td>
+                                 <td align="center" valign="top" styleCode="Toprule Botrule Rrule">
+                                    <content styleCode="bold">Dose (mg/kg)</content>
+                                 </td>
+                                 <td align="center" valign="top" styleCode="Toprule Botrule Rrule">
+                                    <content styleCode="bold">Dosing Interval (hours)</content>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td align="center" valign="top" styleCode="Botrule Lrule Rrule">
+                                    <content styleCode="bold">Less than or equal to 32</content>
+                                 </td>
+                                 <td align="center" valign="top" styleCode="Botrule Rrule">5
+</td>
+                                 <td align="center" valign="top" styleCode="Botrule Rrule">8
+</td>
+                              </tr>
+                              <tr>
+                                 <td align="center" valign="top" styleCode="Botrule Lrule Rrule">
+                                    <content styleCode="bold">Greater than or equal to 32 to less than or equal to 40</content>
+                                 </td>
+                                 <td align="center" valign="top" styleCode="Botrule Rrule">7
+</td>
+                                 <td align="center" valign="top" styleCode="Botrule Rrule">8
+</td>
+                              </tr>
+                           </tbody>
+                        </table>
+                        <paragraph>PMA: Post-Menstrual age
+</paragraph>
+                     </text>
+                     <effectiveTime value="20240916"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="e42">
+                     <id root="574f28ce-1d72-42ba-b9a5-8f9dd2547046"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <text>
+                        <paragraph>
+                           <content styleCode="bold">Dilution for IV use and IV Infusion Rates: The concentration of clindamycin in diluent for infusion should not exceed 18 mg per mL. Infusion rates should not exceed 30 mg per minute.</content> The usual infusion dilutions and rates are as follows:
+</paragraph>
+                        <table width="100%">
+                           <col width="34.722%" align="left"/>
+                           <col width="34.455%" align="left"/>
+                           <col width="30.823%" align="left"/>
+                           <tbody>
+                              <tr>
+                                 <td align="center" valign="top" styleCode="Toprule Botrule Lrule Rrule">
+                                    <content styleCode="bold">Dose</content>
+                                 </td>
+                                 <td align="center" valign="top" styleCode="Toprule Botrule Rrule">
+                                    <content styleCode="bold">Diluent</content>
+                                 </td>
+                                 <td align="center" valign="top" styleCode="Toprule Botrule Rrule">
+                                    <content styleCode="bold">Time</content>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td align="center" valign="top" styleCode="Botrule Lrule Rrule">300 mg<br/>600 mg<br/>900 mg<br/>1200 mg
+</td>
+                                 <td align="center" valign="top" styleCode="Botrule Rrule">50 mL<br/>50 mL<br/>50 to 100 mL<br/>100 mL
+</td>
+                                 <td align="center" valign="top" styleCode="Botrule Rrule">10 min<br/>20 min<br/>30 min<br/>40 min
+</td>
+                              </tr>
+                           </tbody>
+                        </table>
+                        <paragraph>Administration of more than 1200 mg in a single 1-hour infusion is not recommended.
+</paragraph>
+                        <paragraph>Parenteral drug products should be inspected visually for particulate matter and discoloration prior to administration, whenever solution and container permit.
+</paragraph>
+                     </text>
+                     <effectiveTime value="20240916"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s42">
+                     <id root="ceed6425-98c6-45c2-a169-26e69bf618bd"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <text>
+                        <paragraph>
+                           <content styleCode="bold">Dilution and Compatibility:</content> Physical and biological compatibility studies monitored for 24 hours at room temperature have demonstrated no inactivation or incompatibility with the use of clindamycin injection (clindamycin phosphate) in IV solutions containing sodium chloride, glucose, calcium or potassium, and solutions containing vitamin B complex in concentrations usually used clinically. No incompatibility has been demonstrated with the antibiotics cephalothin, kanamycin, gentamicin, penicillin or carbenicillin.
+</paragraph>
+                        <paragraph>The following drugs are physically incompatible with clindamycin phosphate: ampicillin sodium, phenytoin sodium, barbiturates, aminophylline, calcium gluconate, and magnesium sulfate.
+</paragraph>
+                        <paragraph>The compatibility and duration of stability of drug admixtures will vary depending on concentration and other conditions. For current information regarding compatibilities of clindamycin phosphate under specific conditions, please contact the Medical Affairs department toll-free at 1-866-625-1618.
+</paragraph>
+                     </text>
+                     <effectiveTime value="20240916"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s43">
+                     <id root="1a911776-f539-45ba-a8dc-8eb514f5b206"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Physico-Chemical Stability of Diluted Solutions of Clindamycin Injection
+</title>
+                     <effectiveTime value="20240916"/>
+                     <component>
+                        <section ID="s44">
+                           <id root="e84e5492-e2e4-438f-ae86-ce1952e85df6"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <text>
+                              <paragraph>
+                                 <content styleCode="bold">Room Temperature:</content> 6, 9 and 12 mg per mL (equivalent to clindamycin base) in dextrose injection 5%, sodium chloride injection 0.9%, or Lactated Ringers Injection in glass bottles or Mini-Bag containers, demonstrated physical and chemical stability for at least 16 days at 25°C. Also, 18 mg per mL (equivalent to clindamycin base) in dextrose injection 5%, in Mini-Bag containers, demonstrated physical and chemical stability for at least 16 days at 25°C.
+</paragraph>
+                           </text>
+                           <effectiveTime value="20240916"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section ID="s45">
+                           <id root="5c646a83-3b45-41e1-b958-7c62f150c3f4"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <text>
+                              <paragraph>
+                                 <content styleCode="bold">Refrigeration:</content> 6, 9 and 12 mg per mL (equivalent to clindamycin base) in dextrose injection 5%, sodium chloride injection 0.9%, or Lactated Ringers Injection in glass bottles or Mini-Bag containers, demonstrated physical and chemical stability for at least 32 days at 4°C.
+</paragraph>
+                              <paragraph>IMPORTANT: This chemical stability information in no way indicates that it would be acceptable practice to use this product well after the preparation time. Good professional practice suggests that compounded admixtures should be administered as soon after preparation as is feasible.
+</paragraph>
+                              <paragraph>
+                                 <content styleCode="bold">Frozen:</content> 6, 9 and 12 mg per mL (equivalent to clindamycin base) in dextrose injection 5%, sodium chloride injection 0.9%, or Lactated Ringers Injection in Mini-Bag containers demonstrated physical and chemical stability for at least eight weeks at -10°C.
+</paragraph>
+                              <paragraph>Frozen solutions should be thawed at room temperature and not refrozen.
+</paragraph>
+                           </text>
+                           <effectiveTime value="20240916"/>
+                        </section>
+                     </component>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="s46">
+               <id root="ebfbc780-9418-4d47-9909-bdc927c62260"/>
+               <code code="34069-5" codeSystem="2.16.840.1.113883.6.1" displayName="HOW SUPPLIED SECTION"/>
+               <title>HOW SUPPLIED
+</title>
+               <text>
+                  <paragraph>Each mL of Clindamycin Injection, USP contains clindamycin phosphate equivalent to 150 mg of clindamycin. Also contains 0.5 mg disodium edetate and 9.45 mg benzyl alcohol as a preservative. Sodium hydroxide and/or hydrochloric acid may be added to adjust pH.
+</paragraph>
+                  <paragraph>Clindamycin Injection, USP is supplied as follows:
+</paragraph>
+                  <table width="100%" styleCode="Noautorules">
+                     <col width="21.800%" align="left"/>
+                     <col width="49.800%" align="left"/>
+                     <col width="28.400%" align="left"/>
+                     <tbody>
+                        <tr>
+                           <td align="left" valign="top">
+                              <content styleCode="bold">NDC</content>
+                           </td>
+                           <td align="left" valign="top">
+                              <content styleCode="bold">Clindamycin Injection, USP (150 mg per mL)</content>
+                           </td>
+                           <td align="left" valign="top">
+                              <content styleCode="bold">Package Factor</content>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td align="left" valign="top">25021-115-02
+</td>
+                           <td align="left" valign="top">300 mg per 2 mL Single-Dose Vial
+</td>
+                           <td align="left" valign="top">25 vials per carton
+</td>
+                        </tr>
+                        <tr>
+                           <td align="left" valign="top">25021-115-04
+</td>
+                           <td align="left" valign="top">600 mg per 4 mL Single-Dose Vial
+</td>
+                           <td align="left" valign="top">25 vials per carton
+</td>
+                        </tr>
+                        <tr>
+                           <td align="left" valign="top">25021-115-06
+</td>
+                           <td align="left" valign="top">900 mg per 6 mL Single-Dose Vial
+</td>
+                           <td align="left" valign="top">25 vials per carton
+</td>
+                        </tr>
+                     </tbody>
+                  </table>
+                  <paragraph>Clindamycin Injection, USP Pharmacy Bulk Package is also available as follows:
+</paragraph>
+                  <table width="100%" styleCode="Noautorules">
+                     <col width="22.741%" align="left"/>
+                     <col width="49.817%" align="left"/>
+                     <col width="27.442%" align="left"/>
+                     <tbody>
+                        <tr>
+                           <td align="left" valign="top">
+                              <content styleCode="bold">NDC</content>
+                           </td>
+                           <td align="left" valign="top">
+                              <content styleCode="bold">Clindamycin Injection, USP (150 mg per mL)</content>
+                           </td>
+                           <td align="left" valign="top">
+                              <content styleCode="bold">Package Factor</content>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td align="left" valign="top">25021-115-51
+</td>
+                           <td align="left" valign="top">9,000 mg per 60 mL<br/>Pharmacy Bulk Package Bottle
+</td>
+                           <td align="left" valign="top">1 bottle per carton
+</td>
+                        </tr>
+                     </tbody>
+                  </table>
+               </text>
+               <effectiveTime value="20240916"/>
+               <component>
+                  <section ID="s47">
+                     <id root="77800953-2095-4964-b7b7-8f5e246ae36d"/>
+                     <code code="44425-7" codeSystem="2.16.840.1.113883.6.1" displayName="STORAGE AND HANDLING SECTION"/>
+                     <title>Storage Conditions
+</title>
+                     <text>
+                        <paragraph>
+                           <content styleCode="bold">Store at 20° to 25°C (68° to 77°F). [See USP Controlled Room Temperature.]</content> Do not refrigerate.
+</paragraph>
+                        <paragraph>
+                           <content styleCode="bold">Sterile, Nonpyrogenic.<br/>The container closure is not made with natural rubber latex.</content>
+                        </paragraph>
+                     </text>
+                     <effectiveTime value="20240916"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="s48">
+               <id root="24511acf-f425-4a84-9eca-526f5598d27c"/>
+               <code code="34093-5" codeSystem="2.16.840.1.113883.6.1" displayName="REFERENCES SECTION"/>
+               <title>REFERENCES
+</title>
+               <text>
+                  <list listType="ordered" styleCode="Arabic">
+                     <item>Smith RB, Phillips JP: Evaluation of CLEOCIN HCl and CLEOCIN Phosphate in an Aged Population. Upjohn TR 8147-82-9122-021, December 1982.
+</item>
+                  </list>
+                  <paragraph>Brands listed are the trademarks of their respective owners.
+</paragraph>
+                  <paragraph>SAGENT<sup>®</sup>
+                     <br/>Mfd. for SAGENT Pharmaceuticals<br/>Schaumburg, IL 60195 (USA) <br/>Made in India<br/>©2024 Sagent Pharmaceuticals <br/>Revised: February 2024
+</paragraph>
+                  <paragraph>SAGENT Pharmaceuticals<sup>®</sup>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20240916"/>
+            </section>
+         </component>
+         <component>
+            <section ID="s49">
+               <id root="a480d7b0-cb04-4762-a160-c36bf0a050d6"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <text>
+                  <paragraph>PACKAGE LABEL – PRINCIPAL DISPLAY PANEL – Vial Label
+</paragraph>
+                  <paragraph>NDC 25021-115-02
+</paragraph>
+                  <paragraph>Clindamycin Injection, USP
+</paragraph>
+                  <paragraph>300 mg per 2 mL
+</paragraph>
+                  <paragraph>(150 mg per mL)
+</paragraph>
+                  <paragraph>Rx only
+</paragraph>
+                  <paragraph>For Intramuscular or Intravenous Use
+</paragraph>
+                  <paragraph>Dilute Before Intravenous Use
+</paragraph>
+                  <paragraph>2 mL Single-Dose Vial
+</paragraph>
+                  <renderMultiMedia ID="f02" referencedObject="mm02"/>
+               </text>
+               <effectiveTime value="20240916"/>
+               <component>
+                  <observationMedia ID="mm02">
+                     <text>PACKAGE LABEL – PRINCIPAL DISPLAY PANEL – Vial Label
+</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="cli04-0020-02.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="s50">
+               <id root="952765c3-def8-453c-8308-8eb5bbce711c"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <text>
+                  <paragraph>PACKAGE LABEL – PRINCIPAL DISPLAY PANEL – Vial Label
+</paragraph>
+                  <paragraph>NDC 25021-115-04
+</paragraph>
+                  <paragraph>Clindamycin Injection, USP
+</paragraph>
+                  <paragraph>600 mg per 4 mL
+</paragraph>
+                  <paragraph>(150 mg per mL)
+</paragraph>
+                  <paragraph>Rx only
+</paragraph>
+                  <paragraph>For Intramuscular or Intravenous Use
+</paragraph>
+                  <paragraph>Dilute Before Intravenous Use
+</paragraph>
+                  <paragraph>4 mL Single-Dose Vial
+</paragraph>
+                  <renderMultiMedia ID="f03" referencedObject="mm03"/>
+               </text>
+               <effectiveTime value="20240916"/>
+               <component>
+                  <observationMedia ID="mm03">
+                     <text>PACKAGE LABEL – PRINCIPAL DISPLAY PANEL – Vial Label
+</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="cli04-0020-03.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="s51">
+               <id root="402e333f-641a-41fd-9d05-af14fad7522a"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <text>
+                  <paragraph>PACKAGE LABEL – PRINCIPAL DISPLAY PANEL – Vial Label
+</paragraph>
+                  <paragraph>NDC 25021-115-04
+</paragraph>
+                  <paragraph>Clindamycin Injection, USP
+</paragraph>
+                  <paragraph>900 mg per 6 mL
+</paragraph>
+                  <paragraph>(150 mg per mL)
+</paragraph>
+                  <paragraph>Rx only
+</paragraph>
+                  <paragraph>For Intramuscular or Intravenous Use
+</paragraph>
+                  <paragraph>Dilute Before Intravenous Use
+</paragraph>
+                  <paragraph>6 mL Single-Dose Vial
+</paragraph>
+                  <renderMultiMedia ID="f04" referencedObject="mm04"/>
+               </text>
+               <effectiveTime value="20240916"/>
+               <component>
+                  <observationMedia ID="mm04">
+                     <text>PACKAGE LABEL – PRINCIPAL DISPLAY PANEL – Vial Label
+</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="cli04-0020-04.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

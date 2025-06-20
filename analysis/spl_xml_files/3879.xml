@@ -1,0 +1,1706 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="https://www.accessdata.fda.gov/spl/stylesheet/spl.xsl"?>
+<document xmlns="urn:hl7-org:v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 https://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="a14563fd-7a73-4e7d-8f13-f449cfaad1a5"/>
+   <code code="34391-3" displayName="HUMAN PRESCRIPTION DRUG LABEL" codeSystem="2.16.840.1.113883.6.1"/>
+   <title>
+      <content styleCode="bold">These highlights do not include all the information needed to use METHYLPHENIDATE HYDROCHLORIDE EXTENDED-RELEASE TABLETS safely and effectively. See full prescribing information for METHYLPHENIDATE HYDROCHLORIDE EXTENDED-RELEASE TABLETS.<br/>
+         <br/>
+METHYLPHENIDATE HYDROCHLORIDE extended-release tablets, for oral use, CII<br/>
+Initial U.S. Approval: 1955</content>
+   </title>
+   <effectiveTime value="20231001"/>
+   <setId root="ed004cf0-eb23-43d2-96dc-20c4ad63824f"/>
+   <versionNumber value="1"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id extension="080679498" root="1.3.6.1.4.1.519.1"/>
+            <name>SpecGx LLC</name>
+            <assignedEntity>
+               <assignedOrganization/>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section>
+               <id root="ba8fca88-43fd-406c-b330-a2102c16c080"/>
+               <code code="48780-1" displayName="SPL listing data elements section" codeSystem="2.16.840.1.113883.6.1"/>
+               <effectiveTime value="20240709"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="0406-1445" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>Methylphenidate Hydrochloride</name>
+                        <formCode code="C42927" displayName="TABLET, EXTENDED RELEASE" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>Methylphenidate Hydrochloride</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator unit="mg" value="10"/>
+                              <denominator unit="1" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="4B3SC438HI" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>METHYLPHENIDATE HYDROCHLORIDE</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="207ZZ9QZ49" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>METHYLPHENIDATE</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="Z78RG6M2N2" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>HYPROMELLOSE 2208 (15000 MPA.S)</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="70097M6I30" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>MAGNESIUM STEARATE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="OP1R32D61U" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>MICROCRYSTALLINE CELLULOSE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="7SEV7J4R1U" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>TALC</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator unit="1" value="100"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="0406-1445-01" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43169" displayName="BOTTLE" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" displayName="Type 0: Not a Combination Product" codeSystem="2.16.840.1.113883.3.26.1.1" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                           <subjectOf>
+                              <marketingAct>
+                                 <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 <statusCode code="active"/>
+                                 <effectiveTime>
+                                    <low value="20000509"/>
+                                 </effectiveTime>
+                              </marketingAct>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <id extension="ANDA075629" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73584" displayName="ANDA" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20000509"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <subjectOf>
+                        <policy classCode="DEADrugSchedule">
+                           <code code="C48675" displayName="CII" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                        </policy>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLCOLOR" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value code="C48325" displayName="white" codeSystem="2.16.840.1.113883.3.26.1.1" xsi:type="CV">
+                              <originalText>to off-white</originalText>
+                           </value>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLIMPRINT" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value xsi:type="ST">1423;M</value>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSCORE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value value="1" xsi:type="INT"/>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSHAPE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value code="C48348" displayName="ROUND" codeSystem="2.16.840.1.113883.3.26.1.1" xsi:type="CV"/>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSIZE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value unit="mm" value="6" xsi:type="PQ"/>
+                        </characteristic>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38288" displayName="ORAL" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="0406-1473" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>Methylphenidate Hydrochloride</name>
+                        <formCode code="C42927" displayName="TABLET, EXTENDED RELEASE" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>Methylphenidate Hydrochloride</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator unit="mg" value="20"/>
+                              <denominator unit="1" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="4B3SC438HI" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>METHYLPHENIDATE HYDROCHLORIDE</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="207ZZ9QZ49" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>METHYLPHENIDATE</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="Z78RG6M2N2" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>HYPROMELLOSE 2208 (15000 MPA.S)</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="70097M6I30" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>MAGNESIUM STEARATE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="OP1R32D61U" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>MICROCRYSTALLINE CELLULOSE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="7SEV7J4R1U" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>TALC</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator unit="1" value="100"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="0406-1473-01" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43169" displayName="BOTTLE" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" displayName="Type 0: Not a Combination Product" codeSystem="2.16.840.1.113883.3.26.1.1" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                           <subjectOf>
+                              <marketingAct>
+                                 <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 <statusCode code="active"/>
+                                 <effectiveTime>
+                                    <low value="20000509"/>
+                                 </effectiveTime>
+                              </marketingAct>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <id extension="ANDA075629" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73584" displayName="ANDA" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20000509"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <subjectOf>
+                        <policy classCode="DEADrugSchedule">
+                           <code code="C48675" displayName="CII" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                        </policy>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLCOLOR" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value code="C48325" displayName="white" codeSystem="2.16.840.1.113883.3.26.1.1" xsi:type="CV">
+                              <originalText>to off-white</originalText>
+                           </value>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLIMPRINT" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value xsi:type="ST">1451;M</value>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSCORE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value value="1" xsi:type="INT"/>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSHAPE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value code="C48348" displayName="ROUND" codeSystem="2.16.840.1.113883.3.26.1.1" xsi:type="CV"/>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSIZE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value unit="mm" value="7" xsi:type="PQ"/>
+                        </characteristic>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38288" displayName="ORAL" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_a7b8b5eb-e0cd-4903-b97d-69de75976567">
+               <id root="58d47a31-4bc4-4413-8756-9f8778d6f77f"/>
+               <code code="34066-1" codeSystem="2.16.840.1.113883.6.1" displayName="BOXED WARNING SECTION"/>
+               <title>WARNING: ABUSE AND
+DEPENDENCE</title>
+               <text>
+                  <paragraph>CNS stimulants, including methylphenidate hydrochloride extended-release tablets, other methylphenidate-containing products, and amphetamines, have a high potential for abuse and dependence. Assess the risk of abuse prior to prescribing, and monitor for signs of abuse and dependence while on therapy [see Warnings and Precautions (<linkHtml href="#LINK_b98ebe42-172d-4bb2-b9d5-dd2e486eeadc">5.1</linkHtml>), Drug Abuse and Dependence (<linkHtml href="#LINK_4d2df4c1-1fc3-4945-977c-ef6bc5dc14bf">9.2</linkHtml>, <linkHtml href="#LINK_b6342189-17ac-437d-a245-eefd35b6b666">9.3</linkHtml>)].</paragraph>
+               </text>
+               <effectiveTime value="20231001"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <paragraph>
+                           <content styleCode="bold">WARNING: ABUSE AND DEPENDENCE<br/>
+                              <br/>
+                              <content styleCode="italics">See full prescribing information for complete boxed warning.</content>
+                              <br/>
+                              <br/>
+CNS stimulants, including methylphenidate hydrochloride extended-release tablets, other methylphenidate-containing products, and amphetamines, have a high potential for abuse and dependence. (<linkHtml href="#LINK_b98ebe42-172d-4bb2-b9d5-dd2e486eeadc">5.1</linkHtml>, <linkHtml href="#LINK_4d2df4c1-1fc3-4945-977c-ef6bc5dc14bf">9.2</linkHtml>, <linkHtml href="#LINK_b6342189-17ac-437d-a245-eefd35b6b666">9.3</linkHtml>)<br/>
+Assess the risk of abuse prior to prescribing, and monitor for signs of abuse and dependence while on therapy. (<linkHtml href="#LINK_b98ebe42-172d-4bb2-b9d5-dd2e486eeadc">5.1</linkHtml>, <linkHtml href="#LINK_4d2df4c1-1fc3-4945-977c-ef6bc5dc14bf">9.2</linkHtml>)</content>
+                        </paragraph>
+                     </text>
+                  </highlight>
+               </excerpt>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_e593ee34-84c1-4a85-846f-724d989cbcac">
+               <id root="2f92599f-9f54-4a79-af45-97208b5c702e"/>
+               <code code="34067-9" codeSystem="2.16.840.1.113883.6.1" displayName="INDICATIONS &amp; USAGE SECTION"/>
+               <title>1 INDICATIONS AND USAGE</title>
+               <text>
+                  <paragraph>Methylphenidate hydrochloride extended-release tablets are indicated for the treatment of: </paragraph>
+                  <list listType="unordered" styleCode="Disk">
+                     <item>Attention Deficit Hyperactivity Disorders (ADHD) in pediatric patients 6 years and older and adults</item>
+                     <item>Narcolepsy</item>
+                  </list>
+               </text>
+               <effectiveTime value="20231001"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <paragraph>Methylphenidate hydrochloride extended-release tablets are a central nervous system (CNS) stimulant indicated for the treatment of Attention Deficit Hyperactivity Disorders (ADHD) and Narcolepsy. (<linkHtml href="#LINK_e593ee34-84c1-4a85-846f-724d989cbcac">1</linkHtml>)</paragraph>
+                     </text>
+                  </highlight>
+               </excerpt>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_5019b632-80d4-42be-b880-fa5253397173">
+               <id root="5af42dc1-6674-4a98-949a-1390af579d62"/>
+               <code code="34068-7" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE &amp; ADMINISTRATION SECTION"/>
+               <title>2 DOSAGE AND ADMINISTRATION</title>
+               <text/>
+               <effectiveTime value="20231001"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <paragraph>
+                           <content styleCode="italics">Methylphenidate Hydrochloride Extended-Release Tablets (<linkHtml href="#LINK_0f4d600c-06c5-4d3b-8cad-db63b651edbd">2.2</linkHtml>):</content>
+                        </paragraph>
+                        <list listType="unordered" styleCode="Disk">
+                           <item>May switch to methylphenidate hydrochloride extended-release tablets when the 8-hour dosage of methylphenidate hydrochloride extended-release tablets corresponds to the titrated 8-hour dosage of methylphenidate hydrochloride tablets.</item>
+                           <item>Must be swallowed whole and never crushed or chewed</item>
+                        </list>
+                     </text>
+                  </highlight>
+               </excerpt>
+               <component>
+                  <section ID="LINK_4e2d3b2a-5318-4c79-8eb9-ae047ca9f95b">
+                     <id root="63611ed7-bcb6-4dc2-8898-94492202dd2e"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>2.1        Pretreatment
+Screening</title>
+                     <text>
+                        <paragraph>Prior to treating pediatric patients and adults with central nervous system (CNS) stimulants, including methylphenidate hydrochloride extended-release tablets, assess for the presence of cardiac disease (i.e., perform a careful history, including family history of sudden death or ventricular arrhythmia, and physical examination) <content styleCode="italics">[see Warnings and Precautions (<linkHtml href="#LINK_7c753c7d-9154-42a4-8b04-4ad7c6ff1697">5.2</linkHtml>)]</content>.</paragraph>
+                        <paragraph>Assess the risk of abuse prior to prescribing, and monitor for signs of abuse and dependence while on therapy. Maintain careful prescription records, educate patients about abuse, monitor for signs of abuse and overdose, and periodically reevaluate the need for methylphenidate hydrochloride extended-release tablets use <content styleCode="italics">[see Boxed Warning, Warnings and Precautions (<linkHtml href="#LINK_b98ebe42-172d-4bb2-b9d5-dd2e486eeadc">5.1</linkHtml>), Drug Abuse and Dependence (<linkHtml href="#LINK_4d2df4c1-1fc3-4945-977c-ef6bc5dc14bf">9.2</linkHtml>, <linkHtml href="#LINK_b6342189-17ac-437d-a245-eefd35b6b666">9.3</linkHtml>)]</content>.</paragraph>
+                     </text>
+                     <effectiveTime value="20231001"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_0f4d600c-06c5-4d3b-8cad-db63b651edbd">
+                     <id root="1dca562a-b801-449b-abcb-976a45e279c0"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>2.2        General Dosing Information</title>
+                     <text>
+                        <paragraph>Methylphenidate hydrochloride extended-release tablets have a duration of action of approximately 8 hours. Therefore, methylphenidate hydrochloride extended-release tablets may be used in place of methylphenidate hydrochloride tablets when the 8-hour dosage of methylphenidate hydrochloride extended-release tablets corresponds to the titrated 8-hour dosage of methylphenidate hydrochloride tablets. Methylphenidate hydrochloride extended-release tablets must be swallowed whole and never crushed or chewed.</paragraph>
+                        <paragraph>Pharmacological treatment of ADHD may be needed for extended periods. Periodically reevaluate the long-term use of methylphenidate hydrochloride extended-release tablets, and adjust dosage as needed.</paragraph>
+                     </text>
+                     <effectiveTime value="20231001"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_91f3ecb3-7fc6-4ae4-987f-c0dfb7f35488">
+                     <id root="0cd27929-8530-4fd1-8415-1ad43c4a99ac"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>2.3        Dose Reduction and Discontinuation</title>
+                     <text>
+                        <paragraph>If paradoxical worsening of symptoms or other adverse reactions occur, reduce the dosage, or, if necessary, discontinue methylphenidate hydrochloride extended-release tablets. If improvement is not observed after appropriate dosage adjustment over a one-month period, the drug should be discontinued.</paragraph>
+                     </text>
+                     <effectiveTime value="20231001"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_6bdc3f5b-02f1-4023-8049-d1ec2c7a1c19">
+               <id root="4575133e-fb26-4632-aaec-64c7be5d5adf"/>
+               <code code="43678-2" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE FORMS &amp; STRENGTHS SECTION"/>
+               <title>3 DOSAGE FORMS AND STRENGTHS</title>
+               <text>
+                  <paragraph>
+                     <content styleCode="underline">Extended</content>
+                     <content styleCode="underline">-Release Tablets</content>
+                  </paragraph>
+                  <list listType="unordered" styleCode="Disc">
+                     <item>10 mg extended-release tablets, round, white to off-white tablet, debossed with 1423 on one side and a <renderMultiMedia referencedObject="MM1"/> on the other side</item>
+                     <item>20 mg extended-release tablets, round, white to off-white tablet, debossed with 1451 on one side and a <renderMultiMedia referencedObject="MM2"/> on the other side</item>
+                  </list>
+               </text>
+               <effectiveTime value="20231001"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <list listType="unordered" styleCode="Disk">
+                           <item>Extended-Release Tablets: 10 mg and 20 mg (<linkHtml href="#LINK_6bdc3f5b-02f1-4023-8049-d1ec2c7a1c19">3</linkHtml>)</item>
+                        </list>
+                     </text>
+                  </highlight>
+               </excerpt>
+               <component>
+                  <observationMedia ID="MM1">
+                     <text>Boxed M</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="methylphenidate-hydrochloride-er-tabs-10-and-20mg-1.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="MM2">
+                     <text>Boxed M</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="methylphenidate-hydrochloride-er-tabs-10-and-20mg-2.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_faea0ba3-65a1-4d80-a450-ee043882ba5a">
+               <id root="ee1d5cd7-06fe-4991-a460-d76b14e97b33"/>
+               <code code="34070-3" codeSystem="2.16.840.1.113883.6.1" displayName="CONTRAINDICATIONS SECTION"/>
+               <title>4 CONTRAINDICATIONS</title>
+               <text>
+                  <list listType="unordered" styleCode="Disk">
+                     <item>Hypersensitivity to methylphenidate or other components of methylphenidate hydrochloride extended-release tablets. Hypersensitivity reactions, such as angioedema and anaphylactic reactions, have been reported in patients treated with methylphenidate <content styleCode="italics">[see Adverse Reactions (<linkHtml href="#LINK_e8988f17-6858-4e70-9ddc-8369003cde7a">6.1</linkHtml>)]</content>.</item>
+                     <item>Concomitant treatment with monoamine oxidase inhibitors (MAOIs), or within 14 days following discontinuation of treatment with an MAOI, because of the risk of hypertensive crises <content styleCode="italics">[see Drug Interactions (<linkHtml href="#LINK_599b56d9-7cbc-4392-b8f0-f994ed947590">7.1</linkHtml>)]</content>.</item>
+                  </list>
+               </text>
+               <effectiveTime value="20231001"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <list listType="unordered" styleCode="Disk">
+                           <item>Known hypersensitivity to methylphenidate or other product components of methylphenidate hydrochloride extended-release tablets. (<linkHtml href="#LINK_faea0ba3-65a1-4d80-a450-ee043882ba5a">4</linkHtml>)</item>
+                           <item>Concurrent treatment with a monoamine oxidase inhibitor (MAOI), or use of an MAOI within the preceding 14 days. (<linkHtml href="#LINK_faea0ba3-65a1-4d80-a450-ee043882ba5a">4</linkHtml>)</item>
+                        </list>
+                     </text>
+                  </highlight>
+               </excerpt>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_0e67d127-8e09-45c8-b8d4-51b1b493b77b">
+               <id root="e97bfcf3-0ac5-4768-8911-4ec26e956221"/>
+               <code code="43685-7" codeSystem="2.16.840.1.113883.6.1" displayName="WARNINGS AND PRECAUTIONS SECTION"/>
+               <title>5 WARNINGS AND PRECAUTIONS</title>
+               <text/>
+               <effectiveTime value="20231001"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <list listType="unordered" styleCode="Disk">
+                           <item>
+                              <content styleCode="italics">Serious Cardiovascular Events</content>
+                              <content styleCode="italics">:</content> Sudden death has been reported in association with CNS-stimulant treatment at usual doses in pediatric patients with structural cardiac abnormalities or other serious heart problems. In adults, sudden death, stroke, and myocardial infarction have been reported. Avoid use in patients with known structural cardiac abnormalities, cardiomyopathy, serious heart rhythm arrhythmias, or coronary artery disease. (<linkHtml href="#LINK_7c753c7d-9154-42a4-8b04-4ad7c6ff1697">5.2</linkHtml>)</item>
+                           <item>
+                              <content styleCode="italics">Blood Pressure and Heart Rate Increases</content>
+                              <content styleCode="italics">:</content> Monitor blood pressure and pulse. Consider the benefits and risk in patients for whom an increase in blood pressure or heart rate would be problematic. (<linkHtml href="#LINK_4442515b-3fa5-4181-bf29-a551b3becb41">5.3</linkHtml>)</item>
+                           <item>
+                              <content styleCode="italics">Psychiatric Adverse Reactions</content>
+                              <content styleCode="italics">:</content> Use of stimulants may cause psychotic or manic symptoms in patients with no prior history or exacerbation of symptoms in patients with preexisting psychiatric illness. Evaluate for preexisting psychotic or bipolar disorder prior to methylphenidate hydrochloride extended-release tablets use. (<linkHtml href="#LINK_a88f9465-400b-4f7b-8ca4-e34cfe28030f">5.4</linkHtml>)</item>
+                           <item>
+                              <content styleCode="italics">Priapism</content>
+                              <content styleCode="italics">:</content> Cases of painful and prolonged penile erections, and priapism have been reported with methylphenidate products. Immediate medical attention should be sought if signs or symptoms of prolonged penile erections or priapism are observed. (<linkHtml href="#LINK_1e88d8df-f51f-4267-9f00-1746125514aa">5.5</linkHtml>)</item>
+                           <item>
+                              <content styleCode="italics">Peripheral Vasculopathy, Including Raynaud’s Phenomenon</content>
+                              <content styleCode="italics">:</content> Stimulants used to treat ADHD are associated with peripheral vasculopathy, including Raynaud’s phenomenon. Careful observation for digital changes is necessary during treatment with ADHD stimulants. (<linkHtml href="#LINK_8de3350c-336e-4e57-afa8-b263fede163f">5.6</linkHtml>)</item>
+                           <item>
+                              <content styleCode="italics">Long-Term Suppression of Growth</content>
+                              <content styleCode="italics">:</content> Monitor height and weight at appropriate intervals in pediatric patients. (<linkHtml href="#LINK_a9d94d30-cb12-4b4b-aa20-f584e5ef9564">5.7</linkHtml>)</item>
+                        </list>
+                     </text>
+                  </highlight>
+               </excerpt>
+               <component>
+                  <section ID="LINK_b98ebe42-172d-4bb2-b9d5-dd2e486eeadc">
+                     <id root="c840813c-61d7-4014-b4fe-e01a2d6c6ef6"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>5.1        Potential for Abuse and Dependence</title>
+                     <text>
+                        <paragraph>CNS stimulants, including methylphenidate hydrochloride extended-release tablets, other methylphenidate-containing products, and amphetamines, have a high potential for abuse and dependence. Assess the risk of abuse prior to prescribing, and monitor for signs of abuse and dependence while on therapy <content styleCode="italics">[see Boxed Warning, Drug Abuse and Dependence (<linkHtml href="#LINK_4d2df4c1-1fc3-4945-977c-ef6bc5dc14bf">9.2</linkHtml>, <linkHtml href="#LINK_b6342189-17ac-437d-a245-eefd35b6b666">9.3</linkHtml>)]</content>.</paragraph>
+                     </text>
+                     <effectiveTime value="20231001"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_7c753c7d-9154-42a4-8b04-4ad7c6ff1697">
+                     <id root="befd5580-7646-4058-948c-b3ad35f867b3"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>5.2        Serious Cardiovascular Reactions</title>
+                     <text>
+                        <paragraph>Sudden death, stroke, and myocardial infarction have been reported in adults with CNS stimulant treatment at recommended doses. Sudden death has been reported in pediatric patients with structural cardiac abnormalities and other serious heart problems taking CNS stimulants at recommended doses for ADHD. Avoid use in patients with known serious structural cardiac abnormalities, cardiomyopathy, serious heart rhythm abnormalities, coronary artery disease, and other serious heart problems. Further evaluate patients who develop exertional chest pain, unexplained syncope, or arrhythmias during methylphenidate hydrochloride extended-release tablets treatment.</paragraph>
+                     </text>
+                     <effectiveTime value="20231001"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_4442515b-3fa5-4181-bf29-a551b3becb41">
+                     <id root="47fdacf6-034f-4284-ab4b-67e09ecea829"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>5.3        Blood Pressure and Heart Rate Increases</title>
+                     <text>
+                        <paragraph>CNS stimulants cause an increase in blood pressure (mean increase approximately 2 to 4 mmHg) and heart rate (mean increase approximately 3 to 6 bpm). Individuals may have larger increases. Monitor all patients for hypertension and tachycardia.</paragraph>
+                     </text>
+                     <effectiveTime value="20231001"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_a88f9465-400b-4f7b-8ca4-e34cfe28030f">
+                     <id root="d2a753ac-12bd-40a6-bf45-4f7f65484e93"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>5.4        Psychiatric Adverse Reactions</title>
+                     <text>
+                        <paragraph>
+                           <content styleCode="underline"> </content>
+                           <content styleCode="underline">Exacerbation of Preexisting Psychosis</content>
+                        </paragraph>
+                        <paragraph>
+CNS stimulants may exacerbate symptoms of behavior disturbance and thought disorder in patients with a preexisting psychotic disorder.</paragraph>
+                        <paragraph>
+                           <content styleCode="underline">Induction of a Manic Episode in Patients with Bipolar Disorder</content>
+                           <br/>
+CNS stimulants may induce a manic or mixed mood episode in patients. Prior to initiating treatment, screen patients for risk factors for developing a manic episode (e.g., comorbid or history of depressive symptoms or a family history of suicide, bipolar disorder, or depression).</paragraph>
+                        <paragraph>
+                           <content styleCode="underline">New Psychotic or Manic Symptoms</content>
+                           <br/>
+CNS stimulants, at recommended doses, may cause psychotic or manic symptoms (e.g., hallucinations, delusional thinking, or mania) in patients without a prior history of psychotic illness or mania. If such symptoms occur, consider discontinuing methylphenidate hydrochloride extended-release tablets. In a pooled analysis of multiple short-term, placebo-controlled studies of CNS stimulants, psychotic or manic symptoms occurred in approximately 0.1% of CNS stimulant-treated patients, compared to 0 in placebo-treated patients.</paragraph>
+                     </text>
+                     <effectiveTime value="20231001"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_1e88d8df-f51f-4267-9f00-1746125514aa">
+                     <id root="c68f458b-3a51-498d-8354-c89262fbd4c2"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>5.5        Priapism</title>
+                     <text>
+                        <paragraph>Prolonged and painful erections, sometimes requiring surgical intervention, have been reported with methylphenidate products in both pediatric and adult patients. Priapism was not reported with drug initiation but developed after some time on the drug, often subsequent to an increase in dose. Priapism has also appeared during a period of drug withdrawal (drug holidays or during discontinuation). Patients who develop abnormally sustained or frequent and painful erections should seek immediate medical attention.</paragraph>
+                     </text>
+                     <effectiveTime value="20231001"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_8de3350c-336e-4e57-afa8-b263fede163f">
+                     <id root="3bf6051b-d332-4371-bf18-a7d9b42de4bf"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>5.6        Peripheral Vasculopathy, Including Raynaud’s
+Phenomenon</title>
+                     <text>
+                        <paragraph>CNS stimulants, including methylphenidate hydrochloride extended-release tablets, used to treat ADHD are associated with peripheral vasculopathy, including Raynaud’s phenomenon. Signs and symptoms are usually intermittent and mild; however, very rare sequelae include digital ulceration and/or soft tissue breakdown. Effects of peripheral vasculopathy, including Raynaud’s phenomenon, were observed in postmarketing reports at different times and at therapeutic doses in all age groups throughout the course of treatment. Signs and symptoms generally improve after reduction in dose or discontinuation of drug. Careful observation for digital changes is necessary during treatment with ADHD stimulants. Further clinical evaluation (e.g., rheumatology referral) may be appropriate for certain patients.</paragraph>
+                     </text>
+                     <effectiveTime value="20231001"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_a9d94d30-cb12-4b4b-aa20-f584e5ef9564">
+                     <id root="96b949d3-fc11-479b-804d-77250b9e8d20"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>5.7        Long-Term Suppression of Growth</title>
+                     <text>
+                        <paragraph>CNS stimulants have been associated with weight loss and slowing of growth rate in pediatric patients.</paragraph>
+                        <paragraph>Careful follow-up of weight and height in pediatric patients ages 7 to 10 years who were randomized to either methylphenidate or non-medication treatment groups over 14 months, as well as in naturalistic subgroups of newly methylphenidate-treated and non-medication treated patients over 36 months (to the ages of 10 to 13 years), suggests that consistently medicated pediatric patients (i.e., treatment for 7 days per week throughout the year) have a temporary slowing in growth rate (on average, a total of about 2 cm less growth in height and 2.7 kg less growth in weight over 3 years), without evidence of growth rebound during this period of development.</paragraph>
+                        <paragraph>Closely monitor growth (weight and height) in pediatric patients treated with CNS stimulants, including methylphenidate hydrochloride extended-release tablets. Patients who are not growing or gaining height or weight as expected may need to have their treatment interrupted.</paragraph>
+                     </text>
+                     <effectiveTime value="20231001"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_e8988f17-6858-4e70-9ddc-8369003cde7a">
+               <id root="d35aba96-172b-4089-b7a0-d75361151b64"/>
+               <code code="34084-4" codeSystem="2.16.840.1.113883.6.1" displayName="ADVERSE REACTIONS SECTION"/>
+               <title>6 ADVERSE REACTIONS</title>
+               <text>
+                  <paragraph>The following are discussed in more detail in other sections of the labeling:</paragraph>
+                  <list listType="unordered" styleCode="Disk">
+                     <item>Abuse and Dependence <content styleCode="italics">[see Boxed Warning, Warnings and Precautions (<linkHtml href="#LINK_b98ebe42-172d-4bb2-b9d5-dd2e486eeadc">5.1</linkHtml>), Drug Abuse and Dependence (<linkHtml href="#LINK_4d2df4c1-1fc3-4945-977c-ef6bc5dc14bf">9.2</linkHtml>, <linkHtml href="#LINK_b6342189-17ac-437d-a245-eefd35b6b666">9.3</linkHtml>
+                        </content>
+                        <content styleCode="italics">)]</content>
+                     </item>
+                     <item>
+                        <content styleCode="italics"> </content>Known hypersensitivity to methylphenidate or other ingredients of methylphenidate hydrochloride extended-release tablets <content styleCode="italics">[see Contraindications (<linkHtml href="#LINK_faea0ba3-65a1-4d80-a450-ee043882ba5a">4</linkHtml>)]</content>
+                     </item>
+                     <item>
+                        <content styleCode="italics"> </content>Hypertensive crisis with Concomitant Use of Monoamine Oxidase Inhibitors <content styleCode="italics">[see Contraindications (4), Drug Interactions (<linkHtml href="#LINK_599b56d9-7cbc-4392-b8f0-f994ed947590">7.1</linkHtml>)]</content>
+                     </item>
+                     <item>
+                        <content styleCode="italics"> </content>Serious Cardiovascular Reactions <content styleCode="italics">[see Warnings and Precautions (<linkHtml href="#LINK_7c753c7d-9154-42a4-8b04-4ad7c6ff1697">5.2</linkHtml>)]</content>
+                     </item>
+                     <item>
+                        <content styleCode="italics"> </content>Blood Pressure and Heart Rate Increases <content styleCode="italics">[see Warnings and Precautions (<linkHtml href="#LINK_4442515b-3fa5-4181-bf29-a551b3becb41">5.3</linkHtml>)]</content>
+                     </item>
+                     <item>
+                        <content styleCode="italics"> </content>Psychiatric Adverse Reactions <content styleCode="italics">[see Warnings and Precautions (<linkHtml href="#LINK_a88f9465-400b-4f7b-8ca4-e34cfe28030f">5.4</linkHtml>)]</content>
+                     </item>
+                     <item>
+                        <content styleCode="italics"> </content>Priapism <content styleCode="italics">[see Warnings and Precautions (<linkHtml href="#LINK_1e88d8df-f51f-4267-9f00-1746125514aa">5.5</linkHtml>)]</content>
+                     </item>
+                     <item>
+                        <content styleCode="italics"> </content>Peripheral Vasculopathy, Including Raynaud’s Phenomenon <content styleCode="italics">[see Warnings and Precautions (<linkHtml href="#LINK_8de3350c-336e-4e57-afa8-b263fede163f">5.6</linkHtml>)]</content>
+                     </item>
+                     <item>
+                        <content styleCode="italics"> </content>Long-Term Suppression of Growth <content styleCode="italics">[see Warnings and Precautions (<linkHtml href="#LINK_a9d94d30-cb12-4b4b-aa20-f584e5ef9564">5.7</linkHtml>)]</content>
+                     </item>
+                  </list>
+                  <paragraph>The following adverse reactions associated with the use of methylphenidate hydrochloride extended-release tablets, and other methylphenidate products were identified in clinical trials, spontaneous reports, and literature. Because these reactions were reported voluntarily from a population of uncertain size, it is not always possible to estimate their frequency reliably or to establish a causal relationship to drug exposure.</paragraph>
+                  <paragraph>
+                     <content styleCode="underline">Adverse Reactions Reported with Methylphenidate Hydrochloride Extended-Release Tablets</content>
+                     <br/>
+                     <content styleCode="italics">Infections and Infestations: </content>nasopharyngitis</paragraph>
+                  <paragraph>
+                     <content styleCode="italics">Blood and the Lymphatic System Disorders: </content>leukopenia, thrombocytopenia, anemia</paragraph>
+                  <paragraph>
+                     <content styleCode="italics">Immune System Disorders: </content>hypersensitivity reactions, including angioedema, and anaphylaxis</paragraph>
+                  <paragraph>
+                     <content styleCode="italics">Metabolism and Nutrition Disorders: </content>decreased appetite, reduced weight gain, and suppression of growth during prolonged use in pediatric patients</paragraph>
+                  <paragraph>
+                     <content styleCode="italics">Psychiatric Disorders: </content>insomnia, anxiety, restlessness, agitation, psychosis (sometimes with visual and tactile hallucinations), depressed mood</paragraph>
+                  <paragraph>
+                     <content styleCode="italics">Nervous System Disorders: </content>headache, dizziness, tremor, dyskinesia, including choreoathetoid movements, drowsiness, convulsions, cerebrovascular disorders (including vasculitis, cerebral hemorrhages and cerebrovascular accidents), serotonin syndrome in combination with serotonergic drugs</paragraph>
+                  <paragraph>
+                     <content styleCode="italics">Eye Disorders: </content>blurred vision, difficulties in visual accommodation</paragraph>
+                  <paragraph>
+                     <content styleCode="italics">Cardiac Disorders: </content>tachycardia, palpitations, increased blood pressure, arrhythmias, angina pectoris</paragraph>
+                  <paragraph>
+                     <content styleCode="italics">Respiratory, Thoracic, and Mediastinal Disorders: </content>cough</paragraph>
+                  <paragraph>
+                     <content styleCode="italics">Gastrointestinal Disorders: </content>dry mouth, nausea, vomiting, abdominal pain, dyspepsia</paragraph>
+                  <paragraph>
+                     <content styleCode="italics">Hepatobiliary Disorders: </content>abnormal liver function, ranging from transaminase elevation to severe hepatic injury</paragraph>
+                  <paragraph>
+                     <content styleCode="italics">Skin and Subcutaneous Tissue Disorders: </content>hyperhidrosis, pruritus, urticaria, exfoliative dermatitis, scalp hair loss, erythema multiforme rash, thrombocytopenic purpura</paragraph>
+                  <paragraph>
+                     <content styleCode="italics">Musculoskeletal and Connective Tissue Disorders: </content>arthralgia, muscle cramps, rhabdomyolysis</paragraph>
+                  <paragraph>
+                     <content styleCode="italics">Investigations: </content>weight loss (adult ADHD patients)</paragraph>
+                  <paragraph>
+                     <content styleCode="underline">Additional Adverse Reactions Reported with Other Methylphenidate-Containing Products</content>
+                     <br/>
+The list below shows adverse reactions not listed for methylphenidate hydrochloride extended-release tablets that have been reported with other methylphenidate-containing products.</paragraph>
+                  <paragraph>
+                     <content styleCode="italics">Blood and Lymphatic Disorders: </content>pancytopenia</paragraph>
+                  <paragraph>
+                     <content styleCode="italics">Immune System Disorders: </content>hypersensitivity reactions, such as auricular swelling, bullous conditions, eruptions, exanthemas</paragraph>
+                  <paragraph>
+                     <content styleCode="italics">Psychiatric Disorders: </content>affect lability, mania, disorientation, and libido changes</paragraph>
+                  <paragraph>
+                     <content styleCode="italics">Nervous System Disorders: </content>migraine</paragraph>
+                  <paragraph>
+                     <content styleCode="italics">Eye Disorders: </content>diplopia, mydriasis</paragraph>
+                  <paragraph>
+                     <content styleCode="italics">Cardiac Disorders: </content>sudden cardiac death, myocardial infarction, bradycardia, extrasystole</paragraph>
+                  <paragraph>
+                     <content styleCode="italics">Vascular Disorders: </content>peripheral coldness, Raynaud’s phenomenon</paragraph>
+                  <paragraph>
+                     <content styleCode="italics">Respiratory, Thoracic, and Mediastinal Disorders: </content>pharyngolaryngeal pain, dyspnea</paragraph>
+                  <paragraph>
+                     <content styleCode="italics">Gastrointestinal Disorders: </content>diarrhea, constipation</paragraph>
+                  <paragraph>
+                     <content styleCode="italics">Skin and Subcutaneous Tissue Disorders: </content>angioneurotic edema, erythema, fixed drug eruption</paragraph>
+                  <paragraph>
+                     <content styleCode="italics">Musculoskeletal, Connective Tissue, and Bone Disorders: </content>myalgia, muscle twitching</paragraph>
+                  <paragraph>
+                     <content styleCode="italics">Renal and Urinary Disorders: </content>hematuria</paragraph>
+                  <paragraph>
+                     <content styleCode="italics">Reproductive System and Breast Disorders: </content>gynecomastia</paragraph>
+                  <paragraph>
+                     <content styleCode="italics">General Disorders: </content>fatigue, hyperpyrexia</paragraph>
+                  <paragraph>
+                     <content styleCode="italics">Urogenital Disorders</content>
+                     <content styleCode="italics">:</content> priapism</paragraph>
+               </text>
+               <effectiveTime value="20231001"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <paragraph>Common adverse reactions: tachycardia, palpitations, headache, insomnia, anxiety, hyperhidrosis, weight loss, decreased appetite, dry mouth, nausea, and abdominal pain. (<linkHtml href="#LINK_e8988f17-6858-4e70-9ddc-8369003cde7a">6</linkHtml>)</paragraph>
+                        <paragraph>
+                           <content styleCode="bold">To report SUSPECTED ADVERSE REACTIONS, contact Mallinckrodt at 1-800-778-7898 or FDA at 1-800-FDA-1088 or www.fda.gov/medwatch.</content>
+                        </paragraph>
+                        <paragraph>
+                           <content styleCode="bold"> </content>
+                        </paragraph>
+                     </text>
+                  </highlight>
+               </excerpt>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_c1cb6ff9-a9a9-462a-a975-9491cb9e7235">
+               <id root="03e9362e-0b63-41ff-a6d8-3dd6101cb909"/>
+               <code code="34073-7" codeSystem="2.16.840.1.113883.6.1" displayName="DRUG INTERACTIONS SECTION"/>
+               <title>7 DRUG INTERACTIONS</title>
+               <text/>
+               <effectiveTime value="20231001"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <list listType="unordered" styleCode="Disk">
+                           <item>
+                              <content styleCode="italics">Antihypertensive Drugs:</content> Monitor blood pressure. Adjust dosage of antihypertensive drug as needed. (<linkHtml href="#LINK_599b56d9-7cbc-4392-b8f0-f994ed947590">7.1</linkHtml>)</item>
+                           <item>
+                              <content styleCode="italics">Halogenated Anesthetics: </content>Avoid use of methylphenidate hydrochloride extended-release tablets on the day of surgery if halogenated anesthetics will be used. (<linkHtml href="#LINK_599b56d9-7cbc-4392-b8f0-f994ed947590">7.1</linkHtml>)</item>
+                        </list>
+                     </text>
+                  </highlight>
+               </excerpt>
+               <component>
+                  <section ID="LINK_599b56d9-7cbc-4392-b8f0-f994ed947590">
+                     <id root="3c2350b6-7a8f-43c2-96e1-e0661ef2bef5"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>7.1       Clinically Important Drug Interactions with
+Methylphenidate Hydrochloride Extended-Release Tablets</title>
+                     <text>
+                        <paragraph>Table 1 presents clinically important drug interactions with methylphenidate hydrochloride extended-release tablets.</paragraph>
+                        <paragraph>
+                           <content styleCode="bold">Table 1:  Clinically Important Drug Interactions with Methylphenidate Hydrochloride Extended-Release Tablets</content>
+                        </paragraph>
+                        <table cellspacing="0" cellpadding="0" border="1">
+                           <col width="477pt"/>
+                           <col/>
+                           <tbody>
+                              <tr>
+                                 <td colspan="2" styleCode=" Botrule Toprule Lrule Rrule">
+                                    <paragraph>
+                                       <content styleCode="bold">Monoamine Oxidase Inhibitors (MAOI)</content>
+                                    </paragraph>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td styleCode=" Botrule Toprule Lrule Rrule">
+                                    <paragraph>
+                                       <content styleCode="italics">Clinical Impact</content>
+                                    </paragraph>
+                                 </td>
+                                 <td styleCode=" Botrule Toprule Lrule Rrule">
+                                    <paragraph>Concomitant use of MAOIs and CNS stimulants, including methylphenidate hydrochloride extended-release tablets can cause hypertensive crisis. Potential outcomes include death, stroke, myocardial infarction, aortic dissection, ophthalmological complications, eclampsia, pulmonary edema, and renal failure <content styleCode="italics">[see Contraindications (<linkHtml href="#LINK_faea0ba3-65a1-4d80-a450-ee043882ba5a">4</linkHtml>)]</content>.</paragraph>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td styleCode=" Botrule Toprule Lrule Rrule">
+                                    <paragraph>
+                                       <content styleCode="italics">Intervention</content>
+                                    </paragraph>
+                                 </td>
+                                 <td styleCode=" Botrule Toprule Lrule Rrule">
+                                    <paragraph>Concomitant use of methylphenidate hydrochloride extended-release tablets with MAOIs or within 14 days after discontinuing MAOI treatment is contraindicated.</paragraph>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td styleCode=" Botrule Toprule Lrule Rrule">
+                                    <paragraph>
+                                       <content styleCode="italics">Examples</content>
+                                    </paragraph>
+                                 </td>
+                                 <td styleCode=" Botrule Toprule Lrule Rrule">
+                                    <paragraph>selegiline, tranylcypromine, isocarboxazid, phenelzine, linezolid, methylene blue</paragraph>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td colspan="2" styleCode=" Botrule Toprule Lrule Rrule">
+                                    <paragraph>
+                                       <content styleCode="bold">Antihypertensive Drugs</content>
+                                    </paragraph>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td styleCode=" Botrule Toprule Lrule Rrule">
+                                    <paragraph>
+                                       <content styleCode="italics">Clinical Impact</content>
+                                    </paragraph>
+                                 </td>
+                                 <td styleCode=" Botrule Toprule Lrule Rrule">
+                                    <paragraph>Methylphenidate hydrochloride extended-release tablets may decrease the effectiveness of drugs used to treat hypertension <content styleCode="italics">[see Warnings and Precautions (<linkHtml href="#LINK_4442515b-3fa5-4181-bf29-a551b3becb41">5.3</linkHtml>)]</content>.</paragraph>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td styleCode=" Botrule Toprule Lrule Rrule">
+                                    <paragraph>
+                                       <content styleCode="italics">Intervention</content>
+                                    </paragraph>
+                                 </td>
+                                 <td styleCode=" Botrule Toprule Lrule Rrule">
+                                    <paragraph>Monitor blood pressure and adjust the dosage of the antihypertensive drug as needed.</paragraph>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td styleCode=" Botrule Toprule Lrule Rrule">
+                                    <paragraph>
+                                       <content styleCode="italics">Examples</content>
+                                    </paragraph>
+                                 </td>
+                                 <td styleCode=" Botrule Toprule Lrule Rrule">
+                                    <paragraph>Potassium-sparing and thiazide diuretics, calcium channel blockers, angiotensin-converting-enzyme (ACE) inhibitors, angiotensin II receptor blockers (ARBs), beta blockers, centrally acting alpha-2 receptor agonists </paragraph>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td colspan="2" styleCode=" Botrule Toprule Lrule Rrule">
+                                    <paragraph>
+                                       <content styleCode="bold">Halogenated Anesthetics</content>
+                                    </paragraph>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td styleCode=" Botrule Toprule Lrule Rrule">
+                                    <paragraph>
+                                       <content styleCode="italics">Clinical Impact</content>
+                                    </paragraph>
+                                 </td>
+                                 <td styleCode=" Botrule Toprule Lrule Rrule">
+                                    <paragraph>Concomitant use of halogenated anesthetics and methylphenidate hydrochloride extended-release tablets may increase the risk of sudden blood pressure and heart rate increase during surgery.</paragraph>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td styleCode=" Botrule Toprule Lrule Rrule">
+                                    <paragraph>
+                                       <content styleCode="italics">Intervention</content>
+                                    </paragraph>
+                                 </td>
+                                 <td styleCode=" Botrule Toprule Lrule Rrule">
+                                    <paragraph>Avoid use of methylphenidate hydrochloride extended-release tablets in patients being treated with anesthetics on the day of surgery.</paragraph>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td styleCode=" Botrule Toprule Lrule Rrule">
+                                    <paragraph>
+                                       <content styleCode="italics">Examples</content>
+                                    </paragraph>
+                                 </td>
+                                 <td styleCode=" Botrule Toprule Lrule Rrule">
+                                    <paragraph>halothane, isoflurane, enflurane, desflurane, sevoflurane</paragraph>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td colspan="2" styleCode=" Botrule Toprule Lrule Rrule">
+                                    <paragraph>
+                                       <content styleCode="bold">Risperidone</content>
+                                    </paragraph>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td styleCode=" Botrule Toprule Lrule Rrule">
+                                    <paragraph>
+                                       <content styleCode="italics">Clinical Impact</content>
+                                    </paragraph>
+                                 </td>
+                                 <td styleCode=" Botrule Toprule Lrule Rrule">
+                                    <paragraph>The combined use of methylphenidate with risperidone when there is a change in dose either or both medications may increase the risk of extrapyramidal symptoms (EPS).</paragraph>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td styleCode=" Botrule Toprule Lrule Rrule">
+                                    <paragraph>
+                                       <content styleCode="italics">Intervention</content>
+                                    </paragraph>
+                                 </td>
+                                 <td styleCode=" Botrule Toprule Lrule Rrule">
+                                    <paragraph>Monitor for signs of EPS.</paragraph>
+                                 </td>
+                              </tr>
+                           </tbody>
+                        </table>
+                        <paragraph>
+                           <content styleCode="bold"> </content>
+                        </paragraph>
+                     </text>
+                     <effectiveTime value="20231001"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_3d7e6261-6145-46fe-96d8-205707108777">
+               <id root="545bafbb-4943-4a4b-9445-cd8a7d585f9c"/>
+               <code code="43684-0" codeSystem="2.16.840.1.113883.6.1" displayName="USE IN SPECIFIC POPULATIONS SECTION"/>
+               <title>8 USE IN SPECIFIC POPULATIONS</title>
+               <text/>
+               <effectiveTime value="20231001"/>
+               <component>
+                  <section ID="LINK_65a80314-9096-40a9-b70a-029f69684a4b">
+                     <id root="4bbd88e6-8f9b-4ff4-9790-bd0abf74fee0"/>
+                     <code code="42228-7" codeSystem="2.16.840.1.113883.6.1" displayName="PREGNANCY SECTION"/>
+                     <title>8.1 Pregnancy</title>
+                     <text>
+                        <paragraph>
+                           <content styleCode="underline">Pregnancy Exposure Registry</content>
+                           <br/>
+There is a pregnancy exposure registry that monitors pregnancy outcomes in women exposed to ADHD medications, including methylphenidate hydrochloride extended-release tablets, during pregnancy. Healthcare providers are encouraged to register patients by calling the National Pregnancy Registry for ADHD Medications at 1-866-961-2388 or visit https://womensmentalhealth.org/adhd-medications/.</paragraph>
+                        <paragraph>
+                           <content styleCode="underline">Risk Summary</content>
+                           <br/>
+Published studies and postmarketing reports on methylphenidate use during pregnancy have not identified a drug-associated risk of major birth defects, miscarriage or adverse maternal or fetal outcomes. There may be risks to the fetus associated with the use of CNS stimulants use during pregnancy <content styleCode="italics">(see Clinical Considerations)</content>.</paragraph>
+                        <paragraph>No effects on morphological development were observed in embryo-fetal development studies with oral administration of methylphenidate to pregnant rats and rabbits during organogenesis at doses up to 10 and 15 times, respectively, the maximum recommended human dose (MRHD) of 60 mg/day given to adolescents on a mg/m<sup>2 </sup>basis. However, spina bifida was observed in rabbits at a dose 52 times the MRHD given to adolescents. A decrease in pup body weight was observed in a pre- and postnatal development study with oral administration of methylphenidate to rats throughout pregnancy and lactation at doses 6 times the MRHD given to adolescents <content styleCode="italics">(see Data)</content>.</paragraph>
+                        <paragraph>The estimated background risk of major birth defects and miscarriage for the indicated population is unknown. All pregnancies have a background risk of birth defect, loss, or other adverse outcomes. In the U.S. general population, the estimated background risk of major birth defects and miscarriage in clinically recognized pregnancies is 2% to 4% and 15% to 20%, respectively.</paragraph>
+                        <paragraph>
+                           <content styleCode="underline">Clinical Considerations</content>
+                           <br/>
+                           <content styleCode="italics">Fetal/Neonatal Adverse Reactions</content>
+                           <br/>
+CNS stimulants, such as methylphenidate hydrochloride extended-release tablets, can cause vasoconstriction and thereby decrease placental perfusion. No fetal and/or neonatal adverse reactions have been reported with the use of therapeutic doses of methylphenidate during pregnancy; however, premature delivery and low birth weight infants have been reported in amphetamine-dependent mothers.</paragraph>
+                        <paragraph>
+                           <content styleCode="underline">Data</content>
+                           <br/>
+                           <content styleCode="italics">Animal Data</content>
+                           <br/>
+In embryo-fetal development studies conducted in rats and rabbits, methylphenidate was administered orally at doses of up to 75 and 200 mg/kg/day, respectively, during the period of organogenesis. Malformations (increased incidence of fetal spina bifida) were observed in rabbits at the highest dose, which is approximately 52 times the MRHD of 60 mg/day given to adolescents on a mg/m<sup>2 </sup>basis. The no effect level for embryo-fetal development in rabbits was 60 mg/kg/day (15 times the MRHD given to adolescents on a mg/m<sup>2 </sup>basis). There was no evidence of morphological development effects in rats, although increased incidences of fetal skeletal variations were seen at the highest dose level (10 times the MRHD of 60 mg/day given to adolescents on a mg/m<sup>2 </sup>basis), which was also maternally toxic. The no effect level for embryo-fetal development in rats was 25 mg/kg/day (3 times the MRHD on a mg/m<sup>2 </sup>basis). When methylphenidate was administered to rats throughout pregnancy and lactation at doses of up to 45 mg/kg/day, offspring body weight gain was decreased at the highest dose (6 times the MRHD of 60 mg/day given to adolescents on a mg/m<sup>2 </sup>basis), but no other effects on postnatal development were observed. The no effect level for pre- and postnatal development in rats was 15 mg/kg/day (~2 times the MRHD given to adolescents on a mg/m<sup>2 </sup>basis).</paragraph>
+                     </text>
+                     <effectiveTime value="20231001"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_881fc386-990b-4f73-b080-796472b8dd6a">
+                     <id root="8dde5d00-73d6-47d3-bf53-1794c8b206c5"/>
+                     <code code="34079-4" codeSystem="2.16.840.1.113883.6.1" displayName="LABOR &amp; DELIVERY SECTION"/>
+                     <title>8.2 Lactation</title>
+                     <text>
+                        <paragraph>
+                           <content styleCode="underline">Risk Summary</content>
+                        </paragraph>
+                        <paragraph>
+Limited published literature, based on milk sampling from seven mothers reports that methylphenidate is present in human milk, which resulted in infant doses of 0.16% to 0.7% of the maternal weight-adjusted dosage and a milk/plasma ratio ranging between 1.1 and 2.7. There are no reports of adverse effects on the breastfed infant and no effects on milk production. Long-term neurodevelopmental effects on infants from stimulant exposure are unknown. The developmental and health benefits of breastfeeding should be considered along with the mother’s clinical need for methylphenidate hydrochloride extended-release tablets and any potential adverse effects on the breastfed infant from methylphenidate hydrochloride extended-release tablets or from the underlying maternal condition.</paragraph>
+                        <paragraph>
+                           <content styleCode="underline">Clinical Considerations</content>
+                           <br/>
+Monitor breastfeeding infants for adverse reactions, such as agitation, insomnia, anorexia, and reduced weight gain.</paragraph>
+                     </text>
+                     <effectiveTime value="20231001"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_25bf67c7-3686-436a-b6a3-9e1e35c0f631">
+                     <id root="55227a32-ce5b-4a92-98b7-207e007a5623"/>
+                     <code code="34081-0" codeSystem="2.16.840.1.113883.6.1" displayName="PEDIATRIC USE SECTION"/>
+                     <title>8.4 Pediatric Use</title>
+                     <text>
+                        <paragraph>The safety and effectiveness of methylphenidate hydrochloride extended-release tablets for the treatment of ADHD have been established in pediatric patients 6 to 17 years.</paragraph>
+                        <paragraph>The safety and effectiveness of methylphenidate hydrochloride extended-release tablets in pediatric patients less than 6 years have not been established.</paragraph>
+                        <paragraph>The long-term efficacy of methylphenidate hydrochloride extended-release tablets in pediatric patients has not been established.</paragraph>
+                        <paragraph>
+                           <content styleCode="underline">Long-Term Suppression of Growth</content>
+                           <br/>
+Growth should be monitored during treatment with stimulants, including methylphenidate hydrochloride extended-release tablets. Pediatric patients who are not growing or gaining weight as expected may need to have their treatment interrupted <content styleCode="italics">[see Warnings and Precautions (<linkHtml href="#LINK_a9d94d30-cb12-4b4b-aa20-f584e5ef9564">5.7</linkHtml>)]</content>.</paragraph>
+                        <paragraph>
+                           <content styleCode="underline">Juvenile Animal Toxicity Data</content>
+                           <br/>
+Rats treated with methylphenidate early in the postnatal period through sexual maturation demonstrated a decrease in spontaneous locomotor activity in adulthood. A deficit in acquisition of a specific learning task was observed in females only. The doses at which these findings were observed are at least 4 times the MRHD of 60 mg/day given to children on a mg/m<sup>2 </sup>basis.</paragraph>
+                        <paragraph>In a study conducted in young rats, methylphenidate was administered orally at doses of up to 100 mg/kg/day for 9 weeks, starting early in the postnatal period (postnatal Day 7) and continuing through sexual maturity (postnatal Week 10). When these animals were tested as adults (postnatal Weeks 13 to 14), decreased spontaneous locomotor activity was observed in males and females previously treated with 50 mg/kg/day (approximately 4 times the MRHD of 60 mg/day given to children on a mg/m<sup>2 </sup>basis) or greater, and a deficit in the acquisition of a specific learning task was seen in females exposed to the highest dose (8 times the MRHD given to children on a mg/m<sup>2 </sup>basis). The no effect level for juvenile neurobehavioral development in rats was 5 mg/kg/day (approximately 0.5 times the MRHD given to children on a mg/m<sup>2 </sup>basis). The clinical significance of the long-term behavioral effects observed in rats is unknown.</paragraph>
+                     </text>
+                     <effectiveTime value="20231001"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_7d3877a8-271a-464c-838a-f7d17d949510">
+                     <id root="5d36df66-39ac-4212-a183-318ebe1de439"/>
+                     <code code="34082-8" codeSystem="2.16.840.1.113883.6.1" displayName="GERIATRIC USE SECTION"/>
+                     <title>8.5 Geriatric Use</title>
+                     <text>
+                        <paragraph>Methylphenidate hydrochloride has not been studied in the geriatric population.</paragraph>
+                     </text>
+                     <effectiveTime value="20231001"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_70decb70-476e-43a2-8683-14fd4f085adf">
+               <id root="71d1675c-8e42-466e-ac44-13ff552116dd"/>
+               <code code="42227-9" codeSystem="2.16.840.1.113883.6.1" displayName="DRUG ABUSE AND DEPENDENCE SECTION"/>
+               <title>9 DRUG ABUSE AND DEPENDENCE</title>
+               <effectiveTime value="20231001"/>
+               <component>
+                  <section ID="LINK_baf87342-b8d3-4600-9916-d7b850f61f74">
+                     <id root="d078d533-62b3-4ca0-97d1-10ac103c31b9"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>9.1 Controlled Substance</title>
+                     <text>
+                        <paragraph>Methylphenidate hydrochloride extended-release tablets contain methylphenidate hydrochloride, a Schedule II controlled substance.</paragraph>
+                     </text>
+                     <effectiveTime value="20231001"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_4d2df4c1-1fc3-4945-977c-ef6bc5dc14bf">
+                     <id root="74d5a942-c474-4094-9d70-b1f2f6ab0d3c"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>9.2  Abuse</title>
+                     <text>
+                        <paragraph>CNS stimulants, including methylphenidate hydrochloride extended-release tablets, have a high potential for abuse. Abuse is characterized by impaired control over drug use despite harm, and craving.</paragraph>
+                        <paragraph>Signs and symptoms of CNS stimulant abuse include increased heart rate, respiratory rate, blood pressure, and/or sweating, dilated pupils, hyperactivity, restlessness, insomnia, decreased appetite, loss of coordination, tremors, flushed skin, vomiting, and/or abdominal pain. Anxiety, psychosis, hostility, aggression, and suicidal or homicidal ideation have also been observed. Abusers of CNS stimulants may chew, snort, inject, or use other unapproved routes of administration which may result in overdose and death <content styleCode="italics">[see Overdosage (<linkHtml href="#LINK_af73fbaf-d0e7-4a50-b9c6-f26702fb8078">10</linkHtml>)]</content>.</paragraph>
+                        <paragraph>To reduce the abuse of CNS stimulants, including methylphenidate hydrochloride extended-release tablets, assess the risk of abuse prior to prescribing. After prescribing, keep careful prescription records, educate patients and their families about abuse and on proper storage and disposal of CNS stimulants <content styleCode="italics">[see How Supplied/Storage and Handling (<linkHtml href="#LINK_e00c7563-7d14-4e6b-aaba-54ec80e4f9d6">16</linkHtml>)]</content>, monitor for signs of abuse while on therapy, and reevaluate the need for methylphenidate hydrochloride extended-release tablets use.</paragraph>
+                     </text>
+                     <effectiveTime value="20231001"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_b6342189-17ac-437d-a245-eefd35b6b666">
+                     <id root="46d62a8e-5725-469b-8f2a-df6d07fe776b"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>9.3 Dependence</title>
+                     <text>
+                        <paragraph>
+                           <content styleCode="underline">Tolerance</content>
+                           <br/>
+Tolerance (a state of adaptation in which exposure to a drug results in a reduction of the drug’s desired and/or undesired effects over time) can occur during chronic therapy with CNS stimulants, including methylphenidate hydrochloride extended-release tablets.</paragraph>
+                        <paragraph>
+                           <content styleCode="underline">Dependence</content>
+                           <br/>Physical dependence (which is manifested by a withdrawal syndrome produced by abrupt cessation, rapid dose reduction, or administration of an antagonist) may occur in patients treated with CNS stimulants, including methylphenidate hydrochloride extended-release tablets. Withdrawal symptoms after abrupt cessation following prolonged high-dosage administration of CNS stimulants include dysphoric mood; fatigue; vivid, unpleasant dreams; insomnia or hypersomnia; increased appetite; and psychomotor retardation or agitation.</paragraph>
+                     </text>
+                     <effectiveTime value="20231001"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_af73fbaf-d0e7-4a50-b9c6-f26702fb8078">
+               <id root="6a355c5a-a0fa-4b47-a490-ffbd53c58087"/>
+               <code code="34088-5" codeSystem="2.16.840.1.113883.6.1" displayName="OVERDOSAGE SECTION"/>
+               <title>10 OVERDOSAGE</title>
+               <text>
+                  <paragraph>
+                     <content styleCode="underline">Human Experience</content>
+                     <br/>
+Signs and symptoms of acute overdosage, resulting principally from overstimulation of the central nervous system and from excessive sympathomimetic effects, may include the following: nausea, vomiting, diarrhea, restlessness, anxiety, agitation, tremors, hyperreflexia, muscle twitching, convulsions (which may be followed by coma), euphoria, confusion, hallucinations, delirium, sweating, flushing, headache, hyperpyrexia, tachycardia, palpitations, cardiac arrhythmias, hypertension, hypotension, tachypnea, mydriasis, dryness of mucous membranes, and rhabdomyolysis.</paragraph>
+                  <paragraph>
+                     <content styleCode="underline">Overdose Management</content>
+                     <br/>Consult with a Certified Poison Control Center (1-800-222-1222) for the latest recommendations.</paragraph>
+               </text>
+               <effectiveTime value="20231001"/>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_c971905f-5df1-4aad-9ad5-4e2568ccea0b">
+               <id root="8cc8da61-cdca-46b1-9ba1-cc6507d898d2"/>
+               <code code="34089-3" codeSystem="2.16.840.1.113883.6.1" displayName="DESCRIPTION SECTION"/>
+               <title>11 DESCRIPTION</title>
+               <text>
+                  <paragraph>Methylphenidate hydrochloride extended-release tablets contain methylphenidate hydrochloride, a CNS stimulant. They are available as extended-release tablets of 10 mg and 20 mg strength for oral administration. Methylphenidate hydrochloride is methyl α-phenyl-2-piperidineacetate hydrochloride, and its structural formula is:</paragraph>
+                  <renderMultiMedia referencedObject="MM3"/>
+                  <paragraph>Methylphenidate hydrochloride USP is a white, odorless, fine crystalline powder. Its solutions are acid to litmus. It is freely soluble in water and in methanol, soluble in alcohol, and slightly soluble in chloroform and in acetone. Its molecular weight is 269.77 g/mol.</paragraph>
+                  <paragraph>Methylphenidate hydrochloride extended-release tablets contain the following inactive ingredients: hydroxypropyl methylcellulose 2208, magnesium stearate, microcrystalline cellulose, and talc.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Note</content>
+                     <content styleCode="bold">:</content> Methylphenidate hydrochloride extended-release tablets are color-additive free.</paragraph>
+                  <br/>
+               </text>
+               <effectiveTime value="20231001"/>
+               <component>
+                  <observationMedia ID="MM3">
+                     <text>Structural Formula</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="methylphenidate-hydrochloride-er-tabs-10-and-20mg-3.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_3f1bdde7-49aa-4a56-af5c-c12dcab843be">
+               <id root="15ee5308-1402-4073-83e5-2a2b323dd07a"/>
+               <code code="34090-1" codeSystem="2.16.840.1.113883.6.1" displayName="CLINICAL PHARMACOLOGY SECTION"/>
+               <title>12 CLINICAL PHARMACOLOGY</title>
+               <effectiveTime value="20231001"/>
+               <component>
+                  <section ID="LINK_dc77753d-2118-49cf-bdfe-22c48b895042">
+                     <id root="20a3d340-fc45-4be1-b730-a955c39214a3"/>
+                     <code code="43679-0" codeSystem="2.16.840.1.113883.6.1" displayName="MECHANISM OF ACTION SECTION"/>
+                     <title>12.1 Mechanism of Action</title>
+                     <text>
+                        <paragraph>Methylphenidate hydrochloride is a central nervous system (CNS) stimulant. The mode of therapeutic action in ADHD and narcolepsy is not known.</paragraph>
+                     </text>
+                     <effectiveTime value="20231001"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_caa8aaae-3070-4907-8d99-6c4a75d985fe">
+                     <id root="414232ba-5bb4-4bfb-b9f7-1099f5f290d2"/>
+                     <code code="43681-6" codeSystem="2.16.840.1.113883.6.1" displayName="PHARMACODYNAMICS SECTION"/>
+                     <title>12.2 Pharmacodynamics</title>
+                     <text>
+                        <paragraph>Methylphenidate is a racemic mixture comprised of the <content styleCode="italics">d- </content>and <content styleCode="italics">l-threo </content>enantiomers. The <content styleCode="italics">d-threo </content>enantiomer is more pharmacologically active than the <content styleCode="italics">l-threo </content>enantiomer. Methylphenidate blocks the reuptake of norepinephrine and dopamine into the presynaptic neuron and increase the release of these monoamines into the extraneuronal space.</paragraph>
+                        <paragraph>
+                           <content styleCode="underline">Cardiac Electrophysiology</content>
+                           <br/>A formal QT study has not been conducted in patients taking methylphenidate hydrochloride extended-release tablets.</paragraph>
+                        <paragraph>The effect of dexmethylphenidate, the pharmacologically active d-enantiomer of methylphenidate hydrochloride tablets, on the QT interval was evaluated in a double-blind, placebo- and open-label active (moxifloxacin)-controlled study following single doses of dexmethlyphenidate XR 40 mg (maximum recommended adult total daily dosage) in 75 healthy volunteers. Electrocardiograms (ECGs) were collected up to 12 hours postdose. Frederica’s method for heart rate correction was employed to derive the corrected QT interval (QTcF). The maximum mean prolongation of QTcF intervals was less than 5 ms, and the upper limit of the 90% confidence interval (CI) was below 10 ms for all time-matched comparisons versus placebo. This was below the threshold of clinical concern and there was no evident exposure response relationship.</paragraph>
+                     </text>
+                     <effectiveTime value="20231001"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_3bc0a35d-8bab-434e-951f-d03cf08c1f6c">
+                     <id root="e9c7bc62-5463-4f26-9cd1-01ce5aff4f51"/>
+                     <code code="43682-4" codeSystem="2.16.840.1.113883.6.1" displayName="PHARMACOKINETICS SECTION"/>
+                     <title>12.3 Pharmacokinetics</title>
+                     <text>
+                        <paragraph>
+                           <content styleCode="underline">Absorption</content>
+                           <br/>
+Methylphenidate hydrochloride in the extended-release tablets is more slowly but as extensively absorbed as in the regular tablets. Relative bioavailability of the extended-release tablet compared to the immediate-release tablet, measured by the urinary excretion of methylphenidate’s major metabolite (α-phenyl-2-piperidine acetic acid) was 105% (49% to 168%) in children and 101% (85% to 152%) in adults. The time to peak rate in children was 1.9 hours (0.3 to 4.4 hours) for the methylphenidate hydrochloride tablets and 4.7 hours (1.3 to 8.2 hours) for the methylphenidate hydrochloride extended-release tablets. An average of 67% of extended-release tablet dose was excreted in children as compared to 86% in adults.</paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Effect of Food</content>
+                           <br/>
+After a high-fat meal, both area under the curve (AUC) (by 25%) and C<sub>max</sub> (by 27%) are higher. Time to C<sub>max</sub> (T<sub>max</sub>) is faster after a high-fat meal (median T<sub>max</sub>: 2.5 hours) as compared to without food (median T<sub>max</sub>: 3 hours).</paragraph>
+                        <paragraph>
+                           <content styleCode="underline">Distribution</content>
+                           <br/>
+Binding to plasma proteins is low (10% to 33%). The volume of distribution was 2.65 ± 1.11 L/kg for d-methylphenidate and 1.80 ± 0.91 L/kg for l-methylphenidate.</paragraph>
+                        <paragraph>
+                           <content styleCode="underline">Elimination</content>
+                           <br/>
+The systemic clearance is 0.40 ± 0.12 L/h/kg for d-methylphenidate and 0.73 ± 0.28 L/h/kg for l-methylphenidate.</paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Metabolism</content>
+                           <br/>
+Methylphenidate is metabolized primarily by de-esterification to alpha-phenyl-piperidine acetic acid (ritalinic acid), which has little or no pharmacologic activity.</paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Excretion</content>
+                           <br/>
+After oral administration, 78% to 97% of the dose is excreted in the urine and 1% to 3% in feces in the form of metabolites within 48 to 96 hours. Most of the dose is excreted in the urine as alpha-phenyl-2-piperidine acetic acid (60% to 86%). The cumulative urinary excretion of alpha-phenyl-2-piperidine acetic acid are not significantly different for methylphenidate hydrochloride extended-release tablets.</paragraph>
+                        <paragraph>
+                           <content styleCode="underline">Studies in Specific Populations</content>
+                           <br/>
+                           <content styleCode="italics">Male and Female Patients</content>
+                           <br/>In a clinical study involving adult subjects who received methylphenidate hydrochloride extended-release tablets, plasma concentrations of methylphenidate hydrochloride’s major metabolite appeared to be greater in females than in males. No gender differences were observed for methylphenidate hydrochloride’s plasma concentration in the same subjects.</paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Racial or Ethnic Groups</content>
+                           <br/>
+There is insufficient experience with the use of methylphenidate hydrochloride extended-release tablets to detect ethnic variations in pharmacokinetics.</paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Patients with Renal Impairment</content>
+                           <br/>
+Methylphenidate hydrochloride has not been studied in renally-impaired patients. Renal impairment is expected to have minimal effect on the pharmacokinetics of methylphenidate since less than 1% of a radiolabeled dose is excreted in the urine as unchanged compound, and the major metabolite (ritalinic acid), has little or no pharmacologic activity.</paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Patients with Hepatic Impairment</content>
+                           <br/>Methylphenidate hydrochloride has not been studied in patients with hepatic impairment. Hepatic impairment is expected to have minimal effect on the pharmacokinetics of methylphenidate since it is metabolized primarily to ritalinic acid by nonmicrosomal hydrolytic esterases that are widely distributed throughout the body.</paragraph>
+                     </text>
+                     <effectiveTime value="20231001"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_17021293-8e6f-419c-9b42-92944d25c08f">
+               <id root="be572d17-1e9c-465f-9594-f662289ac5e9"/>
+               <code code="43680-8" codeSystem="2.16.840.1.113883.6.1" displayName="NONCLINICAL TOXICOLOGY SECTION"/>
+               <title>13 NONCLINICAL TOXICOLOGY</title>
+               <effectiveTime value="20231001"/>
+               <component>
+                  <section ID="LINK_c1cd14bf-a8d4-4cc9-bd3f-412481849c91">
+                     <id root="8ceb85ed-8315-4881-9fa3-a39bffa9903a"/>
+                     <code code="34083-6" codeSystem="2.16.840.1.113883.6.1" displayName="CARCINOGENESIS &amp; MUTAGENESIS &amp; IMPAIRMENT OF FERTILITY SECTION"/>
+                     <title>13.1 Carcinogenesis, Mutagenesis, Impairment of Fertility</title>
+                     <text>
+                        <paragraph>
+                           <content styleCode="underline">Carcinogenesis</content>
+                           <br/>
+In a lifetime carcinogenicity study carried out in B6C3F1 mice, methylphenidate caused an increase in hepatocellular adenomas, and in males only, an increase in hepatoblastomas at a daily dose of approximately 60 mg/kg/day. This dose is approximately 2 times the MRHD of 60 mg/day given to children on mg/m<sup>2 </sup>basis. Hepatoblastoma is a relatively rare rodent malignant tumor type. There was no increase in total malignant hepatic tumors. The mouse strain used is sensitive to the development of hepatic tumors and the significance of these results to humans is unknown.</paragraph>
+                        <paragraph>Methylphenidate did not cause any increase in tumors in a lifetime carcinogenicity study carried out in F344 rats; the highest dose used was approximately 45 mg/kg/day, which is approximately 4 times the MRHD (children) on a mg/m<sup>2 </sup>basis.</paragraph>
+                        <paragraph>In a 24-week carcinogenicity study in the transgenic mouse strain p53+/-, which is sensitive to genotoxic carcinogens, there was no evidence of carcinogenicity. Male and female mice were fed diets containing the same concentration of methylphenidate as in the lifetime carcinogenicity study; the high-dose groups were exposed to 60 to 74 mg/kg/day of methylphenidate.</paragraph>
+                        <paragraph>
+                           <content styleCode="underline">Mutagenesis</content>
+                        </paragraph>
+                        <paragraph>Methylphenidate was not mutagenic in the <content styleCode="italics">in vitro </content>Ames reverse mutation assay, in the <content styleCode="italics">in vitro </content>mouse lymphoma cell forward mutation assay, or in the <content styleCode="italics">in vitro </content>chromosomal aberration assay using human lymphocytes. Sister chromatid exchanges and chromosome aberrations were increased, indicative of a weak clastogenic response, in an <content styleCode="italics">in vitro </content>assay in cultured Chinese Hamster Ovary (CHO) cells. Methylphenidate was negative <content styleCode="italics">in vivo </content>in males and females in the mouse bone marrow micronucleus assay.</paragraph>
+                        <paragraph>
+                           <content styleCode="underline">Impairment of Fertility</content>
+                           <br/>
+No human data on the effect of methylphenidate on fertility are available. Methylphenidate did not impair fertility in male or female mice that were fed diets containing the drug in an 18-week continuous breeding study. The study was conducted at doses up to 160 mg/kg/day, approximately 10 times the MRHD of 60 mg/day given to adolescents on a mg/m<sup>2 </sup>basis.</paragraph>
+                     </text>
+                     <effectiveTime value="20231001"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_e00c7563-7d14-4e6b-aaba-54ec80e4f9d6">
+               <id root="dabf4c9f-200e-4c35-bfd3-9328e5a3caef"/>
+               <code code="34069-5" codeSystem="2.16.840.1.113883.6.1" displayName="HOW SUPPLIED SECTION"/>
+               <title>16 HOW SUPPLIED/STORAGE AND HANDLING</title>
+               <text>
+                  <paragraph>
+                     <content styleCode="underline">Methylphenidate Hydrochloride Extended-Release Tablets USP are available as follows:</content>
+                  </paragraph>
+                  <paragraph>Tablets 10 mg - White to off-white, round tablets debossed with 1423 on one side and a <renderMultiMedia referencedObject="MM4"/> on the other side</paragraph>
+                  <paragraph>Bottles of 100........................NDC 0406-1445-01</paragraph>
+                  <paragraph>Tablets 20 mg - White to off-white, round tablets debossed with 1451 on one side and a <renderMultiMedia referencedObject="MM5"/> on the other side</paragraph>
+                  <paragraph>Bottles of 100........................NDC 0406-1473-01</paragraph>
+                  <paragraph>Store at 20° to 25°C (68° to 77°F) [see USP Controlled Room Temperature].</paragraph>
+                  <paragraph>Protect from moisture.</paragraph>
+                  <paragraph>Dispense in tight, light-resistant container with child-resistant closure.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Note</content>
+                     <content styleCode="bold">:</content> Methylphenidate hydrochloride extended-release tablets are color-additive free.</paragraph>
+                  <paragraph>
+                     <content styleCode="underline">Disposal</content>
+                     <br/>
+Comply with local laws and regulations on drug disposal of CNS stimulants. Dispose of remaining, unused, or expired methylphenidate hydrochloride extended-release tablets by a medicine take-back program or by an authorized collector registered with the Drug Enforcement Administration. If no take-back program or authorized collector is available, mix methylphenidate hydrochloride extended-release tablets with an undesirable, nontoxic substance to make it less appealing to children and pets. Place the mixture in a container, such as a sealed plastic bag and discard methylphenidate hydrochloride extended-release tablets in the household trash.</paragraph>
+               </text>
+               <effectiveTime value="20231001"/>
+               <component>
+                  <observationMedia ID="MM4">
+                     <text>Boxed M</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="methylphenidate-hydrochloride-er-tabs-10-and-20mg-4.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="MM5">
+                     <text>Boxed M</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="methylphenidate-hydrochloride-er-tabs-10-and-20mg-5.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_78cb9677-e3a5-4401-a44d-620709619af2">
+               <id root="9542fd76-9498-4db9-89fe-517acb5a6c60"/>
+               <code code="34076-0" codeSystem="2.16.840.1.113883.6.1" displayName="INFORMATION FOR PATIENTS SECTION"/>
+               <title>17 PATIENT COUNSELING INFORMATION</title>
+               <text>
+                  <paragraph>Advise the patient to read the FDA-approved patient labeling (Medication Guide).</paragraph>
+                  <paragraph>
+                     <content styleCode="underline">Controlled Substance Status/High Potential for Abuse and Dependence</content>
+                     <br/>
+Advise patients that methylphenidate hydrochloride extended-release tablets are controlled substances, and they can be abused and lead to dependence. Instruct patients that they should not give methylphenidate hydrochloride extended-release tablets to anyone else. Advise patients to store methylphenidate hydrochloride extended-release tablets in a safe place, preferably locked, to prevent abuse. Advise patients to comply with laws and regulations on drug disposal. Advise patients to dispose of remaining, unused, or expired methylphenidate hydrochloride extended-release tablets by a medicine take-back program if available <content styleCode="italics">[see Boxed Warning, Warnings and Precautions (<linkHtml href="#LINK_b98ebe42-172d-4bb2-b9d5-dd2e486eeadc">5.1</linkHtml>), Drug Abuse and Dependence (<linkHtml href="#LINK_baf87342-b8d3-4600-9916-d7b850f61f74">9.1</linkHtml>, <linkHtml href="#LINK_4d2df4c1-1fc3-4945-977c-ef6bc5dc14bf">9.2</linkHtml>, <linkHtml href="#LINK_b6342189-17ac-437d-a245-eefd35b6b666">9.3</linkHtml>), How Supplied/Storage and Handling (<linkHtml href="#LINK_e00c7563-7d14-4e6b-aaba-54ec80e4f9d6">16</linkHtml>)]</content>.</paragraph>
+                  <paragraph>
+                     <content styleCode="underline">Serious Cardiovascular Risks</content>
+                     <br/>
+Advise patients that there is a potential serious cardiovascular risk, including sudden death, myocardial infarction, stroke, and hypertension with methylphenidate hydrochloride extended-release tablets use. Instruct patients to contact a healthcare provider immediately if they develop symptoms, such as exertional chest pain, unexplained syncope, or other symptoms suggestive of cardiac disease <content styleCode="italics">[see Warnings and Precautions (<linkHtml href="#LINK_7c753c7d-9154-42a4-8b04-4ad7c6ff1697">5.2</linkHtml>)]</content>.</paragraph>
+                  <paragraph>
+                     <content styleCode="underline">Blood Pressure and Heart Rate Increases</content>
+                     <br/>
+Instruct patients that methylphenidate hydrochloride extended-release tablets can cause elevations of their blood pressure and pulse rate <content styleCode="italics">[see Warnings and Precautions (<linkHtml href="#LINK_4442515b-3fa5-4181-bf29-a551b3becb41">5.3</linkHtml>)]</content>.</paragraph>
+                  <paragraph>
+                     <content styleCode="underline">Psychiatric Risks</content>
+                     <br/>
+Advise patients that methylphenidate hydrochloride extended-release tablets, at recommended doses, can cause psychotic or manic symptoms, even in patients without prior history of psychotic symptoms or mania <content styleCode="italics">[see Warnings and Precautions (<linkHtml href="#LINK_a88f9465-400b-4f7b-8ca4-e34cfe28030f">5.4</linkHtml>)]</content>.</paragraph>
+                  <paragraph>
+                     <content styleCode="underline">Priapism</content>
+                     <br/>
+Advise patients of the possibility of painful or prolonged penile erections (priapism). Instruct them to seek immediate medical attention in the event of priapism <content styleCode="italics">[see Warnings and Precautions (<linkHtml href="#LINK_1e88d8df-f51f-4267-9f00-1746125514aa">5.5</linkHtml>)]</content>.</paragraph>
+                  <paragraph>
+                     <content styleCode="underline">Circulation Problems in Fingers and Toes [Peripheral Vasculopathy, Including Raynaud’s Phenomenon]</content>
+                     <br/>
+Instruct patients about the risk of peripheral vasculopathy, including Raynaud’s phenomenon, and associated signs and symptoms: fingers or toes may feel numb, cool, painful, and/or may change color from pale, to blue, to red. Instruct patients to report to their physician any new numbness, pain, skin color change, or sensitivity to temperature in fingers or toes.</paragraph>
+                  <paragraph>Instruct patients to call their physician immediately with any signs of unexplained wounds appearing on fingers or toes while taking methylphenidate hydrochloride extended-release tablets. Further clinical evaluation (e.g., rheumatology referral) may be appropriate for certain patients <content styleCode="italics">[see Warnings and Precautions (<linkHtml href="#LINK_8de3350c-336e-4e57-afa8-b263fede163f">5.6</linkHtml>)]</content>.</paragraph>
+                  <paragraph>
+                     <content styleCode="underline">Suppression of Growth</content>
+                     <br/>
+Advise patients that methylphenidate hydrochloride extended-release tablets may cause slowing of growth and weight loss <content styleCode="italics">[see Warnings and Precautions (<linkHtml href="#LINK_a9d94d30-cb12-4b4b-aa20-f584e5ef9564">5.7</linkHtml>)]</content>.</paragraph>
+                  <paragraph>
+                     <content styleCode="underline">Pregnancy Registry</content>
+                     <br/>
+Advise patients that there is a pregnancy exposure registry that monitors pregnancy outcomes in patients exposed to ADHD medications, including methylphenidate hydrochloride extended-release tablets, during pregnancy <content styleCode="italics">[see Use in Specific Populations (<linkHtml href="#LINK_65a80314-9096-40a9-b70a-029f69684a4b">8.1</linkHtml>)]</content>.</paragraph>
+                  <paragraph>Mallinckrodt, the “M” brand mark, the Mallinckrodt Pharmaceuticals logo and <renderMultiMedia referencedObject="MM6"/> are trademarks of a Mallinckrodt company.</paragraph>
+                  <paragraph>© 2023 Mallinckrodt.</paragraph>
+                  <paragraph>Manufactured by:<br/>
+SpecGx LLC<br/>
+Webster Groves, MO 63119 USA</paragraph>
+                  <paragraph>Rev 10/2023</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Mallinckrodt™</content>
+                     <br/>
+Pharmaceuticals</paragraph>
+                  <paragraph>An electronic copy of the medication guide for Methylphenidate Hydrochloride Extended-Release Tablets USP can be obtained from www.mallinckrodt.com/Medguide/L20M47.pdf or by calling 1-800-778-7898 for alternate delivery options.</paragraph>
+               </text>
+               <effectiveTime value="20231001"/>
+               <component>
+                  <observationMedia ID="MM6">
+                     <text>Boxed M</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="methylphenidate-hydrochloride-er-tabs-10-and-20mg-6.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_37cc2946-2f5b-4f31-b73e-ee9441fd6756">
+               <id root="de01af44-6879-4344-8d48-9a07bdea112a"/>
+               <code code="42231-1" codeSystem="2.16.840.1.113883.6.1" displayName="SPL MEDGUIDE SECTION"/>
+               <title/>
+               <text>
+                  <table width="100%" cellspacing="0" cellpadding="4" border="1">
+                     <col width="7.65in"/>
+                     <tbody>
+                        <tr>
+                           <td styleCode=" Botrule Toprule Lrule Rrule">
+                              <paragraph>
+                                 <content styleCode="bold">MEDICATION GUIDE<br/>
+            Methylphenidate Hydrochloride Extended-Release Tablets USP<br/>
+            (METH il FEN i date) CII</content>
+                              </paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode=" Botrule Toprule Lrule Rrule">
+                              <paragraph>
+                                 <content styleCode="bold">What is the most important information I should know about </content>
+                                 <content styleCode="bold">methylphenidate</content>
+                                 <content styleCode="bold"> hydrochloride extended-release tablets?</content>
+                              </paragraph>
+                              <paragraph>
+                                 <content styleCode="bold">Methylphenidate hydrochloride</content>
+                                 <content styleCode="bold"> extended-release tablets are federal controlled substances (CII) because they can be abused or lead to dependence. Keep methylphenidate hydrochloride extended-release tablets in a safe place to prevent misuse and abuse. Selling or giving away methylphenidate hydrochloride extended-release tablets may harm others, and is against the law.</content>
+                              </paragraph>
+                              <paragraph>Tell your doctor if you or your child have ever abused or been dependent on alcohol, prescription medicines, or street drugs.</paragraph>
+                              <paragraph>
+                                 <content styleCode="bold">The following have been reported with use of methylphenidate hydrochloride and other stimulant medicines:</content>
+                              </paragraph>
+                              <paragraph>
+                                 <content styleCode="bold">
+                                    <content styleCode="underline">1. Heart-related problems</content>
+                                 </content>
+                                 <content styleCode="bold">:</content>
+                              </paragraph>
+                              <list listType="unordered" styleCode="Disc">
+                                 <item>
+                                    <content styleCode="bold">sudden death in patients who have heart problems or heart defects</content>
+                                 </item>
+                                 <item>
+                                    <content styleCode="bold">stroke and heart attack in adults</content>
+                                 </item>
+                                 <item>
+                                    <content styleCode="bold">increased blood pressure and heart rate</content>
+                                 </item>
+                              </list>
+                              <paragraph>Tell your doctor if you or your child have any heart problems, heart defects, high blood pressure, or a family history of these problems.
+            </paragraph>
+                              <paragraph>Your doctor should check you or your child carefully for heart problems before starting methylphenidate hydrochloride extended-release tablets.</paragraph>
+                              <paragraph>Your doctor should check your or your child’s blood pressure and heart rate regularly during treatment with methylphenidate hydrochloride extended-release tablets.</paragraph>
+                              <paragraph>
+                                 <content styleCode="bold">Call your doctor right away if you or your child has any signs of heart problems, such as chest pain, shortness of breath, or fainting while taking methylphenidate hydrochloride extended-release tablets.</content>
+                              </paragraph>
+                              <paragraph>
+                                 <content styleCode="bold">
+                                    <content styleCode="underline">2. Mental (Psychiatric) problems</content>
+                                 </content>
+                                 <content styleCode="bold">:</content>
+                              </paragraph>
+                              <paragraph>
+                                 <content styleCode="bold">All Patients</content>
+                              </paragraph>
+                              <list listType="unordered" styleCode="Disc">
+                                 <item>
+                                    <content styleCode="bold">new or worse behavior and thought problems</content>
+                                 </item>
+                                 <item>
+                                    <content styleCode="bold">new or worse bipolar illness</content>
+                                 </item>
+                                 <item>
+                                    <content styleCode="bold">new or worse aggressive behavior or hostility</content>
+                                 </item>
+                                 <item>
+                                    <content styleCode="bold">new psychotic symptoms (such as hearing voices, believing things that are not true, are suspicious) or new manic symptoms</content>
+                                 </item>
+                              </list>
+                              <paragraph>Tell your doctor about any mental problems you or your child have, or about a family history of suicide, bipolar illness, or depression.</paragraph>
+                              <paragraph>
+                                 <content styleCode="bold">Call your doctor right away if you or your child have any new or worsening mental symptoms or problems while taking methylphenidate hydrochloride extended-release tablets, especially seeing or hearing things that are not real, believing things that are not real, or are suspicious.</content>
+                              </paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode=" Botrule Toprule Lrule Rrule">
+                              <paragraph>
+                                 <content styleCode="bold">What are </content>
+                                 <content styleCode="bold">methylphenidate</content>
+                                 <content styleCode="bold"> hydrochloride extended-release tablets?</content>
+                              </paragraph>
+                              <list listType="unordered" styleCode="Disc">
+                                 <item>Methylphenidate hydrochloride extended-release tablets are a central nervous system (CNS) stimulant prescription medicine. <content styleCode="bold">They are used for the treatment of Attention Deficit Hyperactivity Disorder (ADHD). </content>Methylphenidate hydrochloride extended-release tablets may help increase attention and decrease impulsiveness and hyperactivity in patients with ADHD.</item>
+                                 <item>Methylphenidate hydrochloride extended-release tablets should be used as a part of a total treatment program for ADHD that may include counseling or other therapies.</item>
+                                 <item>Methylphenidate hydrochloride extended-release tablets are also used in the treatment of a sleep disorder called narcolepsy.</item>
+                              </list>
+                              <paragraph>
+                                 <content styleCode="bold">It is not known if methylphenidate hydrochloride extended-release tablets are safe and effective in children under 6 years of age.</content>
+                              </paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode=" Botrule Toprule Lrule Rrule">
+                              <paragraph>
+                                 <content styleCode="bold">Who should not take </content>
+                                 <content styleCode="bold">methylphenidate</content>
+                                 <content styleCode="bold"> hydrochloride extended-release tablets?</content>
+                              </paragraph>
+                              <paragraph>
+                                 <content styleCode="bold">Methylphenidate hydrochloride</content>
+                                 <content styleCode="bold"> extended-release tablets </content>
+                                 <content styleCode="bold">should not be taken if you or your child:</content>
+                              </paragraph>
+                              <list listType="unordered" styleCode="Disc">
+                                 <item>are allergic to methylphenidate hydrochloride, or any of the ingredients in methylphenidate hydrochloride extended-release tablets. See the end of this Medication Guide for a complete list of ingredients in methylphenidate hydrochloride extended-release tablets.</item>
+                                 <item>are taking or have taken within the past 14 days an anti-depression medicine called a monoamine oxidase inhibitor or MAOI.</item>
+                              </list>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode=" Botrule Toprule Lrule Rrule">
+                              <paragraph>
+                                 <content styleCode="bold">Methylphenidate hydrochloride</content>
+                                 <content styleCode="bold"> extended-release tablets </content>
+                                 <content styleCode="bold">may not be right for you or your child. Before starting </content>
+                                 <content styleCode="bold">methylphenidate hydrochloride extended-release tablets, </content>
+                                 <content styleCode="bold">tell your or your child’s doctor about all health conditions (or a family history of), including: </content>
+                              </paragraph>
+                              <list listType="unordered" styleCode="Disc">
+                                 <item>heart problems, heart defects, high blood pressure </item>
+                                 <item>mental problems, including psychosis, mania, bipolar illness, or depression </item>
+                                 <item>circulation problems in fingers or toes</item>
+                                 <item>if you are pregnant or plan to become pregnant. It is not known if methylphenidate hydrochloride extended-release tablets will harm your unborn baby.
+                <list listType="unordered" styleCode="Circle">
+                                       <item>There is a pregnancy registry for females who are exposed to ADHD medications, including methylphenidate hydrochloride extended-release tablets, during pregnancy. The purpose of the registry is to collect information about the health of females exposed to methylphenidate hydrochloride extended-release tablets and their baby. If you or your child becomes pregnant during treatment with methylphenidate hydrochloride extended-release tablets, talk to your healthcare provider about registering with the National Pregnancy Registry of ADHD Medications at 1-866-961-2388 or visit online at https://womensmentalhealth.org/adhd-medications/.</item>
+                                    </list>
+                                 </item>
+                                 <item>if you are breastfeeding or plan to breastfeed. Methylphenidate hydrochloride passes into your breast milk. Talk to your healthcare provider about the best way to feed your baby during treatment with methylphenidate hydrochloride extended-release tablets.</item>
+                              </list>
+                              <paragraph>
+                                 <content styleCode="bold">Tell your doctor about all of the medicines that you or your child takes including prescription and over-the-counter medicines, vitamins, and herbal supplements.</content> Methylphenidate hydrochloride extended-release tablets and some medicines may interact with each other and cause serious side effects. Sometimes the doses of other medicines will need to be adjusted while taking methylphenidate hydrochloride extended-release tablets.</paragraph>
+                              <paragraph>Your doctor will decide whether methylphenidate hydrochloride extended-release tablets can be taken with other medicines.</paragraph>
+                              <paragraph>
+                                 <content styleCode="bold">Especially tell your doctor if you or your child takes: </content>
+                              </paragraph>
+                              <list listType="unordered" styleCode="Disc">
+                                 <item>anti-depression medicines, including MAOIs</item>
+                                 <item>blood pressure medicines (antihypertensive)</item>
+                              </list>
+                              <paragraph>Know the medicines that you or your child takes. Keep a list of your medicines with you to show your doctor and pharmacist.</paragraph>
+                              <paragraph>
+                                 <content styleCode="bold">Do not start any new medicine while taking methylphenidate hydrochloride extended-release tablets without talking to your doctor first.</content>
+                              </paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode=" Botrule Toprule Lrule Rrule">
+                              <paragraph>
+                                 <content styleCode="bold">How should </content>
+                                 <content styleCode="bold">methylphenidate</content>
+                                 <content styleCode="bold"> hydrochloride extended-release tablets </content>
+                                 <content styleCode="bold">be taken?</content>
+                              </paragraph>
+                              <list listType="unordered" styleCode="Disc">
+                                 <item>Take methylphenidate hydrochloride extended-release tablets exactly as prescribed. Your doctor may adjust the dose until it is right for you or your child.</item>
+                                 <item>Take methylphenidate hydrochloride extended-release tablets 30 to 45 minutes before a meal. The effect of a dose of methylphenidate hydrochloride extended-release tablets usually lasts about 8 hours.</item>
+                                 <item>
+                                    <content styleCode="bold">Do not chew or crush methylphenidate hydrochloride extended-release</content>
+                                    <content styleCode="bold">tablets.</content> Swallow methylphenidate hydrochloride extended-release tablets whole with water or other liquids. Tell your doctor if you or your child cannot swallow methylphenidate hydrochloride extended-release tablets whole. A different medicine may need to be prescribed.</item>
+                                 <item>From time-to-time, your doctor may stop methylphenidate hydrochloride extended-release tablets treatment for a while to check ADHD symptoms.</item>
+                                 <item>Your doctor may do regular checks of the blood, heart, and blood pressure while taking methylphenidate hydrochloride extended-release tablets.</item>
+                                 <item>Children should have their height and weight checked often while taking methylphenidate hydrochloride extended-release tablets. Methylphenidate hydrochloride extended-release tablets treatment may be stopped if a problem is found during these check-ups.</item>
+                                 <item>
+                                    <content styleCode="bold">In case of poisoning, call your poison control center at 1-800-222-1222 right away, or go to the nearest hospital emergency room.</content>
+                                 </item>
+                              </list>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode=" Botrule Toprule Lrule Rrule">
+                              <paragraph>
+                                 <content styleCode="bold">What are the possible side effects of methylphenidate hydrochloride extended-release tablets?</content>
+                              </paragraph>
+                              <paragraph>
+                                 <content styleCode="bold">Methylphenidate hydrochloride extended-release tablets may cause serious side effects, including:</content>
+                              </paragraph>
+                              <list listType="unordered" styleCode="Disk">
+                                 <item>See <content styleCode="bold">“What is the most important information I should know about methylphenidate hydrochloride extended-release tablets?”</content> for information on reported heart and mental problems.</item>
+                                 <item>
+                                    <content styleCode="bold">painful and prolonged erections (priapism)</content> have occurred with methylphenidate. If you or your child develops priapism, seek medical help right away. Because of the potential for lasting damage, priapism should be evaluated by a doctor immediately. </item>
+                                 <item>
+                                    <content styleCode="bold">circulation problems in fingers and toes</content> (Peripheral Vasculopathy, including Raynaud’s phenomenon):
+                <list listType="unordered" styleCode="Circle">
+                                       <item>fingers or toes may feel numb, cool, painful</item>
+                                       <item>fingers or toes may change color from pale, to blue, to red</item>
+                                    </list>
+                                 </item>
+                              </list>
+                              <paragraph>Tell your doctor if you or your child have numbness, pain, skin color change, or sensitivity to temperature in the fingers or toes.</paragraph>
+                              <list listType="unordered" styleCode="Disk">
+                                 <item>
+                                    <content styleCode="bold">Call your doctor right away if you have or your child has any signs of unexplained wounds appearing on fingers or toes while taking methylphenidate hydrochloride extended-release tablets.</content>
+                                 </item>
+                                 <item>
+                                    <content styleCode="bold">Slowing of growth (height and weight) in children</content>
+                                 </item>
+                              </list>
+                              <paragraph>
+                                 <content styleCode="bold">Common side effects include:</content>
+                              </paragraph>
+                              <list listType="unordered" styleCode="Disk">
+                                 <item>fast heartbeat</item>
+                                 <item>abnormal heartbeat (palpitations)</item>
+                                 <item>headache</item>
+                                 <item>trouble sleeping</item>
+                                 <item>nervousness</item>
+                                 <item>sweating a lot</item>
+                                 <item>decreased appetite</item>
+                                 <item>dry mouth</item>
+                                 <item>nausea</item>
+                                 <item>stomach pain</item>
+                              </list>
+                              <paragraph>
+                                 <content styleCode="bold">Call your doctor for medical advice about side effects. You may report side effects to FDA at 1-800-FDA-1088.</content>
+                              </paragraph> </td>
+                        </tr>
+                        <tr>
+                           <td styleCode=" Botrule Toprule Lrule Rrule">
+                              <paragraph>
+                                 <content styleCode="bold">How should I store </content>
+                                 <content styleCode="bold">methylphenidate</content>
+                                 <content styleCode="bold"> hydrochloride extended-release tablets?</content>
+                              </paragraph>
+                              <list listType="unordered" styleCode="Disc">
+                                 <item>Store methylphenidate hydrochloride extended-release tablets in a safe place and in a tightly closed container at room temperature between 68°F to 77°F (20°C to 25°C).</item>
+                                 <item>Protect from moisture.</item>
+                                 <item>Dispose of remaining, unused, or expired methylphenidate hydrochloride extended-release tablets by a medicine take-back program at authorized collection sites, such as retail pharmacies, hospital or clinic pharmacies, and law enforcement locations. If no take-back program or authorized collector is available, mix methylphenidate hydrochloride extended-release tablets with an undesirable, nontoxic substance, such as dirt, cat litter, or used coffee grounds to make it less appealing to children and pets. Place the mixture in a container, such as a sealed plastic bag and throw away (discard) methylphenidate hydrochloride extended-release tablets in the household trash.</item>
+                                 <item>
+                                    <content styleCode="bold">Keep methylphenidate hydrochloride extended-release tablets and all medicines out of the reach of children.</content>
+                                 </item>
+                              </list>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode=" Botrule Toprule Lrule Rrule">
+                              <paragraph>
+                                 <content styleCode="bold">General information about the safe and effective use of </content>
+                                 <content styleCode="bold">methylphenidate</content>
+                                 <content styleCode="bold"> hydrochloride extended-release tablets.</content>
+                              </paragraph>
+                              <paragraph> Medicines are sometimes prescribed for purposes other than those listed in a Medication Guide. You can ask your pharmacist or doctor for information about methylphenidate hydrochloride extended-release tablets that is written for healthcare professionals. Do not use methylphenidate hydrochloride extended-release tablets for a condition for which it was not prescribed. Do not give methylphenidate hydrochloride extended-release tablets to other people, even if they have the same symptoms that you have. It may harm them and it is against the law.</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode=" Botrule Toprule Lrule Rrule">
+                              <paragraph>
+                                 <content styleCode="bold">What are the ingredients in methylphenidate hydrochloride extended-release tablets?</content>
+                              </paragraph>
+                              <paragraph>
+                                 <content styleCode="bold">Active ingredient:</content> methylphenidate hydrochloride USP<br/>
+                                 <content styleCode="bold">Inactive ingredients: </content>
+                                 <br/>
+            Methylphenidate hydrochloride extended-release tablets: hydroxypropyl methylcellulose 2208, magnesium stearate, microcrystalline cellulose, and talc.<br/>
+                                 <br/>
+            Manufactured by:<br/>
+            SpecGx LLC<br/>
+            Webster Groves, MO 63119 USA</paragraph>
+                              <paragraph>
+                                 <content styleCode="bold">Mallinckrodt™</content>
+                              </paragraph>
+                              <paragraph>For more information and request for additional copies of the Medication Guide, visit www.mallinckrodt.com or call <br/>
+            1-800-778-7898.</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode=" Botrule Toprule Lrule Rrule"/>
+                        </tr>
+                     </tbody>
+                  </table>
+                  <paragraph>This Medication Guide has been approved by the U.S. Food and Drug Administration </paragraph>
+                  <paragraph>Revised: 10/2023<br/>
+L20M47</paragraph>
+               </text>
+               <effectiveTime value="20231001"/>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_93906164-3a75-4f24-8ff8-cf7e091dde0e">
+               <id root="439696ea-a32b-49e4-8106-dbada0ea77fe"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>PRINCIPAL DISPLAY PANEL - Methylphenidate Hydrochloride ER Tablet USP  (10 mg bottle of 100)</title>
+               <text>
+                  <paragraph>NDC 0406-<content styleCode="bold">1445</content>-01                    <content styleCode="bold">100 TABLETS</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Methylphenidate Hydrochloride <br/>
+Extended-Release Tablets USP</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">CII    Rx only</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">10 mg</content>
+                  </paragraph>
+                  <paragraph>Each tablet contains: Methylphenidate Hydrochloride USP......10 mg</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">PHARMACIST: Dispense the Medication Guide provided separately to each patient.</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Mallinckrodt</content>
+                     <content styleCode="bold">™</content>
+                  </paragraph>
+                  <paragraph>L0M131<br/>
+Rev 09/2022</paragraph>
+                  <renderMultiMedia referencedObject="MM7"/>
+               </text>
+               <effectiveTime value="20231001"/>
+               <component>
+                  <observationMedia ID="MM7">
+                     <text>Methylphenidate Hydrochloride Extended-Release Tablets 10 mg</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="methylphenidate-hydrochloride-er-tabs-10-and-20mg-7.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_488242ab-a1a8-45b8-a783-19a8289178be">
+               <id root="daa202ca-f4d8-4d8a-a93a-bf35575f6dd2"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>PRINCIPAL DISPLAY PANEL - Methylphenidate Hydrochloride ER Tablet USP  (20 mg bottle of 100)</title>
+               <text>
+                  <paragraph>NDC 0406-<content styleCode="bold">1473</content>-01                    <content styleCode="bold">100 TABLETS</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Methylphenidate Hydrochloride <br/>
+Extended-Release Tablets USP<br/>
+                     </content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">CII    Rx only</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">20 mg</content>
+                  </paragraph>
+                  <paragraph>Each tablet contains: Methylphenidate Hydrochloride USP......20 mg</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">PHARMACIST: Dispense the Medication Guide provided separately to each patient.</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Mallinckrodt</content>
+                     <content styleCode="bold">™</content>
+                  </paragraph>
+                  <paragraph>L0M132<br/>
+Rev 09/2022</paragraph>
+                  <renderMultiMedia referencedObject="MM8"/>
+               </text>
+               <effectiveTime value="20231001"/>
+               <component>
+                  <observationMedia ID="MM8">
+                     <text>Methylphenidate Hydrochloride Extended-Release Tablets 20 mg</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="methylphenidate-hydrochloride-er-tabs-10-and-20mg-8.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

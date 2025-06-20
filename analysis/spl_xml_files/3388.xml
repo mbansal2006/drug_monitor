@@ -1,0 +1,1044 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="https://www.accessdata.fda.gov/spl/stylesheet/spl.xsl"?>
+<document xmlns="urn:hl7-org:v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 https://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="99d2fc38-7e1e-4209-aa57-089794eda8a6"/>
+   <code code="34391-3" displayName="HUMAN PRESCRIPTION DRUG LABEL" codeSystem="2.16.840.1.113883.6.1"/>
+   <title>
+      <content styleCode="bold">Bumetanide Injection, USP<br/>
+         <br/>Rx Only</content>
+   </title>
+   <effectiveTime value="20240408"/>
+   <setId root="681b5e9d-e2c7-4f29-aaad-e06d4a528c11"/>
+   <versionNumber value="5"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id extension="946499746" root="1.3.6.1.4.1.519.1"/>
+            <name>Hikma Pharmaceuticals USA Inc.</name>
+            <assignedEntity>
+               <assignedOrganization>
+                  <assignedEntity>
+                     <assignedOrganization>
+                        <id extension="946499746" root="1.3.6.1.4.1.519.1"/>
+                        <name>Hikma Pharmaceuticals USA Inc.</name>
+                     </assignedOrganization>
+                     <performance>
+                        <actDefinition>
+                           <code code="C25391" displayName="analysis" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="0641-6008" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                     <performance>
+                        <actDefinition>
+                           <code code="C25391" displayName="analysis" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="0641-6007" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                     <performance>
+                        <actDefinition>
+                           <code code="C84732" displayName="label" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="0641-6008" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                     <performance>
+                        <actDefinition>
+                           <code code="C84732" displayName="label" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="0641-6007" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                     <performance>
+                        <actDefinition>
+                           <code code="C43360" displayName="manufacture" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="0641-6008" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                     <performance>
+                        <actDefinition>
+                           <code code="C43360" displayName="manufacture" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="0641-6007" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                  </assignedEntity>
+               </assignedOrganization>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section>
+               <id root="06fedfe1-a70a-410a-b1cb-16574c803755"/>
+               <code code="48780-1" displayName="SPL listing data elements section" codeSystem="2.16.840.1.113883.6.1"/>
+               <effectiveTime value="20240408"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="0641-6007" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>Bumetanide</name>
+                        <formCode code="C42946" displayName="INJECTION" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>Bumetanide</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator unit="mg" value="0.25"/>
+                              <denominator unit="mL" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="0Y2S3XUQ5H" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>BUMETANIDE</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="0Y2S3XUQ5H" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>BUMETANIDE</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <quantity>
+                              <numerator unit="mg" value="8.5"/>
+                              <denominator unit="mL" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="451W47IQ8X" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SODIUM CHLORIDE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <quantity>
+                              <numerator unit="mg" value="4"/>
+                              <denominator unit="mL" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="RRE756S6Q2" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>AMMONIUM ACETATE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <quantity>
+                              <numerator unit="mg" value="0.1"/>
+                              <denominator unit="mL" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="7FLD91C86K" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>EDETATE DISODIUM</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <quantity>
+                              <numerator unit="mg" value="10"/>
+                              <denominator unit="mL" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="LKG8494WBH" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>BENZYL ALCOHOL</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="55X04QC32I" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SODIUM HYDROXIDE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="059QF0KO0R" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>WATER</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator unit="mL" value="10"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="0641-6007-01" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43226" displayName="VIAL" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator unit="1" value="10"/>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code code="0641-6007-10" codeSystem="2.16.840.1.113883.6.69"/>
+                                    <formCode code="C43182" displayName="CARTON" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 </containerPackagedProduct>
+                                 <subjectOf>
+                                    <marketingAct>
+                                       <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                       <statusCode code="active"/>
+                                       <effectiveTime>
+                                          <low value="20080430"/>
+                                       </effectiveTime>
+                                    </marketingAct>
+                                 </subjectOf>
+                              </asContent>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" displayName="Type 0: Not a Combination Product" codeSystem="2.16.840.1.113883.3.26.1.1" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <id extension="ANDA079196" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73584" displayName="ANDA" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20080430"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C28161" displayName="INTRAMUSCULAR" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38276" displayName="INTRAVENOUS" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="0641-6008" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>Bumetanide</name>
+                        <formCode code="C42946" displayName="INJECTION" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>Bumetanide</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator unit="mg" value="0.25"/>
+                              <denominator unit="mL" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="0Y2S3XUQ5H" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>BUMETANIDE</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="0Y2S3XUQ5H" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>BUMETANIDE</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <quantity>
+                              <numerator unit="mg" value="8.5"/>
+                              <denominator unit="mL" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="451W47IQ8X" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SODIUM CHLORIDE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <quantity>
+                              <numerator unit="mg" value="4"/>
+                              <denominator unit="mL" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="RRE756S6Q2" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>AMMONIUM ACETATE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <quantity>
+                              <numerator unit="mg" value="0.1"/>
+                              <denominator unit="mL" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="7FLD91C86K" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>EDETATE DISODIUM</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <quantity>
+                              <numerator unit="mg" value="10"/>
+                              <denominator unit="mL" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="LKG8494WBH" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>BENZYL ALCOHOL</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="059QF0KO0R" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>WATER</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="55X04QC32I" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SODIUM HYDROXIDE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator unit="mL" value="4"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="0641-6008-01" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43226" displayName="VIAL" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator unit="1" value="10"/>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code code="0641-6008-10" codeSystem="2.16.840.1.113883.6.69"/>
+                                    <formCode code="C43182" displayName="CARTON" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 </containerPackagedProduct>
+                                 <subjectOf>
+                                    <marketingAct>
+                                       <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                       <statusCode code="active"/>
+                                       <effectiveTime>
+                                          <low value="20080430"/>
+                                       </effectiveTime>
+                                    </marketingAct>
+                                 </subjectOf>
+                              </asContent>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" displayName="Type 0: Not a Combination Product" codeSystem="2.16.840.1.113883.3.26.1.1" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <id extension="ANDA079196" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73584" displayName="ANDA" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20080430"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C28161" displayName="INTRAMUSCULAR" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38276" displayName="INTRAVENOUS" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_e602f7db-3afd-438b-8e48-71abcaf0cfbd">
+               <id root="7aff8615-9e8c-4467-bb5a-31ec51427348"/>
+               <code code="34066-1" codeSystem="2.16.840.1.113883.6.1" displayName="BOXED WARNING SECTION"/>
+               <title>
+                  <content styleCode="bold">WARNING</content>
+               </title>
+               <text>
+                  <paragraph>Bumetanide Injection, USP is a potent diuretic which, if given in excessive amounts, can lead to a profound diuresis with water and electrolyte depletion. Therefore, careful medical supervision is required, and dose and dosage schedule have to be adjusted to the individual patient’s needs. (See <content styleCode="bold">
+                        <linkHtml href="#LINK_becc20c1-4076-4017-a5a6-d74d875ba8b3">DOSAGE AND ADMINISTRATION</linkHtml>
+                     </content>.)</paragraph>
+               </text>
+               <effectiveTime value="20240408"/>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_1c2c3093-0ef4-43a7-b30a-a0af7f218366">
+               <id root="03aba417-a3d6-45d2-a154-84cd2de08491"/>
+               <code code="34089-3" codeSystem="2.16.840.1.113883.6.1" displayName="DESCRIPTION SECTION"/>
+               <title>
+                  <content styleCode="bold">DESCRIPTION</content>
+               </title>
+               <text>
+                  <paragraph>Bumetanide is a loop diuretic, available as 4 mL vials and 10 mL vials (0.25 mg/mL) for intravenous or intramuscular injection as a sterile solution.</paragraph>
+                  <paragraph>Each mL contains bumetanide 0.25 mg, sodium chloride 8.5 mg and ammonium acetate 4 mg as buffers, edetate disodium 0.1 mg and benzyl alcohol 10 mg as preservative in Water for Injection. pH adjusted to 6.8 – 7.8 with sodium hydroxide.</paragraph>
+                  <paragraph>Chemically, bumetanide is 3-(butylamino)-4-phenoxy-5-sulfamoylbenzoic acid. It is a practically white powder, slightly soluble in water, soluble in alkaline solutions, having the following structural formula:</paragraph>
+                  <renderMultiMedia referencedObject="MM1"/>
+                  <paragraph>C<sub>17</sub>H<sub>20</sub>N<sub>2</sub>O<sub>5</sub>S      Molecular weight: 364.42</paragraph>
+               </text>
+               <effectiveTime value="20240408"/>
+               <component>
+                  <observationMedia ID="MM1">
+                     <text>Structural formula</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="bumetanide-injection-usp-1.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_6b4888e5-743c-4ed2-a7a1-d55e19cbc5f6">
+               <id root="4f37f029-ffbe-4db2-8c5e-c5c43bb5b291"/>
+               <code code="34090-1" codeSystem="2.16.840.1.113883.6.1" displayName="CLINICAL PHARMACOLOGY SECTION"/>
+               <title>
+                  <content styleCode="bold">CLINICAL PHARMACOLOGY</content>
+               </title>
+               <text>
+                  <paragraph>Bumetanide is a loop diuretic with a rapid onset and short duration of action. Pharmacological and clinical studies have shown that 1 mg bumetanide has a diuretic potency equivalent to approximately 40 mg furosemide. The major site of bumetanide action is the ascending limb of the loop of Henle.</paragraph>
+                  <paragraph>The mode of action has been determined through various clearance studies in both humans and experimental animals. Bumetanide inhibits sodium reabsorption in the ascending limb of the loop of Henle, as shown by marked reduction of free-water clearance (CH<sub>2</sub>O) during hydration and tubular free-water reabsorption (T<sup>c</sup>H<sub>2</sub>O) during hydropenia. Reabsorption of chloride in the ascending limb is also blocked by bumetanide, and bumetanide is somewhat more chloruretic than natriuretic.</paragraph>
+                  <paragraph>Potassium excretion is also increased by bumetanide, in a dose-related fashion.</paragraph>
+                  <paragraph>Bumetanide may have an additional action in the proximal tubule. Since phosphate reabsorption takes place largely in the proximal tubule, phosphaturia during bumetanide-induced diuresis is indicative of this additional action. This is further supported by the reduction in the renal clearance of bumetanide by probenecid, associated with diminution in the natriuretic response. This proximal tubular activity does not seem to be related to an inhibition of carbonic anhydrase. Bumetanide does not appear to have a noticeable action on the distal tubule.</paragraph>
+                  <paragraph>Bumetanide decreases uric acid excretion and increases serum uric acid. Diuresis starts within minutes following an intravenous injection and reaches maximum levels within 15 to 30 minutes.</paragraph>
+                  <paragraph>Several pharmacokinetic studies have shown that bumetanide, administered orally or parenterally, is eliminated rapidly in humans, with a half-life of between 1 and 1 ½ hours. Plasma protein binding is in the range of 94% to 96%.</paragraph>
+                  <paragraph>Oral administration of carbon-14 labeled bumetanide to human volunteers revealed that 81% of the administered radioactivity was excreted in the urine, 45% of it as unchanged drug. Urinary and biliary metabolites identified in this study were formed by oxidation of the N-butyl side chain. Biliary excretion of bumetanide amounted to only 2% of the administered dose.</paragraph>
+               </text>
+               <effectiveTime value="20240408"/>
+               <component>
+                  <section ID="LINK_2f737c27-4bb5-4173-8703-64b9cd80400e">
+                     <id root="49cced35-e07b-481d-9b33-dc67d3743c45"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>
+                        <content styleCode="bold">Pediatric Pharmacology</content>
+                     </title>
+                     <text>
+                        <paragraph>Elimination of bumetanide appears to be considerably slower in neonatal patients compared with adults, possibly because of immature renal and hepatobiliary function in this population. Small pharmacokinetic studies of intravenous bumetanide in preterm and full-term neonates with respiratory disorders have reported an apparent half-life of approximately 6 hours with a range up to 15 hours and a serum clearance ranging from 0.2 to 11 mL/min/kg. In a population of neonates receiving bumetanide for volume overload, mean serum clearance rates were 2.17 mL/min/kg in patients less than 2 months of age and 3.8 mL/min/kg in patients aged 2 to 6 months. Mean serum half-life of bumetanide was 2.5 hours and 1.5 hours in patients aged less than 2 months and those aged 2 to 6 months, respectively. Elimination half-life decreased considerably during the first month of life, from a mean of approximately 6 hours at birth to approximately 2.4 hours at 1 month of age.</paragraph>
+                        <paragraph>In preterm neonates, mean serum concentrations following a single 0.05 mg/kg dose ranged from 126 mcg/L at 1 hour to 57 mcg/L at 8 hours. In another study, mean serum concentrations following a single 0.05 mg/kg dose were 338 ng/mL at 30 minutes and 176 ng/mL after 4 hours. A single dose of 0.1 mg/kg produced mean serum levels of 314 ng/mL at 1 hour, and 196 ng/mL at 6 hours. Mean volume of distribution in neonates has been reported to range from 0.26 L/kg to 0.38 L/kg.</paragraph>
+                        <paragraph>The degree of protein binding of bumetanide in cord sera from healthy neonates was approximately 97%, suggesting the potential for bilirubin displacement. A study using pooled sera from critically ill neonates found that bumetanide at concentrations of 0.5 to 50 mcg/mL, but not 0.25 mcg/mL, caused a linear increase in unbound bilirubin concentrations.</paragraph>
+                        <paragraph>In 56 infants aged 4 days to 6 months, bumetanide doses ranging from 0.005 mg/kg to 0.1 mg/kg were studied for pharmacodynamic effect. Peak bumetanide excretion rates increased linearly with increasing doses of drug. Maximal diuretic effect was observed at a bumetanide excretion rate of about 7 mcg/kg/hr, corresponding to doses of 0.035 to 0.040 mg/kg. Higher doses produced a higher bumetanide excretion rate but no increase in diuretic effect. Urine flow rate peaked during the first hour after drug administration in 80% of patients and by 3 hours in all patients.</paragraph>
+                     </text>
+                     <effectiveTime value="20240408"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_48d87d49-ec3c-4c8b-974f-981913409b41">
+                     <id root="96f2fe51-27a5-4ce9-933e-6940004470f9"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>
+                        <content styleCode="bold">Geriatric Pharmacology</content>
+                     </title>
+                     <text>
+                        <paragraph>In a group of ten geriatric subjects between the ages of 65 and 73 years, total bumetanide clearance was significantly lower (1.8 ± 0.3 mL/min/kg) compared with younger subjects (2.9 ± 0.2 mL/min/kg) after a single oral bumetanide 0.5 mg dose. Maximum plasma concentrations were higher in geriatric subjects (16.9 ± 1.8 ng/mL) compared with younger subjects (10.3 ± 1.5 ng/mL). Urine flow rate and total excretion of sodium and potassium were increased less in the geriatric subjects compared with younger subjects, although potassium excretion and fractional sodium excretion were similar between the two age groups. Nonrenal clearance, bioavailability, and volume of distribution were not significantly different between the two groups.</paragraph>
+                     </text>
+                     <effectiveTime value="20240408"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_024b51c3-719d-4de0-aa6e-b6b44a0fe3b3">
+               <id root="a8239de5-f963-4f79-8fd8-532547cde3a7"/>
+               <code code="34067-9" codeSystem="2.16.840.1.113883.6.1" displayName="INDICATIONS &amp; USAGE SECTION"/>
+               <title>
+                  <content styleCode="bold">INDICATIONS AND USAGE</content>
+               </title>
+               <text>
+                  <paragraph>Bumetanide Injection is indicated for the treatment of edema associated with congestive heart failure, hepatic and renal disease, including the nephrotic syndrome.</paragraph>
+                  <paragraph>Almost equal diuretic response occurs after oral and parenteral administration of bumetanide. Therefore, if impaired gastrointestinal absorption is suspected or oral administration is not practical, bumetanide should be given by the intramuscular or intravenous route.</paragraph>
+                  <paragraph>Successful treatment with bumetanide following instances of allergic reactions to furosemide suggests a lack of cross-sensitivity.</paragraph>
+               </text>
+               <effectiveTime value="20240408"/>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_964aec86-d605-477a-968a-a8cb98815bc5">
+               <id root="612527af-f0bd-428a-92af-abcc1aa772e5"/>
+               <code code="34070-3" codeSystem="2.16.840.1.113883.6.1" displayName="CONTRAINDICATIONS SECTION"/>
+               <title>
+                  <content styleCode="bold">CONTRAINDICATIONS</content>
+               </title>
+               <text>
+                  <paragraph>Bumetanide is contraindicated in anuria. Although bumetanide can be used to induce diuresis in renal insufficiency, any marked increase in blood urea nitrogen or creatinine, or the development of oliguria during therapy of patients with progressive renal disease, is an indication for discontinuation of treatment with bumetanide. Bumetanide is also contraindicated in patients in hepatic coma or in states of severe electrolyte depletion until the condition is improved or corrected. Bumetanide is contraindicated in patients hypersensitive to this drug.</paragraph>
+               </text>
+               <effectiveTime value="20240408"/>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_b463ec8e-0b89-4e91-9069-89598bf248aa">
+               <id root="cdb35274-74e7-4101-82ae-ebdf36cfba25"/>
+               <code code="34071-1" codeSystem="2.16.840.1.113883.6.1" displayName="WARNINGS SECTION"/>
+               <title>
+                  <content styleCode="bold">WARNINGS</content>
+               </title>
+               <effectiveTime value="20240408"/>
+               <component>
+                  <section ID="LINK_ffaafe23-c54d-43be-b5fd-96d31fa4097f">
+                     <id root="847be020-30bf-467e-ba7b-95639d08f880"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>
+                        <content styleCode="bold">Volume and Electrolyte Depletion</content>
+                     </title>
+                     <text>
+                        <paragraph>The dose of bumetanide should be adjusted to the patient’s need. Excessive doses or too frequent administration can lead to profound water loss, electrolyte depletion, dehydration, reduction in blood volume and circulatory collapse with the possibility of vascular thrombosis and embolism, particularly in elderly patients.</paragraph>
+                     </text>
+                     <effectiveTime value="20240408"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_f709fc0f-2285-4343-bc6f-13d74e55c28c">
+                     <id root="7bc9cec2-36af-4510-8e44-7815c5ddc913"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>
+                        <content styleCode="bold">Hypokalemia</content>
+                     </title>
+                     <text>
+                        <paragraph>Hypokalemia can occur as a consequence of bumetanide administration. Prevention of hypokalemia requires particular attention in the following conditions: patients receiving digitalis and diuretics for congestive heart failure, hepatic cirrhosis and ascites, states of aldosterone excess with normal renal function, potassium-losing nephropathy, certain diarrheal states, or other states where hypokalemia is thought to represent particular added risks to the patient, i.e., history of ventricular arrhythmias.</paragraph>
+                        <paragraph>In patients with hepatic cirrhosis and ascites, sudden alterations of electrolyte balance may precipitate hepatic encephalopathy and coma. Treatment in such patients is best initiated in the hospital with small doses and careful monitoring of the patient’s clinical status and electrolyte balance. Supplemental potassium and/or spironolactone may prevent hypokalemia and metabolic alkalosis in these patients.</paragraph>
+                     </text>
+                     <effectiveTime value="20240408"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_1386d0a9-8a75-4022-aec2-98c3e826b530">
+                     <id root="1e655e7f-aa43-41d8-8d06-e12c02532d24"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>
+                        <content styleCode="bold">Ototoxicity</content>
+                     </title>
+                     <text>
+                        <paragraph>In cats, dogs and guinea pigs, bumetanide has been shown to produce ototoxicity. In these test animals bumetanide was 5 to 6 times more potent than furosemide and, since the diuretic potency of bumetanide is about 40 to 60 times furosemide, it is anticipated that blood levels necessary to produce ototoxicity will rarely be achieved. The potential exists, however, and must be considered a risk of intravenous therapy, especially at high doses, repeated frequently in the face of renal excretory function impairment. Potentiation of aminoglycoside ototoxicity has not been tested for bumetanide. Like other members of this class of diuretics, bumetanide probably shares this risk.</paragraph>
+                     </text>
+                     <effectiveTime value="20240408"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_53a4489c-aab9-4425-86b0-3b4ed7518742">
+                     <id root="4d8606c2-39ae-41b8-8be0-82e72913d82e"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>
+                        <content styleCode="bold">Allergy to Sulfonamides</content>
+                     </title>
+                     <text>
+                        <paragraph>Patients allergic to sulfonamides may show hypersensitivity to bumetanide.</paragraph>
+                     </text>
+                     <effectiveTime value="20240408"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_755f9d81-167c-4e4a-8b7f-59b315b82cae">
+                     <id root="1ba4e3b8-e00c-4237-901a-1d47312f47d6"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>
+                        <content styleCode="bold">Thrombocytopenia</content>
+                     </title>
+                     <text>
+                        <paragraph>Since there have been rare spontaneous reports of thrombocytopenia from postmarketing experience, patients should be observed regularly for possible occurrence of thrombocytopenia.</paragraph>
+                     </text>
+                     <effectiveTime value="20240408"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_0254e726-0496-431e-acd4-f1ffd52a9f8f">
+               <id root="8e7dbadd-24c9-4225-8cdb-99cb3e084997"/>
+               <code code="42232-9" codeSystem="2.16.840.1.113883.6.1" displayName="PRECAUTIONS SECTION"/>
+               <title>
+                  <content styleCode="bold">PRECAUTIONS</content>
+               </title>
+               <effectiveTime value="20240408"/>
+               <component>
+                  <section ID="LINK_c2b576ca-d96c-43d7-9cf5-1b425f3af1a7">
+                     <id root="86330b6c-0597-4e1d-888e-8423855bad94"/>
+                     <code code="34072-9" codeSystem="2.16.840.1.113883.6.1" displayName="GENERAL PRECAUTIONS SECTION"/>
+                     <title>
+                        <content styleCode="bold">General</content>
+                     </title>
+                     <text>
+                        <paragraph>Serum potassium should be measured periodically and potassium supplements or potassium-sparing diuretics added if necessary. Periodic determinations of other electrolytes are advised in patients treated with high doses or for prolonged periods, particularly in those on low salt diets.</paragraph>
+                        <paragraph>Hyperuricemia may occur; it has been asymptomatic in cases reported to date. Reversible elevations of the BUN and creatinine may also occur, especially in association with dehydration and particularly in patients with renal insufficiency. Bumetanide may increase urinary calcium excretion with resultant hypocalcemia.</paragraph>
+                        <paragraph>Diuretics have been shown to increase the urinary excretion of magnesium; this may result in hypomagnesemia.</paragraph>
+                     </text>
+                     <effectiveTime value="20240408"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_ff7a0759-5ea4-4118-acc9-ac8641bfa634">
+                     <id root="b7aac341-d530-44cb-827d-76bcd0459ee5"/>
+                     <code code="34075-2" codeSystem="2.16.840.1.113883.6.1" displayName="LABORATORY TESTS SECTION"/>
+                     <title>
+                        <content styleCode="bold">Laboratory Tests</content>
+                     </title>
+                     <text>
+                        <paragraph>Studies in normal subjects receiving bumetanide revealed no adverse effects on glucose tolerance, plasma insulin, glucagon and growth hormone levels, but the possibility of an effect on glucose metabolism exists. Periodic determinations of blood sugar should be done, particularly in patients with diabetes or suspected latent diabetes.</paragraph>
+                        <paragraph>Patients under treatment should be observed regularly for possible occurrence of blood dyscrasias, liver damage or idiosyncratic reactions, which have been reported occasionally in foreign marketing experience. The relationship of these occurrences to bumetanide use is not certain.</paragraph>
+                     </text>
+                     <effectiveTime value="20240408"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_64c01dfe-033b-4dfe-a677-8e567e385c04">
+                     <id root="0ee8f7fe-45ae-4de0-84ed-c0bdc48e0990"/>
+                     <code code="34073-7" codeSystem="2.16.840.1.113883.6.1" displayName="DRUG INTERACTIONS SECTION"/>
+                     <title>
+                        <content styleCode="bold">Drug Interactions</content>
+                     </title>
+                     <effectiveTime value="20240408"/>
+                     <component>
+                        <section ID="LINK_3f300451-5ba1-48a8-9b5f-0ef58df6df06">
+                           <id root="5c12194e-6d9a-4d32-bae3-246c34e9e933"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title>Drugs With Ototoxic Potential</title>
+                           <text>
+                              <paragraph>(see <content styleCode="bold">
+                                    <linkHtml href="#LINK_b463ec8e-0b89-4e91-9069-89598bf248aa">WARNINGS</linkHtml>
+                                 </content> )</paragraph>
+                              <paragraph>Especially in the presence of impaired renal function, the use of parenterally administered bumetanide in patients to whom aminoglycoside antibiotics are also being given should be avoided, except in life-threatening conditions.</paragraph>
+                           </text>
+                           <effectiveTime value="20240408"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section ID="LINK_4ca4b221-9719-4d2a-80e4-8d5284328044">
+                           <id root="8055a662-26fa-4012-b0c9-afa8333a3d3d"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title>Drugs With Nephrotoxic Potential</title>
+                           <text>
+                              <paragraph>There has been no experience with the concurrent
+                                            use of bumetanide with drugs known to have a nephrotoxic
+                                            potential. Therefore, the simultaneous administration of
+                                            these drugs should be avoided.</paragraph>
+                           </text>
+                           <effectiveTime value="20240408"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section ID="LINK_ab92c639-8d63-4b1e-a08e-c03b7e9a638e">
+                           <id root="e6d04b50-b707-49f2-bed6-7a5ab60c6db2"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title>Lithium</title>
+                           <text>
+                              <paragraph>Lithium should generally not be given with
+                                            diuretics (such as bumetanide) because they reduce its
+                                            renal clearance and add a high risk of lithium
+                                            toxicity.</paragraph>
+                           </text>
+                           <effectiveTime value="20240408"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section ID="LINK_47f7db80-18e4-4a85-b447-81f916bb1cd4">
+                           <id root="e6972eb6-0050-4340-aa3f-bc33b1742ec6"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title>Probenecid</title>
+                           <text>
+                              <paragraph>Pretreatment with probenecid reduces both the
+                                            natriuresis and hyperreninemia produced by bumetanide.
+                                            This antagonistic effect of probenecid on bumetanide
+                                            natriuresis is not due to a direct action on sodium
+                                            excretion but is probably secondary to its inhibitory
+                                            effect on renal tubular secretion of bumetanide. Thus,
+                                            probenecid should not be administered concurrently with
+                                            bumetanide.</paragraph>
+                           </text>
+                           <effectiveTime value="20240408"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section ID="LINK_f0fffac4-7329-40e6-a63b-33b892191aad">
+                           <id root="2c455ac2-fe24-43f2-93c1-767b54341a99"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title>Indomethacin</title>
+                           <text>
+                              <paragraph>Indomethacin blunts the increases in urine volume and sodium excretion seen during bumetanide treatment and inhibits the bumetanide-induced increase in plasma renin activity. Concurrent therapy with bumetanide is thus not recommended.</paragraph>
+                           </text>
+                           <effectiveTime value="20240408"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section ID="LINK_840399ba-02e6-4604-a868-3bb3ea323c09">
+                           <id root="0e98611e-75c3-4894-a51e-2cfd986d11a4"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title>Antihypertensives</title>
+                           <text>
+                              <paragraph>Bumetanide may potentiate the effect of various
+                                            antihypertensive drugs, necessitating a reduction in the
+                                            dosage of these drugs.</paragraph>
+                           </text>
+                           <effectiveTime value="20240408"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section ID="LINK_a7c2cd34-aced-4f21-a819-a0b9026eea08">
+                           <id root="3f91f2de-ed7b-4ed6-a2a6-c74b961681a1"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title>Digoxin</title>
+                           <text>
+                              <paragraph>Interaction studies in humans have shown no
+                                            effect on digoxin blood levels.</paragraph>
+                           </text>
+                           <effectiveTime value="20240408"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section ID="LINK_d79e7d33-ad2a-4ddb-b27e-df767bd61a4b">
+                           <id root="59f5d823-349e-419b-a563-7e8e22d6e33f"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title>Anticoagulants</title>
+                           <text>
+                              <paragraph>Interaction studies in humans have shown
+                                            bumetanide to have no effect on warfarin metabolism or
+                                            on plasma prothrombin activity.</paragraph>
+                           </text>
+                           <effectiveTime value="20240408"/>
+                        </section>
+                     </component>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_5e0b7d79-a320-4393-bef1-df0ae25489c5">
+                     <id root="4d4f00b9-c5bc-4d4a-9ebb-8670d5f5430f"/>
+                     <code code="34083-6" codeSystem="2.16.840.1.113883.6.1" displayName="CARCINOGENESIS &amp; MUTAGENESIS &amp; IMPAIRMENT OF FERTILITY SECTION"/>
+                     <title>
+                        <content styleCode="bold">Carcinogenesis, Mutagenesis, Impairment of Fertility</content>
+                     </title>
+                     <text>
+                        <paragraph>Bumetanide was devoid of mutagenic activity in various strains of <content styleCode="italics">Salmonella typhimurium</content> when tested in the presence or absence of an <content styleCode="italics">in vitro</content> metabolic activation system. An 18-month study showed an increase in mammary adenomas of questionable significance in female rats receiving oral doses of 60 mg/kg/day (2000 times a 2 mg human dose). A repeat study at the same doses failed to duplicate this finding.</paragraph>
+                        <paragraph>Reproduction studies were performed to evaluate general reproductive performance and fertility in rats at oral dose levels of 10, 30, 60 or 100 mg/kg/day. The pregnancy rate was slightly decreased in the treated animals; however, the differences were small and not statistically significant.</paragraph>
+                     </text>
+                     <effectiveTime value="20240408"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_ad4435f2-f42a-436e-b05b-dd718dfa4896">
+                     <id root="f43cec70-8b93-4c46-bd0f-310836c81b61"/>
+                     <code code="42228-7" codeSystem="2.16.840.1.113883.6.1" displayName="PREGNANCY SECTION"/>
+                     <title>
+                        <content styleCode="bold">Pregnancy</content>
+                     </title>
+                     <effectiveTime value="20240408"/>
+                     <component>
+                        <section ID="LINK_6da3776c-9ffa-4c4b-899f-84907729d35d">
+                           <id root="bf0765df-64bb-47f4-994f-e695ed38958f"/>
+                           <code code="34077-8" codeSystem="2.16.840.1.113883.6.1" displayName="TERATOGENIC EFFECTS SECTION"/>
+                           <title>Teratogenic Effects</title>
+                           <effectiveTime value="20240408"/>
+                           <component>
+                              <section ID="LINK_ef3395b2-81df-44b1-9df2-54f3154c114e">
+                                 <id root="e1520233-6272-44ba-ab36-934a969967ab"/>
+                                 <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                                 <title>
+                                    <content styleCode="italics">Pregnancy Category C</content>
+                                 </title>
+                                 <text>
+                                    <paragraph>Bumetanide is neither teratogenic nor embryocidal in mice when given in doses up to 3400 times the maximum human therapeutic dose.</paragraph>
+                                    <paragraph>Bumetanide has been shown to be nonteratogenic, but it has a slight embryocidal effect in rats when given in doses of 3400 times the maximum human therapeutic dose and in rabbits at doses of 3.4 times the maximum human therapeutic dose. In one study, moderate growth retardation and increased incidence of delayed ossification of sternebrae were observed in rats at oral doses of 100 mg/kg/day, 3400 times the maximum human therapeutic dose. These effects were associated with maternal weight reductions noted during dosing. No such adverse effects were observed at 30 mg/kg/day (1000 times the maximum human therapeutic dose). No fetotoxicity was observed at 1000 to 2000 times the human therapeutic dose.</paragraph>
+                                    <paragraph>In rabbits, a dose-related decrease in litter size and an increase in resorption rate were noted at oral doses of 0.1 and 0.3 mg/kg/day (3.4 and 10 times the maximum human therapeutic dose). A slightly increased incidence of delayed ossification of sternebrae occurred at 0.3 mg/kg/day; however, no such adverse effects were observed at the dose of 0.03 mg/kg/day. The sensitivity of the rabbit to bumetanide parallels the marked pharmacologic and toxicologic effects of the drug in this species.</paragraph>
+                                    <paragraph>Bumetanide was not teratogenic in the hamster at an oral dose of 0.5 mg/kg/day (17 times the maximum human therapeutic dose). Bumetanide was not teratogenic when given intravenously to mice and rats at doses up to 140 times the maximum human therapeutic dose.</paragraph>
+                                    <paragraph>There are no adequate and well-controlled studies in pregnant women. A small investigational experience in the United States and marketing experience in other countries to date have not indicated any evidence of adverse effects on the fetus, but these data do not rule out the possibility of harmful effects. Bumetanide should be given to a pregnant woman only if the potential benefit justifies the potential risk to the fetus.</paragraph>
+                                 </text>
+                                 <effectiveTime value="20240408"/>
+                              </section>
+                           </component>
+                        </section>
+                     </component>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_22417644-823f-4587-92c2-6c5e1f752375">
+                     <id root="87cf46ca-db46-4882-be65-910b6888378b"/>
+                     <code code="34080-2" codeSystem="2.16.840.1.113883.6.1" displayName="NURSING MOTHERS SECTION"/>
+                     <title>
+                        <content styleCode="bold">Nursing Mothers</content>
+                     </title>
+                     <text>
+                        <paragraph>It is not known whether this drug is excreted in human milk. As a general rule, nursing should not be undertaken while the patient is on bumetanide since it may be excreted in human milk.</paragraph>
+                     </text>
+                     <effectiveTime value="20240408"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_581b2ccf-5c73-4b29-b4c9-ad5a61e371e7">
+                     <id root="f320a6e7-afd5-4551-a4f8-1c6423adf179"/>
+                     <code code="34081-0" codeSystem="2.16.840.1.113883.6.1" displayName="PEDIATRIC USE SECTION"/>
+                     <title>
+                        <content styleCode="bold">Pediatric Use</content>
+                     </title>
+                     <text>
+                        <paragraph>Safety and effectiveness in pediatric patients below the age of 18 have not been established.</paragraph>
+                        <paragraph>
+                           <content styleCode="italics">In vitro</content> studies using pooled sera from critically ill neonates have shown bumetanide to be a potent displacer of bilirubin (see <content styleCode="bold">
+                              <linkHtml href="#LINK_2f737c27-4bb5-4173-8703-64b9cd80400e">CLINICAL PHARMACOLOGY, Pediatric Pharmacology</linkHtml>
+                           </content>). The administration of bumetanide could present a particular concern if given to critically ill or jaundiced neonates at risk for kernicterus.</paragraph>
+                     </text>
+                     <effectiveTime value="20240408"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_41f3f8da-c8f5-4354-a7da-92d0d127f387">
+                     <id root="217cdd82-a268-4cc1-aa19-9cfc70048dcd"/>
+                     <code code="34082-8" codeSystem="2.16.840.1.113883.6.1" displayName="GERIATRIC USE SECTION"/>
+                     <title>
+                        <content styleCode="bold">Geriatric Use</content>
+                     </title>
+                     <text>
+                        <paragraph>Clinical studies of bumetanide did not include sufficient numbers of subjects aged 65 and over to determine whether they responded differently from younger subjects. Other reported clinical experience has not identified differences in responses between the elderly and younger patients. In general, dose selection for an elderly patient should be cautious, usually starting at the low end of the dosing range, reflecting the greater frequency of decreased hepatic, renal, or cardiac function, and of concomitant disease or other drug therapy.</paragraph>
+                        <paragraph>This drug is known to be substantially excreted by the kidney, and the risk of toxic reactions to this drug may be greater in patients with impaired renal function. Because elderly patients are more likely to have decreased renal function, care should be taken in dose selection, and it may be useful to monitor renal function.</paragraph>
+                     </text>
+                     <effectiveTime value="20240408"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_93f45050-61ce-4f23-98c0-00baa075dc49">
+               <id root="845d3e06-89fc-4762-b0f2-29ea4feb5545"/>
+               <code code="34084-4" codeSystem="2.16.840.1.113883.6.1" displayName="ADVERSE REACTIONS SECTION"/>
+               <title>
+                  <content styleCode="bold">ADVERSE REACTIONS</content>
+               </title>
+               <text>
+                  <paragraph>The most frequent clinical adverse reactions considered probably or possibly related to bumetanide are muscle cramps (seen in 1.1% of treated patients), dizziness (1.1%), hypotension (0.8%), headache (0.6%), nausea (0.6%), and encephalopathy (in patients with preexisting liver disease) (0.6%). One or more of these adverse reactions have been reported in approximately 4.1% of bumetanide-treated patients.</paragraph>
+                  <paragraph>Less frequent clinical adverse reactions to bumetanide are impaired hearing (0.5%), pruritus (0.4%), electrocardiogram changes (0.4%), weakness (0.2%), hives (0.2%), abdominal pain (0.2%), arthritic pain (0.2%), musculoskeletal pain (0.2%), rash (0.2%) and vomiting (0.2%). One or more of these adverse reactions have been reported in approximately 2.9% of bumetanide-treated patients.</paragraph>
+                  <paragraph>Other clinical adverse reactions, which have each occurred in approximately 0.1% of patients, are vertigo, chest pain, ear discomfort, fatigue, dehydration, sweating, hyperventilation, dry mouth, upset stomach, renal failure, asterixis, itching, nipple tenderness, diarrhea, premature ejaculation and difficulty maintaining an erection.</paragraph>
+                  <paragraph>Laboratory abnormalities reported have included hyperuricemia (in 18.4% of patients tested), hypochloremia (14.9%), hypokalemia (14.7%), azotemia (10.6%), hyponatremia (9.2%), increased serum creatinine (7.4%), hyperglycemia (6.6%), and variations in phosphorus (4.5%), CO<sub>2</sub> content (4.3%), bicarbonate (3.1%) and calcium (2.4%). Although manifestations of the pharmacologic action of bumetanide, these conditions may become more pronounced by intensive therapy.</paragraph>
+                  <paragraph>Also reported have been thrombocytopenia (0.2%) and deviations in hemoglobin (0.8%), prothrombin time (0.8%), hematocrit (0.6%), WBC (0.3%) and differential counts (0.1%). There have been rare spontaneous reports of thrombocytopenia from postmarketing experience.</paragraph>
+                  <paragraph>Diuresis induced by bumetanide may also rarely be accompanied by changes in LDH (1.0%), total serum bilirubin (0.8%), serum proteins (0.7%), SGOT (0.6%), SGPT (0.5%), alkaline phosphatase (0.4%), cholesterol (0.4%) and creatinine clearance (0.3%). Increases in urinary glucose (0.7%) and urinary protein (0.3%) have also been seen.</paragraph>
+               </text>
+               <effectiveTime value="20240408"/>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_dab30018-58b1-4cfd-9e4b-8ac4e856ff24">
+               <id root="683dec41-a915-490a-b192-48c00ca779da"/>
+               <code code="34088-5" codeSystem="2.16.840.1.113883.6.1" displayName="OVERDOSAGE SECTION"/>
+               <title>
+                  <content styleCode="bold">OVERDOSAGE</content>
+               </title>
+               <text>
+                  <paragraph>Overdosage can lead to acute profound water loss, volume and electrolyte depletion, dehydration, reduction of blood volume and circulatory collapse with a possibility of vascular thrombosis and embolism. Electrolyte depletion may be manifested by weakness, dizziness, mental confusion, anorexia, lethargy, vomiting and cramps. Treatment consists of replacement of fluid and electrolyte losses by careful monitoring of the urine and electrolyte output and serum electrolyte levels.</paragraph>
+               </text>
+               <effectiveTime value="20240408"/>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_becc20c1-4076-4017-a5a6-d74d875ba8b3">
+               <id root="81200073-2bfb-4883-8a57-66928d46f041"/>
+               <code code="34068-7" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE &amp; ADMINISTRATION SECTION"/>
+               <title>
+                  <content styleCode="bold">DOSAGE AND ADMINISTRATION</content>
+               </title>
+               <text>
+                  <paragraph>Dosage should be individualized with careful monitoring of patient response.</paragraph>
+               </text>
+               <effectiveTime value="20240408"/>
+               <component>
+                  <section ID="LINK_d8c00efd-2010-4ab2-97cc-50fd85ac1bd3">
+                     <id root="96c6f062-175a-4d4b-90bb-d2d503d7eb40"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>
+                        <content styleCode="bold">Parenteral Administration</content>
+                     </title>
+                     <text>
+                        <paragraph>Bumetanide Injection may be administered parenterally (IV or IM) to patients in whom gastrointestinal absorption may be impaired or in whom oral administration is not practical.</paragraph>
+                        <paragraph>Parenteral treatment should be terminated and oral treatment instituted as soon as possible.</paragraph>
+                        <paragraph>The usual initial dose is 0.5 to 1 mg intravenously or intramuscularly. Intravenous administration should be given over a period of 1 to 2 minutes. If the response to an initial dose is deemed insufficient, a second or third dose may be given at intervals of 2 to 3 hours, but should not exceed a daily dosage of 10 mg.</paragraph>
+                     </text>
+                     <effectiveTime value="20240408"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_ec5a0cf5-a6c0-4e01-af52-e8d359e91722">
+                     <id root="a38bd5a1-52a2-431c-8eaf-3a4183da48ba"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>
+                        <content styleCode="bold">Miscibility and Parenteral Solutions</content>
+                     </title>
+                     <text>
+                        <paragraph>The compatibility tests of bumetanide injection with 5% Dextrose Injection in Water, 0.9% Sodium Chloride Injection, and Lactated Ringer’s Injection in both glass and plasticized PVC (Viaflex) containers have shown no significant absorption effect with either containers, nor a measurable loss of potency due to degradation of the drug. However, solutions should be freshly prepared and used within 24 hours.</paragraph>
+                        <paragraph>Parenteral drug products should be inspected visually for particulate matter and discoloration prior to administration, whenever solution and container permit.</paragraph>
+                     </text>
+                     <effectiveTime value="20240408"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_c2ccc6ce-b504-4b2e-9a90-8c6004798a63">
+               <id root="bca7125f-c96a-4c61-8960-114a72717bd0"/>
+               <code code="34069-5" codeSystem="2.16.840.1.113883.6.1" displayName="HOW SUPPLIED SECTION"/>
+               <title>
+                  <content styleCode="bold">HOW SUPPLIED</content>
+               </title>
+               <text>
+                  <paragraph>Bumetanide Injection, USP, 0.25 mg/mL is a sterile, clear, colorless to slightly yellow solution supplied in amber vials as follows:</paragraph>
+                  <paragraph>4 mL Single Dose Vial packaged in 10s (NDC 0641-6008-10)</paragraph>
+                  <paragraph>10 mL Multiple Dose Vial packaged in 10s (NDC 0641-6007-10)</paragraph>
+                  <paragraph>This product, including the packaging components, is free of latex.</paragraph>
+               </text>
+               <effectiveTime value="20240408"/>
+               <component>
+                  <section ID="LINK_de5c2651-daf5-4f7e-bf68-3299d9d2a794">
+                     <id root="8feebfa4-e61f-4e03-9666-a1199be21ab5"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>
+                        <content styleCode="bold">Storage</content>
+                     </title>
+                     <text>
+                        <paragraph>
+                           <content styleCode="bold">Store at 20° to 25°C (68° to 77°F), excursions permitted to 15° to 30° C (59° to 86°F) [See USP Controlled Room Temperature]. Protect from light.</content>
+                        </paragraph>
+                        <paragraph>To report SUSPECTED ADVERSE REACTIONS, contact Hikma Pharmaceuticals USA Inc. at 1-877-845-0689, or the FDA at 1-800-FDA-1088 or <linkHtml href="http://www.fda.gov/medwatch">www.fda.gov/medwatch</linkHtml>.</paragraph>
+                        <paragraph>For Product Inquiry call 1-877-845-0689.</paragraph>
+                        <paragraph>
+                           <content styleCode="bold">Manufactured by:</content>
+                           <br/>Hikma Pharmaceuticals USA Inc.<content styleCode="bold">
+                              <br/>
+                           </content>Berkeley Heights, NJ 07922</paragraph>
+                        <paragraph>Revised December 2019</paragraph>
+                        <paragraph>462-485-02</paragraph>
+                     </text>
+                     <effectiveTime value="20240408"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_14f0f4ff-0991-4230-b3cf-f7d677ad479b">
+               <id root="2264cfa3-6499-4f85-9622-213e6167118e"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>
+                  <content styleCode="bold">PRINCIPAL DISPLAY PANEL</content>
+               </title>
+               <text>
+                  <paragraph>NDC 0641-<content styleCode="bold">6008</content>-01     Rx only<br/>
+                     <content styleCode="bold">Bumetanide <br/>Injection, USP<br/>1 mg per 4 mL (0.25 mg/mL)<br/>For IV or IM use<br/>Contains Benzyl Alcohol</content>
+                     <br/>4 mL Single Dose Vial</paragraph>
+                  <renderMultiMedia referencedObject="MM2"/>
+                  <paragraph>NDC 0641-<content styleCode="bold">6008</content>-10     Rx only<br/>
+                     <content styleCode="bold">Bumetanide<br/>Injection, USP<br/>1 mg per 4 mL <br/>(0.25 mg/mL)<br/>For Intravenous or <br/>Intramuscular use<br/>
+                     </content>10 x 4 mL Single Dose Vials</paragraph>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="MM3"/> </paragraph>
+               </text>
+               <effectiveTime value="20240408"/>
+               <component>
+                  <observationMedia ID="MM2">
+                     <text>vial</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="bumetanide-injection-usp-2.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="MM3">
+                     <text>shelfpack</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="bumetanide-injection-usp-3.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_9164e184-b18f-4c52-9de0-78f18eae9b71">
+               <id root="f5ae767f-441e-4247-8a89-8878caca4f8d"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>
+                  <content styleCode="bold">PRINCIPAL DISPLAY PANEL</content>
+               </title>
+               <text>
+                  <paragraph>NDC 0641-<content styleCode="bold">6007</content>-01     Rx only<br/>
+                     <content styleCode="bold">Bumetanide<br/>Injection, USP<br/>2.5 mg per 10 mL (0.25 mg/mL)<br/>For IV or IM use<br/>Contains Benzyl Alcohol</content>
+                     <br/>10 mL Multiple Dose Vial</paragraph>
+                  <renderMultiMedia referencedObject="MM4"/>
+                  <paragraph>NDC 0641-<content styleCode="bold">6007</content>-10     Rx only<br/>
+                     <content styleCode="bold">Bumetanide<br/>Injection, USP<br/>2.5 mg per 10 mL <br/>(0.25 mg/mL)<br/>
+                        <content styleCode="bold">For Intravenous or<br/>Intramuscular use</content>
+                        <br/>
+                     </content>10 x 10 mL Multiple Dose Vials</paragraph>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="MM5"/> </paragraph>
+               </text>
+               <effectiveTime value="20240408"/>
+               <component>
+                  <observationMedia ID="MM4">
+                     <text>vial</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="bumetanide-injection-usp-4.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="MM5">
+                     <text>shelfpack</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="bumetanide-injection-usp-5.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

@@ -1,0 +1,2535 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="https://www.accessdata.fda.gov/spl/stylesheet/spl.xsl" type="text/xsl"?>
+<document xmlns="urn:hl7-org:v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 https://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="5785a11f-7784-4ae0-8029-f50b782eaf4a"/>
+   <code code="34391-3" codeSystem="2.16.840.1.113883.6.1" displayName="HUMAN PRESCRIPTION DRUG LABEL"/>
+   <title>
+      <content styleCode="bold">These highlights do not include all the information needed to use DEXMEDETOMIDINE HYDROCHLORIDE IN 0.9% SODIUM CHLORIDE INJECTION safely and effectively. See full prescribing information for DEXMEDETOMIDINE HYDROCHLORIDE IN 0.9% SODIUM CHLORIDE INJECTION</content>
+      <br/>
+      <content styleCode="bold">
+         <br/>DEXMEDETOMIDINE HYDROCHLORIDE in 0.9% SODIUM CHLORIDE injection, for intravenous use.</content>
+      <content styleCode="bold"/>
+      <br/>
+      <content styleCode="bold">Initial U.S. Approval: 1999</content>
+   </title>
+   <effectiveTime value="20220701"/>
+   <setId root="d174c19d-56f1-4ef4-087c-23c26db8e40b"/>
+   <versionNumber value="3"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id extension="802315887" root="1.3.6.1.4.1.519.1"/>
+            <name>Dr.Reddy's Laboratories Inc</name>
+            <assignedEntity>
+               <assignedOrganization>
+                  <assignedEntity>
+                     <assignedOrganization>
+                        <id extension="918601238" root="1.3.6.1.4.1.519.1"/>
+                        <name>GLAND PHARMA LIMITED</name>
+                     </assignedOrganization>
+                     <performance>
+                        <actDefinition>
+                           <code code="C43360" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="manufacture"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="43598-976" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                     <performance>
+                        <actDefinition>
+                           <code code="C25391" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="analysis"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="43598-976" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                     <performance>
+                        <actDefinition>
+                           <code code="C25391" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="analysis"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="43598-975" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                     <performance>
+                        <actDefinition>
+                           <code code="C43360" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="manufacture"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="43598-975" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                  </assignedEntity>
+                  <assignedEntity>
+                     <assignedOrganization>
+                        <id extension="858971074" root="1.3.6.1.4.1.519.1"/>
+                        <name>GLAND PHARMA LIMITED</name>
+                     </assignedOrganization>
+                     <performance>
+                        <actDefinition>
+                           <code code="C25391" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="analysis"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="43598-976" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                     <performance>
+                        <actDefinition>
+                           <code code="C25391" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="analysis"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="43598-975" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                     <performance>
+                        <actDefinition>
+                           <code code="C43360" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="manufacture"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="43598-976" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                     <performance>
+                        <actDefinition>
+                           <code code="C43360" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="manufacture"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="43598-975" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                  </assignedEntity>
+               </assignedOrganization>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section>
+               <id root="cc858e3c-6301-0168-a588-c9ed5c4039b2"/>
+               <code code="48780-1" displayName="SPL PRODUCT DATA ELEMENTS SECTION" codeSystem="2.16.840.1.113883.6.1"/>
+               <effectiveTime value="20200608"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code codeSystem="2.16.840.1.113883.6.69" code="43598-976"/>
+                        <name>DEXMEDETOMIDINE HYDROCHLORIDE</name>
+                        <formCode code="C42945" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="INJECTION, SOLUTION"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>DEXMEDETOMIDINE HYDROCHLORIDE</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <ingredient classCode="ACTIM">
+                           <quantity>
+                              <numerator unit="ug" value="4"/>
+                              <denominator unit="mL" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="1018WH7F9I" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>Dexmedetomidine Hydrochloride</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="67VB76HONO" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>Dexmedetomidine</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <quantity>
+                              <numerator unit="mg" value="9"/>
+                              <denominator unit="mL" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="451W47IQ8X" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>Sodium Chloride</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="059QF0KO0R" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>Water</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator unit="mL" value="50"/>
+                              <denominator unit="1" value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code codeSystem="2.16.840.1.113883.6.69" code="43598-976-11"/>
+                              <formCode code="C43226" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="VIAL"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator unit="1" value="10"/>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code codeSystem="2.16.840.1.113883.6.69" code="43598-976-58"/>
+                                    <formCode code="C43182" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CARTON"/>
+                                 </containerPackagedProduct>
+                                 <subjectOf>
+                                    <marketingAct>
+                                       <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                       <statusCode code="active"/>
+                                       <effectiveTime>
+                                          <low value="20200817"/>
+                                       </effectiveTime>
+                                    </marketingAct>
+                                 </subjectOf>
+                              </asContent>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" displayName="Type 0: Not a Combination Product" codeSystem="2.16.840.1.113883.3.26.1.1" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20200817"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <subjectOf>
+                        <approval>
+                           <id extension="ANDA209307" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73584" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ANDA"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code codeSystem="1.0.3166.1.2.3" code="USA"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38276" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="INTRAVENOUS"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code codeSystem="2.16.840.1.113883.6.69" code="43598-975"/>
+                        <name>DEXMEDETOMIDINE HYDROCHLORIDE</name>
+                        <formCode code="C42945" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="INJECTION, SOLUTION"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>DEXMEDETOMIDINE HYDROCHLORIDE</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <ingredient classCode="ACTIM">
+                           <quantity>
+                              <numerator unit="ug" value="4"/>
+                              <denominator unit="mL" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="1018WH7F9I" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>Dexmedetomidine Hydrochloride</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="67VB76HONO" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>Dexmedetomidine</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <quantity>
+                              <numerator unit="mg" value="9"/>
+                              <denominator unit="mL" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="451W47IQ8X" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>Sodium Chloride</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="059QF0KO0R" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>Water</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator unit="mL" value="100"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code codeSystem="2.16.840.1.113883.6.69" code="43598-975-11"/>
+                              <formCode code="C43226" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="VIAL"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator unit="1" value="10"/>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code codeSystem="2.16.840.1.113883.6.69" code="43598-975-58"/>
+                                    <formCode code="C43182" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CARTON"/>
+                                 </containerPackagedProduct>
+                                 <subjectOf>
+                                    <marketingAct>
+                                       <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                       <statusCode code="active"/>
+                                       <effectiveTime>
+                                          <low value="20200817"/>
+                                       </effectiveTime>
+                                    </marketingAct>
+                                 </subjectOf>
+                              </asContent>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" displayName="Type 0: Not a Combination Product" codeSystem="2.16.840.1.113883.3.26.1.1" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20200817"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <subjectOf>
+                        <approval>
+                           <id extension="ANDA209307" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73584" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ANDA"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code codeSystem="1.0.3166.1.2.3" code="USA"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38276" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="INTRAVENOUS"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+               <component>
+                  <section>
+                     <id root="e6b61e69-ee4c-0453-1aec-1ff7dd17fefa"/>
+                     <code code="42229-5" displayName="SPL UNCLASSIFIED SECTION" codeSystem="2.16.840.1.113883.6.1"/>
+                     <effectiveTime value="20200810"/>
+                     <component>
+                        <observationMedia ID="MM370938080195">
+                           <text>200mcgvial</text>
+                           <value xsi:type="ED" mediaType="image/jpeg">
+                              <reference value="200mcgvial.jpg"/>
+                           </value>
+                        </observationMedia>
+                     </component>
+                     <component>
+                        <observationMedia ID="MM648349072490">
+                           <text>400mcgvial</text>
+                           <value xsi:type="ED" mediaType="image/jpeg">
+                              <reference value="400mcgvial.jpg"/>
+                           </value>
+                        </observationMedia>
+                     </component>
+                     <component>
+                        <observationMedia ID="MM730288360606">
+                           <text>200mcgcarton</text>
+                           <value xsi:type="ED" mediaType="image/jpeg">
+                              <reference value="200mcgcarton.jpg"/>
+                           </value>
+                        </observationMedia>
+                     </component>
+                     <component>
+                        <observationMedia ID="MM716550190825">
+                           <text>400mcgcarton</text>
+                           <value xsi:type="ED" mediaType="image/jpeg">
+                              <reference value="400mcgcarton.jpg"/>
+                           </value>
+                        </observationMedia>
+                     </component>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="INDICATIONS_AND_USAGE">
+               <id root="705f59cb-7adb-dee2-9a33-781cf10aeb70"/>
+               <code code="34067-9" displayName="INDICATIONS &amp; USAGE SECTION" codeSystem="2.16.840.1.113883.6.1"/>
+               <title>1 INDICATIONS AND USAGE</title>
+               <text>
+                  <paragraph/>
+               </text>
+               <effectiveTime value="20220701"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <paragraph>Dexmedetomidine hydrochloride in 0.9% sodium chloride injection is a relatively selective alpha<sub>2</sub>-adrenergic agonist indicated for: </paragraph>
+                        <list>
+                           <item>Sedation of initially intubated and mechanically  ventilated patients during treatment in an intensive care setting. Administer dexmedetomidine hydrochloride in 0.9% sodium chloride injection by continuous infusion not to exceed 24 hours. (<linkHtml href="#_7f1843e7-67e4-b4d3-fa22-3da5404f3ac5">1.1</linkHtml>). </item>
+                           <item>Sedation of non-intubated patients prior to and/or during surgical and other procedures. (<linkHtml href="#_7dd3ff0b-ebfa-ba2e-0a3a-9ffe1fd0ab5c">1.2</linkHtml>) </item>
+                        </list>
+                     </text>
+                  </highlight>
+               </excerpt>
+               <component>
+                  <section ID="_7f1843e7-67e4-b4d3-fa22-3da5404f3ac5">
+                     <id root="386a4316-382c-63de-f705-6d0b404e0cd4"/>
+                     <code code="42229-5" displayName="SPL UNCLASSIFIED SECTION" codeSystem="2.16.840.1.113883.6.1"/>
+                     <title>
+                        <content styleCode="bold">1.1 Intensive Care Unit Sedation </content>
+                     </title>
+                     <text>
+                        <paragraph>Dexmedetomidine hydrochloride in 0.9% sodium chloride injection is indicated for sedation of initially intubated and mechanically ventilated patients during treatment in an intensive care setting. Dexmedetomidine hydrochloride in 0.9% sodium chloride injection should be administered by continuous infusion not to exceed 24 hours.</paragraph>
+                        <paragraph>Dexmedetomidine hydrochloride in 0.9% sodium chloride injection has been continuously infused in mechanically ventilated patients prior to extubation, during extubation, and post-extubation. It is not necessary to discontinue dexmedetomidine hydrochloride in 0.9% sodium chloride injection prior to extubation.</paragraph>
+                     </text>
+                     <effectiveTime value="20200531"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="_7dd3ff0b-ebfa-ba2e-0a3a-9ffe1fd0ab5c">
+                     <id root="6c5a991b-6fea-926d-8f30-8e25c0e50beb"/>
+                     <code code="42229-5" displayName="SPL UNCLASSIFIED SECTION" codeSystem="2.16.840.1.113883.6.1"/>
+                     <title>
+                        <content styleCode="bold">1.2 Procedural Sedation </content>
+                     </title>
+                     <text>
+                        <paragraph>Dexmedetomidine hydrochloride in 0.9% sodium chloride injection is indicated for sedation of non-intubated patients prior to and/or during surgical and other procedures.</paragraph>
+                     </text>
+                     <effectiveTime value="20200531"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="DOSAGE_AND_ADMINISTRATION">
+               <id root="27e33cf5-562e-cab9-bda3-29686eaa9b36"/>
+               <code code="34068-7" displayName="DOSAGE &amp; ADMINISTRATION SECTION" codeSystem="2.16.840.1.113883.6.1"/>
+               <title>2 DOSAGE AND ADMINISTRATION</title>
+               <text/>
+               <effectiveTime value="20220701"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <list>
+                           <item>Individualize and titrate dexmedetomidine hydrochloride in 0.9% sodium chloride injection dosing to desired clinical effect. (<linkHtml href="#_28032e76-0cad-265a-041c-f937a74e0fc9">2.1</linkHtml>) </item>
+                           <item>Administer dexmedetomidine hydrochloride in 0.9% sodium chloride injection using a controlled infusion  device. (<linkHtml href="#_28032e76-0cad-265a-041c-f937a74e0fc9">2.1</linkHtml>)</item>
+                           <item> The 200 mcg/50mL and 400 mcg/100 mL single-dose Vials do not require further dilution prior to administration. (<linkHtml href="#_9c4e8e54-9def-92b5-0164-ab99750ff140">2.4</linkHtml>)</item>
+                        </list>
+                        <paragraph>
+                           <content styleCode="bold">For Adult Intensive Care Unit Sedation: </content>Generally initiate at one mcg/kg over 10 <content styleCode="bold">minutes</content>, followed by a maintenance infusion of 0.2 to 0.7 mcg/kg/<content styleCode="bold">hour. </content>(<linkHtml href="#_6ca3d650-9505-8e93-827f-7e7577efd058">2.2</linkHtml>)  </paragraph>
+                        <paragraph>
+                           <content styleCode="bold">For Adult Procedural Sedation:</content> Generally initiate at one mcg/kg over 10 <content styleCode="bold">minutes</content>, followed by a maintenance infusion initiated at 0.6 mcg/kg/<content styleCode="bold">hour</content> and titrated to achieve desired clinical effect with doses ranging from 0.2 to 1 mcg/kg/<content styleCode="bold">hour</content>. (<linkHtml href="#_6ca3d650-9505-8e93-827f-7e7577efd058">2.2</linkHtml>) </paragraph>
+                        <paragraph>
+                           <content styleCode="bold">Alternative Doses:</content> Recommended for patients over 65 years of age and awake fiberoptic intubation patients. (<linkHtml href="#_6ca3d650-9505-8e93-827f-7e7577efd058">2.2</linkHtml>)</paragraph>
+                     </text>
+                  </highlight>
+               </excerpt>
+               <component>
+                  <section ID="_28032e76-0cad-265a-041c-f937a74e0fc9">
+                     <id root="3e009fa0-d198-919c-4159-49f0cbc9097a"/>
+                     <code code="42229-5" displayName="SPL UNCLASSIFIED SECTION" codeSystem="2.16.840.1.113883.6.1"/>
+                     <title>
+                        <content styleCode="bold">2.1 Dosing Guidelines </content>
+                     </title>
+                     <text>
+                        <list>
+                           <item>Dexmedetomidine hydrochloride in 0.9% sodium chloride injection dosing should be individualized and titrated to desired clinical response. </item>
+                           <item>Dexmedetomidine hydrochloride in 0.9% sodium chloride injection is not indicated for infusions lasting longer than 24 hours. </item>
+                           <item>Dexmedetomidine hydrochloride in 0.9% sodium chloride injection should be administered using a controlled infusion device. </item>
+                        </list>
+                     </text>
+                     <effectiveTime value="20200531"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="_6ca3d650-9505-8e93-827f-7e7577efd058">
+                     <id root="f6c9a4fc-69d5-c210-9493-51876506b7e0"/>
+                     <code code="42229-5" displayName="SPL UNCLASSIFIED SECTION" codeSystem="2.16.840.1.113883.6.1"/>
+                     <title>
+                        <content styleCode="bold">2.2 Dosage Information</content>
+                     </title>
+                     <text>
+                        <paragraph>
+                           <content styleCode="bold">Table 1: Dosage Information</content>
+                        </paragraph>
+                        <table>
+                           <thead>
+                              <tr>
+                                 <td>
+                                    <content styleCode="bold">INDICATION </content>
+                                 </td>
+                                 <td/>
+                                 <td>
+                                    <content styleCode="bold">DOSAGE AND ADMINISTRATION </content>
+                                 </td>
+                              </tr>
+                           </thead>
+                           <tbody>
+                              <tr>
+                                 <td>
+                                    <content styleCode="bold">Initiation of Intensive </content>
+                                    <content styleCode="bold">Care Unit Sedation </content>
+                                 </td>
+                                 <td/>
+                                 <td>
+                                    <content styleCode="bold">For adult patients: </content>a loading infusion of one mcg/kg over 10 <content styleCode="bold">minutes</content>. <br/>
+                                    <content styleCode="bold">For adult patients being converted from alternate sedative therapy: </content>a loading dose may not be required.<br/>
+                                    <content styleCode="bold">For patients over 65 years of age: </content>a dose reduction should be considered [see Use in Specific Populations (<linkHtml href="#GERIATRIC_USE">8.5</linkHtml>)]. <br/>
+                                    <content styleCode="bold">For adult patients with impaired hepatic function: </content>a dose reduction should be considered [see Use in Specific Populations (<linkHtml href="#_e1daa7bb-65e4-af15-6edb-31faaca1cdb3">8.6</linkHtml>), Clinical Pharmacology (<linkHtml href="#PHARMACOKINETICS">12.3</linkHtml>)]. </td>
+                              </tr>
+                              <tr>
+                                 <td>
+                                    <content styleCode="bold">Maintenance of Intensive </content>
+                                    <content styleCode="bold">Care Unit Sedation </content>
+                                 </td>
+                                 <td/>
+                                 <td>
+                                    <content styleCode="bold">For adult patients: </content>a maintenance infusion of 0.2 to 0.7 mcg/kg/<content styleCode="bold">hour</content>. The rate of the maintenance infusion should be adjusted to achieve the desired level of sedation. <content styleCode="bold">For patients over 65 years of age: </content>a dose reduction should be considered [see Use in Specific Populations (<linkHtml href="#GERIATRIC_USE">8.5</linkHtml>)]. <br/>
+                                    <content styleCode="bold">For adult patients with impaired hepatic function: </content>a dose reduction should be considered [see Use in Specific Populations (<linkHtml href="#_e1daa7bb-65e4-af15-6edb-31faaca1cdb3">8.6</linkHtml>), Clinical Pharmacology (<linkHtml href="#PHARMACOKINETICS">12.3</linkHtml>)]. </td>
+                              </tr>
+                              <tr>
+                                 <td>
+                                    <content styleCode="bold">Initiation of Procedural </content>
+                                    <content styleCode="bold">Sedation</content>
+                                 </td>
+                                 <td/>
+                                 <td>
+                                    <content styleCode="bold">For adult patients: </content>a loading infusion of one mcg/kg over 10 <content styleCode="bold">minutes</content>. For less invasive procedures such as ophthalmic surgery, a loading infusion of 0.5 mcg/kg given over 10 <content styleCode="bold">minutes </content>may be suitable. <br/>
+                                    <content styleCode="bold">For awake fiberoptic intubation in adult patients: </content>a loading infusion of one mcg/kg over 10 <content styleCode="bold">minutes</content>. <content styleCode="bold">For patients over 65 years of age: </content>a loading infusion of 0.5 mcg/kg over 10 <content styleCode="bold">minutes </content>[see Use in Specific Populations (<linkHtml href="#GERIATRIC_USE">8.5</linkHtml>)]. <br/>
+                                    <content styleCode="bold">For adult patients with impaired hepatic function: </content>a dose reduction should be considered [see Use in Specific Populations (<linkHtml href="#_e1daa7bb-65e4-af15-6edb-31faaca1cdb3">8.6</linkHtml>), Clinical Pharmacology (<linkHtml href="#PHARMACOKINETICS">12.3</linkHtml>)].</td>
+                              </tr>
+                              <tr>
+                                 <td>
+                                    <content styleCode="bold">Maintenance of </content>
+                                    <content styleCode="bold">Procedural Sedation </content>
+                                 </td>
+                                 <td/>
+                                 <td>
+                                    <content styleCode="bold">For adult patients: </content>the maintenance infusion is generally initiated at 0.6 mcg/kg/<content styleCode="bold">hour </content>and titrated to achieve desired clinical effect with doses ranging from 0.2 to 1 mcg/kg/<content styleCode="bold">hour</content>. The rate of the maintenance infusion should be adjusted to achieve the targeted level of sedation. <br/>
+                                    <content styleCode="bold">For awake fiberoptic intubation in adult patients: </content>a maintenance infusion of 0.7 mcg/kg/<content styleCode="bold">hour </content>is recommended until the endotracheal tube is secured. <content styleCode="bold">For patients over 65 years of age: </content>a dose reduction should be considered [see Use in Specific Populations (<linkHtml href="#GERIATRIC_USE">8.5</linkHtml>)]. <br/>
+                                    <content styleCode="bold">For adult patients with impaired hepatic function: </content>a dose reduction should be considered [see Use in Specific Populations (<linkHtml href="#_e1daa7bb-65e4-af15-6edb-31faaca1cdb3">8.6</linkHtml>), Clinical Pharmacology (<linkHtml href="#PHARMACOKINETICS">12.3</linkHtml>)]. </td>
+                              </tr>
+                           </tbody>
+                        </table>
+                     </text>
+                     <effectiveTime value="20200531"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="_d7c3b572-1b05-e31b-0b51-95da6bba009c">
+                     <id root="1c529e90-9b07-ba56-19f2-57daddc0cfab"/>
+                     <code code="42229-5" displayName="SPL UNCLASSIFIED SECTION" codeSystem="2.16.840.1.113883.6.1"/>
+                     <title>
+                        <content styleCode="bold">2.3 Dosage Adjustment</content>
+                     </title>
+                     <text>
+                        <paragraph>Due to possible pharmacodynamic interactions, a reduction in dosage of dexmedetomidine hydrochloride in 0.9% sodium chloride injection or other concomitant anesthetics, sedatives, hypnotics or opioids may be required when co-administered [see Drug Interactions (<linkHtml href="#_c8811823-91f6-1eb4-829a-27ca67d93663">7.1</linkHtml>)]. </paragraph>
+                        <paragraph>Dosage reductions may need to be considered for <content styleCode="bold">adult </content>patients with hepatic impairment and geriatric patients [see Warnings and Precautions (<linkHtml href="#_be00b775-6458-e793-a0af-cf8e8b3d799f">5.7</linkHtml>), Use in Specific Populations (<linkHtml href="#_e1daa7bb-65e4-af15-6edb-31faaca1cdb3">8.6</linkHtml>), Clinical Pharmacology (<linkHtml href="#PHARMACOKINETICS">12.3</linkHtml>)].</paragraph>
+                     </text>
+                     <effectiveTime value="20200531"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="_9c4e8e54-9def-92b5-0164-ab99750ff140">
+                     <id root="6e165bdd-1e48-d72e-a42b-b5fc38b0463f"/>
+                     <code code="42229-5" displayName="SPL UNCLASSIFIED SECTION" codeSystem="2.16.840.1.113883.6.1"/>
+                     <title>
+                        <content styleCode="bold">2.4 Preparation of Solution</content>
+                     </title>
+                     <text>
+                        <paragraph>Strict aseptic technique must always be maintained during handling of dexmedetomidine hydrochloride in 0.9% sodium chloride injection.</paragraph>
+                        <paragraph>Parenteral drug products should be inspected visually for particulate matter and discoloration prior to administration, whenever solution and container permit.</paragraph>
+                        <paragraph>
+                           <content styleCode="bold">Dexmedetomidine Hydrochloride in 0.9% Sodium Chloride Injection, 200 mcg/50 mL (4 mcg/mL) and 400 mcg/100 mL (4 mcg/mL)</content>
+                        </paragraph>
+                        <paragraph>Dexmedetomidine Hydrochloride in 0.9% Sodium Chloride Injection is supplied in glass containers containing a premixed, ready to use dexmedetomidine hydrochloride solution in 0.9% sodium chloride in water. No further dilution of these preparations are necessary. </paragraph>
+                     </text>
+                     <effectiveTime value="20200531"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="_78327c56-d82b-0829-1aa4-b58157485d0f">
+                     <id root="72f23d07-dbbd-d374-dc67-8915e852a880"/>
+                     <code code="42229-5" displayName="SPL UNCLASSIFIED SECTION" codeSystem="2.16.840.1.113883.6.1"/>
+                     <title>
+                        <content styleCode="bold">2.5 Administration with Other Fluids</content>
+                     </title>
+                     <text>
+                        <paragraph>Dexmedetomidine hydrochloride in 0.9% sodium chloride infusion should not be co-administered through the same intravenous catheter with blood or plasma because physical compatibility has not been established. </paragraph>
+                        <paragraph>Dexmedetomidine hydrochloride in 0.9% sodium chloride injection has been shown to be incompatible when administered with the following drugs: amphotericin B, diazepam. </paragraph>
+                        <paragraph>Dexmedetomidine hydrochloride in 0.9% sodium chloride injection has been shown to be compatible when administered with the following intravenous fluids: </paragraph>
+                        <list>
+                           <item>0.9% sodium chloride in water </item>
+                           <item>5% dextrose in water </item>
+                           <item>20% mannitol </item>
+                           <item>Lactated Ringer’s solution </item>
+                           <item>100 mg/mL magnesium sulfate solution </item>
+                           <item>0.3% potassium chloride solution </item>
+                        </list>
+                     </text>
+                     <effectiveTime value="20200531"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="_96934054-3643-c5f1-eead-4940ff93f98e">
+                     <id root="e2a2ea32-c8f3-43d6-8690-7e4292559a02"/>
+                     <code code="42229-5" displayName="SPL UNCLASSIFIED SECTION" codeSystem="2.16.840.1.113883.6.1"/>
+                     <title>
+                        <content styleCode="bold">2.6 Compatibility with Natural Rubber</content>
+                     </title>
+                     <text>
+                        <paragraph>Compatibility studies have demonstrated the potential for absorption of dexmedetomidine hydrochloride in 0.9% sodium chloride injection to some types of natural rubber. Although dexmedetomidine hydrochloride in 0.9% sodium chloride injection is dosed to effect, it is advisable to use administration components made with synthetic or coated natural rubber gaskets.</paragraph>
+                     </text>
+                     <effectiveTime value="20200608"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="DOSAGE_FORMS_AND_STRENGTHS">
+               <id root="2a1836b0-8de6-6591-8fb1-99af6dfc9291"/>
+               <code code="43678-2" displayName="DOSAGE FORMS &amp; STRENGTHS SECTION" codeSystem="2.16.840.1.113883.6.1"/>
+               <title>3 DOSAGE FORMS AND STRENGTHS</title>
+               <text>
+                  <paragraph>Dexmedetomidine Hydrochloride in 0.9% Sodium Chloride Injection is clear and colorless and is available as follows. </paragraph>
+                  <paragraph>
+                     <content styleCode="underline">Dexmedetomidine Hydrochloride in 0.9% Sodium Chloride Injection</content>
+                  </paragraph>
+                  <paragraph>Dexmedetomidine hydrochloride in 0.9% sodium chloride injection, 200 mcg dexmedetomidine/50 mL (4 mcg/ mL) in a glass vial. Ready to use. </paragraph>
+                  <paragraph>Dexmedetomidine hydrochloride in 0.9% sodium chloride injection, 400 mcg dexmedetomidine/100 mL (4 mcg/ mL) in a glass vial. Ready to use. </paragraph>
+               </text>
+               <effectiveTime value="20220701"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <paragraph>Dexmedetomidine hydrochloride in 0.9% sodium chloride injection, 200 mcg/50 mL (4 mcg/ mL) in a glass vial. Ready to use.</paragraph>
+                        <paragraph>Dexmedetomidine hydrochloride in 0.9% sodium chloride injection, 400 mcg/100 mL (4 mcg/ mL) in a glass vial. Ready to use.</paragraph>
+                     </text>
+                  </highlight>
+               </excerpt>
+            </section>
+         </component>
+         <component>
+            <section ID="CONTRAINDICATIONS">
+               <id root="25916da7-ef02-3a14-3cf1-f7fcd9cb6136"/>
+               <code code="34070-3" displayName="CONTRAINDICATIONS SECTION" codeSystem="2.16.840.1.113883.6.1"/>
+               <title>4 CONTRAINDICATIONS</title>
+               <text>
+                  <paragraph>None.</paragraph>
+               </text>
+               <effectiveTime value="20220701"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <paragraph>None.</paragraph>
+                     </text>
+                  </highlight>
+               </excerpt>
+            </section>
+         </component>
+         <component>
+            <section ID="WARNINGS_AND_PRECAUTIONS">
+               <id root="058d88f1-5eae-33d8-bbff-c2c4c13c8c63"/>
+               <code code="43685-7" displayName="WARNINGS AND PRECAUTIONS SECTION" codeSystem="2.16.840.1.113883.6.1"/>
+               <title>5 WARNINGS AND PRECAUTIONS</title>
+               <text>
+                  <paragraph/>
+               </text>
+               <effectiveTime value="20220701"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <list>
+                           <item>Monitoring: Continuously monitor patients while receiving dexmedetomidine hydrochloride in 0.9% sodium chloride injection (<linkHtml href="#_bcf07b2e-ab4f-6097-fdab-0fa4f35a15e8">5.1</linkHtml>)</item>
+                           <item>Bradycardia and Sinus Arrest: Have occurred in young healthy volunteers with high vagal tone or with different routes of administration, e.g., rapid intravenous or bolus administration. (<linkHtml href="#_ba373780-fb85-dd62-91ed-de0adb1bff5f">5.2</linkHtml>) Hypotension and Bradycardia: May necessitate medical intervention. May be more pronounced in patients with hypovolemia, diabetes mellitus, or chronic hypertension, and in the elderly. Use with caution in patients with advanced heart block or severe ventricular dysfunction. (<linkHtml href="#_ba373780-fb85-dd62-91ed-de0adb1bff5f">5.2</linkHtml>) </item>
+                           <item>Co-administration with Other Vasodilators or Negative Chronotropic Agents: Use with caution due to additive pharmacodynamic effects. (<linkHtml href="#_ba373780-fb85-dd62-91ed-de0adb1bff5f">5.2</linkHtml>) </item>
+                           <item>Transient Hypertension: Observed primarily during the loading dose. Consider reduction in loading infusion rate. (<linkHtml href="#_b96cc553-9fd5-d3cd-230a-9c26c6672226">5.3</linkHtml>) </item>
+                           <item>Arousability: Patients can become aroused/alert with stimulation; this alone should not be considered as lack of efficacy. (<linkHtml href="#_8d6e6600-3032-b0b6-d9f4-a92582aeaf7b">5.4</linkHtml>) </item>
+                           <item>Tolerance and Tachyphylaxis: Prolonged exposure to dexmedetomidine beyond 24 hours may be associated with tolerance and tachyphylaxis and a dose-related increase in adverse events. (<linkHtml href="#_52617d96-8486-b942-e598-cc3b5fab2201">5.6</linkHtml>) </item>
+                        </list>
+                     </text>
+                  </highlight>
+               </excerpt>
+               <component>
+                  <section ID="_bcf07b2e-ab4f-6097-fdab-0fa4f35a15e8">
+                     <id root="5ccb5168-4a57-f9f8-ca7a-d58248a5e15f"/>
+                     <code code="42229-5" displayName="SPL UNCLASSIFIED SECTION" codeSystem="2.16.840.1.113883.6.1"/>
+                     <title>
+                        <content styleCode="bold">5.1 Drug Administration</content>
+                     </title>
+                     <text>
+                        <paragraph>Dexmedetomidine hydrochloride in 0.9% sodium chloride injection should be administered only by persons skilled in the management of patients in the intensive care or operating room setting. Due to the known pharmacological effects of dexmedetomidine, patients should be continuously monitored while receiving dexmedetomidine hydrochloride in 0.9% sodium chloride injection.</paragraph>
+                     </text>
+                     <effectiveTime value="20200531"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="_ba373780-fb85-dd62-91ed-de0adb1bff5f">
+                     <id root="c5ef7384-741d-db1d-036d-cfbed6dc493f"/>
+                     <code code="42229-5" displayName="SPL UNCLASSIFIED SECTION" codeSystem="2.16.840.1.113883.6.1"/>
+                     <title>
+                        <content styleCode="bold">5.2 Hypotension, Bradycardia, and Sinus Arrest</content>
+                     </title>
+                     <text>
+                        <paragraph>Clinically significant episodes of bradycardia and sinus arrest have been reported with dexmedetomidine administration in young, healthy adult volunteers with high vagal tone or with different routes of administration including rapid intravenous or bolus administration.</paragraph>
+                        <paragraph>Reports of hypotension and bradycardia have been associated with dexmedetomidine infusion. Some of these cases have resulted in fatalities. If medical intervention is required, treatment may include decreasing or stopping the infusion of dexmedetomidine hydrochloride in 0.9% sodium chloride injection, increasing the rate of intravenous fluid administration, elevation of the lower extremities, and use of pressor agents. Because dexmedetomidine has the potential to augment bradycardia induced by vagal stimuli, clinicians should be prepared to intervene. The intravenous administration of anticholinergic agents (e.g., glycopyrrolate, atropine) should be considered to modify vagal tone. In clinical trials, glycopyrrolate or atropine were effective in the treatment of most episodes of dexmedetomidine-induced bradycardia. However, in some patients with significant cardiovascular dysfunction, more advanced resuscitative measures were required.  </paragraph>
+                        <paragraph>Caution should be exercised when administering dexmedetomidine hydrochloride in 0.9% sodium chloride injection to patients with advanced heart block and/or severe ventricular dysfunction. Because dexmedetomidine decreases sympathetic nervous system activity, hypotension and/or bradycardia may be expected to be more pronounced in patients with hypovolemia, diabetes mellitus, or chronic hypertension and in elderly patients.</paragraph>
+                        <paragraph>In clinical trials where other vasodilators or negative chronotropic agents were co-administered with dexmedetomidine hydrochloride in 0.9% sodium chloride injection an additive pharmacodynamic effect was not observed. Nonetheless, caution should be used when such agents are administered concomitantly with dexmedetomidine hydrochloride in 0.9% sodium chloride injection. </paragraph>
+                     </text>
+                     <effectiveTime value="20200531"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="_b96cc553-9fd5-d3cd-230a-9c26c6672226">
+                     <id root="98e03dcc-f6e2-2f11-94df-5c04ad21cc57"/>
+                     <code code="42229-5" displayName="SPL UNCLASSIFIED SECTION" codeSystem="2.16.840.1.113883.6.1"/>
+                     <title>
+                        <content styleCode="bold">5.3 Transient Hypertension</content>
+                     </title>
+                     <text>
+                        <paragraph>Transient hypertension has been observed primarily during the loading dose in association with the initial peripheral vasoconstrictive effects of dexmedetomidine hydrochloride in 0.9% sodium chloride injection. Treatment of the transient hypertension has generally not been necessary, although reduction of the loading infusion rate may be desirable. </paragraph>
+                     </text>
+                     <effectiveTime value="20200531"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="_8d6e6600-3032-b0b6-d9f4-a92582aeaf7b">
+                     <id root="614c9058-f5a6-bfc2-0db3-1d0320cd41be"/>
+                     <code code="42229-5" displayName="SPL UNCLASSIFIED SECTION" codeSystem="2.16.840.1.113883.6.1"/>
+                     <title>
+                        <content styleCode="bold">5.4 Arousability</content>
+                     </title>
+                     <text>
+                        <paragraph>Some patients receiving dexmedetomidine hydrochloride in 0.9% sodium chloride injection have been observed to be arousable and alert when stimulated. This alone should not be considered as evidence of lack of efficacy in the absence of other clinical signs and symptoms.</paragraph>
+                     </text>
+                     <effectiveTime value="20200531"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="_619d5be6-3d10-eb63-a28b-77e36ff4e83a">
+                     <id root="183eb218-c61e-7c31-0719-35fe7ab0b605"/>
+                     <code code="42229-5" displayName="SPL UNCLASSIFIED SECTION" codeSystem="2.16.840.1.113883.6.1"/>
+                     <title>
+                        <content styleCode="bold">5.5 Withdrawal </content>
+                     </title>
+                     <text>
+                        <paragraph>
+                           <content styleCode="bold">Intensive Care Unit Sedation</content>
+                        </paragraph>
+                        <paragraph>With administration up to 7 days, regardless of dose, 12 (5%) dexmedetomidine hydrochloride in 0.9% sodium chloride injection adult subjects experienced at least 1 event related to withdrawal within the first 24 hours after discontinuing study drug and 7 (3%) dexmedetomidine hydrochloride in 0.9% sodium chloride injection adult subjects experienced at least 1 event 24 to 48 hours after end of study drug. The most common events were nausea, vomiting, and agitation.</paragraph>
+                        <paragraph> In adult subjects, tachycardia and hypertension requiring intervention in the 48 hours following study drug discontinuation occurred at frequencies of &lt;5%. If tachycardia and/or hypertension occurs after discontinuation of dexmedetomidine hydrochloride in 0.9% sodium chloride injection supportive therapy is indicated.</paragraph>
+                        <paragraph>
+                           <content styleCode="bold">Procedural Sedation </content>
+                        </paragraph>
+                        <paragraph>In adult subjects, withdrawal symptoms were not seen after discontinuation of short term infusions of dexmedetomidine hydrochloride in 0.9% sodium chloride injection (&lt;6 hours).</paragraph>
+                     </text>
+                     <effectiveTime value="20200531"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="_52617d96-8486-b942-e598-cc3b5fab2201">
+                     <id root="e84d5601-9afc-63c6-9b9b-f4da60c6aee6"/>
+                     <code code="42229-5" displayName="SPL UNCLASSIFIED SECTION" codeSystem="2.16.840.1.113883.6.1"/>
+                     <title>
+                        <content styleCode="bold">5.6 Tolerance and Tachyphylaxis</content>
+                     </title>
+                     <text>
+                        <paragraph>Use of dexmedetomidine beyond 24 hours has been associated with tolerance and tachyphylaxis and a dose-related increase in adverse reactions [see Adverse Reactions (<linkHtml href="#_e6b2eb3f-ecb0-b7c4-9661-e0c34fa066d5">6.1</linkHtml>)].</paragraph>
+                     </text>
+                     <effectiveTime value="20200608"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="_be00b775-6458-e793-a0af-cf8e8b3d799f">
+                     <id root="b3a64885-0cbc-c392-4681-0854f484d5ed"/>
+                     <code code="42229-5" displayName="SPL UNCLASSIFIED SECTION" codeSystem="2.16.840.1.113883.6.1"/>
+                     <title>
+                        <content styleCode="bold">5.7 Hepatic Impairment</content>
+                     </title>
+                     <text>
+                        <paragraph>Since dexmedetomidine clearance decreases with severity of hepatic impairment, dose reduction should be considered in patients with impaired hepatic function [see Dosage and Administration (<linkHtml href="#_6ca3d650-9505-8e93-827f-7e7577efd058">2.2</linkHtml>, <linkHtml href="#_d7c3b572-1b05-e31b-0b51-95da6bba009c">2.3</linkHtml>)].</paragraph>
+                     </text>
+                     <effectiveTime value="20200608"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="ADVERSE_REACTIONS">
+               <id root="cc68189b-da75-aa71-d3f4-215fce83413f"/>
+               <code code="34084-4" displayName="ADVERSE REACTIONS SECTION" codeSystem="2.16.840.1.113883.6.1"/>
+               <title>6 ADVERSE REACTIONS</title>
+               <text>
+                  <paragraph>The following clinically significant adverse reactions are described elsewhere in the labeling:</paragraph>
+                  <list>
+                     <item>Hypotension, bradycardia and sinus arrest [see Warnings and Precautions (<linkHtml href="#_ba373780-fb85-dd62-91ed-de0adb1bff5f">5.2</linkHtml>)] </item>
+                     <item>Transient hypertension [see Warnings and Precautions (<linkHtml href="#_b96cc553-9fd5-d3cd-230a-9c26c6672226">5.3</linkHtml>)] </item>
+                  </list>
+                  <br/>
+               </text>
+               <effectiveTime value="20220701"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <list>
+                           <item>The most common adverse reactions (incidence &gt;2%) are hypotension, bradycardia, and dry mouth. (<linkHtml href="#_e6b2eb3f-ecb0-b7c4-9661-e0c34fa066d5">6.1</linkHtml>)</item>
+                           <item> Adverse reactions associated with infusions &gt;24 hours in duration include ARDS, respiratory failure, and agitation.(<linkHtml href="#_e6b2eb3f-ecb0-b7c4-9661-e0c34fa066d5">6.1) </linkHtml>
+                           </item>
+                        </list>
+                        <paragraph>
+                           <content styleCode="bold">To report SUSPECTED ADVERSE REACTIONS, contact Dr. REDDY’S LABORATORIES Inc., at 1-888-375-3784 or FDA at 1-800-FDA-1088 </content>
+                           <content styleCode="bold">or </content>
+                           <content styleCode="bold">www.fda.gov/medwatch</content>
+                           <linkHtml href="#ADVERSE_REACTIONS"/>
+                        </paragraph>
+                     </text>
+                  </highlight>
+               </excerpt>
+               <component>
+                  <section ID="_e6b2eb3f-ecb0-b7c4-9661-e0c34fa066d5">
+                     <id root="4a30f5dd-b3b3-5fef-bed0-428e4a347584"/>
+                     <code code="42229-5" displayName="SPL UNCLASSIFIED SECTION" codeSystem="2.16.840.1.113883.6.1"/>
+                     <title>
+                        <content styleCode="bold">6.1 Clinical Trials  Experience</content>
+                     </title>
+                     <text>
+                        <paragraph>Because clinical trials are conducted under widely varying conditions, adverse reactions rates observed in the clinical trials of a drug cannot be directly compared to rates in clinical trials of another drug and may not reflect the rates observed in practice.</paragraph>
+                        <paragraph>Most common treatment-emergent adverse reactions, occurring in greater than 2% of patients in both Intensive Care Unit and procedural sedation studies include hypotension, bradycardia and dry mouth.</paragraph>
+                        <paragraph>
+                           <content styleCode="underline">Intensive Care Unit Sedation</content>
+                        </paragraph>
+                        <paragraph>Adverse reaction information is derived from the continuous infusion trials of dexmedetomidine for sedation in the Intensive Care Unit setting in which 1,007 adult patients received dexmedetomidine hydrochloride in 0.9% sodium chloride injection. The mean total dose was 7.4 mcg/kg (range: 0.8 to 84.1), mean dose per hour was 0.5 mcg/kg/hr (range: 0.1 to 6.0) and the mean duration of infusion of 15.9 hours (range: 0.2 to 157.2). The population was between 17 to 88 years of age, 43% ≥65 years of age, 77% male and 93% Caucasian. Treatment-emergent adverse reactions occurring at an incidence of &gt;2% are provided in Table 2. The most frequent adverse reactions were hypotension; bradycardia and dry mouth [see Warnings and Precautions (<linkHtml href="#_ba373780-fb85-dd62-91ed-de0adb1bff5f">5.2</linkHtml>)].</paragraph>
+                        <paragraph>
+                           <content styleCode="bold">Table 2: Adverse Reactions with an Incidence &gt;2%-Adult Intensive Care Unit Sedation Population &lt;24 hours*</content>
+                        </paragraph>
+                        <table>
+                           <thead>
+                              <tr>
+                                 <td>
+                                    <content styleCode="bold">Adverse Event</content>
+                                 </td>
+                                 <td>
+                                    <content styleCode="bold">All dexmedetomidine hydrochloride in 0.9% sodium chloride injection</content>
+                                    <br/>
+                                    <content styleCode="bold">(N = 1,007) </content>
+                                    <br/>
+                                    <content styleCode="bold">(%)</content>
+                                 </td>
+                                 <td>
+                                    <content styleCode="bold">Randomized</content>
+                                    <content styleCode="bold">dexmedetomidine hydrochloride in 0.9% sodium chloride injection</content>
+                                    <br/>
+                                    <content styleCode="bold">(N = 798) </content>
+                                    <br/>(%)</td>
+                                 <td>
+                                    <content styleCode="bold">Placebo</content>
+                                    <br/>
+                                    <content styleCode="bold">(N = 400)</content>(%)</td>
+                                 <td>
+                                    <content styleCode="bold">Propofol </content>
+                                    <br/>
+                                    <content styleCode="bold">(N = 188)</content>
+                                    <content styleCode="bold">(%)</content>
+                                 </td>
+                              </tr>
+                           </thead>
+                           <tbody>
+                              <tr>
+                                 <td>Hypotension </td>
+                                 <td>25%</td>
+                                 <td>24%</td>
+                                 <td>12%</td>
+                                 <td>13%</td>
+                              </tr>
+                              <tr>
+                                 <td>Hypertension </td>
+                                 <td>12%</td>
+                                 <td>13%</td>
+                                 <td>19%</td>
+                                 <td>4%</td>
+                              </tr>
+                              <tr>
+                                 <td>Nausea </td>
+                                 <td>9%</td>
+                                 <td>9%</td>
+                                 <td>9%</td>
+                                 <td>11%</td>
+                              </tr>
+                              <tr>
+                                 <td>Bradycardia </td>
+                                 <td>5%</td>
+                                 <td>5%</td>
+                                 <td>3%</td>
+                                 <td>0</td>
+                              </tr>
+                              <tr>
+                                 <td>Atrial Fibrillation </td>
+                                 <td>4%</td>
+                                 <td>5%</td>
+                                 <td>3%</td>
+                                 <td>7%</td>
+                              </tr>
+                              <tr>
+                                 <td>Pyrexia </td>
+                                 <td>4%</td>
+                                 <td>4%</td>
+                                 <td>4%</td>
+                                 <td>4%</td>
+                              </tr>
+                              <tr>
+                                 <td>Dry Mouth </td>
+                                 <td>4%</td>
+                                 <td>3%</td>
+                                 <td>1%</td>
+                                 <td>1%</td>
+                              </tr>
+                              <tr>
+                                 <td>Vomiting </td>
+                                 <td>3%</td>
+                                 <td>3%</td>
+                                 <td>5%</td>
+                                 <td>3%</td>
+                              </tr>
+                              <tr>
+                                 <td>Hypovolemia </td>
+                                 <td>3%</td>
+                                 <td>3%</td>
+                                 <td>2%</td>
+                                 <td>5%</td>
+                              </tr>
+                              <tr>
+                                 <td>Atelectasis </td>
+                                 <td>3%</td>
+                                 <td>3%</td>
+                                 <td>3%</td>
+                                 <td>6%</td>
+                              </tr>
+                              <tr>
+                                 <td>Pleural Effusion </td>
+                                 <td>2%</td>
+                                 <td>2%</td>
+                                 <td>1%</td>
+                                 <td>6%</td>
+                              </tr>
+                              <tr>
+                                 <td>Agitation </td>
+                                 <td>2%</td>
+                                 <td>2%</td>
+                                 <td>3%</td>
+                                 <td>1%</td>
+                              </tr>
+                              <tr>
+                                 <td>Tachycardia </td>
+                                 <td>2%</td>
+                                 <td>2%</td>
+                                 <td>4%</td>
+                                 <td>1%</td>
+                              </tr>
+                              <tr>
+                                 <td>Anemia </td>
+                                 <td>2%</td>
+                                 <td>2%</td>
+                                 <td>2%</td>
+                                 <td>2%</td>
+                              </tr>
+                              <tr>
+                                 <td>Hyperthermia </td>
+                                 <td>2%</td>
+                                 <td>2%</td>
+                                 <td>3 %</td>
+                                 <td>0</td>
+                              </tr>
+                              <tr>
+                                 <td>Chills </td>
+                                 <td>2%</td>
+                                 <td>2%</td>
+                                 <td>3 %</td>
+                                 <td>2%</td>
+                              </tr>
+                              <tr>
+                                 <td>Hyperglycemia </td>
+                                 <td>2%</td>
+                                 <td>2%</td>
+                                 <td>2%</td>
+                                 <td>3%</td>
+                              </tr>
+                              <tr>
+                                 <td>Hypoxia </td>
+                                 <td>2%</td>
+                                 <td>2%</td>
+                                 <td>2%</td>
+                                 <td>3%</td>
+                              </tr>
+                              <tr>
+                                 <td>Post-procedural Hemorrhage </td>
+                                 <td>2%</td>
+                                 <td>2% </td>
+                                 <td>3%</td>
+                                 <td>4%</td>
+                              </tr>
+                              <tr>
+                                 <td>Pulmonary Edema</td>
+                                 <td>1%</td>
+                                 <td>1%</td>
+                                 <td>1%</td>
+                                 <td>3%</td>
+                              </tr>
+                              <tr>
+                                 <td>Hypocalcemia </td>
+                                 <td>1%</td>
+                                 <td>1%</td>
+                                 <td>0</td>
+                                 <td>2%</td>
+                              </tr>
+                              <tr>
+                                 <td>Acidosis </td>
+                                 <td>1%</td>
+                                 <td>1%</td>
+                                 <td>1%</td>
+                                 <td>2%</td>
+                              </tr>
+                              <tr>
+                                 <td>Urine Output Decreased </td>
+                                 <td>1%</td>
+                                 <td>1%</td>
+                                 <td>0</td>
+                                 <td>2%</td>
+                              </tr>
+                              <tr>
+                                 <td>Sinus Tachycardia</td>
+                                 <td>1%</td>
+                                 <td>1%</td>
+                                 <td>1%</td>
+                                 <td>2%</td>
+                              </tr>
+                              <tr>
+                                 <td>Ventricular Tachycardia </td>
+                                 <td>&lt;1%</td>
+                                 <td>1%</td>
+                                 <td>1%</td>
+                                 <td>5% </td>
+                              </tr>
+                              <tr>
+                                 <td>Wheezing </td>
+                                 <td>&lt;1%</td>
+                                 <td>1%</td>
+                                 <td>0</td>
+                                 <td>2%</td>
+                              </tr>
+                              <tr>
+                                 <td>Edema Peripheral </td>
+                                 <td>&lt;1%</td>
+                                 <td>0</td>
+                                 <td>1%</td>
+                                 <td>2%</td>
+                              </tr>
+                           </tbody>
+                        </table>
+                        <paragraph>* 26 subjects in the all dexmedetomidine hydrochloride in 0.9% sodium chloride injection group and 10 subjects in the randomized dexmedetomidine hydrochloride in 0.9% sodium chloride injection group had exposure for greater than 24 hours.</paragraph>
+                        <paragraph>Adverse reaction information was also derived from the placebo-controlled, continuous infusion trials of dexmedetomidine hydrochloride in 0.9% sodium chloride injection for sedation in the surgical intensive care unit setting in which 387 adult patients received dexmedetomidine hydrochloride in 0.9% sodium chloride injection for less than 24 hours. The most frequently observed treatment-emergent adverse events included hypotension, hypertension, nausea, bradycardia, fever, vomiting, hypoxia, tachycardia and anemia (see Table 3).</paragraph>
+                        <paragraph>
+                           <content styleCode="bold">Table 3: Treatment-Emergent Adverse Events Occurring in &gt;1% of All Dexmedetomidine-Treated Adult Patients in the Randomized Placebo-Controlled Continuous Infusion &lt;24 Hours ICU Sedation Studies</content>
+                        </paragraph>
+                        <table>
+                           <thead>
+                              <tr>
+                                 <td>
+                                    <content styleCode="bold">Adverse Event</content>
+                                 </td>
+                                 <td>
+                                    <content styleCode="bold">Randomized Dexmedetomidine </content>
+                                    <br/>
+                                    <content styleCode="bold">(N = 387)</content>
+                                 </td>
+                                 <td>
+                                    <content styleCode="bold">Placebo</content>
+                                    <br/>
+                                    <content styleCode="bold"> (N = 379)</content>
+                                 </td>
+                              </tr>
+                           </thead>
+                           <tbody>
+                              <tr>
+                                 <td>Hypotension </td>
+                                 <td>28 %</td>
+                                 <td>13%</td>
+                              </tr>
+                              <tr>
+                                 <td>Hypertension </td>
+                                 <td>16 %</td>
+                                 <td>18%</td>
+                              </tr>
+                              <tr>
+                                 <td>Nausea </td>
+                                 <td>11%</td>
+                                 <td>9%</td>
+                              </tr>
+                              <tr>
+                                 <td>Bradycardia </td>
+                                 <td>7%</td>
+                                 <td>3%</td>
+                              </tr>
+                              <tr>
+                                 <td>Fever </td>
+                                 <td>5%</td>
+                                 <td>4%</td>
+                              </tr>
+                              <tr>
+                                 <td>Vomiting </td>
+                                 <td>4%</td>
+                                 <td>6%</td>
+                              </tr>
+                              <tr>
+                                 <td>Atrial Fibrillation </td>
+                                 <td>4%</td>
+                                 <td>3%</td>
+                              </tr>
+                              <tr>
+                                 <td>Hypoxia </td>
+                                 <td>4%</td>
+                                 <td>4%</td>
+                              </tr>
+                              <tr>
+                                 <td>Tachycardia </td>
+                                 <td>3%</td>
+                                 <td>5%</td>
+                              </tr>
+                              <tr>
+                                 <td>Hemorrhage </td>
+                                 <td>3%</td>
+                                 <td>4%</td>
+                              </tr>
+                              <tr>
+                                 <td>Anemia </td>
+                                 <td>3%</td>
+                                 <td>2%</td>
+                              </tr>
+                              <tr>
+                                 <td>Dry Mouth </td>
+                                 <td>3%</td>
+                                 <td>1%</td>
+                              </tr>
+                              <tr>
+                                 <td>Rigors </td>
+                                 <td>2%</td>
+                                 <td>3%</td>
+                              </tr>
+                              <tr>
+                                 <td>Agitation </td>
+                                 <td>2%</td>
+                                 <td>3%</td>
+                              </tr>
+                              <tr>
+                                 <td>Hyperpyrexia </td>
+                                 <td>2%</td>
+                                 <td>3%</td>
+                              </tr>
+                              <tr>
+                                 <td>Pain </td>
+                                 <td>2%</td>
+                                 <td>2%</td>
+                              </tr>
+                              <tr>
+                                 <td>Hyperglycemia </td>
+                                 <td>2%</td>
+                                 <td>2%</td>
+                              </tr>
+                              <tr>
+                                 <td>Acidosis </td>
+                                 <td>2%</td>
+                                 <td>2%</td>
+                              </tr>
+                              <tr>
+                                 <td>Pleural Effusion </td>
+                                 <td>2%</td>
+                                 <td>1%</td>
+                              </tr>
+                              <tr>
+                                 <td>Oliguria </td>
+                                 <td>2%</td>
+                                 <td>&lt;1%</td>
+                              </tr>
+                              <tr>
+                                 <td>Thirst </td>
+                                 <td>2%</td>
+                                 <td>&lt;1%</td>
+                              </tr>
+                           </tbody>
+                        </table>
+                        <paragraph>In a controlled clinical trial, dexmedetomidine hydrochloride in 0.9% sodium chloride injection was compared to midazolam for ICU sedation exceeding 24 hours duration in adult patients. Key treatment emergent adverse events occurring in dexmedetomidine or midazolam treated patients in the randomized active comparator continuous infusion long-term intensive care unit sedation study are provided in Table 4. The number (%) of subjects who had a dose-related increase in treatment-emergent adverse events by maintenance adjusted dose rate range in the dexmedetomidine hydrochloride in 0.9% sodium chloride injection group is provided in Table 5.</paragraph>
+                        <paragraph>
+                           <content styleCode="bold">Table 4: Key Treatment-Emergent Adverse Events Occurring in Dexmedetomidine- or Midazolam-Treated Adult Patients in the Randomized Active Comparator Continuous Infusion Long-Term Intensive Care Unit Sedation Study</content>
+                        </paragraph>
+                        <table>
+                           <thead>
+                              <tr>
+                                 <td>
+                                    <content styleCode="bold">Adverse Event</content>
+                                 </td>
+                                 <td>
+                                    <content styleCode="bold">Dexmedetomidine (N = 244)</content>
+                                 </td>
+                                 <td>
+                                    <content styleCode="bold">Midazolam (N = 122)</content>
+                                 </td>
+                              </tr>
+                           </thead>
+                           <tbody>
+                              <tr>
+                                 <td>Hypotension<sup>1</sup>
+                                 </td>
+                                 <td>56%</td>
+                                 <td>56%</td>
+                              </tr>
+                              <tr>
+                                 <td>Hypotension Requiring Intervention </td>
+                                 <td>28%</td>
+                                 <td>27%</td>
+                              </tr>
+                              <tr>
+                                 <td>Bradycardia<sup>2 </sup>
+                                 </td>
+                                 <td>42%</td>
+                                 <td>19%</td>
+                              </tr>
+                              <tr>
+                                 <td>Bradycardia Requiring Intervention </td>
+                                 <td>5%</td>
+                                 <td>1%</td>
+                              </tr>
+                              <tr>
+                                 <td>Systolic Hypertension<sup>3 </sup>
+                                 </td>
+                                 <td>28%</td>
+                                 <td>42%</td>
+                              </tr>
+                              <tr>
+                                 <td>Tachycardia<sup>4 </sup>
+                                 </td>
+                                 <td>25%</td>
+                                 <td>44%</td>
+                              </tr>
+                              <tr>
+                                 <td>Tachycardia Requiring Intervention </td>
+                                 <td>10%</td>
+                                 <td>10%</td>
+                              </tr>
+                              <tr>
+                                 <td>Diastolic Hypertension<sup>3</sup> </td>
+                                 <td>12%</td>
+                                 <td>15%</td>
+                              </tr>
+                              <tr>
+                                 <td>Hypertension<sup>3</sup>
+                                 </td>
+                                 <td>11%</td>
+                                 <td>15%</td>
+                              </tr>
+                              <tr>
+                                 <td>Hypertension Requiring Intervention <sup>†</sup>
+                                 </td>
+                                 <td>19%</td>
+                                 <td>30%</td>
+                              </tr>
+                              <tr>
+                                 <td>Hypokalemia </td>
+                                 <td>9%</td>
+                                 <td>13%</td>
+                              </tr>
+                              <tr>
+                                 <td>Pyrexia </td>
+                                 <td>7%</td>
+                                 <td>2%</td>
+                              </tr>
+                              <tr>
+                                 <td>Agitation </td>
+                                 <td>7%</td>
+                                 <td>6%</td>
+                              </tr>
+                              <tr>
+                                 <td>Hyperglycemia </td>
+                                 <td>7%</td>
+                                 <td>2%</td>
+                              </tr>
+                              <tr>
+                                 <td>Constipation </td>
+                                 <td>6%</td>
+                                 <td>6%</td>
+                              </tr>
+                              <tr>
+                                 <td>Hypoglycemia </td>
+                                 <td>5%</td>
+                                 <td>6%</td>
+                              </tr>
+                              <tr>
+                                 <td>Respiratory Failure </td>
+                                 <td>5%</td>
+                                 <td>3%</td>
+                              </tr>
+                              <tr>
+                                 <td>Renal Failure Acute </td>
+                                 <td>2%</td>
+                                 <td>1%</td>
+                              </tr>
+                              <tr>
+                                 <td>Acute Respiratory Distress Syndrome </td>
+                                 <td>2%</td>
+                                 <td>1%</td>
+                              </tr>
+                              <tr>
+                                 <td>Generalized Edema </td>
+                                 <td>2%</td>
+                                 <td>6%</td>
+                              </tr>
+                              <tr>
+                                 <td>Hypomagnesemia </td>
+                                 <td>1%</td>
+                                 <td>7%</td>
+                              </tr>
+                           </tbody>
+                        </table>
+                        <paragraph>† Includes any type of hypertension<sup/>
+                        </paragraph>
+                        <paragraph>
+                           <sup>1 </sup>Hypotension was defined in absolute terms as Systolic blood pressure of &lt;80 mmHg or Diastolic blood pressure of &lt;50 mmHg or in relative terms as ≤30% lower than pre-study drug infusion value</paragraph>
+                        <paragraph>
+                           <sup>2 </sup>Bradycardia was defined in absolute terms as &lt;40 bpm or in relative terms as ≤30% lower than pre-study drug infusion value<sup/>
+                        </paragraph>
+                        <paragraph>
+                           <sup>3 </sup>Hypertension was defined in absolute terms as Systolic blood pressure &gt;180 mmHg or Diastolic blood pressure of &gt;100 mmHg or in relative terms as ≥30% higher than pre-study drug infusion value<sup/>
+                        </paragraph>
+                        <paragraph>
+                           <sup>4 </sup>Tachycardia was defined in absolute terms as &gt;120 bpm or in relative terms as ≥30% greater than pre-study drug infusion value</paragraph>
+                        <paragraph>The following adverse events occurred between 2 and 5% for dexmedetomidine hydrochloride in 0.9% sodium chloride injection and Midazolam, respectively: renal failure acute (2.5%, 0.8%), acute respiratory distress syndrome (2.5%, 0.8%), and respiratory failure (4.5%, 3.3%). </paragraph>
+                        <paragraph>
+                           <content styleCode="bold">Table 5: Number (%) of Adult Subjects Who Had a Dose-Related Increase in Treatment Emergent Adverse Events by Maintenance Adjusted Dose Rate Range in the Dexmedetomidine hydrochloride in 0.9% sodium chloride injection Group</content>
+                        </paragraph>
+                        <table>
+                           <tbody>
+                              <tr>
+                                 <td colspan="4">
+                                    <content styleCode="bold">Dexmedetomidine hydrochloride in 0.9% sodium chloride injection mcg/kg/hr</content>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td>
+                                    <content styleCode="bold">Adverse Event</content>
+                                 </td>
+                                 <td>
+                                    <content styleCode="bold">≤0.7*</content>
+                                    <br/>
+                                    <content styleCode="bold">(N = 95)</content>
+                                 </td>
+                                 <td>
+                                    <content styleCode="bold">&gt;0.7 to ≤1.1*</content>
+                                    <br/>
+                                    <content styleCode="bold">(N = 78)</content>
+                                 </td>
+                                 <td>
+                                    <content styleCode="bold">&gt;1.1*</content>
+                                    <br/>
+                                    <content styleCode="bold">(N = 71)</content>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td>Constipation </td>
+                                 <td>6%</td>
+                                 <td>5%</td>
+                                 <td>14%</td>
+                              </tr>
+                              <tr>
+                                 <td>Agitation </td>
+                                 <td>5%</td>
+                                 <td>8%</td>
+                                 <td>14%</td>
+                              </tr>
+                              <tr>
+                                 <td>Anxiety </td>
+                                 <td>5%</td>
+                                 <td>5%</td>
+                                 <td>9%</td>
+                              </tr>
+                              <tr>
+                                 <td>Edema Peripheral </td>
+                                 <td>3%</td>
+                                 <td>5%</td>
+                                 <td>7%</td>
+                              </tr>
+                              <tr>
+                                 <td>Atrial Fibrillation </td>
+                                 <td>2%</td>
+                                 <td>4%</td>
+                                 <td>9%</td>
+                              </tr>
+                              <tr>
+                                 <td>Respiratory Failure </td>
+                                 <td>2%</td>
+                                 <td>6%</td>
+                                 <td>10%</td>
+                              </tr>
+                              <tr>
+                                 <td>Acute Respiratory Distress Syndrome </td>
+                                 <td>1%</td>
+                                 <td>3%</td>
+                                 <td>9%</td>
+                              </tr>
+                           </tbody>
+                        </table>
+                        <paragraph>* Average maintenance dose over the entire study drug administration</paragraph>
+                        <paragraph>Procedural Sedation</paragraph>
+                        <paragraph>Adverse reaction information is derived from the two trials for procedural sedation [see Clinical Studies (<linkHtml href="#_2e66a898-8145-4f03-c8ca-e8b9d4acb8f9">14.2</linkHtml>)] in which 318 adult patients received dexmedetomidine hydrochloride in 0.9% sodium chloride injection. The mean total dose was 1.6 mcg/kg (range: 0.5 to 6.7), mean dose per hour was 1.3 mcg/kg/hr (range: 0.3 to 6.1) and the mean duration of infusion of 1.5 hours (range: 0.1 to 6.2). The population was between 18 to 93 years of age, ASA I-IV, 30% ≥65 years of age, 52% male and 61% Caucasian.</paragraph>
+                        <paragraph>Treatment-emergent adverse reactions occurring at an incidence of &gt;2% are provided in Table 6. The most frequent adverse reactions were hypotension, bradycardia, and dry mouth [see Warnings and Precautions (<linkHtml href="#_ba373780-fb85-dd62-91ed-de0adb1bff5f">5.2</linkHtml>)]. Pre-specified criteria for the vital signs to be reported as adverse reactions are footnoted below the table. The decrease in respiratory rate and hypoxia was similar between dexmedetomidine hydrochloride in 0.9% sodium chloride injection and comparator groups in both studies.</paragraph>
+                        <paragraph>
+                           <content styleCode="bold">Table 6: Adverse Reactions with an Incidence &gt; 2% - Procedural Sedation Population</content>
+                        </paragraph>
+                        <table>
+                           <tbody>
+                              <tr>
+                                 <td>
+                                    <content styleCode="bold">Adverse Event</content>
+                                 </td>
+                                 <td>
+                                    <content styleCode="bold">Dexmedetomidine hydrochloride in </content>
+                                    <br/>
+                                    <content styleCode="bold">0.9% sodium chloride injection </content>
+                                    <br/>
+                                    <content styleCode="bold">(N = 318) (%)</content>
+                                 </td>
+                                 <td>
+                                    <content styleCode="bold">Placebo </content>
+                                    <br/>
+                                    <content styleCode="bold">(N = 113) (%)</content>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td>Hypotension<sup>1</sup>
+                                 </td>
+                                 <td>54%</td>
+                                 <td>30%</td>
+                              </tr>
+                              <tr>
+                                 <td>Respiratory Depression<sup>2 </sup>
+                                 </td>
+                                 <td>37%</td>
+                                 <td>32%</td>
+                              </tr>
+                              <tr>
+                                 <td>Bradycardia<sup>3 </sup>
+                                 </td>
+                                 <td>14%</td>
+                                 <td>4%</td>
+                              </tr>
+                              <tr>
+                                 <td>Hypertension<sup>4</sup>
+                                 </td>
+                                 <td>13%</td>
+                                 <td>24%</td>
+                              </tr>
+                              <tr>
+                                 <td>Tachycardia<sup>5 </sup>
+                                 </td>
+                                 <td>5%</td>
+                                 <td>17%</td>
+                              </tr>
+                              <tr>
+                                 <td>Nausea </td>
+                                 <td>3%</td>
+                                 <td>2%</td>
+                              </tr>
+                              <tr>
+                                 <td>Dry Mouth </td>
+                                 <td>3%</td>
+                                 <td>1%</td>
+                              </tr>
+                              <tr>
+                                 <td>Hypoxia<sup>6 </sup>
+                                 </td>
+                                 <td>2%</td>
+                                 <td>3%</td>
+                              </tr>
+                              <tr>
+                                 <td>Bradypnea </td>
+                                 <td>2%</td>
+                                 <td>4%</td>
+                              </tr>
+                           </tbody>
+                        </table>
+                        <paragraph>
+                           <sup>1 </sup>Hypotension was defined in absolute and relative terms as Systolic blood pressure of &lt;80 mmHg or ≤30% lower than pre-study drug infusion value, or Diastolic blood pressure of &lt;50 mmHg<sup/>
+                        </paragraph>
+                        <paragraph>
+                           <sup>2 </sup>Respiratory depression was defined in absolute and relative terms as respiratory rate (RR) &lt;8 beats per minute or &gt; 25% decrease from baseline <sup/>
+                        </paragraph>
+                        <paragraph>
+                           <sup>3 </sup>Bradycardia was defined in absolute and relative terms as &lt;40 beats per minute or ≤30% lower than pre-study drug infusion value <sup/>
+                        </paragraph>
+                        <paragraph>
+                           <sup>4 </sup>Hypertension was defined in absolute and relative terms as Systolic blood pressure &gt;180 mmHg or ≥30% higher than pre-study drug infusion value or Diastolic blood pressure of &gt;100 mmHg</paragraph>
+                        <paragraph>
+                           <sup>5 </sup>Tachycardia was defined in absolute and relative terms as &gt;120 beats per minute or ≥30% greater than pre-study drug infusion value </paragraph>
+                        <paragraph>
+                           <sup>6 </sup>Hypoxia was defined in absolute and relative terms as SpO<sub>2</sub> &lt;90% or 10% decrease from baseline</paragraph>
+                        <paragraph/>
+                        <paragraph/>
+                     </text>
+                     <effectiveTime value="20200608"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="_ffe1ea86-055d-085f-59b6-1e3960b67427">
+                     <id root="ac57f537-0854-449c-a6c1-aa4df32f44f3"/>
+                     <code code="42229-5" displayName="SPL UNCLASSIFIED SECTION" codeSystem="2.16.840.1.113883.6.1"/>
+                     <title>
+                        <content styleCode="bold">6.2 Postmarketing Experience</content>
+                     </title>
+                     <text>
+                        <paragraph>The following adverse reactions have been identified during post-approval use of dexmedetomidine hydrochloride in 0.9% sodium chloride injection. Because these reactions are reported voluntarily from a population of uncertain size, it is not always possible to reliably estimate their frequency or establish a causal relationship to drug exposure. </paragraph>
+                        <paragraph>Hypotension and bradycardia were the most common adverse reactions associated with the use of dexmedetomidine hydrochloride in 0.9% sodium chloride injection during post-approval use of the drug.</paragraph>
+                        <paragraph>
+                           <content styleCode="bold">Table 7: Adverse Reactions Experienced During Post-Approval Use of d</content>
+                           <content styleCode="bold">exmedetomidine hydrochloride in 0.9% sodium chloride injection</content>
+                        </paragraph>
+                        <paragraph/>
+                        <table>
+                           <thead>
+                              <tr>
+                                 <td>
+                                    <content styleCode="bold">System Organ Class </content>
+                                 </td>
+                                 <td>
+                                    <content styleCode="bold">Preferred Term </content>
+                                 </td>
+                              </tr>
+                           </thead>
+                           <tbody>
+                              <tr>
+                                 <td>Blood and Lymphatic System Disorders </td>
+                                 <td>Anemia </td>
+                              </tr>
+                              <tr>
+                                 <td>Cardiac Disorders </td>
+                                 <td>Arrhythmia, atrial fibrillation, atrioventricular block, bradycardia, cardiac arrest, cardiac disorder, extrasystoles, myocardial infarction, supraventricular tachycardia, tachycardia, ventricular arrhythmia, ventricular tachycardia </td>
+                              </tr>
+                              <tr>
+                                 <td>Eye Disorders </td>
+                                 <td>Photopsia, visual impairment </td>
+                              </tr>
+                              <tr>
+                                 <td>Gastrointestinal Disorders </td>
+                                 <td>Abdominal pain, diarrhea, nausea, vomiting </td>
+                              </tr>
+                              <tr>
+                                 <td>General Disorders and Administration Site Conditions </td>
+                                 <td>Chills, hyperpyrexia, pain, pyrexia, thirst </td>
+                              </tr>
+                              <tr>
+                                 <td>Hepatobiliary Disorders </td>
+                                 <td>Hepatic function abnormal, hyperbilirubinemia </td>
+                              </tr>
+                              <tr>
+                                 <td>Investigations </td>
+                                 <td>Alanine aminotransferase increased, aspartate aminotransferase increased, blood alkaline phosphatase increased, blood urea increased, electrocardiogram T wave inversion, gammaglutamyltransferase increased, electrocardiogram QT prolonged</td>
+                              </tr>
+                              <tr>
+                                 <td>Metabolism and Nutrition Disorders </td>
+                                 <td>Acidosis, hyperkalemia, hypoglycemia, hypovolemia, hypernatremia</td>
+                              </tr>
+                              <tr>
+                                 <td>Nervous System Disorders </td>
+                                 <td>Convulsion, dizziness, headache, neuralgia, neuritis, speech disorder </td>
+                              </tr>
+                              <tr>
+                                 <td>Psychiatric Disorders </td>
+                                 <td>Agitation, confusional state, delirium, hallucination, illusion </td>
+                              </tr>
+                              <tr>
+                                 <td>Renal and Urinary Disorders </td>
+                                 <td>Oliguria, Polyuria</td>
+                              </tr>
+                              <tr>
+                                 <td>Respiratory, Thoracic and Mediastinal Disorders </td>
+                                 <td>Apnea, bronchospasm, dyspnea, hypercapnia, hypoventilation, hypoxia, pulmonary congestion, respiratory acidosis </td>
+                              </tr>
+                              <tr>
+                                 <td>Skin and Subcutaneous Tissue Disorders </td>
+                                 <td>Hyperhidrosis, pruritus, rash, utricaria</td>
+                              </tr>
+                              <tr>
+                                 <td>Surgical and Medical Procedures </td>
+                                 <td>Light anesthesia </td>
+                              </tr>
+                              <tr>
+                                 <td>Vascular Disorders  </td>
+                                 <td>Blood pressure fluctuation, hemorrhage, hypertension, hypotension </td>
+                              </tr>
+                           </tbody>
+                        </table>
+                     </text>
+                     <effectiveTime value="20200608"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="DRUG_INTERACTIONS">
+               <id root="a34d8631-da06-3bb5-56b5-35b3f8b4a860"/>
+               <code code="34073-7" displayName="DRUG INTERACTIONS SECTION" codeSystem="2.16.840.1.113883.6.1"/>
+               <title>7 DRUG INTERACTIONS</title>
+               <text>
+                  <paragraph/>
+               </text>
+               <effectiveTime value="20220701"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <paragraph>Anesthetics, Sedatives, Hypnotics, and Opioids: Enhancement of pharmacodynamic effects. Reduction in dosage of dexmedetomidine hydrochloride in 0.9% sodium chloride injection or the concomitant medication may be required. (<linkHtml href="#_c8811823-91f6-1eb4-829a-27ca67d93663">7.1</linkHtml>)</paragraph>
+                     </text>
+                  </highlight>
+               </excerpt>
+               <component>
+                  <section ID="_c8811823-91f6-1eb4-829a-27ca67d93663">
+                     <id root="d27b85e0-cb67-476e-81f0-343e4e7fa973"/>
+                     <code code="42229-5" displayName="SPL UNCLASSIFIED SECTION" codeSystem="2.16.840.1.113883.6.1"/>
+                     <title>
+                        <content styleCode="bold">7.1 Anesthetics, Sedatives, Hypnotics, Opioids</content>
+                     </title>
+                     <text>
+                        <paragraph>Co-administration of dexmedetomidine hydrochloride in 0.9% sodium chloride injection with anesthetics, sedatives, hypnotics, and opioids is likely to lead to an enhancement of effects. Specific studies have confirmed these effects with sevoflurane, isoflurane, propofol, alfentanil, and midazolam. No pharmacokinetic interactions between dexmedetomidine and isoflurane, propofol, alfentanil and midazolam have been demonstrated. However, due to possible pharmacodynamic interactions, when co-administered with dexmedetomidine, a reduction in dosage of dexmedetomidine hydrochloride in 0.9% sodium chloride injection or the concomitant anesthetic, sedative, hypnotic or opioid may be required.</paragraph>
+                     </text>
+                     <effectiveTime value="20200608"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="_1750ce58-b95c-208d-b1e4-e48c5ac7ffd9">
+                     <id root="6456d1d4-3a4e-bf0f-a5de-ef02f14e65db"/>
+                     <code code="42229-5" displayName="SPL UNCLASSIFIED SECTION" codeSystem="2.16.840.1.113883.6.1"/>
+                     <title>
+                        <content styleCode="bold">7.2 Neuromuscular Blockers</content>
+                     </title>
+                     <text>
+                        <paragraph>In one study of 10 healthy adult volunteers, administration of dexmedetomidine hydrochloride in 0.9% sodium chloride injection for 45 minutes at a plasma concentration of one ng/mL resulted in no clinically meaningful increases in the magnitude of neuromuscular blockade associated with rocuronium administration.</paragraph>
+                     </text>
+                     <effectiveTime value="20200608"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="USE_IN_SPECIFIC_POPULATIONS">
+               <id root="98f17f56-cd3f-8212-be10-c452bcbf5ce2"/>
+               <code code="43684-0" displayName="USE IN SPECIFIC POPULATIONS SECTION" codeSystem="2.16.840.1.113883.6.1"/>
+               <title>8 USE IN SPECIFIC POPULATIONS</title>
+               <text>
+                  <paragraph/>
+               </text>
+               <effectiveTime value="20220701"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <list>
+                           <item>Pregnancy: Based on animal data, may cause fetal harm. (<linkHtml href="#PREGNANCY">8.1) </linkHtml>
+                           </item>
+                           <item>Nursing Mothers: Caution should be exercised when administered to a nursing woman. (<linkHtml href="#NURSING_MOTHERS">8.3</linkHtml>)</item>
+                           <item>Geriatric Patients: Dose reduction should be considered. (<linkHtml href="#_6ca3d650-9505-8e93-827f-7e7577efd058">2.2</linkHtml>, <linkHtml href="#_d7c3b572-1b05-e31b-0b51-95da6bba009c">2.3</linkHtml>, <linkHtml href="#_ba373780-fb85-dd62-91ed-de0adb1bff5f">5.2</linkHtml>, <linkHtml href="#GERIATRIC_USE">8.5</linkHtml>) </item>
+                           <item>Hepatic Impairment: Dose reduction should be considered. (<linkHtml href="#_6ca3d650-9505-8e93-827f-7e7577efd058">2.2</linkHtml>, <linkHtml href="#_d7c3b572-1b05-e31b-0b51-95da6bba009c">2.3</linkHtml>, <linkHtml href="#_be00b775-6458-e793-a0af-cf8e8b3d799f">5.7</linkHtml>, <linkHtml href="#_e1daa7bb-65e4-af15-6edb-31faaca1cdb3">8.6</linkHtml>) </item>
+                        </list>
+                     </text>
+                  </highlight>
+               </excerpt>
+               <component>
+                  <section ID="PREGNANCY">
+                     <id root="3ea31a84-2a57-c7dd-d934-160a9ac4c25d"/>
+                     <code code="42228-7" displayName="PREGNANCY SECTION" codeSystem="2.16.840.1.113883.6.1"/>
+                     <title>8.1 Pregnancy</title>
+                     <text>
+                        <paragraph>
+                           <content styleCode="bold">Pregnancy Category C</content>
+                        </paragraph>
+                        <paragraph>There are no adequate and well-controlled studies of dexmedetomidine hydrochloride in 0.9% sodium chloride injection use in pregnant women. In an in vitro human placenta study, placental transfer of dexmedetomidine occurred. In a study in the pregnant rat, placental transfer of dexmedetomidine was observed when radiolabeled dexmedetomidine was administered subcutaneously. Thus, fetal exposure should be expected in humans, and dexmedetomidine hydrochloride in 0.9% sodium chloride injection should be used during pregnancy only if the potential benefits justify the potential risk to the fetus.</paragraph>
+                        <paragraph>Teratogenic effects were not observed in rats following subcutaneous administration of dexmedetomidine during the period of fetal organogenesis (from gestation day 5 to 16) with doses up to 200 mcg/kg (representing a dose approximately equal to the maximum recommended human intravenous dose based on body surface area) or in rabbits following intravenous administration of dexmedetomidine during the period of fetal organogenesis (from gestation day 6 to 18) with doses up to 96 mcg/kg (representing approximately half the human exposure at the maximum recommended dose based on plasma area under the time-curve comparison). However, fetal toxicity, as evidenced by increased post-implantation losses and reduced live pups, was observed in rats at a subcutaneous dose of 200 mcg/kg. The no-effect dose in rats was 20 mcg/kg (representing a dose less than the maximum recommended human intravenous dose based on a body surface area comparison). In another reproductive toxicity study when dexmedetomidine was administered subcutaneously to pregnant rats at 8 and 32 mcg/kg (representing a dose less than the maximum recommended human intravenous dose based on a body surface area comparison) from gestation day 16 through weaning, lower offspring weights were observed. Additionally, when offspring of the 32 mcg/kg group were allowed to mate, elevated fetal and embryocidal toxicity and delayed motor development was observed in second generation offspring.</paragraph>
+                     </text>
+                     <effectiveTime value="20200531"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LABOR_AND_DELIVERY">
+                     <id root="8b301541-bc69-09d7-c273-f00d58b250a7"/>
+                     <code code="34079-4" displayName="LABOR &amp; DELIVERY SECTION" codeSystem="2.16.840.1.113883.6.1"/>
+                     <title>8.2 Labor and Delivery</title>
+                     <text>
+                        <paragraph>The safety of dexmedetomidine hydrochloride in 0.9% sodium chloride injection during labor and delivery has not been studied</paragraph>
+                     </text>
+                     <effectiveTime value="20200531"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="NURSING_MOTHERS">
+                     <id root="6b112fe4-44ff-3501-cb75-fc24a0d4f5bd"/>
+                     <code code="34080-2" displayName="NURSING MOTHERS SECTION" codeSystem="2.16.840.1.113883.6.1"/>
+                     <title>8.3 Nursing Mothers</title>
+                     <text>
+                        <paragraph>It is not known whether dexmedetomidine is excreted in human milk. Radio-labeled dexmedetomidine administered subcutaneously to lactating female rats was excreted in milk. Because many drugs are excreted in human milk, caution should be exercised when dexmedetomidine hydrochloride in 0.9% sodium chloride injection is administered to a nursing woman. </paragraph>
+                     </text>
+                     <effectiveTime value="20200531"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="PEDIATRIC_USE">
+                     <id root="7ea51fde-872f-aeb8-98af-5c8459e8d026"/>
+                     <code code="34081-0" displayName="PEDIATRIC USE SECTION" codeSystem="2.16.840.1.113883.6.1"/>
+                     <title>8.4 Pediatric Use</title>
+                     <text>
+                        <paragraph>Safety and efficacy have not been established for Procedural or ICU Sedation in pediatric patients. One assessor-blinded trial in pediatric patients and two open label studies in neonates were conducted to assess efficacy for ICU sedation. These studies did not meet their primary efficacy endpoints and the safety data submitted were insufficient to fully characterize the safety profile of dexmedetomidine hydrochloride in 0.9% sodium chloride injection for this patient population The use of dexmedetomidine hydrochloride in 0.9% sodium chloride injection for procedural sedation in pediatric patients has not been evaluated. </paragraph>
+                     </text>
+                     <effectiveTime value="20200531"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="GERIATRIC_USE">
+                     <id root="53605d28-3c08-963b-9168-d78bfd0339c6"/>
+                     <code code="34082-8" displayName="GERIATRIC USE SECTION" codeSystem="2.16.840.1.113883.6.1"/>
+                     <title>8.5 Geriatric Use</title>
+                     <text>
+                        <paragraph>Intensive Care Unit Sedation</paragraph>
+                        <paragraph>A total of 729 patients in the clinical studies were 65 years of age and over. A total of 200 patients were 75 years of age and over. In patients greater than 65 years of age, a higher incidence of bradycardia and hypotension was observed following administration of dexmedetomidine hydrochloride in 0.9% sodium chloride injection [see Warnings and Precautions (<linkHtml href="#_ba373780-fb85-dd62-91ed-de0adb1bff5f">5.2</linkHtml>)]. Therefore, a dose reduction may be considered in patients over 65 years of age [see Dosage and Administration (<linkHtml href="#_6ca3d650-9505-8e93-827f-7e7577efd058">2.2</linkHtml>, <linkHtml href="#_d7c3b572-1b05-e31b-0b51-95da6bba009c">2.3</linkHtml>) and Clinical Pharmacology (<linkHtml href="#PHARMACOKINETICS">12.3</linkHtml>)].</paragraph>
+                        <paragraph>Procedural Sedation</paragraph>
+                        <paragraph>A total of 131 patients in the clinical studies were 65 years of age and over. A total of 47 patients were 75 years of age and over. Hypotension occurred in a higher incidence in dexmedetomidine-treated patients 65 years or older (72%) and 75 years or older (74%) as compared to patients &lt;65 years (47%). A reduced loading dose of 0.5 mcg/kg given over 10 minutes is recommended and a reduction in the maintenance infusion should be considered for patients greater than 65 years of age. </paragraph>
+                     </text>
+                     <effectiveTime value="20200531"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="_e1daa7bb-65e4-af15-6edb-31faaca1cdb3">
+                     <id root="0926fc85-f154-38cb-8b37-1b4eb8653c1e"/>
+                     <code code="42229-5" displayName="SPL UNCLASSIFIED SECTION" codeSystem="2.16.840.1.113883.6.1"/>
+                     <title>
+                        <content styleCode="bold">8.6 Hepatic Impairment </content>
+                     </title>
+                     <text>
+                        <paragraph>Since dexmedetomidine clearance decreases with increasing severity of hepatic impairment, dose reduction should be considered in patients with impaired hepatic function [see Dosage and Administration (<linkHtml href="#_6ca3d650-9505-8e93-827f-7e7577efd058">2.2</linkHtml>, <linkHtml href="#_d7c3b572-1b05-e31b-0b51-95da6bba009c">2.3</linkHtml>) and Clinical Pharmacology (<linkHtml href="#PHARMACOKINETICS">12.3</linkHtml>)].</paragraph>
+                     </text>
+                     <effectiveTime value="20200608"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="DRUG_ABUSE_AND_DEPENDENCE">
+               <id root="d953a784-2882-2cec-9786-5991d3e50c0f"/>
+               <code code="42227-9" displayName="DRUG ABUSE AND DEPENDENCE SECTION" codeSystem="2.16.840.1.113883.6.1"/>
+               <title>9 DRUG ABUSE AND DEPENDENCE</title>
+               <text>
+                  <paragraph/>
+               </text>
+               <effectiveTime value="20220701"/>
+               <component>
+                  <section ID="CONTROLLED_SUBSTANCE">
+                     <id root="e344a9d8-0dcb-99c1-713f-2eee14915ad7"/>
+                     <code code="34085-1" displayName="CONTROLLED SUBSTANCE SECTION" codeSystem="2.16.840.1.113883.6.1"/>
+                     <title>9.1 Controlled Substance</title>
+                     <text>
+                        <paragraph>Dexmedetomidine hydrochloride is not a controlled substance.</paragraph>
+                     </text>
+                     <effectiveTime value="20200531"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="DEPENDENCE">
+                     <id root="f5bae7f4-124e-ae00-89da-bbd39f68a8f9"/>
+                     <code code="34087-7" displayName="DEPENDENCE SECTION" codeSystem="2.16.840.1.113883.6.1"/>
+                     <title>9.3 Dependence</title>
+                     <text>
+                        <paragraph>The dependence potential of dexmedetomidine hydrochloride in 0.9% sodium chloride injection has not been studied in humans. However, since studies in rodents and primates have demonstrated that dexmedetomidine exhibits pharmacologic actions similar to those of clonidine, it is possible that dexmedetomidine hydrochloride in 0.9% sodium chloride injection may produce a clonidine-like withdrawal syndrome upon abrupt discontinuation [see Warnings and Precautions (<linkHtml href="#_619d5be6-3d10-eb63-a28b-77e36ff4e83a">5.5</linkHtml>)].</paragraph>
+                     </text>
+                     <effectiveTime value="20200531"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="OVERDOSAGE">
+               <id root="17ceb6ce-b44d-fe7b-f0d4-9a9af9d75279"/>
+               <code code="34088-5" displayName="OVERDOSAGE SECTION" codeSystem="2.16.840.1.113883.6.1"/>
+               <title>10 OVERDOSAGE</title>
+               <text>
+                  <paragraph>The tolerability of dexmedetomidine hydrochloride in 0.9% sodium chloride injection was studied in one study in which healthy adult subjects were administered doses at and above the recommended dose of 0.2 to 0.7 mcg/kg/hr. The maximum blood concentration achieved in this study was approximately 13 times the upper boundary of the therapeutic range. The most notable effects observed in two subjects who achieved the highest doses were first degree atrioventricular block and second degree heart block. No hemodynamic compromise was noted with the atrioventricular block and the heart block resolved spontaneously within one minute.</paragraph>
+                  <paragraph>Five adult patients received an overdose of dexmedetomidine hydrochloride in 0.9% sodium chloride injection in the intensive care unit sedation studies. Two of these patients had no symptoms reported; one patient received a 2 mcg/kg loading dose over 10 minutes (twice the recommended loading dose) and one patient received a maintenance infusion of 0.8 mcg/kg/hr. Two other patients who received a 2 mcg/kg loading dose over 10 minutes, experienced bradycardia and/or hypotension. One patient who received a loading bolus dose of undiluted dexmedetomidine (19.4 mcg/kg), had cardiac arrest from which he was successfully resuscitated.</paragraph>
+               </text>
+               <effectiveTime value="20220701"/>
+            </section>
+         </component>
+         <component>
+            <section ID="DESCRIPTION">
+               <id root="8c7c22aa-6bd1-1748-7a52-0abd997f0b86"/>
+               <code code="34089-3" displayName="DESCRIPTION SECTION" codeSystem="2.16.840.1.113883.6.1"/>
+               <title>11 DESCRIPTION</title>
+               <text>
+                  <paragraph>Dexmedetomidine hydrochloride in 0.9% sodium chloride injection is a sterile, nonpyrogenic ready to use solution suitable for intravenous infusion. Dexmedetomidine hydrochloride, USP is the S-enantiomer of medetomidine and is chemically described as (+)-4-(S)-[1-(2,3-dimethylphenyl)ethyl]-1H-imidazole monohydrochloride. Dexmedetomidine hydrochloride, USP has a molecular weight of 236.7 and the empirical formula is C<sub>13</sub>H<sub>16</sub>N<sub>2</sub>•HCl and the structural formula is:</paragraph>
+                  <paragraph/>
+                  <paragraph>Dexmedetomidine hydrochloride, USP is a white or almost white powder that is freely soluble in water and has a pKa of 7.1. Its partition coefficient in-octanol: water at pH 7.4 is 2.89.</paragraph>
+                  <paragraph>Dexmedetomidine hydrochloride in 0.9% sodium chloride injection is supplied as a clear, colorless, isotonic solution with a pH of 4.5 to 8.0. Each mL contains 4.72 mcg of dexmedetomidine hydrochloride, USP equivalent to 4 mcg (0.004 mg) of dexmedetomidine and 9 mg sodium chloride in water and is ready to be used. The solution is preservative-free and contains no additives or chemical stabilizers.</paragraph>
+                  <paragraph/>
+               </text>
+               <effectiveTime value="20220701"/>
+            </section>
+         </component>
+         <component>
+            <section ID="CLINICAL_PHARMACOLOGY">
+               <id root="480715f3-e149-4b89-8344-c3dc6b614b1e"/>
+               <code code="34090-1" displayName="CLINICAL PHARMACOLOGY SECTION" codeSystem="2.16.840.1.113883.6.1"/>
+               <title>12 CLINICAL PHARMACOLOGY</title>
+               <text>
+                  <paragraph/>
+               </text>
+               <effectiveTime value="20220701"/>
+               <component>
+                  <section ID="MECHANISM_OF_ACTION">
+                     <id root="d7f0eecd-24bf-46a7-ec08-ad7e29507ae0"/>
+                     <code code="43679-0" displayName="MECHANISM OF ACTION SECTION" codeSystem="2.16.840.1.113883.6.1"/>
+                     <title>12.1 Mechanism of Action</title>
+                     <text>
+                        <paragraph>Dexmedetomidine hydrochloride in 0.9% sodium chloride injection is a relatively selective alpha<sub>2</sub>-adrenergic agonist with sedative properties. Alpha<sub>2</sub> selectivity is observed in animals following slow intravenous infusion of low and medium doses (10-300 mcg/kg). Both alpha<sub>1</sub> and alpha<sub>2</sub> activity is observed following slow intravenous infusion of high doses (≥1,000 mcg/kg) or with rapid intravenous administration. </paragraph>
+                     </text>
+                     <effectiveTime value="20200531"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="PHARMACODYNAMICS">
+                     <id root="e1f1c898-39e4-1c6d-6e23-bf574bccf626"/>
+                     <code code="43681-6" displayName="PHARMACODYNAMICS SECTION" codeSystem="2.16.840.1.113883.6.1"/>
+                     <title>12.2 Pharmacodynamics</title>
+                     <text>
+                        <paragraph>In a study in healthy volunteers (N = 10), respiratory rate and oxygen saturation remained within normal limits and there was no evidence of respiratory depression when dexmedetomidine hydrochloride in 0.9% sodium chloride injection was administered by intravenous infusion at doses within the recommended dose range (0.2–0.7 mcg/kg/hr).</paragraph>
+                     </text>
+                     <effectiveTime value="20200531"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="PHARMACOKINETICS">
+                     <id root="d1eb5c51-808a-f3fb-d708-e8c65a5c46af"/>
+                     <code code="43682-4" displayName="PHARMACOKINETICS SECTION" codeSystem="2.16.840.1.113883.6.1"/>
+                     <title>12.3 Pharmacokinetics</title>
+                     <text>
+                        <paragraph>Following intravenous administration, dexmedetomidine exhibits the following pharmacokinetic parameters: a rapid distribution phase with a distribution half-life (t<sub>1/2</sub>) of approximately 6 minutes; a terminal elimination half-life (t<sub>1/2</sub>) of approximately 2 hours; and steady-state volume of distribution (Vss) of approximately 118 liters. Clearance is estimated to be approximately 39 L/h. The mean body weight associated with this clearance estimate was 72 kg.</paragraph>
+                        <paragraph>Dexmedetomidine exhibits linear pharmacokinetics in the dosage range of 0.2 to 0.7 mcg/kg/hr when administered by intravenous infusion for up to 24 hours. Table 8 shows the main pharmacokinetic parameters when dexmedetomidine hydrochloride in 0.9% sodium chloride injection was infused (after appropriate loading doses) at maintenance infusion rates of 0.17 mcg/kg/hr (target plasma concentration of 0.3 ng/mL) for 12 and 24 hours, 0.33 mcg/kg/hr (target plasma concentration of 0.6 ng/mL) for 24 hours, and 0.70 mcg/kg/hr (target plasma concentration of 1.25 ng/mL) for 24 hours.</paragraph>
+                        <paragraph>
+                           <content styleCode="bold">Table 8: Mean ± SD Pharmacokinetic Parameters</content>
+                        </paragraph>
+                        <table>
+                           <thead>
+                              <tr>
+                                 <td rowspan="4">
+                                    <content styleCode="bold">Parameter</content>
+                                 </td>
+                                 <td colspan="4">
+                                    <content styleCode="bold">Loading Infusion (min)/Total Infusion Duration (hrs)</content>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td>
+                                    <content styleCode="bold">10 min/12 hrs</content>
+                                 </td>
+                                 <td>
+                                    <content styleCode="bold">10 min/24 hrs</content>
+                                 </td>
+                                 <td>
+                                    <content styleCode="bold">10 min/24 hrs</content>
+                                 </td>
+                                 <td>
+                                    <content styleCode="bold">35 min/24 hrs</content>
+                                 </td>
+                              </tr>
+                              <tr align="center">
+                                 <td colspan="4">
+                                    <content styleCode="bold">Dexmedetomidine Target Plasma Concentration (ng/mL) and</content>
+                                    <br/>
+                                    <content styleCode="bold"> Dose</content>
+                                    <content styleCode="bold">(mcg/kg/hr)</content>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td>
+                                    <content styleCode="bold">0.3/0.17</content>
+                                 </td>
+                                 <td>
+                                    <content styleCode="bold">0.3/0.17</content>
+                                 </td>
+                                 <td>
+                                    <content styleCode="bold">0.6/0.33</content>
+                                 </td>
+                                 <td>
+                                    <content styleCode="bold">1.25/0.70</content>
+                                 </td>
+                              </tr>
+                           </thead>
+                           <tbody>
+                              <tr>
+                                 <td>
+                                    <content styleCode="bold">t</content>
+                                    <content styleCode="bold">
+                                       <sub>1/2</sub>
+                                    </content>
+                                    <content styleCode="bold">*, hour </content>
+                                 </td>
+                                 <td>1.78 ± 0.30</td>
+                                 <td>2.22 ± 0.59</td>
+                                 <td>2.23 ± 0.21</td>
+                                 <td>2.50 ± 0.61</td>
+                              </tr>
+                              <tr>
+                                 <td>
+                                    <content styleCode="bold">CL, liter/hour </content>
+                                 </td>
+                                 <td>46.3 ± 8.3</td>
+                                 <td>43.1 ± 6.5</td>
+                                 <td>35.3 ± 6.8</td>
+                                 <td>36.5 ± 7.5</td>
+                              </tr>
+                              <tr>
+                                 <td>
+                                    <content styleCode="bold">Vss, liter </content>
+                                 </td>
+                                 <td>88.7 ± 22.9</td>
+                                 <td>102.4 ± 20.3</td>
+                                 <td>93.6 ± 17.0</td>
+                                 <td>99.6 ± 17.8</td>
+                              </tr>
+                              <tr>
+                                 <td>
+                                    <content styleCode="bold">Avg Css #, ng/mL</content>
+                                 </td>
+                                 <td>0.27 ± 0.05</td>
+                                 <td>0.27 ± 0.05</td>
+                                 <td>0.67 ± 0.10</td>
+                                 <td>1.37 ± 0.20</td>
+                              </tr>
+                           </tbody>
+                        </table>
+                        <paragraph> Abbreviations: t<sub>1/2 </sub>= half life, CL = clearance, V<sub>ss</sub> = steady-state volume of distribution</paragraph>
+                        <paragraph>* Presented as harmonic mean and pseudo standard deviation.</paragraph>
+                        <paragraph># Mean Css = Average steady-state concentration of dexmedetomidine. The mean Css was calculated based on post-dose sampling from 2.5 to 9 hours samples for 12 hour infusion and post-dose sampling from 2.5 to 18 hours for 24 hour infusions.</paragraph>
+                        <paragraph>The loading doses for each of the above indicated groups were 0.5, 0.5, 1 and 2.2 mcg/kg, respectively.</paragraph>
+                        <paragraph>Dexmedetomidine pharmacokinetic parameters after dexmedetomidine hydrochloride in 0.9% sodium chloride injection maintenance doses of 0.2 to 1.4 mcg/kg/hr for &gt;24 hours were similar to the pharmacokinetic (PK) parameters after dexmedetomidine hydrochloride in 0.9% sodium chloride injection maintenance dosing for &lt; 24 hours in other studies. The values for clearance (CL), volume of distribution (V), and t<sub>1/2 </sub>were 39.4 L/hr, 152 L, and 2.67 hours, respectively. </paragraph>
+                        <paragraph>
+                           <content styleCode="underline">Distribution</content>
+                        </paragraph>
+                        <paragraph>The steady-state volume of distribution (Vss) of dexmedetomidine was approximately 118 liters. Dexmedetomidine protein binding was assessed in the plasma of normal healthy male and female subjects. The average protein binding was 94% and was constant across the different plasma concentrations tested. Protein binding was similar in males and females. The fraction of dexmedetomidine that was bound to plasma proteins was significantly decreased in subjects with hepatic impairment compared to healthy subjects.</paragraph>
+                        <paragraph>The potential for protein binding displacement of dexmedetomidine by fentanyl, ketorolac, theophylline, digoxin and lidocaine was explored in vitro, and negligible changes in the plasma protein binding of dexmedetomidine were observed. The potential for protein binding displacement of phenytoin, warfarin, ibuprofen, propranolol, theophylline and digoxin by dexmedetomidine was explored in vitro and none of these compounds appeared to be significantly displaced by dexmedetomidine hydrochloride in 0.9% sodium chloride injection.</paragraph>
+                        <paragraph>Elimination </paragraph>
+                        <paragraph>Metabolism</paragraph>
+                        <paragraph>Dexmedetomidine undergoes almost complete biotransformation with very little unchanged dexmedetomidine excreted in urine and feces. Biotransformation involves both direct glucuronidation as well as cytochrome P450 mediated metabolism. The major metabolic pathways of dexmedetomidine are: direct N-glucuronidation to inactive metabolites; aliphatic hydroxylation (mediated primarily by CYP2A6 with a minor role of CYP1A2, CYP2E1, CYP2D6 and CYP2C19) of dexmedetomidine to generate 3-hydroxy-dexmedetomidine, the glucuronide of 3-hydroxydexmedetomidine, and 3-carboxy-dexmedetomidine; and N-methylation of dexmedetomidine to generate 3-hydroxy N-methyl-dexmedetomidine, 3-carboxy N-methyl-dexmedetomidine, and dexmedetomidine-N-methyl O-glucuronide.</paragraph>
+                        <paragraph>Excretion</paragraph>
+                        <paragraph>The terminal elimination half-life (t<sub>1/2</sub>) of dexmedetomidine is approximately 2 hours and clearance is estimated to be approximately 39 L/h. A mass balance study demonstrated that after nine days an average of 95% of the radioactivity, following intravenous administration of radiolabeled dexmedetomidine, was recovered in the urine and 4% in the feces. No unchanged dexmedetomidine was detected in the urine. Approximately 85% of the radioactivity recovered in the urine was excreted within 24 hours after the infusion. Fractionation of the radioactivity excreted in urine demonstrated that products of N-glucuronidation accounted for approximately 34% of the cumulative urinary excretion. In addition, aliphatic hydroxylation of parent drug to form 3-hydroxy-dexmedetomidine, the glucuronide of 3-hydroxy-dexmedetomidine, and 3-carboxylic acid-dexmedetomidine together represented approximately 14% of the dose in urine. N-methylation of dexmedetomidine to form 3-hydroxy N-methyl dexmedetomidine, 3-carboxy N-methyl dexmedetomidine, and N-methyl O-glucuronide dexmedetomidine accounted for approximately 18% of the dose in urine. The N-Methyl metabolite itself was a minor circulating component and was undetected in urine. Approximately 28% of the urinary metabolites have not been identified.</paragraph>
+                        <paragraph>Specific Populations </paragraph>
+                        <paragraph>Male and Female Patients </paragraph>
+                        <paragraph>There was no observed difference in dexmedetomidine pharmacokinetics due to gender.</paragraph>
+                        <paragraph>Geriatric patients</paragraph>
+                        <paragraph>The pharmacokinetic profile of dexmedetomidine was not altered by age. There were no differences in the pharmacokinetics of dexmedetomidine in young (18–40 years), middle age (41–65 years), and elderly (&gt;65 years) subjects.</paragraph>
+                        <paragraph>Patients with Hepatic Impairment</paragraph>
+                        <paragraph>In subjects with varying degrees of hepatic impairment (Child-Pugh Class A, B, or C), clearance values for dexmedetomidine were lower than in healthy subjects. The mean clearance values for patients with mild, moderate, and severe hepatic impairment were 74%, 64% and 53% of those observed in the normal healthy subjects, respectively. Mean clearances for free drug were 59%, 51% and 32% of those observed in the normal healthy subjects, respectively.</paragraph>
+                        <paragraph>Although dexmedetomidine hydrochloride in 0.9% sodium chloride injection is dosed to effect, it may be necessary to consider dose reduction in subjects with hepatic impairment [see Dosage and Administration (<linkHtml href="#_6ca3d650-9505-8e93-827f-7e7577efd058">2.2</linkHtml>), Warnings and Precautions (<linkHtml href="#_be00b775-6458-e793-a0af-cf8e8b3d799f">5.7</linkHtml>)].</paragraph>
+                        <paragraph>Patients with Renal Impairment</paragraph>
+                        <paragraph>Dexmedetomidine pharmacokinetics (C<sub>max</sub>, T<sub>max</sub>, AUC, t<sub>1/2</sub>, CL, and Vss) were not significantly different in patients with severe renal impairment (creatinine clearance: &lt;30 mL/min) compared to healthy subjects.</paragraph>
+                        <paragraph>Drug Interaction studies </paragraph>
+                        <paragraph>
+                           <content styleCode="italics">In vitro</content> studies: <content styleCode="italics">In vitro</content> studies in human liver microsomes demonstrated no evidence of cytochrome P450 mediated drug interactions that are likely to be of clinical relevance.</paragraph>
+                        <paragraph/>
+                        <paragraph/>
+                     </text>
+                     <effectiveTime value="20200531"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="NONCLINICAL_TOXICOLOGY">
+               <id root="0bbeb22e-b33a-76b7-5029-3fe3ca474b8a"/>
+               <code code="43680-8" displayName="NONCLINICAL TOXICOLOGY SECTION" codeSystem="2.16.840.1.113883.6.1"/>
+               <title>13 NONCLINICAL TOXICOLOGY</title>
+               <text>
+                  <paragraph/>
+               </text>
+               <effectiveTime value="20220701"/>
+               <component>
+                  <section ID="CARCINOGENESIS_AND_MUTAGENESIS_AND_IMPAIRMENT_OF_FERTILITY">
+                     <id root="22983e8b-2721-2cf1-617b-6f991a8a9fda"/>
+                     <code code="34083-6" displayName="CARCINOGENESIS &amp; MUTAGENESIS &amp; IMPAIRMENT OF FERTILITY SECTION" codeSystem="2.16.840.1.113883.6.1"/>
+                     <title>13.1 Carcinogenesis, Mutagenesis, Impairment Of Fertility</title>
+                     <text>
+                        <paragraph>Carcinogenesis</paragraph>
+                        <paragraph>Animal carcinogenicity studies have not been performed with dexmedetomidine. </paragraph>
+                        <paragraph>Mutagenesis</paragraph>
+                        <paragraph>Dexmedetomidine was not mutagenic<content styleCode="italics"> in vitro</content>, in either the bacterial reverse mutation assay (E. coli and Salmonella typhimurium) or the mammalian cell forward mutation assay (mouse lymphoma). Dexmedetomidine was clastogenic in the in vitro human lymphocyte chromosome aberration test with, but not without, rat S9 metabolic activation. In contrast, dexmedetomidine was not clastogenic in the<content styleCode="italics"> in vitro</content> human lymphocyte chromosome aberration test with or without human S9 metabolic activation. Although dexmedetomidine was clastogenic in an <content styleCode="italics">in vivo</content> mouse micronucleus test in NMRI mice, there was no evidence of clastogenicity in CD-1 mice.</paragraph>
+                        <paragraph>
+                           <content styleCode="underline">Impairment of Fertility</content>
+                        </paragraph>
+                        <paragraph>Fertility in male or female rats was not affected after daily subcutaneous injections of dexmedetomidine at doses up to 54 mcg/kg (less than the maximum recommended human intravenous dose on a mcg/m<sup>2 </sup>basis) administered from 10 weeks prior to mating in males, and 3 weeks prior to mating and during mating in females.</paragraph>
+                        <paragraph/>
+                     </text>
+                     <effectiveTime value="20200531"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ANIMAL_PHARMACOLOGY_AND_OR_TOXICOLOGY_SECTION">
+                     <id root="88fa0d4e-3dc0-e306-0c54-ff30a4d92e91"/>
+                     <code code="34091-9" displayName="ANIMAL PHARMACOLOGY &amp; OR TOXICOLOGY SECTION" codeSystem="2.16.840.1.113883.6.1"/>
+                     <title>13.2 Animal Pharmacology and/or Toxicology</title>
+                     <text>
+                        <paragraph>There were no differences in the adrenocorticotropic hormone (ACTH)-stimulated cortisol response in dogs following a single dose of dexmedetomidine compared to saline control. However, after continuous subcutaneous infusions of dexmedetomidine at 3 mcg/kg/hr and 10 mcg/kg/hr for one week in dogs (exposures estimated to be within the clinical range), the ACTH-stimulated cortisol response was diminished by approximately 27% and 40%, respectively, compared to saline-treated control animals indicating a dose-dependent adrenal suppression.</paragraph>
+                     </text>
+                     <effectiveTime value="20200531"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="CLINICAL_STUDIES">
+               <id root="e7bbccc3-7442-f266-280c-f86a43c4ee45"/>
+               <code code="34092-7" displayName="CLINICAL STUDIES SECTION" codeSystem="2.16.840.1.113883.6.1"/>
+               <title>14 CLINICAL STUDIES</title>
+               <text>
+                  <paragraph>The safety and efficacy of dexmedetomidine hydrochloride in 0.9% sodium chloride injection has been evaluated in four  randomized, double-blind, placebo-controlled multicenter clinical trials in 1,185 adult patients.</paragraph>
+               </text>
+               <effectiveTime value="20220701"/>
+               <component>
+                  <section ID="_4de90b81-319c-1ec1-82d6-d34bd88ed4e0">
+                     <id root="52b949a5-e101-c026-5687-d1d0eb255e0f"/>
+                     <code code="42229-5" displayName="SPL UNCLASSIFIED SECTION" codeSystem="2.16.840.1.113883.6.1"/>
+                     <title>
+                        <content styleCode="bold">14.1 Intensive Care Unit Sedation</content>
+                     </title>
+                     <text>
+                        <paragraph>Two randomized, double-blind, parallel-group, placebo-controlled multicenter clinical trials included 754 adult patients being treated in a surgical intensive care unit. All patients were initially intubated and received mechanical ventilation. These trials evaluated the sedative properties of dexmedetomidine hydrochloride in 0.9% sodium chloride injection by comparing the amount of rescue medication (midazolam in one trial and propofol in the second) required to achieve a specified level of sedation (using the standardized Ramsay Sedation Scale) between dexmedetomidine hydrochloride in 0.9% sodium chloride injection and placebo from onset of treatment to extubation or to a total treatment duration of 24 hours. The Ramsay Level of Sedation Scale is displayed in Table 9.</paragraph>
+                        <paragraph>
+                           <content styleCode="bold">Table 9: Ramsay Level of Sedation Scale</content>
+                        </paragraph>
+                        <table>
+                           <tbody>
+                              <tr>
+                                 <td>
+                                    <content styleCode="bold">Clinical Score</content>
+                                 </td>
+                                 <td>
+                                    <content styleCode="bold">Level of Sedation Achieved</content>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td>
+                                    <content styleCode="bold">6</content>
+                                 </td>
+                                 <td>Asleep, no response</td>
+                              </tr>
+                              <tr>
+                                 <td>
+                                    <content styleCode="bold">5</content>
+                                 </td>
+                                 <td>Asleep, sluggish response to light glabellar tap or loud auditory stimulus </td>
+                              </tr>
+                              <tr>
+                                 <td>
+                                    <content styleCode="bold">4</content>
+                                 </td>
+                                 <td>Asleep, but with brisk response to light glabellar tap or loud auditory stimulus </td>
+                              </tr>
+                              <tr>
+                                 <td>
+                                    <content styleCode="bold">3</content>
+                                 </td>
+                                 <td>Patient responds to commands </td>
+                              </tr>
+                              <tr>
+                                 <td>
+                                    <content styleCode="bold">2</content>
+                                 </td>
+                                 <td>Patient cooperative, oriented, and tranquil </td>
+                              </tr>
+                              <tr>
+                                 <td>
+                                    <content styleCode="bold">1</content>
+                                 </td>
+                                 <td>Patient anxious, agitated, or restless </td>
+                              </tr>
+                           </tbody>
+                        </table>
+                        <paragraph>In the first study, 175 adult patients were randomized to receive placebo and 178 to receive dexmedetomidine hydrochloride in 0.9% sodium chloride injection by intravenous infusion at a dose of 0.4 mcg/kg/hr (with allowed adjustment between 0.2 and 0.7 mcg/kg/hr) following an initial loading infusion of one mcg/kg intravenous over 10 minutes. The study drug infusion rate was adjusted to maintain a Ramsay sedation score of ≥3. Patients were allowed to receive “rescue” midazolam as needed to augment the study drug infusion. In addition, morphine sulfate was administered for pain as needed. The primary outcome measure for this study was the total amount of rescue medication (midazolam) needed to maintain sedation as specified while intubated. Patients randomized to placebo received significantly more midazolam than patients randomized to dexmedetomidine hydrochloride in 0.9% sodium chloride injection (see Table 10).</paragraph>
+                        <paragraph>A second prospective primary analysis assessed the sedative effects of dexmedetomidine hydrochloride in 0.9% sodium chloride injection by comparing the percentage of patients who achieved a Ramsay sedation score of ≥3 during intubation without the use of additional rescue medication. A significantly greater percentage of patients in the dexmedetomidine hydrochloride group maintained a Ramsay sedation score of ≥3 without receiving any midazolam rescue compared to the placebo group (see Table 10).</paragraph>
+                        <paragraph>
+                           <content styleCode="bold">Table 10: Midazolam Use as Rescue Medication During Intubation (ITT) Study One</content>
+                        </paragraph>
+                        <paragraph/>
+                        <table>
+                           <tbody>
+                              <tr>
+                                 <td/>
+                                 <td>
+                                    <content styleCode="bold">Placebo</content>
+                                    <br/>
+                                    <content styleCode="bold">(N = 175)</content>
+                                 </td>
+                                 <td>
+                                    <content styleCode="bold">Dexmedetomidine hydrochloride in</content>
+                                    <br/>
+                                    <content styleCode="bold"> 0.9% sodium chloride injection </content>
+                                    <br/>
+                                    <content styleCode="bold">(N = 178)</content>
+                                 </td>
+                                 <td>
+                                    <content styleCode="bold">p-value</content>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td>
+                                    <content styleCode="bold">Mean Total Dose (mg) of Midazolam</content>
+                                    <br/>Standard deviation</td>
+                                 <td> 19 mg <br/>53 mg</td>
+                                 <td> 5 mg <br/>19 mg</td>
+                                 <td> 0.0011*</td>
+                              </tr>
+                              <tr>
+                                 <td colspan="4">
+                                    <content styleCode="bold">Categorized Midazolam Use</content>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td>0 mg</td>
+                                 <td>43 (25%)</td>
+                                 <td>108 (61%)</td>
+                                 <td>&lt;0.001**</td>
+                              </tr>
+                              <tr>
+                                 <td>0–4 mg</td>
+                                 <td>34 (19%)</td>
+                                 <td>36 (20%)</td>
+                                 <td/>
+                              </tr>
+                              <tr>
+                                 <td>&gt;4 mg</td>
+                                 <td>98 (56%)</td>
+                                 <td>34 (19%)</td>
+                                 <td/>
+                              </tr>
+                           </tbody>
+                        </table>
+                        <paragraph>ITT (intent-to-treat) population includes all randomized patients.</paragraph>
+                        <paragraph> * ANOVA model with treatment center. </paragraph>
+                        <paragraph>** Chi-square.</paragraph>
+                        <paragraph>A prospective secondary analysis assessed the dose of morphine sulfate administered to patients in the dexmedetomidine hydrochloride in 0.9% sodium chloride injection and placebo groups. On average, dexmedetomidine hydrochloride in 0.9% sodium chloride injection-treated patients received less morphine sulfate for pain than placebo-treated patients (0.47 versus 0.83 mg/h). In addition, 44% (79 of 178 patients) of dexmedetomidine hydrochloride in 0.9% sodium chloride injection patients received no morphine sulfate for pain versus 19% (33 of 175 patients) in the placebo group.</paragraph>
+                        <paragraph>In a second study, 198 adult patients were randomized to receive placebo and 203 to receive dexmedetomidine hydrochloride in 0.9% sodium chloride injection by intravenous infusion at a dose of 0.4 mcg/kg/hr (with allowed adjustment between 0.2 and 0.7 mcg/kg/hr) following an initial loading infusion of one mcg/kg intravenous over 10 minutes. The study drug infusion was adjusted to maintain a Ramsay sedation score of ≥3. Patients were allowed to receive “rescue” propofol as needed to augment the study drug infusion. In addition, morphine sulfate was administered as needed for pain. The primary outcome measure for this study was the total amount of rescue medication (propofol) needed to maintain sedation as specified while intubated. </paragraph>
+                        <paragraph>Patients randomized to placebo received significantly more propofol than patients randomized to dexmedetomidine hydrochloride in 0.9% sodium chloride injection (see Table 11).</paragraph>
+                        <paragraph>A significantly greater percentage of patients in the dexmedetomidine hydrochloride in 0.9% sodium chloride injection group compared to the placebo group maintained a Ramsay sedation score of ≥3 without receiving any propofol rescue (see Table 11).</paragraph>
+                        <paragraph>
+                           <content styleCode="bold">Table 11: Propofol Use as Rescue Medication During Intubation (ITT) Study Two</content>
+                        </paragraph>
+                        <table>
+                           <tbody>
+                              <tr>
+                                 <td/>
+                                 <td>
+                                    <content styleCode="bold">Placebo</content>
+                                    <br/>
+                                    <content styleCode="bold">(N = 198)</content>
+                                 </td>
+                                 <td align="center">
+                                    <content styleCode="bold">Dexmedetomidine hydrochloride in</content>
+                                    <br/>
+                                    <content styleCode="bold"> 0.9% sodium chloride injection</content>
+                                    <br/>
+                                    <content styleCode="bold">(N = 203)</content>
+                                 </td>
+                                 <td>
+                                    <content styleCode="bold">p-value</content>
+                                 </td>
+                              </tr>
+                              <tr align="center">
+                                 <td>
+                                    <content styleCode="bold">Mean Total Dose (mg) of Propofol</content>Standard deviation</td>
+                                 <td>513 mg <br/>782 mg</td>
+                                 <td>72 mg <br/>249 mg</td>
+                                 <td>&lt;0.0001*</td>
+                              </tr>
+                              <tr>
+                                 <td colspan="4">
+                                    <content styleCode="bold">Categorized Propofol Use</content>
+                                 </td>
+                              </tr>
+                              <tr align="center">
+                                 <td>0 mg</td>
+                                 <td>47 (24%)</td>
+                                 <td>122 (60%)</td>
+                                 <td>&lt;0.001**</td>
+                              </tr>
+                              <tr align="center">
+                                 <td>0–50 mg</td>
+                                 <td>30 (15%)</td>
+                                 <td>43 (21%)</td>
+                                 <td/>
+                              </tr>
+                              <tr align="center">
+                                 <td>&gt;50 mg</td>
+                                 <td>121 (61%)</td>
+                                 <td>38 (19%)</td>
+                                 <td/>
+                              </tr>
+                           </tbody>
+                        </table>
+                        <paragraph>* ANOVA model with treatment center</paragraph>
+                        <paragraph>** Chi-square</paragraph>
+                        <paragraph>A prospective secondary analysis assessed the dose of morphine sulfate administered to patients in the dexmedetomidine hydrochloride in 0.9% sodium chloride injection and placebo groups. On average, dexmedetomidine hydrochloride in 0.9% sodium chloride injection-treated patients received less morphine sulfate for pain than placebo-treated patients (0.43 versus 0.89 mg/h). In addition, 41% (83 of 203 patients) of dexmedetomidine hydrochloride in 0.9% sodium chloride injection patients received no morphine sulfate for pain versus 15% (30 of 198 patients) in the placebo group.</paragraph>
+                        <paragraph>In a controlled clinical trial, dexmedetomidine hydrochloride in 0.9% sodium chloride injection was compared to midazolam for ICU sedation exceeding 24 hours duration. Dexmedetomidine hydrochloride in 0.9% sodium chloride injection was not shown to be superior to midazolam for the primary efficacy endpoint, the percent of time patients were adequately sedated (81% versus 81%). In addition, administration of dexmedetomidine hydrochloride in 0.9% sodium chloride injection for longer than 24 hours was associated with tolerance, tachyphylaxis, and a dose-related increase in adverse events [see Adverse Reactions (<linkHtml href="#_e6b2eb3f-ecb0-b7c4-9661-e0c34fa066d5">6.1</linkHtml>)]. </paragraph>
+                        <paragraph/>
+                        <paragraph/>
+                        <paragraph/>
+                        <paragraph/>
+                     </text>
+                     <effectiveTime value="20200608"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="_2e66a898-8145-4f03-c8ca-e8b9d4acb8f9">
+                     <id root="5c7c5444-e960-eb5e-a25b-136f1a532deb"/>
+                     <code code="42229-5" displayName="SPL UNCLASSIFIED SECTION" codeSystem="2.16.840.1.113883.6.1"/>
+                     <title>
+                        <content styleCode="bold">14.2 Procedural Sedation </content>
+                     </title>
+                     <text>
+                        <paragraph>The safety and efficacy of dexmedetomidine hydrochloride in 0.9% sodium chloride injection for sedation of non-intubated patients prior to and/or during surgical and other procedures was evaluated in two randomized, double-blind, placebo-controlled multicenter clinical trials. Study 1 evaluated the sedative properties of dexmedetomidine in patients having a variety of elective surgeries/procedures performed under monitored anesthesia care. Study 2 evaluated dexmedetomidine hydrochloride in 0.9% sodium chloride injection in patients undergoing awake fiberoptic intubation prior to a surgical or diagnostic procedure. </paragraph>
+                        <paragraph>In Study 1, the sedative properties of dexmedetomidine hydrochloride in 0.9% sodium chloride injection were evaluated by comparing the percent of patients not requiring rescue midazolam to achieve a specified level of sedation using the standardized Observer’s Assessment of Alertness/Sedation Scale (see Table 12). </paragraph>
+                        <paragraph>
+                           <content styleCode="bold">Table 12: Observer’s Assessment of Alertness/Sedation</content>
+                        </paragraph>
+                        <table>
+                           <thead>
+                              <tr>
+                                 <td colspan="5">
+                                    <content styleCode="bold">Assessment Categories</content>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td>
+                                    <content styleCode="bold">Responsiveness</content>
+                                 </td>
+                                 <td>
+                                    <content styleCode="bold">Speech</content>
+                                 </td>
+                                 <td>
+                                    <content styleCode="bold">Facial Expression</content>
+                                 </td>
+                                 <td>
+                                    <content styleCode="bold">Eyes</content>
+                                 </td>
+                                 <td>
+                                    <content styleCode="bold">Composite Score</content>
+                                 </td>
+                              </tr>
+                           </thead>
+                           <tbody>
+                              <tr>
+                                 <td>Responds readily to name spoken <br/>in normal tone</td>
+                                 <td>Normal </td>
+                                 <td>Normal </td>
+                                 <td>Clear, no ptosis </td>
+                                 <td>5 (alert)  </td>
+                              </tr>
+                              <tr>
+                                 <td>Lethargic response to name spoken <br/>in normal tone </td>
+                                 <td>Mild slowing or thickening </td>
+                                 <td>Mild relaxation </td>
+                                 <td>Glazed or mild ptosis<br/> (less than half the eye) </td>
+                                 <td>4</td>
+                              </tr>
+                              <tr>
+                                 <td>Responds only after name is called <br/>loudly and/or repeatedly</td>
+                                 <td>Slurring or prominent slowing </td>
+                                 <td>Marked relaxation <br/>(slack jaw) </td>
+                                 <td>Glazed and marked ptosis<br/> (half the eye or more) </td>
+                                 <td>3</td>
+                              </tr>
+                              <tr>
+                                 <td>Responds only after mild prodding <br/>or shaking</td>
+                                 <td>Few recognizable words </td>
+                                 <td>– </td>
+                                 <td>– </td>
+                                 <td>2</td>
+                              </tr>
+                              <tr>
+                                 <td>Does not respond to mild prodding<br/> or shaking</td>
+                                 <td>– </td>
+                                 <td>– </td>
+                                 <td>– </td>
+                                 <td>1 (deep sleep) </td>
+                              </tr>
+                           </tbody>
+                        </table>
+                        <paragraph>Patients were randomized to receive a loading infusion of either dexmedetomidine hydrochloride in 0.9% sodium chloride injection 1 mcg/kg, dexmedetomidine hydrochloride in 0.9% sodium chloride injection 0.5 mcg/kg, or placebo (normal saline) given over 10 minutes and followed by a maintenance infusion started at 0.6 mcg/kg/hr. The maintenance infusion of study drug could be titrated from 0.2 mcg/kg/hr to 1 mcg/kg/hr to achieve the targeted sedation score (Observer’s Assessment of Alertness/Sedation Scale ≤4). Patients were allowed to receive rescue midazolam as needed to achieve and/or maintain an Observer’s Assessment of Alertness/Sedation Scale ≤4. After achieving the desired level of sedation, a local or regional anesthetic block was performed. Demographic characteristics were similar between the dexmedetomidine hydrochloride in 0.9% sodium chloride injection and comparator groups. Efficacy results showed that dexmedetomidine hydrochloride in 0.9% sodium chloride injection was more effective than the comparator group when used to sedate non-intubated patients requiring monitored anesthesia care during surgical and other procedures (see Table 13).</paragraph>
+                        <paragraph>In Study 2, the sedative properties of dexmedetomidine hydrochloride in 0.9% sodium chloride injection were evaluated by comparing the percent of patients requiring rescue midazolam to achieve or maintain a specified level of sedation using the Ramsay Sedation Scale score ≥2 (see Table 9). Patients were randomized to receive a loading infusion of dexmedetomidine hydrochloride in 0.9% sodium chloride injection 1 mcg/kg or placebo (normal saline) given over 10 minutes and followed by a fixed maintenance infusion of 0.7 mcg/kg/hr. After achieving the desired level of sedation, topicalization of the airway occurred. Patients were allowed to receive rescue midazolam as needed to achieve and/or maintain a Ramsay Sedation Scale ≥2. Demographic characteristics were similar between the dexmedetomidine hydrochloride in 0.9% sodium chloride injection and comparator groups. For efficacy results see Table 13. </paragraph>
+                        <paragraph>
+                           <content styleCode="bold">Table 13: Key Efficacy Results of Procedural Sedation Studies</content>
+                        </paragraph>
+                        <table>
+                           <tbody>
+                              <tr>
+                                 <td>
+                                    <content styleCode="bold">Study</content>
+                                 </td>
+                                 <td>
+                                    <content styleCode="bold">Loading Infusion Treatment Arm</content>
+                                 </td>
+                                 <td>
+                                    <content styleCode="bold">Number of Patients Enrolled<sup>a</sup>
+                                    </content>
+                                 </td>
+                                 <td>
+                                    <content styleCode="bold">% Not Requiring Midazolam Rescue</content>
+                                 </td>
+                                 <td>
+                                    <content styleCode="bold">Confidence<sup>b</sup> Interval on the Difference vs. Placebo</content>
+                                 </td>
+                                 <td>
+                                    <content styleCode="bold">Mean (SD) Total Dose (mg) of </content>
+                                    <br/>
+                                    <content styleCode="bold">Rescue Midazolam Required</content>
+                                 </td>
+                                 <td>
+                                    <content styleCode="bold">Confidence<sup>b</sup>
+                                    </content>
+                                    <br/>
+                                    <content styleCode="bold">Intervals of the Mean Rescue Dose</content>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td rowspan="3">
+                                    <content styleCode="bold">Study1</content>
+                                 </td>
+                                 <td>Dexmedetomidine 0.5 mcg/kg </td>
+                                 <td>134 </td>
+                                 <td>40 </td>
+                                 <td>37 (27, 48) </td>
+                                 <td>1.4 (1.7) </td>
+                                 <td>-2.7 (-3.4, -2.0) </td>
+                              </tr>
+                              <tr>
+                                 <td>Dexmedetomidine 1 mcg/kg </td>
+                                 <td>129 </td>
+                                 <td>54 </td>
+                                 <td>51 (40, 62) </td>
+                                 <td>0.9 (1.5) </td>
+                                 <td>-3.1 (-3.8, -2.5) </td>
+                              </tr>
+                              <tr>
+                                 <td>Placebo</td>
+                                 <td>63 </td>
+                                 <td>3 </td>
+                                 <td>– </td>
+                                 <td>4.1 (3.0) </td>
+                                 <td>– </td>
+                              </tr>
+                              <tr>
+                                 <td rowspan="2">
+                                    <content styleCode="bold">Study2</content>
+                                 </td>
+                                 <td>Dexmedetomidine 1 mcg/kg </td>
+                                 <td>55 </td>
+                                 <td>53 </td>
+                                 <td>39 (20, 57) </td>
+                                 <td>1.1 (1.5) </td>
+                                 <td>-1.8 (-2.7, -0.9) </td>
+                              </tr>
+                              <tr>
+                                 <td>Placebo</td>
+                                 <td>50 </td>
+                                 <td>14 </td>
+                                 <td>– </td>
+                                 <td>2.9 (3.0) </td>
+                                 <td>– </td>
+                              </tr>
+                           </tbody>
+                        </table>
+                        <paragraph>
+                           <sup>a </sup>Based on ITT population defined as all randomized and treated patients <sup/>
+                        </paragraph>
+                        <paragraph>
+                           <sup>b </sup>Normal approximation to the binomial with continuity correction</paragraph>
+                     </text>
+                     <effectiveTime value="20200608"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="HOW_SUPPLIED">
+               <id root="f73a09a7-4829-144b-370d-b1203e70e4d5"/>
+               <code code="34069-5" displayName="HOW SUPPLIED SECTION" codeSystem="2.16.840.1.113883.6.1"/>
+               <title>16 HOW SUPPLIED/STORAGE AND HANDLING</title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">Dexmedetomidine Hydrochloride in 0.9% Sodium Chloride Injection</content>
+                  </paragraph>
+                  <paragraph>Dexmedetomidine hydrochloride in 0.9% sodium chloride Injection is a clear, colorless, sterile, nonpyrogenic ready to use solution suitable for intravenous infusion and available as 200 mcg/50 mL (4 mcg/mL) and 400 mcg/100 mL (4 mcg/mL) in 50 mL and 100 mL clear glass vials, respectively. The strength is based on the dexmedetomidine base. Containers are intended for single-dose only. Discard unused portion.</paragraph>
+                  <table>
+                     <tbody>
+                        <tr>
+                           <td>
+                              <content styleCode="bold">NDC No.</content>
+                           </td>
+                           <td>
+                              <content styleCode="bold">Container</content>
+                           </td>
+                           <td>
+                              <content styleCode="bold">Size</content>
+                           </td>
+                           <td>
+                              <content styleCode="bold">Package Factor</content>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td>43598-976-58</td>
+                           <td>Single-dose vial</td>
+                           <td>50 mL</td>
+                           <td>10 Vials per Carton</td>
+                        </tr>
+                        <tr>
+                           <td>43598-975-58</td>
+                           <td>Single-dose vial</td>
+                           <td>100 mL</td>
+                           <td>10 Vials per Carton</td>
+                        </tr>
+                     </tbody>
+                  </table>
+                  <paragraph>Store at 20° to 25°C (68° to 77°F) [See USP Controlled Room Temperature].</paragraph>
+               </text>
+               <effectiveTime value="20220701"/>
+            </section>
+         </component>
+         <component>
+            <section ID="INFORMATION_FOR_PATIENTS">
+               <id root="ef0b1020-b3f2-49c2-d915-aa0bd98063de"/>
+               <code code="34076-0" displayName="INFORMATION FOR PATIENTS SECTION" codeSystem="2.16.840.1.113883.6.1"/>
+               <title>17 PATIENT COUNSELING INFORMATION</title>
+               <text>
+                  <paragraph>Dexmedetomidine hydrochloride in 0.9% sodium chloride injection is indicated for short-term intravenous sedation. Dosage must be individualized and titrated to the desired clinical effect. Blood pressure, heart rate and oxygen levels will be monitored both continuously during the infusion of dexmedetomidine hydrochloride in 0.9% sodium chloride injection and as clinically appropriate after discontinuation.</paragraph>
+                  <paragraph/>
+                  <list>
+                     <item>When dexmedetomidine hydrochloride in 0.9% sodium chloride injection is infused for more than 6 hours, patients should be informed to report nervousness, agitation, and headaches that may occur for up to 48 hours. </item>
+                     <item>Additionally, patients should be informed to report symptoms that may occur within 48 hours after the administration of dexmedetomidine hydrochloride in 0.9% sodium chloride injection such as: weakness, confusion, excessive sweating, weight loss, abdominal pain, salt cravings, diarrhea, constipation, dizziness or light-headedness. </item>
+                  </list>
+                  <paragraph>Rx only </paragraph>
+                  <paragraph>Distributor: </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Dr. Reddy’s Laboratories Inc.,</content>
+                  </paragraph>
+                  <paragraph>Princeton, NJ 08540</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Made in India</content>
+                  </paragraph>
+                  <paragraph>Issued: 0722</paragraph>
+               </text>
+               <effectiveTime value="20220701"/>
+            </section>
+         </component>
+         <component>
+            <section ID="_a749044a-24d7-5112-bcd9-c7cd12fa9400">
+               <id root="ebf71e0d-eb5b-7f3c-34e1-92415dc75435"/>
+               <code code="51945-4" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL" codeSystem="2.16.840.1.113883.6.1"/>
+               <title/>
+               <text>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="MM370938080195"/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20200810"/>
+            </section>
+         </component>
+         <component>
+            <section ID="_2a6cc4bb-fa5d-b364-e8a8-48962c92d3d9">
+               <id root="c2c663dd-fb49-438b-414f-294654174a81"/>
+               <code code="51945-4" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL" codeSystem="2.16.840.1.113883.6.1"/>
+               <title/>
+               <text>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="MM648349072490"/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20200810"/>
+            </section>
+         </component>
+         <component>
+            <section ID="_1ae3d328-0842-63b3-91e9-5a558f3aa93f">
+               <id root="9cf9451b-84bf-c889-319d-7cf7f00b7447"/>
+               <code code="51945-4" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL" codeSystem="2.16.840.1.113883.6.1"/>
+               <title/>
+               <text>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="MM730288360606"/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20200810"/>
+            </section>
+         </component>
+         <component>
+            <section ID="_8fc365f3-087b-b5d4-c93e-0f263ac63fef">
+               <id root="20fbae80-17de-23ff-8b13-973b63628420"/>
+               <code code="51945-4" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL" codeSystem="2.16.840.1.113883.6.1"/>
+               <title/>
+               <text>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="MM716550190825"/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20200810"/>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

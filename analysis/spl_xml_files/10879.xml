@@ -1,0 +1,657 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="https://www.accessdata.fda.gov/spl/stylesheet/spl.xsl" type="text/xsl"?>
+<document xmlns="urn:hl7-org:v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 https://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="a212b6af-ae47-44c9-a89f-01e0540fddb7"/>
+   <code code="34391-3" codeSystem="2.16.840.1.113883.6.1" displayName="HUMAN PRESCRIPTION DRUG LABEL"/>
+   <title>
+      <content styleCode="bold">Sodium Bicarbonate</content>
+      <br/>
+      <content styleCode="bold">Injection, USP</content>
+   </title>
+   <effectiveTime value="20241218"/>
+   <setId root="85ac5491-eb50-4bd1-b5ed-c34457632311"/>
+   <versionNumber value="6"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id extension="141588017" root="1.3.6.1.4.1.519.1"/>
+            <name>Hospira, Inc.</name>
+            <assignedEntity>
+               <assignedOrganization>
+                  <assignedEntity>
+                     <assignedOrganization>
+                        <id extension="093132819" root="1.3.6.1.4.1.519.1"/>
+                        <name>Hospira, Inc.</name>
+                     </assignedOrganization>
+                     <performance>
+                        <actDefinition>
+                           <code code="C25391" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ANALYSIS"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="0409-5534" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                     <performance>
+                        <actDefinition>
+                           <code code="C43360" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="MANUFACTURE"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="0409-5534" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                     <performance>
+                        <actDefinition>
+                           <code code="C84731" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="PACK"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="0409-5534" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                     <performance>
+                        <actDefinition>
+                           <code code="C84732" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="LABEL"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="0409-5534" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                  </assignedEntity>
+                  <assignedEntity>
+                     <assignedOrganization>
+                        <id extension="827731089" root="1.3.6.1.4.1.519.1"/>
+                        <name>Hospira, Inc.</name>
+                     </assignedOrganization>
+                     <performance>
+                        <actDefinition>
+                           <code code="C25391" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ANALYSIS"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="0409-5534" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                  </assignedEntity>
+               </assignedOrganization>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section>
+               <id root="28ddbab8-cd40-481d-8d43-60e98ddf2453"/>
+               <code code="48780-1" codeSystem="2.16.840.1.113883.6.1" displayName="SPL product data elements section"/>
+               <effectiveTime value="20230130"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="0409-5534" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>SODIUM BICARBONATE</name>
+                        <formCode code="C42945" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="INJECTION, SOLUTION"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>SODIUM BICARBONATE</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator unit="mg" value="42"/>
+                              <denominator unit="mL" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="8MDF5V39QO" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SODIUM BICARBONATE</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="LYR4M0NH37" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>SODIUM CATION</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="HN1ZRA3Q20" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>BICARBONATE ION</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="059QF0KO0R" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>WATER</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator unit="mL" value="10"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="0409-5534-24" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43202" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="SYRINGE"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator unit="1" value="1"/>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code/>
+                                    <formCode code="C43182" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CARTON"/>
+                                    <asContent>
+                                       <quantity>
+                                          <numerator unit="1" value="10"/>
+                                          <denominator value="1"/>
+                                       </quantity>
+                                       <containerPackagedProduct>
+                                          <code code="0409-5534-14" codeSystem="2.16.840.1.113883.6.69"/>
+                                          <formCode code="C43233" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="PACKAGE"/>
+                                       </containerPackagedProduct>
+                                       <subjectOf>
+                                          <marketingAct>
+                                             <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                             <statusCode code="active"/>
+                                             <effectiveTime>
+                                                <low value="20200817"/>
+                                             </effectiveTime>
+                                          </marketingAct>
+                                       </subjectOf>
+                                    </asContent>
+                                 </containerPackagedProduct>
+                              </asContent>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C102834" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 1: Convenience Kit of Co-Package" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <id extension="ANDA202679" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73584" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ANDA"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20200817"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38276" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="INTRAVENOUS"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_f8f8e2d3-2b85-43f3-9a82-fd3ad21a6717">
+               <id root="dae7929b-5dc6-4adb-9f15-e4403e36150c"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">FOR THE CORRECTION OF METABOLIC ACIDOSIS </content>
+                     <br/>
+                     <content styleCode="bold">AND OTHER CONDITIONS REQUIRING </content>
+                     <br/>
+                     <content styleCode="bold">SYSTEMIC ALKALINIZATION.</content>
+                  </paragraph>
+                  <paragraph>ABBOJECT<sup>®</sup> Syringe</paragraph>
+                  <paragraph>Rx only                                                                                                                                           <renderMultiMedia ID="id-1217576177" referencedObject="E93E1C2D-F57C-4D5D-A259-0B4582F73C45"/>            </paragraph>
+               </text>
+               <effectiveTime value="20230130"/>
+               <component>
+                  <observationMedia ID="E93E1C2D-F57C-4D5D-A259-0B4582F73C45">
+                     <text>Hospira Logo</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="sodium-01.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_f946ec81-e254-4f30-8f63-0fe5e2ee7a92">
+               <id root="ad1f6f2e-afff-49bb-ba82-cadcb15bf017"/>
+               <code code="34089-3" codeSystem="2.16.840.1.113883.6.1" displayName="DESCRIPTION SECTION"/>
+               <title>DESCRIPTION</title>
+               <text>
+                  <paragraph>Sodium Bicarbonate Injection, USP is a sterile, nonpyrogenic, hypertonic solution of sodium bicarbonate (NaHCO<sub>3</sub>) in water for injection for administration by the intravenous route as an electrolyte replenisher and systemic alkalizer.</paragraph>
+                  <paragraph>The solution is offered in a concentration of 4.2%. See table in <content styleCode="bold">
+                        <linkHtml href="#ID_4f0c3838-c1ec-46b0-b041-27986ede0a1b">HOW SUPPLIED</linkHtml>
+                     </content> section for contents and characteristics.</paragraph>
+                  <paragraph>The solution has an approximate pH of 8.0 (7.0 – 8.5). It contains no bacteriostat, antimicrobial agent or added buffer and is intended only for use as a single-dose injection. When smaller doses are required, the unused portion should be discarded with the entire unit.</paragraph>
+                  <paragraph>Sodium bicarbonate, 42 mg is equal to 0.5 milliequivalent each of Na<sup>+</sup> and HCO<sub>3</sub>¯. Sodium Bicarbonate, USP is chemically designated NaHCO<sub>3</sub>, a white crystalline powder soluble in water.</paragraph>
+                  <paragraph>Water for Injection, USP is chemically designated H<sub>2</sub>O.</paragraph>
+               </text>
+               <effectiveTime value="20230130"/>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_444a06e9-c889-4a34-8bf0-73e66cd532ea">
+               <id root="f9b286aa-af28-4416-a349-5cc6c817fc3f"/>
+               <code code="34090-1" codeSystem="2.16.840.1.113883.6.1" displayName="CLINICAL PHARMACOLOGY SECTION"/>
+               <title>CLINICAL PHARMACOLOGY</title>
+               <text>
+                  <paragraph>Intravenous sodium bicarbonate therapy increases plasma bicarbonate, buffers excess hydrogen ion concentration, raises blood pH and reverses the clinical manifestations of acidosis.</paragraph>
+                  <paragraph>Sodium bicarbonate in water dissociates to provide sodium (Na<sup>+</sup>) and bicarbonate (HCO<sub>3</sub>¯) ions. Sodium (Na<sup>+</sup>) is the principal cation of the extracellular fluid and plays a large part in the therapy of fluid and electrolyte disturbances. Bicarbonate (HCO<sub>3</sub>¯) is a normal constituent of body fluids and the normal plasma level ranges from 24 to 31 mEq/liter. Plasma concentration is regulated by the kidney through acidification of the urine when there is a deficit or by alkalinization of the urine when there is an excess. Bicarbonate anion is considered "labile" since at a proper concentration of hydrogen ion (H<sup>+</sup>) it may be converted to carbonic acid (H<sub>2</sub>CO<sub>3</sub>) and thence to its volatile form, carbon dioxide (CO<sub>2</sub>) excreted by the lung. Normally a ratio of 1:20 (carbonic acid; bicarbonate) is present in the extracellular fluid. In a healthy adult with normal kidney function, practically all the glomerular filtered bicarbonate ion is reabsorbed; less than 1% is excreted in the urine.</paragraph>
+               </text>
+               <effectiveTime value="20230130"/>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_5f09e4b2-1fd2-40b4-8407-895022f0ace8">
+               <id root="d0631e1c-357a-4123-910e-89dc2c4410bc"/>
+               <code code="34067-9" codeSystem="2.16.840.1.113883.6.1" displayName="INDICATIONS &amp; USAGE SECTION"/>
+               <title>INDICATIONS AND USAGE</title>
+               <text>
+                  <paragraph>Sodium Bicarbonate Injection, USP is indicated in the treatment of metabolic acidosis which may occur in severe renal disease, uncontrolled diabetes, circulatory insufficiency due to shock or severe dehydration, extracorporeal circulation of blood, cardiac arrest and severe primary lactic acidosis. Sodium bicarbonate is further indicated in the treatment of certain drug intoxications, including barbiturates (where dissociation of the barbiturate-protein complex is desired), in poisoning by salicylates or methyl alcohol and in hemolytic reactions requiring alkalinization of the urine to diminish nephrotoxicity of hemoglobin and its breakdown products. Sodium bicarbonate also is indicated in severe diarrhea which is often accompanied by a significant loss of bicarbonate.</paragraph>
+                  <paragraph>Treatment of metabolic acidosis should, if possible, be superimposed on measures designed to control the basic cause of the acidosis – e.g., insulin in uncomplicated diabetes, blood volume restoration in shock. But since an appreciable time interval may elapse before all of the ancillary effects are brought about, bicarbonate therapy is indicated to minimize risks inherent to the acidosis itself.</paragraph>
+                  <paragraph>Vigorous bicarbonate therapy is required in any form of metabolic acidosis where a rapid increase in plasma total CO<sub>2</sub> content is crucial – e.g., cardiac arrest, circulatory insufficiency due to shock or severe dehydration, and in severe primary lactic acidosis or severe diabetic acidosis.</paragraph>
+               </text>
+               <effectiveTime value="20230130"/>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_a0b496d8-95d8-4644-a2f8-bc99f16ff1d2">
+               <id root="bed1d5ea-b0cc-4a5b-89e4-f072a970d436"/>
+               <code code="34070-3" codeSystem="2.16.840.1.113883.6.1" displayName="CONTRAINDICATIONS SECTION"/>
+               <title>CONTRAINDICATIONS</title>
+               <text>
+                  <paragraph>Sodium Bicarbonate Injection, USP is contraindicated in patients who are losing chloride by vomiting or from continuous gastrointestinal suction, and in patients receiving diuretics known to produce a hypochloremic alkalosis.</paragraph>
+               </text>
+               <effectiveTime value="20230130"/>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_ae9b90a4-7999-4926-87cd-104e3aadfc8a">
+               <id root="999c350f-e18b-436f-a86f-b2495e2d525d"/>
+               <code code="34071-1" codeSystem="2.16.840.1.113883.6.1" displayName="WARNINGS SECTION"/>
+               <title>WARNINGS</title>
+               <text>
+                  <paragraph>Solutions containing sodium ions should be used with great care, if at all, in patients with congestive heart failure, severe renal insufficiency and in clinical states in which there exists edema with sodium retention.</paragraph>
+                  <paragraph>In patients with diminished renal function, administration of solutions containing sodium ions may result in sodium retention.</paragraph>
+                  <paragraph>The intravenous administration of these solutions can cause fluid and/or solute overloading resulting in dilution of serum electrolyte concentrations, overhydration, congested states or pulmonary edema.</paragraph>
+                  <paragraph>Extravascular infiltration should be avoided, see <content styleCode="bold">
+                        <linkHtml href="#ID_7dcc2788-be87-4420-8294-035457301c88">ADVERSE REACTIONS</linkHtml>
+                     </content>.</paragraph>
+               </text>
+               <effectiveTime value="20230130"/>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_ba135416-ee26-4a51-9907-c5c5fb810588">
+               <id root="b9c4e23a-fa2b-439e-9b66-fe57849b6ccd"/>
+               <code code="42232-9" codeSystem="2.16.840.1.113883.6.1" displayName="PRECAUTIONS SECTION"/>
+               <title>PRECAUTIONS</title>
+               <effectiveTime value="20230130"/>
+               <component>
+                  <section ID="ID_ae141cfb-d9aa-42cd-a277-a5ef3782c46b">
+                     <id root="68012ae8-5b3b-41e8-96af-c3b8eb52076a"/>
+                     <code code="34072-9" codeSystem="2.16.840.1.113883.6.1" displayName="GENERAL PRECAUTIONS SECTION"/>
+                     <title>General</title>
+                     <text>
+                        <paragraph>Do not use unless solution is clear and the container or seal is intact. Discard unused portion.</paragraph>
+                        <paragraph>The potentially large loads of sodium given with bicarbonate require that caution be exercised in the use of sodium bicarbonate in patients with congestive heart failure or other edematous or sodium-retaining states, as well as in patients with oliguria or anuria. See table in <content styleCode="bold">
+                              <linkHtml href="#ID_4f0c3838-c1ec-46b0-b041-27986ede0a1b">HOW SUPPLIED</linkHtml>
+                           </content> section for amounts of sodium present in solutions.</paragraph>
+                        <paragraph>Caution must be exercised in the administration of parenteral fluids, especially those containing sodium ions, to patients receiving corticosteroids or corticotropin.</paragraph>
+                        <paragraph>Potassium depletion may predispose to metabolic alkalosis and coexistent hypocalcemia may be associated with carpopedal spasm as the plasma pH rises. These dangers can be minimized if such electrolyte imbalances are appropriately treated prior to or concomitantly with bicarbonate infusion.</paragraph>
+                     </text>
+                     <effectiveTime value="20230130"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID_303b8025-f89e-4505-aa52-962f0fa92944">
+                     <id root="36d843e2-455e-44ea-b0a7-c5c26f167af4"/>
+                     <code code="34075-2" codeSystem="2.16.840.1.113883.6.1" displayName="LABORATORY TESTS SECTION"/>
+                     <title>Laboratory Tests</title>
+                     <text>
+                        <paragraph>The aim of all bicarbonate therapy is to produce a substantial correction of the low total CO<sub>2</sub> content and blood pH, but the risks of overdosage and alkalosis should be avoided. Hence, repeated fractional doses and periodic monitoring by appropriate laboratory tests are recommended to minimize the possibility of overdosage.</paragraph>
+                     </text>
+                     <effectiveTime value="20230130"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID_cfb54bf9-415e-43b9-b7a5-4097757d3691">
+                     <id root="595eb212-6ebf-4af0-bbe9-ede4eeac939b"/>
+                     <code code="34073-7" codeSystem="2.16.840.1.113883.6.1" displayName="DRUG INTERACTIONS SECTION"/>
+                     <title>Drug Interactions</title>
+                     <text>
+                        <paragraph>Additives may be incompatible; norepinephrine and dobutamine are incompatible with sodium bicarbonate solution.</paragraph>
+                        <paragraph>The addition of sodium bicarbonate to parenteral solutions containing calcium should be avoided, except where compatibility has been previously established. Precipitation or haze may result from sodium bicarbonate/calcium admixtures. <content styleCode="bold">NOTE:</content> Do not use the injection if it contains precipitate.</paragraph>
+                        <paragraph>Additives may be incompatible. Consult with pharmacist, if available. When introducing additives, use aseptic technique, mix thoroughly and do not store.</paragraph>
+                     </text>
+                     <effectiveTime value="20230130"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID_bc720b18-78af-4273-9f17-3285d5e4c813">
+                     <id root="856e0713-be87-4235-8515-3177e9518f0b"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Pregnancy: Teratogenic Effects</title>
+                     <text>
+                        <paragraph>Animal reproduction studies have not been conducted with sodium bicarbonate. It is also not known whether sodium bicarbonate can cause fetal harm when administered to a pregnant woman or can affect reproduction capacity. Sodium bicarbonate should be given to a pregnant woman only if clearly needed.</paragraph>
+                     </text>
+                     <effectiveTime value="20230130"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID_c671ffd2-d4d9-40fe-b906-4048bbf0ed1d">
+                     <id root="dd3a63ec-809e-43bf-a5bd-34cb875c1cf6"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Pediatric</title>
+                     <text>
+                        <paragraph>Rapid injection (10 mL/min) of hypertonic Sodium Bicarbonate Injection, USP solutions into neonates and children under two years of age may produce hypernatremia, a decrease in cerebrospinal fluid pressure and possible intracranial hemorrhage. The rate of administration in such patients should therefore be limited to no more than 8 mEq/kg/day. A 4.2% solution may be preferred for such slow administration. In emergencies such as cardiac arrest, the risk of rapid infusion must be weighed against the potential for fatality due to acidosis.</paragraph>
+                     </text>
+                     <effectiveTime value="20230130"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID_7cbd0aeb-82ac-412b-a522-f13ec6d62be9">
+                     <id root="7d63a241-1486-4f88-b15a-142fd256a111"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Geriatric </title>
+                     <text>
+                        <paragraph>Clinical studies of Sodium Bicarbonate Injection, USP did not include sufficient numbers of subjects aged 65 and over to determine whether they respond differently from younger subjects. Other reported clinical experience has not identified differences in responses between the elderly and younger patients. In general, dose selection for an elderly patient should be cautious, usually starting at the low end of the dosing range, reflecting the greater frequency of decreased hepatic, renal, or cardiac function and of concomitant disease or other drug therapy.</paragraph>
+                     </text>
+                     <effectiveTime value="20230130"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_7dcc2788-be87-4420-8294-035457301c88">
+               <id root="aa65ffc0-8a57-42a0-8660-c93408cb287e"/>
+               <code code="34084-4" codeSystem="2.16.840.1.113883.6.1" displayName="ADVERSE REACTIONS SECTION"/>
+               <title>ADVERSE REACTIONS</title>
+               <text>
+                  <paragraph>Overly aggressive therapy with Sodium Bicarbonate Injection, USP can result in metabolic alkalosis (associated with muscular twitchings, irritability, and tetany) and hypernatremia.</paragraph>
+                  <paragraph>Inadvertent extravasation of intravenously administered hypertonic solutions of sodium bicarbonate have been reported to cause chemical cellulitis because of their alkalinity, with tissue necrosis, ulceration or sloughing at the site of infiltration. Prompt elevation of the part, warmth and local injection of lidocaine or hyaluronidase are recommended to reduce the likelihood of tissue sloughing from extravasated I.V. solutions.</paragraph>
+               </text>
+               <effectiveTime value="20230130"/>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_df3a5975-26b5-478c-b339-bc5319d50af1">
+               <id root="6a0dc38f-2b09-4140-b04c-b2d37833c368"/>
+               <code code="34088-5" codeSystem="2.16.840.1.113883.6.1" displayName="OVERDOSAGE SECTION"/>
+               <title>OVERDOSAGE</title>
+               <text>
+                  <paragraph>Should alkalosis result, the bicarbonate should be stopped and the patient managed according to the degree of alkalosis present. 0.9% sodium chloride injection intravenous may be given; potassium chloride also may be indicated if there is hypokalemia. Severe alkalosis may be accompanied by hyperirritability or tetany and these symptoms may be controlled by calcium gluconate. An acidifying agent such as ammonium chloride may also be indicated in severe alkalosis (See <content styleCode="bold">
+                        <linkHtml href="#ID_ae9b90a4-7999-4926-87cd-104e3aadfc8a">WARNINGS</linkHtml>
+                     </content> and <content styleCode="bold">
+                        <linkHtml href="#ID_ba135416-ee26-4a51-9907-c5c5fb810588">PRECAUTIONS</linkHtml>
+                     </content>).</paragraph>
+               </text>
+               <effectiveTime value="20230130"/>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_53319223-fa81-47cd-b74d-91b6edc83ac1">
+               <id root="49aaaee5-2ca1-4605-85c5-f15ec202b9c4"/>
+               <code code="34068-7" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE &amp; ADMINISTRATION SECTION"/>
+               <title>DOSAGE AND ADMINISTRATION</title>
+               <text>
+                  <paragraph>Sodium Bicarbonate Injection, USP is administered by the intravenous route.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">In cardiac arrest, </content>a rapid intravenous dose of 44.6 to 100 mEq may be given initially and continued at a rate of 44.6 to 50 mEq every 5 to 10 minutes if necessary (as indicated by arterial pH and blood gas monitoring) to reverse the acidosis. Caution should be observed in emergencies where very rapid infusion of large quantities of bicarbonate is indicated. Bicarbonate solutions are hypertonic and may produce an undesirable rise in plasma sodium concentration in the process of correcting the metabolic acidosis. In cardiac arrest, however, the risks from acidosis exceed those of hypernatremia.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">In less urgent forms of metabolic acidosis,</content> Sodium Bicarbonate Injection, USP may be added to other intravenous fluids. The amount of bicarbonate to be given to older children and adults over a four-to-eight-hour period is approximately 2 to 5 mEq/kg of body weight – depending upon the severity of the acidosis as judged by the lowering of total CO<sub>2</sub> content, blood pH and clinical condition of the patient. In metabolic acidosis associated with shock, therapy should be monitored by measuring blood gases, plasma osmolarity, arterial blood lactate, hemodynamics and cardiac rhythm. Bicarbonate therapy should always be planned in a stepwise fashion since the degree of response from a given dose is not precisely predictable. Initially an infusion of 2 to 5 mEq/kg body weight over a period of 4 to 8 hours will produce a measurable improvement in the abnormal acid-base status of the blood. The next step of therapy is dependent upon the clinical response of the patient. If severe symptoms have abated, then the frequency of administration and the size of the dose may be reduced.</paragraph>
+                  <paragraph>In general, it is unwise to attempt full correction of a low total CO<sub>2</sub> content during the first 24 hours of therapy, since this may be accompanied by an unrecognized alkalosis because of a delay in the readjustment of ventilation to normal. Owing to this lag, the achievement of total CO<sub>2</sub> content of about 20 mEq/liter at the end of the first day of therapy will usually be associated with a normal blood pH. Further modification of the acidosis to completely normal values usually occurs in the presence of normal kidney function when and if the cause of the acidosis can be controlled. Values for total CO<sub>2</sub> which are brought to normal or above normal within the first day of therapy are very likely to be associated with grossly alkaline values for blood pH, with ensuing undesired side effects.</paragraph>
+                  <paragraph>Parenteral drug products should be inspected visually for particulate matter and discoloration prior to administration, whenever solution and container permit (See <content styleCode="bold">
+                        <linkHtml href="#ID_ba135416-ee26-4a51-9907-c5c5fb810588">PRECAUTIONS</linkHtml>
+                     </content>).</paragraph>
+               </text>
+               <effectiveTime value="20230130"/>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_4f0c3838-c1ec-46b0-b041-27986ede0a1b">
+               <id root="f83c4478-c87c-4ce2-bfe2-419a9a8b17db"/>
+               <code code="34069-5" codeSystem="2.16.840.1.113883.6.1" displayName="HOW SUPPLIED SECTION"/>
+               <title>HOW SUPPLIED</title>
+               <text>
+                  <paragraph>Sodium Bicarbonate Injection, USP is supplied in the following dosage forms.</paragraph>
+                  <table width="100%">
+                     <col width="51%"/>
+                     <col width="49%"/>
+                     <tbody>
+                        <tr>
+                           <td styleCode="Botrule Toprule " valign="top">
+                              <paragraph>
+                                 <content styleCode="bold">NDC No. (Unit of Sale)</content>
+                              </paragraph>
+                           </td>
+                           <td styleCode="Botrule Toprule " valign="top">
+                              <paragraph>0409-5534-14</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Botrule " valign="top">
+                              <paragraph>
+                                 <content styleCode="bold">NDC No. (Each)</content>
+                              </paragraph>
+                           </td>
+                           <td styleCode="Botrule " valign="top">
+                              <paragraph>0409-5534-24</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Botrule " valign="top">
+                              <paragraph>
+                                 <content styleCode="bold">Dosage Form</content>
+                              </paragraph>
+                           </td>
+                           <td styleCode="Botrule " valign="top">
+                              <paragraph>Abboject<sup>®</sup> Syringe</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Botrule " valign="top">
+                              <paragraph>
+                                 <content styleCode="bold">Conc. %</content>
+                              </paragraph>
+                           </td>
+                           <td styleCode="Botrule " valign="top">
+                              <paragraph>4.2</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Botrule " valign="top">
+                              <paragraph>
+                                 <content styleCode="bold">mg/mL (NaHCO<sub>3</sub>)</content>
+                              </paragraph>
+                           </td>
+                           <td styleCode="Botrule " valign="top">
+                              <paragraph>42</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Botrule " valign="top">
+                              <paragraph>
+                                 <content styleCode="bold">mEq/mL (Na<sup>+</sup>)</content>
+                              </paragraph>
+                           </td>
+                           <td styleCode="Botrule " valign="top">
+                              <paragraph>0.5</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Botrule " valign="top">
+                              <paragraph>
+                                 <content styleCode="bold">mEq/mL (HCO<sub>3</sub>¯)</content>
+                              </paragraph>
+                           </td>
+                           <td styleCode="Botrule " valign="top">
+                              <paragraph>0.5</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Botrule " valign="top">
+                              <paragraph>
+                                 <content styleCode="bold">mEq/Container size (mL)</content>
+                              </paragraph>
+                           </td>
+                           <td styleCode="Botrule " valign="top">
+                              <paragraph>5/10</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Botrule " valign="top">
+                              <paragraph>
+                                 <content styleCode="bold">mOsm/mL</content>
+                              </paragraph>
+                           </td>
+                           <td styleCode="Botrule " valign="top">
+                              <paragraph>0.84</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Botrule " valign="top">
+                              <paragraph>
+                                 <content styleCode="bold">pH</content>
+                              </paragraph>
+                           </td>
+                           <td styleCode="Botrule " valign="top">
+                              <paragraph>8.0 (7.0 – 8.5)</paragraph>
+                           </td>
+                        </tr>
+                     </tbody>
+                  </table>
+                  <paragraph>Store at 20 to 25°C (68 to 77°F). [See USP Controlled Room Temperature.] Protect from freezing.</paragraph>
+                  <paragraph>Hospira, Inc., Lake Forest, IL 60045 USA                                                                                      <renderMultiMedia ID="id809914612" referencedObject="ID_87a08add-b3a2-486b-8341-ad76fb7a4234"/>
+                  </paragraph>
+                  <paragraph>ABBOJECT<sup>®</sup> is a trademark of the Abbott group of companies.</paragraph>
+                  <paragraph>LAB-1017-3.0</paragraph>
+                  <paragraph>01/2018</paragraph>
+               </text>
+               <effectiveTime value="20230130"/>
+               <component>
+                  <observationMedia ID="ID_87a08add-b3a2-486b-8341-ad76fb7a4234">
+                     <text>Hospira Logo</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="sodium-02.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_bd173838-af2c-457f-9fb8-f4012de7a406">
+               <id root="db14412d-00ea-483b-9200-2b3c9c536dca"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>PRINCIPAL DISPLAY PANEL - 10 mL Syringe Label</title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">4.2% Sodium Bicarbonate</content>
+                  </paragraph>
+                  <paragraph>10 mL Single-dose<br/>NDC 0409-5534-24</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">4.2% Sodium Bicarbonate</content> Inj., USP</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">5 mEq/10 mL</content>
+                     <br/>(0.5 mEq/mL)</paragraph>
+                  <paragraph>Rx only</paragraph>
+                  <paragraph>Hospira, Inc.,<br/>Lake Forest, IL 60045 USA</paragraph>
+                  <paragraph>For intravenous use.<br/>
+                     <content styleCode="bold">Usual dosage:</content> See insert. Sterile, nonpyrogenic.<br/>0.84 mOsmol/mL. pH 8.0 (7.0 to 8.5).</paragraph>
+                  <paragraph>RL - 7025</paragraph>
+                  <renderMultiMedia ID="id645" referencedObject="MM1"/>
+               </text>
+               <effectiveTime value="20241218"/>
+               <component>
+                  <observationMedia ID="MM1">
+                     <text>PRINCIPAL DISPLAY PANEL - 10 mL Syringe Label</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="sodium-03.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_b6a45a89-94ca-4ccb-9ff0-b2ff4e28ecde">
+               <id root="e121f500-2a66-43a0-8926-4ee5ca6d80a4"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>PRINCIPAL DISPLAY PANEL - 10 mL Syringe Carton</title>
+               <text>
+                  <paragraph>10 mL</paragraph>
+                  <paragraph>NDC 0409-5534-24<br/>Rx only</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">4.2%</content>
+                     <br/>
+                     <content styleCode="bold">Sodium</content>
+                     <br/>
+                     <content styleCode="bold">Bicarbonate</content>
+                     <br/>Injection, USP</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">5 mEq/10 mL</content>
+                     <br/>(0.5 mEq/mL)</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Glass</content>
+                     <br/>
+                     <content styleCode="bold">ABBOJECT<sup>®</sup>
+                     </content>
+                     <br/>
+                     <content styleCode="bold">Unit of Use Syringe</content>
+                     <br/>
+                     <content styleCode="bold">For intravenous use</content>
+                  </paragraph>
+                  <paragraph>with male luer lock adapter and<br/>20-Gauge protected needle</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">
+                        <content styleCode="italics">Hospira</content>
+                     </content>
+                  </paragraph>
+                  <paragraph>◀ PRESS AND PULL TO OPEN</paragraph>
+                  <renderMultiMedia ID="id681" referencedObject="MM2"/>
+               </text>
+               <effectiveTime value="20241218"/>
+               <component>
+                  <observationMedia ID="MM2">
+                     <text>PRINCIPAL DISPLAY PANEL - 10 mL Syringe Carton</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="sodium-04.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

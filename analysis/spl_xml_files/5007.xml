@@ -1,0 +1,1183 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="https://www.accessdata.fda.gov/spl/stylesheet/spl.xsl" type="text/xsl"?>
+<document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:voc="urn:hl7-org:v3/voc" xmlns="urn:hl7-org:v3" xsi:schemaLocation="urn:hl7-org:v3 https://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="3c6bd2c0-b0c7-129f-c1ff-217b0caaca0a"/>
+   <code code="34391-3" codeSystem="2.16.840.1.113883.6.1" displayName="HUMAN PRESCRIPTION DRUG LABEL"/>
+   <title>
+      <content styleCode="bold">These highlights do not include all the information needed to use </content>
+      <content styleCode="bold">DESMOPRESSIN </content>
+      <content styleCode="bold">NASAL SPRAY safely and effectively. See full prescribing information for </content>
+      <content styleCode="bold">DESMOPRESSIN </content>
+      <content styleCode="bold">NASAL SPRAY. </content>
+      <content styleCode="bold"> </content>
+      <content styleCode="bold">
+         <br/>DESMOPRESSIN </content>
+      <content styleCode="bold">nasal spray</content>
+      <br/>
+      <content styleCode="bold">Initial U.S. Approval: 1978</content>
+   </title>
+   <effectiveTime value="20240924"/>
+   <setId root="1ac423b8-27a6-4cef-4a82-c50bf81b4f49"/>
+   <versionNumber value="11"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id extension="845263701" root="1.3.6.1.4.1.519.1"/>
+            <name>Apotex Corp.</name>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section>
+               <id root="63a31608-3830-ad5a-8983-937d913e99c5"/>
+               <code code="48780-1" displayName="SPL PRODUCT DATA ELEMENTS SECTION" codeSystem="2.16.840.1.113883.6.1"/>
+               <effectiveTime value="20240924"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="60505-0815" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>DESMOPRESSIN ACETATE</name>
+                        <formCode code="C42989" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="SPRAY"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>DESMOPRESSIN ACETATE</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator unit="ug" value="10"/>
+                              <denominator unit="1" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="XB13HYU18U" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>DESMOPRESSIN ACETATE</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="ENR1LLB0FP" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>Desmopressin</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="451W47IQ8X" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SODIUM CHLORIDE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="2968PHW8QP" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>CITRIC ACID MONOHYDRATE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="70WT22SF4B" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SODIUM PHOSPHATE, DIBASIC, HEPTAHYDRATE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="F5UM2KM3W7" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>BENZALKONIUM CHLORIDE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="059QF0KO0R" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>WATER </name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator unit="1" value="50"/>
+                              <denominator unit="1" value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43175" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BOTTLE, SPRAY"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator unit="1" value="1"/>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code codeSystem="2.16.840.1.113883.6.69" code="60505-0815-0"/>
+                                    <formCode code="C43182" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CARTON"/>
+                                 </containerPackagedProduct>
+                                 <subjectOf>
+                                    <marketingAct>
+                                       <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                       <statusCode code="active"/>
+                                       <effectiveTime>
+                                          <low value="20201130"/>
+                                       </effectiveTime>
+                                    </marketingAct>
+                                 </subjectOf>
+                              </asContent>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic classCode="OBS">
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C102835" displayName="Type 2: Prefilled Drug Delivery Device/System (syringe, patch, etc.)" codeSystem="2.16.840.1.113883.3.26.1.1" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20201130"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <subjectOf>
+                        <approval>
+                           <id extension="ANDA076703" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73584" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ANDA"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38284" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="NASAL"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+               <component>
+                  <section>
+                     <id root="ae4f65cb-d944-d99c-14c3-095f588a6e9f"/>
+                     <code code="42229-5" displayName="SPL UNCLASSIFIED SECTION" codeSystem="2.16.840.1.113883.6.1"/>
+                     <effectiveTime value="20181217"/>
+                     <component>
+                        <observationMedia ID="MM477187793706">
+                           <text>Stucture-01.jpg</text>
+                           <value xsi:type="ED" mediaType="image/jpeg">
+                              <reference value="Stucture-01.jpg"/>
+                           </value>
+                        </observationMedia>
+                     </component>
+                     <component>
+                        <observationMedia ID="MM118013244637">
+                           <text>Figure-A.jpg</text>
+                           <value xsi:type="ED" mediaType="image/jpeg">
+                              <reference value="Figure-A.jpg"/>
+                           </value>
+                        </observationMedia>
+                     </component>
+                     <component>
+                        <observationMedia ID="MM766849117157">
+                           <text>figure-b.jpg</text>
+                           <value xsi:type="ED" mediaType="image/jpeg">
+                              <reference value="figure-B.jpg"/>
+                           </value>
+                        </observationMedia>
+                     </component>
+                     <component>
+                        <observationMedia ID="MM258621907950">
+                           <text>Figure-C.jpg</text>
+                           <value xsi:type="ED" mediaType="image/jpeg">
+                              <reference value="Figure-C.jpg"/>
+                           </value>
+                        </observationMedia>
+                     </component>
+                     <component>
+                        <observationMedia ID="MM851302489620">
+                           <text>Figure-D-fig-E</text>
+                           <value xsi:type="ED" mediaType="image/jpeg">
+                              <reference value="Figure-D-fig-E.jpg"/>
+                           </value>
+                        </observationMedia>
+                     </component>
+                     <component>
+                        <observationMedia ID="MM322745105226">
+                           <text>figure-F</text>
+                           <value xsi:type="ED" mediaType="image/jpeg">
+                              <reference value="figure-F.jpg"/>
+                           </value>
+                        </observationMedia>
+                     </component>
+                     <component>
+                        <observationMedia ID="MM348327456539">
+                           <text>figure-G</text>
+                           <value xsi:type="ED" mediaType="image/jpeg">
+                              <reference value="figure-G.jpg"/>
+                           </value>
+                        </observationMedia>
+                     </component>
+                     <component>
+                        <observationMedia ID="MM70260605294">
+                           <text>CRT-0.01-5ml</text>
+                           <value xsi:type="ED" mediaType="image/jpeg">
+                              <reference value="CRT-0.01-5ml.jpg"/>
+                           </value>
+                        </observationMedia>
+                     </component>
+                     <component>
+                        <observationMedia ID="MM880521649712">
+                           <text>LBL0.01-5ml</text>
+                           <value xsi:type="ED" mediaType="image/jpeg">
+                              <reference value="LBL0.01-5ml.jpg"/>
+                           </value>
+                        </observationMedia>
+                     </component>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="_ce1b4449-d253-f815-a78e-87f05f2e9923">
+               <id root="eab08e01-429d-f0bd-35dc-024c92dd2eff"/>
+               <code code="34067-9" displayName="INDICATIONS &amp; USAGE SECTION" codeSystem="2.16.840.1.113883.6.1"/>
+               <title>1 INDICATIONS AND USAGE</title>
+               <text>
+                  <paragraph>Desmopressin nasal spray is indicated as antidiuretic replacement therapy in the management of central diabetes insipidus in adults and pediatric patients 4 years of age and older<content styleCode="underline"/>    </paragraph>
+                  <paragraph>
+                     <content styleCode="underline">Limitations of Use: </content>
+                  </paragraph>
+                  <paragraph> Desmopressin nasal spray is not indicated for:</paragraph>
+                  <list>
+                     <item>Treatment of nephrogenic diabetes insipidus,</item>
+                     <item>Treatment of primary nocturnal enuresis <content styleCode="italics">[see Warnings and Precautions (<linkHtml href="#_23c41eb8-0afa-1852-f091-f77b0e8f4b6f">5.1</linkHtml>)],</content>
+                     </item>
+                     <item>Use in patients with conditions that compromise the intranasal route of administration (e.g., severe nasal congestion and blockage, nasal mucosa atrophy, severe atrophic rhinitis, recent nasal surgery such as transsphenoidal hypophysectomy) <content styleCode="italics">[see Warnings and Precautions (<linkHtml href="#_db880518-d342-b287-7b98-d70386a5b47f">5.2</linkHtml>)].</content>
+                     </item>
+                     <item>Use in patients with an impaired level of consciousness,</item>
+                     <item>Use in patients requiring doses less than 10 mcg or doses that are not multiples of 10 mcg <content styleCode="italics">[see Dosage Forms and Strengths (<linkHtml href="#DOSAGE_FORMS_AND_STRENGTHS">3</linkHtml>)].</content>
+                     </item>
+                  </list>
+               </text>
+               <effectiveTime value="20200202"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <paragraph>Desmopressin nasal spray<content styleCode="italics"> </content>is a vasopressin analog indicated as antidiuretic replacement therapy in the management of central diabetes insipidus for adults and pediatric patients 4 years of age and older (<linkHtml href="#_ce1b4449-d253-f815-a78e-87f05f2e9923">1</linkHtml>)   </paragraph>
+                        <paragraph>
+                           <content styleCode="underline">Limitations of Use:</content>
+                        </paragraph>
+                        <paragraph>Desmopressin nasal spray is not indicated for:</paragraph>
+                        <list>
+                           <item>Treatment of nephrogenic diabetes insipidus (<linkHtml href="#_ce1b4449-d253-f815-a78e-87f05f2e9923">1</linkHtml>) </item>
+                           <item>Treatment of primary nocturnal enuresis (<linkHtml href="#_ce1b4449-d253-f815-a78e-87f05f2e9923">1</linkHtml>, <linkHtml href="#_23c41eb8-0afa-1852-f091-f77b0e8f4b6f">5.1</linkHtml>) </item>
+                           <item>Use in patients with conditions that compromise intranasal route of administration (<linkHtml href="#_ce1b4449-d253-f815-a78e-87f05f2e9923">1</linkHtml>, <linkHtml href="#_db880518-d342-b287-7b98-d70386a5b47f">5.2</linkHtml>) </item>
+                           <item>Use in patients with an impaired level of consciousness (<linkHtml href="#_ce1b4449-d253-f815-a78e-87f05f2e9923">1</linkHtml>) </item>
+                           <item>Use in patients requiring doses less than 10 mcg or doses that are not multiples of 10 mcg (<linkHtml href="#_ce1b4449-d253-f815-a78e-87f05f2e9923">1</linkHtml>,<linkHtml href="#DOSAGE_FORMS_AND_STRENGTHS">3</linkHtml>)</item>
+                        </list>
+                        <paragraph/>
+                     </text>
+                  </highlight>
+               </excerpt>
+            </section>
+         </component>
+         <component>
+            <section ID="DOSAGE_AND_ADMINISTRATION">
+               <id root="270ae43a-0b2b-a204-b936-5dfe3ae2ab27"/>
+               <code code="34068-7" displayName="DOSAGE &amp; ADMINISTRATION SECTION" codeSystem="2.16.840.1.113883.6.1"/>
+               <title>2 DOSAGE AND ADMINISTRATION</title>
+               <text>
+                  <paragraph/>
+               </text>
+               <effectiveTime value="20181212"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <list>
+                           <item>For intranasal use only (<linkHtml href="#_064b278f-05d3-88d6-f706-1b908f0a0282">2.1</linkHtml>) </item>
+                           <item>Instruct patients to prime pump prior to use (<linkHtml href="#_064b278f-05d3-88d6-f706-1b908f0a0282">2.1</linkHtml>) </item>
+                           <item>
+                              <content styleCode="underline">Adults</content>: 10 mcg to 40 mcg daily (either as a single dose or divided into two or three daily doses) (<linkHtml href="#_ea674516-6855-7a5a-696d-fa75db589da2">2.2</linkHtml>) </item>
+                           <item>
+                              <content styleCode="underline">Pediatrics:</content> 10 mcg once daily into one nostril up to 30 mcg once daily (or 30 mcg divided as 20 mcg during the morning and 10 mcg at night) (<linkHtml href="#_ea674516-6855-7a5a-696d-fa75db589da2">2.2</linkHtml>)</item>
+                           <item>
+                              <content styleCode="underline"/>See the Full Prescribing Information for recommendations for switching between desmopressin acetate formulations (<linkHtml href="#_4c86be05-496f-4884-688e-4dd01c90c619">2.3</linkHtml>)</item>
+                        </list>
+                     </text>
+                  </highlight>
+               </excerpt>
+               <component>
+                  <section ID="_064b278f-05d3-88d6-f706-1b908f0a0282">
+                     <id root="c7df2112-126f-87a5-230c-99942c582f21"/>
+                     <code code="42229-5" displayName="SPL UNCLASSIFIED SECTION" codeSystem="2.16.840.1.113883.6.1"/>
+                     <title>2.1 Important Administration Instructions </title>
+                     <text>
+                        <paragraph>Administer desmopressin nasal spray by intranasal use only. Instruct patients about appropriate fluid restriction during desmopressin nasal spray treatment<content styleCode="italics"> [see Warnings and Precautions (<linkHtml href="#_23c41eb8-0afa-1852-f091-f77b0e8f4b6f">5.1</linkHtml>)]. </content>
+                        </paragraph>
+                        <paragraph> Must prime the spray pump prior to the first use. Instruct patients to:</paragraph>
+                        <list>
+                           <item>Prime pump by pressing down on pump four times (if the spray pump is not used for one week, re-prime the pump by pressing down on the pump once).</item>
+                           <item>Discard desmopressin nasal spray after 50 sprays since the amount delivered thereafter may be substantially less than the recommended dosage.</item>
+                        </list>
+                     </text>
+                     <effectiveTime value="20210930"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="_ea674516-6855-7a5a-696d-fa75db589da2">
+                     <id root="4002ef47-fab9-10f8-390f-1c40383cf172"/>
+                     <code code="42229-5" displayName="SPL UNCLASSIFIED SECTION" codeSystem="2.16.840.1.113883.6.1"/>
+                     <title>2.2 Recommended Dosage</title>
+                     <text>
+                        <paragraph>The use of desmopressin nasal spray is not indicated for patients who require less than 10 mcg doses or doses that are not multiples of 10 mcg because the spray pump can only deliver doses of 10 mcg <content styleCode="italics">[see Indications and Usage (<linkHtml href="#_ce1b4449-d253-f815-a78e-87f05f2e9923">1</linkHtml>)]</content>. If other doses are required, use another desmopressin acetate product.</paragraph>
+                        <paragraph>  Individualize the dosage of desmopressin nasal spray for each patient with particular attention in pediatric and elderly patients and adjust according to the diurnal pattern of response to limit nocturia and to ensure fluid intake with respect to urine output is not excessive <content styleCode="italics">[see Warnings and Precautions (<linkHtml href="#_23c41eb8-0afa-1852-f091-f77b0e8f4b6f">5.1</linkHtml>)]</content>. Monitor continued response to desmopressin nasal spray by urine volume and osmolality to ensure adequate diuresis to limit the risk of hyponatremia, and include measurements of serum sodium and plasma osmolality as needed.   </paragraph>
+                        <paragraph>
+                           <content styleCode="underline">Adults  </content>
+                        </paragraph>
+                        <paragraph> The recommended dosage in adults is 10 mcg once daily into one nostril up to 40 mcg once daily (or 40 mcg divided into two or three daily doses). If administered more than once a day, adjust for an adequate diurnal rhythm of urine output.   </paragraph>
+                        <paragraph>
+                           <content styleCode="underline">Pediatric Patients </content>
+                        </paragraph>
+                        <list>
+                           <item>For pediatric patients requiring doses less than 10 mcg, desmopressin nasal spray is not indicated.</item>
+                           <item>For pediatric patients 4 years of age and older, the recommended starting dosage of desmopressin nasal spray is 10 mcg once daily into one nostril. The dose can be titrated up to 30 mcg once daily (or 30 mcg divided into two daily doses, typically with 20 mcg given in the morning and 10 mcg given at nighttime). If administered more than once a day, adjust for an adequate diurnal rhythm of urine output.</item>
+                        </list>
+                        <paragraph>Because administration of desmopressin acetate can be associated with decreased responsiveness with prolonged use, consider increasing the dosage of desmopressin nasal spray if patients demonstrate decreased response over a long period of time.</paragraph>
+                     </text>
+                     <effectiveTime value="20210930"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="_4c86be05-496f-4884-688e-4dd01c90c619">
+                     <id root="06b9f8d4-dc93-b11c-a0f0-db7d558cd5f8"/>
+                     <code code="42229-5" displayName="SPL UNCLASSIFIED SECTION" codeSystem="2.16.840.1.113883.6.1"/>
+                     <title>2.3 Switching Between Desmopressin Acetate Formulations </title>
+                     <text>
+                        <paragraph>When switching from the desmopressin acetate injection to desmopressin nasal spray, administer 10 times the amount of desmopressin acetate, rounding down to the nearest 10 mcg.     When switching from the desmopressin acetate tablets to desmopressin nasal spray individual dose titration is required because intranasal desmopressin is approximately 10 to 40 fold more potent than oral (tablet) desmopressin.</paragraph>
+                     </text>
+                     <effectiveTime value="20181212"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="DOSAGE_FORMS_AND_STRENGTHS">
+               <id root="418435a1-12e1-a19c-b44b-a4d364ffadd1"/>
+               <code code="43678-2" displayName="DOSAGE FORMS &amp; STRENGTHS SECTION" codeSystem="2.16.840.1.113883.6.1"/>
+               <title>3 DOSAGE FORMS AND STRENGTHS</title>
+               <text>
+                  <paragraph>Desmopressin nasal spray pump delivers 10 mcg (0.1 mL) of desmopressin acetate per spray.  Desmopressin nasal spray is available as a 5 mL bottle with spray pump delivering 50 sprays.</paragraph>
+               </text>
+               <effectiveTime value="20181212"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <paragraph>Nasal Spray: 10 mcg per 0.1 mL spray, available in a 5 mL bottle with spray pump delivering 50 sprays (<linkHtml href="#DOSAGE_FORMS_AND_STRENGTHS">3</linkHtml>) </paragraph>
+                     </text>
+                  </highlight>
+               </excerpt>
+            </section>
+         </component>
+         <component>
+            <section ID="CONTRAINDICATIONS">
+               <id root="9e547a4c-5706-df52-8d73-f0afe1f526af"/>
+               <code code="34070-3" displayName="CONTRAINDICATIONS SECTION" codeSystem="2.16.840.1.113883.6.1"/>
+               <title>4 CONTRAINDICATIONS</title>
+               <text>
+                  <paragraph>Desmopressin nasal spray is contraindicated in patients with:</paragraph>
+                  <list>
+                     <item>Known hypersensitivity to desmopressin acetate or to any of the components of desmopressin nasal spray. Severe allergic reactions and anaphylaxis have been reported <content styleCode="italics">[see Adverse Reactions (<linkHtml href="#ADVERSE_REACTIONS">6</linkHtml>)]</content>.</item>
+                     <item>Renal impairment defined as estimated creatinine clearance (CLcr) by Cockcroft-Gault equation less than 50 mL/min <content styleCode="italics">[see Use in Specific Populations (<linkHtml href="#_41af7da6-3834-df75-4853-9278f7394f78">8.6</linkHtml>) and Clinical Pharmacology (<linkHtml href="#PHARMACOKINETICS">12.3</linkHtml>)].</content>
+                     </item>
+                     <item>Hyponatremia or a history of hyponatremia <content styleCode="italics">[see Warnings and Precautions (<linkHtml href="#_23c41eb8-0afa-1852-f091-f77b0e8f4b6f">5.1</linkHtml>)].</content>
+                     </item>
+                  </list>
+               </text>
+               <effectiveTime value="20181212"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <list>
+                           <item>Known hypersensitivity to desmopressin acetate or to any of the components of desmopressin nasal spray (<linkHtml href="#CONTRAINDICATIONS">4</linkHtml>, <linkHtml href="#ADVERSE_REACTIONS">6</linkHtml>) </item>
+                           <item>Patients with renal impairment (creatinine clearance below 50 mL/min) (<linkHtml href="#CONTRAINDICATIONS">4</linkHtml>, <linkHtml href="#_41af7da6-3834-df75-4853-9278f7394f78">8.6</linkHtml>, <linkHtml href="#PHARMACOKINETICS">12.3</linkHtml>) </item>
+                           <item>Hyponatremia or a history of hyponatremia (<linkHtml href="#CONTRAINDICATIONS">4</linkHtml>, <linkHtml href="#_23c41eb8-0afa-1852-f091-f77b0e8f4b6f">5.1</linkHtml>) </item>
+                        </list>
+                     </text>
+                  </highlight>
+               </excerpt>
+            </section>
+         </component>
+         <component>
+            <section ID="WARNINGS_AND_PRECAUTIONS">
+               <id root="c58e5f35-2156-22a5-b4e6-b6a5534589ec"/>
+               <code code="43685-7" displayName="WARNINGS AND PRECAUTIONS SECTION" codeSystem="2.16.840.1.113883.6.1"/>
+               <title>5 WARNINGS AND PRECAUTIONS</title>
+               <text>
+                  <paragraph/>
+               </text>
+               <effectiveTime value="20181212"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <list>
+                           <item>Hyponatremia: Instruct patients about proper fluid restriction and monitor serum sodium as needed (<linkHtml href="#_23c41eb8-0afa-1852-f091-f77b0e8f4b6f">2.1</linkHtml>, <linkHtml href="#_db880518-d342-b287-7b98-d70386a5b47f">5.1</linkHtml>)</item>
+                           <item>Altered Absorption in Patients with Nasal Mucosa Abnormalities: May occur with chronic administration, and require use of other formulations instead (<linkHtml href="#_db880518-d342-b287-7b98-d70386a5b47f">5.2</linkHtml>)</item>
+                        </list>
+                     </text>
+                  </highlight>
+               </excerpt>
+               <component>
+                  <section ID="_23c41eb8-0afa-1852-f091-f77b0e8f4b6f">
+                     <id root="0cb82fc0-82c5-f208-2fcc-17c206e88a97"/>
+                     <code code="42229-5" displayName="SPL UNCLASSIFIED SECTION" codeSystem="2.16.840.1.113883.6.1"/>
+                     <title>5.1 Hyponatremia</title>
+                     <text>
+                        <paragraph>Excessive fluid intake when urine output is limited by the antidiuretic effect of desmopressin may lead to water intoxication with hyponatremia. Cases of hyponatremia have been reported from postmarketing experience in patients treated with desmopressin acetate. Unless properly diagnosed and treated, hyponatremia can be fatal.    </paragraph>
+                        <paragraph> All patients receiving desmopressin nasal spray should be observed for the following signs or symptoms associated with hyponatremia: headache, nausea/vomiting, decreased serum sodium, weight gain, restlessness, fatigue, lethargy, disorientation, depressed reflexes, loss appetite, irritability, muscle weakness, muscle spasms or cramps and abnormal mental status such as hallucinations, decreased consciousness, and confusion. Severe symptoms due to an extreme decrease in serum sodium and plasma osmolality may include one or a combination of the following: seizure, coma, and/or respiratory arrest.    </paragraph>
+                        <paragraph> In order to decrease the risk of water intoxication with hyponatremia, fluid restriction is recommended.  Careful fluid intake restriction is particularly important in pediatric and geriatric patients because these patients are at greater risk of developing hyponatremia<content styleCode="italics"> [see Use in Specific Populations (<linkHtml href="#PEDIATRIC_USE">8.4</linkHtml>, <linkHtml href="#GERIATRIC_USE">8.5</linkHtml>)]</content>.  More frequent monitoring of serum sodium levels is recommended in the following patients:  those with conditions associated with fluid and electrolyte imbalance, such as cystic fibrosis, heart failure, renal disorders, habitual or psychogenic polydipsia or those taking concomitant drugs that may cause hyponatremia <content styleCode="italics">[see Drug Interactions (<linkHtml href="#_380b4164-4e6e-2df4-6bcc-701ff6b64d71">7.1</linkHtml>)].</content>    </paragraph>
+                        <paragraph> Desmopressin nasal spray is not an indicated formulation for the treatment of primary nocturnal enuresis due to a higher risk of hyponatremia and hyponatremic convulsions with the use of the nasal spray formulation compared to desmopressin tablets seen in postmarketing reports <content styleCode="italics">[see Indications and Usage (<linkHtml href="#_ce1b4449-d253-f815-a78e-87f05f2e9923">1</linkHtml>)].</content>
+                        </paragraph>
+                     </text>
+                     <effectiveTime value="20181212"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="_db880518-d342-b287-7b98-d70386a5b47f">
+                     <id root="b162f9f0-a6cd-a799-6d1c-9a77eef68d14"/>
+                     <code code="42229-5" displayName="SPL UNCLASSIFIED SECTION" codeSystem="2.16.840.1.113883.6.1"/>
+                     <title>5.2 Altered Absorption in Patients With Nasal Mucosa Abnormalities</title>
+                     <text>
+                        <paragraph>Chronic administration of desmopressin nasal spray may result in changes to nasal mucosa. Nasal mucosa abnormalities (such as scarring and edema) due to chronic administration, or due to other causes (nasal blockage, nasal mucosal atrophy, severe atrophic rhinitis, recent nasal surgery such as transsphenoidal hypophysectomy) may cause erratic, unreliable absorption.  Avoid use of desmopressin nasal spray in such patients <content styleCode="italics">[see Indications and Usage (<linkHtml href="#_ce1b4449-d253-f815-a78e-87f05f2e9923">1</linkHtml>)] </content>and consider use of other formulations of desmopressin acetate given by other routes of administration. </paragraph>
+                     </text>
+                     <effectiveTime value="20210930"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="ADVERSE_REACTIONS">
+               <id root="aa430703-30d4-ecb4-87a4-7d3aa0b5baaf"/>
+               <code code="34084-4" displayName="ADVERSE REACTIONS SECTION" codeSystem="2.16.840.1.113883.6.1"/>
+               <title>6 ADVERSE REACTIONS</title>
+               <text>
+                  <paragraph>The following serious reactions are described below and elsewhere in the labeling:</paragraph>
+                  <list>
+                     <item>Hyponatremia <content styleCode="italics">[see Warnings and Precautions (<linkHtml href="#_23c41eb8-0afa-1852-f091-f77b0e8f4b6f">5.1</linkHtml>)].</content>
+                     </item>
+                     <item>Altered Absorption in Patients with Changes in Nasal Mucosa <content styleCode="italics">[see Warnings and Precautions (<linkHtml href="#_db880518-d342-b287-7b98-d70386a5b47f">5.2</linkHtml>)].</content>
+                     </item>
+                  </list>
+                  <paragraph>The following adverse reactions have been identified during post-approval use of desmopressin acetate. Because these reactions are reported voluntarily from a population of uncertain size, it is not always possible to reliably estimate their frequency or establish a causal relationship to drug exposure:    </paragraph>
+                  <paragraph> Increase in blood pressure, headache, nasal congestion, rhinitis, nosebleed, sore throat, cough, upper respiratory infections, nausea, flushing, and abdominal cramps.     </paragraph>
+                  <paragraph>Water intoxication with hyponatremia     </paragraph>
+                  <paragraph> Hyponatremic convulsions associated with concomitant use of the following medications: oxybutinin and imipramine <content styleCode="italics">[see Drug Interactions (<linkHtml href="#_380b4164-4e6e-2df4-6bcc-701ff6b64d71">7.1</linkHtml>)]</content>.     </paragraph>
+                  <paragraph>Severe allergic reactions and anaphylaxis <content styleCode="italics">[see Contraindications (<linkHtml href="#CONTRAINDICATIONS">4</linkHtml>)]</content>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20181212"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <paragraph>Adverse reactions that have been identified in patients administered desmopressin nasal spray are headache, nasal congestion, rhinitis, nosebleed, sore throat, cough, upper respiratory infections, nausea, flushing, and mild abdominal cramps (<linkHtml href="#ADVERSE_REACTIONS">6</linkHtml>)</paragraph>
+                        <paragraph>
+                           <content styleCode="bold">To report SUSPECTED ADVERSE REACTIONS, contact Apotex Corp. at 1-800-706-5575 or FDA at 1-800-FDA-1088 or </content>
+                           <content styleCode="bold">www.fda.gov/medwatch</content>
+                           <linkHtml href="#INDICATIONS_AND_USAGE"/>
+                           <content styleCode="bold"/>
+                        </paragraph>
+                     </text>
+                  </highlight>
+               </excerpt>
+            </section>
+         </component>
+         <component>
+            <section ID="DRUG_INTERACTIONS">
+               <id root="81cd34b8-dff2-63c9-a889-b1daa5437476"/>
+               <code code="34073-7" displayName="DRUG INTERACTIONS SECTION" codeSystem="2.16.840.1.113883.6.1"/>
+               <title>7 DRUG INTERACTIONS</title>
+               <text>
+                  <paragraph/>
+               </text>
+               <effectiveTime value="20200202"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <list>
+                           <item>Drugs that Increase Risk of Hyponatremia: Requires more frequent monitoring of serum sodium (<linkHtml href="#_380b4164-4e6e-2df4-6bcc-701ff6b64d71">7.1</linkHtml>) </item>
+                           <item>Other Vasoconstrictors: Concomitant use may elevate blood pressure and require a reduction in desmopressin nasal spray dosage (<linkHtml href="#_722ba891-51a3-ee5e-b46c-dd88d25b8b36">7.2</linkHtml>) </item>
+                        </list>
+                     </text>
+                  </highlight>
+               </excerpt>
+               <component>
+                  <section ID="_380b4164-4e6e-2df4-6bcc-701ff6b64d71">
+                     <id root="273927eb-76d2-2d2f-126c-abcd61751339"/>
+                     <code code="42229-5" displayName="SPL UNCLASSIFIED SECTION" codeSystem="2.16.840.1.113883.6.1"/>
+                     <title>7.1 Other Drugs that may Increase Risk of Hyponatremia</title>
+                     <text>
+                        <paragraph>The concomitant administration of desmopressin nasal spray with other drugs that may increase the risk of water intoxication with hyponatremia, (e.g., tricyclic antidepressants, selective serotonin re-uptake inhibitors, chlorpromazine, opiate analgesics, NSAIDs, lamotrigine, oxybutynin and carbamazepine) requires more frequent serum sodium monitoring <content styleCode="italics">[see Warnings and Precautions (<linkHtml href="#_23c41eb8-0afa-1852-f091-f77b0e8f4b6f">5.1</linkHtml>) and Adverse Reactions (<linkHtml href="#ADVERSE_REACTIONS">6</linkHtml>)].</content>
+                        </paragraph>
+                     </text>
+                     <effectiveTime value="20181212"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="_722ba891-51a3-ee5e-b46c-dd88d25b8b36">
+                     <id root="32ac8478-9618-790e-9cba-898b56d4454b"/>
+                     <code code="42229-5" displayName="SPL UNCLASSIFIED SECTION" codeSystem="2.16.840.1.113883.6.1"/>
+                     <title>7.2 Other Vasoconstrictors </title>
+                     <text>
+                        <paragraph>Desmopressin acetate can elevate blood pressure. Use of large doses of desmopressin nasal spray with other vasoconstrictors may require a reduction of the desmopressin dosage <content styleCode="italics">[see Adverse Reactions (<linkHtml href="#ADVERSE_REACTIONS">6</linkHtml>)].</content>
+                        </paragraph>
+                     </text>
+                     <effectiveTime value="20200202"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="USE_IN_SPECIFIC_POPULATIONS">
+               <id root="4fb0ea6e-0224-7a4b-c43c-2603934353e3"/>
+               <code code="43684-0" displayName="USE IN SPECIFIC POPULATIONS SECTION" codeSystem="2.16.840.1.113883.6.1"/>
+               <title>8 USE IN SPECIFIC POPULATIONS</title>
+               <text>
+                  <paragraph/>
+               </text>
+               <effectiveTime value="20181212"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <list>
+                           <item>Pediatric Use: Use requires careful fluid intake<content styleCode="italics"> </content>restriction to prevent hyponatremia with water<content styleCode="italics"> </content>intoxication (<linkHtml href="#_23c41eb8-0afa-1852-f091-f77b0e8f4b6f">5.1</linkHtml>, <linkHtml href="#PEDIATRIC_USE">8.4</linkHtml>) </item>
+                           <item>Geriatric Use: Carefully monitor renal function; restrict fluid intake to prevent hyponatremia with water intoxication (<linkHtml href="#_23c41eb8-0afa-1852-f091-f77b0e8f4b6f">5.1</linkHtml>, <linkHtml href="#GERIATRIC_USE">8.5</linkHtml>) </item>
+                        </list>
+                     </text>
+                  </highlight>
+               </excerpt>
+               <component>
+                  <section ID="PREGNANCY">
+                     <id root="6ff94ae7-684c-b70c-ccb5-ce8785abe8ce"/>
+                     <code code="42228-7" displayName="PREGNANCY SECTION" codeSystem="2.16.840.1.113883.6.1"/>
+                     <title>8.1 Pregnancy</title>
+                     <text>
+                        <paragraph>
+                           <content styleCode="underline">Risk summary  </content>
+                        </paragraph>
+                        <paragraph>Prolonged experience with desmopressin in pregnant women over several decades, based on the available published data and case reports, did not identify a drug associated risk of major birth defects, miscarriage or adverse maternal or fetal outcomes. In addition, <content styleCode="italics">in vitro</content> studies with human placenta demonstrate poor placental transfer of desmopressin. No adverse developmental outcomes were observed in animal reproduction studies with administration of desmopressin during organogenesis to pregnant rats and rabbits at doses approximately &lt;1 and 38 times, respectively, the maximum recommended human dose based on body surface area (mg/m<sup>2</sup>) (see Data).   </paragraph>
+                        <paragraph> The estimated background risk of major birth defects and miscarriage for the indicated population are unknown. In the US general population, the estimated background risk of major birth defects and miscarriage in clinically recognized pregnancies is 2 to 4% and 15 to 20%, respectively.   </paragraph>
+                        <paragraph>
+                           <content styleCode="underline"> Data  </content>  </paragraph>
+                        <paragraph> Animal Data Desmopressin acetate at up to 50 ng/kg/day was given by subcutaneous injection to pregnant rats, from gestation day 1 to 20 during the period of early embryonic development and organogenesis without teratogenic effects. Desmopressin acetate at up to 10 mcg/kg/day was given to pregnant rabbits by subcutaneous injection from gestation day 6 to 18 during fetal organogenesis without teratogenic effects. These doses of desmopressin acetate represent approximately &lt;1 times (rat) and 38 times (rabbit) the maximum recommended human dose based on body surface area (mg/m<sup>2</sup>).</paragraph>
+                     </text>
+                     <effectiveTime value="20200202"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LABOR_AND_DELIVERY">
+                     <id root="66b5fe62-66a3-5788-cb10-9c9d0d2aea15"/>
+                     <code code="77290-5" codeSystem="2.16.840.1.113883.6.1" displayName="LACTATION SECTION"/>
+                     <title>8.2 Lactation</title>
+                     <text>
+                        <paragraph>
+                           <content styleCode="underline">Risk Summary     </content>
+                        </paragraph>
+                        <paragraph> Breastfeeding is not expected to result in clinically relevant exposure of the infant to desmopressin following maternal intranasal administration.  Desmopressin is poorly transferred into human breastmilk at negligible amounts (see Data).  There is no information on the effects of desmopressin on the breastfed infant or on milk production. The developmental and health benefits of breastfeeding should be considered along with the mother’s clinical need for desmopressin nasal spray and any potential adverse effects on the breastfed infant from desmopressin nasal spray or from the underlying maternal condition.</paragraph>
+                        <paragraph>
+                           <content styleCode="underline">Data</content>
+                        </paragraph>
+                        <paragraph>  A trial was conducted in six healthy lactating women, at greater than 4 months postpartum, to evaluate intranasal administration of 300 mcg single dose of another desmopressin product (7.5 times the recommended adult dose of desmopressin nasal spray). Samples of maternal plasma and breastmilk were obtained at 0, 30, 60, 120, 240, 360 and 480 min after the drug administration. At 8 hours after dose intake, the levels in the milk ranged between 4.16 and 101 pg/ml, and the plasma levels ranged between 40 and 242 pg/ml. The total amount of desmopressin present in the milk over the 8 hours ranged between 491 pg and 16 ng, which corresponds to 0.0001 to 0.005% of the administered dose to the breastfeeding mother.</paragraph>
+                     </text>
+                     <effectiveTime value="20181212"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="PEDIATRIC_USE">
+                     <id root="fc4bed9e-3380-f30b-3cba-13a9c829d88b"/>
+                     <code code="34081-0" displayName="PEDIATRIC USE SECTION" codeSystem="2.16.840.1.113883.6.1"/>
+                     <title>8.4 Pediatric Use</title>
+                     <text>
+                        <paragraph>Desmopressin nasal spray is indicated as antidiuretic replacement therapy in the management of central diabetes insipidus in pediatric patients 4 years of age and older. Desmopressin nasal spray is not indicated in pediatric patients less than 4 years of age.    </paragraph>
+                        <paragraph> Use of desmopressin nasal spray in pediatric patients 4 years of age and older is supported by evidence from adults and pediatric patients with central diabetes insipidus. Use in pediatric patients requires careful fluid intake<content styleCode="italics"> </content>restriction to prevent possible water<content styleCode="italics"> </content>intoxication with hyponatremia<content styleCode="italics"> [see Warnings and Precautions (<linkHtml href="#_23c41eb8-0afa-1852-f091-f77b0e8f4b6f">5.1</linkHtml>)].</content>
+                        </paragraph>
+                     </text>
+                     <effectiveTime value="20181212"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="GERIATRIC_USE">
+                     <id root="1468676f-7e2d-9bd8-024d-bcd085af330a"/>
+                     <code code="34082-8" displayName="GERIATRIC USE SECTION" codeSystem="2.16.840.1.113883.6.1"/>
+                     <title>8.5 Geriatric Use</title>
+                     <text>
+                        <paragraph>Clinical studies of<content styleCode="italics"> </content>desmopressin nasal spray did not include sufficient numbers of subjects aged 65 and over to determine whether they respond differently from younger subjects. In general, dose selection for an elderly patient should be cautious, usually starting at a low end of the dosing range, reflecting the greater frequency of decreased hepatic, renal, or cardiac function, and of concomitant disease or drug therapy.     </paragraph>
+                        <paragraph>Because elderly patients are more likely to have renal impairment, care should be taken in dose selection, and monitoring renal function is recommended <content styleCode="italics">[see Contraindications (<linkHtml href="#CONTRAINDICATIONS">4</linkHtml>), Use in Specific Populations (<linkHtml href="#_41af7da6-3834-df75-4853-9278f7394f78">8.6</linkHtml>)].    </content>
+                        </paragraph>
+                        <paragraph> Use of desmopressin nasal spray in geriatric patients requires careful fluid intake restriction to prevent possible water intoxication with hyponatremia<content styleCode="italics"> [see Warnings and Precautions (<linkHtml href="#_23c41eb8-0afa-1852-f091-f77b0e8f4b6f">5.1</linkHtml>)].</content>
+                        </paragraph>
+                     </text>
+                     <effectiveTime value="20181212"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="_41af7da6-3834-df75-4853-9278f7394f78">
+                     <id root="483e12f7-d4f1-ca2d-c8d5-5815a94588b8"/>
+                     <code code="42229-5" displayName="SPL UNCLASSIFIED SECTION" codeSystem="2.16.840.1.113883.6.1"/>
+                     <title>8.6 Renal Impairment </title>
+                     <text>
+                        <paragraph>Desmopressin acetate is substantially excreted by the kidney, and the risk of adverse reactions may be greater in patients with renal impairment than patients with normal renal function. Desmopressin nasal spray is contraindicated in patients with estimated CLcr by Cockcroft-Gault equation less than 50 mL/min <content styleCode="italics">[see Clinical Pharmacology (<linkHtml href="#MECHANISM_OF_ACTION">12.1</linkHtml>, <linkHtml href="#PHARMACOKINETICS">12.3</linkHtml>), Contraindications (<linkHtml href="#CONTRAINDICATIONS">4</linkHtml>)].</content>
+                        </paragraph>
+                     </text>
+                     <effectiveTime value="20181212"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="OVERDOSAGE">
+               <id root="1cb9f100-e580-d87e-7fe2-8147887decd2"/>
+               <code code="34088-5" displayName="OVERDOSAGE SECTION" codeSystem="2.16.840.1.113883.6.1"/>
+               <title>10 OVERDOSAGE</title>
+               <text>
+                  <paragraph>Signs of desmopressin acetate overdosage may include confusion, drowsiness, continuing headache, problems with passing urine, and rapid weight gain due to fluid retention <content styleCode="italics">[see Warnings and Precautions (<linkHtml href="#_23c41eb8-0afa-1852-f091-f77b0e8f4b6f">5.1</linkHtml>)].</content>  In case of overdosage, reduce the dosage, decrease the frequency of administration, or discontinue desmopressin nasal spray. There is no known specific antidote for desmopressin acetate.</paragraph>
+               </text>
+               <effectiveTime value="20181212"/>
+            </section>
+         </component>
+         <component>
+            <section ID="DESCRIPTION">
+               <id root="7b9ce54e-703f-0f3d-8acd-8f29a6b69488"/>
+               <code code="34089-3" displayName="DESCRIPTION SECTION" codeSystem="2.16.840.1.113883.6.1"/>
+               <title>11 DESCRIPTION</title>
+               <text>
+                  <paragraph>Desmopressin nasal spray, USP  is a synthetic analogue of the natural pituitary hormone 8-arginine vasopressin (ADH), an antidiuretic hormone affecting renal water conservation. The structural formula for the active ingredient is:</paragraph>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="MM477187793706"/>
+                  </paragraph>
+                  <paragraph>Mol. wt<content styleCode="bold">. </content>1183.34 g/mol   </paragraph>
+                  <paragraph> Molecular formula: C<sub>46</sub>H<sub>64</sub>N<sub>14</sub>O<sub>12</sub>S<sub>2</sub> • C<sub>2</sub>H<sub>4</sub>O<sub>2</sub> • 3H<sub>2</sub>O<sub/>
+                  </paragraph>
+                  <paragraph> Chemical name: 1-(3-mercaptopropionic acid)-8-D-arginine vasopressin monoacetate (salt) trihydrate.  </paragraph>
+                  <paragraph> Desmopressin nasal spray, USP  is provided as an aqueous solution for intranasal use.</paragraph>
+                  <table frame="box" rules="all">
+                     <tbody>
+                        <tr>
+                           <td> Each mL contains: </td>
+                        </tr>
+                        <tr>
+                           <td> Desmopressin acetate 0.1 mg </td>
+                        </tr>
+                        <tr>
+                           <td>   </td>
+                        </tr>
+                        <tr>
+                           <td> Inactive: </td>
+                        </tr>
+                        <tr>
+                           <td>   </td>
+                        </tr>
+                        <tr>
+                           <td> Benzalkonium chloride solution (50% w/v) 0.2 mg </td>
+                        </tr>
+                        <tr>
+                           <td> Citric acid monohydrate 1.7 mg </td>
+                        </tr>
+                        <tr>
+                           <td> Sodium chloride 7.5 mg </td>
+                        </tr>
+                        <tr>
+                           <td> Sodium phosphate dibasic heptahydrate  4.52 mg </td>
+                        </tr>
+                        <tr>
+                           <td> Purified water to 1 mL </td>
+                        </tr>
+                     </tbody>
+                  </table>
+                  <paragraph>The desmopressin nasal spray, USP  compression pump delivers 0.1 mL (10 mcg) of desmopressin acetate per spray.</paragraph>
+               </text>
+               <effectiveTime value="20200202"/>
+            </section>
+         </component>
+         <component>
+            <section ID="CLINICAL_PHARMACOLOGY">
+               <id root="ad343fa9-c41d-5ce7-0c5a-8732bb2167c7"/>
+               <code code="34090-1" displayName="CLINICAL PHARMACOLOGY SECTION" codeSystem="2.16.840.1.113883.6.1"/>
+               <title>12 CLINICAL PHARMACOLOGY</title>
+               <text>
+                  <paragraph/>
+               </text>
+               <effectiveTime value="20181212"/>
+               <component>
+                  <section ID="MECHANISM_OF_ACTION">
+                     <id root="132d836f-4f1a-6e9b-a80d-bb652bad4089"/>
+                     <code code="43679-0" displayName="MECHANISM OF ACTION SECTION" codeSystem="2.16.840.1.113883.6.1"/>
+                     <title>12.1 Mechanism of Action</title>
+                     <text>
+                        <paragraph>The antidiuretic effects of desmopressin are mediated by stimulation of vasopressin 2 (V2) receptors, thereby increasing water re-absorption in the kidney, and hence reducing urine production. Desmopressin is a replacement hormone for antidiuretic hormone in the treatment of central diabetes insipidus.  The change in structure of arginine vasopressin to desmopressin acetate resulted in a decreased vasopressor action and decreased actions on visceral smooth muscle relative to the enhanced antidiuretic activity, so that clinically effective antidiuretic doses were usually below threshold levels for effects on vascular or visceral smooth muscle.</paragraph>
+                     </text>
+                     <effectiveTime value="20181212"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="PHARMACODYNAMICS">
+                     <id root="5e89bbb1-221e-451c-405d-457b5dc4f9bb"/>
+                     <code code="43681-6" displayName="PHARMACODYNAMICS SECTION" codeSystem="2.16.840.1.113883.6.1"/>
+                     <title>12.2 Pharmacodynamics</title>
+                     <text>
+                        <paragraph>The use of desmopressin nasal spray in patients with central diabetes insipidus reduces urinary output, increases urine osmolality, and decreases plasma osmolality.</paragraph>
+                     </text>
+                     <effectiveTime value="20181212"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="PHARMACOKINETICS">
+                     <id root="dcdc3cc2-e97f-cc55-318c-391cc267d85e"/>
+                     <code code="43682-4" displayName="PHARMACOKINETICS SECTION" codeSystem="2.16.840.1.113883.6.1"/>
+                     <title>12.3 Pharmacokinetics</title>
+                     <text>
+                        <paragraph>
+                           <content styleCode="underline">Absorption:</content> Desmopressin acetate is absorbed through the nasal mucosa.    </paragraph>
+                        <paragraph>
+                           <content styleCode="underline"> Elimination:</content> Desmopressin acetate exhibits a biphasic elimination profile, with half-lives of 7.8 and 75.5 minutes for the initial and terminal phases, respectively.    </paragraph>
+                        <paragraph>
+                           <content styleCode="underline"> Specific Populations</content>  </paragraph>
+                        <paragraph> Renal Impairment: Desmopressin acetate is mainly excreted in the urine. A pharmacokinetic study was conducted in subjects with normal renal function and patients with mild, moderate, and severe renal impairment (n=24, 6 subjects each group) with a single 2 mcg dose of desmopressin acetate injection (this results in approximately 20 times the exposure of 10 mcg of desmopressin nasal spray). The terminal half-life was 2.8 hours in subjects with normal renal function, 4.0 hours in mild renal impairment, 6.6 hours in moderate renal impairment and 8.7 hours in severe renal impairment. In patients with mild, moderate and severe renal impairment, mean desmopressin exposure was 1.5 fold, 2.4 fold and 3.6 fold higher, respectively compared to that of subjects with normal renal function <content styleCode="italics">[see Contraindications (<linkHtml href="#CONTRAINDICATIONS">4</linkHtml>), Use in Specific Populations (<linkHtml href="#_41af7da6-3834-df75-4853-9278f7394f78">8.6</linkHtml>)].</content>
+                        </paragraph>
+                     </text>
+                     <effectiveTime value="20181212"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="NONCLINICAL_TOXICOLOGY">
+               <id root="3a33f654-092d-f10f-e07d-545cedd52a4b"/>
+               <code code="43680-8" displayName="NONCLINICAL TOXICOLOGY SECTION" codeSystem="2.16.840.1.113883.6.1"/>
+               <title>13 NONCLINICAL TOXICOLOGY</title>
+               <text>
+                  <paragraph/>
+               </text>
+               <effectiveTime value="20181212"/>
+               <component>
+                  <section ID="CARCINOGENESIS_AND_MUTAGENESIS_AND_IMPAIRMENT_OF_FERTILITY">
+                     <id root="1bb4fd16-df47-e44f-fad7-c7af4014723c"/>
+                     <code code="34083-6" displayName="CARCINOGENESIS &amp; MUTAGENESIS &amp; IMPAIRMENT OF FERTILITY SECTION" codeSystem="2.16.840.1.113883.6.1"/>
+                     <title>13.1 Carcinogenesis, Mutagenesis, Impairment of Fertility</title>
+                     <text>
+                        <paragraph>Studies with desmopressin acetate have not been performed to evaluate carcinogenic potential, mutagenic potential, or effects on fertility.</paragraph>
+                     </text>
+                     <effectiveTime value="20210930"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="HOW_SUPPLIED">
+               <id root="1dfb0d85-2c61-615c-c612-e443fba1a4df"/>
+               <code code="34069-5" displayName="HOW SUPPLIED SECTION" codeSystem="2.16.840.1.113883.6.1"/>
+               <title>16 HOW SUPPLIED/STORAGE AND HANDLING</title>
+               <text>
+                  <paragraph/>
+               </text>
+               <effectiveTime value="20181212"/>
+               <component>
+                  <section ID="_7a5d405e-6816-2080-e2b1-edebea64e8d5">
+                     <id root="53a23337-9456-65c2-cff7-bb3ef2148dee"/>
+                     <code code="42229-5" displayName="SPL UNCLASSIFIED SECTION" codeSystem="2.16.840.1.113883.6.1"/>
+                     <title>16.1 How Supplied </title>
+                     <text>
+                        <paragraph>Desmopressin nasal spray, USP is available in a 5 mL bottle with a nasal spray pump dispenser with dust cover and patient instruction sheet delivering 50 sprays of 10 mcg (NDC 60505-0815-0). </paragraph>
+                     </text>
+                     <effectiveTime value="20210930"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="_fb1498e7-5f41-0207-d9ae-63daef0038cd">
+                     <id root="3612da18-310c-8615-693d-ef01c6ebe4c3"/>
+                     <code code="42229-5" displayName="SPL UNCLASSIFIED SECTION" codeSystem="2.16.840.1.113883.6.1"/>
+                     <title>16.2 Storage and Handling </title>
+                     <text>
+                        <paragraph>Store at 25°C (77°F) [see USP Controlled Room Temperature]; excursions permitted from 15°C to 30°C (59°F to 86°F).<content styleCode="none"> </content>
+                           <br/>
+                           <content styleCode="bold">
+                              <content styleCode="bold">AFTER ASSEMBLY, STORE UPRIGHT.</content>
+                           </content>
+                        </paragraph>
+                        <paragraph>Keep out of the reach of children.</paragraph>
+                     </text>
+                     <effectiveTime value="20210930"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="INFORMATION_FOR_PATIENTS">
+               <id root="a886ff89-cd38-b764-1d00-2b57077a6219"/>
+               <code code="34076-0" displayName="INFORMATION FOR PATIENTS SECTION" codeSystem="2.16.840.1.113883.6.1"/>
+               <title>17 PATIENT COUNSELING INFORMATION</title>
+               <text>
+                  <paragraph>Advise the patient to read the FDA-approved patient labeling (Patient Information and Instructions for Use)   </paragraph>
+                  <paragraph>
+                     <content styleCode="underline">Administration </content>
+                  </paragraph>
+                  <list>
+                     <item>Inform caregivers for pediatric patients that administration should be supervised to ensure the patient receives the prescribed dose. </item>
+                     <item>Inform patients that the pump must be primed prior to first use and again if not used for greater than one week. Inform patients that the<content styleCode="italics"> </content>desmopressin nasal spray<content styleCode="italics"> </content>bottle delivers 50 sprays of 10 mcg each following the initial 4 priming pumps.</item>
+                     <item>Inform patients to discard any solution remaining after 50 sprays since the amount delivered thereafter may be substantially less than 10 mcg of drug.<paragraph>
+                           <content styleCode="underline">Monitoring</content>
+                        </paragraph>
+                     </item>
+                  </list>
+                  <list>
+                     <item>Educate patients about the signs and symptoms of hyponatremia and advise them to contact a healthcare provider if such symptoms occur.</item>
+                     <item>Discuss downward adjustment of fluid intake and monitoring of urine output with patients.<paragraph/>
+                     </item>
+                  </list>
+                  <paragraph>
+                     <content styleCode="bold">APOTEX INC.</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Desmopressin Nasal Spray, USP </content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">
+                        <content styleCode="bold">10 mcg/ 0.1 mL </content>
+                     </content>   </paragraph>
+                  <table frame="box" rules="all">
+                     <tbody>
+                        <tr>
+                           <td>
+                              <content styleCode="bold">Manufactured by</content>
+                              <br/>Apotex Inc. Toronto, <br/>Ontario Canada M9L 1T9 </td>
+                           <td>
+                              <content styleCode="bold">Manufactured for</content>
+                              <br/> Apotex Corp. Weston, <paragraph/>Florida 33326 </td>
+                        </tr>
+                     </tbody>
+                  </table>
+                  <paragraph>September 2022<content styleCode="none"/>
+                     <content styleCode="none"/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20220919"/>
+            </section>
+         </component>
+         <component>
+            <section ID="_dc3f899a-4138-7ecc-ac8c-874ae80fe08c">
+               <id root="9c30bc48-c23f-93cc-3f0e-041a4a9f4321"/>
+               <code code="42230-3" displayName="SPL PATIENT PACKAGE INSERT SECTION" codeSystem="2.16.840.1.113883.6.1"/>
+               <title>Patient Information</title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">Desmopressin </content>
+                     <content styleCode="bold">Nasal Spray, USP <content styleCode="bold">10 mcg per 0.1 mL </content>
+                     </content>
+                     <content styleCode="bold"/>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">(des·mo·pres·sin)</content>
+                  </paragraph>
+                  <paragraph> For Intranasal Use Only</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">What is </content>
+                     <content styleCode="bold">desmopressin nasal spray</content>
+                     <content styleCode="bold">? </content>
+                  </paragraph>
+                  <paragraph> Desmopressin nasal spray is a prescription medicine called a vasopressin analog used as an antidiuretic replacement to manage central diabetes insipidus.</paragraph>
+                  <list>
+                     <item>Desmopressin nasal spray is not effective in the treatment of nephrogenic diabetes insipidus.</item>
+                     <item>Desmopressin nasal spray should not be used in people with nasal problems that may keep them from using a nasal spray.</item>
+                  </list>
+                  <paragraph>
+                     <content styleCode="bold">Who should not use desmopressin nasal spray?</content>
+                     <content styleCode="bold"/>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Do not use desmopressin nasal spray if you:</content>
+                  </paragraph>
+                  <list>
+                     <item>are allergic to desmopressin or any of the ingredients in desmopressin nasal spray. Some people have had severe allergic reactions while taking desmopressin nasal spray. See the end of this Patient Information for a complete list of ingredients in desmopressin nasal spray.</item>
+                     <item>have kidney problems<content styleCode="none"> </content>
+                     </item>
+                     <item>have or have had low levels of sodium in your blood (hyponatremia)</item>
+                  </list>
+                  <paragraph>
+                     <content styleCode="bold">What should I tell my healthcare provider before using desmopressin nasal spray? </content>
+                     <content styleCode="bold">Before using desmopressin nasal spray, tell your healthcare provider about all your medical conditions including if you:</content>
+                  </paragraph>
+                  <list>
+                     <item>have or have had nasal sores, nasal surgery, nasal injury, or have problems such as a stuffy nose or trouble breathing through your nose.</item>
+                     <item>have or have had any heart, blood circulation, or blood pressure problems</item>
+                     <item>have a condition that causes fluid or water imbalance problems such as cystic fibrosis, or heart failure.</item>
+                     <item>have or have had a condition that causes you to be very thirsty</item>
+                     <item>are pregnant or plan to become pregnant. It is not known if desmopressin will harm your unborn baby.</item>
+                     <item>are breastfeeding or plan to breastfeed. It is not known if desmopressin passes into your breast milk. You and your healthcare provider should decide if you will use desmopressin nasal spray.</item>
+                  </list>
+                  <paragraph>Tell your healthcare provider about all the medicines you take, including prescription and over-the-counter medicines, vitamins, and herbal supplements.   <content styleCode="bold"/>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">How should I use desmopressin nasal spray?</content>
+                  </paragraph>
+                  <list>
+                     <item> Read the <content styleCode="bold">Instructions for Use </content>that comes with your desmopressin nasal spray. </item>
+                     <item> Use desmopressin nasal spray exactly as your healthcare provider tells you to use it. </item>
+                     <item> Your healthcare provider may change your dose of desmopressin nasal spray if needed.</item>
+                  </list>
+                  <paragraph>
+                     <content styleCode="bold">What are the possible side effects of desmopressin nasal spray?</content>
+                     <content styleCode="bold"/>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Desmopressin nasal spray may cause serious side effects including:</content>
+                  </paragraph>
+                  <list>
+                     <item>
+                        <content styleCode="bold">low levels of sodium in the blood (hyponatremia). </content>People using desmopressin nasal spray are at risk for low sodium levels in the blood, water intoxication, and fluid overload. Follow your healthcare provider’s instructions on limiting the amount of fluid you can drink when using desmopressin nasal spray. </item>
+                     <item>
+                        <content styleCode="bold">Do not </content>drink more than you need to satisfy your thirst. You can have serious side effects such as seizures, coma, and death from drinking too much fluid. </item>
+                     <item>Children and the elderly are at higher risk for these problems and should follow their healthcare provider’s limits on drinking fluids. </item>
+                     <item>Call your healthcare provider right away if you have any of the following symptoms while using desmopressin nasal spray. They may mean that your blood sodium level is too low.   </item>
+                     <item>headache </item>
+                     <item>nausea, vomiting </item>
+                     <item> weight gain </item>
+                     <item> restlessness </item>
+                     <item> tiredness </item>
+                     <item>sleepiness </item>
+                     <item>disorientation </item>
+                     <item> loss of appetite </item>
+                     <item>feeling irritable </item>
+                     <item> feeling weak </item>
+                     <item>muscle cramps </item>
+                     <item>hallucinations </item>
+                     <item> confusion </item>
+                     <item>
+                        <content styleCode="bold">nasal scarring or swelling. </content>Some people using desmopressin nasal spray for long periods of time may have nasal problems such as scarring or swelling. This may affect how well desmopressin nasal spray works for you. The most common side effects of desmopressin nasal spray include: headache, stuffy nose, runny nose, nosebleed, sore throat, cough, upper respiratory infections, nausea, flushing, and stomach cramps. Call your doctor for medical advice about side effects. You may report side effects to FDA at 1-800-FDA-1088.</item>
+                  </list>
+                  <paragraph>
+                     <content styleCode="bold">General information about the safe and effective use of </content>
+                     <content styleCode="bold">desmopressin nasal spray</content>
+                     <content styleCode="bold">. </content> Medicines are sometimes prescribed for purposes other than those listed in a Patient Information leaflet. Do not use desmopressin nasal spray for a condition for which it was not prescribed. Do not give desmopressin nasal spray to other people, even if they have the same symptoms that you have. It may harm them. You can ask your healthcare provider or pharmacist for information about desmopressin nasal spray that is written for health professionals. For more information call <content styleCode="bold">Apotex Corp. at 1-800-706-5575</content>.   <content styleCode="bold"/>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">What are the ingredients in desmopressin nasal spray? </content>
+                     <content styleCode="bold"/>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Active ingredient: </content>desmopressin acetate   <content styleCode="bold"/>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Inactive ingredients:</content> benzalkonium chloride solution (50% w/v), citric acid monohydrate, sodium chloride, sodium phosphate dibasic heptahydrate, and purified water   </paragraph>
+                  <paragraph>This Patient Information has been approved by the Food and Drug Administration    <content styleCode="bold"/>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">APOTEX INC.</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Desmopressin Nasal Spray, USP <content styleCode="bold">10 mcg/ 0.1 mL </content>
+                     </content>
+                  </paragraph>
+                  <table frame="box" rules="all">
+                     <tbody>
+                        <tr>
+                           <td>
+                              <content styleCode="bold">Manufactured by</content>
+                              <br/> Apotex Inc. Toronto, <br/>Ontario Canada M9L 1T9 </td>
+                           <td>
+                              <content styleCode="bold">Manufactured for</content>
+                              <br/> Apotex Corp. <br/> Weston, Florida <br/>33326 </td>
+                        </tr>
+                     </tbody>
+                  </table>
+                  <paragraph>September 2022<content styleCode="none"/>
+                     <content styleCode="none"/>
+                  </paragraph>
+                  <br/>
+                  <br/>
+                  <paragraph/>
+               </text>
+               <effectiveTime value="20220919"/>
+            </section>
+         </component>
+         <component>
+            <section ID="_7e10b626-bca3-6f7c-bf1e-b5b37eeb7833">
+               <id root="20fff313-3a75-d4b0-0dfd-5fc91b9320fb"/>
+               <code code="42229-5" displayName="SPL UNCLASSIFIED SECTION" codeSystem="2.16.840.1.113883.6.1"/>
+               <title>Instructions for Use</title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">Desmopressin Nasal Spray, USP 10 mcg per 0.1 mL</content>
+                     <content styleCode="bold"> </content>
+                     <content styleCode="bold"/>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">For Intranasal Use Only </content>   </paragraph>
+                  <paragraph> Read these instructions before using desmopressin nasal spray, and each time you get a refill. There may be new information. This information does not take the place of talking to your healthcare provider about your medical condition or treatment.   <content styleCode="bold"/>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Instruction For Assembly of Spray Pump</content>
+                     <content styleCode="bold"/>
+                  </paragraph>
+                  <paragraph> Assemble desmopressin nasal spray, USP, 0.01% prior to dispensing to the patient, according to the following instructions: </paragraph>
+                  <paragraph>1. Open the carton and remove the spray pump and solution bottle. </paragraph>
+                  <paragraph>2. Assemble the desmopressin nasal spray solution by unscrewing the white cap from the solution bottle and screwing the spray pump tightly onto the bottle. Make sure the protective cap is on the spray pump.</paragraph>
+                  <paragraph>3. Return desmopressin nasal spray solution bottle to the carton for dispensing to the patient. </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Children should be helped by an adult when using </content>
+                     <content styleCode="bold">desmopressin </content>
+                     <content styleCode="bold">nasal spray, to make sure the right amount of medicine is used. </content>   <content styleCode="bold"/>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">The parts of your </content>
+                     <content styleCode="bold">desmopressin </content>
+                     <content styleCode="bold">nasal spray pump </content>(see Figure A)<content styleCode="bold">:</content>
+                  </paragraph>
+                  <content styleCode="bold">
+                     <content styleCode="bold">
+                        <renderMultiMedia referencedObject="MM118013244637"/>
+                     </content>
+                  </content>
+                  <paragraph>
+                     <content styleCode="bold">Priming your </content>
+                     <content styleCode="bold">desmopressin </content>
+                     <content styleCode="bold">nasal spray: </content>
+                  </paragraph>
+                  <paragraph> Your desmopressin nasal spray pump must be primed before you use it for the first time.<content styleCode="bold"> </content>
+                  </paragraph>
+                  <list>
+                     <item>Remove the protective cap (see Figure B).<content styleCode="none"> </content>
+                        <renderMultiMedia referencedObject="MM766849117157"/>
+                     </item>
+                  </list>
+                  <list>
+                     <item>Press down on the shoulders at the top of your desmopressin<content styleCode="bold"> </content>nasal spray pump 4 times. Hold the spray tip away from your face and eyes (see Figure C).<content styleCode="bold">
+                           <renderMultiMedia referencedObject="MM258621907950"/>
+                        </content>
+                     </item>
+                  </list>
+                  <list>
+                     <item>After your desmopressin nasal spray pump is primed, it will spray 10<content styleCode="bold"> </content>micrograms (1 dose) of medicine each time it is pressed. <content styleCode="bold"> </content>
+                     </item>
+                  </list>
+                  <paragraph>
+                     <content styleCode="bold">Using your desmopressin nasal spray:</content>   <content styleCode="bold"/>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Step 1. </content>Remove the protective cap. <content styleCode="bold"/>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Step 2. </content>To make sure you get the right dose of medicine tilt your desmopressin nasal spray pump so the dip tube<content styleCode="bold"> </content>inside the bottle draws the medicine up from the deepest part of the<content styleCode="bold"> </content>medicine inside the bottle (see Figures D and E).</paragraph>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="MM851302489620"/>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Step 3.</content> Put the spray nozzle tip of your desmopressin nasal spray into your nostril and press the spray pump 1 time for 1 dose. (see Figure F). If 2 doses are prescribed, spray each nostril 1 time. </paragraph>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="MM322745105226"/>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Step 4.</content> Put the protective cap back on the spray nozzle tip when you finish using your desmopressin nasal spray.   <content styleCode="bold"/>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Keeping track of your Nasal Sprays: </content>
+                  </paragraph>
+                  <list>
+                     <item>Use the check-off chart<content styleCode="xmChange"> </content>to help you keep track of your desmopressin nasal sprays used (see Figure G).</item>
+                  </list>
+                  <paragraph>
+                     <content styleCode="bold">Desmopressin Nasal Spray </content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold"/>
+                     <content styleCode="bold">50-Spray Check-off Chart </content>
+                  </paragraph>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="MM348327456539"/>
+                  </paragraph>
+                  <list>
+                     <item>Keep this chart with your desmopressin nasal spray or put it someplace where you can easily get it.</item>
+                     <item>Check off number 1 on the chart with your first dose of desmopressin nasal spray. Check off the numbers after each use of your desmopressin nasal spray. If your healthcare provider prescribed a 2-spray dose, then 2 numbers should be checked off.</item>
+                     <item>Your desmopressin nasal spray holds 50 sprays with the right amount of medicine in each spray.</item>
+                     <item>If any medicine is left in your desmopressin nasal spray after 50 sprays, <content styleCode="bold">do not</content> use it. You may not get the right amount of medicine.</item>
+                     <item>Throw away your desmopressin nasal spray after 50 sprays.<content styleCode="bold"/>
+                     </item>
+                     <item>
+                        <content styleCode="bold">Do not</content> count the priming sprays. Your desmopressin nasal spray has been filled with extra medicine for your priming sprays.<content styleCode="bold"/>
+                     </item>
+                     <item>
+                        <content styleCode="bold">Do not </content>try to<content styleCode="bold"> </content>remove any medicine from your desmopressin nasal spray pump and place it in another bottle.</item>
+                  </list>
+                  <paragraph>
+                     <content styleCode="bold">How should I store desmopressin</content> <content styleCode="bold">nasal spray? </content>
+                  </paragraph>
+                  <paragraph> Store at 25°C (77°F) [see USP Controlled Room Temperature]; excursions permitted from 15°C to 30°C (59°F to 86°F).<content styleCode="bold">
+                        <content styleCode="bold">AFTER ASSEMBLY, STORE UPRIGHT.</content>
+                     </content>
+                  </paragraph>
+                  <paragraph>Keep out of the reach of children.  <content styleCode="bold"/>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">This Instructions for Use has been approved by the U.S. Food and Drug Administration. </content>   <content styleCode="bold"/>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">APOTEX INC.</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold"/>
+                     <content styleCode="bold">Desmopressin Nasal Spray, USP 10 mcg/ 0.1 mL</content>
+                  </paragraph>
+                  <table frame="box" rules="all">
+                     <tbody>
+                        <tr>
+                           <td>
+                              <content styleCode="bold">Manufactured by</content>
+                              <br/>Apotex Inc. Toronto, <br/>Ontario Canada M9L 1T9 </td>
+                           <td>
+                              <content styleCode="bold">Manufactured for</content>
+                              <br/> Apotex Corp. Weston, <br/>Florida 33326 </td>
+                        </tr>
+                     </tbody>
+                  </table>
+                  <paragraph>September 2022<content styleCode="none"/>
+                  </paragraph>
+                  <paragraph/>
+                  <paragraph/>
+               </text>
+               <effectiveTime value="20220920"/>
+            </section>
+         </component>
+         <component>
+            <section ID="_1c5eb66b-3afd-d47d-28c6-525bf89147e0">
+               <id root="e736ca68-1500-0351-e2fd-a16a423fa01b"/>
+               <code code="51945-4" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL" codeSystem="2.16.840.1.113883.6.1"/>
+               <title>PRINCIPAL DISPLAY PANEL - 5 mL Carton Label</title>
+               <text>
+                  <paragraph>APOTEX CORP. NDC 60505-0815-0 </paragraph>
+                  <paragraph>Desmopressin Nasal Spray Solution USP, 0.01%  </paragraph>
+                  <paragraph>Rx Only </paragraph>
+                  <paragraph> 5 mL</paragraph>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="MM70260605294"/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20240924"/>
+            </section>
+         </component>
+         <component>
+            <section ID="_8759879b-63b8-23eb-c162-973187fe3315">
+               <id root="90f88f77-a456-696c-ff43-8abb49896730"/>
+               <code code="51945-4" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL" codeSystem="2.16.840.1.113883.6.1"/>
+               <title>PRINCIPAL DISPLAY PANEL - 5 mL Bottle Label</title>
+               <text>
+                  <paragraph>APOTEX CORP. NDC 60505-0815-0 </paragraph>
+                  <paragraph>Desmopressin Nasal Spray Solution USP, 0.01% </paragraph>
+                  <paragraph>Rx Only </paragraph>
+                  <paragraph>5 mL</paragraph>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="MM880521649712"/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20240924"/>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

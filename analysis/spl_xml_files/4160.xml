@@ -1,0 +1,1443 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="https://www.accessdata.fda.gov/spl/stylesheet/spl.xsl"?>
+<document xmlns="urn:hl7-org:v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 https://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="7e0897ec-2275-4438-9cc5-4c951e52ad97"/>
+   <code code="34391-3" displayName="HUMAN PRESCRIPTION DRUG LABEL" codeSystem="2.16.840.1.113883.6.1"/>
+   <title>CEFOTAXIME FOR INJECTION, USP</title>
+   <effectiveTime value="20240411"/>
+   <setId root="ed23b6bc-32c7-4c50-a53d-313ae78e5623"/>
+   <versionNumber value="14"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id extension="001230762" root="1.3.6.1.4.1.519.1"/>
+            <name>Hikma Pharmaceuticals USA Inc.</name>
+            <assignedEntity>
+               <assignedOrganization>
+                  <assignedEntity>
+                     <assignedOrganization>
+                        <id extension="452742943" root="1.3.6.1.4.1.519.1"/>
+                        <name>HIKMA FARMACEUTICA (PORTUGAL), S.A</name>
+                     </assignedOrganization>
+                     <performance>
+                        <actDefinition>
+                           <code code="C25391" displayName="analysis" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="0143-9931" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                     <performance>
+                        <actDefinition>
+                           <code code="C25391" displayName="analysis" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="0143-9933" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                     <performance>
+                        <actDefinition>
+                           <code code="C25391" displayName="analysis" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="0143-9930" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                     <performance>
+                        <actDefinition>
+                           <code code="C84732" displayName="label" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="0143-9931" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                     <performance>
+                        <actDefinition>
+                           <code code="C84732" displayName="label" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="0143-9933" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                     <performance>
+                        <actDefinition>
+                           <code code="C84732" displayName="label" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="0143-9930" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                     <performance>
+                        <actDefinition>
+                           <code code="C43360" displayName="manufacture" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="0143-9931" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                     <performance>
+                        <actDefinition>
+                           <code code="C43360" displayName="manufacture" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="0143-9933" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                     <performance>
+                        <actDefinition>
+                           <code code="C43360" displayName="manufacture" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="0143-9930" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                     <performance>
+                        <actDefinition>
+                           <code code="C84731" displayName="pack" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="0143-9931" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                     <performance>
+                        <actDefinition>
+                           <code code="C84731" displayName="pack" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="0143-9933" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                     <performance>
+                        <actDefinition>
+                           <code code="C84731" displayName="pack" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="0143-9930" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                  </assignedEntity>
+               </assignedOrganization>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section>
+               <id root="40e07f78-7c47-448d-918e-8ef998608901"/>
+               <code code="48780-1" displayName="SPL listing data elements section" codeSystem="2.16.840.1.113883.6.1"/>
+               <effectiveTime value="20240411"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="0143-9931" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>Cefotaxime</name>
+                        <formCode code="C42974" displayName="INJECTION, POWDER, FOR SOLUTION" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>Cefotaxime</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <ingredient classCode="ACTIM">
+                           <quantity>
+                              <numerator unit="g" value="1"/>
+                              <denominator unit="1" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="258J72S7TZ" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>CEFOTAXIME SODIUM</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="N2GI8B1GK7" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>CEFOTAXIME</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator unit="1" value="1"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="0143-9931-01" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43226" displayName="VIAL" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator unit="1" value="25"/>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code code="0143-9931-25" codeSystem="2.16.840.1.113883.6.69"/>
+                                    <formCode code="C43233" displayName="PACKAGE" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 </containerPackagedProduct>
+                                 <subjectOf>
+                                    <marketingAct>
+                                       <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                       <statusCode code="active"/>
+                                       <effectiveTime>
+                                          <low value="20021120"/>
+                                       </effectiveTime>
+                                    </marketingAct>
+                                 </subjectOf>
+                              </asContent>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" displayName="Type 0: Not a Combination Product" codeSystem="2.16.840.1.113883.3.26.1.1" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <id extension="ANDA065072" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73584" displayName="ANDA" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20021120"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C28161" displayName="INTRAMUSCULAR" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38276" displayName="INTRAVENOUS" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="0143-9933" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>Cefotaxime</name>
+                        <formCode code="C42974" displayName="INJECTION, POWDER, FOR SOLUTION" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>Cefotaxime</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <ingredient classCode="ACTIM">
+                           <quantity>
+                              <numerator unit="g" value="2"/>
+                              <denominator unit="1" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="258J72S7TZ" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>CEFOTAXIME SODIUM</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="N2GI8B1GK7" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>CEFOTAXIME</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator unit="1" value="1"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="0143-9933-01" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43226" displayName="VIAL" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator unit="1" value="25"/>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code code="0143-9933-25" codeSystem="2.16.840.1.113883.6.69"/>
+                                    <formCode code="C43233" displayName="PACKAGE" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 </containerPackagedProduct>
+                                 <subjectOf>
+                                    <marketingAct>
+                                       <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                       <statusCode code="active"/>
+                                       <effectiveTime>
+                                          <low value="20021120"/>
+                                       </effectiveTime>
+                                    </marketingAct>
+                                 </subjectOf>
+                              </asContent>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" displayName="Type 0: Not a Combination Product" codeSystem="2.16.840.1.113883.3.26.1.1" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <id extension="ANDA065072" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73584" displayName="ANDA" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20021120"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C28161" displayName="INTRAMUSCULAR" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38276" displayName="INTRAVENOUS" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="0143-9930" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>Cefotaxime</name>
+                        <formCode code="C42974" displayName="INJECTION, POWDER, FOR SOLUTION" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>Cefotaxime</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <ingredient classCode="ACTIM">
+                           <quantity>
+                              <numerator unit="mg" value="500"/>
+                              <denominator unit="1" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="258J72S7TZ" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>CEFOTAXIME SODIUM</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="N2GI8B1GK7" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>CEFOTAXIME</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator unit="1" value="1"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="0143-9930-01" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43226" displayName="VIAL" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator unit="1" value="10"/>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code code="0143-9930-10" codeSystem="2.16.840.1.113883.6.69"/>
+                                    <formCode code="C43233" displayName="PACKAGE" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 </containerPackagedProduct>
+                                 <subjectOf>
+                                    <marketingAct>
+                                       <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                       <statusCode code="active"/>
+                                       <effectiveTime>
+                                          <low value="20021120"/>
+                                       </effectiveTime>
+                                    </marketingAct>
+                                 </subjectOf>
+                              </asContent>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" displayName="Type 0: Not a Combination Product" codeSystem="2.16.840.1.113883.3.26.1.1" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <id extension="ANDA065072" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73584" displayName="ANDA" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20021120"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C28161" displayName="INTRAMUSCULAR" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38276" displayName="INTRAVENOUS" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_9d0a9fbd-841e-4723-ba51-65af60a6fbda">
+               <id root="2f9de540-9d26-4c76-9c56-5c68f88c91d1"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <title/>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">Rx</content> ONLY</paragraph>
+                  <paragraph>To reduce the development of drug-resistant bacteria and maintain the effectiveness of Cefotaxime for Injection, USP (cefotaxime sodium) and other antibacterial drugs, Cefotaxime for Injection, USP should be used only to treat or prevent infections that are proven or strongly suspected to be caused by bacteria.</paragraph>
+               </text>
+               <effectiveTime value="20240411"/>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_cb9a3ab8-0dd5-4803-850f-24477f352beb">
+               <id root="1def683a-83b1-4d1f-809b-a98bc4e14572"/>
+               <code code="34089-3" codeSystem="2.16.840.1.113883.6.1" displayName="DESCRIPTION SECTION"/>
+               <title>DESCRIPTION</title>
+               <text>
+                  <paragraph>Sterile cefotaxime sodium is a semisynthetic, broad spectrum cephalosporin antibiotic for parenteral administration. It is the sodium salt of 7-[2-(2-amino-4-thiazolyl) glyoxylamido]-3(hydroxymethyl)-8-oxo-5-thia-1-azabicyclo [4.2.0] oct-2-ene-2-carboxylate 72 (Z)-(o-methyloxime), acetate (ester). Cefotaxime for Injection, USP contains approximately 50.5 mg (2.2 mEq) of sodium per gram of cefotaxime activity. Solutions of Cefotaxime for Injection, USP range from very pale yellow to light amber depending on the concentration and the diluent used. The pH of the injectable solutions usually ranges from 5.0 to 7.5. The CAS Registry Number is 64485-93-4.</paragraph>
+                  <renderMultiMedia referencedObject="MM1"/>
+                  <paragraph>C<sub>16</sub>H<sub>16</sub>N<sub>5</sub>NaO<sub>7</sub>S<sub>2                                               </sub>MW 477.45</paragraph>
+                  <paragraph>Cefotaxime for Injection, USP is supplied as a dry powder in vials. Each vial contains cefotaxime sodium, equivalent to 500 mg, 1 gram or 2 grams of cefotaxime.</paragraph>
+               </text>
+               <effectiveTime value="20240411"/>
+               <component>
+                  <observationMedia ID="MM1">
+                     <text>Structural Formula</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="cefotaxime-for-injection-1.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_1f4a6023-400b-495f-ba35-c207299d97c5">
+               <id root="e7d448ef-aa00-4bbd-bad1-23ad502e3efc"/>
+               <code code="34090-1" codeSystem="2.16.840.1.113883.6.1" displayName="CLINICAL PHARMACOLOGY SECTION"/>
+               <title>CLINICAL PHARMACOLOGY</title>
+               <text>
+                  <paragraph>Following IM administration of a single 500 mg or 1 g dose of cefotaxime to normal volunteers, mean peak serum concentrations of 11.7 and 20.5 mcg/mL respectively were attained within 30 minutes and declined with an elimination half-life of approximately 1 hour. There was a dose-dependent increase in serum levels after the IV administration of 500 mg, 1 g, and 2 g of cefotaxime (38.9, 101.7, and 214.4 mcg/mL respectively) without alteration in the elimination half-life. There is no evidence of accumulation following repetitive IV infusion of 1 g doses every 6 hours for 14 days as there are no alterations of serum or renal clearance. About 60% of the administered dose was recovered from urine during the first 6 hours following the start of the infusion.</paragraph>
+                  <paragraph>Approximately 20-36% of an intravenously administered dose of <sup>14</sup>C-cefotaxime is excreted by the kidney as unchanged cefotaxime and 15-25% as the desacetyl derivative, the major metabolite. The desacetyl metabolite has been shown to contribute to the bactericidal activity. Two other urinary metabolites (M<sub>2</sub> and M<sub>3</sub>) account for about 20-25%. They lack bactericidal activity.</paragraph>
+                  <paragraph>A single 50 mg/kg dose of cefotaxime was administered as an intravenous infusion over a 10- to 15-minute period to 29 newborn infants grouped according to birth weight and age. The mean half-life of cefotaxime in infants with lower birth weights (≤ 1500 grams), regardless of age, was longer (4.6 hours) than the mean half-life (3.4 hours) in infants whose birth weight was greater than 1500 grams. Mean serum clearance was also smaller in the lower birth weight infants. Although the differences in mean half-life values are statistically significant for weight, they are not clinically important. Therefore, dosage should be based solely on age. (See <content styleCode="bold">
+                        <linkHtml href="#LINK_295bcdb8-e9fb-49f2-9bfc-e0099d075aec">DOSAGE AND ADMINISTRATION</linkHtml>
+                     </content> section.)</paragraph>
+               </text>
+               <effectiveTime value="20240411"/>
+               <component>
+                  <section ID="LINK_98dd6602-346f-4d69-ab6b-4d1a830be20f">
+                     <id root="4f388772-455b-4968-88f9-81a155793e93"/>
+                     <code code="34073-7" codeSystem="2.16.840.1.113883.6.1" displayName="DRUG INTERACTIONS SECTION"/>
+                     <title>
+                        <content styleCode="bold">Drug Interactions</content>
+                     </title>
+                     <text>
+                        <paragraph>A single intravenous dose and oral dose of probenecid (500 mg each) followed by two oral doses of probenecid 500 mg at approximately hourly intervals administered to three healthy male subjects receiving a continuous infusion of cefotaxime increased the steady-state plasma concentration of cefotaxime by approximately 80%. In another study, administration of oral probenecid 500 mg every 6 hours to six healthy male subjects with cefotaxime 1 gram infused over 5 minutes decreased the total clearance of cefotaxime by approximately 50%.</paragraph>
+                        <paragraph>Additionally, no disulfiram-like reactions were reported in a study conducted in 22 healthy volunteers administered cefotaxime and ethanol.</paragraph>
+                     </text>
+                     <effectiveTime value="20240411"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_6a39ebc4-263a-4e9f-9b6d-7f09ad07aed4">
+                     <id root="e4eed3b9-6311-4c9e-8dbf-6337d6a4589b"/>
+                     <code code="49489-8" codeSystem="2.16.840.1.113883.6.1" displayName="MICROBIOLOGY SECTION"/>
+                     <title>
+                        <content styleCode="bold">Microbiology</content>
+                     </title>
+                     <text>
+                        <paragraph>
+                           <content styleCode="italics">Mechanism of Action<br/>
+                           </content>Cefotaxime sodium is a bactericidal agent that acts by inhibition of bacterial cell wall synthesis. Cefotaxime has activity in the presence of some of beta-lactamases, both penicillinases and cephalosporinases, of Gram-negative and Gram-positive bacteria. </paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Mechanism of Resistance<br/>
+                           </content>Resistance to cefotaxime is primarily through hydrolysis by beta-lactamase, alteration of penicillin-binding proteins (PBPs), and decreased permeability. </paragraph>
+                        <paragraph>Susceptibility to cefotaxime will vary geographically and may change over time; local susceptibility data should be consulted, if available. Cefotaxime has been shown to be active against most isolates of the following bacteria both <content styleCode="italics">in vitro</content> and in clinical infections as described in the <content styleCode="bold">
+                              <linkHtml href="#LINK_cf9960b6-00dc-45c8-ae26-ee1388cdb1ee">INDICATIONS AND USAGE</linkHtml>
+                           </content> section:</paragraph>
+                        <paragraph>
+                           <content styleCode="underline">Gram-positive bacteria<br/>
+                           </content>
+                           <content styleCode="italics">Enterococcus</content> spp. <sup>a</sup>
+                           <br/>
+                           <content styleCode="italics">Staphylococcus aureus</content> (methicillin-susceptible isolates only)<br/>
+                           <content styleCode="italics">Staphylococcus epidermidis<br/>
+                           </content>
+                           <content styleCode="italics">Streptococcus pneumoniae<br/>
+                           </content>
+                           <content styleCode="italics">Streptococcus pyogenes</content> (Group A beta-hemolytic streptococci)<br/>
+                           <content styleCode="italics">Streptococcus</content> spp. (Viridans group streptococci)</paragraph>
+                        <paragraph>
+                           <content styleCode="underline">Gram-negative bacteria<br/>
+                           </content>
+                           <content styleCode="italics">Acinetobacter </content>spp.<br/>
+                           <content styleCode="italics">Citrobacter</content> spp.<sup>b</sup>
+                           <br/>
+                           <content styleCode="italics">Enterobacter</content> spp.<sup> b</sup>
+                           <br/>
+                           <content styleCode="italics">Escherichia coli</content>
+                           <sup> b</sup>
+                           <content styleCode="italics">
+                              <br/>
+                           </content>
+                           <content styleCode="italics">Haemophilus influenzae<br/>
+                           </content>
+                           <content styleCode="italics">Haemophilus parainfluenzae<br/>
+                           </content>
+                           <content styleCode="italics">Klebsiella </content>spp. (including <content styleCode="italics">Klebsiella pneumoniae</content>)<sup> b</sup>
+                           <br/>
+                           <content styleCode="italics">Morganella morganii</content>
+                           <sup> b</sup>
+                           <br/>
+                           <content styleCode="italics">Neisseria gonorrhoeae</content> (including beta-lactamase-positive and negative strains)<br/>
+                           <content styleCode="italics">Neisseria meningitidis<br/>
+                           </content>
+                           <content styleCode="italics">Proteus mirabilis</content>
+                           <sup> b</sup>
+                           <br/>
+                           <content styleCode="italics">Proteus vulgaris </content>
+                           <sup>b</sup>
+                           <br/>
+                           <content styleCode="italics">Providencia rettgeri</content>
+                           <sup> b</sup>
+                           <br/>
+                           <content styleCode="italics">Providencia stuartii</content>
+                           <sup> b</sup>
+                           <br/>
+                           <content styleCode="italics">Serratia marcescens </content>
+                           <sup>b</sup>
+                        </paragraph>
+                        <paragraph>
+                           <sup>a</sup>
+                           <content styleCode="italics">Enterococcus </content>species may be intrinsically resistant to cefotaxime.<br/>
+                           <sup>b </sup>Most extended spectrum beta-lactamase (ESBL)-producing and carbapenemase-producing isolates are resistant to cefotaxime.</paragraph>
+                        <paragraph>
+                           <content styleCode="underline">Anaerobic bacteria<br/>
+                           </content>
+                           <content styleCode="italics">Bacteroides</content> spp., including some isolates of <content styleCode="italics">Bacteroides fragilis<br/>
+                           </content>
+                           <content styleCode="italics">Clostridium</content> spp. (most isolates of <content styleCode="italics">Clostridium difficile</content> are resistant)<br/>
+                           <content styleCode="italics">Fusobacterium</content> spp. (including <content styleCode="italics">Fusobacterium nucleatum</content>).<br/>
+                           <content styleCode="italics">Peptococcus</content> spp.<br/>
+                           <content styleCode="italics">Peptostreptococcus </content>spp. </paragraph>
+                        <paragraph>The following <content styleCode="italics">in vitro </content>data are available, <content styleCode="bold">but their clinical significance is unknown</content>. At least 90 percent of the following microorganisms exhibit an <content styleCode="italics">in vitro </content>minimum inhibitory concentration (MIC) less than or equal to 1 mcg/mL. However, the efficacy of cefotaxime in treating clinical infections due to these microorganisms <content styleCode="bold">has not been </content>established in adequate and well-controlled clinical trials. </paragraph>
+                        <paragraph>
+                           <content styleCode="underline">Gram-negative bacteria<br/>
+                           </content>
+                           <content styleCode="italics">Providencia </content>spp.<br/>
+                           <content styleCode="italics">Salmonella</content> spp. (including <content styleCode="italics">Salmonella typhi</content>)<br/>
+                           <content styleCode="italics">Shigella</content> spp. </paragraph>
+                     </text>
+                     <effectiveTime value="20240411"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_1ad353e3-9cca-4529-b67c-12b47a63edf9">
+                     <id root="12342782-9188-46df-8782-d80bc0b0eb2f"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>
+                        <content styleCode="bold">Susceptibility Test Methods</content>
+                     </title>
+                     <text>
+                        <paragraph>For specific information regarding susceptibility test interpretive criteria and associated test methods and quality control standards recognized by FDA for this drug, please see: https://www.fda.gov/STIC.</paragraph>
+                     </text>
+                     <effectiveTime value="20240411"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_cf9960b6-00dc-45c8-ae26-ee1388cdb1ee">
+               <id root="76248d05-e1ac-4af5-b7b0-c59dde9d9e2c"/>
+               <code code="34067-9" codeSystem="2.16.840.1.113883.6.1" displayName="INDICATIONS &amp; USAGE SECTION"/>
+               <title>INDICATIONS AND USAGE</title>
+               <effectiveTime value="20240411"/>
+               <component>
+                  <section ID="LINK_4c726c81-94a8-433c-a6dd-d00f90f3da3f">
+                     <id root="06629795-8dd8-4f6c-aac9-e334e84164ae"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>
+                        <content styleCode="underline">
+                           <content styleCode="bold">Treatment</content>
+                        </content>
+                     </title>
+                     <text>
+                        <paragraph>Cefotaxime for Injection, USP is indicated for the treatment of patients with serious infections caused by susceptible strains of the designated microorganisms in the diseases listed below.</paragraph>
+                        <paragraph>
+                           <content styleCode="bold">(1) Lower respiratory tract infections,</content> including pneumonia, caused by <content styleCode="italics">Streptococcus pneumoniae</content> (formerly <content styleCode="italics">Diplococcus pneumoniae</content>), <content styleCode="italics">Streptococcus pyogenes*</content> (Group A streptococci) and other streptococci (excluding enterococci, e.g., <content styleCode="italics">Enterococcus faecalis</content>), <content styleCode="italics">Staphylococcus aureus</content> (penicillinase and non-penicillinase producing), <content styleCode="italics">Escherichia coli</content>, <content styleCode="italics">Klebsiella</content> species, <content styleCode="italics">Haemophilus influenzae</content> (including ampicillin resistant strains), <content styleCode="italics">Haemophilus parainfluenzae</content>, <content styleCode="italics">Proteus mirabilis</content>, <content styleCode="italics">Serratia marcescens*</content>, <content styleCode="italics">Enterobacter</content> species, indole positive <content styleCode="italics">Proteus</content> and <content styleCode="italics">Pseudomonas</content> species (including <content styleCode="italics">P. aeruginosa</content>).</paragraph>
+                        <paragraph>
+                           <content styleCode="bold">(2) Genitourinary infections</content>. Urinary tract infections caused by <content styleCode="italics">Enterococcus</content> species, <content styleCode="italics">Staphylococcus epidermidis</content>, <content styleCode="italics">Staphylococcus aureus*</content>, (penicillinase and non-penicillinase producing), <content styleCode="italics">Citrobacter</content> species, <content styleCode="italics">Enterobacter</content> species, <content styleCode="italics">Escherichia coli</content>, <content styleCode="italics">Klebsiella</content> species, <content styleCode="italics">Proteus mirabilis</content>, <content styleCode="italics">Proteus vulgaris*</content>, <content styleCode="italics">Providencia stuartii</content>, <content styleCode="italics">Morganella morganii*</content>, <content styleCode="italics">Providencia rettgeri*</content>, <content styleCode="italics">Serratia marcescens</content> and <content styleCode="italics">Pseudomonas</content> species (including <content styleCode="italics">P. aeruginosa</content>). Also, uncomplicated gonorrhea (cervical/urethral and rectal) caused by <content styleCode="italics">Neisseria gonorrhoeae</content>, including penicillinase producing strains.</paragraph>
+                        <paragraph>
+                           <content styleCode="bold">(3) Gynecologic infections,</content> including pelvic inflammatory disease, endometritis and pelvic cellulitis caused by <content styleCode="italics">Staphylococcus epidermidis</content>, <content styleCode="italics">Streptococcus</content> species, <content styleCode="italics">Enterococcus</content> species, <content styleCode="italics">Enterobacter</content> species*, <content styleCode="italics">Klebsiella</content> species*, <content styleCode="italics">Escherichia coli</content>, <content styleCode="italics">Proteus mirabilis</content>, <content styleCode="italics">Bacteroides</content> species (including <content styleCode="italics">Bacteroides fragilis*</content>), <content styleCode="italics">Clostridium</content> species, and anaerobic cocci (including <content styleCode="italics">Peptostreptococcus</content> species and <content styleCode="italics">Peptococcus</content> species) and <content styleCode="italics">Fusobacterium</content> species (including <content styleCode="italics">F. nucleatum*</content>).<br/>Cefotaxime for Injection, USP, like other cephalosporins, has no activity against <content styleCode="italics">Chlamydia trachomatis</content>. Therefore, when cephalosporins are used in the treatment of patients with pelvic inflammatory disease and <content styleCode="italics">C. trachomatis</content> is one of the suspected pathogens, appropriate anti-chlamydial coverage should be added.</paragraph>
+                        <paragraph>
+                           <content styleCode="bold">(4) Bacteremia/Septicemia</content> caused by <content styleCode="italics">Escherichia coli</content>, <content styleCode="italics">Klebsiella</content> species, and <content styleCode="italics">Serratia marcescens</content>, <content styleCode="italics">Staphylococcus aureus</content> and <content styleCode="italics">Streptococcus</content> species (including <content styleCode="italics">S. pneumoniae</content>).</paragraph>
+                        <paragraph>
+                           <content styleCode="bold">(5) Skin and skin structure infections</content> caused by <content styleCode="italics">Staphylococcus aureus</content> (penicillinase and non-penicillinase producing), <content styleCode="italics">Staphylococcus epidermidis</content>, <content styleCode="italics">Streptococcus pyogenes</content> (Group A streptococci) and other streptococci, <content styleCode="italics">Enterococcus</content> species, <content styleCode="italics">Acinetobacter</content> species*, <content styleCode="italics">Escherichia coli</content>, <content styleCode="italics">Citrobacter</content> species (including <content styleCode="italics">C. freundii*</content>), <content styleCode="italics">Enterobacter</content> species, <content styleCode="italics">Klebsiella</content> species, <content styleCode="italics">Proteus mirabilis</content>, <content styleCode="italics">Proteus vulgaris*</content>, <content styleCode="italics">Morganella morganii</content>, <content styleCode="italics">Providencia rettgeri*</content>, <content styleCode="italics">Pseudomonas</content> species, <content styleCode="italics">Serratia marcescens</content>, <content styleCode="italics">Bacteroides</content> species, and anaerobic cocci (including <content styleCode="italics">Peptostreptococcus*</content> species and <content styleCode="italics">Peptococcus</content> species).</paragraph>
+                        <paragraph>
+                           <content styleCode="bold">(6) Intra-abdominal infections</content> including peritonitis caused by <content styleCode="italics">Streptococcus</content> species*, <content styleCode="italics">Escherichia coli</content>, <content styleCode="italics">Klebsiella</content> species, <content styleCode="italics">Bacteroides</content> species, and anaerobic cocci (including <content styleCode="italics">Peptostreptococcus*</content> species and <content styleCode="italics">Peptococcus*</content> species) <content styleCode="italics">Proteus mirabilis*</content>, and <content styleCode="italics">Clostridium</content> species*.</paragraph>
+                        <paragraph>
+                           <content styleCode="bold">(7) Bone and/or joint infections</content> caused by <content styleCode="italics">Staphylococcus aureus</content> (penicillinase and non-penicillinase producing strains), <content styleCode="italics">Streptococcus</content> species (including <content styleCode="italics">S. pyogenes*</content>), <content styleCode="italics">Pseudomonas</content> species (including <content styleCode="italics">P. aeruginosa*</content>), and <content styleCode="italics">Proteus mirabilis*</content>.</paragraph>
+                        <paragraph>
+                           <content styleCode="bold">(8) Central nervous system infections,</content> e.g., meningitis and ventriculitis, caused by <content styleCode="italics">Neisseria meningitidis</content>, <content styleCode="italics">Haemophilus influenzae</content>, <content styleCode="italics">Streptococcus pneumoniae</content>, <content styleCode="italics">Klebsiella pneumoniae*</content> and <content styleCode="italics">Escherichia coli*</content>.</paragraph>
+                        <paragraph>(*) Efficacy for this organism, in this organ system, has been studied in fewer than 10 infections.</paragraph>
+                        <paragraph>Although many strains of enterococci (e.g., <content styleCode="italics">S. faecalis</content>) and <content styleCode="italics">Pseudomonas</content> species are resistant to cefotaxime sodium <content styleCode="italics">in vitro</content>, Cefotaxime for Injection, USP has been used successfully in treating patients with infections caused by susceptible organisms.</paragraph>
+                        <paragraph>Specimens for bacteriologic culture should be obtained prior to therapy in order to isolate and identify causative organisms and to determine their susceptibilities to cefotaxime. Therapy may be instituted before results of susceptibility studies are known; however, once these results become available, the antibiotic treatment should be adjusted accordingly.</paragraph>
+                        <paragraph>In certain cases of confirmed or suspected gram-positive or gram-negative sepsis or in patients with other serious infections in which the causative organism has not been identified, Cefotaxime for Injection, USP may be used concomitantly with an aminoglycoside. The dosage recommended in the labeling of both antibiotics may be given and depends on the severity of the infection and the patient's condition. Renal function should be carefully monitored, especially if higher dosages of the aminoglycosides are to be administered or if therapy is prolonged, because of the potential nephrotoxicity and ototoxicity of aminoglycoside antibiotics. It is possible that nephrotoxicity may be potentiated if Cefotaxime for Injection, USP is used concomitantly with an aminoglycoside.</paragraph>
+                     </text>
+                     <effectiveTime value="20240411"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_87b82c52-7330-45f3-bc9d-dc901b387018">
+                     <id root="136f3993-908d-4285-8221-c5d150adaa80"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>
+                        <content styleCode="bold">Prevention</content>
+                     </title>
+                     <text>
+                        <paragraph>The administration of Cefotaxime for Injection, USP preoperatively reduces the incidence of certain infections in patients undergoing surgical procedures (e.g., abdominal or vaginal hysterectomy, gastrointestinal and genitourinary tract surgery) that may be classified as contaminated or potentially contaminated.</paragraph>
+                        <paragraph>In patients undergoing cesarean section, intraoperative (after clamping the umbilical cord) and postoperative use of Cefotaxime for Injection, USP may also reduce the incidence of certain postoperative infections. See <content styleCode="bold">
+                              <linkHtml href="#LINK_295bcdb8-e9fb-49f2-9bfc-e0099d075aec">DOSAGE AND ADMINISTRATION</linkHtml>
+                           </content> section.</paragraph>
+                        <paragraph>Effective use for elective surgery depends on the time of administration. To achieve effective tissue levels, Cefotaxime for Injection, USP should be given 1/2 or 1 1/2 hours before surgery. See <content styleCode="bold">
+                              <linkHtml href="#LINK_295bcdb8-e9fb-49f2-9bfc-e0099d075aec">DOSAGE AND ADMINISTRATION</linkHtml>
+                           </content> section.</paragraph>
+                        <paragraph>For patients undergoing gastrointestinal surgery, preoperative bowel preparation by mechanical cleansing as well as with a non-absorbable antibiotic (e.g., neomycin) is recommended.</paragraph>
+                        <paragraph>If there are signs of infection, specimens for culture should be obtained for identification of the causative organism so that appropriate therapy may be instituted.</paragraph>
+                        <paragraph>To reduce the development of drug-resistant bacteria and maintain the effectiveness of Cefotaxime for Injection, USP and other antibacterial drugs, Cefotaxime for Injection, USP should be used only to treat or prevent infections that are proven or strongly suspected to be caused by susceptible bacteria. When culture and susceptibility information are available, they should be considered in selecting or modifying antibacterial therapy. In the absence of such data, local epidemiology and susceptibility patterns may contribute to the empiric selection of therapy.</paragraph>
+                     </text>
+                     <effectiveTime value="20240411"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_13282962-95db-4802-973c-2827023651c2">
+               <id root="879391cf-97e3-40b1-9fb2-8e827163a959"/>
+               <code code="34070-3" codeSystem="2.16.840.1.113883.6.1" displayName="CONTRAINDICATIONS SECTION"/>
+               <title>CONTRAINDICATIONS</title>
+               <text>
+                  <paragraph>Cefotaxime is contraindicated in patients who have shown hypersensitivity to cefotaxime sodium, or the cephalosporin group of antibiotics.</paragraph>
+               </text>
+               <effectiveTime value="20240411"/>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_7e506296-d952-4f49-91f5-ab0c749e381d">
+               <id root="792d902d-6b9c-44ef-aee3-086836372474"/>
+               <code code="34071-1" codeSystem="2.16.840.1.113883.6.1" displayName="WARNINGS SECTION"/>
+               <title>WARNINGS</title>
+               <text>
+                  <paragraph>BEFORE THERAPY WITH CEFOTAXIME IS INSTITUTED, CAREFUL INQUIRY SHOULD BE MADE TO DETERMINE WHETHER THE PATIENT HAS HAD PREVIOUS HYPERSENSITIVITY REACTIONS TO CEFOTAXIME SODIUM, CEPHALOSPORINS, PENICILLINS, OR OTHER DRUGS. THIS PRODUCT SHOULD BE GIVEN WITH CAUTION TO PATIENTS WITH TYPE I HYPERSENSITIVITY REACTIONS TO PENICILLIN. ANTIBIOTICS SHOULD BE ADMINISTERED WITH CAUTION TO ANY PATIENT WHO HAS DEMONSTRATED SOME FORM OF ALLERGY, PARTICULARLY TO DRUGS. IF AN ALLERGIC REACTION TO CEFOTAXIME OCCURS, DISCONTINUE TREATMENT WITH THE DRUG. SERIOUS HYPERSENSITIVITY REACTIONS MAY REQUIRE EPINEPHRINE AND OTHER EMERGENCY MEASURES.</paragraph>
+                  <paragraph>During post-marketing surveillance, a potentially life-threatening arrhythmia was reported in each of six patients who received a rapid (less than 60 seconds) bolus injection of cefotaxime through a central venous catheter. Therefore, cefotaxime should only be administered as instructed in the <content styleCode="bold">
+                        <linkHtml href="#LINK_295bcdb8-e9fb-49f2-9bfc-e0099d075aec">DOSAGE AND ADMINISTRATION</linkHtml>
+                     </content> section.</paragraph>
+                  <paragraph>
+                     <content styleCode="italics">Clostridium difficile</content> associated diarrhea (CDAD) has been reported with use of nearly all antibacterial agents, including cefotaxime, and may range in severity from mild diarrhea to fatal colitis. Treatment with antibacterial agents alters the normal flora of the colon leading to overgrowth of <content styleCode="italics">C. difficile</content>.</paragraph>
+                  <paragraph>
+                     <content styleCode="italics">C. difficile</content> produces toxins A and B which contribute to the development of CDAD. Hypertoxin producing strains of <content styleCode="italics">C. difficile</content> cause increased morbidity and mortality, as these infections can be refractory to antimicrobial therapy and may require colectomy. CDAD must be considered in all patients who present with diarrhea following antibiotic use. Careful medical history is necessary since CDAD has been reported to occur over two months after the administration of antibacterial agents.</paragraph>
+                  <paragraph>If CDAD is suspected or confirmed, ongoing antibiotic use not directed against <content styleCode="italics">C. difficile</content> may need to be discontinued. Appropriate fluid and electrolyte management, protein supplementation, antibiotic treatment of <content styleCode="italics">C. difficile</content>, and surgical evaluation should be instituted as clinically indicated.</paragraph>
+               </text>
+               <effectiveTime value="20240411"/>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_520d7785-8568-41b1-91bb-152f36b4bd54">
+               <id root="5e78c1bc-e4ac-47a5-a674-749e8346f4e7"/>
+               <code code="42232-9" codeSystem="2.16.840.1.113883.6.1" displayName="PRECAUTIONS SECTION"/>
+               <title>PRECAUTIONS</title>
+               <effectiveTime value="20240411"/>
+               <component>
+                  <section ID="LINK_873bb238-afb3-414d-9567-30f71a971806">
+                     <id root="97ce8c49-5ab8-49a2-9e9d-c1a5f743d83e"/>
+                     <code code="34072-9" codeSystem="2.16.840.1.113883.6.1" displayName="GENERAL PRECAUTIONS SECTION"/>
+                     <title>
+                        <content styleCode="bold">General</content>
+                     </title>
+                     <text>
+                        <paragraph>Prescribing cefotaxime in the absence of a proven or strongly suspected bacterial infection or a prophylactic indication is unlikely to provide benefit to the patient and increases the risk of the development of drug-resistant bacteria.</paragraph>
+                        <paragraph>Cefotaxime should be prescribed with caution in individuals with a history of gastrointestinal disease, particularly colitis.</paragraph>
+                        <paragraph>Because high and prolonged serum antibiotic concentrations can occur from usual doses in patients with transient or persistent reduction of urinary output because of renal insufficiency, the total daily dosage should be reduced when cefotaxime is administered to such patients. Continued dosage should be determined by degree of renal impairment, severity of infection, and susceptibility of the causative organism.</paragraph>
+                        <paragraph>Although there is no clinical evidence supporting the necessity of changing the dosage of cefotaxime sodium in patients with even profound renal dysfunction, it is suggested that, until further data are obtained, the dose of cefotaxime sodium be halved in patients with estimated creatinine clearances of less than 20 mL/min/1.73 m<sup>2</sup>.</paragraph>
+                        <paragraph>When only serum creatinine is available, the following formula<sup>5</sup> (based on sex, weight, and age of the patient) may be used to convert this value into creatinine clearance. The serum creatinine should represent a steady state of renal function.</paragraph>
+                        <paragraph>Males: <content styleCode="underline">Weight (kg) x (140 - age)<br/>
+                           </content>             72 × serum creatinine</paragraph>
+                        <paragraph>Females: 0.85 × above value</paragraph>
+                        <paragraph>As with other antibiotics, prolonged use of cefotaxime may result in overgrowth of nonsusceptible organisms. Repeated evaluation of the patient's condition is essential. If superinfection occurs during therapy, appropriate measures should be taken.</paragraph>
+                        <paragraph>Leukopenia, neutropenia, granulocytopenia and, more rarely, bone marrow failure, pancytopenia, or agranulocytosis may develop during treatment with cefotaxime. For courses of treatment lasting longer than 10 days, blood counts should therefore be monitored and treatment discontinuation should be considered in case of abnormal results. </paragraph>
+                        <paragraph>Cefotaxime, like other parenteral anti-infective drugs, may be locally irritating to tissues. In most cases, perivascular extravasation of cefotaxime responds to changing of the infusion site. In rare instances, extensive perivascular extravasation of cefotaxime may result in tissue damage and require surgical treatment. To minimize the potential for tissue inflammation, infusion sites should be monitored regularly and changed when appropriate.</paragraph>
+                     </text>
+                     <effectiveTime value="20240411"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_a0bb83b8-f203-41ad-a001-6db26fcdbfc8">
+                     <id root="f958fac8-bfba-4679-9070-f2ea64e7dfd4"/>
+                     <code code="34076-0" codeSystem="2.16.840.1.113883.6.1" displayName="INFORMATION FOR PATIENTS SECTION"/>
+                     <title>
+                        <content styleCode="bold">Information for patients</content>
+                     </title>
+                     <text>
+                        <paragraph>Patients should be counseled that antibacterial drugs including cefotaxime should only be used to treat bacterial infections. They do not treat viral infections (e.g., the common cold). When cefotaxime is prescribed to treat a bacterial infection, patients should be told that although it is common to feel better early in the course of therapy, the medication should be taken exactly as directed. Skipping doses or not completing the full course of therapy may (1) decrease the effectiveness of the immediate treatment and (2) increase the likelihood that bacteria will develop resistance and will not be treatable by cefotaxime or other antibacterial drugs in the future.</paragraph>
+                        <paragraph>Diarrhea is a common problem caused by antibiotics which usually ends when the antibiotic is discontinued. Sometimes after starting treatment with antibiotics, patients can develop watery and bloody stools (with or without stomach cramps and fever) even as late as two or more months after having taken the last dose of the antibiotic. If this occurs, patients should contact their physician as soon as possible.</paragraph>
+                     </text>
+                     <effectiveTime value="20240411"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_48318be2-f73d-4b06-91c7-ddfcf5fe376a">
+                     <id root="e4cf2cae-e327-42a4-9af9-e6422ea46a4c"/>
+                     <code code="34073-7" codeSystem="2.16.840.1.113883.6.1" displayName="DRUG INTERACTIONS SECTION"/>
+                     <title>
+                        <content styleCode="bold">Drug Interactions</content>
+                     </title>
+                     <text>
+                        <paragraph>As with other cephalosporins, cefotaxime may potentiate the nephrotoxic effects of nephrotoxic drugs such as aminoglycosides, NSAIDs and furosemide. </paragraph>
+                        <paragraph>Probenecid interferes with the renal tubular transfer of cefotaxime, decreasing the total clearance of cefotaxime by approximately 50% and increasing the plasma concentrations of cefotaxime. Administration of cefotaxime in excess of 6 grams/day should be avoided in patients receiving probenecid (see <content styleCode="bold">
+                              <linkHtml href="#LINK_98dd6602-346f-4d69-ab6b-4d1a830be20f">CLINICAL PHARMACOLOGY, Drug Interactions</linkHtml>
+                           </content>).</paragraph>
+                     </text>
+                     <effectiveTime value="20240411"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_8f64fda8-cc27-4dd9-a42b-34734af3adb8">
+                     <id root="7b0ca7d5-f809-4e28-8ccf-1cd9d85d3adc"/>
+                     <code code="34074-5" codeSystem="2.16.840.1.113883.6.1" displayName="DRUG &amp; OR LABORATORY TEST INTERACTIONS SECTION"/>
+                     <title>
+                        <content styleCode="bold">Drug/Laboratory Test Interactions</content>
+                     </title>
+                     <text>
+                        <paragraph>Cephalosporins, including cefotaxime sodium, are known to occasionally induce a positive direct Coombs' test.</paragraph>
+                        <paragraph>A false-positive reaction for glucose in the urine may occur with copper reduction tests (Benedict's or Fehling's solution or with CLINITEST<sup>®</sup> tablets), but not with enzyme-based tests for glycosuria (e.g., CLINISTIX<sup>®</sup> or TesTape<sup>®</sup>). There are no reports in published literature that link elevations of plasma glucose levels to the use of cefotaxime.</paragraph>
+                     </text>
+                     <effectiveTime value="20240411"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_fbc75a0e-a38b-4ddf-b918-f2f2618e620b">
+                     <id root="32c02ed3-b13a-4ccc-85fc-23cc9beeb8cf"/>
+                     <code code="34083-6" codeSystem="2.16.840.1.113883.6.1" displayName="CARCINOGENESIS &amp; MUTAGENESIS &amp; IMPAIRMENT OF FERTILITY SECTION"/>
+                     <title>
+                        <content styleCode="bold">Carcinogenesis, Mutagenesis</content>
+                     </title>
+                     <text>
+                        <paragraph>Lifetime studies in animals to evaluate carcinogenic potential have not been conducted. Cefotaxime was not mutagenic in the mouse micronucleus test or in the Ames test. Cefotaxime did not impair fertility to rats when administered subcutaneously at doses up to 250 mg/kg/day (0.2 times the maximum recommended human dose based on mg/m<sup>2</sup>) or in mice when administered intravenously at doses up to 2000 mg/kg/day (0.7 times the recommended human dose based on mg/m<sup>2</sup>).</paragraph>
+                     </text>
+                     <effectiveTime value="20240411"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_b859aa5b-680a-4a73-9408-0f1ff91380d1">
+                     <id root="a7a9ee17-54f2-40eb-9c8b-743fbc5b9255"/>
+                     <code code="42228-7" codeSystem="2.16.840.1.113883.6.1" displayName="PREGNANCY SECTION"/>
+                     <title>
+                        <content styleCode="bold">Pregnancy: Teratogenic Effects</content>
+                     </title>
+                     <text>
+                        <paragraph>Reproduction studies have been performed in pregnant mice given cefotaxime intravenously at doses up to 1200 mg/kg/day (0.4 times the recommended human dose based on mg/m<sup>2</sup>) or in pregnant rats when administered intravenously at doses up to 1200 mg/kg/day (0.8 times the recommended human dose based on mg/m<sup>2</sup>). No evidence of embryotoxicity or teratogenicity was seen in these studies. Although cefotaxime has been reported to cross the placental barrier and appear in cord blood, the effect on the human fetus is not known. There are no well-controlled studies in pregnant women. Because animal reproductive studies are not always predictive of human response, this drug should be used during pregnancy only if clearly needed.</paragraph>
+                     </text>
+                     <effectiveTime value="20240411"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_43bf88ab-2e15-4b0c-9cd9-80718bede0b9">
+                     <id root="eabddf85-6e60-4122-8b03-d4067d1aa943"/>
+                     <code code="34078-6" codeSystem="2.16.840.1.113883.6.1" displayName="NONTERATOGENIC EFFECTS SECTION"/>
+                     <title>
+                        <content styleCode="bold">Nonteratogenic Effects</content>
+                     </title>
+                     <text>
+                        <paragraph>Use of the drug in women of child-bearing potential requires that the anticipated benefit be weighed against the possible risks.</paragraph>
+                        <paragraph>In perinatal and postnatal studies with rats, the pups in the group given 1200 mg/kg/day of cefotaxime were significantly lighter in weight at birth and remained smaller than pups in the control group during the 21 days of nursing.</paragraph>
+                     </text>
+                     <effectiveTime value="20240411"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_a366f5cd-4e02-4740-bd6b-fb528ad729d4">
+                     <id root="e5b62c36-761b-4e32-96f2-bb956fcbfbc7"/>
+                     <code code="34080-2" codeSystem="2.16.840.1.113883.6.1" displayName="NURSING MOTHERS SECTION"/>
+                     <title>
+                        <content styleCode="bold">Nursing Mothers</content>
+                     </title>
+                     <text>
+                        <paragraph>Cefotaxime is excreted in human milk in low concentrations. Caution should be exercised when cefotaxime is administered to a nursing woman.</paragraph>
+                     </text>
+                     <effectiveTime value="20240411"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_5f8eae06-984b-41f3-b81c-5f6f9a7962e4">
+                     <id root="1b64499b-3b52-4b8d-b983-2d3989a13526"/>
+                     <code code="34081-0" codeSystem="2.16.840.1.113883.6.1" displayName="PEDIATRIC USE SECTION"/>
+                     <title>
+                        <content styleCode="bold">Pediatric Use</content>
+                     </title>
+                     <text>
+                        <paragraph>See <content styleCode="bold">
+                              <linkHtml href="#LINK_520d7785-8568-41b1-91bb-152f36b4bd54">PRECAUTIONS</linkHtml>
+                           </content> above regarding perivascular extravasation. </paragraph>
+                     </text>
+                     <effectiveTime value="20240411"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_be3b0024-67da-4a94-95e2-a0c8da54384d">
+                     <id root="bb461753-b3d5-4f9c-ae85-eb403ef75c4c"/>
+                     <code code="34082-8" codeSystem="2.16.840.1.113883.6.1" displayName="GERIATRIC USE SECTION"/>
+                     <title>
+                        <content styleCode="bold">Geriatric Use</content>
+                     </title>
+                     <text>
+                        <paragraph>Of the 1409 subjects in clinical studies of cefotaxime, 632 (45%) were 65 and over, while 258 (18%) were 75 and over. No overall differences in safety or effectiveness were observed between these subjects and younger subjects, and other reported clinical experience has not identified differences in responses between the elderly and younger patients, but greater sensitivity of some older individuals cannot be ruled out. </paragraph>
+                        <paragraph>This drug is known to be substantially excreted by the kidney, and the risk of toxic reactions to this drug may be greater in patients with impaired renal function. Because elderly patients are more likely to have decreased renal function, care should be taken in dose selection, and it may be useful to monitor renal function (see <content styleCode="bold">
+                              <linkHtml href="#LINK_873bb238-afb3-414d-9567-30f71a971806">PRECAUTIONS, General</linkHtml>
+                           </content>).</paragraph>
+                     </text>
+                     <effectiveTime value="20240411"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_1320892c-f8d1-45c3-b827-041fc195aa17">
+               <id root="3f6028ad-7f2c-465c-a83b-fdedba19472e"/>
+               <code code="34084-4" codeSystem="2.16.840.1.113883.6.1" displayName="ADVERSE REACTIONS SECTION"/>
+               <title>ADVERSE REACTIONS</title>
+               <effectiveTime value="20240411"/>
+               <component>
+                  <section ID="LINK_f44ff97c-d85a-4751-b143-80d667efa8bb">
+                     <id root="fc51bb8c-ea52-411d-9c83-ecb7f7c952a7"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>
+                        <content styleCode="bold">Clinical Trials Experience</content>
+                     </title>
+                     <text>
+                        <paragraph>Cefotaxime is generally well tolerated. The most common adverse reactions have been local reactions following IM or IV injection. Other adverse reactions have been encountered infrequently.</paragraph>
+                        <paragraph>
+                           <content styleCode="bold">The most frequent adverse reactions (greater than 1%) are:<br/>
+                           </content>Local (4.3%) - Injection site inflammation with IV administration. Pain, induration, and tenderness after IM injection.<br/>Hypersensitivity (2.4%) - Rash, pruritus, fever, eosinophilia.<br/>Gastrointestinal (1.4%) - Colitis, diarrhea, nausea, and vomiting.<br/>Symptoms of pseudomembranous colitis can appear during or after antibiotic treatment.<br/>Nausea and vomiting have been reported rarely.</paragraph>
+                        <paragraph>
+                           <content styleCode="bold">Less frequent adverse reactions (less than 1%) are:<br/>
+                           </content>Hematologic System - Neutropenia, leukopenia, have been reported. Some individuals have developed positive direct Coombs Tests during treatment with cefotaxime and other cephalosporin antibiotics.<br/>Genitourinary System - Moniliasis, vaginitis.<br/>Central Nervous System - Headache.<br/>Liver - Transient elevations in AST, ALT, serum LDH, and serum alkaline phosphatase levels have been reported.<br/>Kidney - As with some other cephalosporins, transient elevations of BUN have been occasionally observed with cefotaxime.</paragraph>
+                     </text>
+                     <effectiveTime value="20240411"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_1af34181-fdc8-47e2-8b24-ae65163ab42e">
+                     <id root="c107223c-7cf1-4855-857b-478b6364beea"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>
+                        <content styleCode="bold">Post-Marketing Experience</content>
+                     </title>
+                     <text>
+                        <paragraph>The following adverse reactions have been identified during post-approval use of cefotaxime. Because these reactions were reported voluntarily from a population of uncertain size, it is not possible to reliably estimate their frequency or establish a causal relationship to drug exposure.</paragraph>
+                        <paragraph>Cardiovascular System - Potentially life-threatening arrhythmias following rapid (less than 60 seconds) bolus administration via central venous catheter have been observed.</paragraph>
+                        <paragraph>Central Nervous System - Administration of high doses of beta-lactam antibiotics, including cefotaxime, particularly in patients with renal insufficiency may result in encephalopathy (e.g. impairment of consciousness, abnormal movements and convulsions). Dizziness has also been reported. </paragraph>
+                        <paragraph>Cutaneous - As with other cephalosporins, isolated cases of toxic epidermal necrolysis, Stevens-Johnson syndrome, and erythema multiforme have been reported. Acute generalized exanthematous pustulosis (AGEP) has also been reported. <br/>
+                           <br/>General disorders and administration site conditions - Inflammatory reactions at the injection site, including phlebitis/thrombophlebitis. </paragraph>
+                        <paragraph>Hematologic System - Hemolytic anemia, agranulocytosis, thrombocytopenia, pancytopenia, bone marrow failure. </paragraph>
+                        <paragraph>Hypersensitivity - Anaphylaxis (e.g., angioedema, bronchospasm, malaise possibly culminating in shock), urticaria.</paragraph>
+                        <paragraph>Kidney - Interstitial nephritis, transient elevations of creatinine, acute renal failure. </paragraph>
+                        <paragraph>Liver - Hepatitis, jaundice, cholestasis, elevations of gamma GT and bilirubin.</paragraph>
+                     </text>
+                     <effectiveTime value="20240411"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_e1b6477c-816d-4f84-92c8-34d1db397d47">
+                     <id root="ade2b012-b655-4f49-a073-16c9613ce307"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>
+                        <content styleCode="bold">Cephalosporin Class Labeling</content>
+                     </title>
+                     <text>
+                        <paragraph>In addition to the adverse reactions listed above which have been observed in patients treated with cefotaxime sodium, the following adverse reactions and altered laboratory tests have been reported for cephalosporin class antibiotics: allergic reactions, hepatic dysfunction including cholestasis, aplastic anemia, hemorrhage, and false-positive test for urinary glucose.</paragraph>
+                        <paragraph>Several cephalosporins have been implicated in triggering seizures, particularly in patients with renal impairment when the dosage was not reduced. See <content styleCode="bold">
+                              <linkHtml href="#LINK_295bcdb8-e9fb-49f2-9bfc-e0099d075aec">DOSAGE AND ADMINISTRATION</linkHtml>
+                           </content> and <content styleCode="bold">
+                              <linkHtml href="#LINK_54ae3252-62f3-4b2c-a55a-922144938b7e">OVERDOSAGE</linkHtml>
+                           </content>. If seizures associated with drug therapy occur, the drug should be discontinued. Anticonvulsant therapy can be given if clinically indicated.</paragraph>
+                        <paragraph>To report SUSPECTED ADVERSE REACTIONS, contact Hikma Pharmaceuticals USA Inc. at 1-877-845-0689 or FDA at 1-800-FDA-1088 or <linkHtml href="http://www.fda.gov/medwatch">www.fda.gov/medwatch</linkHtml>.</paragraph>
+                     </text>
+                     <effectiveTime value="20240411"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_54ae3252-62f3-4b2c-a55a-922144938b7e">
+               <id root="562aeb6c-8c1a-4cad-86b0-d97e21d62163"/>
+               <code code="34088-5" codeSystem="2.16.840.1.113883.6.1" displayName="OVERDOSAGE SECTION"/>
+               <title>OVERDOSAGE</title>
+               <text>
+                  <paragraph>The acute toxicity of cefotaxime was evaluated in neonatal and adult mice and rats. Significant mortality was seen at parenteral doses in excess of 6000 mg/kg/day in all groups. Common toxic signs in animals that died were a decrease in spontaneous activity, tonic and clonic convulsions, dyspnea, hypothermia, and cyanosis. Cefotaxime sodium overdosage has occurred in patients. Most cases have shown no overt toxicity. The most frequent reactions were elevations of BUN and creatinine. There is a risk of reversible encephalopathy in cases of administration of high doses of beta-lactam antibiotics including cefotaxime.  No specific antidote exists. Patients who receive an acute overdosage should be carefully observed and given supportive treatment.</paragraph>
+               </text>
+               <effectiveTime value="20240411"/>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_295bcdb8-e9fb-49f2-9bfc-e0099d075aec">
+               <id root="f581ad4f-f608-4131-a49e-117d75b8ab31"/>
+               <code code="34068-7" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE &amp; ADMINISTRATION SECTION"/>
+               <title>DOSAGE AND ADMINISTRATION</title>
+               <effectiveTime value="20240411"/>
+               <component>
+                  <section ID="LINK_0e056d63-ba75-47cd-b4fb-a99c9d80e7ed">
+                     <id root="1b021074-0156-40c2-bd51-6d1b05e4436a"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>
+                        <content styleCode="bold">Adults</content>
+                     </title>
+                     <text>
+                        <paragraph>Dosage and route of administration should be determined by susceptibility of the causative organisms, severity of the infection, and the condition of the patient (see table for dosage guideline). Cefotaxime may be administered IM or IV after reconstitution. The maximum daily dosage should not exceed 12 grams.</paragraph>
+                        <table>
+                           <caption>GUIDELINES FOR DOSAGE OF CEFOTAXIME FOR INJECTION</caption>
+                           <col/>
+                           <col/>
+                           <col/>
+                           <thead>
+                              <tr>
+                                 <th styleCode=" Botrule">Type of Infection</th>
+                                 <th align="center" styleCode=" Botrule">Daily Dose (grams)</th>
+                                 <th styleCode=" Botrule">Frequency and Route</th>
+                              </tr>
+                           </thead>
+                           <tbody>
+                              <tr>
+                                 <td>Gonococcal urethritis/cervicitis in males and females</td>
+                                 <td align="center" valign="bottom">0.5</td>
+                                 <td valign="bottom">0.5 gram IM (single dose)</td>
+                              </tr>
+                              <tr>
+                                 <td>Rectal gonorrhea in females</td>
+                                 <td align="center">0.5</td>
+                                 <td>0.5 gram IM (single dose)</td>
+                              </tr>
+                              <tr>
+                                 <td>Rectal gonorrhea in males</td>
+                                 <td align="center">1</td>
+                                 <td>1 gram IM (single dose)</td>
+                              </tr>
+                              <tr>
+                                 <td>Uncomplicated infections</td>
+                                 <td align="center">2</td>
+                                 <td>1 gram every 12 hours IM or IV</td>
+                              </tr>
+                              <tr>
+                                 <td>Moderate to severe infections</td>
+                                 <td align="center">3-6</td>
+                                 <td>1-2 grams every 8 hours IM or IV</td>
+                              </tr>
+                              <tr>
+                                 <td>Infections commonly needing antibiotics in higher dosage (e.g., septicemia)</td>
+                                 <td align="center" valign="bottom">6-8</td>
+                                 <td valign="bottom">2 grams every 6-8 hours IV</td>
+                              </tr>
+                              <tr>
+                                 <td>Life-threatening infections</td>
+                                 <td align="center">up to 12</td>
+                                 <td>2 grams every 4 hours IV</td>
+                              </tr>
+                           </tbody>
+                        </table>
+                        <paragraph>If <content styleCode="italics">C. trachomatis</content> is a suspected pathogen, appropriate anti-chlamydial coverage should be added, because cefotaxime sodium has no activity against this organism.</paragraph>
+                        <paragraph>To prevent postoperative infection in contaminated or potentially contaminated surgery, the recommended dose is a single 1 gram IM or IV administered 30 to 90 minutes prior to start of surgery.</paragraph>
+                     </text>
+                     <effectiveTime value="20240411"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_b2857e04-62c1-4284-a0e2-82d9a74cc9fe">
+                     <id root="d82a3913-6fcb-4ea7-9d22-ed7b72ecf809"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>
+                        <content styleCode="bold">Cesarean Section Patients</content>
+                     </title>
+                     <text>
+                        <paragraph>The first dose of 1 gram is administered intravenously as soon as the umbilical cord is clamped. The second and third doses should be given as 1 gram intravenously or intramuscularly at 6 and 12 hours after the first dose.</paragraph>
+                     </text>
+                     <effectiveTime value="20240411"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_9dde19ed-d511-43a6-a0b2-09b038861209">
+                     <id root="dfe1d926-3108-4512-b8f7-c5fee5478cf8"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>
+                        <content styleCode="bold">Neonates, Infants, and Children</content>
+                     </title>
+                     <text>
+                        <paragraph>The following dosage schedule is recommended:</paragraph>
+                        <paragraph>
+                           <content styleCode="underline">Neonates (birth to 1 month):</content>
+                           <br/>0-1 week of age      50 mg/kg per dose every 12 hours IV<br/>1-4 weeks of age    50 mg/kg per dose every 8 hours IV</paragraph>
+                        <paragraph>It is not necessary to differentiate between premature and normal-gestational age infants.</paragraph>
+                        <paragraph>
+                           <content styleCode="underline">Infants and Children (1 month to 12 years):<br/>
+                           </content>For body weights less than 50 kg, the recommended daily dose is 50 to 180 mg/kg IM or IV body weight divided into four to six equal doses. The higher dosages should be used for more severe or serious infections, including meningitis. For body weights 50 kg or more, the usual adult dosage should be used; the maximum daily dosage should not exceed 12 grams.</paragraph>
+                     </text>
+                     <effectiveTime value="20240411"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_a3a8bd2d-a847-4e86-9468-5b5ed4450ebf">
+                     <id root="c28cfbb2-fe4b-47b2-b84c-4714ea31e01f"/>
+                     <code code="34082-8" codeSystem="2.16.840.1.113883.6.1" displayName="GERIATRIC USE SECTION"/>
+                     <title>
+                        <content styleCode="bold">Geriatric Use</content>
+                     </title>
+                     <text>
+                        <paragraph>This drug is known to be substantially excreted by the kidney, and the risk of toxic reactions to this drug may be greater in patients with impaired renal function. Because elderly patients are more likely to have decreased renal function, care should be taken in dose selection, and it may be useful to monitor renal function. (See <content styleCode="bold">
+                              <linkHtml href="#LINK_873bb238-afb3-414d-9567-30f71a971806">PRECAUTIONS, General</linkHtml>
+                           </content> and <content styleCode="bold">
+                              <linkHtml href="#LINK_a3a8bd2d-a847-4e86-9468-5b5ed4450ebf">PRECAUTIONS, Geriatric Use</linkHtml>
+                           </content>.)</paragraph>
+                     </text>
+                     <effectiveTime value="20240411"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_ae0e525c-e96d-4031-bb54-315643d48223">
+                     <id root="3fd93586-0c43-4af1-815b-37d70a62ac82"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>
+                        <content styleCode="bold">Impaired Renal Function</content>
+                     </title>
+                     <text>
+                        <paragraph>See <content styleCode="bold">
+                              <linkHtml href="#LINK_873bb238-afb3-414d-9567-30f71a971806">PRECAUTIONS, General</linkHtml>
+                           </content>.</paragraph>
+                        <paragraph>
+                           <content styleCode="bold">NOTE:</content> As with antibiotic therapy in general, administration of cefotaxime should be continued for a minimum of 48 to 72 hours after the patient defervesces or after evidence of bacterial eradication has been obtained; a minimum of 10 days of treatment is recommended for infections caused by Group A beta-hemolytic streptococci in order to guard against the risk of rheumatic fever or glomerulonephritis; frequent bacteriologic and clinical appraisal is necessary during therapy of chronic urinary tract infection and may be required for several months after therapy has been completed; persistent infections may require treatment of several weeks and doses smaller than those indicated above should not be used.</paragraph>
+                     </text>
+                     <effectiveTime value="20240411"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_e0fb090c-8de6-4856-aad6-4f05775d11c7">
+                     <id root="c41e1a58-7888-477d-b171-c45a8640c215"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>
+                        <content styleCode="underline">Preparation of cefotaxime for injection sterile</content>
+                     </title>
+                     <text>
+                        <paragraph>Cefotaxime for IM or IV administration should be reconstituted as follows:</paragraph>
+                        <table>
+                           <col/>
+                           <col/>
+                           <col/>
+                           <col/>
+                           <tbody>
+                              <tr>
+                                 <td align="center" styleCode=" Botrule Toprule Lrule Rrule">Strength</td>
+                                 <td align="center" styleCode=" Botrule Toprule Lrule Rrule">
+                                    <paragraph>Diluent<br/>(mL)</paragraph>
+                                 </td>
+                                 <td align="center" styleCode=" Botrule Toprule Lrule Rrule">
+                                    <paragraph>Withdrawable Volume<br/>(mL) </paragraph>
+                                 </td>
+                                 <td align="center" styleCode=" Botrule Toprule Lrule Rrule">
+                                    <paragraph>Approximate Concentration<br/>(mg/mL) </paragraph>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td align="center" styleCode=" Botrule Toprule Lrule Rrule">500 mg vial* (IM)</td>
+                                 <td align="center" styleCode=" Botrule Toprule Lrule Rrule"> 2</td>
+                                 <td align="center" styleCode=" Botrule Toprule Lrule Rrule"> 2.2</td>
+                                 <td align="center" styleCode=" Botrule Toprule Lrule Rrule"> 230</td>
+                              </tr>
+                              <tr>
+                                 <td styleCode=" Botrule Toprule Lrule Rrule">1 g vial* (IM)</td>
+                                 <td align="center" styleCode=" Botrule Toprule Lrule Rrule"> 3</td>
+                                 <td align="center" styleCode=" Botrule Toprule Lrule Rrule"> 3.4</td>
+                                 <td align="center" styleCode=" Botrule Toprule Lrule Rrule"> 300</td>
+                              </tr>
+                              <tr>
+                                 <td styleCode=" Botrule Toprule Lrule Rrule">2 g vial* (IM)</td>
+                                 <td align="center" styleCode=" Botrule Toprule Lrule Rrule"> 5</td>
+                                 <td align="center" styleCode=" Botrule Toprule Lrule Rrule"> 6.0</td>
+                                 <td align="center" styleCode=" Botrule Toprule Lrule Rrule"> 330</td>
+                              </tr>
+                              <tr>
+                                 <td styleCode=" Botrule Toprule Lrule Rrule">500 mg vial* (IV)</td>
+                                 <td align="center" styleCode=" Botrule Toprule Lrule Rrule"> 10</td>
+                                 <td align="center" styleCode=" Botrule Toprule Lrule Rrule"> 10.2</td>
+                                 <td align="center" styleCode=" Botrule Toprule Lrule Rrule"> 50</td>
+                              </tr>
+                              <tr>
+                                 <td styleCode=" Botrule Toprule Lrule Rrule">1 g vial* (IV)</td>
+                                 <td align="center" styleCode=" Botrule Toprule Lrule Rrule"> 10</td>
+                                 <td align="center" styleCode=" Botrule Toprule Lrule Rrule"> 10.4</td>
+                                 <td align="center" styleCode=" Botrule Toprule Lrule Rrule"> 95</td>
+                              </tr>
+                              <tr>
+                                 <td styleCode=" Botrule Toprule Lrule Rrule">2 g vial* (IV)</td>
+                                 <td align="center" styleCode=" Botrule Toprule Lrule Rrule"> 10</td>
+                                 <td align="center" styleCode=" Botrule Toprule Lrule Rrule"> 11.0</td>
+                                 <td align="center" styleCode=" Botrule Toprule Lrule Rrule"> 180</td>
+                              </tr>
+                           </tbody>
+                        </table>
+                        <paragraph>(*) in conventional vials</paragraph>
+                        <paragraph>Shake to dissolve; inspect for particulate matter and discoloration prior to use. Solutions of cefotaxime range from very pale yellow to light amber, depending on concentration, diluent used, and length and condition of storage.</paragraph>
+                        <paragraph>
+                           <content styleCode="bold">For intramuscular use:</content> Reconstitute VIALS with Sterile Water for Injection or Bacteriostatic Water for Injection as described above.</paragraph>
+                        <paragraph>
+                           <content styleCode="bold">For intravenous use:</content> Reconstitute VIALS with at least 10 mL of Sterile Water for Injection. Reconstitute INFUSION BOTTLES with 50 or 100 mL of 0.9% Sodium Chloride Injection or 5% Dextrose Injection. For other diluents, see <content styleCode="bold">
+                              <linkHtml href="#LINK_791040cd-923a-44b3-a7f0-7864506063dd">COMPATIBILITY AND STABILITY</linkHtml>
+                           </content> section.</paragraph>
+                        <paragraph>
+                           <content styleCode="bold">NOTE:</content> Solutions of cefotaxime must not be admixed with aminoglycoside solutions. If cefotaxime and aminoglycosides are to be administered to the same patient, they must be administered separately and not as mixed injection.</paragraph>
+                        <paragraph>A SOLUTION OF 1 G CEFOTAXIME IN 14 ML OF STERILE WATER FOR INJECTION IS ISOTONIC.</paragraph>
+                        <paragraph>
+                           <content styleCode="bold">IM Administration: </content>As with all IM preparations, cefotaxime should be injected well within the body of a relatively large muscle such as the upper outer quadrant of the buttock (i.e., gluteus maximus); aspiration is necessary to avoid inadvertent injection into a blood vessel. Individual IM doses of 2 grams may be given if the dose is divided and is administered in different intramuscular sites.</paragraph>
+                        <paragraph>
+                           <content styleCode="bold">IV Administration: </content>The IV route is preferable for patients with bacteremia, bacterial septicemia, peritonitis, meningitis, or other severe or life-threatening infections, or for patients who may be poor risks because of lowered resistance resulting from such debilitating conditions as malnutrition, trauma, surgery, diabetes, heart failure, or malignancy, particularly if shock is present or impending.</paragraph>
+                        <paragraph>For intermittent IV administration, a solution containing 1 gram or 2 grams in 10 mL of Sterile Water for Injection can be injected over a period of three to five minutes. Cefotaxime should not be administered over a period of less than three minutes. (See <content styleCode="bold">
+                              <linkHtml href="#LINK_7e506296-d952-4f49-91f5-ab0c749e381d">WARNINGS</linkHtml>
+                           </content>). With an infusion system, it may also be given over a longer period of time through the tubing system by which the patient may be receiving other IV solutions. However, during infusion of the solution containing cefotaxime, it is advisable to discontinue temporarily the administration of other solutions at the same site.</paragraph>
+                        <paragraph>For the administration of higher doses by continuous IV infusion, a solution of cefotaxime may be added to IV bottles containing the solutions discussed below.</paragraph>
+                     </text>
+                     <effectiveTime value="20240411"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_791040cd-923a-44b3-a7f0-7864506063dd">
+                     <id root="9e2ba8e2-4604-4d65-a142-25289ded99f0"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>
+                        <content styleCode="bold">Compatibility and Stability</content>
+                     </title>
+                     <text>
+                        <paragraph>Solutions of cefotaxime reconstituted as described above (<content styleCode="bold">
+                              <linkHtml href="#LINK_e0fb090c-8de6-4856-aad6-4f05775d11c7">Preparation of cefotaxime for injection sterile</linkHtml>
+                           </content>) remain chemically stable (potency remains above 90%) as follows when stored in original containers and disposable plastic syringes:</paragraph>
+                        <table>
+                           <col/>
+                           <col/>
+                           <col/>
+                           <col/>
+                           <col/>
+                           <tbody>
+                              <tr>
+                                 <td rowspan="2" styleCode=" Botrule Toprule Lrule Rrule">Strength</td>
+                                 <td align="center" rowspan="2" styleCode=" Botrule Toprule Lrule Rrule">
+                                    <paragraph>Reconstituted<br/>Concentration<br/>mg/mL</paragraph>
+                                 </td>
+                                 <td align="center" rowspan="2" styleCode=" Botrule Toprule Lrule Rrule">
+                                    <paragraph>Stability at or<br/>below 22ºC</paragraph>
+                                 </td>
+                                 <td align="center" colspan="2" styleCode=" Botrule Toprule Lrule Rrule">
+                                    <paragraph>Stability under<br/>Refrigeration<br/>(at or below 5ºC)</paragraph>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td align="center" styleCode=" Botrule Toprule Lrule Rrule"> Original Containers</td>
+                                 <td align="center" styleCode=" Botrule Toprule Lrule Rrule">Plastic Syringes </td>
+                              </tr>
+                              <tr>
+                                 <td styleCode=" Botrule Toprule Lrule Rrule">500 mg vial IM</td>
+                                 <td align="center" styleCode=" Botrule Toprule Lrule Rrule">230</td>
+                                 <td align="center" styleCode=" Botrule Toprule Lrule Rrule">12 hours</td>
+                                 <td align="center" styleCode=" Botrule Toprule Lrule Rrule">7 days</td>
+                                 <td align="center" styleCode=" Botrule Toprule Lrule Rrule">5 days</td>
+                              </tr>
+                              <tr>
+                                 <td styleCode=" Botrule Toprule Lrule Rrule">1 g vial IM</td>
+                                 <td align="center" styleCode=" Botrule Toprule Lrule Rrule">300</td>
+                                 <td align="center" styleCode=" Botrule Toprule Lrule Rrule">12 hours</td>
+                                 <td align="center" styleCode=" Botrule Toprule Lrule Rrule"> 7 days</td>
+                                 <td align="center" styleCode=" Botrule Toprule Lrule Rrule">5 days</td>
+                              </tr>
+                              <tr>
+                                 <td styleCode=" Botrule Toprule Lrule Rrule">2 g vial IM</td>
+                                 <td align="center" styleCode=" Botrule Toprule Lrule Rrule">330</td>
+                                 <td align="center" styleCode=" Botrule Toprule Lrule Rrule">12 hours</td>
+                                 <td align="center" styleCode=" Botrule Toprule Lrule Rrule"> 7 days</td>
+                                 <td align="center" styleCode=" Botrule Toprule Lrule Rrule">5 days</td>
+                              </tr>
+                              <tr>
+                                 <td styleCode=" Botrule Toprule Lrule Rrule">500 mg vial IV</td>
+                                 <td align="center" styleCode=" Botrule Toprule Lrule Rrule">50</td>
+                                 <td align="center" styleCode=" Botrule Toprule Lrule Rrule">24 hours</td>
+                                 <td align="center" styleCode=" Botrule Toprule Lrule Rrule"> 7 days</td>
+                                 <td align="center" styleCode=" Botrule Toprule Lrule Rrule">5 days</td>
+                              </tr>
+                              <tr>
+                                 <td styleCode=" Botrule Toprule Lrule Rrule">1 g vial IV</td>
+                                 <td align="center" styleCode=" Botrule Toprule Lrule Rrule">95</td>
+                                 <td align="center" styleCode=" Botrule Toprule Lrule Rrule">24 hours</td>
+                                 <td align="center" styleCode=" Botrule Toprule Lrule Rrule"> 7 days</td>
+                                 <td align="center" styleCode=" Botrule Toprule Lrule Rrule">5 days</td>
+                              </tr>
+                              <tr>
+                                 <td styleCode=" Botrule Toprule Lrule Rrule">2 g vial IV</td>
+                                 <td align="center" styleCode=" Botrule Toprule Lrule Rrule">180</td>
+                                 <td align="center" styleCode=" Botrule Toprule Lrule Rrule"> 12 hours</td>
+                                 <td align="center" styleCode=" Botrule Toprule Lrule Rrule"> 7 days</td>
+                                 <td align="center" styleCode=" Botrule Toprule Lrule Rrule">5 days</td>
+                              </tr>
+                           </tbody>
+                        </table>
+                        <paragraph>Reconstituted solutions stored in original containers and plastic syringes remain stable for 13 weeks frozen.</paragraph>
+                        <paragraph>Reconstituted solutions may be further diluted up to 1000 mL with the following solutions and maintain satisfactory potency for 24 hours at or below 22°C, and at least 5 days under refrigeration (at or below 5°C): 0.9% Sodium Chloride Injection; 5 or 10% Dextrose Injection; 5% Dextrose and 0.9% Sodium Chloride Injection, 5% Dextrose and 0.45% Sodium Chloride Injection; 5% Dextrose and 0.2% Sodium Chloride Injection; Lactated Ringer's Solution; Sodium Lactate Injection (M/6); 10% Invert Sugar Injection, 8.5% TRAVASOL<sup>®</sup> (Amino Acid) Injection without Electrolytes.</paragraph>
+                        <paragraph>
+                           <content styleCode="bold">NOTE:</content> Cefotaxime solutions exhibit maximum stability in the pH 5-7 range. Solutions of cefotaxime should not be prepared with diluents having a pH above 7.5, such as Sodium Bicarbonate Injection.</paragraph>
+                        <paragraph>Parenteral drug products should be inspected visually for particulate matter and discoloration prior to administration, whenever solution and container permit. </paragraph>
+                     </text>
+                     <effectiveTime value="20240411"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_f5735090-14ca-4123-868a-040434c7b601">
+               <id root="36189e91-d6e9-4463-8ee0-00635e75abfb"/>
+               <code code="34069-5" codeSystem="2.16.840.1.113883.6.1" displayName="HOW SUPPLIED SECTION"/>
+               <title>HOW SUPPLIED</title>
+               <text>
+                  <paragraph>Sterile Cefotaxime for Injection, USP, is a dry off-white to pale yellow crystalline powder supplied in vials and bottles containing cefotaxime sodium as follows:</paragraph>
+                  <paragraph>500 mg cefotaxime (free acid equivalent) vials in packages of 10 (NDC 0143-9930-10)<br/>1 g cefotaxime (free acid equivalent) vials in packages of 25 (NDC 0143-9931-25)<br/>2 g cefotaxime (free acid equivalent) vials in packages of 25 (NDC 0143-9933-25)</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">NOTE:</content> Cefotaxime for Injection, USP in the dry state should be stored at 20º to 25°C (68º to 77°F) [See USP Controlled Room Temperature].</paragraph>
+                  <paragraph>The dry material as well as solutions tend to darken depending on storage conditions and should be protected from elevated temperatures and excessive light.</paragraph>
+               </text>
+               <effectiveTime value="20240411"/>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_44f1d095-09a8-4925-969b-924a80ea004f">
+               <id root="ed688e67-110f-4ac2-9bae-29a963584603"/>
+               <code code="34093-5" codeSystem="2.16.840.1.113883.6.1" displayName="REFERENCES SECTION"/>
+               <title>REFERENCES</title>
+               <text>
+                  <list listType="ordered" styleCode="Arabic">
+                     <item>Cockcroft, D.W. and Gault, M.H.: Prediction of Creatinine Clearance from Serum Creatinine, Nephron 16:31-41, 1976. </item>
+                  </list>
+                  <paragraph>Travasol<sup>®</sup> is manufactured by Clintec.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Manufactured by:<br/>
+                     </content>HIKMA FARMACÊUTICA (PORTUGAL), S.A.<br/>Estrada do Rio da Mó, 8, 8A e 8B – Fervença – 2705-906 Terrugem SNT, PORTUGAL</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Distributed by:<br/>
+                     </content>Hikma Pharmaceuticals USA Inc.<br/>Berkeley Heights, NJ 07922</paragraph>
+                  <paragraph>Revised: June 2021<br/>PIN105-WES/7</paragraph>
+               </text>
+               <effectiveTime value="20240411"/>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_4db80a15-d672-4bc2-8a0a-b32d7e4301f4">
+               <id root="65386ee6-0210-4b54-b9fa-de8edb6a3d3c"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>PRINCIPAL DISPLAY PANEL</title>
+               <text>
+                  <paragraph>NDC 0143-<content styleCode="bold">9930</content>-01   Rx only<br/>
+                     <content styleCode="bold">Cefotaxime</content>
+                     <br/>
+                     <content styleCode="bold">for Injection, USP<br/>500 mg* per vial<br/>For Intravenous or Intramuscular use</content>
+                     <br/>
+                     <br/>
+                  </paragraph>
+                  <renderMultiMedia referencedObject="MM2"/>
+                  <paragraph>NDC 0143-<content styleCode="bold">9930</content>-10   Rx only<br/>
+                     <content styleCode="bold">Cefotaxime</content>
+                     <br/>
+                     <content styleCode="bold">for Injection, USP<br/>500 mg* per vial<br/>For Intravenous or Intramuscular use<br/>
+                     </content>10 x 500 mg vials</paragraph>
+                  <paragraph>
+                     <content styleCode="bold"> </content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold"> </content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">
+                        <renderMultiMedia referencedObject="MM3"/>
+                     </content>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20240411"/>
+               <component>
+                  <observationMedia ID="MM2">
+                     <text>PLB301-WES.5</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="cefotaxime-for-injection-2.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="MM3">
+                     <text>PLB768-WES.1</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="cefotaxime-for-injection-3.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_e431ad27-b3e9-497a-9dde-f6fa682ef009">
+               <id root="8663d613-823e-4a71-b764-c65c31da02a5"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>PRINCIPAL DISPLAY PANEL</title>
+               <text>
+                  <paragraph>NDC 0143-<content styleCode="bold">9931</content>-01   Rx only<br/>
+                     <content styleCode="bold">Cefotaxime</content>
+                     <br/>
+                     <content styleCode="bold">for Injection, USP<br/>1 g* per vial<br/>For Intravenous or Intramuscular use</content>
+                     <br/>
+                  </paragraph>
+                  <renderMultiMedia referencedObject="MM4"/>
+                  <paragraph>NDC 0143-<content styleCode="bold">9931</content>-25   Rx only<br/>
+                     <content styleCode="bold">Cefotaxime</content>
+                     <br/>
+                     <content styleCode="bold">for Injection, USP<br/>1 g* per vial<br/>For Intravenous or Intramuscular use<br/>
+                     </content>25 x 1 g vials</paragraph>
+                  <renderMultiMedia referencedObject="MM5"/>
+               </text>
+               <effectiveTime value="20240411"/>
+               <component>
+                  <observationMedia ID="MM4">
+                     <text>PLB302-WES.4</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="cefotaxime-for-injection-4.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="MM5">
+                     <text>PLB769-WES.1</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="cefotaxime-for-injection-5.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_1c9b0518-4ff6-47d3-8960-33cee53622bd">
+               <id root="e8dd1263-c608-4698-85da-602fe3be7a81"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>PRINCIPAL DISPLAY PANEL</title>
+               <text>
+                  <paragraph>NDC 0143-9933-01<br/>
+                     <content styleCode="bold">CEFOTAXIME</content>
+                     <br/>FOR INJECTION, USP<br/>2 g*/vial<br/>FOR IV OR IM USE<br/>Rx ONLY<br/>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">
+                        <renderMultiMedia referencedObject="MM6"/>
+                     </content>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20240411"/>
+               <component>
+                  <observationMedia ID="MM6">
+                     <text>NDC 0143-9933-01 CEFOTAXIME FOR INJECTION, USP 2 g*/vial FOR IV OR IM USE Rx ONLY *Each vial contains sterile cefotaxime sodium equivalent to 2 g cefotaxime. The sodium content is approximately 50.5 mg (2.2 mEq) of sodium per gram cefotaxime. Dosage, administration and reconstitution: See package insert. Shake to dissolve. RETAIN IN CARTON UNTIL TIME OF USE. Storage: Cefotaxime for injection in the dry state should be stored at 20º to 25ºC (68º to 77ºF) [See USP Controlled Room Temperature]. PROTECT FROM LIGHT.</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="cefotaxime-for-injection-6.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

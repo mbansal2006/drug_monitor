@@ -1,0 +1,2564 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="https://www.accessdata.fda.gov/spl/stylesheet/spl.xsl"?>
+<document xmlns="urn:hl7-org:v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 https://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="985e1190-b8a0-4775-9a20-ad1924b14fb2"/>
+   <code code="34391-3" displayName="HUMAN PRESCRIPTION DRUG LABEL" codeSystem="2.16.840.1.113883.6.1"/>
+   <title>
+      <content styleCode="bold">These highlights do not include all the information needed to use </content>
+      <content styleCode="bold">MEMANTINE HYDROCHLORIDE </content>
+      <content styleCode="bold">TABLETS </content>
+      <content styleCode="bold">safely and effectively. See full prescribing information for </content>
+      <content styleCode="bold">MEMANTINE HYDROCHLORIDE </content>
+      <content styleCode="bold">TABLETS</content>
+      <content styleCode="bold">. </content>
+      <br/>
+      <content styleCode="bold">   </content>
+      <br/>
+      <content styleCode="bold">MEMANTINE HYDROCHLORIDE </content>
+      <content styleCode="bold">tablets, </content>
+      <content styleCode="bold">for </content>
+      <content styleCode="bold">oral use</content>
+      <br/>
+      <content styleCode="bold">Initial U.S. Approval: 2003</content>
+      <br/>
+   </title>
+   <effectiveTime value="20181101"/>
+   <setId root="72973b46-f307-4a9e-8fb1-ad2cbccfd736"/>
+   <versionNumber value="10"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id extension="119723554" root="1.3.6.1.4.1.519.1"/>
+            <name>Actavis Pharma, Inc.</name>
+            <assignedEntity>
+               <assignedOrganization/>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section>
+               <id root="a9536886-03bc-44b5-8428-794897b4a816"/>
+               <code code="48780-1" displayName="SPL listing data elements section" codeSystem="2.16.840.1.113883.6.1"/>
+               <effectiveTime value="20240508"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="0591-3870" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>memantine hydrochloride</name>
+                        <formCode code="C42998" displayName="TABLET" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>memantine hydrochloride</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator unit="mg" value="5"/>
+                              <denominator unit="1" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="JY0WD0UA60" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>MEMANTINE HYDROCHLORIDE</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="W8O17SJF3T" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>memantine</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="OP1R32D61U" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>cellulose, microcrystalline</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="ETJ7Z6XBU4" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>silicon dioxide</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="7SEV7J4R1U" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>talc</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="M28OL1HH48" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>croscarmellose sodium</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="70097M6I30" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>magnesium stearate</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="3NXW29V3WO" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>HYPROMELLOSE, UNSPECIFIED</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="15FIX9V2JP" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>titanium dioxide</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="B697894SGQ" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>polyethylene glycol 400</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="H77VEI93A8" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>FD&amp;C YELLOW NO. 6</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="L06K8R7DQK" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>FD&amp;C blue No. 2</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator unit="1" value="60"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="0591-3870-60" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43169" displayName="BOTTLE" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" displayName="Type 0: Not a Combination Product" codeSystem="2.16.840.1.113883.3.26.1.1" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                           <subjectOf>
+                              <marketingAct>
+                                 <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 <statusCode code="completed"/>
+                                 <effectiveTime>
+                                    <low value="20150401"/>
+                                    <high value="20280731"/>
+                                 </effectiveTime>
+                              </marketingAct>
+                           </subjectOf>
+                        </asContent>
+                        <asContent>
+                           <quantity>
+                              <numerator unit="1" value="10"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="0591-3870-45" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43168" displayName="BLISTER PACK" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator unit="1" value="10"/>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code code="0591-3870-44" codeSystem="2.16.840.1.113883.6.69"/>
+                                    <formCode code="C43179" displayName="BOX, UNIT-DOSE" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 </containerPackagedProduct>
+                                 <subjectOf>
+                                    <marketingAct>
+                                       <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                       <statusCode code="completed"/>
+                                       <effectiveTime>
+                                          <low value="20150401"/>
+                                          <high value="20270930"/>
+                                       </effectiveTime>
+                                    </marketingAct>
+                                 </subjectOf>
+                              </asContent>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" displayName="Type 0: Not a Combination Product" codeSystem="2.16.840.1.113883.3.26.1.1" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <id extension="NDA021487" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73605" displayName="NDA authorized generic" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="completed"/>
+                           <effectiveTime>
+                              <low value="20150401"/>
+                              <high value="20280731"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLCOLOR" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value code="C48332" displayName="brown" codeSystem="2.16.840.1.113883.3.26.1.1" xsi:type="CV">
+                              <originalText>tan</originalText>
+                           </value>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLIMPRINT" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value xsi:type="ST">5;FL</value>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSCORE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value value="1" xsi:type="INT"/>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSHAPE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value code="C48336" displayName="CAPSULE" codeSystem="2.16.840.1.113883.3.26.1.1" xsi:type="CV">
+                              <originalText>CAPSULE</originalText>
+                           </value>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSIZE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value unit="mm" value="10" xsi:type="PQ"/>
+                        </characteristic>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38288" displayName="ORAL" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="0591-3875" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>memantine hydrochloride</name>
+                        <formCode code="C42998" displayName="TABLET" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>memantine hydrochloride</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator unit="mg" value="10"/>
+                              <denominator unit="1" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="JY0WD0UA60" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>MEMANTINE HYDROCHLORIDE</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="W8O17SJF3T" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>memantine</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="OP1R32D61U" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>CELLULOSE, MICROCRYSTALLINE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="ETJ7Z6XBU4" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SILICON DIOXIDE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="7SEV7J4R1U" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>TALC</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="M28OL1HH48" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>CROSCARMELLOSE SODIUM</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="70097M6I30" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>MAGNESIUM STEARATE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="3NXW29V3WO" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>HYPROMELLOSE, UNSPECIFIED</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="15FIX9V2JP" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>TITANIUM DIOXIDE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="B697894SGQ" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>POLYETHYLENE GLYCOL 400</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="XM0M87F357" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>FERROSOFERRIC OXIDE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator unit="1" value="60"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="0591-3875-60" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43169" displayName="BOTTLE" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" displayName="Type 0: Not a Combination Product" codeSystem="2.16.840.1.113883.3.26.1.1" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                           <subjectOf>
+                              <marketingAct>
+                                 <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 <statusCode code="completed"/>
+                                 <effectiveTime>
+                                    <low value="20150401"/>
+                                    <high value="20280229"/>
+                                 </effectiveTime>
+                              </marketingAct>
+                           </subjectOf>
+                        </asContent>
+                        <asContent>
+                           <quantity>
+                              <numerator unit="1" value="10"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="0591-3875-45" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43168" displayName="BLISTER PACK" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator unit="1" value="10"/>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code code="0591-3875-44" codeSystem="2.16.840.1.113883.6.69"/>
+                                    <formCode code="C43179" displayName="BOX, UNIT-DOSE" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 </containerPackagedProduct>
+                                 <subjectOf>
+                                    <marketingAct>
+                                       <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                       <statusCode code="completed"/>
+                                       <effectiveTime>
+                                          <low value="20150401"/>
+                                          <high value="20270731"/>
+                                       </effectiveTime>
+                                    </marketingAct>
+                                 </subjectOf>
+                              </asContent>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" displayName="Type 0: Not a Combination Product" codeSystem="2.16.840.1.113883.3.26.1.1" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <id extension="NDA021487" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73605" displayName="NDA authorized generic" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="completed"/>
+                           <effectiveTime>
+                              <low value="20150401"/>
+                              <high value="20280229"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLCOLOR" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value code="C48324" displayName="gray" codeSystem="2.16.840.1.113883.3.26.1.1" xsi:type="CV">
+                              <originalText>gray</originalText>
+                           </value>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLIMPRINT" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value xsi:type="ST">10;FL</value>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSCORE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value value="1" xsi:type="INT"/>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSHAPE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value code="C48336" displayName="CAPSULE" codeSystem="2.16.840.1.113883.3.26.1.1" xsi:type="CV">
+                              <originalText>CAPSULE</originalText>
+                           </value>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSIZE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value unit="mm" value="12" xsi:type="PQ"/>
+                        </characteristic>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38288" displayName="ORAL" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="0591-3900" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>memantine hydrochloride</name>
+                        <formCode code="C47916" displayName="KIT" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>memantine hydrochloride</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <asContent>
+                           <quantity>
+                              <numerator unit="1" value="1"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code/>
+                              <formCode code="C43168" displayName="BLISTER PACK" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator unit="1" value="1"/>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code code="0591-3900-87" codeSystem="2.16.840.1.113883.6.69"/>
+                                    <formCode code="C43182" displayName="CARTON" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 </containerPackagedProduct>
+                                 <subjectOf>
+                                    <marketingAct>
+                                       <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                       <statusCode code="completed"/>
+                                       <effectiveTime>
+                                          <low value="20150401"/>
+                                          <high value="20280831"/>
+                                       </effectiveTime>
+                                    </marketingAct>
+                                 </subjectOf>
+                              </asContent>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" displayName="Type 0: Not a Combination Product" codeSystem="2.16.840.1.113883.3.26.1.1" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                        <part>
+                           <quantity>
+                              <numerator unit="1" value="28"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <partProduct>
+                              <name>memantine hydrochloride</name>
+                              <formCode code="C42998" displayName="TABLET" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                              <asEntityWithGeneric>
+                                 <genericMedicine>
+                                    <name>memantine hydrochloride</name>
+                                 </genericMedicine>
+                              </asEntityWithGeneric>
+                              <ingredient classCode="ACTIB">
+                                 <quantity>
+                                    <numerator unit="mg" value="5"/>
+                                    <denominator unit="1" value="1"/>
+                                 </quantity>
+                                 <ingredientSubstance>
+                                    <code code="JY0WD0UA60" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>MEMANTINE HYDROCHLORIDE</name>
+                                    <activeMoiety>
+                                       <activeMoiety>
+                                          <code code="W8O17SJF3T" codeSystem="2.16.840.1.113883.4.9"/>
+                                          <name>memantine</name>
+                                       </activeMoiety>
+                                    </activeMoiety>
+                                 </ingredientSubstance>
+                              </ingredient>
+                              <ingredient classCode="IACT">
+                                 <ingredientSubstance>
+                                    <code code="OP1R32D61U" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>cellulose, microcrystalline</name>
+                                 </ingredientSubstance>
+                              </ingredient>
+                              <ingredient classCode="IACT">
+                                 <ingredientSubstance>
+                                    <code code="ETJ7Z6XBU4" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>silicon dioxide</name>
+                                 </ingredientSubstance>
+                              </ingredient>
+                              <ingredient classCode="IACT">
+                                 <ingredientSubstance>
+                                    <code code="7SEV7J4R1U" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>talc</name>
+                                 </ingredientSubstance>
+                              </ingredient>
+                              <ingredient classCode="IACT">
+                                 <ingredientSubstance>
+                                    <code code="M28OL1HH48" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>croscarmellose sodium</name>
+                                 </ingredientSubstance>
+                              </ingredient>
+                              <ingredient classCode="IACT">
+                                 <ingredientSubstance>
+                                    <code code="70097M6I30" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>magnesium stearate</name>
+                                 </ingredientSubstance>
+                              </ingredient>
+                              <ingredient classCode="IACT">
+                                 <ingredientSubstance>
+                                    <code code="3NXW29V3WO" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>HYPROMELLOSE, UNSPECIFIED</name>
+                                 </ingredientSubstance>
+                              </ingredient>
+                              <ingredient classCode="IACT">
+                                 <ingredientSubstance>
+                                    <code code="15FIX9V2JP" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>titanium dioxide</name>
+                                 </ingredientSubstance>
+                              </ingredient>
+                              <ingredient classCode="IACT">
+                                 <ingredientSubstance>
+                                    <code code="B697894SGQ" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>polyethylene glycol 400</name>
+                                 </ingredientSubstance>
+                              </ingredient>
+                              <ingredient classCode="IACT">
+                                 <ingredientSubstance>
+                                    <code code="H77VEI93A8" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>FD&amp;C YELLOW NO. 6</name>
+                                 </ingredientSubstance>
+                              </ingredient>
+                              <ingredient classCode="IACT">
+                                 <ingredientSubstance>
+                                    <code code="L06K8R7DQK" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>FD&amp;C blue No. 2</name>
+                                 </ingredientSubstance>
+                              </ingredient>
+                           </partProduct>
+                           <subjectOf>
+                              <approval>
+                                 <id extension="NDA021487" root="2.16.840.1.113883.3.150"/>
+                                 <code code="C73605" displayName="NDA authorized generic" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 <author>
+                                    <territorialAuthority>
+                                       <territory>
+                                          <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                       </territory>
+                                    </territorialAuthority>
+                                 </author>
+                              </approval>
+                           </subjectOf>
+                           <subjectOf>
+                              <marketingAct>
+                                 <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 <statusCode code="active"/>
+                                 <effectiveTime>
+                                    <low value="20150401"/>
+                                 </effectiveTime>
+                              </marketingAct>
+                           </subjectOf>
+                           <subjectOf>
+                              <characteristic classCode="OBS">
+                                 <code code="SPLCOLOR" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C48332" displayName="brown" codeSystem="2.16.840.1.113883.3.26.1.1" xsi:type="CV">
+                                    <originalText>tan</originalText>
+                                 </value>
+                              </characteristic>
+                           </subjectOf>
+                           <subjectOf>
+                              <characteristic classCode="OBS">
+                                 <code code="SPLIMPRINT" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value xsi:type="ST">5;FL</value>
+                              </characteristic>
+                           </subjectOf>
+                           <subjectOf>
+                              <characteristic classCode="OBS">
+                                 <code code="SPLSCORE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value value="1" xsi:type="INT"/>
+                              </characteristic>
+                           </subjectOf>
+                           <subjectOf>
+                              <characteristic classCode="OBS">
+                                 <code code="SPLSHAPE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C48336" displayName="CAPSULE" codeSystem="2.16.840.1.113883.3.26.1.1" xsi:type="CV">
+                                    <originalText>CAPSULE</originalText>
+                                 </value>
+                              </characteristic>
+                           </subjectOf>
+                           <subjectOf>
+                              <characteristic classCode="OBS">
+                                 <code code="SPLSIZE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value unit="mm" value="10" xsi:type="PQ"/>
+                              </characteristic>
+                           </subjectOf>
+                           <consumedIn>
+                              <substanceAdministration>
+                                 <routeCode code="C38288" displayName="ORAL" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                              </substanceAdministration>
+                           </consumedIn>
+                        </part>
+                        <part>
+                           <quantity>
+                              <numerator unit="1" value="21"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <partProduct>
+                              <name>memantine hydrochloride</name>
+                              <formCode code="C42998" displayName="TABLET" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                              <asEntityWithGeneric>
+                                 <genericMedicine>
+                                    <name>memantine hydrochloride</name>
+                                 </genericMedicine>
+                              </asEntityWithGeneric>
+                              <ingredient classCode="ACTIB">
+                                 <quantity>
+                                    <numerator unit="mg" value="10"/>
+                                    <denominator unit="1" value="1"/>
+                                 </quantity>
+                                 <ingredientSubstance>
+                                    <code code="JY0WD0UA60" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>MEMANTINE HYDROCHLORIDE</name>
+                                    <activeMoiety>
+                                       <activeMoiety>
+                                          <code code="W8O17SJF3T" codeSystem="2.16.840.1.113883.4.9"/>
+                                          <name>memantine</name>
+                                       </activeMoiety>
+                                    </activeMoiety>
+                                 </ingredientSubstance>
+                              </ingredient>
+                              <ingredient classCode="IACT">
+                                 <ingredientSubstance>
+                                    <code code="3NXW29V3WO" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>HYPROMELLOSE, UNSPECIFIED</name>
+                                 </ingredientSubstance>
+                              </ingredient>
+                              <ingredient classCode="IACT">
+                                 <ingredientSubstance>
+                                    <code code="15FIX9V2JP" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>titanium dioxide</name>
+                                 </ingredientSubstance>
+                              </ingredient>
+                              <ingredient classCode="IACT">
+                                 <ingredientSubstance>
+                                    <code code="B697894SGQ" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>polyethylene glycol 400</name>
+                                 </ingredientSubstance>
+                              </ingredient>
+                              <ingredient classCode="IACT">
+                                 <ingredientSubstance>
+                                    <code code="XM0M87F357" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>ferrosoferric oxide</name>
+                                 </ingredientSubstance>
+                              </ingredient>
+                              <ingredient classCode="IACT">
+                                 <ingredientSubstance>
+                                    <code code="70097M6I30" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>MAGNESIUM STEARATE</name>
+                                 </ingredientSubstance>
+                              </ingredient>
+                              <ingredient classCode="IACT">
+                                 <ingredientSubstance>
+                                    <code code="M28OL1HH48" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>CROSCARMELLOSE SODIUM</name>
+                                 </ingredientSubstance>
+                              </ingredient>
+                              <ingredient classCode="IACT">
+                                 <ingredientSubstance>
+                                    <code code="7SEV7J4R1U" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>TALC</name>
+                                 </ingredientSubstance>
+                              </ingredient>
+                              <ingredient classCode="IACT">
+                                 <ingredientSubstance>
+                                    <code code="ETJ7Z6XBU4" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>SILICON DIOXIDE</name>
+                                 </ingredientSubstance>
+                              </ingredient>
+                              <ingredient classCode="IACT">
+                                 <ingredientSubstance>
+                                    <code code="OP1R32D61U" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>CELLULOSE, MICROCRYSTALLINE</name>
+                                 </ingredientSubstance>
+                              </ingredient>
+                           </partProduct>
+                           <subjectOf>
+                              <approval>
+                                 <id extension="NDA021487" root="2.16.840.1.113883.3.150"/>
+                                 <code code="C73605" displayName="NDA authorized generic" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 <author>
+                                    <territorialAuthority>
+                                       <territory>
+                                          <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                       </territory>
+                                    </territorialAuthority>
+                                 </author>
+                              </approval>
+                           </subjectOf>
+                           <subjectOf>
+                              <marketingAct>
+                                 <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 <statusCode code="active"/>
+                                 <effectiveTime>
+                                    <low value="20150401"/>
+                                 </effectiveTime>
+                              </marketingAct>
+                           </subjectOf>
+                           <subjectOf>
+                              <characteristic classCode="OBS">
+                                 <code code="SPLCOLOR" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C48324" displayName="gray" codeSystem="2.16.840.1.113883.3.26.1.1" xsi:type="CV">
+                                    <originalText>gray</originalText>
+                                 </value>
+                              </characteristic>
+                           </subjectOf>
+                           <subjectOf>
+                              <characteristic classCode="OBS">
+                                 <code code="SPLIMPRINT" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value xsi:type="ST">10;FL</value>
+                              </characteristic>
+                           </subjectOf>
+                           <subjectOf>
+                              <characteristic classCode="OBS">
+                                 <code code="SPLSCORE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value value="1" xsi:type="INT"/>
+                              </characteristic>
+                           </subjectOf>
+                           <subjectOf>
+                              <characteristic classCode="OBS">
+                                 <code code="SPLSHAPE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C48336" displayName="CAPSULE" codeSystem="2.16.840.1.113883.3.26.1.1" xsi:type="CV">
+                                    <originalText>CAPSULE</originalText>
+                                 </value>
+                              </characteristic>
+                           </subjectOf>
+                           <subjectOf>
+                              <characteristic classCode="OBS">
+                                 <code code="SPLSIZE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value unit="mm" value="12" xsi:type="PQ"/>
+                              </characteristic>
+                           </subjectOf>
+                           <consumedIn>
+                              <substanceAdministration>
+                                 <routeCode code="C38288" displayName="ORAL" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                              </substanceAdministration>
+                           </consumedIn>
+                        </part>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <id extension="NDA021487" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73605" displayName="NDA authorized generic" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="completed"/>
+                           <effectiveTime>
+                              <low value="20150401"/>
+                              <high value="20280831"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38288" displayName="ORAL" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section ID="_1_INDICATIONS_AND">
+               <id root="1bb046d5-e92d-4638-9484-3770e0548010"/>
+               <code codeSystem="2.16.840.1.113883.6.1" code="34067-9" displayName="INDICATIONS &amp; USAGE SECTION"/>
+               <title>
+                  <content styleCode="bold">1</content>
+                  <content styleCode="bold">
+		     
+	INDICATIONS AND USAGE</content>
+               </title>
+               <text>
+                  <paragraph>Memantine hydrochloride tablets are indicated for the treatment of moderate to severe dementia of the Alzheimer’s type.</paragraph>
+               </text>
+               <effectiveTime value="20181101"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <paragraph>Memantine hydrochloride tablets are an N-methyl-D-aspartate (NMDA) receptor antagonist indicated for the treatment of moderate to severe dementia of the Alzheimer’s type. (<linkHtml href="#_1_INDICATIONS_AND">1</linkHtml>) </paragraph>
+                     </text>
+                  </highlight>
+               </excerpt>
+            </section>
+         </component>
+         <component>
+            <section ID="_2_DOSAGE_AND">
+               <id root="270ea523-4422-4815-95de-fc8d11cb2d76"/>
+               <code codeSystem="2.16.840.1.113883.6.1" code="34068-7" displayName="DOSAGE &amp; ADMINISTRATION SECTION"/>
+               <title>
+                  <content styleCode="bold">2</content>
+                  <content styleCode="bold">
+		     
+	DOSAGE AND ADMINISTRATION</content>
+               </title>
+               <text>
+                  <paragraph>The recommended starting dose of memantine hydrochloride tablets is 5 mg once daily. The dose should be increased in 5 mg increments to 10 mg/day (5 mg twice daily), 15 mg/day (5 mg and 10 mg as separate doses), and 20 mg/day (10 mg twice daily). The minimum recommended interval between dose increases is one week. The dosage shown to be effective in controlled clinical trials is 20 mg/day.</paragraph>
+                  <paragraph>Memantine hydrochloride tablets can be taken with or without food. If a patient misses a single dose of memantine hydrochloride, that patient should not double up on the next dose. The next dose should be taken as scheduled.</paragraph>
+                  <paragraph>If a patient fails to take memantine hydrochloride tablets for several days, dosing may need to be resumed at lower doses and retitrated as described above.</paragraph>
+                  <paragraph>Specific Populations </paragraph>
+                  <paragraph>
+                     <content styleCode="italics">Renal Impairment</content>
+                  </paragraph>
+                  <paragraph>A target dose of 5 mg twice daily is recommended in patients with severe renal impairment (creatinine clearance of 5 – 29 mL/min based on the Cockcroft-Gault equation).</paragraph>
+                  <paragraph>
+                     <content styleCode="italics">Hepatic Impairment</content>
+                  </paragraph>
+                  <paragraph>Memantine hydrochloride tablets should be administered with caution to patients with severe hepatic impairment <content styleCode="italics">[see</content> <content styleCode="italics">Clinical Pharmacology (</content>
+                     <content styleCode="italics">
+                        <linkHtml href="#_12_3_Pharmacokinetics">12.3</linkHtml>
+                     </content>
+                     <content styleCode="italics">)]</content>.</paragraph>
+               </text>
+               <effectiveTime value="20181101"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <list listType="unordered" styleCode="Disc">
+                           <item>May be taken with or without food. (<linkHtml href="#_2_DOSAGE_AND">2</linkHtml>)<br/>
+                           </item>
+                           <item>Initial dose is 5 mg once daily. Increase dose in 5 mg increments to a maintenance dose of 10 mg twice daily. A minimum of 1 week of treatment with the previous dose should be observed before increasing the dose. (<linkHtml href="#_2_DOSAGE_AND">2</linkHtml>)<br/>
+                           </item>
+                           <item>Severe renal impairment: recommended dose is 5 mg twice daily. (<linkHtml href="#_2_DOSAGE_AND">2</linkHtml>) </item>
+                        </list>
+                     </text>
+                  </highlight>
+               </excerpt>
+            </section>
+         </component>
+         <component>
+            <section ID="_3_DOSAGE_FORMS">
+               <id root="2d537b77-5fc3-442a-a9cb-c0ae06304b70"/>
+               <code codeSystem="2.16.840.1.113883.6.1" code="43678-2" displayName="DOSAGE FORMS &amp; STRENGTHS SECTION"/>
+               <title>
+                  <content styleCode="bold">3</content>
+                  <content styleCode="bold">
+		     
+	DOSAGE FORMS AND STRENGTHS</content>
+               </title>
+               <text>
+                  <paragraph>Memantine hydrochloride tablets 5 mg: capsule-shaped, film-coated tablets are tan, with the strength “5” debossed on one side and “FL” on the other side. </paragraph>
+                  <paragraph>Memantine hydrochloride tablets 10 mg: capsule-shaped, film-coated tablets are gray, with the strength “10” debossed on one side and “FL” on the other side.</paragraph>
+               </text>
+               <effectiveTime value="20181101"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <list listType="unordered" styleCode="Disc">
+                           <item>Tablets: 5 mg and 10 mg (<linkHtml href="#_3_DOSAGE_FORMS">3</linkHtml>)</item>
+                        </list>
+                     </text>
+                  </highlight>
+               </excerpt>
+            </section>
+         </component>
+         <component>
+            <section ID="_4_CONTRAINDICATIONS">
+               <id root="614a4f1a-53f5-4590-9767-2c62c6135459"/>
+               <code codeSystem="2.16.840.1.113883.6.1" code="34070-3" displayName="CONTRAINDICATIONS SECTION"/>
+               <title>
+                  <content styleCode="bold">4</content>
+                  <content styleCode="bold">
+		     
+	CONTRAINDICATIONS</content>
+               </title>
+               <text>
+                  <paragraph>Memantine hydrochloride tablets are contraindicated in patients with known hypersensitivity to memantine hydrochloride or to any excipients used in the formulation.</paragraph>
+               </text>
+               <effectiveTime value="20181101"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <list listType="unordered" styleCode="Disc">
+                           <item>Memantine hydrochloride tablets are contraindicated in patients with known hypersensitivity to memantine hydrochloride or to any excipients used in the formulation. (<linkHtml href="#_4_CONTRAINDICATIONS">4</linkHtml>)</item>
+                        </list>
+                     </text>
+                  </highlight>
+               </excerpt>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="e1e93040-9ead-47fb-82ed-f86ccfa41947"/>
+               <code codeSystem="2.16.840.1.113883.6.1" code="43685-7" displayName="WARNINGS AND PRECAUTIONS SECTION"/>
+               <title>
+                  <content styleCode="bold">5</content>
+                  <content styleCode="bold">
+		     
+	WARNINGS AND PRECAUTIONS</content>
+               </title>
+               <effectiveTime value="20181101"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <list listType="unordered" styleCode="Disc">
+                           <item>Conditions that raise urine pH may decrease the urinary elimination of memantine, resulting in increased plasma levels of memantine. (<linkHtml href="#_5_1__Genitourinary">5.1</linkHtml>, <linkHtml href="#_7_1_Drugs_that">7.1</linkHtml>)</item>
+                        </list>
+                     </text>
+                  </highlight>
+               </excerpt>
+               <component>
+                  <section ID="_5_1__Genitourinary">
+                     <id root="13a91a67-7a2b-4655-9843-14e59f0cd667"/>
+                     <code codeSystem="2.16.840.1.113883.6.1" code="42229-5" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>
+                        <content styleCode="bold">5.1 </content>
+		     
+	<content styleCode="bold">Genitourinary Conditions</content>
+                     </title>
+                     <text>
+                        <paragraph>Conditions that raise urine pH may decrease the urinary elimination of memantine resulting in increased plasma levels of memantine <content styleCode="italics">[see Drug Interactions (</content>
+                           <content styleCode="italics">
+                              <linkHtml href="#_7_1_Drugs_that">7.1</linkHtml>
+                           </content>
+                           <content styleCode="italics">)]</content>. </paragraph>
+                     </text>
+                     <effectiveTime value="20181101"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="9a7c5fd7-e7fe-425a-8257-46050faa1bae"/>
+               <code codeSystem="2.16.840.1.113883.6.1" code="34084-4" displayName="ADVERSE REACTIONS SECTION"/>
+               <title>
+                  <content styleCode="bold">6</content>
+                  <content styleCode="bold">
+		     
+	ADVERSE REACTIONS</content>
+               </title>
+               <effectiveTime value="20181101"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <paragraph>Most common adverse reactions (≥ 5 % and greater than placebo) are dizziness, headache, confusion and constipation. (<linkHtml href="#_6_1_Clinical_Trials">6.1</linkHtml>)</paragraph>
+                        <paragraph>
+                           <content styleCode="bold">
+                              <br/>
+                              <br/>To report SUSPECTED ADVERSE REACTIONS, contact Actavis at 1-800-272-5525 or FDA at 1-800-FDA-1088 or www.fda.gov/medwatch.</content>
+                        </paragraph>
+                     </text>
+                  </highlight>
+               </excerpt>
+               <component>
+                  <section ID="_6_1_Clinical_Trials">
+                     <id root="05e922d5-1371-4d93-b978-43a3e3b34ea4"/>
+                     <code codeSystem="2.16.840.1.113883.6.1" code="90374-0" displayName="CLINICAL TRIALS EXPERIENCE SECTION"/>
+                     <title>
+                        <content styleCode="bold">6.1</content>
+                        <content styleCode="bold">
+		     
+	Clinical Trials Experience </content>
+                     </title>
+                     <text>
+                        <paragraph>Memantine hydrochloride was evaluated in eight double-blind placebo-controlled trials involving a total of 1862 dementia (Alzheimer’s disease, vascular dementia) patients (940 patients treated with memantine hydrochloride and 922 patients treated with placebo) for a treatment period up to 28 weeks.</paragraph>
+                        <paragraph>Because clinical trials are conducted under widely varying conditions, adverse reaction rates observed in the clinical trials of a drug cannot be directly compared to rates in the clinical trials of another drug and may not reflect the rates observed in clinical practice.</paragraph>
+                        <paragraph>
+                           <content styleCode="underline">Adverse Events Leading to Discontinuation</content>
+                        </paragraph>
+                        <paragraph>In placebo-controlled trials in which dementia patients received doses of memantine hydrochloride up to 20 mg/day, the likelihood of discontinuation because of an adverse reaction was the same in the memantine hydrochloride group (10.1%) as in the placebo group (11.5%). No individual adverse reaction was associated with the discontinuation of treatment in 1% or more of memantine hydrochloride-treated patients and at a rate greater than placebo.</paragraph>
+                        <paragraph>
+                           <content styleCode="underline">Most Common </content>
+                           <content styleCode="underline">Adverse</content>
+                           <content styleCode="underline"> Reactions </content>
+                        </paragraph>
+                        <paragraph>In double-blind placebo-controlled trials involving dementia patients, the most common adverse reactions (incidence ≥ 5% and higher than placebo) in patients treated with memantine hydrochloride were dizziness, headache, confusion and constipation. Table 1 lists all adverse reactions that occurred in at least 2% of patients treated with memantine hydrochloride and at an incidence greater than placebo. </paragraph>
+                        <table>
+                           <caption>Table 1: Adverse Reactions Reported in Controlled Clinical Trials in at Least 2% of Patients Receiving Memantine Hydrochloride and at a Higher Frequency than Placebo-treated Patients</caption>
+                           <col width="320"/>
+                           <col width="133"/>
+                           <col width="192"/>
+                           <tbody>
+                              <tr>
+                                 <td styleCode="Toprule Lrule Rrule ">
+                                    <content styleCode="bold">Adverse Reaction</content>
+                                 </td>
+                                 <td styleCode="Toprule Lrule Rrule " align="center">
+                                    <content styleCode="bold">Placebo</content>
+                                    <br/>
+                                    <content styleCode="bold">(N = 922)</content>
+                                    <br/>
+                                    <content styleCode="bold">%</content>
+                                 </td>
+                                 <td styleCode="Toprule Lrule Rrule " align="center">
+                                    <content styleCode="bold">Memantine H</content>
+                                    <content styleCode="bold">ydrochloride</content>
+                                    <br/>
+                                    <content styleCode="bold">(N = 940)</content>
+                                    <br/>
+                                    <content styleCode="bold">%</content>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Toprule Lrule Rrule ">
+                                    <content styleCode="bold">Body as a Whole</content>
+                                 </td>
+                                 <td styleCode="Toprule Lrule Rrule " align="center"/>
+                                 <td styleCode="Toprule Lrule Rrule " align="center"/>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Toprule Lrule Rrule ">
+		     
+	Fatigue</td>
+                                 <td styleCode="Toprule Lrule Rrule " align="center">1</td>
+                                 <td styleCode="Toprule Lrule Rrule " align="center">2</td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Toprule Lrule Rrule ">
+		     
+	Pain</td>
+                                 <td styleCode="Toprule Lrule Rrule " align="center">1</td>
+                                 <td styleCode="Toprule Lrule Rrule " align="center">3</td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Toprule Lrule Rrule ">
+                                    <content styleCode="bold">Cardiovascular System</content>
+                                 </td>
+                                 <td styleCode="Toprule Lrule Rrule " align="center"/>
+                                 <td styleCode="Toprule Lrule Rrule " align="center"/>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Toprule Lrule Rrule ">
+		     
+	Hypertension</td>
+                                 <td styleCode="Toprule Lrule Rrule " align="center">2</td>
+                                 <td styleCode="Toprule Lrule Rrule " align="center">4</td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Toprule Lrule Rrule ">
+                                    <content styleCode="bold">Central and Peripheral Nervous System</content>
+                                 </td>
+                                 <td styleCode="Toprule Lrule Rrule " align="center"/>
+                                 <td styleCode="Toprule Lrule Rrule " align="center"/>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Toprule Lrule Rrule ">
+		     
+	Dizziness</td>
+                                 <td styleCode="Toprule Lrule Rrule " align="center">5</td>
+                                 <td styleCode="Toprule Lrule Rrule " align="center">7</td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Toprule Lrule Rrule ">
+		     
+	Headache</td>
+                                 <td styleCode="Toprule Lrule Rrule " align="center">3</td>
+                                 <td styleCode="Toprule Lrule Rrule " align="center">6</td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Toprule Lrule Rrule ">
+                                    <content styleCode="bold">Gastrointestinal System</content>
+                                 </td>
+                                 <td styleCode="Toprule Lrule Rrule " align="center"/>
+                                 <td styleCode="Toprule Lrule Rrule " align="center"/>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Toprule Lrule Rrule ">
+		     
+	Constipation</td>
+                                 <td styleCode="Toprule Lrule Rrule " align="center">3</td>
+                                 <td styleCode="Toprule Lrule Rrule " align="center">5</td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Toprule Lrule Rrule ">
+		     
+	Vomiting</td>
+                                 <td styleCode="Toprule Lrule Rrule " align="center">2</td>
+                                 <td styleCode="Toprule Lrule Rrule " align="center">3</td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Toprule Lrule Rrule ">
+                                    <content styleCode="bold">Musculoskeletal System</content>
+                                 </td>
+                                 <td styleCode="Toprule Lrule Rrule " align="center"/>
+                                 <td styleCode="Toprule Lrule Rrule " align="center"/>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Toprule Lrule Rrule ">
+		     
+	Back pain</td>
+                                 <td styleCode="Toprule Lrule Rrule " align="center">2</td>
+                                 <td styleCode="Toprule Lrule Rrule " align="center">3</td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Toprule Lrule Rrule ">
+                                    <content styleCode="bold">Psychiatric Disorders</content>
+                                 </td>
+                                 <td styleCode="Toprule Lrule Rrule " align="center"/>
+                                 <td styleCode="Toprule Lrule Rrule " align="center"/>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Toprule Lrule Rrule ">
+		     
+	Confusion</td>
+                                 <td styleCode="Toprule Lrule Rrule " align="center">5</td>
+                                 <td styleCode="Toprule Lrule Rrule " align="center">6</td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Toprule Lrule Rrule ">
+		     
+	Somnolence</td>
+                                 <td styleCode="Toprule Lrule Rrule " align="center">2</td>
+                                 <td styleCode="Toprule Lrule Rrule " align="center">3</td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Toprule Lrule Rrule ">
+		     
+	Hallucination</td>
+                                 <td styleCode="Toprule Lrule Rrule " align="center">2</td>
+                                 <td styleCode="Toprule Lrule Rrule " align="center">3</td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Toprule Lrule Rrule ">
+                                    <content styleCode="bold">Respiratory System</content>
+                                 </td>
+                                 <td styleCode="Toprule Lrule Rrule " align="center"/>
+                                 <td styleCode="Toprule Lrule Rrule " align="center"/>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Toprule Lrule Rrule ">
+		     
+	Coughing</td>
+                                 <td styleCode="Toprule Lrule Rrule " align="center">3</td>
+                                 <td styleCode="Toprule Lrule Rrule " align="center">4</td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Toprule Lrule Rrule ">
+		     
+	Dyspnea</td>
+                                 <td styleCode="Toprule Lrule Rrule " align="center">1</td>
+                                 <td styleCode="Toprule Lrule Rrule " align="center">2</td>
+                              </tr>
+                           </tbody>
+                        </table>
+                        <paragraph>The overall profile of adverse reactions and the incidence rates for individual adverse reactions in the subpopulation of patients with moderate to severe Alzheimer’s disease were not different from the profile and incidence rates described above for the overall dementia population.</paragraph>
+                        <paragraph>
+                           <content styleCode="underline">Seizures</content>
+                        </paragraph>
+                        <paragraph>Memantine hydrochloride has not been systematically evaluated in patients with a seizure disorder. In clinical trials of memantine hydrochloride, seizures occurred in 0.2% of patients treated with memantine hydrochloride and 0.5% of patients treated with placebo.</paragraph>
+                     </text>
+                     <effectiveTime value="20181101"/>
+                  </section>
+               </component>
+               <component>
+                  <section>
+                     <id root="98c8657f-dd47-4e3c-bd6c-385b34f9dcb7"/>
+                     <code codeSystem="2.16.840.1.113883.6.1" code="90375-7" displayName="POSTMARKETING EXPERIENCE SECTION"/>
+                     <title>
+                        <content styleCode="bold">6.2 </content>
+		     
+	<content styleCode="bold">Postmarketing Experience</content>
+                     </title>
+                     <text>
+                        <paragraph>The following adverse reactions have been identified during post-approval use of memantine. </paragraph>
+                        <paragraph>Because these reactions are reported voluntarily from a population of uncertain size, it is not always possible to reliably estimate their frequency or establish a causal relationship to drug exposure. These reactions include:</paragraph>
+                        <paragraph>Blood and Lymphatic System Disorders - agranulocytosis, leukopenia (including neutropenia), pancytopenia, thrombocytopenia, thrombotic thrombocytopenic purpura.</paragraph>
+                        <paragraph>Cardiac Disorders - cardiac failure congestive.</paragraph>
+                        <paragraph>Gastrointestinal Disorders - pancreatitis.</paragraph>
+                        <paragraph>Hepatobiliary Disorders - hepatitis.</paragraph>
+                        <paragraph>Psychiatric Disorders - suicidal ideation.</paragraph>
+                        <paragraph>Renal and Urinary Disorders - acute renal failure (including increased creatinine and renal insufficiency).</paragraph>
+                        <paragraph>Skin Disorders - Stevens Johnson syndrome.</paragraph>
+                     </text>
+                     <effectiveTime value="20181101"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="0436b533-ba5e-4eab-8e9e-da4b841d1f00"/>
+               <code codeSystem="2.16.840.1.113883.6.1" code="34073-7" displayName="DRUG INTERACTIONS SECTION"/>
+               <title>
+                  <content styleCode="bold">7</content>
+                  <content styleCode="bold">
+		     
+	DRUG INTERACTIONS</content>
+               </title>
+               <effectiveTime value="20181101"/>
+               <component>
+                  <section ID="_7_1_Drugs_that">
+                     <id root="66900520-22a8-481a-8ac1-5599ea254615"/>
+                     <code codeSystem="2.16.840.1.113883.6.1" code="42229-5" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>
+                        <content styleCode="bold">7.</content>
+                        <content styleCode="bold">1</content>
+		     
+	<content styleCode="bold">Drugs that Make </content>
+                        <content styleCode="bold">t</content>
+                        <content styleCode="bold">he </content>
+                        <content styleCode="bold">Urine Alkaline</content>
+                     </title>
+                     <text>
+                        <paragraph>The clearance of memantine was reduced by about 80% under alkaline urine conditions at pH 8. Therefore, alterations of urine pH towards the alkaline condition may lead to an accumulation of the drug with a possible increase in adverse effects. Urine pH is altered by diet, drugs (e.g. carbonic anhydrase inhibitors, sodium bicarbonate) and clinical state of the patient (e.g. renal tubular acidosis or severe infections of the urinary tract). Hence, memantine should be used with caution under these conditions.</paragraph>
+                     </text>
+                     <effectiveTime value="20181101"/>
+                  </section>
+               </component>
+               <component>
+                  <section>
+                     <id root="4b018c30-b073-423a-b260-a6d04fabc617"/>
+                     <code codeSystem="2.16.840.1.113883.6.1" code="42229-5" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>
+                        <content styleCode="bold">7.2 </content>
+                        <content styleCode="bold">
+		     
+	Use with Other N-methyl-D-aspartate (NMDA) Antagonists</content>
+                     </title>
+                     <text>
+                        <paragraph>The combined use of memantine hydrochloride with other NMDA antagonists (amantadine, ketamine, and dextromethorphan) has not been systematically evaluated and such use should be approached with caution.</paragraph>
+                     </text>
+                     <effectiveTime value="20181101"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="3784f917-d973-47bd-9de3-085597e0b8d7"/>
+               <code codeSystem="2.16.840.1.113883.6.1" code="43684-0" displayName="USE IN SPECIFIC POPULATIONS SECTION"/>
+               <title>
+                  <content styleCode="bold">8</content>
+                  <content styleCode="bold">
+		     
+	USE IN SPECIFIC POPULATIONS</content>
+               </title>
+               <effectiveTime value="20181101"/>
+               <component>
+                  <section>
+                     <id root="e8a5cbb5-e498-455b-8a3d-63b42d6798ae"/>
+                     <code codeSystem="2.16.840.1.113883.6.1" code="42228-7" displayName="PREGNANCY SECTION"/>
+                     <title>
+                        <content styleCode="bold">8.1 </content>
+		     
+	<content styleCode="bold">Pregnancy</content>
+                     </title>
+                     <text>
+                        <paragraph>
+                           <content styleCode="underline">Risk Summary </content>
+                        </paragraph>
+                        <paragraph>There are no adequate data on the developmental risk associated with the use of memantine hydrochloride in pregnant women. </paragraph>
+                        <paragraph>Adverse developmental effects (decreased body weight, and skeletal ossification) were observed in the offspring of rats administered memantine during pregnancy at doses associated with minimal maternal toxicity. These doses are higher than those used in humans at the maximum recommended daily dose of memantine hydrochloride <content styleCode="italics">[see Data].</content>  </paragraph>
+                        <paragraph>In the U.S. general population, the estimated background risk of major birth defects and miscarriage in clinically recognized pregnancies is 2-4% and 15-20%, respectively. The background risk of major birth defects and miscarriage for the indicated population is unknown.</paragraph>
+                        <paragraph>
+                           <content styleCode="underline">Data</content>
+                        </paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Animal Data</content>
+                        </paragraph>
+                        <paragraph>Oral administration of memantine (0, 2, 6, or 18 mg/kg/day) to rats during the period of organogenesis resulted in decreased skeletal ossification in fetuses at the highest dose tested. The higher no-effect dose for adverse developmental effects (6 mg/kg) is 3 times the maximum recommended human daily dose (MRHD) of memantine hydrochloride (20 mg) on a body surface area (mg/m<sup>2</sup>) basis.</paragraph>
+                        <paragraph>Oral administration of memantine to rabbits (0, 3, 10, or 30 mg/kg/day) during the period of organogenesis resulted in no adverse developmental effects. The highest dose tested is approximately 30 times the MRHD of memantine hydrochloride on a mg/m<sup>2</sup> basis.</paragraph>
+                        <paragraph>In rats, memantine (0, 2, 6, or 18 mg/kg/day) was administered orally prior to and throughout mating and, in females, through the period of organogenesis or continuing throughout lactation to weaning. Decreased skeletal ossification in fetuses and decreased body weight in pups were observed at the highest dose tested. The higher no-effect dose for adverse developmental effects (6 mg/kg/day) is 3 times the MRHD of memantine hydrochloride on a mg/m<sup>2</sup> basis.</paragraph>
+                        <paragraph>Oral administration of memantine (0, 2, 6, or 18 mg/kg/day) to rats from late gestation throughout lactation to weaning, resulted in decreased pup weights at the highest dose tested. The higher no-effect dose (6 mg/kg/day) is approximately 3 times the MRHD of memantine hydrochloride on a mg/m<sup>2</sup> basis.</paragraph>
+                     </text>
+                     <effectiveTime value="20181101"/>
+                  </section>
+               </component>
+               <component>
+                  <section>
+                     <id root="4998ee66-d9a0-4f2a-8261-459bfd50a07e"/>
+                     <code codeSystem="2.16.840.1.113883.6.1" code="77290-5" displayName="LACTATION SECTION"/>
+                     <title>
+                        <content styleCode="bold">8.</content>
+                        <content styleCode="bold">2 </content>
+                        <content styleCode="bold">
+		     
+	Lactation</content>
+                     </title>
+                     <text>
+                        <paragraph>
+                           <content styleCode="underline">Risk Summary  </content>
+                        </paragraph>
+                        <paragraph>There are no data on the presence of memantine in human milk, the effects on the breastfed infant, or the effects of memantine hydrochloride on milk production.  </paragraph>
+                        <paragraph>The developmental and health benefits of breastfeeding should be considered along with the mother’s clinical need for memantine hydrochloride and any potential adverse effects on the breastfed infant from memantine hydrochloride or from the underlying maternal condition.</paragraph>
+                     </text>
+                     <effectiveTime value="20181101"/>
+                  </section>
+               </component>
+               <component>
+                  <section>
+                     <id root="71d45c66-2d18-4188-a609-1de6150783ab"/>
+                     <code codeSystem="2.16.840.1.113883.6.1" code="34081-0" displayName="PEDIATRIC USE SECTION"/>
+                     <title>
+                        <content styleCode="bold">8.4 </content>
+		     
+	<content styleCode="bold">Pediatric Use</content>
+                     </title>
+                     <text>
+                        <paragraph>Safety and effectiveness in pediatric patients have not been established. </paragraph>
+                        <paragraph>Memantine failed to demonstrate efficacy in two 12-week controlled clinical studies of 578 pediatric patients aged 6-12 years with autism spectrum disorders (ASD), including autism, Asperger’s disorder and Pervasive Development Disorder - Not Otherwise Specified (PDD-NOS). Memantine has not been studied in pediatric patients under 6 years of age or over 12 years of age. Memantine treatment was initiated at 3 mg/day and the dose was escalated to the target dose (weight-based) by week 6. Oral doses of memantine 3, 6, 9, or 15 mg extended-release capsules were administered once daily to patients with weights &lt; 20 kg, 20-39 kg, 40-59 kg and ≥ 60 kg, respectively.</paragraph>
+                        <paragraph>In a randomized, 12-week double-blind, placebo-controlled parallel study (Study A) in patients with autism, there was no statistically significant difference in the Social Responsiveness Scale (SRS) total raw score between patients randomized to memantine (n=54) and those randomized to placebo (n=53). In a 12-week responder-enriched randomized withdrawal study (Study B) in 471 patients with ASD, there was no statistically significant difference in the loss of therapeutic response rates between patients randomized to remain on full-dose memantine (n=153) and those randomized to switch to placebo (n=158).</paragraph>
+                        <paragraph>The overall risk profile of memantine in pediatric patients was generally consistent with the known risk profile in adults <content styleCode="italics">[see Adverse Reactions (</content>
+                           <content styleCode="italics">
+                              <linkHtml href="#_6_1_Clinical_Trials">6.1</linkHtml>
+                           </content>
+                           <content styleCode="italics">)]</content>.</paragraph>
+                        <paragraph>In Study A, the adverse reactions in the memantine group (n=56) that were reported in at least 5% of patients and at least twice the frequency of the placebo group (N=58) are listed in Table 2:</paragraph>
+                        <table>
+                           <caption>Table 2: Study A Commonly Reported Adverse Reactions with a Frequency ≥ 5% and Twice That of Placebo  </caption>
+                           <col width="198"/>
+                           <col width="110"/>
+                           <col width="108"/>
+                           <tbody>
+                              <tr>
+                                 <td styleCode="Toprule Lrule Rrule ">
+                                    <content styleCode="bold">A</content>
+                                    <content styleCode="bold">d</content>
+                                    <content styleCode="bold">vers</content>
+                                    <content styleCode="bold">e </content>
+                                    <content styleCode="bold">R</content>
+                                    <content styleCode="bold">eact</content>
+                                    <content styleCode="bold">i</content>
+                                    <content styleCode="bold">on</content>
+                                 </td>
+                                 <td styleCode="Toprule Lrule Rrule " align="center">
+                                    <content styleCode="bold">M</content>
+                                    <content styleCode="bold">e</content>
+                                    <content styleCode="bold">m</content>
+                                    <content styleCode="bold">a</content>
+                                    <content styleCode="bold">n</content>
+                                    <content styleCode="bold">t</content>
+                                    <content styleCode="bold">in</content>
+                                    <content styleCode="bold">e</content>
+                                    <br/>
+                                    <content styleCode="bold">N=56</content>
+                                 </td>
+                                 <td styleCode="Toprule Lrule Rrule " align="center">
+                                    <content styleCode="bold">P</content>
+                                    <content styleCode="bold">l</content>
+                                    <content styleCode="bold">a</content>
+                                    <content styleCode="bold">c</content>
+                                    <content styleCode="bold">e</content>
+                                    <content styleCode="bold">b</content>
+                                    <content styleCode="bold">o</content>
+                                    <br/>
+                                    <content styleCode="bold">N=58</content>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Toprule Lrule Rrule ">Cough</td>
+                                 <td styleCode="Toprule Lrule Rrule " align="center">8.9%</td>
+                                 <td styleCode="Toprule Lrule Rrule " align="center">3.4%</td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Toprule Lrule Rrule ">Influenza</td>
+                                 <td styleCode="Toprule Lrule Rrule " align="center">7.1%</td>
+                                 <td styleCode="Toprule Lrule Rrule " align="center">3.4%</td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Toprule Lrule Rrule ">Rhinorrhea</td>
+                                 <td styleCode="Toprule Lrule Rrule " align="center">5.4%</td>
+                                 <td styleCode="Toprule Lrule Rrule " align="center">0%</td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Toprule Lrule Rrule ">Agitation</td>
+                                 <td styleCode="Toprule Lrule Rrule " align="center">5.4%</td>
+                                 <td styleCode="Toprule Lrule Rrule " align="center">1.7%</td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Toprule Lrule Rrule " colspan="3" align="center">
+                                    <content styleCode="bold">D</content>
+                                    <content styleCode="bold">i</content>
+                                    <content styleCode="bold">sco</content>
+                                    <content styleCode="bold">n</content>
+                                    <content styleCode="bold">t</content>
+                                    <content styleCode="bold">inu</content>
+                                    <content styleCode="bold">at</content>
+                                    <content styleCode="bold">i</content>
+                                    <content styleCode="bold">o</content>
+                                    <content styleCode="bold">n</content>
+                                    <content styleCode="bold">s</content>
+                                    <content styleCode="bold"> </content>
+                                    <content styleCode="bold">d</content>
+                                    <content styleCode="bold">u</content>
+                                    <content styleCode="bold">e</content>
+                                    <content styleCode="bold"> </content>
+                                    <content styleCode="bold">to</content>
+                                    <content styleCode="bold"> </content>
+                                    <content styleCode="bold">a</content>
+                                    <content styleCode="bold">d</content>
+                                    <content styleCode="bold">verse</content>
+                                    <content styleCode="bold"> </content>
+                                    <content styleCode="bold">r</content>
+                                    <content styleCode="bold">e</content>
+                                    <content styleCode="bold">a</content>
+                                    <content styleCode="bold">ct</content>
+                                    <content styleCode="bold">i</content>
+                                    <content styleCode="bold">o</content>
+                                    <content styleCode="bold">n</content>
+                                    <content styleCode="bold">s</content>
+                                    <content styleCode="bold">
+                                       <sup>a</sup>
+                                    </content>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Toprule Lrule Rrule ">Aggression</td>
+                                 <td styleCode="Toprule Lrule Rrule " align="center">3.6%</td>
+                                 <td styleCode="Toprule Lrule Rrule " align="center">1.7%</td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Toprule Lrule Rrule ">Irritability</td>
+                                 <td styleCode="Toprule Lrule Rrule " align="center">1.8%</td>
+                                 <td styleCode="Toprule Lrule Rrule " align="center">3.4%</td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Toprule Lrule Rrule " colspan="3">
+                                    <sup>a</sup> Reported adverse reactions leading to discontinuation in more than one patient in<br/>either treatment group.</td>
+                              </tr>
+                           </tbody>
+                        </table>
+                        <paragraph>The adverse reactions that were reported in at least 5% of patients in the 12-48 week open-label study to identify responders to enroll in Study B are listed in Table 3:</paragraph>
+                        <table>
+                           <caption>Table 3:  12-48 Week Open Label Lead-In study to Study B Commonly Reported Adverse Reactions with a Frequency ≥ 5%</caption>
+                           <col width="213"/>
+                           <col width="213"/>
+                           <tbody>
+                              <tr>
+                                 <td styleCode="Toprule Lrule Rrule ">
+                                    <content styleCode="bold">A</content>
+                                    <content styleCode="bold">d</content>
+                                    <content styleCode="bold">vers</content>
+                                    <content styleCode="bold">e </content>
+                                    <content styleCode="bold">R</content>
+                                    <content styleCode="bold">eact</content>
+                                    <content styleCode="bold">i</content>
+                                    <content styleCode="bold">on</content>
+                                 </td>
+                                 <td styleCode="Toprule Lrule Rrule " align="center">
+                                    <content styleCode="bold">M</content>
+                                    <content styleCode="bold">e</content>
+                                    <content styleCode="bold">m</content>
+                                    <content styleCode="bold">a</content>
+                                    <content styleCode="bold">n</content>
+                                    <content styleCode="bold">t</content>
+                                    <content styleCode="bold">in</content>
+                                    <content styleCode="bold">e</content>
+                                    <br/>
+                                    <content styleCode="bold">N=903</content>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Toprule Lrule Rrule ">Headache</td>
+                                 <td styleCode="Toprule Lrule Rrule " align="center">8.0%</td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Toprule Lrule Rrule ">Nasopharyngitis</td>
+                                 <td styleCode="Toprule Lrule Rrule " align="center">6.3%</td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Toprule Lrule Rrule ">Pyrexia</td>
+                                 <td styleCode="Toprule Lrule Rrule " align="center">5.8%</td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Toprule Lrule Rrule ">Irritability</td>
+                                 <td styleCode="Toprule Lrule Rrule " align="center">5.4%</td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Toprule Lrule Rrule " colspan="2" align="center">
+                                    <content styleCode="bold">D</content>
+                                    <content styleCode="bold">i</content>
+                                    <content styleCode="bold">sco</content>
+                                    <content styleCode="bold">n</content>
+                                    <content styleCode="bold">t</content>
+                                    <content styleCode="bold">inu</content>
+                                    <content styleCode="bold">a</content>
+                                    <content styleCode="bold">t</content>
+                                    <content styleCode="bold">i</content>
+                                    <content styleCode="bold">o</content>
+                                    <content styleCode="bold">n</content>
+                                    <content styleCode="bold">s </content>
+                                    <content styleCode="bold">d</content>
+                                    <content styleCode="bold">u</content>
+                                    <content styleCode="bold">e to</content>
+                                    <content styleCode="bold"> </content>
+                                    <content styleCode="bold">a</content>
+                                    <content styleCode="bold">dverse</content>
+                                    <content styleCode="bold"> </content>
+                                    <content styleCode="bold">r</content>
+                                    <content styleCode="bold">e</content>
+                                    <content styleCode="bold">a</content>
+                                    <content styleCode="bold">ction</content>
+                                    <content styleCode="bold">s</content>
+                                    <content styleCode="bold">
+                                       <sup>a</sup>
+                                    </content>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Toprule Lrule Rrule ">Irritability</td>
+                                 <td styleCode="Toprule Lrule Rrule " align="center">1.2%</td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Toprule Lrule Rrule ">Aggression</td>
+                                 <td styleCode="Toprule Lrule Rrule " align="center">1.0%</td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Toprule Lrule Rrule " colspan="2">
+                                    <sup>a</sup>
+                                    <sup> </sup>
+                                    <sub>A</sub>
+                                    <sub>t</sub>
+                                    <sub> l</sub>
+                                    <sub>ea</sub>
+                                    <sub>st</sub>
+                                    <sub> 1</sub>
+                                    <sub>%</sub>
+                                    <sub> </sub>
+                                    <sub>in</sub>
+                                    <sub>c</sub>
+                                    <sub>i</sub>
+                                    <sub>d</sub>
+                                    <sub>e</sub>
+                                    <sub>n</sub>
+                                    <sub>c</sub>
+                                    <sub>e </sub>
+                                    <sub>o</sub>
+                                    <sub>f</sub>
+                                    <sub> </sub>
+                                    <sub>a</sub>
+                                    <sub>d</sub>
+                                    <sub>ve</sub>
+                                    <sub>rse r</sub>
+                                    <sub>eac</sub>
+                                    <sub>tion</sub>
+                                    <sub>s </sub>
+                                    <sub>l</sub>
+                                    <sub>ea</sub>
+                                    <sub>din</sub>
+                                    <sub>g</sub>
+                                    <sub> </sub>
+                                    <sub>t</sub>
+                                    <sub>o</sub>
+                                    <sub> </sub>
+                                    <sub>p</sub>
+                                    <sub>r</sub>
+                                    <sub>e</sub>
+                                    <sub>m</sub>
+                                    <sub>a</sub>
+                                    <sub>t</sub>
+                                    <sub>u</sub>
+                                    <sub>re </sub>
+                                    <sub>d</sub>
+                                    <sub>is</sub>
+                                    <sub>c</sub>
+                                    <sub>onti</sub>
+                                    <sub>n</sub>
+                                    <sub>u</sub>
+                                    <sub>a</sub>
+                                    <sub>t</sub>
+                                    <sub>i</sub>
+                                    <sub>on.</sub>
+                                 </td>
+                              </tr>
+                           </tbody>
+                        </table>
+                        <paragraph>In the randomized withdrawal study (Study B), the adverse reaction in patients randomized to placebo (n=160) and reported in at least 5% of patients and at twice the frequency of the full-dose memantine treatment group (n=157) was irritability (5.0% vs 2.5%).</paragraph>
+                        <paragraph>
+                           <content styleCode="underline">Juvenile Animal Study</content>
+                        </paragraph>
+                        <paragraph>In a study in which memantine (0, 15, 30 or 45 mg/kg/day) was orally administered to rats during the juvenile period of development (postnatal days [PND] 14 through 70), delays in sexual maturation were noted in males and females at all but the lowest dose tested, and body weight was reduced at the high dose. In rats orally administered memantine as a single dose (PND 14) or three daily doses (PND 14-16), neuronal lesions were observed in several areas of the brain at all but the lowest dose tested. Adverse neurobehavioral effects (decreased auditory startle habituation) were observed at the high dose. The no-effect dose for developmental toxicity was the lowest dose tested (15 mg/kg/day).</paragraph>
+                        <paragraph>In a second juvenile animal study, memantine (0, 1, 3, 8, 15, 30, and 45 mg/kg/day) was orally administered to male and female rats beginning on PND 7 and continuing for various periods during postnatal development. Because of early memantine-related mortality, the 30 and 45 mg/kg/day groups were terminated without further evaluation. Apoptosis or neuronal degeneration in the brain was observed on PNDs 8-17 at a dose of 15 mg/kg/day. The no-effect dose for apoptosis and neuronal degeneration was 8 mg/kg/day. In animals in which memantine (0, 1, 3, 8, or 15 mg/kg/day) was orally administered on PNDs 7-70, adverse neurobehavioral effects (increased locomotor motor activity, increased auditory startle response and decreased habituation, and deficit in learning and memory) were observed at all but the lowest dose tested. Effects on auditory startle persisted after drug discontinuation. The no-effect dose for developmental toxicity was the lowest dose tested (1 mg/kg/day).</paragraph>
+                     </text>
+                     <effectiveTime value="20181101"/>
+                  </section>
+               </component>
+               <component>
+                  <section>
+                     <id root="212944a2-9f61-4127-ba4c-fd27a0e5cd92"/>
+                     <code codeSystem="2.16.840.1.113883.6.1" code="34082-8" displayName="GERIATRIC USE SECTION"/>
+                     <title>
+                        <content styleCode="bold">8.5 </content>
+		     
+	<content styleCode="bold">Geriatric Use</content>
+                     </title>
+                     <text>
+                        <paragraph>The majority of people with Alzheimer’s disease are 65 years and older. In the clinical studies of memantine hydrochloride the mean age of patients was approximately 76; over 90% of patients were 65 years and older, 60% were 75 years and older, and 12% were at or above 85 years of age. The efficacy and safety data presented in the clinical trial sections were obtained from these patients. There were no clinically meaningful differences in most adverse events reported by patient groups ≥65 years old and &lt;65 years old.</paragraph>
+                     </text>
+                     <effectiveTime value="20181101"/>
+                  </section>
+               </component>
+               <component>
+                  <section>
+                     <id root="5219b10b-cd82-4c37-a0f3-25c5b994b830"/>
+                     <code codeSystem="2.16.840.1.113883.6.1" code="88828-9" displayName="RENAL IMPAIRMENT SUBSECTION"/>
+                     <title>
+                        <content styleCode="bold">8.</content>
+                        <content styleCode="bold">6</content>
+		     
+	<content styleCode="bold"> Renal Impairment</content>
+                     </title>
+                     <text>
+                        <paragraph>No dosage adjustment is needed in patients with mild or moderate renal impairment. A dosage reduction is recommended in patients with severe renal impairment <content styleCode="italics">[</content>
+                           <content styleCode="italics">see Dosage and Administration (</content>
+                           <content styleCode="italics">
+                              <linkHtml href="#_2_DOSAGE_AND">2</linkHtml>
+                           </content>
+                           <content styleCode="italics">)</content>
+                           <content styleCode="italics"> and Clinical Pharmacology (</content>
+                           <content styleCode="italics">
+                              <linkHtml href="#_12_3_Pharmacokinetics">12.3</linkHtml>
+                           </content>
+                           <content styleCode="italics">)</content>
+                           <content styleCode="italics">]</content>. </paragraph>
+                     </text>
+                     <effectiveTime value="20181101"/>
+                  </section>
+               </component>
+               <component>
+                  <section>
+                     <id root="99cec07d-4f94-4bd6-8567-bd1ba513621a"/>
+                     <code codeSystem="2.16.840.1.113883.6.1" code="88829-7" displayName="HEPATIC IMPAIRMENT SUBSECTION"/>
+                     <title>
+                        <content styleCode="bold">8.</content>
+                        <content styleCode="bold">7</content>
+                        <content styleCode="bold"> </content>
+		     
+	<content styleCode="bold">Hepatic Impairment</content>
+                     </title>
+                     <text>
+                        <paragraph>No dosage adjustment is needed in patients with mild or moderate hepatic impairment. Memantine hydrochloride should be administered with caution to patients with severe hepatic impairment <content styleCode="italics">[</content>
+                           <content styleCode="italics">see Dosage and Administration (</content>
+                           <content styleCode="italics">
+                              <linkHtml href="#_2_DOSAGE_AND">2</linkHtml>
+                           </content>
+                           <content styleCode="italics">)</content>
+                           <content styleCode="italics"> and Clinical Pharmacology (</content>
+                           <content styleCode="italics">
+                              <linkHtml href="#_12_3_Pharmacokinetics">12.3</linkHtml>
+                           </content>
+                           <content styleCode="italics">)</content>
+                           <content styleCode="italics">]</content>.</paragraph>
+                     </text>
+                     <effectiveTime value="20181101"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="1bca32ef-997d-4108-bd6f-5ca306cb2197"/>
+               <code codeSystem="2.16.840.1.113883.6.1" code="34088-5" displayName="OVERDOSAGE SECTION"/>
+               <title>
+                  <content styleCode="bold">10</content>
+                  <content styleCode="bold">
+		     
+	OVERDOSAGE</content>
+               </title>
+               <text>
+                  <paragraph>Signs and symptoms most often accompanying memantine overdosage in clinical trials and from worldwide marketing experience, alone or in combination with other drugs and/or alcohol, include agitation, asthenia, bradycardia, confusion, coma, dizziness, ECG changes, increased blood pressure, lethargy, loss of consciousness, psychosis, restlessness, slowed movement, somnolence, stupor, unsteady gait, visual hallucinations, vertigo, vomiting, and weakness. The largest known ingestion of memantine worldwide was 2.0 grams in a patient who took memantine in conjunction with unspecified antidiabetic medications. The patient experienced coma, diplopia, and agitation, but subsequently recovered. Fatal outcome has been very rarely reported with memantine, and the relationship to memantine was unclear.</paragraph>
+                  <paragraph>Because strategies for the management of overdose are continually evolving, it is advisable to contact a poison control center to determine the latest recommendations for the management of an overdose of any drug. As in any cases of overdose, general supportive measures should be utilized, and treatment should be symptomatic. Elimination of memantine can be enhanced by acidification of urine. </paragraph>
+               </text>
+               <effectiveTime value="20181101"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="79daa2b2-7aaa-450f-8230-e1c0e31fc2b6"/>
+               <code codeSystem="2.16.840.1.113883.6.1" code="34089-3" displayName="DESCRIPTION SECTION"/>
+               <title>
+                  <content styleCode="bold">11</content>
+                  <content styleCode="bold">
+		     
+	DESCRIPTION</content>
+               </title>
+               <text>
+                  <paragraph>Memantine hydrochloride tablets are an orally active NMDA receptor antagonist.  The chemical name for memantine hydrochloride is 1-amino-3,5-dimethyladamantane hydrochloride with the following structural formula:</paragraph>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="MM03000001"/>
+                  </paragraph>
+                  <paragraph>The molecular formula is C<sub>12</sub>H<sub>21</sub>N•HCl and the molecular weight is 215.76. Memantine hydrochloride occurs as a fine white to off-white powder and is soluble in water.</paragraph>
+                  <paragraph>Memantine hydrochloride is available as tablets. Memantine hydrochloride tablets are available for oral administration as capsule-shaped, film-coated tablets containing 5 mg and 10 mg of memantine hydrochloride. The tablets also contain the following inactive ingredients: microcrystalline cellulose/colloidal silicon dioxide, talc, croscarmellose sodium, and magnesium stearate. In addition, the following inactive ingredients are also present as components of the film coat: hypromellose, titanium dioxide, polyethylene glycol 400, FD&amp;C yellow #6 and FD&amp;C blue #2 (5 mg tablets), and hypromellose, titanium dioxide, macrogol/polyethylene glycol 400 and iron oxide black (10 mg tablets). </paragraph>
+               </text>
+               <effectiveTime value="20181101"/>
+               <component>
+                  <observationMedia ID="MM03000001">
+                     <text>The following structural formula for Memantine hydrochloride tablets are an orally active NMDA receptor antagonist.  The chemical name for memantine hydrochloride is 1-amino-3,5-dimethyladamantane hydrochloride.</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="memantine-hydrochloride-tablets-01.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="7fa5c557-9f38-4399-a239-3379fc067bca"/>
+               <code codeSystem="2.16.840.1.113883.6.1" code="34090-1" displayName="CLINICAL PHARMACOLOGY SECTION"/>
+               <title>
+                  <content styleCode="bold">12</content>
+                  <content styleCode="bold">
+		     
+	CLINICAL PHARMACOLOGY</content>
+               </title>
+               <effectiveTime value="20181101"/>
+               <component>
+                  <section>
+                     <id root="af1d1ec1-86a9-401c-98f8-b28d49f594fc"/>
+                     <code codeSystem="2.16.840.1.113883.6.1" code="43679-0" displayName="MECHANISM OF ACTION SECTION"/>
+                     <title>
+                        <content styleCode="bold">12.1</content>
+                        <content styleCode="bold">
+		     
+	Mechanism of Action</content>
+                     </title>
+                     <text>
+                        <paragraph>Persistent activation of central nervous system N-methyl-D-aspartate (NMDA) receptors by the excitatory amino acid glutamate has been hypothesized to contribute to the symptomatology of Alzheimer’s disease. Memantine is postulated to exert its therapeutic effect through its action as a low to moderate affinity uncompetitive (open-channel) NMDA receptor antagonist which binds preferentially to the NMDA receptor-operated cation channels. There is no evidence that memantine prevents or slows neurodegeneration in patients with Alzheimer’s disease.</paragraph>
+                     </text>
+                     <effectiveTime value="20181101"/>
+                  </section>
+               </component>
+               <component>
+                  <section>
+                     <id root="b3a076f5-4c7a-4cdd-a6db-60b2450a5722"/>
+                     <code codeSystem="2.16.840.1.113883.6.1" code="43681-6" displayName="PHARMACODYNAMICS SECTION"/>
+                     <title>
+                        <content styleCode="bold">12.2</content>
+                        <content styleCode="bold">
+		     
+	Pharmacodynamics</content>
+                     </title>
+                     <text>
+                        <paragraph>Memantine showed low to negligible affinity for GABA, benzodiazepine, dopamine, adrenergic, histamine and glycine receptors and for voltage-dependent Ca<sup>2+</sup>, Na<sup>+</sup> or K<sup>+</sup> channels. Memantine also showed antagonistic effects at the 5HT<sub>3</sub> receptor with a potency similar to that for the NMDA receptor and blocked nicotinic acetylcholine receptors with one-sixth to one-tenth the potency.  </paragraph>
+                        <paragraph>
+                           <content styleCode="italics">In vitro</content> studies have shown that memantine does not affect the reversible inhibition of acetylcholinesterase by donepezil, galantamine, or tacrine.</paragraph>
+                     </text>
+                     <effectiveTime value="20181101"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="_12_3_Pharmacokinetics">
+                     <id root="2a151d34-a779-465c-9ebd-4d5f1ee42dee"/>
+                     <code codeSystem="2.16.840.1.113883.6.1" code="43682-4" displayName="PHARMACOKINETICS SECTION"/>
+                     <title>
+                        <content styleCode="bold">12.3</content>
+                        <content styleCode="bold">
+		     
+	Pharmacokinetics</content>
+                     </title>
+                     <text>
+                        <paragraph>
+                           <content styleCode="underline">Absorption </content>
+                        </paragraph>
+                        <paragraph>Following oral administration memantine is highly absorbed with peak concentrations reached in about 3-7 hours. Memantine has linear pharmacokinetics over the therapeutic dose range. Food has no effect on the absorption of memantine. </paragraph>
+                        <paragraph>
+                           <content styleCode="underline">Distribution</content>
+                        </paragraph>
+                        <paragraph>The mean volume of distribution of memantine is 9-11 L/kg and the plasma protein binding is low (45%).</paragraph>
+                        <paragraph>
+                           <content styleCode="underline">Metabolism</content>
+                           <content styleCode="bold underline"> </content>
+                        </paragraph>
+                        <paragraph>Memantine undergoes partial hepatic metabolism.  The hepatic microsomal CYP450 enzyme system does not play a significant role in the metabolism of memantine.</paragraph>
+                        <paragraph>
+                           <content styleCode="underline">Elimination</content>
+                        </paragraph>
+                        <paragraph>Memantine is excreted predominantly (about 48%) unchanged in urine and has a terminal elimination half- life of about 60-80 hours.</paragraph>
+                        <paragraph>The remainder is converted primarily to three polar metabolites which possess minimal NMDA receptor antagonistic activity: the N-glucuronide conjugate, 6-hydroxy memantine, and 1-nitroso-deaminated memantine.  A total of 74% of the administered dose is excreted as the sum of the parent drug and the N-glucuronide conjugate.  Renal clearance involves active tubular secretion moderated by pH dependent tubular reabsorption.</paragraph>
+                        <paragraph>
+                           <content styleCode="underline">Pharmacokinetics in </content>
+                           <content styleCode="underline">Speci</content>
+                           <content styleCode="underline">fic</content>
+                           <content styleCode="underline"> </content>
+                           <content styleCode="underline">Populations</content>
+                        </paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Gender</content> </paragraph>
+                        <paragraph>Following multiple dose administration of memantine hydrochloride 20 mg daily, females had about 45% higher exposure than males, but there was no difference in exposure when body weight was taken into account.</paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Elderly</content>
+                        </paragraph>
+                        <paragraph>The pharmacokinetics of memantine hydrochloride in young and elderly subjects are similar.</paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Renal Impairment </content>
+                        </paragraph>
+                        <paragraph>Memantine pharmacokinetics were evaluated following single oral administration of 20 mg memantine hydrochloride in 8 subjects with mild renal impairment (creatinine clearance, CLcr, &gt;50 – 80 mL/min), 8 subjects with moderate renal impairment (CLcr 30 – 49 mL/min), 7 subjects with severe renal impairment (CLcr 5 – 29 mL/min) and 8 healthy subjects (CLcr &gt; 80 mL/min) matched as closely as possible by age, weight and gender to the subjects with renal impairment.  Mean AUC<sub>0-</sub>
+                           <sub>∞</sub> increased by 4%, 60%, and 115% in subjects with mild, moderate, and severe renal impairment, respectively, compared to healthy subjects.  The terminal elimination half-life increased by 18%, 41%, and 95% in subjects with mild, moderate, and severe renal impairment, respectively, compared to healthy subjects.</paragraph>
+                        <paragraph>No dosage adjustment is recommended for patients with mild and moderate renal impairment.  Dosage should be reduced in patients with severe renal impairment <content styleCode="italics">[</content>
+                           <content styleCode="italics">see Dosage and Administration (</content>
+                           <content styleCode="italics">
+                              <linkHtml href="#_2_DOSAGE_AND">2</linkHtml>
+                           </content>
+                           <content styleCode="italics">)</content>
+                           <content styleCode="italics">]</content>.</paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Hepatic Impairment</content>
+                        </paragraph>
+                        <paragraph>Memantine pharmacokinetics were evaluated following the administration of single oral doses of 20 mg in 8 subjects with moderate hepatic impairment (Child-Pugh Class B, score 7-9) and 8 subjects who were age-, gender-, and weight-matched to the hepatically-impaired subjects. There was no change in memantine exposure (based on C<sub>max</sub> and AUC) in subjects with moderate hepatic impairment as compared with healthy subjects. However, terminal elimination half-life increased by about 16% in subjects with moderate hepatic impairment as compared with healthy subjects. No dose adjustment is recommended for patients with mild and moderate hepatic impairment. Memantine should be administered with caution to patients with severe hepatic impairment as the pharmacokinetics of memantine have not been evaluated in that population.</paragraph>
+                        <paragraph>
+                           <content styleCode="underline">Drug-Drug Interactions</content>
+                        </paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Use with Cholinesterase Inhibitors</content>
+                        </paragraph>
+                        <paragraph>Coadministration of memantine with the AChE inhibitor donepezil hydrochloride did not affect the pharmacokinetics of either compound. Furthermore, memantine did not affect AChE inhibition by donepezil. In a 24-week controlled clinical study in patients with moderate to severe Alzheimer’s disease, the adverse event profile observed with a combination of memantine hydrochloride and donepezil was similar to that of donepezil alone.</paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Effect of </content>
+                           <content styleCode="italics">Memantine Hydrochloride</content>
+                           <content styleCode="italics"> on the Metabolism of Other Drugs</content>
+                        </paragraph>
+                        <paragraph>
+                           <content styleCode="italics">I</content>
+                           <content styleCode="italics">n vitro </content>studies conducted with marker substrates of CYP450 enzymes (CYP1A2, -2A6, -2C9, -2D6, -2E1, -3A4) showed minimal inhibition of these enzymes by memantine. In addition, <content styleCode="italics">in vitro</content> studies indicate that at concentrations exceeding those associated with efficacy, memantine does not induce the cytochrome P450 isozymes CYP1A2, -2C9, -2E1 and -3A4/5. No pharmacokinetic interactions with drugs metabolized by these enzymes are expected.</paragraph>
+                        <paragraph>Pharmacokinetic studies evaluated the potential of memantine for interaction with warfarin, and bupropion. Memantine did not affect the pharmacokinetics of the CYP2B6 substrate bupropion or its metabolite hydroxy-bupropion. Furthermore, memantine did not affect the pharmacokinetics or pharmacodynamics of warfarin as assessed by the prothrombin INR.</paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Effect of Other Drugs on </content>
+                           <content styleCode="italics">Memantine Hydrochloride</content>
+                        </paragraph>
+                        <paragraph>Memantine is predominantly renally eliminated, and drugs that are substrates and/or inhibitors of the CYP450 system are not expected to alter the metabolism of memantine.</paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Drugs Eliminated via Renal Mechanisms</content>
+                        </paragraph>
+                        <paragraph>Because memantine is eliminated in part by tubular secretion, coadministration of drugs that use the same renal cationic system, including hydrochlorothiazide (HCTZ), triamterene (TA), metformin, cimetidine, ranitidine, quinidine, and nicotine, could potentially result in altered plasma levels of both agents. However, coadministration of memantine hydrochloride and HCTZ/TA did not affect the bioavailability of either memantine or TA, and the bioavailability of HCTZ decreased by 20%.  In addition, coadministration of memantine with the antihyperglycemic drug Glucovance<sup>®</sup> (glyburide and metformin hydrochloride) did not affect the pharmacokinetics of memantine, metformin and glyburide. Furthermore, memantine did not modify the serum glucose lowering effect of Glucovance<sup>®</sup>, indicating the absence of a pharmacodynamic interaction.</paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Drugs Highly Bound to Plasma Proteins</content>
+                        </paragraph>
+                        <paragraph>Because the plasma protein binding of memantine is low (45%), an interaction with drugs that are highly bound to plasma proteins, such as warfarin and digoxin, is unlikely.</paragraph>
+                     </text>
+                     <effectiveTime value="20181101"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="ae3e0730-e58b-4247-8ce7-556dfa56c45c"/>
+               <code codeSystem="2.16.840.1.113883.6.1" code="43680-8" displayName="NONCLINICAL TOXICOLOGY SECTION"/>
+               <title>
+                  <content styleCode="bold">13</content>
+                  <content styleCode="bold">
+		     
+	NONCLINICAL TOXICOLOGY</content>
+               </title>
+               <effectiveTime value="20181101"/>
+               <component>
+                  <section>
+                     <id root="3521efe5-60e0-4bec-a9b1-5e5f3aa1efdf"/>
+                     <code codeSystem="2.16.840.1.113883.6.1" code="34083-6" displayName="CARCINOGENESIS &amp; MUTAGENESIS &amp; IMPAIRMENT OF FERTILITY SECTION"/>
+                     <title>
+                        <content styleCode="bold">13.1 </content>
+		     
+	<content styleCode="bold">Carcinogenesis, Mutagenesis, Impairment of Fertility</content>
+                     </title>
+                     <text>
+                        <paragraph>There was no evidence of carcinogenicity in a 113-week oral study in mice at doses up to 40 mg/kg/day (10 times the maximum recommended human dose [MRHD] on a mg/m<sup>2</sup> basis). There was also no evidence of carcinogenicity in rats orally dosed at up to 40 mg/kg/day for 71 weeks followed by 20 mg/kg/day (20 and 10 times the MRHD on a mg/m<sup>2</sup> basis, respectively) through 128 weeks.</paragraph>
+                        <paragraph>Memantine produced no evidence of genotoxic potential when evaluated in the <content styleCode="italics">in vitro S. typhimurium</content> or <content styleCode="italics">E. coli</content> reverse mutation assay, an <content styleCode="italics">in vitro</content> chromosomal aberration test in human lymphocytes, an <content styleCode="italics">in vivo</content> cytogenetics assay for chromosome damage in rats, and the <content styleCode="italics">in vivo </content>mouse micronucleus assay. The results were equivocal in an <content styleCode="italics">in vitro</content> gene mutation assay using Chinese hamster V79 cells.</paragraph>
+                        <paragraph>No impairment of fertility or reproductive performance was seen in rats administered up to 18 mg/kg/day (9 times the MRHD on a mg/m<sup>2 </sup>basis) orally from 14 days prior to mating through gestation and lactation in females, or for 60 days prior to mating in males.  </paragraph>
+                     </text>
+                     <effectiveTime value="20181101"/>
+                  </section>
+               </component>
+               <component>
+                  <section>
+                     <id root="81340276-8c5d-4b38-b551-2ffd454a1c4f"/>
+                     <code codeSystem="2.16.840.1.113883.6.1" code="34091-9" displayName="ANIMAL PHARMACOLOGY &amp; OR TOXICOLOGY SECTION"/>
+                     <title>
+                        <content styleCode="bold">13.2</content>
+                        <content styleCode="bold">
+		     
+	Animal Toxicology and/or Pharmacology</content>
+                     </title>
+                     <text>
+                        <paragraph>Memantine induced neuronal lesions (vacuolation and necrosis) in the multipolar and pyramidal cells in cortical layers III and IV of the posterior cingulate and retrosplenial neocortices in rats, similar to those which are known to occur in rodents administered other NMDA receptor antagonists. Lesions were seen after a single dose of memantine. In a study in which rats were given daily oral doses of memantine for 14 days, the no-effect dose for neuronal necrosis was 6 times the maximum recommended human dose of 20 mg/day on a mg/m<sup>2</sup> basis</paragraph>
+                        <paragraph>In acute and repeat-dose neurotoxicity studies in female rats, oral administration of memantine and donepezil in combination resulted in increased incidence, severity, and distribution of neurodegeneration compared with memantine alone. The no-effect levels of the combination were associated with clinically relevant plasma memantine and donepezil exposures.</paragraph>
+                        <paragraph>The relevance of these findings to humans is unknown.</paragraph>
+                     </text>
+                     <effectiveTime value="20181101"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="86574c7f-79f4-424a-a55e-ee60f6ba8188"/>
+               <code codeSystem="2.16.840.1.113883.6.1" code="34092-7" displayName="CLINICAL STUDIES SECTION"/>
+               <title>
+                  <content styleCode="bold">14</content>
+                  <content styleCode="bold">
+		     
+	CLINICAL STUDIES</content>
+               </title>
+               <text>
+                  <paragraph>The effectiveness of memantine hydrochloride as a treatment for patients with moderate to severe Alzheimer’s disease was demonstrated in 2 randomized, double-blind, placebo-controlled clinical studies (Studies 1 and 2) conducted in the United States that assessed both cognitive function and day to day function. The mean age of patients participating in these two trials was 76 with a range of 50-93 years. Approximately 66% of patients were female and 91% of patients were Caucasian. A third study (Study 3), carried out in Latvia, enrolled patients with severe dementia, but did not assess cognitive function as a planned endpoint. Study Outcome Measures: In each U.S. study, the effectiveness of memantine hydrochloride was determined using both an instrument designed to evaluate overall function through caregiver-related assessment, and an instrument that measures cognition. Both studies showed that patients on memantine hydrochloride experienced significant improvement on both measures compared to placebo.</paragraph>
+                  <paragraph>Day-to-day function was assessed in both studies using the modified Alzheimer’s disease Cooperative Study - Activities of Daily Living inventory (ADCS-ADL). The ADCS-ADL consists of a comprehensive battery of ADL questions used to measure the functional capabilities of patients. Each ADL item is rated from the highest level of independent performance to complete loss. The investigator performs the inventory by interviewing a caregiver familiar with the behavior of the patient. A subset of 19 items, including ratings of the patient’s ability to eat, dress, bathe, telephone, travel, shop, and perform other household chores has been validated for the assessment of patients with moderate to severe dementia. This is the modified ADCS-ADL, which has a scoring range of 0 to 54, with the lower scores indicating greater functional impairment.</paragraph>
+                  <paragraph>The ability of memantine hydrochloride to improve cognitive performance was assessed in both studies with the Severe Impairment Battery (SIB), a multi-item instrument that has been validated for the evaluation of cognitive function in patients with moderate to severe dementia. The SIB examines selected aspects of cognitive performance, including elements of attention, orientation, language, memory, visuospatial ability, construction, praxis, and social interaction. The SIB scoring range is from 0 to 100, with lower scores indicating greater cognitive impairment.</paragraph>
+                  <paragraph>
+                     <content styleCode="underline">Study 1 (Twenty-Eight-Week Study)</content>
+                  </paragraph>
+                  <paragraph>In a study of 28 weeks duration, 252 patients with moderate to severe probable Alzheimer’s disease (diagnosed by DSM-IV and NINCDS-ADRDA criteria, with Mini-Mental State Examination scores ≥ 3 and ≤ 14 and Global Deterioration Scale Stages 5-6) were randomized to memantine hydrochloride or placebo. For patients randomized to memantine hydrochloride, treatment was initiated at 5 mg once daily and increased weekly by 5 mg/day in divided doses to a dose of 20 mg/day (10 mg twice a day).</paragraph>
+                  <paragraph>
+                     <content styleCode="underline">Effects on the ADCS-ADL</content>
+                  </paragraph>
+                  <paragraph>Figure 1 shows the time course for the change from baseline in the ADCS-ADL score for patients in the two treatment groups completing the 28 weeks of the study.  At 28 weeks of treatment, the mean difference in the ADCS-ADL change scores for the memantine hydrochloride-treated patients compared to the patients on placebo was 3.4 units. Using an analysis based on all patients and carrying their last study observation forward (LOCF analysis), memantine hydrochloride treatment was statistically significantly superior to placebo.</paragraph>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="MM03000002"/>
+                  </paragraph>
+                  <paragraph>Figure 2 shows the cumulative percentages of patients from each of the treatment groups who had attained at least the change in the ADCS-ADL shown on the X axis. The curves show that both patients assigned to memantine hydrochloride and placebo have a wide range of responses and generally show deterioration (a negative change in ADCS-ADL compared to baseline), but that the memantine hydrochloride group is more likely to show a smaller decline or an improvement. (In a cumulative distribution display, a curve for an effective treatment would be shifted to the left of the curve for placebo, while an ineffective or deleterious treatment would be superimposed upon or shifted to the right of the curve for placebo).</paragraph>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="MM03000003"/>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="underline">Ef</content>
+                     <content styleCode="underline">fects on the SIB</content>
+                  </paragraph>
+                  <paragraph>Figure 3 shows the time course for the change from baseline in SIB score for the two treatment groups over the 28 weeks of the study. At 28 weeks of treatment, the mean difference in the SIB change scores for the memantine hydrochloride-treated patients compared to the patients on placebo was 5.7 units. Using an LOCF analysis, memantine hydrochloride treatment was statistically significantly superior to placebo.  </paragraph>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="MM03000004"/>
+                  </paragraph>
+                  <paragraph>Figure 4 shows the cumulative percentages of patients from each treatment group who had attained at least the measure of change in SIB score shown on the X axis. The curves show that both patients assigned to memantine hydrochloride and placebo have a wide range of responses and generally show deterioration, but that the memantine hydrochloride group is more likely to show a smaller decline or an improvement.  </paragraph>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="MM03000005"/>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="underline">Study 2 (Twenty-Four-Week Study)</content>
+                  </paragraph>
+                  <paragraph>In a study of 24 weeks duration, 404 patients with moderate to severe probable Alzheimer’s disease (diagnosed by NINCDS-ADRDA criteria, with Mini-Mental State Examination scores ≥ 5 and ≤ 14) who had been treated with donepezil for at least 6 months and who had been on a stable dose of donepezil for the last 3 months were randomized to memantine hydrochloride or placebo while still receiving donepezil. For patients randomized to memantine hydrochloride, treatment was initiated at 5 mg once daily and increased weekly by 5 mg/day in divided doses to a dose of 20 mg/day (10 mg twice a day).</paragraph>
+                  <paragraph>
+                     <content styleCode="underline">Effects on the ADCS-ADL </content>
+                  </paragraph>
+                  <paragraph>Figure 5 shows the time course for the change from baseline in the ADCS-ADL score for the two treatment groups over the 24 weeks of the study. At 24 weeks of treatment, the mean difference in the ADCS-ADL change scores for the memantine hydrochloride/donepezil treated patients (combination therapy) compared to the patients on placebo/donepezil (monotherapy) was 1.6 units. Using an LOCF analysis, memantine hydrochloride/donepezil treatment was statistically significantly superior to placebo/donepezil. </paragraph>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="MM03000006"/>
+                  </paragraph>
+                  <paragraph>Figure 6 shows the cumulative percentages of patients from each of the treatment groups who had attained at least the measure of improvement in the ADCS-ADL shown on the X axis. The curves show that both patients assigned to memantine hydrochloride/donepezil and placebo/donepezil have a wide range of responses and generally show deterioration, but that the memantine hydrochloride/donepezil group is more likely to show a smaller decline or an improvement.</paragraph>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="MM03000007"/>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="underline">Effects on the SIB</content>
+                  </paragraph>
+                  <paragraph>Figure 7 shows the time course for the change from baseline in SIB score for the two treatment groups over the 24 weeks of the study. At 24 weeks of treatment, the mean difference in the SIB change scores for the memantine hydrochloride/donepezil-treated patients compared to the patients on placebo/donepezil was 3.3 units. Using an LOCF analysis, memantine hydrochloride/donepezil treatment was statistically significantly superior to placebo/donepezil.</paragraph>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="MM03000008"/>
+                  </paragraph>
+                  <paragraph>Figure 8 shows the cumulative percentages of patients from each treatment group who had attained at least the measure of improvement in SIB score shown on the X axis. The curves show that both patients assigned to memantine hydrochloride/donepezil and placebo/donepezil have a wide range of responses, but that the memantine hydrochloride/donepezil group is more likely to show an improvement or a smaller decline.</paragraph>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="MM03000009"/>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="underline">Study 3 (Twelve-Week Study)</content>
+                  </paragraph>
+                  <paragraph>In a double-blind study of 12 weeks duration, conducted in nursing homes in Latvia, 166 patients with dementia according to DSM-III-R, a Mini-Mental State Examination score of &lt; 10, and Global Deterioration Scale staging of 5 to 7 were randomized to either memantine hydrochloride or placebo. For patients randomized to memantine hydrochloride, treatment was initiated at 5 mg once daily and increased to 10 mg once daily after 1 week. The primary efficacy measures were the care dependency subscale of the Behavioral Rating Scale for Geriatric Patients (BGP), a measure of day-to-day function, and a Clinical Global Impression of Change (CGI-C), a measure of overall clinical effect. No valid measure of cognitive function was used in this study. A statistically significant treatment difference at 12 weeks that favored memantine hydrochloride over placebo was seen on both primary efficacy measures. Because the patients entered were a mixture of Alzheimer’s disease and vascular dementia, an attempt was made to distinguish the two groups and all patients were later designated as having either vascular dementia or Alzheimer’s disease, based on their scores on the Hachinski Ischemic Scale at study entry. Only about 50% of the patients had computerized tomography of the brain. For the subset designated as having Alzheimer’s disease, a statistically significant treatment effect favoring memantine hydrochloride over placebo at 12 weeks was seen on both the BGP and CGI-C.</paragraph>
+               </text>
+               <effectiveTime value="20181101"/>
+               <component>
+                  <observationMedia ID="MM03000002">
+                     <text>Figure 1</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="memantine-hydrochloride-tablets-02.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="MM03000003">
+                     <text>Figure 2</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="memantine-hydrochloride-tablets-03.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="MM03000004">
+                     <text>Figure 3</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="memantine-hydrochloride-tablets-04.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="MM03000005">
+                     <text>Figure 4</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="memantine-hydrochloride-tablets-05.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="MM03000006">
+                     <text>Figure 5</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="memantine-hydrochloride-tablets-06.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="MM03000007">
+                     <text>Figure 6</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="memantine-hydrochloride-tablets-07.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="MM03000008">
+                     <text>Figure 7</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="memantine-hydrochloride-tablets-08.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="MM03000009">
+                     <text>Figure 8</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="memantine-hydrochloride-tablets-09.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="91da7fc7-e74d-4ffc-a7ad-b1921e6997ea"/>
+               <code codeSystem="2.16.840.1.113883.6.1" code="34069-5" displayName="HOW SUPPLIED SECTION"/>
+               <title>
+                  <content styleCode="bold">16</content>
+                  <content styleCode="bold">
+		     
+	HOW SUPPLIED/STORAGE AND HANDLING</content>
+               </title>
+               <text>
+                  <paragraph>5 mg Tablets:</paragraph>
+                  <paragraph>Tan, capsule-shaped, film-coated tablets with “5” debossed on one side and “FL” on the other.</paragraph>
+                  <paragraph>Bottle of 60
+		     
+	NDC #0591-3870-60</paragraph>
+                  <paragraph>10 x 10 Unit Dose
+		     
+	NDC #0591-3870-44</paragraph>
+                  <paragraph>10 mg Tablets:</paragraph>
+                  <paragraph>Gray, capsule-shaped, film-coated tablets with “10” debossed on one side and “FL” on the other.</paragraph>
+                  <paragraph>Bottle of 60
+		     
+	NDC #0591-3875-60</paragraph>
+                  <paragraph>10 x 10 Unit Dose
+		     
+	NDC #0591-3875-44</paragraph>
+                  <paragraph>Titration Pack:
+		     
+	
+		     
+	NDC #0591-3900-87</paragraph>
+                  <paragraph>Blister package containing 49 tablets (28 x 5 mg and 21 x 10 mg tablets).  </paragraph>
+                  <paragraph>Store memantine hydrochloride tablets at 25°C (77°F); excursions permitted to 15-30°C (59-86°F) [see USP Controlled Room Temperature].</paragraph>
+               </text>
+               <effectiveTime value="20181101"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="a2c51158-41d1-4a94-be62-49ea5544b835"/>
+               <code codeSystem="2.16.840.1.113883.6.1" code="34076-0" displayName="INFORMATION FOR PATIENTS SECTION"/>
+               <title>
+                  <content styleCode="bold">17</content>
+                  <content styleCode="bold">
+		     
+	PATIENT COUNSELING INFORMATION</content>
+               </title>
+               <text>
+                  <paragraph>See FDA-approved patient labeling<content styleCode="italics"> </content>(<linkHtml href="#PatientInfo">Patient Information</linkHtml>).<content styleCode="italics"> </content>
+                  </paragraph>
+                  <paragraph>To assure safe and effective use of memantine hydrochloride tablets, the following information and instructions provided in the patient information section should be discussed with patients and caregivers.</paragraph>
+                  <paragraph>Patients/caregivers should be instructed to follow the dose titration schedule provided by their physician or healthcare professional for memantine hydrochloride tablets. They should be warned not to use any tablets of memantine hydrochloride that are damaged or show signs of tampering.</paragraph>
+                  <paragraph>If a patient misses a single dose of memantine hydrochloride tablets, that patient should not double up on the next dose. The next dose should be taken as scheduled. If a patient fails to take memantine hydrochloride tablets for several days, dosing should not be resumed without consulting that patient’s healthcare professional.</paragraph>
+                  <paragraph>Distributed by:<br/>Actavis Pharma, Inc.<br/>Parsippany, NJ 07054 USA</paragraph>
+                  <paragraph>Manufactured by:<br/>Forest Laboratories Ireland Ltd., an Allergan affiliate <br/>Clonshaugh, Ireland</paragraph>
+                  <paragraph>Licensed from Merz Pharma GmbH &amp; Co. KGaA</paragraph>
+                  <paragraph>© 2020 Allergan. All rights reserved</paragraph>
+                  <paragraph>All trademarks are the property of their respective owners.</paragraph>
+                  <paragraph>Revised: 11/2018</paragraph>
+               </text>
+               <effectiveTime value="20181101"/>
+            </section>
+         </component>
+         <component>
+            <section ID="PatientInfo">
+               <id root="efa9da7b-2d5d-468d-9478-09e1d1643ed9"/>
+               <code codeSystem="2.16.840.1.113883.6.1" code="42230-3" displayName="SPL PATIENT PACKAGE INSERT SECTION"/>
+               <title/>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">Patient Information</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">M</content>
+                     <content styleCode="bold">ema</content>
+                     <content styleCode="bold">n</content>
+                     <content styleCode="bold">tine </content>
+                     <content styleCode="bold">H</content>
+                     <content styleCode="bold">ydrochloride </content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">(mem' an teen hye" droe klor' ide)</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Tablets </content>
+                  </paragraph>
+                  <paragraph>Read this Patient Information that comes with memantine hydrochloride tablets before you start taking them and each time you get a refill. There may be new information. This information does not take the place of talking to your doctor about your medical condition or your treatment. </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">What </content>
+                     <content styleCode="bold">are</content>
+                     <content styleCode="bold"> </content>
+                     <content styleCode="bold">m</content>
+                     <content styleCode="bold">emantine </content>
+                     <content styleCode="bold">hydrochloride</content>
+                     <content styleCode="bold"> tablets</content>
+                     <content styleCode="bold">?</content>
+                  </paragraph>
+                  <paragraph>Memantine hydrochloride tablets are a prescription medicine used for the treatment of moderate to severe dementia in people with Alzheimer’s disease. Memantine hydrochloride tablets belong to a class of medicines called NMDA (N-methyl-D-aspartate) inhibitors.</paragraph>
+                  <paragraph>It is not known if memantine hydrochloride tablets are safe and effective in children.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold underline">Who should not take </content>
+                     <content styleCode="bold underline">m</content>
+                     <content styleCode="bold underline">emantine </content>
+                     <content styleCode="bold underline">hydrochloride</content>
+                     <content styleCode="bold underline"> tablets</content>
+                     <content styleCode="bold underline">?</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Do not take </content>
+                     <content styleCode="bold">m</content>
+                     <content styleCode="bold">emantine </content>
+                     <content styleCode="bold">hydrochloride</content>
+                     <content styleCode="bold"> </content>
+                     <content styleCode="bold">tablets</content> <content styleCode="bold">if you</content> are allergic to memantine or any of the ingredients in memantine hydrochloride tablets. See the end of this leaflet for a complete list of ingredients in memantine hydrochloride tablets. </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">What should I tell my doctor before taking </content>
+                     <content styleCode="bold">m</content>
+                     <content styleCode="bold">emantine </content>
+                     <content styleCode="bold">hydrochloride</content>
+                     <content styleCode="bold"> tablets</content>
+                     <content styleCode="bold">?</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Before you take </content>
+                     <content styleCode="bold">m</content>
+                     <content styleCode="bold">emantine </content>
+                     <content styleCode="bold">hydrochloride</content>
+                     <content styleCode="bold"> tablets</content>
+                     <content styleCode="bold">, tell your doctor if you:</content>
+                  </paragraph>
+                  <list listType="unordered" styleCode="Disc">
+                     <item>have or have had seizures<br/>
+                     </item>
+                     <item>have or have had problems passing urine<br/>
+                     </item>
+                     <item>have or have had bladder or kidney problems<br/>
+                     </item>
+                     <item>have liver problems<br/>
+                     </item>
+                     <item>have any other medical conditions <br/>
+                     </item>
+                     <item>are pregnant or plan to become pregnant. It is not known if memantine hydrochloride tablets will harm your unborn baby. <br/>
+                     </item>
+                     <item>are breastfeeding or plan to breastfeed. It is not known if memantine passes into your breast milk. Talk to your doctor about the best way to feed your baby if you take memantine hydrochloride tablets.</item>
+                  </list>
+                  <paragraph>
+                     <content styleCode="bold">Tell your doctor about all the medicines you take</content>, including prescription and non-prescription medicines, vitamins, and herbal supplements. </paragraph>
+                  <paragraph>Taking memantine hydrochloride tablets with certain other medicines may affect each other. Taking memantine hydrochloride tablets with other medicines can cause serious side effects.</paragraph>
+                  <paragraph>Especially tell your doctor if you take:</paragraph>
+                  <list listType="unordered" styleCode="Disc">
+                     <item>other NMDA antagonists such as amantadine, ketamine, and dextromethorphan<br/>
+                     </item>
+                     <item>medicines that make your urine alkaline such as carbonic anhydrase inhibitors and sodium bicarbonate</item>
+                  </list>
+                  <paragraph>Ask your doctor or pharmacist for a list of these medicines, if you are not sure.</paragraph>
+                  <paragraph>Know the medicines you take. Keep a list of them to show your doctor and pharmacist when you get a new medicine. </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">How should I take </content>
+                     <content styleCode="bold">m</content>
+                     <content styleCode="bold">emantine </content>
+                     <content styleCode="bold">hydrochloride</content>
+                     <content styleCode="bold"> tablets</content>
+                     <content styleCode="bold">?</content>
+                  </paragraph>
+                  <list listType="unordered" styleCode="Disc">
+                     <item>
+                        <content styleCode="bold">See </content>
+                        <content styleCode="bold">the step-by-step instructions for taking Memantine HCl Oral Solution at the end of this Patient Information</content>
+                        <content styleCode="bold">.</content>
+                        <br/>
+                     </item>
+                     <item>Your doctor will tell you how many memantine hydrochloride tablets to take and when to take them.<br/>
+                     </item>
+                     <item>Your doctor may change your dose if needed.<br/>
+                     </item>
+                     <item>Memantine hydrochloride tablets can be taken with food or without food. Do not use any tablets of memantine hydrochloride that are damaged or show signs of tampering.<br/>
+                     </item>
+                     <item>If you forget to take one dose of memantine hydrochloride tablets, do not double up on the next dose. You should take only the next dose as scheduled. <br/>
+                     </item>
+                     <item>If you have forgotten to take memantine hydrochloride for several days, you should not take the next dose until you talk to your doctor.<br/>
+                     </item>
+                     <item>If you take too much memantine hydrochloride, call your doctor or poison control center at 1-800-222-1222, or go to the nearest hospital emergency room right away. </item>
+                  </list>
+                  <paragraph>
+                     <content styleCode="bold">What are the possible side effects of </content>
+                     <content styleCode="bold">m</content>
+                     <content styleCode="bold">emantine </content>
+                     <content styleCode="bold">hydrochloride</content>
+                     <content styleCode="bold"> tablets</content>
+                     <content styleCode="bold">?</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold underline">Memantine </content>
+                     <content styleCode="bold underline">hydrochloride</content>
+                     <content styleCode="bold underline"> </content>
+                     <content styleCode="bold underline">tablets</content>
+                     <content styleCode="bold underline"> </content>
+                     <content styleCode="bold underline">may cause side effects, including:</content>
+                  </paragraph>
+                  <paragraph>The most common side effects of memantine hydrochloride tablets include:</paragraph>
+                  <list listType="unordered" styleCode="Disc">
+                     <item>dizziness<br/>
+                     </item>
+                     <item>headache<br/>
+                     </item>
+                     <item>confusion<br/>
+                     </item>
+                     <item>constipation</item>
+                  </list>
+                  <paragraph>These are not all the possible side effects of memantine hydrochloride tablets. For more information, ask your doctor or pharmacist.</paragraph>
+                  <paragraph>Call your doctor for medical advice about side effects. You may report side effects to FDA at 1-800-FDA-1088. </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">How should I store </content>
+                     <content styleCode="bold">m</content>
+                     <content styleCode="bold">emantine </content>
+                     <content styleCode="bold">hydrochloride</content>
+                     <content styleCode="bold"> </content>
+                     <content styleCode="bold">tablets</content>
+                     <content styleCode="bold">?</content>
+                  </paragraph>
+                  <list listType="unordered" styleCode="Disc">
+                     <item>Store memantine hydrochloride tablets at room temperature between 59°F to 77°F (15°C to 30°C).</item>
+                  </list>
+                  <paragraph>
+                     <content styleCode="bold">What are the ingredients in </content>
+                     <content styleCode="bold">m</content>
+                     <content styleCode="bold">emantine </content>
+                     <content styleCode="bold">hydrochloride</content>
+                     <content styleCode="bold"> tablets</content>
+                     <content styleCode="bold">?</content>
+                  </paragraph>
+                  <paragraph>Active ingredients: memantine hydrochloride   </paragraph>
+                  <paragraph>Inactive ingredients: microcrystalline cellulose/colloidal silicon dioxide, talc, croscarmellose sodium, and magnesium stearate</paragraph>
+                  <paragraph>Inactive ingredients of tablet film coating: hypromellose, titanium dioxide, polyethylene glycol 400, FD&amp;C yellow #6 and FD&amp;C blue #2 (5 mg tablets), and hypromellose, titanium dioxide, macrogol/polyethylene glycol 400 and iron oxide black (10 mg tablets)</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Keep </content>
+                     <content styleCode="bold">m</content>
+                     <content styleCode="bold">emantine </content>
+                     <content styleCode="bold">hydrochloride </content>
+                     <content styleCode="bold">tablets</content>
+                     <content styleCode="bold"> </content>
+                     <content styleCode="bold">and all medicines out of the reach of children. </content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">General information about the safe and effective use of </content>
+                     <content styleCode="bold">m</content>
+                     <content styleCode="bold">emantine </content>
+                     <content styleCode="bold">hydrochloride</content>
+                     <content styleCode="bold"> tablets</content>
+                     <content styleCode="bold">.</content>
+                  </paragraph>
+                  <paragraph>Medicines are sometimes prescribed for purposes other than those listed in a Patient Information leaflet. Do not take memantine hydrochloride tablets for a condition for which they were not prescribed. Do not give memantine hydrochloride tablets to other people, even if they have the same condition. They may harm them. </paragraph>
+                  <paragraph>This Patient Information leaflet summarizes the most important information about memantine hydrochloride tablets. If you would like more information, talk with your doctor. You can ask your doctor or pharmacist for information about memantine hydrochloride tablets that was written for healthcare professionals. </paragraph>
+                  <paragraph>For more information about memantine hydrochloride tablets call Actavis at 1-800-272-5525.</paragraph>
+                  <paragraph>This Patient Information has been approved by the U.S. Food and Drug Administration.</paragraph>
+                  <paragraph>Distributed by:</paragraph>
+                  <paragraph>Actavis Pharma, Inc.</paragraph>
+                  <paragraph>Parsippany, NJ 07054 USA</paragraph>
+                  <paragraph>Manufactured by:</paragraph>
+                  <paragraph>Forest Laboratories Ireland Ltd., an Allergan affiliate </paragraph>
+                  <paragraph>Clonshaugh, Ireland</paragraph>
+                  <paragraph>Licensed from Merz Pharma GmbH &amp; Co. KGaA</paragraph>
+                  <paragraph>© 2020 Allergan. All rights reserved</paragraph>
+                  <paragraph>All trademarks are the property of their respective owners.</paragraph>
+                  <paragraph>Content updated: November 2018</paragraph>
+               </text>
+               <effectiveTime value="20181101"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="f8181b60-b267-4383-a37e-ff7fe5542b3b"/>
+               <code codeSystem="2.16.840.1.113883.6.1" code="51945-4" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>
+                  <content styleCode="bold">PRINCIPAL DISPLAY PANEL</content>
+               </title>
+               <text>
+                  <paragraph>NDC 0591-3870-60<br/>5 mg<br/>Memantine HCl<br/>Tablets<br/>Actavis<br/>60 Tablets<br/>Rx Only</paragraph>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="MM0200000A"/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20181101"/>
+               <component>
+                  <observationMedia ID="MM0200000A">
+                     <text>PRINCIPAL DISPLAY PANEL
+NDC 0591-3870-60
+5 mg
+Memantine HCl
+Tablets
+Actavis
+60 Tablets
+Rx Only
+</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="memantine-hydrochloride-tablets-0a.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="f7ce42f4-2d33-4216-9360-2a1f437599b5"/>
+               <code codeSystem="2.16.840.1.113883.6.1" code="51945-4" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>
+                  <content styleCode="bold">PRINCIPAL DISPLAY PANEL</content>
+               </title>
+               <text>
+                  <paragraph>NDC 0591-3870-44<br/>5 mg<br/>Memantine HCl<br/>Tablets<br/>Actavis<br/>10 x 10 blister cards (100 Tablets)<br/>Rx Only</paragraph>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="MM0200000B"/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20181101"/>
+               <component>
+                  <observationMedia ID="MM0200000B">
+                     <text>PRINCIPAL DISPLAY PANEL
+NDC 0591-3870-44
+5 mg
+Memantine HCl
+Tablets
+Actavis
+10 x 10 blister cards (100 Tablets)
+Rx Only
+</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="memantine-hydrochloride-tablets-0b.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="b50de2b1-25d2-42fd-ad33-2dbe4140fd55"/>
+               <code codeSystem="2.16.840.1.113883.6.1" code="51945-4" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>
+                  <content styleCode="bold">PRINCIPAL DISPLAY PANEL</content>
+               </title>
+               <text>
+                  <paragraph>NDC 0591-3875-60<br/>10 mg<br/>Memantine HCl<br/>Tablets<br/>Actavis<br/>60 Tablets<br/>Rx Only</paragraph>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="MM0200000C"/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20181101"/>
+               <component>
+                  <observationMedia ID="MM0200000C">
+                     <text>PRINCIPAL DISPLAY PANEL
+NDC 0591-3875-60
+10 mg
+Memantine HCl
+Tablets
+Actavis
+60 Tablets
+Rx Only
+</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="memantine-hydrochloride-tablets-0c.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="85c82b6a-3ee7-4506-b565-8a3821633df3"/>
+               <code codeSystem="2.16.840.1.113883.6.1" code="51945-4" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>
+                  <content styleCode="bold">PRINCIPAL DISPLAY PANEL</content>
+               </title>
+               <text>
+                  <paragraph>NDC 0591-3875-44<br/>10 mg<br/>Memantine HCl<br/>Tablets<br/>Actavis<br/>10 x 10 blister cards (100 Tablets)<br/>Rx Only</paragraph>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="MM0200000D"/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20181101"/>
+               <component>
+                  <observationMedia ID="MM0200000D">
+                     <text>PRINCIPAL DISPLAY PANEL
+NDC 0591-3875-44
+10 mg
+Memantine HCl
+Tablets
+Actavis
+10 x 10 blister cards (100 Tablets)
+Rx Only
+</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="memantine-hydrochloride-tablets-0d.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="9d5c84c4-9748-447a-bc7c-cc8267b3fda2"/>
+               <code codeSystem="2.16.840.1.113883.6.1" code="51945-4" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>
+                  <content styleCode="bold">PRINCIPAL DISPLAY PANEL</content>
+               </title>
+               <text>
+                  <paragraph>NDC 0591-3900-87<br/>5 mg &amp; 10 mg<br/>Memantine HCl<br/>Tablets<br/>Actavis<br/>10 x 10 blister cards (100 Tablets)<br/>Rx Only<br/>This Titration Pak Includes:<br/>4-week supply of memantine hydrochloride tablets <br/>5 mg and 10 mg <br/>Week 1 - seven 5 mg tablets <br/>Week 2 - fourteen 5 mg tablets <br/>Week - seven 5 mg tablets and seven 10 mg tablets <br/>Week 4 - fourteen 10 mg tablets <br/>For detailed dosing instructions, see inside panel. <br/>TITRATION PAK</paragraph>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="MM0200000E"/>
+                  </paragraph>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="MM0200000F"/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20181101"/>
+               <component>
+                  <observationMedia ID="MM0200000E">
+                     <text>PRINCIPAL DISPLAY PANEL
+NDC 0591-3900-87
+5 mg &amp; 10 mg
+Memantine HCl
+Tablets
+Actavis
+10 x 10 blister cards (100 Tablets)
+Rx Only
+This Titration Pak Includes:
+4-week supply of memantine hydrochloride tablets 
+5 mg and 10 mg 
+Week 1 - seven 5 mg tablets 
+Week 2 - fourteen 5 mg tablets 
+Week - seven 5 mg tablets and seven 10 mg tablets 
+Week 4 - fourteen 10 mg tablets 
+For detailed dosing instructions, see inside panel. 
+TITRATION PAK
+</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="memantine-hydrochloride-tablets-0e.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="MM0200000F">
+                     <text>PRINCIPAL DISPLAY PANEL
+NDC 0591-3900-87
+5 mg &amp; 10 mg
+Memantine HCl
+Tablets
+Actavis
+10 x 10 blister cards (100 Tablets)
+Rx Only
+This Titration Pak Includes:
+4-week supply of memantine hydrochloride tablets 
+5 mg and 10 mg 
+Week 1 - seven 5 mg tablets 
+Week 2 - fourteen 5 mg tablets 
+Week - seven 5 mg tablets and seven 10 mg tablets 
+Week 4 - fourteen 10 mg tablets 
+For detailed dosing instructions, see inside panel. 
+TITRATION PAK
+</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="memantine-hydrochloride-tablets-0f.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

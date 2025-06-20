@@ -1,0 +1,640 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="https://www.accessdata.fda.gov/spl/stylesheet/spl.xsl" type="text/xsl"?>
+<document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:hl7-org:v3" xsi:schemaLocation="urn:hl7-org:v3 https://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="fbfdf718-beff-ad22-e053-6294a90a3715"/>
+   <code code="34391-3" codeSystem="2.16.840.1.113883.6.1" displayName="HUMAN PRESCRIPTION DRUG LABEL"/>
+   <title>These highlights do not include all the information need to use ATROPINE SULFATE INJECTION, USP, 1 mg/0 mL (0.1 mg/mL) safely and effectively. See full prescribing information for ATROPINE SULFATE INJECTION, USP.
+ <br/>
+ATROPINE SULFATE INJECTION, USP, 1 mg/10 mL (0.1 mg/mL) for Intravenous Use
+ <br/>
+Initial U.S. Approval: 1960
+</title>
+   <effectiveTime value="20230518"/>
+   <setId root="fbfdf718-befe-ad22-e053-6294a90a3715"/>
+   <versionNumber value="1"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id root="1.3.6.1.4.1.519.1" extension="016448669"/>
+            <name>Medefil, Inc.</name>
+            <assignedEntity>
+               <assignedOrganization>
+                  <assignedEntity>
+                     <assignedOrganization>
+                        <id root="1.3.6.1.4.1.519.1" extension="016448669"/>
+                        <name>Medefil, Inc.</name>
+                     </assignedOrganization>
+                     <performance>
+                        <actDefinition>
+                           <code code="C43360" displayName="manufacture" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="64253-400" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                  </assignedEntity>
+               </assignedOrganization>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section>
+               <id root="fc9efb22-f3f1-0e06-e053-6294a90ab126"/>
+               <code code="48780-1" codeSystem="2.16.840.1.113883.6.1" displayName="SPL product data elements section"/>
+               <effectiveTime value="20230518"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="64253-400" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>Atropine Sulfate</name>
+                        <formCode code="C42945" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="INJECTION, SOLUTION"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>Atropine Sulfate Injection</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <ingredient classCode="IACT">
+                           <quantity>
+                              <numerator unit="mg" value="9"/>
+                              <denominator unit="mL" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="451W47IQ8X" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SODIUM CHLORIDE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator unit="mg" value="0.1"/>
+                              <denominator unit="mL" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="03J5ZE7KA5" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>ATROPINE SULFATE</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="7C0697DR9I" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>ATROPINE</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator value="10" unit="mL"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="64253-400-30" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43204" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="SYRINGE, PLASTIC"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator value="10" unit="1"/>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code code="64253-400-91" codeSystem="2.16.840.1.113883.6.69"/>
+                                    <formCode code="C43178" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BOX"/>
+                                 </containerPackagedProduct>
+                                 <subjectOf>
+                                    <marketingAct>
+                                       <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                       <statusCode code="active"/>
+                                       <effectiveTime>
+                                          <low value="20230511"/>
+                                       </effectiveTime>
+                                    </marketingAct>
+                                 </subjectOf>
+                              </asContent>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C102835" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 2: Prefilled Drug Delivery Device/System (syringe, patch, etc.)" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <id extension="ANDA214970" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73584" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ANDA"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20230511"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38276" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="INTRAVENOUS"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_fc11daa1-8a70-3532-e053-6294a90a98b5">
+               <id root="fc11daa1-8a71-3532-e053-6294a90a98b5"/>
+               <code code="34067-9" codeSystem="2.16.840.1.113883.6.1" displayName="INDICATIONS &amp; USAGE SECTION"/>
+               <title>1 INDICATIONS AND USAGE</title>
+               <text>
+                  <paragraph>Atropine Sulfate Injection, USP, is indicated for temporary blockade of severe or life threatening muscarinic effects, e.g., as an antisialagogue, an antivagal agent, an antidote for organophosphorus or muscarinic mushroom poisoning, and to treat bradyasystolic cardiac arrest.</paragraph>
+                  <paragraph>These highlights do not include all the information needed to use ATROPINE SULFATE INJECTION safely and effectively. See full prescribing information for ATROPINE SULFATE INJECTION.</paragraph>
+                  <paragraph>ATROPINE SULFATE injection, for intravenous use</paragraph>
+                  <paragraph>Initial U.S. Approval: 1960</paragraph>
+               </text>
+               <effectiveTime value="20230511"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_fc1290ec-a46e-b082-e053-6394a90a4e80">
+               <id root="fc12e968-96f3-85c0-e053-6394a90ad8e3"/>
+               <code code="34068-7" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE &amp; ADMINISTRATION SECTION"/>
+               <title>2 DOSAGE AND ADMINISTRATION</title>
+               <text>
+                  <paragraph>2.1 General Administration</paragraph>
+                  <paragraph>Parenteral drug products should be inspected visually for particulate matter and discoloration prior to administration, whenever solution and container permit. Do not administer unless solution is clear and seal is intact. Each syringe is intended for single dose only. Discard unused portion.</paragraph>
+                  <paragraph>For intravenous administration.</paragraph>
+                  <paragraph>Titrate based on heart rate, PR interval, blood pressure and symptoms.</paragraph>
+                  <paragraph>2.2 Adult Dosage</paragraph>
+                  <paragraph/>
+                  <paragraph>Table 1: Recommended Dosage</paragraph>
+                  <table border="0" width="100%">
+                     <tbody>
+                        <tr>
+                           <td>
+                              <content styleCode="bold">Use</content>
+                           </td>
+                           <td>
+                              <content styleCode="bold">Dose (adults)</content>
+                           </td>
+                           <td>
+                              <content styleCode="bold">Repeat</content>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td>Antisialagogue or other antivagal</td>
+                           <td>0.5 to 1 mg</td>
+                           <td>1-2 hours</td>
+                        </tr>
+                        <tr>
+                           <td>Organophosphorus or muscarinic mushroom poisoning</td>
+                           <td>2 to 3 mg</td>
+                           <td>20-30 minutes</td>
+                        </tr>
+                        <tr>
+                           <td>Bradyasystolic cardiac arrest</td>
+                           <td>1 mg</td>
+                           <td>3-5 minutes; 3 mg maximum total dose</td>
+                        </tr>
+                     </tbody>
+                  </table>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph>2.3 Pediatric Dosage</paragraph>
+                  <paragraph>Dosing in pediatric populations has not been well studied. Usual initial dose is 0.01 to 0.03 mg/kg.</paragraph>
+                  <paragraph>2.4 Dosing in Patients with Coronary Artery Disease</paragraph>
+                  <paragraph>Limit the total dose of atropine sulfate to 0.03 mg/kg to 0.04 mg/kg [see Warnings and Precautions (5.1)].</paragraph>
+               </text>
+               <effectiveTime value="20230511"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_fc1207b4-ec7a-3dbd-e053-6394a90ad0cd">
+               <id root="fc1207b4-ec79-3dbd-e053-6394a90ad0cd"/>
+               <code code="43678-2" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE FORMS &amp; STRENGTHS SECTION"/>
+               <title>3 DOSAGE FORMS AND STRENGTHS</title>
+               <text>
+                  <paragraph>Injection: 0.1 mg/mL in Plastic Syringe.</paragraph>
+               </text>
+               <effectiveTime value="20230511"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_fc11fe05-4e6d-3b9a-e053-6394a90a474e">
+               <id root="fc11fe05-4e6c-3b9a-e053-6394a90a474e"/>
+               <code code="34070-3" codeSystem="2.16.840.1.113883.6.1" displayName="CONTRAINDICATIONS SECTION"/>
+               <title>4 CONTRAINDICATIONS</title>
+               <text>
+                  <paragraph>None.</paragraph>
+               </text>
+               <effectiveTime value="20230511"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_fc1230f6-dec8-6401-e053-6394a90a71f6">
+               <id root="fc1230f6-dec7-6401-e053-6394a90a71f6"/>
+               <code code="43685-7" codeSystem="2.16.840.1.113883.6.1" displayName="WARNINGS AND PRECAUTIONS SECTION"/>
+               <title>5 WARNINGS AND PRECAUTIONS</title>
+               <text>
+                  <paragraph>5.1 Tachycardia</paragraph>
+                  <paragraph>When the recurrent use of atropine is essential in patients with coronary artery disease, the total dose should be restricted to 2 to 3 mg (maximum 0.03 to 0.04 mg/kg) to avoid the detrimental effects of atropine-induced tachycardia on myocardial oxygen demand.</paragraph>
+                  <paragraph>5.2 Acute Glaucoma</paragraph>
+                  <paragraph>Atropine may precipitate acute glaucoma.</paragraph>
+                  <paragraph>5.3 Pyloric Obstruction</paragraph>
+                  <paragraph>Atropine may convert partial organic pyloric stenosis into complete obstruction.</paragraph>
+                  <paragraph>5.4 Complete Urinary Retention</paragraph>
+                  <paragraph>Atropine may lead to complete urinary retention in patients with prostatic hypertrophy.</paragraph>
+                  <paragraph>5.5 Viscid Plugs</paragraph>
+                  <paragraph>Atropine may cause inspissation of bronchial secretions and formation of viscid plugs in patients with chronic lung disease.</paragraph>
+               </text>
+               <effectiveTime value="20230511"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_fc125f4d-6c91-6fc0-e053-6294a90ab5fa">
+               <id root="fc125f4d-6c90-6fc0-e053-6294a90ab5fa"/>
+               <code code="34084-4" codeSystem="2.16.840.1.113883.6.1" displayName="ADVERSE REACTIONS SECTION"/>
+               <title>6 ADVERSE REACTIONS</title>
+               <text>
+                  <paragraph>The following adverse reactions have been identified during post-approval use of atropine sulfate. Because these reactions are reported voluntarily from a population of uncertain size, it is not always possible to reliably estimate their frequency or establish a causal relationship to drug exposure.</paragraph>
+                  <paragraph>Most of the side effects of atropine are directly related to its antimuscarinic action. Dryness of the mouth, blurred vision, photophobia and tachycardia commonly occur. Anhidrosis can produce heat intolerance. Constipation and difficulty in micturition may occur in elderly patients. Occasional hypersensitivity reactions have been observed, especially skin rashes which in some instances progressed to exfoliation.</paragraph>
+                  <paragraph>To report SUSPECTED ADVERSE REACTIONS, contact Medefil, Inc. at 630-682-4600, or FDA at 1-800-FDA-1088 or www.fda.gov/medwatch</paragraph>
+               </text>
+               <effectiveTime value="20230511"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_fc1255de-747b-da48-e053-6394a90a6e57">
+               <id root="fc1255de-747a-da48-e053-6394a90a6e57"/>
+               <code code="34073-7" codeSystem="2.16.840.1.113883.6.1" displayName="DRUG INTERACTIONS SECTION"/>
+               <title>7 DRUG INTERACTIONS</title>
+               <text>
+                  <paragraph>7.1 Mexiletine</paragraph>
+                  <paragraph>Atropine Sulfate Injection decreased the rate of mexiletine absorption without altering the relative oral bioavailability; this delay in mexiletine absorption was reversed by the combination of atropine and intravenous metoclopramide during pretreatment for anesthesia.</paragraph>
+               </text>
+               <effectiveTime value="20230511"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_fc1278d8-abb2-3090-e053-6394a90a55de">
+               <id root="fc1278d8-abb1-3090-e053-6394a90a55de"/>
+               <code code="43684-0" codeSystem="2.16.840.1.113883.6.1" displayName="USE IN SPECIFIC POPULATIONS SECTION"/>
+               <title>8 USE IN SPECIFIC POPULATIONS</title>
+               <text>
+                  <paragraph>8.1 Pregnancy</paragraph>
+                  <paragraph>Animal reproduction studies have not been conducted with atropine. It also is not known whether atropine can cause fetal harm when given to a pregnant woman or can affect reproduction capacity.</paragraph>
+                  <paragraph>8.3 Nursing Mothers</paragraph>
+                  <paragraph>Trace amounts of atropine was found in breast milk. The clinical impact of this is not known.</paragraph>
+                  <paragraph>8.4 Pediatric Use</paragraph>
+                  <paragraph>Recommendations for use in pediatric patients are not based on clinical trials.</paragraph>
+                  <paragraph>8.5 Geriatric Use</paragraph>
+                  <paragraph>An evaluation of current literature revealed no clinical experience identifying differences in response between elderly and younger patients. In general, dose selection for an elderly patient should be cautious, usually starting at the low end of the dosing range, reflecting the greater frequency of decreased hepatic, renal, or cardiac function, and of concomitant disease or other drug therapy.</paragraph>
+               </text>
+               <effectiveTime value="20230511"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_fc0f908a-0d4b-8d4e-e053-6394a90a7bf2">
+               <id root="fc0f908a-0d4a-8d4e-e053-6394a90a7bf2"/>
+               <code code="34088-5" codeSystem="2.16.840.1.113883.6.1" displayName="OVERDOSAGE SECTION"/>
+               <title>10 OVERDOSAGE</title>
+               <text>
+                  <paragraph>Excessive dosing may cause palpitation, dilated pupils, difficulty in swallowing, hot dry skin, thirst, dizziness, restlessness, tremor, fatigue and ataxia. Toxic doses lead to restlessness and excitement, hallucinations, delirium and coma. Depression and circulatory collapse occur only with severe intoxication. In such cases, blood pressure declines and death due to respiratory failure may ensue following paralysis and coma.</paragraph>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph>The fatal adult dose of atropine is not known. In pediatric populations, 10 mg or less may be fatal.</paragraph>
+                  <paragraph>In the event of toxic overdosage, a short acting barbiturate or diazepam may be given as needed to control marked excitement and convulsions. Large doses for sedation should be avoided because central depressant action may coincide with the depression occurring late in atropine poisoning. Central stimulants are not recommended.</paragraph>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph>Physostigmine, given as an atropine antidote by slow intravenous injection of 1 to 4 mg (0.5 to 1 mg in pediatric populations), rapidly abolishes delirium and coma caused by large doses of atropine. Since physostigmine is rapidly destroyed, the patient may again lapse into coma after one to two hours, and repeated doses may be required.</paragraph>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph>Artificial respiration with oxygen may be necessary. Ice bags and alcohol sponges help to reduce fever, especially in pediatric populations.</paragraph>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph>Atropine is not removed by dialysis</paragraph>
+               </text>
+               <effectiveTime value="20230511"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_fc0f93c8-207a-b2ff-e053-6294a90aacdf">
+               <id root="fc9ed882-5103-2186-e053-6394a90a17ef"/>
+               <code code="34089-3" codeSystem="2.16.840.1.113883.6.1" displayName="DESCRIPTION SECTION"/>
+               <title>11 DESCRIPTION</title>
+               <text>
+                  <paragraph>Atropine Sulfate Injection, USP is a sterile, nonpyrogenic isotonic solution of atropine sulfate monohydrate in water for injection with sodium
+  <br/>
+chloride sufficient to render the solution isotonic. It is administered parenterally by intravenous injection.
+  <br/>
+Each milliliter (mL) contains 0.1 mg of atropine sulfate monohydrate, USP equivalent to 0.083 mg of atropine, and sodium chloride, USP 9 mg.
+  <br/>
+May contain sodium hydroxide and/or sulfuric acid for pH adjustment. 0.308 mOsmol/mL (calc.). pH 3.0 to 6.5.
+  <br/>
+Sodium chloride added to render the solution isotonic for injection of the active ingredient is present in amounts insufficient to affect serum
+  <br/>
+electrolyte balance of sodium (Na+) and chloride (Cl-) ions. The solution contains no bacteriostat, antimicrobial agent or added buffer (except for
+  <br/>
+pH adjustment) and is intended for use only as a single-dose injection. When smaller doses are required the unused portion should be discarded.
+  <br/>
+Atropine Sulfate, USP is chemically designated 1α H, 5α H-Tropan-3-α-ol (±)-tropate (ester), sulfate (2:1) (salt) monohydrate, (C17H23NO3)2
+  <br/>
+H2SO4 H2O, colorless crystals or white crystalline powder very soluble in water. It has the following structural formula:
+ </paragraph>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="img_fc9ed882-5102-2186-e053-6394a90a17ef"/>
+                  </paragraph>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph>Atropine, a naturally occurring belladonna alkaloid, is a racemic mixture of equal parts of d- and l-hyocyamine, whose activity is due almost
+  <br/>
+entirely to the levo isomer of the drug.
+  <br/>
+Sodium Chloride, USP is chemically designated NaCl, a white crystalline powder freely soluble in water.
+  <br/>
+The plastic syringe is molded from a specially formulated polypropylene. Water permeates from inside the container at an extremely slow rate which
+  <br/>
+will have an insignificant effect on solution concentration over the expected shelf life. Solutions in contact with the plastic container may leach out
+  <br/>
+certain chemical components from the plastic in very small amounts; however, biological testing was supportive of the safety of the syringe material.
+ </paragraph>
+                  <paragraph/>
+               </text>
+               <effectiveTime value="20230511"/>
+               <component>
+                  <observationMedia ID="img_fc9ed882-5102-2186-e053-6394a90a17ef">
+                     <text>Formula</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="Atropine.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_fc0f79be-369f-6351-e053-6394a90a2c65">
+               <id root="fc101417-b841-0704-e053-6294a90a855e"/>
+               <code code="34090-1" codeSystem="2.16.840.1.113883.6.1" displayName="CLINICAL PHARMACOLOGY SECTION"/>
+               <title>12 CLINICAL PHARMACOLOGY</title>
+               <text>
+                  <paragraph>12.1 Mechanism of Action</paragraph>
+                  <paragraph>Atropine is an antimuscarinic agent since it antagonizes the muscarine-like actions of acetylcholine and other choline esters.</paragraph>
+                  <paragraph/>
+                  <paragraph>Atropine inhibits the muscarinic actions of acetylcholine on structures innervated by postganglionic cholinergic nerves, and on smooth muscles which respond to endogenous acetylcholine but are not so innervated. As with other antimuscarinic agents, the major action of atropine is a competitive or surmountable antagonism which can be overcome by increasing the concentration of acetylcholine at receptor sites of the effector organ (e.g., by using anticholinesterase agents which inhibit the enzymatic destruction of acetylcholine). The receptors antagonized by atropine are the peripheral structures that are stimulated or inhibited by muscarine (i.e., exocrine glands and smooth and cardiac muscle).</paragraph>
+                  <paragraph>Responses to postganglionic cholinergic nerve stimulation also may be inhibited by atropine but this occurs less readily than with responses to injected (exogenous) choline esters.</paragraph>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph>12.2 Pharmacodynamics</paragraph>
+                  <paragraph>Atropine-induced parasympathetic inhibition may be preceded by a transient phase of stimulation, especially on the heart where small doses first slow the rate before characteristic tachycardia develops due to paralysis of vagal control. Atropine exerts a more potent and prolonged effect on heart, intestine and bronchial muscle than scopolamine, but its action on the iris, ciliary body and certain secretory glands is weaker than that of scopolamine. Unlike the latter, atropine in clinical doses does not depress the central nervous system but may stimulate the medulla and higher cerebral centers. Although mild vagal excitation occurs, the increased respiratory rate and (sometimes) increased depth of respiration produced by atropine are more probably the result of bronchiolar dilatation. Accordingly, atropine is an unreliable respiratory stimulant and large or repeated doses may depress respiration.</paragraph>
+                  <paragraph/>
+                  <paragraph>Adequate doses of atropine abolish various types of reflex vagal cardiac slowing or asystole. The drug also prevents or abolishes bradycardia or asystole produced by injection of choline esters, anticholinesterase agents or other parasympathomimetic drugs, and cardiac arrest produced by stimulation of the vagus. Atropine also may lessen the degree of partial heart block when vagal activity is an etiologic factor. In some patients with complete heart block, the idioventricular rate may be accelerated by atropine; in others, the rate is stabilized. Occasionally a large dose may cause atrioventricular (A-V) block and nodal rhythm.</paragraph>
+                  <paragraph/>
+                  <paragraph>Atropine Sulfate Injection, USP in clinical doses counteracts the peripheral dilatation and abrupt decrease in blood pressure produced by choline esters. However, when given by itself, atropine does not exert a striking or uniform effect on blood vessels or blood pressure. Systemic doses slightly raise systolic and lower diastolic pressures and can produce significant postural hypotension. Such doses also slightly increase cardiac output and decrease central venous pressure. Occasionally, therapeutic doses dilate cutaneous blood vessels, particularly in the "blush" area (atropine flush), and may cause atropine "fever" due to suppression of sweat gland activity in infants and small children.</paragraph>
+                  <paragraph/>
+                  <paragraph>The effects of intravenous atropine on heart rate (maximum heart rate) and saliva flow (minimum flow) after intravenous administration (rapid, constant infusion over 3 min.) are delayed by 7 to 8 minutes after drug administration and both effects are non-linearly related to the amount of drug in the peripheral compartment. Changes in plasma atropine levels following intramuscular administration (0.5 to</paragraph>
+                  <paragraph>4 mg doses) and heart rate are closely overlapped but the time course of the changes in atropine levels and behavioral impairment indicates that pharmacokinetics is not the primary rate-limiting mechanism for the central nervous system effect of atropine.</paragraph>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph>12.3 Pharmacokinetics</paragraph>
+                  <paragraph>Atropine disappears rapidly from the blood following injection and is distributed throughout the body. Exercise, both prior to and immediately following intramuscular administration of atropine, significantly increases the absorption of atropine due to increased perfusion in the muscle and significantly</paragraph>
+                  <paragraph>decreases the clearance of atropine. The pharmacokinetics of atropine is nonlinear after intravenous administration of 0.5 to 4 mg. Atropine's plasma protein binding is about 44% and saturable in the 2-20 μg/mL concentration range. Atropine readily crosses the placental barrier and enters the fetal circulation, but is not found in amniotic fluid. Much of the drug is destroyed by enzymatic hydrolysis, particularly in the liver; from 13 to 50% is excreted unchanged in the urine. Traces are found in various secretions, including milk. The major metabolites of atropine are noratropine, atropin-n-oxide, tropine, and tropic acid. The metabolism of atropine is inhibited by organophosphate pesticides.</paragraph>
+                  <paragraph>
+                     <br/>
+Specific Populations
+ </paragraph>
+                  <paragraph>The elimination half-life of atropine is more than doubled in children under two years and the elderly (&gt;65 years old) compared to other age groups. There is no gender effect on the pharmacokinetics and pharmacodynamics (heart rate changes) of atropine.</paragraph>
+               </text>
+               <effectiveTime value="20230511"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_fc0fc0d8-94f1-05cb-e053-6294a90ae409">
+               <id root="fc0fc0d8-94f0-05cb-e053-6294a90ae409"/>
+               <code code="43680-8" codeSystem="2.16.840.1.113883.6.1" displayName="NONCLINICAL TOXICOLOGY SECTION"/>
+               <title>13 NONCLINICAL TOXICOLOGY</title>
+               <text>
+                  <paragraph>13.1 
+  <content styleCode="bold">Carcinogenesis, Mutagenesis, Impairment of Fertility</content>
+                  </paragraph>
+                  <paragraph>Studies have not been performed to evaluate the carcinogenic or mutagenic potential of atropine or its potential to affect fertility adversely.</paragraph>
+               </text>
+               <effectiveTime value="20230511"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_fc0f908a-0d4d-8d4e-e053-6394a90a7bf2">
+               <id root="fc12e86b-1989-6a14-e053-6394a90a0c2c"/>
+               <code code="34069-5" codeSystem="2.16.840.1.113883.6.1" displayName="HOW SUPPLIED SECTION"/>
+               <title>16 HOW SUPPLIED</title>
+               <text>
+                  <paragraph>Atropine Sulfate Injection, USP is supplied in single-dose syringes as follows:</paragraph>
+                  <table border="0" width="100%">
+                     <tbody>
+                        <tr>
+                           <td>
+                              <content styleCode="bold">Syringe</content>
+                           </td>
+                           <td>
+                              <content styleCode="bold">Concentration
+      <br/>
+			(mg/mL)
+     </content>
+                           </td>
+                           <td>
+                              <content styleCode="bold">Fill
+      <br/>
+			Volume
+     </content>
+                           </td>
+                           <td>
+                              <content styleCode="bold">Total
+      <br/>
+			Atropine
+      <br/>
+			Content
+     </content>
+                           </td>
+                           <td>
+                              <content styleCode="bold">NDC#
+      <br/>
+			(Unit of Sale)
+     </content>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td>64253-400-30
+     <br/>
+                              <br/>
+			10 mL Single-dose
+     <br/>
+			pre-filled plastic syringe
+     <br/>
+			individually pouched
+    </td>
+                           <td>0.1 mg/mL</td>
+                           <td>10 mL</td>
+                           <td>1 mg</td>
+                           <td>64253-400-91
+     <br/>
+                              <br/>
+			10 mL Single-dose pre-filled
+     <br/>
+			syringes, individually
+     <br/>
+			pouched in cartons of 10
+    </td>
+                        </tr>
+                     </tbody>
+                  </table>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph>30°C (59°F and 86°F). [See USP Controlled Room Temperature.]</paragraph>
+                  <paragraph/>
+                  <paragraph/>
+               </text>
+               <effectiveTime value="20230511"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_fc0fcacf-87ae-5338-e053-6294a90af4ec">
+               <id root="fc0fcacf-87b2-5338-e053-6294a90af4ec"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <text>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="img_fc0fccf8-45a9-eaeb-e053-6394a90a22cd"/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20230511"/>
+               <component>
+                  <observationMedia ID="img_fc0fccf8-45a9-eaeb-e053-6394a90a22cd">
+                     <text>Package Insert Page 1</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="l4353-r000-pkg-insert_Page_1.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_fc0fded1-74a3-dcc1-e053-6394a90a4204">
+               <id root="fc0fe6b9-2fa3-43dd-e053-6394a90aadcd"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <text>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="img_fc0fcbd0-3755-54c4-e053-6294a90aba7e"/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20230511"/>
+               <component>
+                  <observationMedia ID="img_fc0fcbd0-3755-54c4-e053-6294a90aba7e">
+                     <text>Package Insert Page 2</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="l4353-r000-pkg-insert_Page_2.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_fc0fccf8-459f-eaeb-e053-6394a90a22cd">
+               <id root="fc0fccf8-45aa-eaeb-e053-6394a90a22cd"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <text>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="img_fc0fcacf-87b3-5338-e053-6294a90af4ec"/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20230511"/>
+               <component>
+                  <observationMedia ID="img_fc0fcacf-87b3-5338-e053-6294a90af4ec">
+                     <text>Master Carton Label</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="l4354-r000-master-carton-label.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_fc0fccf8-45a1-eaeb-e053-6394a90a22cd">
+               <id root="fc0fccf8-45ac-eaeb-e053-6394a90a22cd"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <text>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="img_fc0fccf8-45ab-eaeb-e053-6394a90a22cd"/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20230511"/>
+               <component>
+                  <observationMedia ID="img_fc0fccf8-45ab-eaeb-e053-6394a90a22cd">
+                     <text>Pouch Label</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="p3028-r000-pouch-label.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_fc0fded1-74a5-dcc1-e053-6394a90a4204">
+               <id root="fc0fcacf-87b5-5338-e053-6294a90af4ec"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <text>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="img_fc0fcacf-87b4-5338-e053-6294a90af4ec"/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20230511"/>
+               <component>
+                  <observationMedia ID="img_fc0fcacf-87b4-5338-e053-6294a90af4ec">
+                     <text>Dispenser Box 10 Count - 10 mL</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="p3055-r000-dispenser-box.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_fc0fded1-74a7-dcc1-e053-6394a90a4204">
+               <id root="fc0ffd04-e085-6534-e053-6394a90ab4d1"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <text>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="img_fc0ffd04-e084-6534-e053-6394a90ab4d1"/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20230511"/>
+               <component>
+                  <observationMedia ID="img_fc0ffd04-e084-6534-e053-6394a90ab4d1">
+                     <text>Syringe Label</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="l4338-r001-syringe-label.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

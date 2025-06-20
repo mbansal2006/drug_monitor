@@ -1,0 +1,1429 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="https://www.accessdata.fda.gov/spl/stylesheet/spl.xsl"?>
+<document xmlns="urn:hl7-org:v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 https://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="67349236-e8e3-45ec-a76d-2a0a150d8d59"/>
+   <code code="34391-3" displayName="HUMAN PRESCRIPTION DRUG LABEL" codeSystem="2.16.840.1.113883.6.1"/>
+   <title>
+      <content styleCode="bold">These highlights do not include all the information needed to use DOPamine HYDROCHLORIDE INJECTION safely and effectively. See full prescribing information for DOPamine HYDROCHLORIDE INJECTION.</content>
+      <content styleCode="bold">
+         <br/>
+         <br/>
+      </content>
+      <content styleCode="bold">DOPAMINE HYDROCHLORIDE injection, for intravenous use <br/>
+         <br/>
+Initial U.S. Approval: 1974</content>
+   </title>
+   <effectiveTime value="20240415"/>
+   <setId root="0e499952-46c7-4172-8c70-186312e240a3"/>
+   <versionNumber value="3"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id extension="001230762" root="1.3.6.1.4.1.519.1"/>
+            <name>Hikma Pharmaceuticals USA Inc.</name>
+            <assignedEntity>
+               <assignedOrganization/>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section>
+               <id root="9f702362-693e-46e5-b7bc-602f4b52e168"/>
+               <code code="48780-1" displayName="SPL listing data elements section" codeSystem="2.16.840.1.113883.6.1"/>
+               <effectiveTime value="20240415"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="0143-9252" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>Dopamine Hydrochloride</name>
+                        <formCode code="C42946" displayName="INJECTION" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>Dopamine Hydrochloride</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator unit="mg" value="40"/>
+                              <denominator unit="mL" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="7L3E358N9L" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>DOPAMINE HYDROCHLORIDE</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="VTD58H1Z2X" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>DOPAMINE</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <quantity>
+                              <numerator unit="mg" value="9"/>
+                              <denominator unit="mL" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="4VON5FNS3C" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SODIUM METABISULFITE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <quantity>
+                              <numerator unit="mg" value="5"/>
+                              <denominator unit="mL" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="1Q73Q2JULR" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SODIUM CITRATE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <quantity>
+                              <numerator unit="mg" value="10"/>
+                              <denominator unit="mL" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="DSO12WL7AU" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>CITRIC ACID ACETATE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator unit="mL" value="5"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="0143-9252-01" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43215" displayName="VIAL, SINGLE-DOSE" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator unit="1" value="25"/>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code code="0143-9252-25" codeSystem="2.16.840.1.113883.6.69"/>
+                                    <formCode code="C43182" displayName="CARTON" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 </containerPackagedProduct>
+                                 <subjectOf>
+                                    <marketingAct>
+                                       <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                       <statusCode code="active"/>
+                                       <effectiveTime>
+                                          <low value="20180411"/>
+                                       </effectiveTime>
+                                    </marketingAct>
+                                 </subjectOf>
+                              </asContent>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" displayName="Type 0: Not a Combination Product" codeSystem="2.16.840.1.113883.3.26.1.1" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <id extension="ANDA207707" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73584" displayName="ANDA" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20180411"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38276" displayName="INTRAVENOUS" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="0143-9253" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>Dopamine Hydrochloride</name>
+                        <formCode code="C42946" displayName="INJECTION" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>Dopamine Hydrochloride</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator unit="mg" value="80"/>
+                              <denominator unit="mL" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="7L3E358N9L" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>DOPAMINE HYDROCHLORIDE</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="VTD58H1Z2X" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>DOPAMINE</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <quantity>
+                              <numerator unit="mg" value="9"/>
+                              <denominator unit="mL" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="4VON5FNS3C" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SODIUM METABISULFITE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <quantity>
+                              <numerator unit="mg" value="10"/>
+                              <denominator unit="mL" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="DSO12WL7AU" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>CITRIC ACID ACETATE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <quantity>
+                              <numerator unit="mg" value="5"/>
+                              <denominator unit="mL" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="1Q73Q2JULR" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SODIUM CITRATE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator unit="mL" value="5"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="0143-9253-01" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43215" displayName="VIAL, SINGLE-DOSE" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator unit="1" value="25"/>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code code="0143-9253-25" codeSystem="2.16.840.1.113883.6.69"/>
+                                    <formCode code="C43182" displayName="CARTON" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 </containerPackagedProduct>
+                                 <subjectOf>
+                                    <marketingAct>
+                                       <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                       <statusCode code="active"/>
+                                       <effectiveTime>
+                                          <low value="20180411"/>
+                                       </effectiveTime>
+                                    </marketingAct>
+                                 </subjectOf>
+                              </asContent>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" displayName="Type 0: Not a Combination Product" codeSystem="2.16.840.1.113883.3.26.1.1" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <id extension="ANDA207707" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73584" displayName="ANDA" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20180411"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38276" displayName="INTRAVENOUS" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="0143-9254" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>Dopamine Hydrochloride</name>
+                        <formCode code="C42946" displayName="INJECTION" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>Dopamine Hydrochloride</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator unit="mg" value="40"/>
+                              <denominator unit="mL" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="7L3E358N9L" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>DOPAMINE HYDROCHLORIDE</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="VTD58H1Z2X" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>DOPAMINE</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <quantity>
+                              <numerator unit="mg" value="9"/>
+                              <denominator unit="mL" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="4VON5FNS3C" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SODIUM METABISULFITE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <quantity>
+                              <numerator unit="mg" value="10"/>
+                              <denominator unit="mL" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="DSO12WL7AU" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>CITRIC ACID ACETATE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <quantity>
+                              <numerator unit="mg" value="5"/>
+                              <denominator unit="mL" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="1Q73Q2JULR" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SODIUM CITRATE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator unit="mL" value="10"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="0143-9254-01" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43215" displayName="VIAL, SINGLE-DOSE" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator unit="1" value="25"/>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code code="0143-9254-25" codeSystem="2.16.840.1.113883.6.69"/>
+                                    <formCode code="C43182" displayName="CARTON" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 </containerPackagedProduct>
+                                 <subjectOf>
+                                    <marketingAct>
+                                       <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                       <statusCode code="active"/>
+                                       <effectiveTime>
+                                          <low value="20180411"/>
+                                       </effectiveTime>
+                                    </marketingAct>
+                                 </subjectOf>
+                              </asContent>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" displayName="Type 0: Not a Combination Product" codeSystem="2.16.840.1.113883.3.26.1.1" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <id extension="ANDA207707" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73584" displayName="ANDA" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20180411"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38276" displayName="INTRAVENOUS" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="0143-9255" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>Dopamine Hydrochloride</name>
+                        <formCode code="C42946" displayName="INJECTION" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>Dopamine Hydrochloride</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator unit="mg" value="80"/>
+                              <denominator unit="mL" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="7L3E358N9L" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>DOPAMINE HYDROCHLORIDE</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="VTD58H1Z2X" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>DOPAMINE</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <quantity>
+                              <numerator unit="mg" value="9"/>
+                              <denominator unit="mL" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="4VON5FNS3C" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SODIUM METABISULFITE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <quantity>
+                              <numerator unit="mg" value="10 "/>
+                              <denominator unit="mL" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="DSO12WL7AU" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>CITRIC ACID ACETATE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <quantity>
+                              <numerator unit="mg" value="5"/>
+                              <denominator unit="mL" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="1Q73Q2JULR" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SODIUM CITRATE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator unit="mL" value="10"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="0143-9255-01" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43215" displayName="VIAL, SINGLE-DOSE" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator unit="1" value="25"/>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code code="0143-9255-25" codeSystem="2.16.840.1.113883.6.69"/>
+                                    <formCode code="C43182" displayName="CARTON" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 </containerPackagedProduct>
+                                 <subjectOf>
+                                    <marketingAct>
+                                       <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                       <statusCode code="active"/>
+                                       <effectiveTime>
+                                          <low value="20180411"/>
+                                       </effectiveTime>
+                                    </marketingAct>
+                                 </subjectOf>
+                              </asContent>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" displayName="Type 0: Not a Combination Product" codeSystem="2.16.840.1.113883.3.26.1.1" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <id extension="ANDA207707" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73584" displayName="ANDA" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20180411"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38276" displayName="INTRAVENOUS" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_453db056-8e5b-4a49-b3b1-e8b4f8ebef3d">
+               <id root="aab8d15e-2092-41da-baca-c45de9a4b780"/>
+               <code code="34067-9" codeSystem="2.16.840.1.113883.6.1" displayName="INDICATIONS &amp; USAGE SECTION"/>
+               <title>1 INDICATIONS AND USAGE</title>
+               <text>
+                  <paragraph>Dopamine HCl Injection is indicated to improve hemodynamic status in patients in distributive shock or shock due to reduced cardiac output.</paragraph>
+               </text>
+               <effectiveTime value="20240415"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <paragraph>Dopamine HCl Injection is a catecholamine indicated to improve hemodynamic status in patients in shock. (<linkHtml href="#LINK_453db056-8e5b-4a49-b3b1-e8b4f8ebef3d">1</linkHtml>)</paragraph>
+                     </text>
+                  </highlight>
+               </excerpt>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_89ae61e7-b065-4739-bc16-e8a991b48ea5">
+               <id root="06aa1859-d408-454b-8342-742bf5aa46cd"/>
+               <code code="34068-7" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE &amp; ADMINISTRATION SECTION"/>
+               <title>2 DOSAGE AND ADMINISTRATION</title>
+               <text>
+                  <br/>
+               </text>
+               <effectiveTime value="20240415"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <list listType="unordered" styleCode="Disc">
+                           <item>Correct hypovolemia, acidosis, and hypoxia prior to use. (<linkHtml href="#LINK_9b753edd-4db2-497d-8a32-cada38ba411f">2.1</linkHtml>)</item>
+                           <item>Administer in a large vein with an infusion pump preferably in an intensive care setting. (<linkHtml href="#LINK_9b753edd-4db2-497d-8a32-cada38ba411f">2.1</linkHtml>)</item>
+                           <item>Recommended starting dosage in adults and pediatric patients is 2 to 5 mcg/kg/minute as a continuous intravenous infusion. Titrate in 5 to 10 mcg/kg/minute increments based on hemodynamic response and tolerability, up to not more than 50 mcg/kg/minute. (<linkHtml href="#LINK_9ed4ec3f-cd97-4b9c-b9cb-58d76bc18a76">2.2</linkHtml>)</item>
+                           <item>See the Full Prescribing Information for important preparation instructions and drug incompatibilities. (<linkHtml href="#LINK_9b753edd-4db2-497d-8a32-cada38ba411f">2.1</linkHtml>, <linkHtml href="#LINK_acc4d249-1110-4fd7-a6c4-5789b15474c4">2.3</linkHtml>)</item>
+                        </list>
+                     </text>
+                  </highlight>
+               </excerpt>
+               <component>
+                  <section ID="LINK_9b753edd-4db2-497d-8a32-cada38ba411f">
+                     <id root="72075fde-65b0-431f-8334-ac7f9e3dd7a2"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>2.1 Preparation and Administration Instructions</title>
+                     <text>
+                        <paragraph>
+                           <content styleCode="underline">Correct Hypovolemia, Acidosis, and Hypoxia</content>
+                        </paragraph>
+                        <paragraph>Address hypovolemia, acidosis, and hypoxia before initiating Dopamine HCl Injection. If patient does not respond to therapy, suspect occult hypovolemia. Acidosis may reduce the effectiveness of dopamine <content styleCode="italics">[see Warnings and Precautions (<linkHtml href="#LINK_fe76231f-1fef-4be3-9404-c04d8680b3b7">5.1</linkHtml>)]</content>.</paragraph>
+                        <paragraph>
+                           <content styleCode="underline">Preparation</content>
+                        </paragraph>
+                        <paragraph>For the 40-mg/mL preparation, transfer by aseptic technique the contents containing either 5 mL (200 mg) or 10 mL (400 mg) of Dopamine HCl Injection to either a 250-mL or a 500-mL bottle of one of the sterile intravenous solutions listed below:</paragraph>
+                        <list listType="unordered" styleCode="Disc">
+                           <item>0.9% Sodium Chloride Injection, USP</item>
+                           <item>5% Dextrose Injection, USP</item>
+                           <item>5% Dextrose and 0.9% Sodium Chloride Injection, USP</item>
+                           <item>5% Dextrose and 0.45% Sodium Chloride Injection, USP</item>
+                           <item>5% Dextrose and Lactated Ringer’s Injection</item>
+                           <item>Sodium Lactate Injection, USP 1/6 Molar</item>
+                           <item>Lactated Ringer’s Injection, USP</item>
+                        </list>
+                        <paragraph>The resultant dilutions are summarized in the following chart:</paragraph>
+                        <renderMultiMedia referencedObject="MM1"/>
+                        <paragraph>Dopamine HCl Injection has been found to be stable for 24 hours after dilution in the foregoing intravenous solutions.</paragraph>
+                        <paragraph>
+                           <content styleCode="underline">Administration</content>
+                        </paragraph>
+                        <paragraph>Dopamine HCl Injection is administered (only after dilution) by intravenous infusion.</paragraph>
+                        <paragraph>Administer Dopamine HCl Injection into a large vein <content styleCode="italics">[see Warnings and Precautions (<linkHtml href="#LINK_fe76231f-1fef-4be3-9404-c04d8680b3b7">5.1</linkHtml>)] </content>with the use of an infusion pump preferably in an intensive care setting.</paragraph>
+                        <paragraph>Inspect Dopamine HCl Injection for particulate matter and discoloration prior to administration whenever solution and container permit (the solution is clear, practically colorless). Do not administer if the solution is darker or discolored.</paragraph>
+                        <paragraph>Use higher concentration solutions (e.g., 3200 mcg/mL or 1600 mcg/mL strengths) in patients requiring fluid restriction.</paragraph>
+                        <paragraph>
+                           <content styleCode="underline">Discontinuation</content>
+                        </paragraph>
+                        <paragraph>When discontinuing Dopamine HCl Injection, gradually reduce the infusion rate while expanding blood volume with intravenous fluids <content styleCode="italics">[see Warnings and Precautions (<linkHtml href="#LINK_5eaffa08-8fd9-4850-bf59-e790abe0852c">5.3</linkHtml>)].</content>
+                        </paragraph>
+                        <br/>
+                     </text>
+                     <effectiveTime value="20240415"/>
+                     <component>
+                        <observationMedia ID="MM1">
+                           <text>chart</text>
+                           <value xsi:type="ED" mediaType="image/jpeg">
+                              <reference value="dopamine-hydrochloride-injection-usp-1.jpg"/>
+                           </value>
+                        </observationMedia>
+                     </component>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_9ed4ec3f-cd97-4b9c-b9cb-58d76bc18a76">
+                     <id root="1991c947-3006-4655-b1b7-4eaff89114b8"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>2.2 Recommended Dosage</title>
+                     <text>
+                        <paragraph>The recommended starting dosage in adults and pediatric patients is 2 to 5 mcg/kg/minute as a continuous intravenous infusion <content styleCode="italics">[see Dosage and Administration (<linkHtml href="#LINK_acc4d249-1110-4fd7-a6c4-5789b15474c4">2.3</linkHtml>)]</content>. Titrate the infusion rate in increments of 5 to 10 mcg/kg/minute based on hemodynamic response and tolerability, but do not exceed 50 mcg/kg/minute.</paragraph>
+                        <paragraph>Infusion rates may be calculated using the following formula:</paragraph>
+                        <renderMultiMedia referencedObject="MM2"/>
+                        <paragraph>Example calculations for infusion rates are as follows:</paragraph>
+                        <paragraph>
+                           <content styleCode="bold">Example 1: </content>for a 60 kg person at the recommended initial dose of 2 mcg/kg/minute using a 800 mcg/mL concentration, the infusion rate would be as follows:</paragraph>
+                        <renderMultiMedia referencedObject="MM3"/>
+                        <paragraph>
+                           <content styleCode="bold">Example 2: </content>for a 70 kg person at a dose of 5 mcg/kg/minute using a 1600 mcg/mL concentration, the infusion rate would be as follows:</paragraph>
+                        <renderMultiMedia referencedObject="MM4"/>
+                     </text>
+                     <effectiveTime value="20240415"/>
+                     <component>
+                        <observationMedia ID="MM2">
+                           <text>infusion rate formula</text>
+                           <value xsi:type="ED" mediaType="image/jpeg">
+                              <reference value="dopamine-hydrochloride-injection-usp-2.jpg"/>
+                           </value>
+                        </observationMedia>
+                     </component>
+                     <component>
+                        <observationMedia ID="MM3">
+                           <text>example 1</text>
+                           <value xsi:type="ED" mediaType="image/jpeg">
+                              <reference value="dopamine-hydrochloride-injection-usp-3.jpg"/>
+                           </value>
+                        </observationMedia>
+                     </component>
+                     <component>
+                        <observationMedia ID="MM4">
+                           <text>example 1</text>
+                           <value xsi:type="ED" mediaType="image/jpeg">
+                              <reference value="dopamine-hydrochloride-injection-usp-4.jpg"/>
+                           </value>
+                        </observationMedia>
+                     </component>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_acc4d249-1110-4fd7-a6c4-5789b15474c4">
+                     <id root="8c8c2c20-d27d-4061-a3e1-58999289904f"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>2.3 Drug Incompatibilities</title>
+                     <text>
+                        <paragraph>Dopamine HCl Injection is incompatible with the following products; therefore, avoid simultaneous administration (through the same infusion set):</paragraph>
+                        <list listType="unordered" styleCode="Disc">
+                           <item>Sodium bicarbonate or other alkalinizing substances, because dopamine is inactivated in alkaline solution</item>
+                           <item>Blood, because of the risk of pseudoagglutination of red cells</item>
+                           <item>Iron salts</item>
+                        </list>
+                        <paragraph>Do not add additional medications in the diluted infusion solution.</paragraph>
+                     </text>
+                     <effectiveTime value="20240415"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_e5a6e8ce-07b1-45db-bb8e-2a8f9e8516f8">
+               <id root="6167c613-a917-4f34-9f6a-f5b7276ee923"/>
+               <code code="43678-2" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE FORMS &amp; STRENGTHS SECTION"/>
+               <title>3 DOSAGE FORMS AND STRENGTHS</title>
+               <text>
+                  <paragraph>The following strengths of Dopamine HCL, USP, are supplied in single-dose vials (the solution is clear practically colorless):</paragraph>
+                  <list listType="unordered" styleCode="Disc">
+                     <item>200 mg/5 mL (40 mg/mL)</item>
+                     <item>400 mg/10 mL (40 mg/mL)</item>
+                     <item>400 mg/5 mL (80 mg/mL)</item>
+                     <item>800 mg/10 mL (80 mg/mL)</item>
+                  </list>
+               </text>
+               <effectiveTime value="20240415"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <list listType="unordered" styleCode="Disc">
+                           <item>The following strengths of Dopamine HCL, USP, are supplied in single-dose vials: (<linkHtml href="#LINK_e5a6e8ce-07b1-45db-bb8e-2a8f9e8516f8">3</linkHtml>)</item>
+                           <item>200 mg/5 mL (40 mg/mL)</item>
+                           <item>400 mg/10 mL (40 mg/mL)</item>
+                           <item>400 mg/5 mL (80 mg/mL)</item>
+                           <item>800 mg/10 mL (80 mg/mL)</item>
+                        </list>
+                     </text>
+                  </highlight>
+               </excerpt>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_ee48c310-f899-46d5-8513-3f5b635aa4f4">
+               <id root="ee2a4dc9-f3b4-465a-881f-217cb7c78710"/>
+               <code code="34070-3" codeSystem="2.16.840.1.113883.6.1" displayName="CONTRAINDICATIONS SECTION"/>
+               <title>4 CONTRAINDICATIONS</title>
+               <text>
+                  <paragraph>Dopamine is contraindicated in patients with pheochromocytoma.</paragraph>
+               </text>
+               <effectiveTime value="20240415"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <paragraph>Dopamine is contraindicated in patients with pheochromocytoma. (<linkHtml href="#LINK_ee48c310-f899-46d5-8513-3f5b635aa4f4">4</linkHtml>)</paragraph>
+                     </text>
+                  </highlight>
+               </excerpt>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_f73e3b6b-e858-46c7-96ed-1edbbce99943">
+               <id root="747e529a-a4b2-43b4-aafc-e0bbfa5d879d"/>
+               <code code="43685-7" codeSystem="2.16.840.1.113883.6.1" displayName="WARNINGS AND PRECAUTIONS SECTION"/>
+               <title>5 WARNINGS AND PRECAUTIONS</title>
+               <text/>
+               <effectiveTime value="20240415"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <list listType="unordered" styleCode="Disc">
+                           <item>
+                              <content styleCode="underline">Tissue ischemia</content>: Severe peripheral and visceral vasoconstriction can occur. Address hypovolemia prior to use, monitor extremities, and infuse into large vein. (<linkHtml href="#LINK_fe76231f-1fef-4be3-9404-c04d8680b3b7">5.1</linkHtml>)</item>
+                           <item>
+                              <content styleCode="underline">Cardiac arrhythmias</content>: Monitor closely. (<linkHtml href="#LINK_b2b9040d-e6de-4d6b-ae85-4aefa2576e67">5.2</linkHtml>)</item>
+                           <item>
+                              <content styleCode="underline">Hypotension after abrupt discontinuation</content>: Gradually reduce infusion rate while expanding blood volume with intravenous fluids. (<linkHtml href="#LINK_5eaffa08-8fd9-4850-bf59-e790abe0852c">5.3</linkHtml>)</item>
+                           <item>
+                              <content styleCode="underline">Severe hypersensitivity reactions due to sodium metabisulfite excipient</content>: May cause anaphylaxis including life-threatening or less severe asthmatic episodes in susceptible individuals. (<linkHtml href="#LINK_153f5e0f-ca38-4254-8086-97e03f782a63">5.4</linkHtml>)</item>
+                        </list>
+                     </text>
+                  </highlight>
+               </excerpt>
+               <component>
+                  <section ID="LINK_fe76231f-1fef-4be3-9404-c04d8680b3b7">
+                     <id root="c5a1e067-0c25-4de4-80b5-f812ea9c51a2"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>5.1 Tissue Ischemia</title>
+                     <text>
+                        <paragraph>Administration of dopamine to patients who are hypotensive from hypovolemia can result in severe peripheral and visceral vasoconstriction, decreased renal perfusion and hypouresis, tissue hypoxia, lactic acidosis, and poor systemic blood flow despite “normal” blood pressure. Address hypovolemia prior to initiating Dopamine HCl Injection <content styleCode="italics">[see Dosage and Administration (<linkHtml href="#LINK_9ed4ec3f-cd97-4b9c-b9cb-58d76bc18a76">2.2</linkHtml>)]</content>.</paragraph>
+                        <paragraph>Gangrene of the extremities has occurred in patients with occlusive vascular disease or who received prolonged or high dose infusions. Monitor for changes to the skin of the extremities in susceptible patients.</paragraph>
+                        <paragraph>Extravasation of Dopamine HCl Injection may cause necrosis and sloughing of surrounding tissue. To reduce the risk of extravasation, infuse into a large vein <content styleCode="italics">[see Dosage and Administration (<linkHtml href="#LINK_9b753edd-4db2-497d-8a32-cada38ba411f">2.1</linkHtml>)]</content>, check the infusion site frequently for free flow, and monitor for signs of extravasation.</paragraph>
+                        <paragraph>
+                           <content styleCode="underline">Emergency Treatment of Extravasation</content>
+                        </paragraph>
+                        <paragraph>To prevent sloughing and necrosis in areas in which extravasation has occurred, infiltrate the ischemic area as soon as possible, using a syringe with a fine hypodermic needle with:</paragraph>
+                        <list listType="unordered" styleCode="Disc">
+                           <item>5 to 10 mg of phentolamine mesylate in 10 to 15 mL of 0.9% Sodium Chloride Injection in adults</item>
+                           <item>0.1 to 0.2 mg/kg of phentolamine mesylate up to a maximum of 10 mg per dose in pediatric patients.</item>
+                        </list>
+                        <paragraph> Sympathetic blockade with phentolamine causes immediate and conspicuous local hyperemic changes if the area is infiltrated within 12 hours.</paragraph>
+                     </text>
+                     <effectiveTime value="20240415"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_b2b9040d-e6de-4d6b-ae85-4aefa2576e67">
+                     <id root="41191871-7a3f-4873-a09f-c9f3ce5e3ffb"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>5.2 Cardiac Arrhythmias</title>
+                     <text>
+                        <paragraph>Dopamine may cause arrhythmias. Monitor patients with arrhythmias and treat appropriately.</paragraph>
+                     </text>
+                     <effectiveTime value="20240415"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_5eaffa08-8fd9-4850-bf59-e790abe0852c">
+                     <id root="4e3e53a1-ead6-4264-b061-331ed8da11b4"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>5.3 Hypotension after Abrupt
+Discontinuation</title>
+                     <text>
+                        <paragraph>Sudden cessation of the infusion may result in marked hypotension. Gradually reduce the infusion rate while expanding blood volume with intravenous fluids.</paragraph>
+                     </text>
+                     <effectiveTime value="20240415"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_153f5e0f-ca38-4254-8086-97e03f782a63">
+                     <id root="123dccb3-4bdd-43b4-8da4-12ce13d94c99"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>5.4 Severe Hypersensitivity Reactions due to Sodium
+Metabisulfite Excipient</title>
+                     <text>
+                        <paragraph>Dopamine HCl Injection contains sodium metabisulfite, a sulfite that may cause allergic-type reactions including anaphylactic symptoms and life-threatening or less severe asthmatic episodes in certain susceptible people. The overall prevalence of sulfite sensitivity in the general population is unknown and probably low. Sulfite sensitivity is seen more frequently in asthmatic than in nonasthmatic people.</paragraph>
+                     </text>
+                     <effectiveTime value="20240415"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_17266c45-cb57-428f-9e0a-08815b20594d">
+               <id root="9288a612-d06a-4c2c-841a-c0c3a488120c"/>
+               <code code="34084-4" codeSystem="2.16.840.1.113883.6.1" displayName="ADVERSE REACTIONS SECTION"/>
+               <title>6 ADVERSE REACTIONS</title>
+               <text>
+                  <paragraph>The following adverse reactions are described elsewhere in the labeling:</paragraph>
+                  <list listType="unordered" styleCode="Disc">
+                     <item>Tissue Ischemia <content styleCode="italics">[see Warnings and Precautions (<linkHtml href="#LINK_fe76231f-1fef-4be3-9404-c04d8680b3b7">5.1</linkHtml>)]</content>
+                     </item>
+                     <item>Cardiac Arrhythmias <content styleCode="italics">[see Warnings and Precautions (<linkHtml href="#LINK_b2b9040d-e6de-4d6b-ae85-4aefa2576e67">5.2</linkHtml>)]</content>
+                     </item>
+                     <item>Hypotension <content styleCode="italics">[see Warnings and Precautions (<linkHtml href="#LINK_5eaffa08-8fd9-4850-bf59-e790abe0852c">5.3</linkHtml>)]</content>
+                     </item>
+                     <item>Severe Hypersensitivity Reactions <content styleCode="italics">[see Warnings and Precautions (<linkHtml href="#LINK_153f5e0f-ca38-4254-8086-97e03f782a63">5.4</linkHtml>)]</content>
+                     </item>
+                  </list>
+                  <paragraph>The following adverse reactions have been identified during postapproval use of dopamine. Because these reactions are reported voluntarily from a population of uncertain size, it is not always possible to reliably estimate their frequency or establish a causal relationship to drug exposure.</paragraph>
+                  <paragraph>
+                     <content styleCode="underline">Cardiac Disorders:</content> anginal pain, palpitation </paragraph>
+                  <paragraph>
+                     <content styleCode="underline">Gastrointestinal Disorders:</content> nausea, vomiting </paragraph>
+                  <paragraph>
+                     <content styleCode="underline">Metabolism and Nutrition Disorders:</content> azotemia </paragraph>
+                  <paragraph>
+                     <content styleCode="underline">Nervous System Disorders</content>: headache, anxiety </paragraph>
+                  <paragraph>
+                     <content styleCode="underline">Respiratory Disorders</content>
+                     <content styleCode="underline">:</content> dyspnea</paragraph>
+                  <paragraph>
+                     <content styleCode="underline">Skin and Subcutaneous Tissue Disorders</content>: piloerection </paragraph>
+                  <paragraph>
+                     <content styleCode="underline">Vascular Disorders</content>: hypertension</paragraph>
+               </text>
+               <effectiveTime value="20240415"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <paragraph>The most common adverse reaction is localized vasoconstriction due to extravasation. (<linkHtml href="#LINK_17266c45-cb57-428f-9e0a-08815b20594d">6</linkHtml>)</paragraph>
+                        <paragraph>
+                           <content styleCode="bold">To report SUSPECTED ADVERSE REACTIONS, contact Hikma Pharmaceuticals USA Inc. at 1-877-845-0689 or FDA at 1-800-FDA-1088 or </content>
+                           <content styleCode="bold">
+                              <linkHtml href="http://www.fda.gov/medwatch">www.fda.gov/medwatch</linkHtml>
+                           </content>
+                           <content styleCode="bold">
+                              <linkHtml href="http://www.fda.gov/medwatch">.</linkHtml>
+                           </content>
+                        </paragraph>
+                     </text>
+                  </highlight>
+               </excerpt>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_75cbd37f-e0be-4fbd-9d5f-f159a73112c0">
+               <id root="adad668a-c8ab-4afa-94a9-bacc92fefb33"/>
+               <code code="34073-7" codeSystem="2.16.840.1.113883.6.1" displayName="DRUG INTERACTIONS SECTION"/>
+               <title>7 DRUG INTERACTIONS</title>
+               <text>
+                  <paragraph>See Table 1 for clinically significant drug interactions with dopamine.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Table 1: Clinically Significant Drug Interactions with Dopamine</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold"> </content>
+                  </paragraph>
+                  <table cellspacing="0" cellpadding="0" border="1">
+                     <col width="550.85pt"/>
+                     <col/>
+                     <tbody>
+                        <tr>
+                           <td colspan="2" styleCode=" Botrule Toprule Lrule Rrule">
+                              <paragraph>
+                                 <content styleCode="bold">Halogenated Anesthetics</content>
+                              </paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode=" Botrule Toprule Lrule Rrule">
+                              <paragraph>
+                                 <content styleCode="italics">Clinical Impact:</content>
+                              </paragraph>
+                           </td>
+                           <td styleCode=" Botrule Toprule Lrule Rrule">
+                              <paragraph>Concomitant use may increase cardiac autonomic irritability and can sensitize the myocardium to the action of dopamine which may lead to ventricular arrhythmias and hypertension.</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode=" Botrule Toprule Lrule Rrule">
+                              <paragraph>
+                                 <content styleCode="italics">Intervention:</content>
+                              </paragraph>
+                           </td>
+                           <td styleCode=" Botrule Toprule Lrule Rrule">
+                              <paragraph>Monitor cardiac rhythm.</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode=" Botrule Toprule Lrule Rrule">
+                              <paragraph>
+                                 <content styleCode="italics">Examples:</content>
+                              </paragraph>
+                           </td>
+                           <td styleCode=" Botrule Toprule Lrule Rrule">
+                              <paragraph>desflurane, enflurane, isoflurane, and sevoflurane.</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td colspan="2" styleCode=" Botrule Toprule Lrule Rrule">
+                              <paragraph>
+                                 <content styleCode="bold">MAO Inhibitors</content>
+                              </paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode=" Botrule Toprule Lrule Rrule">
+                              <paragraph>
+                                 <content styleCode="italics">Clinical Impact:</content>
+                              </paragraph>
+                           </td>
+                           <td styleCode=" Botrule Toprule Lrule Rrule">
+                              <paragraph>Because dopamine is metabolized by monoamine oxidase (MAO), inhibition of this enzyme prolongs and potentiates the effect of dopamine which may result in severe hypertension and cardiac arrhythmia.</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode=" Botrule Toprule Lrule Rrule">
+                              <paragraph>
+                                 <content styleCode="italics">Intervention:</content>
+                              </paragraph>
+                           </td>
+                           <td styleCode=" Botrule Toprule Lrule Rrule">
+                              <paragraph>Reduce the recommended starting dosage to no greater than one-tenth (1/10) of the recommended dose in patients who have been treated with MAO inhibitors within two to three weeks prior to the administration of Dopamine HCl Injection.</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode=" Botrule Toprule Lrule Rrule">
+                              <paragraph>
+                                 <content styleCode="italics">Examples:</content>
+                              </paragraph>
+                           </td>
+                           <td styleCode=" Botrule Toprule Lrule Rrule">
+                              <paragraph>isocarboxazid, phenelzine, tranylcypromine, rasagiline, selegiline, linezolid.</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td colspan="2" styleCode=" Botrule Toprule Lrule Rrule">
+                              <paragraph>
+                                 <content styleCode="bold">Tricyclic Antidepressants</content>
+                              </paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode=" Botrule Toprule Lrule Rrule">
+                              <paragraph>
+                                 <content styleCode="italics">Clinical Impact:</content>
+                              </paragraph>
+                           </td>
+                           <td styleCode=" Botrule Toprule Lrule Rrule">
+                              <paragraph>Concomitant use may potentiate the cardiovascular effects of dopamine (e.g., hypertension).</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode=" Botrule Toprule Lrule Rrule">
+                              <paragraph>
+                                 <content styleCode="italics">Intervention:</content>
+                              </paragraph>
+                           </td>
+                           <td styleCode=" Botrule Toprule Lrule Rrule">
+                              <paragraph>Monitor blood pressure.</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode=" Botrule Toprule Lrule Rrule">
+                              <paragraph>
+                                 <content styleCode="italics">Examples:</content>
+                              </paragraph>
+                           </td>
+                           <td styleCode=" Botrule Toprule Lrule Rrule">
+                              <paragraph>amitriptyline, desipramine, doxepin, imipramine, nortriptyline.</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td colspan="2" styleCode=" Botrule Toprule Lrule Rrule">
+                              <paragraph>
+                                 <content styleCode="bold">Vasopressors</content>
+                              </paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode=" Botrule Toprule Lrule Rrule">
+                              <paragraph>
+                                 <content styleCode="italics">Clinical Impact:</content>
+                              </paragraph>
+                           </td>
+                           <td styleCode=" Botrule Toprule Lrule Rrule">
+                              <paragraph>Concomitant use may result in severe hypertension.</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode=" Botrule Toprule Lrule Rrule">
+                              <paragraph>
+                                 <content styleCode="italics">Intervention:</content>
+                              </paragraph>
+                           </td>
+                           <td styleCode=" Botrule Toprule Lrule Rrule">
+                              <paragraph>Monitor blood pressure.</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode=" Botrule Toprule Lrule Rrule">
+                              <paragraph>
+                                 <content styleCode="italics">Examples:</content>
+                              </paragraph>
+                           </td>
+                           <td styleCode=" Botrule Toprule Lrule Rrule">
+                              <paragraph>norepinephrine, epinephrine, oxytocin.</paragraph>
+                           </td>
+                        </tr>
+                     </tbody>
+                  </table>
+               </text>
+               <effectiveTime value="20240415"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <list listType="unordered" styleCode="Disc">
+                           <item>
+                              <content styleCode="underline">Halogenated anesthetics</content>: Can sensitize the myocardium to the effects of dopamine and can produce ventricular arrhythmias and hypertension. (<linkHtml href="#LINK_75cbd37f-e0be-4fbd-9d5f-f159a73112c0">7</linkHtml>)</item>
+                           <item>
+                              <content styleCode="underline">MAO inhibitors</content>: Risk of severe hypertension. Reduce recommended Dopamine HCl Injection dosage. (<linkHtml href="#LINK_75cbd37f-e0be-4fbd-9d5f-f159a73112c0">7</linkHtml>)</item>
+                           <item>
+                              <content styleCode="underline">Tricyclic antidepressants</content>: Risk of hypertension. Monitor blood pressure. (<linkHtml href="#LINK_75cbd37f-e0be-4fbd-9d5f-f159a73112c0">7</linkHtml>)</item>
+                           <item>
+                              <content styleCode="underline">Vasopressors</content>: Risk of severe hypertension. Monitor blood pressure. (<linkHtml href="#LINK_75cbd37f-e0be-4fbd-9d5f-f159a73112c0">7</linkHtml>)</item>
+                        </list>
+                     </text>
+                  </highlight>
+               </excerpt>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_06890158-c8d4-4f65-abab-2ddb973ea29e">
+               <id root="d74a09f0-5a90-4752-baed-6d0e7a2aa3c9"/>
+               <code code="43684-0" codeSystem="2.16.840.1.113883.6.1" displayName="USE IN SPECIFIC POPULATIONS SECTION"/>
+               <title>8 USE IN SPECIFIC POPULATIONS</title>
+               <text/>
+               <effectiveTime value="20240415"/>
+               <component>
+                  <section ID="LINK_ff1a2dc0-cf1f-4a91-881c-ff69a1873194">
+                     <id root="846ee1bd-bd7d-4d8d-a4c4-1f52295e3dc4"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>8.1 Pregnancy</title>
+                     <text>
+                        <paragraph>
+                           <content styleCode="underline">Risk Summary</content>
+                        </paragraph>
+                        <paragraph>There are no human data with dopamine use in pregnant women. There are risks to the mother and fetus from hypotension associated with shock, which can be fatal if left untreated (<content styleCode="italics">see Clinical Considerations</content>). In animal reproduction studies, adverse developmental outcomes were observed with intravenous dopamine HCl administration in pregnant rats during organogenesis at doses, on a mcg/m<sup>2</sup> basis, of one-third the human starting dose of 2 mcg/kg/minute (90 mcg/m<sup>2</sup>/minute).</paragraph>
+                        <paragraph>The background risk of major birth defects and miscarriage for the indicated population is unknown. All pregnancies carry some risk of birth defect, loss, or other adverse outcomes. In the U.S. general population, the background risk of major birth defects and miscarriage in clinically recognized pregnancies is 2-4% and 15-20%, respectively.</paragraph>
+                        <paragraph>
+                           <content styleCode="underline">Clinical Considerations</content>
+                        </paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Disease-Associated Maternal and/or Embryo/Fetal risk</content>
+                        </paragraph>
+                        <paragraph>Hypotension associated with distributive shock, or shock due to reduced cardiac output are medical emergencies in pregnancy which can be fatal if left untreated. Delaying treatment in pregnant women with hypotension associated with distributive shock, or shock due to reduced cardiac output may increase the risk of maternal and fetal morbidity and mortality. Life-sustaining therapy for the pregnant woman should not be withheld due to potential concerns regarding the effects of dopamine on the fetus.</paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Labor or Delivery</content>
+                        </paragraph>
+                        <paragraph>Vasopressor drugs, including dopamine, may cause severe maternal hypertension when used concomitantly with some oxytocic drugs <content styleCode="italics">[see Drug Interactions (<linkHtml href="#LINK_75cbd37f-e0be-4fbd-9d5f-f159a73112c0">7</linkHtml>)]</content>.</paragraph>
+                        <paragraph>
+                           <content styleCode="underline">Data</content>
+                        </paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Animal Data</content>
+                        </paragraph>
+                        <paragraph> Animal reproduction studies in rats and rabbits at dopamine HCl dosages up to 6 mg/kg/day intravenously (on a mcg/m<sup>2</sup> basis, one third and two thirds, respectively, the human starting dosage of 2 mcg/kg/minute) during organogenesis produced no detectable teratogenic or embryotoxic effects, although maternal toxicity consisting of mortalities, decreased body weight gain, and pharmacotoxic signs were observed in rats. In a published study, administration of 10 mg/kg/day dopamine HCl (on a mcg/m<sup>2</sup> basis, two-thirds the human starting dosage of 2 mcg/kg/minute) to pregnant rats throughout gestation or for 5 days starting on gestation day 10 or 15 resulted in decreased body weight gain, increased mortality, and slight increase in cataract formation among the offspring.</paragraph>
+                     </text>
+                     <effectiveTime value="20240415"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_e0c3e6ed-d1a0-4ba1-9b27-8c189a640c3b">
+                     <id root="69bad190-e2f3-499d-94e5-a83206a30e5b"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>8.2 Lactation</title>
+                     <text>
+                        <paragraph>
+                           <content styleCode="underline">Risk Summary</content>
+                        </paragraph>
+                        <paragraph>There are no data regarding the presence of dopamine in human milk, the effects of dopamine on the breastfed infant, or the effects of the drug on milk production.</paragraph>
+                     </text>
+                     <effectiveTime value="20240415"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_972374ef-c9b9-4f0b-9d7b-51c1879119c2">
+                     <id root="01d91fc6-6885-436c-b1f2-f84e9ace60ad"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>8.4 Pediatric Use</title>
+                     <text>
+                        <paragraph>Dopamine HCl infusions have been used in pediatric patients from birth through adolescence. Most reports in pediatric patients describe dosing that is similar (on a mcg/kg/minute basis) to that used in adults <content styleCode="italics">[see Dosage and Administration (<linkHtml href="#LINK_9ed4ec3f-cd97-4b9c-b9cb-58d76bc18a76">2.2</linkHtml>)]</content>. Except for vasoconstrictive effects caused by inadvertent infusion of dopamine into the umbilical artery, adverse reactions unique to pediatric patients have not been identified, nor have adverse reactions identified in adults been found to be more common in pediatric patients.</paragraph>
+                     </text>
+                     <effectiveTime value="20240415"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_e72ada22-8d8c-479c-a022-964272a06a89">
+                     <id root="34129bb9-9a42-4c7a-b1da-b0c92d7ca20a"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>8.5 Geriatric Use</title>
+                     <text>
+                        <paragraph>Clinical studies of dopamine did not include sufficient numbers of subjects aged 65 and over to determine whether they respond differently from younger subjects. Other reported clinical experience has not identified differences in responses between the elderly and younger patients. In general, dose selection for an elderly patient should start at the low end of the dosing range, reflecting the frequency of decreased hepatic, renal or cardiac function, and of concomitant disease or other drug therapy.</paragraph>
+                     </text>
+                     <effectiveTime value="20240415"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_76922bd7-15a9-47b4-9eed-781a842e50c2">
+               <id root="4032c1ad-598c-412c-b6bc-dd4462009fd5"/>
+               <code code="34088-5" codeSystem="2.16.840.1.113883.6.1" displayName="OVERDOSAGE SECTION"/>
+               <title>10 OVERDOSAGE</title>
+               <text>
+                  <paragraph>Manifestations of overdosage include excessive blood pressure elevation.</paragraph>
+                  <paragraph> In the case of accidental overdosage, reduce rate of Dopamine HCl Injection administration or temporarily discontinue the dopamine HCl until the overdosage related adverse reactions resolves. Since dopamine’s duration of action is quite short, no additional remedial measures are usually necessary. If these measures fail to resolve the overdosage related adverse reactions, consider using an alpha-adrenergic blocking agent (e.g., phentolamine).</paragraph>
+               </text>
+               <effectiveTime value="20240415"/>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_89e216a7-8b92-49d4-ada0-96ac04abc313">
+               <id root="d98493bf-2d15-48c5-8158-a55663261cb8"/>
+               <code code="34089-3" codeSystem="2.16.840.1.113883.6.1" displayName="DESCRIPTION SECTION"/>
+               <title>11 DESCRIPTION</title>
+               <text>
+                  <paragraph>Dopamine, a sympathomimetic amine vasopressor, is the naturally occurring immediate precursor of norepinephrine. Dopamine hydrochloride is a white to off-white crystalline powder, which may have a slight odor of hydrochloric acid. It is freely soluble in water and soluble in alcohol. Dopamine HCl is sensitive to alkalies, iron salts, and oxidizing agents. Chemically it is designated as 4-(2-aminoethyl) pyrocatechol hydrochloride, and its molecular formula is C<sub>8</sub>H<sub>11</sub>NO<sub>2</sub> • HCl. Dopamine HCl has a molecular weight of 189.64 and it has the following structural formula:</paragraph>
+                  <renderMultiMedia referencedObject="MM5"/>
+                  <paragraph>Dopamine (also referred to as 3 hydroxytyramine) is a naturally occurring endogenous catecholamine.</paragraph>
+                  <paragraph>Dopamine hydrochloride injection is a clear, practically colorless, sterile, pyrogen-free, aqueous solution of dopamine HCl for intravenous infusion after dilution. Each milliliter of the 40 mg/mL preparation contains 40 mg of dopamine hydrochloride (equivalent to 32.31 mg of dopamine base). Each milliliter of preparation contains the following: Sodium metabisulfite 9 mg added as an antioxidant; citric acid, anhydrous 10 mg; and sodium citrate, dihydrate 5 mg added as a buffer. May contain additional citric acid and/or sodium citrate for pH adjustment. pH is 3.3 (2.5 to 5.0).</paragraph>
+                  <paragraph> Dopamine must be diluted in an appropriate sterile parenteral solution before intravenous administration <content styleCode="italics">[see Dosage and Administration (<linkHtml href="#LINK_9b753edd-4db2-497d-8a32-cada38ba411f">2.1</linkHtml>)]</content>.</paragraph>
+               </text>
+               <effectiveTime value="20240415"/>
+               <component>
+                  <observationMedia ID="MM5">
+                     <text>Dopamine structure</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="dopamine-hydrochloride-injection-usp-5.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_85590813-5e0e-4242-a548-b5a0b528e548">
+               <id root="bae86c07-20a8-4117-9db1-032b696529da"/>
+               <code code="34090-1" codeSystem="2.16.840.1.113883.6.1" displayName="CLINICAL PHARMACOLOGY SECTION"/>
+               <title>12 CLINICAL PHARMACOLOGY</title>
+               <text/>
+               <effectiveTime value="20240415"/>
+               <component>
+                  <section ID="LINK_0f8c599f-82f2-4836-9a08-cdc7ab0ba386">
+                     <id root="46538336-c0b8-421e-aa38-844eb2e2d67c"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>12.1 Mechanism of Action</title>
+                     <text>
+                        <paragraph>Dopamine is a natural catecholamine formed by the decarboxylation of 3,4 dihydroxyphenylalanine (DOPA). It is a precursor to norepinephrine in noradrenergic nerves and is also a neurotransmitter in certain areas of the central nervous system, especially in the nigrostriatal tract, and in a few peripheral sympathetic nerves.</paragraph>
+                        <paragraph> Dopamine elicits its pharmacological action by activating dopamine D1 and D2 receptors, beta 1 receptors and alpha 1 receptors. The activation of different receptors leading to its effects are dependent on dopamine dose.</paragraph>
+                     </text>
+                     <effectiveTime value="20240415"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_30d85165-e019-40f8-9f6d-ab57c12fb8c8">
+                     <id root="2d826c3f-97a2-4bde-ae08-682df3f03d03"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>12.2 Pharmacodynamics</title>
+                     <text>
+                        <paragraph>Dopamine’s onset of action occurs within five minutes of intravenous administration and the duration of action is less than about ten minutes. Dopamine effects are dosage-dependent.</paragraph>
+                        <list listType="unordered" styleCode="Disc">
+                           <item>At &lt;5 mcg/kg/minute, dopamine HCl activates dopamine D1 and D2 receptors in the renal, mesenteric, and coronary vasculature causing vasodilation.</item>
+                           <item>At 5 to 10 mcg/kg/minute, dopamine HCl activates beta-1 receptors enhancing heart rate and contractility.</item>
+                           <item>At &gt;10 mcg/kg/minute, dopamine HCl activates alpha-1 receptors causing vasoconstriction and increased blood pressure</item>
+                        </list>
+                     </text>
+                     <effectiveTime value="20240415"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_9dfd6517-37cb-44a1-9337-9323d9043088">
+                     <id root="2bbc65df-708a-495f-aa1d-cc2313f615a7"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>12.3 Pharmacokinetics</title>
+                     <text>
+                        <paragraph>
+                           <content styleCode="underline">Distribution</content>
+                        </paragraph>
+                        <paragraph>Following intravenous administration, dopamine is widely distributed in the body but does not cross the blood-brain barrier to a significant extent.</paragraph>
+                        <paragraph>
+                           <content styleCode="underline">Elimination</content>
+                        </paragraph>
+                        <paragraph>The half-life of dopamine in adults is less than 2 minutes.</paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Metabolism</content>
+                        </paragraph>
+                        <paragraph>About 75% of dopamine is metabolized by monoamine oxidase (MAO) and catechol O-methyl transferase (COMT) in the liver, kidney, and plasma to the inactive compounds homovanillic acid (HVA) and</paragraph>
+                        <paragraph>3,4-dihydroxyphenylacetic acid, and about 25% is metabolized to norepinephrine in the adrenergic nerve terminals.</paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Excretion</content>
+                        </paragraph>
+                        <paragraph>About 80% of dopamine is renally excreted as inactive metabolites within 24 hours. Dopamine is stored in vesicles or diffused back into the plasma.</paragraph>
+                        <paragraph>
+                           <content styleCode="underline">Specific Populations</content>
+                        </paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Pediatric Patients</content>
+                        </paragraph>
+                        <paragraph>The reported clearance rate of dopamine in critically ill infants and pediatric patients ranged from 46 to 168 mL/kg/minute, with the higher values seen in the younger patients. The reported apparent volume of distribution in neonates was 0.6 to 4 L/kg, leading to an elimination half life of 5 to 11 minutes.</paragraph>
+                     </text>
+                     <effectiveTime value="20240415"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_260349c4-1f65-4f93-adf6-ec579c098b06">
+               <id root="d71d88cb-875b-4ec4-9161-f1a788365c37"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <title>13 NONCLINICAL TOXICOLOGY</title>
+               <text/>
+               <effectiveTime value="20240415"/>
+               <component>
+                  <section ID="LINK_37e82810-3083-481f-981e-6d2e961ac270">
+                     <id root="b7d3ff9f-57f0-4c27-b2ba-4f639b59114f"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>13.1 Carcinogenesis, Mutagenesis, Impairment of Fertility</title>
+                     <text>
+                        <paragraph>
+                           <content styleCode="underline">Carcinogenesis</content>
+                        </paragraph>
+                        <paragraph>Long term animal studies have not been performed to evaluate the carcinogenic potential of dopamine.</paragraph>
+                        <paragraph>
+                           <content styleCode="underline">Mutagenesis</content>
+                        </paragraph>
+                        <paragraph>Dopamine HCl at doses approaching maximal solubility showed no clear genotoxic potential in the Ames test. Although there was a reproducible dose-dependent increase in the number of revertant colonies with strains TA100 and TA98, both with and without metabolic activation, the small increase was considered inconclusive evidence of mutagenicity. In the L5178Y TK<sup>+/-</sup> mouse lymphoma assay, dopamine HCl at the highest concentrations used of 750 mcg/mL without metabolic activation, and 3000 mcg/mL with activation, was toxic and associated with increases in mutant frequencies when compared to untreated and solvent controls; at the lower concentrations no increases over controls were noted.</paragraph>
+                        <paragraph>No clear evidence of clastogenic potential was reported in the <content styleCode="italics">in vivo </content>mouse or male rat bone marrow micronucleus test when the animals were treated intravenously with up to 224 mg/kg and 30 mg/kg of dopamine HCl, respectively.</paragraph>
+                     </text>
+                     <effectiveTime value="20240415"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_f8bd674c-81a1-4f45-8e45-86699ebd64a1">
+               <id root="701cb1b7-f1a1-43b1-baa8-f944774af647"/>
+               <code code="34069-5" codeSystem="2.16.840.1.113883.6.1" displayName="HOW SUPPLIED SECTION"/>
+               <title>16 HOW SUPPLIED/STORAGE AND HANDLING</title>
+               <text>
+                  <paragraph>Dopamine Hydrochloride Injection, USP is a clear, colorless to slightly yellow aqueous solution supplied as follows:</paragraph>
+                  <paragraph>Strength       Packaged         NDC No.</paragraph>
+                  <paragraph>200 mg/5 mL (40 mg/mL)  Carton of 25 vials       0143-9252-25</paragraph>
+                  <paragraph>400 mg/5 mL (80 mg/mL)  Carton of 25 vials       0143-9253-25</paragraph>
+                  <paragraph>400 mg/10 mL (40 mg/mL) Carton of 25 vials       0143-9254-25</paragraph>
+                  <paragraph>800 mg/10 mL (80 mg/mL) Carton of 25 vials       0143-9255-25</paragraph>
+                  <paragraph>Store at 20°C to 25°C (68°F to 77°F). [See USP Controlled Room Temperature.]</paragraph>
+               </text>
+               <effectiveTime value="20240415"/>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_855e8dc8-cf5d-4444-a877-9beb325c6bfc">
+               <id root="bce9b96a-56c0-4e95-ab09-6e05c52dab31"/>
+               <code code="34076-0" codeSystem="2.16.840.1.113883.6.1" displayName="INFORMATION FOR PATIENTS SECTION"/>
+               <title>17 PATIENT COUNSELING INFORMATION</title>
+               <text>
+                  <paragraph>
+                     <content styleCode="underline">Risk of Tissue Damage</content>
+                  </paragraph>
+                  <paragraph>Advise the patient, family, or caregiver to report signs of extravasation urgently <content styleCode="italics">[see Warnings and Precautions (<linkHtml href="#LINK_fe76231f-1fef-4be3-9404-c04d8680b3b7">5.1</linkHtml>)].</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="italics"> </content>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20240415"/>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_fca7a036-8360-4234-84df-871981705be9">
+               <id root="6f5b75ea-90b4-4e11-a16d-c004f60a9557"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <title/>
+               <text>
+                  <paragraph>Manufactured by:</paragraph>
+                  <paragraph>HIKMA FARMACÊUTICA (PORTUGAL), S.A.</paragraph>
+                  <paragraph>Estrada do Rio da Mó, nº 8, 8A e 8B – Fervença, 2705 – 906 Terrugem SNT PORTUGAL</paragraph>
+                  <paragraph>Distributed by:</paragraph>
+                  <paragraph>Hikma Pharmaceuticals USA Inc.</paragraph>
+                  <paragraph>Berkeley Heights, NJ 07922</paragraph>
+                  <paragraph>Revised: April 2024</paragraph>
+                  <paragraph>PIN491-WES/3</paragraph>
+               </text>
+               <effectiveTime value="20240415"/>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_f4e71348-9ba3-40e8-9896-7c3cd7bdac73">
+               <id root="a88c8b43-d5bc-4097-8630-0b344b12ad66"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>PRINCIPAL DISPLAY PANEL</title>
+               <text>
+                  <paragraph>NDC 0143-<content styleCode="bold">9252</content>-01      Rx only<br/>
+                     <content styleCode="bold">DOPamine<br/>
+Hydrochloride Injection, USP<br/>
+200 mg per 5 mL<br/>
+(40 mg/mL)</content>
+                     <br/>
+5 mL Single Dose Vial</paragraph>
+                  <renderMultiMedia referencedObject="MM6"/>
+               </text>
+               <effectiveTime value="20240415"/>
+               <component>
+                  <observationMedia ID="MM6">
+                     <text>200 mg per 5 mL vial</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="dopamine-hydrochloride-injection-usp-6.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_2f6134f8-6e71-4e19-9cf3-61ee66002dd3">
+               <id root="77539f0c-1821-4457-bb05-7cdeca9a5444"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>PRINCIPAL DISPLAY PANEL</title>
+               <text>
+                  <paragraph>NDC 0143-<content styleCode="bold">9252</content>-25      Rx only<br/>
+                     <content styleCode="bold">DOPamine<br/>
+Hydrochloride Injection, USP<br/>
+200 mg per 5 mL<br/>
+(40 mg/mL)</content>
+                     <br/>
+CAUTION: MUST BE DILUTED</paragraph>
+                  <paragraph>For Intravenous use</paragraph>
+                  <paragraph>25 x 5 mL Single Dose Vials</paragraph>
+                  <renderMultiMedia referencedObject="MM7"/>
+               </text>
+               <effectiveTime value="20240415"/>
+               <component>
+                  <observationMedia ID="MM7">
+                     <text>200 mg per 5 mL shelfpack</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="dopamine-hydrochloride-injection-usp-7.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_8a935e4a-c6a2-4567-82f1-a83c3cd90c7b">
+               <id root="f6c21d8a-b48e-44f5-b274-258b4914ea9b"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>PRINCIPAL DISPLAY PANEL</title>
+               <text>
+                  <paragraph>NDC 0143-<content styleCode="bold">9254</content>-01      Rx only<br/>
+                     <content styleCode="bold">DOPamine<br/>
+Hydrochloride Injection, USP<br/>
+400 mg per 10 mL<br/>
+(40 mg/mL)</content>
+                     <br/>
+10 mL Single Dose Vial</paragraph>
+                  <renderMultiMedia referencedObject="MM8"/>
+               </text>
+               <effectiveTime value="20240415"/>
+               <component>
+                  <observationMedia ID="MM8">
+                     <text>400 mg per 10 mL vial</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="dopamine-hydrochloride-injection-usp-8.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_3f996371-43ed-4524-98ed-c4b7e1bb8b0a">
+               <id root="df52f2ea-297e-4f02-911c-579425c26719"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>PRINCIPAL DISPLAY PANEL</title>
+               <text>
+                  <paragraph>NDC 0143-<content styleCode="bold">9254</content>-25      Rx only<br/>
+                     <content styleCode="bold">DOPamine<br/>
+Hydrochloride Injection, USP<br/>
+400 mg per 10 mL<br/>
+(40 mg/mL)</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">CAUTION: MUST BE DILUTED</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">For Intravenous use</content>
+                  </paragraph>
+                  <paragraph>25 x 10 mL Single Dose Vials</paragraph>
+                  <renderMultiMedia referencedObject="MM9"/>
+               </text>
+               <effectiveTime value="20240415"/>
+               <component>
+                  <observationMedia ID="MM9">
+                     <text>400 mg per 10 mL shelfpack</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="dopamine-hydrochloride-injection-usp-9.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

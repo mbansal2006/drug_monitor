@@ -1,0 +1,816 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="https://www.accessdata.fda.gov/spl/stylesheet/spl.xsl"?>
+<document xmlns="urn:hl7-org:v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 https://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="4acd703b-7a47-4745-8e4f-3f958c59267b"/>
+   <code code="34391-3" codeSystem="2.16.840.1.113883.6.1" displayName="HUMAN PRESCRIPTION DRUG LABEL"/>
+   <title>Phospholine Iodide®<br/>(echothiophate iodide for<br/>ophthalmic solution)
+</title>
+   <effectiveTime value="20240911"/>
+   <setId root="8afc8951-db76-4f27-8752-7c0d6aa47244"/>
+   <versionNumber value="4"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id extension="831023713" root="1.3.6.1.4.1.519.1"/>
+            <name>Fera Pharmaceuticals, LLC</name>
+            <assignedEntity>
+               <assignedOrganization/>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section ID="dcl-dpl">
+               <id root="a781ac4f-0049-4381-b175-eaf792231745"/>
+               <code code="48780-1" codeSystem="2.16.840.1.113883.6.1" displayName="SPL PRODUCT DATA ELEMENTS SECTION"/>
+               <effectiveTime value="20240911"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="48102-053" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>Phospholine Iodide</name>
+                        <formCode code="C47916" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="KIT"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>echothiophate iodide for ophthalmic solution</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <asContent>
+                           <quantity>
+                              <numerator value="1" unit="1"/>
+                              <denominator value="1" unit="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="48102-053-05" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43182" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CARTON"/>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <marketingAct>
+                                 <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 <statusCode code="active"/>
+                                 <effectiveTime>
+                                    <low value="20220601"/>
+                                 </effectiveTime>
+                              </marketingAct>
+                           </subjectOf>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" xsi:type="CV" displayName="Type 0: Not a Combination Product"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                        <part>
+                           <quantity>
+                              <numerator value="6.25" unit="mL"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <partProduct>
+                              <code code="48102-054" codeSystem="2.16.840.1.113883.6.69"/>
+                              <name>Phospholine Iodide</name>
+                              <formCode code="C42973" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="POWDER, FOR SOLUTION"/>
+                              <asEntityWithGeneric>
+                                 <genericMedicine>
+                                    <name>echothiophate iodide</name>
+                                 </genericMedicine>
+                              </asEntityWithGeneric>
+                              <ingredient classCode="ACTIB">
+                                 <quantity>
+                                    <numerator value="6.25" unit="mg"/>
+                                    <denominator value="5" unit="mL"/>
+                                 </quantity>
+                                 <ingredientSubstance>
+                                    <code code="BA9QH3P00T" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>echothiophate iodide</name>
+                                    <activeMoiety>
+                                       <activeMoiety>
+                                          <code code="0F350BVT6S" codeSystem="2.16.840.1.113883.4.9"/>
+                                          <name>echothiophate</name>
+                                       </activeMoiety>
+                                    </activeMoiety>
+                                 </ingredientSubstance>
+                              </ingredient>
+                              <ingredient classCode="IACT">
+                                 <quantity>
+                                    <numerator value="40" unit="mg"/>
+                                    <denominator value="5" unit="mL"/>
+                                 </quantity>
+                                 <ingredientSubstance>
+                                    <code code="M911911U02" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>potassium acetate</name>
+                                 </ingredientSubstance>
+                              </ingredient>
+                              <asContent>
+                                 <quantity>
+                                    <numerator value="6.25" unit="mL"/>
+                                    <denominator value="1" unit="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code code="48102-054-05" codeSystem="2.16.840.1.113883.6.69"/>
+                                    <formCode code="C43169" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BOTTLE"/>
+                                 </containerPackagedProduct>
+                                 <subjectOf>
+                                    <characteristic>
+                                       <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                       <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" xsi:type="CV" displayName="Type 0: Not a Combination Product"/>
+                                    </characteristic>
+                                 </subjectOf>
+                              </asContent>
+                           </partProduct>
+                           <subjectOf>
+                              <marketingAct>
+                                 <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 <statusCode code="active"/>
+                                 <effectiveTime>
+                                    <low value="20220601"/>
+                                 </effectiveTime>
+                              </marketingAct>
+                           </subjectOf>
+                           <subjectOf>
+                              <approval>
+                                 <id extension="NDA011963" root="2.16.840.1.113883.3.150"/>
+                                 <code code="C73594" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="NDA"/>
+                                 <author>
+                                    <territorialAuthority>
+                                       <territory>
+                                          <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                       </territory>
+                                    </territorialAuthority>
+                                 </author>
+                              </approval>
+                           </subjectOf>
+                           <consumedIn>
+                              <substanceAdministration>
+                                 <routeCode code="C38287" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="OPHTHALMIC"/>
+                              </substanceAdministration>
+                           </consumedIn>
+                        </part>
+                        <part>
+                           <quantity>
+                              <numerator value="5" unit="mL"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <partProduct>
+                              <code code="48102-055" codeSystem="2.16.840.1.113883.6.69"/>
+                              <name>Sterile Diluent for Preparing Phospholine Iodide</name>
+                              <formCode code="C42986" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="SOLUTION"/>
+                              <asEntityWithGeneric>
+                                 <genericMedicine>
+                                    <name>diluent solution</name>
+                                 </genericMedicine>
+                              </asEntityWithGeneric>
+                              <ingredient classCode="IACT">
+                                 <quantity>
+                                    <numerator value="27.5" unit="mg"/>
+                                    <denominator value="5" unit="mL"/>
+                                 </quantity>
+                                 <ingredientSubstance>
+                                    <code code="HM4YQM8WRC" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>chlorobutanol</name>
+                                 </ingredientSubstance>
+                              </ingredient>
+                              <ingredient classCode="IACT">
+                                 <quantity>
+                                    <numerator value="60" unit="mg"/>
+                                    <denominator value="5" unit="mL"/>
+                                 </quantity>
+                                 <ingredientSubstance>
+                                    <code code="3OWL53L36A" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>mannitol</name>
+                                 </ingredientSubstance>
+                              </ingredient>
+                              <ingredient classCode="IACT">
+                                 <quantity>
+                                    <numerator value="3" unit="mg"/>
+                                    <denominator value="5" unit="mL"/>
+                                 </quantity>
+                                 <ingredientSubstance>
+                                    <code code="R57ZHV85D4" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>boric acid</name>
+                                 </ingredientSubstance>
+                              </ingredient>
+                              <ingredient classCode="IACT">
+                                 <quantity>
+                                    <numerator value="1.3" unit="mg"/>
+                                    <denominator value="5" unit="mL"/>
+                                 </quantity>
+                                 <ingredientSubstance>
+                                    <code code="SE337SVY37" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>sodium phosphate</name>
+                                 </ingredientSubstance>
+                              </ingredient>
+                              <ingredient classCode="IACT">
+                                 <quantity>
+                                    <numerator value="5" unit="mL"/>
+                                    <denominator value="5" unit="mL"/>
+                                 </quantity>
+                                 <ingredientSubstance>
+                                    <code code="059QF0KO0R" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>water</name>
+                                 </ingredientSubstance>
+                              </ingredient>
+                              <asContent>
+                                 <quantity>
+                                    <numerator value="5" unit="mL"/>
+                                    <denominator value="1" unit="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code code="48102-055-05" codeSystem="2.16.840.1.113883.6.69"/>
+                                    <formCode code="C43169" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BOTTLE"/>
+                                 </containerPackagedProduct>
+                                 <subjectOf>
+                                    <characteristic>
+                                       <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                       <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" xsi:type="CV" displayName="Type 0: Not a Combination Product"/>
+                                    </characteristic>
+                                 </subjectOf>
+                              </asContent>
+                           </partProduct>
+                           <subjectOf>
+                              <marketingAct>
+                                 <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 <statusCode code="active"/>
+                                 <effectiveTime>
+                                    <low value="20220601"/>
+                                 </effectiveTime>
+                              </marketingAct>
+                           </subjectOf>
+                           <subjectOf>
+                              <approval>
+                                 <id extension="NDA011963" root="2.16.840.1.113883.3.150"/>
+                                 <code code="C73594" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="NDA"/>
+                                 <author>
+                                    <territorialAuthority>
+                                       <territory>
+                                          <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                       </territory>
+                                    </territorialAuthority>
+                                 </author>
+                              </approval>
+                           </subjectOf>
+                           <consumedIn>
+                              <substanceAdministration>
+                                 <routeCode code="C38287" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="OPHTHALMIC"/>
+                              </substanceAdministration>
+                           </consumedIn>
+                        </part>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20220601"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <subjectOf>
+                        <approval>
+                           <id extension="NDA011963" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73594" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="NDA"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38287" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="OPHTHALMIC"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section ID="s1">
+               <id root="d06b0024-215b-4f5d-935d-7c45ebe9d518"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">Rx only</content>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20211109"/>
+            </section>
+         </component>
+         <component>
+            <section ID="s2">
+               <id root="969c82f6-5a3f-4bdc-a680-35fbc84026ba"/>
+               <code code="34089-3" codeSystem="2.16.840.1.113883.6.1" displayName="DESCRIPTION SECTION"/>
+               <title>DESCRIPTION
+</title>
+               <text>
+                  <paragraph>Chemical name: (2-mercaptoethyl) trimethylammonium iodide O,O-diethyl phosphorothioate
+</paragraph>
+                  <paragraph>Structural formula
+</paragraph>
+                  <paragraph>
+                     <renderMultiMedia ID="f01" referencedObject="mm01"/>
+                  </paragraph>
+                  <paragraph>Echothiophate iodide for ophthalmic solution occurs as a white, crystalline, water-soluble, hygroscopic solid having a slight mercaptan-like odor. When freeze-dried in the presence of potassium acetate, the mixture appears as a white amorphous deposit on the walls of the bottle.
+</paragraph>
+                  <paragraph>Each package contains materials for dispensing 5 mL of eyedrops: (1) bottle containing sterile echothiophate iodide for ophthalmic solution 6.25 mg (0.125%) with 40 mg potassium acetate. Sodium hydroxide or acetic acid may have been incorporated to adjust pH during manufacturing; (2) a 5 mL bottle of sterile diluent containing chlorobutanol (chloral derivative), 0.55%; mannitol, 1.2%; boric acid, 0.06%; and sodium phosphate, 0.026%; (3) sterilized dropper.
+</paragraph>
+               </text>
+               <effectiveTime value="20240911"/>
+               <component>
+                  <observationMedia ID="mm01">
+                     <text>Structural Formula
+</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="pho04-0003-01.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="s3">
+               <id root="a1a36d86-bd42-48ea-85d4-b1087eb56d42"/>
+               <code code="34090-1" codeSystem="2.16.840.1.113883.6.1" displayName="CLINICAL PHARMACOLOGY SECTION"/>
+               <title>CLINICAL PHARMACOLOGY
+</title>
+               <text>
+                  <paragraph>Echothiophate iodide for ophthalmic solution is a long-acting cholinesterase inhibitor for topical use which enhances the effect of endogenously liberated acetylcholine in iris, ciliary muscle, and other parasympathetically innervated structures of the eye. It thereby causes miosis, increase in facility of outflow of aqueous humor, fall in intraocular pressure (IOP), and potentiation of accommodation.
+</paragraph>
+                  <paragraph>Echothiophate iodide for ophthalmic solution will depress both plasma and erythrocyte cholinesterase levels in most patients after a few weeks of eyedrop therapy.
+</paragraph>
+               </text>
+               <effectiveTime value="20211109"/>
+            </section>
+         </component>
+         <component>
+            <section ID="s4">
+               <id root="4f5990d8-e0d8-47f9-b299-97f1b7e9b352"/>
+               <code code="34067-9" codeSystem="2.16.840.1.113883.6.1" displayName="INDICATIONS &amp; USAGE SECTION"/>
+               <title>INDICATIONS AND USAGE
+</title>
+               <effectiveTime value="20211109"/>
+               <component>
+                  <section ID="s5">
+                     <id root="bd28353d-b179-413c-954b-b29e537fb311"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Reduction of Elevated IOP
+</title>
+                     <text>
+                        <paragraph>Echothiophate iodide for ophthalmic solution is indicated for the reduction of elevated IOP.
+</paragraph>
+                     </text>
+                     <effectiveTime value="20211109"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s6">
+                     <id root="993baf42-8e91-43fc-8c8c-936acb140fb2"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Accommodative Esotropia
+</title>
+                     <text>
+                        <paragraph>Concomitant esotropias with a significant accommodative component.
+</paragraph>
+                     </text>
+                     <effectiveTime value="20211109"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="s7">
+               <id root="f2063092-0e9a-4847-a043-14382282e083"/>
+               <code code="34070-3" codeSystem="2.16.840.1.113883.6.1" displayName="CONTRAINDICATIONS SECTION"/>
+               <title>CONTRAINDICATIONS
+</title>
+               <text>
+                  <list listType="ordered" styleCode="Arabic">
+                     <item>Active uveal inflammation.
+</item>
+                     <item>Most cases of angle-closure glaucoma without iridectomy, due to the possibility of increasing angle block.
+</item>
+                     <item>Hypersensitivity to the active or inactive ingredients.
+</item>
+                  </list>
+               </text>
+               <effectiveTime value="20211109"/>
+            </section>
+         </component>
+         <component>
+            <section ID="s8">
+               <id root="a4bdff5a-7450-469a-82d4-6156c2405c2c"/>
+               <code code="34071-1" codeSystem="2.16.840.1.113883.6.1" displayName="WARNINGS SECTION"/>
+               <title>WARNINGS
+</title>
+               <text>
+                  <list listType="ordered" styleCode="Arabic">
+                     <item>Succinylcholine should be administered only with great caution, if at all, prior to or during general anesthesia to patients receiving anticholinesterase medication because of possible respiratory or cardiovascular collapse.
+</item>
+                     <item>Caution should be observed in treating elevated IOP with echothiophate iodide for ophthalmic solution in patients who are at the same time undergoing treatment with systemic anticholinesterase medications, because of possible adverse additive effects.
+</item>
+                  </list>
+               </text>
+               <effectiveTime value="20211109"/>
+            </section>
+         </component>
+         <component>
+            <section ID="s9">
+               <id root="4668304c-a109-4f68-a256-6d1a75c7be9d"/>
+               <code code="42232-9" codeSystem="2.16.840.1.113883.6.1" displayName="PRECAUTIONS SECTION"/>
+               <title>PRECAUTIONS
+</title>
+               <effectiveTime value="20211109"/>
+               <component>
+                  <section ID="s10">
+                     <id root="71e2a982-cab8-4b45-b1c0-eef7b7876a39"/>
+                     <code code="34072-9" codeSystem="2.16.840.1.113883.6.1" displayName="GENERAL PRECAUTIONS SECTION"/>
+                     <title>General
+</title>
+                     <text>
+                        <list listType="ordered" styleCode="Arabic">
+                           <item>Digital compression of the nasolacrimal ducts for a minute or two following instillation to minimize drainage into the nasal chamber is recommended. To prevent possible skin absorption, hands should be washed following instillation.
+</item>
+                           <item>Discontinue use of the medication if cardiac irregularities occur.
+</item>
+                           <item>Anticholinesterase drugs should be used with caution, if at all, in patients with marked vagotonia, bronchial asthma, spastic gastrointestinal disturbances, peptic ulcer, pronounced bradycardia and hypotension, recent myocardial infarction, epilepsy, parkinsonism, and other disorders that may respond adversely to vagotonic effects.
+</item>
+                           <item>Echothiophate iodide for ophthalmic solution should be used with caution, where there is a prior history of retinal detachment.
+</item>
+                           <item>Temporary discontinuance of medication is necessary if salivation, urinary incontinence, diarrhea, profuse sweating, muscle weakness, or respiratory difficulties occur.
+</item>
+                           <item>Patients receiving echothiophate iodide for ophthalmic solution who are exposed to carbamate- or organophosphate-type insecticides and pesticides should be warned of the additive systemic effects possible from absorption of the pesticide through the respiratory tract or skin. During periods of exposure to such pesticides, the wearing of respiratory masks, and frequent washing and clothing changes may be advisable.
+</item>
+                        </list>
+                     </text>
+                     <effectiveTime value="20211109"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s11">
+                     <id root="dd9e133c-f422-4199-85f8-20747a6ac9e9"/>
+                     <code code="34073-7" codeSystem="2.16.840.1.113883.6.1" displayName="DRUG INTERACTIONS SECTION"/>
+                     <title>Drug Interactions
+</title>
+                     <text>
+                        <paragraph>Echothiophate iodide for ophthalmic solution potentiates other cholinesterase inhibitors such as succinylcholine or organophosphate and carbamate insecticides. Patients undergoing systemic anticholinesterase treatment should be warned of the possible additive effects of echothiophate iodide for ophthalmic solution.
+</paragraph>
+                     </text>
+                     <effectiveTime value="20211109"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s12">
+                     <id root="3c243710-e8a1-4a7d-a03f-95bfffe84ca6"/>
+                     <code code="34083-6" codeSystem="2.16.840.1.113883.6.1" displayName="CARCINOGENESIS &amp; MUTAGENESIS &amp; IMPAIRMENT OF FERTILITY SECTION"/>
+                     <title>Carcinogenesis, Mutagenesis, Impairment of Fertility
+</title>
+                     <text>
+                        <paragraph>No data is available regarding carcinogenesis, mutagenesis, and impairment of fertility.
+</paragraph>
+                     </text>
+                     <effectiveTime value="20211109"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s13">
+                     <id root="035b97c6-1e10-427c-b6b0-18d6ddd9ed24"/>
+                     <code code="42228-7" codeSystem="2.16.840.1.113883.6.1" displayName="PREGNANCY SECTION"/>
+                     <title>Pregnancy
+</title>
+                     <effectiveTime value="20211109"/>
+                     <component>
+                        <section ID="s14">
+                           <id root="320476b6-197f-4cfa-89e6-3b8e0d2a0ad7"/>
+                           <code code="34077-8" codeSystem="2.16.840.1.113883.6.1" displayName="TERATOGENIC EFFECTS SECTION"/>
+                           <title>Teratogenic Effects
+</title>
+                           <text>
+                              <paragraph>Animal reproduction studies have not been conducted with echothiophate iodide for ophthalmic solution. It is also not known whether echothiophate iodide for ophthalmic solution can cause fetal harm when administered to a pregnant woman or can affect reproduction capacity. Echothiophate iodide for ophthalmic solution should be given to a pregnant woman only if clearly needed.
+</paragraph>
+                           </text>
+                           <effectiveTime value="20211109"/>
+                        </section>
+                     </component>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s15">
+                     <id root="e0faf458-a278-42a4-af60-34895cc11cf9"/>
+                     <code code="34080-2" codeSystem="2.16.840.1.113883.6.1" displayName="NURSING MOTHERS SECTION"/>
+                     <title>Nursing Mothers
+</title>
+                     <text>
+                        <paragraph>Because of the potential for serious adverse reactions in nursing infants from echothiophate iodide for ophthalmic solution, a decision should be made whether to discontinue nursing or to discontinue the drug, taking into account the importance of the drug to the mother.
+</paragraph>
+                     </text>
+                     <effectiveTime value="20211109"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s16">
+                     <id root="9cca1e4a-6d49-4c9b-bd53-1a55902c6dc6"/>
+                     <code code="34081-0" codeSystem="2.16.840.1.113883.6.1" displayName="PEDIATRIC USE SECTION"/>
+                     <title>Pediatric Use
+</title>
+                     <text>
+                        <paragraph>Safety and effectiveness in pediatric patients have been established.
+</paragraph>
+                     </text>
+                     <effectiveTime value="20211109"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s17">
+                     <id root="344d8af2-0d7b-41ab-a4b5-34bcba4fd9bb"/>
+                     <code code="34082-8" codeSystem="2.16.840.1.113883.6.1" displayName="GERIATRIC USE SECTION"/>
+                     <title>Geriatric Use
+</title>
+                     <text>
+                        <paragraph>No overall differences in safety or effectiveness have been observed between elderly and younger patients.
+</paragraph>
+                     </text>
+                     <effectiveTime value="20211109"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="s18">
+               <id root="fbc0fa4d-6426-4199-a3a1-cffd0bf694d5"/>
+               <code code="34084-4" codeSystem="2.16.840.1.113883.6.1" displayName="ADVERSE REACTIONS SECTION"/>
+               <title>ADVERSE REACTIONS
+</title>
+               <text>
+                  <list listType="ordered" styleCode="Arabic">
+                     <item>Although the relationship, if any, of retinal detachment to the administration of echothiophate iodide for ophthalmic solution has not been established, retinal detachment has been reported in a few cases during the use of echothiophate iodide for ophthalmic solution in adult patients without a previous history of this disorder.
+</item>
+                     <item>Stinging, burning, lacrimation, lid muscle twitching, conjunctival and ciliary redness, browache, induced myopia with visual blurring may occur.
+</item>
+                     <item>Activation of latent iritis or uveitis may occur.
+</item>
+                     <item>Iris cysts may form, and if treatment is continued, may enlarge and obscure vision. This occurrence is more frequent in children. The cysts usually shrink upon discontinuance of the medication or by reducing the frequency of instillation. Rarely, they may rupture or break free into the aqueous. Regular examinations are advisable when the drug is being prescribed for the treatment of accommodative esotropia.
+</item>
+                     <item>Prolonged use may cause conjunctival thickening, obstruction of nasolacrimal canals.
+</item>
+                     <item>Lens opacities have been reported with echothiophate iodide.
+</item>
+                     <item>Paradoxical increase in IOP may follow anticholinesterase instillation. This may be alleviated by prescribing a sympathomimetic mydriatic such as phenylephrine.
+</item>
+                     <item>Cardiac irregularities.
+</item>
+                  </list>
+               </text>
+               <effectiveTime value="20211109"/>
+            </section>
+         </component>
+         <component>
+            <section ID="s19">
+               <id root="acd2ec25-1c9a-4302-a958-68e10ff8e103"/>
+               <code code="34068-7" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE &amp; ADMINISTRATION SECTION"/>
+               <title>DOSAGE AND ADMINISTRATION
+</title>
+               <effectiveTime value="20211109"/>
+            </section>
+         </component>
+         <component>
+            <section ID="e19">
+               <id root="075ba41f-5f4e-46a4-a62e-2c22a88f698d"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <text>
+                  <paragraph>Directions for Preparing Eyedrops</paragraph>
+                  <list listType="ordered" styleCode="Arabic">
+                     <item>Use aseptic technique.
+</item>
+                     <item>Tear off aluminum seals and remove and discard rubber plugs from both drug and diluent containers.
+</item>
+                     <item>Pour diluent into drug container.
+</item>
+                     <item>Remove dropper assembly from its sterile wrapping and attach to the drug container.  
+</item>
+                     <item>Shake for several seconds to ensure mixing.
+</item>
+                     <item>Do not cover nor obliterate instructions to patient regarding administration and storage of eyedrops.
+</item>
+                  </list>
+               </text>
+               <effectiveTime value="20211109"/>
+               <component>
+                  <section ID="s20">
+                     <id root="e2a3fc6b-ca16-446c-a24e-1f90ac30913e"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Elevated IOP
+</title>
+                     <text>
+                        <paragraph>Echothiophate iodide for ophthalmic solution one drop instilled twice a day, just before retiring and in the morning. A change in therapy is indicated if, at any time, the tension fails to remain at an acceptable level on this regimen.
+</paragraph>
+                        <paragraph>Two doses a day are preferred to one in order to maintain as smooth a diurnal tension curve as possible, although a single dose per day or every other day has been used with satisfactory results. The daily dose or one of the two daily doses should always be instilled just before retiring to avoid inconvenience due to the miosis.
+</paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Technique</content> – Technique in the administration of echothiophate iodide for ophthalmic solution may include finger pressure at the inner canthus exerted for a minute or two following instillation of the eyedrops, to potentially minimize drainage into the nose and throat. Excess solution around the eye should be removed with tissue and any medication on the hands should be rinsed off.
+</paragraph>
+                     </text>
+                     <effectiveTime value="20211109"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s21">
+                     <id root="e7377549-e730-4e5a-82c7-66325af767c7"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Accommodative Esotropia (Pediatric Use)
+</title>
+                     <text>
+                        <paragraph>
+                           <content styleCode="italics">In Diagnosis</content> – One drop may be instilled once a day in both eyes on retiring, for a period of two or three weeks. If the esotropia is accommodative, a favorable response will usually be noted which may begin within a few hours.
+</paragraph>
+                        <paragraph>
+                           <content styleCode="italics">In Treatment</content> – Echothiophate iodide for ophthalmic solution is prescribed at the lowest frequency which gives satisfactory results. After the initial period of treatment for diagnostic purposes, the schedule may be reduced to one drop every other day. The maximum usually recommended dosage is one drop once a day, although more intensive therapy has been used for short periods.
+</paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Technique</content> – (See “<content styleCode="bold">
+                              <linkHtml href="#s19">DOSAGE AND ADMINISTRATION</linkHtml>
+                           </content>”)
+</paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Duration of Treatment</content> — In therapy, there is no definite limit so long as the drug is well tolerated. However, if the eyedrops, with or without eyeglasses, are gradually withdrawn after about a year or two and deviation recurs, surgery should be considered. As with other miotics, tolerance may occasionally develop after prolonged use. In such cases, a rest period may restore the original activity of the drug.
+</paragraph>
+                     </text>
+                     <effectiveTime value="20211109"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="s22">
+               <id root="1f70de98-d77e-4a56-a01f-7eeafa08d313"/>
+               <code code="34069-5" codeSystem="2.16.840.1.113883.6.1" displayName="HOW SUPPLIED SECTION"/>
+               <title>HOW SUPPLIED
+</title>
+               <text>
+                  <paragraph>Each package contains sterile echothiophate iodide for ophthalmic solution, sterile diluent, and dropper for dispensing 5 mL eyedrops.
+</paragraph>
+                  <paragraph>NDC 48102-053-05 ................... 6.25 mg package for 0.125%
+</paragraph>
+                  <paragraph>White amorphous deposit on bottle walls. Aluminum crimp seal is green.
+</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">HANDLING AND STORAGE:</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Prior to reconstitution: Store under refrigeration (2°C to 8°C).</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">After reconstitution: Store upright at room temperature (approximately 25°C)</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">(68°F to 77° F).</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Do not refrigerate. Discard any unused solution after 4 weeks.</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">FERA</content>
+                     <sup>®
+</sup>
+                     <br/>PHARMACEUTICALS<br/>Distributed by:<br/>Fera Pharmaceuticals, LLC<br/>Locust Valley, NY 11560<br/>PF053
+</paragraph>
+                  <paragraph>Rev. 0923
+</paragraph>
+               </text>
+               <effectiveTime value="20211109"/>
+            </section>
+         </component>
+         <component>
+            <section ID="s23">
+               <id root="b99baaa7-44d1-4dc8-8d68-135407c2fe2d"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>Principal Display Panel - 6.25 mg/5 mL Carton Label
+</title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">FERA</content>
+                     <content styleCode="bold">
+                        <sup>®</sup>
+                     </content>
+                     <content styleCode="bold">
+                        <br/>
+                     </content>PHARMACEUTICALS
+</paragraph>
+                  <paragraph>NDC 48102-053-05
+</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Phospholine Iodide</content>
+                     <sup>®</sup>
+                  </paragraph>
+                  <paragraph>(echothiophate iodide<br/>
+                     <content styleCode="bold">for ophthalmic solution)</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">0.125%</content> (1/8%) <content styleCode="bold">6.25 mg/5 mL</content>
+                  </paragraph>
+                  <paragraph>This package contains sterile<br/>echothiophate iodide with 40 mg<br/>potassium acetate (sodium<br/>hydroxide or acetic acid may have<br/>been incorporated to adjust pH<br/>during manufacturing) and 5 mL<br/>(1/6 fl oz) sterile aqueous diluent,<br/>in individual bottles for dispensing<br/>5 mL of eyedrops of strength<br/>shown when reconstituted.
+</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Rx only</content>
+                  </paragraph>
+                  <renderMultiMedia ID="f02" referencedObject="mm02"/>
+               </text>
+               <effectiveTime value="20240911"/>
+               <component>
+                  <observationMedia ID="mm02">
+                     <text>Principal Display Panel - 6.25 mg/5 mL Carton Label
+</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="pho04-0003-02.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="s24">
+               <id root="205bae4c-d584-409f-8268-014d604ab3b2"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>Principal Display Panel - 6.25 mg/5 mL Bottle Label
+</title>
+               <text>
+                  <paragraph>NDC 48102-054-05
+</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Rx only</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Phospholine Iodide</content>
+                     <content styleCode="bold">
+                        <sup>®</sup>
+                     </content>
+                  </paragraph>
+                  <paragraph>(echothiophate iodide<br/>
+                     <content styleCode="bold">for ophthalmic solution)</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">0.125%</content> (1/8%) <content styleCode="bold">6.25 mg/5 mL</content>
+                  </paragraph>
+                  <paragraph>Each 5 mL contains 6.25 mg of echothiophate iodide<br/>With 40 mg Potassium Acetate for preparing 5 mL eyedrops.
+</paragraph>
+                  <paragraph>See Prescribing Information.
+</paragraph>
+                  <renderMultiMedia ID="f03" referencedObject="mm03"/>
+               </text>
+               <effectiveTime value="20240911"/>
+               <component>
+                  <observationMedia ID="mm03">
+                     <text>Principal Display Panel - 6.25 mg/5 mL Bottle Label
+</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="pho04-0003-03.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="s25">
+               <id root="baaa0cf4-3c0f-4cb9-a855-51e9a79f5a50"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>Principal Display Panel - 5 mL Bottle Label
+</title>
+               <text>
+                  <paragraph>NDC 48102-055-05
+</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">STERILE DILUENT<br/>FOR PREPARING<br/>Phospholine Iodide</content>
+                     <content styleCode="bold">
+                        <sup>®</sup>
+                     </content>
+                  </paragraph>
+                  <paragraph>(echothiophate iodide
+</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">for ophthalmic solution)</content>
+                  </paragraph>
+                  <paragraph>5 mL (1/6 fl oz)
+</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">EYEDROPS</content>
+                  </paragraph>
+                  <renderMultiMedia ID="f04" referencedObject="mm04"/>
+               </text>
+               <effectiveTime value="20240911"/>
+               <component>
+                  <observationMedia ID="mm04">
+                     <text>Principal Display Panel - 5 mL Bottle Label
+</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="pho04-0003-04.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

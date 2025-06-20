@@ -1,0 +1,990 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="https://www.accessdata.fda.gov/spl/stylesheet/spl.xsl" type="text/xsl"?>
+<document xmlns="urn:hl7-org:v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 https://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="5807ed14-bc00-4761-a8bd-31ded7be79ef"/>
+   <code code="34391-3" codeSystem="2.16.840.1.113883.6.1" displayName="HUMAN PRESCRIPTION DRUG LABEL"/>
+   <title/>
+   <effectiveTime value="20250118"/>
+   <setId root="b54f5334-cdf1-8a22-e053-2995a90ad6da"/>
+   <versionNumber value="7"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id extension="080508656" root="1.3.6.1.4.1.519.1"/>
+            <name>Afaxys Pharma LLC</name>
+            <assignedEntity>
+               <assignedOrganization>
+                  <id extension="080508656" root="1.3.6.1.4.1.519.1"/>
+                  <name>Afaxys Pharma LLC</name>
+               </assignedOrganization>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section ID="dcl-dpl">
+               <id root="9b400e5b-efd8-4017-838a-52fbef9ed8ea"/>
+               <code code="48780-1" codeSystem="2.16.840.1.113883.6.1" displayName="SPL PRODUCT DATA ELEMENTS SECTION"/>
+               <effectiveTime value="20250118"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="50102-400" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>Lidocaine Hydrochloride</name>
+                        <formCode code="C42946" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="INJECTION"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>lidocaine hydrochloride</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <ingredient classCode="ACTIR">
+                           <quantity>
+                              <numerator value="10" unit="mg"/>
+                              <denominator value="1" unit="mL"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="V13007Z41A" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>Lidocaine Hydrochloride</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="98PI200987" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>Lidocaine</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                              <asEquivalentSubstance>
+                                 <definingSubstance>
+                                    <code code="EC2CNF7XFP" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>Lidocaine Hydrochloride Anhydrous</name>
+                                 </definingSubstance>
+                              </asEquivalentSubstance>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <quantity>
+                              <numerator value="1" unit="mg"/>
+                              <denominator value="1" unit="mL"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="A2I8C7HI9T" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>Methylparaben</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <quantity>
+                              <numerator value="7" unit="mg"/>
+                              <denominator value="1" unit="mL"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="451W47IQ8X" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>Sodium Chloride</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="55X04QC32I" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>Sodium Hydroxide</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="QTT17582CB" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>Hydrochloric Acid</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator value="20" unit="mL"/>
+                              <denominator value="1" unit="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="50102-400-01" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43210" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="VIAL, MULTI-DOSE"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator value="10" unit="1"/>
+                                    <denominator value="1" unit="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code code="50102-400-10" codeSystem="2.16.840.1.113883.6.69"/>
+                                    <formCode code="C53438" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="TRAY"/>
+                                 </containerPackagedProduct>
+                                 <subjectOf>
+                                    <marketingAct>
+                                       <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                       <statusCode code="active"/>
+                                       <effectiveTime>
+                                          <low value="20220629"/>
+                                       </effectiveTime>
+                                    </marketingAct>
+                                 </subjectOf>
+                              </asContent>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" xsi:type="CV" displayName="Type 0: Not a Combination Product"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <id extension="ANDA215132" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73584" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ANDA"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="completed"/>
+                           <effectiveTime>
+                              <low value="20220629"/>
+                              <high value="20250701"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38215" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="INFILTRATION"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38293" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="PERINEURAL"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section ID="s1">
+               <id root="8e38ee6e-6099-4ee1-a2fb-da64731193f7"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <text>
+                  <paragraph>Revised: June 2022</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Lidocaine Hydrochloride Injection, USP</content>
+                  </paragraph>
+                  <paragraph>For Infiltration and Nerve Block</paragraph>
+                  <paragraph>Rx only</paragraph>
+               </text>
+               <effectiveTime value="20250118"/>
+            </section>
+         </component>
+         <component>
+            <section ID="s2">
+               <id root="dcdcbf08-a0bb-420b-b754-f897e926f8d6"/>
+               <code code="34089-3" codeSystem="2.16.840.1.113883.6.1" displayName="DESCRIPTION SECTION"/>
+               <title>DESCRIPTION:</title>
+               <text>
+                  <paragraph>Lidocaine Hydrochloride Injection is a sterile, nonpyrogenic, aqueous solution that contains a local anesthetic agent which produces local or regional anesthesia by infiltration techniques such as percutaneous injection and intravenous regional anesthesia by peripheral nerve block techniques such as brachial plexus and intercostal and by central neural techniques such as lumbar and caudal epidural blocks. See <content styleCode="bold">
+                        <linkHtml href="#s7">INDICATIONS AND USAGE</linkHtml>
+                     </content> section for specific uses.</paragraph>
+                  <paragraph>Lidocaine Hydrochloride Injection contains lidocaine HCl, which is chemically designated as acetamide, 2-(diethylamino)-N-(2,6-dimethylphenyl)-, monohydrochloride and has the molecular wt. 270.8. Lidocaine HCl (C<sub>14</sub>H<sub>22</sub>N<sub>2</sub>O •HCl) has the following structural formula:</paragraph>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="mm01"/>
+                  </paragraph>
+                  <paragraph>Lidocaine Hydrochloride Injection in multiple dose vials: Each mL also contains 1 mg methylparaben as antiseptic preservative and 7 mg of sodium chloride as tonicity adjuster. The pH of this solution is adjusted to approximately 6.5 (5.0 to 7.0) with sodium hydroxide and/or hydrochloric acid.</paragraph>
+               </text>
+               <effectiveTime value="20230217"/>
+               <component>
+                  <observationMedia ID="mm01">
+                     <text>Structural Formula</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="lidocaine-01.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="s3">
+               <id root="74f61b8f-c17f-4aef-abbf-c26c61f14dbc"/>
+               <code code="34090-1" codeSystem="2.16.840.1.113883.6.1" displayName="CLINICAL PHARMACOLOGY SECTION"/>
+               <title>CLINICAL PHARMACOLOGY:</title>
+               <effectiveTime value="20220501"/>
+               <component>
+                  <section ID="s4">
+                     <id root="8caebe5e-5fed-441b-adfe-cd9c51e1b6f0"/>
+                     <code code="43679-0" codeSystem="2.16.840.1.113883.6.1" displayName="MECHANISM OF ACTION SECTION"/>
+                     <title>Mechanism of Action</title>
+                     <text>
+                        <paragraph>Lidocaine HCl stabilizes the neuronal membrane by inhibiting the ionic fluxes required for the initiation and conduction of impulses thereby effecting local anesthetic action.</paragraph>
+                     </text>
+                     <effectiveTime value="20220501"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s5">
+                     <id root="25c2d4c7-fcc8-4327-8bc1-533bf763fba2"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Hemodynamics</title>
+                     <text>
+                        <paragraph>Excessive blood levels may cause changes in cardiac output, total peripheral resistance, and mean arterial pressure. With central neural blockade these changes may be attributable to block of autonomic fibers, a direct depressant effect of the local anesthetic agent on various components of the cardiovascular system, and/or the beta-adrenergic receptor stimulating action of epinephrine when present. The net effect is normally a modest hypotension when the recommended dosages are not exceeded.</paragraph>
+                     </text>
+                     <effectiveTime value="20220501"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s6">
+                     <id root="6d11a81f-be67-4da6-b039-481f3fdac1d5"/>
+                     <code code="43682-4" codeSystem="2.16.840.1.113883.6.1" displayName="PHARMACOKINETICS SECTION"/>
+                     <title>Pharmacokinetics and Metabolism</title>
+                     <text>
+                        <paragraph>Information derived from diverse formulations, concentrations and usages reveals that lidocaine HCl is completely absorbed following parenteral administration, its rate of absorption depending, for example, upon various factors such as the site of administration and the presence or absence of a vasoconstrictor agent. Except for intravascular administration, the highest blood levels are obtained following intercostal nerve block and the lowest after subcutaneous administration.</paragraph>
+                        <paragraph> The plasma binding of lidocaine HCl is dependent on drug concentration, and the fraction bound decreases with increasing concentration. At concentrations of 1 to 4 mcg of free base per mL 60 to 80 percent of lidocaine HCl is protein bound. Binding is also dependent on the plasma concentration of the alpha-1-acid glycoprotein.</paragraph>
+                        <paragraph>Lidocaine HCl crosses the blood-brain and placental barriers, presumably by passive diffusion.</paragraph>
+                        <paragraph>Lidocaine HCl is metabolized rapidly by the liver, and metabolites and unchanged drug are excreted by the kidneys. Biotransformation includes oxidative N-dealkylation, ring hydroxylation, cleavage of the amide linkage, and conjugation. N-dealkylation, a major pathway of biotransformation, yields the metabolites monoethylglycinexylidide and glycinexylidide. The pharmacological/toxicological actions of these metabolites are similar to, but less potent than, those of lidocaine HCl. Approximately 90% of lidocaine HCl administered is excreted in the form of various metabolites, and less than 10% is excreted unchanged. The primary metabolite in urine is a conjugate of 4-hydroxy-2,6- dimethylaniline.</paragraph>
+                        <paragraph>The elimination half-life of lidocaine HCl following an intravenous bolus injection is typically 1.5 to 2 hours. Because of the rapid rate at which lidocaine HCl is metabolized, any condition that affects liver function may alter lidocaine HCl kinetics. The half-life may be prolonged two-fold or more in patients with liver dysfunction. Renal dysfunction does not affect lidocaine HCl kinetics but may increase the accumulation of metabolites.</paragraph>
+                        <paragraph>Factors such as acidosis and the use of CNS stimulants and depressants affect the CNS levels of lidocaine HCl required to produce overt systemic effects. Objective adverse manifestations become increasingly apparent with increasing venous plasma levels above 6 mcg free base per mL. In the rhesus monkey arterial blood levels of 18 to 21 mcg/mL have been shown to be threshold for convulsive activity.</paragraph>
+                     </text>
+                     <effectiveTime value="20220501"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="s7">
+               <id root="194e3b44-f01c-449b-8564-6b78ce7d4218"/>
+               <code code="34067-9" codeSystem="2.16.840.1.113883.6.1" displayName="INDICATIONS &amp; USAGE SECTION"/>
+               <title>INDICATIONS AND USAGE:</title>
+               <text>
+                  <paragraph>Lidocaine Hydrochloride Injection is indicated for production of local or regional anesthesia by infiltration techniques such as percutaneous injection and intravenous regional anesthesia by peripheral nerve block techniques such as brachial plexus and intercostal and by central neural techniques such as lumbar and caudal epidural blocks, when the accepted procedures for these techniques as described in standard textbooks are observed.</paragraph>
+               </text>
+               <effectiveTime value="20220501"/>
+            </section>
+         </component>
+         <component>
+            <section ID="s8">
+               <id root="8fe9e908-4039-497a-9561-a57248fa18f9"/>
+               <code code="34070-3" codeSystem="2.16.840.1.113883.6.1" displayName="CONTRAINDICATIONS SECTION"/>
+               <title>CONTRAINDICATIONS:</title>
+               <text>
+                  <paragraph>Lidocaine HCl is contraindicated in patients with a known history of hypersensitivity to local anesthetics of the amide-type.</paragraph>
+               </text>
+               <effectiveTime value="20220501"/>
+            </section>
+         </component>
+         <component>
+            <section ID="s9">
+               <id root="98660c5a-be2f-43bc-8ab2-1126d5ab387b"/>
+               <code code="34071-1" codeSystem="2.16.840.1.113883.6.1" displayName="WARNINGS SECTION"/>
+               <title>WARNINGS:</title>
+               <text>
+                  <paragraph>LIDOCAINE  HYDROCHLORIDE INJECTION FOR INFILTRATION AND NERVE BLOCK SHOULD BE EMPLOYED ONLY BY CLINICIANS WHO ARE WELL VERSED IN DIAGNOSIS AND MANAGEMENT OF DOSE-RELATED TOXICITY AND OTHER ACUTE EMERGENCIES THAT MIGHT ARISE FROM THE BLOCK TO BE EMPLOYED AND THEN ONLY AFTER ENSURING THE IMMEDIATE AVAILABILITY OF OXYGEN, OTHER RESUSCITATIVE DRUGS, CARDIOPULMONARY EQUIPMENT AND THE PERSONNEL NEEDED FOR PROPER MANAGEMENT OF TOXIC REACTIONS AND RELATED EMERGENCIES (see also <content styleCode="bold">
+                        <linkHtml href="#s23">ADVERSE REACTIONS</linkHtml>
+                     </content> and <content styleCode="bold">
+                        <linkHtml href="#s11">PRECAUTIONS</linkHtml>
+                     </content>). DELAY IN PROPER MANAGEMENT OF DOSE-RELATED TOXICITY, UNDERVENTILATION FROM ANY CAUSE AND/OR ALTERED SENSITIVITY MAY LEAD TO THE DEVELOPMENT OF ACIDOSIS, CARDIAC ARREST AND, POSSIBLY, DEATH.</paragraph>
+               </text>
+               <effectiveTime value="20220501"/>
+               <component>
+                  <section ID="s10">
+                     <id root="ceccb428-6b99-4d07-bd34-451385026d81"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Methemoglobinemia</title>
+                     <text>
+                        <paragraph>Cases of methemoglobinemia have been reported in association with local anesthetic use. Although all patients are at risk for methemoglobinemia, patients with glucose-6-phosphate dehydrogenase deficiency, congenital or idiopathic methemoglobinemia, cardiac or pulmonary compromise, infants under 6 months of age, and concurrent exposure to oxidizing agents or their metabolites are more susceptible to developing clinical manifestations of the condition. If local anesthetics must be used in these patients, close monitoring for symptoms and signs of methemoglobinemia is recommended.</paragraph>
+                        <paragraph> Signs of methemoglobinemia may occur immediately or may be delayed some hours after exposure, and are characterized by a cyanotic skin discoloration and/or abnormal coloration of the blood. Methemoglobin levels may continue to rise; therefore, immediate treatment is required to avert more serious central nervous system and cardiovascular adverse effects, including seizures, coma, arrhythmias, and death. Discontinue lidocaine hydrochloride injection, and any other oxidizing agents. Depending on the severity of the signs and symptoms, patients may respond to supportive care, i.e., oxygen therapy, hydration. A more severe clinical presentation may require treatment with methylene blue, exchange transfusion, or hyperbaric oxygen.</paragraph>
+                        <paragraph> Intra-articular infusions of local anesthetics following arthroscopic and other surgical procedures is an unapproved use, and there have been post-marketing reports of chondrolysis in patients receiving such infusions. The majority of reported cases of chondrolysis have involved the shoulder joint; cases of gleno-humeral chondrolysis have been described in pediatric and adult patients following intra-articular infusions of local anesthetics with and without epinephrine for periods of 48 to 72 hours. There is insufficient information to determine whether shorter infusion periods are not associated with these findings. The time of onset of symptoms, such as joint pain, stiffness and loss of motion can be variable, but may begin as early as the 2nd month after surgery. Currently, there is no effective treatment for chondrolysis; patients who experienced chondrolysis have required additional diagnostic and therapeutic procedures and some required arthroplasty or shoulder replacement.</paragraph>
+                        <paragraph> To avoid intravascular injection, aspiration should be performed before the local anesthetic solution is injected. The needle must be repositioned until no return of blood can be elicited by aspiration. Note, however, that the absence of blood in the syringe does not guarantee that intravascular injection has been avoided.</paragraph>
+                        <paragraph> Local anesthetic solutions containing antimicrobial preservatives (e.g., methylparaben) should not be used for epidural or spinal anesthesia because the safety of these agents has not been established with regard to intrathecal injection, either intentional or accidental.</paragraph>
+                        <paragraph> Anaphylactic reactions may occur following administration of lidocaine hydrochloride (see <content styleCode="bold">
+                              <linkHtml href="#s23">ADVERSE REACTIONS</linkHtml>)</content>.</paragraph>
+                        <paragraph> In the case of severe reaction, discontinue the use of the drug.</paragraph>
+                     </text>
+                     <effectiveTime value="20220501"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="s11">
+               <id root="f8760c3b-d064-40f4-96de-b5fcf6a15b7b"/>
+               <code code="42232-9" codeSystem="2.16.840.1.113883.6.1" displayName="PRECAUTIONS SECTION"/>
+               <title>PRECAUTIONS:</title>
+               <effectiveTime value="20220501"/>
+               <component>
+                  <section ID="s12">
+                     <id root="ed25246d-d672-4b8f-b1a8-dabae8cdf04b"/>
+                     <code code="34072-9" codeSystem="2.16.840.1.113883.6.1" displayName="GENERAL PRECAUTIONS SECTION"/>
+                     <title>General</title>
+                     <text>
+                        <paragraph>The safety and effectiveness of lidocaine HCl depend on proper dosage, correct technique, adequate precautions, and readiness for emergencies. Standard textbooks should be consulted for specific techniques and precautions for various regional anesthetic procedures.</paragraph>
+                        <paragraph> Resuscitative equipment, oxygen, and other resuscitative drugs should be available for immediate use (see <content styleCode="bold">
+                              <linkHtml href="#s9">WARNINGS</linkHtml>
+                           </content> and <content styleCode="bold">
+                              <linkHtml href="#s23">ADVERSE REACTIONS</linkHtml>
+                           </content>). The lowest dosage that results in effective anesthesia should be used to avoid high plasma levels and serious adverse effects. Syringe aspirations should also be performed before and during each supplemental injection when using indwelling catheter techniques. During the administration of epidural anesthesia, it is recommended that a test dose be administered initially and that the patient be monitored for central nervous system toxicity and cardiovascular toxicity, as well as for signs of unintended intrathecal administration, before proceeding. When clinical conditions permit, consideration should be given to employing local anesthetic solutions that contain epinephrine for the test dose because circulatory changes compatible with epinephrine may also serve as a warning sign of unintended intravascular injection. An intravascular injection is still possible even if aspirations for blood are negative. Repeated doses of lidocaine HCl may cause significant increases in blood levels with each repeated dose because of slow accumulation of the drug or its metabolites. Tolerance to elevated blood levels varies with the status of the patient. Debilitated, elderly patients, acutely ill patients, and children should be given reduced doses commensurate with their age and physical condition. Lidocaine HCl should also be used with caution in patients with severe shock or heart block.</paragraph>
+                        <paragraph> Lumbar and caudal epidural anesthesia should be used with extreme caution in persons with the following conditions: existing neurological disease, spinal deformities, septicemia, and severe hypertension.</paragraph>
+                        <paragraph> Local anesthetic solutions containing a vasoconstrictor should be used cautiously and in carefully circumscribed quantities in areas of the body supplied by end arteries or having otherwise compromised blood supply. Patients with peripheral vascular disease and those with hypertensive vascular disease may exhibit exaggerated vasoconstrictor response. Ischemic injury or necrosis may result. Preparations containing a vasoconstrictor should be used with caution in patients during or following the administration of potent general anesthetic agents, since cardiac arrhythmias may occur under such conditions.</paragraph>
+                        <paragraph> Careful and constant monitoring of cardiovascular and respiratory (adequacy of ventilation) vital signs and the patient's state of consciousness should be accomplished after each local anesthetic injection. It should be kept in mind at such times that restlessness, anxiety, tinnitus, dizziness, blurred vision, tremors, depression or drowsiness may be early warning signs of central nervous system toxicity.</paragraph>
+                        <paragraph> Since amide-type local anesthetics are metabolized by the liver, lidocaine hydrochloride injection should be used with caution in patients with hepatic disease. Patients with severe hepatic disease, because of their inability to metabolize local anesthetics normally, are at greater risk of developing toxic plasma concentrations. Lidocaine hydrochloride injection should also be used with caution in patients with impaired cardiovascular function since they may be less able to compensate for functional changes associated with the prolongation of A-V conduction produced by these drugs.</paragraph>
+                        <paragraph> Many drugs used during the conduct of anesthesia are considered potential triggering agents for familial malignant hyperthermia. Since it is not known whether amide-type local anesthetics may trigger this reaction and since the need for supplemental general anesthesia cannot be predicted in advance, it is suggested that a standard protocol for the management of malignant hyperthermia should be available. Early unexplained signs of tachycardia, tachypnea, labile blood pressure and metabolic acidosis may precede temperature elevation. Successful outcome is dependent on early diagnosis, prompt discontinuance of the suspect triggering agent(s) and institution of treatment, including oxygen therapy, indicated supportive measures and dantrolene (consult dantrolene sodium intravenous package insert before using).</paragraph>
+                        <paragraph> Proper tourniquet technique, as described in publications and standard textbooks, is essential in the performance of intravenous regional anesthesia. Solutions containing epinephrine or other vasoconstrictors should not be used for this technique.</paragraph>
+                        <paragraph> Lidocaine HCl should be used with caution in persons with known drug sensitivities. Patients allergic to para-aminobenzoic acid derivatives (procaine, tetracaine, benzocaine, etc) have not shown cross-sensitivity to lidocaine HCl.</paragraph>
+                     </text>
+                     <effectiveTime value="20220501"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s13">
+                     <id root="9ccc1d43-94ff-4e5e-9ade-d3b63b46f47c"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Use in the Head and Neck Area</title>
+                     <text>
+                        <paragraph>Small doses of local anesthetics injected into the head and neck area, including retrobulbar, dental and stellate ganglion blocks, may produce adverse reactions similar to systemic toxicity seen with unintentional intravascular injections of larger doses. Confusion, convulsions, respiratory depression and/or respiratory arrest, and cardiovascular stimulation or depression have been reported. These reactions may be due to intra-arterial injection of the local anesthetic with retrograde flow to the cerebral circulation. Patients receiving these blocks should have their circulation and respiration monitored and be constantly observed. Resuscitative equipment and personnel for treating adverse reactions should be immediately available. Dosage recommendations should not be exceeded (see <content styleCode="bold">
+                              <linkHtml href="#s32">DOSAGE AND ADMINISTRATION</linkHtml>
+                           </content>).</paragraph>
+                     </text>
+                     <effectiveTime value="20220501"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s14">
+                     <id root="76e05022-7e87-4e09-96d6-4421a89bab40"/>
+                     <code code="34076-0" codeSystem="2.16.840.1.113883.6.1" displayName="INFORMATION FOR PATIENTS SECTION"/>
+                     <title>Information for Patients</title>
+                     <text>
+                        <paragraph>When appropriate, patients should be informed in advance that they may experience temporary loss of sensation and motor activity, usually in the lower half of the body, following proper administration of epidural anesthesia.</paragraph>
+                        <paragraph> Inform patients that use of local anesthetics may cause methemoglobinemia, a serious condition that must be treated promptly. Advise patients or caregivers to seek immediate medical attention if they or someone in their care experience the following signs or symptoms: pale, gray, or blue colored skin (cyanosis); headache; rapid heart rate; shortness of breath; lightheadedness; or fatigue.</paragraph>
+                     </text>
+                     <effectiveTime value="20220501"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s15">
+                     <id root="44789c2e-5037-4ecf-9b12-ff5c5718d1ec"/>
+                     <code code="34073-7" codeSystem="2.16.840.1.113883.6.1" displayName="DRUG INTERACTIONS SECTION"/>
+                     <title>Clinically Significant Drug Interactions</title>
+                     <text>
+                        <paragraph>The administration of local anesthetic solutions containing epinephrine or norepinephrine to patients receiving monoamine oxidase inhibitors or tricyclic antidepressants may produce severe, prolonged hypertension.</paragraph>
+                        <paragraph>Phenothiazines and butyrophenones may reduce or reverse the pressor effect of epinephrine.</paragraph>
+                        <paragraph>Concurrent use of these agents should generally be avoided. In situations when concurrent therapy is necessary, careful patient monitoring is essential.</paragraph>
+                        <paragraph>Concurrent administration of vasopressor drugs (for the treatment of hypotension related to obstetric blocks) and ergot-type oxytocic drugs may cause severe, persistent hypertension or cerebrovascular accidents.</paragraph>
+                     </text>
+                     <effectiveTime value="20220501"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s16">
+                     <id root="b845f706-00c5-498f-bf86-007802222f8d"/>
+                     <code code="34074-5" codeSystem="2.16.840.1.113883.6.1" displayName="DRUG &amp; OR LABORATORY TEST INTERACTIONS SECTION"/>
+                     <title>Drug/Laboratory Test Interactions</title>
+                     <text>
+                        <paragraph>The intramuscular injection of lidocaine HCl may result in an increase in creatine phosphokinase levels. Thus, the use of this enzyme determination, without isoenzyme separation, as a diagnostic test for the presence of acute myocardial infarction may be compromised by the intramuscular injection of lidocaine HCl.</paragraph>
+                        <paragraph> Patients who are administered local anesthetics are at increased risk of developing methemoglobinemia when concurrently exposed to the following drugs, which could include other local anesthetics:</paragraph>
+                        <table ID="t300" width="100%">
+                           <caption>Examples of Drugs Associated with Methemoglobinemia:</caption>
+                           <col width="41.050%" align="left"/>
+                           <col width="58.950%" align="left"/>
+                           <thead>
+                              <tr>
+                                 <th align="justify" valign="top" styleCode="Toprule Botrule Lrule Rrule">
+                                    <content styleCode="bold">Class</content>
+                                 </th>
+                                 <th align="justify" valign="top" styleCode="Toprule Botrule Rrule">
+                                    <content styleCode="bold">Examples</content>
+                                 </th>
+                              </tr>
+                           </thead>
+                           <tbody>
+                              <tr>
+                                 <td align="justify" valign="top" styleCode="Botrule Lrule Rrule">Nitrates/Nitrites</td>
+                                 <td align="justify" valign="top" styleCode="Botrule Rrule">Nitric oxide, Nitroglycerin, Nitroprusside, Nitrous oxide</td>
+                              </tr>
+                              <tr>
+                                 <td align="justify" valign="top" styleCode="Botrule Lrule Rrule">Local anesthetics</td>
+                                 <td align="justify" valign="top" styleCode="Botrule Rrule">Articaine, Benzocaine, Bupivacaine, Lidocaine, Mepivacaine, Prilocaine, Procaine, Ropivacaine, Tetracaine</td>
+                              </tr>
+                              <tr>
+                                 <td align="justify" valign="top" styleCode="Botrule Lrule Rrule">Antineoplastic agents</td>
+                                 <td align="justify" valign="top" styleCode="Botrule Rrule">Cyclophosphamide, Flutamide, Hydoxyurea, Ifosfamide, Rasburicase</td>
+                              </tr>
+                              <tr>
+                                 <td align="justify" valign="top" styleCode="Botrule Lrule Rrule">Antibiotics</td>
+                                 <td align="justify" valign="top" styleCode="Botrule Rrule">Dapsone, Nitrofurantoin, Para-aminosalicylic acid, Sulfonamides</td>
+                              </tr>
+                              <tr>
+                                 <td align="justify" valign="top" styleCode="Botrule Lrule Rrule">Antimalarials</td>
+                                 <td align="justify" valign="top" styleCode="Botrule Rrule">Chloroquine, Primaquine</td>
+                              </tr>
+                              <tr>
+                                 <td align="justify" valign="top" styleCode="Botrule Lrule Rrule">Anticonvulsants</td>
+                                 <td align="justify" valign="top" styleCode="Botrule Rrule">Phenobarbital, Phenytoin, Sodium valproate</td>
+                              </tr>
+                              <tr>
+                                 <td align="justify" valign="top" styleCode="Botrule Lrule Rrule">Other drugs</td>
+                                 <td align="justify" valign="top" styleCode="Botrule Rrule">Acetaminophen, Metoclopramide, Quinine, Sulfasalazine</td>
+                              </tr>
+                           </tbody>
+                        </table>
+                     </text>
+                     <effectiveTime value="20220501"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s17">
+                     <id root="3a5ec18c-b295-412b-b867-121d2634231d"/>
+                     <code code="34083-6" codeSystem="2.16.840.1.113883.6.1" displayName="CARCINOGENESIS &amp; MUTAGENESIS &amp; IMPAIRMENT OF FERTILITY SECTION"/>
+                     <title>Carcinogenesis, Mutagenesis, Impairment of Fertility</title>
+                     <text>
+                        <paragraph>Studies of lidocaine HCl in animals to evaluate the carcinogenic and mutagenic potential or the effect on fertility have not been conducted.</paragraph>
+                     </text>
+                     <effectiveTime value="20220501"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s18">
+                     <id root="923a677d-b797-42bf-b76f-59ba269c8ac6"/>
+                     <code code="42228-7" codeSystem="2.16.840.1.113883.6.1" displayName="PREGNANCY SECTION"/>
+                     <title>Pregnancy</title>
+                     <effectiveTime value="20220501"/>
+                     <component>
+                        <section ID="s19">
+                           <id root="da63d223-9ed7-415d-b77b-dbdbabd10770"/>
+                           <code code="34077-8" codeSystem="2.16.840.1.113883.6.1" displayName="TERATOGENIC EFFECTS SECTION"/>
+                           <title>Teratogenic Effects</title>
+                           <text>
+                              <paragraph>Reproduction studies have been performed in rats at doses up to 6.6 times the human dose and have revealed no evidence of harm to the fetus caused by lidocaine HCl. There are, however, no adequate and well-controlled studies in pregnant women. Animal reproduction studies are not always predictive of human response. General consideration should be given to this fact before administering lidocaine HCl to women of childbearing potential, especially during early pregnancy when maximum organogenesis takes place.</paragraph>
+                           </text>
+                           <effectiveTime value="20220501"/>
+                        </section>
+                     </component>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s20">
+                     <id root="3b683b50-98a2-4887-9da7-e058098dab0b"/>
+                     <code code="34079-4" codeSystem="2.16.840.1.113883.6.1" displayName="LABOR &amp; DELIVERY SECTION"/>
+                     <title>Labor and Delivery</title>
+                     <text>
+                        <paragraph>Local anesthetics rapidly cross the placenta and when used for epidural, paracervical, pudendal or caudal block anesthesia, can cause varying degrees of maternal, fetal and neonatal toxicity (see <content styleCode="bold">
+                              <linkHtml href="#s3">CLINICAL PHARMACOLOGY</linkHtml>, </content>
+                           <content styleCode="bold italics">
+                              <linkHtml href="#s6">Pharmacokinetics and Metabolism</linkHtml>).</content> The potential for toxicity depends upon the procedure performed, the type and amount of drug used, and the technique of drug administration. Adverse reactions in the parturient, fetus and neonate involve alterations of the central nervous system, peripheral vascular tone and cardiac function.</paragraph>
+                        <paragraph> Maternal hypotension has resulted from regional anesthesia. Local anesthetics produce vasodilation by blocking sympathetic nerves. Elevating the patient's legs and positioning her on her left side will help prevent decreases in blood pressure.</paragraph>
+                        <paragraph> The fetal heart rate also should be monitored continuously, and electronic fetal monitoring is highly advisable.</paragraph>
+                        <paragraph> Epidural, spinal, paracervical, or pudendal anesthesia may alter the forces of parturition through changes in uterine contractility or maternal expulsive efforts. In one study, paracervical block anesthesia was associated with a decrease in the mean duration of first stage labor and facilitation of cervical dilation. However, spinal and epidural anesthesia have also been reported to prolong the second stage of labor by removing the parturient's reflex urge to bear down or by interfering with motor function. The use of obstetrical anesthesia may increase the need for forceps assistance.</paragraph>
+                        <paragraph> The use of some local anesthetic drug products during labor and delivery may be followed by diminished muscle strength and tone for the first day or two of life. The long-term significance of these observations is unknown. Fetal bradycardia may occur in 20 to 30 percent of patients receiving paracervical nerve block anesthesia with the amide-type local anesthetics and may be associated with fetal acidosis. Fetal heart rate should always be monitored during paracervical anesthesia. The physician should weigh the possible advantages against risks when considering a paracervical block in prematurity, toxemia of pregnancy, and fetal distress. Careful adherence to recommended dosage is of the utmost importance in obstetrical paracervical block. Failure to achieve adequate analgesia with recommended doses should arouse suspicion of intravascular or fetal intracranial injection. Cases compatible with unintended fetal intracranial injection of local anesthetic solution have been reported following intended paracervical or pudendal block or both. Babies so affected present with unexplained neonatal depression at birth, which correlates with high local anesthetic serum levels, and often manifest seizures within six hours. Prompt use of supportive measures combined with forced urinary excretion of the local anesthetic has been used successfully to manage this complication.</paragraph>
+                        <paragraph> Case reports of maternal convulsions and cardiovascular collapse following use of some local anesthetics for paracervical block in early pregnancy (as anesthesia for elective abortion) suggest that systemic absorption under these circumstances may be rapid. The recommended maximum dose of each drug should not be exceeded. Injection should be made slowly and with frequent aspiration. Allow a 5-minute interval between sides.</paragraph>
+                     </text>
+                     <effectiveTime value="20220501"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s21">
+                     <id root="e363952c-2dd7-4866-828c-cb93a87a88b1"/>
+                     <code code="34080-2" codeSystem="2.16.840.1.113883.6.1" displayName="NURSING MOTHERS SECTION"/>
+                     <title>Nursing Mothers</title>
+                     <text>
+                        <paragraph>It is not known whether this drug is excreted in human milk. Because many drugs are excreted in human milk, caution should be exercised when lidocaine HCl is administered to a nursing woman.</paragraph>
+                     </text>
+                     <effectiveTime value="20220501"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s22">
+                     <id root="64ba59b8-2692-4fc2-a6a9-327ae2571160"/>
+                     <code code="34081-0" codeSystem="2.16.840.1.113883.6.1" displayName="PEDIATRIC USE SECTION"/>
+                     <title>Pediatric Use</title>
+                     <text>
+                        <paragraph>Dosages in children should be reduced, commensurate with age, body weight and physical condition, see <content styleCode="bold">
+                              <linkHtml href="#s32">DOSAGE AND ADMINISTRATION</linkHtml>.</content>
+                        </paragraph>
+                     </text>
+                     <effectiveTime value="20220501"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="s23">
+               <id root="f851e548-63b7-4b7e-a35d-1ee08e4d618e"/>
+               <code code="34084-4" codeSystem="2.16.840.1.113883.6.1" displayName="ADVERSE REACTIONS SECTION"/>
+               <title>ADVERSE REACTIONS:</title>
+               <effectiveTime value="20220501"/>
+               <component>
+                  <section ID="s24">
+                     <id root="4fe3abdd-5395-44e3-9cb2-f229e338bb3e"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Systemic</title>
+                     <text>
+                        <paragraph>Adverse experiences following the administration of lidocaine HCl are similar in nature to those observed with other amide local anesthetic agents. These adverse experiences are, in general, dose-related and may result from high plasma levels caused by excessive dosage, rapid absorption or inadvertent intravascular injection, or may result from a hypersensitivity, idiosyncrasy or diminished tolerance on the part of the patient. Serious adverse experiences are generally systemic in nature. The following types are those most commonly reported:</paragraph>
+                     </text>
+                     <effectiveTime value="20220501"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s25">
+                     <id root="8cebf550-d9d9-4643-9a7c-97ae60814795"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Central Nervous System</title>
+                     <text>
+                        <paragraph>CNS manifestations are excitatory and/or depressant and may be characterized by lightheadedness, nervousness, apprehension, euphoria, confusion, dizziness, drowsiness, tinnitus, blurred or double vision, vomiting, sensations of heat, cold or numbness, twitching, tremors, convulsions, unconsciousness, respiratory depression and arrest. The excitatory manifestations may be very brief or may not occur at all, in which case the first manifestation of toxicity may be drowsiness merging into unconsciousness and respiratory arrest.</paragraph>
+                        <paragraph> Drowsiness following the administration of lidocaine HCl is usually an early sign of a high blood level of the drug and may occur as a consequence of rapid absorption.</paragraph>
+                     </text>
+                     <effectiveTime value="20220501"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s26">
+                     <id root="6230f2aa-a51b-4a07-8edd-b228b3b50b06"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Cardiovascular System</title>
+                     <text>
+                        <paragraph>Cardiovascular manifestations are usually depressant and are characterized by bradycardia, hypotension, and cardiovascular collapse, which may lead to cardiac arrest.</paragraph>
+                     </text>
+                     <effectiveTime value="20220501"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s27">
+                     <id root="539f4bbb-e999-4849-a162-88bfea430264"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Allergic</title>
+                     <text>
+                        <paragraph>Allergic reactions are characterized by cutaneous lesions, urticaria, edema or anaphylactoid reactions. Allergic reactions may occur as a result of sensitivity either to local anesthetic agents or to the methylparaben used as a preservative in the multiple dose vials. Allergic reactions, including anaphylactic reactions, may occur as a result of sensitivity to lidocaine, but are infrequent. If allergic reactions do occur, they should be managed by conventional means. The detection of sensitivity by skin testing is of doubtful value.</paragraph>
+                        <paragraph> There have been no reports of cross sensitivity between lidocaine hydrochloride and procainamide or between lidocaine hydrochloride and quinidine.</paragraph>
+                     </text>
+                     <effectiveTime value="20220501"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s28">
+                     <id root="7be4d79e-2420-46de-b671-c2d8f66f61ec"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Neurologic</title>
+                     <text>
+                        <paragraph>The incidences of adverse reactions associated with the use of local anesthetics may be related to the total dose of local anesthetic administered and are also dependent upon the particular drug used, the route of administration and the physical status of the patient. In a prospective review of 10,440 patients who received lidocaine HCl for spinal anesthesia, the incidences of adverse reactions were reported to be about 3 percent each for positional headaches, hypotension and backache; 2 percent for shivering; and less than 1 percent each for peripheral nerve symptoms, nausea, respiratory inadequacy and double vision. Many of these observations may be related to local anesthetic techniques, with or without a contribution from the local anesthetic.</paragraph>
+                        <paragraph> In the practice of caudal or lumbar epidural block, occasional unintentional penetration of the subarachnoid space by the catheter may occur. Subsequent adverse effects may depend partially on the amount of drug administered subdurally. These may include spinal block of varying magnitude (including total spinal block), hypotension secondary to spinal block, loss of bladder and bowel control, and loss of perineal sensation and sexual function. Persistent motor, sensory and/or autonomic (sphincter control) deficit of some lower spinal segments with slow recovery (several months) or incomplete recovery have been reported in rare instances when caudal or lumbar epidural block has been attempted. Backache and headache have also been noted following use of these anesthetic procedures.</paragraph>
+                        <paragraph> There have been reported cases of permanent injury to extraocular muscles requiring surgical repair following retrobulbar administration.</paragraph>
+                     </text>
+                     <effectiveTime value="20220501"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s29">
+                     <id root="b842e0dc-13fb-46a7-834f-d1ac67cf4839"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Hematologic</title>
+                     <text>
+                        <paragraph>Methemoglobinemia.</paragraph>
+                     </text>
+                     <effectiveTime value="20220501"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="s30">
+               <id root="6f07b2bc-59af-479a-b848-c9a022405396"/>
+               <code code="34088-5" codeSystem="2.16.840.1.113883.6.1" displayName="OVERDOSAGE SECTION"/>
+               <title>OVERDOSAGE:</title>
+               <text>
+                  <paragraph>Acute emergencies from local anesthetics are generally related to high plasma levels encountered during therapeutic use of local anesthetics or to unintended subarachnoid injection of local anesthetic solution (see <content styleCode="bold">
+                        <linkHtml href="#s23">ADVERSE REACTIONS</linkHtml>, <linkHtml href="#s9">WARNINGS</linkHtml>, and <linkHtml href="#s11">PRECAUTIONS</linkHtml>
+                     </content>).</paragraph>
+               </text>
+               <effectiveTime value="20220501"/>
+               <component>
+                  <section ID="s31">
+                     <id root="d0ea2b0f-d6c4-4fe4-ae0c-b1e562491e3a"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Management of Local Anesthetic Emergencies</title>
+                     <text>
+                        <paragraph>The first consideration is prevention, best accomplished by careful and constant monitoring of cardiovascular and respiratory vital signs and the patient's state of consciousness after each local anesthetic injection. At the first sign of change, oxygen should be administered.</paragraph>
+                        <paragraph>The first step in the management of convulsions, as well as underventilation or apnea due to unintended subarachnoid injection of drug solution, consists of immediate attention to the maintenance of a patent airway and assisted or controlled ventilation with oxygen and a delivery system capable of permitting immediate positive airway pressure by mask. Immediately after the institution of these ventilatory measures, the adequacy of the circulation should be evaluated, keeping in mind that drugs used to treat convulsions sometimes depress the circulation when administered intravenously. Should convulsions persist despite adequate respiratory support, and if the status of the circulation permits, small increments of an ultra-short acting barbiturate (such as thiopental or thiamylal) or a benzodiazepine (such as diazepam) may be administered intravenously. The clinician should be familiar, prior to the use of local anesthetics, with these anticonvulsant drugs. Supportive treatment of circulatory depression may require administration of intravenous fluids and, when appropriate, a vasopressor as directed by the clinical situation (e.g., ephedrine).</paragraph>
+                        <paragraph>If not treated immediately, both convulsions and cardiovascular depression can result in hypoxia, acidosis, bradycardia, arrhythmias and cardiac arrest. Underventilation or apnea due to unintentional subarachnoid injection of local anesthetic solution may produce these same signs and also lead to cardiac arrest if ventilatory support is not instituted. If cardiac arrest should occur, standard cardiopulmonary resuscitative measures should be instituted.</paragraph>
+                        <paragraph>Endotracheal intubation, employing drugs and techniques familiar to the clinician, may be indicated, after initial administration of oxygen by mask, if difficulty is encountered in the maintenance of a patent airway or if prolonged ventilatory support (assisted or controlled) is indicated.</paragraph>
+                        <paragraph>Dialysis is of negligible value in the treatment of acute overdosage with lidocaine HCl.</paragraph>
+                        <paragraph>The oral LD<sub>50</sub> of lidocaine HCl in non-fasted female rats is 459 (346 to 773) mg/kg (as the salt) and 214 (159 to 324) mg/kg (as the salt) in fasted female rats.</paragraph>
+                     </text>
+                     <effectiveTime value="20220501"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="s32">
+               <id root="f82d491c-c374-4cc6-8b39-4753c99a3390"/>
+               <code code="34068-7" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE &amp; ADMINISTRATION SECTION"/>
+               <title>DOSAGE AND ADMINISTRATION:</title>
+               <text>
+                  <paragraph>
+                     <linkHtml href="#t1">Table 1</linkHtml> (Recommended Dosages) summarizes the recommended volumes and concentrations of lidocaine hydrochloride injection for various types of anesthetic procedures. The dosages suggested in this table are for normal healthy adults and refer to the use of epinephrine-free solutions. When larger volumes are required, only solutions containing epinephrine should be used except in those cases where vasopressor drugs may be contraindicated.</paragraph>
+                  <paragraph> There have been adverse event reports of chondrolysis in patients receiving intra-articular infusions of local anesthetics following arthroscopic and other surgical procedures. Lidocaine hydrochloride injection is not approved for this use (see <content styleCode="bold">
+                        <linkHtml href="#s9">WARNINGS</linkHtml>
+                     </content> and <content styleCode="bold">
+                        <linkHtml href="#s32">DOSAGE AND ADMINISTRATION</linkHtml>
+                     </content>).</paragraph>
+                  <paragraph> These recommended doses serve only as a guide to the amount of anesthetic required for most routine procedures. The actual volumes and concentrations to be used depend on a number of factors such as type and extent of surgical procedure, depth of anesthesia and degree of muscular relaxation required, duration of anesthesia required, and the physical condition of the patient. In all cases the lowest concentration and smallest dose that will produce the desired result should be given. Dosages should be reduced for children and for the elderly and debilitated patients and patients with cardiac and/or liver disease.</paragraph>
+                  <paragraph> The onset of anesthesia, the duration of anesthesia and the degree of muscular relaxation are proportional to the volume and concentration (i.e., total dose) of local anesthetic used. Thus, an increase in volume and concentration of lidocaine hydrochloride injection will decrease the onset of anesthesia, prolong the duration of anesthesia, provide a greater degree of muscular relaxation and increase the segmental spread of anesthesia. However, increasing the volume and concentration of lidocaine hydrochloride injection may result in a more profound fall in blood pressure when used in epidural anesthesia. Although the incidence of side effects with lidocaine HCl is quite low, caution should be exercised when employing large volumes and concentrations, since the incidence of side effects is directly proportional to the total dose of local anesthetic agent injected.</paragraph>
+               </text>
+               <effectiveTime value="20220501"/>
+            </section>
+         </component>
+         <component>
+            <section ID="s33">
+               <id root="27847525-24ee-4362-868f-e9963672d937"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <title>MAXIMUM RECOMMENDED DOSAGES:</title>
+               <effectiveTime value="20220501"/>
+               <component>
+                  <section ID="s34">
+                     <id root="d4c773fc-6cf8-4b2c-84c0-685d01d6d3a3"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Adults</title>
+                     <text>
+                        <paragraph>For normal healthy adults, the individual maximum recommended dose of lidocaine HCl with epinephrine should not exceed 7 mg/kg (3.5 mg/lb) of body weight, and in general it is recommended that the maximum total does not exceed 500 mg. When used without epinephrine the maximum individual dose should not exceed 4.5 mg/kg (2 mg/lb) of body weight, and in general it is recommended that the maximum total dose does not exceed 300 mg. For continuous epidural or caudal anesthesia, the maximum recommended dosage should not be administered at intervals of less than 90 minutes. When continuous lumbar or caudal epidural anesthesia is used for non-obstetrical procedures, more drug may be administered if required to produce adequate anesthesia.</paragraph>
+                        <paragraph>The maximum recommended dose per 90 minute period of lidocaine hydrochloride for paracervical block in obstetrical patients and non-obstetrical patients is 200 mg total. One half of the total dose is usually administered to each side. Inject slowly, five minutes between sides (see also discussion of paracervical block in <content styleCode="bold">
+                              <linkHtml href="#s11">PRECAUTIONS</linkHtml>
+                           </content>). For intravenous regional anesthesia, the dose administered should not exceed 4 mg/kg in adults.</paragraph>
+                     </text>
+                     <effectiveTime value="20220501"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s35">
+                     <id root="e37d2d99-a2a0-4945-8c9a-aad0fe0e4fba"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Children</title>
+                     <text>
+                        <paragraph>It is difficult to recommend a maximum dose of any drug for children, since this varies as a function of age and weight. For children over 3 years of age who have a normal lean body mass and normal body development, the maximum dose is determined by the child's age and weight. For example, in a child of 5 years weighing 50 lbs the dose of lidocaine HCl should not exceed 75 to 100 mg (1.5 to 2 mg/lb). The use of even more dilute solutions (i.e., 0.25 to 0.5%) and total dosages not to exceed 3 mg/kg (1.4 mg/lb) are recommended for induction of intravenous regional anesthesia in children.</paragraph>
+                        <paragraph> In order to guard against systemic toxicity, the lowest effective concentration and lowest effective dose should be used at all times. In some cases it will be necessary to dilute available concentrations with 0.9% sodium chloride injection in order to obtain the required final concentration.</paragraph>
+                        <paragraph> NOTE: Parenteral drug products should be inspected visually for particulate matter and discoloration prior to administration whenever the solution and container permit. The Injection is not to be used if its color is pinkish or darker than slightly yellow or if it contains a precipitate.</paragraph>
+                        <table ID="t1" width="100%">
+                           <caption>Table 1: Recommended Dosages</caption>
+                           <col width="32.225%" align="left"/>
+                           <col width="15.675%" align="left"/>
+                           <col width="26.050%" align="left"/>
+                           <col width="26.050%" align="left"/>
+                           <tfoot>
+                              <tr>
+                                 <td colspan="4" align="left" valign="top">
+                                    <paragraph styleCode="footnote">*Dose determined by number of dermatomes to be anesthetized (2 to 3 mL/dermatome).</paragraph>
+                                 </td>
+                              </tr>
+                           </tfoot>
+                           <tbody>
+                              <tr>
+                                 <td rowspan="2" align="left" valign="top" styleCode="Toprule Botrule Lrule Rrule">
+                                    <br/>Procedure</td>
+                                 <td colspan="3" align="center" valign="top" styleCode="Toprule Botrule Rrule">Lidocaine Hydrochloride  Injection, USP</td>
+                              </tr>
+                              <tr>
+                                 <td align="center" valign="top" styleCode="Botrule Rrule">Conc (%)</td>
+                                 <td align="center" valign="top" styleCode="Botrule Rrule">Vol (mL)</td>
+                                 <td align="center" valign="top" styleCode="Botrule Rrule">Total Dose (mg)</td>
+                              </tr>
+                              <tr>
+                                 <td align="left" valign="top" styleCode="Lrule Rrule">Infiltration</td>
+                                 <td align="center" valign="top" styleCode="Rrule"/>
+                                 <td align="center" valign="top" styleCode="Rrule"/>
+                                 <td align="center" valign="top" styleCode="Rrule"/>
+                              </tr>
+                              <tr>
+                                 <td align="left" valign="top" styleCode="Lrule Rrule">Percutaneous</td>
+                                 <td align="center" valign="top" styleCode="Rrule">0.5 or 1</td>
+                                 <td align="center" valign="top" styleCode="Rrule">1 to 60</td>
+                                 <td align="center" valign="top" styleCode="Rrule">5 to 300</td>
+                              </tr>
+                              <tr>
+                                 <td align="left" valign="top" styleCode="Botrule Lrule Rrule">Intravenous regional</td>
+                                 <td align="center" valign="top" styleCode="Botrule Rrule">0.5</td>
+                                 <td align="center" valign="top" styleCode="Botrule Rrule">10 to 60</td>
+                                 <td align="center" valign="top" styleCode="Botrule Rrule">50 to 300</td>
+                              </tr>
+                              <tr>
+                                 <td align="left" valign="top" styleCode="Lrule Rrule">Peripheral Nerve Blocks, e.g.,</td>
+                                 <td align="center" valign="top" styleCode="Rrule">
+                                    <br/>
+                                 </td>
+                                 <td align="center" valign="top" styleCode="Rrule">
+                                    <br/>
+                                 </td>
+                                 <td align="center" valign="top" styleCode="Rrule">
+                                    <br/>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td align="left" valign="top" styleCode="Lrule Rrule">Brachial</td>
+                                 <td align="center" valign="top" styleCode="Rrule">1.5<br/>
+                                 </td>
+                                 <td align="center" valign="top" styleCode="Rrule">15 to 20<br/>
+                                 </td>
+                                 <td align="center" valign="top" styleCode="Rrule">225  to 300<br/>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td align="left" valign="top" styleCode="Lrule Rrule">Dental</td>
+                                 <td align="center" valign="top" styleCode="Rrule">2<br/>
+                                 </td>
+                                 <td align="center" valign="top" styleCode="Rrule">1 to 5<br/>
+                                 </td>
+                                 <td align="center" valign="top" styleCode="Rrule">20 to 100<br/>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td align="left" valign="top" styleCode="Lrule Rrule">Intercostal</td>
+                                 <td align="center" valign="top" styleCode="Rrule">1<br/>
+                                 </td>
+                                 <td align="center" valign="top" styleCode="Rrule">3<br/>
+                                 </td>
+                                 <td align="center" valign="top" styleCode="Rrule">30<br/>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td align="left" valign="top" styleCode="Lrule Rrule">Paravertebral</td>
+                                 <td align="center" valign="top" styleCode="Rrule">1<br/>
+                                 </td>
+                                 <td align="center" valign="top" styleCode="Rrule">3 to 5<br/>
+                                 </td>
+                                 <td align="center" valign="top" styleCode="Rrule">30 to 50<br/>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td align="left" valign="top" styleCode="Botrule Lrule Rrule">Pudendal (each side)</td>
+                                 <td align="center" valign="top" styleCode="Botrule Rrule">1</td>
+                                 <td align="center" valign="top" styleCode="Botrule Rrule">10</td>
+                                 <td align="center" valign="top" styleCode="Botrule Rrule">100</td>
+                              </tr>
+                              <tr>
+                                 <td align="left" valign="top" styleCode="Lrule Rrule">Paracervical</td>
+                                 <td align="center" valign="top" styleCode="Rrule"/>
+                                 <td align="center" valign="top" styleCode="Rrule"/>
+                                 <td align="center" valign="top" styleCode="Rrule"/>
+                              </tr>
+                              <tr>
+                                 <td align="left" valign="top" styleCode="Botrule Lrule Rrule">Obstetrical analgesia (each side)</td>
+                                 <td align="center" valign="top" styleCode="Botrule Rrule">1</td>
+                                 <td align="center" valign="top" styleCode="Botrule Rrule">10</td>
+                                 <td align="center" valign="top" styleCode="Botrule Rrule">100</td>
+                              </tr>
+                              <tr>
+                                 <td align="left" valign="top" styleCode="Lrule Rrule">Sympathetic Nerve Blocks, e.g.,<br/>
+                                 </td>
+                                 <td align="center" valign="top" styleCode="Rrule"/>
+                                 <td align="center" valign="top" styleCode="Rrule"/>
+                                 <td align="center" valign="top" styleCode="Rrule"/>
+                              </tr>
+                              <tr>
+                                 <td align="left" valign="top" styleCode="Lrule Rrule">Cervical (stellate ganglion)</td>
+                                 <td align="center" valign="top" styleCode="Rrule">1<br/>
+                                 </td>
+                                 <td align="center" valign="top" styleCode="Rrule">5<br/>
+                                 </td>
+                                 <td align="center" valign="top" styleCode="Rrule">50<br/>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td align="left" valign="top" styleCode="Botrule Lrule Rrule">Lumbar</td>
+                                 <td align="center" valign="top" styleCode="Botrule Rrule">1</td>
+                                 <td align="center" valign="top" styleCode="Botrule Rrule">5 to 10</td>
+                                 <td align="center" valign="top" styleCode="Botrule Rrule">50 to 100</td>
+                              </tr>
+                              <tr>
+                                 <td align="left" valign="top" styleCode="Lrule Rrule">Central Neural Blocks</td>
+                                 <td align="center" valign="top" styleCode="Rrule"/>
+                                 <td align="center" valign="top" styleCode="Rrule"/>
+                                 <td align="center" valign="top" styleCode="Rrule"/>
+                              </tr>
+                              <tr>
+                                 <td align="left" valign="top" styleCode="Lrule Rrule">Epidural*</td>
+                                 <td align="center" valign="top" styleCode="Rrule">1<br/>
+                                 </td>
+                                 <td align="center" valign="top" styleCode="Rrule">20 to 30<br/>
+                                 </td>
+                                 <td align="center" valign="top" styleCode="Rrule">200 to 300<br/>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td align="left" valign="top" styleCode="Lrule Rrule">Thoracic<br/>
+                                 </td>
+                                 <td align="center" valign="top" styleCode="Rrule"/>
+                                 <td align="center" valign="top" styleCode="Rrule"/>
+                                 <td align="center" valign="top" styleCode="Rrule"/>
+                              </tr>
+                              <tr>
+                                 <td align="left" valign="top" styleCode="Lrule Rrule">Lumbar<br/>
+                                 </td>
+                                 <td align="center" valign="top" styleCode="Rrule">1<br/>
+                                 </td>
+                                 <td align="center" valign="top" styleCode="Rrule">25 to 30</td>
+                                 <td align="center" valign="top" styleCode="Rrule">250 to 300<br/>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td align="left" valign="top" styleCode="Lrule Rrule">Analgesia<br/>
+                                 </td>
+                                 <td align="center" valign="top" styleCode="Rrule">1.5<br/>
+                                 </td>
+                                 <td align="center" valign="top" styleCode="Rrule">15 to 20<br/>
+                                 </td>
+                                 <td align="center" valign="top" styleCode="Rrule">225 to 300<br/>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td align="left" valign="top" styleCode="Botrule Lrule Rrule">Anesthesia</td>
+                                 <td align="center" valign="top" styleCode="Botrule Rrule">2</td>
+                                 <td align="center" valign="top" styleCode="Botrule Rrule">10 to 15</td>
+                                 <td align="center" valign="top" styleCode="Botrule Rrule">200 to 300</td>
+                              </tr>
+                              <tr>
+                                 <td align="left" valign="top" styleCode="Lrule Rrule">Caudal<br/>
+                                 </td>
+                                 <td align="center" valign="top" styleCode="Rrule"/>
+                                 <td align="center" valign="top" styleCode="Rrule"/>
+                                 <td align="center" valign="top" styleCode="Rrule"/>
+                              </tr>
+                              <tr>
+                                 <td align="left" valign="top" styleCode="Lrule Rrule">Obstetrical analgesia<br/>
+                                 </td>
+                                 <td align="center" valign="top" styleCode="Rrule">1<br/>
+                                 </td>
+                                 <td align="center" valign="top" styleCode="Rrule">20 to 30</td>
+                                 <td align="center" valign="top" styleCode="Rrule">200 to 300</td>
+                              </tr>
+                              <tr>
+                                 <td align="left" valign="top" styleCode="Botrule Lrule Rrule">Surgical anesthesia</td>
+                                 <td align="center" valign="top" styleCode="Botrule Rrule">1.5</td>
+                                 <td align="center" valign="top" styleCode="Botrule Rrule">15 to 20</td>
+                                 <td align="center" valign="top" styleCode="Botrule Rrule">225 to 300</td>
+                              </tr>
+                           </tbody>
+                        </table>
+                        <paragraph>THE ABOVE SUGGESTED CONCENTRATIONS AND VOLUMES SERVE ONLY AS A GUIDE. OTHER VOLUMES AND CONCENTRATIONS MAY BE USED PROVIDED THE TOTAL MAXIMUM RECOMMENDED DOSE IS NOT EXCEEDED.</paragraph>
+                     </text>
+                     <effectiveTime value="20220501"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="s36">
+               <id root="3f5b316a-8667-46f5-8552-d9b504755f63"/>
+               <code code="44425-7" codeSystem="2.16.840.1.113883.6.1" displayName="STORAGE AND HANDLING SECTION"/>
+               <title>STERILIZATION, STORAGE AND TECHNICAL PROCEDURES:</title>
+               <text>
+                  <paragraph>Disinfecting agents containing heavy metals, which cause release of respective ions (mercury, zinc, copper, etc) should not be used for skin or mucous membrane disinfection as they have been related to incidents of swelling and edema. When chemical disinfection of multi-dose vials is desired, either isopropyl alcohol (91%) or ethyl alcohol (70%) is recommended. Many commercially available brands of rubbing alcohol, as well as solutions of ethyl alcohol not of USP grade, contain denaturants which are injurious to rubber and therefore are not to be used.</paragraph>
+               </text>
+               <effectiveTime value="20220501"/>
+            </section>
+         </component>
+         <component>
+            <section ID="s37">
+               <id root="4d409c3b-3743-4d66-9b00-2fdd11ec48e4"/>
+               <code code="34069-5" codeSystem="2.16.840.1.113883.6.1" displayName="HOW SUPPLIED SECTION"/>
+               <title>HOW SUPPLIED:</title>
+               <text>
+                  <paragraph>Lidocaine Hydrochloride Injection USP, 1% is provided as a clear colourless solution filled in 20 mL clear moulded glass vial USP Type I with 20 mm Chlorobutyl rubber stopper and 20 mm aluminium violet flip-off seal.</paragraph>
+                  <paragraph>LIDOCAINE HYDROCHLORIDE INJECTION USP, 1 % is supplied as follows:</paragraph>
+                  <table width="100%">
+                     <colgroup>
+                        <col width="15.875%" align="left"/>
+                        <col width="22.900%" align="left"/>
+                        <col width="34.850%" align="left"/>
+                        <col width="26.375%" align="left"/>
+                     </colgroup>
+                     <tbody>
+                        <tr>
+                           <td styleCode="Botrule Lrule Rrule Toprule" align="center" valign="top">
+                              <content styleCode="bold">Product Code</content>
+                           </td>
+                           <td styleCode="Botrule Rrule Toprule" align="center" valign="top">
+                              <content styleCode="bold">Unit of Sale</content>
+                           </td>
+                           <td styleCode="Botrule Rrule Toprule" align="center" valign="top">
+                              <content styleCode="bold">Strength</content>
+                           </td>
+                           <td styleCode="Botrule Rrule Toprule" align="center" valign="top">
+                              <content styleCode="bold">Each</content>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Botrule Lrule Rrule" align="center" valign="top">400</td>
+                           <td styleCode="Botrule Rrule" align="center" valign="top">NDC 50102-400-10<br/>Unit of 10</td>
+                           <td styleCode="Botrule Rrule" align="center" valign="top">1% (200 mg per 20 mL)<br/>(10 mg per mL)</td>
+                           <td styleCode="Botrule Rrule" align="center" valign="top">20 mL Multiple Dose Vial</td>
+                        </tr>
+                     </tbody>
+                  </table>
+                  <paragraph>Store at 20° to 25° C (68° to 77° F) [see USP Controlled Room Temperature].</paragraph>
+                  <paragraph>Protect from light.</paragraph>
+                  <paragraph>To report SUSPECTED ADVERSE REACTIONS, contact Afaxys at 1-855-888-2467 or FDA at 1-800-FDA-1088 or <content styleCode="underline">www.fda.gov/medwatch</content>.</paragraph>
+                  <paragraph>Manufactured for</paragraph>
+                  <paragraph>Afaxys Pharma, LLC</paragraph>
+                  <paragraph>Charleston, SC 29403</paragraph>
+                  <paragraph>
+                     <content styleCode="underline">www.afaxys.com</content>
+                  </paragraph>
+                  <paragraph>Revised: June 2022</paragraph>
+               </text>
+               <effectiveTime value="20230714"/>
+            </section>
+         </component>
+         <component>
+            <section ID="s39">
+               <id root="b794b494-7ba5-4ac8-9967-efabcbb6cd2e"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>PRINCIPAL DISPLAY PANEL - 20 mL Vial Label</title>
+               <text>
+                  <paragraph>NDC 50102-400-01</paragraph>
+                  <paragraph>Lidocaine Hydrochloride<br/>Injection, USP</paragraph>
+                  <paragraph>1%</paragraph>
+                  <paragraph>200 mg per 20 mL <br/>(10 mg per mL)</paragraph>
+                  <paragraph>For Infiltration and Nerve Block<br/> Not for Caudal or Epidural Use</paragraph>
+                  <paragraph>Rx only</paragraph>
+                  <paragraph>20 mL Multiple Dose Vial</paragraph>
+                  <renderMultiMedia referencedObject="mm02"/>
+               </text>
+               <effectiveTime value="20230714"/>
+               <component>
+                  <observationMedia ID="mm02">
+                     <text>PRINCIPAL DISPLAY PANEL - 20 mL Vial Label</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="lidocaine-02.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="s38">
+               <id root="444dd1b2-0d27-4d5c-8309-703b33d5c149"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>PRINCIPAL DISPLAY PANEL - 10 Vial Tray Label</title>
+               <text>
+                  <paragraph>NDC 50102-400-10</paragraph>
+                  <paragraph>Lidocaine Hydrochloride<br/>Injection, USP</paragraph>
+                  <paragraph>1%</paragraph>
+                  <paragraph>200 mg per 20 mL <br/>(10 mg per mL)</paragraph>
+                  <paragraph>For Infiltration and Nerve Block <br/>Not for Caudal or Epidural Use</paragraph>
+                  <paragraph>Rx only</paragraph>
+                  <paragraph>10 x 20 mL Multiple-Dose Vials</paragraph>
+                  <renderMultiMedia referencedObject="mm03"/>
+               </text>
+               <effectiveTime value="20230714"/>
+               <component>
+                  <observationMedia ID="mm03">
+                     <text>PRINCIPAL DISPLAY PANEL - 10 Vial Tray Label</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="lidocaine-03.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

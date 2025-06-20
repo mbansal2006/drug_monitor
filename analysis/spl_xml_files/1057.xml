@@ -1,0 +1,837 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="https://www.accessdata.fda.gov/spl/stylesheet/spl.xsl" type="text/xsl"?>
+<document xmlns="urn:hl7-org:v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 https://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="cdff7813-7b00-4f61-a017-18ab8910d49d"/>
+   <code code="34391-3" displayName="HUMAN PRESCRIPTION DRUG LABEL" codeSystem="2.16.840.1.113883.6.1"/>
+   <title>These highlights do not include all the information needed to use Sodium Chloride Injection USP 0.9% safely and effectively. See full prescribing information for Sodium Chloride Injection USP 0.9%.
+<br/>
+      <br/>
+Sodium Chloride Injection USP 0.9% Prefilled Syringes, For Intravascular Use Only<br/>
+Initial U.S. Approval: 2006</title>
+   <effectiveTime value="20221220"/>
+   <setId root="e4540d03-06b4-4b4d-b859-75c13e5c20dd"/>
+   <versionNumber value="16"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id extension="057880002" root="1.3.6.1.4.1.519.1"/>
+            <name>Liebel-Flarsheim Company LLC</name>
+            <assignedEntity>
+               <assignedOrganization>
+                  <assignedEntity>
+                     <assignedOrganization>
+                        <id extension="152791026" root="1.3.6.1.4.1.519.1"/>
+                        <name>Avantor Performance Materials, Inc.</name>
+                     </assignedOrganization>
+                     <performance>
+                        <actDefinition>
+                           <code code="C82401" displayName="API MANUFACTURE" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="0019-1188" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                  </assignedEntity>
+                  <assignedEntity>
+                     <assignedOrganization>
+                        <id extension="109024984" root="1.3.6.1.4.1.519.1"/>
+                        <name>LIEBEL-FLARSHEIM COMPANY LLC</name>
+                     </assignedOrganization>
+                     <performance>
+                        <actDefinition>
+                           <code code="C25391" displayName="ANALYSIS" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="0019-1188" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                     <performance>
+                        <actDefinition>
+                           <code code="C43360" displayName="MANUFACTURE" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="0019-1188" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                  </assignedEntity>
+               </assignedOrganization>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section>
+               <id root="6b630b54-2e96-44df-ab10-e368dbcdb5c8"/>
+               <code code="48780-1" displayName="SPL LISTING DATA ELEMENTS SECTION" codeSystem="2.16.840.1.113883.6.1"/>
+               <effectiveTime value="20221227"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="0019-1188" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>SODIUM CHLORIDE</name>
+                        <formCode code="C42946" displayName="INJECTION" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>sodium chloride</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator unit="mg" value=".9"/>
+                              <denominator unit="mL" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="451W47IQ8X" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SODIUM CHLORIDE</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="LYR4M0NH37" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>SODIUM CATION</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="059QF0KO0R" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>WATER</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator unit="mL" value="125"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code/>
+                              <formCode code="C43204" displayName="SYRINGE, PLASTIC" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator unit="1" value="1"/>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code/>
+                                    <formCode code="C43178" displayName="BOX" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                    <asContent>
+                                       <quantity>
+                                          <numerator unit="1" value="20"/>
+                                          <denominator value="1"/>
+                                       </quantity>
+                                       <containerPackagedProduct>
+                                          <code code="0019-1188-81" codeSystem="2.16.840.1.113883.6.69"/>
+                                          <formCode code="C43182" displayName="CARTON" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                       </containerPackagedProduct>
+                                       <subjectOf>
+                                          <marketingAct>
+                                             <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                             <statusCode code="active"/>
+                                             <effectiveTime>
+                                                <low value="20120901"/>
+                                             </effectiveTime>
+                                          </marketingAct>
+                                       </subjectOf>
+                                    </asContent>
+                                 </containerPackagedProduct>
+                              </asContent>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C102835" displayName="Type 2: Prefilled Drug Delivery Device/System (syringe, patch, etc.)" codeSystem="2.16.840.1.113883.3.26.1.1" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                        <asContent>
+                           <quantity>
+                              <numerator unit="mL" value="125"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code/>
+                              <formCode code="C43204" displayName="SYRINGE, PLASTIC" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator unit="1" value="1"/>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code/>
+                                    <formCode code="C43178" displayName="BOX" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                    <asContent>
+                                       <quantity>
+                                          <numerator unit="1" value="20"/>
+                                          <denominator value="1"/>
+                                       </quantity>
+                                       <containerPackagedProduct>
+                                          <code code="0019-1188-27" codeSystem="2.16.840.1.113883.6.69"/>
+                                          <formCode code="C43182" displayName="CARTON" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                       </containerPackagedProduct>
+                                       <subjectOf>
+                                          <marketingAct>
+                                             <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                             <statusCode code="active"/>
+                                             <effectiveTime>
+                                                <low value="20120901"/>
+                                             </effectiveTime>
+                                          </marketingAct>
+                                       </subjectOf>
+                                    </asContent>
+                                 </containerPackagedProduct>
+                              </asContent>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C102835" displayName="Type 2: Prefilled Drug Delivery Device/System (syringe, patch, etc.)" codeSystem="2.16.840.1.113883.3.26.1.1" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <id extension="NDA021569" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73594" displayName="NDA" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20120901"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38273" displayName="INTRAVASCULAR" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_3a41081d-15be-4c23-ac71-9d6b836c08a3">
+               <id root="13f590d1-66eb-40ea-96e9-61d22798f942"/>
+               <code code="34067-9" codeSystem="2.16.840.1.113883.6.1" displayName="INDICATIONS &amp; USAGE SECTION"/>
+               <title>1 INDICATIONS AND USAGE</title>
+               <text>
+                  <list listType="unordered" styleCode="Disk">
+                     <item>125 mL Syringe:  Sodium Chloride Injection USP 0.9% is indicated for use in flushing compatible contrast agents through Liebel-Flarsheim intravenous administration sets into indwelling intravascular access devices only when delivered by the following Liebel-Flarsheim power injectors: Angiomat<sup>®</sup>, Illumena<sup>®</sup>, Illumena<sup>®</sup> Néo, CT9000<sup>®</sup>, CT9000<sup>®</sup> ADV, Optistat<sup>®</sup>, Optivantage<sup>®</sup> and Optistar Elite.</item>
+                  </list>
+                  <paragraph/>
+               </text>
+               <effectiveTime value="20190906"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <list listType="unordered" styleCode="Disk">
+                           <item>For use in flushing compatible contrast agents through Liebel-Flarsheim intravenous administration sets into indwelling intravascular access devices (<linkHtml href="#LINK_3a41081d-15be-4c23-ac71-9d6b836c08a3">1</linkHtml>) </item>
+                        </list>
+                     </text>
+                  </highlight>
+               </excerpt>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_b60f787e-0478-4916-a1f8-e42a88b58a58">
+               <id root="189a2e4b-eee8-4a17-9f1a-58e8a9a35fd9"/>
+               <code code="34068-7" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE &amp; ADMINISTRATION SECTION"/>
+               <title>2 DOSAGE AND ADMINISTRATION</title>
+               <text>
+                  <list listType="unordered" styleCode="Disk">
+                     <item>The 125 mL syringe are for single patient use only.</item>
+                     <item>Determine the volume of the saline flush for each patient individually based, in part, on the imaging procedure, the location of the vascular access device, the length of tubing between the Liebel-Flarsheim contrast agent power injector and the vascular access device and the recommendations made on the package insert for the contrast agent. Typical Sodium Chloride Injection USP 0.9% flush volumes following contrast agent administration in adults are 10 to 25 mL per injection at rates not to exceed 10 mL/sec.</item>
+                     <item>Use of some Liebel-Flarsheim contrast agent power injectors allows for additional infusion of Sodium Chloride Injection USP 0.9% to maintain the patency of vascular access. Typical infusion rates used for this purpose are in the range of 0.5 to 1 mL per minute.</item>
+                     <item>Individualize infusion rates and flush volumes for each patient based on their body weight, fluid status and concomitant medical conditions.</item>
+                     <item>Consult the Liebel-Flarsheim contrast agent power injector manual for proper use.</item>
+                  </list>
+                  <paragraph/>
+               </text>
+               <effectiveTime value="20190906"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <list listType="unordered" styleCode="Disk">
+                           <item>For single patient use only. (<linkHtml href="#LINK_b60f787e-0478-4916-a1f8-e42a88b58a58">2</linkHtml>)</item>
+                           <item>Determine the volume of flush based on the imaging procedure, location of the vascular access device, length of tubing between power injector and vascular access device, and the contrast agent package insert. (<linkHtml href="#LINK_b60f787e-0478-4916-a1f8-e42a88b58a58">2</linkHtml>)</item>
+                           <item>Individualize the volume of flush based on body weight, fluid status and concomitant medical conditions. (<linkHtml href="#LINK_b60f787e-0478-4916-a1f8-e42a88b58a58">2</linkHtml>)</item>
+                           <item>Typical flush volumes for adults are 10 to 25 mL per injection at rates not to exceed 10 mL/sec. (<linkHtml href="#LINK_b60f787e-0478-4916-a1f8-e42a88b58a58">2</linkHtml>)</item>
+                           <item>May be used for additional infusion to maintain the patency of vascular access at a typical infusion rate of 0.5 to 1 mL per minute. (<linkHtml href="#LINK_b60f787e-0478-4916-a1f8-e42a88b58a58">2</linkHtml>)</item>
+                           <item>Do not use if packaging is damaged, wet, or not intact, if syringe or its tip cap shows signs of damage, leakage or displacement. Do not use if solution is hazy, cloudy, discolored, or contains particulate matter. (<linkHtml href="#LINK_b60f787e-0478-4916-a1f8-e42a88b58a58">2</linkHtml>)</item>
+                           <item>Use aseptic technique. (<linkHtml href="#LINK_b60f787e-0478-4916-a1f8-e42a88b58a58">2</linkHtml>)</item>
+                           <item>Expel residual air from the syringe and tubing prior to connection with the patient’s vascular access. (<linkHtml href="#LINK_b60f787e-0478-4916-a1f8-e42a88b58a58">2</linkHtml>)<br/>
+                           </item>
+                        </list>
+                        <paragraph>
+                           <br/>
+                        </paragraph>
+                     </text>
+                  </highlight>
+               </excerpt>
+               <component>
+                  <section ID="LINK_81e287f1-a70c-45bf-80cc-0c3066a241da">
+                     <id root="8c66d99b-73af-4e30-af40-e4e16210edef"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>2.1 Drug Handling</title>
+                     <text>
+                        <list listType="unordered" styleCode="Disk">
+                           <item>Inspect the syringe for signs of break in sterility.</item>
+                           <item>Do not use if the syringe or its tip cap shows signs of damage, leakage or displacement.</item>
+                           <item>Do not use if the solution is hazy, cloudy, discolored or contains particulate matter.</item>
+                           <item>Use aseptic technique.</item>
+                           <item>Expel residual air in both the syringe and tubing prior to connection with the patient’s vascular access.</item>
+                           <item>Instructions for assembly and inspection of the Sodium Chloride Injection USP 0.9% syringes prior to use are printed on this sheet.<br/>
+                           </item>
+                        </list>
+                        <paragraph>
+                           <br/>
+                        </paragraph>
+                     </text>
+                     <effectiveTime value="20140930"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_f7ca197e-6b7b-4cf5-8ba7-fb6b23c8ceda">
+                     <id root="a9cb43d1-e6cd-4e97-b0dc-30261d67f3a4"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>2.2 125 mL Syringe Assembly and Inspection</title>
+                     <text>
+                        <table>
+                           <col/>
+                           <tbody>
+                              <tr>
+                                 <td>
+                                    <paragraph>
+                                       <content styleCode="bold">NOTE: Exterior of syringe is not sterile.</content>
+                                       <br/>Contents of syringe and area <content styleCode="bold">under tip cap and piston ribs are sterile</content> and should be treated accordingly.<br/>
+                                       <br/>
+                                       <renderMultiMedia referencedObject="MM4"/>
+                                    </paragraph>
+                                    <paragraph>Remove syringe from carton and inspect the area around the <content styleCode="bold">tip cap</content> and outside of <content styleCode="bold">piston</content> for signs of leakage.  Do not use if leakage is observed.  Load syringe into power injector.<br/>
+                                       <br/>
+                                       <renderMultiMedia referencedObject="MM5"/>
+                                    </paragraph>
+                                    <paragraph>To remove tip cap from syringe, push in and twist off, then discard.  <br/>The area under the cap is sterile.  Caution should now be used when handling.<br/>
+                                       <br/>
+                                       <renderMultiMedia referencedObject="MM6"/>
+                                    </paragraph>
+                                    <paragraph>
+                                       <renderMultiMedia referencedObject="MM7"/>
+                                       <br/>
+                                       <br/>
+                                    Next remove cap from luer locknut dust cover by twisting to break tamper evident seal.  Discard cap.<br/>
+                                       <br/>
+                                       <renderMultiMedia referencedObject="MM8"/>
+                                    </paragraph>
+                                    <paragraph>Attach luer locknut to syringe by holding dust cover and screwing to the stop.<br/>Remove and discard dust cover when ready to attach sterile connector tubing.<br/>
+                                       <br/>
+                                    </paragraph>
+                                 </td>
+                              </tr>
+                           </tbody>
+                        </table>
+                     </text>
+                     <effectiveTime value="20190906"/>
+                     <component>
+                        <observationMedia ID="MM4">
+                           <text>Inspecting the 125 mL syringe</text>
+                           <value xsi:type="ED" mediaType="image/jpeg">
+                              <reference value="sodium-chloride-4.jpg"/>
+                           </value>
+                        </observationMedia>
+                     </component>
+                     <component>
+                        <observationMedia ID="MM5">
+                           <text>Twisting off the 125 mL syringe cap</text>
+                           <value xsi:type="ED" mediaType="image/jpeg">
+                              <reference value="sodium-chloride-5.jpg"/>
+                           </value>
+                        </observationMedia>
+                     </component>
+                     <component>
+                        <observationMedia ID="MM6">
+                           <text>Luer locknut detail</text>
+                           <value xsi:type="ED" mediaType="image/jpeg">
+                              <reference value="sodium-chloride-6.jpg"/>
+                           </value>
+                        </observationMedia>
+                     </component>
+                     <component>
+                        <observationMedia ID="MM7">
+                           <text>Removing cap from luer locknut</text>
+                           <value xsi:type="ED" mediaType="image/jpeg">
+                              <reference value="sodium-chloride-7.jpg"/>
+                           </value>
+                        </observationMedia>
+                     </component>
+                     <component>
+                        <observationMedia ID="MM8">
+                           <text>Attaching luer locknut to syringe</text>
+                           <value xsi:type="ED" mediaType="image/jpeg">
+                              <reference value="sodium-chloride-8.jpg"/>
+                           </value>
+                        </observationMedia>
+                     </component>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_6e689d90-c43e-4c41-8cc2-189056a853e6">
+               <id root="bbc1c0d4-beb8-40ed-ac47-2fcb73e0a033"/>
+               <code code="43678-2" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE FORMS &amp; STRENGTHS SECTION"/>
+               <title>3 DOSAGE FORMS AND STRENGTHS</title>
+               <text>
+                  <paragraph>Sodium Chloride Injection USP (0.9%)</paragraph>
+                  <list listType="unordered" styleCode="Disk">
+                     <item>a clear, colorless, odorless solution</item>
+                     <item>supplied in 125 mL prefilled syringes</item>
+                     <item>contents are sterile</item>
+                  </list>
+               </text>
+               <effectiveTime value="20190906"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <list listType="unordered" styleCode="Disk">
+                           <item>Supplied as a clear, colorless, odorless, sterile solution of Sodium Chloride 0.9% for intravenous administration (<linkHtml href="#LINK_6e689d90-c43e-4c41-8cc2-189056a853e6">3</linkHtml>)</item>
+                           <item>Supplied in 125 mL prefilled syringes (<linkHtml href="#LINK_6e689d90-c43e-4c41-8cc2-189056a853e6">3</linkHtml>)</item>
+                        </list>
+                        <paragraph/>
+                     </text>
+                  </highlight>
+               </excerpt>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_c20ebf2f-c369-404a-8627-4a1cf1f7b78a">
+               <id root="37c12738-2eb7-453d-b077-be74e0bd7790"/>
+               <code code="34070-3" codeSystem="2.16.840.1.113883.6.1" displayName="CONTRAINDICATIONS SECTION"/>
+               <title>4 CONTRAINDICATIONS</title>
+               <text>
+                  <paragraph>None</paragraph>
+               </text>
+               <effectiveTime value="20140930"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <list listType="unordered" styleCode="Disk">
+                           <item>None (<linkHtml href="#LINK_c20ebf2f-c369-404a-8627-4a1cf1f7b78a">4</linkHtml>)</item>
+                        </list>
+                     </text>
+                  </highlight>
+               </excerpt>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_d225bfce-a3d1-4474-aa71-f2b5e22fd1bc">
+               <id root="95c47cc2-ed8b-4170-a457-25417fa3a506"/>
+               <code code="43685-7" codeSystem="2.16.840.1.113883.6.1" displayName="WARNINGS AND PRECAUTIONS SECTION"/>
+               <title>5 WARNINGS AND PRECAUTIONS</title>
+               <text>
+                  <br/>
+               </text>
+               <effectiveTime value="20140930"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <list listType="unordered" styleCode="Disk">
+                           <item>Remove all air from the syringe and associated tubing prior to injection. (<linkHtml href="#LINK_7dbaa4fe-bb7e-4092-b1b8-ec386567aeaf">5.1</linkHtml>)</item>
+                           <item>May cause fluid overload in patients with congestive heart failure, severe renal insufficiency, and in clinical states with edema, sodium retention, or hypernatremia.  (<linkHtml href="#LINK_d2e3444d-d34d-4f60-b9d9-4930aa7b6327">5.3</linkHtml>)</item>
+                           <item>Establish intravascular catheter patency prior to administration. (<linkHtml href="#LINK_4578975b-518d-4389-bf1d-349ee26e1e54">5.4</linkHtml>)<br/>
+                           </item>
+                        </list>
+                        <paragraph>
+                           <br/>
+                        </paragraph>
+                     </text>
+                  </highlight>
+               </excerpt>
+               <component>
+                  <section ID="LINK_7dbaa4fe-bb7e-4092-b1b8-ec386567aeaf">
+                     <id root="ff897001-5d4f-49da-93d2-17be9cd1d8b7"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>5.1 Air Embolism</title>
+                     <text>
+                        <paragraph>Remove all air from the syringe and associated tubing prior to injection to avoid air embolus with the associated risk of stroke, organ ischemia and/or infarction, and death.
+                </paragraph>
+                     </text>
+                     <effectiveTime value="20140930"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_21272e4b-12b2-4a72-ad40-27d2d0581761">
+                     <id root="f2d09671-5dee-4ffa-b587-cbdf27e6440c"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>5.2 Infectious Complications</title>
+                     <text>
+                        <paragraph>Use of a damaged syringe or failure to maintain aseptic technique may result in infection, sepsis and death <content styleCode="italics">[<linkHtml href="#LINK_b60f787e-0478-4916-a1f8-e42a88b58a58">see Dosage and Administration (2)</linkHtml>].</content>
+                        </paragraph>
+                     </text>
+                     <effectiveTime value="20140930"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_d2e3444d-d34d-4f60-b9d9-4930aa7b6327">
+                     <id root="4b21a946-fe50-4189-be7d-63fdeb4f942f"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>5.3 Fluid Overload</title>
+                     <text>
+                        <paragraph>Sodium Chloride Injection USP 0.9% may cause fluid overload in patients with congestive heart failure, severe renal insufficiency, and in clinical states with edema, sodium retention, or hypernatremia.</paragraph>
+                        <paragraph>Consider each patient’s age, body weight, fluid status, concomitant medical conditions and planned radiological procedure to determine if use of Sodium Chloride Injection USP 0.9% is appropriate.</paragraph>
+                     </text>
+                     <effectiveTime value="20140930"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_4578975b-518d-4389-bf1d-349ee26e1e54">
+                     <id root="fd92e1c8-aa51-4dce-82ed-348c205c7d52"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>5.4 Extravasation</title>
+                     <text>
+                        <paragraph>Extravasation of the Sodium Chloride Injection USP 0.9% may cause mechanical compression of neurovascular structures.  Extravasation of contrast agent may result in tissue injury by osmolar and direct cytotoxicity (see package inserts of specific contrast agents).  Establish intravascular catheter patency prior to the administration of Sodium Chloride Injection USP 0.9%.
+</paragraph>
+                     </text>
+                     <effectiveTime value="20140930"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_7a439626-ebfb-4d60-8757-5d4361a9e5dd">
+               <id root="a64ac3a2-651f-4f43-99d0-d54a64aad633"/>
+               <code code="34084-4" codeSystem="2.16.840.1.113883.6.1" displayName="ADVERSE REACTIONS SECTION"/>
+               <title>6 ADVERSE REACTIONS</title>
+               <text>
+                  <br/>
+                  <paragraph>Reported adverse reactions include:</paragraph>
+                  <br/>
+                  <list listType="unordered" styleCode="Disk">
+                     <item>air embolization with stroke, chest pain, and dyspnea
+</item>
+                     <item>arrhythmia
+</item>
+                     <item>hypotension
+</item>
+                     <item>myocardial infarction
+</item>
+                     <item>sepsis
+</item>
+                     <item>febrile response
+</item>
+                     <item>local tenderness
+</item>
+                     <item>infection at the site of injection
+</item>
+                     <item>venous thrombosis or phlebitis extending from injection site
+</item>
+                     <item>extravasation
+</item>
+                     <item>fluid overload
+</item>
+                     <item>hypervolemia</item>
+                  </list>
+               </text>
+               <effectiveTime value="20160901"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <list listType="unordered" styleCode="Disk">
+                           <item>Adverse reactions due to solution or administration technique may include: air embolism with stroke, chest pain, and dyspnea, arrhythmia, hypotension, myocardial infarction, sepsis, febrile response, local tenderness, infection at the site of injection, venous thrombosis or phlebitis extending from injection site, extravasation, fluid overload and hypervolemia. (<linkHtml href="#LINK_7a439626-ebfb-4d60-8757-5d4361a9e5dd">6</linkHtml>)</item>
+                        </list>
+                        <paragraph>
+                           <content styleCode="bold">To report SUSPECTED ADVERSE REACTIONS, contact Liebel-Flarsheim Company LLC at 1-855-266-5037 or FDA at 1-800-FDA-1088 or www.fda.gov/medwatch.   </content>
+                           <br/>
+                           <br/>
+                        </paragraph>
+                     </text>
+                  </highlight>
+               </excerpt>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_7343c37c-0fe5-470e-a656-b370a34708ea">
+               <id root="be1958fb-c9d5-4992-8468-035184c1febc"/>
+               <code code="43684-0" codeSystem="2.16.840.1.113883.6.1" displayName="USE IN SPECIFIC POPULATIONS SECTION"/>
+               <title>8 USE IN SPECIFIC POPULATIONS</title>
+               <text>
+                  <br/>
+               </text>
+               <effectiveTime value="20181208"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <list listType="unordered" styleCode="Disk">
+                           <item>Pregnancy: It is not known whether Sodium Chloride Injection USP 0.9% can cause fetal harm. (<linkHtml href="#LINK_08ab59d3-c1d1-45e9-9540-4af51cb2bf51">8.1</linkHtml>)</item>
+                           <item>Pediatrics: Safety and effectiveness have not been established in pediatric patients. (<linkHtml href="#LINK_3f7442c7-262d-436c-a352-b8b85a29c189">8.4</linkHtml>)</item>
+                           <item>Geriatrics: Dosing for an elderly patient should be cautious, reflecting the greater frequency of decreased hepatic, renal, or cardiac function, and of concomitant disease or other drug therapy. (<linkHtml href="#LINK_604d8fd2-61ab-4b6c-b6e6-8325d22d475c">8.5</linkHtml>)<br/>
+                           </item>
+                        </list>
+                        <paragraph>
+                           <br/>
+                        </paragraph>
+                     </text>
+                  </highlight>
+               </excerpt>
+               <component>
+                  <section ID="LINK_08ab59d3-c1d1-45e9-9540-4af51cb2bf51">
+                     <id root="4a0244ba-a4d4-4080-9528-e953546724f6"/>
+                     <code code="42228-7" codeSystem="2.16.840.1.113883.6.1" displayName="PREGNANCY SECTION"/>
+                     <title>8.1 Pregnancy</title>
+                     <text>
+                        <paragraph>
+                           <content styleCode="italics">Risk Summary</content>
+                           <br/>Administration of Sodium Chloride Injection USP 0.9% is not known to cause major birth defects, miscarriage or adverse maternal or fetal outcomes. Animal reproduction studies have not been conducted with Sodium Chloride Injection USP 0.9.%</paragraph>
+                        <paragraph>All pregnancies have a background risk of birth defect, loss, or other adverse outcomes. In the U.S. general population, the estimated background risk of major birth defects and miscarriage in clinically recognized pregnancies is 2-4% and 15-20%, respectively.</paragraph>
+                     </text>
+                     <effectiveTime value="20181208"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="L17c5c700-1506-4548-8f67-8b8d6f7e1c2a">
+                     <id root="4fea4973-f520-4f32-88f2-e6d88a5c321a"/>
+                     <code code="77290-5" codeSystem="2.16.840.1.113883.6.1" displayName="LACTATION SECTION"/>
+                     <title>8.2 Lactation</title>
+                     <text>
+                        <paragraph>
+                           <content styleCode="italics">Risk Summary</content>
+                           <br/>Appropriate administration of Sodium Chloride Injection USP 0.9% is not known to cause harm to a breastfed infant.</paragraph>
+                     </text>
+                     <effectiveTime value="20181208"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_3f7442c7-262d-436c-a352-b8b85a29c189">
+                     <id root="6bcdc2cb-14ad-43c7-82ae-50072af0ae88"/>
+                     <code code="34081-0" codeSystem="2.16.840.1.113883.6.1" displayName="PEDIATRIC USE SECTION"/>
+                     <title>8.4 Pediatric Use</title>
+                     <text>
+                        <paragraph>Safety and effectiveness of Sodium Chloride Injection USP 0.9% administered by power injection in pediatric patients have not been established. Administration of Sodium Chloride Injection USP 0.9% to pediatric patients by power injection is not recommended. When performing manual injection of Sodium Chloride Injection USP 0.9% to pediatric patients, take into account the patient’s weight, fluid status, and concomitant medical conditions to determine if use of Sodium Chloride Injection USP 0.9% is appropriate.<br/>
+                           <br/>
+                The safety of manual injection of Sodium Chloride Injection USP 0.9% in pediatric patients is supported by reported clinical experience with intravenous infusion and flush of sodium chloride injection in pediatric patients.<br/>
+                           <br/>
+                To minimize the risk of fluid overload, use the smallest dose of Sodium Chloride Injection USP 0.9% necessary for manually flushing contrast agent through the vascular access line.<br/>
+                           <br/>
+                        </paragraph>
+                     </text>
+                     <effectiveTime value="20140930"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_604d8fd2-61ab-4b6c-b6e6-8325d22d475c">
+                     <id root="16dc556a-8739-4392-93c6-bb6bd166cfa3"/>
+                     <code code="34082-8" codeSystem="2.16.840.1.113883.6.1" displayName="GERIATRIC USE SECTION"/>
+                     <title>8.5 Geriatric Use</title>
+                     <text>
+                        <paragraph>No clinical studies of Sodium Chloride Injection USP 0.9% were conducted. Other reported clinical experience with sodium chloride injection has not identified differences in responses between the elderly and younger patients. In general, dose selection for an elderly patient should be cautious, usually starting at the low end of the dosing range, reflecting the greater frequency of decreased hepatic, renal, or cardiac function, and of concomitant disease or other drug therapy.</paragraph>
+                     </text>
+                     <effectiveTime value="20140930"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_e2889597-d960-495b-95b1-965726e3c365">
+               <id root="25f2b0ab-a2c7-40d9-8af6-3e85d6ce64d5"/>
+               <code code="34088-5" codeSystem="2.16.840.1.113883.6.1" displayName="OVERDOSAGE SECTION"/>
+               <title>10  OVERDOSAGE</title>
+               <text>
+                  <paragraph>Use of Sodium Chloride Injection USP 0.9% may pose a threat of overdose marked by electrolyte disturbance and/or fluid overload, particularly in pediatric patients and patients with compromised renal or cardiac function. In the event of overdosage, discontinue the infusion, reevaluate the patient and institute appropriate corrective action.</paragraph>
+               </text>
+               <effectiveTime value="20140930"/>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_5434b212-e560-4f05-a8a6-980b1e5736c4">
+               <id root="a10d0bae-0583-44a9-bd08-ee6b188ff2ae"/>
+               <code code="34089-3" codeSystem="2.16.840.1.113883.6.1" displayName="DESCRIPTION SECTION"/>
+               <title>11 DESCRIPTION</title>
+               <text>
+                  <paragraph>Sodium Chloride Injection USP 0.9% is a formulation of sodium chloride in Water for Intravascular Injection. No preservative, antimicrobial agent or buffer is added. Sodium Chloride Injection USP 0.9% is provided as a sterile, nonpyrogenic, clear, colorless, odorless solution.<br/>
+                     <br/>
+                     <content styleCode="bold">    Molecular formula = NaCl                   MW = 58.44</content>
+                     <br/>
+                     <br/>Each mL of Sodium Chloride Injection USP 0.9% contains 9 mg of sodium chloride. The pH is 4.5 to 7.0. The osmolarity is 308 mOsm/L (calc.).  <br/>
+                     <br/>Sodium Chloride Injection USP 0.9% is provided in a 125 mL syringe with a 125 mL fill.  The syringes are for single patient use and are disposable and not meant for reuse. <br/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20190906"/>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_c2a6814c-1b3f-486b-9edc-649520bf7693">
+               <id root="2cadae91-d894-48f2-b8c1-95bcecfd6a2a"/>
+               <code code="34090-1" codeSystem="2.16.840.1.113883.6.1" displayName="CLINICAL PHARMACOLOGY SECTION"/>
+               <title>12 CLINICAL PHARMACOLOGY</title>
+               <text>
+                  <paragraph>Sodium Chloride Injection USP 0.9% has an osmotic pressure similar to plasma.</paragraph>
+               </text>
+               <effectiveTime value="20140930"/>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_a062744b-49a5-4f65-860e-6c5809c80b67">
+               <id root="0c8ae3ad-ee20-41e6-9c58-c49be7e6bcaa"/>
+               <code code="34069-5" codeSystem="2.16.840.1.113883.6.1" displayName="HOW SUPPLIED SECTION"/>
+               <title>16 HOW SUPPLIED/STORAGE AND HANDLING</title>
+               <text>
+                  <paragraph>Sodium Chloride Injection USP 0.9% is a clear, colorless, odorless solution containing 9 mg/mL of sodium chloride. Sodium Chloride Injection USP 0.9% is supplied in 125 mL prefilled syringes containing 125 mL of solution. Each syringe is sealed with rubber closures and the contents are sterile. The 125 mL syringe is supplied with a luer locknut adapter which is cleared for manufacture and distribution as a device under 510(K) number 862653. The syringes are contained in shipping cartons with the following configurations:</paragraph>
+                  <table>
+                     <colgroup>
+                        <col/>
+                        <col/>
+                        <col/>
+                     </colgroup>
+                     <tbody>
+                        <tr>
+                           <td styleCode="Botrule Lrule Rrule Toprule" align="center">
+                              <content styleCode="bold">Volume</content>
+                           </td>
+                           <td styleCode="Botrule Lrule Rrule Toprule" align="center">
+                              <content styleCode="bold">Packaging</content>
+                           </td>
+                           <td styleCode="Botrule Lrule Rrule Toprule" align="center">
+                              <content styleCode="bold">NDC</content>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Botrule Lrule Rrule Toprule" valign="top"> 125 mL<br/>          in plastic syringes</td>
+                           <td styleCode="Botrule Lrule Rrule Toprule" valign="top"> 20 syringes per carton</td>
+                           <td styleCode="Botrule Lrule Rrule Toprule" valign="top"> 0019-1188-81</td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Botrule Lrule Rrule Toprule" valign="top"> 125 mL<br/>          in plastic RFID-Tagged Syringes*</td>
+                           <td styleCode="Botrule Lrule Rrule Toprule" valign="top"> 20 syringes per carton</td>
+                           <td styleCode="Botrule Lrule Rrule Toprule" valign="top"> 0019-1188-27</td>
+                        </tr>
+                        <tr>
+                           <td>
+                              <content styleCode="bold">        *Radio Frequency Identification (RFID) Technology</content>
+                           </td>
+                        </tr>
+                     </tbody>
+                  </table>
+                  <paragraph>
+                     <content styleCode="bold">RFID-Tagged Syringe Description</content>
+                  </paragraph>
+                  <paragraph>This information is for Ultraject<sup>®</sup> syringes containing Sodium Chloride Injection USP 0.9% that has been labeled with a Radio Frequency Identification (RFID) tag.  When used with an RFID-enabled Optivantage Injector, this tag allows for the exchange of product information such as lot number, expiration, concentration, and identification of the syringe as being unused prior to use and used after product administration.  Patient information is not utilized in any form with this RFID technology. Sodium Chloride Injection USP 0.9% product quality is not impacted with the use of this RFID tag. Sodium Chloride Injection USP 0.9% RFID syringes require no special handling and should be stored at the conditions listed for the drug product.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">RFID-Tagged Syringe Directions for Use</content>
+                  </paragraph>
+                  <paragraph>For the RFID technology to function, the syringe must be used with an Optivantage Injector with RFID technology. Function of the RFID technology is not dependent on syringe orientation as it is placed in the injector. Instructions for use of the injector are provided on the injector interface screens and operator’s manual.</paragraph>
+                  <paragraph>If the RFID tag is damaged or otherwise non-functional, the injector will notify the user.  Should this occur, the Sodium Chloride Injection USP 0.9% syringe with the non-functional RFID tag may still be used but no data will be transferred to the injector.</paragraph>
+                  <paragraph>Regarding interference with medical devices, the RFID tag and injector system meet the IEC 60601-1-2 requirements for emission and immunity standards for medical devices.  Follow all manufacturers’ guidelines and do not operate any part of the Optivantage Injector System and RFID-tagged syringes within 6 inches (15 cm) of a pacemaker and/or defibrillator.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Storage</content>
+                  </paragraph>
+                  <paragraph>Store Sodium Chloride Injection USP 0.9% syringes and RFID-tagged syringes at 25°C (77°F); excursions permitted to 15° to 30°C (59° to 86°F) <content styleCode="italics">[see USP Controlled Room Temperature].</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">PROTECT FROM FREEZING</content>
+                  </paragraph>
+                  <paragraph>Manufactured by:<br/>Liebel-Flarsheim Company LLC<br/>Raleigh, NC 27616</paragraph>
+                  <paragraph>Made in USA</paragraph>
+                  <paragraph>GBT 11880919 </paragraph>
+                  <paragraph>Issued: 9/19</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Guerbet</content>
+                     <br/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20190906"/>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_526fef8d-166c-4461-a93e-cbc6ed558903">
+               <id root="b7457286-3f26-4c3c-8fa6-c20c8efe553a"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>PACKAGE LABEL - PRINCIPAL DISPLAY PANEL - 125 mL Syringe</title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">For Intravascular Use</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Sterile Solution</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">NDC 0019-1188-81</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">125 mL</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Sodium Chloride Injection USP 0.9%</content>
+                  </paragraph>
+                  <paragraph>MEDICATION AND FLUID PATHWAY ARE STERILE.<br/>OUTSIDE OF SYRINGE IS NOT STERILE.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">SINGLE DOSE UNIT, DISCARD UNUSED PORTION.</content>
+                     <br/>
+                     <content styleCode="bold">EXPEL AIR BEFORE USE.</content>
+                     <br/>
+                     <content styleCode="bold">PROTECT FROM FREEZING.</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Rx only</content>
+                  </paragraph>
+                  <paragraph>Store at 25°C (77°F); excursions permitted to 15° to 30°C (59° to 86°F) [see USP Controlled Room Temperature].</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Each mL contains 9 mg sodium chloride.</content>
+                     <br/>
+                     <content styleCode="bold">Dosage: See package insert.</content>
+                     <br/>
+                     <content styleCode="bold">Discard if syringe seal is broken or leakage is observed.</content>
+                  </paragraph>
+                  <paragraph>Manufactured by:<content styleCode="bold"/>Liebel-Flarsheim Company LLC<br/>Raleigh, NC 27616<br/>Made in USA</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Guerbet</content>
+                  </paragraph>
+                  <paragraph>12070916</paragraph>
+                  <renderMultiMedia referencedObject="MM10"/>
+                  <renderMultiMedia referencedObject="L1aa48043-21c5-4208-b483-ec5199a027d7"/>
+               </text>
+               <effectiveTime value="20181221"/>
+               <component>
+                  <observationMedia ID="MM10">
+                     <text>Principal Display Panel</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="sodium-chloride-10.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="L1aa48043-21c5-4208-b483-ec5199a027d7">
+                     <text>Carton</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="sodium-chloride-10a.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

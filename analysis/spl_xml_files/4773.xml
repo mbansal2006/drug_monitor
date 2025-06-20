@@ -1,0 +1,1532 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="https://www.accessdata.fda.gov/spl/stylesheet/spl.xsl" type="text/xsl"?>
+<document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:hl7-org:v3" xsi:schemaLocation="urn:hl7-org:v3 https://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="0e3526e1-38be-1d89-e063-6294a90a775d"/>
+   <code code="34391-3" codeSystem="2.16.840.1.113883.6.1" displayName="HUMAN PRESCRIPTION DRUG LABEL"/>
+   <title>
+      <content styleCode="bold">Promethazine Hydrochloride Injection, USP</content>
+   </title>
+   <effectiveTime value="20240105"/>
+   <setId root="1d02d52b-84bb-4e81-b352-125029eb39f6"/>
+   <versionNumber value="8"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id root="1.3.6.1.4.1.519.1" extension="117380305"/>
+            <name>XGen Pharmaceuticals DJB, Inc.</name>
+            <assignedEntity>
+               <assignedOrganization/>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section>
+               <id root="0ec39f43-c8de-8f39-e063-6394a90a4ce0"/>
+               <code code="48780-1" codeSystem="2.16.840.1.113883.6.1" displayName="SPL product data elements section"/>
+               <effectiveTime value="20240105"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="39822-5525" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>PROMETHAZINE HYDROCHLORIDE</name>
+                        <formCode code="C42945" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="INJECTION, SOLUTION"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>PROMETHAZINE HYDROCHLORIDE</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <ingredient classCode="IACT">
+                           <quantity>
+                              <numerator unit="mg" value="0.01"/>
+                              <denominator unit="mL" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="M4I0D6VV5M" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>CALCIUM CHLORIDE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <quantity>
+                              <numerator unit="mg" value="0.1"/>
+                              <denominator unit="mL" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="MP1J8420LU" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>EDETATE SODIUM</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <quantity>
+                              <numerator unit="mg" value="0.25"/>
+                              <denominator unit="mL" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="4VON5FNS3C" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SODIUM METABISULFITE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <quantity>
+                              <numerator unit="mg" value="5"/>
+                              <denominator unit="mL" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="339NCG44TV" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>PHENOL</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <quantity>
+                              <numerator unit="mL" value="1"/>
+                              <denominator unit="mL" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="059QF0KO0R" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>WATER</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="4550K0SC9B" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SODIUM ACETATE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="Q40Q9N063P" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>ACETIC ACID</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator unit="mg" value="25"/>
+                              <denominator unit="mL" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="R61ZEH7I1I" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>PROMETHAZINE HYDROCHLORIDE</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="FF28EJQ494" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>PROMETHAZINE</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator value="1" unit="mL"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="39822-5525-2" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43165" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="AMPULE"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator value="25" unit="1"/>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code code="39822-5525-3" codeSystem="2.16.840.1.113883.6.69"/>
+                                    <formCode code="C43182" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CARTON"/>
+                                 </containerPackagedProduct>
+                                 <subjectOf>
+                                    <marketingAct>
+                                       <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                       <statusCode code="active"/>
+                                       <effectiveTime>
+                                          <low value="20150130"/>
+                                       </effectiveTime>
+                                    </marketingAct>
+                                 </subjectOf>
+                              </asContent>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <id extension="ANDA040737" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73584" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ANDA"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20150130"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38276" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="INTRAVENOUS"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C28161" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="INTRAMUSCULAR"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_c27882d9-8f55-437c-a8a8-f15c4cea7cde">
+               <id root="0e9b0063-74a9-ec2a-e063-6394a90aac3b"/>
+               <code code="34066-1" codeSystem="2.16.840.1.113883.6.1" displayName="BOXED WARNING SECTION"/>
+               <title>
+                  <content styleCode="bold">WARNINGS: RESPIRATORY DEPRESSION IN PEDIATRICS AND SEVERE TISSUE INJURY, INCLUDING GANGRENE</content>
+               </title>
+               <effectiveTime value="20231227"/>
+               <component>
+                  <section ID="LINK_f8329db4-a985-4eef-8b51-db4c4a4e301a">
+                     <id root="0e9b148b-4554-10ce-e063-6294a90af69a"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>
+                        <content styleCode="bold">Respiratory Depression – Pediatrics</content>
+                     </title>
+                     <text>
+                        <paragraph>
+                           <content styleCode="bold">Promethazine hydrochloride injection should not be used in pediatric patients less than 2 years of age because of the potential for fatal respiratory depression. Post-marketing cases of respiratory depression, including fatalities, have been reported with use of promethazine in pediatric patients less than 2 years of age. Caution should be exercised when administering promethazine hydrochloride injection to pediatric patients 2 years of age and older (see 
+   <linkHtml href="#LINK_af3b02a0-6429-48fb-a6d1-e83d9504cc5a">WARNINGS - Respiratory Depression</linkHtml>).
+  </content>
+                        </paragraph>
+                        <paragraph/>
+                     </text>
+                     <effectiveTime value="20231227"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_dbbe52a6-8d1c-4bc9-92c8-80209f9fc412">
+                     <id root="0ec1fa53-2d24-020e-e063-6294a90aeac1"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>
+                        <content styleCode="bold">Severe Tissue Injury, Including Gangrene </content>
+                     </title>
+                     <text>
+                        <list listType="unordered">
+                           <item>
+                              <content styleCode="bold">Severe chemical irritation and 
+    <content styleCode="underline">damage to tissues regardless of the route of parenteral administration</content> has been reported in patients treated with promethazine hydrochloride injection including gangrene, tissue necrosis, and thrombophlebitis; and in some cases, surgical intervention including fasciotomy, skin graft, and/or amputation have been required (see 
+    <linkHtml href="#LINK_0302fd9c-157d-4bee-8b90-e9d10976b414">WARNINGS - Severe Tissue Injury, Including Gangrene</linkHtml>).
+   </content>
+                           </item>
+                           <item>
+                              <content styleCode="bold">The use of promethazine hydrochloride injection by the following routes of administration is CONTRAINDICATED:
+    <br/>
+                                 <content styleCode="bold">o Intravenous injection at concentrations greater than 1 mg/mL</content>
+                              </content>
+                              <br/>
+                              <content styleCode="bold">o Intra-arterial injection
+    <br/>
+                                 <content styleCode="bold">o Subcutaneous injection (see 
+     <linkHtml href="#LINK_a82e430c-4b97-45ec-b2ec-1b3e1226c968">CONTRAINDICATIONS</linkHtml>).
+    </content>
+                              </content>
+                           </item>
+                           <item>
+                              <content styleCode="bold">The preferred route of administration is by deep intramuscular administration.</content>
+                           </item>
+                           <item>
+                              <content styleCode="bold">Promethazine hydrochloride injection may be administered intravenously after dilution through an intravenous catheter inserted in a large vein. Preferably through a central venous catheter (see 
+    <linkHtml href="#LINK_b6ea8272-0714-430e-abca-e1aa643d15ad">DOSAGE AND ADMINISTRATION</linkHtml>).
+   </content>
+                           </item>
+                           <item>
+                              <content styleCode="bold">If pain occurs at the injection site during intravenous infusion, immediately discontinue the infusion and evaluate for possible arterial injection or perivascular extravasation, and initiate appropriate medical management.</content>
+                           </item>
+                        </list>
+                     </text>
+                     <effectiveTime value="20231227"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_b80942e4-0df3-483b-b21f-80dce9fc8f26">
+               <id root="0e9dc36a-7e84-ae83-e063-6394a90a84ae"/>
+               <code code="34089-3" codeSystem="2.16.840.1.113883.6.1" displayName="DESCRIPTION SECTION"/>
+               <title>
+                  <content styleCode="bold">DESCRIPTION</content>
+               </title>
+               <text>
+                  <paragraph>Promethazine hydrochloride injection, USP is a sterile, pyrogen-free solution for deep intramuscular or intravenous administration. Promethazine hydrochloride (10H-phenothiazine-10-ethanamine, N, N, α-trimethyl-, monohydrochloride, (±)-) is a racemic compound and has the following structural formula:</paragraph>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="MM1"/>
+                  </paragraph>
+                  <paragraph>Each mL contains promethazine hydrochloride, either 25 mg or 50 mg, edetate disodium 0.1 mg, calcium chloride 0.04 mg, sodium metabisulfite 0.25 mg and phenol 5 mg in Water for Injection, USP. pH 4.0 to 5.5; buffered with acetic acid-sodium acetate. Sealed under nitrogen.</paragraph>
+                  <paragraph>Promethazine hydrochloride injection is a clear, colorless solution. The product is light sensitive. It should be inspected before use and discarded if either color or particulate is observed.</paragraph>
+               </text>
+               <effectiveTime value="20210831"/>
+               <component>
+                  <observationMedia ID="MM1">
+                     <text>image</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="promethazine-hcl-injection-1.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_77b0387e-3f98-413b-b964-41869d686e72">
+               <id root="0e9dd8ea-8eff-d671-e063-6394a90a9b24"/>
+               <code code="34090-1" codeSystem="2.16.840.1.113883.6.1" displayName="CLINICAL PHARMACOLOGY SECTION"/>
+               <title>
+                  <content styleCode="bold">CLINICAL PHARMACOLOGY</content>
+               </title>
+               <text>
+                  <paragraph>Promethazine hydrochloride is a phenothiazine derivative which possesses antihistaminic, sedative, antimotion-sickness, antiemetic, and anticholinergic effects. Promethazine is a competitive H
+  <sub>1</sub> receptor antagonist, but does not block the release of histamine. Structural differences from the neuroleptic phenothiazines result in its relative lack (1/10 that of chlorpromazine) of dopamine antagonist properties. Clinical effects are generally apparent within 5 minutes of an intravenous injection and within 20 minutes of an intramuscular injection. Duration of action is four to six hours, although effects may persist up to 12 hours. Promethazine hydrochloride is metabolized in the liver, with the sulfoxides of promethazine and N-desmethylpromethazine being the predominant metabolites appearing in the urine. Following intravenous administration in healthy volunteers, the plasma half-life for promethazine has been reported to range from 9 to 16 hours. The mean plasma half-life for promethazine after intramuscular administration in healthy volunteers has been reported to be 9.8 ± 3.4 hours.
+ </paragraph>
+               </text>
+               <effectiveTime value="20210831"/>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_2acb952e-ec6f-4a3d-b33e-0e98a90d54e1">
+               <id root="0e9dd230-b080-cda7-e063-6394a90ae084"/>
+               <code code="34067-9" codeSystem="2.16.840.1.113883.6.1" displayName="INDICATIONS &amp; USAGE SECTION"/>
+               <title>
+                  <content styleCode="bold">INDICATIONS AND USAGE</content>
+               </title>
+               <text>
+                  <paragraph>Promethazine hydrochloride injection is indicated for the following conditions:</paragraph>
+                  <list listType="ordered">
+                     <item>Amelioration of allergic reactions to blood or plasma.</item>
+                     <item>In anaphylaxis as an adjunct to epinephrine and other standard measures after the acute symptoms have been controlled.</item>
+                     <item>For other uncomplicated allergic conditions of the immediate type when oral therapy is impossible or contraindicated.</item>
+                     <item>For sedation and relief of apprehension and to produce light sleep from which the patient can be easily aroused.</item>
+                     <item>Active treatment of motion sickness.</item>
+                     <item>Prevention and control of nausea and vomiting associated with certain types of anesthesia and surgery.</item>
+                     <item>As an adjunct to analgesics for the control of postoperative pain.</item>
+                     <item>Preoperative, postoperative, and obstetric (during labor) sedation.</item>
+                     <item>Intravenously in special surgical situations, such as repeated bronchoscopy, ophthalmic surgery, and poor-risk patients, with reduced amounts of meperidine or other narcotic analgesic as an adjunct to anesthesia and analgesia.</item>
+                  </list>
+               </text>
+               <effectiveTime value="20210831"/>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_a82e430c-4b97-45ec-b2ec-1b3e1226c968">
+               <id root="0e9dd230-b07d-cda7-e063-6394a90ae084"/>
+               <code code="34070-3" codeSystem="2.16.840.1.113883.6.1" displayName="CONTRAINDICATIONS SECTION"/>
+               <title>
+                  <content styleCode="bold">CONTRAINDICATIONS</content>
+               </title>
+               <text>
+                  <paragraph>The use of promethazine hydrochloride injection is contraindicated:</paragraph>
+                  <list listType="unordered">
+                     <item>In pediatric patients less than 2 years of age due to the risk of respiratory depression (
+   <content styleCode="bold">
+                           <linkHtml href="#LINK_af3b02a0-6429-48fb-a6d1-e83d9504cc5a">WARNINGS - Respiratory Depression</linkHtml>
+                        </content>).
+  </item>
+                     <item>For use as an intravenous injection at concentrations greater than 1 mg/mL due to the risk of perivascular extravasation, unintentional intra-arterial injection, and intraneuronal or perineuronal infiltration (
+   <content styleCode="bold">see 
+    <linkHtml href="#LINK_0302fd9c-157d-4bee-8b90-e9d10976b414">WARNINGS - Severe Tissue Injury, Including Gangrene</linkHtml> and 
+    <linkHtml href="#LINK_b6ea8272-0714-430e-abca-e1aa643d15ad">DOSAGE AND ADMINISTRATION</linkHtml>
+                        </content>).
+  </item>
+                     <item>For use as an intra-arterial injection due to the likelihood of severe arteriospasm and the possibility of resultant gangrene (
+   <content styleCode="bold">see 
+    <linkHtml href="#LINK_0302fd9c-157d-4bee-8b90-e9d10976b414">WARNINGS - Severe Tissue Injury, Including Gangrene</linkHtml>
+                        </content>).
+  </item>
+                     <item>For use as a subcutaneous injection because chemical irritation and necrotic lesions have been reported (
+   <content styleCode="bold">see 
+    <linkHtml href="#LINK_0302fd9c-157d-4bee-8b90-e9d10976b414">WARNINGS - Severe Tissue Injury, Including Gangrene</linkHtml>
+                        </content>).
+  </item>
+                     <item>In patients in a comatose state.</item>
+                     <item>In patients who have demonstrated an idiosyncratic reaction or hypersensitivity to promethazine hydrochloride or other phenothiazines.</item>
+                  </list>
+               </text>
+               <effectiveTime value="20231227"/>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_68756811-0555-40a7-b996-16db79adb0d2">
+               <id root="0e9dbf6a-9742-c170-e063-6294a90a45f8"/>
+               <code code="34071-1" codeSystem="2.16.840.1.113883.6.1" displayName="WARNINGS SECTION"/>
+               <title>
+                  <content styleCode="bold">WARNINGS</content>
+               </title>
+               <effectiveTime value="20231227"/>
+               <component>
+                  <section ID="LINK_af3b02a0-6429-48fb-a6d1-e83d9504cc5a">
+                     <id root="0e9c53fb-cb9a-4620-e063-6394a90a18d5"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>
+                        <content styleCode="underline">
+                           <content styleCode="bold">Respiratory Depression</content>
+                        </content>
+                     </title>
+                     <text>
+                        <paragraph>
+                           <content styleCode="italics">Pediatrics</content>
+                        </paragraph>
+                        <paragraph>
+                           <content styleCode="bold">Promethazine hydrochloride injection should not be used in pediatric patients less than 2 years of age because of the potential for fatal respiratory depression. Post-marketing cases of respiratory depression, including fatalities, have been reported with use of promethazine in pediatric patients less than 2 years of age. A wide range of weight-based doses of promethazine hydrochloride injection have resulted in respiratory depression in these patients.</content>
+                        </paragraph>
+                        <paragraph>
+                           <content styleCode="bold">Caution should be exercised when administering promethazine hydrochloride injection to pediatric patients 2 years of age and older. It is recommended that the lowest effective dose of promethazine hydrochloride injection be used in pediatric patients 2 years of age and older. Avoid concomitant administration of other drugs with respiratory depressant effects because of an association with respiratory depression, and sometimes death, in pediatric patients.</content>
+                        </paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Other</content>
+                        </paragraph>
+                        <paragraph>Because of the risk of potentially fatal respiratory depression, use of promethazine hydrochloride injection in patients with compromised respiratory function or patients at risk for respiratory failure (e.g. COPD, sleep apnea) should be avoided.</paragraph>
+                     </text>
+                     <effectiveTime value="20210901"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_0302fd9c-157d-4bee-8b90-e9d10976b414">
+                     <id root="0e9d1317-8455-6c4b-e063-6294a90ade26"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>
+                        <content styleCode="underline">
+                           <content styleCode="bold">Severe Tissue Injury, Including Gangrene</content>
+                        </content>
+                     </title>
+                     <text>
+                        <list listType="unordered">
+                           <item>
+                              <content styleCode="bold">Promethazine hydrochloride injection has been reported to cause severe chemical irritation and 
+    <content styleCode="underline">damage to tissues, including gangrene, regardless of the route of parenteral administration</content>. Intra-arterial and subcutaneous administration have resulted in more significant complications. The use of promethazine hydrochloride injection by intravenous injection at concentrations greater than 1 mg/mL, intra-arterial injection, or subcutaneous injection is contraindicated (see 
+    <linkHtml href="#LINK_a82e430c-4b97-45ec-b2ec-1b3e1226c968">CONTRAINDICATIONS</linkHtml>).
+   </content>
+                           </item>
+                           <item>
+                              <content styleCode="bold">Irritation and damage can result from perivascular extravasation, intra-arterial injection, and intraneuronal or perineuronal infiltration. Inadvertent intra-arterial injection can cause severe arteriospasm. Other reported adverse reactions included burning, pain, erythema, swelling, sensory loss, palsies, paralysis, severe spasm of distal vessels, thrombophlebitis, venous thrombosis, phlebitis, abscesses, tissue necrosis, and gangrene. In some cases, surgical intervention, including fasciotomy, skin graft, and/or amputation have been required.</content>
+                           </item>
+                           <item>
+                              <content styleCode="bold">The preferred route of administration of promethazine hydrochloride injection is by deep intramuscular administration.</content>
+                           </item>
+                           <item>
+                              <content styleCode="bold">Promethazine hydrochloride injection may be administered intravenously after dilution through an intravenous catheter inserted in a large vein. Preferably through a central venous catheter (see 
+    <linkHtml href="#LINK_b6ea8272-0714-430e-abca-e1aa643d15ad">DOSAGE AND ADMINISTRATION</linkHtml>).
+   </content>
+                           </item>
+                           <item>
+                              <content styleCode="bold">If pain occurs at the injection site during intravenous infusion, immediately discontinue the infusion, evaluate for possible arterial injection or perivascular extravasation, and initiate appropriate medical management.</content>
+                           </item>
+                        </list>
+                     </text>
+                     <effectiveTime value="20231227"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_85aa7b36-b01a-4581-a133-4d7d8ada8109">
+                     <id root="0e9d3638-d065-7e6d-e063-6394a90ae9cd"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>
+                        <content styleCode="underline">
+                           <content styleCode="bold">CNS Depression</content>
+                        </content>
+                     </title>
+                     <text>
+                        <paragraph>Promethazine hydrochloride injection may impair the mental and/or physical abilities required for the performance of potentially hazardous tasks, such as driving a vehicle or operating machinery.</paragraph>
+                        <paragraph>The impairment may be amplified by concomitant use of other central-nervous-system depressants such as alcohol, sedative/hypnotics (including barbiturates), general anesthetics, narcotics, narcotic analgesics, tricyclic antidepressants, and tranquilizers; therefore such agents should either be eliminated or given in reduced dosage in the presence of promethazine hydrochloride (see 
+  <content styleCode="bold">PRECAUTIONS - 
+   <linkHtml href="#LINK_f83420d6-aade-4478-8143-26554d280a60">Information for Patients</linkHtml> and 
+   <linkHtml href="#LINK_04642572-c20a-46e3-a4ad-8cd64bb4fbd4">Drug Interactions</linkHtml>
+                           </content>).
+ </paragraph>
+                     </text>
+                     <effectiveTime value="20210831"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_199bd495-f111-45fe-9737-c82e411d3acd">
+                     <id root="0e9d3a80-b4e9-921b-e063-6394a90ac7a0"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>
+                        <content styleCode="underline">
+                           <content styleCode="bold">Lower Seizure Threshold</content>
+                        </content>
+                     </title>
+                     <text>
+                        <paragraph>Promethazine hydrochloride injection may lower seizure threshold and should be used with caution in persons with seizure disorders or in persons who are using concomitant medications, such as narcotics or local anesthetics, which may also affect seizure threshold.</paragraph>
+                     </text>
+                     <effectiveTime value="20210831"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_de2fe7ad-5c31-4285-bfd1-a4d67d8ee752">
+                     <id root="0e9d3105-a523-9105-e063-6394a90af914"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>
+                        <content styleCode="underline">
+                           <content styleCode="bold">Bone-Marrow Depression</content>
+                        </content>
+                     </title>
+                     <text>
+                        <paragraph>Promethazine hydrochloride injection should be used with caution in patients with bone-marrow depression. Leukopenia and agranulocytosis have been reported, usually when promethazine hydrochloride has been used in association with other known marrow-toxic agents.</paragraph>
+                     </text>
+                     <effectiveTime value="20210831"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_0be7c594-880c-44b6-82bc-33bf44577dae">
+                     <id root="0e9d3ec4-94b8-7b97-e063-6394a90a6cce"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>
+                        <content styleCode="underline">
+                           <content styleCode="bold">Neuroleptic Malignant Syndrome</content>
+                        </content>
+                     </title>
+                     <text>
+                        <paragraph>A potentially fatal symptom complex sometimes referred to as Neuroleptic Malignant Syndrome (NMS) has been reported in association with promethazine hydrochloride alone or in combination with antipsychotic drugs. Clinical manifestations of NMS are hyperpyrexia, muscle rigidity, altered mental status and evidence of autonomic instability (irregular pulse or blood pressure, tachycardia, diaphoresis and cardiac dysrhythmias).</paragraph>
+                        <paragraph>The diagnostic evaluation of patients with this syndrome is complicated. In arriving at a diagnosis, it is important to identify cases where the clinical presentation includes both serious medical illness (e.g., pneumonia, systemic infection, etc.) and untreated or inadequately treated extrapyramidal signs and symptoms (EPS). Other important considerations in the differential diagnosis include central anticholinergic toxicity, heat stroke, drug fever and primary central nervous system (CNS) pathology.</paragraph>
+                        <paragraph>The management of NMS should include 1) immediate discontinuation of promethazine hydrochloride, antipsychotic drugs, if any, and other drugs not essential to concurrent therapy, 2) intensive symptomatic treatment and medical monitoring, and 3) treatment of any concomitant serious medical problems for which specific treatments are available. There is no general agreement about specific pharmacological treatment regimens for uncomplicated NMS.</paragraph>
+                        <paragraph>Since recurrences of NMS have been reported with phenothiazines, the reintroduction of promethazine hydrochloride should be carefully considered.</paragraph>
+                     </text>
+                     <effectiveTime value="20210831"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_b63b11f9-ddee-41f9-bf26-f0908ba05ade">
+                     <id root="0e9d3105-a524-9105-e063-6394a90af914"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>
+                        <content styleCode="underline">
+                           <content styleCode="bold">Sulfite Sensitivity</content>
+                        </content>
+                     </title>
+                     <text>
+                        <paragraph>Promethazine hydrochloride injection contains sodium metabisulfite, a sulfite that may cause allergic-type reactions, including anaphylactic symptoms and life-threatening or less severe asthma episodes, in certain susceptible people. The overall prevalence of sulfite sensitivity in the general population is unknown and probably low. Sulfite sensitivity is seen more frequently in asthmatic than in nonasthmatic people.</paragraph>
+                     </text>
+                     <effectiveTime value="20210831"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_e275abcf-8136-4b11-a0ec-42f9b81a4e23">
+                     <id root="0e9d2fac-7f20-8220-e063-6394a90a3c0e"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>
+                        <content styleCode="underline">
+                           <content styleCode="bold">Visual Inspection</content>
+                        </content>
+                     </title>
+                     <text>
+                        <paragraph>This product is light sensitive and should be inspected before use and discarded if either color or particulate is observed.</paragraph>
+                     </text>
+                     <effectiveTime value="20210901"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_fc4cd9a7-84f3-4bef-89b5-03b7c0e02181">
+                     <id root="0e9d2ded-7ef8-8cb7-e063-6394a90ab3e0"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>
+                        <content styleCode="underline">
+                           <content styleCode="bold">Cholestatic Jaundice</content>
+                        </content>
+                     </title>
+                     <text>
+                        <paragraph>Administration of promethazine has been associated with reported cholestatic jaundice.</paragraph>
+                     </text>
+                     <effectiveTime value="20210831"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_629fdcbf-178c-49dc-92dc-0f6d9093ec1b">
+               <id root="0e9dd8ea-8f00-d671-e063-6394a90a9b24"/>
+               <code code="42232-9" codeSystem="2.16.840.1.113883.6.1" displayName="PRECAUTIONS SECTION"/>
+               <title>
+                  <content styleCode="bold">PRECAUTIONS</content>
+               </title>
+               <effectiveTime value="20240102"/>
+               <component>
+                  <section ID="LINK_13d85727-ee47-403f-935c-66e9d66aae5a">
+                     <id root="0e38c192-9544-c646-e063-6394a90a132f"/>
+                     <code code="34072-9" codeSystem="2.16.840.1.113883.6.1" displayName="GENERAL PRECAUTIONS SECTION"/>
+                     <title>
+                        <content styleCode="underline">
+                           <content styleCode="bold">General</content>
+                        </content>
+                     </title>
+                     <text>
+                        <paragraph>Drugs having anticholinergic properties should be used with caution in patients with narrow-angle glaucoma, prostatic hypertrophy, stenosing peptic ulcer, pyloroduodenal obstruction, and bladder-neck obstruction.</paragraph>
+                        <paragraph>Promethazine hydrochloride injection should be used cautiously in persons with cardiovascular disease or impairment of liver function.</paragraph>
+                     </text>
+                     <effectiveTime value="20210831"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_f83420d6-aade-4478-8143-26554d280a60">
+                     <id root="0e9cd452-0052-773d-e063-6394a90acf70"/>
+                     <code code="34076-0" codeSystem="2.16.840.1.113883.6.1" displayName="INFORMATION FOR PATIENTS SECTION"/>
+                     <title>
+                        <content styleCode="underline">
+                           <content styleCode="bold">Information for Patients</content>
+                        </content>
+                     </title>
+                     <text>
+                        <paragraph>Patients should be advised of the risk of respiratory depression, including potentially fatal respiratory depression in children less than 2 years of age (see 
+  <content styleCode="bold">
+                              <linkHtml href="#LINK_af3b02a0-6429-48fb-a6d1-e83d9504cc5a">WARNINGS - Respiratory Depression</linkHtml>
+                           </content>).
+ </paragraph>
+                        <paragraph>Patients should be advised of the risk of severe tissue injury, including gangrene (see 
+  <content styleCode="bold">
+                              <linkHtml href="#LINK_0302fd9c-157d-4bee-8b90-e9d10976b414">WARNINGS - Severe Tissue Injury, Including Gangrene</linkHtml>
+                           </content>). Patients should be advised to immediately report persistent or worsening pain or burning at the injection site.
+ </paragraph>
+                        <paragraph>Promethazine hydrochloride injection may cause marked drowsiness or impair the mental or physical abilities required for the performance of potentially hazardous tasks, such as driving a vehicle or operating machinery. Pediatric patients should be supervised to avoid potential harm in bike riding or in other hazardous activities. The concomitant use of alcohol, sedative/hypnotics (including barbiturates), general anesthetics, narcotics, narcotic analgesics, tricyclic antidepressants, and tranquilizers may enhance impairment (see 
+  <content styleCode="bold">
+                              <linkHtml href="#LINK_85aa7b36-b01a-4581-a133-4d7d8ada8109">WARNINGS - CNS Depression</linkHtml> and 
+   <linkHtml href="#LINK_04642572-c20a-46e3-a4ad-8cd64bb4fbd4">PRECAUTIONS-Drug Interactions</linkHtml>
+                           </content>).
+ </paragraph>
+                        <paragraph>Patients should be advised to report any involuntary muscle movements (see 
+  <content styleCode="bold">
+                              <linkHtml href="#LINK_29758c23-4f07-4941-8116-622f04b075a8">ADVERSE REACTIONS - Paradoxical Reactions</linkHtml>
+                           </content>).
+ </paragraph>
+                        <paragraph>Patients should be advised to avoid prolonged exposure to the sun (see 
+  <content styleCode="bold">
+                              <linkHtml href="#LINK_ab525339-3185-4e66-bdcd-a25383a7c956">ADVERSE REACTIONS - Dermatologic</linkHtml>
+                           </content>).
+ </paragraph>
+                     </text>
+                     <effectiveTime value="20210831"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_04642572-c20a-46e3-a4ad-8cd64bb4fbd4">
+                     <id root="0e9ce741-d7e6-48f4-e063-6294a90ac13e"/>
+                     <code code="34073-7" codeSystem="2.16.840.1.113883.6.1" displayName="DRUG INTERACTIONS SECTION"/>
+                     <title>
+                        <content styleCode="underline">
+                           <content styleCode="bold">Drug Interactions</content>
+                        </content>
+                     </title>
+                     <effectiveTime value="20210831"/>
+                     <component>
+                        <section ID="LINK_2711f269-48a6-42cc-ac7a-7dd813004a00">
+                           <id root="0eb06793-5129-e959-e063-6294a90afa69"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title>
+                              <content styleCode="italics">CNS Depressants</content>
+                           </title>
+                           <text>
+                              <paragraph>Promethazine hydrochloride injection may increase, prolong, or intensify the sedative action of central-nervous-system depressants, such as alcohol, sedative/hypnotics (including barbiturates), general anesthetics, narcotics, narcotic analgesics, tricyclic antidepressants, and tranquilizers; therefore, such agents should be avoided or administered in reduced dosage to patients receiving promethazine hydrochloride. When given concomitantly with promethazine hydrochloride injection, the dose of barbiturates should be reduced by at least one-half, and the dose of narcotics should be reduced by one-quarter to one-half. Dosage must be individualized. Excessive amounts of promethazine hydrochloride injection relative to a narcotic may lead to restlessness and motor hyperactivity in the patient with pain; these symptoms usually disappear with adequate control of the pain.</paragraph>
+                           </text>
+                           <effectiveTime value="20240102"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section ID="LINK_0cb0dee6-624b-4a60-908f-51efbf98627d">
+                           <id root="0e9d4947-efba-9632-e063-6394a90af7f8"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title>
+                              <content styleCode="italics">Epinephrine</content>
+                           </title>
+                           <text>
+                              <paragraph>Because of the potential for promethazine hydrochloride to reverse epinephrine’s vasopressor effect, epinephrine should NOT be used to treat hypotension associated with promethazine hydrochloride injection overdose.</paragraph>
+                           </text>
+                           <effectiveTime value="20210831"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section ID="LINK_8cc5d339-8a6a-43c2-a6b9-3353ce2f3165">
+                           <id root="0e9d4947-efbd-9632-e063-6394a90af7f8"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title>
+                              <content styleCode="italics">Anticholinergics</content>
+                           </title>
+                           <text>
+                              <paragraph>Concomitant use of other agents with anticholinergic properties should be undertaken with caution.</paragraph>
+                           </text>
+                           <effectiveTime value="20210831"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section ID="LINK_23b0bcef-56e2-4db0-ac76-e8f71778aa87">
+                           <id root="0e9d4bcd-7159-95a0-e063-6394a90a11d7"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title>
+                              <content styleCode="italics">Monoamine Oxidase (MAO) Inhibitors</content>
+                           </title>
+                           <text>
+                              <paragraph>Drug interactions, including an increased incidence of extrapyramidal effects, have been reported when some MAO Inhibitors and phenothiazines are used concomitantly. This possibility should be considered with promethazine hydrochloride injection.</paragraph>
+                           </text>
+                           <effectiveTime value="20210831"/>
+                        </section>
+                     </component>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_72ccb31f-e02e-43b4-8451-7201bff3912f">
+                     <id root="0e9cf5d1-8a43-718d-e063-6394a90a352e"/>
+                     <code code="34075-2" codeSystem="2.16.840.1.113883.6.1" displayName="LABORATORY TESTS SECTION"/>
+                     <title>
+                        <content styleCode="underline">
+                           <content styleCode="bold">Drug/Laboratory Test Interactions </content>
+                        </content>
+                     </title>
+                     <text>
+                        <paragraph>The following laboratory tests may be affected in patients who are receiving therapy with promethazine hydrochloride injection:</paragraph>
+                     </text>
+                     <effectiveTime value="20210901"/>
+                     <component>
+                        <section ID="LINK_18bdc5ab-4d62-4664-be7b-ae2830d1b7e2">
+                           <id root="0e715e7f-37d9-63ac-e063-6294a90a3ca4"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title>
+                              <content styleCode="italics">Pregnancy Tests</content>
+                           </title>
+                           <text>
+                              <paragraph>Diagnostic pregnancy tests based on immunological reactions between HCG and anti-HCG may result in false-negative or false-positive interpretations.</paragraph>
+                           </text>
+                           <effectiveTime value="20240102"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section ID="LINK_56153939-5c9b-4097-97af-96fe8d05861e">
+                           <id root="0e9d1d81-eafa-6c83-e063-6394a90a3b05"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title>
+                              <content styleCode="italics">Glucose Tolerance Test</content>
+                           </title>
+                           <text>
+                              <paragraph>An increase in blood glucose has been reported in patients receiving promethazine hydrochloride.</paragraph>
+                           </text>
+                           <effectiveTime value="20210831"/>
+                        </section>
+                     </component>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_c95b3b8e-36df-4bf1-be28-be39f3c96555">
+                     <id root="0e9d09fa-8210-74f2-e063-6394a90ab952"/>
+                     <code code="34083-6" codeSystem="2.16.840.1.113883.6.1" displayName="CARCINOGENESIS &amp; MUTAGENESIS &amp; IMPAIRMENT OF FERTILITY SECTION"/>
+                     <title>
+                        <content styleCode="underline">
+                           <content styleCode="bold">Carcinogenesis, Mutagenesis and Impairment of Fertility</content>
+                        </content>
+                     </title>
+                     <text>
+                        <paragraph>Long-term animal studies have not been performed to assess the carcinogenic potential of promethazine hydrochloride injection, nor are there other animal or human data concerning carcinogenicity, mutagenicity, or impairment of fertility. Promethazine hydrochloride injection was nonmutagenic in the Salmonella test system of Ames.</paragraph>
+                     </text>
+                     <effectiveTime value="20210831"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_67ed2ab6-c7f5-45f9-91f1-4b08d7f39636">
+                     <id root="0e9d10f7-1ee9-6790-e063-6394a90ac04e"/>
+                     <code code="42228-7" codeSystem="2.16.840.1.113883.6.1" displayName="PREGNANCY SECTION"/>
+                     <title>
+                        <content styleCode="underline">
+                           <content styleCode="bold">Pregnancy</content>
+                        </content>
+                     </title>
+                     <effectiveTime value="20210831"/>
+                     <component>
+                        <section ID="LINK_c0bf7555-8d6f-4318-98f4-5ae90035ce27">
+                           <id root="0e9dbdef-2fcb-e43b-e063-6294a90a4fa6"/>
+                           <code code="34077-8" codeSystem="2.16.840.1.113883.6.1" displayName="TERATOGENIC EFFECTS SECTION"/>
+                           <title>
+                              <content styleCode="italics">Teratogenic Effects</content>
+                           </title>
+                           <effectiveTime value="20210831"/>
+                           <component>
+                              <section ID="LINK_260defc1-8051-41a8-95de-de8d0fe8618d">
+                                 <id root="0a5d6842-8271-e8a2-e063-6294a90ae239"/>
+                                 <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                                 <title>
+                                    <content styleCode="italics">Pregnancy Category C</content>
+                                 </title>
+                                 <text>
+                                    <paragraph>Teratogenic effects have not been demonstrated in rat-feeding studies at doses of 6.25 and 12.5 mg/kg (approximately 2.1 and 4.2 times the maximum recommended human daily dose) of promethazine hydrochloride injection. Daily doses of 25 mg/kg intraperitoneally have been found to produce fetal mortality in rats.</paragraph>
+                                    <paragraph>There are no adequate and well-controlled studies of promethazine hydrochloride injection in pregnant women. Because animal reproduction studies are not always predictive of human response, promethazine hydrochloride injection should be used during pregnancy only if the potential benefit justifies the potential risk to the fetus.</paragraph>
+                                    <paragraph>Adequate studies to determine the action of the drug on parturition, lactation and development of the animal neonate have not been conducted. 
+  <br/>
+                                    </paragraph>
+                                 </text>
+                                 <effectiveTime value="20210831"/>
+                              </section>
+                           </component>
+                        </section>
+                     </component>
+                     <component>
+                        <section ID="LINK_0ac0e5ee-a9ae-427f-ba3d-eaba248b568a">
+                           <id root="0e9d12bd-ec3f-6a47-e063-6294a90ac694"/>
+                           <code code="34078-6" codeSystem="2.16.840.1.113883.6.1" displayName="NONTERATOGENIC EFFECTS SECTION"/>
+                           <title>
+                              <content styleCode="italics">Nonteratogenic Effects</content>
+                           </title>
+                           <text>
+                              <paragraph>Promethazine hydrochloride injection administered to a pregnant woman within two weeks of delivery may inhibit platelet aggregation in the newborn.</paragraph>
+                           </text>
+                           <effectiveTime value="20210831"/>
+                        </section>
+                     </component>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_a14c4657-7e0c-4b9f-8f41-7fe8d0c8fa84">
+                     <id root="0ec37e08-1d43-83cd-e063-6394a90ad754"/>
+                     <code code="34079-4" codeSystem="2.16.840.1.113883.6.1" displayName="LABOR &amp; DELIVERY SECTION"/>
+                     <title>
+                        <content styleCode="underline">
+                           <content styleCode="bold">Labor and Delivery</content>
+                        </content>
+                     </title>
+                     <text>
+                        <paragraph>Promethazine hydrochloride injection may be used alone or as an adjunct to narcotic analgesics during labor (see 
+  <content styleCode="bold">
+                              <linkHtml href="#LINK_b6ea8272-0714-430e-abca-e1aa643d15ad">DOSAGE AND ADMINISTRATION</linkHtml>
+                           </content>). Limited data suggest that use of promethazine hydrochloride injection during labor and delivery does not have an appreciable effect on the duration of labor or delivery and does not increase the risk of need for intervention in the newborn. The effect on later growth and development of the newborn is unknown. (See also
+  <content styleCode="bold">
+                              <linkHtml href="#LINK_0ac0e5ee-a9ae-427f-ba3d-eaba248b568a">Pregnancy-Nonteratogenic Effects.</linkHtml>
+                           </content>)
+ </paragraph>
+                     </text>
+                     <effectiveTime value="20231227"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_c805a94e-a766-495a-83ec-6013e8ab4459">
+                     <id root="0e9dc36a-7e81-ae83-e063-6394a90a84ae"/>
+                     <code code="34080-2" codeSystem="2.16.840.1.113883.6.1" displayName="NURSING MOTHERS SECTION"/>
+                     <title>
+                        <content styleCode="underline">
+                           <content styleCode="bold">Nursing Mothers</content>
+                        </content>
+                     </title>
+                     <text>
+                        <paragraph>It is not known whether promethazine hydrochloride injection is excreted in human milk. Because many drugs are excreted in human milk, and because of the potential for serious adverse reactions in nursing infants from promethazine hydrochloride injection, a decision should be made whether to discontinue nursing or to discontinue the drug, taking into account the importance of the drug to the mother.</paragraph>
+                     </text>
+                     <effectiveTime value="20210831"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_3efb27ad-3b24-4372-bffb-10bf95c382f2">
+                     <id root="0e9dd230-b07c-cda7-e063-6394a90ae084"/>
+                     <code code="34081-0" codeSystem="2.16.840.1.113883.6.1" displayName="PEDIATRIC USE SECTION"/>
+                     <title>
+                        <content styleCode="underline">
+                           <content styleCode="bold">Pediatric Use</content>
+                        </content>
+                     </title>
+                     <text>
+                        <paragraph>Promethazine hydrochloride injection is contraindicated for use in pediatric patients less than 2 years of age, because of the potential for fatal respiratory depression. Promethazine hydrochloride injection should be used with caution in pediatric patients 2 years of age and older (see 
+  <content styleCode="bold">
+                              <linkHtml href="#LINK_af3b02a0-6429-48fb-a6d1-e83d9504cc5a">WARNINGS - Respiratory Depression</linkHtml>
+                           </content>).
+ </paragraph>
+                        <paragraph>Antiemetics are not recommended for treatment of uncomplicated vomiting in pediatric patients, and their use should be limited to prolonged vomiting of known etiology. The extrapyramidal symptoms which can occur secondary to promethazine hydrochloride injection administration may be confused with the CNS signs of undiagnosed primary disease, e.g., encephalopathy or Reye’s syndrome. The use of promethazine hydrochloride injection should be avoided in pediatric patients whose signs and symptoms may suggest Reye’s syndrome or other hepatic diseases.</paragraph>
+                        <paragraph>Excessively large dosages of antihistamines, including promethazine hydrochloride injection, in pediatric patients may cause sudden death (see 
+  <content styleCode="bold">
+                              <linkHtml href="#LINK_0b637a47-d008-4eac-870d-9bba372711c3">OVERDOSAGE</linkHtml>
+                           </content>). Hallucinations and convulsions have occurred with therapeutic doses and overdoses of promethazine hydrochloride injection in pediatric patients. In pediatric patients who are acutely ill associated with dehydration, there is an increased susceptibility to dystonias with the use of promethazine hydrochloride injection.
+ </paragraph>
+                     </text>
+                     <effectiveTime value="20210831"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_b40f1fe6-2a3b-428a-a838-caeb96f5d79f">
+                     <id root="0e9dc792-4422-e4dc-e063-6294a90aa709"/>
+                     <code code="34082-8" codeSystem="2.16.840.1.113883.6.1" displayName="GERIATRIC USE SECTION"/>
+                     <title>
+                        <content styleCode="underline">
+                           <content styleCode="bold">Geriatric Use (patients approximately 60 years or older) </content>
+                        </content>
+                     </title>
+                     <text>
+                        <paragraph>Since therapeutic requirements for sedative drugs tend to be less in geriatric patients, the dosage should be reduced for these patients.</paragraph>
+                     </text>
+                     <effectiveTime value="20210831"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_74126b7c-2889-49c4-a5b4-1dcc26f880b0">
+               <id root="0e9de272-054c-cef0-e063-6294a90ab4c6"/>
+               <code code="34084-4" codeSystem="2.16.840.1.113883.6.1" displayName="ADVERSE REACTIONS SECTION"/>
+               <title>
+                  <content styleCode="bold">ADVERSE REACTIONS</content>
+               </title>
+               <effectiveTime value="20231227"/>
+               <component>
+                  <section ID="LINK_484ed4ed-72ac-4e73-8412-b6baffe71488">
+                     <id root="0ead8d5e-a366-d1e7-e063-6294a90ad055"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>
+                        <content styleCode="underline">
+                           <content styleCode="bold">Respiratory Depression</content>
+                        </content>
+                     </title>
+                     <text>
+                        <paragraph>Promethazine hydrochloride injection is contraindicated in pediatric patients less than 2 years of age, because of the potential for fatal respiratory depression. Promethazine hydrochloride injection should be used with caution in pediatric patients 2 years of age and older (see 
+  <content styleCode="bold">
+                              <linkHtml href="#LINK_af3b02a0-6429-48fb-a6d1-e83d9504cc5a">WARNINGS - Respiratory Depression</linkHtml>
+                           </content>).
+ </paragraph>
+                     </text>
+                     <effectiveTime value="20210831"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_c888af2f-4872-46c4-a632-de0e9fd50d7a">
+                     <id root="0eadcc35-4489-d22d-e063-6294a90a51e0"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>
+                        <content styleCode="underline">
+                           <content styleCode="bold">Severe Tissue Injury, Including Gangrene</content>
+                        </content>
+                     </title>
+                     <text>
+                        <paragraph>Promethazine hydrochloride injection has been reported to cause severe chemical irritation and 
+  <content styleCode="underline">damage to tissues, including gangrene, regardless of the route of parenteral administration</content>. Intra-arterial and subcutaneous injection have resulted in more significant complications (
+  <content styleCode="bold">see 
+   <linkHtml href="#LINK_a82e430c-4b97-45ec-b2ec-1b3e1226c968">CONTRAINDICATIONS</linkHtml>
+                           </content>).
+ </paragraph>
+                        <paragraph>Reported adverse reactions included burning, pain, erythema, swelling, sensory loss, palsies, paralysis, severe spasm of distal vessels, thrombophlebitis, venous thrombosis, phlebitis, abscesses, tissue necrosis, and gangrene (
+  <content styleCode="bold">see 
+   <linkHtml href="#LINK_0302fd9c-157d-4bee-8b90-e9d10976b414">WARNINGS - Severe Tissue Injury, Including Gangrene</linkHtml>
+                           </content>).
+ </paragraph>
+                     </text>
+                     <effectiveTime value="20231227"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_f31793bf-e2fb-40ec-b0a8-a861bd450180">
+                     <id root="0eada38b-5771-bb7a-e063-6294a90a2bc8"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>
+                        <content styleCode="underline">
+                           <content styleCode="bold">Central Nervous System</content>
+                        </content>
+                     </title>
+                     <text>
+                        <paragraph>Drowsiness is the most prominent CNS effect of this drug. Sedation, somnolence, blurred vision, dizziness, confusion, disorientation, and extrapyramidal symptoms such as oculogyric crisis, torticollis, and tongue protrusion; lassitude, tinnitus, incoordination, fatigue, euphoria, nervousness, diplopia, insomnia, tremors, convulsive seizures, excitation, catatonic-like states, hysteria. Hallucinations have also been reported.</paragraph>
+                     </text>
+                     <effectiveTime value="20210831"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_e5612574-7d81-451c-b5f6-8f93d61bfc34">
+                     <id root="0eada6ec-2199-84ff-e063-6394a90ad90f"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>
+                        <content styleCode="underline">
+                           <content styleCode="bold">Cardiovascular</content>
+                        </content>
+                     </title>
+                     <text>
+                        <paragraph>Increased or decreased blood pressure, tachycardia, bradycardia, faintness.</paragraph>
+                     </text>
+                     <effectiveTime value="20210831"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_ab525339-3185-4e66-bdcd-a25383a7c956">
+                     <id root="0eada6ec-219a-84ff-e063-6394a90ad90f"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>
+                        <content styleCode="underline">
+                           <content styleCode="bold">Dermatologic</content>
+                        </content>
+                     </title>
+                     <text>
+                        <paragraph>Dermatitis, photosensitivity, urticaria.</paragraph>
+                     </text>
+                     <effectiveTime value="20210831"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_70658c9c-6fb5-495d-9b82-ee4bac528203">
+                     <id root="0eada6ec-219b-84ff-e063-6394a90ad90f"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>
+                        <content styleCode="underline">
+                           <content styleCode="bold">Hematologic</content>
+                        </content>
+                     </title>
+                     <text>
+                        <paragraph>Leukopenia, thrombocytopenia, thrombocytopenic purpura, agranulocytosis.</paragraph>
+                     </text>
+                     <effectiveTime value="20210831"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_d824d379-c865-4f73-9de2-f9d861dd6266">
+                     <id root="0eada99b-c6de-d1eb-e063-6294a90a72ec"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>
+                        <content styleCode="underline">
+                           <content styleCode="bold">Gastrointestinal</content>
+                        </content>
+                     </title>
+                     <text>
+                        <paragraph>Dry mouth, nausea, vomiting, jaundice.</paragraph>
+                     </text>
+                     <effectiveTime value="20210831"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_7ca51a82-a1cc-4a6b-ab64-ec4a4a3ed329">
+                     <id root="0ead7c4b-892c-bb76-e063-6294a90a9535"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>
+                        <content styleCode="underline">
+                           <content styleCode="bold">Respiratory</content>
+                        </content>
+                     </title>
+                     <text>
+                        <paragraph>Asthma, nasal stuffiness, respiratory depression (potentially fatal) and apnea (potentially fatal). (see 
+  <content styleCode="bold">
+                              <linkHtml href="#LINK_af3b02a0-6429-48fb-a6d1-e83d9504cc5a">WARNINGS: Respiratory Depression</linkHtml>
+                           </content>
+                           <content styleCode="bold">.</content>)
+ </paragraph>
+                     </text>
+                     <effectiveTime value="20210831"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_f8fd8abb-1567-46a1-bb21-d3e5f0f5f40c">
+                     <id root="0eadc6a8-4679-dbf8-e063-6294a90a353e"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>
+                        <content styleCode="underline">
+                           <content styleCode="bold">Other</content>
+                        </content>
+                     </title>
+                     <text>
+                        <paragraph>Angioneurotic edema. Neuroleptic Malignant Syndrome (potentially fatal) has also been reported. (See 
+  <content styleCode="bold">
+                              <linkHtml href="#LINK_0be7c594-880c-44b6-82bc-33bf44577dae">WARNINGS - Neuroleptic Malignant Syndrome</linkHtml>
+                           </content>
+                           <content styleCode="bold">.</content>)
+ </paragraph>
+                     </text>
+                     <effectiveTime value="20210831"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_29758c23-4f07-4941-8116-622f04b075a8">
+                     <id root="0eada6ec-219c-84ff-e063-6394a90ad90f"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>
+                        <content styleCode="underline">
+                           <content styleCode="bold">Paradoxical Reactions</content>
+                        </content>
+                     </title>
+                     <text>
+                        <paragraph>Hyperexcitability and abnormal movements have been reported in patients following a single administration of promethazine hydrochloride injection. Consideration should be given to the discontinuation of promethazine hydrochloride injection and to the use of other drugs if these reactions occur. Respiratory depression, nightmares, delirium, and agitated behavior have also been reported in some of these patients.</paragraph>
+                     </text>
+                     <effectiveTime value="20210831"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_0b637a47-d008-4eac-870d-9bba372711c3">
+               <id root="0e713b70-588b-b758-e063-6394a90a5b73"/>
+               <code code="34088-5" codeSystem="2.16.840.1.113883.6.1" displayName="OVERDOSAGE SECTION"/>
+               <title>
+                  <content styleCode="bold">OVERDOSAGE</content>
+               </title>
+               <text>
+                  <paragraph>Signs and symptoms of overdosage range from mild depression of the central nervous system and cardiovascular system to profound hypotension, respiratory depression, unconsciousness and sudden death. Other reported reactions include hyperreflexia, hypertonia, ataxia, athetosis, and extensor-plantar reflexes (Babinski reflex).</paragraph>
+                  <paragraph>Stimulation may be evident, especially in pediatric patients and geriatric patients. Convulsions may rarely occur. A paradoxical-type reaction has been reported in pediatric patients receiving single doses of 75 mg to 125 mg orally, characterized by hyperexcitability and nightmares.</paragraph>
+                  <paragraph>Atropine-like signs and symptoms-dry mouth; fixed, dilated pupils; flushing; etc., as well as gastrointestinal symptoms, may occur.</paragraph>
+               </text>
+               <effectiveTime value="20240102"/>
+               <component>
+                  <section ID="LINK_68113cbe-5dd8-44a7-a9d9-a4f1b2b4c176">
+                     <id root="0e38ede2-9ffc-e698-e063-6294a90abc4a"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>
+                        <content styleCode="underline">
+                           <content styleCode="bold">Treatment</content>
+                        </content>
+                     </title>
+                     <text>
+                        <paragraph>Treatment of overdosage is essentially symptomatic and supportive. Only in cases of extreme overdosage or individual sensitivity do vital signs, including respiration, pulse, blood pressure, temperature, and EKG, need to be monitored. Attention should be given to the reestablishment of adequate respiratory exchange through provision of a patent airway and institution of assisted or controlled ventilation. Diazepam may be used to control convulsions. Acidosis and electrolyte losses should be corrected. Note that any depressant effects of promethazine hydrochloride injection are not reversed by naloxone.</paragraph>
+                        <paragraph>Avoid analeptics, which may cause convulsions. The treatment of choice for resulting hypotension is administration of intravenous fluids, accompanied by repositioning if indicated. In the event that vasopressors are considered for the management of severe hypotension which does not respond to intravenous fluids and repositioning, the administration of norepinephrine or phenylephrine should be considered. EPINEPHRINE SHOULD NOT BE USED, since its use in a patient with partial adrenergic blockade may further lower the blood pressure. Extrapyramidal reactions may be treated with anticholinergic antiparkinson agents, diphenhydramine, or barbiturates. Oxygen may also be administered. Limited experience with dialysis indicates that it is not helpful.</paragraph>
+                     </text>
+                     <effectiveTime value="20210831"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_b6ea8272-0714-430e-abca-e1aa643d15ad">
+               <id root="0eade268-8023-e418-e063-6294a90a6ff9"/>
+               <code code="34068-7" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE &amp; ADMINISTRATION SECTION"/>
+               <title>
+                  <content styleCode="bold">DOSAGE AND ADMINISTRATION</content>
+               </title>
+               <text/>
+               <effectiveTime value="20231227"/>
+               <component>
+                  <section ID="LINK_cea6cb12-85fb-44f9-9de4-842fb251879b">
+                     <id root="0eae179b-73db-7c7c-e063-6294a90ad59f"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>
+                        <content styleCode="underline">
+                           <content styleCode="bold">Important Administration Information for Adult and Pediatric Patients 2 Years of Age and Older</content>
+                        </content>
+                     </title>
+                     <text>
+                        <list listType="unordered">
+                           <item>The preferred route of administration of promethazine hydrochloride injection is by deep intramuscular administration 
+   <content styleCode="bold">(see 
+    <linkHtml href="#LINK_0302fd9c-157d-4bee-8b90-e9d10976b414">WARNINGS - Severe Tissue Injury, Including Gangrene</linkHtml>
+                              </content>).
+  </item>
+                           <item>Promethazine hydrochloride injection may be administered intravenously after dilution as recommended below (
+   <content styleCode="bold">see 
+    <linkHtml href="#id_link_0e39227b-991c-d843-e063-6394a90a4c21">Preparation and Administration</linkHtml>
+                              </content>). If pain occurs at the injection site during intravenous infusion, immediately discontinue the infusion, and evaluate for possible arterial injection or perivascular extravasation.
+  </item>
+                        </list>
+                     </text>
+                     <effectiveTime value="20231227"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_3bbfa11c-2769-4542-9213-40d96673602c">
+                     <id root="0eadfe96-183e-c6e0-e063-6394a90a3a42"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>
+                        <content styleCode="underline">
+                           <content styleCode="bold">Allergic Conditions</content>
+                        </content>
+                     </title>
+                     <text>
+                        <paragraph>The average adult dose is 25 mg. This dose may be repeated within two hours if necessary, but continued therapy, if indicated, should be via the oral route as soon as existing circumstances permit. After initiation of treatment, dosage should be adjusted to the smallest amount adequate to relieve symptoms. The average adult dose for amelioration of allergic reactions to blood or plasma is 25 mg.</paragraph>
+                     </text>
+                     <effectiveTime value="20210831"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_b9e4fb40-e40b-4d1b-80ac-c395e602db27">
+                     <id root="0eadfe96-1840-c6e0-e063-6394a90a3a42"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>
+                        <content styleCode="underline">
+                           <content styleCode="bold">Sedation</content>
+                        </content>
+                     </title>
+                     <text>
+                        <paragraph>In hospitalized adult patients, nighttime sedation may be achieved by a dose of 25 to 50 mg of promethazine hydrochloride injection.</paragraph>
+                     </text>
+                     <effectiveTime value="20210831"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_f9d0f2d7-3ece-41c9-94f4-69cb5c5fd613">
+                     <id root="0eae3c5d-5de1-e588-e063-6294a90a7c57"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>
+                        <content styleCode="underline">
+                           <content styleCode="bold">Nausea and Vomiting</content>
+                        </content>
+                     </title>
+                     <text>
+                        <paragraph>For control of nausea and vomiting, the usual adult dose is 12.5 to 25 mg, not to be repeated more frequently than every four hours. When used for control of postoperative nausea and vomiting, the dosage of analgesics and barbiturates should be reduced accordingly (see 
+  <content styleCode="bold">
+                              <linkHtml href="#LINK_04642572-c20a-46e3-a4ad-8cd64bb4fbd4">PRECAUTIONS - Drug Interactions</linkHtml>
+                           </content>).
+ </paragraph>
+                        <paragraph>Antiemetics should not be used in vomiting of unknown etiology in children and adolescents (see 
+  <content styleCode="bold">
+                              <linkHtml href="#LINK_3efb27ad-3b24-4372-bffb-10bf95c382f2">PRECAUTIONS - Pediatric Use</linkHtml>
+                           </content>).
+ </paragraph>
+                     </text>
+                     <effectiveTime value="20210831"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_170adc91-7ba3-49de-9b23-f36251701646">
+                     <id root="0eae47c8-d0e3-8734-e063-6294a90a60ca"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>
+                        <content styleCode="underline">
+                           <content styleCode="bold">Preoperative and Postoperative Use</content>
+                        </content>
+                     </title>
+                     <text>
+                        <paragraph>As an adjunct to preoperative or postoperative medication, 25 to 50 mg of promethazine hydrochloride injection in adults may be combined with appropriately reduced doses of analgesics and atropine-like drugs as desired. Dosage of concomitant analgesic or hypnotic medication should be reduced accordingly (see 
+  <content styleCode="bold">
+                              <linkHtml href="#LINK_04642572-c20a-46e3-a4ad-8cd64bb4fbd4">PRECAUTIONS - Drug Interactions</linkHtml>
+                           </content>).
+ </paragraph>
+                        <paragraph>Promethazine hydrochloride is contraindicated for use in pediatric patients less than two years of age.</paragraph>
+                     </text>
+                     <effectiveTime value="20210831"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_6d7ce626-b30f-4b84-8ca9-4480c206ee6d">
+                     <id root="0eadf4bc-0c10-8c76-e063-6394a90adad6"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>
+                        <content styleCode="underline">
+                           <content styleCode="bold">Obstetrics</content>
+                        </content>
+                     </title>
+                     <text>
+                        <paragraph>Promethazine hydrochloride injection in doses of 50 mg will provide sedation and relieve apprehension in the early stages of labor. When labor is definitely established, 25 to 75 mg (average dose, 50 mg) promethazine hydrochloride injection may be given with an appropriately reduced dose of any desired narcotic (see 
+  <content styleCode="bold">
+                              <linkHtml href="#LINK_04642572-c20a-46e3-a4ad-8cd64bb4fbd4">PRECAUTIONS - Drug Interactions</linkHtml>
+                           </content>). If necessary, promethazine hydrochloride injection with a reduced dose of analgesic may be repeated once or twice at four-hour intervals in the course of a normal labor. A maximum total dose of 100 mg of promethazine hydrochloride injection may be administered during a 24-hour period to patients in labor.
+ </paragraph>
+                     </text>
+                     <effectiveTime value="20210831"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_5e7e8df2-556e-4722-9dbf-36e827e69602">
+                     <id root="0eae256f-b624-d7b9-e063-6394a90a4982"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>
+                        <content styleCode="underline">
+                           <content styleCode="bold">Pediatric Patients</content>
+                        </content>
+                     </title>
+                     <text>
+                        <paragraph>
+                           <content styleCode="bold">Promethazine hydrochloride injection is contraindicated for use in pediatric patients less than 2 years of age (see 
+   <linkHtml href="#LINK_af3b02a0-6429-48fb-a6d1-e83d9504cc5a">WARNINGS - Respiratory Depression</linkHtml>). Caution should be exercised when administering promethazine hydrochloride injection to pediatric patients 2 years of age or older. It is recommended that the lowest effective dose of promethazine hydrochloride be used in pediatric patients 2 years of age and older and concomitant administration of other drugs with respiratory depressant effects be avoided (see 
+   <linkHtml href="#LINK_af3b02a0-6429-48fb-a6d1-e83d9504cc5a">WARNINGS - Respiratory Depression</linkHtml>).
+  </content>
+                        </paragraph>
+                        <paragraph>In pediatric patients 2 years of age and older, the dosage should not exceed half that of the suggested adult dose. As an adjunct to premedication, the suggested dose is 1.1 mg per kg of body weight in combination with an appropriately reduced dose of narcotic or barbiturate and the appropriate dose of an atropinelike drug (see 
+  <content styleCode="bold">
+                              <linkHtml href="#LINK_04642572-c20a-46e3-a4ad-8cd64bb4fbd4">PRECAUTIONS - Drug Interactions</linkHtml>
+                           </content>). Antiemetics should not be used in vomiting of unknown etiology in pediatric patients.
+ </paragraph>
+                     </text>
+                     <effectiveTime value="20210831"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="id_link_0e39227b-991c-d843-e063-6394a90a4c21">
+                     <id root="0eae7831-7c54-ee44-e063-6394a90a80f8"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>
+                        <content styleCode="bold">
+                           <content styleCode="underline">Preparation and Administration Instructions for Diluted Intravenous Infusion in Adults</content>
+                        </content>
+                     </title>
+                     <text>
+                        <paragraph>Inspect the solution for particulate matter and discoloration, before dilution, after dilution, and before administration. Discard the vial, ampule, or bag if particulates and/or discoloration are observed.</paragraph>
+                        <list listType="ordered">
+                           <item>Determine the recommended dose of promethazine hydrochloride injection.</item>
+                           <item>Aseptically withdraw the required volume from the vial or ampule and transfer it into an infusion bag.
+   <br/>
+	• Use a filter needle when withdrawing promethazine hydrochloride injection from the ampule.
+  </item>
+                           <item>Dilute with the recommended volume of 0.9% Sodium Chloride Injection, see Table 1. Avoid mixing and/or diluting with any other drugs or solutions other than 0.9% Sodium Chloride Injection.</item>
+                           <item>Gently invert the infusion bag.</item>
+                           <item>Check patency of the access site before administration.</item>
+                           <item>Administer the diluted solution through an intravenous catheter, inserted in a large vein (preferably through a central venous catheter), over 20 to 40 minutes; for maximum infusion rates, see Table 1.
+   <br/>
+	• Do 
+   <content styleCode="underline">NOT </content>administer via an intravenous catheter in the hand or wrist.
+  </item>
+                           <item>If pain occurs at the injection site during intravenous infusion, immediately discontinue the infusion and evaluate for possible arterial injection or perivascular extravasation.</item>
+                        </list>
+                        <paragraph/>
+                        <paragraph/>
+                        <paragraph>
+                           <content styleCode="bold">Table 1. Preparation and Infusion Information by Adult Dose of Promethazine Hydrochloride Injection</content>
+                        </paragraph>
+                        <table border="0" width="100%">
+                           <tbody>
+                              <tr>
+                                 <td>
+                                    <paragraph>
+                                       <content styleCode="bold">Dose of Promethazine </content>
+                                    </paragraph>
+                                    <paragraph>
+                                       <content styleCode="bold">Hydrochloride Injection</content>
+                                    </paragraph>
+                                 </td>
+                                 <td>
+                                    <paragraph>
+                                       <content styleCode="bold">Volume of 0.9% Sodium </content>
+                                    </paragraph>
+                                    <paragraph>
+                                       <content styleCode="bold">Chloride Injection for Dilution</content>
+                                    </paragraph>
+                                 </td>
+                                 <td>
+                                    <paragraph>
+                                       <content styleCode="bold">Maximum Concentration </content>
+                                    </paragraph>
+                                    <paragraph>
+                                       <content styleCode="bold">of the Diluted </content>
+                                    </paragraph>
+                                    <paragraph>
+                                       <content styleCode="bold">Promethazine Hydrochloride</content>
+                                    </paragraph>
+                                    <paragraph>
+                                       <content styleCode="bold">Injection Solution</content>
+                                    </paragraph>
+                                 </td>
+                                 <td>
+                                    <content styleCode="bold">Maximum Rate of Infusion</content>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td>12.5 mg</td>
+                                 <td>50 mL</td>
+                                 <td colspan="1" rowspan="4">1 mg/mL</td>
+                                 <td>2.5 mL/minute</td>
+                              </tr>
+                              <tr>
+                                 <td>25 mg</td>
+                                 <td>50 mL</td>
+                                 <td>2.5 mL/minute</td>
+                              </tr>
+                              <tr>
+                                 <td>50 mg</td>
+                                 <td>50 mL</td>
+                                 <td>2.5 mL/minute</td>
+                              </tr>
+                              <tr>
+                                 <td>75 mg</td>
+                                 <td>100 mL</td>
+                                 <td>5 mL/minute</td>
+                              </tr>
+                           </tbody>
+                        </table>
+                        <paragraph/>
+                     </text>
+                     <effectiveTime value="20231227"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="id_link_0e3a4be4-ec2a-a675-e063-6294a90a252c">
+                     <id root="0eaf1f88-94e6-2b34-e063-6394a90aaa01"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>
+                        <content styleCode="underline">
+                           <content styleCode="bold">Preparation and Administration Instructions for Diluted Intravenous Infusion to Pediatric Patients 2 Years of Age and Older</content>
+                        </content>
+                     </title>
+                     <text>
+                        <paragraph>Inspect the solution for particulate matter and discoloration, before dilution, after dilution, and before administration. Discard the vial, ampule, syringe or bag if particulates and/or discoloration are observed.</paragraph>
+                        <list listType="ordered">
+                           <item>Determine the recommended dose of promethazine hydrochloride injection for pediatric patients 2 years of age and older.</item>
+                           <item>Aseptically withdraw the required volume from the vial or ampule and transfer it into an appropriately sized syringe or bag for use with an infusion pump.
+   <br/>
+	• Use a filter needle when withdrawing promethazine hydrochloride injection from the ampule.
+  </item>
+                           <item>Dilute with the recommended volume of 0.9% Sodium Chloride Injection, see Table 2. Avoid mixing and/or diluting with any other drugs or solutions other than 0.9% Sodium Chloride Injection.</item>
+                           <item>Gently invert the syringe or bag.</item>
+                           <item>Check patency of the access site before administration.</item>
+                           <item>Administer the diluted solution through an intravenous catheter, inserted in a large vein (preferably through a central venous catheter) with a maximum infusion rate of 1.25 mL/minute.
+   <br/>
+	• Do 
+   <content styleCode="underline">NOT</content> administer via an intravenous catheter in the hand or wrist.
+  </item>
+                           <item>If pain occurs at the injection site during intravenous infusion, immediately discontinue the infusion and evaluate for possible arterial injection or perivascular extravasation.</item>
+                        </list>
+                        <paragraph>
+                           <br/>
+                           <content styleCode="bold">Table 2. Preparation and Infusion Information by Pediatric Dose of Promethazine Hydrochloride Injection*</content>
+                        </paragraph>
+                        <table border="0" width="100%">
+                           <tbody>
+                              <tr>
+                                 <td>
+                                    <paragraph>
+                                       <content styleCode="bold">Dose of Promethazine</content>
+                                    </paragraph>
+                                    <paragraph>
+                                       <content styleCode="bold">Hydrochloride Injection</content>
+                                    </paragraph>
+                                 </td>
+                                 <td>
+                                    <paragraph>
+                                       <content styleCode="bold">Volume of 0.9% </content>
+                                    </paragraph>
+                                    <paragraph>
+                                       <content styleCode="bold">Sodium Chloride </content>
+                                    </paragraph>
+                                    <paragraph>
+                                       <content styleCode="bold">Injection for Dilution</content>
+                                    </paragraph>
+                                 </td>
+                                 <td>
+                                    <paragraph>
+                                       <content styleCode="bold">Maximum Concentration of the
+       <br/>
+			Diluted Promethazine 
+      </content>
+                                    </paragraph>
+                                    <paragraph>
+                                       <content styleCode="bold">Hydrochloride Injection Solution</content>
+                                    </paragraph>
+                                 </td>
+                                 <td>
+                                    <content styleCode="bold">Maximum Rate of Infusion</content>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td>Up to 25 mg</td>
+                                 <td>25 mL</td>
+                                 <td colspan="1" rowspan="2">1 mg/mL</td>
+                                 <td colspan="1" rowspan="2">1.25 mL/minute</td>
+                              </tr>
+                              <tr>
+                                 <td>25mg to 50 mg</td>
+                                 <td>50 mL</td>
+                              </tr>
+                           </tbody>
+                        </table>
+                        <paragraph>
+                           <content styleCode="bold">*Avoid mixing and/or diluting with any other drugs or solutions besides 0.9% Sodium Chloride Injection</content>
+                        </paragraph>
+                        <paragraph/>
+                        <paragraph/>
+                        <paragraph/>
+                        <paragraph/>
+                     </text>
+                     <effectiveTime value="20231227"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="id_link_0e3a4be4-ec2c-a675-e063-6294a90a252c">
+                     <id root="0eaf109b-22f6-1155-e063-6294a90a1142"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>
+                        <content styleCode="underline">
+                           <content styleCode="bold">Storage of Diluted Promethazine Hydrochloride Injection</content>
+                        </content>
+                     </title>
+                     <text>
+                        <paragraph>Diluted solution may be stored up to 4 hours at room temperature, 20°C to 25°C (68°F to 77°F), or refrigerated at 2°C to 8°C (36° to 46°F), up to 24 hours.</paragraph>
+                     </text>
+                     <effectiveTime value="20231227"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_9f2218a9-b42a-4f8b-ad77-e6010f3029da">
+               <id root="0eaf3d54-f953-17aa-e063-6294a90a9527"/>
+               <code code="34069-5" codeSystem="2.16.840.1.113883.6.1" displayName="HOW SUPPLIED SECTION"/>
+               <title>
+                  <content styleCode="bold">HOW SUPPLIED</content>
+               </title>
+               <text>
+                  <paragraph>Promethazine Hydrochloride Injection, USP – 25 mg/1mL, 1 mL fill in a 1 mL ampul (NDC 39822-5525-2) packaged in carton of 25 (NDC 39822-5525-3)</paragraph>
+                  <paragraph>Promethazine Hydrochloride Injection, USP – 50 mg/1mL, 1 mL fill in a 1 mL ampul (NDC 39822-5550-5) packaged in carton of 25 (NDC 39822-5550-6)</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Store at 20º to 25ºC (68º to 77ºF) [See USP Controlled Room Temperature].</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Protect from light. Keep covered in carton until time of use.</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Do not use if solution has developed color or contains a precipitate.</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Manufactured in Germany</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Distributed by:</content>
+                  </paragraph>
+                  <paragraph>XGen Pharmaceuticals DJB, Inc.</paragraph>
+                  <paragraph>Big Flats, NY 14814 USA</paragraph>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="MM2"/>
+                  </paragraph>
+                  <paragraph>Rev. 12/2023</paragraph>
+                  <paragraph>PZ-PI-04</paragraph>
+               </text>
+               <effectiveTime value="20240104"/>
+               <component>
+                  <observationMedia ID="MM2">
+                     <text>logo</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="promethazine-hcl-injection-2.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_ce119360-9212-4d94-9162-e8fede53a86d">
+               <id root="0eaf56d6-ad77-3a6d-e063-6294a90aaf35"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>
+                  <content styleCode="bold">PACKAGE LABEL.PRINCIPAL DISPLAY PANEL</content>
+               </title>
+               <text>
+                  <paragraph>Promethazine Hydrochloride Injection, USP 25 mg/mL ampul label NDC 39822-5525-2</paragraph>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="img_0e8a4258-b8ad-af17-e063-6394a90ac336"/>
+                  </paragraph>
+                  <paragraph>Promethazine Hydrochloride Injection, USP 25 mg/mL ampul carton NDC 39822-5525-3</paragraph>
+                  <paragraph/>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="img_0e8b6ff0-e8d4-dae9-e063-6294a90a9106"/>
+                  </paragraph>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph>Promethazine Hydrochloride Injection, USP 25 mg/mL ampul carton NDC 39822-5550-6</paragraph>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph/>
+               </text>
+               <effectiveTime value="20231117"/>
+               <component>
+                  <observationMedia ID="img_0e8a4258-b8ad-af17-e063-6394a90ac336">
+                     <text>pz-al2-03</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="pz-al2-03 screenshot.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="img_0e8b6ff0-e8d4-dae9-e063-6294a90a9106">
+                     <text>pz-cm3-06</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="pz-cm3-06-screenshot.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

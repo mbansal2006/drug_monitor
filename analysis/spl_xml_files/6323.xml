@@ -1,0 +1,630 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="https://www.accessdata.fda.gov/spl/stylesheet/spl.xsl"?>
+<document xmlns="urn:hl7-org:v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 https://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="f5197532-af45-42c9-919b-30d00276650e"/>
+   <code code="34391-3" codeSystem="2.16.840.1.113883.6.1" displayName="HUMAN PRESCRIPTION DRUG LABEL"/>
+   <title/>
+   <effectiveTime value="20230717"/>
+   <setId root="b6e33138-841a-471f-a934-c4086cbc23f6"/>
+   <versionNumber value="1"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id extension="608775388" root="1.3.6.1.4.1.519.1"/>
+            <name>Fresenius Kabi USA, LLC</name>
+            <assignedEntity>
+               <assignedOrganization>
+                  <assignedEntity>
+                     <assignedOrganization>
+                        <id extension="840771732" root="1.3.6.1.4.1.519.1"/>
+                        <name>Fresenius Kabi USA, LLC</name>
+                     </assignedOrganization>
+                     <performance>
+                        <actDefinition>
+                           <code code="C25391" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ANALYSIS"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="63323-099" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                     <performance>
+                        <actDefinition>
+                           <code code="C43360" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="MANUFACTURE"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="63323-099" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                  </assignedEntity>
+               </assignedOrganization>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section ID="dcl-dpl">
+               <id root="83f75e72-04e9-47da-aa25-de0fe97ef872"/>
+               <code code="48780-1" codeSystem="2.16.840.1.113883.6.1" displayName="SPL PRODUCT DATA ELEMENTS SECTION"/>
+               <effectiveTime value="20230717"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="63323-099" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>Sodium Chloride<suffix/>
+                        </name>
+                        <formCode code="C42899" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="INJECTION, SOLUTION, CONCENTRATE"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>Sodium Chloride</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator value="4" unit="meq"/>
+                              <denominator value="1" unit="mL"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="451W47IQ8X" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SODIUM CHLORIDE</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="LYR4M0NH37" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>SODIUM CATION</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="Q32ZN48698" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>CHLORIDE ION</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="QTT17582CB" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>HYDROCHLORIC ACID</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="059QF0KO0R" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>WATER</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="55X04QC32I" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SODIUM HYDROXIDE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator value="200" unit="mL"/>
+                              <denominator value="1" unit="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="63323-099-03" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43214" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="VIAL, PLASTIC"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator value="10" unit="1"/>
+                                    <denominator value="1" unit="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code code="63323-099-63" codeSystem="2.16.840.1.113883.6.69"/>
+                                    <formCode code="C53438" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="TRAY"/>
+                                 </containerPackagedProduct>
+                                 <subjectOf>
+                                    <marketingAct>
+                                       <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                       <statusCode code="active"/>
+                                       <effectiveTime>
+                                          <low value="20230711"/>
+                                       </effectiveTime>
+                                    </marketingAct>
+                                 </subjectOf>
+                              </asContent>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <id extension="ANDA217796" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73584" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ANDA"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20230711"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38276" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="INTRAVENOUS"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section ID="s1">
+               <id root="944ab2d0-8e1e-49bc-8d5f-644983f09536"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <text>
+                  <paragraph>
+                     <renderMultiMedia ID="f01" referencedObject="mm01"/>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">
+                        <br/>
+                     </content>451789 /Issued: April 2023
+</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Maxivial®</content>
+                     <br/>Rx only
+</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Sodium Chloride Injection, USP, 23.4%</content>
+                  </paragraph>
+                  <table width="100%">
+                     <col width="100.000%" align="left"/>
+                     <tbody>
+                        <tr>
+                           <td align="center" valign="top" styleCode="Toprule Botrule Lrule Rrule">
+                              <content styleCode="bold">PHARMACY BULK PACKAGE-</content>
+                              <br/>
+                              <content styleCode="bold">Not For Direct Infusion</content>
+                           </td>
+                        </tr>
+                     </tbody>
+                  </table>
+                  <table width="100%">
+                     <col width="100.000%" align="left"/>
+                     <tbody>
+                        <tr>
+                           <td align="center" valign="top" styleCode="Toprule Botrule Lrule Rrule">
+                              <content styleCode="bold">CONCENTRATE</content>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td align="center" valign="top" styleCode="Botrule Lrule Rrule">
+                              <content styleCode="italics">CAUTION: MUST BE DILUTED FOR I.V. USE</content>
+                           </td>
+                        </tr>
+                     </tbody>
+                  </table>
+                  <paragraph>8008 mOsmol/L (calc.)<br/>(pH 4.5-7.0 when diluted to a concentration of 0.9%)
+</paragraph>
+               </text>
+               <effectiveTime value="20230717"/>
+               <component>
+                  <observationMedia ID="mm01">
+                     <text>Figure
+</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="sod1h-0000-01.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="s2">
+               <id root="f3dbf5e2-3ee9-440b-8210-77a8a625df9a"/>
+               <code code="34089-3" codeSystem="2.16.840.1.113883.6.1" displayName="DESCRIPTION SECTION"/>
+               <title>DESCRIPTION:
+</title>
+               <text>
+                  <paragraph>Sodium Chloride Injection, USP, 23.4%, is a concentrated, nonisotonic, sterile, nonpyrogenic solution of sodium chloride 234 mg in Water for Injection. pH adjusted with sodium hydroxide or hydrochloric acid if necessary.
+</paragraph>
+                  <paragraph>Sodium chloride is an electrolyte replenisher. It occurs as colorless cubic crystals or white crystalline powder and has a saline taste. Sodium chloride is freely soluble in water; it is soluble in glycerin and slightly soluble in alcohol.
+</paragraph>
+                  <paragraph>The empirical formula for sodium chloride is NaCl and the molecular weight is 58.44.
+</paragraph>
+                  <paragraph>The Pharmacy Bulk Package is a sterile dosage form which contains multiple single doses for preparation of admixtures for intravenous infusion (see <linkHtml href="#s14">DOSAGE AND ADMINISTRATION</linkHtml>).
+</paragraph>
+               </text>
+               <effectiveTime value="20230717"/>
+            </section>
+         </component>
+         <component>
+            <section ID="s3">
+               <id root="ca3dc777-fad6-4c16-856d-8d596b5d3686"/>
+               <code code="34090-1" codeSystem="2.16.840.1.113883.6.1" displayName="CLINICAL PHARMACOLOGY SECTION"/>
+               <title>CLINICAL PHARMACOLOGY:
+</title>
+               <text>
+                  <paragraph>Sodium chloride comprises over 90% of the inorganic constituents of the blood serum. Both its ions are physiologically important. Sodium, more than any other ion, determines the osmotic pressure of interstitial fluids and the degree of hydration of tissues. When the intake of the chloride ion is less than is excreted, there is a relative increase in the blood bicarbonate level, producing the condition known as alkalosis. Other symptoms of sodium chloride deficiency are nausea, vomiting and increased irritability of muscles, evidenced by cramps and, possibly, convulsions. It is well known that excessive sweating will cause ‘‘heatcramps,'' i.e., muscle cramps in the abdomen and extremities, which can be completely relieved only by ingestion of a weak salt solution.
+</paragraph>
+                  <paragraph>Approximately 25% of the total body sodium is found in the bone. The regulation of salt and water metabolism is governed by different mechanisms; however, changes in the intake, distribution and output of salt are, in health, associated with collateral shifts of water so that electrolyte concentrations are maintained within a narrow range. In the presence of disease affecting the cardiovascular, hepatic or renal system or in certain endocrinologic disorders, changes in the rate of excretion of salt and water will disturb the homeostatic equilibrium. Frequently, abnormalities in the metabolism of water or salt may occur as a result of vomiting, diarrhea, gastrointestinal suction and fever. Excessive sweating will produce loss of water or salt, but since the electrolyte concentration is hypotonic, loss of water will predominate.
+</paragraph>
+                  <paragraph>The normal salt intake ranges from 5 to 15 grams daily, most of which is excreted by the kidneys. The control of water and salt excretion in urine is very intricate, involving filtration by the glomerulus and reabsorption by the tubules of approximately 99% of the filtered load. The actual quantities excreted depends on the requirements prevailing at the moment. The finer adjustments of the tubular absorptive mechanisms are influenced by osmotic interrelationships between cell water, plasma and urine and by certain steroid hormones influencing electrolyte excretion and the posterior pituitary hormone regulating water excretion. When food intake ceases or salt is withheld, the content of sodium chloride in urine diminishes rapidly so that the body stores are retained. Similar renal retention of electrolytes occurs when salt is lost via gastrointestinal secretion through vomiting, etc. In other conditions, such as congestive heart failure, cirrhosis, nephritis or hypersecretion of the adrenal cortical hormones, the kidney fails to eliminate sufficient sodium. This results in retention of both salt and water, producing an excessive accumulation of extracellular fluid, which may be effectively combated by a sharp restriction of salt intake and use of a diuretic.
+</paragraph>
+                  <paragraph>Depletion of body salt may be caused in many ways, one of which is too energetic treatment of fluid and sodium retention. Besides this, diabetic acidosis, burns, excessive sweating with free drinking of water, repeated paracentesis for removal of ascitic fluid, adrenal cortical hypofunction and certain forms of nephritis, as well as abnormal losses of gastrointestinal secretions, will cause marked salt depletion. With salt loss, there is a reduction of the osmotic pressure of the extracellular fluid; the urine volume may be retained but it is free of sodium chloride.
+</paragraph>
+               </text>
+               <effectiveTime value="20230717"/>
+            </section>
+         </component>
+         <component>
+            <section ID="s4">
+               <id root="1308f93a-0f39-4b1f-8dc6-948b0745dcdb"/>
+               <code code="34067-9" codeSystem="2.16.840.1.113883.6.1" displayName="INDICATIONS &amp; USAGE SECTION"/>
+               <title>INDICATIONS AND USAGE:
+</title>
+               <text>
+                  <paragraph>Sodium Chloride Injection, USP, 23.4%, is indicated as an additive in parenteral fluid therapy for use in patients who have special problems of sodium electrolyte intake or excretion. It is intended to meet the specific requirements of the patient with unusual fluid and electrolyte needs. After available clinical and laboratory information is considered and correlated, the appropriate number of milliequivalents of sodium chloride required can be withdrawn from Sodium Chloride Injection, USP, 23.4% and diluted for use.
+</paragraph>
+                  <paragraph>Sodium Chloride Injection is indicated for the treatment of sodium, chloride and water deficiencies that commonly occur in many diseases. Isotonic Sodium Chloride Injection should be limited to cases in which the chloride loss is greater than the sodium loss, as in vomiting from pyloric obstruction, or in which the loss is about equal, as in vomiting from duodenal, jejunal or ileal obstruction and in the replacement of aspirated gastrointestinal fluids.
+</paragraph>
+                  <paragraph>The toxic symptoms that follow various forms of intestinal obstruction are accompanied by a marked reduction of blood chloride and often sodium chloride has a lifesaving effect.
+</paragraph>
+                  <paragraph>Symptoms of sodium chloride deficiency are very similar to those of Addison's disease and large doses of sodium chloride will produce temporary alleviation of the symptoms. Other disorders in which sodium chloride is therapeutically useful include extensive burns, failure of gastric secretion and postoperative intestinal paralysis.
+</paragraph>
+               </text>
+               <effectiveTime value="20230717"/>
+            </section>
+         </component>
+         <component>
+            <section ID="s5">
+               <id root="3ce5cfa9-023e-4476-90b5-c7a2157f2b79"/>
+               <code code="34070-3" codeSystem="2.16.840.1.113883.6.1" displayName="CONTRAINDICATIONS SECTION"/>
+               <title>CONTRAINDICATIONS:
+</title>
+               <text>
+                  <paragraph>Surgical patients should seldom receive salt- containing solutions immediately following surgery unless factors producing salt depletion are present. Because of renal retention of salt during surgery, additional electrolyte given intravenously may result in fluid retention, edema and overloading of the circulation.
+</paragraph>
+               </text>
+               <effectiveTime value="20230717"/>
+            </section>
+         </component>
+         <component>
+            <section ID="s6">
+               <id root="f0c1a282-192d-4077-b45a-2ae2dbf91be2"/>
+               <code code="34071-1" codeSystem="2.16.840.1.113883.6.1" displayName="WARNINGS SECTION"/>
+               <title>WARNINGS:
+</title>
+               <text>
+                  <paragraph>This product contains aluminum that may be toxic. Aluminum may reach toxic levels with prolonged parenteral administration if kidney function is impaired. Premature neonates are particularly at risk because their kidneys are immature, and they require large amounts of calcium and phosphate solutions, which contain aluminum.  Research indicates that patients with impaired kidney function, including premature neonates, who receive parenteral levels of aluminum at greater than 4 to 5 mcg/kg/day accumulate aluminum at levels associated with central nervous system and bone toxicity. Tissue loading may occur at even lower rates of administration.
+</paragraph>
+                  <paragraph>Sodium Chloride Injection, USP, 23.4% is hypertonic and must be diluted prior to administration. Inadvertent direct injection or absorption of concentrated sodium chloride solution may give rise to sudden hypernatremia and such complications as cardiovascular shock, central nervous system disorders, extensive hemolysis and cortical necrosis of the kidneys.
+</paragraph>
+               </text>
+               <effectiveTime value="20230717"/>
+            </section>
+         </component>
+         <component>
+            <section ID="s7">
+               <id root="e06804f2-acaa-4e69-b181-b1157da43d8f"/>
+               <code code="42232-9" codeSystem="2.16.840.1.113883.6.1" displayName="PRECAUTIONS SECTION"/>
+               <title>PRECAUTIONS:
+</title>
+               <effectiveTime value="20230717"/>
+               <component>
+                  <section ID="s8">
+                     <id root="ac16f528-02ac-4fb6-9dfd-09e8659f8ca3"/>
+                     <code code="34072-9" codeSystem="2.16.840.1.113883.6.1" displayName="GENERAL PRECAUTIONS SECTION"/>
+                     <title>General
+</title>
+                     <text>
+                        <paragraph>Excessive amounts of sodium chloride by any route may cause hypopotassemia and acidosis. Excessive amounts by the parenteral route may precipitate congestive heart failure and acute pulmonary edema, especially in patients with cardiovascular disease and in patients receiving corticosteroids or corticotropin or drugs that may give rise to sodium retention.
+</paragraph>
+                     </text>
+                     <effectiveTime value="20230717"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s9">
+                     <id root="fb980096-5b9f-498a-84ab-d086b2c230a9"/>
+                     <code code="42228-7" codeSystem="2.16.840.1.113883.6.1" displayName="PREGNANCY SECTION"/>
+                     <title>Pregnancy
+</title>
+                     <text>
+                        <paragraph>Animal reproduction studies have not been conducted with Sodium Chloride Injection. It is also not known whether Sodium Chloride Injection can cause fetal harm when administered to a pregnant woman or can affect reproduction capacity. Sodium Chloride Injection should be given to a pregnant woman only if clearly needed.
+</paragraph>
+                     </text>
+                     <effectiveTime value="20230717"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s10">
+                     <id root="2ba0edd3-d3d3-4f8b-8343-989200ea04ac"/>
+                     <code code="34080-2" codeSystem="2.16.840.1.113883.6.1" displayName="NURSING MOTHERS SECTION"/>
+                     <title>Nursing Mothers
+</title>
+                     <text>
+                        <paragraph>It is not known whether sodium chloride is excreted in human milk. Because many drugs are excreted in human milk, caution should be exercised when Sodium Chloride Injection is administered to a nursing woman.
+</paragraph>
+                     </text>
+                     <effectiveTime value="20230717"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s11">
+                     <id root="8ed3b2ee-ddb3-47ec-b7de-6b999061ba5b"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Use in Children
+</title>
+                     <text>
+                        <paragraph>Safety and effectiveness in children have not been established.
+</paragraph>
+                     </text>
+                     <effectiveTime value="20230717"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="s12">
+               <id root="cb213cae-c5e2-4235-8ab6-17c38f02d621"/>
+               <code code="34084-4" codeSystem="2.16.840.1.113883.6.1" displayName="ADVERSE REACTIONS SECTION"/>
+               <title>ADVERSE REACTIONS:
+</title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">To report SUSPECTED ADVERSE REACTIONS, contact Fresenius Kabi USA, LLC at 1-800-551-7176 or FDA at 1-800-FDA-1088 or www.fda.gov/medwatch.</content>
+                  </paragraph>
+                  <paragraph>Parenteral administration of quantities of sodium in excess of the amount of water or sodium chloride needed or at a rate more rapid than can be accommodated by the patient's circulatory function may result in edema and clinical findings resembling those of congestive heart failure. Adverse effects are particularly likely to develop in patients with impaired renal or cardiac function.
+</paragraph>
+                  <paragraph>Signs of postoperative salt intolerance include cellular dehydration, weakness, disorientation, anorexia, nausea, distention, deep respiration, oliguria and increased blood urea nitrogen.
+</paragraph>
+               </text>
+               <effectiveTime value="20230717"/>
+            </section>
+         </component>
+         <component>
+            <section ID="s13">
+               <id root="c0abdbf6-3fbe-4b2e-b7c2-70f9fe278143"/>
+               <code code="34088-5" codeSystem="2.16.840.1.113883.6.1" displayName="OVERDOSAGE SECTION"/>
+               <title>OVERDOSAGE:
+</title>
+               <text>
+                  <paragraph>Administration of too much sodium chloride may result in serious electrolyte disturbances with resulting retention of water, edema, loss of potassium and aggravation of an existing acidosis.
+</paragraph>
+                  <paragraph>When intake of sodium chloride is excessive, excretion of crystalloids is increased in an attempt to maintain normal osmotic pressure. Thus there is increased excretion of potassium and of bicarbonate and, consequently, a tendency toward acidosis. There is also a rapid elimination of any foreign salt, such as iodide and bromide, being used for therapy.
+</paragraph>
+               </text>
+               <effectiveTime value="20230717"/>
+            </section>
+         </component>
+         <component>
+            <section ID="s14">
+               <id root="bf151154-878e-411f-8973-2f58a23e245c"/>
+               <code code="34068-7" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE &amp; ADMINISTRATION SECTION"/>
+               <title>DOSAGE AND ADMINISTRATION:
+</title>
+               <text>
+                  <paragraph>The dosage of Sodium Chloride Injection, USP, 23.4%, as an additive in parenteral fluid therapy is predicated on specific requirements of the patient after necessary clinical and laboratory information is considered and correlated. The appropriate volume is then withdrawn for proper dilution. Having determined the milliequivalents of sodium chloride to be added, divide by four to calculate the numbers of milliliters (mL) of sodium chloride to be used. Withdraw this volume aseptically and transfer the additive solution into appropriate intravenous solutions such as 5% Dextrose Injection. The properly diluted solutions may be given intravenously.
+</paragraph>
+                  <paragraph>Parenteral drug products should be inspected visually for particulate matter and discoloration prior to administration, whenever solution and container permit.
+</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Directions for Proper Use of Pharmacy Bulk Package</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Use Aseptic Technique</content>
+                  </paragraph>
+                  <list listType="ordered" styleCode="Arabic">
+                     <item>During use, container must be stored and all manipulations performed in an appropriate laminar flow hood.
+</item>
+                     <item>To hang the bottle use the attached hanger.
+</item>
+                     <item>Remove fliptop cap from vial and cleanse closure with antiseptic.
+</item>
+                     <item>Insert suitable sterile dispensing set or transfer device and suspend unit in a laminar flow hood. The closure should be entered only once and after initial entry, the withdrawal of container contents should be completed promptly in one continuous operation. Should this not be possible, a maximum time of 4 hours from initial closure puncture is permitted to complete fluid transfer operations; i.e., discard container no later than 4 hours after initial closure puncture.
+</item>
+                     <item>Sequentially dispense aliquots of Sodium Chloride Injection, USP, 23.4% into intravenous containers using appropriate transfer device. During fluid transfer operations, the Pharmacy Bulk Package should be maintained under the storage conditions recommended in the labeling.
+</item>
+                     <item>Inspect solution after admixing. Discard if the solution is discolored or particulates are observed.
+</item>
+                  </list>
+               </text>
+               <effectiveTime value="20230717"/>
+            </section>
+         </component>
+         <component>
+            <section ID="s15">
+               <id root="2042943b-9c8a-48ed-8d32-94026871ae37"/>
+               <code code="34069-5" codeSystem="2.16.840.1.113883.6.1" displayName="HOW SUPPLIED SECTION"/>
+               <title>HOW SUPPLIED:
+</title>
+               <text>
+                  <paragraph>Sodium Chloride Injection, USP, 23.4% is supplied as follows:
+</paragraph>
+                  <table width="100%">
+                     <col width="17.821%" align="left"/>
+                     <col width="21.445%" align="left"/>
+                     <col width="23.219%" align="left"/>
+                     <col width="37.516%" align="left"/>
+                     <tbody>
+                        <tr>
+                           <td align="center" valign="top" styleCode="Toprule Botrule Lrule Rrule">
+                              <content styleCode="bold">Product Code</content>
+                           </td>
+                           <td align="center" valign="top" styleCode="Toprule Botrule Rrule">
+                              <content styleCode="bold">Unit of Sale</content>
+                           </td>
+                           <td align="center" valign="top" styleCode="Toprule Botrule Rrule">
+                              <content styleCode="bold">Strength /Concentration</content>
+                           </td>
+                           <td align="center" valign="top" styleCode="Toprule Botrule Rrule">
+                              <content styleCode="bold">Each</content>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td align="center" valign="top" styleCode="Botrule Lrule Rrule">918963
+</td>
+                           <td align="left" valign="top" styleCode="Botrule Rrule">NDC 63323-099-63<br/>Unit of 10
+</td>
+                           <td align="left" valign="top" styleCode="Botrule Rrule">800 mEq/200 mL<br/>(4 mEq/mL)
+</td>
+                           <td align="left" valign="top" styleCode="Botrule Rrule">NDC 63323-099-03<br/>200 mL fill in a 200 mL Plastic Fliptop Vial<br/>Pharmacy Bulk Package
+</td>
+                        </tr>
+                     </tbody>
+                  </table>
+                  <paragraph>Store at 20° to 25°C (68° to 77°F) [see USP Controlled Room Temperature].
+</paragraph>
+                  <paragraph>Preservative Free. Discard unused portion. Use only if solution is clear and seal intact.
+</paragraph>
+                  <paragraph>The container closure is not made with natural rubber latex.
+</paragraph>
+                  <paragraph>
+                     <renderMultiMedia ID="f02" referencedObject="mm02"/>
+                  </paragraph>
+                  <paragraph>Lake Zurich, IL 60047
+</paragraph>
+                  <paragraph>Fresenius Kabi and Maxivial are registered trademarks of Fresenius Kabi.
+</paragraph>
+                  <paragraph>www.fresenius-kabi.com/us
+</paragraph>
+                  <paragraph>451789
+</paragraph>
+                  <paragraph>Issued: April 2023
+</paragraph>
+               </text>
+               <effectiveTime value="20230717"/>
+               <component>
+                  <observationMedia ID="mm02">
+                     <text>Figure
+</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="sod1h-0000-02.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="s16">
+               <id root="10efe444-5a2c-4ab7-95bd-ae77c2447c34"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">PACKAGE LABEL - PRINCIPAL DISPLAY – 23.4% Sodium Chloride Injection, USP Vial Label<br/>
+                     </content>
+                  </paragraph>
+                  <paragraph>NDC 63323-099-03       918963
+</paragraph>
+                  <paragraph>23.4%
+</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">SODIUM CHLORIDE</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="italics">INJECTION, USP</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">800 mEq/200 mL</content>
+                  </paragraph>
+                  <paragraph>(4 mEq/mL)
+</paragraph>
+                  <paragraph>CONCENTRATE
+</paragraph>
+                  <paragraph>
+                     <content styleCode="italics">CAUTION: MUST BE DILUTED FOR INTRAVENOUS USE*</content>
+                  </paragraph>
+                  <paragraph>PHARMACY BULK PACKAGE-
+</paragraph>
+                  <paragraph>Not for Direct Infusion
+</paragraph>
+                  <paragraph>Rx only
+</paragraph>
+                  <renderMultiMedia ID="f03" referencedObject="mm03"/>
+               </text>
+               <effectiveTime value="20230717"/>
+               <component>
+                  <observationMedia ID="mm03">
+                     <text>PACKAGE LABEL - PRINCIPAL DISPLAY – 23.4% Sodium Chloride Injection, USP Vial Label
+</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="sod1h-0000-03.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="s17">
+               <id root="7250ee50-bdf1-4719-a6d4-c036c3e2aec1"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">PACKAGE LABEL - PRINCIPAL DISPLAY – 23.4% Sodium Chloride Injection, USP Tray Label<br/>
+                     </content>
+                  </paragraph>
+                  <paragraph>NDC 63323-099-63       918963
+</paragraph>
+                  <paragraph>23.4%
+</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">SODIUM CHLORIDE</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="italics">INJECTION, USP</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">800 mEq/200 mL</content>
+                  </paragraph>
+                  <paragraph>(4 mEq/mL)
+</paragraph>
+                  <paragraph>CONCENTRATE
+</paragraph>
+                  <paragraph>
+                     <content styleCode="italics">CAUTION: MUST BE DILUTED FOR INTRAVENOUS USE*</content>
+                  </paragraph>
+                  <paragraph>PHARMACY BULK PACKAGE-
+</paragraph>
+                  <paragraph>Not for Direct Infusion
+</paragraph>
+                  <paragraph>Rx only
+</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">10 x 200 mL Vials</content>
+                  </paragraph>
+                  <renderMultiMedia ID="f04" referencedObject="mm04"/>
+               </text>
+               <effectiveTime value="20230717"/>
+               <component>
+                  <observationMedia ID="mm04">
+                     <text>PACKAGE LABEL - PRINCIPAL DISPLAY – 23.4% Sodium Chloride Injection, USP Tray Label
+</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="sod1h-0000-04.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

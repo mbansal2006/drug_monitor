@@ -1,0 +1,898 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="https://www.accessdata.fda.gov/spl/stylesheet/spl.xsl"?>
+<document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:hl7-org:v3" xsi:schemaLocation="urn:hl7-org:v3 https://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="04644165-06c9-4a55-a026-a529d824cc90"/>
+   <code code="34391-3" codeSystem="2.16.840.1.113883.6.1" displayName="HUMAN PRESCRIPTION DRUG LABEL"/>
+   <title>Dacarbazine for Injection, USP</title>
+   <effectiveTime value="20221020"/>
+   <setId root="b6b97e41-5f15-498c-abfb-d8443ea4d216"/>
+   <versionNumber value="4"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id root="1.3.6.1.4.1.519.1" extension="608775388"/>
+            <name>Fresenius Kabi USA, LLC</name>
+            <assignedEntity>
+               <assignedOrganization>
+                  <assignedEntity>
+                     <assignedOrganization>
+                        <id root="1.3.6.1.4.1.519.1" extension="023648251"/>
+                        <name>Fresenius Kabi USA, LLC</name>
+                     </assignedOrganization>
+                     <performance>
+                        <actDefinition>
+                           <code code="C43360" displayName="manufacture" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="63323-127" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                     <performance>
+                        <actDefinition>
+                           <code code="C43360" displayName="manufacture" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="63323-128" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                  </assignedEntity>
+               </assignedOrganization>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section ID="dcl-dpl">
+               <id root="02997d70-2a7c-43be-a91b-764da1b6adf7"/>
+               <code code="48780-1" codeSystem="2.16.840.1.113883.6.1" displayName="SPL PRODUCT DATA ELEMENTS SECTION"/>
+               <effectiveTime value="20221020"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="63323-127" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>Dacarbazine
+</name>
+                        <formCode code="C42974" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="INJECTION, POWDER, FOR SOLUTION"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>DACARBAZINE</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <ingredient classCode="IACT">
+                           <quantity>
+                              <numerator unit="mg" value="10"/>
+                              <denominator unit="mL" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="2968PHW8QP" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>CITRIC ACID MONOHYDRATE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <quantity>
+                              <numerator unit="mg" value="5"/>
+                              <denominator unit="mL" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="3OWL53L36A" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>MANNITOL</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator unit="mg" value="10"/>
+                              <denominator unit="mL" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="7GR28W0FJI" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>DACARBAZINE</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="7GR28W0FJI" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>DACARBAZINE</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator value="10" unit="mL"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="63323-127-00" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43215" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="VIAL, SINGLE-DOSE"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator value="10" unit="1"/>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code code="63323-127-10" codeSystem="2.16.840.1.113883.6.69"/>
+                                    <formCode code="C53438" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="TRAY"/>
+                                 </containerPackagedProduct>
+                                 <subjectOf>
+                                    <marketingAct>
+                                       <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                       <statusCode code="active"/>
+                                       <effectiveTime>
+                                          <low value="20010907"/>
+                                       </effectiveTime>
+                                    </marketingAct>
+                                 </subjectOf>
+                              </asContent>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <id extension="ANDA075371" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73584" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ANDA"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20010907"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38276" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="INTRAVENOUS"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="63323-128" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>Dacarbazine
+</name>
+                        <formCode code="C42974" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="INJECTION, POWDER, FOR SOLUTION"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>DACARBAZINE</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <ingredient classCode="IACT">
+                           <quantity>
+                              <numerator unit="mg" value="10"/>
+                              <denominator unit="mL" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="2968PHW8QP" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>CITRIC ACID MONOHYDRATE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <quantity>
+                              <numerator unit="mg" value="3.75"/>
+                              <denominator unit="mL" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="3OWL53L36A" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>MANNITOL</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator unit="mg" value="10"/>
+                              <denominator unit="mL" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="7GR28W0FJI" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>DACARBAZINE</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="7GR28W0FJI" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>DACARBAZINE</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator value="20" unit="mL"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="63323-128-00" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43215" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="VIAL, SINGLE-DOSE"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator value="10" unit="1"/>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code code="63323-128-20" codeSystem="2.16.840.1.113883.6.69"/>
+                                    <formCode code="C53438" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="TRAY"/>
+                                 </containerPackagedProduct>
+                                 <subjectOf>
+                                    <marketingAct>
+                                       <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                       <statusCode code="active"/>
+                                       <effectiveTime>
+                                          <low value="20010907"/>
+                                       </effectiveTime>
+                                    </marketingAct>
+                                 </subjectOf>
+                              </asContent>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <id extension="ANDA075371" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73584" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ANDA"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20010907"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38276" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="INTRAVENOUS"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section ID="a77f23ba-a7d5-4a49-b201-d2a734e2e281">
+               <id root="9b00bc6c-a025-502a-e053-2a95a90a3480"/>
+               <code code="34066-1" codeSystem="2.16.840.1.113883.6.1" displayName="BOXED WARNING SECTION"/>
+               <title>WARNING</title>
+               <text>
+                  <paragraph>It is recommended that dacarbazine be administered under the supervision of a qualified physician experienced in the use of cancer chemotherapeutic agents.</paragraph>
+                  <br/>
+                  <paragraph>1. Hemopoietic depression is the most common toxicity with dacarbazine (see 
+       
+ 
+  <content styleCode="bold">
+                        <linkHtml href="#b0afe3a5-b3c9-450d-a7c7-3e5ef1161096">WARNINGS</linkHtml>
+                     </content>).
+      
+
+ </paragraph>
+                  <paragraph>2. Hepatic necrosis has been reported (see 
+       
+ 
+  <content styleCode="bold">
+                        <linkHtml href="#b0afe3a5-b3c9-450d-a7c7-3e5ef1161096">WARNINGS</linkHtml>
+                     </content>).
+      
+
+ </paragraph>
+                  <paragraph>3. Studies have demonstrated this agent to have a carcinogenic and teratogenic effect when used in animals.</paragraph>
+                  <paragraph>4. In treatment of each patient, the physician must weigh carefully the possibility of achieving therapeutic benefit against the risk of toxicity.</paragraph>
+                  <br/>
+                  <br/>
+                  <br/>
+               </text>
+               <effectiveTime value="20120912"/>
+            </section>
+         </component>
+         <component>
+            <section ID="cb3d6e1b-8b3f-4d97-865d-b1628d6a8c71">
+               <id root="11fef606-2cfa-42a1-bfea-3211a0707ea4"/>
+               <code code="34089-3" codeSystem="2.16.840.1.113883.6.1" displayName="DESCRIPTION SECTION"/>
+               <title>DESCRIPTION</title>
+               <text>
+                  <paragraph>Dacarbazine for Injection, USP is a white to pale yellow colored solid which is light sensitive.  Each vial contains 100 mg of dacarbazine, or 200 mg of dacarbazine (the active ingredient), citric acid and mannitol.  Dacarbazine for Injection, USP is reconstituted and administered intravenously (pH 3-4).  Dacarbazine for Injection, USP is an anticancer agent.  Chemically, dacarbazine is 5-(3,3-Dimethyl-1-triazeno) imidazole-4-carboxamide with the following structural formula:</paragraph>
+                  <paragraph> 
+       
+ 
+  <renderMultiMedia referencedObject="MM1"/>
+                  </paragraph>
+                  <br/>
+                  <paragraph>M.W. 182.19                                            C
+       
+ 
+  <sub>6</sub>H
+       
+ 
+  <sub>10</sub>N
+       
+ 
+  <sub>6</sub>O
+      
+
+ </paragraph>
+               </text>
+               <effectiveTime value="20221020"/>
+               <component>
+                  <observationMedia ID="MM1">
+                     <text>structure</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="dac02-0000-01.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="f8f91061-33c5-4d8e-9c73-1f6d20fbe017">
+               <id root="9b00bc6c-a027-502a-e053-2a95a90a3480"/>
+               <code code="34090-1" codeSystem="2.16.840.1.113883.6.1" displayName="CLINICAL PHARMACOLOGY SECTION"/>
+               <title>CLINICAL PHARMACOLOGY</title>
+               <text>
+                  <paragraph>After intravenous administration of dacarbazine for injection, the volume of distribution exceeds total body water content suggesting localization in some body tissue, probably the liver.  Its disappearance from the plasma is biphasic with initial half-life of 19 minutes and a terminal half-life of 5 hours.
+       
+ 
+  <sup>1</sup>  In a patient with renal and hepatic dysfunctions, the half-lives were lengthened to 55 minutes and 7.2 hours.
+       
+ 
+  <sup>1</sup>  The average cumulative excretion of unchanged dacarbazine in the urine is 40% of the injected dose in 6 hours.
+       
+ 
+  <sup>1</sup>  Dacarbazine is subject to renal tubular secretion rather than glomerular filtration.  At therapeutic concentrations dacarbazine is not appreciably bound to human plasma protein.
+      
+
+ </paragraph>
+                  <paragraph>In man, dacarbazine for injection is extensively degraded.  Besides unchanged dacarbazine, 5-aminoimidazole -4 carboxamide (AIC) is a major metabolite of dacarbazine excreted in the urine.  AIC is not derived endogenously but from the injected dacarbazine, because the administration of radioactive dacarbazine labeled with 
+       
+ 
+  <sup>14</sup>C in the imidazole portion of the molecule (dacarbazine-2-
+       
+ 
+  <sup>14</sup>C) gives rise to AIC-2-
+       
+ 
+  <sup>14</sup>C.
+       
+ 
+  <sup>1 </sup>
+                  </paragraph>
+                  <paragraph>Although the exact mechanism of action of dacarbazine is not known, three hypotheses have been offered:</paragraph>
+                  <paragraph>1. inhibition of DNA synthesis by acting as a purine analog</paragraph>
+                  <paragraph>2. action as an alkylating agent</paragraph>
+                  <paragraph>3. interaction with SH groups</paragraph>
+               </text>
+               <effectiveTime value="20120912"/>
+            </section>
+         </component>
+         <component>
+            <section ID="d8de8e52-0335-4e86-b7c3-5096927f53f0">
+               <id root="9b00bc6c-a028-502a-e053-2a95a90a3480"/>
+               <code code="34067-9" codeSystem="2.16.840.1.113883.6.1" displayName="INDICATIONS &amp; USAGE SECTION"/>
+               <title>INDICATIONS AND USAGE</title>
+               <text>
+                  <paragraph>Dacarbazine for Injection is indicated in the treatment of metastatic malignant melanoma.  In addition, Dacarbazine for Injection is also indicated for Hodgkin’s disease as a second-line therapy when used in combination with other effective agents.</paragraph>
+               </text>
+               <effectiveTime value="20120912"/>
+            </section>
+         </component>
+         <component>
+            <section ID="dc84f340-1afb-4fc2-be1c-f2ab73c256ac">
+               <id root="9b00bc6c-a029-502a-e053-2a95a90a3480"/>
+               <code code="34070-3" codeSystem="2.16.840.1.113883.6.1" displayName="CONTRAINDICATIONS SECTION"/>
+               <title>CONTRAINDICATIONS</title>
+               <text>
+                  <paragraph>Dacarbazine for Injection is contraindicated in patients who have demonstrated a hypersensitivity to it in the past.</paragraph>
+               </text>
+               <effectiveTime value="20120912"/>
+            </section>
+         </component>
+         <component>
+            <section ID="b0afe3a5-b3c9-450d-a7c7-3e5ef1161096">
+               <id root="9b00bc6c-a02a-502a-e053-2a95a90a3480"/>
+               <code code="34071-1" codeSystem="2.16.840.1.113883.6.1" displayName="WARNINGS SECTION"/>
+               <title>WARNINGS</title>
+               <text>
+                  <paragraph>Hemopoietic depression is the most common toxicity with dacarbazine for injection and involves primarily the leukocytes and platelets, although, anemia may sometimes occur.  Leukopenia and thrombocytopenia may be severe enough to cause death.  The possible bone marrow depression requires careful monitoring of white blood cells, red blood cells, and platelet levels.  Hemopoietic toxicity may warrant temporary suspension or cessation of therapy with dacarbazine for injection.</paragraph>
+                  <paragraph>Hepatic toxicity accompanied by hepatic vein thrombosis and hepatocellular necrosis resulting in death, has been reported.  The incidence of such reactions has been low; approximately 0.01% of patients treated.  This toxicity has been observed mostly when dacarbazine for injection has been administered concomitantly with other antineoplastic drugs; however, it has also been reported in some patients treated with dacarbazine for injection alone.</paragraph>
+                  <paragraph>Anaphylaxis can occur following the administration of dacarbazine for injection.</paragraph>
+               </text>
+               <effectiveTime value="20120912"/>
+            </section>
+         </component>
+         <component>
+            <section ID="e1f59d63-ab5e-4998-8526-cd9e670070c2">
+               <id root="9b00bc6c-a02b-502a-e053-2a95a90a3480"/>
+               <code code="42232-9" codeSystem="2.16.840.1.113883.6.1" displayName="PRECAUTIONS SECTION"/>
+               <title>PRECAUTIONS</title>
+               <text>
+                  <paragraph>Hospitalization is not always necessary but adequate laboratory study capability must be available.  Extravasation of the drug subcutaneously during intravenous administration may result in tissue damage and severe pain.  Local pain, burning sensation, and irritation at the site of injection may be relieved by locally applied hot packs.</paragraph>
+                  <paragraph>Carcinogenicity of dacarbazine was studied in rats and mice.  Proliferative endocardial lesions, including fibrosarcomas and sarcomas were induced by dacarbazine in rats.  In mice, administration of dacarbazine resulted in the induction of angiosarcomas of the spleen.</paragraph>
+               </text>
+               <effectiveTime value="20120912"/>
+               <component>
+                  <section ID="fc7f1bc4-4195-451c-b6aa-380d45502677">
+                     <id root="9b00bc6c-a02c-502a-e053-2a95a90a3480"/>
+                     <code code="42232-9" codeSystem="2.16.840.1.113883.6.1" displayName="PRECAUTIONS SECTION"/>
+                     <title>Pregnancy</title>
+                     <text>
+                        <paragraph>
+                           <content styleCode="italics">
+                              <content styleCode="italics">Teratogenic Effects, Pregnancy Category C.</content>
+                           </content>
+                        </paragraph>
+                        <paragraph>Dacarbazine has been shown to be teratogenic in rats when given in doses 20 times the human daily dose on day 12 of gestation.  Dacarbazine when administered in 10 times the human daily dose to male rats (twice weekly for 9 weeks) did not affect the male libido, although female rats mated to male rats had higher incidence of resorptions than controls.  In rabbits, dacarbazine daily dose 7 times the human daily dose given on Days 6-15 of gestation resulted in fetal skeletal anomalies.  There are no adequate and well controlled studies in pregnant women.  Dacarbazine should be used during pregnancy only if the potential benefit justifies the potential risk to the fetus.</paragraph>
+                        <paragraph>It is not known whether this drug is excreted in human milk.  Because many drugs are excreted in human milk and because of the potential for tumorigenicity shown for dacarbazine in animal studies, a decision should be made whether to discontinue nursing or to discontinue the drug, taking into account the importance of the drug to the mother.</paragraph>
+                     </text>
+                     <effectiveTime value="20120912"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="bf116fe0-69ef-420d-b0cf-5832ab28c061">
+               <id root="1798d397-5a1d-4f5c-abfb-a46a0178f3d4"/>
+               <code code="34084-4" codeSystem="2.16.840.1.113883.6.1" displayName="ADVERSE REACTIONS SECTION"/>
+               <title>ADVERSE REACTIONS</title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">To report SUSPECTED ADVERSE REACTIONS, contact Fresenius Kabi USA, LLC at 1-800-551-7176 or FDA at 1-800-FDA-1088 or www.fda.gov/medwatch.</content>
+                  </paragraph>
+                  <paragraph>Symptoms of anorexia, nausea, and vomiting are the most frequently noted of all toxic reactions.  Over 90% of patients are affected with the initial few doses.  The vomiting lasts 1-12 hours and is incompletely and unpredictably palliated with phenobarbital and/or prochlorperazine.  Rarely, intractable nausea and vomiting have necessitated discontinuance of therapy with dacarbazine for injection.  Rarely, dacarbazine has caused diarrhea.  Some helpful suggestions include restricting the patient’s oral intake of food for 4-6 hours prior to treatment.  The rapid toleration of these symptoms suggests that a central nervous system mechanism may be involved, and usually these symptoms subside after the first 1 or 2 days.</paragraph>
+                  <paragraph>There are a number of minor toxicities that are infrequently noted.  Patients have experienced an influenza-like syndrome of fever to 39°C, myalgias and malaise.  These symptoms occur usually after large single doses, may last for several days, and they may occur with successive treatments.</paragraph>
+                  <paragraph>Alopecia has been noted as has facial flushing and facial paresthesia.  There have been few reports of significant liver or renal function test abnormalities in man.  However, these abnormalities have been observed more frequently in animal studies.</paragraph>
+                  <paragraph>Erythematous and urticarial rashes have been observed infrequently after administration of dacarbazine for injection.  Rarely, photosensitivity reactions may occur.</paragraph>
+               </text>
+               <effectiveTime value="20221020"/>
+            </section>
+         </component>
+         <component>
+            <section ID="ae9ae0cc-22d8-4bbe-9190-3fafb206c31e">
+               <id root="9b00bc6c-a02e-502a-e053-2a95a90a3480"/>
+               <code code="34088-5" codeSystem="2.16.840.1.113883.6.1" displayName="OVERDOSAGE SECTION"/>
+               <title>OVERDOSAGE</title>
+               <text>
+                  <paragraph>Give supportive treatment and monitor blood cell counts.</paragraph>
+               </text>
+               <effectiveTime value="20120912"/>
+            </section>
+         </component>
+         <component>
+            <section ID="cd75e856-08dc-49c2-8e8c-d6c0b931182e">
+               <id root="9b00bc6c-a02f-502a-e053-2a95a90a3480"/>
+               <code code="34068-7" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE &amp; ADMINISTRATION SECTION"/>
+               <title>DOSAGE AND ADMINISTRATION</title>
+               <effectiveTime value="20120912"/>
+               <component>
+                  <section ID="bb2f34e5-d2e2-4e0f-ac24-1773587371da">
+                     <id root="9b00bc6c-a030-502a-e053-2a95a90a3480"/>
+                     <code code="34068-7" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE &amp; ADMINISTRATION SECTION"/>
+                     <title>Malignant Melanoma</title>
+                     <text>
+                        <paragraph>The recommended dosage is 2 to 4.5 mg/kg/day for 10 days.  Treatment may be repeated at 4 week intervals.
+         
+ 
+  <sup>2 </sup>
+                        </paragraph>
+                        <paragraph>An alternate recommended dosage is 250 mg/square meter body surface/day I.V. for 5 days.  Treatment may be repeated every 3 weeks.
+         
+ 
+  <sup>3,4</sup>
+                        </paragraph>
+                     </text>
+                     <effectiveTime value="20120912"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="bc8e4b0f-f38d-4cfb-855e-197622032d29">
+                     <id root="9b00bc6c-a031-502a-e053-2a95a90a3480"/>
+                     <code code="34068-7" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE &amp; ADMINISTRATION SECTION"/>
+                     <title>Hodgkin's Disease</title>
+                     <text>
+                        <paragraph>The recommended dosage of Dacarbazine for Injection, USP in the treatment of Hodgkin’s disease is 150 mg/square meter body surface/day for 5 days, in combination with other effective drugs.  Treatment may be repeated every 4 weeks.
+         
+ 
+  <sup>5</sup>  An alternative recommended dosage is 375 mg/square meter body surface on day 1, in combination with other effective drugs, to be repeated every 15 days.
+         
+ 
+  <sup>6 </sup>
+                        </paragraph>
+                        <paragraph>Dacarbazine for Injection, USP 100 mg/vial and 200 mg/vial are reconstituted with 9.9 mL and 19.7 mL, respectively, of Sterile Water for Injection, USP.  The resulting solution contains 10 mg/mL of dacarbazine having a pH of 3.0 to 4.0.  The calculated dose of the resulting solution is drawn into a syringe and administered 
+         
+ 
+  <content styleCode="italics">
+                              <content styleCode="italics">only</content>
+                           </content> intravenously.
+        
+
+ </paragraph>
+                        <paragraph>The reconstituted solution may be further diluted with 5% Dextrose Injection or Sodium Chloride Injection and administered as an intravenous infusion.</paragraph>
+                        <paragraph>After reconstitution and prior to use, the solution in the vial may be stored at 4°C for up to 72 hours or at normal room conditions (temperature and light) for up to 8 hours.  If the reconstituted solution is further diluted in 5% Dextrose Injection or Sodium Chloride Injection, the resulting solution may be stored at 4°C for up to 24 hours or at normal room conditions for up to 8 hours.</paragraph>
+                        <paragraph>Procedures for proper handling and disposal of anticancer drugs should be considered.  Several guidelines on this subject have been published.
+         
+ 
+  <sup>7-13</sup>  There is no general agreement that all of the procedures recommended in the guidelines are necessary or appropriate.
+        
+
+ </paragraph>
+                        <paragraph>Parenteral drug products should be inspected visually for particulate matter and discoloration prior to administration, whenever solution and container permit.</paragraph>
+                     </text>
+                     <effectiveTime value="20120912"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="dc5c775f-c894-401b-a31b-8c2135e61a9e">
+               <id root="110eb3d6-ed96-49af-8f15-8a327dd66565"/>
+               <code code="34069-5" codeSystem="2.16.840.1.113883.6.1" displayName="HOW SUPPLIED SECTION"/>
+               <title>HOW SUPPLIED</title>
+               <text>
+                  <paragraph>DACARBAZINE FOR INJECTION, USP is available in the following forms:
+</paragraph>
+                  <table width="100%">
+                     <col width="17.425%" align="left"/>
+                     <col width="25.250%" align="left"/>
+                     <col width="25.300%" align="left"/>
+                     <col width="32.025%" align="left"/>
+                     <tbody>
+                        <tr>
+                           <td align="left" valign="top" styleCode="Toprule Botrule Lrule Rrule">
+                              <content styleCode="bold">Product</content>
+                              <br/>
+                              <content styleCode="bold">Code</content>
+                           </td>
+                           <td align="left" valign="top" styleCode="Toprule Botrule Rrule">
+                              <content styleCode="bold">Unit of Sale</content>
+                           </td>
+                           <td align="left" valign="top" styleCode="Toprule Botrule Rrule">
+                              <content styleCode="bold">Strength</content>
+                           </td>
+                           <td align="left" valign="top" styleCode="Toprule Botrule Rrule">
+                              <content styleCode="bold">Each</content>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td align="left" valign="top" styleCode="Botrule Lrule Rrule">102710
+</td>
+                           <td align="left" valign="top" styleCode="Botrule Rrule">NDC 63323-127-10<br/>Unit of 10
+</td>
+                           <td align="left" valign="top" styleCode="Botrule Rrule">100 mg<br/>
+                           </td>
+                           <td align="left" valign="top" styleCode="Botrule Rrule">NDC 63323-127-00<br/>10 mL <br/>Single Dose Vial
+</td>
+                        </tr>
+                        <tr>
+                           <td align="left" valign="top" styleCode="Botrule Lrule Rrule">102820
+</td>
+                           <td align="left" valign="top" styleCode="Botrule Rrule">NDC 63323-128-20<br/>Unit of 10
+</td>
+                           <td align="left" valign="top" styleCode="Botrule Rrule">200 mg<br/>
+                           </td>
+                           <td align="left" valign="top" styleCode="Botrule Rrule">NDC 63323-128-00<br/>20 mL <br/>Single Dose Vial
+</td>
+                        </tr>
+                     </tbody>
+                  </table>
+                  <paragraph>
+                     <content styleCode="bold">STORE IN A REFRIGERATOR 2°-8°C (36°-46°F).</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">PROTECT FROM LIGHT.</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">USE WITHIN 8 HOURS OF RECONSTITUTION.</content>
+                  </paragraph>
+                  <paragraph>Vial stoppers do not contain natural rubber latex.</paragraph>
+               </text>
+               <effectiveTime value="20120912"/>
+            </section>
+         </component>
+         <component>
+            <section ID="f795447f-7612-4bb5-9955-33c8d633c519">
+               <id root="9b00bc6c-a033-502a-e053-2a95a90a3480"/>
+               <code code="34093-5" codeSystem="2.16.840.1.113883.6.1" displayName="REFERENCES SECTION"/>
+               <title>REFERENCES</title>
+               <text>
+                  <list listType="ordered" styleCode="Arabic">
+                     <item>Loo, T.J., 
+        
+  
+   <content styleCode="italics">
+                           <content styleCode="italics">et al.:</content>
+                        </content> Mechanism of action and pharmacology studies with DTIC (NSC-45388). Cancer Treatment Reports 60: 149-152, 1976.
+       
+ 
+  </item>
+                     <item>Nathanson, L., 
+        
+  
+   <content styleCode="italics">
+                           <content styleCode="italics">et al.:</content>
+                        </content> Characteristics of prognosis and response to an imidazole carboxamide in malignant melanoma. Clinical Pharmacology and Therapeutics 12: 955-962, 1971.
+       
+ 
+  </item>
+                     <item>Costanza, M.E., 
+        
+  
+   <content styleCode="italics">
+                           <content styleCode="italics">et al.:</content>
+                        </content> Therapy of malignant melanoma with an imidazole carboxamide and bischloroethyl nitrosourea. Cancer 30: 1457-1461, 1972.
+       
+ 
+  </item>
+                     <item>Luce, J.K., 
+        
+  
+   <content styleCode="italics">
+                           <content styleCode="italics">et al.:</content>
+                        </content> Clinical trials with the antitumor agent 5-(3,3-dimethyl-1-triazeno) imidazole-4-carboxamide (NSC-45388). Cancer Chemotherapy Reports 54: 119-124, 1970.
+       
+ 
+  </item>
+                     <item>Bonadonna, G., 
+        
+  
+   <content styleCode="italics">
+                           <content styleCode="italics">et al.:</content>
+                        </content> Combined Chemotherapy (MOPP or ABVD)-radiotherapy approach in advanced Hodgkin's disease.  Cancer Treatment Reports 61: 769-777, 1977.
+       
+ 
+  </item>
+                     <item>Santoro, A., and Bonadonna, G.: Prolonged disease-free survival in MOPP- resistant Hodgkin's disease after treatment with adriamycin, bleomycin, vinblastine and dacarbazine (ABVD).  Cancer Chemotherapy Pharmacol, 2: 101-105, 1979.</item>
+                     <item>Recommendations for the Safe Handling of Parenteral Antineoplastic Drugs. NIH Publication No. 83-2621. For sale by the Superintendent of Documents, U.S. Government Printing Office, Washington, D.C. 20402.</item>
+                     <item>AMA Council Report, Guidelines for Handling Parenteral Antineoplastics. JAMA, 1985; 253 (11): 1590-1592.</item>
+                     <item>National Study Commission on Cytotoxic Exposure Recommendations for Handling Cytotoxic Agents. Available from Louis P. Jeffrey, ScD., Chairman, National Study Commission on Cytotoxic Exposure, Massachusetts College of Pharmacy and Allied Health Sciences, 179 Longwood Avenue, Boston, Massachusetts 02115.</item>
+                     <item>Clinical Oncological Society of Australia, Guidelines and Recommendations for Safe Handling of Antineoplastic Agents. Med J Australia, 1983; 1: 426-428.</item>
+                     <item>Jones RB, 
+        
+  
+   <content styleCode="italics">
+                           <content styleCode="italics">et al:</content>
+                        </content> Safe Handling of Chemotherapeutic Agents: A Report from the Mount Sinai Medical Center. CA - A Cancer Journal for Clinicians, 1983; (Sept/Oct) 258-263.
+       
+ 
+  </item>
+                     <item>American Society of Hospital Pharmacists Technical Assistance Bulletin on  Handling Cytotoxic and Hazardous Drugs. Am J Hosp Pharm, 1990; 47:1033-1049.</item>
+                     <item>OSHA Work-Practice Guidelines for Personnel Dealing with Cytotoxic (Antineoplastic) Drugs. Am J Hosp Pharm, 1986; 43: 1193-1204.</item>
+                  </list>
+               </text>
+               <effectiveTime value="20120912"/>
+            </section>
+         </component>
+         <component>
+            <section ID="bb3aa37b-c6dd-4f89-988e-3f0c4a5a5402">
+               <id root="999fdae4-35d5-45cc-ab7e-31bed8f15bc8"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <text>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="MM2"/> 
+      
+
+ </paragraph>
+                  <paragraph>www.fresenius-kabi.com/us</paragraph>
+                  <paragraph>45650D</paragraph>
+                  <paragraph>Revised: July 2022</paragraph>
+                  <br/>
+               </text>
+               <effectiveTime value="20221020"/>
+               <component>
+                  <observationMedia ID="MM2">
+                     <text>logo</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="dac02-0000-02.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="s3">
+               <id root="0d5c3766-d5d7-4691-9de3-ae59f540e9b2"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">PACKAGE LABEL - PRINCIPAL DISPLAY – Dacarbazine 100 mg Vial Label</content>
+                  </paragraph>
+                  <paragraph>NDC 63323-127-00   102710
+</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">DACARBAZINE</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="italics">FOR INJECTION, USP</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">100 mg</content>
+                  </paragraph>
+                  <paragraph>prepared as the
+</paragraph>
+                  <paragraph>citrate salt
+</paragraph>
+                  <paragraph>For IV Use Only
+</paragraph>
+                  <paragraph>Single Dose Vial      Rx only
+</paragraph>
+                  <paragraph>Discard Unused Portion
+</paragraph>
+                  <renderMultiMedia ID="f03" referencedObject="mm03"/>
+               </text>
+               <effectiveTime value="20221020"/>
+               <component>
+                  <observationMedia ID="mm03">
+                     <text>PACKAGE LABEL - PRINCIPAL DISPLAY – Dacarbazine 100 mg Vial Label</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="dac02-0000-03.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="s4">
+               <id root="ef6a6ab8-6846-4528-8aef-5a4c817ea56a"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">PACKAGE LABEL - PRINCIPAL DISPLAY - Dacarbazine 100 mg Tray Label</content>
+                  </paragraph>
+                  <paragraph>NDC 63323-127-10   102710
+</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">DACARBAZINE</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="italics">FOR INJECTION, USP</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">100 mg</content>
+                  </paragraph>
+                  <paragraph>prepared as the
+</paragraph>
+                  <paragraph>citrate salt
+</paragraph>
+                  <paragraph>For IV Use Only
+</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">10 x 10 mL</content>
+                  </paragraph>
+                  <paragraph>Single Dose Vials      Rx only
+</paragraph>
+                  <paragraph>Discard Unused Portion
+</paragraph>
+                  <renderMultiMedia ID="f04" referencedObject="mm04"/>
+               </text>
+               <effectiveTime value="20221020"/>
+               <component>
+                  <observationMedia ID="mm04">
+                     <text>PACKAGE LABEL - PRINCIPAL DISPLAY - Dacarbazine 100 mg Tray Label
+</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="dac02-0000-04.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="s5">
+               <id root="fcf49ad0-712a-4030-97ec-56be70b31979"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">PACKAGE LABEL - PRINCIPAL DISPLAY – Dacarbazine 200 mg Vial Label</content>
+                  </paragraph>
+                  <paragraph>NDC 63323-128-00   102820
+</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">DACARBAZINE</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="italics">FOR INJECTION, USP</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">200 mg</content>
+                  </paragraph>
+                  <paragraph>prepared as the citrate salt
+</paragraph>
+                  <paragraph>For IV Use Only
+</paragraph>
+                  <paragraph>Single Dose Vial       Rx only
+</paragraph>
+                  <paragraph>Discard Unused Portion
+</paragraph>
+                  <renderMultiMedia ID="f05" referencedObject="mm05"/>
+               </text>
+               <effectiveTime value="20221020"/>
+               <component>
+                  <observationMedia ID="mm05">
+                     <text>PACKAGE LABEL - PRINCIPAL DISPLAY – Dacarbazine 200 mg Vial Label
+</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="dac02-0000-05.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="s6">
+               <id root="04a75c94-b9e3-491e-a03b-0b4f0aacd910"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">PACKAGE LABEL - PRINCIPAL DISPLAY – Dacarbazine 200 mg Tray Label</content>
+                  </paragraph>
+                  <paragraph>NDC 63323-128-20   102820
+</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">DACARBAZINE</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="italics">FOR INJECTION, USP</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">200 mg</content>
+                  </paragraph>
+                  <paragraph>prepared as the citrate salt
+</paragraph>
+                  <paragraph>For IV Use Only
+</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">10 x 20 mL</content>
+                  </paragraph>
+                  <paragraph>Single Dose Vial       Rx only
+</paragraph>
+                  <paragraph>Discard Unused Portion
+</paragraph>
+                  <renderMultiMedia ID="f06" referencedObject="mm06"/>
+               </text>
+               <effectiveTime value="20221020"/>
+               <component>
+                  <observationMedia ID="mm06">
+                     <text>PACKAGE LABEL - PRINCIPAL DISPLAY – Dacarbazine 200 mg Tray Label
+</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="dac02-0000-06.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

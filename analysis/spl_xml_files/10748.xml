@@ -1,0 +1,593 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="https://www.accessdata.fda.gov/spl/stylesheet/spl.xsl" type="text/xsl"?>
+<document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:hl7-org:v3" xsi:schemaLocation="urn:hl7-org:v3 https://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="1a4e5124-618c-ce44-e063-6394a90a43e3"/>
+   <code code="34391-3" codeSystem="2.16.840.1.113883.6.1" displayName="HUMAN PRESCRIPTION DRUG LABEL"/>
+   <effectiveTime value="20240607"/>
+   <setId root="1a4e5124-618b-ce44-e063-6394a90a43e3"/>
+   <versionNumber value="1"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id root="1.3.6.1.4.1.519.1" extension="449132927"/>
+            <name>LABORATÓRIOS ATRAL, S.A.</name>
+            <assignedEntity>
+               <assignedOrganization/>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section>
+               <id root="1ab874a8-db6b-0787-e063-6394a90a36ba"/>
+               <code code="48780-1" codeSystem="2.16.840.1.113883.6.1" displayName="SPL product data elements section"/>
+               <effectiveTime value="20240607"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="84383-110" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>Lentocilin</name>
+                        <formCode code="C42976" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="INJECTION, POWDER, FOR SUSPENSION"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>Penicillin G Benzathin</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <ingredient classCode="ACTIM">
+                           <quantity>
+                              <numerator unit="U" value="1200000"/>
+                              <denominator unit="mL" value="4"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="RIT82F58GK" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>PENICILLIN G BENZATHINE</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="Q42T66VG0C" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>PENICILLIN G</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <quantity>
+                              <numerator unit="mL" value="4"/>
+                              <denominator unit="mL" value="4"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="1DI56QDM62" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SOYBEAN LECITHIN</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <quantity>
+                              <numerator unit="1" value="0.2"/>
+                              <denominator unit="mL" value="4"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="6OZP39ZG8H" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>POLYSORBATE 80</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <quantity>
+                              <numerator unit="mL" value="4"/>
+                              <denominator unit="mL" value="4"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="059QF0KO0R" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>WATER</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <quantity>
+                              <numerator unit="mg" value="60"/>
+                              <denominator unit="mL" value="4"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="V13007Z41A" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>LIDOCAINE HYDROCHLORIDE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <quantity>
+                              <numerator unit="mg" value="37"/>
+                              <denominator unit="mL" value="4"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="68538UP9SE" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>MONOSODIUM CITRATE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator value="4" unit="mL"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="84383-110-01" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43226" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="VIAL"/>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                           <subjectOf>
+                              <marketingAct>
+                                 <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 <statusCode code="active"/>
+                                 <effectiveTime>
+                                    <low value="20240601"/>
+                                 </effectiveTime>
+                              </marketingAct>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <code code="C101533" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Unapproved drug for use in drug shortage"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20240601"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C28161" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="INTRAMUSCULAR"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_1a9de8f1-afd8-a08d-e063-6294a90afd6d">
+               <id root="1a9fd1b9-73cd-11bd-e063-6394a90afd16"/>
+               <code code="34067-9" codeSystem="2.16.840.1.113883.6.1" displayName="INDICATIONS &amp; USAGE SECTION"/>
+               <text>
+                  <paragraph>Lentocilin S is indicated for the treatment of the following infections in adults and children:
+  <br/>
+- Upper respiratory tract infections, namely group A streptococcal infections
+  <br/>
+- Primary and secondary syphilis
+  <br/>
+- Latent syphilis
+  <br/>
+- Tertiary syphilis (in adults)
+  <br/>
+- Congenital syphilis (in children)
+  <br/>
+- Yaws
+  <br/>
+- Bejel
+  <br/>
+- Pinta
+ </paragraph>
+                  <paragraph>Lentocilin S is also indicated prophylactically in the following situations:
+  <br/>
+- Rheumatic fever
+  <br/>
+- Diphtheria (including elimination of the asymptomatic carrier state)
+ </paragraph>
+                  <paragraph>Consideration should be given to official guidelines for appropriate use of antimicrobial agents.</paragraph>
+               </text>
+               <effectiveTime value="20240611"/>
+               <component>
+                  <section ID="id_link_1aa07240-de65-0d27-e063-6394a90ac79c">
+                     <id root="1aa07240-de64-0d27-e063-6394a90ac79c"/>
+                     <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+                     <text>
+                        <paragraph>
+                           <renderMultiMedia referencedObject="img_1aa078f4-1306-d2bb-e063-6294a90aea0b"/>
+                        </paragraph>
+                     </text>
+                     <effectiveTime value="20240611"/>
+                     <component>
+                        <observationMedia ID="img_1aa078f4-1306-d2bb-e063-6294a90aea0b">
+                           <text>indications&amp;usage section</text>
+                           <value mediaType="image/jpeg" xsi:type="ED">
+                              <reference value="picture-1.jpg"/>
+                           </value>
+                        </observationMedia>
+                     </component>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_1a9dfc60-f4b9-8e98-e063-6394a90acc27">
+               <id root="1a9dfc60-f4b8-8e98-e063-6394a90acc27"/>
+               <code code="34068-7" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE &amp; ADMINISTRATION SECTION"/>
+               <text>
+                  <paragraph>Lentocilin S suspension for injection is to be EXCLUSIVELY administered by DEEP INTRAMUSCULAR (IM) INJECTION. Deep IM administration of this medicine requires a rigorous technique and should be performed only by experienced health technicians and in places prepared for the emergency treatment of a possible anaphylactic reaction.</paragraph>
+                  <paragraph>Posology
+  <br/>
+Adults
+  <br/>
+Group A streptococcal infections - Upper respiratory tract infections:
+  <br/>
+1,200,000 IUunits in a single dose.  
+  <br/>
+Primary, secondary and early latent syphilis: 2,400,000 unitsIU in a single dose (injection at two different sites).
+  <br/>
+Late latent syphilis or of unknown duration: 2,400,000 unitsIU (injection at two different sites) weekly for 3 consecutive weeks.
+  <br/>
+Tertiary syphilis: 2,400,000 unitsIU (injection at two different sites) weekly for 3 consecutive weeks.
+  <br/>
+Yaws, bejel and pinta: 1,200,000 unitsIU in a single dose.
+ </paragraph>
+                  <paragraph>Prophylaxis of rheumatic fever: 1,200,000 unitsIU every 4 weeks. In high-risk patients it is recommended administration of 3 inevery 3 weeks.</paragraph>
+                  <paragraph>Prevention of diphtheria, including elimination of the asymptomatic carrier state: 1,200,000 unitsIU in a single dose.</paragraph>
+                  <paragraph>Newborns aged ≥ 1 month
+  <br/>
+Asymptomatic congenital syphilis: 50,000 unitsIU/kg in a single dose (maximum dose: 2,400,000 unitsIU/dose).
+  <br/>
+Benzathine benzylpenicillin is not recommended in newborns with proven or highly probable congenital syphilis.
+ </paragraph>
+                  <paragraph>Children
+  <br/>
+Group A Streptococcal infections - Upper respiratory tract infections:
+  <br/>
+25,000 - 50,000 unitsIU/kg in a single dose (maximum dose: 1,200,000 IUunits/dose) or 
+  <br/>
+weight &lt; 27 kg: 300,000-600,000 IU units in a single dose
+  <br/>
+weight ≥ 27 kg: 1,200,000 unitsIU in a single dose.
+ </paragraph>
+                  <paragraph>- Primary, secondary and early latent syphilis: 50,000 unitsIU/kg (maximum dose: 2,400,000 unitsIU/dose) in a single dose.
+  <br/>
+- Late latent syphilis or latent syphilis of unknown duration: 50,000 unitsIU/kg (maximum dose: 2,400,000 unitsIU/dose) weekly for 3 weeks.
+ </paragraph>
+                  <paragraph>- Yaws, bejel and pinta: 300,000 unitsIU as a single dose in children aged less than 6 years or 1,200,000 IUunits in a single dose in children aged 6 years and older.</paragraph>
+                  <paragraph>-Prophylaxis of rheumatic fever: 25,000 - 50,000 unitsIU/kg in a single dose (maximum dose: 1,200,000 unitsIU/dose) or
+  <br/>
+weight &lt; 27 kg: 300,000 - 600,000 unitsIU in a single dose
+  <br/>
+weight ≥ 27 kg: 1,200,000 unitsIU in a single dose.
+ </paragraph>
+                  <paragraph>Prevention of diphtheria (including elimination of the asymptomatic carrier state):
+  <br/>
+- children aged &lt; 6 years (or weight &lt; 30 kg): 600,000 unitsIU in a single dose
+  <br/>
+- children aged ≥ 6 years (or weight ≥ 30 kg): 1,200,000 unitsIU in a single dose.
+ </paragraph>
+                  <paragraph>Special populations</paragraph>
+                  <paragraph>Elderly - Dose adjustment is not necessary. However, since the elderly have a higher likelihood of decreased renal function, this must be taken into consideration during the selection of the posology and may be useful to monitor renal function.</paragraph>
+                  <paragraph>Renal insufficiency - Toxic concentrations of benzylpenicillin following administration of the usually recommended dose are not expected.</paragraph>
+                  <paragraph>Liver insufficiency - Dose adjustment is not necessary.</paragraph>
+               </text>
+               <effectiveTime value="20240611"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_1a9dd5f5-ca34-652b-e063-6394a90aa2e4">
+               <id root="1a9dd5f5-ca33-652b-e063-6394a90aa2e4"/>
+               <code code="43678-2" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE FORMS &amp; STRENGTHS SECTION"/>
+               <text>
+                  <paragraph>Powder and diluent for suspension for injection: 1200000 units</paragraph>
+               </text>
+               <effectiveTime value="20240611"/>
+               <component>
+                  <section ID="id_link_1aa0bf59-6529-d75b-e063-6394a90a9362">
+                     <id root="1aa0bf59-6528-d75b-e063-6394a90a9362"/>
+                     <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+                     <text>
+                        <paragraph>
+                           <renderMultiMedia referencedObject="img_1aa0af31-d7d2-9424-e063-6294a90a685d"/>
+                        </paragraph>
+                     </text>
+                     <effectiveTime value="20240611"/>
+                     <component>
+                        <observationMedia ID="img_1aa0af31-d7d2-9424-e063-6294a90a685d">
+                           <text>carton-vial</text>
+                           <value mediaType="image/jpeg" xsi:type="ED">
+                              <reference value="carton-vial.jpg"/>
+                           </value>
+                        </observationMedia>
+                     </component>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_1a9e024c-9c28-4353-e063-6394a90a2eaf">
+               <id root="1a9e024c-9c27-4353-e063-6394a90a2eaf"/>
+               <code code="34070-3" codeSystem="2.16.840.1.113883.6.1" displayName="CONTRAINDICATIONS SECTION"/>
+               <text>
+                  <paragraph>Hypersensitivity to the active substance, to other penicillin or to any of the excipients.
+  <br/>
+Hypersensitivity to lidocaine or local anesthetics of the amide type.
+ </paragraph>
+               </text>
+               <effectiveTime value="20240611"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_1a9e00cb-daa1-bf48-e063-6394a90a3d66">
+               <id root="1a9e00cb-daa0-bf48-e063-6394a90a3d66"/>
+               <code code="43685-7" codeSystem="2.16.840.1.113883.6.1" displayName="WARNINGS AND PRECAUTIONS SECTION"/>
+               <text>
+                  <paragraph>Lentocilin S suspension for injection should ONLY be administered by INTRAMUSCULAR ROUTE. To avoid injury, Lentocilin S suspension should not be administered by intravenous, intraarterial or subcutaneous route, in the adipose layer, into or near a peripheral nerve or blood vessel.
+  <br/>
+                     <br/>
+Before injecting the suspension, the position of the needle should be controlled by aspiration. If blood shows up in the syringe, pull back the needle and inject on another site.
+  <br/>
+                     <br/>
+Administer Lentocilin S suspension EXCLUSIVELY by DEEP INTRAMUSCULAR INJECTION in the external upper quadrant of the buttock. In children and infants, the IM injections should be done, preferably, in the middle of the external lateral side of the thigh. In infants younger than 2 years, and if considered necessary, the dosage may be divided and administered in two separate sites. The IM injection site should be changed in case of repeated doses.
+  <br/>
+                     <br/>
+Deep IM administration of this medicine requires a rigorous technique and should be performed only by experienced health technicians and in places prepared for the emergency treatment of a possible anaphylactic reaction.
+  <br/>
+                     <br/>
+A needle to use in the administration of the injectable suspensions should have a minimum internal diameter of 0.8 mm (caliber: 18 gauge).
+  <br/>
+                     <br/>
+The deep IM injection should be made slowly and with a constant flow rate to prevent needle blockage. If the needle is clogged, replace it with a new needle.
+  <br/>
+                     <br/>
+The deep IM injection should be discontinued if there are signs or symptoms of immediate acute pain, especially in children and infants.
+  <br/>
+                     <br/>
+Serious hypersensitivity reactions (anaphylactic reactions), sometimes fatal, have been reported in patients on penicillin therapy. These reactions are more likely to occur in individuals with a history of penicillin hypersensitivity and in atopic individuals. If an allergic reaction occurs, therapy with Lentocillin S should be discontinued immediately and the appropriate therapy instituted.
+  <br/>
+In case of severe anaphylactic reaction, immediate emergency treatment (including adrenaline, corticosteroids, airway management, oxygen) is required.
+  <br/>
+Usually, subcutaneous, or intravenous adrenaline is the treatment of choice for an immediate or accelerated hypersensitivity reaction to a penicillin.
+  <br/>
+Before initiating therapy with benzylpenicillin, careful inquiry should be made concerning previous hypersensitivity reactions to penicillin, cephalosporins, and other beta-lactam antibiotics.
+  <br/>
+                     <br/>
+Contact with the penicillin during handling the product should be avoided due to the possibility of skin sensitization.
+  <br/>
+                     <br/>
+To minimize the overgrowth of resistant bacteria and maintain the effectiveness of benzylpenicillin, this medicine should only be used in the treatment of infections proven to be caused by susceptible bacteria. Therapy should be based on bacteriological studies (including sensitivity tests) and the patient's clinical response.
+  <br/>
+                     <br/>
+Prolonged administration of Lentocilin S can occasionally result in overgrowth of non-susceptible organisms particularly Candida, Pseudomonas or Enterobacter.
+  <br/>
+                     <br/>
+Antibiotic treatment modifies the commensal flora of the colon, allowing the growth of Clostridium difficile. This microorganism produces toxins, which are responsible for diarrhea associated to antibiotherapy, which can range from mild diarrhea to fatal colitis. Patients with diarrhea during or even up to two months after treatment with antibiotics should be subject to investigation and differential diagnosis. Confirming pseudomembranous colitis, treatment should be discontinued and, if necessary, use supportive hydro-electrolyte measures, recommended antibiotherapy and protein supplement.
+  <br/>
+                     <br/>
+Because of the risk of neurotoxicity, caution is recommended especially in the case of administration of high doses of benzylpenicillin to renal impaired patients.
+  <br/>
+                     <br/>
+During prolonged treatment with high doses of benzylpenicillin is recommended to monitor the renal and haematological functions. The use of benzylpenicillin for more than 2 weeks may be associated with an increased risk of neutropenia and incidence of immune complex self-limited sickness-like reactions. Special precautions should be taken in order to avoid intravenous and intraarterial administration or injection into or near major peripheral nerve or blood vessel, since such injections may produce severe and/or permanent neuromuscular damage. In case of evidence of impaired blood flow at the injection site - proximal or distal – an appropriate specialized physician should be immediately consulted.
+  <br/>
+                     <br/>
+Special caution is recommended when treating patients with spirochetal infections, particularly syphilis, due to the possibility of a Jarisch - Herxheimer reaction. This is a very common reaction when benzylpenicillin is used to treat syphilis, occurring in 50% of patients with primary syphilis, 75% of those treated for secondary syphilis and 30% of those treated for neurosyphilis. This reaction usually occurs 2-12 hours after initiation of penicillin therapy and is characterized by the occurrence of headache, fever, chills, sweating, sore throat, myalgia, arthralgia, malaise, increased heart rate and an increase in blood pressure followed by its decrease.
+  <br/>
+This reaction is probably caused by the release of endotoxins from the treponemes and should not be confused with a hypersensitivity reaction. The reaction may be dangerous in cardiovascular syphilis or when there is a serious risk of increased local lesions such as optic atrophy.
+  <br/>
+                     <br/>
+It is recommended the use of oxidative enzymatic methods when testing glucose in urine during therapy with benzylpenicillin. False positive results can occur with the use of non-enzymatic methods.
+  <br/>
+                     <br/>
+Benzylpenicillin may interfere with other diagnostic tests such as the Coombs test, tests for the determination of proteins in plasma and urine and the test for the determination of plasmatic uric acid (copper-chelate method).
+  <br/>
+                     <br/>
+Due to the lidocaine content (present in the ampoule), Lentocilin S should be used with caution in the following situations:
+  <br/>
+- presence of cardiovascular, hepatic or renal dysfunction, inflammation and/or infection at the injection site or sensitivity to local anesthetics of the amide type,
+  <br/>
+- children, the elderly and patients with acute illnesses or debilitated,
+  <br/>
+- patients on concomitant CNS depressant drugs. 
+ </paragraph>
+               </text>
+               <effectiveTime value="20240611"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_1a9e09ae-9f9a-c29b-e063-6394a90ab43f">
+               <id root="1a9e09ae-9f99-c29b-e063-6394a90ab43f"/>
+               <code code="34084-4" codeSystem="2.16.840.1.113883.6.1" displayName="ADVERSE REACTIONS SECTION"/>
+               <text>
+                  <paragraph>The most common undesirable effects of benzylpenicillin are hypersensitivity reactions, especially skin rashes. Anaphylactic reactions occurred occasionally, which have sometimes been fatal. The overall incidence of allergic reactions to penicillin ranges between 1 and 10%. Anaphylactic reactions occur in approximately 0.05% of patients, usually after parenteral administration.
+  <br/>
+                     <br/>
+The following undesirable effects were observed with benzylpenicillin:
+  <br/>
+Blood and lymphatic system disorders - Eosinophilia and hemolytic anemia (both with immunological basis), leukopenia and thrombocytopenia. These effects are usually reversible after discontinuation of treatment.
+  <br/>
+                     <br/>
+Immune system disorders - Hypersensitivity reactions to penicillin cause a wide variety of clinical syndromes. Immediate reactions include anaphylaxis, laryngeal edema, angioedema, urticaria and maculopapular rashes. Late reactions include hemolytic anemia and immune complex self-limited sickness-like reactions, characterized by fever, malaise, urticaria, arthralgia, myalgia, lymphadenopathy and splenomegaly. In order to determine which patients will probably develop severe allergic reactions, hypersensitivity skin tests may be used. Jarisch – Herxheimer reaction.
+  <br/>
+                     <br/>
+Nervous system disorders - Benzylpenicillin is very irritating to the central and peripheral nervous systems. Neurotoxic reactions include anxiety, asthenia, cerebrovascular accident (CVA), confusion, dizziness, euphoria, nervousness, hallucinations, headache, neuropathy, neurovascular injury, localized or generalized seizures, coma, tremor and vasospasm at the administration site, and occur after parenteral administration of benzylpenicillin potassium. These reactions are most common when the benzylpenicillin is given daily in doses of more than 20,000,000 IU intravenously to renal impaired patients.
+  <br/>
+The accidental injection of preparations of benzylpenicillin into or near by the nerves may produce neuromuscular damage, which rarely may be permanent.
+  <br/>
+Rarely, inadvertent intravascular administration of benzathine benzylpenicillin or procaine benzylpenicillin, including direct administration into an artery - or adjacent to an artery - causes occlusion, thrombosis and severe neurovascular injury, especially in children.
+  <br/>
+Deep injection in the glutes gluteal muscles can cause paralysis, dysfunction and painful irritation of the sciatic nerve.
+  <br/>
+Repeated intramuscular injection of benzylpenicillin preparations in the anterolateral side of the thigh of newborns has rarely caused generalized muscular contractions, as well as atrophy and fibrosis of the quadriceps femoris muscle.
+  <br/>
+After intramuscular administration of benzathine benzylpenicillin may occurs Hoigné syndrome may occur, characterized by agitation accompanied by symptoms such as fear of impending death and visual and auditory hallucinations. Transversal myelitis with permanent paralysis, gangrene requiring amputation of fingers and the more proximal regions of the extremities, and necrosis with formation of scars surrounding the site of injection, have occurred after injections in the buttocks, thighs and deltoid muscle.
+  <br/>
+                     <br/>
+Eye disorders - Blurred vision, transient blindness.
+  <br/>
+                     <br/>
+Cardiac disorders - Hypotension, palpitations, syncope, tachycardia, vasodilation and vasovagal syndrome characterized by anxiety, sweating, hypotension, peripheral arterial vasodilation and bradycardia.
+  <br/>
+Cardiopulmonary arrest and death due to inadvertent IV administration.
+  <br/>
+                     <br/>
+Respiratory, thoracic and mediastinal disorders - Apnea, dyspnea, hypoxia, pulmonary embolism and pulmonary hypertension.
+  <br/>
+                     <br/>
+Gastro-intestinal disorders - Intestinal necrosis, melena, nausea, vomiting, and pseudomembranous colitis, which can arise during or after treatment.
+  <br/>
+                     <br/>
+Hepatobiliary disorders - Transient increases in SGOT, hepatitis and cholestatic jaundice.
+  <br/>
+                     <br/>
+Skin and subcutaneous tissue disorders - Diaphoresis, pruritus and urticaria.
+  <br/>
+                     <br/>
+Musculo-skeletal, connective tissue and bone disorders - Arthritis, arthropathy, myoglobinuria, periostitis and rhabdomyolysis.
+  <br/>
+                     <br/>
+Renal and urinary disorders - Hematuria, neurogenic bladder, renal impairment, proteinuria and increased serum BUN and creatinine.
+  <br/>
+                     <br/>
+Reproductive system and breast disorders - Impotence and priapism
+  <br/>
+                     <br/>
+General disorders and administration site conditions - Parenteral administration of benzylpenicillin preparations may cause dose-related injection site reactions dose-related and are the result of a direct toxic effect of the drug. IM administration of high doses of benzylpenicillin benzathine (in particular more than 600,000 IU of benzylpenicillin) in a single injection site can result in painful tumefaction and endothelial injury on site. IM administration of benzylpenicillin has been associated with the occurrence of the following side effects at the administration site: inflammation, pain, abscess, edema, hemorrhage, cellulitis, atrophy and cutaneous ulceration. It has also been reported cases of fever and fatigue associated with the use of benzylpenicillin.
+ </paragraph>
+               </text>
+               <effectiveTime value="20240611"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_1a9e09ae-9f9c-c29b-e063-6394a90ab43f">
+               <id root="1a9e09ae-9f9b-c29b-e063-6394a90ab43f"/>
+               <code code="34073-7" codeSystem="2.16.840.1.113883.6.1" displayName="DRUG INTERACTIONS SECTION"/>
+               <text>
+                  <paragraph>Bacteriostatic antibiotics: Bacteriostatic antibiotics, such as tetracycline, erythromycin and chloramphenicol, may antagonize the bactericidal effect of benzylpenicillin by interfering with active bacterial growth necessary to benzylpenicillin’s effect.
+  <br/>
+                     <br/>
+Oral contraceptives: The efficacy of oral contraceptives may be impaired in case of concomitant therapy with benzylpenicillin, which may result in an unwanted pregnancy.
+  <br/>
+Women taking oral contraceptives should be alerted to this situation and should be informed about the need to adopt alternative methods of contraception.
+  <br/>
+                     <br/>
+Methotrexate: Penicillins may reduce the renal excretion of methotrexate causing a potential increase in its toxicity.
+  <br/>
+                     <br/>
+Probenecid: Probenecid decreases the renal tubular secretion of benzylpenicillin. Its concomitant use with benzylpenicillin can prolong blood levels of benzylpenicillin. Probenecid may be used therapeutically for this purpose.
+ </paragraph>
+               </text>
+               <effectiveTime value="20240611"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_1ab78d3e-f800-2b15-e063-6394a90a2efa">
+               <id root="1ab78d3e-f7ff-2b15-e063-6394a90a2efa"/>
+               <code code="71744-7" codeSystem="2.16.840.1.113883.6.1" displayName="HEALTH CARE PROVIDER LETTER SECTION"/>
+               <title>Temporary Importation of Lentocilin©, (Benzathine Benzylpenicillin Tetrahydrate) Powder and diluent for suspension for injection, 1,200,000 units with Foreign, non-U.S. Labeling to Address Supply Shortage</title>
+               <text>
+                  <paragraph>Dear Healthcare Provider,</paragraph>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph>To address the shortages of Bicillin® L-A (penicillin G benzathine injectable suspension) in the United States, Mark Cuban Cost Plus Drug Company, PBC (“MCCPDC”) is coordinating with the U.S. Food and Drug Administration (FDA) to temporarily import Lentocilin© (Benzathine Benzylpenicillin Tetrahydrate) Powder and diluent for suspension for injection, 1,200,000 units into the United States. Benzathine benzylpenicillin is another name for Penicillin G benzathine.</paragraph>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph>Lentocilin©, (Benzathine Benzylpenicillin Tetrahydrate) Powder and diluent for suspension for injection 1,200,000 units, manufactured and marketed in Portugal by Laboratórios Atral S.A., is not FDA-approved.</paragraph>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph>Effective immediately, MCCPDC will distribute the following presentations of Lentocilin©, (Benzathine Benzylpenicillin Tetrahydrate) Powder and diluent for suspension for injection 1,200,000 units to address the shortage:</paragraph>
+                  <paragraph>Product Description - LENTOCILIN S 1200 1,200,000 units/4ML</paragraph>
+                  <paragraph>Strength - 1,200,000 units/4 ml</paragraph>
+                  <paragraph>Pack Size - 1 unit</paragraph>
+                  <paragraph>NDC # - 84383-110</paragraph>
+                  <paragraph>Batch # - V055V007497V</paragraph>
+                  <paragraph>Expiration Date - 03/31/2028</paragraph>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph>
+                     <content styleCode="bold">The barcode on the imported product label may not register accurately on the U.S. scanning systems.</content> Institutions should manually input the imported product information into their systems and confirm that the barcode, if scanned, provides correct information. Alternative procedures should be followed to assure that the correct drug product is being used and administered to individual patients.
+ </paragraph>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph>In addition, the packaging of the imported product does include serialization information. Lab Atral does not meet the Drug Supply Chain Security Act (DSCSA) requirements for the Interoperable Exchange of Information for Tracing of Human, Finished Prescription Drugs. However, the company is not registered in the GS1 system in US, thus the tracking function is not available.</paragraph>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph>There are key differences between the FDA approved Bicillin® L-A and Lentocilin©</paragraph>
+                  <paragraph/>
+                  <paragraph>- Lentocilin© labeling does not have a boxed warning. Please refer to the Bicillin L-A boxed warning.
+  <br/>
+- Lentocilin© carton labeling does not have the warning “Fatal if given by other routes”. However, Lentocilin's product information states that "Lentocilin S Suspension for injection must be administered EXCLUSIVELY by DEEP INTRAMUSCULAR (IM) injection.”.
+  <br/>
+- Lentocilin© contains soy phospholipids and may cause hypersensitivity reactions (urticaria, anaphylactic shock) in patients with a history of allergy to soybeans.
+  <br/>
+- Lentocilin© is supplied as powder for reconstitution compared to prefilled disposable syringes for Bicillin L-A. Follow instructions for the preparation of an intramuscular injection of Lentocilin® in the Preparation section below.
+  <br/>
+-
+  <content styleCode="bold"> The volume of Lentocilin© 1,200,000 units after reconstitution is around 4 mL compared to 2 mL for Bicillin L-A 1,200,000 units</content>.
+  <br/>
+- Lentocilin© labeling includes detailed instructions for deep intramuscular administration in the Warnings section below:
+ </paragraph>
+                  <list listType="unordered">
+                     <item>Administer Lentocilin S suspension EXCLUSIVELY by DEEP INTRAMUSCULAR INJECTION in the external upper quadrant of the buttock.</item>
+                     <item>In children and infants, the IM injections should be done, preferably, in the middle of the external lateral side of the thigh.</item>
+                     <item>In infants younger than 2 years, and if considered necessary, the dosage may be divided and administered in two separate sites.</item>
+                     <item>The IM injection site should be changed in case of repeated doses.</item>
+                  </list>
+                  <paragraph>- Lentocilin© should be stored below 25ºC, in the original package to protect from light and moisture. Following reconstitution, benzylpenicillin benzathine should be used immediately.
+  <br/>
+- Lentocilin© will be available only by prescription in the U.S. However, the imported product does not have the statement “Rx only” on the labeling. An equivalent expression is included in carton box (Medicinal product subject to medical prescription).
+ </paragraph>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph>
+                     <content styleCode="bold">Reporting Adverse Events:</content>
+                  </paragraph>
+                  <paragraph/>
+                  <paragraph>Healthcare providers should report adverse events associated with the use of Lab Atral’s Lentocilin© to MCCPDC by phone: 682-428-8081; email: dtc_quality@costplusdrugs.com.</paragraph>
+                  <paragraph>Adverse reactions or quality problems experienced with the use of this product may be reported to the FDA’s MedWatch Adverse Event Reporting program either online, by regular mail or by fax:</paragraph>
+                  <paragraph>- Complete and submit the report Online: www.fda.gov/medwatch/report.htm
+  <br/>
+- Regular Mail or Fax: Download form https://www.accessdata.fda.gov/scripts/medwatch/index.cfm or call 1-800-332-1088 to request a reporting form, then complete and return to the address on the pre-addressed form or submit by fax to 1-800-FDA-0178 (1-800-332-0178).
+ </paragraph>
+                  <paragraph>Please ensure that your staff and others in your institution who may be involved in the administration of Lab Atral’s Lentocilin© receive a copy of this letter and review the information.</paragraph>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph>
+                     <content styleCode="bold">To place an order, </content>please contact TopRx at support@toprx.com or 1-800-542-8677.
+ </paragraph>
+                  <paragraph/>
+                  <paragraph>This letter is not intended as a complete description of the benefits and risks related to the use of Lab Atral’s Lentocilin©. Please refer to the enclosed full prescribing information.</paragraph>
+                  <paragraph/>
+                  <paragraph>For additional information, please contact Mark Cuban Cost Plus Drug Company, PBC. at 682-428-8081; email: dtc_quality@costplusdrugs.com.</paragraph>
+                  <paragraph/>
+               </text>
+               <effectiveTime value="20240612"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_1aa0c785-1ea0-b81f-e063-6394a90ab867">
+               <id root="1aa0d907-480e-9cd9-e063-6294a90aa0a4"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>Carton/container label</title>
+               <text>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="img_1aa0c785-1ea3-b81f-e063-6394a90ab867"/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20240611"/>
+               <component>
+                  <observationMedia ID="img_1aa0c785-1ea3-b81f-e063-6394a90ab867">
+                     <text>carton/container label</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="carton-vial.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

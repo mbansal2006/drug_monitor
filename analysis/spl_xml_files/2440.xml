@@ -1,0 +1,1225 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="https://www.accessdata.fda.gov/spl/stylesheet/spl.xsl" type="text/xsl"?>
+<document xmlns="urn:hl7-org:v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 https://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="26368338-338e-4438-8fc7-366e8e6f9bbb"/>
+   <code code="34391-3" codeSystem="2.16.840.1.113883.6.1" displayName="Human Prescription Drug Label"/>
+   <title>Vecuronium Bromide<br/> for Injection<br/> Rx only</title>
+   <effectiveTime value="20231206"/>
+   <setId root="86d81719-534c-4e50-ae39-d8b20e50dfad"/>
+   <versionNumber value="3"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id extension="968961354" root="1.3.6.1.4.1.519.1"/>
+            <name>Eugia US LLC</name>
+            <assignedEntity>
+               <assignedOrganization>
+                  <assignedEntity>
+                     <assignedOrganization>
+                        <id extension="650498244" root="1.3.6.1.4.1.519.1"/>
+                        <name>Eugia Pharma Specialities Limited</name>
+                     </assignedOrganization>
+                     <performance>
+                        <actDefinition>
+                           <code code="C25391" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ANALYSIS"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="55150-235" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                     <performance>
+                        <actDefinition>
+                           <code code="C25391" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ANALYSIS"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="55150-236" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                     <performance>
+                        <actDefinition>
+                           <code code="C43360" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="MANUFACTURE"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="55150-235" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                     <performance>
+                        <actDefinition>
+                           <code code="C43360" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="MANUFACTURE"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="55150-236" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                     <performance>
+                        <actDefinition>
+                           <code code="C84731" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="PACK"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="55150-235" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                     <performance>
+                        <actDefinition>
+                           <code code="C84731" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="PACK"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="55150-236" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                  </assignedEntity>
+               </assignedOrganization>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section>
+               <id root="83998872-97c4-49ac-8913-45265130a85e"/>
+               <code code="48780-1" codeSystem="2.16.840.1.113883.6.1" displayName="SPL PRODUCT DATA ELEMENTS SECTION"/>
+               <effectiveTime value="20230829"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="55150-235" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>VECURONIUM BROMIDE<suffix/>
+                        </name>
+                        <formCode code="C42957" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="INJECTION, POWDER, LYOPHILIZED, FOR SOLUTION"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>VECURONIUM BROMIDE</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator value="10" unit="mg"/>
+                              <denominator value="1" unit="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="7E4PHP5N1D" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>VECURONIUM BROMIDE</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="5438723848" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>VECURONIUM</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="XF417D3PSL" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>ANHYDROUS CITRIC ACID</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="22ADO53M6F" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SODIUM PHOSPHATE, DIBASIC, ANHYDROUS</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="3OWL53L36A" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>MANNITOL</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="55X04QC32I" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SODIUM HYDROXIDE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="E4GA8884NN" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>PHOSPHORIC ACID</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator value="1" unit="1"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="55150-235-01" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43226" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="VIAL"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator value="10" unit="1"/>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code code="55150-235-10" codeSystem="2.16.840.1.113883.6.69"/>
+                                    <formCode code="C43182" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CARTON"/>
+                                 </containerPackagedProduct>
+                                 <subjectOf>
+                                    <marketingAct>
+                                       <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                       <statusCode code="active"/>
+                                       <effectiveTime>
+                                          <low value="20181220"/>
+                                       </effectiveTime>
+                                    </marketingAct>
+                                 </subjectOf>
+                              </asContent>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <id extension="ANDA206670" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73584" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ANDA"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20181220"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38276" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="INTRAVENOUS"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="55150-236" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>VECURONIUM BROMIDE<suffix/>
+                        </name>
+                        <formCode code="C42957" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="INJECTION, POWDER, LYOPHILIZED, FOR SOLUTION"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>VECURONIUM BROMIDE</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator value="20" unit="mg"/>
+                              <denominator value="1" unit="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="7E4PHP5N1D" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>VECURONIUM BROMIDE</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="5438723848" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>VECURONIUM</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="XF417D3PSL" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>ANHYDROUS CITRIC ACID</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="22ADO53M6F" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SODIUM PHOSPHATE, DIBASIC, ANHYDROUS</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="3OWL53L36A" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>MANNITOL</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="55X04QC32I" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SODIUM HYDROXIDE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="E4GA8884NN" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>PHOSPHORIC ACID</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator value="1" unit="1"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="55150-236-01" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43226" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="VIAL"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator value="10" unit="1"/>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code code="55150-236-20" codeSystem="2.16.840.1.113883.6.69"/>
+                                    <formCode code="C43182" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CARTON"/>
+                                 </containerPackagedProduct>
+                                 <subjectOf>
+                                    <marketingAct>
+                                       <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                       <statusCode code="active"/>
+                                       <effectiveTime>
+                                          <low value="20181220"/>
+                                       </effectiveTime>
+                                    </marketingAct>
+                                 </subjectOf>
+                              </asContent>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <id extension="ANDA206670" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73584" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ANDA"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20181220"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38276" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="INTRAVENOUS"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section ID="Section_0">
+               <id root="2809f37b-1855-4d22-8558-46882fe2b11f"/>
+               <code code="34066-1" codeSystem="2.16.840.1.113883.6.1" displayName="BOXED WARNING SECTION"/>
+               <text>
+                  <paragraph>THIS DRUG SHOULD BE ADMINISTERED BY ADEQUATELY TRAINED INDIVIDUALS FAMILIAR WITH ITS ACTIONS, CHARACTERISTICS, AND HAZARDS.</paragraph>
+               </text>
+               <effectiveTime value="20230829"/>
+            </section>
+         </component>
+         <component>
+            <section ID="Section_1">
+               <id root="afe302bd-6510-4fa3-87bc-dd6fbdd2979f"/>
+               <code code="34089-3" codeSystem="2.16.840.1.113883.6.1" displayName="DESCRIPTION SECTION"/>
+               <title>DESCRIPTION</title>
+               <text>
+                  <br/>
+                  <paragraph>Vecuronium Bromide for Injection is a nondepolarizing neuromuscular blocking agent of intermediate duration, chemically designated as 1-(3α,17β-Dihydroxy-2β-piperidino-5α-androstan-16β,5α-yl)-1-methylpiperidinium bromide, diacetate. Vecuronium Bromide USP is a white or creamy white crystalline powder. The structural formula is:<br/>
+                     <br/>
+                     <renderMultiMedia referencedObject="MM1"/>
+                     <br/>
+                     <br/> Its chemical formula is C<sub>34</sub>H<sub>57</sub>BrN<sub>2</sub>O<sub>4</sub> with molecular weight 637.75.<br/>
+                     <br/> Vecuronium Bromide for Injection is supplied as a sterile, nonpyrogenic, white to off-white lyophilized cake or powder for intravenous injection only. Each 10 mL vial contains 10 mg of vecuronium bromide USP, 20.75 mg citric acid anhydrous, 16.25 mg dibasic sodium phosphate anhydrous, 97 mg mannitol (to adjust tonicity), sodium hydroxide and/or phosphoric acid to buffer and adjust to a pH range of 3.5 to 4.5. Each 20 mL vial contains 20 mg of vecuronium bromide USP, 41.5 mg citric acid anhydrous, 32.5 mg dibasic sodium phosphate anhydrous, 194 mg mannitol (to adjust tonicity), sodium hydroxide and/or phosphoric acid to buffer and adjust to a pH range of 3.5 to 4.5.</paragraph>
+               </text>
+               <effectiveTime value="20230829"/>
+               <component>
+                  <observationMedia ID="MM1">
+                     <text>Vecuronium Bromide Chemcal Structure</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="vecuronium-str.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="Section_2">
+               <id root="b7384de1-9661-4f90-97fc-86b80d9f0d30"/>
+               <code code="34090-1" codeSystem="2.16.840.1.113883.6.1" displayName="CLINICAL PHARMACOLOGY SECTION"/>
+               <title>CLINICAL PHARMACOLOGY</title>
+               <text>
+                  <br/>
+                  <paragraph>Vecuronium is a nondepolarizing neuromuscular blocking agent possessing all of the characteristic pharmacological actions of this class of drugs (curariform). It acts by competing for cholinergic receptors at the motor end-plate. The antagonism to acetylcholine is inhibited and neuromuscular block is reversed by acetylcholinesterase inhibitors such as neostigmine, edrophonium, and pyridostigmine. Vecuronium is about 1/3 more potent than pancuronium; the duration of neuromuscular blockade produced by vecuronium is shorter than that of pancuronium at initially equipotent doses. The time to onset of paralysis decreases and the duration of maximum effect increases with increasing vecuronium doses. The use of a peripheral nerve stimulator is recommended in assessing the degree of muscular relaxation with all neuromuscular blocking drugs. The ED<sub>90</sub> (dose required to produce 90% suppression of the muscle twitch response with balanced anesthesia) has averaged 0.057 mg/kg (0.049 to 0.062 mg/kg in various studies). An initial vecuronium bromide dose of 0.08 to 0.1 mg/kg generally produces first depression of twitch in approximately 1 minute, good or excellent intubation conditions within 2.5 to 3 minutes, and maximum neuromuscular blockade within 3 to 5 minutes of injection in most patients.<br/>
+                     <br/> Under balanced anesthesia, the time to recovery to 25% of control (clinical duration) is approximately 25 to 40 minutes after injection and recovery is usually 95% complete approximately 45 to 65 minutes after injection of intubating dose. The neuromuscular blocking action of vecuronium is slightly enhanced in the presence of potent inhalation anesthetics. If vecuronium is first administered more than 5 minutes after the start of the inhalation of enflurane, isoflurane, or halothane, or when steady state has been achieved, the intubating dose of vecuronium may be decreased by approximately 15% (see <linkHtml href="#Section_10">DOSAGE AND ADMINISTRATION</linkHtml>). Prior administration of succinylcholine may enhance the neuromuscular blocking effect of vecuronium and its duration of action. With succinylcholine as the intubating agent, initial doses of 0.04 to 0.06 mg/kg of vecuronium bromide will produce complete neuromuscular block with clinical duration of action of 25 to 30 minutes. If succinylcholine is used prior to vecuronium, the administration of vecuronium should be delayed until the patient starts recovering from succinylcholine induced neuromuscular blockade. The effect of prior use of other nondepolarizing neuromuscular blocking agents on the activity of vecuronium has not been studied (see <linkHtml href="#Section_6.4">PRECAUTIONS, Drug Interactions</linkHtml>).<br/>
+                     <br/> Repeated administration of maintenance doses of vecuronium has little or no cumulative effect on the duration of neuromuscular blockade. Therefore, repeat doses can be administered at relatively regular intervals with predictable results. After an initial dose of 0.08 to 0.1 mg/kg under balanced anesthesia, the first maintenance dose (suggested maintenance dose is 0.01 to 0.015 mg/kg) is generally required within 25 to 40 minutes; subsequent maintenance doses, if required, may be administered at approximately 12 to 15 minute intervals. Halothane anesthesia increases the clinical duration of the maintenance dose only slightly. Under enflurane a maintenance dose of 0.01 mg/kg is approximately equal to 0.015 mg/kg dose under balanced anesthesia.<br/>
+                     <br/> The recovery index (time from 25% to 75% recovery) is approximately 15 to 25 minutes under balanced or halothane anesthesia. When recovery from vecuronium neuromuscular blocking effect begins, it proceeds more rapidly than recovery from pancuronium. Once spontaneous recovery has started, the neuromuscular block produced by vecuronium is readily reversed with various anticholinesterase agents, e.g., pyridostigmine, neostigmine, or edrophonium in conjunction with an anticholinergic agent such as atropine or glycopyrrolate. Rapid recovery is a finding consistent with vecuronium short elimination half-life, although there have been occasional reports of prolonged neuromuscular blockade in patients in the intensive care unit (see <linkHtml href="#Section_6.12">PRECAUTIONS, Long Term Use in I.C.U.</linkHtml>).<br/>
+                     <br/> The administration of clinical doses of vecuronium is not characterized by laboratory or clinical signs of chemically mediated histamine release. This does not preclude the possibility of rare hypersensitivity reactions (see <linkHtml href="#Section_7">ADVERSE REACTIONS</linkHtml>).</paragraph>
+               </text>
+               <effectiveTime value="20230829"/>
+               <component>
+                  <section ID="Section_2.1">
+                     <id root="a3b8f541-f5c7-493f-a298-6f3e90dc108e"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="Spl Unclassified Section"/>
+                     <title>Pharmacokinetics</title>
+                     <text>
+                        <br/>
+                        <paragraph>At clinical doses of 0.04 to 0.1 mg/kg, 60 to 80% of vecuronium bromide is usually bound to plasma protein. The distribution half-life following a single intravenous dose (range 0.025 to 0.28 mg/kg) is approximately 4 minutes. Elimination half-life over this sample dosage range is approximately 65 to 75 minutes in healthy surgical patients and in renal failure patients undergoing transplant surgery.<br/>
+                           <br/> In late pregnancy, elimination half-life may be shortened to approximately 35 to 40 minutes. The volume of distribution at steady state is approximately 300 to 400 mL/kg; systemic rate of clearance is approximately 3 to 4.5 mL/kg/minute. In man, urine recovery of vecuronium varies from 3 to 35% within 24 hours. Data derived from patients requiring insertion of a T-tube in the common bile duct suggests that 25 to 50% of a total intravenous dose of vecuronium may be excreted in bile within 42 hours. Only unchanged vecuronium has been detected in human plasma following use during surgery. In addition, one metabolite, 3-desacetyl vecuronium, has been rarely detected in human plasma following prolonged clinical use in the I.C.U. (See <linkHtml href="#Section_6.12">PRECAUTIONS: Long Term Use in I.C.U.</linkHtml>). The 3-desacetyl vecuronium metabolite has been recovered in the urine of some patients in quantities that account for up to 10% of injected dose; 3-desacetyl vecuronium has also been recovered by T-tube in some patients accounting for up to 25% of the injected dose.<br/>
+                           <br/> This metabolite has been judged by animal screening (dogs and cats) to have 50% or more of the potency of vecuronium; equipotent doses are of approximately the same duration as vecuronium in dogs and cats. Biliary excretion accounts for about half the dose of vecuronium within 7 hours in the anesthetized rat. Circulatory bypass of the liver (cat preparation) prolongs recovery from vecuronium. Limited data derived from patients with cirrhosis or cholestasis suggests that some measurements of recovery may be doubled in such patients. In patients with renal failure, measurements of recovery do not differ significantly from similar measurements in healthy patients.<br/>
+                           <br/> Studies involving routine hemodynamic monitoring in good risk surgical patients reveal that the administration of vecuronium in doses up to three times that needed to produce clinical relaxation (0.15 mg/kg) did not produce clinically significant changes in systolic, diastolic or mean arterial pressure. The heart rate, under similar monitoring, remained unchanged in some studies and was lowered by a mean of up to 8% in other studies. A large dose of 0.28 mg/kg administered during a period of no stimulation, while patients were being prepared for coronary artery bypass grafting was not associated with alterations in rate-pressure-product or pulmonary capillary wedge pressure. Systemic vascular resistance was lowered slightly and cardiac output was increased insignificantly. (The drug has not been studied in patients with hemodynamic dysfunction secondary to cardiac valvular disease.) Limited clinical experience with use of vecuronium bromide during the surgery for pheochromocytoma has shown that administration of this drug is not associated with changes in blood pressure or heart rate.<br/>
+                           <br/> Unlike other nondepolarizing skeletal muscle relaxants, vecuronium has no clinically significant effects on hemodynamic parameters. Vecuronium will not counteract those hemodynamic changes or known side effects produced by or associated with anesthetic agents, other drugs or various other factors known to alter hemodynamics.</paragraph>
+                     </text>
+                     <effectiveTime value="20230829"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="Section_3">
+               <id root="ad7c54f5-1265-4f17-8723-85aadb1fb0a4"/>
+               <code code="34067-9" codeSystem="2.16.840.1.113883.6.1" displayName="INDICATIONS &amp; USAGE SECTION"/>
+               <title>INDICATIONS AND USAGE</title>
+               <text>
+                  <br/>
+                  <paragraph>Vecuronium bromide for injection is indicated as an adjunct to general anesthesia, to facilitate endotracheal intubation and to provide skeletal muscle relaxation during surgery or mechanical ventilation.</paragraph>
+               </text>
+               <effectiveTime value="20230829"/>
+            </section>
+         </component>
+         <component>
+            <section ID="Section_4">
+               <id root="896a82b7-f508-4a5a-a033-b57909bbd090"/>
+               <code code="34070-3" codeSystem="2.16.840.1.113883.6.1" displayName="CONTRAINDICATIONS SECTION"/>
+               <title>CONTRAINDICATIONS</title>
+               <text>
+                  <br/>
+                  <paragraph>Vecuronium bromide is contraindicated in patients known to have a hypersensitivity to it.</paragraph>
+               </text>
+               <effectiveTime value="20230829"/>
+            </section>
+         </component>
+         <component>
+            <section ID="Section_5">
+               <id root="5af760ae-b472-436a-9cf2-a038341eb730"/>
+               <code code="34071-1" codeSystem="2.16.840.1.113883.6.1" displayName="WARNINGS SECTION"/>
+               <title>WARNINGS</title>
+               <text>
+                  <paragraph>VECURONIUM SHOULD BE ADMINISTERED IN CAREFULLY ADJUSTED DOSAGE BY OR UNDER THE SUPERVISION OF EXPERIENCED CLINICIANS WHO ARE FAMILIAR WITH ITS ACTIONS AND THE POSSIBLE COMPLICATIONS THAT MIGHT OCCUR FOLLOWING ITS USE. THE DRUG SHOULD NOT BE ADMINISTERED UNLESS FACILITIES FOR INTUBATION, ARTIFICIAL RESPIRATION, OXYGEN THERAPY, AND REVERSAL AGENTS ARE IMMEDIATELY AVAILABLE. THE CLINICIAN MUST BE PREPARED TO ASSIST OR CONTROL RESPIRATION. TO REDUCE THE POSSIBILITY OF PROLONGED NEUROMUSCULAR BLOCKADE AND OTHER POSSIBLE COMPLICATIONS THAT MIGHT OCCUR FOLLOWING LONG-TERM USE IN THE I.C.U., VECURONIUM OR ANY OTHER NEUROMUSCULAR BLOCKING AGENT SHOULD BE ADMINISTERED IN CAREFULLY ADJUSTED DOSES BY OR UNDER THE SUPERVISION OF EXPERIENCED CLINICIANS WHO ARE FAMILIAR WITH ITS ACTIONS AND WHO ARE FAMILIAR WITH APPROPRIATE PERIPHERAL NERVE STIMULATOR MUSCLE MONITORING TECHNIQUES (see <linkHtml href="#Section_6.12">PRECAUTIONS, Long Term  Use in I.C.U.</linkHtml>).<br/>
+                     <content styleCode="bold">
+                        <br/> Anaphylaxis<br/>
+                     </content>
+                     <br/> Severe anaphylactic reactions to neuromuscular blocking agents, including VECURONIUM BROMIDE, have been reported. These reactions have in some cases been life-threatening and fatal. Due to the potential severity of these reactions, the necessary precautions, such as the immediate availability of appropriate emergency treatment, should be taken. Precautions should also be taken in those individuals who have had previous anaphylactic reactions to other neuromuscular blocking agents since cross-reactivity between neuromuscular blocking agents, both depolarizing and non-depolarizing, has been reported.<br/>
+                     <br/> In patients who are known to have myasthenia gravis or the myasthenic (Eaton-Lambert) syndrome, small doses of vecuronium may have profound effects. In such patients, a peripheral nerve stimulator and use of a small test dose may be of value in monitoring the response to administration of muscle relaxants.<br/>
+                     <br/>
+                     <content styleCode="bold">Risk of Death due to Medication Errors<br/>
+                     </content>
+                     <br/> Administration of vecuronium bromide results in paralysis, which may lead to respiratory arrest and death; this progression may be more likely to occur in a patient for whom it is not intended. Confirm proper selection of intended product and avoid confusion with other injectable solutions that are present in critical care and other clinical settings. If another healthcare provider is administering the product, ensure that the intended dose is clearly labeled and communicated.</paragraph>
+               </text>
+               <effectiveTime value="20230829"/>
+            </section>
+         </component>
+         <component>
+            <section ID="Section_6">
+               <id root="45f87c47-e6c8-49bc-802e-89409acf31a6"/>
+               <code code="42232-9" codeSystem="2.16.840.1.113883.6.1" displayName="PRECAUTIONS SECTION"/>
+               <title>PRECAUTIONS</title>
+               <text>
+                  <br/>
+                  <paragraph>
+                     <content styleCode="bold">Anaphylaxis<br/>
+                     </content>
+                     <br/> Since allergic cross-reactivity has been reported in this class, request information from your patients about previous anaphylactic reactions to other neuromuscular blocking agents. In addition, inform your patients that severe anaphylactic reactions to neuromuscular blocking agents, including VECURONIUM BROMIDE have been reported.</paragraph>
+                  <br/>
+               </text>
+               <effectiveTime value="20230829"/>
+               <component>
+                  <section ID="Section_6.1">
+                     <id root="3201673e-5b43-4a5a-99ff-8f6cfb56e6c4"/>
+                     <code code="34072-9" codeSystem="2.16.840.1.113883.6.1" displayName="GENERAL PRECAUTIONS SECTION"/>
+                     <title>Renal Failure</title>
+                     <text>
+                        <br/>
+                        <paragraph>Vecuronium is well tolerated without clinically significant prolongation of neuromuscular blocking effect in patients with renal failure who have been optimally prepared for surgery by dialysis. Under emergency conditions in anephric patients some prolongation of neuromuscular blockade may occur; therefore, if anephric patients cannot be prepared for non-elective surgery, a lower initial dose of vecuronium should be considered.</paragraph>
+                     </text>
+                     <effectiveTime value="20230829"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="Section_6.2">
+                     <id root="c0cdbac8-9189-4e03-be89-ad91ec090bd3"/>
+                     <code code="34076-0" codeSystem="2.16.840.1.113883.6.1" displayName="INFORMATION FOR PATIENTS SECTION"/>
+                     <title>Altered Circulation Time</title>
+                     <text>
+                        <br/>
+                        <paragraph>Conditions associated with slower circulation time in cardiovascular disease, old age, edematous states resulting in increased volume of distribution may contribute to delay in onset time, therefore, dosage should not be increased.</paragraph>
+                     </text>
+                     <effectiveTime value="20230829"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="Section_6.3">
+                     <id root="7b3376c7-805a-46eb-8230-6d7500188ee6"/>
+                     <code code="34075-2" codeSystem="2.16.840.1.113883.6.1" displayName="LABORATORY TESTS SECTION"/>
+                     <title>Hepatic Disease</title>
+                     <text>
+                        <br/>
+                        <paragraph>Experience in patients with cirrhosis or cholestasis has revealed prolonged recovery time in keeping with the role the liver plays in vecuronium metabolism and excretion (see <linkHtml href="#Section_2.1">CLINICAL PHARMACOLOGY, Pharmacokinetics</linkHtml>). Data currently available do not permit dosage recommendations in patients with impaired liver function.</paragraph>
+                     </text>
+                     <effectiveTime value="20230829"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="Section_6.12">
+                     <id root="08ff6870-08c3-4829-9ad8-78f7c71dcb9b"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="Spl Unclassified Section"/>
+                     <title>Long-term Use in I.C.U.</title>
+                     <text>
+                        <br/>
+                        <paragraph>In the intensive care unit, long-term use of neuromuscular blocking drugs to facilitate mechanical ventilation may be associated with prolonged paralysis and/or skeletal muscle weakness, that may be first noted during attempts to wean such patients from the ventilator. Typically, such patients receive other drugs such as broad spectrum antibiotics, narcotics and/or steroids and may have electrolyte imbalance and diseases which lead to electrolyte imbalance, hypoxic episodes of varying duration, acid-base imbalance and extreme debilitation, any of which may enhance the actions of a neuromuscular blocking agent. Additionally, patients immobilized for extended periods frequently develop symptoms consistent with disuse muscle atrophy. The recovery picture may vary from regaining movement and strength in all muscles to initial recovery of movement of the facial and small muscles of the extremities then to the remaining muscles. In rare cases recovery may be over an extended period of time and may even, on occasion, involve rehabilitation. Therefore, when there is a need for long-term mechanical ventilation, the benefits-to-risk ratio of neuromuscular blockade must be considered.<br/>
+                           <br/> Continuous infusion or intermittent bolus dosing to support mechanical ventilation, has not been studied sufficiently to support dosage recommendations. IN THE INTENSIVE CARE UNIT, APPROPRIATE MONITORING, WITH THE USE OF A PERIPHERAL NERVE STIMULATOR TO ASSESS THE DEGREE OF NEUROMUSCULAR BLOCKADE IS RECOMMENDED TO HELP PRECLUDE POSSIBLE PROLONGATION OF THE BLOCKADE. WHENEVER THE USE OF VECURONIUM OR ANY NEUROMUSCULAR BLOCKING AGENT IS CONTEMPLATED IN THE I.C.U., IT IS RECOMMENDED THAT NEUROMUSCULAR TRANSMISSION BE MONITORED CONTINUOUSLY DURING ADMINISTRATION AND RECOVERY WITH THE HELP OF A NERVE STIMULATOR. ADDITIONAL DOSES OF VECURONIUM OR ANY OTHER NEUROMUSCULAR BLOCKING AGENT SHOULD NOT BE GIVEN BEFORE THERE IS A DEFINITE RESPONSE TO T<sub>1</sub> OR TO THE FIRST TWITCH. IF NO RESPONSE IS ELICITED, INFUSION ADMINISTRATION SHOULD BE DISCONTINUED UNTIL A RESPONSE RETURNS.</paragraph>
+                     </text>
+                     <effectiveTime value="20230829"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="Section_6.13">
+                     <id root="912dcf59-6a5c-4f2b-801e-c05fd4cc038c"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="Spl Unclassified Section"/>
+                     <title>Severe Obesity or Neuromuscular Disease</title>
+                     <text>
+                        <br/>
+                        <paragraph>Patients with severe obesity or neuromuscular disease may pose airway and/or ventilatory problems requiring special care before, during and after the use of neuromuscular blocking agents such as vecuronium.</paragraph>
+                     </text>
+                     <effectiveTime value="20230829"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="Section_6.14">
+                     <id root="c2e9604c-299a-4721-aacc-ca4307a2dbe9"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="Spl Unclassified Section"/>
+                     <title>Malignant Hyperthermia</title>
+                     <text>
+                        <br/>
+                        <paragraph>Many drugs used in anesthetic practice are suspected of being capable of triggering a potentially fatal hypermetabolism of skeletal muscle known as malignant hyperthermia. There are insufficient data derived from screening in susceptible animals (swine) to establish whether or not vecuronium is capable of triggering malignant hyperthermia.</paragraph>
+                     </text>
+                     <effectiveTime value="20230829"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="Section_6.15">
+                     <id root="523b3d39-1ea3-4afd-9aeb-827179277752"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="Spl Unclassified Section"/>
+                     <title>C.N.S.</title>
+                     <text>
+                        <br/>
+                        <paragraph>Vecuronium has no known effect on consciousness, the pain threshold or cerebration. Administration must be accompanied by adequate anesthesia or sedation.</paragraph>
+                     </text>
+                     <effectiveTime value="20230829"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="Section_6.4">
+                     <id root="b23008c5-af96-43ee-871e-1c697619df14"/>
+                     <code code="34073-7" codeSystem="2.16.840.1.113883.6.1" displayName="DRUG INTERACTIONS SECTION"/>
+                     <title>Drug Interactions</title>
+                     <text>
+                        <br/>
+                        <paragraph>Prior administration of succinylcholine may enhance the neuromuscular blocking effect of vecuronium and its duration of action. If succinylcholine is used before vecuronium, the administration of vecuronium should be delayed until the succinylcholine effect shows signs of wearing off. With succinylcholine as the intubating agent, initial doses of 0.04 to 0.06 mg/kg of vecuronium may be administered to produce complete neuromuscular block with clinical duration of action of 25 to 30 minutes (see <linkHtml href="#Section_2">CLINICAL PHARMACOLOGY</linkHtml>).<br/>
+                           <br/> The use of vecuronium before succinylcholine, in order to attenuate some of the side effects of succinylcholine, has not been sufficiently studied.<br/>
+                           <br/> Other nondepolarizing neuromuscular blocking agents (pancuronium, d-tubocurarine, metocurine, and gallamine) act in the same fashion as does vecuronium, therefore, these drugs and vecuronium, may manifest an additive effect when used together. There are insufficient data to support concomitant use of vecuronium and other competitive muscle relaxants in the same patient.<br/>
+                           <content styleCode="bold">
+                              <br/> Inhalational Anesthetics: </content>Use of volatile inhalational anesthetics such as enflurane, isoflurane, and halothane with vecuronium will enhance neuromuscular blockade. Potentiation is most prominent with use of enflurane and isoflurane. With the above agents the initial dose of vecuronium may be the same as the balanced anesthesia unless the inhalational anesthetic has been administered for a sufficient time at a sufficient dose to have reached clinical equilibrium (see <linkHtml href="#Section_2">CLINICAL PHARMACOLOGY</linkHtml>).<br/>
+                           <content styleCode="bold">
+                              <br/> Antibiotics: </content>Parenteral/intraperitoneal administration of high doses of certain antibiotics may intensify or produce neuromuscular block on their own. The following antibiotics have been associated with various degrees of paralysis: aminoglycosides (such as neomycin, streptomycin, kanamycin, gentamicin, and dihydrostreptomycin); tetracyclines; bacitracin; polymyxin B; colistin; and sodium colistimethate. If these or other newly introduced antibiotics are used in conjunction with vecuronium, unexpected prolongation of neuromuscular block should be considered a possibility.<content styleCode="bold">
+                              <br/>
+                              <br/> Thiopental: </content>Reconstituted vecuronium, which has an acid pH, should not be mixed with alkaline solutions (e.g., barbiturate solutions such as thiopental) in the same syringe or administered simultaneously during intravenous infusion through the same needle or through the same intravenous line (see <linkHtml href="#Section_10">DOSAGE AND ADMINISTRATION-COMPATIBILITY</linkHtml>).<br/>
+                           <content styleCode="bold">
+                              <br/> Other:</content> Experience concerning injection of quinidine during recovery from use of other muscle relaxants suggests that recurrent paralysis may occur. This possibility must also be considered for vecuronium. Vecuronium induced neuromuscular blockade has been counteracted by alkalosis and enhanced by acidosis in experimental animals (cat). Electrolyte imbalance and diseases which lead to electrolyte imbalance, such as adrenal cortical insufficiency, have been shown to alter neuromuscular blockade. Depending on the nature of the imbalance, either enhancement or inhibition may be expected. Magnesium salts, administered for the management of toxemia of pregnancy may enhance the neuromuscular blockade.<br/>
+                           <content styleCode="bold">
+                              <br/> Drug/Laboratory Test Interactions: </content>None known.</paragraph>
+                     </text>
+                     <effectiveTime value="20230829"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="Section_6.6">
+                     <id root="e200e268-996a-4a75-b1d9-f80391e3be1e"/>
+                     <code code="34083-6" codeSystem="2.16.840.1.113883.6.1" displayName="CARCINOGENESIS &amp; MUTAGENESIS &amp; IMPAIRMENT OF FERTILITY SECTION"/>
+                     <title>Carcinogenesis, Mutagenesis, Impairment of Fertility</title>
+                     <text>
+                        <br/>
+                        <paragraph>Long-term studies in animals have not been performed to evaluate carcinogenic or mutagenic potential or impairment of fertility.</paragraph>
+                     </text>
+                     <effectiveTime value="20230829"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="Section_6.7">
+                     <id root="b8966490-8d94-4081-bf68-c1b0d39ad132"/>
+                     <code code="42228-7" codeSystem="2.16.840.1.113883.6.1" displayName="PREGNANCY SECTION"/>
+                     <title>Pregnancy</title>
+                     <text>
+                        <br/>
+                        <paragraph>
+                           <content styleCode="bold">Teratogenic Effects<br/>
+                           </content>
+                           <content styleCode="bold"> </content>Animal reproduction studies have not been conducted with vecuronium. It is also not known whether vecuronium can cause fetal harm when administered to a pregnant woman or can affect reproduction capacity. Vecuronium should be given to a pregnant woman only if clearly needed.</paragraph>
+                     </text>
+                     <effectiveTime value="20230829"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="Section_6.8">
+                     <id root="1bbfead2-9769-4316-891b-bb2978cd906a"/>
+                     <code code="34079-4" codeSystem="2.16.840.1.113883.6.1" displayName="LABOR &amp; DELIVERY SECTION"/>
+                     <title>Labor and Delivery</title>
+                     <text>
+                        <br/>
+                        <paragraph>The use of vecuronium in patients undergoing cesarean section has been reported in the literature. Following tracheal intubation with succinylcholine, vecuronium dosages of 0.04 mg/kg (n = 11) and 0.06 to 0.08 mg/kg (n = 20) were administered. The umbilical venous plasma concentrations were 11% of maternal concentrations at delivery and mean neonate APGAR scores at 5 minutes were <content styleCode="underline">&gt;</content> 9 in both reports. The action of neuromuscular blocking agents may be enhanced by magnesium salts administered for the management of toxemia of pregnancy.</paragraph>
+                     </text>
+                     <effectiveTime value="20230829"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="Section_6.9">
+                     <id root="b7f50268-f5fe-47e5-bff1-3aedcde9863a"/>
+                     <code code="34080-2" codeSystem="2.16.840.1.113883.6.1" displayName="NURSING MOTHERS SECTION"/>
+                     <title>Nursing Mothers</title>
+                     <text>
+                        <br/>
+                        <paragraph>It is not known whether this drug is excreted in human milk. Because many drugs are excreted in human milk, caution should be exercised when vecuronium is administered to a nursing woman.</paragraph>
+                     </text>
+                     <effectiveTime value="20230829"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="Section_6.10">
+                     <id root="fefe4b8d-4648-4974-b4ec-59d3ba9b6280"/>
+                     <code code="34081-0" codeSystem="2.16.840.1.113883.6.1" displayName="PEDIATRIC USE SECTION"/>
+                     <title>Pediatric Use</title>
+                     <text>
+                        <br/>
+                        <paragraph>Infants under 1 year of age but older than 7 weeks also tested under halothane anesthesia, are moderately more sensitive to vecuronium on a mg/kg basis than adults and take about 1½ times as long to recover. See <content styleCode="bold">
+                              <linkHtml href="#Section_10">DOSAGE AND ADMINSTRATION: Use in Pediatrics</linkHtml>
+                           </content> subsection for recommendations for use in pediatric patients 7 weeks to 16 years of age. The safety and effectiveness of vecuronium in pediatric patients less than 7 weeks of age have not been established.</paragraph>
+                     </text>
+                     <effectiveTime value="20230829"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="Section_6.11">
+                     <id root="5c73b7cb-9203-4859-b440-3e8a7f2f3fe2"/>
+                     <code code="34082-8" codeSystem="2.16.840.1.113883.6.1" displayName="GERIATRIC USE SECTION"/>
+                     <title>Geriatric Use</title>
+                     <text>
+                        <br/>
+                        <paragraph>Clinical studies of vecuronium did not include sufficient numbers of subjects aged 65 and over to determine whether they respond differently from younger subjects. There are some reports in the peer reviewed literature of increased effect and longer duration of action of vecuronium in the elderly compared to younger patients. However, other reports have found no significant differences between healthy elderly and younger adults. Advanced age or other conditions associated with slower circulation time, may be associated with a delay in onset time (see <linkHtml href="#Section_6.2">PRECAUTIONS-Altered Circulation Time</linkHtml>). Nevertheless, recommended doses of vecuronium should not be increased in these patients to reduce onset time, as higher doses produce a longer duration of action (see <linkHtml href="#Section_2">CLINICAL PHARMACOLOGY</linkHtml>). Dose selections for an elderly patient should be cautious, usually starting at the low end of the dosing range, reflecting the greater frequency of decreased hepatic, renal, or cardiac function, and of concomitant disease or other drug therapy. Close monitoring of neuromuscular function is recommended.</paragraph>
+                     </text>
+                     <effectiveTime value="20230829"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="Section_7">
+               <id root="61ab3227-a2e7-4809-ba76-46ff99ebc540"/>
+               <code code="34084-4" codeSystem="2.16.840.1.113883.6.1" displayName="ADVERSE REACTIONS SECTION"/>
+               <title>ADVERSE REACTIONS</title>
+               <text>
+                  <paragraph>
+                     <br/> The most frequent adverse reaction to nondepolarizing blocking agents as a class consists of an extension of the drug’s pharmacological action beyond the time period needed. This may vary from skeletal muscle weakness to profound and prolonged skeletal muscle paralysis resulting in respiration insufficiency or apnea.<br/>
+                     <br/> Inadequate reversal of the neuromuscular blockade is possible with vecuronium bromide as with all curariform drugs. These adverse reactions are managed by manual or mechanical ventilation until recovery is judged adequate. Little or no increase in intensity of blockade or duration of action with vecuronium bromide is noted from the use of thiobarbiturates, narcotic analgesics, nitrous oxide, or droperidol. See <content styleCode="bold">
+                        <linkHtml href="#Section_9">OVERDOSAGE</linkHtml>
+                     </content> for discussion of other drugs used in anesthetic practice which also cause respiratory depression.<br/>
+                     <br/> Prolonged to profound extensions of paralysis and/or muscle weakness as well as muscle atrophy have been reported after long-term use to support mechanical ventilation in the intensive care unit (see <linkHtml href="#Section_6.12">PRECAUTIONS, Long Term Use in I.C.U.</linkHtml>). The administration of vecuronium bromide has been associated with rare instances of hypersensitivity reactions (bronchospasm, hypotension and/or tachycardia, sometimes associated with acute urticaria or erythema); (see also <linkHtml href="#Section_2">CLINICAL PHARMACOLOGY</linkHtml>).<br/>
+                     <br/> There have been postmarketing reports of severe allergic reactions (anaphylactic and anaphylactoid reactions) associated with use of neuromuscular blocking agents, including VECURONIUM BROMIDE. These reactions, in some cases, have been life-threatening and fatal. Because these reactions were reported voluntarily from a population of uncertain size, it is not possible to reliably estimate their frequency (See <content styleCode="bold">
+                        <linkHtml href="#Section_5">WARNINGS</linkHtml>
+                     </content> and <linkHtml href="#Section_6">PRECAUTIONS</linkHtml>).<br/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20230829"/>
+            </section>
+         </component>
+         <component>
+            <section ID="Section_9">
+               <id root="18bb742d-4142-415b-a029-458413c7979c"/>
+               <code code="34088-5" codeSystem="2.16.840.1.113883.6.1" displayName="OVERDOSAGE SECTION"/>
+               <title>OVERDOSAGE</title>
+               <text>
+                  <br/>
+                  <paragraph>The possibility of iatrogenic overdosage can be minimized by carefully monitoring muscle twitch response to peripheral nerve stimulation.<br/>
+                     <br/> Excessive doses of vecuronium produce enhanced pharmacological effects. Residual neuromuscular blockade beyond the time period needed may occur with vecuronium as with other neuromuscular blockers. This may be manifested by skeletal muscle weakness, decreased respiratory reserve, low tidal volume, or apnea. A peripheral nerve stimulator may be used to assess the degree of residual neuromuscular blockade from other causes of decreased respiratory reserve.<br/>
+                     <br/> Respiratory depression may be due either wholly or in part to other drugs used during the conduct of general anesthesia such as narcotics, thiobarbiturates and other central nervous system depressants.<br/>
+                     <br/> Under such circumstances the primary treatment is maintenance of a patent airway and manual or mechanical ventilation until complete recovery of normal respiration is assured. Pyridostigmine, neostigmine, or edrophonium, in conjunction with atropine or glycopyrrolate will usually antagonize the skeletal muscle relaxant action of vecuronium. Satisfactory reversal can be judged by adequacy of skeletal muscle tone and by adequacy of respiration. A peripheral nerve stimulator may also be used to monitor restoration of twitch height. Failure of prompt reversal (within 30 minutes) may occur in the presence of extreme debilitation, carcinomatosis, and with concomitant use of certain broad spectrum antibiotics, or anesthetic agents and other drugs which enhance neuromuscular blockade or cause respiratory depression of their own. Under such circumstances the management is the same as that of prolonged neuromuscular blockade. Ventilation must be supported by artificial means until the patient has resumed control of his respiration. Prior to the use of reversal agents, reference should be made to the specific package insert of the reversal agent.<br/>
+                     <br/> The effects of hemodialysis and peritoneal dialysis on plasma levels of vecuronium and its metabolite are unknown.</paragraph>
+               </text>
+               <effectiveTime value="20230829"/>
+            </section>
+         </component>
+         <component>
+            <section ID="Section_10">
+               <id root="311c8db0-b658-42b0-87b2-ef6683756aa9"/>
+               <code code="34068-7" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE &amp; ADMINISTRATION SECTION"/>
+               <title>DOSAGE AND ADMINISTRATION</title>
+               <text>
+                  <br/>
+                  <paragraph>Vecuronium bromide for injection is for intravenous use only.<br/>
+                     <br/> This drug should be administered by or under the supervision of experienced clinicians familiar with the use of neuromuscular blocking agents. Dosage must be individualized in each case. The dosage information which follows is derived from studies based upon units of drug per unit of body weight and is intended to serve as a guide only, especially regarding enhancement of neuromuscular blockade of vecuronium bromide by volatile anesthetics and by prior use of succinylcholine (see <linkHtml href="#Section_6.4">PRECAUTIONS: Drug Interactions</linkHtml>).<br/>
+                     <br/> To obtain maximum clinical benefits of vecuronium bromide and to minimize the possibility of overdosage, the monitoring of muscle twitch response to peripheral nerve stimulation is advised.<br/>
+                     <br/> The recommended initial dose of vecuronium bromide is 0.08 to 0.1 mg/kg (1.4 to 1.75 times the ED<sub>90</sub>) given as an intravenous bolus injection. This dose can be expected to produce good or excellent non-emergency intubation conditions in 2.5 to 3 minutes after injection. Under balanced anesthesia, clinically required neuromuscular blockade lasts approximately 25 to 30 minutes, with recovery to 25% of control achieved approximately 25 to 40 minutes after injection and recovery to 95% of control achieved approximately 45 to 65 minutes after injection. In the presence of potent inhalation anesthetics, the neuromuscular blocking effect of vecuronium bromide is enhanced. If vecuronium bromide is first administered more than 5 minutes after the start of inhalation agent or when steady-state has been achieved, the initial vecuronium bromide dose may be reduced by approximately 15%, i.e., 0.06 to 0.085 mg/kg.<br/>
+                     <br/> Prior administration of succinylcholine may enhance the neuromuscular blocking effect and duration of action of vecuronium bromide. If intubation is performed using succinylcholine, a reduction of initial dose of vecuronium bromide to 0.04 to 0.06 mg/kg with inhalation anesthesia and 0.05 to 0.06 mg/kg with balanced anesthesia may be required.<br/>
+                     <br/> During prolonged surgical procedures, maintenance doses of 0.01 to 0.015 mg/kg of vecuronium bromide are recommended; after the initial vecuronium bromide injection, the first maintenance dose will generally be required within 25 to 40 minutes. However, clinical criteria should be used to determine the need for maintenance doses.<br/>
+                     <br/> Since vecuronium bromide lacks clinically important cumulative effects, subsequent maintenance doses, if required, may be administered at relatively regular intervals for each patient, ranging approximately from 12 to 15 minutes under balanced anesthesia, slightly longer under inhalation agents. (If less frequent administration is desired, higher maintenance doses may be administered.)<br/>
+                     <br/> Should there be reason for the selection of larger doses in individual patients, initial doses ranging from 0.15 mg/kg up to 0.28 mg/kg have been administered during surgery under halothane anesthesia without ill effects to the cardiovascular system being noted as long as ventilation is properly maintained (see <linkHtml href="#Section_2.1">CLINICAL PHARMACOLOGY-Pharmacokinetics</linkHtml>).<br/>
+                     <content styleCode="bold">
+                        <br/> Use by Continuous Infusion<br/>
+                     </content>
+                     <br/> After an intubating dose of 80 to 100 mcg/kg, a continuous infusion of 1 mcg/kg/min can be initiated approximately 20 to 40 minutes later. Infusion of vecuronium bromide should be initiated only after early evidence of spontaneous recovery from the bolus dose. Long-term intravenous infusion to support mechanical ventilation in the intensive care unit has not been studied sufficiently to support dosage recommendations. (See <content styleCode="bold">
+                        <linkHtml href="#Section_6.12">PRECAUTIONS, Long Term Use in I.C.U.</linkHtml>)</content>.<br/>
+                     <br/> The infusion of vecuronium bromide should be individualized for each patient. The rate of administration should be adjusted according to the patient’s twitch response as determined by peripheral nerve stimulation. An initial rate of 1 mcg/kg/min is recommended, with the rate of the infusion adjusted thereafter to maintain a 90% suppression of twitch response. Average infusion rates may range from 0.8 to 1.2 mcg/kg/min.<br/>
+                     <br/> Inhalation anesthetics, particularly enflurane and isoflurane may enhance the neuromuscular blocking action of nondepolarizing muscle relaxants. In the presence of steady-state concentrations of enflurane or isoflurane, it may be necessary to reduce the rate of infusion 25 to 60 percent, 45 to 60 min after the intubating dose. Under halothane anesthesia it may not be necessary to reduce the rate of infusion.<br/>
+                     <br/> Spontaneous recovery and reversal of neuromuscular blockade following discontinuation of vecuronium bromide infusion may be expected to proceed at rates comparable to that following a single bolus dose (see <linkHtml href="#Section_2">CLINICAL PHARMACOLOGY</linkHtml>).<br/>
+                     <br/> Infusion solutions of vecuronium bromide can be prepared by adding vecuronium bromide with an appropriate infusion solution such as Dextrose 5% Injection, Sodium Chloride 0.9% Injection,  Dextrose 5% and Sodium Chloride 0.9% Injection, or Lactated Ringer’s Injection. <br/>
+                     <br/>Unused portions of infusion solutions should be discarded.<br/>
+                     <br/> Infusion rates of vecuronium bromide can be individualized for each patient using the following table: </paragraph>
+                  <br/>
+                  <table cellspacing="0" cellpadding="0" border="0" width="100%">
+                     <colgroup>
+                        <col width="30.6%"/>
+                        <col width="33.46%"/>
+                        <col width="35.94%"/>
+                     </colgroup>
+                     <tfoot>
+                        <tr>
+                           <td colspan="3">
+                              <sup>*</sup>10 mg of Vecuronium bromide in 100 mL solution<br/>
+                              <sup>‡</sup> 20 mg of Vecuronium bromide in 100 mL solution</td>
+                        </tr>
+                     </tfoot>
+                     <tbody>
+                        <tr styleCode="Botrule">
+                           <td styleCode="Lrule Rrule" align="center" valign="top">
+                              <content styleCode="bold">Drug Delivery Rate</content>
+                              <br/>
+                           </td>
+                           <td styleCode="Rrule" colspan="2" align="center" valign="top">
+                              <content styleCode="bold">Infusion Delivery Rate</content>
+                              <br/>
+                           </td>
+                        </tr>
+                        <tr styleCode="Botrule">
+                           <td styleCode="Lrule Rrule" align="center" valign="top">
+                              <content styleCode="bold">(mcg/kg/min)</content>
+                              <br/>
+                           </td>
+                           <td styleCode="Rrule" colspan="2" align="center" valign="top">
+                              <content styleCode="bold">(mL/kg/min)</content>
+                              <br/>
+                           </td>
+                        </tr>
+                        <tr styleCode="Botrule">
+                           <td styleCode="Lrule Rrule" align="center" valign="top"> <br/>
+                           </td>
+                           <td styleCode="Rrule" align="center" valign="top">
+                              <content styleCode="bold">0.1 mg/mL<sup>*</sup>
+                              </content>
+                              <br/>
+                           </td>
+                           <td styleCode="Rrule" align="center" valign="top">
+                              <content styleCode="bold">0.2 mg/mL<sup>‡</sup>
+                              </content>
+                              <br/>
+                           </td>
+                        </tr>
+                        <tr styleCode="Botrule">
+                           <td styleCode="Lrule Rrule" align="center" valign="top">0.7<br/>
+                           </td>
+                           <td styleCode="Rrule" align="center" valign="top">0.007<br/>
+                           </td>
+                           <td styleCode="Rrule" align="center" valign="top">0.0035<br/>
+                           </td>
+                        </tr>
+                        <tr styleCode="Botrule">
+                           <td styleCode="Lrule Rrule" align="center" valign="top">0.8<br/>
+                           </td>
+                           <td styleCode="Rrule" align="center" valign="top">0.008<br/>
+                           </td>
+                           <td styleCode="Rrule" align="center" valign="top">0.004<br/>
+                           </td>
+                        </tr>
+                        <tr styleCode="Botrule">
+                           <td styleCode="Lrule Rrule" align="center" valign="top">0.9<br/>
+                           </td>
+                           <td styleCode="Rrule" align="center" valign="top">0.009<br/>
+                           </td>
+                           <td styleCode="Rrule" align="center" valign="top">0.0045<br/>
+                           </td>
+                        </tr>
+                        <tr styleCode="Botrule">
+                           <td styleCode="Lrule Rrule" align="center" valign="top">1<br/>
+                           </td>
+                           <td styleCode="Rrule" align="center" valign="top">0.01<br/>
+                           </td>
+                           <td styleCode="Rrule" align="center" valign="top">0.005<br/>
+                           </td>
+                        </tr>
+                        <tr styleCode="Botrule">
+                           <td styleCode="Lrule Rrule" align="center" valign="top">1.1<br/>
+                           </td>
+                           <td styleCode="Rrule" align="center" valign="top">0.011<br/>
+                           </td>
+                           <td styleCode="Rrule" align="center" valign="top">0.0055<br/>
+                           </td>
+                        </tr>
+                        <tr styleCode="Botrule">
+                           <td styleCode="Lrule Rrule" align="center" valign="top">1.2<br/>
+                           </td>
+                           <td styleCode="Rrule" align="center" valign="top">0.012<br/>
+                           </td>
+                           <td styleCode="Rrule" align="center" valign="top">0.006<br/>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Lrule Rrule" align="center" valign="top">1.3<br/>
+                           </td>
+                           <td styleCode="Rrule" align="center" valign="top">0.013<br/>
+                           </td>
+                           <td styleCode="Rrule" align="center" valign="top">0.0065<br/>
+                           </td>
+                        </tr>
+                     </tbody>
+                  </table>
+                  <paragraph>The following table is guideline for mL/min delivery for a solution of 0.1 mg/mL (10 mg in 100 mL) with an infusion pump.<br/>
+                  </paragraph>
+                  <table cellspacing="0" cellpadding="0" border="0" width="100%">
+                     <caption>VECURONIUM BROMIDE INFUSION RATE - mL/min 
+			</caption>
+                     <colgroup>
+                        <col width="27.88%"/>
+                        <col width="10.58%"/>
+                        <col width="9.62%"/>
+                        <col width="11.54%"/>
+                        <col width="10.58%"/>
+                        <col width="9.62%"/>
+                        <col width="9.62%"/>
+                        <col width="10.58%"/>
+                     </colgroup>
+                     <tbody>
+                        <tr styleCode="Botrule">
+                           <td styleCode="Lrule Rrule" rowspan="2" align="center" valign="top">
+                              <content styleCode="bold">Amount of Drug</content>
+                              <br/>
+                              <content styleCode="bold">mcg/kg/min</content>
+                              <br/>
+                           </td>
+                           <td styleCode="Rrule" colspan="7" align="center" valign="middle">
+                              <content styleCode="bold">Patient Weight - kg</content>
+                              <br/>
+                           </td>
+                        </tr>
+                        <tr styleCode="Botrule">
+                           <td styleCode="Lrule Rrule" align="center" valign="top">
+                              <content styleCode="bold">40</content>
+                              <br/>
+                           </td>
+                           <td styleCode="Rrule" align="center" valign="top">
+                              <content styleCode="bold">50</content>
+                              <br/>
+                           </td>
+                           <td styleCode="Rrule" align="center" valign="top">
+                              <content styleCode="bold">60</content>
+                              <br/>
+                           </td>
+                           <td styleCode="Rrule" align="center" valign="top">
+                              <content styleCode="bold">70</content>
+                              <br/>
+                           </td>
+                           <td styleCode="Rrule" align="center" valign="top">
+                              <content styleCode="bold">80</content>
+                              <br/>
+                           </td>
+                           <td styleCode="Rrule" align="center" valign="top">
+                              <content styleCode="bold">90</content>
+                              <br/>
+                           </td>
+                           <td styleCode="Rrule" align="center" valign="top">
+                              <content styleCode="bold">100</content>
+                              <br/>
+                           </td>
+                        </tr>
+                        <tr styleCode="Botrule">
+                           <td styleCode="Lrule Rrule" align="center" valign="top">0.7<br/>
+                           </td>
+                           <td styleCode="Rrule" align="center" valign="top">0.28<br/>
+                           </td>
+                           <td styleCode="Rrule" align="center" valign="top">0.35<br/>
+                           </td>
+                           <td styleCode="Rrule" align="center" valign="top">0.42<br/>
+                           </td>
+                           <td styleCode="Rrule" align="center" valign="top">0.49<br/>
+                           </td>
+                           <td styleCode="Rrule" align="center" valign="top">0.56<br/>
+                           </td>
+                           <td styleCode="Rrule" align="center" valign="top">0.63<br/>
+                           </td>
+                           <td styleCode="Rrule" align="center" valign="top">0.7<br/>
+                           </td>
+                        </tr>
+                        <tr styleCode="Botrule">
+                           <td styleCode="Lrule Rrule" align="center" valign="top">0.8<br/>
+                           </td>
+                           <td styleCode="Rrule" align="center" valign="top">0.32<br/>
+                           </td>
+                           <td styleCode="Rrule" align="center" valign="top">0.4<br/>
+                           </td>
+                           <td styleCode="Rrule" align="center" valign="top">0.48<br/>
+                           </td>
+                           <td styleCode="Rrule" align="center" valign="top">0.56<br/>
+                           </td>
+                           <td styleCode="Rrule" align="center" valign="top">0.64<br/>
+                           </td>
+                           <td styleCode="Rrule" align="center" valign="top">0.72<br/>
+                           </td>
+                           <td styleCode="Rrule" align="center" valign="top">0.8<br/>
+                           </td>
+                        </tr>
+                        <tr styleCode="Botrule">
+                           <td styleCode="Lrule Rrule" align="center" valign="top">0.9<br/>
+                           </td>
+                           <td styleCode="Rrule" align="center" valign="top">0.36<br/>
+                           </td>
+                           <td styleCode="Rrule" align="center" valign="top">0.45<br/>
+                           </td>
+                           <td styleCode="Rrule" align="center" valign="top">0.54<br/>
+                           </td>
+                           <td styleCode="Rrule" align="center" valign="top">0.63<br/>
+                           </td>
+                           <td styleCode="Rrule" align="center" valign="top">0.72<br/>
+                           </td>
+                           <td styleCode="Rrule" align="center" valign="top">0.81<br/>
+                           </td>
+                           <td styleCode="Rrule" align="center" valign="top">0.9<br/>
+                           </td>
+                        </tr>
+                        <tr styleCode="Botrule">
+                           <td styleCode="Lrule Rrule" align="center" valign="top">1<br/>
+                           </td>
+                           <td styleCode="Rrule" align="center" valign="top">0.4<br/>
+                           </td>
+                           <td styleCode="Rrule" align="center" valign="top">0.5<br/>
+                           </td>
+                           <td styleCode="Rrule" align="center" valign="top">0.6<br/>
+                           </td>
+                           <td styleCode="Rrule" align="center" valign="top">0.7<br/>
+                           </td>
+                           <td styleCode="Rrule" align="center" valign="top">0.8<br/>
+                           </td>
+                           <td styleCode="Rrule" align="center" valign="top">0.9<br/>
+                           </td>
+                           <td styleCode="Rrule" align="center" valign="top">1<br/>
+                           </td>
+                        </tr>
+                        <tr styleCode="Botrule">
+                           <td styleCode="Lrule Rrule" align="center" valign="top">1.1<br/>
+                           </td>
+                           <td styleCode="Rrule" align="center" valign="top">0.44<br/>
+                           </td>
+                           <td styleCode="Rrule" align="center" valign="top">0.55<br/>
+                           </td>
+                           <td styleCode="Rrule" align="center" valign="top">0.66<br/>
+                           </td>
+                           <td styleCode="Rrule" align="center" valign="top">0.77<br/>
+                           </td>
+                           <td styleCode="Rrule" align="center" valign="top">0.88<br/>
+                           </td>
+                           <td styleCode="Rrule" align="center" valign="top">0.99<br/>
+                           </td>
+                           <td styleCode="Rrule" align="center" valign="top">1.1<br/>
+                           </td>
+                        </tr>
+                        <tr styleCode="Botrule">
+                           <td styleCode="Lrule Rrule" align="center" valign="top">1.2<br/>
+                           </td>
+                           <td styleCode="Rrule" align="center" valign="top">0.48<br/>
+                           </td>
+                           <td styleCode="Rrule" align="center" valign="top">0.6<br/>
+                           </td>
+                           <td styleCode="Rrule" align="center" valign="top">0.72<br/>
+                           </td>
+                           <td styleCode="Rrule" align="center" valign="top">0.84<br/>
+                           </td>
+                           <td styleCode="Rrule" align="center" valign="top">0.96<br/>
+                           </td>
+                           <td styleCode="Rrule" align="center" valign="top">1.08<br/>
+                           </td>
+                           <td styleCode="Rrule" align="center" valign="top">1.2<br/>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Lrule Rrule" align="center" valign="top">1.3<br/>
+                           </td>
+                           <td styleCode="Rrule" align="center" valign="top">0.52<br/>
+                           </td>
+                           <td styleCode="Rrule" align="center" valign="top">0.65<br/>
+                           </td>
+                           <td styleCode="Rrule" align="center" valign="top">0.78<br/>
+                           </td>
+                           <td styleCode="Rrule" align="center" valign="top">0.91<br/>
+                           </td>
+                           <td styleCode="Rrule" align="center" valign="top">1.04<br/>
+                           </td>
+                           <td styleCode="Rrule" align="center" valign="top">1.17<br/>
+                           </td>
+                           <td styleCode="Rrule" align="center" valign="top">1.3<br/>
+                           </td>
+                        </tr>
+                     </tbody>
+                  </table>
+                  <paragraph>NOTE: If a concentration of 0.2 mg/mL is used (20 mg in 100 mL), the rate should be decreased by one-half.<br/>
+                     <br/>
+                     <content styleCode="bold">Use in Pediatrics:</content> Pediatric patients (10 to 16 years of age) have approximately the same dosage requirements (mg/kg) as adults and may be managed the same way. Younger pediatric patients (1 to 10 years of age) may require a slightly higher initial dose and may also require supplementation slightly more often than adults.<br/>
+                     <br/> Infants under 1 year of age but older than 7 weeks are moderately more sensitive to vecuronium bromide on a mg/kg basis than adults and take about 1½ times as long to recover. See also subsection of <content styleCode="bold">
+                        <linkHtml href="#Section_6">PRECAUTIONS</linkHtml>
+                     </content> titled <content styleCode="bold">
+                        <linkHtml href="#Section_6.10">Pediatric Use</linkHtml>
+                     </content>. Information presently available does not permit recommendation on usage in pediatric patients less than 7 weeks of age (see <content styleCode="bold">
+                        <linkHtml href="#Section_6.10">PRECAUTIONS-Pediatric Use</linkHtml>
+                     </content>). There are insufficient data concerning continuous infusion of vecuronium in pediatric patients, therefore, no dosing recommendations can be made.<br/>
+                     <br/>
+                     <content styleCode="bold">COMPATIBILITY<br/>
+                     </content>
+                     <br/> Vecuronium bromide is compatible in solution with:<br/>
+                     <br/> Sodium Chloride 0.9% Injection<br/> Dextrose 5% Injection<br/> Sterile Water for Injection<br/> Dextrose 5% in Sodium Chloride 0.9% Injection<br/> Lactated Ringer’s Injection<br/>
+                     <br/> Use within 24 hours of mixing with the above solutions.<br/>
+                     <br/> Vecuronium bromide is also compatible in solution with: bacteriostatic water for injection (<content styleCode="bold">NOT FOR USE IN NEWBORNS</content>). Use within 5 days of mixing with the above solution.<br/>
+                     <br/> Reconstituted vecuronium bromide, which has an acid pH, should not be mixed with alkaline solutions (e.g., barbiturate solutions such as thiopental) in the same syringe or administered simultaneously during intravenous infusion through the same needle or through the same intravenous line.<br/>
+                     <br/>
+                     <content styleCode="bold">After Reconstitution:<br/>
+                     </content>
+                     <br/> See <content styleCode="bold">
+                        <linkHtml href="#Section_10">DOSAGE AND ADMINISTRATION-COMPATIBILITY</linkHtml>
+                     </content> for diluents compatible with Vecuronium Bromide for Injection.<br/>
+                     <br/> Single-Dose Use: When reconstituted with compatible I.V. solutions not containing an antimicrobial preservative (e.g., sterile water for injection), refrigerate and use within 24 hours. Discard unused portion.<br/>
+                     <br/> Multi-Dose Use: (<content styleCode="bold">NOT FOR USE IN NEWBORNS.</content>) When reconstituted with bacteriostatic water for injection, use within 5 days. The reconstituted solution may be stored at room temperature or refrigerated.<br/>
+                     <br/> Parenteral drug products should be inspected visually for particulate matter and discoloration prior to administration whenever solution and container permit.<br/>
+                     <br/>
+                     <content styleCode="bold">Risk of Medication Errors:</content> Accidental administration of neuromuscular blocking agents may be fatal. Store vecuronium bromide for injection with the cap and ferrule intact and in a manner that minimizes the possibility of selecting the wrong product.</paragraph>
+               </text>
+               <effectiveTime value="20230829"/>
+            </section>
+         </component>
+         <component>
+            <section ID="Section_11">
+               <id root="da9ccd18-cf22-497e-a570-82db8749fadf"/>
+               <code code="34069-5" codeSystem="2.16.840.1.113883.6.1" displayName="HOW SUPPLIED SECTION"/>
+               <title>HOW SUPPLIED</title>
+               <text>
+                  <br/>
+                  <paragraph>Vecuronium Bromide for Injection is a sterile, nonpyrogenic, white to off-white lyophilized cake or powder and is supplied as follows:<br/>
+                     <content styleCode="bold">
+                        <content styleCode="underline">
+                           <br/> 10 mg per vial<br/>
+                        </content>
+                     </content>
+                     <br/> 10 Vials in a Carton                                                                 NDC 55150-235-10<br/>
+                     <content styleCode="bold">
+                        <content styleCode="underline">
+                           <br/> 20 mg per vial<br/>
+                        </content>
+                     </content>
+                     <br/> 10 Vials in a Carton                                                                 NDC 55150-236-20<br/>
+                     <br/> Store dry powder at 20° to 25°C (68° to 77°F) [see USP Controlled Room Temperature]. <content styleCode="bold">Protect from light. Retain in carton until time of use.<br/>
+                     </content>
+                     <br/> The vial stoppers are not made with natural rubber latex.<br/>
+                     <br/> Distributed by:<br/>
+                     <content styleCode="bold">Eugia US LLC<br/>
+                     </content>279 Princeton-Hightstown Rd.<br/> E. Windsor, NJ 08520<br/>
+                     <br/> Manufactured by:<br/>
+                     <content styleCode="bold">Eugia Pharma Specialities Limited<br/>
+                     </content>Hyderabad - 500032<br/> India<br/>
+                     <br/> Revised: June 2023</paragraph>
+               </text>
+               <effectiveTime value="20230829"/>
+            </section>
+         </component>
+         <component>
+            <section ID="Section_17">
+               <id root="c01970c6-1d73-4df4-8bf9-c6e32f21bba6"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>PACKAGE LABEL-PRINCIPAL DISPLAY PANEL - 10 mg per vial - Container Label</title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">Rx only                      NDC</content> 55150-235-01<br/>
+                     <content styleCode="bold">Vecuronium<br/> Bromide<br/> for Injection<br/> 10 mg per vial*<br/> WARNING: Paralyzing Agent<br/> FOR INTRAVENOUS USE ONLY<br/> *1 mg/mL</content> when <br/> reconstituted to <content styleCode="bold">10 mL<br/> Sterile                                    Lyophilized<br/>
+                        <br/>
+                        <renderMultiMedia referencedObject="MM2"/>
+                     </content>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20230829"/>
+               <component>
+                  <observationMedia ID="MM2">
+                     <text>PACKAGE LABEL-PRINCIPAL DISPLAY PANEL - 10 mg per vial - Container Label</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="vecuronium-fig1.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="Section_18">
+               <id root="cd650f9a-6402-409b-9f09-2751fe6333e9"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>PACKAGE LABEL-PRINCIPAL DISPLAY PANEL - 10 mg per vial - Container-Carton (10 Vials)</title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">Rx only                                                              NDC</content> 55150-235-10<br/>
+                     <content styleCode="bold">Vecuronium Bromide<br/> for Injection<br/> 10 mg per vial*<br/>
+                        <content styleCode="bold">WARNING: Paralyzing Agent<br/>
+                        </content>FOR INTRAVENOUS USE ONLY<br/> *1 mg/mL</content> when reconstituted to<content styleCode="bold"> 10 mL<br/> Sterile, Nonpyrogenic                10 x 10 mg Vials, Lyophilized Powder<br/> eugia<br/>
+                        <br/>
+                        <renderMultiMedia referencedObject="MM3"/>
+                     </content>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20230829"/>
+               <component>
+                  <observationMedia ID="MM3">
+                     <text>PACKAGE LABEL-PRINCIPAL DISPLAY PANEL - 10 mg per vial - Container-Carton (10 Vials)</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="vecuronium-fig2.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="Section_19">
+               <id root="b9288929-9de0-4b33-97e5-2b125979dd58"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>PACKAGE LABEL-PRINCIPAL DISPLAY PANEL - 20 mg per vial - Container Label</title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">Rx only                      NDC</content> 55150-236-01<br/>
+                     <content styleCode="bold">Vecuronium<br/> Bromide<br/> for Injection<br/> 20 mg per vial*<br/> WARNING: Paralyzing Agent<br/> FOR INTRAVENOUS USE ONLY<br/> *1 mg/mL</content> when reconstituted to <content styleCode="bold">20 mL<br/> Sterile                                    Lyophilized<br/>
+                        <br/>
+                        <renderMultiMedia referencedObject="MM4"/>
+                     </content>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20230829"/>
+               <component>
+                  <observationMedia ID="MM4">
+                     <text>PACKAGE LABEL-PRINCIPAL DISPLAY PANEL - 20 mg per vial - Container Label</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="vecuronium-fig3.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="Section_20">
+               <id root="b0a9c4ba-f707-4f31-b9fe-98d176524259"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>PACKAGE LABEL-PRINCIPAL DISPLAY PANEL - 20 mg per vial - Container-Carton (10 Vials)</title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">Rx only                                                             NDC</content> 55150-236-20<br/>
+                     <content styleCode="bold">Vecuronium Bromide<br/> for Injection<br/> 20 mg per vial*<br/>
+                        <content styleCode="bold">WARNING: Paralyzing Agent<br/>
+                        </content>FOR INTRAVENOUS USE ONLY<br/> *1 mg/mL</content> when reconstituted to <content styleCode="bold">20 mL<br/> Sterile, Nonpyrogenic                10 x 20 mg Vials, Lyophilized Powder<br/> eugia<br/>
+                        <br/>
+                        <renderMultiMedia referencedObject="MM5"/>
+                        <br/>
+                        <br/>
+                        <br/>
+                        <br/>
+                     </content>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20230829"/>
+               <component>
+                  <observationMedia ID="MM5">
+                     <text>PACKAGE LABEL-PRINCIPAL DISPLAY PANEL - 20 mg per vial - Container-Carton (10 Vials)</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="vecuronium-fig4.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="Section_21">
+               <id root="0afc9e53-49ba-418a-adf8-87accac326f8"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>PACKAGE LABEL-PRINCIPAL DISPLAY PANEL - Sticker Label</title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">                                                                 _____ mg/mL<br/> Vecuronium Bromide for Injection<br/> Date mixed: _______             By: ______<br/> Time Mixed: _______             Lot:                     Exp.:         <br/>
+                        <br/>
+                        <renderMultiMedia referencedObject="MM6"/>
+                        <br/>
+                     </content>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20230829"/>
+               <component>
+                  <observationMedia ID="MM6">
+                     <text>PACKAGE LABEL-PRINCIPAL DISPLAY PANEL - Sticker Label</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="vecuronium-fig5.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

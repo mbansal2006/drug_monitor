@@ -1,0 +1,1634 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="https://www.accessdata.fda.gov/spl/stylesheet/spl.xsl" type="text/xsl"?>
+<document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:hl7-org:v3" xsi:schemaLocation="urn:hl7-org:v3 https://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="2e641a0d-4d42-e7cd-e063-6394a90a47d4"/>
+   <code code="34391-3" codeSystem="2.16.840.1.113883.6.1" displayName="HUMAN PRESCRIPTION DRUG LABEL"/>
+   <title>
+      <content styleCode="bold">
+         <content styleCode="bold">
+            <content styleCode="bold">Bupivacaine Hydrochloride in Dextrose Injection, USP
+    <br/>
+               <br/>
+STERILE HYPERBARIC SOLUTION
+    <br/>
+FOR SPINAL ANESTHESIA 
+   </content>
+         </content>
+      </content>
+      <br/>
+      <br/>
+Rx only
+</title>
+   <effectiveTime value="20241120"/>
+   <setId root="2dc693df-3218-4a90-b3f7-21e80966a851"/>
+   <versionNumber value="10"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id root="1.3.6.1.4.1.519.1" extension="631099384"/>
+            <name>Huons Co., Ltd.</name>
+            <assignedEntity>
+               <assignedOrganization>
+                  <assignedEntity>
+                     <assignedOrganization>
+                        <id root="1.3.6.1.4.1.519.1" extension="631099384"/>
+                        <name>Huons Co., Ltd.</name>
+                     </assignedOrganization>
+                     <performance>
+                        <actDefinition>
+                           <code code="C43360" displayName="manufacture" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="73293-0002" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                  </assignedEntity>
+               </assignedOrganization>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section>
+               <id root="2e647608-e769-1371-e063-6394a90aa55d"/>
+               <code code="48780-1" codeSystem="2.16.840.1.113883.6.1" displayName="SPL product data elements section"/>
+               <effectiveTime value="20241120"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="73293-0002" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>Bupivacaine Hydrochloride</name>
+                        <formCode code="C42946" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="INJECTION"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>Bupivacaine hydrochloride</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <ingredient classCode="IACT">
+                           <quantity>
+                              <numerator unit="mg" value="82.5"/>
+                              <denominator unit="mL" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="IY9XDZ35W2" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>DEXTROSE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="55X04QC32I" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SODIUM HYDROXIDE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="QTT17582CB" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>HYDROCHLORIC ACID</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="059QF0KO0R" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>WATER</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="N762921K75" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>NITROGEN</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="ACTIR">
+                           <quantity>
+                              <numerator unit="mg" value="7.5"/>
+                              <denominator unit="mL" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="7TQO7W3VT8" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>BUPIVACAINE HYDROCHLORIDE</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="Y8335394RO" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>BUPIVACAINE</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                              <asEquivalentSubstance>
+                                 <definingSubstance>
+                                    <code code="AKA908P8J1" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>BUPIVACAINE HYDROCHLORIDE ANHYDROUS</name>
+                                 </definingSubstance>
+                              </asEquivalentSubstance>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator value="2" unit="mL"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="73293-0002-1" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43165" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="AMPULE"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator value="50" unit="1"/>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code code="73293-0002-2" codeSystem="2.16.840.1.113883.6.69"/>
+                                    <formCode code="C43233" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="PACKAGE"/>
+                                 </containerPackagedProduct>
+                                 <subjectOf>
+                                    <marketingAct>
+                                       <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                       <statusCode code="active"/>
+                                       <effectiveTime>
+                                          <low value="20191230"/>
+                                       </effectiveTime>
+                                    </marketingAct>
+                                 </subjectOf>
+                              </asContent>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <id extension="ANDA212822" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73584" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ANDA"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20191230"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38297" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="SUBARACHNOID"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_04d12fda-10a0-33de-e063-6294a90a08c1">
+               <id root="054a68ec-d311-7fbc-e063-6294a90ac912"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <title>HIGHLIGHTS OF PRESCRIBING INFORMATION</title>
+               <text>
+                  <paragraph>These highlights do not include all the information needed to use Bupivacaine Hydrochloride in Dextrose Injection, USP safely and effectively. See full prescribing information for Bupivacaine Hydrochloride in Dextrose Injection, USP.</paragraph>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph>Bupivacaine Hydrochloride in Dextrose Injection, USP for subarachnoid injection</paragraph>
+                  <paragraph>Initial U.S. Approval: 2019</paragraph>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph>------------------------------------------------------------------- 
+  <content styleCode="bold">INDICATIONS AND USAGE</content>---------------------------------------------------------------------
+ </paragraph>
+                  <paragraph>Bupivacaine Hydrochloride in Dextrose Injection, USP is an amide-local anesthetic indicated in adults for subarachnoid injection for the production of subarachnoid block (spinal anesthesia). (
+  <linkHtml href="#id_link_04d16d8c-c07c-af96-e063-6394a90a6353">1</linkHtml>)
+ </paragraph>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph>----------------------------------------------------------------
+  <content styleCode="bold">DOSAGE AND ADMINISTRATION</content>----------------------------------------------------------------
+ </paragraph>
+                  <paragraph>The dosage of Bupivacaine Hydrochloride in Dextrose Injection, USP administered varies with the anesthetic procedure, the vascularity of the tissues, the number of neuronal segments to be blocked, the depth of anesthesia and degree of muscle relaxation required, the duration of anesthesia desired, individual tolerance, and the physical condition of the patient. Administer the smallest dosage and concentration required to produce the desired result. The following are general dosage guidelines:</paragraph>
+                  <list listType="unordered">
+                     <item>Bupivacaine Hydrochloride in Dextrose Injection, USP 6 mg is generally adequate for vaginal delivery. (
+   <linkHtml href="#id_link_054827c7-2202-ffff-e063-6294a90ac911">2.2</linkHtml>)
+
+	
+   <list listType="unordered">
+                           <item>Bupivacaine Hydrochloride in Dextrose Injection, USP 7.5 mg is generally adequate for spinal anesthesia for lower extremity and perineal procedures. (
+     <linkHtml href="#id_link_054827c7-2202-ffff-e063-6294a90ac911">2.2</linkHtml>)
+    </item>
+                        </list>
+                     </item>
+                     <item>Bupivacaine Hydrochloride in Dextrose Injection, USP 12 mg is generally adequate for lower abdominal procedures. (
+   <linkHtml href="#id_link_054827c7-2202-ffff-e063-6294a90ac911">2.2</linkHtml>)
+  </item>
+                     <item>Bupivacaine Hydrochloride in Dextrose Injection, USP 7.5 mg to 10.5 mg is generally adequate for Cesarean section. (
+   <linkHtml href="#id_link_054827c7-2202-ffff-e063-6294a90ac911">2.2</linkHtml>)
+  </item>
+                  </list>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph>---------------------------------------------------------------- 
+  <content styleCode="bold">DOSAGE FORMS AND STRENGTHS</content>-----------------------------------------------------------
+ </paragraph>
+                  <paragraph>Injection: 15 mg/2 mL (7.5 mg/mL) in single-dose glass ampules. (
+  <linkHtml href="#id_link_04d24e0d-90d6-a87e-e063-6294a90a43b3">3</linkHtml>)
+ </paragraph>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph>------------------------------------------------------------------------- 
+  <content styleCode="bold">CONTRAINDICATIONS</content> --------------------------------------------------------------------
+ </paragraph>
+                  <list listType="unordered">
+                     <item>Intravenous regional anesthesia (Bier Block). (
+   <linkHtml href="#id_link_04d253a3-3900-a920-e063-6394a90a9cb4">4</linkHtml>)
+  </item>
+                     <item>Septicemia. (
+   <linkHtml href="#id_link_04d253a3-3900-a920-e063-6394a90a9cb4">4</linkHtml>)
+  </item>
+                     <item>Severe hemorrhage, severe hypotension or shock, and arrhythmias, such as complete heartblock, which severely reduce cardiac output. (
+   <linkHtml href="#id_link_04d253a3-3900-a920-e063-6394a90a9cb4">4</linkHtml>)
+  </item>
+                     <item>Known hypersensitivity to bupivacaine or to any local anesthetic agent of the amide-type or to other components of Bupivacaine Hydrochloride in Dextrose Injection, USP. (
+   <linkHtml href="#id_link_04d253a3-3900-a920-e063-6394a90a9cb4">4</linkHtml>)
+  </item>
+                     <item>Local infection at the site of proposed lumbar puncture. (
+   <linkHtml href="#id_link_04d253a3-3900-a920-e063-6394a90a9cb4">4</linkHtml>)
+  </item>
+                  </list>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph>------------------------------------------------------------------ 
+  <content styleCode="bold">WARNINGS AND PRECAUTIONS</content>------------------------------------------------------------
+ </paragraph>
+                  <list listType="unordered">
+                     <item>
+                        <content styleCode="underline">Use of Spinal Anesthetics During Uterine Contractions</content>: Spinal anesthetics, including Bupivacaine Hydrochloride in Dextrose Injection, USP, should not be injected during uterine contractions because cerebrospinal fluid current may carry the drug further cephalad than desired, resulting in a high motor block. (
+   <linkHtml href="#id_link_05489955-1262-bea4-e063-6294a90ac21a">5.1</linkHtml>)
+  </item>
+                     <item>
+                        <content styleCode="underline">Patients with Hypertension</content>: Sympathetic blockade due to spinal anesthesia may result in peripheral vasodilation and hypotension. Monitor blood pressure frequently. Hypotension may be controlled by administration of vasoconstrictor agents in titrated dosages depending on the severity of hypotension and response to treatment. Monitor the onset of adequate spinal anesthesia frequently. (
+   <linkHtml href="#id_link_054878e0-5549-6607-e063-6294a90a29d0">5.2</linkHtml>)
+  </item>
+                     <item>
+                        <content styleCode="underline">Dose-Related Toxicity</content>: Monitor cardiovascular and respiratory vital signs and patient’s state of consciousness after injection of Bupivacaine Hydrochloride in Dextrose Injection, USP. (
+   <linkHtml href="#id_link_0548a207-6668-6644-e063-6294a90a9520">5.3</linkHtml>)
+  </item>
+                     <item>
+                        <content styleCode="underline">Risk of Systemic Toxicities with Unintended Intravascular Injection</content>: Unintended intravascular injection may be associated with systemic toxicities, including CNS or cardiorespiratory depression and coma, progressing ultimately to respiratory arrest. Aspirate for blood and cerebrospinal fluid (where applicable) prior to each dose. (
+   <linkHtml href="#id_link_0548b3f5-d5b5-cef1-e063-6394a90acb5d">5.4</linkHtml>)
+  </item>
+                     <item>
+                        <content styleCode="underline">Methemoglobinemia</content>: Cases of methemoglobinemia have been reported in association with local anesthetic use. See full prescribing information for more detail on managing these risks. (
+   <linkHtml href="#id_link_05489b6a-a9b8-6609-e063-6294a90a95e0">5.5</linkHtml>)
+  </item>
+                     <item>
+                        <content styleCode="underline">Risk of Cardiac Arrest with Use of Epidural Bupivacaine in Obstetrical Anesthesia</content>: There have been reports of cardiac arrest during use of Bupivacaine Hydrochloride Injection, USP 0.75% solution for epidural anesthesia in obstetrical patients. Bupivacaine Hydrochloride in Dextrose Injection, USP is recommended for spinal anesthesia in obstetrical patients. (
+   <linkHtml href="#id_link_05488dfe-bd74-d0f2-e063-6394a90a94f4">5.6</linkHtml>)
+  </item>
+                     <item>
+                        <content styleCode="underline">Chondrolysis with Intra-Articular Infusion</content>: Intra-articular infusions of local anesthetics including bupivacaine following arthroscopic and other surgical procedures is an unapproved use, and there have been post-marketing reports of chondrolysis in patients receiving such infusions. (
+   <linkHtml href="#id_link_0548adb0-ee03-a63d-e063-6294a90a65d8">5.7</linkHtml>)
+  </item>
+                     <item>
+                        <content styleCode="underline">Risk of Cardiac Arrest with Intravenous Regional Anesthesia Use (Bier Block)</content>: There have been reports of cardiac arrest and death during the use of bupivacaine for intravenous regional anesthesia (Bier Block). (
+   <linkHtml href="#id_link_0548f9c4-15b3-a2c2-e063-6394a90a9ba8">5.8</linkHtml>)
+  </item>
+                  </list>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph>--------------------------------------------------------------------------
+  <content styleCode="bold"> ADVERSE REACTIONS</content> -----------------------------------------------------------------
+ </paragraph>
+                  <paragraph>Most common adverse reactions are hypotension due to loss of sympathetic tone, and diaphragmatic paralysis or hypoventilation due to cephalad spread and high motor block. (
+  <linkHtml href="#id_link_04d36e88-c8a6-9cb3-e063-6294a90a1493">6</linkHtml>)
+ </paragraph>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph>
+                     <content styleCode="bold">To report SUSPECTED ADVERSE REACTIONS, contact FDA at 1-800-FDA-1088 or www.fda.gov/medwatch.</content>
+                  </paragraph>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph>--------------------------------------------------------------------------
+  <content styleCode="bold">DRUG INTERACTIONS</content>--------------------------------------------------------------------
+ </paragraph>
+                  <list listType="unordered">
+                     <item>
+                        <content styleCode="underline">Local Anesthetics</content>: The toxic effects of local anesthetics are additive. Monitor for neurologic and cardiovascular effects when additional local anesthetics are administered. (
+   <linkHtml href="#id_link_054a5b67-35bd-71bd-e063-6394a90a18da">7.1</linkHtml>)
+  </item>
+                     <item>
+                        <content styleCode="underline">Drugs Associated with Methemoglobinemia</content>: Patients are at increased risk of developing methemoglobinemia when concurrently exposed to nitrates, nitrites, local anesthetics, antineoplastic agents, antibiotics, antimalarials, anticonvulsants, and other drugs. (
+   <linkHtml href="#id_link_054a4a01-af38-7fc3-e063-6294a90a6b7e">7.2</linkHtml>)
+  </item>
+                  </list>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph>-------------------------------------------------------------- 
+  <content styleCode="bold">USE IN SPECIFIC POPULATIONS</content> ---------------------------------------------------------------
+ </paragraph>
+                  <list listType="unordered">
+                     <item>
+                        <content styleCode="underline">Pediatric Use</content>: Administration of Bupivacaine Hydrochloride in Dextrose Injection, USP in patients younger than 18 years is not recommended. (
+   <linkHtml href="#id_link_05493ab3-757b-a862-e063-6294a90ae6e7">8.4</linkHtml>)
+  </item>
+                     <item>
+                        <content styleCode="underline">Geriatric Use</content>: Patients 65 years and over, particularly those with hypertension, may be at increased risk for developing hypotension while undergoing spinal anesthesia with Bupivacaine Hydrochloride in Dextrose Injection, USP. (
+   <linkHtml href="#id_link_05492689-9525-052b-e063-6294a90ae43d">8.5</linkHtml>)
+  </item>
+                     <item>
+                        <content styleCode="underline">Moderate to Severe Hepatic Impairment</content>: Consider increased monitoring for bupivacaine systemic toxicity. (
+   <linkHtml href="#id_link_0549232a-b7f6-89ad-e063-6294a90a88ca">8.6</linkHtml>)
+  </item>
+                  </list>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph>
+                     <content styleCode="bold">See 17 for PATIENT COUNSELING INFORMATION.</content>
+                  </paragraph>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph>
+                     <content styleCode="bold">Revised: 08/2023</content>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20231001"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_04d10b80-2f08-7a3b-e063-6294a90a4d85">
+               <id root="054ab974-226b-c133-e063-6394a90aac17"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <title>TABLE OF CONTENTS</title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">FULL PRESCRIBING INFORMATION: CONTENTS*</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">
+                        <linkHtml href="#id_link_04d16d8c-c07c-af96-e063-6394a90a6353">1 INDICATIONS AND USAGE</linkHtml>
+                     </content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">
+                        <linkHtml href="#id_link_04d1aa98-28f2-3e39-e063-6294a90a1033">2 DOSAGE AND ADMINISTRATION</linkHtml>
+                     </content>
+                  </paragraph>
+                  <paragraph>
+                     <linkHtml href="#id_link_054807d9-0ec2-0761-e063-6394a90a9413">2.1 Important Dosage and Administration Information</linkHtml>
+                     <linkHtml href="#id_link_054827c7-2202-ffff-e063-6294a90ac911">2.2 Recommended Dosages of Bupivacaine Hydrochloride in Dextrose Injection, USP</linkHtml>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">
+                        <linkHtml href="#id_link_04d24e0d-90d6-a87e-e063-6294a90a43b3">3 DOSAGE FORMS AND STRENGTHS</linkHtml>
+                     </content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">
+                        <linkHtml href="#id_link_04d253a3-3900-a920-e063-6394a90a9cb4">4 CONTRAINDICATIONS</linkHtml>
+                        <linkHtml href="#id_link_04d27357-2025-5a4e-e063-6294a90a22d8">5 WARNINGS AND PRECAUTIONS</linkHtml>
+                     </content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">
+                        <linkHtml href="#id_link_04d27357-2025-5a4e-e063-6294a90a22d8">5 WARNINGS AND PRECAUTIONS</linkHtml>
+                     </content>
+                  </paragraph>
+                  <paragraph>
+                     <linkHtml href="#id_link_05489955-1262-bea4-e063-6294a90ac21a">5.1 Use of Spinal Anesthetics During Uterine Contractions</linkHtml>
+                     <br/>
+                     <linkHtml href="#id_link_054878e0-5549-6607-e063-6294a90a29d0">5.2 Patients with Hypertension</linkHtml>
+                     <br/>
+                     <linkHtml href="#id_link_0548a207-6668-6644-e063-6294a90a9520">5.3 Dose-Related Toxicity</linkHtml>
+                     <br/>
+                     <linkHtml href="#id_link_0548b3f5-d5b5-cef1-e063-6394a90acb5d">5.4 Risk of Systemic Toxicities with Unintended Intravascular Injection</linkHtml>
+                     <br/>
+                     <linkHtml href="#id_link_05489b6a-a9b8-6609-e063-6294a90a95e0">5.5 Methemoglobinemia</linkHtml>
+                     <br/>
+                     <linkHtml href="#id_link_05488dfe-bd74-d0f2-e063-6394a90a94f4">5.6 Risk of Cardiac Arrest with Use of Epidural Bupivacaine in Obstetrical Anesthesia</linkHtml>
+                     <br/>
+                     <linkHtml href="#id_link_0548adb0-ee03-a63d-e063-6294a90a65d8">5.7 Chondrolysis with Intra-Articular Infusion</linkHtml>
+                     <br/>
+                     <linkHtml href="#id_link_0548f9c4-15b3-a2c2-e063-6394a90a9ba8">5.8 Risk of Cardiac Arrest with Intravenous Regional Anesthesia Use (Bier Block)</linkHtml>
+                     <br/>
+                     <linkHtml href="#id_link_0548b3f5-d5b7-cef1-e063-6394a90acb5d">5.9 Patients with Severe Disturbances of Cardiac Rhythm, Shock, or Heart Block</linkHtml>
+                     <br/>
+                     <linkHtml href="#id_link_05490117-54e3-730a-e063-6394a90add73">5.10 Risk of Toxicity in Patients with Hepatic Impairment</linkHtml>
+                     <linkHtml href="#id_link_05491ce6-b821-4400-e063-6294a90ab4ea">5.11 Risk of Use in Patients with Impaired Cardiovascular Function</linkHtml>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">
+                        <linkHtml href="#id_link_04d36e88-c8a6-9cb3-e063-6294a90a1493">6 ADVERSE REACTIONS</linkHtml>
+                     </content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">
+                        <linkHtml href="#id_link_04d43dde-e6fd-0d4a-e063-6294a90ac3fc">7 DRUG INTERACTIONS</linkHtml>
+                     </content>
+                  </paragraph>
+                  <paragraph>
+                     <linkHtml href="#id_link_054a5b67-35bd-71bd-e063-6394a90a18da">7.1 Local Anesthetics</linkHtml>
+                     <linkHtml href="#id_link_054a4a01-af38-7fc3-e063-6294a90a6b7e">7.2 Drugs Associated with Methemoglobinemia</linkHtml>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">
+                        <linkHtml href="#id_link_04d44fca-736c-4b34-e063-6294a90a61d6">8 USE IN SPECIFIC POPULATIONS</linkHtml>
+                     </content>
+                  </paragraph>
+                  <paragraph>
+                     <linkHtml href="#id_link_05492689-9523-052b-e063-6294a90ae43d">8.1 Pregnancy</linkHtml>
+                     <br/>
+                     <linkHtml href="#id_link_0548f9c4-15b6-a2c2-e063-6394a90a9ba8">8.2 Lactation</linkHtml>
+                     <br/>
+                     <linkHtml href="#id_link_05493ab3-757b-a862-e063-6294a90ae6e7">8.4 Pediatric Use</linkHtml>
+                     <br/>
+                     <linkHtml href="#id_link_05492689-9525-052b-e063-6294a90ae43d">8.5 Geriatric Use</linkHtml>
+                     <br/>
+                     <linkHtml href="#id_link_0549232a-b7f6-89ad-e063-6294a90a88ca">8.6 Hepatic Impairment</linkHtml>
+                     <linkHtml href="#id_link_0549299d-1aef-7869-e063-6394a90a89c9">8.7 Renal Impairment</linkHtml>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">
+                        <linkHtml href="#id_link_04d66fd8-19db-e1e7-e063-6394a90a1ad8">10 OVERDOSAGE</linkHtml>
+                        <br/>
+                        <linkHtml href="#id_link_2dc92556-ca5c-608c-e054-00144ff88e88">11 DESCRIPTION</linkHtml>
+                     </content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">
+                        <linkHtml href="#id_link_04d6b459-c772-920d-e063-6394a90adf0f">12 CLINICAL PHARMACOLOGY</linkHtml>
+                     </content>
+                  </paragraph>
+                  <paragraph>
+                     <linkHtml href="#id_link_05499a1e-8b25-a0ca-e063-6294a90a3358">12.1 Mechanism of Action</linkHtml>
+                     <br/>
+                     <linkHtml href="#id_link_0549232a-b7f8-89ad-e063-6294a90a88ca">12.2 Pharmacodynamics</linkHtml>
+                     <linkHtml href="#id_link_05499f15-d9e4-02ff-e063-6394a90a3efe">12.3 Pharmacokinetics</linkHtml>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">
+                        <linkHtml href="#id_link_04d66fd8-19dd-e1e7-e063-6394a90a1ad8">13 NONCLINICAL TOXICOLOGY</linkHtml>
+                     </content>
+                  </paragraph>
+                  <paragraph>13.1 Carcinogenesis, Mutagenesis, Impairment of Fertility</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">
+                        <linkHtml href="#id_link_2dc92761-c0b9-677c-e054-00144ff88e88">16 HOW SUPPLIED/STORAGE AND HANDLING</linkHtml>
+                     </content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">
+                        <linkHtml href="#id_link_04d67e1b-70f4-735b-e063-6294a90a0a21">17 PATIENT COUNSELING INFORMATION</linkHtml>
+                     </content>
+                  </paragraph>
+                  <paragraph/>
+                  <paragraph>*Sections or subsections omitted from the full prescribing information are not listed.</paragraph>
+                  <paragraph/>
+               </text>
+               <effectiveTime value="20231001"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_04d16d8c-c07c-af96-e063-6394a90a6353">
+               <id root="04d17e19-4070-e487-e063-6294a90aa7d9"/>
+               <code code="34067-9" codeSystem="2.16.840.1.113883.6.1" displayName="INDICATIONS &amp; USAGE SECTION"/>
+               <title>1 INDICATIONS AND USAGE</title>
+               <text>
+                  <paragraph>Bupivacaine Hydrochloride in Dextrose Injection, USP is indicated for subarachnoid injection in adults for the production of subarachnoid block (spinal anesthesia).</paragraph>
+               </text>
+               <effectiveTime value="20231001"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_04d1aa98-28f2-3e39-e063-6294a90a1033">
+               <id root="05480bba-1cec-f47e-e063-6394a90aa30c"/>
+               <code code="34068-7" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE &amp; ADMINISTRATION SECTION"/>
+               <title>2 DOSAGE AND ADMINISTRATION</title>
+               <text>
+                  <paragraph>
+                     <br/>
+                  </paragraph>
+                  <paragraph/>
+               </text>
+               <effectiveTime value="20231001"/>
+               <component>
+                  <section ID="id_link_054807d9-0ec2-0761-e063-6394a90a9413">
+                     <id root="054ab974-226c-c133-e063-6394a90aac17"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>2.1 Important Dosage and Administration Information</title>
+                     <text>
+                        <list listType="unordered">
+                           <item>Visually inspect this product for particulate matter and discoloration prior to administration. Bupivacaine Hydrochloride in Dextrose Injection, USP is a clear, colorless solution. Do not administer solutions which are discolored or contain particulate matter.</item>
+                           <item>Mixing or the prior or intercurrent use of any other local anesthetic with Bupivacaine Hydrochloride in Dextrose Injection, USP is not recommended because of insufficient data on the clinical use of such mixtures.</item>
+                           <item>Discard unused portions of Bupivacaine Hydrochloride in Dextrose Injection, USP following initial use.</item>
+                        </list>
+                        <paragraph/>
+                        <paragraph/>
+                        <paragraph>
+                           <content styleCode="underline">Administration Precautions</content>
+                        </paragraph>
+                        <list listType="unordered">
+                           <item>Bupivacaine Hydrochloride in Dextrose Injection, USP is to be administered in carefully adjusted dosages by or under the supervision of experienced clinicians who are well versed in the diagnosis and management of dose-related toxicity and other acute emergencies which might arise from the block to be employed.</item>
+                           <item>Use Bupivacaine Hydrochloride in Dextrose Injection, USP only if the following are immediately available: oxygen, cardiopulmonary resuscitative equipment and drugs, and the personnel resources needed for proper management of toxic reactions and related emergencies [
+   <content styleCode="italics">see 
+    <linkHtml href="#id_link_0548a207-6668-6644-e063-6294a90a9520">Warnings and Precautions (5.3)</linkHtml>, 
+    <linkHtml href="#id_link_04d36e88-c8a6-9cb3-e063-6294a90a1493">Adverse Reactions (6)</linkHtml>, 
+    <linkHtml href="#id_link_04d66fd8-19db-e1e7-e063-6394a90a1ad8">Overdosage (10)</linkHtml>
+                              </content>].
+  </item>
+                           <item>The toxic effects of local anesthetics are additive. Monitor for neurologic and cardiovascular effects related to local anesthetic systemic toxicity when additional local anesthetics are administered with Bupivacaine Hydrochloride in Dextrose Injection, USP [
+   <content styleCode="italics">see 
+    <linkHtml href="#id_link_0548a207-6668-6644-e063-6294a90a9520">Warnings and Precautions (5.3)</linkHtml>, 
+    <linkHtml href="#id_link_054a5b67-35bd-71bd-e063-6394a90a18da">Drug Interactions (7.1)</linkHtml>, 
+    <linkHtml href="#id_link_04d66fd8-19db-e1e7-e063-6394a90a1ad8">Overdosage (10)</linkHtml>
+                              </content>].
+  </item>
+                           <item>Aspirate for blood and cerebrospinal fluid prior to injecting Bupivacaine Hydrochloride in Dextrose Injection, USP, for both the initial dose and all subsequent doses (where applicable), to avoid intravascular injection and to confirm entry into the subarachnoid space. Aspiration of cerebrospinal fluid into a Bupivacaine Hydrochloride in Dextrose Injection, USP-filled syringe will result in an identifiable swirl in the solution. A negative aspiration for blood does not ensure against an intravascular injection [
+   <content styleCode="italics">see 
+    <linkHtml href="#id_link_0548b3f5-d5b5-cef1-e063-6394a90acb5d">Warnings and Precautions (5.4)</linkHtml>
+                              </content>].
+  </item>
+                           <item>Avoid rapid injection of Bupivacaine Hydrochloride in Dextrose Injection, USP.</item>
+                           <item>The patient should have an indwelling intravenous catheter to assure adequate intravenous access. The lowest dosage of Bupivacaine Hydrochloride in Dextrose Injection, USP that results in effective spinal anesthesia should be used to avoid a high motor block and serious adverse reactions.</item>
+                           <item>Perform careful and constant monitoring of cardiovascular and respiratory (adequacy of oxygenation and ventilation) vital signs and the patient’s level of consciousness during spinal anesthesia.</item>
+                        </list>
+                        <paragraph/>
+                        <paragraph/>
+                        <paragraph>
+                           <content styleCode="underline">Conditions Which May Preclude Use of Spinal Anesthesia</content>
+                        </paragraph>
+                        <paragraph>The following conditions may preclude the use of spinal anesthesia, depending upon the physician’s evaluation of the patient:</paragraph>
+                        <list listType="unordered">
+                           <item>Pre-existing diseases of the central nervous system (CNS), such as those attributable to pernicious anemia, poliomyelitis, syphilis, or tumor.</item>
+                           <item>Hematological disorders predisposing to coagulopathies or patients on anticoagulant therapy. Trauma to a blood vessel during the conduct of spinal anesthesia may, in some instances, result in uncontrollable CNS hemorrhage, soft tissue hemorrhage, or development of a hematoma.</item>
+                           <item>Chronic backache and preoperative headache.</item>
+                           <item>Hypotension and hypertension.</item>
+                           <item>Technical problems (persistent paresthesias, persistent bloody tap).</item>
+                           <item>Arthritis or spinal deformity.</item>
+                           <item>Extremes of age.</item>
+                           <item>Psychosis, dementia, or other illnesses resulting in poor patient cooperation.</item>
+                        </list>
+                     </text>
+                     <effectiveTime value="20231001"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="id_link_054827c7-2202-ffff-e063-6294a90ac911">
+                     <id root="054827c7-2201-ffff-e063-6294a90ac911"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>2.2 Recommended Dosages of Bupivacaine Hydrochloride in Dextrose Injection, USP</title>
+                     <text>
+                        <paragraph>The dosage of Bupivacaine Hydrochloride in Dextrose Injection, USP administered varies with the anesthetic procedure, the vascularity of the tissues, the number of neuronal segments to be blocked, the depth of anesthesia and degree of muscle relaxation required, the duration of anesthesia desired, individual tolerance, and the physical condition of the patient. Administer the smallest dosage and concentration required to produce the desired result.</paragraph>
+                        <paragraph/>
+                        <paragraph>The extent and degree of spinal anesthesia depend upon several factors including dosage, baricity of the anesthetic solution, volume of solution, force of injection, level of puncture, and position of the patient during and immediately after injection.</paragraph>
+                        <paragraph/>
+                        <paragraph>In recommended doses, Bupivacaine Hydrochloride in Dextrose Injection, USP produces complete motor and sensory block.</paragraph>
+                        <paragraph/>
+                        <paragraph>The following table summarizes general dosage guidelines for adult patients for the procedures described:</paragraph>
+                        <table border="0" width="100%">
+                           <tbody>
+                              <tr>
+                                 <td align="center" styleCode="Botrule">
+                                    <content styleCode="bold">PROCEDURES</content>
+                                 </td>
+                                 <td align="center" styleCode="Botrule">
+                                    <content styleCode="bold">DOSAGE GUIDELINES</content>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td>Vaginal Delivery</td>
+                                 <td align="center">Starting dose, 6 mg (0.8 mL)</td>
+                              </tr>
+                              <tr>
+                                 <td>
+                                    <paragraph>Lower Extremity and Perineal Procedures, such as:</paragraph>
+                                    <list listType="unordered">
+                                       <item>transurethral resection of the prostate (TURP)</item>
+                                       <item>vaginal hysterectomy</item>
+                                    </list>
+                                 </td>
+                                 <td align="center">7.5 mg (1 mL)</td>
+                              </tr>
+                              <tr>
+                                 <td>
+                                    <paragraph>Lower Abdominal Procedures, such as:</paragraph>
+                                    <list listType="unordered">
+                                       <item>abdominal hysterectomy</item>
+                                       <item>tubal ligation</item>
+                                       <item>appendectomy</item>
+                                    </list>
+                                 </td>
+                                 <td align="center">12 mg (1.6 mL)</td>
+                              </tr>
+                              <tr>
+                                 <td>Cesarean Section</td>
+                                 <td align="center">7.5 mg to 10.5 mg (1 mL to 1.4 mL)</td>
+                              </tr>
+                           </tbody>
+                        </table>
+                     </text>
+                     <effectiveTime value="20231001"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_04d24e0d-90d6-a87e-e063-6294a90a43b3">
+               <id root="04d24e0d-90d5-a87e-e063-6294a90a43b3"/>
+               <code code="43678-2" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE FORMS &amp; STRENGTHS SECTION"/>
+               <title>3 DOSAGE FORMS AND STRENGTHS</title>
+               <text>
+                  <paragraph>Bupivacaine Hydrochloride in Dextrose Injection, USP is a clear, colorless solution available as:</paragraph>
+                  <list listType="unordered">
+                     <item>15 mg/2 mL (7.5 mg/mL) in single-dose glass ampules. </item>
+                  </list>
+               </text>
+               <effectiveTime value="20231001"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_04d253a3-3900-a920-e063-6394a90a9cb4">
+               <id root="054b06aa-adf1-29ac-e063-6294a90abc10"/>
+               <code code="34070-3" codeSystem="2.16.840.1.113883.6.1" displayName="CONTRAINDICATIONS SECTION"/>
+               <title>4 CONTRAINDICATIONS</title>
+               <text>
+                  <paragraph>Bupivacaine Hydrochloride in Dextrose Injection, USP is contraindicated in:</paragraph>
+                  <list listType="unordered">
+                     <item>intravenous regional anesthesia (Bier Block) [
+   <content styleCode="italics">see 
+    <linkHtml href="#id_link_0548f9c4-15b3-a2c2-e063-6394a90a9ba8">Warnings and Precautions (5.8)</linkHtml>
+                        </content>].
+  </item>
+                     <item>patients with septicemia.</item>
+                     <item>patients with severe hemorrhage, severe hypotension or shock, due to a reduced cardiac output.</item>
+                     <item>patients with clinically significant arrhythmias, such as complete heartblock, due a reduced cardiac output.</item>
+                     <item>patients with a known hypersensitivity to bupivacaine or to any local anesthetic agent of the amide-type or to other components of Bupivacaine Hydrochloride in Dextrose Injection, USP.</item>
+                     <item>patients with local infection at the site of proposed lumbar puncture.</item>
+                  </list>
+               </text>
+               <effectiveTime value="20231001"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_04d27357-2025-5a4e-e063-6294a90a22d8">
+               <id root="05486124-7f47-595c-e063-6294a90a8359"/>
+               <code code="43685-7" codeSystem="2.16.840.1.113883.6.1" displayName="WARNINGS AND PRECAUTIONS SECTION"/>
+               <title>5 WARNINGS AND PRECAUTIONS</title>
+               <text>
+                  <paragraph/>
+                  <paragraph/>
+               </text>
+               <effectiveTime value="20231001"/>
+               <component>
+                  <section ID="id_link_05489955-1262-bea4-e063-6294a90ac21a">
+                     <id root="05489955-1261-bea4-e063-6294a90ac21a"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>5.1 Use of Spinal Anesthetics During Uterine Contractions</title>
+                     <text>
+                        <paragraph>Spinal anesthetics including Bupivacaine Hydrochloride in Dextrose Injection, USP should not be injected during uterine contractions because cerebrospinal fluid current may carry the drug further cephalad than desired, resulting in a high motor block.</paragraph>
+                     </text>
+                     <effectiveTime value="20231001"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="id_link_054878e0-5549-6607-e063-6294a90a29d0">
+                     <id root="054878e0-5548-6607-e063-6294a90a29d0"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>5.2 Patients with Hypertension</title>
+                     <text>
+                        <paragraph>Sympathetic blockade due to spinal anesthesia may result in peripheral vasodilation and hypotension, the extent of which depends on the number of dermatomes blocked. Patients over 65 years, particularly those with hypertension, may be at increased risk for experiencing the hypotensive effects of Bupivacaine Hydrochloride in Dextrose Injection, USP. Monitor blood pressure frequently, especially in the early phases of anesthesia. Hypotension may be controlled by administration of vasoconstrictor agents in titrated dosages depending on the severity of hypotension and response to treatment. Monitor the onset of adequate spinal anesthesia because it is not always possible to control the level of anesthesia after subarachnoid injection of Bupivacaine Hydrochloride in Dextrose Injection, USP.</paragraph>
+                     </text>
+                     <effectiveTime value="20231001"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="id_link_0548a207-6668-6644-e063-6294a90a9520">
+                     <id root="0548a207-6667-6644-e063-6294a90a9520"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>5.3 Dose-Related Toxicity</title>
+                     <text>
+                        <paragraph>The safety and effectiveness of Bupivacaine Hydrochloride in Dextrose Injection, USP depend on proper dosage, correct technique, adequate precautions, and readiness for emergencies. Careful and constant monitoring of cardiovascular and respiratory (adequacy of oxygenation and ventilation) vital signs and the patient’s state of consciousness should be performed after injection of Bupivacaine Hydrochloride in Dextrose Injection, USP solutions.</paragraph>
+                        <paragraph/>
+                        <paragraph>Possible early warning signs of central nervous system (CNS) toxicity are restlessness, anxiety, incoherent speech, lightheadedness, numbness and tingling of the mouth and lips, metallic taste, tinnitus, dizziness, blurred vision, tremors, twitching, CNS depression, or drowsiness. Delay in proper management of dose-related toxicity, hypoventilation from any cause, and/or altered sensitivity may lead to the development of acidosis, cardiac arrest, and possibly death.</paragraph>
+                        <paragraph/>
+                        <paragraph>The patient should have an indwelling intravenous catheter to assure adequate intravenous access. Use the lowest dosage of Bupivacaine Hydrochloride in Dextrose Injection, USP that results in effective anesthesia to avoid serious adverse reactions. Avoid rapid injection of a large volume of Bupivacaine Hydrochloride in Dextrose Injection, USP.</paragraph>
+                        <paragraph/>
+                        <paragraph>Injection of repeated doses of Bupivacaine Hydrochloride in Dextrose Injection, USP may cause significant increases in plasma bupivacaine levels with each repeated dose due to slow accumulation of the drug or its metabolites, or to slow metabolic degradation. Tolerance to elevated blood levels varies with the status of the patient. Debilitated, elderly patients and acutely ill patients should be given reduced doses commensurate with their age and physical status. Reduced doses may be indicated in patients with increased intra-abdominal pressure (including obstetrical patients), if otherwise suitable for spinal anesthesia.</paragraph>
+                     </text>
+                     <effectiveTime value="20231001"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="id_link_0548b3f5-d5b5-cef1-e063-6394a90acb5d">
+                     <id root="054b1919-53cc-1ee0-e063-6394a90a2752"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>5.4 Risk of Systemic Toxicities with Unintended Intravascular Injection</title>
+                     <text>
+                        <paragraph>Unintended intravascular injection of Bupivacaine Hydrochloride in Dextrose Injection, USP may be associated with systemic toxicities, including CNS or cardiorespiratory depression and coma, progressing ultimately to respiratory arrest [
+  <content styleCode="italics">see 
+   <linkHtml href="#id_link_04d36e88-c8a6-9cb3-e063-6294a90a1493">Adverse Reactions (6)</linkHtml>
+                           </content>].
+ </paragraph>
+                        <paragraph/>
+                        <paragraph>Aspirate for blood and cerebrospinal fluid before injecting Bupivacaine Hydrochloride in Dextrose Injection, USP, for both the initial dose and all subsequent doses (where applicable), to confirm entry into the subarachnoid space and to avoid intravascular injection. Aspiration of cerebrospinal fluid into a Bupivacaine Hydrochloride in Dextrose Injection, USP-filled syringe will result in an identifiable swirl in the solution. A negative aspiration for blood does not ensure against an intravascular injection.</paragraph>
+                     </text>
+                     <effectiveTime value="20231001"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="id_link_05489b6a-a9b8-6609-e063-6294a90a95e0">
+                     <id root="054b1b7d-a82c-8108-e063-6294a90abc29"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>5.5 Methemoglobinemia</title>
+                     <text>
+                        <paragraph>Cases of methemoglobinemia have been reported in association with local anesthetic use. Although all patients are at risk for methemoglobinemia, patients with glucose 6 phosphate dehydrogenase deficiency, congenital or idiopathic methemoglobinemia, cardiac or pulmonary compromise, infants under 6 months of age, and concurrent exposure to oxidizing agents or their metabolites are more susceptible to developing clinical manifestations of the condition [
+  <content styleCode="italics">see 
+   <linkHtml href="#id_link_054a4a01-af38-7fc3-e063-6294a90a6b7e">Drug Interactions (7.2)</linkHtml>
+                           </content>]. If local anesthetics must be used in these patients, close monitoring for symptoms and signs of methemoglobinemia is recommended.
+ </paragraph>
+                        <paragraph/>
+                        <paragraph>Signs of methemoglobinemia may occur immediately or may be delayed some hours after exposure, and are characterized by a cyanotic skin discoloration and/or abnormal coloration of the blood. Methemoglobin levels may continue to rise; therefore, immediate treatment is required to avert more serious CNS and cardiovascular adverse effects, including seizures, coma, arrhythmias, and death. Discontinue Bupivacaine Hydrochloride in Dextrose Injection, USP and any other oxidizing agents. Depending on the severity of the signs and symptoms, patients may respond to supportive care, i.e., oxygen therapy, hydration. A more severe clinical presentation may require treatment with methylene blue, exchange transfusion, or hyperbaric oxygen.</paragraph>
+                     </text>
+                     <effectiveTime value="20231001"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="id_link_05488dfe-bd74-d0f2-e063-6394a90a94f4">
+                     <id root="05488dfe-bd73-d0f2-e063-6394a90a94f4"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>5.6 Risk of Cardiac Arrest with Use of Epidural Bupivacaine in Obstetrical Anesthesia</title>
+                     <text>
+                        <paragraph>There have been reports of cardiac arrest with difficult resuscitation or death during use of Bupivacaine Hydrochloride Injection, USP for epidural anesthesia in obstetrical patients. In most cases, this has followed use of Bupivacaine Hydrochloride Injection, USP 0.75%, not Bupivacaine Hydrochloride in Dextrose Injection, USP. The package insert for Bupivacaine Hydrochloride Injection, USP for epidural, nerve block, etc., has a more complete discussion of preparation for, and management of cardiac arrest following epidural administration. Bupivacaine Hydrochloride in Dextrose Injection, USP is recommended for spinal anesthesia in obstetrical patients.</paragraph>
+                     </text>
+                     <effectiveTime value="20231001"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="id_link_0548adb0-ee03-a63d-e063-6294a90a65d8">
+                     <id root="0548adb0-ee02-a63d-e063-6294a90a65d8"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>5.7 Chondrolysis with Intra-Articular Infusion</title>
+                     <text>
+                        <paragraph>Intra-articular infusions of local anesthetics including bupivacaine following arthroscopic and other surgical procedures is an unapproved use, and there have been post-marketing reports of chondrolysis in patients receiving such infusions. The majority of reported cases of chondrolysis have involved the shoulder joint; cases of gleno-humeral chondrolysis have been described in pediatric and adult patients following intra-articular infusions of local anesthetics with and without epinephrine for periods of 48 to 72 hours. There is insufficient information to determine whether shorter infusion periods are not associated with chondrolysis. The time of onset of symptoms, such as joint pain, stiffness, and loss of motion can be variable, but may begin as early as the 2
+  <sup>nd</sup> month after surgery. Currently, there is no effective treatment for chondrolysis; patients who experienced chondrolysis have required additional diagnostic and therapeutic procedures and some required arthroplasty or shoulder replacement.
+ </paragraph>
+                     </text>
+                     <effectiveTime value="20231001"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="id_link_0548f9c4-15b3-a2c2-e063-6394a90a9ba8">
+                     <id root="054b1919-53cd-1ee0-e063-6394a90a2752"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>5.8 Risk of Cardiac Arrest with Intravenous Regional Anesthesia Use (Bier Block)</title>
+                     <text>
+                        <paragraph>There have been reports of cardiac arrest and death during the use of bupivacaine for intravenous regional anesthesia (Bier Block). Information on safe dosages and techniques of administration of Bupivacaine Hydrochloride in Dextrose Injection, USP in this procedure is lacking. Therefore, Bupivacaine Hydrochloride in Dextrose Injection, USP is contraindicated for use with this technique [
+  <content styleCode="italics">see 
+   <linkHtml href="#id_link_04d253a3-3900-a920-e063-6394a90a9cb4">Contraindications (4)</linkHtml>
+                           </content>].
+ </paragraph>
+                     </text>
+                     <effectiveTime value="20231001"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="id_link_0548b3f5-d5b7-cef1-e063-6394a90acb5d">
+                     <id root="054b3edc-5940-6f0f-e063-6394a90a1db2"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>5.9 Patients with Severe Disturbances of Cardiac Rhythm, Shock, or Heart Block</title>
+                     <text>
+                        <paragraph>Consider alternate anesthetic techniques in patients with severe disturbances of cardiac rhythm, shock, or heart block [
+  <content styleCode="italics">see 
+   <linkHtml href="#id_link_04d253a3-3900-a920-e063-6394a90a9cb4">Contraindications (4)</linkHtml>
+                           </content>].
+ </paragraph>
+                     </text>
+                     <effectiveTime value="20231001"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="id_link_05490117-54e3-730a-e063-6394a90add73">
+                     <id root="054b40f0-3375-51db-e063-6394a90a6e92"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>5.10 Risk of Toxicity in Patients with Hepatic Impairment</title>
+                     <text>
+                        <paragraph>Because amide-type local anesthetics such as bupivacaine are metabolized by the liver, consider reduced dosing and increased monitoring for bupivacaine systemic toxicity in patients with moderate to severe hepatic impairment who are treated with Bupivacaine Hydrochloride in Dextrose Injection, USP [
+  <content styleCode="italics">see 
+   <linkHtml href="#id_link_0549232a-b7f6-89ad-e063-6294a90a88ca">Use in Specific Populations (8.6)</linkHtml>
+                           </content>]. Most information regarding dose-related hepatic impairment is based on larger dosages of bupivacaine administered for other neuraxial, peripheral nerve, or fascial plane blocks.
+ </paragraph>
+                     </text>
+                     <effectiveTime value="20231001"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="id_link_05491ce6-b821-4400-e063-6294a90ab4ea">
+                     <id root="05491ce6-b820-4400-e063-6294a90ab4ea"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>5.11 Risk of Use in Patients with Impaired Cardiovascular Function</title>
+                     <text>
+                        <paragraph>Bupivacaine Hydrochloride in Dextrose Injection, USP should be given in reduced doses in patients with impaired cardiovascular function (e.g., hypotension, heartblock, valvular abnormalities) because they may be less able to compensate for functional changes associated with the sympathetic blockade observed after subarachnoid administration of Bupivacaine Hydrochloride in Dextrose Injection, USP and the prolongation of AV conduction produced by the drug. Monitor patients closely for blood pressure, heart rate, and ECG changes.</paragraph>
+                     </text>
+                     <effectiveTime value="20231001"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_04d36e88-c8a6-9cb3-e063-6294a90a1493">
+               <id root="054b3edc-5941-6f0f-e063-6394a90a1db2"/>
+               <code code="34084-4" codeSystem="2.16.840.1.113883.6.1" displayName="ADVERSE REACTIONS SECTION"/>
+               <title>6 ADVERSE REACTIONS</title>
+               <text>
+                  <paragraph>The following clinically significant adverse reactions have been reported and described in other sections of the labeling:</paragraph>
+                  <list listType="unordered">
+                     <item>Allergic-Type Reactions [
+   <content styleCode="italics">see 
+    <linkHtml href="#id_link_04d253a3-3900-a920-e063-6394a90a9cb4">Contraindications (4)</linkHtml>
+                        </content>]
+  </item>
+                     <item>Dose-Related Toxicity [
+   <content styleCode="italics">see 
+    <linkHtml href="#id_link_0548a207-6668-6644-e063-6294a90a9520">Warnings and Precautions (5.3)</linkHtml>
+                        </content>]
+  </item>
+                     <item>Systemic Toxicities with Unintended Intravascular Injection [
+   <content styleCode="italics">see 
+    <linkHtml href="#id_link_0548b3f5-d5b5-cef1-e063-6394a90acb5d">Warnings and Precautions (5.4)</linkHtml>
+                        </content>]
+  </item>
+                     <item>Methemoglobinemia [
+   <content styleCode="italics">see 
+    <linkHtml href="#id_link_05489b6a-a9b8-6609-e063-6294a90a95e0">Warnings and Precautions (5.5)</linkHtml>]
+   </content>
+                     </item>
+                     <item>Cardiac Arrest in Obstetrical Anesthesia [
+   <content styleCode="italics">see 
+    <linkHtml href="#id_link_05488dfe-bd74-d0f2-e063-6394a90a94f4">Warnings and Precautions (5.6)</linkHtml>
+                        </content>]
+  </item>
+                     <item>Chondrolysis with Intra-Articular Infusion [
+   <content styleCode="italics">see 
+    <linkHtml href="#id_link_0548adb0-ee03-a63d-e063-6294a90a65d8">Warnings and Precautions (5.7)</linkHtml>
+                        </content>]
+  </item>
+                     <item>Cardiac Arrest with Intravenous Regional Anesthesia Use [
+   <content styleCode="italics">see 
+    <linkHtml href="#id_link_04d253a3-3900-a920-e063-6394a90a9cb4">Contraindications (4)</linkHtml>, 
+    <linkHtml href="#id_link_0548f9c4-15b3-a2c2-e063-6394a90a9ba8">Warnings and Precautions (5.8)</linkHtml>
+                        </content>]
+  </item>
+                  </list>
+                  <paragraph/>
+                  <paragraph>The following adverse reactions from voluntary reports or clinical studies have been reported with bupivacaine. Because many of these reactions were reported voluntarily from a population of uncertain size, it is not always possible to reliably estimate their frequency or establish a causal relationship to drug exposure.</paragraph>
+                  <paragraph/>
+                  <paragraph>Adverse reactions to Bupivacaine Hydrochloride in Dextrose Injection, USP are characteristic of those associated with other amide-type local anesthetics. A major cause of adverse reactions to Bupivacaine Hydrochloride in Dextrose Injection, USP is due to cephalad extension of the motor level of anesthesia and/or excessive plasma levels, which may be due to overdosage, unintentional intravascular injection, or slow metabolic degradation.</paragraph>
+                  <paragraph/>
+                  <paragraph>The most commonly encountered acute adverse reactions that demand immediate counter-measures following the administration of spinal anesthesia were hypotension due to loss of sympathetic tone and respiratory paralysis or underventilation due to cephalad extension of the motor level of anesthesia. These have led to cardiac arrest if untreated. In addition, dose-related convulsions and cardiovascular collapse have resulted from diminished tolerance, rapid absorption from the injection site, or from unintentional intravascular injection of a local anesthetic solution.</paragraph>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph>
+                     <content styleCode="underline">Respiratory System</content>: Respiratory paralysis or underventilation have been noted as a result of cephalad spread of spinal anesthesia and has led to secondary hypoxic cardiac arrest when untreated. Preanesthetic medication, intraoperative anesthetics, analgesics, and sedatives, as well as surgical manipulation, may contribute to underventilation. This has usually been noted within minutes of the injection of spinal anesthetic solution, but because of differing maximal onset times, differing intercurrent drug usage, and differing surgical manipulation, it may occur at any time during surgery or the immediate recovery period.
+ </paragraph>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph>
+                     <content styleCode="underline">Cardiac Disorders</content>: Hypotension due to loss of sympathetic tone has been commonly encountered following spinal anesthesia. This has been more commonly observed in elderly patients, particularly those with hypertension, and patients with reduced blood volume, reduced interstitial fluid volume, cephalad spread of the local anesthetic, and/or mechanical obstruction of venous return. Nausea and vomiting have been frequently associated with hypotensive episodes following the administration of spinal anesthesia. High doses, or inadvertent intravascular injection, have led to high plasma levels and related depression of the myocardium, decreased cardiac output, bradycardia, heart block, ventricular arrhythmias, and cardiac arrest [
+  <content styleCode="italics">see 
+   <linkHtml href="#id_link_0548b3f5-d5b5-cef1-e063-6394a90acb5d">Warnings and Precautions (5.4)</linkHtml>
+                     </content>].
+ </paragraph>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph>
+                     <content styleCode="underline">Nervous System Disorders</content>: Respiratory paralysis or underventilation secondary to cephalad spread of the level of spinal anesthesia (see 
+  <content styleCode="italics">
+                        <linkHtml href="#">Respiratory System</linkHtml>
+                     </content>) and hypotension for the same reason (see 
+  <content styleCode="italics">
+                        <linkHtml href="#">Cardiac Disorders</linkHtml>
+                     </content>) have been the two most commonly encountered CNS-related adverse observations which demand immediate counter-measures.
+ </paragraph>
+                  <paragraph/>
+                  <paragraph>High doses or inadvertent intravascular injection have led to high plasma levels and related CNS toxicity. Adverse reactions were characterized by excitation and/or depression of the CNS and included restlessness, anxiety, dizziness, tinnitus, blurred vision, tremors, convulsions, drowsiness, unconsciousness, and respiratory arrest.</paragraph>
+                  <paragraph/>
+                  <paragraph>The incidences of adverse neurologic reactions associated with the use of local anesthetics may be related to the total dose of local anesthetic administered and are also dependent upon the particular drug used, the route of administration, and the physical status of the patient.</paragraph>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph>
+                     <content styleCode="underline">Convulsions</content>: Incidence varied with the procedure used and the total dose administered. In a survey of studies of epidural anesthesia, overt toxicity progressing to convulsions occurred in approximately 0.1% of local anesthetic administrations. The incidences of adverse neurologic reactions associated with the use of local anesthetics may be related to the total dose of local anesthetic administered and are also dependent upon the particular drug used, the route of administration, and the physical status of the patient.
+ </paragraph>
+                  <paragraph/>
+                  <paragraph>Neurologic effects following spinal anesthesia have included loss of perineal sensation and sexual function; persistent anesthesia, paresthesia, weakness and paralysis of the lower extremities, and loss of sphincter control with slow, incomplete, or no recovery; hypotension, high or total spinal block; urinary retention; headache; backache; septic meningitis, meningismus; arachnoiditis; slowing of labor; increased incidence of forceps delivery; shivering; cranial nerve palsies due to traction on nerves from loss of cerebrospinal fluid; and fecal and urinary incontinence.</paragraph>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph>
+                     <content styleCode="underline">Immune System Disorders</content>: Allergic-type reactions have occurred as a result of sensitivity to bupivacaine. These reactions were characterized by signs such as urticaria, pruritus, erythema, angioneurotic edema (including laryngeal edema), tachycardia, sneezing, nausea, vomiting, dizziness, syncope, excessive sweating, elevated temperature, and severe hypotension. Cross sensitivity among members of the amide-type local anesthetic group has been reported.
+ </paragraph>
+               </text>
+               <effectiveTime value="20231001"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_04d43dde-e6fd-0d4a-e063-6294a90ac3fc">
+               <id root="054a255a-a207-193a-e063-6394a90a13f0"/>
+               <code code="34073-7" codeSystem="2.16.840.1.113883.6.1" displayName="DRUG INTERACTIONS SECTION"/>
+               <title>7 DRUG INERACTIONS</title>
+               <text>
+                  <paragraph>
+                     <br/>
+                  </paragraph>
+                  <paragraph/>
+               </text>
+               <effectiveTime value="20231001"/>
+               <component>
+                  <section ID="id_link_054a5b67-35bd-71bd-e063-6394a90a18da">
+                     <id root="054b54de-ec50-50df-e063-6394a90a1730"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>7.1 Local Anesthetics</title>
+                     <text>
+                        <paragraph>The toxic effects of local anesthetics are additive. If coadministration of other local anesthetics with Bupivacaine Hydrochloride in Dextrose Injection, USP cannot be avoided, monitor patients for neurologic and cardiovascular effects related to local anesthetic systemic toxicity [
+  <content styleCode="italics">see 
+   <linkHtml href="#id_link_054807d9-0ec2-0761-e063-6394a90a9413">Dosage and Administration (2.1)</linkHtml>, 
+   <linkHtml href="#id_link_0548a207-6668-6644-e063-6294a90a9520">Warnings and Precautions (5.3)</linkHtml>
+                           </content>].
+ </paragraph>
+                     </text>
+                     <effectiveTime value="20231001"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="id_link_054a4a01-af38-7fc3-e063-6294a90a6b7e">
+                     <id root="054b56d5-3f58-8857-e063-6394a90a98ca"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>7.2 Drugs Associated with Methemoglobinemia</title>
+                     <text>
+                        <paragraph>Patients who are administered Bupivacaine Hydrochloride in Dextrose Injection, USP are at increased risk of developing methemoglobinemia when concurrently exposed to the following drugs, which could include other local anesthetics [
+  <content styleCode="italics">see 
+   <linkHtml href="#id_link_05489b6a-a9b8-6609-e063-6294a90a95e0">Warnings and Precautions (5.5)</linkHtml>
+                           </content>].
+ </paragraph>
+                        <paragraph/>
+                        <paragraph/>
+                        <paragraph>
+                           <content styleCode="bold">Examples of Drugs Associated with Methemoglobinemia:</content>
+                        </paragraph>
+                        <table border="0" width="100%">
+                           <tbody>
+                              <tr>
+                                 <th>
+                                    <content styleCode="bold">Class</content>
+                                 </th>
+                                 <th>
+                                    <content styleCode="bold">Examples</content>
+                                 </th>
+                              </tr>
+                              <tr>
+                                 <td>Nitrates/Nitrites</td>
+                                 <td>nitric oxide, nitroglycerin, nitroprusside, nitrous oxide</td>
+                              </tr>
+                              <tr>
+                                 <td>Local anesthetics</td>
+                                 <td>articaine, benzocaine, bupivacaine, lidocaine, mepivacaine, prilocaine, procaine, ropivacaine, tetracaine</td>
+                              </tr>
+                              <tr>
+                                 <td>Antineoplastic agents</td>
+                                 <td>cyclophosphamide, flutamide, hydroxyurea, isofamide, rasburicase</td>
+                              </tr>
+                              <tr>
+                                 <td>Antibiotics</td>
+                                 <td>dapsone, nitrofurantoin, para-aminosalicylic acid, sulfonamides</td>
+                              </tr>
+                              <tr>
+                                 <td>Antimalarials</td>
+                                 <td>chloroquine, primaquine</td>
+                              </tr>
+                              <tr>
+                                 <td>Anticonvulsants</td>
+                                 <td>phenobarbital, phenytoin, sodium valproate</td>
+                              </tr>
+                              <tr>
+                                 <td>Other drugs</td>
+                                 <td>acetaminophen, metoclopramide, quinine, sulfasalazine</td>
+                              </tr>
+                           </tbody>
+                        </table>
+                        <paragraph/>
+                     </text>
+                     <effectiveTime value="20231001"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_04d44fca-736c-4b34-e063-6294a90a61d6">
+               <id root="05493f7b-7c45-76ef-e063-6394a90a2976"/>
+               <code code="43684-0" codeSystem="2.16.840.1.113883.6.1" displayName="USE IN SPECIFIC POPULATIONS SECTION"/>
+               <title>8 USE IN SPECIFIC POPULATIONS</title>
+               <text>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph/>
+               </text>
+               <effectiveTime value="20231001"/>
+               <component>
+                  <section ID="id_link_05492689-9523-052b-e063-6294a90ae43d">
+                     <id root="054b5e37-1933-f03a-e063-6294a90a3d5d"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>8.1 Pregnancy</title>
+                     <text>
+                        <paragraph>
+                           <content styleCode="underline">Risk Summary</content>
+                        </paragraph>
+                        <paragraph/>
+                        <paragraph>The available data on the use of Bupivacaine Hydrochloride in Dextrose Injection, USP in pregnant women do not establish the presence or absence of developmental toxicity related to the use of Bupivacaine Hydrochloride in Dextrose Injection, USP.</paragraph>
+                        <paragraph/>
+                        <paragraph/>
+                        <paragraph>In animal studies, embryo-fetal lethality was noted when bupivacaine was administered subcutaneously to pregnant rabbits during organogenesis and decreased pup survival was observed in a rat pre-and post-natal developmental study (dosing from implantation through weaning). These effects were observed at dose levels approximately 30 times the daily maximum recommended human dose (MRHD) on a body surface area (BSA) basis. Based on animal data, advise pregnant women of the potential risk to a fetus (
+  <content styleCode="italics">see 
+   <linkHtml href="#">Data</linkHtml>
+                           </content>).
+ </paragraph>
+                        <paragraph/>
+                        <paragraph/>
+                        <paragraph>Local anesthetics rapidly cross the placenta, and when used for epidural, caudal, or pudendal block anesthesia, can cause varying degrees of maternal, fetal, and neonatal toxicity [
+  <content styleCode="italics">see 
+   <linkHtml href="#id_link_05499f15-d9e4-02ff-e063-6394a90a3efe">Clinical Pharmacology (12.3)</linkHtml>
+                           </content>]. The incidence and degree of toxicity depend upon the procedure performed, the type, and amount of drug used, and the technique of drug administration. Adverse reactions in the parturient, fetus, and neonate involve alterations of the CNS, peripheral vascular tone, and cardiac function.
+ </paragraph>
+                        <paragraph/>
+                        <paragraph>If this drug is used during pregnancy or if the patient becomes pregnant while taking this drug, inform the patient of the potential hazard to the fetus. The estimated background risk of major birth defects and miscarriage for the indicated populations are unknown. In the U.S. general population, the estimated background risk of major birth defects and miscarriage in clinically recognized pregnancies is 2-4% and 15-20%, respectively.</paragraph>
+                        <paragraph/>
+                        <paragraph/>
+                        <paragraph>
+                           <content styleCode="underline">Clinical Considerations</content>
+                        </paragraph>
+                        <paragraph/>
+                        <paragraph/>
+                        <paragraph>
+                           <content styleCode="italics">Maternal Adverse Reactions</content>
+                        </paragraph>
+                        <paragraph>Maternal hypotension has resulted from regional and neuraxial anesthesia. Local anesthetics produce vasodilation by blocking sympathetic nerves. The supine position is dangerous in pregnant women at term because of aortocaval compression by the gravid uterus. Therefore, during treatment of systemic toxicity, maternal hypotension, or fetal bradycardia following regional or neuraxial block, the parturient should be maintained in the left lateral decubitus position if possible, or manual displacement of the uterus off the great vessels be accomplished. Elevating the patient’s legs and right-side-up positioning will help prevent decreases in blood pressure. The fetal heart rate also should be monitored continuously and electronic fetal monitoring is highly advisable.</paragraph>
+                        <paragraph/>
+                        <paragraph/>
+                        <paragraph>
+                           <content styleCode="italics">Labor or Delivery</content>
+                        </paragraph>
+                        <paragraph>Spinal anesthesia is commonly used during labor and delivery. Bupivacaine hydrochloride, when administered properly, via the epidural route in doses 10 to 12 times the amount used in spinal anesthesia has been used for obstetrical analgesia and anesthesia without evidence of adverse effects on the fetus.</paragraph>
+                        <paragraph/>
+                        <paragraph>Spinal anesthesia may alter the forces of parturition through changes in uterine contractility or maternal expulsive efforts. Spinal anesthesia has also been reported to prolong the second stage of labor by removing the parturient’s reflex urge to bear down or by interfering with motor function. The use of obstetrical anesthesia may increase the need for forceps assistance.</paragraph>
+                        <paragraph/>
+                        <paragraph>The use of some local anesthetic drug products during labor and delivery may be followed by diminished muscle strength and tone for the first day or two of life. This has not been reported with bupivacaine.</paragraph>
+                        <paragraph/>
+                        <paragraph>It is extremely important to avoid aortocaval compression by the gravid uterus during administrations of regional or neuraxial block to parturients. To do this, the patient must be maintained in the left lateral decubitus position or a blanket roll or sandbag may be placed beneath the right hip and the gravid uterus displaced to the left.</paragraph>
+                        <paragraph/>
+                        <paragraph/>
+                        <paragraph>
+                           <content styleCode="underline">Data</content>
+                        </paragraph>
+                        <paragraph/>
+                        <paragraph/>
+                        <paragraph>
+                           <content styleCode="italics">Animal Data</content>
+                        </paragraph>
+                        <paragraph>Bupivacaine hydrochloride produced developmental toxicity when administered subcutaneously to pregnant rats and rabbits at doses 30-times the MHRD.</paragraph>
+                        <paragraph/>
+                        <paragraph/>
+                        <paragraph>Bupivacaine hydrochloride was administered subcutaneously to rats at doses of 4.4, 13.3, and 40 mg/kg and to rabbits at doses of 1.3, 5.8, and 22.2 mg/kg during the period of organogenesis (implantation to closure of the hard palate). The high doses are approximately 30-times the daily MRHD of 12 mg/day on a mg dose/m2 BSA basis. No embryo-fetal effects were observed in rats at the high dose which caused increased maternal lethality. An increase in embryo-fetal deaths was observed in rabbits at the high dose in the absence of maternal toxicity with the fetal No Observed Adverse Effect Level being approximately 8-times the MRHD on a BSA basis.</paragraph>
+                        <paragraph/>
+                        <paragraph/>
+                        <paragraph>In a rat pre-and post-natal development study (dosing from implantation through weaning) conducted at subcutaneous doses of 4.4, 13.3, and 40 mg/kg, decreased pup survival was observed at the high dose. The high dose is approximately 30-times the daily MRHD of 12 mg/day on a BSA basis.</paragraph>
+                     </text>
+                     <effectiveTime value="20231001"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="id_link_0548f9c4-15b6-a2c2-e063-6394a90a9ba8">
+                     <id root="0548f9c4-15b5-a2c2-e063-6394a90a9ba8"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>8.2 Lactation </title>
+                     <text>
+                        <paragraph>
+                           <content styleCode="underline">Risk Summary</content>
+                        </paragraph>
+                        <paragraph/>
+                        <paragraph>Lactation studies have not been conducted with bupivacaine. Bupivacaine has been reported to be excreted in human milk suggesting that the nursing infant could be theoretically exposed to a dose of the drug. Bupivacaine Hydrochloride in Dextrose Injection, USP should be administered to lactating women only if clearly indicated. Studies assessing the effects of Bupivacaine Hydrochloride in Dextrose Injection, USP in breastfed children have not been performed. Studies to assess the effect of Bupivacaine Hydrochloride in Dextrose Injection, USP on milk production or excretion have not been performed. The developmental and health benefits of breastfeeding should be considered along with the mother’s clinical need for bupivacaine and any potential adverse effects on the breastfed child from bupivacaine or from the underlying maternal condition.</paragraph>
+                     </text>
+                     <effectiveTime value="20231001"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="id_link_05493ab3-757b-a862-e063-6294a90ae6e7">
+                     <id root="05493ab3-757a-a862-e063-6294a90ae6e7"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>8.4 Pediatric Use</title>
+                     <text>
+                        <paragraph>Bupivacaine Hydrochloride in Dextrose Injection, USP is approved for use in adults only. Administration of Bupivacaine Hydrochloride in Dextrose Injection, USP in patients younger than 18 is not recommended.</paragraph>
+                     </text>
+                     <effectiveTime value="20231001"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="id_link_05492689-9525-052b-e063-6294a90ae43d">
+                     <id root="054b62ed-0d08-82cd-e063-6294a90ac947"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>8.5 Geriatric Use</title>
+                     <text>
+                        <paragraph>Patients 65 years and over, particularly those with hypertension, may be at increased risk for developing hypotension while undergoing spinal anesthesia with Bupivacaine Hydrochloride in Dextrose Injection, USP.</paragraph>
+                        <paragraph/>
+                        <paragraph>In clinical studies of bupivacaine, elderly patients exhibited a greater spread and higher maximal level of anesthesia than younger patients. Elderly patients also reached the maximal level of anesthesia more rapidly than younger patients, and exhibited a faster onset of motor blockade.</paragraph>
+                        <paragraph/>
+                        <paragraph>Differences in various pharmacokinetic parameters have been observed between elderly and younger patients [
+  <content styleCode="italics">see 
+   <linkHtml href="#id_link_05499f15-d9e4-02ff-e063-6394a90a3efe">Clinical Pharmacology (12.3)</linkHtml>
+                           </content>].
+ </paragraph>
+                        <paragraph/>
+                        <paragraph>This product is known to be substantially excreted by the kidney, and the risk of adverse reactions to this drug may be greater in patients with impaired renal function. Because elderly patients are more likely to have decreased renal function, care should be taken in dose selection, and it may be useful to monitor renal function. Elderly patients may require lower doses of Bupivacaine Hydrochloride in Dextrose Injection, USP.</paragraph>
+                     </text>
+                     <effectiveTime value="20231001"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="id_link_0549232a-b7f6-89ad-e063-6294a90a88ca">
+                     <id root="054b6693-23ea-82db-e063-6294a90a7fba"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>8.6 Hepatic Impairment</title>
+                     <text>
+                        <paragraph>Amide-type local anesthetics, such as bupivacaine, are metabolized by the liver. Patients with severe hepatic impairment, because of their inability to metabolize local anesthetics normally, are at a greater risk of developing toxic plasma concentrations, and potentially local anesthetic systemic toxicity. Therefore, consider reduced dosing and increased monitoring for local anesthetic systemic toxicity in patients with moderate to severe hepatic impairment treated with Bupivacaine Hydrochloride in Dextrose Injection, USP [
+  <content styleCode="italics">see 
+   <linkHtml href="#id_link_05490117-54e3-730a-e063-6394a90add73">Warnings and Precautions (5.10)</linkHtml>
+                           </content>].
+ </paragraph>
+                     </text>
+                     <effectiveTime value="20231001"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="id_link_0549299d-1aef-7869-e063-6394a90a89c9">
+                     <id root="054b5e37-1934-f03a-e063-6294a90a3d5d"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>8.7 Renal Impairment</title>
+                     <text>
+                        <paragraph>Bupivacaine is known to be substantially excreted by the kidney, and the risk of adverse reactions to this drug may be greater in patients with renal impairment. This should be considered when selecting the Bupivacaine Hydrochloride in Dextrose Injection, USP dosage [
+  <content styleCode="italics">see 
+   <linkHtml href="#id_link_05492689-9525-052b-e063-6294a90ae43d">Use in Specific Populations (8.5)</linkHtml>
+                           </content>].
+ </paragraph>
+                     </text>
+                     <effectiveTime value="20231001"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_04d66fd8-19db-e1e7-e063-6394a90a1ad8">
+               <id root="054b6ed4-6579-0827-e063-6294a90a3bde"/>
+               <code code="34088-5" codeSystem="2.16.840.1.113883.6.1" displayName="OVERDOSAGE SECTION"/>
+               <title>10 OVERDOSAGE</title>
+               <text>
+                  <paragraph>
+                     <content styleCode="underline">Clinical Presentation</content>
+                  </paragraph>
+                  <paragraph>Acute emergencies from Bupivacaine Hydrochloride in Dextrose Injection, USP are generally related to hypoventilation (and perhaps apnea) secondary to upward extension of spinal anesthesia or high plasma levels encountered during therapeutic use [
+  <content styleCode="italics">see 
+   <linkHtml href="#id_link_0548a207-6668-6644-e063-6294a90a9520">Warnings and Precautions (5.3)</linkHtml>, 
+   <linkHtml href="#id_link_04d36e88-c8a6-9cb3-e063-6294a90a1493">Adverse Reactions (6)</linkHtml>
+                     </content>]. Hypotension is commonly encountered during the conduct of spinal anesthesia due to loss of sympathetic tone, and sometimes, contributory mechanical obstruction of venous return due to the gravid uterus exerting pressure on the great vessels [
+  <content styleCode="italics">see 
+   <linkHtml href="#id_link_054878e0-5549-6607-e063-6294a90a29d0">Warnings and Precautions (5.2)</linkHtml>, 
+   <linkHtml href="#id_link_04d36e88-c8a6-9cb3-e063-6294a90a1493">Adverse Reactions (6)</linkHtml>
+                     </content>].
+ </paragraph>
+                  <paragraph>If not treated immediately, convulsions with simultaneous hypoxia, hypercarbia, and acidosis plus myocardial depression from the direct effects of the local anesthetic may result in cardiac arrhythmias, bradycardia, asystole, ventricular fibrillation, or cardiac arrest. Respiratory abnormalities, including apnea, may occur. Hypoventilation or apnea due to a high or total spinal may produce these same signs and also lead to cardiac arrest if ventilatory support is not instituted. If cardiac arrest should occur, successful outcome may require prolonged resuscitative efforts.</paragraph>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph>
+                     <content styleCode="underline">Management</content>
+                  </paragraph>
+                  <paragraph>The first step in the management of systemic toxic reactions, as well as hypoventilation or apnea due to a high or total spinal, consists of 
+  <content styleCode="underline">immediate</content> attention to the establishment and maintenance of a patent airway and effective assisted or controlled ventilation with 100% oxygen with a delivery system capable of permitting immediate positive airway pressure by mask. Endotracheal intubation, using drugs and techniques familiar to the clinician, may be indicated after initial administration of oxygen by mask if difficulty is encountered in the maintenance of a patent airway, or if prolonged ventilatory support (assisted or controlled) is indicated.
+ </paragraph>
+                  <paragraph>If necessary, use drugs to manage the convulsions. A bolus intravenous dose of benzodiazepine will counteract the CNS stimulation related to Bupivacaine Hydrochloride in Dextrose Injection, USP. Immediately after the institution of ventilatory measures, evaluate the adequacy of the circulation. Supportive treatment of circulatory depression may require Advanced Cardiac Life Support measures.</paragraph>
+                  <paragraph>Hypotension due to sympathetic relaxation may be managed by giving intravenous fluids (such as isotonic saline or lactated Ringer’s solution), in an attempt to relieve mechanical obstruction of venous return, or by using vasopressor agents (such as ephedrine which increases myocardial contractility) and, if indicated, by giving plasma expanders or blood products.</paragraph>
+               </text>
+               <effectiveTime value="20231001"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_2dc92556-ca5c-608c-e054-00144ff88e88">
+               <id root="04d67401-845e-b027-e063-6294a90af95a"/>
+               <code code="34089-3" codeSystem="2.16.840.1.113883.6.1" displayName="DESCRIPTION SECTION"/>
+               <title>11 DESCRIPTION</title>
+               <text>
+                  <paragraph>Bupivacaine Hydrochloride in Dextrose Injection, USP is an amide-local anesthetic and sterile hyperbaric aqueous solution. The route of administration for Bupivacaine Hydrochloride in Dextrose Injection, USP is by subarachnoid injection. Bupivacaine Hydrochloride in Dextrose Injection, USP contains bupivacaine hydrochloride, as the active pharmaceutical ingredient and also contains Dextrose, as baricity agent.</paragraph>
+                  <paragraph>Bupivacaine Hydrochloride (monohydrate) chemical name is 2-piperidinecarboxamide, 1-butyl-N-(2,6­dimethylphenyl)-, monohydrochloride, monohydrate, a white crystalline powder that is freely soluble in 95 percent ethanol, soluble in water, and slightly soluble in chloroform or acetone. Bupivacaine Hydrochloride (monohydrate) has a molecular formula of C18H28N2O·HCl·H2O and molecular weight of 342.90 g/mol and has the following structural formula:</paragraph>
+                  <paragraph/>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="Laabf7ed6-d253-4bb5-98d8-23b5fb6ee092"/>
+                  </paragraph>
+                  <paragraph>Dextrose chemical name is D-glucopyranose. Dextrose (anhydrous) has a molecular formula of C6H12O6, molecular weight of 180.16 g/mol and has the following structural formula:</paragraph>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="img_04d27357-2023-5a4e-e063-6294a90a22d8"/>
+                  </paragraph>
+                  <paragraph>Bupivacaine Hydrochloride in Dextrose Injection, USP is a clear and colorless sterile hyperbaric solution.</paragraph>
+                  <paragraph>Each mL of Bupivacaine Hydrochloride in Dextrose Injection, USP contains 7.5 mg bupivacaine hydrochloride (anhydrous) (equivalent to 7.9 mg of bupivacaine hydrochloride monohydrate), 82.5 mg dextrose (anhydrous) as baricity agent, and sodium hydroxide and hydrochloric acid as pH adjusters in water for injection.</paragraph>
+                  <paragraph>Bupivacaine Hydrochloride in Dextrose Injection, USP pH is between 4.0 and 6.5.</paragraph>
+                  <paragraph>The specific gravity of Bupivacaine Hydrochloride in Dextrose Injection, USP is between 1.030 and 1.035 at 25°C and 1.03 at 37°C.</paragraph>
+                  <paragraph>Bupivacaine Hydrochloride in Dextrose Injection, USP does not contain any preservatives.</paragraph>
+               </text>
+               <effectiveTime value="20231001"/>
+               <component>
+                  <observationMedia ID="Laabf7ed6-d253-4bb5-98d8-23b5fb6ee092">
+                     <text>Bupivacaine Formula</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="bupivacaine-formula.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="img_04d27357-2023-5a4e-e063-6294a90a22d8">
+                     <text>dextrose(anhydrous)-formula</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="dextrose(anhydrous)-formula.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_04d6b459-c772-920d-e063-6394a90adf0f">
+               <id root="0549b80f-1ca3-6b14-e063-6394a90a0555"/>
+               <code code="34090-1" codeSystem="2.16.840.1.113883.6.1" displayName="CLINICAL PHARMACOLOGY SECTION"/>
+               <title>12 CLINICAL PHARMACOLOGY</title>
+               <text>
+                  <paragraph>12 CLINICAL PHARMACOLOGY</paragraph>
+               </text>
+               <effectiveTime value="20231001"/>
+               <component>
+                  <section ID="id_link_05499a1e-8b25-a0ca-e063-6294a90a3358">
+                     <id root="05499f15-d9e2-02ff-e063-6394a90a3efe"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>12.1 Mechanism of Action</title>
+                     <text>
+                        <paragraph>Bupivacaine blocks the generation and the conduction of nerve impulses, presumably by increasing the threshold for electrical excitation in the nerve, by slowing the propagation of the nerve impulse, and by reducing the rate of rise of the action potential. In general, the progression of anesthesia is related to the diameter, myelination, and conduction velocity of affected nerve fibers. Clinically, the order of loss of nerve function is as follows: (1) pain, (2) temperature, (3) touch, (4) proprioception, and (5) skeletal muscle tone.</paragraph>
+                     </text>
+                     <effectiveTime value="20231001"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="id_link_0549232a-b7f8-89ad-e063-6294a90a88ca">
+                     <id root="054b3edc-5942-6f0f-e063-6394a90a1db2"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>12.2 Pharmacodynamics</title>
+                     <text>
+                        <paragraph>Systemic absorption of bupivacaine produces effects on the cardiovascular system and CNS. At blood concentrations achieved with normal therapeutic doses, changes in cardiac conduction, excitability, refractoriness, contractility, and peripheral vascular resistance are minimal. However, toxic blood concentrations depress cardiac conduction and excitability, which may lead to atrioventricular block, ventricular arrhythmias, and cardiac arrest, sometimes resulting in fatalities. In addition, myocardial contractility is depressed and peripheral vasodilation occurs, leading to decreased cardiac output and arterial blood pressure. These cardiovascular changes are more likely to occur after unintended intravascular injection of bupivacaine [
+  <content styleCode="italics">see 
+   <linkHtml href="#id_link_0548b3f5-d5b5-cef1-e063-6394a90acb5d">Warnings and Precautions (5.4)</linkHtml>
+                           </content>].
+ </paragraph>
+                        <paragraph/>
+                        <paragraph>Following systemic absorption, bupivacaine can produce CNS stimulation, CNS depression, or both. Apparent central stimulation is manifested as restlessness, tremors and shivering, progressing to convulsions, followed by CNS depression and coma progressing ultimately to respiratory arrest. However, bupivacaine has a primary depressant effect on the medulla and on higher centers. The depressed stage may occur without a prior excited stage.</paragraph>
+                        <paragraph/>
+                        <paragraph>The duration of local anesthesia after administration of Bupivacaine Hydrochloride in Dextrose Injection, USP is longer than that observed after administration of other commonly used short-acting local anesthetic. There appears to be a period of analgesia that persists after the resolution of the block and the return of sensation.</paragraph>
+                        <paragraph/>
+                        <paragraph>The onset of sensory blockade following spinal block with Bupivacaine Hydrochloride in Dextrose Injection, USP is rapid (generally within one minute); maximum motor blockade and maximum dermatome level are achieved within 15 minutes in most cases. Duration of sensory blockade (time to return of complete sensation in the operative site or regression of two dermatomes) following Bupivacaine Hydrochloride in Dextrose Injection, USP 12 mg averages 2 hours with or without 0.2 mg epinephrine. The time to return of complete motor ability with Bupivacaine Hydrochloride in Dextrose Injection, USP 12 mg averages 3.5 hours without the addition of epinephrine and 4.5 hours if 0.2 mg epinephrine is added. When compared to equal milligram doses of hyperbaric tetracaine, the duration of sensory blockade was the same, but the time to complete motor recovery was longer for tetracaine. Addition of 0.2 mg epinephrine prolongs the motor blockade and time to first postoperative opioid with Bupivacaine Hydrochloride in Dextrose Injection, USP.</paragraph>
+                     </text>
+                     <effectiveTime value="20231001"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="id_link_05499f15-d9e4-02ff-e063-6394a90a3efe">
+                     <id root="054b5e37-1935-f03a-e063-6294a90a3d5d"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>12.3 Pharmacokinetics</title>
+                     <text>
+                        <paragraph>Systemic plasma levels of bupivacaine following administration of Bupivacaine Hydrochloride in Dextrose Injection, USP do not correlate with local efficacy.</paragraph>
+                        <paragraph/>
+                        <paragraph>
+                           <content styleCode="underline">Absorption</content>
+                        </paragraph>
+                        <paragraph>The rate of systemic absorption of bupivacaine is dependent upon the total dose and concentration of drug administered, the route of administration, the vascularity of the administration site, and the presence or absence of epinephrine in the anesthetic solution. A dilute concentration of epinephrine (1:200,000) usually reduces the rate of absorption and peak plasma concentration of bupivacaine, permitting the use of moderately larger total doses and sometimes prolonging the duration of action.</paragraph>
+                        <paragraph/>
+                        <paragraph>
+                           <content styleCode="underline">Distribution</content>
+                        </paragraph>
+                        <paragraph>Bupivacaine appears to cross the placenta by passive diffusion. The rate and degree of diffusion is governed by</paragraph>
+                        <paragraph>(1) the degree of plasma protein binding, (2) the degree of ionization, and (3) the degree of lipid solubility. Fetal/maternal ratios of bupivacaine appear to be inversely related to the degree of plasma protein binding, because only the free, unbound drug is available for placental transfer. Bupivacaine with a high protein binding capacity (95%) has a low fetal/maternal ratio (0.2 to 0.4). The extent of placental transfer is also determined by the degree of ionization and lipid solubility of the drug. Lipid soluble, nonionized drugs readily enter the fetal blood from the maternal circulation.</paragraph>
+                        <paragraph/>
+                        <paragraph>Depending upon the route of administration, bupivacaine is distributed to some extent to all body tissues, with high concentrations found in highly perfused organs such as the liver, lungs, heart, and brain.</paragraph>
+                        <paragraph/>
+                        <paragraph>Pharmacokinetic studies on the plasma profiles of bupivacaine after direct intravenous injection (Bupivacaine Hydrochloride in Dextrose Injection, USP is not approved for intravenous use, and contraindicated for intravenous regional block, i.e. Bier Block) suggest a three-compartment open model. The first compartment is represented by the rapid intravascular distribution of the drug. The second compartment represents the equilibration of the drug throughout the highly perfused organs such as the brain, myocardium, lungs, kidneys, and liver. The third compartment represents an equilibration of the drug with poorly perfused tissues, such as muscle and fat.</paragraph>
+                        <paragraph/>
+                        <paragraph>
+                           <content styleCode="underline">Elimination</content>
+                        </paragraph>
+                        <paragraph>The half-life of bupivacaine in adults is 2.7 hours.</paragraph>
+                        <paragraph/>
+                        <paragraph>
+                           <content styleCode="italics">Metabolism</content>
+                        </paragraph>
+                        <paragraph>Amide-type local anesthetics such as bupivacaine are metabolized primarily in the liver via conjugation with glucuronic acid. Pipecoloxylidine is the major metabolite of bupivacaine. The elimination of drug from tissue distribution depends largely upon the ability of binding sites in the circulation to carry it to the liver where it is metabolized.</paragraph>
+                        <paragraph/>
+                        <paragraph>
+                           <content styleCode="italics">Excretion</content>
+                        </paragraph>
+                        <paragraph>The kidney is the main excretory organ for most local anesthetics and their metabolites. Urinary excretion is affected by urinary perfusion and factors affecting urinary pH. Only 6% of bupivacaine is excreted unchanged in the urine.</paragraph>
+                        <paragraph/>
+                        <paragraph>
+                           <content styleCode="underline">Specific Populations</content>
+                        </paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Geriatric Patients</content>
+                        </paragraph>
+                        <paragraph>The total plasma clearance was decreased and the terminal half-life was lengthened in these patients.</paragraph>
+                        <paragraph/>
+                        <paragraph>
+                           <content styleCode="italics">Patients with Hepatic Impairment</content>
+                        </paragraph>
+                        <paragraph>Various pharmacokinetic parameters of the local anesthetics can be significantly altered by the presence of hepatic disease. Patients with hepatic disease, especially those with severe hepatic disease, may be more susceptible to the potential toxicities of the amide-type local anesthetics [
+  <content styleCode="italics">see 
+   <linkHtml href="#id_link_0549232a-b7f6-89ad-e063-6294a90a88ca">Use in Specific Populations (8.6)</linkHtml>
+                           </content>].
+ </paragraph>
+                        <paragraph/>
+                        <paragraph>
+                           <content styleCode="italics">Patients with Renal Impairment</content>
+                        </paragraph>
+                        <paragraph>Various pharmacokinetic parameters of the local anesthetics can be significantly altered by the presence of renal disease, factors affecting urinary pH, and renal blood flow [
+  <content styleCode="italics">see 
+   <linkHtml href="#id_link_05492689-9525-052b-e063-6294a90ae43d">Use in Specific Populations</linkHtml> (
+   <linkHtml href="#id_link_05492689-9525-052b-e063-6294a90ae43d">8.5</linkHtml>, 
+   <linkHtml href="#id_link_0549299d-1aef-7869-e063-6394a90a89c9">8.7</linkHtml>)
+  </content>].
+ </paragraph>
+                     </text>
+                     <effectiveTime value="20231001"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_04d66fd8-19dd-e1e7-e063-6394a90a1ad8">
+               <id root="04d66fd8-19dc-e1e7-e063-6394a90a1ad8"/>
+               <code code="43680-8" codeSystem="2.16.840.1.113883.6.1" displayName="NONCLINICAL TOXICOLOGY SECTION"/>
+               <title>13 NONCLINICAL TOXICOLOGY </title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">13.1 Carcinogenesis, Mutagenesis, Impairment of Fertility</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="underline">Carcinogenesis</content>
+                  </paragraph>
+                  <paragraph>Long-term studies in animals to evaluate the carcinogenic potential of bupivacaine hydrochloride have not been conducted.</paragraph>
+                  <paragraph>
+                     <content styleCode="underline">Mutagenesis</content>
+                  </paragraph>
+                  <paragraph>The mutagenic potential of bupivacaine hydrochloride has not been determined.</paragraph>
+                  <paragraph>
+                     <content styleCode="underline">Impairment of Fertility</content>
+                  </paragraph>
+                  <paragraph>The effect of bupivacaine on fertility has not been determined. </paragraph>
+               </text>
+               <effectiveTime value="20231001"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_2dc92761-c0b9-677c-e054-00144ff88e88">
+               <id root="04d67e1b-70f2-735b-e063-6294a90a0a21"/>
+               <code code="34069-5" codeSystem="2.16.840.1.113883.6.1" displayName="HOW SUPPLIED SECTION"/>
+               <title>16 HOW SUPPLIED/STORAGE AND HANDLING</title>
+               <text>
+                  <paragraph>Store at 20°C to 25°C (68°F to 77°F); excursions permitted between 15°C to 30°C (59°F to 86°F). [See USP Controlled Room Temperature.]</paragraph>
+                  <paragraph>Bupivacaine Hydrochloride in Dextrose Injection, USP solution may be autoclaved once at 15 pound pressure, 121°C (250°F) for 15 minutes. This product is clear and colorless. Do not use the solution if it is discolored or contains particulate matter.</paragraph>
+                  <paragraph>Single-dose ampules of 2 mL Bupivacaine Hydrochloride in Dextrose Injection, USP (15 mg bupivacaine hydrochloride with 165 mg dextrose) are supplied as follows:</paragraph>
+                  <table width="100%">
+                     <tbody>
+                        <tr>
+                           <td align="center" styleCode="Botrule">
+                              <content styleCode="bold">NDC</content>
+                           </td>
+                           <td align="center" styleCode="Botrule">
+                              <content styleCode="bold">Container</content>
+                           </td>
+                           <td align="center" styleCode="Botrule">
+                              <content styleCode="bold">Concentration</content>
+                           </td>
+                           <td align="center" styleCode="Botrule">
+                              <content styleCode="bold">Size</content>
+                           </td>
+                           <td align="center" styleCode="Botrule">
+                              <content styleCode="bold">Total (mg)</content>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td align="center">73293-0002-2</td>
+                           <td align="center">Single Dose Ampule
+     <br/>
+			(Package of 50)
+    </td>
+                           <td align="center">0.75% (7.5 mg/mL)</td>
+                           <td align="center">2mL</td>
+                           <td align="center">15</td>
+                           <td align="center"/>
+                        </tr>
+                     </tbody>
+                  </table>
+                  <paragraph/>
+                  <paragraph>Discard the unused portion.</paragraph>
+                  <paragraph/>
+               </text>
+               <effectiveTime value="20231001"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_04d67e1b-70f4-735b-e063-6294a90a0a21">
+               <id root="054b56d5-3f59-8857-e063-6394a90a98ca"/>
+               <code code="88436-1" codeSystem="2.16.840.1.113883.6.1" displayName="PATIENT COUNSELING INFORMATION"/>
+               <title>17 PATIENT COUNSELING INFORMATION</title>
+               <text>
+                  <paragraph>
+                     <content styleCode="underline">Allergic-Type Reactions</content>
+                  </paragraph>
+                  <paragraph>Assess if the patient has had allergic-type reactions to amide-type local anesthetics or to other formulation ingredients [
+  <content styleCode="italics">see 
+   <linkHtml href="#id_link_04d253a3-3900-a920-e063-6394a90a9cb4">Contraindications (4)</linkHtml>, 
+   <linkHtml href="#id_link_04d36e88-c8a6-9cb3-e063-6294a90a1493">Adverse Reactions (6)</linkHtml>
+                     </content>].
+ </paragraph>
+                  <paragraph>
+                     <content styleCode="underline">Temporary Loss of Sensation and Motor Activity After Spinal Anesthesia</content>
+                  </paragraph>
+                  <paragraph>When appropriate, patients should be informed in advance that they may experience temporary loss of sensation and motor activity, usually in the lower half of the body, including the inability to move the legs, following proper administration of spinal anesthesia.</paragraph>
+                  <paragraph>
+                     <content styleCode="underline">Methemoglobinemia</content>
+                  </paragraph>
+                  <paragraph>Inform patients that use of local anesthetics may cause methemoglobinemia, a serious condition that must be treated promptly. Advise patients or caregivers to seek immediate medical attention if they or someone in their care experience the following signs or symptoms: pale, gray, or blue colored skin (cyanosis), headache, rapid heart rate, shortness of breath, lightheadedness, or fatigue [
+  <content styleCode="italics">see </content>
+                     <linkHtml href="#id_link_05489b6a-a9b8-6609-e063-6294a90a95e0">Warnings and Precautions (5.5)</linkHtml>].
+ </paragraph>
+                  <paragraph/>
+                  <paragraph>This product’s labeling may have been updated.</paragraph>
+               </text>
+               <effectiveTime value="20231001"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_04d67e1b-70f6-735b-e063-6294a90a0a21">
+               <id root="04d67e1b-70f5-735b-e063-6294a90a0a21"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <text>
+                  <paragraph>Manufactured by:</paragraph>
+                  <paragraph>Huons Co., Ltd.</paragraph>
+                  <paragraph>Jecheon, S. Korea</paragraph>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph>Product Code: 0002</paragraph>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph>Revised: 08/2023</paragraph>
+               </text>
+               <effectiveTime value="20231001"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_04d12fda-10a3-33de-e063-6294a90a08c1">
+               <id root="054b6693-23eb-82db-e063-6294a90a7fba"/>
+               <code code="43683-2" codeSystem="2.16.840.1.113883.6.1" displayName="RECENT MAJOR CHANGES SECTION"/>
+               <text>
+                  <paragraph>1 INDICATIONS AND USAGE</paragraph>
+                  <paragraph>2 DOSAGE AND ADMINISTRATION</paragraph>
+                  <paragraph>4 CONTRAINDICATIONS</paragraph>
+                  <paragraph>5 WARNINGS AND PRECAUTIONS</paragraph>
+                  <paragraph/>
+                  <paragraph>Most of sections are re-formatted.</paragraph>
+               </text>
+               <effectiveTime value="20231001"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_2dc95000-ace8-6df7-e054-00144ff88e88">
+               <id root="2e64652b-8329-16fd-e063-6294a90a4955"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>Principal Display Panel</title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">2 mL (50 Ampules Unit Dose) Carton Label</content>
+                  </paragraph>
+                  <paragraph>50 x 2 mL Single-dose Ampules</paragraph>
+                  <paragraph>NDC 73293-0002-2</paragraph>
+                  <paragraph/>
+                  <paragraph>STERILE HYPERBARIC SOLUTION FOR SPINAL ANESTHESIA
+  <br/>
+                     <br/>
+                     <content styleCode="bold">Bupivacaine Hydrochloride </content>in 8.25%
+  <br/>
+                     <content styleCode="bold">Dextrose Injection, USP
+   <br/>
+                        <content styleCode="bold">SPINAL 0.75%</content>
+                     </content>
+                  </paragraph>
+                  <paragraph>(15 mg/2 mL)
+  <br/>
+(7.5 mg/mL)
+ </paragraph>
+                  <paragraph/>
+                  <paragraph>
+                     <content styleCode="bold">Huons</content>
+                  </paragraph>
+                  <paragraph/>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="img_029eec2b-ce0d-a00d-e063-6294a90ae67d"/>
+                  </paragraph>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph>
+                     <content styleCode="bold">2 mL Ampule</content>
+                     <content styleCode="bold"> Label</content>
+                  </paragraph>
+                  <paragraph>2 mL Ampule NDC 73293-0002-1
+  <br/>
+                     <br/>
+EL5936-05
+  <br/>
+                     <br/>
+Rx only
+ </paragraph>
+                  <paragraph/>
+                  <paragraph>Bupivacaine HCl 0.75%
+  <br/>
+in Dextrose 8.25%
+  <br/>
+Injection, USP
+  <br/>
+SPINAL
+ </paragraph>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph>Contains 7.5 mg bupivacaine HCl (anhydrous) and 82.5 mg
+  <br/>
+dextrose (anhydrous) per mL. pH adjusted between 4.0 and 6.5 with
+  <br/>
+NaOH or HCl.
+ </paragraph>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph>
+                     <content styleCode="bold">Huons Co., Ltd.</content>
+                  </paragraph>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph>LOT NO. : XXXXXX
+  <br/>
+EXP. DATE : YYYY/MM
+ </paragraph>
+                  <paragraph/>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="img_2e64648c-61bd-1c13-e063-6294a90a3806"/>
+                  </paragraph>
+                  <paragraph/>
+                  <paragraph/>
+               </text>
+               <effectiveTime value="20230901"/>
+               <component>
+                  <observationMedia ID="img_029eec2b-ce0d-a00d-e063-6294a90ae67d">
+                     <text>carton-label-50ampoules-10</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="carton-label-50ampoules-10.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="img_2e64648c-61bd-1c13-e063-6294a90a3806">
+                     <text>EL5936-05</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="EL5936-05 (SPL).jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

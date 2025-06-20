@@ -1,0 +1,2371 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="https://www.accessdata.fda.gov/spl/stylesheet/spl.xsl" type="text/xsl"?>
+<document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:hl7-org:v3" xsi:schemaLocation="urn:hl7-org:v3 https://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="2cd273e4-313f-3562-e063-6394a90ac135"/>
+   <code code="34391-3" codeSystem="2.16.840.1.113883.6.1" displayName="HUMAN PRESCRIPTION DRUG LABEL"/>
+   <title>These highlights do not include all the information needed to use ASPRUZYO SPRINKLE safely and effectively. See full prescribing information for ASPRUZYO SPRINKLE.
+ <br/>
+ASPRUZYO SPRINKLE 
+ <sup>TM</sup>(ranolazine) extended-release granules, for oral use
+ <br/>
+Initial U.S. Approval: 2006
+</title>
+   <effectiveTime value="20250129"/>
+   <setId root="dd9f81e4-50da-4551-aed5-559d304df42e"/>
+   <versionNumber value="3"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id root="1.3.6.1.4.1.519.1" extension="146974886"/>
+            <name>SUN PHARMACEUTICAL INDUSTRIES, INC.</name>
+            <assignedEntity>
+               <assignedOrganization>
+                  <id root="1.3.6.1.4.1.519.1" extension="146974886"/>
+                  <name>SUN PHARMACEUTICAL INDUSTRIES, INC.</name>
+                  <assignedEntity>
+                     <assignedOrganization>
+                        <id root="1.3.6.1.4.1.519.1" extension="650456002"/>
+                        <name>Sun Pharmaceutical Industries Limited</name>
+                     </assignedOrganization>
+                     <performance>
+                        <actDefinition>
+                           <code code="C43360" displayName="manufacture" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="47335-624" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                     <performance>
+                        <actDefinition>
+                           <code code="C43360" displayName="manufacture" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="47335-625" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                  </assignedEntity>
+               </assignedOrganization>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section>
+               <id root="2cd2c567-a290-43cc-e063-6394a90ac1dd"/>
+               <code code="48780-1" codeSystem="2.16.840.1.113883.6.1" displayName="SPL product data elements section"/>
+               <effectiveTime value="20250129"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="47335-624" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>ASPRUZYO SPRINKLE</name>
+                        <formCode code="C42938" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="GRANULE"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>Ranolazine</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="905HNO1SIH" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>DIMETHYLAMINOETHYL METHACRYLATE - BUTYL METHACRYLATE - METHYL METHACRYLATE COPOLYMER</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="4W5IH7FLNY" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>DIBUTYL SEBACATE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="7Z8S9VYZ4B" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>ETHYLCELLULOSE, UNSPECIFIED</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="3NXW29V3WO" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>HYPROMELLOSE, UNSPECIFIED</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="70097M6I30" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>MAGNESIUM STEARATE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="7SEV7J4R1U" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>TALC</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="OP1R32D61U" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>MICROCRYSTALLINE CELLULOSE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="NX76LV5T8J" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>METHACRYLIC ACID - ETHYL ACRYLATE COPOLYMER (1:1) TYPE A</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator unit="mg" value="500"/>
+                              <denominator unit="1" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="A6IEZ5M406" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>RANOLAZINE</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="A6IEZ5M406" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>RANOLAZINE</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator value="30" unit="1"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="47335-624-30" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43182" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CARTON"/>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                           <subjectOf>
+                              <marketingAct>
+                                 <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 <statusCode code="completed"/>
+                                 <effectiveTime>
+                                    <low value="20220228"/>
+                                    <high value="20240430"/>
+                                 </effectiveTime>
+                              </marketingAct>
+                           </subjectOf>
+                        </asContent>
+                        <asContent>
+                           <quantity>
+                              <numerator value="60" unit="1"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="47335-624-60" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43182" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CARTON"/>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                           <subjectOf>
+                              <marketingAct>
+                                 <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 <statusCode code="completed"/>
+                                 <effectiveTime>
+                                    <low value="20220228"/>
+                                    <high value="20240430"/>
+                                 </effectiveTime>
+                              </marketingAct>
+                           </subjectOf>
+                        </asContent>
+                        <asContent>
+                           <quantity>
+                              <numerator value="1" unit="1"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="47335-624-11" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43199" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="PACKET"/>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                           <subjectOf>
+                              <marketingAct>
+                                 <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 <statusCode code="completed"/>
+                                 <effectiveTime>
+                                    <low value="20220228"/>
+                                    <high value="20240430"/>
+                                 </effectiveTime>
+                              </marketingAct>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <id extension="NDA216018" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73594" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="NDA"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="completed"/>
+                           <effectiveTime>
+                              <low value="20220228"/>
+                              <high value="20240430"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLCOLOR" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value code="C48325" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="white" xsi:type="CE">
+                              <originalText>white to off-white</originalText>
+                           </value>
+                        </characteristic>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38288" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ORAL"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="47335-625" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>ASPRUZYO SPRINKLE</name>
+                        <formCode code="C42938" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="GRANULE"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>Ranolazine</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="905HNO1SIH" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>DIMETHYLAMINOETHYL METHACRYLATE - BUTYL METHACRYLATE - METHYL METHACRYLATE COPOLYMER</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="4W5IH7FLNY" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>DIBUTYL SEBACATE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="7Z8S9VYZ4B" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>ETHYLCELLULOSE, UNSPECIFIED</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="3NXW29V3WO" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>HYPROMELLOSE, UNSPECIFIED</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="70097M6I30" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>MAGNESIUM STEARATE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="7SEV7J4R1U" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>TALC</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="OP1R32D61U" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>MICROCRYSTALLINE CELLULOSE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="NX76LV5T8J" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>METHACRYLIC ACID - ETHYL ACRYLATE COPOLYMER (1:1) TYPE A</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator unit="mg" value="1000"/>
+                              <denominator unit="1" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="A6IEZ5M406" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>RANOLAZINE</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="A6IEZ5M406" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>RANOLAZINE</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator value="30" unit="1"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="47335-625-30" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43182" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CARTON"/>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                           <subjectOf>
+                              <marketingAct>
+                                 <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 <statusCode code="active"/>
+                                 <effectiveTime>
+                                    <low value="20220228"/>
+                                 </effectiveTime>
+                              </marketingAct>
+                           </subjectOf>
+                        </asContent>
+                        <asContent>
+                           <quantity>
+                              <numerator value="60" unit="1"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="47335-625-60" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43182" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CARTON"/>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                           <subjectOf>
+                              <marketingAct>
+                                 <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 <statusCode code="active"/>
+                                 <effectiveTime>
+                                    <low value="20220228"/>
+                                 </effectiveTime>
+                              </marketingAct>
+                           </subjectOf>
+                        </asContent>
+                        <asContent>
+                           <quantity>
+                              <numerator value="1" unit="1"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="47335-625-11" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43199" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="PACKET"/>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                           <subjectOf>
+                              <marketingAct>
+                                 <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 <statusCode code="active"/>
+                                 <effectiveTime>
+                                    <low value="20220228"/>
+                                 </effectiveTime>
+                              </marketingAct>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <id extension="NDA216018" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73594" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="NDA"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20220228"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLCOLOR" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value code="C48325" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="white" xsi:type="CE">
+                              <originalText>white to off-white</originalText>
+                           </value>
+                        </characteristic>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38288" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ORAL"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_8b6564a0-b3a7-4923-9fc0-ee935c895a34">
+               <id root="2cd273e4-3140-3562-e063-6394a90ac135"/>
+               <code code="34067-9" codeSystem="2.16.840.1.113883.6.1" displayName="INDICATIONS &amp; USAGE SECTION"/>
+               <title>1 INDICATIONS AND USAGE</title>
+               <text>
+                  <paragraph>ASPRUZYO Sprinkle is indicated for the treatment of chronic angina.</paragraph>
+                  <paragraph>ASPRUZYO Sprinkle may be used with beta-blockers, nitrates, calcium channel blockers, anti‑platelet therapy, lipid-lowering therapy, ACE inhibitors, and angiotensin receptor blockers.</paragraph>
+               </text>
+               <effectiveTime value="20210430"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <paragraph>ASPRUZYO Sprinkle is an antianginal indicated for the treatment of chronic angina. (1)</paragraph>
+                     </text>
+                  </highlight>
+               </excerpt>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_77cd5aa1-7658-4588-b04b-ac2303c09857">
+               <id root="2cd273e4-3141-3562-e063-6394a90ac135"/>
+               <code code="34068-7" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE &amp; ADMINISTRATION SECTION"/>
+               <title>2 DOSAGE AND ADMINISTRATION</title>
+               <effectiveTime value="20210430"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <paragraph>500 mg orally twice daily and increase to 1000 mg orally twice daily, based on clinical symptoms (2.1)</paragraph>
+                     </text>
+                  </highlight>
+               </excerpt>
+               <component>
+                  <section ID="ID_fb55f7a3-547f-4af8-953e-005e36fb7dde">
+                     <id root="2cd273e4-3142-3562-e063-6394a90ac135"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>2.1 Dosing Information</title>
+                     <text>
+                        <paragraph>Initiate ASPRUZYO Sprinkle dosing at 500 mg orally twice daily and increase to 1000 mg orally twice daily, as needed, based on clinical symptoms.</paragraph>
+                        <paragraph>The maximum recommended daily dose of ASPRUZYO Sprinkle is 1000 mg twice daily.</paragraph>
+                        <paragraph>If a dose of ASPRUZYO Sprinkle is missed, take the prescribed dose at the next scheduled time; do not double the next dose.</paragraph>
+                        <paragraph>
+                           <content styleCode="underline">Directions for use with soft food (e.g., applesauce and yogurt)</content>
+                        </paragraph>
+                        <list listType="unordered">
+                           <item>Sprinkle granules on one tablespoonful of soft food and consume immediately.</item>
+                           <item>Do not crush or chew the granules.</item>
+                        </list>
+                        <paragraph>
+                           <content styleCode="underline">Direction for nasogastric and gastric tube administration</content>
+                        </paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Nasogastric (NG) tube:</content>Add the content of a sachet to a plastic catheter tip syringe and add 50 mL of water. Gently shake the syringe for approximately 15 seconds. Promptly deliver through a 12 French or larger NG tube. Ensure no granules are left in the syringe. Rinse with additional water (about 15 mL) if needed.
+
+ </paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Gastrostomy/Gastric (G) tube</content>: Add the content of a sachet to a plastic catheter tip syringe and add 30 mL of water. Gently shake the syringe for approximately 15 seconds. Promptly deliver through a 12 French or larger G-tube. Rinse with 20 mL of water in the syringe. Ensure no granules are left in the syringe. Rinse with additional water (about 15 mL) if needed.
+
+ </paragraph>
+                     </text>
+                     <effectiveTime value="20210430"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID_f59b2891-3df0-4b8c-81ef-fd4641e87db4">
+                     <id root="2cd273e4-3143-3562-e063-6394a90ac135"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>2.2 Dose Modification</title>
+                     <text>
+                        <paragraph>Dose adjustments may be needed when ASPRUZYO Sprinkle is taken in combination with other drugs
+ 
+  <content styleCode="italics">[see Drug Interactions (7.1)].</content>Limit the maximum dose of ASPRUZYO Sprinkle to 500 mg twice daily in patients on moderate CYP3A inhibitors such as diltiazem, verapamil, and erythromycin. Use of ASPRUZYO Sprinkle with strong CYP3A inhibitors and CYP3A inducers is contraindicated
+ 
+  <content styleCode="italics">[see Contraindications (4), Drug Interactions (7.1)].</content>
+                        </paragraph>
+                     </text>
+                     <effectiveTime value="20210430"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_10ac3033-117e-489d-8725-45dd2427a6d7">
+               <id root="2cd273e4-3144-3562-e063-6394a90ac135"/>
+               <code code="43678-2" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE FORMS &amp; STRENGTHS SECTION"/>
+               <title>3 DOSAGE FORMS AND STRENGTHS</title>
+               <text>
+                  <paragraph>ASPRUZYO Sprinkle (ranolazine) is supplied as unit-dose sachets containing 500 or 1000 mg of white to off-white, coated, extended-release granules.</paragraph>
+               </text>
+               <effectiveTime value="20210430"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <paragraph>Extended-release granules: 500 and 1000 mg (3)</paragraph>
+                     </text>
+                  </highlight>
+               </excerpt>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_9399371d-22fe-4142-916c-82d47a7fe9ec">
+               <id root="2cd273e4-3145-3562-e063-6394a90ac135"/>
+               <code code="34070-3" codeSystem="2.16.840.1.113883.6.1" displayName="CONTRAINDICATIONS SECTION"/>
+               <title>4 CONTRAINDICATIONS</title>
+               <text>
+                  <paragraph>ASPRUZYO Sprinkle is contraindicated in patients:</paragraph>
+                  <list listType="unordered">
+                     <item>Taking strong inhibitors of CYP3A
+  
+   <content styleCode="italics">[see Drug Interactions (7.1)]</content>
+                     </item>
+                     <item>Taking inducers of CYP3A
+  
+   <content styleCode="italics">[see Drug Interactions (7.1)]</content>
+                     </item>
+                     <item>With liver cirrhosis
+  
+   <content styleCode="italics">[see Use in Specific Populations (8.6)]</content>
+                     </item>
+                  </list>
+               </text>
+               <effectiveTime value="20210430"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <list listType="unordered">
+                           <item>Strong CYP3A inhibitors (e.g., ketoconazole, clarithromycin, nelfinavir) (4, 7.1)</item>
+                           <item>CYP3A inducers (e.g., rifampin, phenobarbital, St. John's wort) (4, 7.1)</item>
+                           <item>Liver cirrhosis (4, 8.6)</item>
+                        </list>
+                     </text>
+                  </highlight>
+               </excerpt>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_342e3960-d437-4374-a961-b18d918d8ff1">
+               <id root="2cd273e4-3146-3562-e063-6394a90ac135"/>
+               <code code="43685-7" codeSystem="2.16.840.1.113883.6.1" displayName="WARNINGS AND PRECAUTIONS SECTION"/>
+               <title>5 WARNINGS AND PRECAUTIONS</title>
+               <effectiveTime value="20210430"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <list listType="unordered">
+                           <item>QT interval prolongation: Can occur with ranolazine. Little information available on high doses, long exposure, use with QT interval‑ prolonging drugs, potassium channel variants causing prolonged QT interval, in patients with a family history of (or congenital) long QT syndrome, or in patients with known acquired QT interval prolongation. (5.1)</item>
+                           <item>Renal failure: Monitor renal function after initiation and periodically in patients with moderate to severe renal impairment (CrCL &lt;60 mL/min). If acute renal failure develops, discontinue ASPRUZYO Sprinkle. (5.2)</item>
+                        </list>
+                     </text>
+                  </highlight>
+               </excerpt>
+               <component>
+                  <section ID="ID_1fdcf45a-f3a6-4f4f-a228-ad4490a0c3ae">
+                     <id root="2cd273e4-3147-3562-e063-6394a90ac135"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>5.1 QT Interval Prolongation</title>
+                     <text>
+                        <paragraph>Ranolazine blocks I
+ 
+  <sub>Kr</sub>and prolongs the
+ 
+  <content styleCode="italics">QT
+  
+   <sub>c</sub>
+                           </content>interval in a dose-related manner. Clinical experience in an acute coronary syndrome population did not show an increased risk of proarrhythmia or sudden death
+ 
+  <content styleCode="italics">[see Clinical Studies (14.2)].</content>However, there is little experience with high doses (&gt; 1000 mg twice daily) or exposure, other QT‑prolonging drugs, potassium channel variants resulting in a long QT interval, in patients with a family history of (or congenital) long QT syndrome, or in patients with known acquired QT interval prolongation.
+
+ </paragraph>
+                     </text>
+                     <effectiveTime value="20210430"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID_4fe3aa20-5ded-4f29-bb48-89678a41f7e5">
+                     <id root="2cd273e4-3148-3562-e063-6394a90ac135"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>5.2 Renal Failure</title>
+                     <text>
+                        <paragraph>Acute renal failure has been observed in patients with severe renal impairment (creatinine clearance [CrCL] &lt; 30 mL/min) while taking ranolazine. If acute renal failure develops (e.g., marked increase in serum creatinine associated with an increase in blood urea nitrogen [BUN]), discontinue ASPRUZYO Sprinkle and treat appropriately
+ 
+  <content styleCode="italics">[see Use in Specific Populations (8.7)].</content>
+                        </paragraph>
+                        <paragraph>Monitor renal function after initiation and periodically in patients with moderate to severe renal impairment (CrCL &lt; 60 mL/min) for increases in serum creatinine accompanied by an increase in BUN.</paragraph>
+                     </text>
+                     <effectiveTime value="20210430"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_b1555e9b-c8e6-4191-88dc-3e76d5799140">
+               <id root="2cd273e4-3149-3562-e063-6394a90ac135"/>
+               <code code="34084-4" codeSystem="2.16.840.1.113883.6.1" displayName="ADVERSE REACTIONS SECTION"/>
+               <title>6 ADVERSE REACTIONS</title>
+               <effectiveTime value="20210430"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <paragraph>Most common adverse reactions (&gt; 4% and more common than with placebo) are dizziness, headache, constipation, nausea. (6.1)</paragraph>
+                        <paragraph>
+                           <content styleCode="bold">To report SUSPECTED ADVERSE REACTIONS, contact Sun Pharmaceutical Industries, Inc. at 1-800-818-4555 or FDA at 1-800-FDA-1088 or
+  
+     <linkHtml href="http://www.fda.gov/medwatch">www.fda.gov/medwatch.</linkHtml>
+                           </content>
+                        </paragraph>
+                     </text>
+                  </highlight>
+               </excerpt>
+               <component>
+                  <section ID="ID_bd3fa4fa-1ded-40f6-bec6-5efde58b040a">
+                     <id root="2cd273e4-314a-3562-e063-6394a90ac135"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>6.1 Clinical Trial Experience</title>
+                     <text>
+                        <paragraph>Because clinical trials are conducted under widely varying conditions, adverse reaction rates observed in the clinical trials of a drug cannot be directly compared to rates in the clinical trials of another drug and may not reflect the rates observed in practice.</paragraph>
+                        <paragraph>A total of 2018 patients with chronic angina were treated with ranolazine in controlled clinical trials. Of the patients treated with ranolazine, 1026 were enrolled in three double‑blind, placebo-controlled, randomized studies (CARISA, ERICA, MARISA) of up to 12 weeks' duration. In addition, upon study completion, 1251 patients received treatment with ranolazine in open-label, long-term studies; 1227 patients were exposed to ranolazine for more than 1 year, 613 patients for more than 2 years, 531 patients for more than 3 years, and 326 patients for more than 4 years.</paragraph>
+                        <paragraph>At recommended doses, about 6% of patients discontinued treatment with ranolazine because of an adverse event in controlled studies in angina patients compared to about 3% on placebo. The most common adverse events that led to discontinuation more frequently on ranolazine than placebo were dizziness (1.3% versus 0.1%), nausea (1% versus 0%), asthenia, constipation, and headache (each about 0.5% versus 0%). Doses above 1000 mg twice daily are poorly tolerated.</paragraph>
+                        <paragraph>In controlled clinical trials of angina patients, the most frequently reported treatment‑emergent adverse reactions (&gt; 4% and more common on ranolazine than on placebo) were dizziness (6.2%), headache (5.5%), constipation (4.5%), and nausea (4.4%). Dizziness may be dose-related. In open-label, long-term treatment studies, a similar adverse reaction profile was observed.</paragraph>
+                        <paragraph>The following additional adverse reactions occurred at an incidence of 0.5 to 4.0% in patients treated with ranolazine and were more frequent than the incidence observed in placebo-treated patients:</paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Cardiac Disorders-</content>bradycardia, palpitations
+
+ </paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Ear and Labyrinth Disorders-</content>tinnitus, vertigo
+
+ </paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Eye Disorders-</content>blurred vision
+
+ </paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Gastrointestinal Disorders-</content>abdominal pain, dry mouth, vomiting, dyspepsia
+
+ </paragraph>
+                        <paragraph>
+                           <content styleCode="italics">General Disorders and Administrative Site Adverse Events-</content>asthenia, peripheral edema
+
+ </paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Metabolism and Nutrition Disorders-</content>anorexia
+
+ </paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Nervous System Disorders-</content>syncope (vasovagal)
+
+ </paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Psychiatric Disorders-</content>confusional state
+
+ </paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Renal and Urinary Disorders-</content>hematuria
+
+ </paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Respiratory, Thoracic, and Mediastinal Disorders-</content>dyspnea
+
+ </paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Skin and Subcutaneous Tissue Disorders-</content>hyperhidrosis
+
+ </paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Vascular Disorders-</content>hypotension, orthostatic hypotension
+
+ </paragraph>
+                        <paragraph>Other (&lt; 0.5%) but potentially medically important adverse reactions observed more frequently with ranolazine than placebo treatment in all controlled studies included: angioedema, renal failure, eosinophilia, chromaturia, blood urea increased, hypoesthesia, paresthesia, tremor, pulmonary fibrosis, thrombocytopenia, leukopenia, and pancytopenia.</paragraph>
+                        <paragraph>A large clinical trial in acute coronary syndrome patients was unsuccessful in demonstrating a benefit for ranolazine, but there was no apparent proarrhythmic effect in these high-risk patients
+ 
+  <content styleCode="italics">[see Clinical Studies (14.2)].</content>
+                        </paragraph>
+                        <paragraph>
+                           <content styleCode="underline">Laboratory Abnormalities</content>:
+
+ </paragraph>
+                        <paragraph>Ranolazine produces elevations of serum creatinine by 0.1 mg/dL, regardless of previous renal function, likely because of inhibition of creatinine's tubular secretion. In general, the elevation has a rapid onset, shows no signs of progression during long-term therapy, is reversible after discontinuation of ranolazine, and is not accompanied by changes in BUN. In healthy volunteers, ranolazine 1000 mg twice daily had no effect upon the glomerular filtration rate. More marked and progressive increases in serum creatinine, associated with increases in BUN or potassium, indicating acute renal failure, have been reported after initiation of ranolazine in patients with severe renal impairment
+ 
+  <content styleCode="italics">[see Warnings and Precautions (5.2), Use in Specific Populations (8.7)].</content>
+                        </paragraph>
+                     </text>
+                     <effectiveTime value="20210430"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID_71109f15-5109-49dc-a4ba-c32b11306c9f">
+                     <id root="2cd273e4-314b-3562-e063-6394a90ac135"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>6.2 Post-marketing Experience</title>
+                     <text>
+                        <paragraph>The following adverse reactions have been identified during post-approval use of ranolazine. Because these reactions are reported voluntarily from a population of uncertain size, it is not always possible to reliably estimate their frequency or establish a causal relationship to drug exposure:</paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Nervous System Disorders</content>- Abnormal coordination, myoclonus, paresthesia, tremor, and other serious neurologic adverse events have been reported to occur, sometimes concurrently, in patients taking ranolazine. The onset of events was often associated with an increase in ranolazine dose or exposure. Many patients reported symptom resolution following drug discontinuation or dose decrease.
+
+ </paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Metabolism and Nutrition Disorders</content>- Cases of hypoglycemia have been reported in diabetic patients on antidiabetic medication.
+
+ </paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Psychiatric Disorders</content>- hallucination
+
+ </paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Renal and Urinary Disorders</content>- dysuria, urinary retention
+
+ </paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Skin and Subcutaneous Tissue Disorders</content>- angioedema, pruritus, rash
+
+ </paragraph>
+                     </text>
+                     <effectiveTime value="20210430"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_82e7a329-8274-49cc-bbf4-41adbd2d1839">
+               <id root="2cd273e4-314c-3562-e063-6394a90ac135"/>
+               <code code="34073-7" codeSystem="2.16.840.1.113883.6.1" displayName="DRUG INTERACTIONS SECTION"/>
+               <title>7 DRUG INTERACTIONS</title>
+               <effectiveTime value="20210430"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <list listType="unordered">
+                           <item>Moderate CYP3A inhibitors (e.g., diltiazem, verapamil, erythromycin): Limit ASPRUZYO Sprinkle to 500 mg twice daily. (7.1)</item>
+                           <item>P-gp inhibitors (e.g., cyclosporine): Ranolazine exposure increased. Titrate ASPRUZYO Sprinkle based on clinical response. (7.1)</item>
+                           <item>CYP3A substrates: Limit simvastatin to 20 mg when used with ASPRUZYO Sprinkle. Doses of other sensitive CYP3A substrates (e.g., lovastatin) and CYP3A substrates with narrow therapeutic range (e.g., cyclosporine, tacrolimus, sirolimus) may need to be reduced with ASPRUZYO Sprinkle. (7.2)</item>
+                           <item>OCT2 substrates: Limit the dose of metformin to 1700 mg daily when used with ASPRUZYO Sprinkle 1000 mg twice daily. Doses of other OCT2 substrates may require adjusted doses. (7.2)</item>
+                           <item>Drugs transported by P-gp (e.g., digoxin), or drugs metabolized by CYP2D6 (e.g., tricyclic antidepressants) may need reduced doses when used with ASPRUZYO Sprinkle. (7.2)</item>
+                        </list>
+                     </text>
+                  </highlight>
+               </excerpt>
+               <component>
+                  <section ID="ID_d4c4ba6a-1600-448f-9b9a-ac746c00358b">
+                     <id root="2cd273e4-314d-3562-e063-6394a90ac135"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>7.1 Effects of Other Drugs on Ranolazine</title>
+                     <text>
+                        <paragraph>
+                           <content styleCode="italics">Strong CYP3A Inhibitors</content>
+                        </paragraph>
+                        <paragraph>Concomitant use of ASPRUZYO Sprinkle with strong CYP3A inhibitors, including ketoconazole, itraconazole, clarithromycin, nefazodone, nelfinavir, ritonavir, indinavir, and saquinavir is contraindicated
+ 
+  <content styleCode="italics">[see Contraindications (4), Clinical Pharmacology (12.3)].</content>
+                        </paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Moderate CYP3A Inhibitors</content>
+                        </paragraph>
+                        <paragraph>Limit the dose of ASPRUZYO Sprinkle to 500 mg twice daily in patients on moderate CYP3A inhibitors, including diltiazem, verapamil, erythromycin, fluconazole, and grapefruit juice or grapefruit-containing products
+ 
+  <content styleCode="italics">[see Dosage and Administration (2.2), Clinical Pharmacology (12.3)].</content>
+                        </paragraph>
+                        <paragraph>
+                           <content styleCode="italics">P-gp Inhibitors</content>
+                        </paragraph>
+                        <paragraph>Concomitant use of ASPRUZYO Sprinkle and P-gp inhibitors, such as cyclosporine, may result in increases in ranolazine concentrations. Titrate ASPRUZYO Sprinkle based on clinical response in patients concomitantly treated with predominant P-gp inhibitors such as cyclosporine
+ 
+  <content styleCode="italics">[see Dosage and Administration (2.2)].</content>
+                        </paragraph>
+                        <paragraph>
+                           <content styleCode="italics">CYP3A Inducers</content>
+                        </paragraph>
+                        <paragraph>Concomitant use of ASPRUZYO Sprinkle with CYP3A inducers such as rifampin, rifabutin, rifapentine, phenobarbital, phenytoin, carbamazepine, and St. John's wort is contraindicated
+ 
+  <content styleCode="italics">[see Contraindications (4), Clinical Pharmacology (12.3)].</content>
+                        </paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Alcohol</content>
+                        </paragraph>
+                        <paragraph>An
+ 
+  <content styleCode="italics">in-vitro</content>dissolution study was conducted to evaluate the impact of alcohol on extended-release characteristics of ASPRUZYO Sprinkle. The
+ 
+  <content styleCode="italics">in-vitro</content>study showed that alcohol causes a rapid release of ranolazine from ASPRUZYO Sprinkle that may increase the risk of adverse events associated with ASPRUZYO Sprinkle. Patients should not consume alcohol when taking ASPRUZYO Sprinkle
+ 
+  <content styleCode="italics">[see Clinical Pharmacology (12.3)]</content>.
+
+ </paragraph>
+                     </text>
+                     <effectiveTime value="20210430"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID_b21859d2-4993-478b-ad6d-72425dfcd8da">
+                     <id root="2cd273e4-314e-3562-e063-6394a90ac135"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>7.2 Effects of Ranolazine on Other Drugs</title>
+                     <text>
+                        <paragraph>
+                           <content styleCode="italics">Drugs Metabolized by CYP3A</content>
+                        </paragraph>
+                        <paragraph>Limit the dose of simvastatin in patients on any dose of ASPRUZYO Sprinkle to 20 mg once daily, when ASPRUZYO Sprinkle is co-administered. Dose adjustment of other sensitive CYP3A substrates (e.g., lovastatin) and CYP3A substrates with a narrow therapeutic range (e.g., cyclosporine, tacrolimus, sirolimus) may be required as ASPRUZYO Sprinkle may increase plasma concentrations of these drugs
+ 
+  <content styleCode="italics">[see Clinical Pharmacology (12.3)].</content>
+                        </paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Drugs Transported by P-gp</content>
+                        </paragraph>
+                        <paragraph>Concomitant use of ASPRUZYO Sprinkle and digoxin results in increased exposure to digoxin. The dose of digoxin may have to be adjusted
+ 
+  <content styleCode="italics">[see Clinical Pharmacology (12.3)].</content>
+                        </paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Drugs Metabolized by CYP2D6</content>
+                        </paragraph>
+                        <paragraph>The exposure to CYP2D6 substrates, such as tricyclic antidepressants and antipsychotics, may be increased during co-administration with ASPRUZYO Sprinkle, and lower doses of these drugs may be required.</paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Drugs Transported by OCT2</content>
+                        </paragraph>
+                        <paragraph>In subjects with type 2 diabetes mellitus, concomitant use of ASPRUZYO Sprinkle 1000 mg twice daily and metformin results in increased plasma levels of metformin. When ASPRUZYO Sprinkle 1000 mg twice daily is co-administered with metformin, metformin dose should not exceed 1700 mg/day. Monitor blood glucose levels and risks associated with high exposures of metformin.</paragraph>
+                        <paragraph>Metformin exposure was not significantly increased when given with ranolazine 500 mg twice daily
+ 
+  <content styleCode="italics">[see Clinical Pharmacology (12.3)].</content>
+                        </paragraph>
+                     </text>
+                     <effectiveTime value="20210430"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_8da9dd11-fbf1-47ca-9a3a-a7044bc09ba7">
+               <id root="2cd273e4-314f-3562-e063-6394a90ac135"/>
+               <code code="43684-0" codeSystem="2.16.840.1.113883.6.1" displayName="USE IN SPECIFIC POPULATIONS SECTION"/>
+               <title>8 USE IN SPECIFIC POPULATIONS</title>
+               <effectiveTime value="20210430"/>
+               <component>
+                  <section ID="ID_ba4efdb8-73f5-4c75-9d35-419819d8ecae">
+                     <id root="2cd273e4-3150-3562-e063-6394a90ac135"/>
+                     <code code="42228-7" codeSystem="2.16.840.1.113883.6.1" displayName="PREGNANCY SECTION"/>
+                     <title>8.1 Pregnancy</title>
+                     <text>
+                        <paragraph>
+                           <content styleCode="underline">Risk Summary</content>
+                        </paragraph>
+                        <paragraph>There are no available data on ranolazine use in pregnant women to inform any drug‑associated risks. Studies in rats and rabbits showed no evidence of fetal harm at exposures 4 times the maximum recommended human dose (MRHD)
+ 
+  <content styleCode="italics">(see Data).</content>
+                        </paragraph>
+                        <paragraph>In the U.S. general population, the estimated background risk of major birth defects and of miscarriage of clinically recognized pregnancies is 2 to 4% and 15 to 20%, respectively.</paragraph>
+                        <paragraph>
+                           <content styleCode="underline">Data</content>
+                        </paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Animal Data</content>
+                        </paragraph>
+                        <paragraph>Embryofetal toxicity studies were conducted in rats and rabbits orally administered ranolazine during organogenesis. In rats, decreased fetal weight and reduced ossification were observed at doses (corresponding to 4-fold the AUC for the MRHD) that caused maternal weight loss. No adverse fetal effects were observed in either species exposed (AUC) to ranolazine at exposures (AUC) equal to the MRHD.</paragraph>
+                     </text>
+                     <effectiveTime value="20210430"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID_ab978789-431d-457a-aa9d-567293eba9f2">
+                     <id root="2cd273e4-3151-3562-e063-6394a90ac135"/>
+                     <code code="77290-5" codeSystem="2.16.840.1.113883.6.1" displayName="LACTATION SECTION"/>
+                     <title>8.2 Lactation</title>
+                     <text>
+                        <paragraph>
+                           <content styleCode="underline">Risk Summary</content>
+                        </paragraph>
+                        <paragraph>There are no data on the presence of ranolazine in human milk, the effects on the breastfed infant, or the effects on milk production. However, ranolazine is present in rat milk
+ 
+  <content styleCode="italics">[see Use in Specific Populations (8.1)].</content>The developmental and health benefits of breastfeeding should be considered along with the mother's clinical need for ranolazine and any potential adverse effects on the breastfed infant from ranolazine or from the underlying maternal condition.
+
+ </paragraph>
+                        <paragraph>Adult female rats were administered ranolazine orally from gestation day 6 through postnatal day 20. No adverse effects on pup development, behavior, or reproduction parameters were observed at a maternal dosage level of 60 mg/kg/day (equal to the MHRD based on AUC). At maternally toxic doses, male and female pups exhibited increased mortality and decreased body weight, and female pups showed increased motor activity. The pups were potentially exposed to low amounts of ranolazine via the maternal milk.</paragraph>
+                     </text>
+                     <effectiveTime value="20210430"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID_7f957744-cffe-4757-b472-78a9c7fd45ac">
+                     <id root="2cd273e4-3152-3562-e063-6394a90ac135"/>
+                     <code code="34081-0" codeSystem="2.16.840.1.113883.6.1" displayName="PEDIATRIC USE SECTION"/>
+                     <title>8.4 Pediatric Use</title>
+                     <text>
+                        <paragraph>Safety and effectiveness have not been established in pediatric patients.</paragraph>
+                     </text>
+                     <effectiveTime value="20210430"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID_316df2f5-30e7-4c61-a455-29bf58a34659">
+                     <id root="2cd273e4-3153-3562-e063-6394a90ac135"/>
+                     <code code="34082-8" codeSystem="2.16.840.1.113883.6.1" displayName="GERIATRIC USE SECTION"/>
+                     <title>8.5 Geriatric Use</title>
+                     <text>
+                        <paragraph>Of the chronic angina patients treated with ranolazine in controlled studies, 496 (48%) were ≥ 65 years of age, and 114 (11%) were ≥ 75 years of age. No overall differences in efficacy were observed between older and younger patients. There were no differences in safety for patients ≥ 65 years compared to younger patients, but patients ≥ 75 years of age on ranolazine, compared to placebo, had a higher incidence of adverse events, serious adverse events, and drug discontinuations due to adverse events. In general, dose selection for an elderly patient should usually start at the low end of the dosing range, reflecting the greater frequency of decreased hepatic, renal, or cardiac function, and of concomitant disease, or other drug therapy.</paragraph>
+                     </text>
+                     <effectiveTime value="20210430"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID_dcee6ebb-d514-45b1-9bb0-65a1cd4860e3">
+                     <id root="2cd273e4-3154-3562-e063-6394a90ac135"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>8.6 Use in Patients with Hepatic Impairment</title>
+                     <text>
+                        <paragraph>ASPRUZYO Sprinkle is contraindicated in patients with liver cirrhosis. In a study of cirrhotic patients, the C
+ 
+  <sub>max</sub>of ranolazine was increased 30% in cirrhotic patients with mild (Child‑ Pugh Class A) hepatic impairment but increased 80% in cirrhotic patients with moderate (Child-Pugh Class B) hepatic impairment compared to patients without hepatic impairment. This increase was not enough to account for the 200% increase in QT prolongation seen in cirrhotic patients with mild to moderate hepatic impairment
+ 
+  <content styleCode="italics">[see Clinical Pharmacology (12.2)].</content>
+                        </paragraph>
+                     </text>
+                     <effectiveTime value="20210430"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID_f5f775be-e4ba-4f2c-984e-edf913b848b5">
+                     <id root="2cd273e4-3155-3562-e063-6394a90ac135"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>8.7 Use in Patients with Renal Impairment</title>
+                     <text>
+                        <paragraph>A pharmacokinetic study of ranolazine in subjects with severe renal impairment (CrCL&lt; 30 mL/min) was stopped when 2 of 4 subjects developed acute renal failure after receiving ranolazine 500 mg twice daily for 5 days (lead-in phase) followed by 1000 mg twice a day (1 dose in one subject and 11 doses in the other). Increases in creatinine, BUN, and potassium were observed in 3 subjects during the 500 mg lead-in phase. One subject required hemodialysis, while the other 2 subjects improved upon drug discontinuation
+ 
+  <content styleCode="italics">[s</content>ee
+ 
+  <content styleCode="italics">Warnings and Precautions (5.2)].</content>Monitor renal function periodically in patients with moderate to severe renal impairment. Discontinue ASPRUZYO Sprinkle if acute renal failure develops.
+
+ </paragraph>
+                        <paragraph>In a separate study, C
+ 
+  <sub>max</sub>was increased between 40% and 50% in patients with mild, moderate, or severe renal impairment compared to patients with no renal impairment, suggesting a similar increase in exposure in patients with renal failure independent of the degree of impairment. The pharmacokinetics of ranolazine has not been assessed in patients on dialysis.
+
+ </paragraph>
+                     </text>
+                     <effectiveTime value="20210430"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_c712ccca-295f-43c5-9946-3cf46e302de4">
+               <id root="2cd273e4-3156-3562-e063-6394a90ac135"/>
+               <code code="34088-5" codeSystem="2.16.840.1.113883.6.1" displayName="OVERDOSAGE SECTION"/>
+               <title>10 OVERDOSAGE</title>
+               <text>
+                  <paragraph>Hypotension, QT prolongation, bradycardia, myoclonic activity, severe tremor, unsteady gait/incoordination, dizziness, nausea, vomiting, dysphasia, and hallucinations have been seen in cases of oral overdose of ranolazine. In cases of extreme overdose of ranolazine fatal outcomes have been reported. In clinical studies, high intravenous exposure resulted in diplopia, paresthesia, confusion, and syncope.</paragraph>
+                  <paragraph>In addition to general supportive measures, continuous ECG monitoring may be warranted in the event of overdose.</paragraph>
+                  <paragraph>Since ranolazine is about 62% bound to plasma proteins, hemodialysis is unlikely to be effective in clearing ranolazine.</paragraph>
+               </text>
+               <effectiveTime value="20210430"/>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_b24f71a1-7ed1-47a9-b827-e6bdad1c509f">
+               <id root="2cd273e4-3157-3562-e063-6394a90ac135"/>
+               <code code="34089-3" codeSystem="2.16.840.1.113883.6.1" displayName="DESCRIPTION SECTION"/>
+               <title>11 DESCRIPTION</title>
+               <text>
+                  <paragraph>ASPRUZYO Sprinkle contains ranolazine, an antianginal available as white to off-white coated extended-release granules filled in a sachet for oral administration.</paragraph>
+                  <paragraph>Ranolazine is a racemic mixture, chemically described as 1-piperazineacetamide,
+ 
+  <content styleCode="italics">N</content>‑(2,6-dimethylphenyl)-4-[2-hydroxy-3-(2-methoxyphenoxy)propyl]-(±)-. It has a molecular formula of C
+ 
+  <sub>24</sub>H
+ 
+  <sub>33</sub>N
+ 
+  <sub>3</sub>O
+ 
+  <sub>4</sub>, a molecular weight of 427.54 g/mole, and the following structural formula:
+
+ </paragraph>
+                  <renderMultiMedia ID="id-1864280422" referencedObject="ID_44020fed-c552-4de1-83b0-d298543ef489"/>
+                  <paragraph>Ranolazine is off-white to white powder. Ranolazine is soluble in dichloromethane and methanol.</paragraph>
+                  <paragraph>ASPRUZYO Sprinkle contains 500 mg or 1000 mg of ranolazine and the following inactive ingredients: amino methacrylate copolymer, dibutyl sebacate, ethyl cellulose, hypromellose, magnesium stearate, methacrylic acid and ethyl acrylate copolymer, microcrystalline cellulose, and talc.</paragraph>
+               </text>
+               <effectiveTime value="20210430"/>
+               <component>
+                  <observationMedia ID="ID_44020fed-c552-4de1-83b0-d298543ef489">
+                     <text>structural-formula</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="structural-formula.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_7f18bdbf-0a96-4deb-a53f-a37c5f9cd486">
+               <id root="2cd273e4-3158-3562-e063-6394a90ac135"/>
+               <code code="34090-1" codeSystem="2.16.840.1.113883.6.1" displayName="CLINICAL PHARMACOLOGY SECTION"/>
+               <title>12 CLINICAL PHARMACOLOGY</title>
+               <effectiveTime value="20210430"/>
+               <component>
+                  <section ID="ID_8cf0b8e0-bc84-4c3a-81b7-2929793d92f5">
+                     <id root="2cd273e4-3159-3562-e063-6394a90ac135"/>
+                     <code code="43679-0" codeSystem="2.16.840.1.113883.6.1" displayName="MECHANISM OF ACTION SECTION"/>
+                     <title>12.1 Mechanism of Action</title>
+                     <text>
+                        <paragraph>The mechanism of action of ranolazine's antianginal effects has not been determined. Ranolazine has anti-ischemic and antianginal effects that do not depend upon reductions in heart rate or blood pressure. It does not affect the rate-pressure product, a measure of myocardial work, at maximal exercise. Ranolazine at therapeutic levels can inhibit the cardiac late sodium current (I
+ 
+  <sub>Na</sub>). However, the relationship of this inhibition to angina symptoms is uncertain.
+
+ </paragraph>
+                        <paragraph>The QT prolongation effect of ranolazine on the surface electrocardiogram is the result of inhibition of I
+ 
+  <sub>Kr</sub>which prolongs the ventricular action potential.
+
+ </paragraph>
+                     </text>
+                     <effectiveTime value="20210430"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID_8df08b77-edd3-4ce6-9ab9-3bdcec6d7425">
+                     <id root="2cd273e4-315a-3562-e063-6394a90ac135"/>
+                     <code code="43681-6" codeSystem="2.16.840.1.113883.6.1" displayName="PHARMACODYNAMICS SECTION"/>
+                     <title>12.2 Pharmacodynamics</title>
+                     <text>
+                        <paragraph>
+                           <content styleCode="underline">Hemodynamic Effects</content>
+                        </paragraph>
+                        <paragraph>Patients with chronic angina treated with ranolazine in controlled clinical studies had minimal changes in mean heart rate (&lt; 2 bpm) and systolic blood pressure (&lt; 3 mm Hg). Similar results were observed in subgroups of patients with CHF NYHA Class I or II, diabetes, or reactive airway disease, and in elderly patients.</paragraph>
+                        <paragraph>
+                           <content styleCode="underline">Electrocardiographic Effects</content>
+                        </paragraph>
+                        <paragraph>Dose and plasma concentration-related increases in the QT
+ 
+  <sub>c</sub>interval
+ 
+  <content styleCode="italics">[see Warnings and Precautions (5.1)],</content>reductions in T wave amplitude, and, in some cases, notched T waves, have been observed in patients treated with ranolazine. These effects are believed to be caused by ranolazine and not by its metabolites. The relationship between the change in QT
+ 
+  <sub>c</sub>and ranolazine plasma concentrations is linear, with a slope of about 2.6 msec/1000 ng/mL, through exposures corresponding to doses several-fold higher than the maximum recommended dose of 1000 mg twice daily. The variable blood levels attained after a given dose of ranolazine give a wide range of effects on QT
+ 
+  <sub>c</sub>. At T
+ 
+  <sub>max</sub>following repeat dosing at 1000 mg twice daily, the mean change in QT
+ 
+  <sub>c</sub>is about 6 msec, but in the 5% of the population with the highest plasma concentrations, the prolongation of QT
+ 
+  <sub>c</sub>is at least 15 msec. In cirrhotic subjects with mild or moderate hepatic impairment, the relationship between plasma level of ranolazine and QT
+ 
+  <sub>c</sub>is much steeper
+ 
+  <content styleCode="italics">[see Contraindications (4)].</content>
+                        </paragraph>
+                        <paragraph>Age, weight, gender, race, heart rate, congestive heart failure, diabetes, and renal impairment did not alter the slope of the QT
+ 
+  <sub>c</sub>-concentration relationship of ranolazine.
+
+ </paragraph>
+                        <paragraph>No proarrhythmic effects were observed on 7-day Holter recordings in 3,162 acute coronary syndrome patients treated with ranolazine. There was a significantly lower incidence of arrhythmias (ventricular tachycardia, bradycardia, supraventricular tachycardia, and new atrial fibrillation) in patients treated with ranolazine (80%) versus placebo (87%), including ventricular tachycardia ≥ 3 beats (52% versus 61%). However, this difference in arrhythmias did not lead to a reduction in mortality, a reduction in arrhythmia hospitalization, or a reduction in arrhythmia symptoms.</paragraph>
+                     </text>
+                     <effectiveTime value="20210430"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID_7ba6cd83-ca34-4268-ad65-7babf7577a75">
+                     <id root="2cd273e4-315b-3562-e063-6394a90ac135"/>
+                     <code code="43682-4" codeSystem="2.16.840.1.113883.6.1" displayName="PHARMACOKINETICS SECTION"/>
+                     <title>12.3 Pharmacokinetics</title>
+                     <text>
+                        <paragraph>The pharmacokinetic parameter of ranolazine after single dose administration of 1000 mg ASPRUZYO Sprinkle under fasting conditions are summarized in table 1.</paragraph>
+                        <paragraph>
+                           <content styleCode="bold">Table 1: Pharmacokinetic parameters of ranolazine after single dose administration of 1000 mg ASPRUZYO Sprinkle under fasting conditions.</content>
+                        </paragraph>
+                        <table width="100%">
+                           <col width="32%"/>
+                           <col width="34%"/>
+                           <col width="34%"/>
+                           <tbody>
+                              <tr>
+                                 <td rowspan="2" styleCode="Rrule Botrule Lrule Toprule " valign="top">
+                                    <paragraph>Parameter</paragraph>
+                                 </td>
+                                 <td colspan="2" styleCode="Rrule Botrule Lrule Toprule " valign="top">
+                                    <paragraph>ASPRUZYO Sprinkle</paragraph>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Rrule Lrule Botrule " valign="top">
+                                    <paragraph>Mean</paragraph>
+                                 </td>
+                                 <td styleCode="Rrule Lrule Botrule " valign="top">
+                                    <paragraph>CV (%)</paragraph>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Rrule Lrule Botrule " valign="top">
+                                    <paragraph>C
+     
+      <sub>max</sub>(mcg/mL)
+    
+     </paragraph>
+                                 </td>
+                                 <td styleCode="Rrule Lrule Botrule " valign="top">
+                                    <paragraph>1.95</paragraph>
+                                 </td>
+                                 <td styleCode="Rrule Lrule Botrule " valign="top">
+                                    <paragraph>30</paragraph>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Rrule Lrule Botrule " valign="top">
+                                    <paragraph>T
+     
+      <sub>max</sub>(hr)
+     
+      <sup>*</sup>
+                                    </paragraph>
+                                 </td>
+                                 <td styleCode="Rrule Lrule Botrule " valign="top">
+                                    <paragraph>10 (2 to 16)</paragraph>
+                                 </td>
+                                 <td styleCode="Rrule Lrule Botrule " valign="top"/>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Rrule Lrule Botrule " valign="top">
+                                    <paragraph>AUC
+     
+      <sub>0-t</sub>(mcg.hr/mL)
+    
+     </paragraph>
+                                 </td>
+                                 <td styleCode="Rrule Lrule Botrule " valign="top">
+                                    <paragraph>31.4</paragraph>
+                                 </td>
+                                 <td styleCode="Rrule Lrule Botrule " valign="top">
+                                    <paragraph>36</paragraph>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Rrule Lrule Botrule " valign="top">
+                                    <paragraph>AUC
+     
+      <sub>0-∞</sub>(mcg.hr/mL)
+    
+     </paragraph>
+                                 </td>
+                                 <td styleCode="Rrule Lrule Botrule " valign="top">
+                                    <paragraph>31.7</paragraph>
+                                 </td>
+                                 <td styleCode="Rrule Lrule Botrule " valign="top">
+                                    <paragraph>36</paragraph>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Rrule Lrule Botrule " valign="top">
+                                    <paragraph>T
+     
+      <sub>1/2</sub>(hr)
+    
+     </paragraph>
+                                 </td>
+                                 <td styleCode="Rrule Lrule Botrule " valign="top">
+                                    <paragraph>5.3</paragraph>
+                                 </td>
+                                 <td styleCode="Rrule Lrule Botrule " valign="top">
+                                    <paragraph>27</paragraph>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Rrule Botrule Lrule " valign="top">
+                                    <paragraph>Kel (hr
+     
+      <sup>-1</sup>)
+    
+     </paragraph>
+                                 </td>
+                                 <td styleCode="Rrule Botrule Lrule " valign="top">
+                                    <paragraph>0.15</paragraph>
+                                 </td>
+                                 <td styleCode="Rrule Botrule Lrule " valign="top">
+                                    <paragraph>29</paragraph>
+                                 </td>
+                              </tr>
+                           </tbody>
+                        </table>
+                        <paragraph>*Median range (min-max) is provided</paragraph>
+                        <paragraph>Ranolazine is extensively metabolized in the gut and liver and its absorption is highly variable. The pharmacokinetics of the (+) R-and (-) S-enantiomers of ranolazine are similar in healthy volunteers. Steady state is generally achieved within 3 days of twice-daily dosing with ranolazine. At steady state over the dose range of 500 to 1000 mg twice daily, C
+ 
+  <sub>max</sub>and AUC
+ 
+  <sub>0-T</sub>increase slightly more than proportionally to dose, 120% and 140%, respectively. With twice-daily dosing, the trough:peak ratio of the ranolazine plasma concentration is 0.3 to 0.6. The pharmacokinetics of ranolazine is unaffected by age and sex.
+
+ </paragraph>
+                        <paragraph>
+                           <content styleCode="underline">Absorption and Distribution</content>
+                        </paragraph>
+                        <paragraph>After oral administration of ranolazine 1000 mg, median T
+ 
+  <sub>max</sub>was 10 hours under fasting conditions and 4.5 to 6 hours under fed. After oral administration of
+ 
+  <sup>14</sup>C-ranolazine as a solution, 73% of the dose is systemically available as ranolazine or metabolites. The bioavailability of ranolazine from ranolazine granules relative to that from a solution of ranolazine is 76%. Because ranolazine is a substrate of P-gp, inhibitors of P-gp may increase the absorption of ranolazine. Over the concentration range of 0.25 to 10 mcg/mL, ranolazine is approximately 62% bound to human plasma proteins.
+
+ </paragraph>
+                        <paragraph>
+                           <content styleCode="underline">Food Effect</content>
+                        </paragraph>
+                        <paragraph>Compared to the fasted state, the systemic exposure (AUC) increased by 10% and peak drug concentration (C
+ 
+  <sub>max</sub>) increased by 27% when the dose was given 30 minutes after a high fat meal. After administration with a low fat low calorie meal AUC increased by 6% and C
+ 
+  <sub>max</sub>increased by 48%.
+
+ </paragraph>
+                        <paragraph>
+                           <content styleCode="underline">Metabolism and Excretion</content>
+                        </paragraph>
+                        <paragraph>Ranolazine is metabolized mainly by CYP3A and, to a lesser extent, by CYP2D6. Following a single oral dose of ranolazine solution, approximately 75% of the dose is excreted in urine and 25% in feces. Ranolazine is metabolized rapidly and extensively in the liver and intestine; less than 5% is excreted unchanged in urine and feces. The pharmacologic activity of the metabolites has not been well characterized. The mean elimination half-lives of ranolazine is approximately 5 hours post single dose ranging from 2 to 11 hours. After dosing to steady state with 500 mg to 1500 mg twice daily, the four most abundant metabolites in plasma have AUC values ranging from about 5 to 33% that of ranolazine and display apparent half-lives ranging from 6 to 22 hours.</paragraph>
+                        <paragraph>
+                           <content styleCode="underline">Drug Interactions</content>
+                        </paragraph>
+                        <paragraph>
+                           <content styleCode="italics">
+                              <content styleCode="underline">Effect of Other Drugs on Ranolazine</content>
+                           </content>
+                        </paragraph>
+                        <paragraph>
+                           <content styleCode="italics">In vitro</content>data indicate that ranolazine is a substrate of CYP3A and, to a lesser degree, of CYP2D6. Ranolazine is also a substrate of P-glycoprotein.
+
+ </paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Strong CYP3A Inhibitors</content>
+                        </paragraph>
+                        <paragraph>Plasma levels of ranolazine with ranolazine 1000 mg twice daily are increased by 220% when co-administered with ketoconazole 200 mg twice daily
+ 
+  <content styleCode="italics">[see Contraindications (4)].</content>
+                        </paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Moderate CYP3A Inhibitors</content>
+                        </paragraph>
+                        <paragraph>Plasma levels of ranolazine with ranolazine 1000 mg twice daily are increased by 50 to 130% by diltiazem 180 to 360 mg, respectively. Plasma levels of ranolazine with ranolazine 750 mg twice daily are increased by 100% by verapamil 120 mg three times daily
+ 
+  <content styleCode="italics">[see Drug Interactions (7.1)].</content>
+                        </paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Weak CYP3A Inhibitors</content>
+                        </paragraph>
+                        <paragraph>The weak CYP3A inhibitors simvastatin (20 mg once daily) and cimetidine (400 mg three times daily) do not increase the exposure to ranolazine in healthy volunteers.</paragraph>
+                        <paragraph>
+                           <content styleCode="italics">CYP3A Inducers</content>
+                        </paragraph>
+                        <paragraph>Rifampin 600 mg once daily decreases the plasma concentrations of ranolazine (1000 mg twice daily) by approximately 95%
+ 
+  <content styleCode="italics">[see Contraindications (4)].</content>
+                        </paragraph>
+                        <paragraph>
+                           <content styleCode="italics">CYP2D6 Inhibitors</content>
+                        </paragraph>
+                        <paragraph>Paroxetine 20 mg once daily increased ranolazine concentrations by 20% in healthy volunteers receiving ranolazine 1000 mg twice daily. No dose adjustment of ranolazine is required in patients treated with CYP2D6 inhibitors.</paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Digoxin</content>
+                        </paragraph>
+                        <paragraph>Plasma concentrations of ranolazine are not significantly altered by concomitant digoxin at 0.125 mg once daily.</paragraph>
+                        <paragraph>
+                           <content styleCode="italics">
+                              <content styleCode="underline">Effect of Ranolazine on Other Drugs</content>
+                           </content>
+                        </paragraph>
+                        <paragraph>
+                           <content styleCode="italics">In vitro</content>ranolazine and its O-demethylated metabolite are weak inhibitors of CYP3A and moderate inhibitors of CYP2D6 and P-gp.
+ 
+  <content styleCode="italics">In vitro</content>ranolazine is an inhibitor of OCT2.
+
+ </paragraph>
+                        <paragraph>
+                           <content styleCode="italics">CYP3A Substrates</content>
+                        </paragraph>
+                        <paragraph>The plasma levels of simvastatin, a CYP3A substrate, and its active metabolite are increased by 100% in healthy volunteers receiving 80 mg once daily and ranolazine 1000 mg twice daily
+ 
+  <content styleCode="italics">[see Drug Interactions (7.2)].</content>Mean exposure to atorvastatin (80 mg daily) is increased by 40% following co-administration with ranolazine (1000 mg twice daily) in healthy volunteers. However, in one subject the exposure to atorvastatin and metabolites was increased by ~400% in the presence of ranolazine.
+
+ </paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Diltiazem</content>
+                        </paragraph>
+                        <paragraph>The pharmacokinetics of diltiazem is not affected by ranolazine in healthy volunteers receiving diltiazem 60 mg three times daily and ranolazine 1000 mg twice daily.</paragraph>
+                        <paragraph>
+                           <content styleCode="italics">P-gp Substrates</content>
+                        </paragraph>
+                        <paragraph>Ranolazine increases digoxin concentrations by 50% in healthy volunteers receiving ranolazine 1000 mg twice daily and digoxin 0.125 mg once daily
+ 
+  <content styleCode="italics">[see Drug Interactions (7.2)].</content>
+                        </paragraph>
+                        <paragraph>
+                           <content styleCode="italics">CYP2D6 Substrates</content>
+                        </paragraph>
+                        <paragraph>Ranolazine 750 mg twice daily increases the plasma concentrations of a single dose of immediate release metoprolol (100 mg), a CYP2D6 substrate, by 80% in extensive CYP2D6 metabolizers with no need for dose adjustment of metoprolol. In extensive metabolizers of dextromethorphan, a substrate of CYP2D6, ranolazine inhibits partially the formation of the main metabolite dextrorphan.</paragraph>
+                        <paragraph>
+                           <content styleCode="italics">OCT2 Substrates</content>
+                        </paragraph>
+                        <paragraph>In subjects with type 2 diabetes mellitus, the exposure to metformin is increased by 40% and 80% following administration of ranolazine 500 and 1000 mg twice daily, respectively. If co-administered with ranolazine 1000 mg twice daily, do not exceed metformin doses of 1700 mg/day
+ 
+  <content styleCode="italics">[see Drug Interactions (7.2)].</content>
+                        </paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Alcohol</content>
+                        </paragraph>
+                        <paragraph>An
+ 
+  <content styleCode="italics">in-vitro</content>dissolution study was conducted to evaluate the impact of alcohol on extended-release characteristics of ASPRUZYO Sprinkle. The
+ 
+  <content styleCode="italics">in-vitro</content>study showed that alcohol causes a rapid release of ranolazine from ASPRUZYO Sprinkle that may increase the risk of adverse events associated with ASPRUZYO Sprinkle. Patients should not consume alcohol when taking ASPRUZYO Sprinkle.
+
+ </paragraph>
+                     </text>
+                     <effectiveTime value="20210430"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_e327ed6f-79fa-4bd9-aec5-1ec9068abce2">
+               <id root="2cd273e4-315c-3562-e063-6394a90ac135"/>
+               <code code="43680-8" codeSystem="2.16.840.1.113883.6.1" displayName="NONCLINICAL TOXICOLOGY SECTION"/>
+               <title>13 NONCLINICAL TOXICOLOGY</title>
+               <effectiveTime value="20210430"/>
+               <component>
+                  <section ID="ID_6a08aae2-de11-4cfe-8c3c-c20950fca205">
+                     <id root="2cd273e4-315d-3562-e063-6394a90ac135"/>
+                     <code code="34083-6" codeSystem="2.16.840.1.113883.6.1" displayName="CARCINOGENESIS &amp; MUTAGENESIS &amp; IMPAIRMENT OF FERTILITY SECTION"/>
+                     <title>13.1 Carcinogenesis, Mutagenesis, Impairment of Fertility</title>
+                     <text>
+                        <paragraph>Ranolazine tested negative for genotoxic potential in the following assays: Ames bacterial mutation assay, Saccharomyces assay for mitotic gene conversion, chromosomal aberrations assay in Chinese hamster ovary (CHO) cells, mammalian CHO/HGPRT gene mutation assay, and mouse and rat bone marrow micronucleus assays.</paragraph>
+                        <paragraph>There was no evidence of carcinogenic potential in mice or rats. The highest oral doses used in the carcinogenicity studies were 150 mg/kg/day for 21 months in rats (900 mg/m
+ 
+  <sup>2</sup>/day) and 50 mg/kg/day for 24 months in mice (150 mg/m
+ 
+  <sup>2</sup>/day). These maximally tolerated doses are 0.8 and 0.1 times, respectively, the daily maximum recommended human dose (MRHD) of 2,000 mg on a surface area basis. A published study reported that ranolazine promoted tumor formation and progression to malignancy when given to transgenic APC (min/+) mice at a dose of 30 mg/kg twice daily
+ 
+  <content styleCode="italics">.</content>The clinical significance of this finding is unclear.
+
+ </paragraph>
+                        <paragraph>In male and female rats, oral administration of ranolazine that produced exposures (AUC) approximately 3-fold or 5-fold higher, respectively, than the MRHD had no effect on fertility.</paragraph>
+                     </text>
+                     <effectiveTime value="20210430"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_090fedd7-e99c-41ac-83a0-3ab374e519f6">
+               <id root="2cd273e4-315e-3562-e063-6394a90ac135"/>
+               <code code="34092-7" codeSystem="2.16.840.1.113883.6.1" displayName="CLINICAL STUDIES SECTION"/>
+               <title>14 CLINICAL STUDIES</title>
+               <effectiveTime value="20220302"/>
+               <component>
+                  <section ID="ID_23c07269-0ff7-4e5a-9643-7ff2f51bf870">
+                     <id root="2cd273e4-315f-3562-e063-6394a90ac135"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>14.1 Chronic Stable Angina</title>
+                     <text>
+                        <paragraph>CARISA (Combination Assessment of Ranolazine In Stable Angina) was a study in 823 chronic angina patients randomized to receive 12 weeks of treatment with twice-daily ranolazine 750 mg, 1000 mg, or placebo, who also continued on daily doses of atenolol 50 mg, amlodipine 5 mg, or diltiazem CD 180 mg. Sublingual nitrates were used in this study as needed.</paragraph>
+                        <paragraph>In this trial, statistically significant (p &lt; 0.05) increases in modified Bruce treadmill exercise duration and time to angina were observed for each ranolazine dose versus placebo, at both trough (12 hours after dosing) and peak (4 hours after dosing) plasma levels, with minimal effects on blood pressure and heart rate. The changes versus placebo in exercise parameters are presented in Table 2. Exercise treadmill results showed no increase in effect on exercise at the 1000 mg dose compared to the 750-mg dose.</paragraph>
+                        <paragraph>
+                           <content styleCode="bold">Table 2 Exercise Treadmill Results (CARISA)</content>
+                        </paragraph>
+                        <table cellpadding="0pt" width="94.74%">
+                           <col width="48%"/>
+                           <col width="25%"/>
+                           <col width="27%"/>
+                           <tbody>
+                              <tr>
+                                 <td styleCode="Rrule Botrule Lrule Toprule " valign="top"/>
+                                 <td align="center" colspan="2" styleCode="Rrule Botrule Lrule Toprule " valign="top">
+                                    <paragraph>
+                                       <content styleCode="bold">Mean Difference from Placebo (sec)</content>
+                                    </paragraph>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Rrule Lrule Botrule " valign="top">
+                                    <list listType="unordered">
+                                       <item>
+                                          <content styleCode="bold">Study</content>
+                                       </item>
+                                    </list>
+                                 </td>
+                                 <td align="center" colspan="2" styleCode="Rrule Lrule Botrule " valign="top">
+                                    <paragraph>
+                                       <content styleCode="bold">CARISA (N = 791)</content>
+                                    </paragraph>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Rrule Lrule Botrule " valign="top">
+                                    <list listType="unordered">
+                                       <item>
+                                          <content styleCode="bold">Ranolazine Twice-daily Dose</content>
+                                       </item>
+                                    </list>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule Botrule " valign="top">
+                                    <paragraph>
+                                       <content styleCode="bold">750 mg</content>
+                                    </paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule Botrule " valign="top">
+                                    <paragraph>
+                                       <content styleCode="bold">1000 mg</content>
+                                    </paragraph>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Rrule Lrule Botrule " valign="top">
+                                    <list listType="unordered">
+                                       <item>Exercise Duration</item>
+                                       <item>Trough</item>
+                                       <item>Peak</item>
+                                    </list>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule Botrule " valign="top">
+                                    <paragraph>24
+     
+      <sup>a</sup>
+                                    </paragraph>
+                                    <paragraph>34
+     
+      <sup>b</sup>
+                                    </paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule Botrule " valign="top">
+                                    <paragraph>24
+     
+      <sup>a</sup>
+                                    </paragraph>
+                                    <paragraph>26
+     
+      <sup>a</sup>
+                                    </paragraph>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Rrule Lrule Botrule " valign="top">
+                                    <list listType="unordered">
+                                       <item>Time to Angina</item>
+                                       <item>Trough</item>
+                                       <item>Peak</item>
+                                    </list>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule Botrule " valign="top">
+                                    <paragraph>30
+     
+      <sup>a</sup>
+                                    </paragraph>
+                                    <paragraph>38
+     
+      <sup>b</sup>
+                                    </paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule Botrule " valign="top">
+                                    <paragraph>26
+     
+      <sup>a</sup>
+                                    </paragraph>
+                                    <paragraph>38
+     
+      <sup>b</sup>
+                                    </paragraph>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Rrule Botrule Lrule " valign="top">
+                                    <list listType="unordered">
+                                       <item>Time to 1 mm ST-Segment</item>
+                                       <item>Depression</item>
+                                       <item>Trough</item>
+                                       <item>Peak</item>
+                                    </list>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Botrule Lrule " valign="top">
+                                    <paragraph>20</paragraph>
+                                    <paragraph>41
+     
+      <sup>b</sup>
+                                    </paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Botrule Lrule " valign="top">
+                                    <paragraph>21</paragraph>
+                                    <paragraph>35
+     
+      <sup>b</sup>
+                                    </paragraph>
+                                 </td>
+                              </tr>
+                           </tbody>
+                        </table>
+                        <list listType="ordered">
+                           <item>a p-value ≤ 0.05 b p-value ≤ 0.005</item>
+                        </list>
+                        <paragraph>The effects of ranolazine on angina frequency and nitroglycerin use are shown in Table 3.</paragraph>
+                        <paragraph>
+                           <content styleCode="bold">Table 3 Angina Frequency and Nitroglycerin Use (CARISA)</content>
+                        </paragraph>
+                        <table cellpadding="0pt" width="91.78%">
+                           <col width="21%"/>
+                           <col width="20%"/>
+                           <col width="20%"/>
+                           <col width="19%"/>
+                           <col width="19%"/>
+                           <tbody>
+                              <tr>
+                                 <td colspan="2" styleCode="Rrule Botrule Lrule Toprule " valign="top"/>
+                                 <td align="center" styleCode="Rrule Botrule Lrule Toprule " valign="top">
+                                    <paragraph>
+                                       <content styleCode="bold">Placebo</content>
+                                    </paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Botrule Lrule Toprule " valign="top">
+                                    <paragraph>
+                                       <content styleCode="bold">Ranolazine 750 mg
+      
+       <sup>a</sup>
+                                       </content>
+                                    </paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Botrule Lrule Toprule " valign="top">
+                                    <paragraph>
+                                       <content styleCode="bold">Ranolazine 1000 mg
+      
+       <sup>a</sup>
+                                       </content>
+                                    </paragraph>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td rowspan="3" styleCode="Rrule Lrule " valign="top">
+                                    <list listType="unordered">
+                                       <item>
+                                          <content styleCode="bold">Angina Frequency (attacks/week)</content>
+                                       </item>
+                                    </list>
+                                 </td>
+                                 <td styleCode="Rrule Lrule Botrule " valign="top">
+                                    <list listType="unordered">
+                                       <item>N</item>
+                                    </list>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule Botrule " valign="top">
+                                    <paragraph>258</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule Botrule " valign="top">
+                                    <paragraph>272</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule Botrule " valign="top">
+                                    <paragraph>261</paragraph>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Rrule Lrule Botrule " valign="top">
+                                    <list listType="unordered">
+                                       <item>Mean</item>
+                                    </list>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule Botrule " valign="top">
+                                    <paragraph>3.3</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule Botrule " valign="top">
+                                    <paragraph>2.5</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule Botrule " valign="top">
+                                    <paragraph>2.1</paragraph>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Rrule Lrule Botrule " valign="top">
+                                    <list listType="unordered">
+                                       <item>
+                                          <content styleCode="italics">P-value</content>vs
+      
+       <content styleCode="italics">placebo</content>
+                                       </item>
+                                    </list>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule Botrule " valign="top">
+                                    <paragraph>-</paragraph>
+                                 </td>
+                                 <td styleCode="Rrule Lrule Botrule " valign="top">
+                                    <paragraph>
+                                       <content styleCode="italics">0.006</content>
+                                    </paragraph>
+                                 </td>
+                                 <td styleCode="Rrule Lrule Botrule " valign="top">
+                                    <paragraph>
+                                       <content styleCode="italics">&lt;0.001</content>
+                                    </paragraph>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td rowspan="3" styleCode="Rrule Lrule " valign="top">
+                                    <list listType="unordered">
+                                       <item>
+                                          <content styleCode="bold">Nitroglycerin Use</content>
+                                       </item>
+                                       <item>
+                                          <content styleCode="bold">(doses/week)</content>
+                                       </item>
+                                    </list>
+                                 </td>
+                                 <td styleCode="Rrule Lrule Botrule " valign="top">
+                                    <list listType="unordered">
+                                       <item>N</item>
+                                    </list>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule Botrule " valign="top">
+                                    <paragraph>252</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule Botrule " valign="top">
+                                    <paragraph>262</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule Botrule " valign="top">
+                                    <paragraph>244</paragraph>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Rrule Lrule Botrule " valign="top">
+                                    <list listType="unordered">
+                                       <item>Mean</item>
+                                    </list>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule Botrule " valign="top">
+                                    <paragraph>3.1</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule Botrule " valign="top">
+                                    <paragraph>2.1</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule Botrule " valign="top">
+                                    <paragraph>1.8</paragraph>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Rrule Botrule Lrule " valign="top">
+                                    <list listType="unordered">
+                                       <item>
+                                          <content styleCode="italics">P-value</content>vs
+      
+       <content styleCode="italics">placebo</content>
+                                       </item>
+                                    </list>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Botrule Lrule " valign="top">
+                                    <paragraph>-</paragraph>
+                                 </td>
+                                 <td styleCode="Rrule Botrule Lrule " valign="top">
+                                    <paragraph>
+                                       <content styleCode="italics">0.016</content>
+                                    </paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Botrule Lrule " valign="top">
+                                    <paragraph>
+                                       <content styleCode="italics">&lt;0.001</content>
+                                    </paragraph>
+                                 </td>
+                              </tr>
+                           </tbody>
+                        </table>
+                        <list listType="ordered">
+                           <item>a Twice daily</item>
+                        </list>
+                        <paragraph>Tolerance to ranolazine did not develop after 12 weeks of therapy. Rebound increases in angina, as measured by exercise duration, have not been observed following abrupt discontinuation of ranolazine.</paragraph>
+                        <paragraph>Ranolazine has been evaluated in patients with chronic angina who remained symptomatic despite treatment with the maximum dose of an antianginal agent. In the ERICA (Efficacy of Ranolazine In Chronic Angina) trial, 565 patients were randomized to receive an initial dose of ranolazine 500 mg twice daily or placebo for 1 week, followed by 6 weeks of treatment with ranolazine 1000 mg twice daily or placebo, in addition to concomitant treatment with amlodipine 10 mg once daily. In addition, 45% of the study population also received long-acting nitrates. Sublingual nitrates were used as needed to treat angina episodes. Results are shown in Table 4. Statistically significant decreases in angina attack frequency (p = 0.028) and nitroglycerin use (p = 0.014) were observed with ranolazine compared to placebo. These treatment effects appeared consistent across age and use of long-acting nitrates.</paragraph>
+                        <paragraph>
+                           <content styleCode="bold">Table 4 Angina Frequency and Nitroglycerin Use (ERICA)</content>
+                        </paragraph>
+                        <table cellpadding="0pt" width="100%">
+                           <col width="24%"/>
+                           <col width="24%"/>
+                           <col width="24%"/>
+                           <col width="29%"/>
+                           <tbody>
+                              <tr>
+                                 <td colspan="2" styleCode="Rrule Botrule Lrule Toprule " valign="top"/>
+                                 <td align="center" styleCode="Rrule Botrule Lrule Toprule " valign="top">
+                                    <paragraph>
+                                       <content styleCode="bold">Placebo</content>
+                                    </paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Botrule Lrule Toprule " valign="top">
+                                    <paragraph>
+                                       <content styleCode="bold">Ranolazine
+      
+       <sup>a</sup>
+                                       </content>
+                                    </paragraph>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td rowspan="3" styleCode="Rrule Lrule " valign="top">
+                                    <paragraph>
+                                       <content styleCode="bold">Angina Frequency</content>
+                                    </paragraph>
+                                    <paragraph>
+                                       <content styleCode="bold">(attacks/week)</content>
+                                    </paragraph>
+                                 </td>
+                                 <td styleCode="Rrule Lrule Botrule " valign="top">
+                                    <list listType="unordered">
+                                       <item>N</item>
+                                    </list>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule Botrule " valign="top">
+                                    <paragraph>281</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule Botrule " valign="top">
+                                    <paragraph>277</paragraph>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Rrule Lrule Botrule " valign="top">
+                                    <list listType="unordered">
+                                       <item>Mean</item>
+                                    </list>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule Botrule " valign="top">
+                                    <paragraph>4.3</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule Botrule " valign="top">
+                                    <paragraph>3.3</paragraph>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Rrule Lrule Botrule " valign="top">
+                                    <list listType="unordered">
+                                       <item>Median</item>
+                                    </list>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule Botrule " valign="top">
+                                    <paragraph>2.4</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule Botrule " valign="top">
+                                    <paragraph>2.2</paragraph>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td rowspan="3" styleCode="Rrule Lrule " valign="top">
+                                    <paragraph>
+                                       <content styleCode="bold">Nitroglycerin Use</content>
+                                    </paragraph>
+                                    <paragraph>
+                                       <content styleCode="bold">(doses/week)</content>
+                                    </paragraph>
+                                 </td>
+                                 <td styleCode="Rrule Lrule Botrule " valign="top">
+                                    <list listType="unordered">
+                                       <item>N</item>
+                                    </list>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule Botrule " valign="top">
+                                    <paragraph>281</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule Botrule " valign="top">
+                                    <paragraph>277</paragraph>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Rrule Lrule Botrule " valign="top">
+                                    <list listType="unordered">
+                                       <item>Mean</item>
+                                    </list>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule Botrule " valign="top">
+                                    <paragraph>3.6</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule Botrule " valign="top">
+                                    <paragraph>2.7</paragraph>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Rrule Botrule Lrule " valign="top">
+                                    <list listType="unordered">
+                                       <item>Median</item>
+                                    </list>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Botrule Lrule " valign="top">
+                                    <paragraph>1.7</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Botrule Lrule " valign="top">
+                                    <paragraph>1.3</paragraph>
+                                 </td>
+                              </tr>
+                           </tbody>
+                        </table>
+                        <list listType="ordered">
+                           <item>a 1000 mg twice daily</item>
+                        </list>
+                        <paragraph>
+                           <content styleCode="underline">Gender</content>
+                        </paragraph>
+                        <paragraph>Effects on angina frequency and exercise tolerance were considerably smaller in women than in men. In CARISA, the improvement in Exercise Tolerance Test (ETT) in females was about 33% of that in males at the 1000 mg twice-daily dose level. In ERICA, where the primary endpoint was angina attack frequency, the mean reduction in weekly angina attacks was 0.3 for females and 1.3 for males.</paragraph>
+                        <paragraph>
+                           <content styleCode="underline">Race</content>
+                        </paragraph>
+                        <paragraph>There were insufficient numbers of non-Caucasian patients to allow for analyses of efficacy or safety by racial subgroup.</paragraph>
+                     </text>
+                     <effectiveTime value="20220302"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID_2932194b-1753-4b54-9f8f-fb5402d16300">
+                     <id root="2cd273e4-3160-3562-e063-6394a90ac135"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>14.2 Lack of Benefit in Acute Coronary Syndrome</title>
+                     <text>
+                        <paragraph>In a large (n = 6560) placebo-controlled trial (MERLIN-TIMI 36) in patients with acute coronary syndrome, there was no benefit shown on outcome measures. However, the study is somewhat reassuring regarding proarrhythmic risks, as ventricular arrhythmias were less common on ranolazine
+ 
+  <content styleCode="italics">[see Clinical Pharmacology (12.2)],</content>and there was no difference between ranolazine and placebo in the risk of all-cause mortality (relative risk ranolazine: placebo 0.99 with an upper 95% confidence limit of 1.22).
+
+ </paragraph>
+                     </text>
+                     <effectiveTime value="20210430"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_bbfa2c13-9ca9-4e0d-aa32-372f5713947e">
+               <id root="2cd273e4-3161-3562-e063-6394a90ac135"/>
+               <code code="34069-5" codeSystem="2.16.840.1.113883.6.1" displayName="HOW SUPPLIED SECTION"/>
+               <title>16 HOW SUPPLIED/STORAGE AND HANDLING</title>
+               <text>
+                  <paragraph>ASPRUZYO Sprinkle is supplied as white to off-white coated, extended-release granules in sachets of 500 or 1000 mg. Packages are</paragraph>
+                  <table width="100%">
+                     <col width="55%"/>
+                     <col width="17%"/>
+                     <col width="28%"/>
+                     <tbody>
+                        <tr>
+                           <td styleCode="Rrule Botrule Lrule Toprule " valign="top"/>
+                           <td styleCode="Rrule Botrule Lrule Toprule " valign="top">
+                              <paragraph>
+                                 <content styleCode="bold">
+                                    <content styleCode="underline">Strength</content>
+                                 </content>
+                              </paragraph>
+                           </td>
+                           <td styleCode="Rrule Botrule Lrule Toprule " valign="top">
+                              <paragraph>
+                                 <content styleCode="bold">
+                                    <content styleCode="underline">NDC</content>
+                                 </content>
+                              </paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Rrule Lrule Botrule " valign="top">
+                              <paragraph>Unit-dose Sachet (Child-resistant)</paragraph>
+                           </td>
+                           <td styleCode="Rrule Lrule Botrule " valign="top">
+                              <paragraph>500 mg</paragraph>
+                           </td>
+                           <td styleCode="Rrule Lrule Botrule " valign="top">
+                              <paragraph>NDC 47335-624-11</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Rrule Lrule Botrule " valign="top">
+                              <paragraph>Unit-dose Sachet (Child-resistant)</paragraph>
+                           </td>
+                           <td styleCode="Rrule Lrule Botrule " valign="top">
+                              <paragraph>1000 mg</paragraph>
+                           </td>
+                           <td styleCode="Rrule Lrule Botrule " valign="top">
+                              <paragraph>NDC 47335-625-11</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Rrule Lrule Botrule " valign="top"/>
+                           <td styleCode="Rrule Lrule Botrule " valign="top"/>
+                           <td styleCode="Rrule Lrule Botrule " valign="top"/>
+                        </tr>
+                        <tr>
+                           <td styleCode="Rrule Lrule Botrule " valign="top">
+                              <paragraph>30 Unit-dose Sachets (Child-resistant)</paragraph>
+                           </td>
+                           <td styleCode="Rrule Lrule Botrule " valign="top">
+                              <paragraph>500 mg</paragraph>
+                           </td>
+                           <td styleCode="Rrule Lrule Botrule " valign="top">
+                              <paragraph>NDC 47335-624-30</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Rrule Lrule Botrule " valign="top">
+                              <paragraph>30 Unit-dose Sachets (Child-resistant)</paragraph>
+                           </td>
+                           <td styleCode="Rrule Lrule Botrule " valign="top">
+                              <paragraph>1000 mg</paragraph>
+                           </td>
+                           <td styleCode="Rrule Lrule Botrule " valign="top">
+                              <paragraph>NDC 47335-625-30</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Rrule Lrule Botrule " valign="top"/>
+                           <td styleCode="Rrule Lrule Botrule " valign="top"/>
+                           <td styleCode="Rrule Lrule Botrule " valign="top"/>
+                        </tr>
+                        <tr>
+                           <td styleCode="Rrule Lrule Botrule " valign="top">
+                              <paragraph>60 Unit-dose Sachets (Child-resistant)</paragraph>
+                           </td>
+                           <td styleCode="Rrule Lrule Botrule " valign="top">
+                              <paragraph>500 mg</paragraph>
+                           </td>
+                           <td styleCode="Rrule Lrule Botrule " valign="top">
+                              <paragraph>NDC 47335-624-60</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Rrule Botrule Lrule " valign="top">
+                              <paragraph>60 Unit-dose Sachets (Child-resistant)</paragraph>
+                           </td>
+                           <td styleCode="Rrule Botrule Lrule " valign="top">
+                              <paragraph>1000 mg</paragraph>
+                           </td>
+                           <td styleCode="Rrule Botrule Lrule " valign="top">
+                              <paragraph>NDC 47335-625-60</paragraph>
+                           </td>
+                        </tr>
+                     </tbody>
+                  </table>
+                  <paragraph>Store ASPRUZYO Sprinkle at 20°C to 25°C (68°F to 77°F); excursions permitted between 15°C to 30°C (59°F to 86°F). [See USP Controlled Room Temperature].</paragraph>
+               </text>
+               <effectiveTime value="20210430"/>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_1e819a4c-cc52-4e25-977e-b1f728e8525a">
+               <id root="2cd273e4-3162-3562-e063-6394a90ac135"/>
+               <code code="34076-0" codeSystem="2.16.840.1.113883.6.1" displayName="INFORMATION FOR PATIENTS SECTION"/>
+               <title>17 PATIENT COUNSELING INFORMATION</title>
+               <text>
+                  <paragraph>Advise the patient to read the FDA-approved patient labeling (Patient Information).</paragraph>
+                  <paragraph>Inform patients that ASPRUZYO Sprinkle will not abate an acute angina episode.</paragraph>
+                  <paragraph>
+                     <content styleCode="underline">Drug Interactions</content>
+                  </paragraph>
+                  <list listType="unordered">
+                     <item>
+                        <list listType="unordered">
+                           <item>
+                              <list listType="unordered">
+                                 <item>Advise patients to discuss with their healthcare provider any prescription or over-the-counter medications and supplements prior to concomitant use
+      
+       <content styleCode="italics">[see Drug Interactions (7)].</content>
+                                 </item>
+                                 <item>Advise patients to limit grapefruit juice or grapefruit products when taking ASPRUZYO Sprinkle
+      
+       <content styleCode="italics">[see Drug Interactions (7)]</content>.
+     
+      </item>
+                              </list>
+                           </item>
+                        </list>
+                     </item>
+                  </list>
+                  <paragraph>
+                     <content styleCode="underline">QT Interval Prolongation</content>
+                  </paragraph>
+                  <list listType="unordered">
+                     <item>
+                        <list listType="unordered">
+                           <item>
+                              <list listType="unordered">
+                                 <item>Advise patients to inform their physician of any personal or family history of QT
+      
+       <sub>c</sub>prolongation, congenital long QT syndrome, or if they are receiving drugs that prolong the QT
+      
+       <sub>c</sub>interval such as
+      
+       <content styleCode="italics">[see Warnings and Precautions (5.1)].</content>
+                                 </item>
+                              </list>
+                           </item>
+                        </list>
+                     </item>
+                  </list>
+                  <paragraph>
+                     <content styleCode="underline">Dizziness, Fainting</content>
+                  </paragraph>
+                  <list listType="unordered">
+                     <item>
+                        <list listType="unordered">
+                           <item>
+                              <list listType="unordered">
+                                 <item>Inform patients that ASPRUZYO Sprinkle may cause dizziness and lightheadedness. Patients should know how they react to ASPRUZYO Sprinkle before they operate an automobile or machinery, or engage in activities requiring mental alertness or coordination
+      
+       <content styleCode="italics">[see Adverse Reactions (6.1)].</content>
+                                 </item>
+                                 <item>Advise patients to contact their physician if they experience fainting spells while taking ASPRUZYO Sprinkle.</item>
+                              </list>
+                           </item>
+                        </list>
+                     </item>
+                  </list>
+                  <paragraph>
+                     <content styleCode="underline">Administration</content>
+                  </paragraph>
+                  <list listType="unordered">
+                     <item>
+                        <list listType="unordered">
+                           <item>
+                              <list listType="unordered">
+                                 <item>Instruct patients to take ASPRUZYO Sprinkle as directed.</item>
+                                 <item>Advise patients not to crush or chew the granules.</item>
+                              </list>
+                           </item>
+                        </list>
+                     </item>
+                  </list>
+                  <paragraph>All trademarks are the property of their respective owners.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Manufactured by:</content>
+                  </paragraph>
+                  <paragraph>Sun Pharmaceutical Industries Ltd.</paragraph>
+                  <paragraph>Mohali, INDIA</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Distributed by:</content>
+                  </paragraph>
+                  <paragraph>Sun Pharmaceutical Industries, Inc.</paragraph>
+                  <paragraph>Cranbury, NJ 08512</paragraph>
+                  <paragraph>FDA-04</paragraph>
+               </text>
+               <effectiveTime value="20210430"/>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_43ba4606-caaa-47d7-ab68-b70bcc189211">
+               <id root="2cd273e4-3163-3562-e063-6394a90ac135"/>
+               <code code="68498-5" codeSystem="2.16.840.1.113883.6.1" displayName="PATIENT MEDICATION INFORMATION SECTION"/>
+               <title>Patient Medication Information</title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">Patient Information</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">ASPRUZYO Sprinkle (as-PROO-zee-oh spring-KUHL)</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">(ranolazine) extended-release granules</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">What is ASPRUZYO Sprinkle?</content>
+                  </paragraph>
+                  <paragraph>ASPRUZYO Sprinkle is a prescription medicine used to treat angina that keeps coming back (chronic angina).</paragraph>
+                  <paragraph>ASPRUZYO Sprinkle may be used with other medicines that are used for heart problems and blood pressure control.</paragraph>
+                  <paragraph>It is not known if ASPRUZYO Sprinkle is safe and effective in children.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Do not take ASPRUZYO Sprinkle if:</content>
+                  </paragraph>
+                  <list listType="unordered">
+                     <item>you take any of the following medicines:</item>
+                     <item>for fungus infection: ketoconazole, itraconazole</item>
+                     <item>for infection: clarithromycin</item>
+                     <item>for depression: nefazodone</item>
+                     <item>for HIV: nelfinavir, ritonavir, indinavir saquinavir</item>
+                     <item>for tuberculosis (TB): rifampin, rifabutin, rifapentine</item>
+                     <item>for seizures: phenobarbital, phenytoin, and carbamazepine</item>
+                     <item>St. John's wort</item>
+                     <item>you have scarring of your liver (liver cirrhosis)</item>
+                  </list>
+                  <paragraph>
+                     <content styleCode="bold">Before taking ASPRUZYO Sprinkle, tell your healthcare provider about all of your medical conditions, including if you:</content>
+                  </paragraph>
+                  <list listType="unordered">
+                     <item>have or have a family history of a heart problem, called 'QT prolongation' or 'long QT syndrome'</item>
+                     <item>have liver problems</item>
+                     <item>have kidney problems</item>
+                     <item>are pregnant or plan to become pregnant. It is not known if ASPRUZYO Sprinkle will harm your unborn baby.</item>
+                     <item>are breastfeeding or plan to breastfeed. It is not known if ranolazine passes into your breast milk. Talk to your healthcare provider about the best way to feed your baby.</item>
+                  </list>
+                  <paragraph>
+                     <content styleCode="bold">Tell your healthcare provider about all the medicines you take,</content>including prescription and over-the-counter medicines, vitamins, and herbal supplements. ASPRUZYO Sprinkle may affect the way other medicines work and other medicines may affect how ASPRUZYO Sprinkle works.
+
+ </paragraph>
+                  <paragraph>Know the medicines you take. Keep a list of them to show your healthcare provider or pharmacist when you get a new medicine.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">How should I take ASPRUZYO Sprinkle?</content>
+                  </paragraph>
+                  <list listType="unordered">
+                     <item>Take ASPRUZYO Sprinkle exactly as your healthcare provider tells you.</item>
+                     <item>Your healthcare provider will tell you how much ASPRUZYO Sprinkle to take and when to take it. Do not change your dose unless your healthcare provider tells you to.</item>
+                     <item>Tell your healthcare provider if you still have symptoms of angina after starting ASPRUZYO Sprinkle.</item>
+                     <item>Take ASPRUZYO Sprinkle 2 times a day.</item>
+                     <item>ASPRUZYO Sprinkle may be taken or given as follows:</item>
+                  </list>
+                  <paragraph>
+                     <content styleCode="bold">To open the sachet fold back on dotted line and tear at notch or use scissors.</content>
+                  </paragraph>
+                  <renderMultiMedia ID="id-623762721" referencedObject="E20AD34E-4747-4FC5-8441-2EEFC4E00977"/>
+                  <paragraph>
+                     <content styleCode="bold">
+                        <content styleCode="underline">Directions for use with soft food (e.g., applesauce and yogurt):</content>
+                     </content>
+                  </paragraph>
+                  <list listType="unordered">
+                     <item>Sprinkle granules on one tablespoonful of soft food and consume immediately.</item>
+                     <item>Do not crush or chew the granules.</item>
+                  </list>
+                  <paragraph>
+                     <content styleCode="bold">
+                        <content styleCode="underline">Giving ASPRUZYO Sprinkle with water through a 12 French or larger nasogastric (NG) tube</content>:
+ 
+  </content>
+                  </paragraph>
+                  <list listType="unordered">
+                     <item>Add the granules from the sachet to a plastic catheter tip syringe and add 50 mL of water.</item>
+                     <item>Gently shake the syringe for about 15 seconds.</item>
+                     <item>Connect the catheter tip syringe to the NG tube and give the mixture right away.</item>
+                     <item>Make sure that no granules are left in the syringe. Rinse the syringe with about 15 mL of additional water if needed and give through NG tube.</item>
+                  </list>
+                  <paragraph>
+                     <content styleCode="bold">
+                        <content styleCode="underline">Giving ASPRUZYO Sprinkle with water through a 12 French or larger gastric (G) tube:</content>
+                     </content>
+                  </paragraph>
+                  <list listType="unordered">
+                     <item>Add the granules from the sachet to a plastic catheter tip syringe and add 30 mL of water.</item>
+                     <item>Gently shake the syringe for about 15 seconds.</item>
+                     <item>Connect the catheter tip syringe to the G-tube and give the mixture right away.</item>
+                     <item>Rinse the syringe with 20 mL of additional water and give through G-tube.</item>
+                     <item>Make sure that no granules are left in the syringe. Rinse the syringe with about 15 mL of additional water if needed and give through G-tube.</item>
+                     <item>If you miss a dose of ASPRUZYO Sprinkle, take the next dose of ASPRUZYO Sprinkle at your regular time. Do not make up for the missed dose. Do not take 2 doses at the same time.</item>
+                     <item>If you take too much ASPRUZYO Sprinkle, call your healthcare provider, or go to the nearest emergency room right away.</item>
+                  </list>
+                  <paragraph>
+                     <content styleCode="bold">What should I avoid while taking ASPRUZYO Sprinkle?</content>
+                  </paragraph>
+                  <list listType="unordered">
+                     <item>You should limit grapefruit, grapefruit juice, and products that contain grapefruit during treatment with ASPRUZYO Sprinkle. Grapefruit products can increase the amount of ASPRUZYO Sprinkle in your body.</item>
+                     <item>ASPRUZYO Sprinkle can cause dizziness, lightheadedness, and fainting. If you have these symptoms, do not drive a car, use machinery, or do anything that needs you to be alert.</item>
+                     <item>You should not drink alcohol during treatment with ASPRUZYO Sprinkle.</item>
+                  </list>
+                  <paragraph>
+                     <content styleCode="bold">What are the possible side effects of ASPRUZYO Sprinkle?</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">ASPRUZYO Sprinkle may cause serious side effects, including:</content>
+                  </paragraph>
+                  <list listType="unordered">
+                     <item>
+                        <content styleCode="bold">Changes in the electrical activity of your heart called QT prolongation</content>. Your healthcare provider may check the electrical activity of your heart with an electrocardiogram (ECG). Tell your healthcare provider right away if you feel faint, lightheaded, or feel your heart beating irregularly or fast during treatment with ASPRUZYO Sprinkle. These may be symptoms related to QT prolongation.
+ 
+  </item>
+                     <item>
+                        <content styleCode="bold">Kidney failure in people who already have severe kidney problems</content>. Your healthcare provider may do blood tests to check your kidneys during treatment with ASPRUZYO Sprinkle.
+ 
+  </item>
+                  </list>
+                  <paragraph>
+                     <content styleCode="bold">The most common side effects of ASPRUZYO Sprinkle include:</content>
+                  </paragraph>
+                  <list listType="unordered">
+                     <item>dizziness</item>
+                     <item>headache</item>
+                     <item>constipation</item>
+                     <item>nausea</item>
+                  </list>
+                  <paragraph>These are not all of the possible side effects of ASPRUZYO Sprinkle.</paragraph>
+                  <paragraph>Call your healthcare provider for medical advice about side effects. You may report side effects to FDA at 1-800-FDA-1088.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">How should I store ASPRUZYO Sprinkle?</content>
+                  </paragraph>
+                  <list listType="unordered">
+                     <item>Store ASPRUZYO Sprinkle at room temperature between 68°F to 77°F (20°C to 25°C).</item>
+                     <item>
+                        <content styleCode="bold">Keep ASPRUZYO Sprinkle and all medicines out of the reach of children.</content>
+                     </item>
+                  </list>
+                  <paragraph>
+                     <content styleCode="bold">General information about the safe and effective use of ASPRUZYO Sprinkle.</content>
+                  </paragraph>
+                  <paragraph>Medicines are sometimes prescribed for purposes other than those listed in a Patient Information leaflet. Do not use ASPRUZYO Sprinkle for a condition for which it was not prescribed. Do not give ASPRUZYO Sprinkle to other people, even if they have the same condition you have. It may harm them. You can ask your pharmacist or healthcare provider for information about ASPRUZYO Sprinkle that is written for health professionals.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">What are the ingredients in ASPRUZYO Sprinkle?</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Active ingredient:</content>ranolazine
+
+ </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Inactive ingredients:</content>amino methacrylate copolymer, dibutyl sebacate, ethyl cellulose, hypromellose, magnesium stearate, methacrylic acid and ethyl acrylate copolymer, microcrystalline cellulose, and talc.
+
+ </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Manufactured by:</content>Sun Pharmaceutical Industries Ltd., Mohali, INDIA
+
+ </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Distributed by:</content>Sun Pharmaceutical Industries, Inc., Cranbury, NJ 08512
+
+ </paragraph>
+                  <paragraph>For more information, call 1-800-818-4555.</paragraph>
+                  <list listType="ordered">
+                     <item>This Patient Information has been approved by the U.S. Food and Drug Administration. Issued: February/2022</item>
+                  </list>
+               </text>
+               <effectiveTime value="20210430"/>
+               <component>
+                  <observationMedia ID="E20AD34E-4747-4FC5-8441-2EEFC4E00977">
+                     <text>spl-aspruzyo-diagram</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="spl-aspruzyo-diagram.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_465dbc60-f888-492b-8aa3-cd0429332324">
+               <id root="2cd273e4-3164-3562-e063-6394a90ac135"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>Package/Label Display Panel</title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">NDC 47335-624-30</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">ASPRUZYO Sprinkle™ (ranolazine) extended-release granules</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">500 mg per sachet</content>
+                  </paragraph>
+                  <list listType="ordered">
+                     <item>
+                        <content styleCode="bold">Rx only SUN PHARMA</content>
+                     </item>
+                  </list>
+                  <paragraph>
+                     <content styleCode="bold">Contains 30 sachets</content>
+                  </paragraph>
+                  <renderMultiMedia ID="id-1237398320" referencedObject="AB401BBD-0895-4B32-8B9A-C8D053ED0A2E"/>
+               </text>
+               <effectiveTime value="20210430"/>
+               <component>
+                  <observationMedia ID="AB401BBD-0895-4B32-8B9A-C8D053ED0A2E">
+                     <text>spl-aspruzyo-500 mg-30 carton</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="spl-aspruzyo-500 mg-30 carton.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_32f4b266-caea-4062-af67-54bb71da4297">
+               <id root="2cd273e4-3165-3562-e063-6394a90ac135"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>Package/Label Display Panel</title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">NDC 47335-624-60</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">ASPRUZYO Sprinkle™ (ranolazine) extended-release granules</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">500 mg per sachet</content>
+                  </paragraph>
+                  <list listType="ordered">
+                     <item>
+                        <content styleCode="bold">Rx only SUN PHARMA</content>
+                     </item>
+                  </list>
+                  <paragraph>
+                     <content styleCode="bold">Contains 60 sachets</content>
+                  </paragraph>
+                  <renderMultiMedia ID="id1176316222" referencedObject="B1E87CCA-7ACC-4141-9AE1-8A274DC832B0"/>
+               </text>
+               <effectiveTime value="20210430"/>
+               <component>
+                  <observationMedia ID="B1E87CCA-7ACC-4141-9AE1-8A274DC832B0">
+                     <text>spl-aspruzyo-500 mg-60 carton</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="spl-aspruzyo-500 mg-60 carton.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_007e5854-6028-4ffd-bac7-354955408d31">
+               <id root="2cd273e4-3166-3562-e063-6394a90ac135"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>Package/Label Display Panel</title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">NDC 47335-624-11</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">ASPRUZYO Sprinkle™ (ranolazine) extended-release granules</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">500 mg per sachet</content>
+                  </paragraph>
+                  <list listType="unordered">
+                     <item>Each sachet contains 500 mg ranolazine</item>
+                     <item>Recommended Dosage: See prescribing information.</item>
+                  </list>
+                  <list listType="ordered">
+                     <item>
+                        <content styleCode="bold">Rx only SUN PHARMA</content>
+                     </item>
+                     <item>This package is child-resistant.</item>
+                     <item>
+                        <content styleCode="bold">Keep out of reach of children.</content>
+                     </item>
+                  </list>
+                  <renderMultiMedia ID="id921841984" referencedObject="ID_40780af1-f2ab-4413-a3e3-622f699f1b4e"/>
+               </text>
+               <effectiveTime value="20220302"/>
+               <component>
+                  <observationMedia ID="ID_40780af1-f2ab-4413-a3e3-622f699f1b4e">
+                     <text>spl-aspruzyo-sachet-500 mg</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="spl-aspruzyo-sachet-500 mg.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

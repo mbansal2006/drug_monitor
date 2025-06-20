@@ -1,0 +1,1282 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="https://www.accessdata.fda.gov/spl/stylesheet/spl.xsl" type="text/xsl"?>
+<document xmlns="urn:hl7-org:v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 https://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="2890b03c-dbef-4db8-8b07-c042d7765677"/>
+   <code code="34391-3" codeSystem="2.16.840.1.113883.6.1" displayName="HUMAN PRESCRIPTION DRUG LABEL"/>
+   <title>
+      <content styleCode="bold">Leucovorin Calcium for Injection, USP </content>
+      <br/>
+      <content styleCode="bold">Rx ONLY</content>
+   </title>
+   <effectiveTime value="20220601"/>
+   <setId root="1cb701ca-2478-4268-9d69-80293965d59d"/>
+   <versionNumber value="4"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id extension="790384502" root="1.3.6.1.4.1.519.1"/>
+            <name>Mylan Institutional LLC</name>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section>
+               <id root="1edf553c-09d8-4e73-92e4-5209c80d0a7f"/>
+               <code code="48780-1" codeSystem="2.16.840.1.113883.6.1" displayName="SPL product data elements section"/>
+               <effectiveTime value="20190709"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="67457-528" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>LEUCOVORIN CALCIUM</name>
+                        <formCode code="C42958" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="INJECTION, POWDER, LYOPHILIZED, FOR SUSPENSION"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>LEUCOVORIN CALCIUM</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <ingredient classCode="ACTIM">
+                           <quantity>
+                              <numerator unit="mg" value="100"/>
+                              <denominator unit="mL" value="10"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="RPR1R4C0P4" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>LEUCOVORIN CALCIUM</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="Q573I9DVLP" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>LEUCOVORIN</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="451W47IQ8X" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SODIUM CHLORIDE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="55X04QC32I" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SODIUM HYDROXIDE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="QTT17582CB" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>HYDROCHLORIC ACID</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator unit="mL" value="10"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code/>
+                              <formCode code="C43215" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="VIAL, SINGLE-DOSE"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator unit="1" value="1"/>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code code="67457-528-10" codeSystem="2.16.840.1.113883.6.69"/>
+                                    <formCode code="C43182" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CARTON"/>
+                                 </containerPackagedProduct>
+                                 <subjectOf>
+                                    <marketingAct>
+                                       <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                       <statusCode code="active"/>
+                                       <effectiveTime>
+                                          <low value="20190723"/>
+                                       </effectiveTime>
+                                    </marketingAct>
+                                 </subjectOf>
+                              </asContent>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic classCode="OBS">
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CE"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <id extension="ANDA203800" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73584" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ANDA"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20190723"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C28161" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="INTRAMUSCULAR"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38276" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="INTRAVENOUS"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="67457-529" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>LEUCOVORIN CALCIUM</name>
+                        <formCode code="C42958" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="INJECTION, POWDER, LYOPHILIZED, FOR SUSPENSION"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>LEUCOVORIN CALCIUM</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <ingredient classCode="ACTIM">
+                           <quantity>
+                              <numerator unit="mg" value="200"/>
+                              <denominator unit="mL" value="20"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="RPR1R4C0P4" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>LEUCOVORIN CALCIUM</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="Q573I9DVLP" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>LEUCOVORIN</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="451W47IQ8X" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SODIUM CHLORIDE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="55X04QC32I" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SODIUM HYDROXIDE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="QTT17582CB" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>HYDROCHLORIC ACID</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator unit="mL" value="20"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code/>
+                              <formCode code="C43215" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="VIAL, SINGLE-DOSE"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator unit="1" value="1"/>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code code="67457-529-20" codeSystem="2.16.840.1.113883.6.69"/>
+                                    <formCode code="C43182" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CARTON"/>
+                                 </containerPackagedProduct>
+                                 <subjectOf>
+                                    <marketingAct>
+                                       <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                       <statusCode code="active"/>
+                                       <effectiveTime>
+                                          <low value="20190723"/>
+                                       </effectiveTime>
+                                    </marketingAct>
+                                 </subjectOf>
+                              </asContent>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic classCode="OBS">
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CE"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <id extension="ANDA203800" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73584" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ANDA"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20190723"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C28161" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="INTRAMUSCULAR"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38276" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="INTRAVENOUS"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="67457-530" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>LEUCOVORIN CALCIUM</name>
+                        <formCode code="C42958" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="INJECTION, POWDER, LYOPHILIZED, FOR SUSPENSION"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>LEUCOVORIN CALCIUM</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <ingredient classCode="ACTIM">
+                           <quantity>
+                              <numerator unit="mg" value="350"/>
+                              <denominator unit="mL" value="17.5"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="RPR1R4C0P4" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>LEUCOVORIN CALCIUM</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="Q573I9DVLP" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>LEUCOVORIN</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="451W47IQ8X" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SODIUM CHLORIDE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="55X04QC32I" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SODIUM HYDROXIDE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="QTT17582CB" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>HYDROCHLORIC ACID</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator unit="mL" value="17.5"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code/>
+                              <formCode code="C43215" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="VIAL, SINGLE-DOSE"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator unit="1" value="1"/>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code code="67457-530-35" codeSystem="2.16.840.1.113883.6.69"/>
+                                    <formCode code="C43182" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CARTON"/>
+                                 </containerPackagedProduct>
+                                 <subjectOf>
+                                    <marketingAct>
+                                       <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                       <statusCode code="active"/>
+                                       <effectiveTime>
+                                          <low value="20190102"/>
+                                       </effectiveTime>
+                                    </marketingAct>
+                                 </subjectOf>
+                              </asContent>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic classCode="OBS">
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CE"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <id extension="ANDA203800" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73584" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ANDA"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20190102"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C28161" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="INTRAMUSCULAR"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38276" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="INTRAVENOUS"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_f8f67fe6-5fec-41ce-bfe6-c5bb5b3d5c92">
+               <id root="55ec321c-0330-4251-bae7-62f0eb477b7d"/>
+               <code code="34089-3" codeSystem="2.16.840.1.113883.6.1" displayName="DESCRIPTION SECTION"/>
+               <title>DESCRIPTION </title>
+               <text>
+                  <paragraph>Leucovorin is one of several active, chemically reduced derivatives of folic acid. It is useful as an antidote to drugs which act as folic acid antagonists.</paragraph>
+                  <paragraph>Also known as folinic acid, Citrovorum factor, or 5-formyl-5,6,7,8-tetrahydrofolic acid, this compound has the chemical designation of Calcium <content styleCode="italics">N</content>-[p-[[[(6<content styleCode="italics">RS</content>)-2-amino-5-formyl-5,6,7,8-tetrahydro-4-hydroxy-6-pteridinyl]methyl]amino]benzoyl]-L-glutamate (1:1). The structural formula of leucovorin calcium is:</paragraph>
+                  <renderMultiMedia ID="id1489820766" referencedObject="ID_40716adc-dc31-4bb9-91e9-6eb2ac331cb6"/>
+                  <paragraph>C<sub>20</sub>H<sub>21</sub>CaN<sub>7</sub>O<sub>7</sub>                 M.W.=511.51</paragraph>
+                  <paragraph>Leucovorin Calcium for Injection, USP, is a sterile product indicated for intramuscular (IM) or intravenous (IV) administration and is supplied in 100 mg, 200 mg, and 350 mg vials.</paragraph>
+                  <paragraph>Each 100 mg vial of Leucovorin Calcium for Injection, USP, when reconstituted with 10 mL of sterile diluent, contains leucovorin (as the calcium salt) 10 mg/mL.</paragraph>
+                  <paragraph>Each 200 mg vial of Leucovorin Calcium for Injection, USP, when reconstituted with 20 mL of sterile diluent, contains leucovorin (as the calcium salt) 10 mg/mL.</paragraph>
+                  <paragraph>Each 350 mg vial of Leucovorin Calcium for Injection, USP, when reconstituted with 17.5 mL of sterile diluent, contains leucovorin (as the calcium salt) 20 mg/mL.</paragraph>
+                  <paragraph>In each dosage form, one milligram of leucovorin calcium, USP contains 0.002 mmol of leucovorin and 0.002 mmol of calcium.</paragraph>
+                  <paragraph>These lyophilized products contain no preservative. The inactive ingredient is Sodium Chloride added to adjust tonicity and sodium hydroxide and/or hydrochloric acid for pH adjustment. </paragraph>
+                  <paragraph>The pH is between 6.5 and 8.5.</paragraph>
+                  <paragraph>Reconstitute with Bacteriostatic Water for Injection, USP, which contains benzyl alcohol (see <linkHtml href="#ID_abf1fc9e-1b4b-4f1e-9de6-7861f8309b55">WARNINGS</linkHtml> section), or with Sterile Water for Injection, USP.</paragraph>
+               </text>
+               <effectiveTime value="20220601"/>
+               <component>
+                  <observationMedia ID="ID_40716adc-dc31-4bb9-91e9-6eb2ac331cb6">
+                     <text>Structure</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="image-01.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_98c98516-95de-4bf6-9076-2a9fc2209af7">
+               <id root="98c98516-95de-4bf6-9076-2a9fc2209af7"/>
+               <code code="34090-1" codeSystem="2.16.840.1.113883.6.1" displayName="CLINICAL PHARMACOLOGY SECTION"/>
+               <title>CLINICAL PHARMACOLOGY </title>
+               <text>
+                  <paragraph>Leucovorin is a mixture of the diastereoisomers of the 5-formyl derivative of tetrahydrofolic acid (THF). The biologically active compound of the mixture is the (-)-<content styleCode="italics">l</content>-isomer, known as Citrovorum factor or (-)-folinic acid. Leucovorin does not require reduction by the enzyme dihydrofolate reductase in order to participate in reactions utilizing folates as a source of “one-carbon” moieties.</paragraph>
+                  <paragraph>
+                     <content styleCode="italics">l</content>-Leucovorin (<content styleCode="italics">l</content>-5-formyltetrahydrofolate) is rapidly metabolized (via 5, 10-methenyltetrahydrofolate then 5, 10-methylenetetrahydrofolate) to <content styleCode="italics">l</content>,5-methyltetrahydrofolate. <content styleCode="italics">l</content>,5-Methyltetrahydrofolate can in turn be metabolized via other pathways back to 5,10-methylenetetrahydrofolate, which is converted to 5-methyltetrahydrofolate by an irreversible, enzyme catalyzed reduction using the cofactors FADH<sub>2</sub> and NADPH.</paragraph>
+                  <paragraph>Administration of leucovorin can counteract the therapeutic and toxic effects of folic acid antagonists such as methotrexate, which act by inhibiting dihydrofolate reductase.</paragraph>
+                  <paragraph>In contrast, leucovorin can enhance the therapeutic and toxic effects of fluoropyrimidines used in cancer therapy, such as 5-fluorouracil. Concurrent administration of leucovorin does not appear to alter the plasma pharmacokinetics of 5-fluorouracil. 5-Fluorouracil is metabolized to fluorodeoxyuridylic acid, which binds to and inhibits the enzyme thymidylate synthase (an enzyme important in DNA repair and replication).</paragraph>
+                  <paragraph>Leucovorin is readily converted to another reduced folate, 5,10-methylenetetrahydrofolate, which acts to stabilize the binding of fluorodeoxyridylic acid to thymidylate synthase and thereby enhances the inhibition of this enzyme.</paragraph>
+                  <paragraph>The pharmacokinetics after intravenous, intramuscular and oral administration of a 25 mg dose of leucovorin were studied in male volunteers. After intravenous administration, serum total reduced folates (as measured by <content styleCode="italics">Lactobacillus casei </content>assay) reached a mean peak of 1259 ng/mL (range 897 to 1625). The mean time to peak was 10 minutes. This initial rise in total reduced folates was primarily due to the parent compound 5-formyl-THF (measured by <content styleCode="italics">Streptococcus faecalis </content>assay) which rose to 1206 ng/mL at 10 minutes. A sharp drop in parent compound followed and coincided with the appearance of the active metabolite 5-methyl-THF which became the predominant circulating form of the drug.</paragraph>
+                  <paragraph>The mean peak of 5-methyl-THF was 258 ng/mL and occurred at 1.3 hours. The terminal half-life for total reduced folates was 6.2 hours. The area under the concentration versus time curves (AUCs) for <content styleCode="italics">l</content>-leucovorin, <content styleCode="italics">d</content>-leucovorin and 5-methyltetrahydrofolate were 28.4 ± 3.5, 956 ± 97 and 129 ± 12 (mg/min/L ± S.E.). When a higher dose of <content styleCode="italics">d</content>,<content styleCode="italics">l</content>-leucovorin (200 mg/m<sup>2</sup>) was used, similar results were obtained. The d-isomer persisted in plasma at concentrations greatly exceeding those of the <content styleCode="italics">l</content>-isomer.</paragraph>
+                  <paragraph>After intramuscular injection, the mean peak of serum total reduced folates was 436 ng/mL (range 240 to 725) and occurred at 52 minutes. Similar to IV administration, the initial sharp rise was due to the parent compound. The mean peak of 5-formyl-THF was 360 ng/mL and occurred at 28 minutes. The level of the metabolite 5-methyl-THF increased subsequently over time until at 1.5 hours it represented 50% of the circulating total folates. The mean peak of 5-methyl-THF was 226 ng/mL at 2.8 hours. The terminal half-life of total reduced folates was 6.2 hours. There was no difference of statistical significance between IM and IV administration in the AUC for total reduced folates, 5-formyl-THF, or 5-methyl-THF.</paragraph>
+                  <paragraph>After oral administration of leucovorin reconstituted with aromatic elixir, the mean peak concentration of serum total reduced folates was 393 ng/mL (range 160 to 550). The mean time to peak was 2.3 hours and the terminal half-life was 5.7 hours. The major component was the metabolite 5-methyltetrahydrofolate to which leucovorin is primarily converted in the intestinal mucosa. The mean peak of 5-methyl-THF was 367 ng/mL at 2.4 hours. The peak level of the parent compound was 51 ng/mL at 1.2 hours. The AUC of total reduced folates after oral administration of the 25 mg dose was 92% of the AUC after intravenous administration.</paragraph>
+                  <paragraph>Following oral administration, leucovorin is rapidly absorbed and expands the serum pool of reduced folates. At a dose of 25 mg, almost 100% of the l-isomer but only 20% of the d-isomer is absorbed. Oral absorption of leucovorin is saturable at doses above 25 mg. The apparent bioavailability of leucovorin was 97% for 25 mg, 75% for 50 mg, and 37% for 100 mg.</paragraph>
+                  <paragraph>In a randomized clinical study conducted by the Mayo Clinic and the North Central Cancer Treatment Group (Mayo/NCCTG) in patients with advanced metastatic colorectal cancer three treatment regimens were compared: Leucovorin (LV) 200 mg/m<sup>2</sup> and 5-fluorouracil (5-FU) 370 mg/m<sup>2</sup> versus LV 20 mg/m<sup>2</sup> and 5-FU 425 mg/m<sup>2</sup> versus 5-FU 500 mg/m<sup>2</sup>. All drugs were administered by slow intravenous infusion daily for 5 days repeated every 28 to 35 days. Response rates were 26% (p=0.04 versus 5-FU alone), 43% (p=0.001 versus 5-FU alone) and 10% for the high dose leucovorin, low dose leucovorin and 5-FU alone groups respectively. Respective median survival times were 12.2 months (p=0.037), 12 months (p=0.050), and 7.7 months. The low dose LV regimen gave a statistically significant improvement in weight gain of more than 5%, relief of symptoms, and improvement in performance status. The high dose LV regimen gave a statistically significant improvement in performance status and trended toward improvement in weight gain and in relief of symptoms but these were not statistically significant.<sup>1</sup>
+                  </paragraph>
+                  <paragraph>In a second Mayo/NCCTG randomized clinical study the 5-FU alone arm was replaced by a regimen of sequentially administered methotrexate (MTX), 5-FU, and LV. Response rates with LV 200 mg/m<sup>2</sup> and 5-FU 370 mg/m<sup>2</sup> versus LV 20 mg/m<sup>2</sup> and 5-FU 425 mg/m<sup>2</sup> versus sequential MTX and 5-FU and LV were respectively 31% (p=&lt;.01), 42% (p=&lt;.01), and 14%. Respective median survival times were 12.7 months (p=&lt;.04), 12.7 months (p=&lt;.01), and 8.4 months. No statistically significant difference in weight gain of more than 5% or in improvement in performance status was seen between the treatment arms.<sup>2</sup>
+                  </paragraph>
+                  <paragraph>The pharmacokinetics of 200 mg doses of leucovorin administered intravenously and orally (reconstituted powder, not tablets) have been evaluated in healthy male subjects. The serum clearance corrected for bioavailability, terminal half-life, and apparent volume of distribution of total folate were not significantly different between routes of administration. The oral bioavailability of the 200 mg dose was 31%. Eighty-three percent of the biologically active IV dose was recovered in the urine within 24 hours, 31% as 5-methyltetrahydrofolate. Twenty percent of the same oral dose was excreted in 24 hours, 16% as 5-methyltetrahydrofolate.</paragraph>
+               </text>
+               <effectiveTime value="20190107"/>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_810cbf71-233e-41c9-a2e4-130a670e43cd">
+               <id root="810cbf71-233e-41c9-a2e4-130a670e43cd"/>
+               <code code="34067-9" codeSystem="2.16.840.1.113883.6.1" displayName="INDICATIONS &amp; USAGE SECTION"/>
+               <title>INDICATIONS AND USAGE </title>
+               <text>
+                  <paragraph>Leucovorin calcium rescue is indicated after high dose methotrexate therapy in osteosarcoma. Leucovorin calcium is also indicated to diminish the toxicity and counteract the effects of impaired methotrexate elimination and of inadvertent over dosages of folic acid antagonists.</paragraph>
+                  <paragraph>Leucovorin calcium is indicated in the treatment of megaloblastic anemias due to folic acid deficiency when oral therapy is not feasible.</paragraph>
+                  <paragraph>Leucovorin is also indicated for use in combination with 5-fluorouracil to prolong survival in the palliative treatment of patients with advanced colorectal cancer. Leucovorin should not be mixed in the same infusion as 5-fluorouracil because a precipitate may form.</paragraph>
+               </text>
+               <effectiveTime value="20190107"/>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_6611e687-5140-432b-a22a-9258b87d4be3">
+               <id root="39b77bde-a255-4784-9eb4-2767ea5991dd"/>
+               <code code="34070-3" codeSystem="2.16.840.1.113883.6.1" displayName="CONTRAINDICATIONS SECTION"/>
+               <title>CONTRAINDICATIONS </title>
+               <text>
+                  <paragraph>Leucovorin is improper therapy for pernicious anemia and other megaloblastic anemias secondary to the lack of vitamin B<sub>12</sub>. A hematologic remission may occur while neurologic manifestations continue to progress. </paragraph>
+               </text>
+               <effectiveTime value="20220601"/>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_abf1fc9e-1b4b-4f1e-9de6-7861f8309b55">
+               <id root="3350b504-cf6d-4040-a6ba-abfe25c88c02"/>
+               <code code="34071-1" codeSystem="2.16.840.1.113883.6.1" displayName="WARNINGS SECTION"/>
+               <title>WARNINGS </title>
+               <text>
+                  <paragraph>In the treatment of accidental overdosages of folic acid antagonists, intravenous leucovorin should be administered as promptly as possible. As the time interval between antifolate administration (e.g., methotrexate) and leucovorin rescue increases, leucovorin's effectiveness in counteracting toxicity decreases. In the treatment of accidental overdosages of intrathecally adminstered folic acid antagonists, do not adminster leucovorin intrathecally. LEUCOVORIN MAY BE HARMFUL OR FATAL IF GIVEN INTRATHECALLY.</paragraph>
+                  <paragraph>Monitoring of the serum methotrexate concentration is essential in determining the optimal dose and duration of treatment with leucovorin.</paragraph>
+                  <paragraph>Delayed methotrexate excretion may be caused by a third space fluid accumulation (i.e., ascites, pleural effusion), renal insufficiency, or inadequate hydration. Under such circumstances, higher doses of leucovorin or prolonged administration may be indicated. Doses higher than those recommended for oral use must be given intravenously.</paragraph>
+                  <paragraph>Because of the benzyl alcohol contained in certain diluents used for reconstituting Leucovorin Calcium for Injection, when doses greater than 10 mg/m<sup>2</sup> are administered, Leucovorin Calcium for Injection should be reconstituted with Sterile Water for Injection, USP, and used immediately (see <linkHtml href="#ID_79e7261c-beb9-4421-925d-7c5b02712e16">DOSAGE AND ADMINISTRATION</linkHtml> section). </paragraph>
+                  <paragraph>Because of the calcium content of the leucovorin solution, no more than 160 mg of leucovorin should be injected intravenously per minute (16 mL of a 10 mg/mL, or 8 mL of a 20 mg/mL solution per minute).</paragraph>
+                  <paragraph>Leucovorin enhances the toxicity of 5-fluorouracil. When these drugs are administered concurrently in the palliative therapy of advanced colorectal cancer, the dosage of 5-fluorouracil must be lower than usually administered. Although the toxicities observed in patients treated with the combination of leucovorin plus 5-fluorouracil are qualitatively similar to those observed in patients treated with 5-fluorouracil alone, gastrointestinal toxicities (particularly stomatitis and diarrhea) are observed more commonly and may be more severe and of prolonged duration in patients treated with the combination.</paragraph>
+                  <paragraph>In the first Mayo/NCCTG controlled trial, toxicity, primarily gastrointestinal, resulted in 7% of patients requiring hospitalization when treated with 5-fluorouracil alone or 5-fluorouracil in combination with 200 mg/m<sup>2</sup> of leucovorin and 20% when treated with 5-fluorouracil in combination with 20 mg/m<sup>2</sup> of leucovorin. In the second Mayo/NCCTG trial, hospitalizations related to treatment toxicity also appeared to occur more often in patients treated with the low dose leucovorin/5-fluorouracil combination than in patients treated with the high dose combination -11% versus 3%. Therapy with leucovorin and 5-fluorouracil must not be initiated or continued in patients who have symptoms of gastrointestinal toxicity of any severity, until those symptoms have completely resolved. Patients with diarrhea must be monitored with particular care until the diarrhea has resolved, as rapid clinical deterioration leading to death can occur. In an additional study utilizing higher weekly doses of 5-fluorouracil and leucovorin, elderly and/or debilitated patients were found to be at greater risk for severe gastrointestinal toxicity.</paragraph>
+                  <paragraph>Seizures and/or syncope have been reported rarely in cancer patients receiving leucovorin, usually in association with fluoropyrimidine administration, and most commonly in those with CNS metastases or other predisposing factors, however, a causal relationship has not been established.<sup>5</sup>
+                  </paragraph>
+                  <paragraph>The concomitant use of leucovorin with trimethoprim-sulfamethoxazole for the acute treatment of Pneumocystis carinii pneumonia in patients with HIV infection was associated with increased rates of treatment failure and morbidity in a placebo-controlled study.</paragraph>
+               </text>
+               <effectiveTime value="20220601"/>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_9e1cc203-0085-4d15-8847-25030ca4d07b">
+               <id root="e1d4e8cd-3ea3-4b43-bfc3-697b1b856b36"/>
+               <code code="42232-9" codeSystem="2.16.840.1.113883.6.1" displayName="PRECAUTIONS SECTION"/>
+               <title>PRECAUTIONS </title>
+               <effectiveTime value="20220601"/>
+               <component>
+                  <section ID="ID_08db42bb-a87f-4e4e-8bdd-38c4caa42d26">
+                     <id root="c85f0d64-1972-465e-bfd7-8bdd0568a71a"/>
+                     <code code="34072-9" codeSystem="2.16.840.1.113883.6.1" displayName="GENERAL PRECAUTIONS SECTION"/>
+                     <title>General<content styleCode="italics"/>
+                     </title>
+                     <text>
+                        <paragraph>Parenteral administration is preferable to oral dosing if there is a possibility that the patient may vomit and not absorb the leucovorin. Leucovorin has no effect on non-hematologic toxicities of methotrexate such as the nephrotoxicity resulting from drug and/or metabolite precipitation in the kidney.</paragraph>
+                        <paragraph>
+                           <content styleCode="bold">Since leucovorin enhances the toxicity of fluorouracil, leucovorin/5-fluorouracil combination therapy for advanced colorectal cancer should be administered under the supervision of a physician experienced in the use of antimetabolite cancer chemotherapy. Particular care should be taken in the treatment of elderly or debilitated colorectal cancer patients, as these patients may be at increased risk of severe toxicity.</content>
+                        </paragraph>
+                     </text>
+                     <effectiveTime value="20220601"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID_c8f21448-a6ce-4c78-baea-c32a8e442064">
+                     <id root="4b8c1d18-3b69-4e53-8e33-d32fbaa3cbfa"/>
+                     <code code="34075-2" codeSystem="2.16.840.1.113883.6.1" displayName="LABORATORY TESTS SECTION"/>
+                     <title>Laboratory Tests<content styleCode="italics"/>
+                     </title>
+                     <text>
+                        <paragraph>Patients being treated with the leucovorin/5-fluorouracil combination should have a CBC with differential and platelets prior to each treatment. During the first two courses a CBC with differential and platelets has to be repeated weekly and thereafter once each cycle at the time of anticipated WBC nadir. Electrolytes and liver function tests should be performed prior to each treatment for the first three cycles then prior to every other cycle. Dosage modifications of fluorouracil should be instituted as follows, based on the most severe toxicities:</paragraph>
+                        <table width="100%">
+                           <col width="31%"/>
+                           <col width="19%"/>
+                           <col width="25%"/>
+                           <col width="22%"/>
+                           <tbody>
+                              <tr>
+                                 <td align="center" styleCode="Toprule " valign="middle">
+                                    <paragraph>Diarrhea and/or Stomatitis</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Toprule " valign="middle">
+                                    <paragraph>WBC/mm<sup>3</sup>
+                                    </paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Toprule " valign="middle">
+                                    <paragraph>Platelets/mm<sup>3</sup>
+                                    </paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Toprule " valign="middle">
+                                    <paragraph>5-FU dose</paragraph>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td valign="middle"/>
+                                 <td align="center" valign="middle">
+                                    <paragraph>Nadir</paragraph>
+                                 </td>
+                                 <td align="center" valign="middle">
+                                    <paragraph>Nadir</paragraph>
+                                 </td>
+                                 <td valign="middle"/>
+                              </tr>
+                              <tr>
+                                 <td align="center" valign="middle">
+                                    <paragraph>Moderate</paragraph>
+                                 </td>
+                                 <td align="center" valign="middle">
+                                    <paragraph>1,000 to 1,900</paragraph>
+                                 </td>
+                                 <td align="center" valign="middle">
+                                    <paragraph>25 to 75,000</paragraph>
+                                 </td>
+                                 <td align="center" valign="middle">
+                                    <paragraph>decrease 20%</paragraph>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td align="center" styleCode="Botrule " valign="middle">
+                                    <paragraph>Severe</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Botrule " valign="middle">
+                                    <paragraph>&lt;1,000</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Botrule " valign="middle">
+                                    <paragraph>&lt;25,000</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Botrule " valign="middle">
+                                    <paragraph>decrease 30%</paragraph>
+                                 </td>
+                              </tr>
+                           </tbody>
+                        </table>
+                        <paragraph>If no toxicity occurs, the 5-fluorouracil dose may increase 10%. Treatment should be deferred until WBCs are 4,000/mm<sup>3</sup> and platelets 130,000/mm<sup>3</sup>. If blood counts do not reach these levels within two weeks, treatment should be discontinued. Patients should be followed up with physical examination prior to each treatment course and appropriate radiological examination as needed. Treatment should be discontinued when there is clear evidence of tumor progression.</paragraph>
+                     </text>
+                     <effectiveTime value="20220601"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID_a2cb7635-9c0f-4e79-b621-949e3c118167">
+                     <id root="5e4a56ee-4b06-4c67-8d3a-e534eb6f610e"/>
+                     <code code="34073-7" codeSystem="2.16.840.1.113883.6.1" displayName="DRUG INTERACTIONS SECTION"/>
+                     <title>Drug Interactions<content styleCode="italics"/>
+                     </title>
+                     <text>
+                        <paragraph>Folic acid in large amounts may counteract the antiepileptic effect of phenobarbital, phenytoin and primidone, and increase the frequency of seizures in susceptible pediatric patients.</paragraph>
+                        <paragraph>Preliminary animal and human studies have shown that small quantities of systemically administered leucovorin enter the CSF primarily as 5-methyltetrahydrofolate and, in humans, remain 1 to 3 orders of magnitude lower than the usual methotrexate concentrations following intrathecal administration. However, high doses of leucovorin may reduce the efficacy of intrathecally administered methotrexate.</paragraph>
+                        <paragraph>Leucovorin may enhance the toxicity of 5-fluorouracil (see <linkHtml href="#ID_abf1fc9e-1b4b-4f1e-9de6-7861f8309b55">WARNINGS</linkHtml> section).</paragraph>
+                     </text>
+                     <effectiveTime value="20220601"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID_7a7a27c3-cb9b-4917-9618-cad21a557a7e">
+                     <id root="9a863fff-05be-4a7d-9752-9c728c086b1f"/>
+                     <code code="42228-7" codeSystem="2.16.840.1.113883.6.1" displayName="PREGNANCY SECTION"/>
+                     <title>Pregnancy<content styleCode="italics"/>
+                     </title>
+                     <text>
+                        <paragraph>
+                           <content styleCode="bold">Teratogenic Effects:</content>
+                           <content styleCode="italics">Pregnancy Category C</content>
+                        </paragraph>
+                        <paragraph>Adequate animal reproduction studies have not been conducted with leucovorin. It is also not known whether leucovorin can cause fetal harm when administered to a pregnant woman or can affect reproduction capacity. Leucovorin should be given to a pregnant woman only if clearly needed.</paragraph>
+                     </text>
+                     <effectiveTime value="20220601"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID_bddb69c4-569b-4d80-b0df-95fc44d1005a">
+                     <id root="5e023a5b-fc15-4654-813c-616306c9014a"/>
+                     <code code="34080-2" codeSystem="2.16.840.1.113883.6.1" displayName="NURSING MOTHERS SECTION"/>
+                     <title>Nursing Mothers<content styleCode="italics"/>
+                     </title>
+                     <text>
+                        <paragraph>It is not known whether this drug is excreted in human milk. Because many drugs are excreted in human milk, caution should be exercised when leucovorin is administered to a nursing mother.</paragraph>
+                     </text>
+                     <effectiveTime value="20220601"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID_793be2ae-1371-4cff-8aef-a573a2fcc567">
+                     <id root="627537f8-0ef4-4e19-9e9f-83db6fdc5933"/>
+                     <code code="34081-0" codeSystem="2.16.840.1.113883.6.1" displayName="PEDIATRIC USE SECTION"/>
+                     <title>Pediatric Use<content styleCode="italics"/>
+                     </title>
+                     <text>
+                        <paragraph>See <linkHtml href="#ID_9e1cc203-0085-4d15-8847-25030ca4d07b">PRECAUTIONS</linkHtml>, <linkHtml href="#ID_a2cb7635-9c0f-4e79-b621-949e3c118167">Drug Interactions</linkHtml> subsection.</paragraph>
+                        <paragraph>
+                           <content styleCode="bold">Geriatric Use: </content>Clinical studies of leucovorin calcium did not show differences in safety or effectiveness between subjects over 65 and younger subjects. Other clinical experience has not identified differences in responses between the elderly and younger patients, but greater sensitivity of some older patients cannot be ruled out. This drug is known to be excreted by the kidney and the risk of toxic reactions to the drug may be greater in patients with impaired renal function. Because elder patients are more likely to have decreased renal function, care should be taken in dose selection, and it may be useful to monitor renal function.</paragraph>
+                     </text>
+                     <effectiveTime value="20220601"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_9eb382a9-86e7-4486-8cdf-b7e536067a6b">
+               <id root="ace399a5-7ed5-45d4-bb7f-d1a4abc98586"/>
+               <code code="34084-4" codeSystem="2.16.840.1.113883.6.1" displayName="ADVERSE REACTIONS SECTION"/>
+               <title>ADVERSE REACTIONS </title>
+               <text>
+                  <paragraph>Allergic sensitization, including anaphylactoid reactions and urticaria, has been reported following the administration of both oral and parenteral leucovorin. No other adverse reactions have been attributed to the use of leucovorin <content styleCode="italics">per se</content>.</paragraph>
+                  <paragraph>The following table summarizes significant adverse events occurring in 316 patients treated with the leucovorin/5-fluorouracil combinations compared against 70 patients treated with 5-fluorouracil alone for advanced colorectal carcinoma. These data are taken from the Mayo/NCCTG large multicenter prospective trial evaluating the efficacy and safety of the combination regimen.</paragraph>
+                  <paragraph>PERCENTAGE OF PATIENTS TREATED WITH LEUCOVORIN/FLUOROURACIL FOR ADVANCED COLORECTAL CARCINOMA REPORTING ADVERSE EXPERIENCES OR HOSPITALIZED FOR TOXICITY</paragraph>
+                  <table width="100%">
+                     <col width="28%"/>
+                     <col width="10%"/>
+                     <col width="14%"/>
+                     <col width="8%"/>
+                     <col width="13%"/>
+                     <col width="11%"/>
+                     <col width="13%"/>
+                     <tbody>
+                        <tr>
+                           <td styleCode="Toprule " valign="middle"/>
+                           <td align="center" colspan="2" styleCode="Toprule " valign="middle">
+                              <paragraph>(High LV*) /5-FU</paragraph>
+                           </td>
+                           <td align="center" colspan="2" styleCode="Toprule " valign="middle">
+                              <paragraph>(Low LV<sup>†</sup>) /5-FU</paragraph>
+                           </td>
+                           <td align="center" colspan="2" styleCode="Toprule " valign="middle">
+                              <paragraph>5-FU Alone</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td valign="middle"/>
+                           <td align="center" colspan="2" valign="middle">
+                              <paragraph>(N=155)</paragraph>
+                           </td>
+                           <td align="center" colspan="2" valign="middle">
+                              <paragraph>(N=161)</paragraph>
+                           </td>
+                           <td align="center" colspan="2" valign="middle">
+                              <paragraph>(N=70)</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td valign="middle"/>
+                           <td align="center" valign="middle">
+                              <paragraph>Any<sup>‡</sup>
+                              </paragraph>
+                           </td>
+                           <td align="center" valign="middle">
+                              <paragraph>Grade 3<sup>+§</sup>
+                              </paragraph>
+                           </td>
+                           <td align="center" valign="middle">
+                              <paragraph>Any<sup>‡</sup>
+                              </paragraph>
+                           </td>
+                           <td align="center" valign="middle">
+                              <paragraph>Grade 3<sup>+§</sup>
+                              </paragraph>
+                           </td>
+                           <td align="center" valign="middle">
+                              <paragraph>Any<sup>‡</sup>
+                              </paragraph>
+                           </td>
+                           <td align="center" valign="middle">
+                              <paragraph>Grade 3<sup>+§</sup>
+                              </paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td valign="middle"/>
+                           <td align="center" valign="middle">
+                              <paragraph>(%)</paragraph>
+                           </td>
+                           <td align="center" valign="middle">
+                              <paragraph>(%)</paragraph>
+                           </td>
+                           <td align="center" valign="middle">
+                              <paragraph>(%)</paragraph>
+                           </td>
+                           <td align="center" valign="middle">
+                              <paragraph>(%)</paragraph>
+                           </td>
+                           <td align="center" valign="middle">
+                              <paragraph>(%)</paragraph>
+                           </td>
+                           <td align="center" valign="middle">
+                              <paragraph>(%)</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td valign="middle">
+                              <paragraph>Leukopenia</paragraph>
+                           </td>
+                           <td align="center" valign="middle">
+                              <paragraph>69</paragraph>
+                           </td>
+                           <td align="center" valign="middle">
+                              <paragraph>14</paragraph>
+                           </td>
+                           <td align="center" valign="middle">
+                              <paragraph>83</paragraph>
+                           </td>
+                           <td align="center" valign="middle">
+                              <paragraph>23</paragraph>
+                           </td>
+                           <td align="center" valign="middle">
+                              <paragraph>93</paragraph>
+                           </td>
+                           <td align="center" valign="middle">
+                              <paragraph>48</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td valign="middle">
+                              <paragraph>Thrombocytopenia</paragraph>
+                           </td>
+                           <td align="center" valign="middle">
+                              <paragraph>8</paragraph>
+                           </td>
+                           <td align="center" valign="middle">
+                              <paragraph>2</paragraph>
+                           </td>
+                           <td align="center" valign="middle">
+                              <paragraph>8</paragraph>
+                           </td>
+                           <td align="center" valign="middle">
+                              <paragraph>1</paragraph>
+                           </td>
+                           <td align="center" valign="middle">
+                              <paragraph>18</paragraph>
+                           </td>
+                           <td align="center" valign="middle">
+                              <paragraph>3</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td valign="middle">
+                              <paragraph>Infection</paragraph>
+                           </td>
+                           <td align="center" valign="middle">
+                              <paragraph>8</paragraph>
+                           </td>
+                           <td align="center" valign="middle">
+                              <paragraph>1</paragraph>
+                           </td>
+                           <td align="center" valign="middle">
+                              <paragraph>3</paragraph>
+                           </td>
+                           <td align="center" valign="middle">
+                              <paragraph>1</paragraph>
+                           </td>
+                           <td align="center" valign="middle">
+                              <paragraph>7</paragraph>
+                           </td>
+                           <td align="center" valign="middle">
+                              <paragraph>2</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td valign="middle">
+                              <paragraph>Nausea</paragraph>
+                           </td>
+                           <td align="center" valign="middle">
+                              <paragraph>74</paragraph>
+                           </td>
+                           <td align="center" valign="middle">
+                              <paragraph>10</paragraph>
+                           </td>
+                           <td align="center" valign="middle">
+                              <paragraph>80</paragraph>
+                           </td>
+                           <td align="center" valign="middle">
+                              <paragraph>9</paragraph>
+                           </td>
+                           <td align="center" valign="middle">
+                              <paragraph>60</paragraph>
+                           </td>
+                           <td align="center" valign="middle">
+                              <paragraph>6</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td valign="middle">
+                              <paragraph>Vomiting</paragraph>
+                           </td>
+                           <td align="center" valign="middle">
+                              <paragraph>46</paragraph>
+                           </td>
+                           <td align="center" valign="middle">
+                              <paragraph>8</paragraph>
+                           </td>
+                           <td align="center" valign="middle">
+                              <paragraph>44</paragraph>
+                           </td>
+                           <td align="center" valign="middle">
+                              <paragraph>9</paragraph>
+                           </td>
+                           <td align="center" valign="middle">
+                              <paragraph>40</paragraph>
+                           </td>
+                           <td align="center" valign="middle">
+                              <paragraph>7</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td valign="middle">
+                              <paragraph>Diarrhea</paragraph>
+                           </td>
+                           <td align="center" valign="middle">
+                              <paragraph>66</paragraph>
+                           </td>
+                           <td align="center" valign="middle">
+                              <paragraph>18</paragraph>
+                           </td>
+                           <td align="center" valign="middle">
+                              <paragraph>67</paragraph>
+                           </td>
+                           <td align="center" valign="middle">
+                              <paragraph>14</paragraph>
+                           </td>
+                           <td align="center" valign="middle">
+                              <paragraph>43</paragraph>
+                           </td>
+                           <td align="center" valign="middle">
+                              <paragraph>11</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td valign="middle">
+                              <paragraph>Stomatitis</paragraph>
+                           </td>
+                           <td align="center" valign="middle">
+                              <paragraph>75</paragraph>
+                           </td>
+                           <td align="center" valign="middle">
+                              <paragraph>27</paragraph>
+                           </td>
+                           <td align="center" valign="middle">
+                              <paragraph>84</paragraph>
+                           </td>
+                           <td align="center" valign="middle">
+                              <paragraph>29</paragraph>
+                           </td>
+                           <td align="center" valign="middle">
+                              <paragraph>59</paragraph>
+                           </td>
+                           <td align="center" valign="middle">
+                              <paragraph>16</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td valign="middle">
+                              <paragraph>Constipation</paragraph>
+                           </td>
+                           <td align="center" valign="middle">
+                              <paragraph>3</paragraph>
+                           </td>
+                           <td align="center" valign="middle">
+                              <paragraph>0</paragraph>
+                           </td>
+                           <td align="center" valign="middle">
+                              <paragraph>4</paragraph>
+                           </td>
+                           <td align="center" valign="middle">
+                              <paragraph>0</paragraph>
+                           </td>
+                           <td align="center" valign="middle">
+                              <paragraph>1</paragraph>
+                           </td>
+                           <td align="center" valign="middle">
+                              <paragraph>-</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td valign="middle">
+                              <paragraph>Lethargy/Malaise/Fatigue</paragraph>
+                           </td>
+                           <td align="center" valign="middle">
+                              <paragraph>13</paragraph>
+                           </td>
+                           <td align="center" valign="middle">
+                              <paragraph>3</paragraph>
+                           </td>
+                           <td align="center" valign="middle">
+                              <paragraph>12</paragraph>
+                           </td>
+                           <td align="center" valign="middle">
+                              <paragraph>2</paragraph>
+                           </td>
+                           <td align="center" valign="middle">
+                              <paragraph>6</paragraph>
+                           </td>
+                           <td align="center" valign="middle">
+                              <paragraph>3</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td valign="middle">
+                              <paragraph>Alopecia</paragraph>
+                           </td>
+                           <td align="center" valign="middle">
+                              <paragraph>42</paragraph>
+                           </td>
+                           <td align="center" valign="middle">
+                              <paragraph>5</paragraph>
+                           </td>
+                           <td align="center" valign="middle">
+                              <paragraph>43</paragraph>
+                           </td>
+                           <td align="center" valign="middle">
+                              <paragraph>6</paragraph>
+                           </td>
+                           <td align="center" valign="middle">
+                              <paragraph>37</paragraph>
+                           </td>
+                           <td align="center" valign="middle">
+                              <paragraph>7</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td valign="middle">
+                              <paragraph>Dermatitis</paragraph>
+                           </td>
+                           <td align="center" valign="middle">
+                              <paragraph>21</paragraph>
+                           </td>
+                           <td align="center" valign="middle">
+                              <paragraph>2</paragraph>
+                           </td>
+                           <td align="center" valign="middle">
+                              <paragraph>25</paragraph>
+                           </td>
+                           <td align="center" valign="middle">
+                              <paragraph>1</paragraph>
+                           </td>
+                           <td align="center" valign="middle">
+                              <paragraph>13</paragraph>
+                           </td>
+                           <td align="center" valign="middle">
+                              <paragraph>-</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td valign="middle">
+                              <paragraph>Anorexia</paragraph>
+                           </td>
+                           <td align="center" valign="middle">
+                              <paragraph>14</paragraph>
+                           </td>
+                           <td align="center" valign="middle">
+                              <paragraph>1</paragraph>
+                           </td>
+                           <td align="center" valign="middle">
+                              <paragraph>22</paragraph>
+                           </td>
+                           <td align="center" valign="middle">
+                              <paragraph>4</paragraph>
+                           </td>
+                           <td align="center" valign="middle">
+                              <paragraph>14</paragraph>
+                           </td>
+                           <td align="center" valign="middle">
+                              <paragraph>-</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td valign="middle">
+                              <paragraph>Hospitalization for Toxicity</paragraph>
+                           </td>
+                           <td align="center" colspan="2" valign="middle">
+                              <paragraph>5%</paragraph>
+                           </td>
+                           <td align="center" colspan="2" valign="middle">
+                              <paragraph>15%</paragraph>
+                           </td>
+                           <td align="center" colspan="2" valign="middle">
+                              <paragraph>7%</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td colspan="7" styleCode="Botrule Toprule " valign="middle">
+                              <paragraph>
+                                 <content styleCode="bold">*</content>High LV = Leucovorin 200 mg/m<sup>2</sup>
+                              </paragraph>
+                              <paragraph>
+                                 <content styleCode="bold">†</content>Low LV = Leucovorin 20 mg/m<sup>2</sup>
+                              </paragraph>
+                              <paragraph>
+                                 <content styleCode="bold">‡</content>Any = percentage of patients reporting toxicity of any severity</paragraph>
+                              <paragraph>
+                                 <content styleCode="bold">§</content>Grade 3+ = percentage of patients reporting toxicity of Grade 3 or higher</paragraph>
+                           </td>
+                        </tr>
+                     </tbody>
+                  </table>
+               </text>
+               <effectiveTime value="20220601"/>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_004a987f-ac55-4d0d-8097-c0f043c05ca5">
+               <id root="004a987f-ac55-4d0d-8097-c0f043c05ca5"/>
+               <code code="34088-5" codeSystem="2.16.840.1.113883.6.1" displayName="OVERDOSAGE SECTION"/>
+               <title>OVERDOSAGE </title>
+               <text>
+                  <paragraph>Excessive amounts of leucovorin may nullify the chemotherapeutic effect of folic acid antagonists.</paragraph>
+               </text>
+               <effectiveTime value="20190107"/>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_79e7261c-beb9-4421-925d-7c5b02712e16">
+               <id root="bb11136c-e2b8-40a8-96ae-56898ba3a014"/>
+               <code code="34068-7" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE &amp; ADMINISTRATION SECTION"/>
+               <title>DOSAGE AND ADMINISTRATION </title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">Advanced Colorectal Cancer</content>
+                  </paragraph>
+                  <paragraph>Either of the following two regimens is recommended:</paragraph>
+                  <list listType="ordered">
+                     <item>
+                        <caption>1.</caption>Leucovorin is administered at 200 mg/m<sup>2</sup> by slow intravenous injection over a minimum of 3 minutes, followed by 5-fluorouracil at 370 mg/m<sup>2</sup> by intravenous injection.</item>
+                     <item>
+                        <caption>2.</caption>Leucovorin is administered at 20 mg/m<sup>2</sup> by intravenous injection followed by 5-fluorouracil at 425 mg/m<sup>2</sup> by intravenous injection.</item>
+                  </list>
+                  <paragraph>5-Fluorouracil and leucovorin should be administered separately to avoid the formation of a precipitate.</paragraph>
+                  <paragraph>Treatment is repeated daily for five days. This five-day treatment course may be repeated at 4 week (28-day) intervals, for 2 courses and then repeated at 4 to 5 week (28 to 35 day) intervals provided that the patient has completely recovered from the toxic effects of the prior treatment course.</paragraph>
+                  <paragraph>In subsequent treatment course, the dosage of 5-fluorouracil should be adjusted based on patient tolerance of the prior treatment course. The daily dosage of 5-fluorouracil should be reduced by 20% for patients who experienced moderate hematologic or gastrointestinal toxicity in the prior treatment course, and by 30% for patients who experienced severe toxicity (see <linkHtml href="#ID_9e1cc203-0085-4d15-8847-25030ca4d07b">PRECAUTIONS</linkHtml>: <linkHtml href="#ID_c8f21448-a6ce-4c78-baea-c32a8e442064">Laboratory Tests</linkHtml>). For patients who experienced no toxicity in the prior treatment course, 5-fluorouracil dosage may be increased by 10%. Leucovorin dosages are not adjusted for toxicity.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Leucovorin Rescue After High-Dose Methotrexate Therapy</content>
+                  </paragraph>
+                  <paragraph>The recommendations for leucovorin rescue are based on a methotrexate dose of 12 to 15 grams/m<sup>2</sup> administered by intravenous infusion over 4 hours (see methotrexate package insert for full prescribing information).<sup>4</sup>
+                  </paragraph>
+                  <paragraph>Leucovorin rescue at a dose of 15 mg (approximately 10 mg/m<sup>2</sup>) every 6 hours for 10 doses starts 24 hours after the beginning of the methotrexate infusion. In the presence of gastrointestinal toxicity, nausea or vomiting, leucovorin should be administered parenterally. Do not administer leucovorin intrathecally.</paragraph>
+                  <paragraph>Serum creatinine and methotrexate levels should be determined at least once daily. Leucovorin administration, hydration, and urinary alkalization (pH of 7.0 or greater) should be continued until the methotrexate level is below 5 x 10<sup>-8</sup> M (0.05 micromolar). The leucovorin dose should be adjusted or leucovorin rescue extended based on the following guidelines: </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">GUIDELINES FOR LEUCOVORIN DOSAGE AND ADMINISTRATION</content>
+                  </paragraph>
+                  <paragraph>DO NOT ADMINISTER LEUCOVORIN INTRATHECALLY</paragraph>
+                  <table width="100%">
+                     <col width="17%"/>
+                     <col width="45%"/>
+                     <col width="35%"/>
+                     <tbody>
+                        <tr>
+                           <td styleCode="Botrule Toprule " valign="middle">
+                              <paragraph>Clinical Situation</paragraph>
+                           </td>
+                           <td styleCode="Botrule Toprule " valign="middle">
+                              <paragraph>Laboratory Findings</paragraph>
+                           </td>
+                           <td styleCode="Botrule Toprule " valign="middle">
+                              <paragraph>Leucovorin Dosage and Duration</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td valign="middle">
+                              <paragraph>Normal</paragraph>
+                              <paragraph>Methotrexate</paragraph>
+                              <paragraph>Elimination</paragraph>
+                           </td>
+                           <td valign="middle">
+                              <paragraph>Serum methotrexate level approximately 10 micromo-molar at 24 hours after administration, 1 micromolar at 48 hours, and less than 0.2 micromolar at 72 hours.</paragraph>
+                           </td>
+                           <td valign="middle">
+                              <paragraph>15 mg PO, IM, or IV q 6 hours for 60 hours (10 doses starting at 24 hours after start of methotrexate infusion).</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td valign="middle">
+                              <paragraph>Delayed Late</paragraph>
+                              <paragraph>Methotrexate</paragraph>
+                              <paragraph>Elimination</paragraph>
+                           </td>
+                           <td valign="middle">
+                              <paragraph>Serum methotrexate level remaining above 0.2 micrommolar at 72 hours, and more than 0.05 micromolar 96 hours after administration.</paragraph>
+                           </td>
+                           <td valign="middle">
+                              <paragraph>Continue 15 mg PO, IM, or IV q 6 hours, until methotrexate level is less than 0.05 micromolar.</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Botrule " valign="middle">
+                              <paragraph>Delayed Early</paragraph>
+                              <paragraph>Methotrexate</paragraph>
+                              <paragraph>Elimination and/or</paragraph>
+                              <paragraph>Evidence of Acute Renal Injury</paragraph>
+                           </td>
+                           <td styleCode="Botrule " valign="middle">
+                              <paragraph>Serum methotrexate level of 50 micromolar or more at 24 hours, or 5 micromolar or more at 48 hours after administration, OR; a 100% or greater increase in serum creatinine level at 24 hours after methotrexate administration (e.g., an increase from 0.5 mg/dL to a level of 1 mg/dL or more).</paragraph>
+                           </td>
+                           <td styleCode="Botrule " valign="middle">
+                              <paragraph>150 mg IV q 3 hours, until methotrexate level is less than 1 micromolar; then 15 mg IV q 3 hours until methotrexate level is less than 0.05 micromolar.</paragraph>
+                           </td>
+                        </tr>
+                     </tbody>
+                  </table>
+                  <paragraph>Patients who experience delayed early methotrexate elimination are likely to develop reversible renal failure. In addition to appropriate leucovorin therapy, these patients require continuing hydration and urinary alkalization, and close monitoring of fluid and electrolyte status, until the serum methotrexate level has fallen to below 0.05 micromolar and the renal failure has resolved.</paragraph>
+                  <paragraph>Some patients will have abnormalities in methotrexate elimination or renal function following methotrexate administration, which are significant but less severe than abnormalities described in the table above. These abnormalities may or may not be associated with significant clinical toxicity. If significant clinical toxicity is observed, leucovorin rescue should be extended for an additional 24 hours (total of 14 doses over 84 hours) in subsequent courses of therapy. The possibility that the patient is taking other medications which interact with methotrexate (e.g., medications which may interfere with methotrexate elimination or binding to serum albumin) should always be reconsidered when laboratory abnormalities or clinical toxicities are observed.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Impaired Methotrexate Elimination or Inadvertent Overdosage</content>
+                  </paragraph>
+                  <paragraph>Leucovorin rescue should begin as soon as possible after an inadvertent overdosage and within 24 hours of methotrexate administration when there is a delayed excretion (see <linkHtml href="#ID_abf1fc9e-1b4b-4f1e-9de6-7861f8309b55">WARNINGS</linkHtml> section). Leucovorin 10 mg/m<sup>2</sup> should be administered IM, IV, or PO every 6 hours until the serum methotrexate level is less than 10<sup>-8</sup> M. In the presence of gastrointestinal toxicity, nausea, or vomiting, leucovorin should be administered parenterally. Do not administer leucovorin intrathecally.</paragraph>
+                  <paragraph>Serum creatinine and methotrexate levels should be determined at 24 hour intervals. If the 24 hour serum creatinine has increased 50% over baseline or if the 24 hour methotrexate level is greater than 5 x 10<sup>-6</sup> M or the 48 hour level is greater than 9 x 10<sup>-7</sup> M, the dose of leucovorin should be increased to 100 mg/m<sup>2</sup> IV every 3 hours until the methotrexate level is less than 10<sup>-8</sup> M. </paragraph>
+                  <paragraph>Hydration (3 L/d) and urinary alkalinization with sodium bicarbonate solution should be employed concomitantly. The bicarbonate dose should be adjusted to maintain the urine pH at 7.0 or greater.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Megaloblastic Anemia Due to Folic Acid Deficiency</content>
+                  </paragraph>
+                  <paragraph>Up to 1 mg daily. There is no evidence that doses greater than 1 mg/day have greater efficacy than those of 1 mg; additionally, loss of folate in urine becomes roughly logarithmic as the amount administered exceeds 1 mg.</paragraph>
+                  <paragraph>Each 100, and 200 mg vial of Leucovorin Calcium for Injection when reconstituted with 10, and 20 mL, respectively, of sterile diluent yields a leucovorin concentration of 10 mg per mL. Each 350 mg vial of Leucovorin Calcium for Injection when reconstituted with 17.5 mL of sterile diluent yields a leucovorin concentration of 20 mg per mL. Leucovorin Calcium for Injection contains no preservative. Reconstitute the lyophilized vial products with Bacteriostatic Water for Injection, USP (benzyl alcohol preserved), or Sterile Water for Injection, USP. When reconstituted with Bacteriostatic Water for Injection, USP, the resulting solution must be used within 7 days. If the product is reconstituted with Sterile Water for Injection, USP, use immediately and discard any unused portion.</paragraph>
+                  <paragraph>Because of the benzyl alcohol contained in Bacteriostatic Water for Injection, USP, when doses greater than 10 mg/m<sup>2</sup> are administered, Leucovorin Calcium for Injection should be reconstituted with Sterile Water for Injection, USP, and used immediately. (See <linkHtml href="#ID_abf1fc9e-1b4b-4f1e-9de6-7861f8309b55">WARNINGS</linkHtml>.)</paragraph>
+                  <paragraph>Because of the calcium content of the leucovorin solution, no more than 160 mg of leucovorin should be injected intravenously per minute (16 mL of a 10 mg/mL, or 8 mL of a 20 mg/mL solution per minute). Parenteral products should be inspected visually for particulate matter and discoloration prior to administration, whenever solution and container permit.</paragraph>
+                  <paragraph>Leucovorin should not be mixed in the same infusion as 5-fluorouracil, since this may lead to the formation of a precipitate.</paragraph>
+               </text>
+               <effectiveTime value="20220601"/>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_6351df3b-251b-4e94-b61f-463f368845cb">
+               <id root="e4db2666-e40b-40a9-9c5c-b7db1c60f0df"/>
+               <code code="34069-5" codeSystem="2.16.840.1.113883.6.1" displayName="HOW SUPPLIED SECTION"/>
+               <title>HOW SUPPLIED </title>
+               <text>
+                  <paragraph>Leucovorin Calcium for Injection, USP,  is supplied in sterile, single dose vials as follows:</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">NDC 67457-528-10</content>       100 mg boxed vial.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">NDC 67457-529-20</content>       200 mg boxed vial.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">NDC 67457-530-35</content>       350 mg boxed vial.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Store at 20° to 25°C (68° to 77° F). [See USP Controlled Room Temperature.] Protect from light. Retain in carton until time of use.</content>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20220601"/>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_63cb8800-e515-4480-95ba-6db2635d6572">
+               <id root="a52ef70c-018f-4e5a-b5e6-f864180cb8d1"/>
+               <code code="34093-5" codeSystem="2.16.840.1.113883.6.1" displayName="REFERENCES SECTION"/>
+               <title>REFERENCES </title>
+               <text>
+                  <list listType="ordered">
+                     <item>
+                        <caption>1.</caption>Poon, MA, et al. Biochemical Modulation of Fluorouracil: Evidence of Significant Improvement of Survival and Quality of Life in patients with Advanced Colorectal Carcinoma, <content styleCode="italics">J Clin Oncol </content>1989; 7:1407-1418.</item>
+                     <item>
+                        <caption>2.</caption>Poon, MA, et al. Biochemical Modulation of Fluorouracil with Leucovorin: Confirmatory Evidence of Improved Therapeutic Efficacy in Advanced Colorectal Cancer, <content styleCode="italics">J Clin Oncol </content>1991; 9, 11:1967-1972.</item>
+                     <item>
+                        <caption>3.</caption>Grem, J.L., Shoemaker, D.D., Petrelli, N.J., Douglas, H.O., "Severe and Fatal Toxic Effects Observed in Treatment with High- and Low-Dose Leucovorin Plus 5- Fluorouracil for Colorectal Carcinoma", <content styleCode="italics">Cancer Treat Rep </content>71:1122, 1987.</item>
+                     <item>
+                        <caption>4.</caption>Link, MP, Goorin, AH, Miser, AW, et al. “The Effect of Adjuvant Chemotherapy on Relapse-Free Survival in Patients with Osteosarcoma of the Extremity.” <content styleCode="italics">N Engl J Med </content>1986; 314:1600-1606.</item>
+                     <item>
+                        <caption>5.</caption>Meropol NJ, Creaven PJ, White RM, et al, "Seizures Associated with Leucovorin Administration in Cancer Patients." <content styleCode="italics">JNCL </content>1995; 87 (1):56-58.</item>
+                  </list>
+                  <paragraph>Manufactured for:</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Mylan Institutional LLC</content>
+                  </paragraph>
+                  <paragraph>Morgantown, WV 26505 U.S.A.</paragraph>
+                  <paragraph>Manufactured by:</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Mylan Laboratories Limited</content>
+                  </paragraph>
+                  <paragraph>Bangalore, India </paragraph>
+                  <paragraph>Code No.: KR/DRUGS/KTK/28/384/2009</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">JUNE 2022</content>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20220601"/>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_75f00195-6f62-4b7f-af9d-7536d7c747e7">
+               <id root="71b7a50e-b90d-45e0-9fc7-9e9116f88308"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>PACKAGE/LABEL PRINCIPAL DISPLAY PANEL </title>
+               <text>
+                  <paragraph>NDC 67457-528-10</paragraph>
+                  <paragraph>Leucovorin<br/>Calcium<br/>for Injection<br/>100 mg* per vial</paragraph>
+                  <paragraph>For Intravenous or<br/>Intramuscular Use</paragraph>
+                  <paragraph>Must be diluted</paragraph>
+                  <paragraph>Lyophilized</paragraph>
+                  <paragraph>Rx only Single-Dose Vial</paragraph>
+                  <renderMultiMedia ID="id-57474462" referencedObject="D461D4DF-D56F-4E38-93D6-76736C9CF7D5"/>
+               </text>
+               <effectiveTime value="20220601"/>
+               <component>
+                  <observationMedia ID="D461D4DF-D56F-4E38-93D6-76736C9CF7D5">
+                     <text>100 mg  Carton Label</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="image-02.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_5a646286-d29d-4e5b-a219-393a60a38823">
+               <id root="e4ce3971-e44f-40ad-a69b-c92ae0c1c830"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>PACKAGE/LABEL PRINCIPAL DISPLAY PANEL </title>
+               <text>
+                  <paragraph>NDC 67457-529-20</paragraph>
+                  <paragraph>Leucovorin<br/>Calcium<br/>for Injection<br/>200 mg* per vial</paragraph>
+                  <paragraph>For Intravenous or<br/>Intramuscular Use</paragraph>
+                  <paragraph>Must be diluted</paragraph>
+                  <paragraph>Lyophilized</paragraph>
+                  <paragraph>Rx only Single-Dose Vial</paragraph>
+                  <renderMultiMedia ID="id-1484931233" referencedObject="ID_9de01cbd-9a46-4eec-b007-92624570644e"/>
+               </text>
+               <effectiveTime value="20220601"/>
+               <component>
+                  <observationMedia ID="ID_9de01cbd-9a46-4eec-b007-92624570644e">
+                     <text>200 mg Carton Label</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="image-03.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_5b8b3823-fa17-4251-8c79-ee60b341d2ad">
+               <id root="65b91d11-2b7c-416f-8954-9aed585a5408"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>PACKAGE/LABEL PRINCIPAL DISPLAY PANEL </title>
+               <text>
+                  <paragraph>NDC 67457-530-35</paragraph>
+                  <paragraph>Leucovorin<br/>Calcium<br/>for Injection<br/>350 mg* per vial</paragraph>
+                  <paragraph>For Intravenous or<br/>Intramuscular Use</paragraph>
+                  <paragraph>Must be diluted</paragraph>
+                  <paragraph>Lyophilized</paragraph>
+                  <paragraph>Rx only Single-Dose Vial</paragraph>
+                  <renderMultiMedia ID="id-229314608" referencedObject="ID_86fcc526-a799-4d20-9820-4577a5b904c2"/>
+               </text>
+               <effectiveTime value="20220601"/>
+               <component>
+                  <observationMedia ID="ID_86fcc526-a799-4d20-9820-4577a5b904c2">
+                     <text>350 mg Carton Label</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="image-04.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

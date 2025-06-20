@@ -1,0 +1,1150 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="https://www.accessdata.fda.gov/spl/stylesheet/spl.xsl" type="text/xsl"?>
+<document xmlns="urn:hl7-org:v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 https://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="f0f79123-edc9-43ff-a696-0356b6f03952"/>
+   <code code="34391-3" codeSystem="2.16.840.1.113883.6.1" displayName="HUMAN PRESCRIPTION DRUG LABEL"/>
+   <title>Lactated Ringer's Injection, USP<br/>Lactated Ringer's and 5% Dextrose Injection, USP</title>
+   <effectiveTime value="20210916"/>
+   <setId root="d310d170-5eeb-471b-af1a-0e845001d21d"/>
+   <versionNumber value="13"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id extension="118380146" root="1.3.6.1.4.1.519.1"/>
+            <name>ICU Medical Inc.</name>
+            <assignedEntity>
+               <assignedOrganization>
+                  <assignedEntity>
+                     <assignedOrganization>
+                        <id extension="117395980" root="1.3.6.1.4.1.519.1"/>
+                        <name>ICU MEDICAL INC.</name>
+                     </assignedOrganization>
+                     <performance>
+                        <actDefinition>
+                           <code code="C25391" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ANALYSIS"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="0990-7929" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                     <performance>
+                        <actDefinition>
+                           <code code="C25391" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ANALYSIS"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="0990-7953" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                     <performance>
+                        <actDefinition>
+                           <code code="C43360" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="MANUFACTURE"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="0990-7929" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                     <performance>
+                        <actDefinition>
+                           <code code="C43360" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="MANUFACTURE"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="0990-7953" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                     <performance>
+                        <actDefinition>
+                           <code code="C84731" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="PACK"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="0990-7929" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                     <performance>
+                        <actDefinition>
+                           <code code="C84731" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="PACK"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="0990-7953" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                     <performance>
+                        <actDefinition>
+                           <code code="C84732" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="LABEL"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="0990-7929" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                     <performance>
+                        <actDefinition>
+                           <code code="C84732" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="LABEL"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="0990-7953" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                  </assignedEntity>
+               </assignedOrganization>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section ID="DLDE">
+               <id root="426b36f0-75f5-4895-9253-cb659ea990be"/>
+               <code code="48780-1" codeSystem="2.16.840.1.113883.6.1" displayName="SPL PRODUCT DATA ELEMENTS SECTION"/>
+               <effectiveTime value="20210916"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="0990-7929" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>Lactated Ringers and Dextrose</name>
+                        <formCode code="C42945" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="INJECTION, SOLUTION"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>SODIUM CHLORIDE, SODIUM LACTATE, POTASSIUM CHLORIDE, CALCIUM CHLORIDE, and DEXTROSE MONOHYDRATE</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator value="600" unit="mg"/>
+                              <denominator value="100" unit="mL"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="451W47IQ8X" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SODIUM CHLORIDE</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="LYR4M0NH37" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>SODIUM CATION</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="Q32ZN48698" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>CHLORIDE ION</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator value="310" unit="mg"/>
+                              <denominator value="100" unit="mL"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="TU7HW0W0QT" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SODIUM LACTATE</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="LYR4M0NH37" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>SODIUM CATION</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="33X04XA5AT" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>LACTIC ACID, UNSPECIFIED FORM</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator value="30" unit="mg"/>
+                              <denominator value="100" unit="mL"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="660YQ98I10" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>POTASSIUM CHLORIDE</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="295O53K152" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>POTASSIUM CATION</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="Q32ZN48698" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>CHLORIDE ION</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator value="20" unit="mg"/>
+                              <denominator value="100" unit="mL"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="M4I0D6VV5M" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>CALCIUM CHLORIDE</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="2M83C4R6ZB" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>CALCIUM CATION</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="Q32ZN48698" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>CHLORIDE ION</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator value="5" unit="g"/>
+                              <denominator value="100" unit="mL"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="LX22YL083G" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>DEXTROSE MONOHYDRATE</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="5SL0G7R0OK" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>ANHYDROUS DEXTROSE</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="QTT17582CB" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>HYDROCHLORIC ACID</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator value="500" unit="mL"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code/>
+                              <formCode code="C43167" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BAG"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator value="1" unit="1"/>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code/>
+                                    <formCode code="C43200" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="POUCH"/>
+                                    <asContent>
+                                       <quantity>
+                                          <numerator value="24" unit="1"/>
+                                          <denominator value="1"/>
+                                       </quantity>
+                                       <containerPackagedProduct>
+                                          <code code="0990-7929-03" codeSystem="2.16.840.1.113883.6.69"/>
+                                          <formCode code="C43184" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CASE"/>
+                                       </containerPackagedProduct>
+                                       <subjectOf>
+                                          <marketingAct>
+                                             <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                             <statusCode code="active"/>
+                                             <effectiveTime>
+                                                <low value="20190801"/>
+                                             </effectiveTime>
+                                          </marketingAct>
+                                       </subjectOf>
+                                    </asContent>
+                                 </containerPackagedProduct>
+                              </asContent>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                        <asContent>
+                           <quantity>
+                              <numerator value="1000" unit="mL"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code/>
+                              <formCode code="C43167" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BAG"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator value="1" unit="1"/>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code/>
+                                    <formCode code="C43200" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="POUCH"/>
+                                    <asContent>
+                                       <quantity>
+                                          <numerator value="12" unit="1"/>
+                                          <denominator value="1"/>
+                                       </quantity>
+                                       <containerPackagedProduct>
+                                          <code code="0990-7929-09" codeSystem="2.16.840.1.113883.6.69"/>
+                                          <formCode code="C43184" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CASE"/>
+                                       </containerPackagedProduct>
+                                       <subjectOf>
+                                          <marketingAct>
+                                             <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                             <statusCode code="active"/>
+                                             <effectiveTime>
+                                                <low value="20190801"/>
+                                             </effectiveTime>
+                                          </marketingAct>
+                                       </subjectOf>
+                                    </asContent>
+                                 </containerPackagedProduct>
+                              </asContent>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <id extension="NDA017608" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73594" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="NDA"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20190624"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38276" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="INTRAVENOUS"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="0990-7953" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>Lactated Ringers</name>
+                        <formCode code="C42945" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="INJECTION, SOLUTION"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>SODIUM CHLORIDE, SODIUM LACTATE, POTASSIUM CHLORIDE, and CALCIUM CHLORIDE</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator value="600" unit="mg"/>
+                              <denominator value="100" unit="mL"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="451W47IQ8X" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SODIUM CHLORIDE</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="LYR4M0NH37" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>SODIUM CATION</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="Q32ZN48698" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>CHLORIDE ION</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator value="310" unit="mg"/>
+                              <denominator value="100" unit="mL"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="TU7HW0W0QT" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SODIUM LACTATE</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="LYR4M0NH37" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>SODIUM CATION</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="33X04XA5AT" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>LACTIC ACID, UNSPECIFIED FORM</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator value="30" unit="mg"/>
+                              <denominator value="100" unit="mL"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="660YQ98I10" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>POTASSIUM CHLORIDE</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="295O53K152" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>POTASSIUM CATION</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="Q32ZN48698" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>CHLORIDE ION</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator value="20" unit="mg"/>
+                              <denominator value="100" unit="mL"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="M4I0D6VV5M" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>CALCIUM CHLORIDE</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="2M83C4R6ZB" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>CALCIUM CATION</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="Q32ZN48698" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>CHLORIDE ION</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="QTT17582CB" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>HYDROCHLORIC ACID</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="55X04QC32I" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SODIUM HYDROXIDE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator value="250" unit="mL"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code/>
+                              <formCode code="C43167" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BAG"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator value="1" unit="1"/>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code/>
+                                    <formCode code="C43200" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="POUCH"/>
+                                    <asContent>
+                                       <quantity>
+                                          <numerator value="24" unit="1"/>
+                                          <denominator value="1"/>
+                                       </quantity>
+                                       <containerPackagedProduct>
+                                          <code code="0990-7953-02" codeSystem="2.16.840.1.113883.6.69"/>
+                                          <formCode code="C43184" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CASE"/>
+                                       </containerPackagedProduct>
+                                       <subjectOf>
+                                          <marketingAct>
+                                             <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                             <statusCode code="active"/>
+                                             <effectiveTime>
+                                                <low value="20190624"/>
+                                             </effectiveTime>
+                                          </marketingAct>
+                                       </subjectOf>
+                                    </asContent>
+                                 </containerPackagedProduct>
+                              </asContent>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                        <asContent>
+                           <quantity>
+                              <numerator value="500" unit="mL"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code/>
+                              <formCode code="C43167" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BAG"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator value="1" unit="1"/>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code/>
+                                    <formCode code="C43200" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="POUCH"/>
+                                    <asContent>
+                                       <quantity>
+                                          <numerator value="24" unit="1"/>
+                                          <denominator value="1"/>
+                                       </quantity>
+                                       <containerPackagedProduct>
+                                          <code code="0990-7953-03" codeSystem="2.16.840.1.113883.6.69"/>
+                                          <formCode code="C43184" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CASE"/>
+                                       </containerPackagedProduct>
+                                       <subjectOf>
+                                          <marketingAct>
+                                             <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                             <statusCode code="active"/>
+                                             <effectiveTime>
+                                                <low value="20190801"/>
+                                             </effectiveTime>
+                                          </marketingAct>
+                                       </subjectOf>
+                                    </asContent>
+                                 </containerPackagedProduct>
+                              </asContent>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                        <asContent>
+                           <quantity>
+                              <numerator value="1000" unit="mL"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code/>
+                              <formCode code="C43167" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BAG"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator value="1" unit="1"/>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code/>
+                                    <formCode code="C43200" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="POUCH"/>
+                                    <asContent>
+                                       <quantity>
+                                          <numerator value="12" unit="1"/>
+                                          <denominator value="1"/>
+                                       </quantity>
+                                       <containerPackagedProduct>
+                                          <code code="0990-7953-09" codeSystem="2.16.840.1.113883.6.69"/>
+                                          <formCode code="C43184" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CASE"/>
+                                       </containerPackagedProduct>
+                                       <subjectOf>
+                                          <marketingAct>
+                                             <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                             <statusCode code="active"/>
+                                             <effectiveTime>
+                                                <low value="20190801"/>
+                                             </effectiveTime>
+                                          </marketingAct>
+                                       </subjectOf>
+                                    </asContent>
+                                 </containerPackagedProduct>
+                              </asContent>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <id extension="NDA017641" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73594" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="NDA"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20190624"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38276" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="INTRAVENOUS"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section ID="ef8dc6d4-e0e5-4725-97d3-e53add3abba7">
+               <id root="9d277692-d7d1-410d-af08-110c163faeae"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <title/>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">
+                        <content styleCode="emphasis">Flexible Plastic Container</content>
+                     </content>
+                  </paragraph>
+                  <paragraph>Rx only</paragraph>
+               </text>
+               <effectiveTime value="20210311"/>
+            </section>
+         </component>
+         <component>
+            <section ID="d83dcc1c-c5c9-49ed-9728-3265354b8a63">
+               <id root="8de64e7a-668b-45e3-a78d-715687899294"/>
+               <code code="34089-3" codeSystem="2.16.840.1.113883.6.1" displayName="DESCRIPTION SECTION"/>
+               <title>DESCRIPTION</title>
+               <text>
+                  <paragraph>These products are sterile, nonpyrogenic solutions each containing isotonic concentrations of electrolytes (with or without dextrose) in water for injection. The solutions containing dextrose and electrolytes are hypertonic; those containing only electrolytes are isotonic. They are administered by intravenous infusion for parenteral replacement of extracellular losses of fluid and electrolytes, with or without minimal carbohydrate calories.</paragraph>
+                  <paragraph>Each 100 mL of Lactated Ringer's Injection, USP contains sodium chloride 600 mg, sodium lactate, anhydrous 310 mg, potassium chloride 30 mg and calcium chloride, dihydrate 20 mg. May contain hydrochloric acid and/or sodium hydroxide for pH adjustment. A liter provides 9 calories (from lactate), sodium (Na<sup>+</sup>), 130 mEq, potassium (K<sup>+</sup>) 4 mEq, calcium (Ca<sup>++</sup>) 3 mEq, chloride (Cl<sup>−</sup>) 109 mEq and lactate [CH<sub>3</sub>CH(OH) COO<sup>−</sup>] 28 mEq. The electrolyte content is isotonic (273 mOsmol/liter, calc.) in relation to the extracellular fluid (approx. 280 mOsmol/liter). The pH of the solution is 6.6 (6.0 − 7.5).</paragraph>
+                  <paragraph>   Each 100 mL of Lactated Ringer's and 5% Dextrose Injection, USP contains dextrose, hydrous 5 g plus the same ingredients and mEq values as Lactated Ringer's Injection, USP (contains only hydrochloric acid for pH adjustment). A liter provides 179 calories (from dextrose and lactate) and has a hypertonic osmolar concentration of 525 mOsmol (calc.). The pH is 4.9 (4.0 − 6.5).</paragraph>
+                  <paragraph>   The solutions contain no bacteriostat, antimicrobial agent or added buffer (except for pH adjustment) and each is intended only for use as a single-dose injection. When smaller doses are required the unused portion should be discarded.</paragraph>
+                  <paragraph>   The solutions are parenteral fluid, nutrient and/or electrolyte replenishers.</paragraph>
+                  <paragraph>   Dextrose, USP is chemically designated D-glucose, monohydrate (C<sub>6</sub>H<sub>12</sub>O<sub>6 </sub>• H<sub>2</sub>O), a hexose sugar freely soluble in water. It has the following structural formula:</paragraph>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="MM10"/>
+                  </paragraph>
+                  <paragraph>  Calcium Chloride, USP is chemically designated calcium chloride, dihydrate (CaCl<sub>2 </sub>• 2 H<sub>2</sub>O), white fragments or granules freely soluble in water.</paragraph>
+                  <paragraph>   Potassium Chloride, USP is chemically designated KCl, a white granular powder freely soluble in water.</paragraph>
+                  <paragraph>  Sodium Chloride, USP is chemically designated NaCl, a white crystalline powder freely soluble in water.</paragraph>
+                  <br/>
+                  <paragraph>    Sodium Lactate, USP is chemically designated monosodium lactate [CH<sub>3</sub>CH(OH)COONa], a 60% aqueous solution miscible in water.</paragraph>
+                  <paragraph>It has the following structural formula:</paragraph>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="MM11"/>
+                  </paragraph>
+                  <paragraph>    Water for Injection, USP is chemically designated H<sub>2</sub>O.</paragraph>
+                  <paragraph>  The flexible plastic container is fabricated from a specially formulated polyvinylchloride. Water can permeate from inside the container into the overwrap but not in amounts sufficient to affect the solution significantly. Solutions inside the plastic container also can leach out certain of their chemical components in very small amounts before the expiration period is attained. However, the safety of the plastic has been confirmed by tests in animals according to USP biological standards for plastic containers.</paragraph>
+               </text>
+               <effectiveTime value="20210311"/>
+               <component>
+                  <observationMedia ID="MM10">
+                     <text>structural formula dextrose</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="lactated-01.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="MM11">
+                     <text>structural formula sodium lactate</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="lactated-02.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="fb3d6ae4-ad61-4f65-8a35-3f508b5c65e2">
+               <id root="dd927f70-6c17-4f14-80ae-66d72fecd82a"/>
+               <code code="34090-1" codeSystem="2.16.840.1.113883.6.1" displayName="CLINICAL PHARMACOLOGY SECTION"/>
+               <title>CLINICAL PHARMACOLOGY</title>
+               <text>
+                  <paragraph>When administered intravenously, these solutions provide sources of water and electrolytes with or without minimal carbohydrate calories. Their electrolyte content resembles that of the principal ionic constituents of normal plasma and the solutions therefore are suitable for parenteral replacement of extracellular losses of fluid and electrolytes, with or without carbohydrate calories.</paragraph>
+                  <paragraph>  Solutions containing carbohydrate in the form of dextrose restore blood glucose levels and provide calories.</paragraph>
+                  <paragraph>   Carbohydrate in the form of dextrose may aid in minimizing liver glycogen depletion and exerts a protein-sparing action. Dextrose injected parenterally undergoes oxidation to carbon dioxide and water.</paragraph>
+                  <paragraph>   Calcium chloride in water dissociates to provide calcium (Ca<sup>++</sup>) and chloride (Cl<sup>−</sup>) ions. They are normal constituents of the body fluids and are dependent on various physiologic mechanisms for maintenance of balance between intake and output. Approximately 80% of body calcium is excreted in the feces as insoluble salts; urinary excretion accounts for the remaining 20%.</paragraph>
+                  <paragraph>  Potassium chloride in water dissociates to provide potassium (K<sup>+</sup>) and chloride (Cl<sup>−</sup>) ions. Potassium is found in low concentration in plasma and extracellular fluids (3.5 to 5.0 mEq/liter in a healthy adult). It is the chief cation of body cells (160 mEq/liter of intracellular water). Potassium plays an important role in electrolyte balance. Normally about 80 to 90% of the potassium intake is excreted in the urine; the remainder in the stools and to a small extent, in the perspiration. The kidney does not conserve potassium well so that during fasting or in patients on a potassium-free diet, potassium loss from the body continues resulting in potassium depletion.</paragraph>
+                  <paragraph>   Sodium chloride in water dissociates to provide sodium (Na<sup>+</sup>) and chloride (Cl<sup>−</sup>) ions. Sodium (Na<sup>+</sup>) is the principal cation of the extracellular fluid and plays a large part in the therapy of fluid and electrolyte disturbances. Chloride (Cl<sup>−</sup>) has an integral role in buffering action when oxygen and carbon dioxide exchange occurs in the red blood cells. The distribution and excretion of sodium (Na+) and chloride (Cl<sup>−</sup>) are largely under the control of the kidney which maintains a balance between intake and output.</paragraph>
+                  <paragraph>   Sodium lactate provides sodium (Na<sup>+</sup>) and lactate (C<sub>3</sub>H<sub>5</sub>0<sub>3</sub>
+                     <sup>−</sup>) ions. The lactate anion is in equilibrium with pyruvate and has an alkalizing effect resulting from simultaneous removal by the liver of lactate and hydrogen ions. In the liver, lactate is metabolized to glycogen which is ultimately converted to carbon dioxide and water by oxidative metabolism. The sodium (Na<sup>+</sup>) ion combines with bicarbonate ion produced from carbon dioxide of the body and thus retains bicarbonate to combat metabolic acidosis (bicarbonate deficiency). The normal plasma level of lactate ranges from 0.9 to 1.9 mEq/liter.</paragraph>
+                  <paragraph>   Water is an essential constituent of all body tissues and accounts for approximately 70% of total body weight. Average normal adult daily requirement ranges from two to three liters (1.0 to 1.5 liters each for insensible water loss by perspiration and urine production).</paragraph>
+                  <paragraph>  Water balance is maintained by various regulatory mechanisms. Water distribution depends primarily on the concentration of electrolytes in the body compartments and sodium (Na<sup>+</sup>) plays a major role in maintaining physiologic equilibrium.</paragraph>
+               </text>
+               <effectiveTime value="20210311"/>
+            </section>
+         </component>
+         <component>
+            <section ID="d04f9ad0-7cc6-42b3-ad8a-caf29db71fc3">
+               <id root="66f90782-ea7f-420e-96cc-9bce9dcf84c8"/>
+               <code code="34067-9" codeSystem="2.16.840.1.113883.6.1" displayName="INDICATIONS &amp; USAGE SECTION"/>
+               <title>INDICATIONS AND USAGE</title>
+               <text>
+                  <paragraph>These solutions are indicated for parenteral replacement of extracellular losses of fluid and electrolytes, with or without minimal carbohydrate calories, as required by the clinical condition of the patient.</paragraph>
+               </text>
+               <effectiveTime value="20210311"/>
+            </section>
+         </component>
+         <component>
+            <section ID="a01f9e9d-b2e2-4d9a-ae9b-4927ce8dcdee">
+               <id root="9d6d9921-ef91-4a76-b2d9-5f0b16d88249"/>
+               <code code="34070-3" codeSystem="2.16.840.1.113883.6.1" displayName="CONTRAINDICATIONS SECTION"/>
+               <title>CONTRAINDICATIONS</title>
+               <text>
+                  <paragraph>Solutions containing lactate are NOT FOR USE IN THE TREATMENT OF LACTIC ACIDOSIS.</paragraph>
+               </text>
+               <effectiveTime value="20210311"/>
+            </section>
+         </component>
+         <component>
+            <section ID="eead7316-a65d-4502-ac05-7290cdb87630">
+               <id root="9cdac65d-2741-444f-be81-e391c94a0dde"/>
+               <code code="34071-1" codeSystem="2.16.840.1.113883.6.1" displayName="WARNINGS SECTION"/>
+               <title>WARNINGS</title>
+               <text>
+                  <paragraph>Solutions containing calcium ions should not be administered simultaneously through the same administration set as blood because of the likelihood of coagulation.</paragraph>
+                  <paragraph>  Solutions which contain potassium should be used with great care, if at all, in patients with hyperkalemia, severe renal failure and in conditions in which potassium retention is present.</paragraph>
+                  <paragraph>  Solutions containing sodium ions should be used with great care, if at all, in patients with congestive heart failure, severe renal insufficiency and in clinical states in which there exists edema with sodium retention.</paragraph>
+                  <paragraph>   In patients with diminished renal function, administration of solutions containing sodium or potassium ions may result in sodium or potassium retention.</paragraph>
+                  <paragraph>   Solutions containing lactate ions should be used with great care in patients with metabolic or respiratory alkalosis. The administration of lactate ions should be done with great care where there is an increased level or an impaired utilization of lactate ions, as in severe hepatic insufficiency.</paragraph>
+                  <paragraph>   The intravenous administration of these solutions can cause fluid and/or solute overloading resulting in dilution of serum electrolyte concentrations, overhydration, congested states or pulmonary edema. The risk of dilutional states is inversely proportional to the electrolyte concentrations of administered parenteral solutions.</paragraph>
+                  <paragraph>  The risk of solute overload causing congested states with peripheral and pulmonary edema is directly proportional to the electrolyte concentrations of such solutions.</paragraph>
+               </text>
+               <effectiveTime value="20210311"/>
+            </section>
+         </component>
+         <component>
+            <section ID="d609fc45-5669-4ad8-8edd-b5713d6255c0">
+               <id root="1df8244e-d177-4b6e-9aae-1756781e7ff2"/>
+               <code code="42232-9" codeSystem="2.16.840.1.113883.6.1" displayName="PRECAUTIONS SECTION"/>
+               <title>PRECAUTIONS</title>
+               <text>
+                  <paragraph>Clinical evaluation and periodic laboratory determinations are necessary to monitor changes in fluid balance, electrolyte concentrations and acid-base balance during prolonged parenteral therapy or whenever the condition of the patient warrants such evaluation.</paragraph>
+                  <paragraph>   Solutions containing dextrose should be used with caution in patients with known subclinical or overt diabetes mellitus.</paragraph>
+                  <paragraph>   Caution must be exercised in the administration of parenteral fluids, especially those containing sodium ions, to patients receiving corticosteroids or corticotropin.</paragraph>
+                  <paragraph>   Potassium containing solutions should be used with caution in the presence of cardiac disease, particularly in digitalized patients or in the presence of renal disease.</paragraph>
+                  <paragraph>  Solutions containing lactate ions should be used with caution as excess administration may result in metabolic alkalosis.</paragraph>
+                  <paragraph>  Do not administer unless solution is clear and container is undamaged. Discard unused portion.</paragraph>
+               </text>
+               <effectiveTime value="20210311"/>
+               <component>
+                  <section ID="a09a4346-2c65-41f9-a89b-a5dda9344f07">
+                     <id root="fb153d7c-4cf3-4c48-87c0-f1bbcfc2ba94"/>
+                     <code code="42228-7" codeSystem="2.16.840.1.113883.6.1" displayName="PREGNANCY SECTION"/>
+                     <title/>
+                     <text>
+                        <paragraph>
+                           <content styleCode="italics">
+                              <content styleCode="emphasis">Pregnancy Category C.</content>
+                           </content> Animal reproduction studies have not been conducted with Ringer's Injection, USP, Ringer's and Dextrose Injection, USP, Lactated Ringer's Injection, USP or Lactated Ringer's and Dextrose Injection, USP. It is also not known whether these injections can cause fetal harm when administered to a pregnant woman or can affect reproduction capacity. These injections should be given to a pregnant woman only if clearly needed.</paragraph>
+                     </text>
+                     <effectiveTime value="20210311"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="dcb74ab7-5b57-4be2-ba18-4db1bb80ef14">
+                     <id root="0c6a2935-b960-43dc-af25-bdb44ae718cb"/>
+                     <code code="34081-0" codeSystem="2.16.840.1.113883.6.1" displayName="PEDIATRIC USE SECTION"/>
+                     <title/>
+                     <text>
+                        <paragraph>
+                           <content styleCode="bold">
+                              <content styleCode="emphasis">Pediatric Use:</content>
+                           </content> The safety and effectiveness in the pediatric population are based on the similarity of the clinical conditions of the pediatric and adult populations. In neonates or very small infants the volume of fluid may affect fluid and electrolyte balance.</paragraph>
+                        <paragraph>  Frequent monitoring of serum glucose concentrations is required when dextrose is prescribed to pediatric patients, particularly neonates and low birth weight infants.</paragraph>
+                        <paragraph>In very low birth weight infants, excessive or rapid administration of dextrose injection may result in increased serum osmolarity and possible intracerebral hemorrhage.</paragraph>
+                     </text>
+                     <effectiveTime value="20210311"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="d3e0b314-044c-4cfc-a6b3-f5e0c7b9f32a">
+               <id root="475252d9-81f3-4d04-a48a-08f3e637097a"/>
+               <code code="34084-4" codeSystem="2.16.840.1.113883.6.1" displayName="ADVERSE REACTIONS SECTION"/>
+               <title>ADVERSE REACTIONS</title>
+               <text>
+                  <paragraph>Reactions which may occur because of the solution or the technique of administration include febrile response, infection at the site of injection, venous thrombosis or phlebitis extending from the site of injection, extravasation and hypervolemia.</paragraph>
+                  <paragraph>  If an adverse reaction does occur, discontinue the infusion, evaluate the patient, institute appropriate therapeutic countermeasures and save the remainder of the fluid for examination if deemed necessary.</paragraph>
+               </text>
+               <effectiveTime value="20210311"/>
+            </section>
+         </component>
+         <component>
+            <section ID="c1226a5b-4296-4ef0-8643-1bac10bce8ff">
+               <id root="2a1f3894-2a95-4135-9379-57b4c7d071af"/>
+               <code code="34088-5" codeSystem="2.16.840.1.113883.6.1" displayName="OVERDOSAGE SECTION"/>
+               <title>OVERDOSAGE</title>
+               <text>
+                  <paragraph>In the event of overhydration or solute overload, re-evaluate the patient and institute appropriate corrective measures. See <content styleCode="bold">
+                        <content styleCode="emphasis">
+                           <content styleCode="italics">WARNINGS</content>
+                        </content>
+                     </content>, <content styleCode="bold">
+                        <content styleCode="emphasis">
+                           <content styleCode="italics">PRECAUTIONS</content>
+                        </content>
+                     </content>, and <content styleCode="bold">
+                        <content styleCode="emphasis">
+                           <content styleCode="italics">ADVERSE REACTIONS</content>
+                        </content>
+                     </content>.</paragraph>
+               </text>
+               <effectiveTime value="20210311"/>
+            </section>
+         </component>
+         <component>
+            <section ID="d7c1ce4e-5b4a-4d3d-bb26-144a1041fb83">
+               <id root="054feb40-9110-4475-9e60-15e23cb6e95c"/>
+               <code code="34068-7" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE &amp; ADMINISTRATION SECTION"/>
+               <title>DOSAGE AND ADMINISTRATION</title>
+               <text>
+                  <paragraph>The dose is dependent upon the age, weight and clinical condition of the patient.</paragraph>
+                  <paragraph>  As reported in the literature, the dosage and constant infusion rate of intravenous dextrose must be selected with caution in pediatric patients, particularly neonates and low birth weight infants, because of the increased risk of hyperglycemia/hypoglycemia.</paragraph>
+               </text>
+               <effectiveTime value="20210311"/>
+               <component>
+                  <section ID="e6283d05-0e20-4d27-90d3-2502234ad60a">
+                     <id root="d2663b3c-bb49-4008-babf-bfbac9d7a5c5"/>
+                     <code code="34073-7" codeSystem="2.16.840.1.113883.6.1" displayName="DRUG INTERACTIONS SECTION"/>
+                     <title>Drug Interactions</title>
+                     <text>
+                        <paragraph>Additives may be incompatible. Consult with pharmacist, if available. When introducing additives, use aseptic technique, mix thoroughly and do not store.</paragraph>
+                        <paragraph>  The presence of calcium limits their compatibility with certain drugs that form precipitates of calcium salts, and also prohibits their simultaneous infusion through the same administration set as blood because of the likelihood of coagulation.</paragraph>
+                        <paragraph>   Parenteral drug products should be inspected visually for particulate matter and discoloration prior to administration, whenever solution and container permit. See <content styleCode="bold">
+                              <content styleCode="emphasis">
+                                 <content styleCode="italics">PRECAUTIONS</content>
+                              </content>
+                           </content>.</paragraph>
+                     </text>
+                     <effectiveTime value="20210311"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="ab5d14c3-a57b-4bf6-844a-136568e61efb">
+               <id root="b5a40b29-189e-4b8c-89d0-c816e9fe9003"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <title>INSTRUCTIONS FOR USE</title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">
+                        <content styleCode="emphasis">To Open:</content>
+                     </content> </paragraph>
+                  <paragraph>Tear outer wrap at notch and remove solution container. If supplemental medication is desired, follow directions below before preparing for administration. Some opacity of the plastic due to moisture absorption during the sterilization process may be observed. This is normal and does not affect the solution quality or safety. The opacity will diminish gradually.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">
+                        <content styleCode="emphasis">To Add Medication</content>
+                     </content> </paragraph>
+                  <list listType="ordered">
+                     <item>Prepare additive port.</item>
+                     <item>Using aseptic technique and an additive delivery needle of appropriate length, puncture resealable additive port at target area, inner diaphragm and inject. Withdraw needle after injecting medication.</item>
+                     <item>The additive port may be protected by covering with an additive cap.</item>
+                     <item>Mix container contents thoroughly.</item>
+                  </list>
+                  <paragraph>
+                     <content styleCode="bold">
+                        <content styleCode="emphasis">Preparation for Administration</content>
+                     </content> </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">
+                        <content styleCode="emphasis">(Use aseptic technique) </content>
+                     </content>
+                  </paragraph>
+                  <list listType="ordered">
+                     <item>Close flow control clamp of administration set.</item>
+                     <item>Remove cover from outlet port at bottom of container.</item>
+                     <item>Insert piercing pin of administration set into port with a twisting motion until the set is firmly seated. <content styleCode="bold">
+                           <content styleCode="emphasis">NOTE:</content>
+                        </content> See full directions on administration set carton.</item>
+                     <item>Suspend container from hanger.</item>
+                     <item>Squeeze and release drip chamber to establish proper fluid level in chamber.</item>
+                     <item>Open flow control clamp and clear air from set. Close clamp.</item>
+                     <item>Attach set to venipuncture device. If device is not indwelling, prime and make venipuncture.</item>
+                     <item>Regulate rate of administration with flow control clamp.</item>
+                  </list>
+                  <paragraph>
+                     <content styleCode="bold">
+                        <content styleCode="emphasis">WARNING: DO NOT USE FLEXIBLE CONTAINER IN SERIES CONNECTIONS.</content>
+                     </content> </paragraph>
+               </text>
+               <effectiveTime value="20210311"/>
+            </section>
+         </component>
+         <component>
+            <section ID="ae6c4017-72f3-4683-8276-1838f48aa3c4">
+               <id root="e677de8a-c8df-468b-b5c9-7b0dca7be141"/>
+               <code code="34069-5" codeSystem="2.16.840.1.113883.6.1" displayName="HOW SUPPLIED SECTION"/>
+               <title>HOW SUPPLIED</title>
+               <text>
+                  <paragraph>These solutions are supplied in single-dose flexible plastic containers as follows:</paragraph>
+                  <table width="75%">
+                     <col width="25%" align="left" valign="middle"/>
+                     <col width="50%" align="left" valign="middle"/>
+                     <col width="25%" align="center" valign="middle"/>
+                     <thead>
+                        <tr>
+                           <th>NDC No.</th>
+                           <th>Product Name</th>
+                           <th>Container Size (mL)</th>
+                        </tr>
+                     </thead>
+                     <tbody>
+                        <tr styleCode="Botrule">
+                           <td>0409-7953-02<footnote ID="foot1">Manufactured by ICU Medical, Inc., Lake Forest, Illinois, 60045, USA</footnote>
+                           </td>
+                           <td>Lactated Ringer's Inj., USP</td>
+                           <td>250</td>
+                        </tr>
+                        <tr styleCode="Botrule">
+                           <td>0990-7953-02<footnoteRef IDREF="foot1"/>
+                           </td>
+                           <td>Lactated Ringer's Inj., USP</td>
+                           <td>250</td>
+                        </tr>
+                        <tr styleCode="Botrule">
+                           <td>0409-7953-03<footnote ID="foot2">Manufactured for ICU Medical, Inc., Lake Forest, Illinois, 60045, USA</footnote>
+                           </td>
+                           <td>Lactated Ringer's Inj., USP</td>
+                           <td>500</td>
+                        </tr>
+                        <tr styleCode="Botrule">
+                           <td>0990-7953-03<footnoteRef IDREF="foot1"/>
+                              <sup>,</sup>
+                              <footnoteRef IDREF="foot2"/>
+                           </td>
+                           <td>Lactated Ringer's Inj., USP</td>
+                           <td>500</td>
+                        </tr>
+                        <tr styleCode="Botrule">
+                           <td>0409-7953-09<footnoteRef IDREF="foot1"/>
+                              <sup>,</sup>
+                              <footnoteRef IDREF="foot2"/>
+                           </td>
+                           <td>Lactated Ringer's Inj., USP</td>
+                           <td>1000</td>
+                        </tr>
+                        <tr styleCode="Botrule">
+                           <td>0990-7953-09<footnoteRef IDREF="foot1"/>
+                              <sup>,</sup>
+                              <footnoteRef IDREF="foot2"/>
+                           </td>
+                           <td>Lactated Ringer's Inj., USP</td>
+                           <td>1000</td>
+                        </tr>
+                        <tr styleCode="Botrule">
+                           <td>0409-7929-03<footnoteRef IDREF="foot2"/>
+                           </td>
+                           <td>Lactated Ringer's and 5% Dextrose Inj., USP</td>
+                           <td>500</td>
+                        </tr>
+                        <tr styleCode="Botrule">
+                           <td>0990-7929-03<footnoteRef IDREF="foot1"/>
+                              <sup>,</sup>
+                              <footnoteRef IDREF="foot2"/>
+                           </td>
+                           <td>Lactated Ringer's and 5% Dextrose Inj., USP</td>
+                           <td>500</td>
+                        </tr>
+                        <tr>
+                           <td>0409-7929-09<footnoteRef IDREF="foot1"/>
+                              <sup>,</sup>
+                              <footnoteRef IDREF="foot2"/>
+                           </td>
+                           <td>Lactated Ringer's and 5% Dextrose Inj., USP</td>
+                           <td>1000</td>
+                        </tr>
+                        <tr>
+                           <td>0990-7929-09<footnoteRef IDREF="foot1"/>
+                              <sup>,</sup>
+                              <footnoteRef IDREF="foot2"/>
+                           </td>
+                           <td>Lactated Ringer's and 5% Dextrose Inj., USP</td>
+                           <td>1000</td>
+                        </tr>
+                     </tbody>
+                  </table>
+                  <paragraph>ICU Medical is transitioning NDC codes from "0409" to a"0990" labeler code. Both NDC codes are expected to be in the market for a period of time.</paragraph>
+                  <paragraph>Store at 20 to 25°C (68 to 77°F). [See USP Controlled Room Temperature.] Protect from freezing. </paragraph>
+                  <paragraph>Revised: April, 2020</paragraph>
+                  <paragraph>IFU0000184</paragraph>
+               </text>
+               <effectiveTime value="20210311"/>
+            </section>
+         </component>
+         <component>
+            <section ID="cced3885-0706-43c8-b34e-3e06d5b87aef">
+               <id root="b4f0ef07-4d68-46e6-ab96-33f236013d4c"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>PRINCIPAL DISPLAY PANEL - 1000 mL Bag Label - NDC 0990-7929-09</title>
+               <text>
+                  <paragraph>1000 mL <br/>NDC 0990-7929-09</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">LACTATED RINGER'S and<br/> 5% DEXTROSE<br/> Injection, USP</content>
+                  </paragraph>
+                  <paragraph>EACH 100 mL CONTAINS DEXTROSE, HYDROUS <br/>5 g; SODIUM LACTATE, ANHYD. 310 mg; SODIUM<br/> CHLORIDE 600 mg; POTASSIUM CHLORIDE <br/>30 mg; CALCIUM CHLORIDE, DIHYDRATE 20 mg<br/> IN WATER FOR INJECTION. pH ADJUSTED WITH<br/> HCl.<br/>ELECTROLYTES PER 1000 mL (NOT INCLUDING<br/> pH ADJUSTMENT): SODIUM 130 mEq;<br/> POTASSIUM 4 mEq; CALCIUM 3 mEq; CHLORIDE <br/>109 mEq; LACTATE 28 mEq.<br/>525 mOsmol/LITER (CALC). pH 4.9 (4.0 to 6.5).<br/> CAUTION: DO NOT ADMINISTER CALCIUM <br/>CONTAINING SOLUTIONS CONCURRENTLY<br/> WITH STORED BLOOD. NOT FOR USE IN THE <br/>TREATMENT OF LACTIC ACIDOSIS.<br/>ADDITIVES MAY BE INCOMPATIBLE. CONSULT <br/>WITH PHARMACIST, IF AVAILABLE. WHEN<br/> INTRODUCING ADDITIVES, USE ASEPTIC <br/>TECHNIQUE, MIX THOROUGHLY AND DO NOT <br/>STORE. SINGLE-DOSE CONTAINER. FOR I.V. <br/>USE. USUAL DOSAGE: SEE INSERT. STERILE, <br/>NONPYROGENIC. USE ONLY IF SOLUTION IS <br/>CLEAR AND CONTAINER IS UNDAMAGED.<br/> MUST NOT BE USED IN SERIES CONNECTIONS.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">3</content>
+                     <br/>V<br/> CONTAINS DEHP</paragraph>
+                  <paragraph>RX ONLY</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">icu</content>medical</paragraph>
+                  <paragraph>IM-4426</paragraph>
+                  <paragraph>ICU Medical, Inc., Lake Forest, Illinois, 60045, USA</paragraph>
+                  <renderMultiMedia referencedObject="MM150"/>
+               </text>
+               <effectiveTime value="20210311"/>
+               <component>
+                  <observationMedia ID="MM150">
+                     <text>PRINCIPAL DISPLAY PANEL - 1000 mL Bag Label - NDC 0990-7929-09</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="lactated-03.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="fe96eb26-72ac-4c53-8109-91a47a2afcf4"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>PRINCIPAL DISPLAY PANEL - 1000 mL Bag Overwrap - NDC 0409-7929-09</title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">TO OPEN TEAR AT NOTCH</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">2<br/>HDPE</content>
+                  </paragraph>
+                  <paragraph>DO NOT REMOVE FROM OVERWRAP UNTIL READY FOR USE. AFTER REMOVING<br/>THE OVERWRAP, CHECK FOR MINUTE LEAKS BY SQUEEZING CONTAINER FIRMLY.<br/>IF LEAKS ARE FOUND, DISCARD SOLUTION AS STERILITY MAY BE IMPAIRED.<br/>RECOMMENDED STORAGE: ROOM TEMPERATURE (25°C). AVOID EXCESSIVE<br/>HEAT. PROTECT FROM FREEZING. SEE INSERT.<br/>98-4321-R14-3/98</paragraph>
+                  <renderMultiMedia referencedObject="MM1"/>
+               </text>
+               <effectiveTime value="20210311"/>
+               <component>
+                  <observationMedia ID="MM1">
+                     <text>PRINCIPAL DISPLAY PANEL - 1000 mL Bag Overwrap - NDC 0409-7929-09</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="lactated-04.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="c0e5e4a2-1093-4ab9-aff9-eaec98ba15db">
+               <id root="3fbe3b23-474e-4c9a-8361-8f88dc8c7753"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>PRINCIPAL DISPLAY PANEL - 1000 mL Bag Label - NDC 0990-7953-09</title>
+               <text>
+                  <paragraph>1000 mL <br/>NDC 0990-7953-09</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">LACTATED RINGER'S<br/>Injection, USP</content>
+                  </paragraph>
+                  <paragraph>EACH 100 mL CONTAINS SODIUM CHLORIDE <br/>600 mg; SODIUM LACTATE, ANHYD. 310 mg; <br/>POTASSIUM CHLORIDE 30 mg; CALCIUM <br/>CHLORIDE, DIHYDRATE 20 mg IN WATER FOR <br/>INJECTION. MAY CONTAIN HCl OR NaOH FOR<br/> pH ADJUSTMENT.<br/>ELECTROLYTES PER 1000 mL (NOT INCLUDING<br/> pH ADJUSTMENT): SODIUM 130 mEq;<br/> POTASSIUM 4 mEq; CALCIUM 3 mEq; <br/>CHLORIDE 109 mEq; LACTATE 28 mEq.<br/>273 mOsmol/LITER (CALC). pH 6.6 (6.0 to 7.5).<br/> CAUTION: DO NOT ADMINISTER CALCIUM <br/>CONTAINING SOLUTIONS CONCURRENTLY<br/> WITH STORED BLOOD. NOT FOR USE IN<br/> THE TREATMENT OF LACTIC ACIDOSIS.<br/> ADDITIVES MAY BE INCOMPATIBLE. CONSULT <br/>WITH PHARMACIST, IF AVAILABLE. WHEN<br/> INTRODUCING ADDITIVES, USE ASEPTIC <br/>TECHNIQUE, MIX THOROUGHLY AND DO NOT <br/>STORE. SINGLE-DOSE CONTAINER. FOR I.V. OR<br/> SUBCUTANEOUS USE. USUAL DOSAGE: SEE <br/>INSERT. STERILE, NONPYROGENIC. USE ONLY <br/>IF SOLUTION IS CLEAR AND CONTAINER IS<br/> UNDAMAGED. MUST NOT BE USED IN SERIES<br/> CONNECTIONS.</paragraph>
+                  <paragraph>RX ONLY</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">3 </content>
+                     <br/>V<br/> CONTAINS DEHP</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">icu</content>medical</paragraph>
+                  <paragraph>IM-4389</paragraph>
+                  <paragraph>ICU Medical, Inc., Lake Forest, Illinois, 60045 USA</paragraph>
+                  <renderMultiMedia referencedObject="MM160"/>
+               </text>
+               <effectiveTime value="20210311"/>
+               <component>
+                  <observationMedia ID="MM160">
+                     <text>PRINCIPAL DISPLAY PANEL - 1000 mL Bag Label - NDC 0990-7953-09</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="lactated-05.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="af07bdbc-d2da-44e6-8a39-761b5508f511"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>PRINCIPAL DISPLAY PANEL - 1000 mL Bag Overwrap - NDC 0409-7953-09</title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">TO OPEN TEAR AT NOTCH</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">2<br/>HDPE</content>
+                  </paragraph>
+                  <paragraph>DO NOT REMOVE FROM OVERWRAP UNTIL READY FOR USE. AFTER REMOVING<br/>THE OVERWRAP, CHECK FOR MINUTE LEAKS BY SQUEEZING CONTAINER FIRMLY.<br/>IF LEAKS ARE FOUND, DISCARD SOLUTION AS STERILITY MAY BE IMPAIRED.<br/>RECOMMENDED STORAGE: ROOM TEMPERATURE (25°C). AVOID EXCESSIVE<br/>HEAT. PROTECT FROM FREEZING. SEE INSERT.<br/>98-4321-R14-3/98</paragraph>
+                  <renderMultiMedia referencedObject="MM2"/>
+               </text>
+               <effectiveTime value="20210311"/>
+               <component>
+                  <observationMedia ID="MM2">
+                     <text>PRINCIPAL DISPLAY PANEL - 1000 mL Bag Overwrap - NDC 0409-7953-09</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="lactated-06.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

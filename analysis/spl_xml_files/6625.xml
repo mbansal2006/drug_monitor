@@ -1,0 +1,441 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="https://www.accessdata.fda.gov/spl/stylesheet/spl.xsl" type="text/xsl"?>
+<document xmlns="urn:hl7-org:v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 https://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="425c90b3-5006-427e-95f6-93ee7918fb8b"/>
+   <code code="34391-3" codeSystem="2.16.840.1.113883.6.1" displayName="HUMAN PRESCRIPTION DRUG LABEL"/>
+   <title/>
+   <effectiveTime value="20241212"/>
+   <setId root="8efe3bd0-c43a-2bd6-e053-2a95a90a92fa"/>
+   <versionNumber value="6"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id root="1.3.6.1.4.1.519.1" extension="251574851"/>
+            <name>SteriMax Inc.</name>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section>
+               <id root="8f1226c0-005b-f1bd-e053-2995a90abfca"/>
+               <code code="48780-1" codeSystem="2.16.840.1.113883.6.1" displayName="SPL product data elements section"/>
+               <effectiveTime value="20190801"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="21586-011" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>Cefotaxime</name>
+                        <formCode code="C42973" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="POWDER, FOR SOLUTION"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>cefotaxime injection</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <ingredient classCode="ACTIM">
+                           <quantity>
+                              <numerator unit="g" value="1"/>
+                              <denominator unit="1" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="258J72S7TZ" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>CEFOTAXIME SODIUM</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="N2GI8B1GK7" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>CEFOTAXIME</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator value="1" unit="1"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="21586-011-01" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43226" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="VIAL"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator value="10" unit="1"/>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code code="21586-011-02" codeSystem="2.16.840.1.113883.6.69"/>
+                                    <formCode code="C43233" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="PACKAGE"/>
+                                 </containerPackagedProduct>
+                                 <subjectOf>
+                                    <marketingAct>
+                                       <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                       <statusCode code="active"/>
+                                       <effectiveTime>
+                                          <low value="20190801"/>
+                                       </effectiveTime>
+                                    </marketingAct>
+                                 </subjectOf>
+                              </asContent>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <code code="C101533" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Unapproved drug for use in drug shortage"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20190801"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C28161" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="INTRAMUSCULAR"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38276" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="INTRAVENOUS"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="21586-012" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>Cefotaxime</name>
+                        <formCode code="C42973" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="POWDER, FOR SOLUTION"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>cefotaxime injection</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <ingredient classCode="ACTIM">
+                           <quantity>
+                              <numerator unit="g" value="2"/>
+                              <denominator unit="1" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="258J72S7TZ" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>CEFOTAXIME SODIUM</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="N2GI8B1GK7" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>CEFOTAXIME</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator value="1" unit="1"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="21586-012-01" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43226" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="VIAL"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator value="10" unit="1"/>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code code="21586-012-02" codeSystem="2.16.840.1.113883.6.69"/>
+                                    <formCode code="C43233" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="PACKAGE"/>
+                                 </containerPackagedProduct>
+                                 <subjectOf>
+                                    <marketingAct>
+                                       <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                       <statusCode code="active"/>
+                                       <effectiveTime>
+                                          <low value="20190801"/>
+                                       </effectiveTime>
+                                    </marketingAct>
+                                 </subjectOf>
+                              </asContent>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <code code="C101533" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Unapproved drug for use in drug shortage"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20190801"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C28161" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="INTRAMUSCULAR"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38276" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="INTRAVENOUS"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section ID="L5200f9d6-7f15-45b4-b229-6554c75644f5">
+               <id root="ebe58fbd-6290-4fe6-a88d-726df838cdb5"/>
+               <code code="71744-7" codeSystem="2.16.840.1.113883.6.1" displayName="HEALTH CARE PROVIDER LETTER SECTION"/>
+               <title>IMPORTANT PRESCRIBING INFORMATION</title>
+               <text>
+                  <paragraph>December 11, 2024</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Temporary Importation of Cefotaxime for Injection to Address Drug Shortage</content>
+                  </paragraph>
+                  <paragraph/>
+                  <paragraph>Dear Healthcare Professional:</paragraph>
+                  <paragraph/>
+                  <paragraph>Due to the current critical shortage of Cefotaxime for Injection products in the United States (U.S.) market, SteriMax Inc. (SteriMax), in conjunction with Provepharm, Inc. (Provepharm) and Direct Success, Inc. (Direct Success) is coordinating with the U.S. Food and Drug Administration (FDA) to increase the availability of the drug. SteriMax has initiated temporary importation of non-FDA approved Cefotaxime for Injection (1 g/vial, and 2 g/vial) into the U.S. market. The Cefotaxime for Injection from SteriMax is marketed in Canada and is manufactured at an FDA-inspected facility that complies with current Good Manufacturing Practice requirements.</paragraph>
+                  <paragraph/>
+                  <paragraph>At this time, no other entity except Provepharm or its distributor Direct Success is authorized by the FDA to import or distribute SteriMax’s Cefotaxime for Injection in the United States. FDA has not approved SteriMax’s Cefotaxime for Injection in the United States.</paragraph>
+                  <paragraph/>
+                  <paragraph>Effective immediately, Provepharm will distribute the following presentations of SteriMax’s Cefotaxime for Injection to address the critical shortage:</paragraph>
+                  <table>
+                     <caption/>
+                     <tfoot>
+                        <tr styleCode="First Last">
+                           <td styleCode="Toprule" colspan="3">Note: DIN refers to Drug Identification Number for products approved by Health Canada</td>
+                        </tr>
+                     </tfoot>
+                     <tbody>
+                        <tr>
+                           <td styleCode="Lrule Rrule" colspan="3" align="center">
+                              <content styleCode="bold">SteriMax Cefotaxime for Injection</content>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Botrule Lrule Rrule Toprule"> 1 g/vial (as cefotaxime sodium)</td>
+                           <td styleCode="Botrule Rrule Toprule"> DIN: 02434091<br/> (Canada)</td>
+                           <td styleCode="Botrule Rrule Toprule" align="center">NDC 21586-011-2</td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Lrule Rrule"> 2 g/vial (as cefotaxime sodium)</td>
+                           <td styleCode="Botrule Rrule"> DIN: 02434105<br/> (Canada)</td>
+                           <td styleCode="Botrule Rrule" align="center">NDC 21586-012-2</td>
+                        </tr>
+                     </tbody>
+                  </table>
+                  <paragraph>
+                     <content styleCode="bold">The barcode on the imported product label may not register accurately on the U.S. scanning systems.</content> Institutions should manually input the imported product information into their systems and confirm that the barcode, if scanned, provides correct information. Alternative procedures should be followed to assure that the correct drug product is being used and administered to individual patients.</paragraph>
+                  <paragraph/>
+                  <paragraph>In addition, the packaging of the imported product does not include serialization information. SteriMax’s Cefotaxime for Injection does not meet the Drug Supply Chain Security Act (DSCSA) requirements for the Interoperable Exchange of Information for Tracing of Human, Finished Prescription Drugs.</paragraph>
+                  <paragraph/>
+                  <paragraph>The vial and carton labels will display the text used and approved for marketing the products in Canada with both English and French translations. It is important to note that there are differences in the format and content of the labeling between the US approved product and SteriMax’s Cefotaxime for Injection. Please see the product comparison tables at the end of this letter.</paragraph>
+                  <paragraph/>
+                  <paragraph>Cefotaxime for Injection is available only by prescription in the U.S. Please refer to the package insert for the FDA-approved Cefotaxime for Injection drug product for full prescribing information.</paragraph>
+                  <paragraph/>
+                  <paragraph>
+                     <content styleCode="bold">Finally, please ensure that your staff and others in your institution who may be involved in the administration of Cefotaxime for Injection receive a copy of this letter and review the information.</content>
+                  </paragraph>
+                  <paragraph/>
+                  <paragraph>
+                     <content styleCode="bold">If you have any questions</content> about the information contained in this letter, any quality related problems, or questions on the use of SteriMax’s Cefotaxime for Injection, please contact SteriMax Inc. Customer Service at 1-800-881-3550.</paragraph>
+                  <paragraph/>
+                  <paragraph>
+                     <content styleCode="bold">To place an order,</content> please contact Direct Success at <content styleCode="underline">Distribution@DSuccess.com</content> or 1-877-404-3338.</paragraph>
+                  <paragraph/>
+                  <paragraph>Healthcare providers should report adverse events associated with the use of SteriMax’s Cefotaxime for Injection to Provepharm at 1-833-684-3234.</paragraph>
+                  <paragraph/>
+                  <paragraph>Adverse events or quality problems experienced with the use of this product may also be reported to the FDA’s MedWatch Adverse Event Reporting Program either online, by regular mail, or by fax:</paragraph>
+                  <list listType="unordered">
+                     <item>Complete and submit the report Online: <content styleCode="underline">www.fda.gov/medwatch/report.htm</content>
+                     </item>
+                     <item>Regular mail or Fax: Download form <content styleCode="underline">www.fda.gov/MedWatch/getforms.htm</content> or call 1-800-332-1088 to request a reporting form, then complete and return to the address on the pre-addressed form or submit by fax to 1-800-FDA-0178.</item>
+                  </list>
+                  <paragraph/>
+                  <paragraph>We remain at your disposal to answer any questions you may have about our product; and provide more information if needed.</paragraph>
+                  <paragraph/>
+                  <paragraph>Sincerely,</paragraph>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="Lc7bf441b-c091-4cd3-a028-16ee74d54009"/>
+                  </paragraph>
+                  <paragraph>
+                     <content>Ritesh Acharya</content>
+                  </paragraph>
+                  <paragraph>
+                     <content>Chief Scientific Officer </content>
+                  </paragraph>
+                  <paragraph>
+                     <content>SteriMax Inc.</content>
+                  </paragraph>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="L2ac0fcb8-c825-47ba-865f-a83e1a0682f2"/>
+                  </paragraph>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="L79cc811b-ebac-4123-804c-b234c97d5029"/>
+                  </paragraph>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="Lc4863098-56dc-4efc-9fea-a91a21f97c18"/>
+                  </paragraph>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph/>
+               </text>
+               <effectiveTime value="20241212"/>
+               <component>
+                  <observationMedia ID="Lc7bf441b-c091-4cd3-a028-16ee74d54009">
+                     <text>sign1</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="sign1.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="L2ac0fcb8-c825-47ba-865f-a83e1a0682f2">
+                     <text>prodcompare1</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="prodcompare1.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="L79cc811b-ebac-4123-804c-b234c97d5029">
+                     <text>prodcompare2</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="prodcompare2.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="Lc4863098-56dc-4efc-9fea-a91a21f97c18">
+                     <text>prodcompare3</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="prodcompare3.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="Ld940113a-1085-4dc6-84c1-ca8582e31bb0">
+               <id root="6a17107c-5680-4265-be5c-b4c73e94be54"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>Cefotaxime for Injection - 1 g per vial</title>
+               <text>
+                  <paragraph>Sterile/Stérile DIN 02434091</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">cefoTAXime Sodium for Injection, BP</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">1 g per vial</content>
+                  </paragraph>
+                  <paragraph>Powder for solution</paragraph>
+                  <paragraph>Antibiotic</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">For IM or IV Use Only</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Preservative Free</content>
+                  </paragraph>
+                  <paragraph>Single use vial. Discard unused portion.<content styleCode="bold"/>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">The stopper is not made with natural rubber latex.</content>
+                  </paragraph>
+                  <paragraph>Steri<content styleCode="italics">​Max</content> Inc.</paragraph>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="L21803036-c2b2-44fd-9cb3-98d5ee390e35"/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20241212"/>
+               <component>
+                  <observationMedia ID="L21803036-c2b2-44fd-9cb3-98d5ee390e35">
+                     <text>1gvial</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="1gvial.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="L5539b61d-00bb-45cc-9333-38c1d1a95813">
+               <id root="817c518a-7c63-49cc-a206-55b5f55f1b9f"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>Cefotaxime for Injection - 2 g per vial</title>
+               <text>
+                  <paragraph>Sterile/Stérile DIN 02434105</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">cefoTAXime Sodium for Injection, BP</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">2 g per vial</content>
+                  </paragraph>
+                  <paragraph>Powder for solution</paragraph>
+                  <paragraph>Antibiotic</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">For Intramuscular or Intravenous Use Only</content>
+                  </paragraph>
+                  <paragraph>Reconstitute before use</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Preservative Free</content>
+                  </paragraph>
+                  <paragraph>Single use vial. Discard unused portion.<content styleCode="bold"/>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">The stopper is not made with natural rubber latex.</content>
+                  </paragraph>
+                  <paragraph>Steri<content styleCode="italics">Max</content> Inc.</paragraph>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="Lafde06d5-c273-439c-9a92-243bb0096df8"/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20241212"/>
+               <component>
+                  <observationMedia ID="Lafde06d5-c273-439c-9a92-243bb0096df8">
+                     <text>2gvial</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="2gvial.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

@@ -1,0 +1,706 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="https://www.accessdata.fda.gov/spl/stylesheet/spl.xsl"?>
+<document xmlns="urn:hl7-org:v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 https://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="200c4b9e-283a-4dea-b33a-9bb4936b2b99"/>
+   <code code="34391-3" displayName="HUMAN PRESCRIPTION DRUG LABEL" codeSystem="2.16.840.1.113883.6.1"/>
+   <title>70% Dextrose Injection USP</title>
+   <effectiveTime value="20241206"/>
+   <setId root="8ccb10fe-75a5-440b-8cd4-b11f4e98f7b0"/>
+   <versionNumber value="21"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id extension="002397347" root="1.3.6.1.4.1.519.1"/>
+            <name>B. Braun Medical Inc.</name>
+            <assignedEntity>
+               <assignedOrganization>
+                  <assignedEntity>
+                     <assignedOrganization>
+                        <id extension="037425308" root="1.3.6.1.4.1.519.1"/>
+                        <name>B. Braun US Pharmaceutical Manufacturing LLC</name>
+                     </assignedOrganization>
+                     <performance>
+                        <actDefinition>
+                           <code code="C84732" displayName="label" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="0264-7387" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                     <performance>
+                        <actDefinition>
+                           <code code="C43360" displayName="manufacture" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="0264-7387" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                     <performance>
+                        <actDefinition>
+                           <code code="C84731" displayName="pack" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="0264-7387" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                  </assignedEntity>
+               </assignedOrganization>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section>
+               <id root="d41ac285-8421-480b-a226-4d333138a912"/>
+               <code code="48780-1" displayName="SPL listing data elements section" codeSystem="2.16.840.1.113883.6.1"/>
+               <effectiveTime value="20241211"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="0264-7387" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>Dextrose</name>
+                        <formCode code="C42986" displayName="SOLUTION" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>Dextrose</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator unit="g" value="70"/>
+                              <denominator unit="mL" value="100"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="IY9XDZ35W2" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>DEXTROSE</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="5SL0G7R0OK" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>ANHYDROUS DEXTROSE</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="059QF0KO0R" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>WATER</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator unit="mL" value="2000"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code/>
+                              <formCode code="C43186" displayName="CONTAINER" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator unit="1" value="4"/>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code code="0264-7387-50" codeSystem="2.16.840.1.113883.6.69"/>
+                                    <formCode code="C43184" displayName="CASE" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 </containerPackagedProduct>
+                                 <subjectOf>
+                                    <marketingAct>
+                                       <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                       <statusCode code="active"/>
+                                       <effectiveTime>
+                                          <low value="20150219"/>
+                                       </effectiveTime>
+                                    </marketingAct>
+                                 </subjectOf>
+                              </asContent>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" displayName="Type 0: Not a Combination Product" codeSystem="2.16.840.1.113883.3.26.1.1" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <id extension="NDA019626" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73594" displayName="NDA" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20150219"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38276" displayName="INTRAVENOUS" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_85e5da9e-232c-4534-a544-6148b85ee9e3">
+               <id root="6f09f1d6-944d-4e19-bfa7-4be2ccb295f2"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <title/>
+               <text>
+                  <paragraph>Concentrated Dextrose in Water</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Pharmacy Bulk Package — Not For Direct Infusion.</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">NOTE: This solution is hypertonic — see WARNINGS and PRECAUTIONS.</content>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20241206"/>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_fb5a6a7e-242c-4049-a40b-61449bbfc419">
+               <id root="94577033-1606-474c-968b-34758b06121e"/>
+               <code code="34089-3" codeSystem="2.16.840.1.113883.6.1" displayName="DESCRIPTION SECTION"/>
+               <title>DESCRIPTION</title>
+               <text>
+                  <paragraph>Each 100 mL of <content styleCode="bold">70% Dextrose Injection USP </content>contains:</paragraph>
+                  <paragraph>Hydrous Dextrose USP 70 g; Water for Injection USP qs</paragraph>
+                  <paragraph>pH: 4.0 (3.2-6.5); Calculated Osmolarity: 3532 mOsmol/liter, hypertonic.</paragraph>
+                  <paragraph>Specific gravity 1.233 at 25°C</paragraph>
+                  <paragraph>Calories per liter: 2380 calculated on the basis of 3.4 kcal/g of dextrose, hydrous</paragraph>
+                  <paragraph>70% Dextrose Injection USP is sterile, nonpyrogenic and contains no bacteriostatic or antimicrobial agents. This product is intended for intravenous administration after appropriate admixture or dilution as a caloric source. </paragraph>
+                  <paragraph>The formula of the active ingredient is: </paragraph>
+                  <table>
+                     <col/>
+                     <col/>
+                     <col/>
+                     <tbody>
+                        <tr>
+                           <td align="center"> <content styleCode="bold">Ingredient</content>
+                           </td>
+                           <td> <content styleCode="bold">Molecular Formula</content>
+                           </td>
+                           <td> <content styleCode="bold">Molecular Weight</content>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td> Hydrous Dextrose USP</td>
+                           <td> <renderMultiMedia referencedObject="MM1"/>
+                           </td>
+                           <td align="center"> 198.17</td>
+                        </tr>
+                     </tbody>
+                  </table>
+                  <paragraph>Not made with natural rubber latex, PVC or DEHP.</paragraph>
+                  <paragraph>The plastic container is made from a multilayered film specifically developed for parenteral drugs. The solution contact layer is a rubberized copolymer of ethylene and propylene. The container is nontoxic and biologically inert. The container-solution unit is a closed system and is not dependent upon entry of external air during use. The container is overwrapped to provide protection from the physical environment and to provide an additional moisture barrier when necessary.</paragraph>
+               </text>
+               <effectiveTime value="20241206"/>
+               <component>
+                  <observationMedia ID="MM1">
+                     <text>Dextrose Molecular Formula</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="dextrose-injection-in-titan-container-1.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_137d99ae-d713-4464-ba18-7ffbcfd3b5b0">
+               <id root="376c5de1-08c7-4a6a-8294-37fab7c96a3b"/>
+               <code code="34090-1" codeSystem="2.16.840.1.113883.6.1" displayName="CLINICAL PHARMACOLOGY SECTION"/>
+               <title>CLINICAL PHARMACOLOGY</title>
+               <text>
+                  <paragraph>70% Dextrose Injection USP provides calories and is a source of water for hydration. It is capable of inducing diuresis depending on the clinical condition of the patient.</paragraph>
+                  <paragraph>Dextrose is readily metabolized, may decrease losses of body protein and nitrogen, promotes glycogen deposition and decreases or prevents ketosis if sufficient doses are provided.</paragraph>
+                  <paragraph>Water is an essential constituent of all body tissues and accounts for approximately 70% of total body weight. Average normal adult daily requirements range from two to three liters (1.0 to 1.5 liters each for insensible water loss by perspiration and urine production).</paragraph>
+               </text>
+               <effectiveTime value="20241206"/>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_4982f96f-9dda-4a1a-b67d-bdb97ab4213e">
+               <id root="ec188749-2371-46ae-9365-c858c5aa1e7d"/>
+               <code code="34067-9" codeSystem="2.16.840.1.113883.6.1" displayName="INDICATIONS &amp; USAGE SECTION"/>
+               <title>INDICATIONS AND USAGE</title>
+               <text>
+                  <paragraph>70% Dextrose Injection USP is indicated as a caloric component in a parenteral nutrition regimen. 70% Dextrose Injection USP is used with an appropriate protein (nitrogen) source in the prevention of nitrogen loss or in the treatment of negative nitrogen balance in patients where: (1) the alimentary tract cannot or should not be used, (2) gastrointestinal absorption of protein is impaired, or (3) metabolic requirements for protein are substantially increased, as with extensive burns.</paragraph>
+               </text>
+               <effectiveTime value="20241206"/>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_3e23aeb3-6b17-40f2-8742-ac9fef373de2">
+               <id root="6a51303c-d4fa-4d98-bc5c-f965caaa760e"/>
+               <code code="34070-3" codeSystem="2.16.840.1.113883.6.1" displayName="CONTRAINDICATIONS SECTION"/>
+               <title>CONTRAINDICATIONS</title>
+               <text>
+                  <paragraph>The infusion of 70% Dextrose Injection USP  is contraindicated in patients having intracranial or intraspinal hemorrhage, in patients who are severely dehydrated, in patients who are anuric, and in patients in hepatic coma.</paragraph>
+                  <paragraph>Solutions containing dextrose may be contraindicated in patients with hypersensitivity to corn products.</paragraph>
+               </text>
+               <effectiveTime value="20241206"/>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_3ef0ec64-d535-42c5-99c1-df1ba44986b4">
+               <id root="cfa6b3ee-d763-4ae1-a572-c8d672ce5c3f"/>
+               <code code="34071-1" codeSystem="2.16.840.1.113883.6.1" displayName="WARNINGS SECTION"/>
+               <title>WARNINGS</title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">This injection is for compounding only, not for direct infusion.</content>
+                  </paragraph>
+                  <paragraph>Dilute before use to a concentration which will, when administered with an amino acid (nitrogen) source, result in an appropriate calorie to gram of nitrogen ratio and which has an osmolarity consistent with the route of administration.</paragraph>
+                  <paragraph>Unless appropriately diluted, the infusion of hypertonic dextrose injection into a peripheral vein may result in vein irritation, vein damage, and thrombosis. Strongly hypertonic nutrient solutions should only be administered through an indwelling intravenous catheter with the tip located in a large central vein such as the superior vena cava.</paragraph>
+                  <paragraph>Use of 70% Dextrose Injection USP to prepare parenteral nutritional admixtures may be incompatible with other components, especially calcium and phosphate salts and lipid emulsions. Incompatibility of admixed components can produce precipitates which may cause particulate emboli. Use 70% Dextrose Injection USP only to prepare formulations that are known to be stable: refer to standard texts for further information.</paragraph>
+                  <paragraph>The administration of intravenous solutions can cause fluid and/or solute overload resulting in dilution of serum electrolyte concentrations, overhydration, congested states or pulmonary edema. The risk of dilutional states is inversely proportional to the electrolyte concentration.</paragraph>
+                  <paragraph>WARNING: 70% Dextrose Injection USP contains aluminum that may be toxic. Aluminum may reach toxic levels with prolonged parenteral administration if kidney function is impaired. Premature neonates are particularly at risk because their kidneys are immature, and they require large amounts of calcium and phosphate solutions, which contain aluminum.</paragraph>
+                  <paragraph>Research indicates that patients with impaired kidney function, including premature neonates, who receive parenteral levels of aluminum at greater than 4 to 5 mcg/kg/day accumulate aluminum at levels associated with central nervous system and bone toxicity. Tissue loading may occur at even lower rates of administration.</paragraph>
+                  <paragraph>Prolonged infusion of isotonic or hypotonic dextrose in water may increase the volume of extracellular fluid and cause water intoxication.</paragraph>
+                  <paragraph>Solutions containing dextrose without electrolytes should not be administered simultaneously with blood through the same infusion set because of the possibility of agglomeration.</paragraph>
+                  <paragraph>Excessive administration of potassium-free dextrose solutions may result in significant hypokalemia. Serum potassium levels should be maintained and potassium supplemented as required.</paragraph>
+                  <paragraph>In very low birth weight infants, excessive or rapid administration of dextrose injection may result in increased serum osmolality and possible intracerebral hemorrhage.</paragraph>
+               </text>
+               <effectiveTime value="20241206"/>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_9b6088ca-9be5-414c-b564-6a25bb1ed1d4">
+               <id root="45a3f913-db8c-4889-a6c9-26612dcf8014"/>
+               <code code="42232-9" codeSystem="2.16.840.1.113883.6.1" displayName="PRECAUTIONS SECTION"/>
+               <title>PRECAUTIONS</title>
+               <effectiveTime value="20241206"/>
+               <component>
+                  <section ID="LINK_f2c55481-c2f5-4af7-9428-f40c66d1ca74">
+                     <id root="344fabba-fb99-43a1-98cd-9078a9023982"/>
+                     <code code="34072-9" codeSystem="2.16.840.1.113883.6.1" displayName="GENERAL PRECAUTIONS SECTION"/>
+                     <title>General</title>
+                     <text>
+                        <paragraph>This solution should be used with care in patients with hypervolemia, renal insufficiency, urinary tract obstruction, or impending or frank cardiac decompensation.</paragraph>
+                        <paragraph>Solutions containing dextrose should be used with caution in patients with overt or known subclinical diabetes mellitus or carbohydrate intolerance  for any reason.</paragraph>
+                        <paragraph>Essential electrolytes, minerals, and vitamins should be supplied as needed.</paragraph>
+                        <paragraph>Hypokalemia may develop during parenteral administration of hypertonic dextrose solutions. Sufficient amounts of potassium should be added to dextrose solutions administered to fasting patients with good renal function, especially those on digitalis therapy.</paragraph>
+                        <paragraph>To minimize the risk of possible incompatibilities arising from mixing this solution with other additives that may be prescribed, the final infusate should be inspected for cloudiness or precipitation immediately after mixing, prior to administration, and periodically during administration. See <content styleCode="bold">
+                              <linkHtml href="#LINK_3ef0ec64-d535-42c5-99c1-df1ba44986b4">WARNINGS</linkHtml>
+                           </content>.</paragraph>
+                        <paragraph>Do not use plastic container in series connection.</paragraph>
+                        <paragraph>If administration of 70% Dextrose Injection USP after admixture or dilution is controlled by a pumping device, care must be taken to discontinue pumping action before the container runs dry or air embolism may result. If administration is not controlled by a pumping device, refrain from applying excessive pressure (&gt;300mmHg) causing distortion to the container such as wringing or twisting. Such handling could result in breakage of the container.</paragraph>
+                        <paragraph>This solution is intended for intravenous administration after admixture or dilution using sterile equipment. When using an automated compounding device replace all disposable components as recommended by manufacturer and at least every 24 hours. </paragraph>
+                        <paragraph>Aseptic technique is essential with the use of sterile preparations for compounding nutritional admixtures. Discard container within 4 hours of entering closure.</paragraph>
+                        <paragraph>Administration of hypertonic dextrose and amino acid solutions via central venous catheter may be associated with complications which can be prevented or minimized by careful attention to all aspects of the procedure. This includes attention to solution preparation, administration and patient monitoring.</paragraph>
+                        <paragraph>It is essential that a carefully prepared protocol, based upon current medical practice, be followed, preferably by an experienced team<content styleCode="bold">. </content>The package insert of the protein (nitrogen) source should be consulted for dosage and all precautionary information.</paragraph>
+                        <paragraph>Use only if solution is clear and container and seals are intact.</paragraph>
+                        <paragraph>70% Dextrose Injection USP contains no more than 25 mcg/L of aluminum.</paragraph>
+                     </text>
+                     <effectiveTime value="20241206"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_5a683f4d-8ded-4bac-aa4d-3242b19b2161">
+                     <id root="4d1ad284-e335-47d6-9c51-514c1155f45f"/>
+                     <code code="34075-2" codeSystem="2.16.840.1.113883.6.1" displayName="LABORATORY TESTS SECTION"/>
+                     <title>Laboratory Tests</title>
+                     <text>
+                        <paragraph>Clinical evaluation and periodic laboratory determinations are necessary to monitor changes in fluid balance, electrolyte concentrations, and acid-base balance during prolonged parenteral therapy or whenever the condition of the patient warrants such evaluation. Significant deviations from normal concentrations may require tailoring of the electrolyte pattern, in these or alternative solutions.</paragraph>
+                     </text>
+                     <effectiveTime value="20241206"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_b4f226ea-4c43-49e2-abaf-ba02f70e396a">
+                     <id root="25bf05f4-26dc-423d-a7ee-75e55afd97b5"/>
+                     <code code="34073-7" codeSystem="2.16.840.1.113883.6.1" displayName="DRUG INTERACTIONS SECTION"/>
+                     <title>Drug Interactions</title>
+                     <text>
+                        <paragraph>Caution must be exercised in the administration of 70% Dextrose Injection USP to patients receiving corticosteroids or corticotropin. Some additives may be incompatible. Consult with pharmacist. When introducing additives, use aseptic techniques. Mix thoroughly. Do not store. Dispose of any unused product. See <content styleCode="bold">
+                              <linkHtml href="#LINK_3ef0ec64-d535-42c5-99c1-df1ba44986b4">WARNINGS</linkHtml>
+                           </content>.</paragraph>
+                     </text>
+                     <effectiveTime value="20241206"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_38d53e0d-7c5b-4056-b9dc-4c68200eaaed">
+                     <id root="83c48c82-89a8-4ca2-81c5-748cc17717c4"/>
+                     <code code="34083-6" codeSystem="2.16.840.1.113883.6.1" displayName="CARCINOGENESIS &amp; MUTAGENESIS &amp; IMPAIRMENT OF FERTILITY SECTION"/>
+                     <title>Carcinogenesis, Mutagenesis, Impairment of Fertility</title>
+                     <text>
+                        <paragraph>Studies with Dextrose Injections USP have not been performed to evaluate carcinogenic potential, mutagenic potential or effects on fertility.</paragraph>
+                     </text>
+                     <effectiveTime value="20241206"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_d6bf89c1-03d7-4673-9a10-290207ac8734">
+                     <id root="755057c3-feba-4a9a-a325-c603d9522e99"/>
+                     <code code="42228-7" codeSystem="2.16.840.1.113883.6.1" displayName="PREGNANCY SECTION"/>
+                     <title>Pregnancy</title>
+                     <text>
+                        <paragraph>There are no adequate and well controlled studies with Dextrose Injections, USP in pregnant women and animal reproduction studies have not been conducted with this drug. Therefore,  it is not known whether Dextrose Injections USP can cause fetal harm when administered to a pregnant woman. Dextrose Injections USP should be given during pregnancy only if the potential benefit justifies the potential risk to the fetus.</paragraph>
+                     </text>
+                     <effectiveTime value="20241206"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_02db9440-1bca-4fb7-84be-1b81898a4cc1">
+                     <id root="790cbdaf-b0b8-45d0-a46d-b974ae5046ff"/>
+                     <code code="34079-4" codeSystem="2.16.840.1.113883.6.1" displayName="LABOR &amp; DELIVERY SECTION"/>
+                     <title>Labor and Delivery</title>
+                     <text>
+                        <paragraph>Intrapartum maternal intravenous infusion of glucose-containing solutions may produce maternal hyperglycemia with subsequent fetal hyperglycemia and fetal metabolic acidosis.  Fetal hyperglycemia can result in increased fetal insulin levels which may result in neonatal hypoglycemia following delivery.  Consider the potential risks and benefits for each specific patient before administering Dextrose Injection, USP.</paragraph>
+                     </text>
+                     <effectiveTime value="20241206"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_8a8586ac-b964-493a-a476-873aeeb35a37">
+                     <id root="bf5f5d80-1db4-460d-b6f4-5286b95008e7"/>
+                     <code code="34080-2" codeSystem="2.16.840.1.113883.6.1" displayName="NURSING MOTHERS SECTION"/>
+                     <title>Nursing Mothers</title>
+                     <text>
+                        <paragraph>It is not known if this drug is present in human milk. Because many drugs are present in human milk, caution should be exercised when Dextrose Injections USP are administered to a nursing woman.</paragraph>
+                     </text>
+                     <effectiveTime value="20241206"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_18aeec53-a6ea-4e7b-89b7-6380972dce01">
+                     <id root="f721683a-1d8e-45b7-ae88-6bce9daa7123"/>
+                     <code code="34081-0" codeSystem="2.16.840.1.113883.6.1" displayName="PEDIATRIC USE SECTION"/>
+                     <title>Pediatric Use</title>
+                     <text>
+                        <paragraph>The use of Dextrose in pediatric patients is based on clinical practice (see <content styleCode="bold">
+                              <linkHtml href="#www.splportal.comLINK_96c1dfaf-ee7b-4cda-8a16-33ce5a467413">DOSAGE AND ADMINISTRATION</linkHtml>
+                           </content>). Because of their hypertonicity, 70% Dextrose Injections must be diluted prior to administration.</paragraph>
+                        <paragraph>Newborns – especially those born premature and with low birth weight - are at increased risk of developing hypo- or hyperglycemia and therefore need close monitoring during treatment with intravenous glucose solutions to ensure adequate glycemic control in order to avoid potential long term adverse effects. Hypoglycemia in the newborn can cause prolonged seizures, coma and brain damage. Hyperglycemia has been associated with intraventricular hemorrhage, late onset bacterial and fungal infection, retinopathy of prematurity, necrotizing enterocolitis, bronchopulmonary dysplasia, prolonged length of hospital stay, and death.</paragraph>
+                     </text>
+                     <effectiveTime value="20241206"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_8d8225ec-f7cb-4b23-9d9a-9f1deeb448e9">
+                     <id root="4a83023e-f280-459b-97d5-c3ebbe571202"/>
+                     <code code="34082-8" codeSystem="2.16.840.1.113883.6.1" displayName="GERIATRIC USE SECTION"/>
+                     <title>Geriatric Use</title>
+                     <text>
+                        <paragraph>An evaluation of literature revealed no clinical experience identifying differences in responses between the elderly and younger patients. In general, dose selection for an elderly patient should be cautious, usually starting at the low end of the dosing range, reflecting the greater frequency of decreased hepatic, renal, or cardiac function, and of concomitant disease or other drug therapy.</paragraph>
+                        <paragraph>This drug is known to be substantially excreted by the kidney, and the risk of toxic reactions to this drug may be greater in patients with impaired renal function. Because elderly patients are more likely to have decreased renal function, care should be taken in dose selection, and it may be useful to monitor renal function.</paragraph>
+                        <paragraph>See <content styleCode="bold">
+                              <content styleCode="bold">
+                                 <linkHtml href="#www.splportal.comLINK_3ef0ec64-d535-42c5-99c1-df1ba44986b4">WARNINGS</linkHtml>
+                              </content>.</content>
+                        </paragraph>
+                     </text>
+                     <effectiveTime value="20241206"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_0bf2112e-4fe8-4425-8d5a-01b2fca1f8a5">
+               <id root="5db8a280-5402-47e0-9511-83513ff081ab"/>
+               <code code="34084-4" codeSystem="2.16.840.1.113883.6.1" displayName="ADVERSE REACTIONS SECTION"/>
+               <title>ADVERSE REACTIONS</title>
+               <text>
+                  <paragraph>Reactions which may occur because of the solution or the technique of administration include febrile response, infection at the site of injection, venous thrombosis or phlebitis extending from the site of injection, extravasation and hypervolemia. Incompatibility of admixed components can produce precipitates which may cause particulate emboli.</paragraph>
+                  <paragraph>Hyperosmolar syndrome, resulting from excessively rapid administration of concentrated dextrose may cause hypovolemia, dehydration, mental confusion and/or loss of consciousness. Too rapid infusion of hypertonic solutions may cause local pain and venous irritation. Rate of administration should be adjusted according to tolerance. Use of the largest peripheral vein and a small bore needle is recommended. (See <content styleCode="bold">
+                        <linkHtml href="#www.splportal.comLINK_96c1dfaf-ee7b-4cda-8a16-33ce5a467413">DOSAGE AND ADMINISTRATION</linkHtml>
+                     </content>.)</paragraph>
+                  <paragraph>Hypersensitivity reactions, including anaphylaxis and chills.</paragraph>
+                  <paragraph>If an adverse reaction does occur, discontinue the infusion, evaluate the patient, institute appropriate therapeutic countermeasures, and save the remainder of the fluid for examination if deemed necessary.</paragraph>
+               </text>
+               <effectiveTime value="20241206"/>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_01adae12-3df7-4cc8-8b7e-c39845632832">
+               <id root="fec9db0d-6e5f-4949-ac1e-8c198a213e56"/>
+               <code code="34088-5" codeSystem="2.16.840.1.113883.6.1" displayName="OVERDOSAGE SECTION"/>
+               <title>OVERDOSAGE</title>
+               <text>
+                  <paragraph>In the event of a fluid or solute overload during parenteral therapy, reevaluate the patient’s condition and institute appropriate corrective treatment.</paragraph>
+               </text>
+               <effectiveTime value="20241206"/>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_96c1dfaf-ee7b-4cda-8a16-33ce5a467413">
+               <id root="d562ce9f-3d71-4d37-b3b7-caa50e2bfc49"/>
+               <code code="34068-7" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE &amp; ADMINISTRATION SECTION"/>
+               <title>DOSAGE AND ADMINISTRATION</title>
+               <text>
+                  <paragraph>This solution is for intravenous use only after admixture or dilution. </paragraph>
+                  <paragraph>70% Dextrose Injection USP is designed for use with automated compounding devices for preparing intravenous nutritional admixtures or for the filling of empty sterile syringes. Dosages will be in accordance with the recommendation of the prescribing physician. 70% Dextrose Injection USP is not intended for direct infusion. Admixtures should be made by, or under the direction of, a pharmacist using strict aseptic technique under a laminar flow hood. Compounded admixtures may be stored under refrigeration for up to 24 hours. Administration of admixtures should be completed within 24 hours after removal from refrigeration.</paragraph>
+                  <paragraph>Dosage is to be directed by a physician and is dependent upon age, weight, clinical condition of the patient and laboratory determinations. Frequent laboratory determinations and clinical evaluation are essential to monitor changes in blood glucose and electrolyte concentrations, and fluid and electrolyte balance during prolonged parenteral therapy.</paragraph>
+                  <paragraph>Fluid Administration should be based on calculated maintenance or replacement fluid requirements for each patient.</paragraph>
+               </text>
+               <effectiveTime value="20241206"/>
+               <component>
+                  <section ID="LINK_c5c80c38-ed87-4a8b-b68d-3e7751236b2c">
+                     <id root="4c914548-8e6c-4bea-91b1-8139840a9644"/>
+                     <code code="34081-0" codeSystem="2.16.840.1.113883.6.1" displayName="PEDIATRIC USE SECTION"/>
+                     <title>Pediatric Use</title>
+                     <text>
+                        <paragraph>The dosage selection and constant infusion rate of intravenous dextrose must be selected with caution in pediatric patients, particularly neonates and low birth weight infants, because of the increased risk of hyperglycemia/hypoglycemia. Frequent monitoring of serum glucose concentrations is required when dextrose is prescribed to pediatric patients, particularly neonates and low birth weight infants. The infusion rate and volume depends on the age, weight, clinical and metabolic conditions of the patient, concomitant therapy and should be determined by the consulting physician experienced in pediatric intravenous fluid therapy.</paragraph>
+                     </text>
+                     <effectiveTime value="20241206"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_b3cb1333-33de-411e-a994-97fb97a11b46">
+               <id root="1624a64a-afd0-434f-9ffc-4afad203e4c9"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <title>Directions for Use of Pharmacy Bulk Package Container</title>
+               <text>
+                  <paragraph>Parenteral drug products should be inspected visually for particulate matter and discoloration prior to administration or admixture and final infusate should be inspected for cloudiness or precipitation immediately after mixing, prior to administration, and periodically during administration, whenever solution and container permit. Use of a final filter is recommended during administration of all parenteral solutions where possible.</paragraph>
+                  <paragraph>70% Dextrose Injection USP in the Pharmacy Bulk Package is intended for use in the preparation of sterile, intravenous admixtures. </paragraph>
+                  <paragraph>Refer to standard texts and guidelines on the preparation of parenteral nutritional admixtures.</paragraph>
+                  <paragraph>When compounding admixtures, use aseptic technique. Mix thoroughly.</paragraph>
+                  <paragraph>Do not store any unused portion of 70% Dextrose Injection USP. </paragraph>
+                  <paragraph>
+                     <content styleCode="italics">
+                        <content styleCode="underline">TO OPEN:</content>
+                     </content>
+                  </paragraph>
+                  <renderMultiMedia referencedObject="MM2"/>
+                  <list listType="ordered" styleCode="Arabic">
+                     <item>Inspect overwrap. Do not use if overwrap has been damaged. 
+
+</item>
+                     <item>Do not use unless solution is clear and closure is intact. 
+
+</item>
+                     <item>Tear overwrap starting from the tear notches. (Figure 1)<br/>
+                        <renderMultiMedia referencedObject="MM3"/>
+                     </item>
+                     <item>Inspect the container for minute leaks by squeezing inner bag firmly. If leaks are found, discard the bag as sterility may be impaired. 
+
+</item>
+                     <item>For compounding only. Do not use for direct infusion.<br/>
+                        <br/>
+                        <content styleCode="italics">
+                           <content styleCode="underline">PREPARATION FOR ADMIXING</content>
+                           <br/>
+                        </content>
+                        <paragraph>Note: Important Admixing Information<content styleCode="italics">
+                              <br/>
+                              <renderMultiMedia referencedObject="MM4"/>
+                           </content>
+                        </paragraph>
+                     </item>
+                  </list>
+                  <list listType="unordered" styleCode="Disk">
+                     <item>
+                        <content styleCode="bold">The Pharmacy Bulk Package is to be used only in a suitable work area such as a laminar air flow hood (or an equivalent clean air compounding area).</content>
+                     </item>
+                     <item>The contents are restricted to the preparation of admixtures for infusion or, through a sterile transfer device, for the filling of empty sterile syringes. 
+
+</item>
+                     <item>Additives may be incompatible with the fluid withdrawn from this container. When compounding admixtures, use aseptic technique, mix thoroughly and do not store. 
+
+</item>
+                     <item>Parenteral drug products should be inspected visually for particulate matter and discoloration prior to administration whenever solution container permits. (see <content styleCode="bold">
+                           <linkHtml href="#www.splportal.comLINK_f2c55481-c2f5-4af7-9428-f40c66d1ca74">PRECAUTIONS, </linkHtml>
+                           <content styleCode="italics">
+                              <linkHtml href="#www.splportal.comLINK_f2c55481-c2f5-4af7-9428-f40c66d1ca74">General</linkHtml>
+                           </content>
+                        </content>)</item>
+                  </list>
+                  <list listType="ordered" styleCode="Arabic">
+                     <item>Do not use/penetrate blocked port (see Figure 2, left upper corner).<br/>
+                        <renderMultiMedia referencedObject="MM5"/>
+                     </item>
+                     <item>Remove aluminum foil of set port at the bottom of container. 
+
+</item>
+                     <item>Attach suitable transfer device or compounding set (Figure 2). Refer to complete directions accompanying device. 
+
+</item>
+                     <item>Hang bag on suitable fixture (Figure 3). <renderMultiMedia referencedObject="MM6"/>
+                     </item>
+                     <item>Once container closure has been penetrated, withdrawal of content should be completed within 4 hours.</item>
+                  </list>
+               </text>
+               <effectiveTime value="20241206"/>
+               <component>
+                  <observationMedia ID="MM2">
+                     <text>Bag Illustration</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="dextrose-injection-in-titan-container-2.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="MM3">
+                     <text>Figure 1</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="dextrose-injection-in-titan-container-3.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="MM4">
+                     <text>Bag Hanger illustration</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="dextrose-injection-in-titan-container-4.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="MM5">
+                     <text>Figure 2</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="dextrose-injection-in-titan-container-5.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="MM6">
+                     <text>Figure 3</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="dextrose-injection-in-titan-container-6.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_3e914197-ce5d-4ad3-88c1-1ca52ca9d16d">
+               <id root="bf17fbd8-230e-4261-a6b3-d6e3c173d062"/>
+               <code code="34069-5" codeSystem="2.16.840.1.113883.6.1" displayName="HOW SUPPLIED SECTION"/>
+               <title>HOW SUPPLIED</title>
+               <text>
+                  <paragraph>70% Dextrose Injection USP is supplied in 2000 mL Pharmacy Bulk Package containers packaged 4 per case.</paragraph>
+                  <paragraph>
+                     <content styleCode="italics">
+                        <content styleCode="underline">NDC                    REF           SIZE</content>
+                     </content>
+                     <br/>0264-7387-50     S8705        2000 mL</paragraph>
+                  <paragraph>Exposure of pharmaceutical products to heat should be minimized. Avoid excessive heat. Protect from freezing. It is recommended that the product be stored at room temperature (25°C); however, brief exposure up to 40°C does not adversely affect the product.</paragraph>
+               </text>
+               <effectiveTime value="20241206"/>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_9a6e129d-8b50-4202-95bb-2c2a25b25d70">
+               <id root="88ee7877-7aff-413c-be6f-d870e4ae5aba"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <title/>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">Rx only</content>
+                  </paragraph>
+                  <paragraph>Revised: May 2019</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">B. Braun Medical Inc.</content>
+                     <br/>Bethlehem, PA 18018-3524 USA<br/>1-800-227-2862<br/>
+                     <br/>Y36-002-997  LD-355-4</paragraph>
+               </text>
+               <effectiveTime value="20241206"/>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_447d3c2e-2c98-4e94-9ed3-b260b96fc7d5">
+               <id root="c49201da-efe5-4e95-8ebc-a0630a027167"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>PRINCIPAL DISPLAY PANEL</title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">70% DEXTROSE <br/>INJECTION USP</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">PHARMACY BULK PACKAGE<br/>NOT FOR DIRECT INFUSION<br/>MUST BE DILUTED</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">
+                        <content styleCode="bold">REF S8705<br/>
+                        </content>
+                     </content>
+                     <content styleCode="bold">NDC 0264-7387-50<br/>
+                     </content>
+                     <content styleCode="bold">LOT<br/>
+                     </content>
+                     <content styleCode="bold">EXP.</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">2000 mL</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Each 100 mL </content>
+                     <content styleCode="bold">contains: <br/>Hydrous Dextrose USP 70 g <br/>Water for Injection USP qs</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Hypertonic</content>
+                  </paragraph>
+                  <paragraph>Sterile. Pharmacy bulk package container.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">WARNINGS:</content> ELECTROLYTE-FREE DEXTROSE SOLUTIONS SHOULD <br/>NOT BE GIVEN CONJOINTLY WITH BLOOD BECAUSE <br/>AGGLOMERATION MAY OCCUR. Some additives may be <br/>incompatible. Consult with pharmacist. When introducing <br/>additives, use aseptic techniques. <br/>Mix thoroughly. Do not store.</paragraph>
+                  <paragraph>CONTAINS NO MORE THAN 25 mcg/L OF ALUMINUM</paragraph>
+                  <paragraph>Recommended Storage: Room temperature (25°C). <br/>Avoid excessive heat. Protect from freezing. <br/>See Package Insert. Do not remove overwrap <br/>until ready for use. </paragraph>
+                  <paragraph>Not made with natural rubber latex, PVC or DEHP.</paragraph>
+                  <paragraph>Rx only<br/>
+                  </paragraph>
+                  <renderMultiMedia referencedObject="MM7"/>
+                  <paragraph>Y38-000-068     LD-251-7</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">B. Braun Medical Inc.<br/>
+                     </content>Bethlehem, PA 18018-3524 USA<br/>1-800-227-2862<br/>
+                     <br/>
+                     <content styleCode="bold">SET</content>
+                  </paragraph>
+                  <renderMultiMedia referencedObject="MM8">
+                     <caption>70% Dextrose 2000mL Container Label</caption>
+                  </renderMultiMedia>
+               </text>
+               <effectiveTime value="20241206"/>
+               <component>
+                  <observationMedia ID="MM7">
+                     <text>Recycle Symbol</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="dextrose-injection-in-titan-container-7.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="MM8">
+                     <text>70% Dextrose 2000mL Container Label</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="dextrose-injection-in-titan-container-8.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

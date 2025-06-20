@@ -1,0 +1,1296 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="https://www.accessdata.fda.gov/spl/stylesheet/spl.xsl" type="text/xsl"?>
+<document xmlns="urn:hl7-org:v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 https://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="c3c3b8ae-9dac-40fc-8569-b26d6befbf01"/>
+   <code code="34391-3" codeSystem="2.16.840.1.113883.6.1" displayName="Human Prescription Drug Label"/>
+   <title>These highlights do not include all the information needed to use DALFAMPRIDINE EXTENDED-RELEASE TABLETS safely and effectively. See full prescribing information for DALFAMPRIDINE EXTENDED-RELEASE TABLETS.<br/>
+      <br/> DALFAMPRIDINE extended-release tablets, for oral use <br/> Initial U.S. Approval: 2010</title>
+   <effectiveTime value="20231016"/>
+   <setId root="d61e15fa-0334-49a0-ab41-c9a36b726b57"/>
+   <versionNumber value="7"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id extension="146974886" root="1.3.6.1.4.1.519.1"/>
+            <name>Sun Pharmaceutical Industries, Inc.</name>
+            <assignedEntity>
+               <assignedOrganization>
+                  <assignedEntity>
+                     <assignedOrganization>
+                        <id extension="650445203" root="1.3.6.1.4.1.519.1"/>
+                        <name>Sun Pharmaceutical Industries  Limited</name>
+                     </assignedOrganization>
+                     <performance>
+                        <actDefinition>
+                           <code code="C25391" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ANALYSIS"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="62756-429" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                     <performance>
+                        <actDefinition>
+                           <code code="C43360" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="MANUFACTURE"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="62756-429" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                  </assignedEntity>
+               </assignedOrganization>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section>
+               <id root="3ea62984-a567-4e84-8733-13c6bdfa9288"/>
+               <code code="48780-1" codeSystem="2.16.840.1.113883.6.1" displayName="SPL PRODUCT DATA ELEMENTS SECTION"/>
+               <effectiveTime value="20231016"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="62756-429" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>Dalfampridine<suffix/>
+                        </name>
+                        <formCode code="C42927" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="TABLET, EXTENDED RELEASE"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>Dalfampridine</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator value="10" unit="mg"/>
+                              <denominator value="1" unit="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="BH3B64OKL9" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>DALFAMPRIDINE</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="BH3B64OKL9" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>DALFAMPRIDINE</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="3NXW29V3WO" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>HYPROMELLOSE, UNSPECIFIED</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="FZ989GH94E" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>POVIDONE, UNSPECIFIED</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="OP1R32D61U" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>MICROCRYSTALLINE CELLULOSE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="70097M6I30" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>MAGNESIUM STEARATE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="7SEV7J4R1U" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>TALC</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="7Z8S9VYZ4B" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>ETHYLCELLULOSE, UNSPECIFIED</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="XHX3C3X673" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>TRIACETIN</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="15FIX9V2JP" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>TITANIUM DIOXIDE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="46N107B71O" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SHELLAC</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="XM0M87F357" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>FERROSOFERRIC OXIDE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="8PJ61P6TS3" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>BUTYL ALCOHOL</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="6DC9Q167V3" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>PROPYLENE GLYCOL</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="5138Q19F1X" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>AMMONIA</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator value="60" unit="1"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="62756-429-86" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43169" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BOTTLE"/>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                           <subjectOf>
+                              <marketingAct>
+                                 <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 <statusCode code="active"/>
+                                 <effectiveTime>
+                                    <low value="20190522"/>
+                                 </effectiveTime>
+                              </marketingAct>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <id extension="ANDA208292" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73584" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ANDA"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20190522"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLCOLOR" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value xsi:type="CV" code="C48325" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="WHITE">
+                              <originalText>White to off white</originalText>
+                           </value>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSHAPE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value xsi:type="CV" code="C48348" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ROUND">
+                              <originalText>biconvex</originalText>
+                           </value>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSIZE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value xsi:type="PQ" unit="mm" value="8"/>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSCORE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value xsi:type="INT" value="1"/>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLIMPRINT" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value xsi:type="ST">429</value>
+                        </characteristic>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38288" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ORAL"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section ID="Section_1">
+               <id root="464df161-69b6-4bad-a3cc-68886af12182"/>
+               <code code="34067-9" codeSystem="2.16.840.1.113883.6.1" displayName="INDICATIONS &amp; USAGE SECTION"/>
+               <title>1 INDICATIONS AND USAGE</title>
+               <text>
+                  <paragraph>Dalfampridine extended-release tablets are indicated as a treatment to improve walking in adult patients with multiple sclerosis (MS). This was demonstrated by an increase in walking speed <content styleCode="italics">[see Clinical Studies (14)].</content>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20231016"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <paragraph>Dalfampridine is a potassium channel blocker indicated to improve walking in adult patients with multiple sclerosis (MS). This was demonstrated by an increase in walking speed <linkHtml href="#Section_1">(1,</linkHtml>
+                           <linkHtml href="#Section_14">14).</linkHtml>
+                        </paragraph>
+                     </text>
+                  </highlight>
+               </excerpt>
+            </section>
+         </component>
+         <component>
+            <section ID="Section_2">
+               <id root="a192f23a-3940-4c4c-b78e-b21111b82ab8"/>
+               <code code="34068-7" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE &amp; ADMINISTRATION SECTION"/>
+               <title>2 DOSAGE AND ADMINISTRATION</title>
+               <effectiveTime value="20231016"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <list listType="unordered" styleCode="disc">
+                           <item>The maximum recommended dosage is 10 mg twice daily (approximately 12 hours apart). There is no evidence of additional benefit with doses greater than 10 mg twice daily. Adverse reactions, including seizures, were more frequent at higher doses. <linkHtml href="#Section_2.1">(2.1)</linkHtml>
+                           </item>
+                           <item>Take with or without food. Administer tablets whole; do not divide, crush, chew, or dissolve <linkHtml href="#Section_2.2">(2.2)</linkHtml>
+                           </item>
+                           <item>Patients should not take double or extra doses if they miss a dose. <linkHtml href="#Section_2.2">(2.2)</linkHtml>
+                           </item>
+                           <item>Estimated creatinine clearance (CrCl) should be known before initiating treatment with dalfampridine extended-release tablets. In patients with mild renal impairment (CrCl 51 to 80 mL/min), dalfampridine extended-release tablets may reach plasma levels associated with a greater risk of seizures, and the potential benefits of dalfampridine extended-release tablets should be carefully considered against the risk of seizures in these patients <linkHtml href="#Section_2.3">(2.3,</linkHtml>
+                              <linkHtml href="#Section_5.2">5.2,</linkHtml>
+                              <linkHtml href="#Section_8.6">8.6)</linkHtml>
+                           </item>
+                        </list>
+                     </text>
+                  </highlight>
+               </excerpt>
+               <component>
+                  <section ID="Section_2.1">
+                     <id root="4a93f55a-265a-45f9-b1a6-a9ea80934ed7"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="Spl Unclassified Section"/>
+                     <title>2.1 Dosage Information</title>
+                     <text>
+                        <paragraph>The maximum recommended dosage of dalfampridine extended-release tablets is one 10 mg tablet twice daily and should not be exceeded. Take doses approximately 12 hours apart.<br/>
+                        </paragraph>
+                        <paragraph>There is no evidence of additional benefit at doses greater than 10 mg twice daily. Adverse reactions, including seizures, and discontinuations because of adverse reactions were more frequent at higher doses.</paragraph>
+                     </text>
+                     <effectiveTime value="20231016"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="Section_2.2">
+                     <id root="7d38fe58-a642-4f1f-8daa-d5d27d73e74b"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="Spl Unclassified Section"/>
+                     <title>2.2 Administration Instructions</title>
+                     <text>
+                        <paragraph>Dalfampridine extended-release tablets can be taken with or without food. Administer tablets whole; do not divide, crush, chew, or dissolve dalfampridine extended-release tablets. <br/>
+                        </paragraph>
+                        <paragraph>If a dose is missed, patients should not take double or extra doses.</paragraph>
+                     </text>
+                     <effectiveTime value="20231016"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="Section_2.3">
+                     <id root="36235cf7-46e4-41e6-832d-ffb5db5cf0ef"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="Spl Unclassified Section"/>
+                     <title>2.3 Renal Monitoring Prior to and During Treatment</title>
+                     <text>
+                        <paragraph>Estimated creatinine clearance (CrCl) should be known before initiating treatment with dalfampridine extended-release tablets, and monitored at least annually during treatment with dalfampridine extended-release tablets. CrCl can be estimated using the following equation (multiply by 0.85 for women):<br/>
+                           <br/>
+                           <renderMultiMedia referencedObject="MM1"/>
+                        </paragraph>
+                     </text>
+                     <effectiveTime value="20231016"/>
+                     <component>
+                        <observationMedia ID="MM1">
+                           <text>spl-dalfampridine-formula</text>
+                           <value xsi:type="ED" mediaType="image/jpeg">
+                              <reference value="spl-dalfampridine-formula.jpg"/>
+                           </value>
+                        </observationMedia>
+                     </component>
+                  </section>
+               </component>
+               <component>
+                  <section ID="Section_2.4">
+                     <id root="43465910-eecf-4798-b6e0-0d7d928da3e7"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="Spl Unclassified Section"/>
+                     <title>2.4 Dosage in Patients with Renal Impairment</title>
+                     <text>
+                        <paragraph>In patients with mild renal impairment (CrCl 51 to 80 mL/min), dalfampridine extended-release tablets plasma levels may approach those seen at a dose of 15 mg twice daily, a dose that is 1.5 times the maximum recommended dose and may be associated with an increased risk of seizures. As mild renal impairment is common after age 50, estimating CrCl is particularly important in these patients. The potential benefits of dalfampridine extended-release tablets should be carefully considered against the risk of seizures in these patients <content styleCode="italics">[see Warnings and Precautions (5.2) and Clinical Pharmacology (12.3)]</content>.</paragraph>
+                        <paragraph>Dalfampridine extended-release tablets are contraindicated in patients with moderate or severe renal impairment (CrCl≤50 mL/min).</paragraph>
+                     </text>
+                     <effectiveTime value="20231016"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="Section_3">
+               <id root="63730008-cd88-4ebf-844a-83836863c83b"/>
+               <code code="43678-2" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE FORMS &amp; STRENGTHS SECTION"/>
+               <title>3 DOSAGE FORMS AND STRENGTHS</title>
+               <text>
+                  <paragraph>Dalfampridine extended-release tablets are available in 10 mg strength and are white to off-white, round, biconvex, beveled edged, film-coated tablets imprinted with “429” in black ink on one side and plain on the other side.<content ID="bookmark3"/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20231016"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <paragraph>10 mg tablets <linkHtml href="#Section_3">(3)</linkHtml>
+                        </paragraph>
+                     </text>
+                  </highlight>
+               </excerpt>
+            </section>
+         </component>
+         <component>
+            <section ID="Section_4">
+               <id root="01cf8fde-6423-4338-b429-7056eaa0085e"/>
+               <code code="34070-3" codeSystem="2.16.840.1.113883.6.1" displayName="CONTRAINDICATIONS SECTION"/>
+               <title>4 CONTRAINDICATIONS</title>
+               <text>
+                  <paragraph>The use of dalfampridine extended-release tablets are contraindicated in the following conditions:</paragraph>
+                  <list listType="unordered" styleCode="disc">
+                     <item>History of seizure<content styleCode="italics"> [see Warnings and Precautions (5.1)] </content>
+                     </item>
+                     <item>Moderate or severe renal impairment (CrCl ≤ 50 mL/min)<content styleCode="italics"> [see Warnings and Precautions (5.2)] </content>
+                     </item>
+                     <item>History of hypersensitivity to dalfampridine or 4-aminopyridine; reactions have included anaphylaxis<content styleCode="italics"> [see Warnings and Precautions (5.4)] </content>
+                     </item>
+                  </list>
+               </text>
+               <effectiveTime value="20231016"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <list listType="unordered" styleCode="Disc">
+                           <item>History of seizure <linkHtml href="#Section_4">(4)</linkHtml>
+                           </item>
+                           <item>Moderate or severe renal impairment (CrCl ≤ 50 mL/min)<linkHtml href="#Section_4">(4)</linkHtml>
+                           </item>
+                           <item>History of hypersensitivity to dalfampridine extended-release tablets or 4-aminopyridine <linkHtml href="#Section_4">(4)</linkHtml>
+                           </item>
+                        </list>
+                     </text>
+                  </highlight>
+               </excerpt>
+            </section>
+         </component>
+         <component>
+            <section ID="Section_5">
+               <id root="453cdea5-64f7-4d76-9f89-c348d8f873a8"/>
+               <code code="43685-7" codeSystem="2.16.840.1.113883.6.1" displayName="WARNINGS AND PRECAUTIONS SECTION"/>
+               <title>5 WARNINGS AND PRECAUTIONS</title>
+               <effectiveTime value="20231016"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <list listType="unordered" styleCode="disc">
+                           <item>Dalfampridine extended-release tablets can cause seizures; the risk of seizures increases with increasing dalfampridine extended-release tablets doses; discontinue dalfampridine extended-release tablets and do not restart if a seizure occurs <linkHtml href="#Section_5.1">(5.1)</linkHtml>
+                           </item>
+                           <item>Avoid concomitant use with other forms of 4-aminopyridine (4­-AP, fampridine), since the active ingredient is the same <linkHtml href="#Section_5.3">(5.3)</linkHtml>
+                           </item>
+                           <item>Dalfampridine extended-release tablets can cause anaphylaxis. Discontinue and do not restart dalfampridine extended-release tablets if this occurs <linkHtml href="#Section_5.4">(5.4)</linkHtml>
+                           </item>
+                        </list>
+                     </text>
+                  </highlight>
+               </excerpt>
+               <component>
+                  <section ID="Section_5.1">
+                     <id root="fcaa0ab9-43d7-4359-aa92-da49032b225c"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="Spl Unclassified Section"/>
+                     <title>5.1	Seizures</title>
+                     <text>
+                        <paragraph>Dalfampridine extended-release tablets can cause seizures. Increased incidence of seizures has been observed at 20 mg twice daily (2 times the maximum recommended dosage) in controlled clinical studies of 9 to 14 weeks duration with dalfampridine in patients with MS. In open-label extension trials in MS patients, the incidence of seizures during treatment with dalfampridine 15 mg twice daily (1.7/100PY) was over 4 times higher than the incidence during treatment with 10 mg twice daily (0.4/100PY). In the postmarketing period seizures have been reported. The majority of seizures occurred at the recommended dose and in patients without a history of seizures, and generally within days to weeks of starting therapy.</paragraph>
+                        <br/>
+                        <paragraph>Dalfampridine extended-release tablets have not been evaluated in patients with a history of seizures or with evidence of epileptiform activity on an EEG, as these patients were excluded from clinical trials. The risk of seizures in patients with epileptiform activity on an EEG is unknown, and could be substantially higher than that observed in dalfampridine extended-release tablets clinical studies. Permanently discontinue dalfampridine extended-release tablets in patients who have experience a seizure while on treatment. Dalfampridine extended-release tablets are contraindicated in patients with a history of seizures <content styleCode="italics">[see  Contraindications (4)].</content>
+                        </paragraph>
+                     </text>
+                     <effectiveTime value="20231016"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="Section_5.2">
+                     <id root="7e524cd7-25cb-4eda-acbc-56ec37d15c81"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="Spl Unclassified Section"/>
+                     <title>5.2	Renal Impairment</title>
+                     <text>
+                        <paragraph>Dalfampridine is eliminated through the kidneys primarily as unchanged drug <content styleCode="italics">[see Clinical Pharmacology (12.3)].</content>
+                        </paragraph>
+                        <paragraph>Because patients with moderate to severe renal impairment (CrCl ≤ 50 mL/min) would require a dose lower than 10 mg twice daily and no strength smaller than 10 mg is available, dalfampridine extended-release tablets are contraindicated in these patients <content styleCode="italics">[see Contraindications (4)]</content>.</paragraph>
+                        <paragraph>In patients with mild renal impairment (CrCl 51 to 80 mL/min), dalfampridine plasma levels may approach those seen at a dose of 15 mg twice daily, a dose that may be associated with an increased risk of seizures <content styleCode="italics">[see Warnings and Precautions (5.1)]</content>.</paragraph>
+                     </text>
+                     <effectiveTime value="20231016"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="Section_5.3">
+                     <id root="65ae15f5-422b-449d-aec6-6841ec244b1a"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="Spl Unclassified Section"/>
+                     <title>5.3	Concurrent Treatment with Other Forms of 4-Aminopyridine</title>
+                     <text>
+                        <paragraph>Avoid concomitant use with other forms of 4-aminopyridine (4-AP, fampridine) since the active ingredient is the same. Instruct patients to discontinue use of any product containing 4-aminopyridine prior to initiating treatment with dalfampridine extended-release tablets in order to reduce the potential for dose-related adverse reactions.</paragraph>
+                     </text>
+                     <effectiveTime value="20231016"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="Section_5.4">
+                     <id root="f723531e-f7b9-4128-8639-134b04379ae0"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="Spl Unclassified Section"/>
+                     <title>5.4	Anaphylaxis</title>
+                     <text>
+                        <paragraph>Dalfampridine extended-release tablets can cause anaphylaxis and severe allergic reactions. Signs and symptoms have included respiratory compromise, urticaria, and angioedema of the throat and or tongue. Dalfampridine extended-release tablets are contraindicated in patients with a history of hypersensitivity to dalfampridine or 4-aminopyridine. Inform patients of the signs and symptoms of anaphylaxis and instruct them to discontinue dalfampridine extended-release tablets and seek immediate medical care should these signs and symptoms occur.</paragraph>
+                     </text>
+                     <effectiveTime value="20231016"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="Section_6">
+               <id root="1f1357dd-fc00-4da1-91ad-51b7efcb933a"/>
+               <code code="34084-4" codeSystem="2.16.840.1.113883.6.1" displayName="ADVERSE REACTIONS SECTION"/>
+               <title>6 ADVERSE REACTIONS</title>
+               <text>
+                  <paragraph>The following serious adverse reactions are described in more detail elsewhere in the labeling:</paragraph>
+                  <list listType="unordered" styleCode="disc">
+                     <item>Seizures <content styleCode="italics">[see Warnings and Precautions (5.1)]</content>
+                     </item>
+                     <item>Anaphylaxis<content styleCode="italics"> [see Warnings and Precautions (5.4)]</content>
+                     </item>
+                  </list>
+               </text>
+               <effectiveTime value="20231016"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <paragraph>The most common adverse events (incidence ≥2% and at a rate greater than the placebo rate) for dalfampridine extended-release tablets were urinary tract infection, insomnia, dizziness, headache, nausea, asthenia, back pain, balance disorder, multiple sclerosis relapse, paresthesia, nasopharyngitis, constipation, dyspepsia, and pharyngolaryngeal pain <linkHtml href="#Section_6.1">(6.1).</linkHtml>
+                        </paragraph>
+                        <br/>
+                        <paragraph>
+                           <content styleCode="bold">To report SUSPECTED ADVERSE REACTIONS, contact Sun Pharmaceutical Industries, Inc. at 1-800-818-4555 or FDA at 1-800-FDA-1088 or www.fda.gov/medwatch.</content>
+                        </paragraph>
+                     </text>
+                  </highlight>
+               </excerpt>
+               <component>
+                  <section ID="Section_6.1">
+                     <id root="f51b92bd-38d8-4e58-a41d-f34cda88dcdc"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="Spl Unclassified Section"/>
+                     <title>6.1 Clinical Trials Experience</title>
+                     <text>
+                        <paragraph>Because clinical studies are conducted under widely varying conditions, adverse reaction rates observed in the clinical studies of a drug cannot be directly compared to rates in the clinical studies of another drug and may not reflect the rates observed in practice.<br/>
+                        </paragraph>
+                        <paragraph>In three placebo-controlled clinical trials of up to 14 weeks duration, 4% (15/400) of patients treated with dalfampridine extended-release tablets 10 mg twice daily experienced one or more adverse reactions leading to discontinuation, compared to 2% (5/238) of placebo-treated patients. The adverse reactions leading to discontinuation of at least 2 patients treated with dalfampridine extended-release tablets and that led to discontinuation more frequently compared to placebo were headache (dalfampridine extended-release tablets 0.5%, placebo 0%), balance disorder (dalfampridine extended-release tablets 0.5%, placebo 0%), dizziness (dalfampridine extended-release tablets 0.5%, placebo 0%), and confusional state (dalfampridine extended-release tablets 0.3%, placebo 0%).</paragraph>
+                        <paragraph/>
+                        <paragraph>Table 1 lists adverse reactions that occurred in ≥ 2% of patients treated with dalfampridine extended-release tablets 10 mg twice daily, and more frequently than in placebo-treated patients, in controlled clinical trials. </paragraph>
+                        <paragraph/>
+                        <paragraph>Table 1: Adverse Reactions with an Incidence ≥ 2% of Dalfampridine Extended-Release Tablets-Treated Adult MS Patients and More Frequent with Dalfampridine Extended-Release Tablets Compared to Placebo in Controlled Clinical Trials</paragraph>
+                        <paragraph/>
+                        <table width="576.8875" cellspacing="0" cellpadding="0">
+                           <colgroup>
+                              <col width="34.478386167147%"/>
+                              <col width="32.7377521613833%"/>
+                              <col width="32.7838616714697%"/>
+                           </colgroup>
+                           <tbody>
+                              <tr styleCode="Botrule First">
+                                 <td styleCode="Lrule Rrule" align="center" valign="top">
+                                    <content styleCode="bold">Adverse reaction</content>
+                                 </td>
+                                 <td styleCode="Rrule" align="center" valign="top">
+                                    <content styleCode="bold">Placebo</content>
+                                    <br/>
+                                    <content styleCode="bold">(N=238)<br/>
+                                       <content styleCode="bold">%</content>
+                                    </content>
+                                 </td>
+                                 <td styleCode="Rrule" align="center" valign="top">
+                                    <content styleCode="bold">Dalfampridine Extended-Release Tablets 10 mg</content>
+                                    <br/>
+                                    <content styleCode="bold">twice daily</content>
+                                    <br/>
+                                    <content styleCode="bold">(N=400)<br/>
+                                       <content styleCode="bold">%</content>
+                                    </content>
+                                 </td>
+                              </tr>
+                              <tr styleCode="Botrule">
+                                 <td styleCode="Lrule Rrule" valign="top">Urinary tract infection</td>
+                                 <td styleCode="Rrule" align="center" valign="top">8</td>
+                                 <td styleCode="Rrule" align="center" valign="top">12</td>
+                              </tr>
+                              <tr styleCode="Botrule">
+                                 <td styleCode="Lrule Rrule" valign="top">Insomnia</td>
+                                 <td styleCode="Rrule" align="center" valign="top">4</td>
+                                 <td styleCode="Rrule" align="center" valign="top">9</td>
+                              </tr>
+                              <tr styleCode="Botrule">
+                                 <td styleCode="Lrule Rrule" valign="top">Dizziness</td>
+                                 <td styleCode="Rrule" align="center" valign="top">4</td>
+                                 <td styleCode="Rrule" align="center" valign="top">7</td>
+                              </tr>
+                              <tr styleCode="Botrule">
+                                 <td styleCode="Lrule Rrule" valign="top">Headache</td>
+                                 <td styleCode="Rrule" align="center" valign="top">4</td>
+                                 <td styleCode="Rrule" align="center" valign="top">7</td>
+                              </tr>
+                              <tr styleCode="Botrule">
+                                 <td styleCode="Lrule Rrule" valign="top">Nausea</td>
+                                 <td styleCode="Rrule" align="center" valign="top">3</td>
+                                 <td styleCode="Rrule" align="center" valign="top">7</td>
+                              </tr>
+                              <tr styleCode="Botrule">
+                                 <td styleCode="Lrule Rrule" valign="top">Asthenia</td>
+                                 <td styleCode="Rrule" align="center" valign="top">4</td>
+                                 <td styleCode="Rrule" align="center" valign="top">7</td>
+                              </tr>
+                              <tr styleCode="Botrule">
+                                 <td styleCode="Lrule Rrule" valign="top">Back pain</td>
+                                 <td styleCode="Rrule" align="center" valign="top">2</td>
+                                 <td styleCode="Rrule" align="center" valign="top">5</td>
+                              </tr>
+                              <tr styleCode="Botrule">
+                                 <td styleCode="Lrule Rrule" valign="top">Balance disorder</td>
+                                 <td styleCode="Rrule" align="center" valign="top">1</td>
+                                 <td styleCode="Rrule" align="center" valign="top">5</td>
+                              </tr>
+                              <tr styleCode="Botrule">
+                                 <td styleCode="Lrule Rrule" valign="top">Multiple sclerosis relapse</td>
+                                 <td styleCode="Rrule" align="center" valign="top">3</td>
+                                 <td styleCode="Rrule" align="center" valign="top">4</td>
+                              </tr>
+                              <tr styleCode="Botrule">
+                                 <td styleCode="Lrule Rrule" valign="top">Paresthesia</td>
+                                 <td styleCode="Rrule" align="center" valign="top">3</td>
+                                 <td styleCode="Rrule" align="center" valign="top">4</td>
+                              </tr>
+                              <tr styleCode="Botrule">
+                                 <td styleCode="Lrule Rrule" valign="top">Nasopharyngitis</td>
+                                 <td styleCode="Rrule" align="center" valign="top">2</td>
+                                 <td styleCode="Rrule" align="center" valign="top">4</td>
+                              </tr>
+                              <tr styleCode="Botrule">
+                                 <td styleCode="Lrule Rrule" valign="top">Constipation</td>
+                                 <td styleCode="Rrule" align="center" valign="top">2</td>
+                                 <td styleCode="Rrule" align="center" valign="top">3</td>
+                              </tr>
+                              <tr styleCode="Botrule">
+                                 <td styleCode="Lrule Rrule" valign="top">Dyspepsia</td>
+                                 <td styleCode="Rrule" align="center" valign="top">1</td>
+                                 <td styleCode="Rrule" align="center" valign="top">2</td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Lrule Rrule" valign="top">Pharyngolaryngeal pain</td>
+                                 <td styleCode="Rrule" align="center" valign="top">1</td>
+                                 <td styleCode="Rrule" align="center" valign="top">2</td>
+                              </tr>
+                           </tbody>
+                        </table>
+                        <paragraph>
+                           <br/>
+                           <content styleCode="underline">Other Adverse Reactions</content>
+                        </paragraph>
+                        <paragraph>
+                           <content>Dalfampridine extended-release tablets have been evaluated in a total of 1,952 subjects, including 917 MS patients. A total of 741 patients have been treated with dalfampridine extended-release tablets for over six months, 501 for over one year and 352 for over two years. The experience in open-label clinical trials is consistent with the safety profile observed in the placebo-controlled clinical trials. As in controlled clinical trials, a dose-dependent increase in the incidence of seizures has been observed in open-label clinical trials with dalfampridine extended-release tablets in patients with MS as follows: Dalfampridine extended-release tablets 10 mg twice daily 0.41 per 100 person-years (95% confidence interval 0.13 to 0.96); dalfampridine 15 mg twice daily 1.7 per 100 person-years (95% confidence interval 0.21 to 6.28).</content>
+                        </paragraph>
+                     </text>
+                     <effectiveTime value="20231016"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="Section_6.2">
+                     <id root="6ba5de59-7928-4f41-be07-882eb632a17e"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="Spl Unclassified Section"/>
+                     <title>6.2   	Postmarketing Experience</title>
+                     <text>
+                        <paragraph>The following adverse reactions have been identified during post approval use with dalfampridine. Because these reactions are reported voluntarily from a population of uncertain size, it is not always possible to reliably estimate their frequency or establish a causal relationship to drug exposure: vomiting, vertigo.</paragraph>
+                     </text>
+                     <effectiveTime value="20231016"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="Section_7">
+               <id root="63e25a84-845f-4c5d-a6ed-47d646d47b14"/>
+               <code code="34073-7" codeSystem="2.16.840.1.113883.6.1" displayName="DRUG INTERACTIONS SECTION"/>
+               <title>7 DRUG INTERACTIONS</title>
+               <effectiveTime value="20231016"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <paragraph>
+                           <content>OCT2 Inhibitors: Concomitant use may cause an increased exposure and potential risk of seizures </content>
+                           <linkHtml href="#Section_7.1">(7.1)</linkHtml>
+                        </paragraph>
+                     </text>
+                  </highlight>
+               </excerpt>
+               <component>
+                  <section ID="Section_7.1">
+                     <id root="7bf0a6eb-2de6-4819-9720-c55d68d46352"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="Spl Unclassified Section"/>
+                     <title>7.1 OCT2 Inhibitors</title>
+                     <text>
+                        <paragraph>Concurrent treatment with OCT2 inhibitors, such as cimetidine, may cause increased exposure to dalfampridine <content styleCode="italics">[see Clinical Pharmacology (12.3)]</content>. Elevated levels of dalfampridine increase the risk of seizures <content styleCode="italics">[see Warnings and Precautions (5.1, 5.2)]. </content>The potential benefits of taking OCT2 inhibitors concurrently with dalfampridine extended-release tablets should be considered against the risk of seizures in these patients.</paragraph>
+                     </text>
+                     <effectiveTime value="20231016"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="Section_7.2">
+                     <id root="975b38d6-39c8-42b2-8c30-e066a5345387"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="Spl Unclassified Section"/>
+                     <title>7.2 Baclofen</title>
+                     <text>
+                        <paragraph>No interaction was identified between dalfampridine and baclofen <content styleCode="italics">[see Clinical Pharmacology (12.3)]</content>.</paragraph>
+                     </text>
+                     <effectiveTime value="20231016"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="Section_8">
+               <id root="102a9497-0671-45a8-a2b3-440fa319bd8b"/>
+               <code code="43684-0" codeSystem="2.16.840.1.113883.6.1" displayName="USE IN SPECIFIC POPULATIONS SECTION"/>
+               <title>8 USE IN SPECIFIC POPULATIONS</title>
+               <effectiveTime value="20231016"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <list listType="unordered" styleCode="disc">
+                           <item>Pregnancy: Based on animal data, may cause fetal harm <linkHtml href="#Section_8.1">(8.1)</linkHtml>
+                           </item>
+                           <item>Geriatric use: Because elderly patients are more likely to have decreased renal function, it is particularly important to know the estimated CrCl in these patients before initiating dalfampridine extended-release tablets treatment <linkHtml href="#Section_4">(4,</linkHtml>
+                              <linkHtml href="#Section_5.2">5.2,</linkHtml>
+                              <linkHtml href="#Section_8.6">8.6)</linkHtml>
+                           </item>
+                        </list>
+                     </text>
+                  </highlight>
+               </excerpt>
+               <component>
+                  <section ID="Section_8.1">
+                     <id root="17f91101-a506-4c8d-be89-fb255cad70ec"/>
+                     <code code="42228-7" codeSystem="2.16.840.1.113883.6.1" displayName="PREGNANCY SECTION"/>
+                     <title>8.1 Pregnancy</title>
+                     <text>
+                        <paragraph>
+                           <content styleCode="underline">Risk Summary </content>
+                        </paragraph>
+                        <paragraph>There are no adequate data on the developmental risk associated with use of dalfampridine in pregnant women. Administration of dalfampridine to animals during pregnancy and lactation resulted in decreased offspring viability and growth at clinically relevant doses <content styleCode="italics">[see Data]</content>. In the U.S. general population, the estimated background risk of major birth defects and miscarriage in clinically recognized pregnancies is 2 to 4% and 15 to 20%, respectively. The background risk of major birth defects and miscarriage for the indicated population is unknown.<br/>
+                           <content styleCode="underline">
+                              <br/> Data</content>
+                        </paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Animal Data</content>
+                        </paragraph>
+                        <paragraph>Oral administration of dalfampridine to pregnant rats and rabbits throughout organogenesis resulted in no evidence of developmental toxicity in either species. The highest doses tested (10 mg/kg/day in rats, 5 mg/kg/day in rabbits), which were associated with maternal toxicity, are approximately 5 times the MRHD on a body surface area (mg/m<sup>2</sup>) basis.</paragraph>
+                        <paragraph>Oral administration of dalfampridine (0, 1, 3, and 9 to 6 mg/kg/day; high dose reduced during the second week of dosing) to female rats throughout pregnancy and lactation resulted in decreased offspring viability at the highest dose tested and decreased body weight in offspring at the mid and high doses. The no-effect dose for pre-and postnatal developmental toxicity in rats (1 mg/kg/day) is less than the MRHD on a mg/m<sup>2 </sup>basis.</paragraph>
+                     </text>
+                     <effectiveTime value="20231016"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="Section_8.2">
+                     <id root="db712fa7-c682-477a-bfa9-5ab8caec5ca3"/>
+                     <code code="77290-5" codeSystem="2.16.840.1.113883.6.1" displayName="LACTATION SECTION"/>
+                     <title>8.2 Lactation</title>
+                     <text>
+                        <paragraph>
+                           <content styleCode="underline">Risk Summary</content>
+                        </paragraph>
+                        <paragraph>There are no data on the presence of dalfampridine in human milk, the effects of dalfampridine on the breastfed infant, or the effects on milk production. The developmental and health benefits of breastfeeding should be considered along with the mother’s clinical need for dalfampridine and any potential adverse effects on the breastfed infant from dalfampridine or from the underlying maternal condition.</paragraph>
+                     </text>
+                     <effectiveTime value="20231016"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="Section_8.4">
+                     <id root="f2612e63-4f83-46d4-b250-abca57981b7b"/>
+                     <code code="34081-0" codeSystem="2.16.840.1.113883.6.1" displayName="PEDIATRIC USE SECTION"/>
+                     <title>8.4 Pediatric Use</title>
+                     <text>
+                        <paragraph>Safety and effectiveness in patients younger than 18 years of age have not been established.</paragraph>
+                     </text>
+                     <effectiveTime value="20231016"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="Section_8.5">
+                     <id root="eb396797-0533-4e81-819a-828663dfa982"/>
+                     <code code="34082-8" codeSystem="2.16.840.1.113883.6.1" displayName="GERIATRIC USE SECTION"/>
+                     <title>8.5 Geriatric Use</title>
+                     <text>
+                        <paragraph>Clinical studies of dalfampridine extended-release tablets did not include sufficient numbers of subjects aged 65 and over to determine whether they respond differently than younger subjects. A population PK analysis showed that dalfampridine clearance modestly decreased with increasing age, but not sufficiently to necessitate a modification of dose with age. Other reported clinical experience has identified no differences in responses between the elderly and younger patients. <br/>
+                           <br/> Dalfampridine is known to be substantially excreted by the kidneys and the risk of adverse reactions, including seizures, is greater with increasing exposure of dalfampridine. Because elderly patients are more likely to have decreased renal function, it is particularly important to know the estimated creatinine clearance (CrCl) in these patients <content styleCode="italics">[see Warnings and Precautions (5.2)]</content>.</paragraph>
+                        <paragraph/>
+                     </text>
+                     <effectiveTime value="20231016"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="Section_8.6">
+                     <id root="4a171ae1-ac50-46df-8fdc-e18df2346ac1"/>
+                     <code code="88828-9" codeSystem="2.16.840.1.113883.6.1" displayName="RENAL IMPAIRMENT SUBSECTION"/>
+                     <title>8.6	Impaired Renal Function</title>
+                     <text>
+                        <paragraph>Clearance of dalfampridine is decreased in patients with renal impairment and is significantly correlated with creatinine clearance (CrCl)<content styleCode="italics"> [see Clinical Pharmacology (12.3)]</content>. Dalfampridine extended-release tablets are contraindicated in patients with moderate or severe renal impairment (CrCl ≤ 50 mL/min) <content styleCode="italics">[see Contraindications (4)]</content>. The risk of seizures in patients with mild renal impairment (CrCl 51 to 80 mL/min) is unknown, but dalfampridine plasma levels in these patients may approach those seen at a dose of 15 mg twice daily, a dose that may be associated with an increased risk of seizures. If unknown, estimated creatinine clearance should be calculated prior to initiating treatment with dalfampridine extended-release tablets <content styleCode="italics">[see Dosage and Administration (2.3) and Warnings and Precautions (5.2)].</content>
+                        </paragraph>
+                     </text>
+                     <effectiveTime value="20231016"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="Section_10">
+               <id root="91a0a4c9-1536-4592-9a21-45a6a9e99adf"/>
+               <code code="34088-5" codeSystem="2.16.840.1.113883.6.1" displayName="OVERDOSAGE SECTION"/>
+               <title>10 OVERDOSAGE</title>
+               <text>
+                  <paragraph>Three cases of overdose were reported in controlled clinical trials with dalfampridine extended-release tablets, involving two MS patients. The first patient took six times the currently recommended dose (60 mg) and was taken to the emergency room with altered mental state. The second patient took 40 mg doses on two separate occasions. In the first instance, she experienced a complex partial seizure and, in the second instance, a period of confusion. Both patients recovered by the following day without sequelae. <br/>
+                     <br/> Several cases of overdose are found in the scientific literature in which various formulations of dalfampridine were used, resulting in numerous adverse events including seizure, confusion, tremulousness, diaphoresis, and amnesia. In some instances, patients developed status epilepticus, requiring intensive supportive care and were responsive to standard therapy for seizures. In one published case report, an MS patient who ingested 300 mg of 4-aminopyridine (dalfampridine) developed a condition that resembled limbic encephalitis. This patient developed weakness, reduced awareness, memory loss, hypophonic speech, and temporal lobe hyperintensities on MRI. The patient’s speech and language and ambulation improved over time, and an MRI at 4 months after the overdose no longer showed signal abnormalities. At one year, the patient continued to have difficulty with short term memory and learning new tasks.</paragraph>
+                  <paragraph/>
+               </text>
+               <effectiveTime value="20231016"/>
+            </section>
+         </component>
+         <component>
+            <section ID="Section_11">
+               <id root="8dd036e0-01bd-4fea-89d3-1fa7d86bcdfe"/>
+               <code code="34089-3" codeSystem="2.16.840.1.113883.6.1" displayName="DESCRIPTION SECTION"/>
+               <title>11 DESCRIPTION</title>
+               <text>
+                  <paragraph>Dalfampridine, USP is a potassium channel blocker, available in 10 mg tablet strength. Each tablet contains 10 mg dalfampridine, formulated as an extended-release tablet for twice-daily oral administration. Dalfampridine is also known by its chemical name, 4-aminopyridine, with the following structure:</paragraph>
+                  <paragraph/>
+                  <renderMultiMedia referencedObject="MM2"/>
+                  <paragraph/>
+                  <paragraph>Dalfampridine extended-release tablets are available in 10 mg strength and are white to off-white, round, biconvex, beveled edged, film-coated tablets imprinted with “429” in black ink on one side and plain on the other side, containing 10 mg of dalfampridine. Inactive ingredients consist of hypromellose, povidone, microcrystalline cellulose and magnesium stearate. The film-coating contains hypromellose, talc, ethyl cellulose, triacetin and titanium dioxide. The imprinting ink contains shellac glaze, iron oxide black, n-butyl alcohol, propylene glycol and ammonium hydroxide. <br/>
+                     <br/> Dalfampridine, USP is a white to off-white crystalline powder with a molecular weight of 94.1, CAS 504-24-5, and a molecular formula of C<sub>5</sub>H<sub>6</sub>N<sub>2</sub>. At ambient conditions, dalfampridine is soluble in water, methanol, acetone, tetrahydrofuran, isopropanol, acetonitrile, N, N-dimethylformamide, dimethylsulfoxide, and ethanol.</paragraph>
+               </text>
+               <effectiveTime value="20231016"/>
+               <component>
+                  <observationMedia ID="MM2">
+                     <text>spl-dalfampridine-structure</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="spl-dalfampridine-structure.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="Section_12">
+               <id root="ba478930-e52d-4b1f-ba7c-0aebe67c5a36"/>
+               <code code="34090-1" codeSystem="2.16.840.1.113883.6.1" displayName="CLINICAL PHARMACOLOGY SECTION"/>
+               <title>12 CLINICAL PHARMACOLOGY</title>
+               <effectiveTime value="20231016"/>
+               <component>
+                  <section ID="Section_12.1">
+                     <id root="3bb7c1cc-95e6-4453-893c-2144897d2a4f"/>
+                     <code code="43679-0" codeSystem="2.16.840.1.113883.6.1" displayName="MECHANISM OF ACTION SECTION"/>
+                     <title>12.1 Mechanism of action</title>
+                     <text>
+                        <paragraph>The mechanism by which dalfampridine exerts its therapeutic effect has not been fully elucidated. Dalfampridine is a broad spectrum potassium channel blocker. In animal studies, dalfampridine has been shown to increase conduction of action potentials in demyelinated axons through inhibition of potassium channels.</paragraph>
+                     </text>
+                     <effectiveTime value="20231016"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="Section_12.2">
+                     <id root="901932a7-954c-4fb5-ac6f-3d534d9a7ddd"/>
+                     <code code="43681-6" codeSystem="2.16.840.1.113883.6.1" displayName="PHARMACODYNAMICS SECTION"/>
+                     <title>12.2 Pharmacodynamics</title>
+                     <text>
+                        <paragraph>Dalfampridine extended-release tablets do not prolong the QTc interval and does not have a clinically important effect on QRS duration.</paragraph>
+                     </text>
+                     <effectiveTime value="20231016"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="Section_12.3">
+                     <id root="94d91fba-e55b-4f6d-96e8-2b6e6d4d5be5"/>
+                     <code code="43682-4" codeSystem="2.16.840.1.113883.6.1" displayName="PHARMACOKINETICS SECTION"/>
+                     <title>12.3 Pharmacokinetics</title>
+                     <text>
+                        <paragraph>
+                           <content styleCode="underline">Absorption and Distribution</content>
+                        </paragraph>
+                        <paragraph>Orally administered dalfampridine is rapidly and completely absorbed from the gastrointestinal tract. Absolute bioavailability of dalfampridine extended-release tablets have not been assessed, but relative bioavailability is 96% when compared to an aqueous oral solution. The extended-release tablet delays absorption of dalfampridine relative to the solution formulation, giving a slower rise to a lower peak concentration (C<sub>max</sub>), with no effect on the extent of absorption (AUC). Single dalfampridine extended-release tablet 10 mg doses administered to healthy volunteers in a fasted state gave peak concentrations ranging from 17.3 ng/mL to 21.6 ng/mL occurring 3 to 4 hours post-administration (T<sub>max</sub>). In comparison, C<sub>max</sub> with the same 10 mg dose of dalfampridine in an oral solution was 42.7 ng/mL and occurred approximately 1.3 hours after dosing. Exposure increased proportionally with dose.</paragraph>
+                        <paragraph>Dalfampridine is largely unbound to plasma proteins (97 to 99%). The apparent volume of distribution is 2.6 L/kg.</paragraph>
+                        <paragraph>There is no apparent difference in pharmacokinetic parameter values following administration of dalfampridine extended-release tablets to either healthy volunteers or patients with MS.</paragraph>
+                        <paragraph>When dalfampridine is taken with food, there is a slight increase in C<sub>max</sub> (12 to 17%) and a slight decrease in AUC (4 to 7%). These changes in exposure are not clinically significant, and therefore the drug may be taken with or without food <content styleCode="italics">[see Dosage and Administration (2.2)].</content>
+                           <br/>
+                        </paragraph>
+                        <paragraph>
+                           <content styleCode="underline">Metabolism and Elimination</content>
+                        </paragraph>
+                        <paragraph>Dalfampridine and metabolites elimination is nearly complete after 24 hours, with 95.9% of the dose recovered in urine and 0.5% recovered in feces. Most of the excreted radioactivity in urine was parent drug (90.3%). Two metabolites were identified: 3-hydroxy­-4-aminopyridine (4.3%) and 3-hydroxy-4-aminopyridine sulfate (2.6%). These metabolites have been shown to have no pharmacologic activity on potassium channels.</paragraph>
+                        <paragraph>The apparent elimination half-life of dalfampridine following administration of the dalfampridine extended-release tablets is 5.2 to 6.5 hours. The plasma half-life of the sulfate conjugate is approximately 7.6 hours and the half-life of 3-hydroxy-4­-aminopyridine could not be calculated because concentrations for most subjects were close to or below the limit of quantitation.</paragraph>
+                        <paragraph>In vitro studies with human liver microsomes indicate that CYP2E1 was the major enzyme responsible for the 3-hydroxylation of dalfampridine. The identity of the CYP enzymes suspected of playing a minor role in the 3-hydroxylation of dalfampridine could not be established unequivocally.<br/>
+                        </paragraph>
+                        <paragraph>
+                           <content styleCode="underline">Specific Populations<br/>
+                           </content>
+                        </paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Pediatric</content>
+                        </paragraph>
+                        <paragraph>The safety and effectiveness in patients younger than 18 years of age have not been established.<br/>
+                        </paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Geriatric</content>
+                        </paragraph>
+                        <paragraph>A population pharmacokinetic analysis showed that dalfampridine clearance modestly decreased with increasing age, but not sufficiently to necessitate a modification of dose.<br/>
+                        </paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Gender</content>
+                        </paragraph>
+                        <paragraph>A population pharmacokinetic analysis suggested that female patients would be expected to have higher maximum dalfampridine plasma concentration than male patients. The magnitude of these differences is small and does not necessitate any dose modification.<br/>
+                        </paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Renal Impairment</content>
+                           <content styleCode="italics">[see Contraindications (4) and Warnings and Precautions (5.2)].</content>
+                        </paragraph>
+                        <paragraph>The pharmacokinetics of dalfampridine was studied in 9 male and 11 female subjects with varying degrees of renal function. Elimination of the drug is significantly correlated with the creatinine clearance. Total body clearance of dalfampridine was reduced by about 45 % in patients with mild renal impairment (CrCl 51 to 80 mL/min), by about 50% in patients with moderate renal impairment (CrCl = 30 to 50 mL/min), and by about 75% in patients with severe renal impairment (CrCl &lt; 30 mL/min). The terminal half-life of dalfampridine is about 3.3 times longer in patients with severe renal impairment but is not prolonged in patients with mild or moderate renal impairment.<br/>
+                        </paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Hepatic Impairment</content>
+                        </paragraph>
+                        <paragraph>The pharmacokinetics of dalfampridine in hepatically impaired subjects has not been studied. Since dalfampridine is primarily excreted unchanged in the urine, hepatic impairment is not expected to significantly affect dalfampridine pharmacokinetics or recommended dosing.<br/>
+                        </paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Race</content>
+                        </paragraph>
+                        <paragraph>There were too few non-Caucasians in the patient population to evaluate the effect of race.</paragraph>
+                        <paragraph>
+                           <content styleCode="underline">Drug Interactions</content>
+                        </paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Effects of Coadministered Drugs on Dalfampridine <br/>
+                           </content>
+                        </paragraph>
+                        <paragraph>Interferon</paragraph>
+                        <paragraph>Dalfampridine kinetics were not affected by coadministration of subcutaneous injections of 8 million units interferon beta-1b.<br/>
+                        </paragraph>
+                        <paragraph>Baclofen</paragraph>
+                        <paragraph>Based on a population analysis, dalfampridine kinetics were not affected by baclofen.<br/>
+                        </paragraph>
+                        <paragraph>Cimetidine</paragraph>
+                        <paragraph>In a single-dose clinical study, 23 healthy volunteers took the OCT2 inhibitor cimetidine 400 mg every 6 hours concurrently with dalfampridine 10 mg single dose. The test-reference ratio for AUC0–∞ was 125% (90% confidence interval: 121% to 130%) due to a reduction in the clearance of dalfampridine <content styleCode="italics">[see Drug Interactions (7.1)].<br/>
+                           </content>
+                        </paragraph>
+                        <paragraph>Effects of Dalfampridine on Coadministered Drugs</paragraph>
+                        <paragraph>
+                           <content styleCode="italics">In vitro </content>data with human liver microsomes showed that dalfampridine was not a direct or time-dependent inhibitor of CYP1A2, CYP2A6, CYP2B6, CYP2C8, CYP2C9, CYP2C19, CYP2D6, or CYP3A4/5. Dalfampridine is not likely to affect the pharmacokinetics of drugs that are substrates of these enzymes.<br/>
+                        </paragraph>
+                        <paragraph>Other <content styleCode="italics">in vitro </content>studies with cultured human hepatocytes with 0.025 μM, 0.25 μM, 2.5 μM, and 25 μM dalfampridine had little or no effect on CYP1A2, CYP2B6, CYP2C9, CYP2C19, CYP2E1, or CYP3A4/5 enzyme activities. Consequently, the potential for dalfampridine to induce human hepatocytes at therapeutic concentrations is remote.<br/>
+                        </paragraph>
+                        <paragraph/>
+                        <paragraph>
+                           <content styleCode="italics">In vitro</content>, dalfampridine is not a substrate or an inhibitor for the p-glycoprotein transporter. The pharmacokinetics of dalfampridine extended-release tablets are unlikely to be affected by drugs that inhibit the p-glycoprotein transporter, and dalfampridine is not likely to affect the pharmacokinetics of drugs that are substrates of the p-glycoprotein transporter.</paragraph>
+                     </text>
+                     <effectiveTime value="20231016"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="Section_13">
+               <id root="c24d5874-3f9c-4950-8d35-f97dbb1ac613"/>
+               <code code="43680-8" codeSystem="2.16.840.1.113883.6.1" displayName="NONCLINICAL TOXICOLOGY SECTION"/>
+               <title>13 NONCLINICAL TOXICOLOGY</title>
+               <effectiveTime value="20231016"/>
+               <component>
+                  <section ID="Section_13.1">
+                     <id root="ca9643ad-f52a-4d55-bfa8-65cf2a414200"/>
+                     <code code="34083-6" codeSystem="2.16.840.1.113883.6.1" displayName="CARCINOGENESIS &amp; MUTAGENESIS &amp; IMPAIRMENT OF FERTILITY SECTION"/>
+                     <title>13.1	Carcinogenesis, Mutagenesis, Impairment of Fertility</title>
+                     <text>
+                        <paragraph>
+                           <content styleCode="underline">Carcinogenesis</content>
+                        </paragraph>
+                        <paragraph> Two-year dietary carcinogenicity studies of dalfampridine were conducted in mice and rats. In mice, the doses tested (approximately 2, 12.5, and 80 mg/kg/day) were associated with plasma exposures (AUC) up to 11 times the plasma AUC in humans at the maximum recommended human dose (MRHD) of 20 mg/day. There was no evidence of drug-related carcinogenicity.</paragraph>
+                        <paragraph/>
+                        <paragraph>In rats, the doses tested (approximately 2, 6, and 18 mg/kg/day) were approximately 1, 3, and 9 times the MRHD on a body surface area (mg/m<sup>2</sup>) basis. There was a significant increase in uterine polyps at the highest dose tested.</paragraph>
+                        <paragraph/>
+                        <paragraph>
+                           <content styleCode="underline">Mutagenesis</content>
+                           <br/> Dalfampridine was negative in <content styleCode="italics">in vitro </content>(bacterial reverse mutation, mouse lymphoma <content styleCode="italics">tk</content>, chromosomal aberration) and <content styleCode="italics">in vivo (</content>mouse bone marrow, rat erythrocyte micronucleus) genetic toxicology assays.</paragraph>
+                        <paragraph/>
+                        <paragraph>
+                           <content styleCode="underline">Impairment of Fertility</content>
+                        </paragraph>
+                        <paragraph>
+                           <content>Oral administration of dalfampridine (0, 1, 3, and 9 mg/kg/day) to male and female rats prior to and throughout mating, and continuing in females through early pregnancy (to gestation day 13) or throughout pregnancy and lactation resulted in no adverse effects on fertility. Reduced offspring viability and body weight were observed at 9 mg/kg/day. The no-effect dose for adverse effects on fertility (9 mg/kg/day) and reproductive performance (3 mg/kg/day) are 4 times and similar to, respectively, the MRHD on a mg/m</content>
+                           <sup>2 </sup>
+                           <content>basis.</content>
+                        </paragraph>
+                     </text>
+                     <effectiveTime value="20231016"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="Section_14">
+               <id root="dd6caa65-e32c-4b04-89a5-19fea76a3486"/>
+               <code code="34092-7" codeSystem="2.16.840.1.113883.6.1" displayName="CLINICAL STUDIES SECTION"/>
+               <title>14 CLINICAL STUDIES</title>
+               <text>
+                  <paragraph>
+                     <content>The effectiveness of dalfampridine extended-release tablets in improving walking in patients with multiple sclerosis was evaluated in two adequate and well controlled trials involving 540 patients. Patients in these two clinical trials had a mean disease duration of 13 years and a mean Kurtzke Expanded Disability Status Scale (EDSS) score of 6.</content>
+                  </paragraph>
+                  <paragraph/>
+                  <paragraph>Trial 1 was a randomized, placebo-controlled, parallel group, 21-week study (one week post screening, two-week, single-blind placebo run-in, 14-week double-blind treatment, and 4-week no treatment follow-up) in 301 patients with multiple sclerosis at 33 centers in the U.S. and Canada: 229 patients assigned to dalfampridine extended-release tablets 10 mg twice daily and 72 patients assigned to placebo. A total of 283 patients (212 dalfampridine extended-release tablets and 71 placebo) completed all study visits. Patient inclusion criteria included the ability to walk 25 feet in 8 to 45 seconds. Patient exclusion criteria included a history of seizures or evidence of epileptiform activity on a screening EEG, and onset of an MS exacerbation within 60 days.<br/>
+                  </paragraph>
+                  <paragraph>
+                     <content>Trial 2 was a randomized, placebo-controlled, parallel group, 14-week study (one week post-screening, two weeks of single-blind, placebo run-in, nine weeks of double-blind treatment, and two weeks of no-treatment follow-up) in 239 patients with multiple sclerosis at 39 centers in the U.S. and Canada: 120 patients assigned to 10 mg twice daily and 119 assigned to placebo. A total of 227 patients (113 dalfampridine extended-release tablets and 114 placebo) completed all study visits. The patient inclusion and exclusion criteria used in Trial 1 were employed in Trial 2, and in addition patients with severe renal impairment were also excluded.</content>
+                  </paragraph>
+                  <paragraph/>
+                  <paragraph>The primary measure of efficacy in both trials was walking speed (in feet per second) as measured by the Timed 25-foot Walk (T25FW), using a responder analysis. A responder was defined as a patient who showed faster walking speed for at least three visits out of a possible four during the double-blind period than the maximum value achieved in the five non-double-blind no treatment visits (four before the double-blind period and one after).</paragraph>
+                  <paragraph/>
+                  <paragraph>A significantly greater proportion of patients taking dalfampridine extended-release tablets 10 mg twice daily were responders, compared to patients taking placebo, as measured by the T25FW (Trial 1: 34.8% vs. 8.3%; Trial 2: 42.9% vs. 9.3%). The increased response rate in the dalfampridine extended-release tablets group was observed across all four major types of MS disease course.</paragraph>
+                  <paragraph/>
+                  <paragraph>During the double-blind treatment period, a significantly greater proportion of patients taking dalfampridine extended-release tablets 10 mg twice daily had increases in walking speed of at least 10%, 20%, or 30% from baseline, compared to placebo (Figure 1 and Figure 2).</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Figure 1:         Average walking speed change (%) from baseline during the double-blind phase of Trial 1</content>
+                  </paragraph>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="MM3"/>
+                     <br/>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Figure 2:         Average walking speed change (%) from baseline during the double-blind phase of Trial 2</content>
+                  </paragraph>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="MM4"/>
+                     <br/>
+                     <br/>
+                     <br/> In Trial 1 and Trial 2, consistent improvements in walking speed were shown to be associated with improvements on a patient self-assessment of ambulatory disability, the 12-item Multiple Sclerosis Walking Scale (MSWS-12), for both drug and placebo treated patients. However, a drug-placebo difference was not established for that outcome measure.</paragraph>
+                  <paragraph/>
+                  <paragraph>The majority of patients in these trials (63%) were using immunomodulatory drugs (interferons, glatiramer acetate, or natalizumab), but the magnitude of improvement in walking ability was independent of concomitant treatment with these drugs. No differences in effectiveness based on degree of impairment, age, gender, or body mass index were detected. There were too few non-Caucasians in the patient population to evaluate the effect of race.</paragraph>
+               </text>
+               <effectiveTime value="20231016"/>
+               <component>
+                  <observationMedia ID="MM3">
+                     <text>spl-dalfampridine-figure1.jpg</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="spl-dalfampridine-figure1.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="MM4">
+                     <text>spl-dalfampridine-figure2.jpg</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="spl-dalfampridine-figure2.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="Section_17">
+               <id root="a7ae60c6-f481-4563-88a0-d50ede19fb47"/>
+               <code code="34069-5" codeSystem="2.16.840.1.113883.6.1" displayName="HOW SUPPLIED SECTION"/>
+               <title>16 HOW SUPPLIED/STORAGE AND HANDLING</title>
+               <text>
+                  <paragraph>Dalfampridine extended-release tablets, 10 mg are white to off-white, round, biconvex, beveled edged, film-coated tablets imprinted with “429” in black ink on one side and plain on the other side. They are available as:</paragraph>
+                  <paragraph/>
+                  <paragraph>Bottles of 60 with Child-resistant Cap ………….….. NDC 62756-429-86</paragraph>
+                  <paragraph/>
+                  <paragraph>Store dalfampridine extended-release tablets at 20° to 25°C (68° to 77°F); excursions permitted between 15° and 30°C (59° and 86°F) [see USP Controlled Room Temperature].</paragraph>
+               </text>
+               <effectiveTime value="20231016"/>
+            </section>
+         </component>
+         <component>
+            <section ID="Section_16">
+               <id root="2fcc46ed-0f7a-47bb-815d-70e9f147a2d9"/>
+               <code code="34076-0" codeSystem="2.16.840.1.113883.6.1" displayName="INFORMATION FOR PATIENTS SECTION"/>
+               <title>17 PATIENT COUNSELING INFORMATION</title>
+               <text>
+                  <paragraph>Advise the patient to read the FDA-approved patient labeling (Medication Guide).<br/>
+                     <br/>
+                     <content styleCode="underline">Risk of Seizures</content>
+                     <br/> Inform patients that dalfampridine extended-release tablets can cause seizures, and that they must discontinue use of dalfampridine extended-release tablets if they experience a seizure <content styleCode="italics">[see Warnings and Precautions (5.1)].</content>
+                     <br/>
+                     <br/>
+                     <content styleCode="underline">Dalfampridine Extended-Release Tablets dosing</content>
+                     <br/> Instruct patients to take dalfampridine extended-release tablets exactly as prescribed. Instruct patients not to take a double dose after they miss a dose, as this would increase their risk of seizure. Instruct patients not to take more than 2 tablets in a 24-hour period and to make sure that there is an approximate 12-hour interval between doses<content styleCode="italics"> [see Dosage and Administration (2.1, 2.2)].</content>
+                     <br/>
+                     <br/>
+                     <content styleCode="underline">Anaphylaxis</content>
+                     <br/> Advise patients to discontinue dalfampridine extended-release tablets and seek medical care if they develop signs and symptoms of anaphylaxis <content styleCode="italics">[see Warnings and Precautions (5.4)].</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="underline">Effects on Driving or Using Machinery</content>
+                  </paragraph>
+                  <paragraph>Counsel patients that central nervous system-related adverse reactions, such as vertigo and dizziness, associated with the use of dalfampridine extended-release tablets might impair their ability to drive or use machinery should they develop these symptoms.</paragraph>
+                  <paragraph>
+                     <content styleCode="underline">Drug Interactions </content>
+                     <br/> Instruct patients to notify their healthcare provider prior to starting any new medication, including over-the-counter drugs.<br/>
+                     <br/>
+                     <content styleCode="underline">Storage</content>
+                     <br/> Advise patients to store dalfampridine extended-release tablets at 25°C (77°F), with excursions permitted to 15ºC to 30ºC (59ºF to 86ºF). Advise patients to safely throw away dalfampridine extended-release tablets those are out of date or no longer needed.</paragraph>
+                  <paragraph>
+                     <br/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20231016"/>
+            </section>
+         </component>
+         <component>
+            <section ID="Unclassified_Section_14">
+               <id root="3edcd831-1d16-4d8d-b74e-a80d6e2b6f35"/>
+               <code code="42231-1" codeSystem="2.16.840.1.113883.6.1" displayName="SPL MEDGUIDE SECTION"/>
+               <title>MEDICATION GUIDE</title>
+               <text>
+                  <paragraph>Dispense with Medication Guide available at: https://www.sunpharma.com/usa/products<br/>
+                     <content styleCode="bold">Dalfampridine</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">(dal-FAM-pri-deen)</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Extended-Release Tablets</content>
+                  </paragraph>
+                  <paragraph/>
+                  <paragraph>Read this Medication Guide before you start taking dalfampridine extended-release tablets and each time you get a refill. There may be new information. This information does not take the place of talking with your doctor about your medical condition or your treatment.</paragraph>
+                  <paragraph/>
+                  <paragraph>
+                     <content styleCode="bold">What is the most important information I should know about dalfampridine extended-release tablets? </content>
+                  </paragraph>
+                  <paragraph>Dalfampridine extended-release tablets can cause seizures.</paragraph>
+                  <list listType="unordered" styleCode="Disc">
+                     <item>You could have a seizure even if you never had a seizure before.</item>
+                     <item>Your chance of having a seizure is higher if you take too many dalfampridine extended-release tablets or if your kidneys have a mild decrease of function, which is common after age 50.</item>
+                     <item>Your doctor may do a blood test to check how well your kidneys are working, if that is not known before you start taking dalfampridine extended-release tablets.<list listType="unordered" styleCode="Disc">
+                           <item>Do not take dalfampridine extended-release tablets if you have ever had a seizure.</item>
+                           <item>Before taking dalfampridine extended-release tablets tell your doctor if you have kidney problems.</item>
+                           <item>Take dalfampridine extended-release tablets exactly as prescribed by your doctor. See “How should I take dalfampridine extended-release tablets?”</item>
+                        </list>
+                     </item>
+                  </list>
+                  <paragraph/>
+                  <paragraph>
+                     <content styleCode="bold">Stop taking dalfampridine extended-release tablets and call your doctor right away if you have a seizure while taking dalfampridine extended-release tablets. </content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold"> What are dalfampridine extended-release tablets? </content>
+                  </paragraph>
+                  <paragraph>Dalfampridine extended-release tablets are prescription medicines used to help improve walking in adults with multiple sclerosis (MS). This was shown by an increase in walking speed.</paragraph>
+                  <paragraph>It is not known if dalfampridine extended-release tablets are safe or effective in children less than 18 years of age.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold"> Who should not take dalfampridine extended-release tablets? </content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Do not take dalfampridine extended-release tablets if you: </content>
+                  </paragraph>
+                  <list listType="unordered" styleCode="Disc">
+                     <item>have ever had a seizure</item>
+                     <item>have certain types of kidney problems</item>
+                     <item>are allergic to dalfampridine (4-aminopyridine), the active ingredient in dalfampridine extended-release tablets</item>
+                  </list>
+                  <paragraph>
+                     <content styleCode="bold"> What should I tell my doctor before taking dalfampridine extended-release tablets? </content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Before you take dalfampridine extended-release tablets, tell your doctor if you: </content>
+                  </paragraph>
+                  <list listType="unordered" styleCode="Disc">
+                     <item>have any other medical conditions</item>
+                     <item>are taking compounded 4-aminopyridine (fampridine, 4-AP)</item>
+                     <item>are taking any other medicines, including over-the-counter medicines such as cimetidine</item>
+                     <item>are pregnant or plan to become pregnant. It is not known if dalfampridine extended-release tablets will harm your unborn baby.</item>
+                     <item>are breast-feeding or plan to breast-feed. It is not known if dalfampridine passes into your breast milk. Talk with your healthcare provider about the best way to feed your baby if you take dalfampridine extended-release tablets.</item>
+                  </list>
+                  <paragraph/>
+                  <paragraph>
+                     <content styleCode="bold"> Tell your doctor about all the medicines you take,</content> including prescription and non-prescription medicines, vitamins and herbal supplements.</paragraph>
+                  <paragraph/>
+                  <paragraph>Know the medicines you take. Keep a list of them and show it to your doctor and pharmacist when you get a new medicine.</paragraph>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph>
+                     <content styleCode="bold">How should I take dalfampridine extended-release tablets? </content>
+                  </paragraph>
+                  <list listType="unordered" styleCode="Disc">
+                     <item>Take dalfampridine extended-release tablets exactly as your doctor tells you to take it. Do not change your dose of dalfampridine extended-release tablets.</item>
+                     <item>Take one dalfampridine extended-release tablet 2 times each day about 12 hours apart. Do not take more than 2 dalfampridine extended-release tablets in a 24-­hour period.</item>
+                     <item>
+                        <content styleCode="bold">Take dalfampridine extended-release tablets whole. Do not break, crush, chew or dissolve dalfampridine extended-release tablets before swallowing. If you cannot swallow dalfampridine extended-release tablets whole, tell your doctor. </content>
+                     </item>
+                     <item>Dalfampridine is released slowly over time. If the tablet is broken, the medicine may be released too fast. This can raise your chance of having a seizure.</item>
+                     <item>Dalfampridine extended-release tablets can be taken with or without food.</item>
+                     <item>If you miss a dose of dalfampridine extended-release tablets, do not make up the missed dose. Do not take 2 doses at the same time. Take your next dose at your regular scheduled time.</item>
+                     <item>If you take too many dalfampridine extended-release tablets, call your doctor or go to the nearest hospital emergency room right away.</item>
+                     <item>Do not take dalfampridine extended-release tablets together with other aminopyridine medications, including compounded 4-AP (sometimes called 4­-aminopyridine, fampridine).</item>
+                  </list>
+                  <paragraph>
+                     <content styleCode="bold">What should I avoid while taking dalfampridine extended-release tablets? </content>
+                  </paragraph>
+                  <paragraph>Dalfampridine extended-release tablets may cause dizziness or vertigo. If you have these symptoms, do not drive, operate machinery, or do other dangerous activities.<br/>
+                     <content styleCode="bold">
+                        <br/> What are the possible side effects of dalfampridine extended-release tablets?</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Dalfampridine extended-release tablets may cause serious side effects, including:</content>
+                  </paragraph>
+                  <list listType="unordered" styleCode="Disc">
+                     <item>serious allergic reactions. Stop taking dalfampridine extended-release tablets and call your doctor right away or get emergency medical help if you have:<list listType="unordered" styleCode="Disc">
+                           <item>shortness of breath or trouble breathing</item>
+                           <item>swelling of your throat or tongue</item>
+                           <item>hives</item>
+                        </list>
+                     </item>
+                  </list>
+                  <paragraph/>
+                  <paragraph>See “What is the most important information I should know about dalfampridine extended-release tablets?”</paragraph>
+                  <paragraph/>
+                  <paragraph>The most common side effects of dalfampridine extended-release tablets include:</paragraph>
+                  <list listType="unordered" styleCode="Disc">
+                     <item>urinary tract infection</item>
+                     <item>trouble sleeping (insomnia)</item>
+                     <item>dizziness</item>
+                     <item>headache</item>
+                     <item>nausea</item>
+                     <item>weakness</item>
+                     <item>back pain</item>
+                     <item>problems with balance</item>
+                     <item>multiple sclerosis relapse</item>
+                     <item>burning, tingling or itching of your skin</item>
+                     <item>irritation in your nose and throat</item>
+                     <item>constipation</item>
+                     <item>indigestion</item>
+                     <item>pain in your throat</item>
+                  </list>
+                  <paragraph/>
+                  <paragraph>Tell your doctor if you have any side effect that bothers you or that does not go away.</paragraph>
+                  <paragraph/>
+                  <paragraph>These are not all the possible side effects of dalfampridine extended-release tablets. For more information, ask your doctor or pharmacist.</paragraph>
+                  <paragraph/>
+                  <paragraph>Call your doctor for medical advice about side effects. You may report side effects to the FDA at 1-800-FDA-1088. <br/>
+                     <br/>
+                     <content styleCode="bold">How should I store dalfampridine extended-release tablets?</content>
+                  </paragraph>
+                  <list listType="unordered" styleCode="Disc">
+                     <item>Store dalfampridine extended-release tablets at 20° to 25°C (68° to 77°F); excursions permitted between 15° and 30°C (59° and 86°F).</item>
+                     <item>Safely throw away dalfampridine extended-release tablets those are out of date or no longer needed.</item>
+                  </list>
+                  <paragraph/>
+                  <paragraph>Keep dalfampridine extended-release tablets and all medicines out of the reach of children.</paragraph>
+                  <paragraph/>
+                  <paragraph>
+                     <content styleCode="bold">General Information about the safe and effective use of dalfampridine extended-release tablets</content>
+                  </paragraph>
+                  <paragraph>Medicines are sometimes prescribed for purposes other than those listed in a Medication Guide. Do not use dalfampridine extended-release tablets for a condition for which it was not prescribed. Do not give dalfampridine extended-release tablets to other people, even if they have the same symptoms that you have. It may harm them.</paragraph>
+                  <paragraph/>
+                  <paragraph>This Medication Guide summarizes the most important information about dalfampridine extended-release tablets. If you would like more information, talk with your doctor. You can ask your pharmacist or doctor for information about dalfampridine extended-release tablet that is written for health professionals. <br/>
+                     <br/> For more information, call 1-800-818-4555.</paragraph>
+                  <paragraph/>
+                  <paragraph>
+                     <content styleCode="bold">What are the ingredients in dalfampridine extended-release tablets? </content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Active ingredient:</content> dalfampridine, USP (previously called fampridine)</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Inactive ingredients:</content> hypromellose, povidone, microcrystalline cellulose and magnesium stearate. The film-coating contains hypromellose, talc, ethyl cellulose, triacetin and titanium dioxide. The imprinting ink contains shellac glaze, iron oxide black, n-butyl alcohol, propylene glycol and ammonium hydroxide.</paragraph>
+                  <paragraph/>
+                  <paragraph>This Medication Guide has been approved by the U.S. Food and Drug Administration.</paragraph>
+                  <paragraph>Dispense with Medication Guide available at: https://www.sunpharma.com/usa/products</paragraph>
+                  <paragraph/>
+                  <paragraph>Distributed by:</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Sun Pharmaceutical Industries, Inc. </content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold"/>Cranbury, NJ 08512 <br/>
+                     <br/> Manufactured by:</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Sun Pharmaceutical Industries Limited. </content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold"/>Survey No. 1012, <content>Dadra-396 193, </content>
+                  </paragraph>
+                  <paragraph>U.T. of D &amp; NH and Daman &amp; Diu, India.</paragraph>
+                  <paragraph>
+                     <br/>ISS. 10/2023</paragraph>
+                  <paragraph>5245851</paragraph>
+               </text>
+               <effectiveTime value="20231016"/>
+            </section>
+         </component>
+         <component>
+            <section ID="Section_18">
+               <id root="7eb61c1b-0bf7-459c-9b0b-d0cef39393a7"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>PACKAGE LABEL.PRINCIPAL DISPLAY PANEL</title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">NDC 62756-429-86<br/> Dalfampridine Extended-release Tablets<br/> 10 mg<br/> PHARMACIST:  Dispense with Medication Guide to each patient.<br/> Rx only<br/> 60 Tablets<br/> SUN PHARMA</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">
+                        <renderMultiMedia referencedObject="MM5"/>
+                     </content>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20231016"/>
+               <component>
+                  <observationMedia ID="MM5">
+                     <text>spl-dalfampridine-label.jpg</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="spl-dalfampridine-label.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

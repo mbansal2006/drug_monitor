@@ -1,0 +1,1059 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="https://www.accessdata.fda.gov/spl/stylesheet/spl.xsl" type="text/xsl"?>
+<document xmlns="urn:hl7-org:v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 https://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="7eab93b5-5590-4381-8674-113a05edeff0"/>
+   <code code="34391-3" codeSystem="2.16.840.1.113883.6.1" displayName="HUMAN PRESCRIPTION DRUG LABEL"/>
+   <title>15% CLINISOL - sulfite-free (Amino Acid) Injection <br/>Pharmacy Bulk Package <br/>Not for Direct Infusion <br/>in VIAFLEX Plastic Container</title>
+   <effectiveTime value="20180601"/>
+   <setId root="65ffc962-7538-41ea-9afb-4af5fbce4c5b"/>
+   <versionNumber value="12"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id extension="005083209" root="1.3.6.1.4.1.519.1"/>
+            <name>Baxter Healthcare Corporation</name>
+            <assignedEntity>
+               <assignedOrganization>
+                  <assignedEntity>
+                     <assignedOrganization>
+                        <id extension="189326168" root="1.3.6.1.4.1.519.1"/>
+                        <name>Baxter Healthcare Corporation</name>
+                     </assignedOrganization>
+                     <performance>
+                        <actDefinition>
+                           <code code="C25391" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ANALYSIS"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="0338-0502" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                     <performance>
+                        <actDefinition>
+                           <code code="C84732" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="LABEL"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="0338-0502" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                     <performance>
+                        <actDefinition>
+                           <code code="C43360" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="MANUFACTURE"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="0338-0502" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                     <performance>
+                        <actDefinition>
+                           <code code="C84731" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="PACK"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="0338-0502" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                     <performance>
+                        <actDefinition>
+                           <code code="C84382" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="STERILIZE"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="0338-0502" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                  </assignedEntity>
+                  <assignedEntity>
+                     <assignedOrganization>
+                        <id extension="194684502" root="1.3.6.1.4.1.519.1"/>
+                        <name>Baxter Healthcare Corporation</name>
+                     </assignedOrganization>
+                     <performance>
+                        <actDefinition>
+                           <code code="C25391" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ANALYSIS"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="0338-0502" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                  </assignedEntity>
+                  <assignedEntity>
+                     <assignedOrganization>
+                        <id extension="370353835" root="1.3.6.1.4.1.519.1"/>
+                        <name>Baxter SA</name>
+                     </assignedOrganization>
+                     <performance>
+                        <actDefinition>
+                           <code code="C25391" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ANALYSIS"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="0338-0502" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                     <performance>
+                        <actDefinition>
+                           <code code="C43360" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="MANUFACTURE"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="0338-0502" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                     <performance>
+                        <actDefinition>
+                           <code code="C84732" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="LABEL"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="0338-0502" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                     <performance>
+                        <actDefinition>
+                           <code code="C84731" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="PACK"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="0338-0502" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                     <performance>
+                        <actDefinition>
+                           <code code="C84382" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="STERILIZE"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="0338-0502" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                  </assignedEntity>
+               </assignedOrganization>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section>
+               <id root="233f5550-177f-42c6-a69d-9242a466d2b0"/>
+               <code code="48780-1" codeSystem="2.16.840.1.113883.6.1" displayName="SPL product data elements section"/>
+               <effectiveTime value="20180601"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="0338-0502" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>Clinisol</name>
+                        <formCode code="C42945" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="INJECTION, SOLUTION"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>Lysine, Leucine, Phenylalanine, Valine, Histidine, Isoleucine, Methionine, Threonine, Tryptophan, Alanine, Arginine, Glycine, Proline, Glutamic Acid, Serine, Aspartic Acid, Tyrosine</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <ingredient classCode="ACTIM">
+                           <quantity>
+                              <numerator unit="g" value="1.18"/>
+                              <denominator unit="mL" value="100"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="TTL6G7LIWZ" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>LYSINE ACETATE</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="K3Z4F929H6" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>LYSINE</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator unit="g" value="1.04"/>
+                              <denominator unit="mL" value="100"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="GMW67QNF9C" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>LEUCINE</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="GMW67QNF9C" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>LEUCINE</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator unit="g" value="1.04"/>
+                              <denominator unit="mL" value="100"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="47E5O17Y3R" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>PHENYLALANINE</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="47E5O17Y3R" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>PHENYLALANINE</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator unit="mg" value="960"/>
+                              <denominator unit="mL" value="100"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="HG18B9YRS7" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>VALINE</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="HG18B9YRS7" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>VALINE</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator unit="mg" value="894"/>
+                              <denominator unit="mL" value="100"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="4QD397987E" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>HISTIDINE</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="4QD397987E" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>HISTIDINE</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator unit="mg" value="749"/>
+                              <denominator unit="mL" value="100"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="04Y7590D77" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>ISOLEUCINE</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="04Y7590D77" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>ISOLEUCINE</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator unit="mg" value="749"/>
+                              <denominator unit="mL" value="100"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="AE28F7PNPL" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>METHIONINE</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="AE28F7PNPL" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>METHIONINE</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator unit="mg" value="749"/>
+                              <denominator unit="mL" value="100"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="2ZD004190S" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>THREONINE</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="2ZD004190S" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>THREONINE</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator unit="mg" value="250"/>
+                              <denominator unit="mL" value="100"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="8DUH1N11BX" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>TRYPTOPHAN</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="8DUH1N11BX" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>TRYPTOPHAN</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator unit="g" value="2.17"/>
+                              <denominator unit="mL" value="100"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="OF5P57N2ZX" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>ALANINE</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="OF5P57N2ZX" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>ALANINE</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator unit="g" value="1.47"/>
+                              <denominator unit="mL" value="100"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="94ZLA3W45F" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>ARGININE</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="94ZLA3W45F" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>ARGININE</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator unit="g" value="1.04"/>
+                              <denominator unit="mL" value="100"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="TE7660XO1C" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>GLYCINE</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="TE7660XO1C" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>GLYCINE</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator unit="mg" value="894"/>
+                              <denominator unit="mL" value="100"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="9DLQ4CIU6V" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>PROLINE</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="9DLQ4CIU6V" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>PROLINE</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator unit="mg" value="749"/>
+                              <denominator unit="mL" value="100"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="3KX376GY7L" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>GLUTAMIC ACID</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="3KX376GY7L" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>GLUTAMIC ACID</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator unit="mg" value="592"/>
+                              <denominator unit="mL" value="100"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="452VLY9402" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SERINE</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="452VLY9402" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>SERINE</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator unit="mg" value="434"/>
+                              <denominator unit="mL" value="100"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="30KYC7MIAI" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>ASPARTIC ACID</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="30KYC7MIAI" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>ASPARTIC ACID</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator unit="mg" value="39"/>
+                              <denominator unit="mL" value="100"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="42HK56048U" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>TYROSINE</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="42HK56048U" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>TYROSINE</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="Q40Q9N063P" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>ACETIC ACID</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="059QF0KO0R" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>WATER</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator unit="mL" value="500"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="0338-0502-03" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43167" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BAG"/>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic classCode="OBS">
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CE"/>
+                              </characteristic>
+                           </subjectOf>
+                           <subjectOf>
+                              <marketingAct>
+                                 <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 <statusCode code="active"/>
+                                 <effectiveTime>
+                                    <low value="19960830"/>
+                                 </effectiveTime>
+                              </marketingAct>
+                           </subjectOf>
+                        </asContent>
+                        <asContent>
+                           <quantity>
+                              <numerator unit="mL" value="2000"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="0338-0502-06" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43167" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BAG"/>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic classCode="OBS">
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CE"/>
+                              </characteristic>
+                           </subjectOf>
+                           <subjectOf>
+                              <marketingAct>
+                                 <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 <statusCode code="active"/>
+                                 <effectiveTime>
+                                    <low value="19960830"/>
+                                 </effectiveTime>
+                              </marketingAct>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <id extension="ANDA020512" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73584" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ANDA"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="19960830"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38276" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="INTRAVENOUS"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section ID="i4i_description_id_inv-8d189d00-2183-42c8-b25a-1cb9bfacb333">
+               <id root="54e34b8e-bfb7-4e80-aac4-2d7140bc1658"/>
+               <code code="34089-3" codeSystem="2.16.840.1.113883.6.1" displayName="DESCRIPTION SECTION"/>
+               <title>DESCRIPTION</title>
+               <text>
+                  <paragraph>15% CLINISOL - sulfite-free (Amino Acid) Injection Pharmacy Bulk Package is a sterile, clear, nonpyrogenic, hypertonic solution of essential and nonessential amino acids. A Pharmacy Bulk Package is a container of a sterile preparation for parenteral use that contains many single doses. The contents are intended for use in a pharmacy admixture program and are restricted to the preparation of admixtures for intravenous infusion.</paragraph>
+                  <paragraph>The VIAFLEX plastic container is fabricated from a specially formulated polyvinyl chloride (PL 146 Plastic). Exposure to temperatures above 25ºC/77ºF during transport and storage will lead to minor losses in moisture content. Higher temperatures lead to greater losses. It is unlikely that these minor losses will lead to clinically significant changes within the expiration period. The amount of water that can permeate from inside the container into the overwrap is insufficient to affect the solution significantly. Solutions in contact with the plastic container can leach out certain of its chemical components in very small amounts within the expiration period, e.g., di-2-ethylhexyl phthalate (DEHP), up to 5 parts per million; however, the safety of the plastic has been confirmed in tests in animals according to USP biological test for plastic containers as well as by tissue culture toxicity studies.</paragraph>
+                  <paragraph>Each 100 mL of 15% CLINISOL - sulfite-free (Amino Acid) Injection Pharmacy Bulk Package contains:</paragraph>
+                  <table styleCode="Noautorules" width="100%">
+                     <col width="72%"/>
+                     <col width="28%"/>
+                     <tbody>
+                        <tr>
+                           <td valign="top">
+                              <paragraph>Amino Acids</paragraph>
+                              <paragraph>Total Nitrogen<br/>pH</paragraph>
+                              <paragraph>   </paragraph>
+                           </td>
+                           <td valign="top">
+                              <paragraph>15.0 g</paragraph>
+                              <paragraph>2.37 g</paragraph>
+                              <paragraph>6.0 (5.0 to 7.0)</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td colspan="2" valign="top">
+                              <paragraph>(pH adjusted with glacial acetic acid)</paragraph>
+                              <paragraph>   </paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td valign="top">
+                              <paragraph>
+                                 <content styleCode="bold">Essential Amino Acids</content>
+                              </paragraph>
+                              <paragraph>Lysine - (from Lysine Acetate) C<sub>6</sub>H<sub>14</sub>N<sub>2</sub>O<sub>2</sub>
+                              </paragraph>
+                              <paragraph>Leucine - C<sub>6</sub>H<sub>13</sub>NO<sub>2</sub>
+                              </paragraph>
+                              <paragraph>Phenylalanine – C<sub>9</sub>H<sub>11</sub>NO<sub>2</sub>
+                              </paragraph>
+                              <paragraph>Valine - C<sub>5</sub>H<sub>11</sub>NO<sub>2</sub>
+                              </paragraph>
+                              <paragraph>Histidine - C<sub>6</sub>H<sub>9</sub>N<sub>3</sub>O<sub>2</sub>
+                              </paragraph>
+                              <paragraph>Isoleucine - C<sub>6</sub>H<sub>13</sub>NO<sub>2</sub>
+                              </paragraph>
+                              <paragraph>Methionine - C<sub>5</sub>H<sub>11</sub>NO<sub>2</sub>S</paragraph>
+                              <paragraph>Threonine - C<sub>4</sub>H<sub>9</sub>NO<sub>3</sub>
+                              </paragraph>
+                              <paragraph>Tryptophan - C<sub>11</sub>H<sub>12</sub>N<sub>2</sub>O<sub>2</sub>
+                              </paragraph>
+                              <paragraph>
+                                 <content styleCode="bold">Nonessential Amino Acids</content>
+                              </paragraph>
+                              <paragraph>Alanine - C<sub>3</sub>H<sub>7</sub>NO<sub>2</sub>
+                              </paragraph>
+                              <paragraph>Arginine - C<sub>6</sub>H<sub>14</sub>N<sub>4</sub>O<sub>2</sub>
+                              </paragraph>
+                              <paragraph>Glycine - C<sub>2</sub>H<sub>5</sub>NO<sub>2</sub>
+                              </paragraph>
+                              <paragraph>Proline - C<sub>5</sub>H<sub>9</sub>NO<sub>2</sub>
+                              </paragraph>
+                              <paragraph>Glutamic Acid - C<sub>5</sub>H<sub>9</sub>NO<sub>4</sub>
+                              </paragraph>
+                              <paragraph>Serine – C<sub>3</sub>H<sub>7</sub>NO<sub>3</sub>
+                              </paragraph>
+                              <paragraph>Aspartic Acid – C<sub>4</sub>H<sub>7</sub>NO<sub>4</sub>
+                              </paragraph>
+                              <paragraph>Tyrosine – C<sub>9</sub>H<sub>11</sub>NO<sub>3</sub>
+                              </paragraph>
+                              <paragraph>
+                                 <content styleCode="bold">Anion profiles per liter*</content>
+                              </paragraph>
+                              <paragraph>Acetate from Lysine Acetate and glacial acetic acic</paragraph>
+                              <paragraph>*Balanced by ions from amino acids</paragraph>
+                              <paragraph>
+                                 <content styleCode="bold">Osmolarity (Calc.)</content>
+                              </paragraph>
+                           </td>
+                           <td valign="top">
+                              <paragraph>    </paragraph>
+                              <paragraph>1.18 g</paragraph>
+                              <paragraph>1.04 g</paragraph>
+                              <paragraph>1.04 g</paragraph>
+                              <paragraph>960 mg</paragraph>
+                              <paragraph>894 mg</paragraph>
+                              <paragraph>749 mg</paragraph>
+                              <paragraph>749 mg</paragraph>
+                              <paragraph>749 mg</paragraph>
+                              <paragraph>250 mg</paragraph>
+                              <paragraph>     </paragraph>
+                              <paragraph>2.17 g</paragraph>
+                              <paragraph>1.47 g</paragraph>
+                              <paragraph>1.04 g</paragraph>
+                              <paragraph>894 mg</paragraph>
+                              <paragraph>749 mg</paragraph>
+                              <paragraph>592 mg</paragraph>
+                              <paragraph>434 mg</paragraph>
+                              <paragraph>39 mg</paragraph>
+                              <paragraph>
+                                 <content styleCode="bold">    </content>
+                              </paragraph>
+                              <paragraph>127 mEq</paragraph>
+                              <paragraph>   </paragraph>
+                              <paragraph>1357 mOsmol/L</paragraph>
+                           </td>
+                        </tr>
+                     </tbody>
+                  </table>
+               </text>
+               <effectiveTime value="20180601"/>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_22151ce9-d44b-4c1a-b34e-b6409aed6edc">
+               <id root="8a9e0bf5-1646-46bf-b18d-78deb9445d48"/>
+               <code code="34090-1" codeSystem="2.16.840.1.113883.6.1" displayName="CLINICAL PHARMACOLOGY SECTION"/>
+               <title>CLINICAL PHARMACOLOGY </title>
+               <text>
+                  <paragraph>15% CLINISOL - sulfite-free (Amino Acid) Injection Pharmacy Bulk Package administered parenterally will provide biologically utilizable source material for protein synthesis when used with concentrated calorie sources, electrolytes, vitamins and minerals.</paragraph>
+               </text>
+               <effectiveTime value="20180601"/>
+               <component>
+                  <section ID="ID_3A481D12-EAEC-420D-AF24-79407B1CCC16">
+                     <id root="9aafac6e-36d5-4c5c-a52d-3eaf12794cd4"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Central Infusion </title>
+                     <text>
+                        <paragraph>15% CLINISOL - sulfite-free (Amino Acid) Injection Pharmacy Bulk Package is intended for use in a pharmacy admixture program and as such is restricted to the preparation of admixtures for intravenous use. 15% CLINISOL - sulfite-free (Amino Acid) Injection Pharmacy Bulk Package given by central venous infusion in combination with energy sources, vitamins, trace elements and electrolytes, will meet the requirements for weight maintenance or weight gain. The energy component may be derived solely from dextrose or may be provided by a combination of dextrose and intravenous fat emulsion.</paragraph>
+                     </text>
+                     <effectiveTime value="20180601"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID_F581FCAB-1F0A-46CA-A7D1-568C4C6E9DD3">
+                     <id root="c71bbdb1-5e1f-4be9-a3f9-6c1bde1c3584"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Peripheral Infusion </title>
+                     <text>
+                        <paragraph>15% CLINISOL - sulfite-free (Amino Acid) Injection Pharmacy Bulk Package, when diluted to an appropriate osmolarity level (718 mOsmol/L) can also be administered by a peripheral vein when use of a central venous catheter is contraindicated.</paragraph>
+                     </text>
+                     <effectiveTime value="20180601"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="i4i_indications_id_inv-61bf0aa0-80e2-4158-8e00-3a378da8a9dc">
+               <id root="0777f372-a30a-4346-afd1-8fd4cf4a28bd"/>
+               <code code="34067-9" codeSystem="2.16.840.1.113883.6.1" displayName="INDICATIONS &amp; USAGE SECTION"/>
+               <title>INDICATIONS AND USAGE</title>
+               <text>
+                  <paragraph>15% CLINISOL - sulfite-free (Amino Acid) Injection Pharmacy Bulk Package is indicated as an adjunct in the offsetting of nitrogen loss or in the treatment of negative nitrogen balance in patients where: (1) the alimentary tract cannot or should not be used, (2) gastrointestinal absorption of protein is impaired, or (3) metabolic requirements for protein are substantially increased, as with extensive burns.</paragraph>
+               </text>
+               <effectiveTime value="20061115"/>
+            </section>
+         </component>
+         <component>
+            <section ID="i4i_contraindications_id_inv-9d707320-a524-4cd4-89c7-9038c8bc91dd">
+               <id root="609fe33a-47ae-4b91-bc76-af1dc5384eb3"/>
+               <code code="34070-3" codeSystem="2.16.840.1.113883.6.1" displayName="CONTRAINDICATIONS SECTION"/>
+               <title>CONTRAINDICATIONS</title>
+               <text>
+                  <paragraph>Hypersensitivity to one or more amino acids</paragraph>
+                  <paragraph>Severe liver disease or hepatic coma</paragraph>
+                  <paragraph>Anuria</paragraph>
+                  <paragraph>Metabolic disorders involving impaired nitrogen utilization</paragraph>
+               </text>
+               <effectiveTime value="20061115"/>
+            </section>
+         </component>
+         <component>
+            <section ID="i4i_warnings_id_inv-632db433-72c6-4657-9d07-3167a5de8577">
+               <id root="9fb5ac7e-7f97-4c75-a047-44af0b89ac33"/>
+               <code code="34071-1" codeSystem="2.16.840.1.113883.6.1" displayName="WARNINGS SECTION"/>
+               <title>WARNINGS</title>
+               <text>
+                  <paragraph>Additives may be incompatible. Consult with pharmacist, if available. When introducing additives, use aseptic techniques. Mix thoroughly. Do not store. Because of the potential for life-threatening events, caution should be taken to ensure that precipitates have not formed in any parenteral nutrient admixture.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">This injection is for compounding only, not for direct infusion.</content>
+                  </paragraph>
+                  <paragraph>Once container closure has been penetrated, withdrawal of contents should be completed within 4 hours. After initial entry, maintain contents at room temperature (25ºC/77ºF).</paragraph>
+                  <paragraph>Any admixture storage should be under refrigeration and limited to a brief period of time, preferably less than 24 hours.</paragraph>
+                  <paragraph>Administration of amino acid solutions at excessive rates or to patients with hepatic insufficiency may result in plasma amino acid imbalances, hyperammonemia, prerenal azotemia, stupor and coma. Conservative doses of amino acids should be given to these patients, dictated by the nutritional status of the patient. Should symptoms of hyperammonemia develop, amino acid administration should be discontinued and the patient's clinical status reevaluated.</paragraph>
+                  <paragraph>WARNING: This product contains aluminum that may be toxic. Aluminum may reach toxic levels with prolonged parenteral administration if kidney function is impaired. Premature neonates are particularly at risk because their kidneys are immature, and they require large amounts of calcium and phosphate solutions, which contain aluminum.</paragraph>
+                  <paragraph>Research indicates that patients with impaired kidney function, including premature neonates, who receive parenteral levels of aluminum at greater than 4 to 5 μg/kg/day accumulate aluminum at levels associated with central nervous system and bone toxicity. Tissue loading may occur at even lower rates of administration.</paragraph>
+               </text>
+               <effectiveTime value="20061115"/>
+            </section>
+         </component>
+         <component>
+            <section ID="i4i_precautions_id_inv-324b7534-0a20-44f2-989a-a99aa3913a6c">
+               <id root="f98aec12-963f-43c6-9ef2-5ed52f798b7b"/>
+               <code code="42232-9" codeSystem="2.16.840.1.113883.6.1" displayName="PRECAUTIONS SECTION"/>
+               <title>PRECAUTIONS</title>
+               <effectiveTime value="20180601"/>
+               <component>
+                  <section ID="ID_AFCC79A3-39C5-4987-A44F-1386BA78B767">
+                     <id root="5b8c7f1a-662c-41ce-aa24-986cdd1a9534"/>
+                     <code code="34072-9" codeSystem="2.16.840.1.113883.6.1" displayName="GENERAL PRECAUTIONS SECTION"/>
+                     <title>General</title>
+                     <text>
+                        <paragraph>In order for parenterally administered amino acids to be retained by the body and utilized for protein synthesis adequate calories must be administered concurrently.</paragraph>
+                        <paragraph>The administration of 15% CLINISOL - sulfite-free (Amino Acid) Injection Pharmacy Bulk Package as part of total parenteral nutrition (TPN) with large volumes of hyperosmotic fluids requires periodic monitoring of the patient for signs of hyperosmolarity, hyperglycemia, glycosuria and hypertriglyceridemia.</paragraph>
+                        <paragraph>During parenteral nutrition with concentrated dextrose and amino acid solutions, essential fatty acid deficiency syndrome may develop but may not be clinically apparent. Early demonstration of this condition can only be accomplished by analysis of plasma lipids. The syndrome may be prevented or corrected by appropriate treatment with intravenous fat emulsions.</paragraph>
+                        <paragraph>For complete nutritional support, TPN regimens must also include multiple vitamins and trace elements. Potentially incompatible ions such as calcium and phosphate may be added to alternate infusate containers to avoid precipitation.</paragraph>
+                        <paragraph>Initiation and termination of infusions of TPN fluids must be gradual to permit adjustment of endogenous insulin release.</paragraph>
+                        <paragraph>Caution should be exercised against volume overload.</paragraph>
+                        <paragraph>Do not administer unless solution is clear.</paragraph>
+                        <paragraph>TPN delivered through a central or large peripheral vein is a special technique requiring a team effort by physician, nurse and pharmacist. The responsibility for administering this therapy should be confined to those trained in the procedures and alert to signs of complications. Complications known to occur from the placement of central venous catheters include sepsis and vein irritation due to hypertonicity of the infused solution. The risk of sepsis is present during intravenous therapy, especially when using central venous catheters for prolonged periods. It is imperative that the preparation of admixtures and the placement and care of the catheters be accomplished under controlled aseptic conditions. <content styleCode="bold">It is essential that a carefully prepared protocol, based on current medical practices be followed.</content>
+                        </paragraph>
+                        <paragraph>Drug product contains no more than 25 μg/L of aluminum.</paragraph>
+                     </text>
+                     <effectiveTime value="20180601"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID_499C160E-103F-4621-A78D-1ADF5952EB37">
+                     <id root="69d966bc-19e5-4a2c-87dc-97cf9315b586"/>
+                     <code code="34075-2" codeSystem="2.16.840.1.113883.6.1" displayName="LABORATORY TESTS SECTION"/>
+                     <title>Laboratory Tests</title>
+                     <text>
+                        <paragraph>
+                           <content styleCode="bold">Frequent clinical evaluations and laboratory determinations are necessary for proper monitoring during administration.</content>
+                        </paragraph>
+                        <paragraph>Laboratory tests should include blood glucose, serum electrolytes, liver and renal function, serum osmolarity, blood ammonia, serum protein, pH, hematocrit, and WBC. When 15% CLINISOL - sulfite-free (Amino Acid) Injection Pharmacy Bulk Package is combined with electrolytes, care should be used in administering this solution to patients with congestive heart failure, renal failure, edema, adrenal hyperactivity, acid base imbalance and those receiving diuretics or antihypertensive therapy. Serum electrolytes should be monitored daily.</paragraph>
+                     </text>
+                     <effectiveTime value="20180601"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID_A2D8CE20-A027-4848-906C-238B19E6BCA3">
+                     <id root="19a5e365-0bbd-4ca0-8c58-95efd053f77b"/>
+                     <code code="34083-6" codeSystem="2.16.840.1.113883.6.1" displayName="CARCINOGENESIS &amp; MUTAGENESIS &amp; IMPAIRMENT OF FERTILITY SECTION"/>
+                     <title>Carcinogenesis, Mutagenesis, Impairment of Fertility:</title>
+                     <text>
+                        <paragraph>Long term animal studies with 15% CLINISOL - sulfite-free (Amino Acid) Injection Pharmacy Bulk Package have not been performed to evaluate the carcinogenic potential, mutagenic potential or effects on fertility.</paragraph>
+                     </text>
+                     <effectiveTime value="20180601"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID_B795774B-0307-4F3E-A68A-215DF41AFFDC">
+                     <id root="90c6cd50-9fd2-4057-9e76-1b94d441011a"/>
+                     <code code="42228-7" codeSystem="2.16.840.1.113883.6.1" displayName="PREGNANCY SECTION"/>
+                     <title>Pregnancy:</title>
+                     <effectiveTime value="20180601"/>
+                     <component>
+                        <section ID="ID_A0A49230-AB88-4DA1-B51C-D6E3AADE70E1">
+                           <id root="30c18d8b-1558-4c60-adee-b34cb2f717ce"/>
+                           <code code="34077-8" codeSystem="2.16.840.1.113883.6.1" displayName="TERATOGENIC EFFECTS SECTION"/>
+                           <title>Teratogenic Effects </title>
+                           <text>
+                              <paragraph>Animal reproduction studies have not been conducted with 15% CLINISOL - sulfite-free (Amino Acid) Injection Pharmacy Bulk Package. It is also not known whether 15% CLINISOL - sulfite-free (Amino Acid) Injection Pharmacy Bulk Package can cause fetal harm when administered to a pregnant woman or can affect reproduction capacity. 15% CLINISOL - sulfite-free (Amino Acid) Injection Pharmacy Bulk Package should be given to a pregnant woman only if clearly needed.</paragraph>
+                           </text>
+                           <effectiveTime value="20180601"/>
+                        </section>
+                     </component>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID_01D0648B-8204-4BEE-BF74-7F1152B76697">
+                     <id root="3fc3a8d0-3835-45df-9549-a6ee98b94d43"/>
+                     <code code="34080-2" codeSystem="2.16.840.1.113883.6.1" displayName="NURSING MOTHERS SECTION"/>
+                     <title>Nursing Mothers:</title>
+                     <text>
+                        <paragraph>Caution should be exercised when 15% CLINISOL - sulfite-free (Amino Acid) Injection Pharmacy Bulk Package is administered to a nursing woman.</paragraph>
+                     </text>
+                     <effectiveTime value="20180601"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID_49B42E4F-D74A-4785-9C3A-C2EF1E1B5ABD">
+                     <id root="f41de341-6466-4396-a91a-914860e6a3a9"/>
+                     <code code="34081-0" codeSystem="2.16.840.1.113883.6.1" displayName="PEDIATRIC USE SECTION"/>
+                     <title>Pediatric Use:</title>
+                     <text>
+                        <paragraph>Safety and effectiveness of 15% CLINISOL - sulfite-free (Amino Acid) Injection in pediatric patients have not been established by adequate and well-controlled studies. However, the use of amino acid injections in pediatric patients as an adjunct in the offsetting of nitrogen loss or in the treatment of negative nitrogen balance is referenced in the medical literature. See <linkHtml href="#_Refi4i_dosage_admin_id_inv-9e34f5d8-f25">Dosage and Administration</linkHtml>.</paragraph>
+                     </text>
+                     <effectiveTime value="20180601"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="i4i_adverse_effects_id_inv-a986ca98-05b3-4db8-90ac-7b662e99f31c">
+               <id root="13607ba3-6114-40b8-aefa-5a0dda6e1975"/>
+               <code code="34084-4" codeSystem="2.16.840.1.113883.6.1" displayName="ADVERSE REACTIONS SECTION"/>
+               <title>ADVERSE REACTIONS</title>
+               <text>
+                  <paragraph>Local reactions consisting of a warm sensation, erythema, phlebitis and thrombosis at the infusion site have occurred with peripheral intravenous infusion of amino acids. In such cases the infusion site should be changed promptly to another vein. Generalized flushing, fever and nausea also have been reported during peripheral infusions of amino acid solutions.</paragraph>
+                  <paragraph>The following metabolic complications have been reported with administration of TPN: metabolic acidosis and alkalosis, hypophosphatemia, hypocalcemia, osteoporosis, glycosuria, hyperglycemia, hyperosmolar nonketotic states and dehydration, rebound hypoglycemia, osmotic diuresis and dehydration, elevated liver enzymes, hypo- and hypervitaminosis, electrolyte imbalances, hyperammonemia, coma and death.</paragraph>
+                  <paragraph>Sepsis has been reported following intravenous therapy, especially when using central venous catheters for prolonged periods.</paragraph>
+                  <paragraph>Complications known to occur from the placement of central venous catheters are pneumothorax, hemothorax, hydrothorax, artery puncture and transection injury to the brachial plexus, malposition of the catheter, formation of arteriovenous fistula, phlebitis, thrombosis and air and catheter emboli.</paragraph>
+               </text>
+               <effectiveTime value="20070301"/>
+            </section>
+         </component>
+         <component>
+            <section ID="i4i_dosage_admin_id_inv-9e34f5d8-f251-4d08-ab3f-af9e25757817">
+               <id root="ceb1fe46-61ed-4943-97a2-73473ff7f903"/>
+               <code code="34068-7" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE &amp; ADMINISTRATION SECTION"/>
+               <title>DOSAGE AND ADMINISTRATION</title>
+               <text>
+                  <paragraph>Doses which achieve nitrogen equilibrium or positive balance are the most desirable. The dosage on the first day should be approximately half the anticipated optimal dosage and should be increased gradually to minimize glycosuria; similarly, withdrawal should be accomplished gradually to avoid rebound hypoglycemia.</paragraph>
+                  <paragraph>Fat emulsion coadministration should be considered when prolonged (more than 5 days) parenteral nutrition is required in order to prevent essential fatty acid deficiency (EFAD).</paragraph>
+               </text>
+               <effectiveTime value="20180601"/>
+               <component>
+                  <section ID="ID_22F35077-DD28-4FA8-894D-B6CAB157CE1E">
+                     <id root="4c9edd47-ed9e-4ab8-8b32-55421e267d28"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Pediatric Use:</title>
+                     <text>
+                        <paragraph>Use of 15% CLINISOL - sulfite-free (Amino Acid) Injection in pediatric patients is governed by the same considerations that affect the use of any amino acid solution in pediatrics. The amount administered is dosed on the basis of grams of amino acids/kg of body weight/day. Two to three g/kg of body weight for infants with adequate calories are generally sufficient to satisfy protein needs and promote positive nitrogen balance. Solutions administered by peripheral vein should not exceed twice normal serum osmolarity (718 mOsmol/L).</paragraph>
+                        <paragraph>Parenteral drug products should be inspected visually for particulate matter and discoloration prior to administration.</paragraph>
+                        <paragraph>A slight yellow color does not alter the quality and efficacy of this product.</paragraph>
+                        <paragraph>Additives may be incompatible. Complete information is not available. Those additives known to be incompatible should not be used. Consult with pharmacist, if available. When compounding admixtures, use aseptic technique. Mix thoroughly. Do not store any unused portion of 15% CLINISOL - sulfite-free (Amino Acid) Injection Pharmacy Bulk Package.</paragraph>
+                     </text>
+                     <effectiveTime value="20180601"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID_E2B46554-9362-4368-A96B-1C4FBBEE0184">
+                     <id root="136f2ab1-58b0-49fe-a586-4c6b910a9428"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Central Vein Infusion</title>
+                     <text>
+                        <paragraph>In unstressed adult patients with no unusual nitrogen losses, a minimum dosage of 0.1 gram nitrogen (4.2 mL of 15% CLINISOL - sulfite-free (Amino Acid) Injection Pharmacy Bulk Package) plus 4.4 grams (15 calories) of dextrose/fat emulsion per kilogram of body weight per day is required to achieve nitrogen balance and weight stability. For patients stressed by surgery, trauma or sepsis, and those with unusual nitrogen losses, the dosage required for maintenance may be as high as 0.3 to 0.4 grams of nitrogen (13 to 17 mL 15% CLINISOL - sulfite-free (Amino Acid) Injection Pharmacy Bulk Package) per kilogram of body weight per day, with proportionate increases in non-protein calories. Periodic assessment of nitrogen balance of the individual patient is the best indicator of proper dosage. Use of an infusion pump is advisable to maintain a steady infusion rate during central venous infusion.</paragraph>
+                     </text>
+                     <effectiveTime value="20180601"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID_30414A9F-8F6B-44A1-8C9E-6B75F0218602">
+                     <id root="655727ff-5204-49f4-8b09-11185ce20420"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Peripheral Infusion</title>
+                     <text>
+                        <paragraph>In patients for whom central vein catheterization is not advisable, admixtures with 15% CLINISOL - sulfite-free (Amino Acid) Injection Pharmacy Bulk Package can be administered by peripheral vein. Dilution of 250 mL 15% CLINISOL - sulfite-free (Amino Acid) Injection Pharmacy Bulk Package in 750 mL of 10% dextrose will reduce the osmolarity to a level (718 mOsmol/L) which is more favorable to the maintenance of the integrity of the walls of the veins. If infused simultaneously, fat emulsion will provide a dilution effect upon the osmolarity, as well. In pediatric patients, the final solution should not exceed twice normal serum osmolarity (718 mOsmol/L).</paragraph>
+                     </text>
+                     <effectiveTime value="20180601"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="i4i_section_id_inv-728bdaf3-832d-4aa0-9b6b-09174d0d73dd">
+               <id root="d20a7f35-e98e-4635-923c-04555260b98a"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <title>DIRECTIONS FOR USE OF VIAFLEX PLASTIC PHARMACY BULK PACKAGE CONTAINER</title>
+               <text>
+                  <paragraph>Do not use if overpouch has been previously opened or damaged.</paragraph>
+               </text>
+               <effectiveTime value="20180601"/>
+               <component>
+                  <section ID="ID_16757025-7948-4FF7-B779-EBC099802C3F">
+                     <id root="244a3dfd-cd82-434f-a32c-d10fe98cdba6"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>
+                        <content styleCode="underline">To Open</content>
+                     </title>
+                     <text>
+                        <paragraph>Tear overpouch at notch and remove solution container. Visually inspect the container.  If the Admin port protector is damaged, detached, or not present, discard container as solution path sterility may be impaired.  Some opacity of the plastic may be observed and will diminish gradually. Check for minute leaks by squeezing inner bag firmly. If leaks are found, discard.</paragraph>
+                     </text>
+                     <effectiveTime value="20180601"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID_B8409A1A-37EC-4EDB-B4EC-F47D95F83114">
+                     <id root="73d6ad55-d41e-4d84-af8e-0acbf78869dd"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>
+                        <content styleCode="underline">Preparation for Admixing</content>
+                     </title>
+                     <text>
+                        <list listType="ordered">
+                           <item>
+                              <caption>1.</caption>The Pharmacy Bulk Package is to be used only in a suitable aseptic work area.</item>
+                           <item>
+                              <caption>2.</caption>Suspend container.</item>
+                           <item>
+                              <caption>3.</caption>Remove plastic protector from port.</item>
+                           <item>
+                              <caption>4.</caption>Attach a suitable sterile transfer device or dispensing set which allows measured dispensing of the contents. Refer to complete directions accompanying device.</item>
+                        </list>
+                        <paragraph>VIAFLEX containers should not be written on directly since ink migration has not been investigated. Affix accompanying label for date and time of entry.</paragraph>
+                     </text>
+                     <effectiveTime value="20180601"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="i4i_how_supplied_id_inv-74e5a6d3-14cf-4d76-8aac-1ed64accff38">
+               <id root="4ef3e399-e0ab-4a4e-9649-bfe68470a270"/>
+               <code code="34069-5" codeSystem="2.16.840.1.113883.6.1" displayName="HOW SUPPLIED SECTION"/>
+               <title>HOW SUPPLIED</title>
+               <text>
+                  <paragraph>15% CLINISOL - sulfite-free (Amino Acid) Injection Pharmacy Bulk Package is available in VIAFLEX plastic containers as follows.</paragraph>
+                  <table width="100%">
+                     <col width="34%"/>
+                     <col width="33%"/>
+                     <col width="33%"/>
+                     <tbody>
+                        <tr>
+                           <td styleCode="Toprule " valign="top">
+                              <paragraph>2B6187</paragraph>
+                           </td>
+                           <td styleCode="Toprule " valign="top">
+                              <paragraph>500 mL</paragraph>
+                           </td>
+                           <td styleCode="Toprule " valign="top">
+                              <paragraph>NDC 0338-0502-03</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Botrule " valign="top">
+                              <paragraph>2B6189</paragraph>
+                           </td>
+                           <td styleCode="Botrule " valign="top">
+                              <paragraph>2000 mL</paragraph>
+                           </td>
+                           <td styleCode="Botrule " valign="top">
+                              <paragraph>NDC 0338-0502-06</paragraph>
+                           </td>
+                        </tr>
+                     </tbody>
+                  </table>
+                  <paragraph>Exposure of pharmaceutical products to heat should be minimized. Avoid excessive heat. Protect from freezing. It is recommended the product be stored at room temperature (25ºC/77ºF).</paragraph>
+               </text>
+               <effectiveTime value="20180601"/>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_9481abaf-7f5b-4b93-917f-f3dce3a5e651">
+               <id root="144f458d-1129-4f83-9712-d8a806ec5c8c"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">Baxter Healthcare Corporation</content>
+                     <br/>Deerfield, IL 60015 USA</paragraph>
+                  <paragraph>Printed in USA</paragraph>
+                  <paragraph>Baxter, Clinisol, and Viaflex are trademarks of Baxter International Inc.</paragraph>
+                  <paragraph>07-19-00-0370</paragraph>
+                  <paragraph>Rev. June 2018</paragraph>
+               </text>
+               <effectiveTime value="20180601"/>
+            </section>
+         </component>
+         <component>
+            <section ID="i4i_Principal_display_panel_id_27642665-b3aa-4224-b901-8d8f195e6bd6">
+               <id root="f26f36fc-2c65-4866-9a61-862dae1946e8"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>PRINCIPAL DISPLAY PANEL</title>
+               <text>
+                  <renderMultiMedia ID="id747" referencedObject="id_00843b19-7ef2-4850-8e2f-80c5f0722d6c">
+                     <caption>Container Label </caption>
+                  </renderMultiMedia>
+                  <paragraph>LOT</paragraph>
+                  <paragraph>EXP</paragraph>
+                  <paragraph>2B6187<br/>NDC 0338-0502-03</paragraph>
+                  <paragraph>500mL</paragraph>
+                  <paragraph>15% CLINISOL - sulfite-free<br/>(Amino Acid) Injection</paragraph>
+                  <paragraph>15%</paragraph>
+                  <paragraph>Pharmacy Bulk Package<br/>Not For Direct Infusion</paragraph>
+                  <paragraph>Rx Only</paragraph>
+                  <paragraph>EACH 100mL CONTAINS  <content styleCode="bold">ESSENTIAL AMINO ACIDS</content>
+                     <br/>LYSINE (FROM LYSINE ACETATE) 1.18 g  LEUCINE 1.04 g<br/>PHENYLALANINE 1.04 g  VALINE 960 mg  HISTIDINE 894 mg<br/>ISOLEUCINE 749 mg  METHIONINE 749 mg  THREONINE 749 mg<br/>TRYPTOPHAN 250 mg  <content styleCode="bold">NONESSENTIAL AMINO ACIDS</content>
+                     <br/>ALANINE 2.17 g  ARGININE 1.47 g  GLYCINE 1.04 g <br/>PROLINE 894 mg  GLUTAMIC ACID 749 mg  SERINE 592 mg<br/>ASPARTIC ACID 434 mg  TYROSINE 39 mg<br/>pH ADJUSTED WITH GLACIAL ACETIC ACID  pH 6.0 (5.0 TO 7.0)</paragraph>
+                  <paragraph>ACETATE 127 mEq/L  BALANCED BY IONS FROM AMINO ACIDS<br/>HYPERTONIC  OSMOLARITY 1357 mOsmol/L (CALC)<br/>STERILE NONPYROGENIC</paragraph>
+                  <paragraph>CONTAINS NO MORE THAN 25µg/L OF ALUMINUM</paragraph>
+                  <paragraph>ADDITIVES MAY BE INCOMPATIBLE  CONSULT WITH<br/>PHARMACIST IF AVAILABLE  WHEN COMPOUNDING<br/>ADMIXTURES USE ASEPTIC TECHIQUE<br/>MIX THOROUGHLY  DO NOT STORE</paragraph>
+                  <paragraph>DOSAGE  ADMIX FOR INTRAVEOUS ADMINISTRATION AS DIRECTED<br/>BY A PHYSICIAN  SEE ACCOMPANYING DIRECTIONS FOR USE<br/>
+                     <content styleCode="bold">ONCE CONTAINER CLOSURE HAS BEEN PENETRATED WITHDRAWAL</content>
+                     <br/>
+                     <content styleCode="bold">OF CONTENTS SHOULD BE COMPLETED WITHIN 4 HOURS</content>
+                     <br/>AFFIX ACCOMPANYING LABEL FOR DATE AND TIME OF ENTRY</paragraph>
+                  <paragraph>CAUTION  DO NOT USE UNLESS SOLUTION IS CLEAR</paragraph>
+                  <paragraph>A SLIGHT YELLOW COLOR DOES NOT ALTER THE QUALITY AND EFFICACY OF <br/>THE PRODUCT</paragraph>
+                  <paragraph>Baxter<br/>BAXTER HEALTHCARE CORPORATION<br/>CLINTEC NUTRITION DIVISION<br/>DEERFIELD IL 60015 USA<br/>MADE IN THE USA</paragraph>
+                  <paragraph>VIAFLEX CONTAINER<br/>PL 146 PLASTIC</paragraph>
+                  <paragraph>BAXTER CLINISOL VIAFLEX AND<br/>PL 146 ARE TRADEMARKS OF <br/>BAXTER INTERNATIONAL INC</paragraph>
+                  <paragraph>1</paragraph>
+                  <paragraph>2</paragraph>
+                  <paragraph>3</paragraph>
+                  <paragraph>4</paragraph>
+               </text>
+               <effectiveTime value="20180601"/>
+               <component>
+                  <observationMedia ID="id_00843b19-7ef2-4850-8e2f-80c5f0722d6c">
+                     <text>Clinisol Representative Container Label NDC 0338-0502-03</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="image-01.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

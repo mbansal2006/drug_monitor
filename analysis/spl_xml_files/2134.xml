@@ -1,0 +1,1352 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="https://www.accessdata.fda.gov/spl/stylesheet/spl.xsl"?>
+<document xmlns="urn:hl7-org:v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 https://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="07f53291-419d-4d14-ad81-26f00dc0c474"/>
+   <code code="34391-3" displayName="HUMAN PRESCRIPTION DRUG LABEL" codeSystem="2.16.840.1.113883.6.1"/>
+   <title>TrophAmine<sup>® </sup>
+      <br/>(Amino Acid Injection)</title>
+   <effectiveTime value="20231127"/>
+   <setId root="cb6d23ff-3ec5-445a-acbe-f88fd57949bf"/>
+   <versionNumber value="9"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id extension="002397347" root="1.3.6.1.4.1.519.1"/>
+            <name>B. Braun Medical Inc.</name>
+            <assignedEntity>
+               <assignedOrganization/>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section>
+               <id root="55097c66-1404-4fc4-be54-bb3ac92276a6"/>
+               <code code="48780-1" displayName="SPL listing data elements section" codeSystem="2.16.840.1.113883.6.1"/>
+               <effectiveTime value="20231127"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="0264-1933" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>TrophAmine</name>
+                        <formCode code="C42986" displayName="SOLUTION" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>ISOLEUCINE, LEUCINE, LYSINE ACETATE, METHIONINE, PHENYLALANINE, THREONINE, TRYPTOPHAN, VALINE, CYSTEINE HYDROCHLORIDE, HISTIDINE, TYROSINE, N-ACETYL-TYROSINE, ALANINE, ARGININE, PROLINE, SERINE, GLYCINE, ASPARTIC ACID, GLUTAMIC ACID, and TAURINE</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator unit="g" value="0.82"/>
+                              <denominator unit="mL" value="100"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="04Y7590D77" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>ISOLEUCINE</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="04Y7590D77" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>ISOLEUCINE</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator unit="g" value="1.4"/>
+                              <denominator unit="mL" value="100"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="GMW67QNF9C" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>LEUCINE</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="GMW67QNF9C" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>LEUCINE</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="ACTIM">
+                           <quantity>
+                              <numerator unit="g" value="1.2"/>
+                              <denominator unit="mL" value="100"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="TTL6G7LIWZ" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>LYSINE ACETATE</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="K3Z4F929H6" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>LYSINE</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator unit="g" value="0.34"/>
+                              <denominator unit="mL" value="100"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="AE28F7PNPL" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>METHIONINE</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="AE28F7PNPL" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>METHIONINE</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator unit="g" value="0.48"/>
+                              <denominator unit="mL" value="100"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="47E5O17Y3R" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>PHENYLALANINE</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="47E5O17Y3R" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>PHENYLALANINE</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator unit="g" value="0.42"/>
+                              <denominator unit="mL" value="100"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="2ZD004190S" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>THREONINE</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="2ZD004190S" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>THREONINE</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator unit="g" value="0.2"/>
+                              <denominator unit="mL" value="100"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="8DUH1N11BX" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>TRYPTOPHAN</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="8DUH1N11BX" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>TRYPTOPHAN</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator unit="g" value="0.78"/>
+                              <denominator unit="mL" value="100"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="HG18B9YRS7" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>VALINE</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="HG18B9YRS7" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>VALINE</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="ACTIM">
+                           <quantity>
+                              <numerator unit="g" value="0.024"/>
+                              <denominator unit="mL" value="100"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="ZT934N0X4W" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>CYSTEINE HYDROCHLORIDE</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="K848JZ4886" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>CYSTEINE</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator unit="g" value="0.48"/>
+                              <denominator unit="mL" value="100"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="4QD397987E" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>HISTIDINE</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="4QD397987E" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>HISTIDINE</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator unit="g" value="0.044"/>
+                              <denominator unit="mL" value="100"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="42HK56048U" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>TYROSINE</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="42HK56048U" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>TYROSINE</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator unit="g" value="0.24"/>
+                              <denominator unit="mL" value="100"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="DA8G610ZO5" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>ACETYL L-TYROSINE</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="DA8G610ZO5" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>ACETYL L-TYROSINE</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator unit="g" value="0.54"/>
+                              <denominator unit="mL" value="100"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="OF5P57N2ZX" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>ALANINE</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="OF5P57N2ZX" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>ALANINE</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator unit="g" value="1.2"/>
+                              <denominator unit="mL" value="100"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="94ZLA3W45F" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>ARGININE</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="94ZLA3W45F" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>ARGININE</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator unit="g" value="0.68"/>
+                              <denominator unit="mL" value="100"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="9DLQ4CIU6V" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>PROLINE</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="9DLQ4CIU6V" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>PROLINE</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator unit="g" value="0.38"/>
+                              <denominator unit="mL" value="100"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="452VLY9402" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SERINE</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="452VLY9402" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>SERINE</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator unit="g" value="0.36"/>
+                              <denominator unit="mL" value="100"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="TE7660XO1C" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>GLYCINE</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="TE7660XO1C" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>GLYCINE</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator unit="g" value="0.32"/>
+                              <denominator unit="mL" value="100"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="30KYC7MIAI" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>ASPARTIC ACID</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="30KYC7MIAI" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>ASPARTIC ACID</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator unit="g" value="0.5"/>
+                              <denominator unit="mL" value="100"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="3KX376GY7L" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>GLUTAMIC ACID</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="3KX376GY7L" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>GLUTAMIC ACID</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator unit="g" value="0.025"/>
+                              <denominator unit="mL" value="100"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="1EQV5MLY3D" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>TAURINE</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="1EQV5MLY3D" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>TAURINE</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="059QF0KO0R" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>WATER</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="Q40Q9N063P" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>ACETIC ACID</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator unit="mL" value="500"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code/>
+                              <formCode code="C43186" displayName="CONTAINER" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator unit="1" value="12"/>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code code="0264-1933-10" codeSystem="2.16.840.1.113883.6.69"/>
+                                    <formCode code="C43184" displayName="CASE" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 </containerPackagedProduct>
+                                 <subjectOf>
+                                    <marketingAct>
+                                       <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                       <statusCode code="active"/>
+                                       <effectiveTime>
+                                          <low value="20201027"/>
+                                       </effectiveTime>
+                                    </marketingAct>
+                                 </subjectOf>
+                              </asContent>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" displayName="Type 0: Not a Combination Product" codeSystem="2.16.840.1.113883.3.26.1.1" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <id extension="NDA019018" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73594" displayName="NDA" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20201027"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38276" displayName="INTRAVENOUS" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_323660f9-a2fa-41e4-a96a-9dc6d35374ea">
+               <id root="d8b277f7-1937-4df2-b8ab-e60f9d6d67ef"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <title/>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">PHARMACY BULK PACKAGE –<br/>
+                     </content>
+                     <content styleCode="bold">NOT FOR DIRECT INFUSION</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Protect from light.</content>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20231127"/>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_2bc6d1d9-6593-48ad-9cb0-7ef576ce1012">
+               <id root="43a6f4ec-d60c-4eb1-9f76-91f69955f99e"/>
+               <code code="34089-3" codeSystem="2.16.840.1.113883.6.1" displayName="DESCRIPTION SECTION"/>
+               <title>DESCRIPTION</title>
+               <text>
+                  <paragraph>TrophAmine® (10% Amino Acid Injection) is a sterile, nonpyrogenic, hypertonic solution containing crystalline amino acids.</paragraph>
+                  <paragraph>All amino acids designated USP are the “L”-isomer with the exception of Glycine USP, which does not have an isomer.</paragraph>
+                  <paragraph>Each 100 mL contains:</paragraph>
+                  <table>
+                     <col/>
+                     <col/>
+                     <tbody>
+                        <tr>
+                           <td>
+                              <content styleCode="bold">
+                                 <content styleCode="italics">Essential Amino Acids</content>
+                              </content>
+                           </td>
+                           <td align="right"> <content styleCode="bold">10%</content>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td>Isoleucine USP</td>
+                           <td align="right">  0.82 g</td>
+                        </tr>
+                        <tr>
+                           <td>Leucine USP</td>
+                           <td align="right"> 1.4 g</td>
+                        </tr>
+                        <tr>
+                           <td>Lysine</td>
+                           <td align="right">  0.82 g</td>
+                        </tr>
+                        <tr>
+                           <td>   (added as Lysine Acetate USP</td>
+                           <td align="right">  1.2 g)</td>
+                        </tr>
+                        <tr>
+                           <td>Methionine USP</td>
+                           <td align="right"> 0.34 g</td>
+                        </tr>
+                        <tr>
+                           <td>Phenylalanine USP</td>
+                           <td align="right">  0.48 g</td>
+                        </tr>
+                        <tr>
+                           <td>Threonine USP</td>
+                           <td align="right"> 0.42 g</td>
+                        </tr>
+                        <tr>
+                           <td>Tryptophan USP</td>
+                           <td align="right"> 0.2 g</td>
+                        </tr>
+                        <tr>
+                           <td>Valine USP</td>
+                           <td align="right"> 0.78 g</td>
+                        </tr>
+                        <tr>
+                           <td>Cysteine</td>
+                           <td align="right"> &lt;0.016 g</td>
+                        </tr>
+                        <tr>
+                           <td>   (as Cysteine HCl∙H<sub>2</sub>O USP</td>
+                           <td align="center">&lt;0.024 g)</td>
+                        </tr>
+                        <tr>
+                           <td>Histidine USP<footnote ID="FOOT_21308">Holt LE, Snyderman SE: The amino acid requirements of infants. JAMA 1961; 175(2):124–127.</footnote> </td>
+                           <td align="right"> 0.48 g</td>
+                        </tr>
+                        <tr>
+                           <td>Tyrosine<footnoteRef IDREF="FOOT_21308"/> </td>
+                           <td align="right">  0.24 g</td>
+                        </tr>
+                        <tr>
+                           <td>   (added as Tyrosine USP</td>
+                           <td align="right">  0.044 g</td>
+                        </tr>
+                        <tr>
+                           <td>     and N-Acetyl-L-Tyrosine</td>
+                           <td align="right"> 0.24 g)</td>
+                        </tr>
+                        <tr>
+                           <td> </td>
+                           <td> </td>
+                        </tr>
+                        <tr>
+                           <td>
+                              <content styleCode="bold">
+                                 <content styleCode="italics">Nonessential Amino Acids</content>
+                              </content>
+                           </td>
+                           <td> </td>
+                        </tr>
+                        <tr>
+                           <td>Alanine USP </td>
+                           <td align="right"> 0.54 g</td>
+                        </tr>
+                        <tr>
+                           <td>Arginine USP</td>
+                           <td align="right"> 1.2 g</td>
+                        </tr>
+                        <tr>
+                           <td>Proline USP</td>
+                           <td align="right">   0.68 g</td>
+                        </tr>
+                        <tr>
+                           <td>Serine USP</td>
+                           <td align="right">0.38 g </td>
+                        </tr>
+                        <tr>
+                           <td>Glycine USP</td>
+                           <td align="right">0.36 g </td>
+                        </tr>
+                        <tr>
+                           <td>L-Aspartic Acid</td>
+                           <td align="right"> 0.32 g </td>
+                        </tr>
+                        <tr>
+                           <td>L-Glutamic Acid</td>
+                           <td align="right"> 0.5 g </td>
+                        </tr>
+                        <tr>
+                           <td>Taurine<footnote ID="FOOT_21309">Rigo J, Senterre J: Is taurine essential for the neonates? Biol Neonate 1977; 32:73–76.</footnote>
+                              <footnote ID="FOOT_21310">Gaull G, Sturman JA, Räihä NCR: Development of mammalian sulfur metabolism: Absence of cystothionase in human fetal tissues. Pediatr Res 1972; 6:538–547.</footnote> </td>
+                           <td align="right"> 0.025 g </td>
+                        </tr>
+                        <tr>
+                           <td>Water for Injection USP</td>
+                           <td align="right">qs </td>
+                        </tr>
+                        <tr>
+                           <td>pH adjusted with Glacial Acetic Acid USP<br/>pH: 5.5 (5.0–6.0)</td>
+                           <td align="right"> </td>
+                        </tr>
+                        <tr>
+                           <td>Calc. Osmolarity (mOsmol/liter)</td>
+                           <td align="right">866 </td>
+                        </tr>
+                        <tr>
+                           <td>Total Amino Acids (grams/liter)</td>
+                           <td align="right">100 </td>
+                        </tr>
+                        <tr>
+                           <td>Total Nitrogen (grams/liter)</td>
+                           <td align="right">15.5 </td>
+                        </tr>
+                        <tr>
+                           <td>Protein Equivalent (grams/liter)</td>
+                           <td align="right"> 97 </td>
+                        </tr>
+                        <tr>
+                           <td> </td>
+                           <td align="right"> </td>
+                        </tr>
+                        <tr>
+                           <td>
+                              <content styleCode="bold">Electrolytes (mEq/liter)</content>
+                           </td>
+                           <td align="right"> </td>
+                        </tr>
+                        <tr>
+                           <td>
+                              <footnote ID="FOOT_21311">Provided as acetic acid and lysine acetate.</footnote>Acetate (CH<sub>3</sub>COO<sup>–</sup>)</td>
+                           <td align="right">96.2 </td>
+                        </tr>
+                        <tr>
+                           <td>Chloride</td>
+                           <td align="right">&lt;3 </td>
+                        </tr>
+                     </tbody>
+                  </table>
+                  <br/>
+               </text>
+               <effectiveTime value="20231127"/>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_9374f531-3df6-4d69-b963-d392d65db3bc">
+               <id root="917e1545-2284-421b-8587-f66699120542"/>
+               <code code="34090-1" codeSystem="2.16.840.1.113883.6.1" displayName="CLINICAL PHARMACOLOGY SECTION"/>
+               <title>CLINICAL PHARMACOLOGY</title>
+               <text>
+                  <paragraph>TrophAmine® provides a mixture of essential and nonessential amino acids as well as taurine and a soluble form of tyrosine, N-Acetyl-L-Tyrosine (NAT). This amino acid composition has been specifically formulated to provide a well tolerated nitrogen source for nutritional support and therapy for infants and young pediatric patients. When administered in conjunction with cysteine hydrochloride, TrophAmine® results in the normalization of the plasma amino acid concentrations to a profile consistent with that of a breast-fed infant.</paragraph>
+                  <paragraph>The rationale for TrophAmine® (Amino Acid Injection) is based on the observation of inadequate levels of essential amino acids in the plasma of infants receiving total parenteral nutrition (TPN) using conventional amino acid solutions. The TrophAmine® formula was developed through the application of specific pharmacokinetic multiple regression analysis relating amino acid intake to the resulting plasma amino acid concentrations.</paragraph>
+                  <paragraph>Clinical studies in infants and young pediatric patients who required TPN therapy showed that infusion of TrophAmine® with a cysteine hydrochloride admixture resulted in a normalization of the plasma amino acid concentrations. In addition, weight gains, nitrogen balance, and serum protein concentrations were consistent with an improving nutritional status.</paragraph>
+                  <paragraph>When infused with hypertonic dextrose as a calorie source, supplemented with cysteine hydrochloride, electrolytes, vitamins, and minerals, TrophAmine® provides total parenteral nutrition in infants and young pediatric patients, with the exception of essential fatty acids.</paragraph>
+                  <paragraph>It is thought that the acetate from lysine acetate and acetic acid, under the conditions of parenteral nutrition, does not impact net acid-base balance when renal and respiratory functions are normal. Clinical evidence seems to support this thinking; however, confirmatory experimental evidence is not available.</paragraph>
+                  <paragraph>The amount of chloride present in TrophAmine® is not of clinical significance.</paragraph>
+                  <paragraph>The addition of cysteine hydrochloride will contribute to the chloride load.</paragraph>
+                  <paragraph>The electrolyte content of any additives that are introduced should be carefully considered and included in total input computations.</paragraph>
+               </text>
+               <effectiveTime value="20231127"/>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_5f1519e7-c182-4c74-a1a4-5b7ddf37214a">
+               <id root="b626f643-1bc6-459d-8275-4bce8c8134d8"/>
+               <code code="34067-9" codeSystem="2.16.840.1.113883.6.1" displayName="INDICATIONS &amp; USAGE SECTION"/>
+               <title>INDICATIONS AND USAGE</title>
+               <text>
+                  <paragraph>TrophAmine® is indicated for the nutritional support of infants (including those of low birth weight) and young pediatric patients requiring TPN via either central or peripheral infusion routes. Parenteral nutrition with TrophAmine® is indicated to prevent nitrogen and weight loss or treat negative nitrogen balance in infants and young pediatric patients where (1) the alimentary tract, by the oral, gastrostomy, or jejunostomy route, cannot or should not be used, or adequate protein intake is not feasible by these routes; (2) gastrointestinal absorption of protein is impaired; or (3) protein requirements are substantially increased as with extensive burns. Dosage, route of administration, and concomitant infusion of non-protein calories are dependent on various factors, such as nutritional and metabolic status of the patient, anticipated duration of parenteral nutritional support, and vein tolerance. See <content styleCode="bold">
+                        <linkHtml href="#LINK_9f9d6656-0f82-444a-8659-2bae12d22db1">WARNINGS</linkHtml>
+                     </content>
+                     <content styleCode="bold">, <linkHtml href="#LINK_f4c769cd-f4aa-4e4a-b995-8a5052b3d479">PRECAUTIONS</linkHtml>, <content styleCode="italics">
+                           <content styleCode="italics">
+                              <linkHtml href="#LINK_e13fd5f2-9cdc-4f4c-b06d-595d2b7cc45f">Pediatric Use</linkHtml>
+                           </content>
+                        </content>, AND <linkHtml href="#LINK_d5d38f43-be9f-46f3-83b0-abeb81edb596">DOSAGE AND ADMINISTRATION</linkHtml>
+                     </content>.</paragraph>
+               </text>
+               <effectiveTime value="20231127"/>
+               <component>
+                  <section ID="LINK_3bad347c-00f0-408c-a4da-1a5a0e801714">
+                     <id root="f8dadad1-2022-429b-9913-5a29cf19b0cf"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Central Venous Nutrition</title>
+                     <text>
+                        <paragraph>Central venous infusion should be considered when amino acid solutions are to be admixed with hypertonic dextrose to promote protein synthesis in hypercatabolic or severely depleted infants, or those requiring long-term parenteral nutrition.</paragraph>
+                     </text>
+                     <effectiveTime value="20231127"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_5cdbb3f0-c410-4932-9174-beec907ce4f1">
+                     <id root="4876fc19-b62b-4beb-8046-73d617cad043"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Peripheral Parenteral Nutrition</title>
+                     <text>
+                        <paragraph>For moderately catabolic or depleted patients in whom the central venous route is not indicated, diluted amino acid solutions mixed with 5-10% dextrose solutions may be infused by peripheral vein, supplemented, if desired, with fat emulsion. In pediatric patients, the final solution should not exceed twice normal serum osmolarity (718 mOsmol/L).</paragraph>
+                     </text>
+                     <effectiveTime value="20231127"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_b6026e91-c715-4537-bc59-d81aaa80129f">
+               <id root="7dc3bb47-677f-4a63-9c3f-145f0f40c5a0"/>
+               <code code="34070-3" codeSystem="2.16.840.1.113883.6.1" displayName="CONTRAINDICATIONS SECTION"/>
+               <title>CONTRAINDICATIONS</title>
+               <text>
+                  <paragraph>TrophAmine® is contraindicated in patients with untreated anuria, hepatic coma, inborn errors of amino acid metabolism, including those involving branched chain amino acid metabolism such as maple syrup urine disease and isovaleric acidemia, or hypersensitivity to one or more amino acids present in the solution.</paragraph>
+               </text>
+               <effectiveTime value="20231127"/>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_9f9d6656-0f82-444a-8659-2bae12d22db1">
+               <id root="7a7fa687-0299-459f-b96a-e86f6380837c"/>
+               <code code="34071-1" codeSystem="2.16.840.1.113883.6.1" displayName="WARNINGS SECTION"/>
+               <title>WARNINGS</title>
+               <text>
+                  <paragraph>Safe, effective use of parenteral nutrition requires a knowledge of nutrition as well as clinical expertise in recognition and treatment of the complications which can occur. <content styleCode="bold">Frequent clinical evaluation and laboratory determinations are necessary for proper monitoring of parenteral nutrition.</content> Studies should include blood sugar, serum proteins, kidney and liver function tests, electrolytes, hemogram, carbon dioxide content, serum osmolalities, blood cultures, and blood ammonia levels.</paragraph>
+                  <paragraph>WARNING: This product contains aluminum that may be toxic. Aluminum may reach toxic levels with prolonged parenteral administration if kidney function is impaired. Premature neonates are particularly at risk because their kidneys are immature, and they require large amounts of calcium and phosphate solutions, which contain aluminum.</paragraph>
+                  <paragraph>Research indicates that patients with impaired kidney function, including premature neonates, who receive parenteral levels of aluminum at greater than 4 to 5 mcg/kg/day accumulate aluminum at levels associated with central nervous system and bone toxicity. Tissue loading may occur at even lower rates of administration.</paragraph>
+                  <paragraph>Administration of amino acids in the presence of impaired renal function or gastrointestinal bleeding may augment an already elevated blood urea nitrogen. Patients with azotemia from any cause should not be infused with amino acids without regard to total nitrogen intake.</paragraph>
+                  <paragraph>Administration of intravenous solutions can cause fluid and/or solute overload resulting in dilution of serum electrolyte concentrations, overhydration, congested states, or pulmonary edema. The risk of dilutional states is inversely proportional to the electrolyte concentrations of the solutions. The risk of solute overload causing congested states with peripheral and pulmonary edema is directly proportional to the electrolyte concentrations of the solutions.</paragraph>
+                  <paragraph>Administration of amino acid solutions to a patient with hepatic insufficiency may result in plasma amino acid imbalances, hyperammonemia, prerenal azotemia, stupor and coma.</paragraph>
+                  <paragraph>Hyperammonemia is of <content styleCode="bold">special significance in infants</content> as its occurrence in the syndrome caused by genetic metabolic defects is sometimes associated, although not necessarily in a causal relationship, with mental retardation. This reaction appears to be dose related and is more likely to develop during prolonged therapy. It is essential that blood ammonia be measured frequently in infants. The mechanisms of this reaction are not clearly defined but may involve genetic defects and immature or subclinically impaired liver function.</paragraph>
+                  <paragraph>Conservative doses of amino acids should be given, dictated by the nutritional status of the patient. Should symptoms of hyperammonemia develop, amino acid administration should be discontinued and the patient’s clinical status reevaluated.</paragraph>
+               </text>
+               <effectiveTime value="20231127"/>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_f4c769cd-f4aa-4e4a-b995-8a5052b3d479">
+               <id root="753f8fa6-1e79-4bf6-b306-fbd42da23ba5"/>
+               <code code="42232-9" codeSystem="2.16.840.1.113883.6.1" displayName="PRECAUTIONS SECTION"/>
+               <title>PRECAUTIONS</title>
+               <text/>
+               <effectiveTime value="20231127"/>
+               <component>
+                  <section ID="LINK_7df6248b-a777-47d4-aa7d-87fc64c00fe9">
+                     <id root="d77f813b-476d-45cb-921f-a2b34ba4fa1e"/>
+                     <code code="34072-9" codeSystem="2.16.840.1.113883.6.1" displayName="GENERAL PRECAUTIONS SECTION"/>
+                     <title>General</title>
+                     <text>
+                        <paragraph>Clinical evaluation and periodic laboratory determinations are necessary to monitor changes in fluid balance, electrolyte concentrations, and acid-base balance during prolonged parenteral therapy or whenever the condition of the patient warrants such evaluation. Significant deviations from normal concentrations may require the use of additional electrolyte supplements.</paragraph>
+                        <paragraph>Strongly hypertonic nutrient solutions should be administered via an intravenous catheter placed in a central vein, preferably the superior vena cava.</paragraph>
+                        <paragraph>Care should be taken to avoid circulatory overload, particularly in patients with cardiac insufficiency.</paragraph>
+                        <paragraph>Special care must be taken when giving hypertonic dextrose to a diabetic or pre-diabetic patient. To prevent severe hyperglycemia in such patients, insulin may be required.</paragraph>
+                        <paragraph>Administration of glucose at a rate exceeding the patient’s utilization rate may lead to hyperglycemia, coma, and death.</paragraph>
+                        <paragraph>Administration of amino acids without carbohydrates may result in the accumulation of ketone bodies in the blood. Correction of this ketonemia may be achieved by the administration of carbohydrate.</paragraph>
+                        <paragraph>Peripheral administration of TrophAmine® (Amino Acid Injection) requires appropriate dilution and provision of adequate calories. Care should be taken to assure proper placement of the needle within the lumen of the vein. The venipuncture site should be inspected frequently for signs of infiltration. If venous thrombosis or phlebitis occurs, discontinue infusions or change infusion site and initiate appropriate treatment. In pediatric patients, the final solution should not exceed twice normal serum osmolarity (718 mOsmol/L).</paragraph>
+                        <paragraph>Extraordinary electrolyte losses such as may occur during protracted nasogastric suction, vomiting, diarrhea, or gastrointestinal fistula drainage may necessitate additional electrolyte supplementation.</paragraph>
+                        <paragraph>Metabolic acidosis can be prevented or readily controlled by adding a portion of the cations in the electrolyte mixture as acetate salts and in the case of hyperchloremic acidosis, by keeping the total chloride content of the infusate to a minimum. TrophAmine® (Amino Acid Injection) contains less than 3 mEq chloride per liter.</paragraph>
+                        <paragraph>TrophAmine® contains no added phosphorus. Patients, especially those with hypophosphatemia, may require the addition of phosphate. To prevent hypocalcemia, calcium supplementation should always accompany phosphate administration. To assure adequate intake, serum levels should be monitored frequently.</paragraph>
+                        <paragraph>To minimize the risk of possible incompatibilities arising from mixing this solution with other additives that may be prescribed, the final infusate should be inspected for cloudiness or precipitation immediately after mixing, prior to administration, and periodically during administration.</paragraph>
+                        <paragraph>Use only if solution is clear, the seal unbroken, and vacuum is present.</paragraph>
+                        <paragraph>Drug product contains no more than 25 mcg/L of aluminum.</paragraph>
+                     </text>
+                     <effectiveTime value="20231127"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_647500ae-2ab4-4e9d-9ddb-aa3d5cc0a634">
+                     <id root="1a8495d8-95c7-4615-9d2d-b22ba8753d5b"/>
+                     <code code="34075-2" codeSystem="2.16.840.1.113883.6.1" displayName="LABORATORY TESTS SECTION"/>
+                     <title>Laboratory Tests</title>
+                     <text>
+                        <paragraph>
+                           <content styleCode="bold">Frequent clinical evaluation and laboratory determinations are necessary for proper monitoring during administration.</content>
+                        </paragraph>
+                        <paragraph>Laboratory tests should include measurement of blood sugar, electrolyte, and serum protein concentrations; kidney and liver function tests; and evaluation of acid-base balance and fluid balance. Other laboratory tests may be suggested by the patient’s condition.</paragraph>
+                     </text>
+                     <effectiveTime value="20231127"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_bdc11c29-b86f-4753-861a-20b30ac20f09">
+                     <id root="9f23928a-4519-432c-a52d-a7abb645eac1"/>
+                     <code code="34073-7" codeSystem="2.16.840.1.113883.6.1" displayName="DRUG INTERACTIONS SECTION"/>
+                     <title>Drug Interactions</title>
+                     <text>
+                        <paragraph>Some additives may be incompatible. Consult with pharmacist. When introducing additives, use aseptic techniques. Mix thoroughly. Do not store.</paragraph>
+                     </text>
+                     <effectiveTime value="20231127"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_c2a41224-cbcb-4de6-84bb-9594a565bb7c">
+                     <id root="fc306c11-0690-4695-9ee3-6b0fbe1fc60c"/>
+                     <code code="34083-6" codeSystem="2.16.840.1.113883.6.1" displayName="CARCINOGENESIS &amp; MUTAGENESIS &amp; IMPAIRMENT OF FERTILITY SECTION"/>
+                     <title>Carcinogenesis, Mutagenesis, Impairment of Fertility</title>
+                     <text>
+                        <paragraph>No <content styleCode="italics">in vitro</content> or <content styleCode="italics">in vivo</content> carcinogenesis, mutagenesis, or fertility studies have been conducted with TrophAmine®.</paragraph>
+                     </text>
+                     <effectiveTime value="20231127"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_5d59d05b-f652-4c43-a118-a4b7e3658615">
+                     <id root="911debc8-8592-4d6d-a856-497136b0e3f8"/>
+                     <code code="42228-7" codeSystem="2.16.840.1.113883.6.1" displayName="PREGNANCY SECTION"/>
+                     <title>Pregnancy</title>
+                     <text/>
+                     <effectiveTime value="20231127"/>
+                     <component>
+                        <section ID="LINK_e0345f3d-3783-4605-8350-db58a2332172">
+                           <id root="fe33a035-c444-4143-907b-4f337fc04305"/>
+                           <code code="34077-8" codeSystem="2.16.840.1.113883.6.1" displayName="TERATOGENIC EFFECTS SECTION"/>
+                           <title>Teratogenic Effects</title>
+                           <text>
+                              <paragraph>Animal reproduction studies have not been conducted with TrophAmine® (Amino Acid Injection). It is also not known whether TrophAmine® can cause fetal harm when administered to a pregnant woman or can affect reproduction capacity. TrophAmine® should be given to a pregnant woman only if clearly needed.</paragraph>
+                           </text>
+                           <effectiveTime value="20231127"/>
+                        </section>
+                     </component>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_e2694d37-7ccf-4d76-bd3d-c04670a4a8b3">
+                     <id root="e355d14c-500c-4d66-8dd9-03bba4f2d8d4"/>
+                     <code code="34079-4" codeSystem="2.16.840.1.113883.6.1" displayName="LABOR &amp; DELIVERY SECTION"/>
+                     <title>Labor and Delivery</title>
+                     <text>
+                        <paragraph>Information is unknown.</paragraph>
+                     </text>
+                     <effectiveTime value="20231127"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_08e5f55a-411f-4cbd-97cd-a397285103d1">
+                     <id root="009495b2-b6d5-4ca7-b928-98b3b2e3dffc"/>
+                     <code code="34080-2" codeSystem="2.16.840.1.113883.6.1" displayName="NURSING MOTHERS SECTION"/>
+                     <title>Nursing Mothers</title>
+                     <text>
+                        <paragraph>It is not known whether this drug is excreted in human milk. Because many drugs are excreted in human milk, caution should be exercised with TrophAmine® if administered to a nursing woman.</paragraph>
+                     </text>
+                     <effectiveTime value="20231127"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_e13fd5f2-9cdc-4f4c-b06d-595d2b7cc45f">
+                     <id root="a939a917-e657-4826-b2fc-ba6c9ce02539"/>
+                     <code code="34081-0" codeSystem="2.16.840.1.113883.6.1" displayName="PEDIATRIC USE SECTION"/>
+                     <title>Pediatric Use</title>
+                     <text>
+                        <paragraph>As in all cases of fluid and electrolyte replacement and parenteral nutrition, careful monitoring and special caution is required in pediatric use, especially in pediatric patients with renal failure, acute sepsis, or low birth weight.</paragraph>
+                        <paragraph>The total volume of nutritional fluid and the rate of administration in each patient will be based on individually calculated maintenance and/or replacement fluid requirements, and nutritional needs, and will vary with the child’s age, body weight and renal function.</paragraph>
+                        <paragraph>In neonates and very small infants, particularly careful monitoring will be required to maintain fluid and electrolyte balance, including monitoring of blood glucose.</paragraph>
+                        <paragraph>See <content styleCode="bold">
+                              <content styleCode="bold">
+                                 <linkHtml href="#LINK_5f1519e7-c182-4c74-a1a4-5b7ddf37214a">INDICATIONS AND USAGE</linkHtml>
+                              </content>, <linkHtml href="#LINK_9f9d6656-0f82-444a-8659-2bae12d22db1">WARNINGS</linkHtml>,</content> and <content styleCode="bold">
+                              <content styleCode="bold">
+                                 <linkHtml href="#LINK_d5d38f43-be9f-46f3-83b0-abeb81edb596">DOSAGE AND ADMINISTRATION</linkHtml>
+                              </content>.</content>
+                        </paragraph>
+                     </text>
+                     <effectiveTime value="20231127"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_d2d040ee-3e1d-4cfb-a9d3-51642737ceea">
+                     <id root="f77d5a10-dc0e-4e94-ad79-aecfd15d61ce"/>
+                     <code code="34082-8" codeSystem="2.16.840.1.113883.6.1" displayName="GERIATRIC USE SECTION"/>
+                     <title>Geriatric Use</title>
+                     <text>
+                        <paragraph>TrophAmine® has not been studied in geriatric patients. Elderly patients are known to be more prone to fluid overload and electrolyte imbalance than younger patients. This may be related to impairment of renal function which is more frequent in an elderly population. As a result the need for careful monitoring of fluid and electrolyte therapy is greater in the elderly.</paragraph>
+                        <paragraph>All patients, including the elderly, require an individual dose of all parenteral nutrition products to be determined by the physician on an individual case-by-case basis, which will be based on body weight, clinical condition and the results of laboratory monitoring tests. There is no specific geriatric dose.</paragraph>
+                        <paragraph>See <content styleCode="bold">
+                              <content styleCode="bold">
+                                 <linkHtml href="#LINK_9f9d6656-0f82-444a-8659-2bae12d22db1">WARNINGS</linkHtml>
+                              </content>.</content>
+                        </paragraph>
+                     </text>
+                     <effectiveTime value="20231127"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_50c4d318-e5ba-4628-b38f-817681b050ba">
+                     <id root="cd0b691b-d0e4-4023-849a-ff554670c102"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>
+                        <content styleCode="italics">Special Precautions for Central Venous Nutrition</content>
+                     </title>
+                     <text>
+                        <paragraph>
+                           <content styleCode="bold">Administration by central venous catheter should be used only by those familiar with this technique and its complications.</content>
+                        </paragraph>
+                        <paragraph>Central venous nutrition may be associated with complications which can be prevented or minimized by careful attention to all aspects of the procedure, including solution preparation, administration, and patient monitoring. <content styleCode="bold">It is essential that a carefully prepared protocol, based on current medical practices, be followed, preferably by an experienced team.</content>
+                        </paragraph>
+                        <paragraph>Although a detailed discussion of the complications is beyond the scope of this insert, the following summary lists those based on current literature:</paragraph>
+                        <paragraph>
+                           <content styleCode="bold">
+                              <content styleCode="italics">Technical. </content>
+                           </content>The placement of a central venous catheter should be regarded as a surgical procedure. One should be fully acquainted with various techniques of catheter insertion as well as recognition and treatment of complications. For details of techniques and placement sites, consult the medical literature. X-ray is the best means of verifying catheter placement. Complications known to occur from the placement of central venous catheters are pneumothorax, hemothorax, hydrothorax, artery puncture and transection, injury to the brachial plexus, malposition of the catheter, formation of arteriovenous fistula, phlebitis, thrombosis, and air and catheter embolus.</paragraph>
+                        <paragraph>
+                           <content styleCode="bold">
+                              <content styleCode="italics">Septic. </content>
+                           </content>The constant risk of sepsis is present during central venous nutrition. Since contaminated solutions and infusion catheters are potential sources of infection, it is imperative that the preparation of parenteral nutrition solutions and the placement and care of catheters be accomplished under controlled aseptic conditions.</paragraph>
+                        <paragraph>Solutions should ideally be prepared in the hospital pharmacy in a laminar flow hood. The key factor in their preparation is careful aseptic technique to avoid inadvertent touch contamination during mixing of solutions and subsequent admixtures.</paragraph>
+                        <paragraph>Parenteral nutrition solutions should be used promptly after mixing. Any storage should be under refrigeration for as brief a time as possible. Administration time for a TPN solution should not exceed 24 hours.</paragraph>
+                        <paragraph>Consult the medical literature for a discussion of the management of sepsis during central venous nutrition. In brief, typical management includes replacing the solution being administered with a fresh container and set, and the remaining contents are cultured for bacterial or fungal contamination. If sepsis persists and another source of infection is not identified, the catheter is removed, the proximal tip cultured, and a new catheter reinserted when the fever has subsided. Non-specific, prophylactic antibiotic treatment is not recommended. Clinical experience indicates that the catheter is likely to be the prime source of infection as opposed to aseptically prepared and properly stored solutions.</paragraph>
+                        <paragraph>
+                           <content styleCode="bold">
+                              <content styleCode="italics">Metabolic.</content>
+                           </content> The following metabolic complications have been reported: metabolic acidosis, hypophosphatemia, alkalosis, hyperglycemia and glycosuria, osmotic diuresis and dehydration, rebound hypoglycemia, elevated liver enzymes, hypo- and hypervitaminosis, electrolyte imbalances, and hyperammonemia in pediatric patients. Frequent clinical evaluation and laboratory determinations are necessary, especially during the first few days of venous nutrition, to prevent or minimize these complications.</paragraph>
+                     </text>
+                     <effectiveTime value="20231127"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_2066c0a8-01a8-4420-965d-d0b2877f8142">
+               <id root="c84f67d8-bb3f-4e01-b0c1-257b132982bd"/>
+               <code code="34084-4" codeSystem="2.16.840.1.113883.6.1" displayName="ADVERSE REACTIONS SECTION"/>
+               <title>ADVERSE REACTIONS</title>
+               <text>
+                  <paragraph>See “<content styleCode="bold">
+                        <content styleCode="bold">
+                           <linkHtml href="#LINK_9f9d6656-0f82-444a-8659-2bae12d22db1">WARNINGS</linkHtml>
+                        </content>
+                     </content>” and “<content styleCode="bold">
+                        <content styleCode="italics">
+                           <content styleCode="bold">
+                              <content styleCode="italics">
+                                 <linkHtml href="#LINK_50c4d318-e5ba-4628-b38f-817681b050ba">Special Precautions for Central Venous Nutrition</linkHtml>
+                              </content>
+                           </content>.</content>
+                     </content>”</paragraph>
+                  <paragraph>Reactions reported in clinical studies as a result of infusion of the parenteral fluid were water weight gain, edema, increase in BUN, and mild acidosis.</paragraph>
+                  <paragraph>Reactions which may occur because of the solution or the technique of administration include febrile response, infection at the site of injection, venous thrombosis or phlebitis extending from the site of injection, extravasation and hypervolemia.</paragraph>
+                  <paragraph>Local reaction at the infusion site, consisting of a warm sensation, erythema, phlebitis and thrombosis, have been reported with peripheral amino acid infusions, especially if other substances are also administered through the same site.</paragraph>
+                  <paragraph>If electrolyte supplementation is required during peripheral infusion, it is recommended that additives be administered throughout the day in order to avoid possible venous irritation. Irritating additive medications may require injection at another site and should not be added directly to the amino acid infusate.</paragraph>
+                  <paragraph>Symptoms may result from an excess or deficit of one or more of the ions present in the solution; therefore, frequent monitoring of electrolyte levels is essential.</paragraph>
+                  <paragraph>Phosphorus deficiency may lead to impaired tissue oxygenation and acute hemolytic anemia. Relative to calcium, excessive phosphorus intake can precipitate hypocalcemia with cramps, tetany and muscular hyperexcitability.</paragraph>
+                  <paragraph>If an adverse reaction does occur, discontinue the infusion, evaluate the patient, institute appropriate therapeutic countermeasures and save the remainder of the fluid for examination if deemed necessary.</paragraph>
+               </text>
+               <effectiveTime value="20231127"/>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_0799a010-c746-4087-8e95-8462e7eb1bb9">
+               <id root="77b41fb6-dc70-4826-9ae5-eda157e9736e"/>
+               <code code="34088-5" codeSystem="2.16.840.1.113883.6.1" displayName="OVERDOSAGE SECTION"/>
+               <title>OVERDOSAGE</title>
+               <text>
+                  <paragraph>In the event of a fluid or solute overload during parenteral therapy, reevaluate the patient’s condition, and institute appropriate corrective treatment.</paragraph>
+               </text>
+               <effectiveTime value="20231127"/>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_d5d38f43-be9f-46f3-83b0-abeb81edb596">
+               <id root="aa960d59-af85-4393-8bb1-04ffa6f34439"/>
+               <code code="34068-7" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE &amp; ADMINISTRATION SECTION"/>
+               <title>DOSAGE AND ADMINISTRATION</title>
+               <text>
+                  <paragraph>The objective of nutritional management of infants and young pediatric patients is the provision of sufficient amino acid and caloric support for protein synthesis and growth.</paragraph>
+                  <paragraph>The total daily dose of TrophAmine® (Amino Acid Injection) depends on daily protein requirements and on the patient’s metabolic and clinical response. The determination of nitrogen balance and accurate daily body weights, corrected for fluid balance, are probably the best means of assessing individual protein requirements. Dosage should also be guided by the patient’s fluid intake limits and glucose and nitrogen tolerances, as well as by metabolic and clinical response.</paragraph>
+                  <paragraph>Recommendations for allowances of protein in infant nutrition have ranged from 2 to 4 grams of protein per kilogram of body weight per day (2 to 4 g/kg/day).<footnote ID="FOOT_21307">Suskind RM: Textbook of Pediatric Nutrition, Raven Press, New York, 1981.</footnote>The recommended dosage of TrophAmine® is 2 to 2.5 grams of amino acids per kilogram of body weight per day (2 to 2.5 g/kg/day) for infants up to 10 kilograms. For infants and young pediatric patients larger than 10 kilograms, the total dosage of amino acids should include the 20 to 25 grams/day for the first 10 kg of body weight plus 1 to 1.25 g/day for each kg of body weight over 10 kilograms.</paragraph>
+                  <paragraph>Typically, TrophAmine® is admixed with 50% or 70% Dextrose Injection USP supplemented with electrolytes and vitamins and administered over a period of time not to exceed 24 hours.</paragraph>
+                  <paragraph>Total daily fluid intake should be appropriate for the patient’s age and size. A fluid dose of 125 mL per kilogram body weight per day is appropriate for most infants on TPN. Although nitrogen requirements may be higher in severely hypercatabolic or depleted patients, provision of additional nitrogen may not be possible due to fluid intake limits, nitrogen, or glucose intolerance.</paragraph>
+                  <paragraph>Cysteine is considered to be an essential amino acid in infants and young pediatric patients. An admixture of cysteine hydrochloride to the TPN solution is therefore recommended. Based on clinical studies, the recommended dosage is 1 mmole of L-cysteine hydrochloride monohydrate per kilogram of body weight per day.</paragraph>
+                  <paragraph>In many patients, provision of adequate calories in the form of hypertonic dextrose may require the administration of exogenous insulin to prevent hyperglycemia and glycosuria. To prevent rebound hypoglycemia, a solution containing 5% dextrose should be administered when hypertonic dextrose solutions are abruptly discontinued.</paragraph>
+                  <paragraph>Fat emulsion coadministration should be considered when prolonged (more than 5 days) parenteral nutrition is required in order to prevent essential fatty acid deficiency (E.F.A.D.). Serum lipids should be monitored for evidence of E.F.A.D. in patients maintained on fat free TPN.</paragraph>
+                  <paragraph>The provision of sufficient intracellular electrolytes, principally potassium, magnesium, and phosphate, is required for optimum utilization of amino acids. In addition, sufficient quantities of the major extracellular electrolytes sodium, calcium, and chloride, must be given. In patients with hyperchloremic or other metabolic acidoses, sodium and potassium may be added as the acetate salts to provide bicarbonate precursor. The electrolyte content of TrophAmine® must be considered when calculating daily electrolyte intake. Serum electrolytes, including magnesium and phosphorus, should be monitored frequently.</paragraph>
+                  <paragraph>Appropriate vitamins, minerals and trace elements should also be provided.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">
+                        <content styleCode="italics">Central Venous Nutrition.</content>
+                     </content> Hypertonic mixtures of amino acids and dextrose may be safely administered by continuous infusion through a central venous catheter with the tip located in the superior vena cava. Initial infusion rates should be slow, and gradually increased to the recommended 60-125 mL per kilogram body weight per day. If administration rate should fall behind schedule, no attempt to “catch up” to planned intake should be made. In addition to meeting protein needs, the rate of administration, particularly during the first few days of therapy, is governed by the patient’s glucose tolerance. Daily intake of amino acids and dextrose should be increased gradually to the maximum required dose as indicated by frequent determinations of glucose levels in blood and urine.</paragraph>
+                  <paragraph>Use of an infusion pump is advisable to maintain a steady infusion rate during central venous infusion.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">
+                        <content styleCode="italics">Peripheral Parenteral Nutrition. </content>
+                     </content>For patients in whom the central venous route is not indicated and who can consume adequate calories enterally, TrophAmine® (Amino Acid Injection) may be administered by peripheral vein with or without parenteral carbohydrate calories. Such infusates can be prepared by dilution with B. Braun’s Sterile Water for Injection or 5%-10% Dextrose Injection to prepare isotonic or slightly hypertonic solutions for peripheral infusion. It is essential that peripheral infusion be accompanied by adequate caloric intake. In pediatric patients, the final solution should not exceed twice normal serum osmolarity (718 mOsmol/L).</paragraph>
+                  <paragraph>Parenteral drug products should be inspected visually for particulate matter and discoloration prior to administration, whenever solution and container permit.</paragraph>
+                  <paragraph>TrophAmine® may be admixed with solutions which contain phosphate or which have been supplemented with phosphate. The presence of calcium and magnesium ions in an additive solution should be considered when phosphate is also present, in order to avoid precipitation.</paragraph>
+                  <paragraph>Care must be taken to avoid incompatible admixtures. Consult with pharmacist.</paragraph>
+               </text>
+               <effectiveTime value="20231127"/>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_03823e1c-e311-4a3c-97cc-b31129bb8ba6">
+               <id root="47ed1f62-a93a-4a8d-bd6d-8ae3be4368fc"/>
+               <code code="34069-5" codeSystem="2.16.840.1.113883.6.1" displayName="HOW SUPPLIED SECTION"/>
+               <title>HOW SUPPLIED</title>
+               <text>
+                  <paragraph>TrophAmine® pharmacy bulk package is supplied sterile and nonpyrogenic in 500 mL flexible plastic bags, packaged 12 per case.</paragraph>
+                  <table>
+                     <col/>
+                     <col/>
+                     <col/>
+                     <thead>
+                        <tr>
+                           <th align="center" styleCode=" Botrule Toprule">NDC</th>
+                           <th align="center" styleCode=" Botrule Toprule">REF</th>
+                           <th align="center" styleCode=" Botrule Toprule">
+                              <content styleCode="bold">Size</content>
+                           </th>
+                        </tr>
+                     </thead>
+                     <tbody>
+                        <tr>
+                           <td align="center" rowspan="2"> 0264-1933-10</td>
+                           <td align="center"> S9333</td>
+                           <td align="center"> 500 mL</td>
+                        </tr>
+                     </tbody>
+                  </table>
+                  <paragraph>Not made with natural rubber latex, DEHP or PVC.</paragraph>
+               </text>
+               <effectiveTime value="20231127"/>
+               <component>
+                  <section ID="LINK_765fba08-dc72-4be8-81fc-d83d23410550">
+                     <id root="2cacc27c-2908-4160-916c-072dab7a9659"/>
+                     <code code="44425-7" codeSystem="2.16.840.1.113883.6.1" displayName="STORAGE AND HANDLING SECTION"/>
+                     <title>Storage</title>
+                     <text>
+                        <paragraph>Store in the closed corrugated case; do not expose TrophAmine® and/or TrophAmine®-containing admixed parenteral nutrition (PN) solution to light. Do not remove container from overwrap until ready to use. Do not use if overwrap has been opened or damaged. Exposure of pharmaceutical products to heat should be minimized. Avoid excessive heat. It is recommended that the product be stored at 20°C to 25°C (68°F to 77°F); excursions permitted between 15°C to 30°C (59°F to 86°F). [See USP Controlled Room Temperature]. Solution that has been frozen must not be used.</paragraph>
+                     </text>
+                     <effectiveTime value="20231127"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_f57eb4fb-bb1f-40b0-9163-d3e37fd95afe">
+               <id root="6ed8fb23-8841-4ed4-93d8-d9fbb0d50afb"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <title/>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">Rx only</content>
+                  </paragraph>
+                  <paragraph>TrophAmine is a registered trademark of B. Braun Medical Inc.</paragraph>
+               </text>
+               <effectiveTime value="20231127"/>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_21598a34-0e72-41f5-ac27-3b6f5411359c">
+               <id root="d7e9ee95-0017-4ecb-b8de-669636122125"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <title>Preparation Instructions for TrophAmine®</title>
+               <text>
+                  <paragraph>Caution: TrophAmine® Pharmacy Bulk Package is intended for intravenous infusion after further dilution only.</paragraph>
+                  <paragraph>Do not expose TrophAmine® and/or TrophAmine®-containing admixed parenteral nutrition (PN) solution to light. </paragraph>
+                  <paragraph>The pharmacy bulk package is for use in a Pharmacy Admixture Service only. Use of this product is restricted to a suitable work area, such as a laminar flow hood (or an equivalent clean air compounding area).</paragraph>
+                  <paragraph>Designed for use with an unvented sterile dispensing set.</paragraph>
+                  <paragraph>Step 1: Inspect Pharmacy Bulk Package overwrap and primary bag and do not use if damaged. Inspect oxygen indicator and do not use if oxygen indicator is pink or dark pink. Use only if container and seals are intact.<br/>
+                  </paragraph>
+                  <renderMultiMedia referencedObject="MM1"/>
+                  <paragraph>Step 2: To open, tear overwrap starting from the tear notches (Figure 1). Remove TrophAmine® Pharmacy Bulk Package bag from overwrap and discard oxygen indicator, oxygen absorber and overwrap.<br/>
+                  </paragraph>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="MM2"/>
+                     <br/>Step 3: Inspect TrophAmine® Pharmacy Bulk Package bag visually (Figure 2). Parenteral drug products should be inspected visually for particulate matter and discoloration prior to administration, whenever solution and container permit. Inspect TrophAmine® for cloudiness, haze or particulate matter in good lighting. Discard the bag if any particulates or discoloration are observed.<br/>
+                  </paragraph>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="MM3"/>
+                     <br/>
+                  </paragraph>
+                  <renderMultiMedia referencedObject="MM4"/>
+                  <paragraph>Step 4:  Remove aluminum foil of set port at the bottom of the Pharmacy Bulk Package bag (Figure 3a) and attach an unvented sterile dispensing set (Figure 3b).<br/>
+                     <br/>
+                     <renderMultiMedia referencedObject="MM5"/>
+                  </paragraph>
+                  <paragraph>The set port may be penetrated only one time, utilizing a suitable sterile dispensing set which allows measured dispensing of the contents.</paragraph>
+                  <paragraph>The withdrawal of container contents should be accomplished without delay using aseptic technique. Discard container no later than 4 hours after initial closure puncture.</paragraph>
+                  <paragraph>Use of a syringe with needle is not recommended. Multiple entries increase the potential of the microbial and particulate contamination.</paragraph>
+               </text>
+               <effectiveTime value="20231127"/>
+               <component>
+                  <observationMedia ID="MM1">
+                     <text>Step 1 illustration</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="trophamine-in-clinex-1.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="MM2">
+                     <text>Step 2 Figure 1 illustration</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="trophamine-in-clinex-2.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="MM3">
+                     <text>Step 3 Figure 2 Illustration</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="trophamine-in-clinex-3.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="MM4">
+                     <text>Bag Hanger Illustration</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="trophamine-in-clinex-4.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="MM5">
+                     <text>Step 4 Figure 3a 3b Illustration</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="trophamine-in-clinex-5.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_f1f47cff-ac4e-4029-beae-707a100b5a88">
+               <id root="4a7b3df6-ae6a-47e2-af41-d89b92811d41"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <title/>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">B. Braun Medical Inc.<br/>
+                     </content>Bethlehem, PA 18018-3524 USA<content styleCode="bold">
+                        <br/>
+                     </content>1-800-227-2862<content styleCode="bold">
+                        <br/>
+                     </content>Made in Germany</paragraph>
+                  <paragraph>Revised: June 2022</paragraph>
+                  <paragraph>LD-625-2</paragraph>
+               </text>
+               <effectiveTime value="20231127"/>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_30cda1d9-8079-4edf-bbcd-d8727c677caa">
+               <id root="8731d4b3-b25e-4451-834e-7240a059dad4"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>PRINCIPAL DISPLAY PANEL - 500 mL Container Label</title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">TrophAmine®<br/>(10% Amino Acid Injection)</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">NDC 0264-1933-10</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">
+                        <content styleCode="bold">REF S9333</content>
+                     </content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">
+                        <content styleCode="bold">
+                           <content styleCode="bold">500 mL</content>
+                        </content>
+                     </content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">
+                        <content styleCode="bold">
+                           <content styleCode="bold">
+                              <content styleCode="bold">Protect from light.</content>
+                           </content>
+                        </content>
+                     </content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">For Intravenous Infusion After Dilution</content>
+                  </paragraph>
+                  <paragraph>852/12627204/0522</paragraph>
+                  <paragraph>LOT<br/>EXP:<br/>SN:</paragraph>
+                  <paragraph>Recommended Storage: Store at 20°C to 25°C (68°F to 77°F). [See USP Controlled Room Temperature]. Solution that has been frozen must not be used. Do not expose to light. See package insert for Dosage and Administration.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">PHARMACY BULK PACKAGE  -<br/>NOT FOR DIRECT INFUSION</content>
+                  </paragraph>
+                  <paragraph>Each 100 mL contains:</paragraph>
+                  <table>
+                     <col/>
+                     <col/>
+                     <tbody>
+                        <tr>
+                           <td> <content styleCode="bold">Essential Amino Acids</content>
+                           </td>
+                           <td> </td>
+                        </tr>
+                        <tr>
+                           <td> Isoleucine USP </td>
+                           <td>0.82 g </td>
+                        </tr>
+                        <tr>
+                           <td> Leucine USP </td>
+                           <td> 1.4 g</td>
+                        </tr>
+                        <tr>
+                           <td> Lysine </td>
+                           <td> 0.82 g</td>
+                        </tr>
+                        <tr>
+                           <td> (added as Lysine Acetate USP </td>
+                           <td> 1.2 g)</td>
+                        </tr>
+                        <tr>
+                           <td> Methionine USP </td>
+                           <td> 0.34 g</td>
+                        </tr>
+                        <tr>
+                           <td> Phenylalanine USP </td>
+                           <td> 0.48 g</td>
+                        </tr>
+                        <tr>
+                           <td> Threonine USP </td>
+                           <td> 0.42 g</td>
+                        </tr>
+                        <tr>
+                           <td> Tryptophan USP </td>
+                           <td> 0.2 g</td>
+                        </tr>
+                        <tr>
+                           <td> Valine USP </td>
+                           <td> 0.78 g</td>
+                        </tr>
+                        <tr>
+                           <td> Cysteine </td>
+                           <td> &lt;0.016 g</td>
+                        </tr>
+                        <tr>
+                           <td> (as Cysteine HCI•H<sub>2</sub>0 USP </td>
+                           <td> &lt;0.024 g)</td>
+                        </tr>
+                        <tr>
+                           <td> Histidine USP </td>
+                           <td> 0.48 g</td>
+                        </tr>
+                        <tr>
+                           <td> Tyrosine </td>
+                           <td> 0.24 g</td>
+                        </tr>
+                        <tr>
+                           <td> (added as Tyrosine USP </td>
+                           <td> 0.044 g</td>
+                        </tr>
+                        <tr>
+                           <td> and N-Acetyl-L-Tyrosine </td>
+                           <td> 0.24 g)</td>
+                        </tr>
+                     </tbody>
+                  </table>
+                  <paragraph>Affix accompanying label for date and time of entry</paragraph>
+                  <table>
+                     <col/>
+                     <col/>
+                     <tbody>
+                        <tr>
+                           <td>
+                              <content styleCode="bold">Nonessential Amino Acids</content>
+                           </td>
+                           <td/>
+                        </tr>
+                        <tr>
+                           <td>Alanine USP </td>
+                           <td>0.54 g</td>
+                        </tr>
+                        <tr>
+                           <td>Arginine USP</td>
+                           <td>1.2 g</td>
+                        </tr>
+                        <tr>
+                           <td>Proline USP </td>
+                           <td>0.68 g</td>
+                        </tr>
+                        <tr>
+                           <td>Serine USP </td>
+                           <td>0.38 g</td>
+                        </tr>
+                        <tr>
+                           <td>Glycine USP </td>
+                           <td>0.36 g</td>
+                        </tr>
+                        <tr>
+                           <td>L-Aspartic Acid </td>
+                           <td>0.32 g</td>
+                        </tr>
+                        <tr>
+                           <td>L-Glutamic Acid </td>
+                           <td>0.5 g</td>
+                        </tr>
+                        <tr>
+                           <td>Taurine </td>
+                           <td>0.025 g</td>
+                        </tr>
+                     </tbody>
+                  </table>
+                  <paragraph>Water for Injection USP qs<br/>pH adjusted with Glacial Acetic Acid USP<br/>pH: 5.5 (5.0-6.0)<br/>Calc. Osmolarity: 866 mOsmol/liter</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Electrolytes (mEq/liter):<br/>
+                     </content>
+                     <content styleCode="bold">Chloride &lt;3<br/>
+                     </content>
+                     <content styleCode="bold">Acetate 96.2 (see Package Insert)</content>
+                  </paragraph>
+                  <paragraph>Sterile, nonpyrogenic.<br/>Single dose container.<br/>Use only if bag and seal are undamaged and solution is clear.<br/>Do not remove container from overwrap until ready to use. </paragraph>
+                  <renderMultiMedia referencedObject="MM6"/>
+                  <paragraph>Do not use if overwrap has been opened or damaged.<br/>For intravenous infusion after dilution.<br/>Not made with natural rubber latex, DEHP or PVC.<br/>Rx only<br/>TrophAmine is a registered trademark of B. Braun Medical Inc.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">B. Braun Medical Inc.<br/>
+                     </content>Bethlehem, PA 18018-3524 USA<content styleCode="bold">
+                        <br/>
+                     </content>1-800-227-2862<content styleCode="bold">
+                        <br/>
+                     </content>Made in Germany</paragraph>
+                  <paragraph>LD-626-2 </paragraph>
+                  <renderMultiMedia referencedObject="MM7"/>
+               </text>
+               <effectiveTime value="20231127"/>
+               <component>
+                  <observationMedia ID="MM6">
+                     <text>Recycle symbol</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="trophamine-in-clinex-6.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="MM7">
+                     <text>S9333 Container Label</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="trophamine-in-clinex-7.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_14557f47-271e-4f1a-a3c8-0dd6462bb40d">
+               <id root="9447560b-dfca-4326-aa70-741ce879e7e3"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>PRINCIPAL DISPLAY PANEL - Accompanying 500 mL Bag Label</title>
+               <text>
+                  <paragraph>Date of Entry:___/____/_____</paragraph>
+                  <paragraph>Time of Entry:____________________AM/PM</paragraph>
+                  <paragraph>Discard______hours after initial entry</paragraph>
+                  <paragraph>LD-628-2</paragraph>
+                  <paragraph>852/12627207/0522</paragraph>
+                  <renderMultiMedia referencedObject="MM8"/>
+               </text>
+               <effectiveTime value="20231127"/>
+               <component>
+                  <observationMedia ID="MM8">
+                     <text>Entry Label</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="trophamine-in-clinex-8.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

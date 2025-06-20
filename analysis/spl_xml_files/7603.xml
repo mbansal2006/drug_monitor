@@ -1,0 +1,779 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="https://www.accessdata.fda.gov/spl/stylesheet/spl.xsl" type="text/xsl"?>
+<document xmlns="urn:hl7-org:v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 https://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="4fb2acb9-ec11-4cfd-b820-0e68dc8df673"/>
+   <code code="34391-3" codeSystem="2.16.840.1.113883.6.1" displayName="HUMAN PRESCRIPTION DRUG LABEL"/>
+   <title>
+      <content styleCode="bold"/>
+   </title>
+   <effectiveTime value="20211011"/>
+   <setId root="10e98cb0-31a5-4ad1-3eaa-aa4af387a42d"/>
+   <versionNumber value="24"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id extension="141588017" root="1.3.6.1.4.1.519.1"/>
+            <name>Hospira, Inc.</name>
+            <assignedEntity>
+               <assignedOrganization/>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section ID="DLDE">
+               <id root="a1886f0c-d79b-4bc9-be59-c52982107ce7"/>
+               <code code="48780-1" codeSystem="2.16.840.1.113883.6.1" displayName="SPL PRODUCT DATA ELEMENTS SECTION"/>
+               <effectiveTime value="20211011"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="0409-7100" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>Dextrose</name>
+                        <formCode code="C42945" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="INJECTION, SOLUTION"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>dextrose monohydrate</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator value="50" unit="mg"/>
+                              <denominator value="1" unit="mL"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="LX22YL083G" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>DEXTROSE MONOHYDRATE</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="5SL0G7R0OK" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>ANHYDROUS DEXTROSE</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="059QF0KO0R" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>WATER</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator value="50" unit="mL"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="0409-7100-68" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43167" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BAG"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator value="5" unit="1"/>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code/>
+                                    <formCode code="C43200" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="POUCH"/>
+                                    <asContent>
+                                       <quantity>
+                                          <numerator value="10" unit="1"/>
+                                          <denominator value="1"/>
+                                       </quantity>
+                                       <containerPackagedProduct>
+                                          <code code="0409-7100-66" codeSystem="2.16.840.1.113883.6.69"/>
+                                          <formCode code="C43184" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CASE"/>
+                                       </containerPackagedProduct>
+                                       <subjectOf>
+                                          <marketingAct>
+                                             <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                             <statusCode code="active"/>
+                                             <effectiveTime>
+                                                <low value="20050804"/>
+                                             </effectiveTime>
+                                          </marketingAct>
+                                       </subjectOf>
+                                    </asContent>
+                                 </containerPackagedProduct>
+                              </asContent>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                        <asContent>
+                           <quantity>
+                              <numerator value="100" unit="mL"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="0409-7100-69" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43167" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BAG"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator value="5" unit="1"/>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code/>
+                                    <formCode code="C43200" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="POUCH"/>
+                                    <asContent>
+                                       <quantity>
+                                          <numerator value="10" unit="1"/>
+                                          <denominator value="1"/>
+                                       </quantity>
+                                       <containerPackagedProduct>
+                                          <code code="0409-7100-67" codeSystem="2.16.840.1.113883.6.69"/>
+                                          <formCode code="C43184" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CASE"/>
+                                       </containerPackagedProduct>
+                                       <subjectOf>
+                                          <marketingAct>
+                                             <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                             <statusCode code="active"/>
+                                             <effectiveTime>
+                                                <low value="20050914"/>
+                                             </effectiveTime>
+                                          </marketingAct>
+                                       </subjectOf>
+                                    </asContent>
+                                 </containerPackagedProduct>
+                              </asContent>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                        <asContent>
+                           <quantity>
+                              <numerator value="250" unit="mL"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="0409-7100-04" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43167" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BAG"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator value="2" unit="1"/>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code/>
+                                    <formCode code="C43200" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="POUCH"/>
+                                    <asContent>
+                                       <quantity>
+                                          <numerator value="12" unit="1"/>
+                                          <denominator value="1"/>
+                                       </quantity>
+                                       <containerPackagedProduct>
+                                          <code code="0409-7100-02" codeSystem="2.16.840.1.113883.6.69"/>
+                                          <formCode code="C43184" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CASE"/>
+                                       </containerPackagedProduct>
+                                       <subjectOf>
+                                          <marketingAct>
+                                             <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                             <statusCode code="active"/>
+                                             <effectiveTime>
+                                                <low value="20050627"/>
+                                             </effectiveTime>
+                                          </marketingAct>
+                                       </subjectOf>
+                                    </asContent>
+                                 </containerPackagedProduct>
+                              </asContent>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <id extension="NDA019466" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73594" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="NDA"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20050627"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38276" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="INTRAVENOUS"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section ID="cabdb39e-147a-408f-8052-85524fda3718">
+               <id root="50630855-e6ca-4261-98ad-c94f20b3f5f2"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">5% Dextrose</content> Injection, USP</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">ADD-Vantage<sup>TM</sup> Diluent</content>
+                     <br/>
+                     <content styleCode="bold">Flexible Plastic Container                                                                                                                      </content>Rx only</paragraph>
+               </text>
+               <effectiveTime value="20211011"/>
+            </section>
+         </component>
+         <component>
+            <section ID="eb131f9c-70fb-4ff8-b92f-1f2656a6b188">
+               <id root="566200d0-37b6-4148-a962-c1956198a4e3"/>
+               <code code="34089-3" codeSystem="2.16.840.1.113883.6.1" displayName="DESCRIPTION SECTION"/>
+               <title>DESCRIPTION</title>
+               <text>
+                  <paragraph>5% Dextrose Injection, USP solution is sterile and nonpyrogenic. It is a parenteral solution containing 50 mg/mL of dextrose, hydrous in water for injection and is intended for intravenous administration after admixing with an ADD-Vantage vial, or single-dose powdered drug vials with 20 mm closure using the ADD-Vantage ADDAPTOR<sup>TM</sup>
+                     <content styleCode="bold"> (WARNING: DO NOT USE WITH CHEMOTHERAPY AGENTS)</content>.</paragraph>
+                  <paragraph>The solution contains no bacteriostat, antimicrobial agent or added buffer and is intended only as a single-dose injection. When smaller doses are required the unused portion should be discarded.</paragraph>
+                  <paragraph>The solution is slightly hypotonic (253 mOsmol/liter; calc.) in relation to the extracellular fluid (approx. 280 mOsmol/liter). The pH of the solution is 4.3 (3.2 - 6.5).</paragraph>
+                  <paragraph>The solution is a parenteral fluid and nutrient replenisher.</paragraph>
+                  <paragraph>Dextrose, USP is chemically designated D-glucose, monohydrate (C<sub>6</sub>H<sub>12</sub>O<sub>6</sub> • H<sub>2</sub>O), a hexose sugar freely soluble in water. It has the following structural formula:</paragraph>
+                  <renderMultiMedia ID="id321" referencedObject="MM10"/>
+                  <paragraph>Water for Injection, USP is chemically designated H<sub>2</sub>O.</paragraph>
+                  <paragraph>The flexible plastic container is fabricated from a specially formulated polyvinylchloride. Water can permeate from inside the container into the overwrap but not in amounts sufficient to affect the solution significantly. Solutions in contact with the plastic container may leach out certain chemical components from the plastic in very small amounts; however, biological testing was supportive of the safety of the plastic container materials. Exposure to temperatures above 25°C/77°F during transport and storage will lead to minor losses in moisture content. Higher temperatures lead to greater losses. It is unlikely that these minor losses will lead to clinically significant changes within the expiration period.</paragraph>
+               </text>
+               <effectiveTime value="20211011"/>
+               <component>
+                  <observationMedia ID="MM10">
+                     <text>structural formula dextrose</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="dextrose-01.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="d338c833-9a89-4155-a465-d91940e7db56">
+               <id root="8e6aad88-dbf6-4ec5-97b2-797f0533040d"/>
+               <code code="34090-1" codeSystem="2.16.840.1.113883.6.1" displayName="CLINICAL PHARMACOLOGY SECTION"/>
+               <title>CLINICAL PHARMACOLOGY</title>
+               <text>
+                  <paragraph>When administered intravenously, this solution provides a source of water and carbohydrate.</paragraph>
+                  <paragraph>Solutions containing carbohydrate in the form of dextrose restore blood glucose levels and provide calories. Carbohydrate in the form of dextrose may aid in minimizing liver glycogen depletion and exerts a protein-sparing action. Dextrose injected parenterally undergoes oxidation to carbon dioxide and water.</paragraph>
+                  <paragraph>Water is an essential constituent of all body tissues and accounts for approximately 70% of total body weight. Average normal adult daily requirements range from two to three liters (1.0 to 1.5 liters each for insensible water loss by perspiration and urine production).</paragraph>
+                  <paragraph>Water balance is maintained by various regulatory mechanisms. Water distribution depends primarily on the concentration of electrolytes in the body compartments and sodium (Na<sup>+</sup>) plays a major role in maintaining physiologic equilibrium.</paragraph>
+               </text>
+               <effectiveTime value="20211011"/>
+            </section>
+         </component>
+         <component>
+            <section ID="daef3c4e-b2fc-496f-aab8-5339d17c0126">
+               <id root="d6784855-c7bf-41b1-ad50-ef87cd7da8f7"/>
+               <code code="34067-9" codeSystem="2.16.840.1.113883.6.1" displayName="INDICATIONS &amp; USAGE SECTION"/>
+               <title>INDICATIONS AND USAGE</title>
+               <text>
+                  <paragraph>Intravenous solutions containing dextrose are indicated for parenteral replenishment of fluid and minimal carbohydrate calories as required by the clinical condition of the patient.</paragraph>
+                  <paragraph>In this dosage form, 5% Dextrose Injection, USP is intended to be used as a diluent for the contents of an ADD-Vantage vial, or single-dose vials with 20 mm closure using the ADD-Vantage ADDAPTOR<sup>TM</sup>.</paragraph>
+               </text>
+               <effectiveTime value="20211011"/>
+            </section>
+         </component>
+         <component>
+            <section ID="c24cc315-08cf-4be5-a072-358775508ec5">
+               <id root="b24a9a00-a5ff-4347-9ee4-e020740c1b2e"/>
+               <code code="34070-3" codeSystem="2.16.840.1.113883.6.1" displayName="CONTRAINDICATIONS SECTION"/>
+               <title>CONTRAINDICATIONS</title>
+               <text>
+                  <paragraph>Dextrose Injection without electrolytes should not be administered simultaneously with blood through the same infusion set because of the possibility that pseudoagglutination of red cells may occur.</paragraph>
+               </text>
+               <effectiveTime value="20211011"/>
+            </section>
+         </component>
+         <component>
+            <section ID="bf69ad76-5af5-4914-b132-be05be353773">
+               <id root="1b79181b-912d-4742-8063-dd6cc5a44c94"/>
+               <code code="34071-1" codeSystem="2.16.840.1.113883.6.1" displayName="WARNINGS SECTION"/>
+               <title>WARNINGS</title>
+               <text>
+                  <paragraph>Excessive administration of potassium-free solutions may result in significant hypokalemia.</paragraph>
+                  <paragraph>The intravenous administration of these solutions can cause fluid and/or solute overloading resulting in dilution of serum electrolyte concentrations, overhydration, congested states or pulmonary edema.</paragraph>
+                  <paragraph>The risk of dilutional states is inversely proportional to the electrolyte concentrations of administered parenteral solutions. The risk of solute overload causing congested states with peripheral and pulmonary edema is directly proportional to the electrolyte concentrations of such solutions.</paragraph>
+               </text>
+               <effectiveTime value="20211011"/>
+            </section>
+         </component>
+         <component>
+            <section ID="e1170c0c-1dee-42e9-8ce7-d7d2ba31ac9d">
+               <id root="197271da-4d8e-4669-9ec5-76b70359fec3"/>
+               <code code="42232-9" codeSystem="2.16.840.1.113883.6.1" displayName="PRECAUTIONS SECTION"/>
+               <title>PRECAUTIONS</title>
+               <text>
+                  <paragraph>Clinical evaluation and periodic laboratory determinations are necessary to monitor changes in fluid balance, electrolyte concentrations and acid-base balance during prolonged parenteral therapy or whenever the condition of the patient warrants such evaluation.</paragraph>
+                  <paragraph>Solutions containing dextrose should be used with caution in patients with known subclinical or overt diabetes mellitus.</paragraph>
+                  <paragraph>Do not administer unless solution is clear and container is undamaged. Discard unused portion.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Carcinogenesis, Mutagenesis, Impairment of Fertility: </content>Studies with solutions from ADD-Vantage flexible plastic containers have not been performed to evaluate carcinogenic potential, mutagenic potential or effects on fertility.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Pregnancy:</content> Animal reproduction studies have not been conducted with dextrose. It is also not known whether dextrose can cause fetal harm when administered to a pregnant woman or can affect reproduction capacity. Dextrose should only be given to a pregnant woman if clearly needed.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Nursing Mothers:</content> Caution should be exercised when solutions from ADD-Vantage flexible containers are administered to a nursing woman.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Pediatric Use:</content> The safety and effectiveness in the pediatric population are based on the similarity of the clinical conditions of the pediatric and adult populations. In neonates or very small infants the volume of fluid may affect fluid and electrolyte balance.</paragraph>
+                  <paragraph>Frequent monitoring of serum glucose concentrations is required when dextrose is prescribed to pediatric patients, particularly neonates and low birth weight infants.</paragraph>
+                  <paragraph>In very low birth weight infants, excessive or rapid administration of dextrose injection may result in increased serum osmolarity and possible intracerebral hemorrhage.</paragraph>
+               </text>
+               <effectiveTime value="20211011"/>
+            </section>
+         </component>
+         <component>
+            <section ID="c24cb472-87a0-48df-9d68-19046d5a76c9">
+               <id root="323e8e6b-895e-4660-84f4-ee6a43327be3"/>
+               <code code="34084-4" codeSystem="2.16.840.1.113883.6.1" displayName="ADVERSE REACTIONS SECTION"/>
+               <title>ADVERSE REACTIONS</title>
+               <text>
+                  <paragraph>Reactions which may occur because of the solution or the technique of administration include febrile response, infection at the site of injection, venous thrombosis or phlebitis extending from the site of injection, extravasation and hypervolemia.</paragraph>
+                  <paragraph>If an adverse reaction does occur, discontinue the infusion, evaluate the patient, institute appropriate therapeutic countermeasures and save the remainder of the fluid for examination if deemed necessary.</paragraph>
+               </text>
+               <effectiveTime value="20211011"/>
+            </section>
+         </component>
+         <component>
+            <section ID="f4ea8467-cc36-43a2-b30c-f2078dd42c08">
+               <id root="203e307b-6f05-4f7a-a6c1-bdf1ac294458"/>
+               <code code="34088-5" codeSystem="2.16.840.1.113883.6.1" displayName="OVERDOSAGE SECTION"/>
+               <title>OVERDOSAGE</title>
+               <text>
+                  <paragraph>In the event of overhydration or solute overload, re-evaluate the patient and institute appropriate corrective measures. See <content styleCode="bold">
+                        <linkHtml href="#bf69ad76-5af5-4914-b132-be05be353773">WARNINGS</linkHtml>
+                     </content>, <content styleCode="bold">
+                        <linkHtml href="#e1170c0c-1dee-42e9-8ce7-d7d2ba31ac9d">PRECAUTIONS</linkHtml>
+                     </content>, and <content styleCode="bold">
+                        <linkHtml href="#c24cb472-87a0-48df-9d68-19046d5a76c9">ADVERSE REACTIONS</linkHtml>
+                     </content>.</paragraph>
+               </text>
+               <effectiveTime value="20211011"/>
+            </section>
+         </component>
+         <component>
+            <section ID="a24bc7cc-928b-408e-8b69-01097007b501">
+               <id root="a3f16972-b380-4f20-83f4-56bd587f3f75"/>
+               <code code="34068-7" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE &amp; ADMINISTRATION SECTION"/>
+               <title>DOSAGE AND ADMINISTRATION</title>
+               <text>
+                  <paragraph>The dose is dependent on the age, weight and clinical condition of the patient.</paragraph>
+                  <paragraph>As reported in the literature, the dosage and constant infusion rate of intravenous dextrose must be selected with caution in pediatric patients, particularly neonates and low birth weight infants, because of the increased risk of hyperglycemia/hypoglycemia.</paragraph>
+                  <paragraph>Parenteral drug products should be inspected visually for particulate matter and discoloration prior to administration, whenever solution and container permit. See <content styleCode="bold">
+                        <linkHtml href="#e1170c0c-1dee-42e9-8ce7-d7d2ba31ac9d">PRECAUTIONS</linkHtml>
+                     </content>.</paragraph>
+               </text>
+               <effectiveTime value="20211011"/>
+            </section>
+         </component>
+         <component>
+            <section ID="e75ecb9f-a9a0-4668-87f8-e6b6c5d78521">
+               <id root="4c41bc89-8301-44fb-af4c-c5756124ce4c"/>
+               <code code="34069-5" codeSystem="2.16.840.1.113883.6.1" displayName="HOW SUPPLIED SECTION"/>
+               <title>HOW SUPPLIED</title>
+               <text>
+                  <paragraph>5% Dextrose Injection, USP is supplied in single-dose flexible plastic ADD-Vantage<sup>TM</sup> diluent containers. </paragraph>
+                  <paragraph>Store at 20 to 25°C (68 to 77°F). [See USP Controlled Room Temperature.] </paragraph>
+                  <table width="75%">
+                     <col width="50%" align="left" valign="top"/>
+                     <col width="50%" align="left" valign="top"/>
+                     <thead>
+                        <tr>
+                           <th styleCode="Lrule Rrule">Unit of Sale</th>
+                           <th styleCode="Rrule">Volume</th>
+                        </tr>
+                     </thead>
+                     <tbody>
+                        <tr styleCode="Botrule">
+                           <td styleCode="Lrule Rrule">
+                              <content styleCode="bold">NDC 0409-7100-66</content>
+                              <br/>Case of 50 – 50 mL bags</td>
+                           <td styleCode="Rrule">50 mL bags</td>
+                        </tr>
+                        <tr styleCode="Botrule">
+                           <td styleCode="Lrule Rrule">
+                              <content styleCode="bold">NDC 0409-7100-67</content>
+                              <br/>Case of 50 – 100 mL bags</td>
+                           <td styleCode="Rrule">100 mL bags</td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Lrule Rrule">
+                              <content styleCode="bold">NDC 0409-7100-02</content>
+                              <br/>Case of 24 – 250 mL bags</td>
+                           <td styleCode="Rrule">250 mL bags</td>
+                        </tr>
+                     </tbody>
+                  </table>
+                  <paragraph>
+                     <content styleCode="bold">
+                        <content styleCode="italics">INSTRUCTIONS FOR USE WITH ADD-VANTAGE VIAL</content> </content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">These instructions for use should be made available to the individuals who perform the reconstitution steps. </content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">To Open: </content>
+                  </paragraph>
+                  <paragraph>Peel overwrap at corner and remove solution container.  Use unit within 30 days of opening overwrap, as long as the use date does not exceed the printed expiration date. Some opacity of the plastic due to moisture absorption during the sterilization process may be observed. This is normal and does not affect the solution quality or safety. The opacity will diminish gradually. </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">To Assemble Vial and Flexible Diluent Container:</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">(Use Aseptic Technique)</content>
+                  </paragraph>
+                  <list listType="ordered">
+                     <item>
+                        <caption>1.</caption>Remove the protective covers from the top of the vial and the vial port on the diluent container as follows:<list listType="ordered">
+                           <item>
+                              <caption>a.</caption>To remove the breakaway vial cap, swing the pull ring over the top of the vial and pull down far enough to start the opening (SEE FIGURE 1.), then pull straight up to remove the cap. (SEE FIGURE 2.) <br/>
+                              <content styleCode="bold">NOTE:</content> Once the breakaway cap has been removed, do not access vial with syringe.</item>
+                        </list>
+                     </item>
+                  </list>
+                  <paragraph>                                  <renderMultiMedia ID="id324098380" referencedObject="ID_6f133f6f-0f07-4519-8253-c5eaa4f99586"/>                                                <renderMultiMedia ID="id-1419401498" referencedObject="C5E501FC-DAB3-4545-9017-F27E5D20736A"/>
+                     <br/>                                     <content styleCode="bold">Fig. 1</content>                                                                     <content styleCode="bold">Fig. 2</content>
+                  </paragraph>
+                  <list listType="unordered">
+                     <item>
+                        <caption> </caption>
+                        <list listType="unordered">
+                           <item>
+                              <caption>b.</caption>To remove the vial port cover, grasp the tab on the pull ring, pull up to break the three tie strings, then pull back to remove the cover. (SEE FIGURE 3.)</item>
+                        </list>
+                     </item>
+                     <item>
+                        <caption>2.</caption>Screw the vial into the vial port until it will go no further. THE VIAL MUST BE SCREWED IN TIGHTLY TO ASSURE A SEAL. This occurs approximately 1/2 turn (180°) after the first audible click. (SEE FIGURE 4.) The clicking sound does not assure a seal; the vial must be turned as far as it will go.<br/>
+                        <content styleCode="bold">NOTE:</content> Once vial is seated, do not attempt to remove. (SEE FIGURE 4.)</item>
+                     <item>
+                        <caption>3.</caption>Recheck the vial to assure that it is tight by trying to turn it further in the direction of assembly.</item>
+                     <item>
+                        <caption>4.</caption>Label appropriately.</item>
+                  </list>
+                  <paragraph>                               <renderMultiMedia ID="id-1690912691" referencedObject="D1D47AEF-A5DC-4927-ACB7-02E713A8675A"/>                                              <renderMultiMedia ID="id1772737796" referencedObject="ID_07d18aae-5b17-4ba5-869c-4704e9d811bd"/>
+                  </paragraph>
+                  <paragraph>                                        <content styleCode="bold">Fig. 3</content>                                                                   <content styleCode="bold">Fig. 4</content>
+                  </paragraph>
+                  <table width="100%">
+                     <col width="36%"/>
+                     <col width="31%"/>
+                     <col width="33%"/>
+                     <tbody>
+                        <tr>
+                           <td colspan="3" styleCode="Rrule Lrule Toprule " valign="bottom">
+                              <paragraph>
+                                 <content styleCode="bold">To Reconstitute the Drug:</content>
+                              </paragraph>
+                              <list listType="ordered">
+                                 <item>
+                                    <caption>1.</caption>Squeeze the bottom of the diluent container gently to inflate the portion of the container surrounding the end of the drug vial. </item>
+                                 <item>
+                                    <caption>2.</caption>With the other hand, push the drug vial down into the container telescoping the walls of the container. Grasp the inner cap of the vial through the walls of the container. (SEE FIGURE 5.) </item>
+                                 <item>
+                                    <caption>3.</caption>
+                                    <content styleCode="bold">Pull the inner cap from the drug vial. (SEE FIGURE 6.) Verify that the rubber stopper has been pulled out, allowing the drug and diluent to mix.</content> </item>
+                                 <item>
+                                    <caption>4.</caption>Mix container contents thoroughly and use within the specified time. </item>
+                                 <item>
+                                    <caption>5.</caption>Look through the bottom of the vial to verify that the stopper has been removed and complete mixing has occurred. (SEE FIGURE 7.) </item>
+                              </list>
+                              <paragraph>If the rubber stopper is not removed from the vial and medication is not released on the first attempt, the inner cap may be manipulated back into the rubber stopper without removing the drug vial from the diluent container. Repeat steps 3 through 5.</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td align="center" styleCode="Lrule " valign="bottom">
+                              <renderMultiMedia ID="id481514689" referencedObject="ID_5611a15f-8382-4301-9367-ce164d7a6c36"/>
+                           </td>
+                           <td align="center" valign="bottom">
+                              <renderMultiMedia ID="id560" referencedObject="MM105"/>
+                           </td>
+                           <td align="center" styleCode="Rrule " valign="bottom">
+                              <renderMultiMedia ID="id562" referencedObject="MM106"/>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td align="center" styleCode="Botrule Lrule " valign="bottom">
+                              <paragraph>          <content styleCode="bold">Fig. 5</content>
+                              </paragraph>
+                           </td>
+                           <td align="center" styleCode="Botrule " valign="bottom">
+                              <paragraph>        <content styleCode="bold">Fig. 6</content>
+                              </paragraph>
+                           </td>
+                           <td align="center" styleCode="Rrule Botrule " valign="bottom">
+                              <paragraph>          <content styleCode="bold">Fig. 7</content>
+                              </paragraph>
+                           </td>
+                        </tr>
+                     </tbody>
+                  </table>
+                  <paragraph>
+                     <content styleCode="bold">Preparation for Administration:</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">(Use Aseptic Technique)</content>
+                  </paragraph>
+                  <list listType="ordered">
+                     <item>
+                        <caption>1.</caption>Confirm the activation and admixture of vial contents.</item>
+                     <item>
+                        <caption>2.</caption>Check for leaks by squeezing container firmly. If leaks are found, discard unit as sterility may be impaired.</item>
+                     <item>
+                        <caption>3.</caption>Close flow control clamp of administration set.</item>
+                     <item>
+                        <caption>4.</caption>Remove cover from outlet port at bottom of container.</item>
+                     <item>
+                        <caption>5.</caption>Insert piercing pin of administration set into port with a twisting motion until the pin is firmly seated. <content styleCode="bold">NOTE:</content> See full directions on administration set carton.</item>
+                     <item>
+                        <caption>6.</caption>Lift the free end of the hanger loop on the bottom of the vial, breaking the two tie strings. Bend the loop outward to lock it in the upright position, then suspend container from hanger.</item>
+                     <item>
+                        <caption>7.</caption>Squeeze and release drip chamber to establish proper fluid level in chamber.</item>
+                     <item>
+                        <caption>8.</caption>Open flow control clamp and clear air from set. Close clamp.</item>
+                     <item>
+                        <caption>9.</caption>Attach set to venipuncture device. If device is not indwelling, prime and make venipuncture.</item>
+                     <item>
+                        <caption>10.</caption>Regulate rate of administration with flow control clamp.</item>
+                  </list>
+                  <paragraph>
+                     <content styleCode="bold">WARNING: Do not use flexible container in series connections.</content> </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">
+                        <content styleCode="italics">INSTRUCTIONS FOR USE WITH ADD-VANTAGE ADDAPTOR<sup>TM</sup>
+                        </content> </content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">The instructions for use provided with the ADD-Vantage ADDAPTOR<sup>TM</sup> should be made available to the individuals who perform the reconstitution steps. </content>
+                     <br/> </paragraph>
+                  <paragraph>Distributed by Hospira, Inc., Lake Forest, IL 60045 USA                                                                                      <renderMultiMedia ID="id-1046905957" referencedObject="ID_2e6c123d-d83e-4c91-935b-866952ca776f"/>
+                  </paragraph>
+                  <paragraph>LAB-1143-3.0</paragraph>
+                  <paragraph>Revised: 09/2021</paragraph>
+               </text>
+               <effectiveTime value="20211011"/>
+               <component>
+                  <observationMedia ID="ID_6f133f6f-0f07-4519-8253-c5eaa4f99586">
+                     <text>figure 1</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="dextrose-02.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="C5E501FC-DAB3-4545-9017-F27E5D20736A">
+                     <text>figure 2</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="dextrose-03.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="D1D47AEF-A5DC-4927-ACB7-02E713A8675A">
+                     <text>figure 3</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="dextrose-04.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="ID_07d18aae-5b17-4ba5-869c-4704e9d811bd">
+                     <text>figure 4</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="dextrose-05.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="ID_5611a15f-8382-4301-9367-ce164d7a6c36">
+                     <text>figure 5</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="dextrose-06.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="MM105">
+                     <text>figure 6</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="dextrose-07.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="MM106">
+                     <text>figure 7</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="dextrose-08.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="ID_2e6c123d-d83e-4c91-935b-866952ca776f">
+                     <text>Hospira logo</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="dextrose-09.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="891363aa-089f-4b6c-b969-ef1972bedcfc"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>PRINCIPAL DISPLAY PANEL - 50 mL Bag Label</title>
+               <text>
+                  <paragraph>PULL INNER PLUG/STOPPER<br/> AND MIX DRUG BEFORE USE</paragraph>
+                  <paragraph>ADD-Vantage™ Unit<br/> NDC 0409-7100-68</paragraph>
+                  <paragraph>5% DEXTROSE<br/> Injection, USP</paragraph>
+                  <paragraph>50<br/> mL</paragraph>
+                  <paragraph>EACH 100 mL CONTAINS DEXTROSE, HYDROUS 5 g.<br/> 253 mOsmol/LITER (calc.). pH 4.3 (3.2 TO 6.5)<br/> DEXTROSE SOLUTIONS WITHOUT SALTS SHOULD<br/> NOT BE USED IN BLOOD TRANSFUSIONS BECAUSE<br/> OF POSSIBLE ROULEAU FORMATION. FOR USE ONLY<br/> WITH ADD-Vantage™ SYSTEM COMPONENTS. SINGLE-<br/> DOSE CONTAINER. FOR IV USE. USUAL DOSAGE: SEE<br/> PACKAGE INSERT. STERILE, NONPYROGENIC. USE ONLY<br/> IF SOLUTION IS CLEAR AND CONTAINER IS UNDAMAGED.<br/> MUST NOT BE USED IN SERIES CONNECTIONS.</paragraph>
+                  <paragraph>DISTRIBUTED BY<br/> HOSPIRA, INC.,<br/> LAKE FOREST, IL 60045 USA</paragraph>
+                  <paragraph>Rx ONLY<br/> IM-4480<br/> 14475201</paragraph>
+                  <paragraph>3<br/> v<br/> CONTAINS DEHP</paragraph>
+                  <renderMultiMedia referencedObject="MM11"/>
+               </text>
+               <effectiveTime value="20211011"/>
+               <component>
+                  <observationMedia ID="MM11">
+                     <text>PRINCIPAL DISPLAY PANEL - 50 mL Bag Label</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="dextrose-10.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="510543f8-05f0-45b4-8896-a49887e50630"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>PRINCIPAL DISPLAY PANEL - 100 mL Bag Label</title>
+               <text>
+                  <paragraph>PULL INNER PLUG/STOPPER<br/> AND MIX DRUG BEFORE USE</paragraph>
+                  <paragraph>ADD-Vantage™ Unit<br/> NDC 0409-7100-69</paragraph>
+                  <paragraph>5% DEXTROSE<br/> Injection, USP</paragraph>
+                  <paragraph>100<br/> mL</paragraph>
+                  <paragraph>EACH 100 mL CONTAINS DEXTROSE, HYDROUS 5 g.<br/> 253 mOsmol/LITER (calc.). pH 4.3 (3.2 TO 6.5)<br/> DEXTROSE SOLUTIONS WITHOUT SALTS SHOULD<br/> NOT BE USED IN BLOOD TRANSFUSIONS BECAUSE OF<br/> POSSIBLE ROULEAU FORMATION. FOR USE ONLY WITH<br/> ADD-Vantage™ SYSTEM COMPONENTS. SINGLE-DOSE<br/> CONTAINER. FOR IV USE. USUAL DOSAGE: SEE PACKAGE<br/> INSERT. STERILE, NONPYROGENIC. USE ONLY IF SOLUTION<br/> IS CLEAR AND CONTAINER IS UNDAMAGED. MUST NOT<br/> BE USED IN SERIES CONNECTIONS.</paragraph>
+                  <paragraph>DISTRIBUTED BY<br/> HOSPIRA, INC.,<br/> LAKE FOREST, IL 60045 USA</paragraph>
+                  <paragraph>Rx ONLY<br/> IM-4481<br/> 14475601</paragraph>
+                  <paragraph>3<br/> v<br/> CONTAINS DEHP</paragraph>
+                  <renderMultiMedia referencedObject="MM12"/>
+               </text>
+               <effectiveTime value="20211011"/>
+               <component>
+                  <observationMedia ID="MM12">
+                     <text>PRINCIPAL DISPLAY PANEL - 100 mL Bag Label</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="dextrose-11.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="d46d4cba-80cc-48c9-8fd0-81bddeaf19dd"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>PRINCIPAL DISPLAY PANEL - 250 mL Bag Label</title>
+               <text>
+                  <paragraph>LOT<br/> EXP.</paragraph>
+                  <paragraph>PULL INNER PLUG/STOPPER<br/> AND MIX DRUG BEFORE USE</paragraph>
+                  <paragraph>ADD-Vantage™ Unit<br/> NDC 0409-7100-04</paragraph>
+                  <paragraph>5% DEXTROSE<br/> Injection, USP</paragraph>
+                  <paragraph>250<br/> mL</paragraph>
+                  <paragraph>EACH 100 mL CONTAINS<br/> DEXTROSE, HYDROUS 5 g.<br/> 253 mOsmol/LITER (calc).<br/> pH 4.3 (3.2 TO 6.5)<br/> DEXTROSE SOLUTIONS<br/> WITHOUT SALTS SHOULD<br/> NOT BE USED IN BLOOD<br/> TRANSFUSIONS BECAUSE<br/> OF POSSIBLE ROULEAU<br/> FORMATION. FOR USE ONLY<br/> WITH ADD-Vantage™ SYSTEM<br/> COMPONENTS. SINGLE-<br/>DOSE CONTAINER. FOR<br/>INTRAVENOUS USE. USUAL<br/> DOSAGE: SEE INSERT. STERILE,<br/> NONPYROGENIC. USE ONLY<br/> IF SOLUTION IS CLEAR AND<br/> CONTAINER IS UNDAMAGED.<br/> MUST NOT BE USED IN SERIES<br/> CONNECTIONS.</paragraph>
+                  <paragraph>Rx ONLY</paragraph>
+                  <paragraph>DISTRIBUTED BY<br/> HOSPIRA, INC.,<br/> LAKE FOREST, IL 60045 USA</paragraph>
+                  <paragraph>Hospira</paragraph>
+                  <paragraph>3<br/> v<br/> CONTAINS DEHP</paragraph>
+                  <paragraph>IM-4482<br/> 14475801</paragraph>
+                  <renderMultiMedia referencedObject="MM13"/>
+               </text>
+               <effectiveTime value="20211011"/>
+               <component>
+                  <observationMedia ID="MM13">
+                     <text>PRINCIPAL DISPLAY PANEL - 250 mL Bag Label</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="dextrose-12.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="47495548-bfea-4952-8972-aa07c389c127"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>PRINCIPAL DISPLAY PANEL - OVERWRAP – WR-0583</title>
+               <text>
+                  <paragraph>One/ADD-Vantage™ Unit</paragraph>
+                  <paragraph>TO OPEN–PEEL AT CORNER</paragraph>
+                  <paragraph>For use only with ADD-Vantage™ system components.</paragraph>
+                  <paragraph>The overwrap is a moisture barrier. Use unit within 30 days of opening<br/> overwrap, as long as the use date does not exceed the printed<br/> expiration date. Store at 20 to 25°C (68 to 77°F). [See USP Controlled<br/> Room Temperature.] Protect from freezing. See insert.<br/> After removing the overwrap, check for minute leaks by<br/> squeezing container firmly. If leaks are found, discard<br/> unit as sterility may be impaired.</paragraph>
+                  <paragraph>Rx only<br/> 14475901</paragraph>
+                  <paragraph>Distributed by Hospira, Inc., Lake Forest, IL 60045 USA</paragraph>
+                  <paragraph>Hospira</paragraph>
+                  <paragraph>WR-0583</paragraph>
+                  <renderMultiMedia referencedObject="MM14"/>
+               </text>
+               <effectiveTime value="20211011"/>
+               <component>
+                  <observationMedia ID="MM14">
+                     <text>PRINCIPAL DISPLAY PANEL - OVERWRAP – WR-0583</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="dextrose-13.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="3e08762c-e342-4e40-b63b-ee112503d8d7"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>PRINCIPAL DISPLAY PANEL - OVERWRAP – WR-0581</title>
+               <text>
+                  <paragraph>TO OPEN – PEEL AT NOTCH</paragraph>
+                  <paragraph>Five/ADD-Vantage™ Units</paragraph>
+                  <paragraph>For use only with ADD-Vantage™ system components.</paragraph>
+                  <paragraph>The overwrap is a moisture barrier. Use units within 30 days of opening overwrap, as long as the use<br/> date does not exceed the printed expiration date. After removing the overwrap, check for minute<br/> leaks by squeezing container firmly. If leaks are found, discard unit as sterility may be<br/> impaired. Store at 20 to 25°C (68 to 77°F). [See USP Controlled Room Temperature.]</paragraph>
+                  <paragraph>Rx only<br/> 14475301</paragraph>
+                  <paragraph>Distributed by Hospira, Inc., Lake Forest, IL 60045 USA</paragraph>
+                  <paragraph>Hospira</paragraph>
+                  <paragraph>WR-0581</paragraph>
+                  <renderMultiMedia referencedObject="MM15"/>
+               </text>
+               <effectiveTime value="20211011"/>
+               <component>
+                  <observationMedia ID="MM15">
+                     <text>PRINCIPAL DISPLAY PANEL - OVERWRAP – WR-0581</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="dextrose-14.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

@@ -1,0 +1,829 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="http://www.accessdata.fda.gov/spl/stylesheet/spl.xsl" type="text/xsl"?>
+<document xmlns="urn:hl7-org:v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 http://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="8d3633e6-80d9-4779-862a-b608180e202a"/>
+   <code code="34391-3" codeSystem="2.16.840.1.113883.6.1" displayName="HUMAN PRESCRIPTION DRUG LABEL"/>
+   <title>DESONIDE Rx Only<br/>cream 0.05%<br/>and lotion 0.05%<br/>
+      <br/>For Dermatologic Use Only –<br/>Not for Ophthalmic Use –</title>
+   <effectiveTime value="20190128"/>
+   <setId root="ff5d4cd8-ab4d-4a9e-b84b-445c81eeea99"/>
+   <versionNumber value="3"/>
+   <author>
+      <time value="100208"/>
+      <assignedEntity>
+         <representedOrganization>
+            <id extension="119723554" root="1.3.6.1.4.1.519.1"/>
+            <name>Actavis Pharma, Inc.</name>
+            <assignedEntity>
+               <assignedOrganization>
+                  <assignedEntity>
+                     <assignedOrganization>
+                        <id extension="832224526" root="1.3.6.1.4.1.519.1"/>
+                        <name>DPT Laboratories, Ltd.</name>
+                     </assignedOrganization>
+                     <performance>
+                        <actDefinition>
+                           <code code="C43360" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="manufacture"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="0472-0803" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                     <performance>
+                        <actDefinition>
+                           <code code="C43360" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="manufacture"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="0472-0804" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                  </assignedEntity>
+                  <assignedEntity>
+                     <assignedOrganization>
+                        <id extension="251676961" root="1.3.6.1.4.1.519.1"/>
+                        <name>G Production Inc.</name>
+                     </assignedOrganization>
+                     <performance>
+                        <actDefinition>
+                           <code code="C43360" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="manufacture"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="0472-0803" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                     <performance>
+                        <actDefinition>
+                           <code code="C43360" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="manufacture"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="0472-0804" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                  </assignedEntity>
+               </assignedOrganization>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section>
+               <id root="7bea915e-f1dc-437d-a6ac-6e5d929167fa"/>
+               <code code="48780-1" codeSystem="2.16.840.1.113883.6.1" displayName="SPL LISTING DATA ELEMENTS SECTION"/>
+               <title/>
+               <effectiveTime value="20190128"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="0472-0804" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>Desonide</name>
+                        <formCode code="C28944" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CREAM"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>desonide</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator unit="mg" value="0.5"/>
+                              <denominator unit="g" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="J280872D1O" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>DESONIDE</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="J280872D1O" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>DESONIDE</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="XF417D3PSL" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>ANHYDROUS CITRIC ACID</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="8CRQ2TH63M" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>ISOPROPYL PALMITATE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="CAL22UVI4M" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>POLYSORBATE 60</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="1VPU26JZZ4" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>POTASSIUM SORBATE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="8D4SNN7V92" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>PROPYL GALLATE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="6DC9Q167V3" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>PROPYLENE GLYCOL</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="059QF0KO0R" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>WATER</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="55X04QC32I" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SODIUM HYDROXIDE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="X045WJ989B" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SORBIC ACID</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="4ELV7Z65AP" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>STEARIC ACID</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator unit="g" value="15"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code/>
+                              <formCode code="C42794" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="TUBE"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator unit="1" value="1"/>
+                                    <denominator unit="1" value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code code="0472-0804-15" codeSystem="2.16.840.1.113883.6.69"/>
+                                    <formCode code="C43182" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CARTON"/>
+                                 </containerPackagedProduct>
+                                 <subjectOf>
+                                    <marketingAct>
+                                       <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                       <statusCode code="active"/>
+                                       <effectiveTime>
+                                          <low value="20130801"/>
+                                       </effectiveTime>
+                                    </marketingAct>
+                                 </subjectOf>
+                              </asContent>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic classCode="OBS">
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CE"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                        <asContent>
+                           <quantity>
+                              <numerator unit="g" value="60"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code/>
+                              <formCode code="C42794" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="TUBE"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator unit="1" value="1"/>
+                                    <denominator unit="1" value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code code="0472-0804-60" codeSystem="2.16.840.1.113883.6.69"/>
+                                    <formCode code="C43182" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CARTON"/>
+                                 </containerPackagedProduct>
+                                 <subjectOf>
+                                    <marketingAct>
+                                       <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                       <statusCode code="active"/>
+                                       <effectiveTime>
+                                          <low value="20130801"/>
+                                       </effectiveTime>
+                                    </marketingAct>
+                                 </subjectOf>
+                              </asContent>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic classCode="OBS">
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CE"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20130801"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <subjectOf>
+                        <approval>
+                           <id extension="NDA019048" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73605" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="NDA authorized generic"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38304" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="TOPICAL"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="0472-0803" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>Desonide</name>
+                        <formCode code="C29167" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="LOTION"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>desonide</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator unit="mg" value="0.5"/>
+                              <denominator unit="mL" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="J280872D1O" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>DESONIDE</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="J280872D1O" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>DESONIDE</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="936JST6JCN" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>CETYL ALCOHOL</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="MP1J8420LU" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>EDETATE SODIUM</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="230OU9XXE4" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>GLYCERYL MONOSTEARATE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="N6K5787QVP" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>LIGHT MINERAL OIL</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="A2I8C7HI9T" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>METHYLPARABEN</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="6DC9Q167V3" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>PROPYLENE GLYCOL</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="Z8IX2SC1OH" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>PROPYLPARABEN</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="059QF0KO0R" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>WATER</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="368GB5141J" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SODIUM LAURYL SULFATE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="NVZ4I0H58X" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SORBITAN MONOSTEARATE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="2KR89I4H1Y" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>STEARYL ALCOHOL</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="XF417D3PSL" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>ANHYDROUS CITRIC ACID</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="55X04QC32I" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SODIUM HYDROXIDE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator unit="mL" value="59"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code/>
+                              <formCode code="C43169" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BOTTLE"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator unit="1" value="1"/>
+                                    <denominator unit="1" value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code code="0472-0803-02" codeSystem="2.16.840.1.113883.6.69"/>
+                                    <formCode code="C43182" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CARTON"/>
+                                 </containerPackagedProduct>
+                                 <subjectOf>
+                                    <marketingAct>
+                                       <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                       <statusCode code="active"/>
+                                       <effectiveTime>
+                                          <low value="20090528"/>
+                                       </effectiveTime>
+                                    </marketingAct>
+                                 </subjectOf>
+                              </asContent>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic classCode="OBS">
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CE"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                        <asContent>
+                           <quantity>
+                              <numerator unit="mL" value="118"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code/>
+                              <formCode code="C43169" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BOTTLE"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator unit="1" value="1"/>
+                                    <denominator unit="1" value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code code="0472-0803-04" codeSystem="2.16.840.1.113883.6.69"/>
+                                    <formCode code="C43182" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CARTON"/>
+                                 </containerPackagedProduct>
+                                 <subjectOf>
+                                    <marketingAct>
+                                       <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                       <statusCode code="active"/>
+                                       <effectiveTime>
+                                          <low value="20090528"/>
+                                       </effectiveTime>
+                                    </marketingAct>
+                                 </subjectOf>
+                              </asContent>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic classCode="OBS">
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CE"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20090528"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <subjectOf>
+                        <approval>
+                           <id extension="ANDA072354" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73584" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ANDA"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38304" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="TOPICAL"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+               <component>
+                  <observationMedia ID="MM62856">
+                     <text>p53356-1-desonid-cream-carton-image</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="p53356-1-desonide-cream-carton-image.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="MM62876">
+                     <text>p53346-0-desonide-lotion-carton-image</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="p53346-0-desonide-lotion-carton-image.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="8aad7160-9fbf-463a-ac84-749c8da2e6fc"/>
+               <code code="34089-3" codeSystem="2.16.840.1.113883.6.1" displayName="DESCRIPTION SECTION"/>
+               <title>DESCRIPTION:</title>
+               <text>
+                  <paragraph>Desonide<sup/> Cream 0.05% and Lotion 0.05% contain desonide (Pregna-1,4-diene-3,20-dione,11,21-dihydroxy-16,17 [(1-methylethylidene)bis(oxy)]-,(11β,16α)- a synthetic nonfluorinated corticosteroid for topical dermatologic use. The corticosteroids constitute a class of primarily synthetic steroids used topically as anti-inflammatory and anti-pruritic agents.</paragraph>
+                  <paragraph>Chemically, desonide is C<sub>24</sub>H<sub>32</sub>O<sub>6</sub>. It has the following structural formula:</paragraph>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="Le3b37a23-4bf7-4055-bed0-d9149d2dd7c2"/>
+                  </paragraph>
+                  <paragraph>Desonide has the molecular weight of 416.51. It is a white to off white odorless powder which is soluble in methanol and practically insoluble in water.</paragraph>
+                  <paragraph>Each gram of Desonide<sup/> Cream contains 0.5 mg of desonide in a base of citric acid, emulsifying wax, isopropyl palmitate, polysorbate 60, potassium sorbate, propyl gallate, propylene glycol, purified water, sodium hydroxide, sorbic acid, stearic acid, and synthetic beeswax.</paragraph>
+                  <paragraph>Each gram of Desonide<sup/> Lotion contains 0.5 mg of desonide in a base of cetyl alcohol, edetate sodium, glyceryl stearate SE, light mineral oil, methylparaben, propylene glycol, propylparaben, purified water, sodium lauryl sulfate, sorbitan monostearate, and stearyl alcohol. May contain citric acid and/or sodium hydroxide for pH adjustment.</paragraph>
+               </text>
+               <effectiveTime value="20160719"/>
+               <component>
+                  <observationMedia ID="Le3b37a23-4bf7-4055-bed0-d9149d2dd7c2">
+                     <text>desowen-structure-01</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="desowen-structure-01.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="57cb3688-d3d8-473d-b317-cede49235b87"/>
+               <code code="34090-1" codeSystem="2.16.840.1.113883.6.1" displayName="CLINICAL PHARMACOLOGY SECTION"/>
+               <title>CLINICAL PHARMACOLOGY:</title>
+               <text>
+                  <paragraph>Like other topical corticosteroids, desonide has anti-inflammatory, antipruritic and vasoconstrictive properties. The mechanism of the anti-inflammatory activity of the topical steroids, in general, is unclear. However, corticosteroids are thought to act by the induction of phospholipase A<sub>2</sub> inhibitory proteins, collectively called lipocortins. It is postulated that these proteins control the biosynthesis of potent mediators of inflammation such as prostaglandins and leukotrienes by inhibiting the release of their common precursor arachidonic acid. Arachidonic acid is released from membrane phospholipids by phospholipase A<sub>2</sub>.</paragraph>
+               </text>
+               <effectiveTime value="20160719"/>
+               <component>
+                  <section ID="ID_e7ddf48d-686d-4af9-ea0a-efdc49d90416">
+                     <id root="6bd035b6-c951-4d37-bbed-a239d518b658"/>
+                     <code code="43682-4" codeSystem="2.16.840.1.113883.6.1" displayName="Pharmacokinetics Section"/>
+                     <title>Pharmacokinetics:</title>
+                     <text>
+                        <paragraph>The extent of percutaneous absorption of topical corticosteroids is determined by many factors including the vehicle and the integrity of the epidermal barrier. Occlusive dressings with hydrocortisone for up to 24 hours have not been demonstrated to increase penetration; however, occlusion of hydrocortisone for 96 hours markedly enhances penetration. Topical corticosteroids can be absorbed from normal intact skin. Inflammation and/or other disease processes in the skin may increase percutaneous absorption.</paragraph>
+                        <paragraph>Studies performed with Desonide Cream and Lotion indicate that they are in the low to medium range of potency as compared with other topical corticosteroids.</paragraph>
+                     </text>
+                     <effectiveTime value="20160719"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="f14db15c-20cc-4c1b-8e4a-4759651bfb96"/>
+               <code code="34067-9" codeSystem="2.16.840.1.113883.6.1" displayName="INDICATIONS &amp; USAGE SECTION"/>
+               <title>INDICATIONS AND USAGE:</title>
+               <text>
+                  <paragraph>Desonide<sup/> Cream and Lotion are low to medium potency corticosteroids indicated for the relief of the inflammatory and pruritic manifestations of corticosteroid responsive dermatoses.</paragraph>
+               </text>
+               <effectiveTime value="20160719"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="d26feed3-a765-46fd-a901-33e8327ba955"/>
+               <code code="34070-3" codeSystem="2.16.840.1.113883.6.1" displayName="CONTRAINDICATIONS SECTION"/>
+               <title>CONTRAINDICATIONS:</title>
+               <text>
+                  <paragraph>Desonide Cream and Lotion are contraindicated in those patients with a history of hypersensitivity to any of the components of the preparations.</paragraph>
+               </text>
+               <effectiveTime value="20160719"/>
+            </section>
+         </component>
+         <component>
+            <section ID="A9517FF2-3D02-40A4-A460-2C99D7987E76">
+               <id root="acdc1172-b1e6-4306-9c16-14b478be936b"/>
+               <code code="42232-9" codeSystem="2.16.840.1.113883.6.1" displayName="PRECAUTIONS SECTION"/>
+               <title>PRECAUTIONS:</title>
+               <effectiveTime value="20190128"/>
+               <component>
+                  <section>
+                     <id root="1f78c0be-ed49-4b89-ab46-c7dc2fcf6368"/>
+                     <code code="34072-9" codeSystem="2.16.840.1.113883.6.1" displayName="GENERAL PRECAUTIONS SECTION"/>
+                     <title>General:</title>
+                     <text>
+                        <paragraph>Systemic absorption of topical corticosteroids can produce reversible hypothalamic-pituitary-adrenal (HPA) axis suppression with the potential for glucocorticosteroid insufficiency after withdrawal of treatment. Manifestations of Cushing’s syndrome, hyperglycemia, and glucosuria can also be produced in some patients by systemic absorption of topical corticosteroids while on treatment.</paragraph>
+                        <paragraph>Patients applying a topical steroid to a large surface area or to areas under occlusion should be evaluated periodically for evidence of HPA axis suppression. This may be done by using the ACTH stimulation, A.M. plasma cortisol, and urinary free cortisol tests. Patients receiving superpotent corticosteroids should not be treated for more than 2 weeks at a time and only small areas should be treated at any one time due to the increased risk of HPA axis suppression.</paragraph>
+                        <paragraph>If HPA axis suppression is noted, an attempt should be made to withdraw the drug, to reduce the frequency of application, or to substitute a less potent corticosteroid. Recovery of HPA axis function is generally prompt and complete upon discontinuation of topical corticosteroids. Infrequently, signs and symptoms of glucocorticosteroid insufficiency may occur requiring supplemental systemic corticosteroids. For information on systemic supplementation, see prescribing information for those products.</paragraph>
+                        <paragraph>Pediatric patients may be more susceptible to systemic toxicity from equivalent doses due to their larger skin surface to body mass ratios. (See <linkHtml href="#AC8C6C48-0BC4-442C-A9AB-9C713F8846C9">PRECAUTIONS - Pediatric use</linkHtml>).</paragraph>
+                        <paragraph>If irritation develops, Desonide<sup/> Cream or Lotion should be discontinued and appropriate therapy instituted. Allergic contact dermatitis with corticosteroids is usually diagnosed by observing <content styleCode="italics">failure to heal</content> rather than noting a clinical exacerbation as with most topical products not containing corticosteroids. Such an observation should be corroborated with appropriate diagnostic patch testing.</paragraph>
+                        <paragraph>If concomitant skin infections are present or develop, an appropriate antifungal or antibacterial agent should be used. If a favorable response does not occur promptly, use of Desonide Cream or Lotion should be discontinued until the infection has been adequately controlled.</paragraph>
+                     </text>
+                     <effectiveTime value="20190128"/>
+                  </section>
+               </component>
+               <component>
+                  <section>
+                     <id root="63700d3a-e5b1-4bb3-a204-1f4d35f4e32f"/>
+                     <code code="34076-0" codeSystem="2.16.840.1.113883.6.1" displayName="INFORMATION FOR PATIENTS SECTION"/>
+                     <title>Information for patients:</title>
+                     <text>
+                        <paragraph>Patients using topical corticosteroids should receive the following information and instructions:</paragraph>
+                        <list listType="ordered" styleCode="Arabic">
+                           <item>
+                              <paragraph>This medication is to be used as directed by the physician. It is for external use only. Avoid contact with the eyes.</paragraph>
+                           </item>
+                           <item>
+                              <paragraph>This medication should not be used for any disorder other than that for which it was prescribed.</paragraph>
+                           </item>
+                           <item>
+                              <paragraph>The treated skin area should not be bandaged or otherwise covered or wrapped so as to be occlusive unless directed by the physician.</paragraph>
+                           </item>
+                           <item>
+                              <paragraph>Patients should report to their physician any signs of local adverse reactions.</paragraph>
+                           </item>
+                        </list>
+                     </text>
+                     <effectiveTime value="20160719"/>
+                  </section>
+               </component>
+               <component>
+                  <section>
+                     <id root="18266af5-c05d-4b91-8123-6b5ca71c7fa2"/>
+                     <code code="34075-2" codeSystem="2.16.840.1.113883.6.1" displayName="Laboratory Tests Section"/>
+                     <title>Laboratory tests:</title>
+                     <text>
+                        <paragraph>The following tests may be helpful in evaluating patients for HPA axis suppression:</paragraph>
+                        <paragraph>ACTH stimulation test</paragraph>
+                        <paragraph>A.M. plasma cortisol test</paragraph>
+                        <paragraph>Urinary free cortisol test</paragraph>
+                     </text>
+                     <effectiveTime value="20160719"/>
+                  </section>
+               </component>
+               <component>
+                  <section>
+                     <id root="fa3043fb-94d1-4e41-b4e0-44a1c8688f77"/>
+                     <code code="34083-6" codeSystem="2.16.840.1.113883.6.1" displayName="Carcinogenesis &amp; Mutagenesis &amp; Impairment of Fertility Section"/>
+                     <title>Carcinogenesis, mutagenesis, impairment of fertility:</title>
+                     <text>
+                        <paragraph>Long-term animal studies have not been performed to evaluate the carcinogenic potential or the effect on reproduction with the use of Desonide<sup/> Cream and Lotion.</paragraph>
+                     </text>
+                     <effectiveTime value="20160719"/>
+                  </section>
+               </component>
+               <component>
+                  <section>
+                     <id root="c2f52d8f-52e0-4638-9a0b-5b196e7d6bff"/>
+                     <code code="42228-7" codeSystem="2.16.840.1.113883.6.1" displayName="Pregnancy Section"/>
+                     <title>Pregnancy:</title>
+                     <effectiveTime value="20160719"/>
+                     <component>
+                        <section>
+                           <id root="6e6a3c49-1a3e-496a-a7d4-02dd6b5f6ba2"/>
+                           <code code="34077-8" codeSystem="2.16.840.1.113883.6.1" displayName="Teratogenic Effects Section"/>
+                           <title/>
+                           <text>
+                              <paragraph>
+                                 <content styleCode="italics">Teratogenic Effects: Pregnancy category C:</content>
+                              </paragraph>
+                              <paragraph>Corticosteroids have been shown to be teratogenic in laboratory animals when administered systemically at relatively low dosage levels. Some corticosteroids have been shown to be teratogenic after dermal application in laboratory animals. Animal reproduction studies have not been conducted with Desonide<sup/> Cream or Lotion. It is also not known whether Desonide<sup/> Cream or Lotion can cause fetal harm when administered to a pregnant woman or can affect reproduction capacity. Desonide<sup/> Cream and Lotion should be given to a pregnant woman only if clearly needed.</paragraph>
+                           </text>
+                           <effectiveTime value="20160719"/>
+                        </section>
+                     </component>
+                  </section>
+               </component>
+               <component>
+                  <section>
+                     <id root="42dd1272-fa01-4f30-8a7c-4a112f7607d1"/>
+                     <code code="34080-2" codeSystem="2.16.840.1.113883.6.1" displayName="Nursing Mothers Section"/>
+                     <title>Nursing mothers:</title>
+                     <text>
+                        <paragraph>Systemically administered corticosteroids appear in human milk and could suppress growth, interfere with endogenous corticosteroid production, or cause other untoward effects. It is not known whether topical administration of corticosteroids could result in sufficient systemic absorption to produce detectable quantities in human milk. Because many drugs are excreted in human milk, caution should be exercised when Desonide<sup/> Cream or Lotion is administered to a nursing woman.</paragraph>
+                     </text>
+                     <effectiveTime value="20160719"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="AC8C6C48-0BC4-442C-A9AB-9C713F8846C9">
+                     <id root="12e31a19-4400-4051-b4e8-3a5f2b2a25d6"/>
+                     <code code="34081-0" codeSystem="2.16.840.1.113883.6.1" displayName="Pediatric Use Section"/>
+                     <title>Pediatric use:</title>
+                     <text>
+                        <paragraph>Safety and effectiveness in pediatric patients have not been established. Because of a higher ratio of skin surface area to body mass, pediatric patients are at a greater risk than adults of HPA axis suppression when they are treated with topical corticosteroids. They are therefore also at greater risk of glucocorticosteroid insufficiency after withdrawal of treatment and of Cushing’s syndrome while on treatment. Adverse effects including striae have been reported with inappropriate use of topical corticosteroids in infants and children.</paragraph>
+                        <paragraph>HPA axis suppression, Cushing’s syndrome, linear growth retardation, delayed weight gain and intracranial hypertension have been reported in children receiving topical corticosteroids. Manifestations of adrenal suppression in children include low plasma cortisol levels, and absence of response to ACTH stimulation. Manifestations of intracranial hypertension include bulging fontanelles, headaches, and bilateral papilledema.</paragraph>
+                     </text>
+                     <effectiveTime value="20160719"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="5e976e65-6edd-4576-ae50-30771ff6f22d"/>
+               <code code="34084-4" codeSystem="2.16.840.1.113883.6.1" displayName="ADVERSE REACTIONS SECTION"/>
+               <title>ADVERSE REACTIONS:</title>
+               <text>
+                  <paragraph>In controlled clinical trials, the total incidence of adverse reactions associated with the use of desonide was approximately 8%. These were: stinging and burning approximately 3%, irritation, contact dermatitis, condition worsened, peeling of skin, itching, intense transient erythema, and dryness/scaliness, each less than 2%.</paragraph>
+                  <paragraph>The following additional local adverse reactions have been reported infrequently with other topical corticosteroids, and they may occur more frequently with the use of occlusive dressings, especially with higher potency corticosteroids. These reactions are listed in an approximate decreasing order of occurrence: folliculitis, acneiform eruptions, hypopigmentation, perioral dermatitis, secondary infection, skin atrophy, striae, and miliaria.</paragraph>
+               </text>
+               <effectiveTime value="20160719"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="c32e1dd1-8bd8-4979-b3c5-9379ae15497f"/>
+               <code code="34088-5" codeSystem="2.16.840.1.113883.6.1" displayName="OVERDOSAGE SECTION"/>
+               <title>OVERDOSAGE:</title>
+               <text>
+                  <paragraph>Topically applied Desonide Cream and Lotion can be absorbed in sufficient amounts to produce systemic effects (See <linkHtml href="#A9517FF2-3D02-40A4-A460-2C99D7987E76">PRECAUTIONS</linkHtml>).</paragraph>
+               </text>
+               <effectiveTime value="20190128"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="1d47a436-861c-4a4b-940f-edd280dfb3da"/>
+               <code code="34068-7" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE &amp; ADMINISTRATION SECTION"/>
+               <title>DOSAGE AND ADMINISTRATION:</title>
+               <text>
+                  <paragraph>Desonide<sup/> Cream or Lotion should be applied to the affected areas as a thin film two or three times daily depending on the severity of the condition. SHAKE LOTION WELL BEFORE USING.</paragraph>
+                  <paragraph>As with other corticosteroids, therapy should be discontinued when control is achieved. If no improvement is seen within 2 weeks, reassessment of diagnosis may be necessary.</paragraph>
+                  <paragraph>Desonide Cream and Lotion should not be used with occlusive dressings.</paragraph>
+               </text>
+               <effectiveTime value="20160719"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="233b63c1-7248-43a8-ac58-8295b6b10434"/>
+               <code code="34069-5" codeSystem="2.16.840.1.113883.6.1" displayName="HOW SUPPLIED SECTION"/>
+               <title>HOW SUPPLIED:</title>
+               <text>
+                  <paragraph>Desonide Cream 0.05% is supplied in a tube containing:</paragraph>
+                  <paragraph>15 g <content styleCode="bold">NDC</content> 0472-<content styleCode="bold">0804</content>-15</paragraph>
+                  <paragraph>60 g <content styleCode="bold">NDC</content> 0472-<content styleCode="bold">0804</content>-60</paragraph>
+                  <paragraph/>
+                  <paragraph>Desonide Lotion 0.05% is supplied in bottles containing:</paragraph>
+                  <paragraph>2 fl oz <content styleCode="bold">NDC</content> 0472-<content styleCode="bold">0803</content>-02</paragraph>
+                  <paragraph>4 fl oz <content styleCode="bold">NDC</content> 0472-<content styleCode="bold">0803</content>-04</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Storage Conditions:</content> Store between 2° and 30°C (36° and 86°F).</paragraph>
+                  <paragraph>Marketed by:</paragraph>
+                  <paragraph>Actavis Pharma, Inc.<br/>Parsippany, NJ 07054 USA<br/>Made in Canada<br/>P53355-1 Rev. March 2018</paragraph>
+               </text>
+               <effectiveTime value="20190128"/>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_a52a72de-4716-ea30-a6eb-74060f874ef7">
+               <id root="8e8a06f4-cc94-4be3-a3f4-492ba5c2cd21"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>PACKAGE LABEL - Desonide Cream</title>
+               <text>
+                  <renderMultiMedia referencedObject="MM62856"/>
+                  <paragraph>
+                     ​
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Actavis</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">NDC 0472-0804-60</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Rx Only<br/>For Topical Use Only.<br/>
+                     </content>Not for Ophthalmic Use.<br/>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Desonide</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Cream 0.05% NET WT. 60 g</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Marketed by:</content>
+                     <br/>Actavis Pharma, Inc.<br/>Parsippany, NJ 07054 USA<br/>Made in Canada<br/>
+                     <br/>P53356-1<br/>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Store between 2° and 30°C (36° and 86°F).</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Usual dosage:</content> Apply a small amount to affected areas 2 or 3 times daily.  See package insert for complete prescribing information.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Each gram contains </content>0.5 mg of the <content styleCode="bold">active</content> ingredient desonide in a cream base consisting of the <content styleCode="bold">inactive</content> ingredients citric acid, emulsifying wax, isopropyl palmitate, polysorbate 60, potassium sorbate, propyl gallate, propylene glycol, purified water, sodium hydroxide, sorbic acid, stearic acid and synthetic beeswax.</paragraph>
+                  <paragraph>See carton closure for lot number and expiration date.</paragraph>
+               </text>
+               <effectiveTime value="20190128"/>
+            </section>
+         </component>
+         <component>
+            <section ID="L1ebdcfce-742d-4c7a-b4a4-d0eaa84d272a">
+               <id root="d0b36576-f0ae-439d-a8c2-82731452bec1"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>PACKAGE LABEL - Desonide Lotion</title>
+               <text>
+                  <renderMultiMedia referencedObject="MM62876"/>
+                  <paragraph>
+                     ​
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Rx Only NDC</content> 0472-0803-04</paragraph>
+                  <paragraph>Desonide</paragraph>
+                  <paragraph>Lotion 0.05%</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">For Topical Use Only.<br/>
+                     </content>Not for Ophthalmic Use.<br/>
+                  </paragraph>
+                  <paragraph>4 FL OZ</paragraph>
+                  <paragraph>(118 mL)</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">SHAKE WELL BEFORE USING.</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Usual dosage:</content> Apply a small amount to affected areas 2 or 3 times daily. See package insert for complete prescribing information.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Contains: Active:</content> desonide 0.05% w/w (0.5 mg/g). <content styleCode="bold">Inactive:</content> cetyl alcohol, edetate sodium, glyceryl stearate SE, light mineral oil, methylparaben, propylene glycol, propylparaben, purified water, sodium lauryl sulfate, sorbitan monostearate, and stearyl alcohol. May contain citric acid and/or sodium hydroxide for pH adjustment. Lot number and expiration date on bottom of carton.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Store between 2° AND 30°C (36° AND 86°F). </content>
+                  </paragraph>
+                  <paragraph>Marketed by:<br/>Actavis Pharma, Inc.<br/>Parsippany, NJ 07054 USA<br/>Made in Canada<br/>
+                     <br/>P53346-0</paragraph>
+               </text>
+               <effectiveTime value="20190128"/>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

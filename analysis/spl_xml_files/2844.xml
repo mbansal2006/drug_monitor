@@ -1,0 +1,959 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="https://www.accessdata.fda.gov/spl/stylesheet/spl.xsl" type="text/xsl"?>
+<document xmlns="urn:hl7-org:v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 https://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="b97da107-c56e-48ea-ba34-d3d64a5b9f46"/>
+   <code code="34391-3" displayName="HUMAN PRESCRIPTION DRUG LABEL" codeSystem="2.16.840.1.113883.6.1"/>
+   <title>
+      <content styleCode="bold">These highlights do not include all the information needed to use <content styleCode="bold">POTASSIUM CHLORIDE EXTENDED-RELEASE CAPSULES </content>safely and effectively. See full prescribing information for <content styleCode="bold">POTASSIUM CHLORIDE EXTENDED-RELEASE CAPSULES</content>.</content>
+      <br/>
+      <br/>
+      <content styleCode="bold">
+         <content styleCode="bold">POTASSIUM CHLORIDE extended-release capsules, </content>for <content styleCode="bold">oral use</content> </content>
+      <br/>
+      <content styleCode="bold">Initial U.S. Approval: <content styleCode="bold">1948</content>
+      </content>
+   </title>
+   <effectiveTime value="20220801"/>
+   <setId root="ed5baaf6-270b-4dd3-b100-36030c0098fc"/>
+   <versionNumber value="15"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id extension="119723554" root="1.3.6.1.4.1.519.1"/>
+            <name>Actavis Pharma, Inc.</name>
+            <assignedEntity>
+               <assignedOrganization/>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section>
+               <id root="7bde8a1a-1043-4c5a-8715-d114beacf3ed"/>
+               <code code="48780-1" displayName="SPL listing data elements section" codeSystem="2.16.840.1.113883.6.1"/>
+               <effectiveTime value="20220801"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="62037-559" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>Potassium Chloride</name>
+                        <formCode code="C42916" displayName="CAPSULE, EXTENDED RELEASE" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>Potassium Chloride</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator unit="mg" value="600"/>
+                              <denominator unit="1" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="660YQ98I10" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>POTASSIUM CHLORIDE</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="295O53K152" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>POTASSIUM CATION</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="7Z8S9VYZ4B" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>ETHYLCELLULOSES</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="2G86QN327L" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>GELATIN</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="368GB5141J" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SODIUM LAURYL SULFATE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="15FIX9V2JP" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>TITANIUM DIOXIDE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="XHX3C3X673" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>TRIACETIN</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator unit="1" value="100"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="62037-559-01" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43173" displayName="BOTTLE, PLASTIC" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" displayName="Type 0: Not a Combination Product" codeSystem="2.16.840.1.113883.3.26.1.1" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                           <subjectOf>
+                              <marketingAct>
+                                 <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 <statusCode code="active"/>
+                                 <effectiveTime>
+                                    <low value="20080825"/>
+                                 </effectiveTime>
+                              </marketingAct>
+                           </subjectOf>
+                        </asContent>
+                        <asContent>
+                           <quantity>
+                              <numerator unit="1" value="500"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="62037-559-05" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43173" displayName="BOTTLE, PLASTIC" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" displayName="Type 0: Not a Combination Product" codeSystem="2.16.840.1.113883.3.26.1.1" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                           <subjectOf>
+                              <marketingAct>
+                                 <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 <statusCode code="active"/>
+                                 <effectiveTime>
+                                    <low value="20080825"/>
+                                 </effectiveTime>
+                              </marketingAct>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <id extension="ANDA077419" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73584" displayName="ANDA" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20080825"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLCOLOR" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value code="C48325" displayName="white" codeSystem="2.16.840.1.113883.3.26.1.1" xsi:type="CV"/>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLIMPRINT" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value xsi:type="ST">Logo;559</value>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSCORE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value value="1" xsi:type="INT"/>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSHAPE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value code="C48336" displayName="CAPSULE" codeSystem="2.16.840.1.113883.3.26.1.1" xsi:type="CV"/>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSIZE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value unit="mm" value="23" xsi:type="PQ"/>
+                        </characteristic>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38288" displayName="ORAL" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="62037-560" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>Potassium Chloride</name>
+                        <formCode code="C42916" displayName="CAPSULE, EXTENDED RELEASE" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>Potassium Chloride</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator unit="mg" value="750"/>
+                              <denominator unit="1" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="660YQ98I10" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>POTASSIUM CHLORIDE</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="295O53K152" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>POTASSIUM CATION</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="7Z8S9VYZ4B" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>ETHYLCELLULOSES</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="H3R47K3TBD" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>FD&amp;C BLUE NO. 1</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="WZB9127XOA" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>FD&amp;C RED NO. 40</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="368GB5141J" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SODIUM LAURYL SULFATE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="15FIX9V2JP" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>TITANIUM DIOXIDE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="XHX3C3X673" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>TRIACETIN</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator unit="1" value="100"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="62037-560-01" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43173" displayName="BOTTLE, PLASTIC" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" displayName="Type 0: Not a Combination Product" codeSystem="2.16.840.1.113883.3.26.1.1" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                           <subjectOf>
+                              <marketingAct>
+                                 <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 <statusCode code="active"/>
+                                 <effectiveTime>
+                                    <low value="20080825"/>
+                                 </effectiveTime>
+                              </marketingAct>
+                           </subjectOf>
+                        </asContent>
+                        <asContent>
+                           <quantity>
+                              <numerator unit="1" value="500"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="62037-560-05" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43173" displayName="BOTTLE, PLASTIC" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" displayName="Type 0: Not a Combination Product" codeSystem="2.16.840.1.113883.3.26.1.1" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                           <subjectOf>
+                              <marketingAct>
+                                 <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 <statusCode code="active"/>
+                                 <effectiveTime>
+                                    <low value="20080825"/>
+                                 </effectiveTime>
+                              </marketingAct>
+                           </subjectOf>
+                        </asContent>
+                        <asContent>
+                           <quantity>
+                              <numerator unit="1" value="1000"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="62037-560-10" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43173" displayName="BOTTLE, PLASTIC" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" displayName="Type 0: Not a Combination Product" codeSystem="2.16.840.1.113883.3.26.1.1" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                           <subjectOf>
+                              <marketingAct>
+                                 <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 <statusCode code="active"/>
+                                 <effectiveTime>
+                                    <low value="20080825"/>
+                                 </effectiveTime>
+                              </marketingAct>
+                           </subjectOf>
+                        </asContent>
+                        <asContent>
+                           <quantity>
+                              <numerator unit="1" value="90"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="62037-560-90" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43173" displayName="BOTTLE, PLASTIC" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" displayName="Type 0: Not a Combination Product" codeSystem="2.16.840.1.113883.3.26.1.1" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                           <subjectOf>
+                              <marketingAct>
+                                 <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 <statusCode code="active"/>
+                                 <effectiveTime>
+                                    <low value="20080825"/>
+                                 </effectiveTime>
+                              </marketingAct>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <id extension="ANDA077419" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73584" displayName="ANDA" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20080825"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLCOLOR" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value code="C48333" displayName="blue" codeSystem="2.16.840.1.113883.3.26.1.1" xsi:type="CV">
+                              <originalText>Dark Blue</originalText>
+                           </value>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLIMPRINT" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value xsi:type="ST">Logo;560</value>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSCORE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value value="1" xsi:type="INT"/>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSHAPE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value code="C48336" displayName="CAPSULE" codeSystem="2.16.840.1.113883.3.26.1.1" xsi:type="CV"/>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSIZE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value unit="mm" value="25" xsi:type="PQ"/>
+                        </characteristic>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38288" displayName="ORAL" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_e54eaf0c-aa13-4d44-911f-9bfe9f1fdc5c">
+               <id root="bfdf1903-115a-47c3-b1a9-c49ff8b0871d"/>
+               <code code="34067-9" codeSystem="2.16.840.1.113883.6.1" displayName="INDICATIONS &amp; USAGE SECTION"/>
+               <title>1 INDICATIONS AND USAGE</title>
+               <text>
+                  <paragraph>Potassium chloride extended-release capsules are indicated for the treatment and prophylaxis of hypokalemia in adults and children with or without metabolic alkalosis, in patients for whom dietary management with potassium-rich foods or diuretic dose reduction is insufficient.</paragraph>
+               </text>
+               <effectiveTime value="20220801"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <paragraph>Potassium chloride extended-release capsules contain potassium chloride, a potassium salt indicated for the treatment and prophylaxis of hypokalemia with or without metabolic alkalosis, in patients for whom dietary management with potassium-rich foods or diuretic dose reduction is insufficient. (<linkHtml href="#LINK_e54eaf0c-aa13-4d44-911f-9bfe9f1fdc5c">1</linkHtml>)</paragraph>
+                     </text>
+                  </highlight>
+               </excerpt>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_94109e27-eafa-4c0d-8722-491533474dd5">
+               <id root="117be89c-8a95-45f5-b3e8-845f28ca0296"/>
+               <code code="34068-7" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE &amp; ADMINISTRATION SECTION"/>
+               <title>2 DOSAGE AND ADMINISTRATION</title>
+               <effectiveTime value="20220801"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <paragraph>Monitor serum potassium and adjust dosage accordingly (<linkHtml href="#LINK_c799ddd7-c0ed-4deb-a676-5aff06a5fa96">2.1</linkHtml>)<br/> If serum potassium concentration is &lt;2.5 mEq/L, use intravenous potassium instead of oral supplementation. (<linkHtml href="#LINK_c799ddd7-c0ed-4deb-a676-5aff06a5fa96">2.1</linkHtml>)</paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Treatment of hypokalemia:</content>
+                        </paragraph>
+                        <list listType="unordered" styleCode="Disc">
+                           <item>Adults: Typical doses range from 40 to 100 mEq/day in 2 to 5 divided doses; limit doses to 40 mEq per dose. (<linkHtml href="#LINK_38ba0bbb-8fd5-4018-874f-187046251ff0">2.2</linkHtml>)</item>
+                           <item>Pediatric patients: 2 to 4 mEq/kg/day in divided doses not to exceed 1 mEq/kg as a single dose or 20 mEq, whichever is lower; if deficits are severe or ongoing losses are great, consider intravenous therapy. (<linkHtml href="#LINK_79b8e5bc-0bee-433d-b209-660f866aa237">2.3</linkHtml>)<br/>
+                           </item>
+                        </list>
+                        <paragraph>
+                           <content styleCode="italics">Maintenance or Prophylaxis of hypokalemia:</content>
+                        </paragraph>
+                        <list listType="unordered" styleCode="Disc">
+                           <item>Adults: Typical dose is 20 mEq per day (<linkHtml href="#LINK_38ba0bbb-8fd5-4018-874f-187046251ff0">2.2</linkHtml>)</item>
+                           <item>Pediatric patients: Typical dose is 1 mEq/kg/day. (<linkHtml href="#LINK_79b8e5bc-0bee-433d-b209-660f866aa237">2.3</linkHtml>)</item>
+                        </list>
+                     </text>
+                  </highlight>
+               </excerpt>
+               <component>
+                  <section ID="LINK_c799ddd7-c0ed-4deb-a676-5aff06a5fa96">
+                     <id root="a73d21a5-9bea-42bc-bad9-1bf7b22ab6c8"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>2.1 Administration and Monitoring</title>
+                     <text>
+                        <paragraph>If serum potassium concentration is &lt;2.5 mEq/L, use intravenous potassium instead of oral supplementation.</paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Monitoring</content>
+                           <br/> Monitor serum potassium and adjust dosages accordingly. Monitor serum potassium periodically during maintenance therapy to ensure potassium remains in desired range. </paragraph>
+                        <paragraph>The treatment of potassium depletion, particularly in the presence of cardiac disease, renal disease, or acidosis requires careful attention to acid-base balance, volume status, electrolytes, including magnesium, sodium, chloride, phosphate, and calcium, electrocardiograms and the clinical status of the patient. Correct volume status, acid-base balance and electrolyte deficits as appropriate.</paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Administration</content>
+                           <br/> Take with meals and with a full glass of water or other liquid. Do not take on an empty stomach because of the potential for gastric irritation <content styleCode="italics">[see Warnings and Precautions (<linkHtml href="#LINK_91c19252-04d4-4261-bba5-aa0ba8ae7c9f">5.1</linkHtml>)]</content>.</paragraph>
+                        <paragraph>Patients who have difficulty swallowing capsules may sprinkle the contents of the capsule onto a spoonful of soft food. The soft food, such as applesauce or pudding, should be swallowed immediately without chewing and followed with a glass of water or juice to ensure complete swallowing of the microcapsules. Do not added to hot foods. Any microcapsule/food mixture should be used immediately and not stored for future use.</paragraph>
+                     </text>
+                     <effectiveTime value="20220801"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_38ba0bbb-8fd5-4018-874f-187046251ff0">
+                     <id root="f5986a0c-d669-42c6-9605-6ebf506afd6f"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>2.2 Adult Dosing</title>
+                     <text>
+                        <paragraph>Dosage must be adjusted to the individual needs of each patient. Dosages greater than 40 mEq per day should be divided such that no more than 40 mEq is given in a single dose.</paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Treatment of hypokalemia: </content>Typical dose range is 40 to 100 mEq per day.</paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Maintenance or Prophylaxis: </content>Typical dose is 20 mEq per day.</paragraph>
+                     </text>
+                     <effectiveTime value="20220801"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_79b8e5bc-0bee-433d-b209-660f866aa237">
+                     <id root="eb96d10a-36fd-4290-bdb6-b759696f7b78"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>2.3 Pediatric Dosing</title>
+                     <text>
+                        <paragraph>Pediatric patients aged birth to 16 years old: Dosage must be adjusted to the individual needs of each patient. Do not exceed as a single dose 1 mEq/kg or 20 mEq, whichever is lower.</paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Treatment of hypokalemia:</content> The recommended initial dose is 2 to 4 mEq/kg/day in divided doses. If deficits are severe or ongoing losses are great, consider intravenous therapy.</paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Maintenance or Prophylaxis:</content> Typical dose is 1 mEq/kg/day.</paragraph>
+                     </text>
+                     <effectiveTime value="20220801"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_8d304253-ddc5-4f73-9e6b-a310c65ae429">
+               <id root="b7ee55e5-6410-438b-82db-2bba138a492c"/>
+               <code code="43678-2" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE FORMS &amp; STRENGTHS SECTION"/>
+               <title>3 DOSAGE FORMS AND STRENGTHS</title>
+               <text>
+                  <paragraph>600 mg (8 mEq): White opaque capsules imprinted with “Andrx” logo on the cap and “559” on the body</paragraph>
+                  <paragraph>750 mg (10 mEq ): Dark blue opaque capsules with “Andrx” logo on the cap and “560” on the body</paragraph>
+               </text>
+               <effectiveTime value="20220801"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <list listType="unordered" styleCode="Disc">
+                           <item>Extended-release capsules: 600 mg (8mEq) and 750 mg (10 mEq)</item>
+                        </list>
+                     </text>
+                  </highlight>
+               </excerpt>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_28e66f97-39e2-493a-bde5-03b3b8b399ba">
+               <id root="311a7f2e-bb97-49ff-a718-f9cbfd20320d"/>
+               <code code="34070-3" codeSystem="2.16.840.1.113883.6.1" displayName="CONTRAINDICATIONS SECTION"/>
+               <title>4 CONTRAINDICATIONS</title>
+               <text>
+                  <paragraph>Potassium chloride extended-release capsules are contraindicated in patients on amiloride or triamterene.<br/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20220801"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <list listType="unordered" styleCode="Disc">
+                           <item>Concomitant use with triamterene and amiloride. (<linkHtml href="#LINK_28e66f97-39e2-493a-bde5-03b3b8b399ba">4</linkHtml>)</item>
+                        </list>
+                     </text>
+                  </highlight>
+               </excerpt>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_5da03a55-6cf3-43ed-aa05-5b795a2fcf91">
+               <id root="55bba93a-df4b-4143-90e0-3fc8cbabc16b"/>
+               <code code="43685-7" codeSystem="2.16.840.1.113883.6.1" displayName="WARNINGS AND PRECAUTIONS SECTION"/>
+               <title>5 WARNINGS AND PRECAUTIONS</title>
+               <effectiveTime value="20220801"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <list listType="unordered" styleCode="Disc">
+                           <item>Gastrointestinal Irritation: Take with meals (<linkHtml href="#LINK_91c19252-04d4-4261-bba5-aa0ba8ae7c9f">5.1</linkHtml>)</item>
+                        </list>
+                     </text>
+                  </highlight>
+               </excerpt>
+               <component>
+                  <section ID="LINK_91c19252-04d4-4261-bba5-aa0ba8ae7c9f">
+                     <id root="6a1dc07e-abd9-403f-92d2-6326326c1227"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>5.1 Gastrointestinal Adverse Reactions</title>
+                     <text>
+                        <paragraph>Solid oral dosage forms of potassium chloride can produce ulcerative and/or stenotic lesions of the gastrointestinal tract, particularly if the drug is in contact with the gastrointestinal mucosa for a prolonged period of time. Consider the use of liquid potassium in patients with dysphagia, swallowing disorders, or severe gastrointestinal motility disorders.</paragraph>
+                        <paragraph>If severe vomiting, abdominal pain, distention, or gastrointestinal bleeding occurs, discontinue potassium chloride extended-release capsules and consider possibility of ulceration, obstruction or perforation.</paragraph>
+                        <paragraph>Potassium chloride extended-release capsules should not be taken on an empty stomach because of its potential for gastric irritation <content styleCode="italics">[see Dosage and Administration (2.1)]</content>.</paragraph>
+                     </text>
+                     <effectiveTime value="20220801"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_0178f8ac-a85d-403a-aa95-816dd29368aa">
+               <id root="18def6a8-e88a-4360-a09f-02dce1c6633b"/>
+               <code code="34084-4" codeSystem="2.16.840.1.113883.6.1" displayName="ADVERSE REACTIONS SECTION"/>
+               <title>6 ADVERSE REACTIONS</title>
+               <text>
+                  <paragraph>The following adverse reactions have been identified with use of oral potassium salts. Because these reactions are reported voluntarily from a population of uncertain size, it is not always possible to reliably estimate their frequency or establish a causal relationship to drug exposure.</paragraph>
+                  <paragraph>The most common adverse reactions to oral potassium salts are nausea, vomiting, flatulence, abdominal pain/discomfort, and diarrhea. </paragraph>
+                  <paragraph>There have been reports of hyperkalemia and of upper and lower gastrointestinal conditions including, obstruction, bleeding, ulceration, and perforation.</paragraph>
+                  <paragraph>Skin rash has been reported rarely.</paragraph>
+               </text>
+               <effectiveTime value="20220801"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <paragraph>Most common adverse reactions are nausea, vomiting, flatulence, abdominal pain/discomfort, and diarrhea. (<linkHtml href="#LINK_0178f8ac-a85d-403a-aa95-816dd29368aa">6</linkHtml>)</paragraph>
+                        <paragraph>
+                           <content styleCode="bold">To report SUSPECTED ADVERSE REACTIONS, contact Teva at 1-888-838-2872 or FDA at 1-800-FDA-1088 or www.fda.gov/medwatch.</content>
+                        </paragraph>
+                     </text>
+                  </highlight>
+               </excerpt>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_579c94f3-8ef1-49d7-b024-175fbf7bea78">
+               <id root="dc230cad-8ca4-41b7-a884-307708a575b8"/>
+               <code code="34073-7" codeSystem="2.16.840.1.113883.6.1" displayName="DRUG INTERACTIONS SECTION"/>
+               <title>7 DRUG INTERACTIONS</title>
+               <effectiveTime value="20220801"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <list listType="unordered" styleCode="Disk">
+                           <item>Triamterene and amiloride: Concomitant use is contraindicated (<linkHtml href="#LINK_e9ae5d11-eff7-4f21-a68c-ea1100463898">7.1</linkHtml>)</item>
+                           <item>Renin-angiotensin-aldosterone inhibitors: Monitor for hyperkalemia (<linkHtml href="#LINK_85801319-7d6c-4872-9f44-e88ce50137f5">7.2</linkHtml>)</item>
+                           <item>Nonsteroidal Anti-inflammatory drugs (NSAIDS): Monitor for hyperkalemia (<linkHtml href="#LINK_85e5d97b-ed43-435e-85ac-4511caab4360">7.3</linkHtml>)</item>
+                        </list>
+                     </text>
+                  </highlight>
+               </excerpt>
+               <component>
+                  <section ID="LINK_e9ae5d11-eff7-4f21-a68c-ea1100463898">
+                     <id root="39c8c04e-2776-42fa-825c-2e9d145016ff"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>7.1 Amiloride and Triamterene</title>
+                     <text>
+                        <paragraph>Use with triamterene or amiloride can produce severe hyperkalemia. Concomitant use is contraindicated <content styleCode="italics">[see Contraindications (<linkHtml href="#LINK_28e66f97-39e2-493a-bde5-03b3b8b399ba">4</linkHtml>)]</content>.</paragraph>
+                     </text>
+                     <effectiveTime value="20220801"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_85801319-7d6c-4872-9f44-e88ce50137f5">
+                     <id root="730737db-a7d1-4f0e-a317-a17ef63ff0d7"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>7.2 Renin-Angiotensin-Aldosterone Inhibitors</title>
+                     <text>
+                        <paragraph>Drugs that inhibit the renin-angiotensin-aldosternone system (RAAS) including angiotensin converting enzyme (ACE) inhibitors, angiotensin receptor blockers (ARBs), spironolactone, eplerenone, or aliskiren produces potassium retention by inhibiting aldosterone production. Closely monitor potassium in patients taking drugs that inhibit RAAS.</paragraph>
+                     </text>
+                     <effectiveTime value="20220801"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_85e5d97b-ed43-435e-85ac-4511caab4360">
+                     <id root="3e3d386d-3398-4b8b-8862-efccee36bf59"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>7.3 Nonsteroidal Anti-Inflammatory Drugs (NSAIDs)</title>
+                     <text>
+                        <paragraph>NSAIDs may produce potassium retention by reducing renal synthesis of prostaglandin E and impairing the renin-angiotensin system. Closely monitor potassium in patients taking NSAIDS.</paragraph>
+                     </text>
+                     <effectiveTime value="20220801"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_28761c98-8bbc-4b25-802b-2f81d5f044d1">
+               <id root="4a8e3723-a818-45e3-8f04-a02f01f216ce"/>
+               <code code="43684-0" codeSystem="2.16.840.1.113883.6.1" displayName="USE IN SPECIFIC POPULATIONS SECTION"/>
+               <title>8 USE IN SPECIFIC POPULATIONS</title>
+               <effectiveTime value="20220801"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <list listType="unordered" styleCode="Disk">
+                           <item>Cirrhosis: Initiate therapy at the low end of the dosing range (<linkHtml href="#LINK_7dc112cd-3eab-409b-817d-aab2c2651f2c">8.6</linkHtml>)</item>
+                           <item>Renal Impairment: Initiate therapy at the low end of the dosing range (<linkHtml href="#LINK_2fff01d8-d657-4fc1-90f7-7dc2195bf274">8.7</linkHtml>)</item>
+                        </list>
+                     </text>
+                  </highlight>
+               </excerpt>
+               <component>
+                  <section ID="LINK_9db656bc-75ac-43c9-a8ea-adf611a00791">
+                     <id root="02f9f6c1-f9a8-4106-a636-014acad89b5a"/>
+                     <code code="42228-7" codeSystem="2.16.840.1.113883.6.1" displayName="PREGNANCY SECTION"/>
+                     <title>8.1 Pregnancy</title>
+                     <text>
+                        <paragraph>
+                           <content styleCode="underline">Risk Summary</content>
+                           <br/> There are no human data related to use of potassium chloride extended-release capsules during pregnancy and animal reproductive studies have not been conducted. Potassium supplementation that does not lead to hyperkalemia is not expected to cause fetal harm.</paragraph>
+                        <paragraph>The background risk for major birth defects and miscarriage in the indicated population is unknown. All pregnancies have a background risk of birth defect, loss, or other adverse outcomes. In the U.S. general population, the estimated background risk of major birth defects and miscarriage in clinically recognized pregnancies is 2% to 4% and 15% to 20%, respectively.</paragraph>
+                     </text>
+                     <effectiveTime value="20220801"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_84212ca4-c025-43e7-bf9e-309ced52e4eb">
+                     <id root="fe0ab130-89f5-4ff3-8e7a-3e5f4765ce55"/>
+                     <code code="34079-4" codeSystem="2.16.840.1.113883.6.1" displayName="LABOR &amp; DELIVERY SECTION"/>
+                     <title>8.2 Lactation</title>
+                     <text>
+                        <paragraph>
+                           <content styleCode="underline">Risk Summary</content>
+                           <br/> The normal potassium ion content of human milk is about 13 mEq per liter. Since oral potassium becomes part of the body potassium pool, as long as body potassium is not excessive, the contribution of potassium chloride supplementation should have little or no effect on the level in human milk.</paragraph>
+                        <paragraph>
+                           <br/>
+                        </paragraph>
+                     </text>
+                     <effectiveTime value="20220801"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_171b24a7-4705-4986-92cb-c6072bd3b89f">
+                     <id root="9756600f-19f2-44b7-ba08-3595ddc4902a"/>
+                     <code code="34081-0" codeSystem="2.16.840.1.113883.6.1" displayName="PEDIATRIC USE SECTION"/>
+                     <title>8.4 Pediatric Use</title>
+                     <text>
+                        <paragraph>Clinical trial data from published literature have demonstrated the safety and effectiveness of potassium chloride in children with diarrhea and malnutrition from birth to 18 years.</paragraph>
+                     </text>
+                     <effectiveTime value="20220801"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_93b6f5d9-dad4-4309-9138-f44bb2e56ec0">
+                     <id root="275c3e70-2065-4b10-bfbb-3ba97cee605d"/>
+                     <code code="34082-8" codeSystem="2.16.840.1.113883.6.1" displayName="GERIATRIC USE SECTION"/>
+                     <title>8.5 Geriatric Use</title>
+                     <text>
+                        <paragraph>Clinical studies of potassium chloride did not include sufficient numbers of subjects aged 65 and over to determine whether they respond differently from younger subjects. Other reported clinical experience has not identified differences in responses between the elderly and younger patients. In general, dose selection for an elderly patient should be cautious, usually starting at the low end of the dosing range, reflecting the greater frequency of decreased hepatic, renal, or cardiac function, and of concomitant disease or other drug therapy.</paragraph>
+                        <paragraph>This drug is known to be substantially excreted by the kidney, and the risk of toxic reactions to this drug may be greater in patients with impaired renal function. Because elderly patients are more likely to have decreased renal function, care should be taken in dose selection, and it may be useful to monitor renal function.</paragraph>
+                     </text>
+                     <effectiveTime value="20220801"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_7dc112cd-3eab-409b-817d-aab2c2651f2c">
+                     <id root="28a3bd85-399f-49fb-87cb-1071a8d20071"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>8.6 Cirrhotics</title>
+                     <text>
+                        <paragraph>Based on publish literature, the baseline corrected serum concentrations of potassium measured over 3 hours after administration in cirrhotic subjects who received an oral potassium load rose to approximately twice that of normal subjects who received the same load. Patients with cirrhosis should usually be started at the low end of the dosing range, and the serum potassium level should be monitored frequently <content styleCode="italics">[see Clinical Pharmacology (<linkHtml href="#LINK_2918cb2b-1703-46cc-9d3e-43426ca8d455">12.3</linkHtml>)]</content>.</paragraph>
+                     </text>
+                     <effectiveTime value="20220801"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_2fff01d8-d657-4fc1-90f7-7dc2195bf274">
+                     <id root="b94b8925-ad2a-4487-bb2d-62faf5680ebb"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>8.7 Renal Impairment</title>
+                     <text>
+                        <paragraph>Patients with renal impairment have reduced urinary excretion of potassium and are at substantially increased risk of hyperkalemia. Patients with impaired renal function, particularly if the patient is on RAAS inhibitors or nonsteroidal anti-inflammatory drugs, should usually be started at the low end of the dosing range because of the potential for development of hyperkalemia <content styleCode="italics">[see Drug Interactions (<linkHtml href="#LINK_85801319-7d6c-4872-9f44-e88ce50137f5">7.2</linkHtml>, <linkHtml href="#LINK_85e5d97b-ed43-435e-85ac-4511caab4360">7.3</linkHtml>]</content>. The serum potassium level should be monitored frequently. Renal function should be assessed periodically.</paragraph>
+                     </text>
+                     <effectiveTime value="20220801"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_f6fd962b-f628-433f-86eb-f3aa2e3ed599">
+               <id root="d74a8f22-0409-4eec-baa3-d48a4f032303"/>
+               <code code="34088-5" codeSystem="2.16.840.1.113883.6.1" displayName="OVERDOSAGE SECTION"/>
+               <title>10 OVERDOSAGE</title>
+               <effectiveTime value="20220801"/>
+               <component>
+                  <section ID="LINK_9878dda6-499e-4d14-9478-f37d42a68010">
+                     <id root="233687f8-430a-4cf9-83e8-776ed541bdf9"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>10.1 Symptoms</title>
+                     <text>
+                        <paragraph>The administration of oral potassium salts to persons with normal excretory mechanisms for potassium rarely causes serious hyperkalemia. However, if excretory mechanisms are impaired, potentially fatal hyperkalemia can result.</paragraph>
+                        <paragraph>Hyperkalemia is usually asymptomatic and may be manifested only by an increased serum potassium concentration (6.5 to 8.0 mEq/L) and characteristic electrocardiographic changes (peaking of T-waves, loss of P-waves, depression of S-T segment, and prolongation of the QT-interval). Late manifestations include muscle paralysis and cardiovascular collapse from cardiac arrest (9 to 12 mEq/L).</paragraph>
+                     </text>
+                     <effectiveTime value="20220801"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_3fff76a9-2f32-4a87-8929-b4c0e2645dca">
+                     <id root="2586f21e-981f-4448-bd5b-a485dad76c61"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>10.2 Treatment</title>
+                     <text>
+                        <paragraph>Treatment measures for hyperkalemia include the following:</paragraph>
+                        <list listType="ordered" styleCode="Arabic">
+                           <item>Monitor closely for arrhythmias and electrolyte changes.</item>
+                           <item>Eliminate foods and medications containing potassium and any agents with potassium-sparing<br/> properties such as potassium-sparing diuretics, ARBs, ACE inhibitors, NSAIDs, certain nutritional supplements, and many others.</item>
+                           <item>Administer intravenous calcium gluconate if the patient is at no risk or low risk of developing digitalis toxicity.</item>
+                           <item>Administer 300 to 500 mL/hr of 10% dextrose solution containing 10 to 20 units of crystalline insulin per 1,000 mL.</item>
+                           <item>Correct acidosis, if present, with intravenous sodium bicarbonate.</item>
+                           <item>Use exchange resins, hemodialysis, or peritoneal dialysis.</item>
+                        </list>
+                        <paragraph>In patients who have been stabilized on digitalis, too rapid a lowering of the serum potassium concentration can produce digitalis toxicity.</paragraph>
+                        <paragraph>The extended-release feature means that absorption and toxic effects may be delayed for hours.<br/> Consider standard measures to remove any unabsorbed drug.</paragraph>
+                     </text>
+                     <effectiveTime value="20220801"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_83adff9a-52a3-419f-8aed-73ac0c008fd4">
+               <id root="5a9c7937-cd11-4145-950e-99a89812bdec"/>
+               <code code="34089-3" codeSystem="2.16.840.1.113883.6.1" displayName="DESCRIPTION SECTION"/>
+               <title>11 DESCRIPTION</title>
+               <text>
+                  <paragraph>Potassium chloride extended-release capsules USP, 8 mEq and 10 mEq are an oral dosage form of microencapsulated potassium chloride containing 600 mg and 750 mg of potassium chloride, USP equivalent to 8 mEq and 10 mEq of potassium, respectively.</paragraph>
+                  <paragraph>The chemical name of the active ingredient is potassium chloride and the structural formula is KCl. It has a molecular mass of 74.55. Potassium chloride, USP occurs as a white granular powder or as colorless crystals. It is odorless and has a saline taste. Its solutions are neutral to litmus. It is freely soluble in water and insoluble in alcohol.<br/>
+                  </paragraph>
+                  <paragraph> The inactive ingredients are, ethylcellulose, FD&amp;C Blue #1, FD&amp;C Red # 40, gelatin, sodium lauryl sulfate, titanium oxide and triacetin.<br/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20220801"/>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_b47070b3-fd47-42ba-a89c-8eb73f10beba">
+               <id root="435d8701-152a-41a4-8083-ee65c423f0f2"/>
+               <code code="34090-1" codeSystem="2.16.840.1.113883.6.1" displayName="CLINICAL PHARMACOLOGY SECTION"/>
+               <title>12 CLINICAL PHARMACOLOGY</title>
+               <effectiveTime value="20220801"/>
+               <component>
+                  <section ID="LINK_123199df-feb1-4f49-9546-3affcc838e51">
+                     <id root="801fbfbf-a0a4-4294-a493-d8599ad48650"/>
+                     <code code="43679-0" codeSystem="2.16.840.1.113883.6.1" displayName="MECHANISM OF ACTION SECTION"/>
+                     <title>12.1 Mechanism of Action</title>
+                     <text>
+                        <paragraph>The potassium ion (K+) is the principal intracellular cation of most body tissues. Potassium ions participate in a number of essential physiological processes, including the maintenance of intracellular tonicity; the transmission of nerve impulses; the contraction of cardiac, skeletal, and smooth muscle; and the maintenance of normal renal function.</paragraph>
+                        <paragraph>The intracellular concentration of potassium is approximately 150 to 160 mEq per liter. The normal adult plasma concentration is 3.5 to 5 mEq per liter. An active ion transport system maintains this gradient across the plasma membrane.</paragraph>
+                        <paragraph>Potassium is a normal dietary constituent and under steady-state conditions the amount of potassium absorbed from the gastrointestinal tract is equal to the amount excreted in the urine. The usual dietary intake of potassium is 50 to 100 mEq per day.</paragraph>
+                     </text>
+                     <effectiveTime value="20220801"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_2918cb2b-1703-46cc-9d3e-43426ca8d455">
+                     <id root="6d81a5ac-d038-4343-9a1d-91e4d5d6ca4c"/>
+                     <code code="43682-4" codeSystem="2.16.840.1.113883.6.1" displayName="PHARMACOKINETICS SECTION"/>
+                     <title>12.3 Pharmacokinetics</title>
+                     <text>
+                        <paragraph>Each crystal of KCl is microencapsulated and allows for the controlled release of potassium and chloride ions over an eight- to ten-hour period.</paragraph>
+                        <paragraph>
+                           <content styleCode="underline">Specific Populations</content>
+                        </paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Cirrhotics</content>
+                        </paragraph>
+                        <paragraph>Based on publish literature, the baseline corrected serum concentrations of potassium measured over 3 hours after administration in cirrhotic subjects who received an oral potassium load rose to approximately twice that of normal subjects who received the same load.</paragraph>
+                     </text>
+                     <effectiveTime value="20220801"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_387b587b-343a-4327-b60a-f786616c708b">
+               <id root="6b990662-5039-40ea-a54e-e8a7efc547de"/>
+               <code code="34069-5" codeSystem="2.16.840.1.113883.6.1" displayName="HOW SUPPLIED SECTION"/>
+               <title>16 HOW SUPPLIED/STORAGE AND HANDLING</title>
+               <text>
+                  <paragraph>Potassium chloride extended-release capsules USP, 8 mEq are white opaque capsules, imprinted with Andrx logo on the cap and 559 on the body, each containing 600 mg microencapsulated potassium chloride (equivalent to 8 mEq K) in bottles of 100 (NDC 62037-559-01) and bottles of 500 (NDC 62037-559-05). </paragraph>
+                  <paragraph>Potassium chloride extended-release capsules USP, 10 mEq are dark blue opaque capsules, imprinted with Andrx logo on the cap and 560 on the body, each containing 750 mg microencapsulated potassium chloride (equivalent to 10 mEq K) in bottles of 90 (NDC 62037-560-90), bottles of 100 (NDC 62037-560-01), bottles of 500 (NDC 62037-560-05) and bottles of 1000 (NDC 62037-560-10). </paragraph>
+                  <paragraph>Store at 20° to 25°C (68° to 77°F) [see USP Controlled Room Temperature].</paragraph>
+                  <paragraph>Dispense in a tight container as defined in the USP. </paragraph>
+                  <paragraph>                                                                                                                     <br/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20220801"/>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_fcf3a7bf-ecc7-4005-8ed7-c038b8ade9ef">
+               <id root="e3d237f1-c2a8-4735-b0bb-3875db0a535f"/>
+               <code code="34076-0" codeSystem="2.16.840.1.113883.6.1" displayName="INFORMATION FOR PATIENTS SECTION"/>
+               <title>17 PATIENT COUNSELING INFORMATION</title>
+               <text>
+                  <list listType="unordered" styleCode="Disk">
+                     <item>Inform patients to take each dose with meals and with a full glass of water or other liquid.</item>
+                     <item>Advise patients seek medical attention if tarry stools or other evidence of gastrointestinal toxicity is noticed.</item>
+                  </list>
+                  <paragraph>Manufactured For: <br/>
+                     <content styleCode="bold">Teva Pharmaceuticals</content>
+                     <br/> Parsippany, NJ 07054</paragraph>
+                  <paragraph> Rev. B 8/2022                                                                                                                      <br/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20220801"/>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_2ff988fa-81e3-416a-bf42-809541b200f7">
+               <id root="0022a8ab-d1fd-4ee6-af3a-98681a970f74"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>PRINCIPAL DISPLAY PANEL</title>
+               <text>
+                  <paragraph>NDC 62037-559-01</paragraph>
+                  <paragraph>Potassium Chloride Extended-Release Capsules, USP</paragraph>
+                  <paragraph> (600 mg) 8 mEq K</paragraph>
+                  <paragraph>Rx only</paragraph>
+                  <paragraph>100 Capsules<content styleCode="bold"> </content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">
+                        <renderMultiMedia referencedObject="MM1"/>
+                     </content>
+                     <br/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20220801"/>
+               <component>
+                  <observationMedia ID="MM1">
+                     <text>1</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="image-1.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_36c90a1f-44ad-47c2-9bff-b0ccee2d6261">
+               <id root="f4f2d9f4-3024-4e2a-89ac-3e484cf303e9"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>PRINCIPAL DISPLAY PANEL</title>
+               <text>
+                  <paragraph>NDC 62037-560-90</paragraph>
+                  <paragraph>Potassium Chloride Extended-Release Capsules, USP</paragraph>
+                  <paragraph> (750 mg) 10 mEq K</paragraph>
+                  <paragraph>Rx only</paragraph>
+                  <paragraph>90 Capsules </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">
+                        <renderMultiMedia referencedObject="MM2"/>
+                     </content>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20220801"/>
+               <component>
+                  <observationMedia ID="MM2">
+                     <text>1</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="image-2.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

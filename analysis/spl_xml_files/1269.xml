@@ -1,0 +1,1842 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="https://www.accessdata.fda.gov/spl/stylesheet/spl.xsl"?>
+<document xmlns="urn:hl7-org:v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 https://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="8b1ee450-0954-42ef-a0eb-8d721b65824c"/>
+   <code code="34391-3" displayName="HUMAN PRESCRIPTION DRUG LABEL" codeSystem="2.16.840.1.113883.6.1"/>
+   <title>
+      <content styleCode="bold">
+         <content styleCode="bold">METHYLPREDNISOLONE ACETATE INJECTABLE SUSPENSION, USP</content>
+         <br/>
+         <br/>
+NOT FOR USE IN NEONATES<br/>
+CONTAINS BENZYL ALCOHOL<br/>
+         <br/>
+Not For Intravenous Use</content>
+   </title>
+   <effectiveTime value="20240809"/>
+   <setId root="631f7d3e-5620-4be3-b918-2f0d38a97890"/>
+   <versionNumber value="16"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id extension="119185057" root="1.3.6.1.4.1.519.1"/>
+            <name>Endo USA, Inc.</name>
+            <assignedEntity>
+               <assignedOrganization/>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section>
+               <id root="c756ec27-9311-40e6-8cf5-8b74ad097152"/>
+               <code code="48780-1" displayName="SPL listing data elements section" codeSystem="2.16.840.1.113883.6.1"/>
+               <effectiveTime value="20240912"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="42023-240" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>Methylprednisolone Acetate</name>
+                        <formCode code="C42995" displayName="INJECTION, SUSPENSION" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>Methylprednisolone Acetate</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator unit="mg" value="80"/>
+                              <denominator unit="mL" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="43502P7F0P" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>METHYLPREDNISOLONE ACETATE</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="X4W7ZR7023" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>METHYLPREDNISOLONE</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <quantity>
+                              <numerator unit="mg" value="28.2"/>
+                              <denominator unit="mL" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="G2M7P15E5P" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>POLYETHYLENE GLYCOL 3350</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <quantity>
+                              <numerator unit="mg" value="1.88"/>
+                              <denominator unit="mL" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="6OZP39ZG8H" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>POLYSORBATE 80</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <quantity>
+                              <numerator unit="mg" value="6.59"/>
+                              <denominator unit="mL" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="3980JIH2SW" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SODIUM PHOSPHATE, MONOBASIC</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <quantity>
+                              <numerator unit="mg" value="1.37"/>
+                              <denominator unit="mL" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="GR686LBA74" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SODIUM PHOSPHATE, DIBASIC</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <quantity>
+                              <numerator unit="mg" value="8.88"/>
+                              <denominator unit="mL" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="LKG8494WBH" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>BENZYL ALCOHOL</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="451W47IQ8X" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SODIUM CHLORIDE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="QTT17582CB" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>HYDROCHLORIC ACID</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="55X04QC32I" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SODIUM HYDROXIDE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator unit="mL" value="5"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code/>
+                              <formCode code="C43226" displayName="VIAL" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator unit="1" value="1"/>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code code="42023-240-01" codeSystem="2.16.840.1.113883.6.69"/>
+                                    <formCode code="C43182" displayName="CARTON" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 </containerPackagedProduct>
+                                 <subjectOf>
+                                    <marketingAct>
+                                       <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                       <statusCode code="active"/>
+                                       <effectiveTime>
+                                          <low value="20220630"/>
+                                       </effectiveTime>
+                                    </marketingAct>
+                                 </subjectOf>
+                              </asContent>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" displayName="Type 0: Not a Combination Product" codeSystem="2.16.840.1.113883.3.26.1.1" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <id extension="ANDA214297" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73584" displayName="ANDA" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20220630"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38222" displayName="INTRA-ARTERIAL" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38250" displayName="INTRALESIONAL" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C28161" displayName="INTRAMUSCULAR" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38198" displayName="SOFT TISSUE" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="42023-239" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>METHYLPREDNISOLONE ACETATE</name>
+                        <formCode code="C42995" displayName="INJECTION, SUSPENSION" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>METHYLPREDNISOLONE ACETATE</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator unit="mg" value="40"/>
+                              <denominator unit="mL" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="43502P7F0P" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>METHYLPREDNISOLONE ACETATE</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="X4W7ZR7023" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>METHYLPREDNISOLONE</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <quantity>
+                              <numerator unit="mg" value="29.1"/>
+                              <denominator unit="mL" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="G2M7P15E5P" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>POLYETHYLENE GLYCOL 3350</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <quantity>
+                              <numerator unit="mg" value="1.94"/>
+                              <denominator unit="mL" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="6OZP39ZG8H" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>POLYSORBATE 80</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <quantity>
+                              <numerator unit="mg" value="6.8"/>
+                              <denominator unit="mL" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="3980JIH2SW" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SODIUM PHOSPHATE, MONOBASIC</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <quantity>
+                              <numerator unit="mg" value="9.16"/>
+                              <denominator unit="mL" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="LKG8494WBH" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>BENZYL ALCOHOL</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <quantity>
+                              <numerator unit="mg" value="1.42"/>
+                              <denominator unit="mL" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="GR686LBA74" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SODIUM PHOSPHATE, DIBASIC</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="451W47IQ8X" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SODIUM CHLORIDE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="QTT17582CB" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>HYDROCHLORIC ACID</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="55X04QC32I" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SODIUM HYDROXIDE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator unit="mL" value="10"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code/>
+                              <formCode code="C43226" displayName="VIAL" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator unit="1" value="1"/>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code code="42023-239-01" codeSystem="2.16.840.1.113883.6.69"/>
+                                    <formCode code="C43182" displayName="CARTON" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 </containerPackagedProduct>
+                                 <subjectOf>
+                                    <marketingAct>
+                                       <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                       <statusCode code="active"/>
+                                       <effectiveTime>
+                                          <low value="20230512"/>
+                                       </effectiveTime>
+                                    </marketingAct>
+                                 </subjectOf>
+                              </asContent>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" displayName="Type 0: Not a Combination Product" codeSystem="2.16.840.1.113883.3.26.1.1" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <id extension="ANDA214297" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73584" displayName="ANDA" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20230512"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38223" displayName="INTRA-ARTICULAR" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38250" displayName="INTRALESIONAL" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C28161" displayName="INTRAMUSCULAR" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38198" displayName="SOFT TISSUE" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="42023-238" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>METHYLPREDNISOLONE ACETATE</name>
+                        <formCode code="C42995" displayName="INJECTION, SUSPENSION" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>METHYLPREDNISOLONE ACETATE</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator unit="mg" value="40"/>
+                              <denominator unit="mL" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="43502P7F0P" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>METHYLPREDNISOLONE ACETATE</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="X4W7ZR7023" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>METHYLPREDNISOLONE</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator unit="mL" value="5"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code/>
+                              <formCode code="C43226" displayName="VIAL" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator unit="1" value="1"/>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code code="42023-238-01" codeSystem="2.16.840.1.113883.6.69"/>
+                                    <formCode code="C43182" displayName="CARTON" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 </containerPackagedProduct>
+                                 <subjectOf>
+                                    <marketingAct>
+                                       <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                       <statusCode code="active"/>
+                                       <effectiveTime>
+                                          <low value="20231102"/>
+                                       </effectiveTime>
+                                    </marketingAct>
+                                 </subjectOf>
+                              </asContent>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" displayName="Type 0: Not a Combination Product" codeSystem="2.16.840.1.113883.3.26.1.1" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <id extension="ANDA214297" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73584" displayName="ANDA" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20231102"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38223" displayName="INTRA-ARTICULAR" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38250" displayName="INTRALESIONAL" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38254" displayName="INTRAMENINGEAL" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38198" displayName="SOFT TISSUE" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_0e563ea8-75a2-4bb7-81b3-235f668d3801">
+               <id root="f1c6bc9f-b3e7-4133-b65c-e95a34a93713"/>
+               <code code="34089-3" codeSystem="2.16.840.1.113883.6.1" displayName="DESCRIPTION SECTION"/>
+               <title>DESCRIPTION</title>
+               <text>
+                  <paragraph>Methylprednisolone Acetate Injectable Suspension, USP is a sterile anti-inflammatory glucocorticoid for intramuscular, intra- articular, soft tissue, or intralesional injection. It is available in two strengths: 40 mg/mL, 80 mg/mL.</paragraph>
+                  <paragraph>Each mL of these preparations contains:</paragraph>
+                  <table>
+                     <col width="350px"/>
+                     <col width="150px"/>
+                     <col width="150px"/>
+                     <tbody>
+                        <tr>
+                           <td>Methylprednisolone acetate</td>
+                           <td align="right">40 mg</td>
+                           <td align="right">80 mg</td>
+                        </tr>
+                        <tr>
+                           <td>Polyethylene glycol 3350</td>
+                           <td align="right">29.1 mg</td>
+                           <td align="right">28.2 mg</td>
+                        </tr>
+                        <tr>
+                           <td>Polysorbate 80</td>
+                           <td align="right">1.94 mg</td>
+                           <td align="right">1.88 mg</td>
+                        </tr>
+                        <tr>
+                           <td>Monobasic sodium phosphate</td>
+                           <td align="right">6.8 mg</td>
+                           <td align="right">6.59 mg</td>
+                        </tr>
+                        <tr>
+                           <td>Dibasic sodium phosphate USP</td>
+                           <td align="right">1.42 mg</td>
+                           <td align="right">1.37 mg</td>
+                        </tr>
+                        <tr>
+                           <td>Benzyl alcohol added as a preservative</td>
+                           <td align="right">9.16 mg</td>
+                           <td align="right">8.88 mg</td>
+                        </tr>
+                     </tbody>
+                  </table>
+                  <paragraph>Sodium Chloride was added to adjust tonicity.</paragraph>
+                  <paragraph>When necessary, pH was adjusted with sodium hydroxide and/or hydrochloric acid.</paragraph>
+                  <paragraph>The pH of the finished product remains within the USP specified range (e.g., 3.5 to 7.0).</paragraph>
+                  <paragraph>The chemical name for methylprednisolone acetate is pregna-1,4-diene-3,20-dione, 21-(acetyloxy)-11,17-dihydroxy-6-methyl-,(6α,11ß)- and the molecular weight is 416.51. The structural formula is represented below:</paragraph>
+                  <renderMultiMedia referencedObject="MM1"/>
+                  <paragraph>Methylprednisolone Acetate Injectable Suspension, USP contains methylprednisolone acetate which is the 6-methyl derivative of prednisolone. Methylprednisolone acetate is a white or practically white, odorless, crystalline powder which melts at about 215° with some decomposition. It is soluble in dioxane, sparingly soluble in acetone, alcohol, chloroform, and methanol, and slightly soluble in ether. It is practically insoluble in water.</paragraph>
+               </text>
+               <effectiveTime value="20240809"/>
+               <component>
+                  <observationMedia ID="MM1">
+                     <text>Figure 1</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="methylprednisolone-acetate-injectable-suspension-u-1.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_e60fd3da-488f-4f4b-8e2e-714f4786c558">
+               <id root="d2c64c61-dd03-4300-93cc-5c27512dea5e"/>
+               <code code="34090-1" codeSystem="2.16.840.1.113883.6.1" displayName="CLINICAL PHARMACOLOGY SECTION"/>
+               <title>CLINICAL PHARMACOLOGY</title>
+               <text>
+                  <paragraph>Glucocorticoids, naturally occurring and synthetic, are adrenocortical steroids.</paragraph>
+                  <paragraph>Naturally occurring glucocorticoids (hydrocortisone and cortisone), which also have salt retaining properties, are used in replacement therapy in adrenocortical deficiency states. Their synthetic analogs are used primarily for their anti- inflammatory effects in disorders of many organ systems.</paragraph>
+                  <paragraph>Glucocorticoids cause profound and varied metabolic effects. In addition, they modify the body’s immune response to diverse stimuli.</paragraph>
+               </text>
+               <effectiveTime value="20240809"/>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_b7c3a853-6b1c-44f9-8d11-15f14caf85c1">
+               <id root="a2fa8170-69d1-4b15-b706-88f3b888be59"/>
+               <code code="34067-9" codeSystem="2.16.840.1.113883.6.1" displayName="INDICATIONS &amp; USAGE SECTION"/>
+               <title>INDICATIONS AND USAGE</title>
+               <effectiveTime value="20240809"/>
+               <component>
+                  <section ID="LINK_5645a176-85d6-4932-8a06-f3915ff4832f">
+                     <id root="a5c1ba0a-6c74-485f-b88c-3ec6d196b188"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>
+                        <content styleCode="bold">A. FOR INTRAMUSCULAR ADMINISTRATION</content>
+                     </title>
+                     <text>
+                        <paragraph>When oral therapy is not feasible and the strength, dosage form, and route of administration of the drug reasonably lend the preparation to the treatment of the condition, the intramuscular use of Methylprednisolone Acetate Injectable Suspension is indicated as follows:</paragraph>
+                        <paragraph>
+                           <content styleCode="italics">A</content>
+                           <content styleCode="italics">llergic States</content>: Control of severe or incapacitating allergic conditions intractable to adequate trials of conventional treatment in asthma, atopic dermatitis, contact dermatitis, drug hypersensitivity reactions, serum sickness, transfusion reactions.</paragraph>
+                        <paragraph>
+                           <content styleCode="italics">De</content>
+                           <content styleCode="italics">rmatologic Diseases</content>: Bullous dermatitis herpetiformis, exfoliative erythroderma, mycosis fungoides, pemphigus, severe erythema multiforme (Stevens-Johnson syndrome).</paragraph>
+                        <paragraph>
+                           <content styleCode="italics">E</content>
+                           <content styleCode="italics">ndocrine Disorders</content>: Primary or secondary adrenocortical insufficiency (hydrocortisone or cortisone is the drug of choice; synthetic analogs may be used in conjunction with mineralocorticoids where applicable; in infancy, mineralocorticoid supplementation is of particular importance), congenital adrenal hyperplasia, hypercalcemia associated with cancer, nonsuppurative thyroiditis.</paragraph>
+                        <paragraph>
+                           <content styleCode="italics">G</content>
+                           <content styleCode="italics">astrointestinal Diseases</content>: To tide the patient over a critical period of the disease in regional enteritis (systemic therapy) and ulcerative colitis.</paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Hem</content>
+                           <content styleCode="italics">atologic Disorders</content>: Acquired (autoimmune) hemolytic anemia, congenital (erythroid) hypoplastic anemia (Diamond Blackfan anemia), pure red cell aplasia, select cases of secondary thrombocytopenia.</paragraph>
+                        <paragraph>
+                           <content styleCode="italics">M</content>
+                           <content styleCode="italics">iscellaneous</content>: Trichinosis with neurologic or myocardial involvement, tuberculous meningitis with subarachnoid block or impending block when used concurrently with appropriate antituberculous chemotherapy.</paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Neoplastic Diseases</content>: For palliative management of leukemias and lymphomas.</paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Nervous System</content>: Cerebral edema associated with primary or metastatic brain tumor or craniotomy.</paragraph>
+                        <paragraph>
+                           <content styleCode="italics">O</content>
+                           <content styleCode="italics">phthalmic Diseases</content>: Sympathetic ophthalmia, temporal arteritis, uveitis and ocular inflammatory conditions unresponsive to topical corticosteroids.</paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Re</content>
+                           <content styleCode="italics">nal Diseases</content>: To induce diuresis or remission of proteinuria in idiopathic nephrotic syndrome, or that due to lupus erythematosus.</paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Re</content>
+                           <content styleCode="italics">spiratory Diseases</content>: Berylliosis, fulminating or disseminated pulmonary tuberculosis when used concurrently with appropriate antituberculous chemotherapy, idiopathic eosinophilic pneumonias, symptomatic sarcoidosis.</paragraph>
+                        <paragraph>
+                           <content styleCode="italics">R</content>
+                           <content styleCode="italics">heumatic Disorders</content>: As adjunctive therapy for short-term administration (to tide the patient over an acute episode or exacerbation) in acute gouty arthritis; acute rheumatic carditis; ankylosing spondylitis; psoriatic arthritis; rheumatoid arthritis, including juvenile rheumatoid arthritis (selected cases may require low-dose maintenance therapy). For the treatment of dermatomyositis, polymyositis, and systemic lupus erythematosus.</paragraph>
+                     </text>
+                     <effectiveTime value="20240809"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_b1fe646f-6bcf-4c4c-b1ce-0c5e6be35b70">
+                     <id root="adb7bf19-93f7-434f-86f6-c40585d8f167"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>
+                        <content styleCode="bold">B. FOR INTRA-ARTICULAR OR SOFT TISSUE
+ADMINISTRATION </content>
+                     </title>
+                     <text>
+                        <paragraph>
+                           <content styleCode="bold">
+                              <linkHtml href="#www.splportal.comLINK_1f8708a7-8bc0-4f56-b73b-894942f21894">(See WARNINGS)</linkHtml>
+                           </content>
+                        </paragraph>
+                        <paragraph>Methylprednisolone Acetate Injectable Suspension is indicated as adjunctive therapy for short-term administration (to tide the patient over an acute episode or exacerbation) in acute gouty arthritis, acute and subacute bursitis, acute nonspecific tenosynovitis, epicondylitis, rheumatoid arthritis, synovitis of osteoarthritis.</paragraph>
+                     </text>
+                     <effectiveTime value="20240809"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_b23365c7-7fd2-4530-ae08-565284b09125">
+                     <id root="d664f108-e3f7-4ff6-a0d0-010f3f521a59"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>
+                        <content styleCode="bold">C. FOR INTRALESIONAL ADMINISTRATION</content>
+                     </title>
+                     <text>
+                        <paragraph>Methylprednisolone Acetate Injectable Suspension is indicated for intralesional use in alopecia areata, discoid lupus erythematosus, keloids, localized hypertrophic, infiltrated, inflammatory lesions of granuloma annulare, lichen planus, lichen simplex chronicus (neurodermatitis), and psoriatic plaques, necrobiosis lipoidica diabeticorum. Methylprednisolone Acetate Injectable Suspension also may be useful in cystic tumors of an aponeurosis or tendon (ganglia).</paragraph>
+                     </text>
+                     <effectiveTime value="20240809"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_f78e6910-863b-4192-93c1-61b51c9fce9f">
+               <id root="fe2a071e-9295-4c23-bc5f-63442e2ad0a5"/>
+               <code code="34070-3" codeSystem="2.16.840.1.113883.6.1" displayName="CONTRAINDICATIONS SECTION"/>
+               <title>CONTRAINDICATIONS</title>
+               <text>
+                  <paragraph>Methylprednisolone Acetate Injectable Suspension is contraindicated in patients with known hypersensitivity to the product and its constituents.</paragraph>
+                  <paragraph>Intramuscular corticosteroid preparations are contraindicated for idiopathic thrombocytopenic purpura.</paragraph>
+                  <paragraph>Methylprednisolone Acetate Injectable Suspension is contraindicated for intrathecal administration. Reports of severe medical events have been associated with this route of administration.</paragraph>
+                  <paragraph>Methylprednisolone Acetate Injectable Suspension is contraindicated for use in premature infants because the formulation contains benzyl alcohol. (See <content styleCode="bold">
+                        <linkHtml href="#www.splportal.comLINK_1f8708a7-8bc0-4f56-b73b-894942f21894">WARNINGS</linkHtml> </content>and <content styleCode="bold">
+                        <content styleCode="bold">
+                           <linkHtml href="#www.splportal.comLINK_d1ac77e9-f18e-452d-a9be-5d3fa88bd6cf">PRECAUTIONS</linkHtml>
+                        </content>
+                        <linkHtml href="#www.splportal.comLINK_d1ac77e9-f18e-452d-a9be-5d3fa88bd6cf">: </linkHtml>
+                        <content styleCode="bold">
+                           <linkHtml href="#www.splportal.comLINK_d1ac77e9-f18e-452d-a9be-5d3fa88bd6cf">Pediatric Use</linkHtml>
+                        </content>
+                     </content>.)</paragraph>
+                  <paragraph>Methylprednisolone Acetate Injectable Suspension is contraindicated in systemic fungal infections, except when administered as an intra-articular injection for localized joint conditions (see <content styleCode="bold">
+                        <linkHtml href="#www.splportal.comLINK_24ca317a-efda-44e6-835d-b87300cd22fe">WARNINGS: Infections, </linkHtml>
+                        <content styleCode="italics">
+                           <linkHtml href="#www.splportal.comLINK_24ca317a-efda-44e6-835d-b87300cd22fe">Fungal Infections</linkHtml>
+                        </content>
+                     </content>).</paragraph>
+               </text>
+               <effectiveTime value="20240809"/>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_1f8708a7-8bc0-4f56-b73b-894942f21894">
+               <id root="b8b604d7-1d70-435e-ab3b-3a23e6875012"/>
+               <code code="34071-1" codeSystem="2.16.840.1.113883.6.1" displayName="WARNINGS SECTION"/>
+               <title>WARNINGS</title>
+               <effectiveTime value="20240809"/>
+               <component>
+                  <section ID="LINK_2b070408-0c34-469f-a823-11d22e379fd0">
+                     <id root="5b800189-75fd-49e8-9303-26dbd1e50e28"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>
+                        <content styleCode="bold">Serious
+Neurologic Adverse Reactions
+with
+Epidural Administration</content>
+                     </title>
+                     <text>
+                        <paragraph>Serious neurologic events, some resulting in death, have been reported with epidural injection of corticosteroids. Specific events reported include, but are not limited to, spinal cord infarction, paraplegia, quadriplegia, cortical blindness, and stroke. These serious neurologic events have been reported with and without use of fluoroscopy. The safety and effectiveness of epidural administration of corticosteroids have not been established, and corticosteroids are not approved for this use.</paragraph>
+                     </text>
+                     <effectiveTime value="20240809"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_39d6a2fc-5272-4a33-be0a-71e8593d7e05">
+                     <id root="6f5db175-d999-4355-b9c7-f111f2af3b64"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>
+                        <content styleCode="bold">General</content>
+                     </title>
+                     <text>
+                        <paragraph>
+                           <content styleCode="bold">This product contains benzyl alcohol, which is potentially toxic when administered locally to neural tissue. </content>Exposure to excessive amounts of benzyl alcohol has been associated with toxicity (hypotension, metabolic acidosis), particularly in neonates, and an increased incidence of kernicterus, particularly in small preterm infants. There have been rare reports of deaths, primarily in preterm infants, associated with exposure to excessive amounts of benzyl alcohol. The amount of benzyl alcohol in medications is usually considered negligible compared to that received in flush solutions containing benzyl alcohol. Administration of high dosages of medications containing this preservative must take into account the total amount of benzyl alcohol administered. The amount of benzyl alcohol at which toxicity may occur is not known. If the patient requires more than the recommended dosages or other medications containing this preservative, the practitioner must consider the daily metabolic load of benzyl alcohol from these combined sources (see <content styleCode="bold">
+                              <content styleCode="bold">
+                                 <linkHtml href="#www.splportal.comLINK_d1ac77e9-f18e-452d-a9be-5d3fa88bd6cf">PRECAUTIONS</linkHtml>
+                              </content>
+                              <linkHtml href="#www.splportal.comLINK_d1ac77e9-f18e-452d-a9be-5d3fa88bd6cf">: </linkHtml>
+                              <content styleCode="bold">
+                                 <linkHtml href="#www.splportal.comLINK_d1ac77e9-f18e-452d-a9be-5d3fa88bd6cf">Pediatric Use</linkHtml>
+                              </content>
+                           </content>).</paragraph>
+                        <paragraph>
+                           <content styleCode="bold">Multidose use of Methylprednisolone Acetate Injectable Suspension from a single vial requires special care to avoid contamination. Although initially sterile, any multidose use of vials may lead to contamination unless strict aseptic technique is observed. Particular care, such as use of disposable sterile syringes and needles, is necessary.</content>
+                        </paragraph>
+                        <paragraph>
+                           <content styleCode="bold">Injection of Methylprednisolone Acetate Injectable Suspension may result in dermal and/or subdermal changes, forming depressions in the skin at the injection site.</content>
+                        </paragraph>
+                        <paragraph>
+                           <content styleCode="bold">In order to minimize the incidence of dermal and subdermal atrophy, care must be exercised not to exceed recommended doses in injections. Multiple small injections into the area of the lesion should be made whenever possible. The technique of intra-articular and intramuscular injection should include precautions against injection or leakage into the dermis. Injection into the deltoid muscle should be avoided because of a high incidence of subcutaneous atrophy.</content>
+                        </paragraph>
+                        <paragraph>
+                           <content styleCode="bold">It is critical that, during administration of Methylprednisolone Acetate Injectable Suspension, appropriate technique be used and care taken to ensure proper placement of drug.</content>
+                        </paragraph>
+                        <paragraph>Rare instances of anaphylactoid reactions have occurred in patients receiving corticosteroid therapy.</paragraph>
+                        <paragraph>Increased dosage of rapidly acting corticosteroids is indicated in patients on corticosteroid therapy subjected to any unusual stress before, during, or after the stressful situation (see <content styleCode="bold">
+                              <content styleCode="bold">
+                                 <linkHtml href="#www.splportal.comLINK_6fe9071f-b806-4a91-8d04-78c16f115dd3">A</linkHtml>
+                              </content>
+                              <content styleCode="bold">
+                                 <linkHtml href="#www.splportal.comLINK_6fe9071f-b806-4a91-8d04-78c16f115dd3">DV</linkHtml>
+                              </content>
+                              <content styleCode="bold">
+                                 <linkHtml href="#www.splportal.comLINK_6fe9071f-b806-4a91-8d04-78c16f115dd3">ERSE REACTIONS</linkHtml>
+                              </content>
+                           </content>).</paragraph>
+                        <paragraph>Results from one multicenter, randomized, placebo-controlled study with methylprednisolone hemisuccinate, an IV corticosteroid, showed an increase in early (at 2 weeks) and late (at 6 months) mortality in patients with cranial trauma who were determined not to have other clear indications for corticosteroid treatment. High doses of systemic corticosteroids, including Methylprednisolone Acetate Injectable Suspension, should not be used for the treatment of traumatic brain injury.</paragraph>
+                     </text>
+                     <effectiveTime value="20240809"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_7f906f41-d46d-4723-ae93-ee42c2c4097a">
+                     <id root="3ca39306-97ca-493b-bae2-32e54e37c24d"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>
+                        <content styleCode="bold">Cardio-renal</content>
+                     </title>
+                     <text>
+                        <paragraph>Average and large doses of corticosteroids can cause elevation of blood pressure, salt and water retention, and increased excretion of potassium. These effects are less likely to occur with the synthetic derivatives except when used in large doses. Dietary salt restriction and potassium supplementation may be necessary. All corticosteroids increase calcium excretion.</paragraph>
+                        <paragraph>Literature reports suggest an apparent association between the use of corticosteroids and left ventricular free wall rupture after a recent myocardial infarction; therefore, therapy with corticosteroids should be used with great caution in these patients.</paragraph>
+                     </text>
+                     <effectiveTime value="20240809"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_69a6bf69-a32d-4180-8d6e-8c394ca69abb">
+                     <id root="8f7db4a0-97f5-4f59-9a18-8c44ceaf3d37"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>
+                        <content styleCode="bold">Endocrine</content>
+                     </title>
+                     <text>
+                        <paragraph>Hypothalamic-pituitary adrenal (HPA) axis suppression, Cushing’s syndrome, and hyperglycemia: Monitor patients for these conditions with chronic use.</paragraph>
+                        <paragraph>Corticosteroids can produce reversible HPA axis suppression with the potential for glucocorticosteroid insufficiency after withdrawal of treatment. Drug induced secondary adrenocortical insufficiency may be minimized by gradual reduction of dosage. This type of relative insufficiency may persist for months after discontinuation of therapy; therefore, in any situation of stress occurring during that period, hormone therapy should be reinstituted.</paragraph>
+                     </text>
+                     <effectiveTime value="20240809"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_be1e0812-d590-4d83-b9c0-c9411acb7a6f">
+                     <id root="fee60a13-4ff9-4180-b0d9-da20b6193f32"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>
+                        <content styleCode="bold">Infections</content>
+                     </title>
+                     <text/>
+                     <effectiveTime value="20240809"/>
+                     <component>
+                        <section ID="LINK_e5175fb5-79f5-4814-b51b-736d064f6a8b">
+                           <id root="d99e0c97-d418-4812-9c3a-b97fb59a701c"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title>
+                              <content styleCode="bold">
+                                 <content styleCode="italics">General</content>
+                              </content>
+                           </title>
+                           <text>
+                              <paragraph>Persons who are on corticosteroids are more susceptible to infections than are healthy individuals. There may be decreased resistance and inability to localize infection when corticosteroids are used. Infections with any pathogen (viral, bacterial, fungal, protozoan, or helminthic) in any location of the body may be associated with the use of corticosteroids alone or in combination with other immunosuppressive agents.</paragraph>
+                              <paragraph>These infections may be mild, but can be severe and at times fatal. With increasing doses of corticosteroids, the rate of occurrence of infectious complications increases. Corticosteroids may mask some signs of current infection. Do not use intra-articularly, intrabursally, or for intratendinous administration for local effect in the presence of acute local infection.</paragraph>
+                           </text>
+                           <effectiveTime value="20240809"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section ID="LINK_24ca317a-efda-44e6-835d-b87300cd22fe">
+                           <id root="18642691-653d-4ff4-a92c-dfd330b8740e"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title>
+                              <content styleCode="bold">
+                                 <content styleCode="italics">Fungal Infections</content>
+                              </content>
+                           </title>
+                           <text>
+                              <paragraph>Corticosteroids may exacerbate systemic fungal infections and therefore should not be used in the presence of such infections unless they are needed to control drug reactions. There have been cases reported in which concomitant use of amphotericin B and hydrocortisone was followed by cardiac enlargement and congestive heart failure (see <content styleCode="bold">
+                                    <content styleCode="bold">
+                                       <linkHtml href="#www.splportal.comLINK_f78e6910-863b-4192-93c1-61b51c9fce9f">C</linkHtml>
+                                    </content>
+                                    <content styleCode="bold">
+                                       <linkHtml href="#www.splportal.comLINK_f78e6910-863b-4192-93c1-61b51c9fce9f">ONTRAINDICATIONS</linkHtml> </content>
+                                 </content>and <content styleCode="bold">
+                                    <content styleCode="bold">
+                                       <linkHtml href="#www.splportal.comLINK_1712382e-c398-4758-9ef0-f34ee34629ae">PRECAUTIONS</linkHtml>
+                                    </content>
+                                    <linkHtml href="#www.splportal.comLINK_1712382e-c398-4758-9ef0-f34ee34629ae">: </linkHtml>
+                                    <content styleCode="bold">
+                                       <linkHtml href="#www.splportal.comLINK_1712382e-c398-4758-9ef0-f34ee34629ae">Drug Interactions</linkHtml>
+                                    </content>
+                                    <linkHtml href="#www.splportal.comLINK_1712382e-c398-4758-9ef0-f34ee34629ae">, </linkHtml>
+                                 </content>
+                                 <content styleCode="italics">
+                                    <linkHtml href="#www.splportal.comLINK_1712382e-c398-4758-9ef0-f34ee34629ae">Amphotericin B injection and potassium-depleting agents</linkHtml>
+                                 </content>).</paragraph>
+                           </text>
+                           <effectiveTime value="20240809"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section ID="LINK_cdf0ac85-4c18-48e1-b930-8f1135d2b8ab">
+                           <id root="0c3d9206-48d7-4d7d-a6d2-f23e9c078413"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title>
+                              <content styleCode="bold">
+                                 <content styleCode="italics">Special
+Pathogens</content>
+                              </content>
+                           </title>
+                           <text>
+                              <paragraph>Latent disease may be activated or there may be an exacerbation of intercurrent infections due to pathogens, including those caused by <content styleCode="italics">Amoeba</content>, <content styleCode="italics">Candida</content>, <content styleCode="italics">Cryptococcus</content>, <content styleCode="italics">Mycobacterium</content>, <content styleCode="italics">Nocardia</content>, <content styleCode="italics">Pneumocystis</content>, and <content styleCode="italics">Toxoplasma.</content>
+                              </paragraph>
+                              <paragraph>It is recommended that latent amebiasis or active amebiasis be ruled out before initiating corticosteroid therapy in any patient who has spent time in the tropics or in any patient with unexplained diarrhea.</paragraph>
+                              <paragraph>Similarly, corticosteroids should be used with great care in patients with known or suspected <content styleCode="italics">Strongyloides </content>(threadworm) infestation. In such patients, corticosteroid- induced immunosuppression may lead to <content styleCode="italics">Strongyloides </content>hyperinfection and dissemination with widespread larval migration, often accompanied by severe enterocolitis and potentially fatal gram-negative septicemia.</paragraph>
+                              <paragraph>Corticosteroids should not be used in cerebral malaria. There is currently no evidence of benefit from steroids in this condition.</paragraph>
+                           </text>
+                           <effectiveTime value="20240809"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section ID="LINK_6e92b4a1-7350-4427-a859-2cc6dccd6964">
+                           <id root="3f9b24f4-bfb2-4861-956d-b08163e07f0d"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title>
+                              <content styleCode="bold">
+                                 <content styleCode="italics">Tuberculosis</content>
+                              </content>
+                           </title>
+                           <text>
+                              <paragraph>The use of corticosteroids in active tuberculosis should be restricted to those cases of fulminating or disseminated tuberculosis in which the corticosteroid is used for the management of the disease in conjunction with an appropriate antituberculous regimen.</paragraph>
+                              <paragraph>If corticosteroids are indicated in patients with latent tuberculosis or tuberculin reactivity, close observation is necessary, as reactivation of the disease may occur. During prolonged corticosteroid therapy, these patients should receive chemoprophylaxis.</paragraph>
+                           </text>
+                           <effectiveTime value="20240809"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section ID="LINK_2b884a4e-ed48-417f-90b1-641462f56152">
+                           <id root="ed909594-579b-4c61-af02-d77f8ff2d664"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title>
+                              <content styleCode="bold">
+                                 <content styleCode="italics">Vaccinations</content>
+                              </content>
+                           </title>
+                           <text>
+                              <paragraph>
+                                 <content styleCode="bold">Administration of live or live, attenuated vaccines is contraindicated in patients receiving immunosuppressive doses of corticosteroids. Killed or inactivated vaccines may be administered. However, the response to such vaccines cannot be predicted. </content>Immunization procedures may be undertaken in patients who are receiving corticosteroids as replacement therapy (e.g., for Addison’s disease).</paragraph>
+                           </text>
+                           <effectiveTime value="20240809"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section ID="LINK_008d4b8f-6ca7-486e-bace-82209b06baa2">
+                           <id root="9d74f75a-c814-4806-851e-51eb19ae6c57"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title>
+                              <content styleCode="bold">
+                                 <content styleCode="italics">Viral Infections</content>
+                              </content>
+                           </title>
+                           <text>
+                              <paragraph>Chicken pox and measles can have a more serious or even fatal course in pediatric and adult patients on corticosteroids. In pediatric and adult patients who have not had these diseases, particular care should be taken to avoid exposure. The contribution of the underlying disease and/or prior corticosteroid treatment to the risk is also not known. If exposed to chicken pox, prophylaxis with varicella zoster immune globulin (VZIG) may be indicated. If exposed to measles, prophylaxis with immunoglobulin (IG) may be indicated. (See the respective package inserts for complete VZIG and IG prescribing information.) If chicken pox develops, treatment with antiviral agents should be considered.</paragraph>
+                           </text>
+                           <effectiveTime value="20240809"/>
+                        </section>
+                     </component>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_e8675963-c1b5-41a4-a9c8-952eb7c6efdb">
+                     <id root="3b026385-82cb-491c-b082-bd160e83d6a0"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>
+                        <content styleCode="bold">Ophthalmic</content>
+                     </title>
+                     <text>
+                        <paragraph>Use of corticosteroids may produce posterior subcapsular cataracts, glaucoma with possible damage to the optic nerves, and may enhance the establishment of secondary ocular infections due to bacteria, fungi, or viruses. The use of systemic corticosteroids is not recommended in the treatment of optic neuritis and may lead to an increase in the risk of new episodes. Corticosteroids should be used cautiously in patients with ocular herpes simplex because of corneal perforation. Corticosteroids should not be used in active ocular herpes simplex.</paragraph>
+                     </text>
+                     <effectiveTime value="20240809"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_a7c424ec-3380-4acd-9732-2616ade210ab">
+               <id root="94287636-384b-4c32-b712-cee0f9e8fe45"/>
+               <code code="42232-9" codeSystem="2.16.840.1.113883.6.1" displayName="PRECAUTIONS SECTION"/>
+               <title>PRECAUTIONS</title>
+               <effectiveTime value="20240809"/>
+               <component>
+                  <section ID="LINK_1ce1fa81-d35a-4e78-b465-951171795ee4">
+                     <id root="43067eaa-11a9-418e-bb47-e3d8d4ca3596"/>
+                     <code code="34072-9" codeSystem="2.16.840.1.113883.6.1" displayName="GENERAL PRECAUTIONS SECTION"/>
+                     <title>General</title>
+                     <text>
+                        <paragraph>When multidose vials are used, special care to prevent contamination of the contents is essential. A povidone-iodine solution or similar product is recommended to cleanse the vial top prior to aspiration of contents. (See <content styleCode="bold">
+                              <linkHtml href="#www.splportal.comLINK_1f8708a7-8bc0-4f56-b73b-894942f21894">WARNINGS</linkHtml>
+                           </content>.)</paragraph>
+                        <paragraph>This product, like many other steroid formulations, is sensitive to heat. Therefore, it should not be autoclaved when it is desirable to sterilize the outside of the vial.</paragraph>
+                        <paragraph>The lowest possible dose of corticosteroid should be used to control the condition under treatment. When reduction in dosage is possible, the reduction should be gradual.</paragraph>
+                        <paragraph>Since complications of treatment with glucocorticoids are dependent on the size of the dose and duration of treatment, a risk/benefit decision must be made in each individual case as to dose and duration of treatment and as to whether daily or intermittent therapy should be used.</paragraph>
+                        <paragraph>Kaposi’s sarcoma has been reported to occur in patients receiving corticosteroid therapy, most often for chronic conditions. Discontinuation of corticosteroids may result in clinical improvement.</paragraph>
+                     </text>
+                     <effectiveTime value="20240809"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_dc09d665-9b88-4c47-bcb0-7f7f0bbb4857">
+                     <id root="0502eb0d-0ebf-4a52-afcd-77df2313ca01"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Cardio-renal</title>
+                     <text>
+                        <paragraph>Caution is required in patients with systemic sclerosis because an increased incidence of scleroderma renal crisis has been observed with corticosteroids, including methylprednisolone.</paragraph>
+                        <paragraph>As sodium retention with resultant edema and potassium loss may occur in patients receiving corticosteroids, these agents should be used with caution in patients with congestive heart failure, hypertension, or renal insufficiency.</paragraph>
+                     </text>
+                     <effectiveTime value="20240809"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_6407a2dc-bc90-4caf-b917-82ed62bd7ff5">
+                     <id root="3fec3a2f-fcbb-4529-9bc1-c8f1fc09591f"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Endocrine</title>
+                     <text>
+                        <paragraph>Drug-induced secondary adrenocortical insufficiency may be minimized by gradual reduction of dosage. This type of relative insufficiency may persist for months after discontinuation of therapy; therefore, in any situation of stress occurring during that period, hormone therapy should be reinstituted.</paragraph>
+                        <paragraph>Metabolic clearance of corticosteroids is decreased in hypothyroid patients and increased in hyperthyroid patients. Changes in thyroid status of the patient may necessitate adjustment in dosage.</paragraph>
+                     </text>
+                     <effectiveTime value="20240809"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_2c7d0164-e3c3-45a7-8a1f-7db9b1004a7c">
+                     <id root="c5561f99-2bb0-49eb-b69e-6e1d44ab58c7"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Gastrointestinal</title>
+                     <text>
+                        <paragraph>Steroids should be used with caution in active or latent peptic ulcers, diverticulitis, fresh intestinal anastomoses, and non-specific ulcerative colitis, since they may increase the risk of a perforation.</paragraph>
+                        <paragraph>Signs of peritoneal irritation following gastrointestinal perforation in patients receiving corticosteroids may be minimal or absent.</paragraph>
+                        <paragraph>There is an enhanced effect due to decreased metabolism of corticosteroids in patients with cirrhosis.</paragraph>
+                     </text>
+                     <effectiveTime value="20240809"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_d479c114-ed74-4be6-a423-cfde480da8aa">
+                     <id root="6f7e8566-c39d-49a0-9a69-57bf9067707d"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Parenteral Administration</title>
+                     <text>
+                        <paragraph>Intra-articular injected corticosteroids may be systemically absorbed.</paragraph>
+                        <paragraph>Appropriate examination of any joint fluid is necessary to exclude a septic process.</paragraph>
+                        <paragraph>A marked increase in pain associated by local swelling, further restriction of joint motion, fever, and malaise are suggestive of septic arthritis. If this complication occurs and the diagnosis of sepsis is confirmed, appropriate antimicrobial therapy should be instituted.</paragraph>
+                        <paragraph>Injection of a steroid into an infected site is to be avoided. Local injection of a steroid into a previously infected joint is not usually recommended.</paragraph>
+                     </text>
+                     <effectiveTime value="20240809"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_10a2dbbf-5ead-4777-b370-ce8bb90631a8">
+                     <id root="0738f041-9614-427c-ac99-f73b417337f6"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Musculoskeletal</title>
+                     <text>
+                        <paragraph>Corticosteroids decrease bone formation and increase bone resorption both through their effect on calcium regulation (e.g., decreasing absorption and increasing excretion) and inhibition of osteoblast function. This, together with a decrease in the protein matrix of the bone secondary to an increase in protein catabolism, and reduced sex hormone production, may lead to inhibition of bone growth in pediatric patients and the development of osteoporosis at any age. Special consideration should be given to patients at increased risk of osteoporosis (i.e., postmenopausal women) before initiating corticosteroid therapy.</paragraph>
+                     </text>
+                     <effectiveTime value="20240809"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_c496089c-c75f-49df-8e18-8665c7441c21">
+                     <id root="0ee06aff-f950-4c19-a778-3adbfce806e4"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Neuro-psychiatric</title>
+                     <text>
+                        <paragraph>An acute myopathy has been observed with the use of high doses of corticosteroids, most often occurring in patients with disorders of neuromuscular transmission (e.g., myasthenia gravis), or in patients receiving concomitant therapy with neuromuscular blocking drugs (e.g., pancuronium). This acute myopathy is generalized, may involve ocular and respiratory muscles, and may result in quadriparesis. Elevation of creatine kinase may occur. Clinical improvement or recovery after stopping corticosteroids may require weeks to years.</paragraph>
+                        <paragraph>Psychic derangements may appear when corticosteroids are used, ranging from euphoria, insomnia, mood swings, personality changes, and severe depression to frank psychotic manifestations. Also, existing emotional instability or psychotic tendencies may be aggravated by corticosteroids.</paragraph>
+                     </text>
+                     <effectiveTime value="20240809"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_e00ba128-5b55-46e0-9128-685da5d0faa3">
+                     <id root="9a370d02-542e-4ebc-9859-ba9efa791d68"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Ophthalmic</title>
+                     <text>
+                        <paragraph>Intraocular pressure may become elevated in some individuals. If steroid therapy is continued for more than 6 weeks, intraocular pressure should be monitored.</paragraph>
+                        <paragraph>Corticosteroids should be used cautiously in patients with ocular herpes simplex for fear of corneal perforation.</paragraph>
+                     </text>
+                     <effectiveTime value="20240809"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_7338e1c2-289a-4889-8764-5377dcb0b5c7">
+                     <id root="844e6319-f73c-409b-91f3-1425fa80d1ea"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Information for the Patient</title>
+                     <text>
+                        <paragraph>Patients should be warned not to discontinue the use of corticosteroids abruptly or without medical supervision, to advise any medical attendants that they are taking corticosteroids, and to seek medical advice at once should they develop fever or other signs of infection.</paragraph>
+                        <paragraph>Persons who are on corticosteroids should be warned to avoid exposure to chicken pox or measles. Patients should also be advised that if they are exposed, medical advice should be sought without delay.</paragraph>
+                     </text>
+                     <effectiveTime value="20240809"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_37d246af-0b29-4eb6-af69-b46fd71e4c23">
+                     <id root="1a399872-4190-44bf-a8fa-b3f64341c170"/>
+                     <code code="34073-7" codeSystem="2.16.840.1.113883.6.1" displayName="DRUG INTERACTIONS SECTION"/>
+                     <title>Drug Interactions</title>
+                     <text/>
+                     <effectiveTime value="20240809"/>
+                     <component>
+                        <section ID="LINK_896bf78f-4459-4f38-94fa-4384ecbff1fd">
+                           <id root="77d45e7b-b174-4762-9761-4127da75ed27"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title>
+                              <content styleCode="italics">Aminoglutethimide:</content>
+                           </title>
+                           <text>
+                              <paragraph>Aminoglutethimide may lead to a loss of corticosteroid-induced adrenal suppression.</paragraph>
+                           </text>
+                           <effectiveTime value="20240809"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section ID="LINK_1712382e-c398-4758-9ef0-f34ee34629ae">
+                           <id root="67135174-0b0e-4075-ab48-bd96576ff210"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title>
+                              <content styleCode="italics">Amphotericin B injection and potassium-depleting agents:</content>
+                           </title>
+                           <text>
+                              <paragraph>When corticosteroids are administered concomitantly with potassium-depleting agents  (e.g., amphotericin B, diuretics), patients should be observed closely for development of hypokalemia. There have been cases reported in which concomitant use of amphotericin B and hydrocortisone was followed by cardiac enlargement and congestive heart failure.</paragraph>
+                           </text>
+                           <effectiveTime value="20240809"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section ID="LINK_8aef6c96-d7ab-436e-b37b-a05929ca727e">
+                           <id root="8ce32068-0256-4ddf-b1b1-d9f97c00b906"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title>
+                              <content styleCode="italics">Antibiotics:</content>
+                           </title>
+                           <text>
+                              <paragraph>Macrolide antibiotics have been reported to cause a significant decrease in corticosteroid clearance (see <content styleCode="bold">
+                                    <content styleCode="bold">
+                                       <linkHtml href="#www.splportal.comLINK_1e02f5a7-c76c-4edc-8f0b-9abef49cee9d">PRECAUTIONS</linkHtml>
+                                    </content>
+                                    <linkHtml href="#www.splportal.comLINK_1e02f5a7-c76c-4edc-8f0b-9abef49cee9d">: </linkHtml>
+                                    <content styleCode="bold">
+                                       <linkHtml href="#www.splportal.comLINK_1e02f5a7-c76c-4edc-8f0b-9abef49cee9d">Drug Interactions</linkHtml>
+                                    </content>
+                                    <linkHtml href="#www.splportal.comLINK_1e02f5a7-c76c-4edc-8f0b-9abef49cee9d">, </linkHtml>
+                                 </content>
+                                 <content styleCode="italics">
+                                    <linkHtml href="#www.splportal.comLINK_1e02f5a7-c76c-4edc-8f0b-9abef49cee9d">Hepatic Enzyme Inhibitors</linkHtml>
+                                 </content>).</paragraph>
+                           </text>
+                           <effectiveTime value="20240809"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section ID="LINK_6c23228c-c4e6-4f49-a240-e087662cae77">
+                           <id root="4d77ca46-4d90-4f61-8a21-9d2828176f03"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title>
+                              <content styleCode="italics">Anticholinesterases:</content>
+                           </title>
+                           <text>
+                              <paragraph>Concomitant use of anticholinesterase agents and corticosteroids may produce severe weakness in patients with myasthenia gravis. If possible, anticholinesterase agents should be withdrawn at least 24 hours before initiating corticosteroid therapy.</paragraph>
+                           </text>
+                           <effectiveTime value="20240809"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section ID="LINK_201dacec-2242-44ac-b482-2176e22b2430">
+                           <id root="e093f7f9-7328-4e71-a432-1792382152bd"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title>
+                              <content styleCode="italics">Anticoagulants, oral:</content>
+                           </title>
+                           <text>
+                              <paragraph>Coadministration of corticosteroids and warfarin usually results in inhibition of response to warfarin, although there have been some conflicting reports. Therefore, coagulation indices should be monitored frequently to maintain the desired anticoagulant effect.</paragraph>
+                           </text>
+                           <effectiveTime value="20240809"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section ID="LINK_119987f3-5995-4828-abd6-5dfe67612ac9">
+                           <id root="46cb3880-27de-4804-9a5a-d4629fe14710"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title>
+                              <content styleCode="italics">Antidiabetics:</content>
+                           </title>
+                           <text>
+                              <paragraph>Because corticosteroids may increase blood glucose concentrations, dosage adjustments of antidiabetic agents may be required.</paragraph>
+                           </text>
+                           <effectiveTime value="20240809"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section ID="LINK_051c5d8b-b779-41b9-b86f-e259068bb219">
+                           <id root="94593bf6-6639-406a-8706-c50f1dd1431f"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title>
+                              <content styleCode="italics">Antitubercular drugs:</content>
+                           </title>
+                           <text>
+                              <paragraph>Serum concentrations of isoniazid may be decreased.</paragraph>
+                           </text>
+                           <effectiveTime value="20240809"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section ID="LINK_0560a8f2-a1d8-4d06-a940-60fa565b059b">
+                           <id root="43ca136e-54ca-42f1-b3c1-6b7cff442ba8"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title>
+                              <content styleCode="italics">Cholestyramine:</content>
+                           </title>
+                           <text>
+                              <paragraph>Cholestyramine may increase the clearance of oral corticosteroids.</paragraph>
+                           </text>
+                           <effectiveTime value="20240809"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section ID="LINK_d2c5d7fa-6e3d-40dc-b2f9-d9737956540b">
+                           <id root="0a61bd9c-6b31-40a1-b59d-28567ec6b9d8"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title>
+                              <content styleCode="italics">Cyclosporine:</content>
+                           </title>
+                           <text>
+                              <paragraph>Increased activity of both cyclosporine and corticosteroids may occur when the two are used concurrently. Convulsions have been reported with concurrent use.</paragraph>
+                           </text>
+                           <effectiveTime value="20240809"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section ID="LINK_134f3a70-f4e6-4504-a1db-d98836a9e45a">
+                           <id root="8dba0b97-ba3b-4f79-863a-2391b0070b1d"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title>
+                              <content styleCode="italics">Digitalis glycosides:</content>
+                           </title>
+                           <text>
+                              <paragraph>Patients on digitalis glycosides may be at increased risk of arrhythmias due to hypokalemia.</paragraph>
+                           </text>
+                           <effectiveTime value="20240809"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section ID="LINK_c93f23c3-cbc1-4451-b915-d22a7932d437">
+                           <id root="4c59b117-05aa-482b-8eb5-314b633c6543"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title>
+                              <content styleCode="italics">Estrogens, including oral contraceptives:</content>
+                           </title>
+                           <text>
+                              <paragraph>Estrogens may decrease the hepatic metabolism of certain corticosteroids, thereby increasing their effect.</paragraph>
+                           </text>
+                           <effectiveTime value="20240809"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section ID="LINK_c58744f9-323d-4c16-8573-79fd92d73548">
+                           <id root="9abcc50f-c36b-4d5c-86c4-b83a3cf036b8"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title>
+                              <content styleCode="italics">Hepatic Enzyme Inducers (e.g., barbiturates, phenytoin, carbamazepine, rifampin):</content>
+                           </title>
+                           <text>
+                              <paragraph>Drugs which induce cytochrome P450 3A4 enzyme activity may enhance the metabolism of corticosteroids and require that the dosage of the corticosteroid be increased.</paragraph>
+                           </text>
+                           <effectiveTime value="20240809"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section ID="LINK_1e02f5a7-c76c-4edc-8f0b-9abef49cee9d">
+                           <id root="8f279c49-54aa-4ca9-9a5c-7c3f3eef8678"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title>
+                              <content styleCode="italics">Hepatic Enzyme Inhibitors (e.g., ketoconazole, macrolide antibiotics such as erythromycin and troleandomycin):</content>
+                           </title>
+                           <text>
+                              <paragraph>Drugs which inhibit cytochrome P450 3A4 have the potential to result in increased plasma concentrations of corticosteroids.</paragraph>
+                           </text>
+                           <effectiveTime value="20240809"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section ID="LINK_df36caab-0e5b-4e60-bdf9-314ac0f8cf41">
+                           <id root="14f62c04-f8ae-4655-b0c6-a2420dccad22"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title>
+                              <content styleCode="italics">Ketoconazole:</content>
+                           </title>
+                           <text>
+                              <paragraph>Ketoconazole has been reported to significantly decrease the metabolism of certain corticosteroids by up to 60%, leading to an increased risk of corticosteroid side effects.</paragraph>
+                           </text>
+                           <effectiveTime value="20240809"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section ID="LINK_18976d28-422e-4677-88e0-1add5119cc03">
+                           <id root="885072c9-6470-4a4f-80e2-29effff37ffe"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title>
+                              <content styleCode="italics">Nonsteroidal anti-inflammatory drugs (NSAIDs):</content>
+                           </title>
+                           <text>
+                              <paragraph>Concomitant use of aspirin (or other nonsteroidal anti-inflammatory agents) and corticosteroids increases the risk of gastrointestinal side effects. Aspirin should be used cautiously in conjunction with concurrent use of corticosteroids in hypoprothrombinemia. The clearance of salicylates may be increased with concurrent use of corticosteroids.</paragraph>
+                           </text>
+                           <effectiveTime value="20240809"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section ID="LINK_adac0643-fc92-4108-bad7-2ff6734ac406">
+                           <id root="61d1f8ea-ae5c-44c1-be04-5b64482acfa7"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title>
+                              <content styleCode="italics">Skin Tests:</content>
+                           </title>
+                           <text>
+                              <paragraph>Corticosteroids may suppress reactions to skin tests.</paragraph>
+                           </text>
+                           <effectiveTime value="20240809"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section ID="LINK_3d080f23-df9a-4caa-84f1-82ee764f78fa">
+                           <id root="0bcf6d5d-29c3-41e0-9b8b-c7365241294a"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title>
+                              <content styleCode="italics">Vaccines:</content>
+                           </title>
+                           <text>
+                              <paragraph>Patients on prolonged corticosteroid therapy may exhibit a diminished response to toxoids and live or attenuated vaccines due to inhibition of antibody response. Corticosteroids may also potentiate the replication of some organisms contained in live attenuated vaccines. Routine administration of vaccines or toxoids should be deferred until corticosteroid therapy is discontinued if possible (see <content styleCode="bold">
+                                    <linkHtml href="#www.splportal.comLINK_2b884a4e-ed48-417f-90b1-641462f56152">WARNINGS: Infections, </linkHtml>
+                                    <content styleCode="italics">
+                                       <linkHtml href="#www.splportal.comLINK_2b884a4e-ed48-417f-90b1-641462f56152">Vaccinations</linkHtml>
+                                    </content>
+                                 </content>).</paragraph>
+                           </text>
+                           <effectiveTime value="20240809"/>
+                        </section>
+                     </component>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_a31d4980-29a0-43aa-978c-48cf2de6b847">
+                     <id root="ae4bfb62-8914-4489-a75d-a4def5e88037"/>
+                     <code code="34083-6" codeSystem="2.16.840.1.113883.6.1" displayName="CARCINOGENESIS &amp; MUTAGENESIS &amp; IMPAIRMENT OF FERTILITY SECTION"/>
+                     <title>Carcinogenesis, Mutagenesis, Impairment of Fertility</title>
+                     <text>
+                        <paragraph>No adequate studies have been conducted in animals to determine whether corticosteroids have a potential for carcinogenesis or mutagenesis.</paragraph>
+                        <paragraph>Steroids may increase or decrease motility and number of spermatozoa in some patients.</paragraph>
+                        <paragraph>Corticosteroids have been shown to impair fertility in male rats.</paragraph>
+                     </text>
+                     <effectiveTime value="20240809"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_141f5517-7452-4d38-af5f-4db32d85c8b8">
+                     <id root="56d6d30d-c955-457f-ab71-bcdb2a93e8ba"/>
+                     <code code="42228-7" codeSystem="2.16.840.1.113883.6.1" displayName="PREGNANCY SECTION"/>
+                     <title>Pregnancy:</title>
+                     <text>
+                        <paragraph>
+                           <content styleCode="bold">Teratogenic Effects</content>
+                        </paragraph>
+                        <paragraph>Corticosteroids have been shown to be teratogenic in many species when given in doses equivalent to the human dose. Animal studies in which corticosteroids have been given to pregnant mice, rats, and rabbits have yielded an increased incidence of cleft palate in the offspring. There are no adequate and well-controlled studies in pregnant women. Corticosteroids should be used during pregnancy only if the potential benefit justifies the potential risk to the fetus. Infants born to mothers who have received corticosteroids during pregnancy should be carefully observed for signs of hypoadrenalism.</paragraph>
+                        <paragraph>This product contains benzyl alcohol as a preservative.</paragraph>
+                        <paragraph>Benzyl alcohol can cross the placenta. See <content styleCode="bold">
+                              <linkHtml href="#www.splportal.comLINK_d1ac77e9-f18e-452d-a9be-5d3fa88bd6cf">PRECAUTIONS: Pediatric use</linkHtml>
+                           </content>.</paragraph>
+                     </text>
+                     <effectiveTime value="20240809"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_9236361a-b7da-474e-8941-7c4eecbb0577">
+                     <id root="6923dce2-1aa5-4e71-9884-24322f9e9710"/>
+                     <code code="34080-2" codeSystem="2.16.840.1.113883.6.1" displayName="NURSING MOTHERS SECTION"/>
+                     <title>Nursing Mothers</title>
+                     <text>
+                        <paragraph>Systemically administered corticosteroids appear in human milk and could suppress growth, interfere with endogenous corticosteroid production, or cause other untoward effects. Because of the potential for serious adverse reactions in nursing infants from corticosteroids, a decision should be made whether to continue nursing or discontinue the drug, taking into account the importance of the drug to the mother.</paragraph>
+                     </text>
+                     <effectiveTime value="20240809"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_d1ac77e9-f18e-452d-a9be-5d3fa88bd6cf">
+                     <id root="292d84a6-7073-4318-b600-88e29a6e202a"/>
+                     <code code="34081-0" codeSystem="2.16.840.1.113883.6.1" displayName="PEDIATRIC USE SECTION"/>
+                     <title>Pediatric Use</title>
+                     <text>
+                        <paragraph>This product contains benzyl alcohol as a preservative. Benzyl alcohol, a component of this product, has been associated with serious adverse events and death, particularly in pediatric patients. The “gasping syndrome” (characterized by central nervous system depression, metabolic acidosis, gasping respirations, and high levels of benzyl alcohol and its metabolites found in the blood and urine) has been associated with benzyl alcohol dosages &gt;99 mg/kg/day in neonates and low-birth-weight neonates. Additional symptoms may include gradual neurological deterioration, seizures, intracranial hemorrhage, hematologic abnormalities, skin breakdown, hepatic and renal failure, hypotension, bradycardia, and cardiovascular collapse. Although normal therapeutic doses of this product ordinarily delivers amounts of benzyl alcohol that are substantially lower than those reported in association with the “gasping syndrome”, the minimum amount of benzyl alcohol at which toxicity may occur is not known. The risk of benzyl alcohol toxicity depends on the quantity administered and the hepatic capacity to detoxify the chemical. Premature and low-birth-weight infants, as well as patients receiving high dosages, may be more likely to develop toxicity. Practitioners administering this and other medications containing benzyl alcohol should consider the combined daily metabolic load of benzyl alcohol from all sources.</paragraph>
+                        <paragraph>The efficacy and safety of corticosteroids in the pediatric population are based on the well-established course of effect of corticosteroids, which is similar in pediatric and adult populations. Published studies provide evidence of efficacy and safety in pediatric patients for the treatment of nephritic syndrome (patients &gt;2 years of age) and aggressive lymphomas and leukemias (patients &gt;1 month of age). Other indications for pediatric use of corticosteroids (e.g., severe asthma and wheezing) are based on adequate and well-controlled clinical trials conducted in adults, on the premises that the course of the diseases and their pathophysiology are considered to be substantially similar in both populations.</paragraph>
+                        <paragraph>The adverse effects of corticosteroids in pediatric patients are similar to those in adults (see <content styleCode="bold">
+                              <content styleCode="bold">
+                                 <linkHtml href="#www.splportal.comLINK_6fe9071f-b806-4a91-8d04-78c16f115dd3">A</linkHtml>
+                              </content>
+                              <content styleCode="bold">
+                                 <linkHtml href="#www.splportal.comLINK_6fe9071f-b806-4a91-8d04-78c16f115dd3">D</linkHtml>
+                              </content>
+                              <content styleCode="bold">
+                                 <linkHtml href="#www.splportal.comLINK_6fe9071f-b806-4a91-8d04-78c16f115dd3">V</linkHtml>
+                              </content>
+                              <content styleCode="bold">
+                                 <linkHtml href="#www.splportal.comLINK_6fe9071f-b806-4a91-8d04-78c16f115dd3">ERSE REACTIONS</linkHtml>
+                              </content>
+                           </content>). Like adults, pediatric patients should be carefully observed with frequent measurements of blood pressure, weight, height, intraocular pressure, and clinical evaluation for the presence of infection, psychosocial disturbances, thromboembolism, peptic ulcers, cataracts, and osteoporosis. Pediatric patients who are treated with corticosteroids by any route, including systemically administered corticosteroids, may experience a decrease in their growth velocity. This negative impact of corticosteroids on growth has been observed at low systemic doses and in the absence of laboratory evidence of HPA axis suppression (i.e., cosyntropin stimulation and basal cortisol plasma levels). Growth velocity may therefore be a more sensitive indicator of systemic corticosteroid exposure in pediatric patients than some commonly used tests of HPA axis function. The linear growth of pediatric patients treated with corticosteroids should be monitored, and the potential growth effects of prolonged treatment should be weighed against clinical benefits obtained and the availability of treatment alternatives. In order to minimize the potential growth effects of corticosteroids, pediatric patients should be titrated to the lowest effective dose.</paragraph>
+                     </text>
+                     <effectiveTime value="20240809"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_50deae92-0ab0-48c5-b2ca-92ec17f30389">
+                     <id root="5b6be236-77a3-4059-a5fd-7270fc56da5c"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Geriatric Use</title>
+                     <text>
+                        <paragraph>Clinical studies did not include sufficient numbers of subjects aged 65 and over to determine whether they respond differently from younger subjects. Other reported clinical experience has not identified differences in responses between the elderly and younger patients. In general, dose selection for an elderly patient should be cautious, usually starting at the low end of the dosing range, reflecting the greater frequency of decreased hepatic, renal, or cardiac function, and of concomitant disease or other drug therapy.</paragraph>
+                     </text>
+                     <effectiveTime value="20240809"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_6fe9071f-b806-4a91-8d04-78c16f115dd3">
+               <id root="2f0cb05a-566d-4005-bbc5-6af05357f800"/>
+               <code code="34084-4" codeSystem="2.16.840.1.113883.6.1" displayName="ADVERSE REACTIONS SECTION"/>
+               <title>ADVERSE REACTIONS</title>
+               <text>
+                  <paragraph>The following adverse reactions have been reported with Methylprednisolone Acetate Injectable Suspension or other corticosteroids:</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">
+                        <content styleCode="italics">Allergic reactions</content>
+                     </content>: Allergic or hypersensitivity reactions, anaphylactoid reaction, anaphylaxis, angioedema.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">
+                        <content styleCode="italics">Blood and lymphatic system disorders</content>
+                     </content>
+                     <content styleCode="italics">: </content>Leukocytosis.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">
+                        <content styleCode="italics">Cardiovascular</content>
+                     </content>: Bradycardia, cardiac arrest, cardiac arrhythmias, cardiac enlargement, circulatory collapse, congestive heart failure, fat embolism, hypertension, hypertrophic cardiomyopathy in premature infants, myocardial rupture following recent myocardial infarction (see <content styleCode="bold">
+                        <linkHtml href="#www.splportal.comLINK_1f8708a7-8bc0-4f56-b73b-894942f21894">WARNINGS</linkHtml>
+                     </content>), pulmonary edema, syncope, tachycardia, thromboembolism, thrombophlebitis, vasculitis.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">
+                        <content styleCode="italics">De</content>
+                     </content>
+                     <content styleCode="bold">
+                        <content styleCode="italics">rmatologic</content>
+                     </content>: Acne, allergic dermatitis, cutaneous and subcutaneous atrophy, dry scaly skin, ecchymoses and petechiae, edema, erythema, hyperpigmentation, hypopigmentation, impaired wound healing, increased sweating, rash, sterile abscess, striae, suppressed reactions to skin tests, thin fragile skin, thinning scalp hair, urticaria.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">
+                        <content styleCode="italics">Endocrine</content>
+                     </content>: Decreased carbohydrate and glucose tolerance, development of cushingoid state, glycosuria, hirsutism, hypertrichosis, increased requirements for insulin or oral hypoglycemic agents in diabetes, manifestations of latent diabetes mellitus, menstrual irregularities, secondary adrenocortical and pituitary unresponsiveness (particularly in times of stress, as in trauma, surgery, or illness), suppression of growth in pediatric patients.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">
+                        <content styleCode="italics">Fluid and electrolyte disturbances</content>
+                     </content>: Congestive heart failure in susceptible patients, fluid retention, hypokalemic alkalosis, potassium loss, sodium retention.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">
+                        <content styleCode="italics">G</content>
+                     </content>
+                     <content styleCode="bold">
+                        <content styleCode="italics">astrointestinal</content>
+                     </content>: Abdominal distention, bowel/bladder dysfunction (after intrathecal administration), elevation in serum liver enzyme levels (usually reversible upon discontinuation), hepatomegaly, increased appetite, nausea, pancreatitis, peptic ulcer with possible subsequent perforation and hemorrhage, perforation of the small and large intestine (particularly in patients with inflammatory bowel disease), ulcerative esophagitis.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">
+                        <content styleCode="italics">Metabolic</content>
+                     </content>: Negative nitrogen balance due to protein catabolism.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">
+                        <content styleCode="italics">Musculoskeletal</content>
+                     </content>: Aseptic necrosis of femoral and humeral heads, calcinosis (following intra-articular or intralesional use), Charcot-like arthropathy, loss of muscle mass, muscle weakness, osteoporosis, pathologic fracture of long bones, postinjection flare (following intra-articular use), steroid myopathy, tendon rupture, vertebral compression fractures.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">
+                        <content styleCode="italics">Ne</content>
+                     </content>
+                     <content styleCode="bold">
+                        <content styleCode="italics">urologic/Psychiatric</content>
+                     </content>: Convulsions, depression, emotional instability, euphoria, headache, increased intracranial pressure with papilledema (pseudotumor cerebri) usually following discontinuation of treatment, insomnia, mood swings, neuritis, neuropathy, paresthesia, personality changes, psychic disorders, vertigo.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">
+                        <content styleCode="italics">O</content>
+                     </content>
+                     <content styleCode="bold">
+                        <content styleCode="italics">phthalmic</content>
+                     </content>: Exophthalmoses, glaucoma, increased intraocular pressure, posterior subcapsular cataracts.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">
+                        <content styleCode="italics">O</content>
+                     </content>
+                     <content styleCode="bold">
+                        <content styleCode="italics">ther</content>
+                     </content>: Abnormal fat deposits, decreased resistance to infection, hiccups, increased or decreased motility and number of spermatozoa, injection site infections following non-sterile administration (see <content styleCode="bold">
+                        <linkHtml href="#www.splportal.comLINK_1f8708a7-8bc0-4f56-b73b-894942f21894">WARNINGS</linkHtml>
+                     </content>), malaise, moon face, weight gain.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">The following adverse reactions have been reported with the following routes of administration:</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">
+                        <content styleCode="italics">Intrathecal/Epidural</content>
+                     </content>: Arachnoiditis, bowel/bladder dysfunction, headache, meningitis, parapareisis/paraplegia, seizures, sensory disturbances.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">
+                        <content styleCode="italics">Intranasal</content>
+                     </content>: Allergic reactions, rhinitis, temporary/permanent visual impairment including blindness.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">
+                        <content styleCode="italics">O</content>
+                     </content>
+                     <content styleCode="bold">
+                        <content styleCode="italics">phthalmic</content>
+                     </content>: Increased intraocular pressure, infection, ocular and periocular inflammation including allergic reactions, residue or slough at injection site, temporary/permanent visual impairment including blindness.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">
+                        <content styleCode="italics">Miscellaneous injection sites </content>
+                     </content>(<content styleCode="italics">scalp, tonsillar fauces, sphenopalatine ganglion):</content> Blindness.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">To report SUSPECTED ADVERSE REACTIONS, contact Endo at 1-800-828-9393 or FDA at 1-800-FDA-1088 or www.fda.gov/medwatch. </content>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20240809"/>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_738cab51-d1d4-4967-8806-8ec0fa533fc6">
+               <id root="c02c364d-cadb-43cf-bb0f-8141b2897981"/>
+               <code code="34088-5" codeSystem="2.16.840.1.113883.6.1" displayName="OVERDOSAGE SECTION"/>
+               <title>OVERDOSAGE</title>
+               <text>
+                  <paragraph>Treatment of acute overdosage is by supportive and symptomatic therapy. For chronic overdosage in the face of severe disease requiring continuous steroid therapy, the dosage of the corticosteroid may be reduced only temporarily, or alternate day treatment may be introduced.</paragraph>
+               </text>
+               <effectiveTime value="20240809"/>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_c6b38576-8a4d-4f59-a399-8a228e23ebc6">
+               <id root="5460f79e-3203-4ec9-9344-92a7361a790d"/>
+               <code code="34068-7" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE &amp; ADMINISTRATION SECTION"/>
+               <title>DOSAGE AND ADMINISTRATION</title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">N</content>
+                     <content styleCode="bold">OTE: CONTAINS BENZYL ALCOHOL (</content>see <content styleCode="bold">
+                        <linkHtml href="#www.splportal.comLINK_1f8708a7-8bc0-4f56-b73b-894942f21894">WARNINGS</linkHtml> </content>and <content styleCode="bold">
+                        <linkHtml href="#www.splportal.comLINK_d1ac77e9-f18e-452d-a9be-5d3fa88bd6cf">PRECAUTIONS: Pediatric Use</linkHtml>)</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Because of possible physical incompatibilities, Methylprednisolone Acetate Injectable Suspension should not be diluted or mixed with other solutions.</content>
+                  </paragraph>
+                  <paragraph>The initial dosage of parenterally administered Methylprednisolone Acetate Injectable Suspension will vary from 4 to 120 mg, depending on the specific disease entity being treated. However, in certain overwhelming, acute, life-threatening situations, administration in dosages exceeding the usual dosages may be justified and may be in multiples of the oral dosages.</paragraph>
+                  <paragraph>
+                     <content styleCode="italics">It Should Be Emphasized that Dosage Requirements Are Variable and Must Be Individualized on the Basis of the Disease Under Treatment and the Response of the Patient. </content>After a favorable response is noted, the proper maintenance dosage should be determined by decreasing the initial drug dosage in small decrements at appropriate time intervals until the lowest dosage which will maintain an adequate clinical response is reached. Situations which may make dosage adjustments necessary are changes in clinical status secondary to remissions or exacerbations in the disease process, the patient’s individual drug responsiveness, and the effect of patient exposure to stressful situations not directly related to the disease entity under treatment. In this latter situation, it may be necessary to increase the dosage of the corticosteroid for a period of time consistent with the patient’s condition. If after long-term therapy the drug is to be stopped, it is recommended that it be withdrawn gradually rather than abruptly.</paragraph>
+               </text>
+               <effectiveTime value="20240809"/>
+               <component>
+                  <section ID="LINK_d8d9f2c7-d1ee-44f0-b7fe-f3ab050b820f">
+                     <id root="fd2c97ed-d60c-4c9f-a214-71ff0f1ae972"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>
+                        <content styleCode="bold">A. Administration
+for
+Local Effect</content>
+                     </title>
+                     <text>
+                        <paragraph>Therapy with Methylprednisolone Acetate Injectable Suspension does not obviate the need for the conventional measures usually employed. Although this method of treatment will ameliorate symptoms, it is in no sense a cure and the hormone has no effect on the cause of the inflammation.</paragraph>
+                     </text>
+                     <effectiveTime value="20240809"/>
+                     <component>
+                        <section ID="LINK_4e86fce9-87ec-4930-a796-d6b17d2aeca5">
+                           <id root="a9d73635-2b86-4ed8-b184-8070a6223020"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title>
+                              <content styleCode="bold">1. Rheumatoid
+Arthritis
+and Osteoarthritis.</content>
+                           </title>
+                           <text>
+                              <paragraph>The dose for intra-articular administration depends upon the size of the joint and varies with the severity of the condition in the individual patient. In chronic cases, injections may be repeated at intervals ranging from one to five or more weeks, depending upon the degree of relief obtained from the initial injection. The doses in the following table are given as a general guide:</paragraph>
+                              <table width="450px">
+                                 <col width="100px"/>
+                                 <col width="200px"/>
+                                 <col width="150px"/>
+                                 <tbody>
+                                    <tr>
+                                       <td styleCode=" Botrule Toprule">
+                                          <content styleCode="italics">Size of Joint</content>
+                                       </td>
+                                       <td>
+                                          <content styleCode="italics">Examples</content>
+                                       </td>
+                                       <td>
+                                          <content styleCode="italics">Range of Dosage</content>
+                                       </td>
+                                    </tr>
+                                    <tr>
+                                       <td styleCode=" Botrule Toprule">Large</td>
+                                       <td styleCode=" Botrule Toprule">
+                                          <paragraph>Knees</paragraph>
+                                          <paragraph>Ankles</paragraph>
+                                          <paragraph>Shoulders</paragraph>
+                                       </td>
+                                       <td styleCode=" Botrule Toprule">20 to 80 mg</td>
+                                    </tr>
+                                    <tr>
+                                       <td styleCode=" Botrule">Medium</td>
+                                       <td styleCode=" Botrule">
+                                          <paragraph>Elbows</paragraph>
+                                          <paragraph>Wrists</paragraph>
+                                       </td>
+                                       <td styleCode=" Botrule">10 to 40 mg</td>
+                                    </tr>
+                                    <tr>
+                                       <td>Small</td>
+                                       <td>
+                                          <paragraph>Metacarpophalangeal</paragraph>
+                                          <paragraph>Interphalangeal</paragraph>
+                                          <paragraph>Sternoclavicular</paragraph>
+                                          <paragraph>Acromioclavicular</paragraph>
+                                       </td>
+                                       <td>4 to 10 mg</td>
+                                    </tr>
+                                 </tbody>
+                              </table>
+                              <paragraph>
+                                 <content styleCode="bold">P</content>
+                                 <content styleCode="bold">r</content>
+                                 <content styleCode="bold">o</content>
+                                 <content styleCode="bold">ce</content>
+                                 <content styleCode="bold">dure</content>: It is recommended that the anatomy of the joint involved be reviewed before attempting intra-articular injection. In order to obtain the full anti- inflammatory effect, it is important that the injection be made into the synovial space. Employing the same sterile technique as for a lumbar puncture, a sterile 20 to 24 gauge needle (on a dry syringe) is quickly inserted into the synovial cavity. Procaine infiltration is elective. The aspiration of only a few drops of joint fluid proves the joint space has been entered by the needle. <content styleCode="italics">The injection site for each joint is determined by that location where the synovial cavity is most superficial and most free of large vessels and nerves. </content>With the needle in place, the aspirating syringe is removed and replaced by a second syringe containing the desired amount of Methylprednisolone Acetate Injectable Suspension. The plunger is then pulled outward slightly to aspirate synovial fluid and to make sure the needle is still in the synovial space. After injection, the joint is moved gently a few times to aid mixing of the synovial fluid and the suspension. The site is covered with a small sterile dressing.</paragraph>
+                              <paragraph>Suitable sites for intra-articular injection are the knee, ankle, wrist, elbow, shoulder, phalangeal, and hip joints. Since difficulty is not infrequently encountered in entering the hip joint, precautions should be taken to avoid any large blood vessels in the area. Joints not suitable for injection are those that are anatomically inaccessible such as the spinal joints and those like the sacroiliac joints that are devoid of synovial space. Treatment failures are most frequently the result of failure to enter the joint space. Little or no benefit follows injection into surrounding tissue. If failures occur when injections into the synovial spaces are certain, as determined by aspiration of fluid, repeated injections are usually futile.</paragraph>
+                              <paragraph>If a local anesthetic is used prior to injection of Methylprednisolone Acetate Injectable Suspension, the anesthetic package insert should be read carefully and all the precautions observed.</paragraph>
+                              <br/>
+                           </text>
+                           <effectiveTime value="20240809"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section ID="LINK_fc6b3dec-8726-4dfd-a84f-652a1a3cfc46">
+                           <id root="66eda44f-f7fa-4e51-b46a-7b0ca58e0612"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title>
+                              <content styleCode="bold">2. Bursitis.</content>
+                           </title>
+                           <text>
+                              <paragraph>The area around the injection site is prepared in a sterile way and a wheal at the site made with 1 percent procaine hydrochloride solution. A 20 to 24 gauge needle attached to a dry syringe is inserted into the bursa and the fluid aspirated. The needle is left in place and the aspirating syringe changed for a small syringe containing the desired dose. After injection, the needle is withdrawn and a small dressing applied.</paragraph>
+                           </text>
+                           <effectiveTime value="20240809"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section ID="LINK_2dc285b5-4417-4167-a76b-65e2e29c2337">
+                           <id root="bd0ee8d8-a599-4b38-b85c-c6968bea16cd"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title>
+                              <content styleCode="bold">3. Miscellaneous: Ganglion,
+Tendinitis, Epicondylitis.</content>
+                           </title>
+                           <text>
+                              <paragraph>In the treatment of conditions such as tendinitis or tenosynovitis, care should be taken following application of a suitable antiseptic to the overlying skin to inject the suspension into the tendon sheath rather than into the substance of the tendon. The tendon may be readily palpated when placed on a stretch. When treating conditions such as epicondylitis, the area of greatest tenderness should be outlined carefully and the suspension infiltrated into the area. For ganglia of the tendon sheaths, the suspension is injected directly into the cyst. In many cases, a single injection causes a marked decrease in the size of the cystic tumor and may effect disappearance. The usual sterile precautions should be observed, of course, with each injection.</paragraph>
+                              <paragraph>The dose in the treatment of the various conditions of the tendinous or bursal structures listed above varies with the condition being treated and ranges from 4 to 30 mg. In recurrent or chronic conditions, repeated injections may be necessary.</paragraph>
+                           </text>
+                           <effectiveTime value="20240809"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section ID="LINK_33d7d9a0-5475-4f0b-80d6-bb807b3f1f02">
+                           <id root="6de344d4-cb98-4624-9147-e6f84822b25d"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title>
+                              <content styleCode="bold">4. Injections for Local
+Effect in
+Dermatologic Conditions.</content>
+                           </title>
+                           <text>
+                              <paragraph>Following cleansing with an appropriate antiseptic such as 70% alcohol, 20 to 60 mg is injected into the lesion. It may be necessary to distribute doses ranging from 20 to 40 mg by repeated local injections in the case of large lesions. Care should be taken to avoid injection of sufficient material to cause blanching since this may be followed by a small slough. One to four injections are usually employed, the intervals between injections varying with the type of lesion being treated and the duration of improvement produced by the initial injection.</paragraph>
+                              <paragraph>
+                                 <content styleCode="bold">When multidose vials are used, special care to prevent contamination of the contents is essential. (See <linkHtml href="#www.splportal.comLINK_1f8708a7-8bc0-4f56-b73b-894942f21894">WARNINGS</linkHtml>.)</content>
+                              </paragraph>
+                           </text>
+                           <effectiveTime value="20240809"/>
+                        </section>
+                     </component>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_47a58245-0d0e-4712-bac2-7df53c65666f">
+                     <id root="00c64eaa-6b7b-4fc3-9a13-0a387a207005"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>
+                        <content styleCode="bold">B. Administration
+for
+Systemic Effect</content>
+                     </title>
+                     <text>
+                        <paragraph>The intramuscular dosage will vary with the condition being treated. When employed as a temporary substitute for oral therapy, a single injection during each 24-hour period of a dose of the suspension equal to the total daily oral dose of Methylprednisolone Tablets, USP is usually sufficient. When a prolonged effect is desired, the weekly dose may be calculated by multiplying the daily oral dose by 7 and given as a single intramuscular injection.</paragraph>
+                        <paragraph>In pediatric patients, the initial dose of methylprednisolone may vary depending upon the specific disease entity being treated. The range of initial doses is 0.11 to 1.6 mg/kg/day. Dosage must be individualized according to the severity of the disease and response of the patient.</paragraph>
+                        <paragraph>In patients with the <content styleCode="bold">adrenogenital syndrome</content>, a single intramuscular injection of 40 mg every two weeks may be adequate. For maintenance of patients with <content styleCode="bold">r</content>
+                           <content styleCode="bold">heumatoid arthritis</content>, the weekly intramuscular dose will vary from 40 to 120 mg. The usual dosage for patients with <content styleCode="bold">dermatologic lesions </content>benefited by systemic corticoid therapy is 40 to 120 mg of methylprednisolone acetate administered intramuscularly at weekly intervals for one to four weeks. In acute severe dermatitis due to poison ivy, relief may result within 8 to 12 hours following intramuscular administration of a single dose of 80 to 120 mg. In chronic contact dermatitis, repeated injections at 5 to 10 day intervals may be necessary. In seborrheic dermatitis, a weekly dose of 80 mg may be adequate to control the condition.</paragraph>
+                        <paragraph>Following intramuscular administration of 80 to 120 mg to asthmatic patients, relief may result within 6 to 48 hours and persist for several days to two weeks. </paragraph>
+                        <paragraph>If signs of stress are associated with the condition being treated, the dosage of the suspension should be increased. If a rapid hormonal effect of maximum intensity is required, the intravenous administration of highly soluble methylprednisolone sodium succinate is indicated.</paragraph>
+                        <paragraph>For the purpose of comparison, the following is the equivalent milligram dose of the various glucocorticoids:</paragraph>
+                        <table width="500px">
+                           <col width="250px"/>
+                           <col width="250px"/>
+                           <tbody>
+                              <tr>
+                                 <td styleCode=" Botrule Toprule Lrule Rrule">Cortisone, 25 </td>
+                                 <td styleCode=" Botrule Toprule Lrule Rrule">Triamcinolone, 4 </td>
+                              </tr>
+                              <tr>
+                                 <td styleCode=" Botrule Toprule Lrule Rrule">Hydrocortisone, 20</td>
+                                 <td styleCode=" Botrule Toprule Lrule Rrule">Paramethasone, 2</td>
+                              </tr>
+                              <tr>
+                                 <td styleCode=" Botrule Toprule Lrule Rrule">Prednisolone, 5</td>
+                                 <td styleCode=" Botrule Toprule Lrule Rrule">Betamethasone, 0.75</td>
+                              </tr>
+                              <tr>
+                                 <td styleCode=" Botrule Toprule Lrule Rrule">Prednisone, 5</td>
+                                 <td styleCode=" Botrule Toprule Lrule Rrule">Dexamethasone, 0.75</td>
+                              </tr>
+                              <tr>
+                                 <td styleCode=" Botrule Toprule Lrule Rrule">Methylprednisolone, 4</td>
+                                 <td styleCode=" Botrule Toprule Lrule Rrule"> </td>
+                              </tr>
+                           </tbody>
+                        </table>
+                        <paragraph>These dose relationships apply only to oral or intravenous administration of these compounds. When these substances or their derivatives are injected intramuscularly or into joint spaces, their relative properties may be greatly altered.</paragraph>
+                     </text>
+                     <effectiveTime value="20240809"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_0a80e373-1e48-48dc-b3d2-8e3ccc33522a">
+               <id root="4b8d6e7f-dd27-499b-bc36-5bdd994fd110"/>
+               <code code="34069-5" codeSystem="2.16.840.1.113883.6.1" displayName="HOW SUPPLIED SECTION"/>
+               <title>HOW SUPPLIED</title>
+               <text>
+                  <paragraph>Methylprednisolone Acetate Injectable Suspension, USP is a white to off-white suspension and is available in the following strengths and package sizes:</paragraph>
+                  <table width="513px" cellspacing="0" cellpadding="0" border="1">
+                     <col width="400pt"/>
+                     <col width="400pt"/>
+                     <col width="700pt"/>
+                     <tbody>
+                        <tr>
+                           <td styleCode=" Botrule Toprule Lrule Rrule">
+                              <paragraph>
+                                 <content styleCode="bold">NDC No.</content>
+                              </paragraph>
+                           </td>
+                           <td styleCode=" Botrule Toprule Lrule Rrule">
+                              <paragraph>
+                                 <content styleCode="bold">Strength</content>
+                              </paragraph>
+                           </td>
+                           <td styleCode=" Botrule Toprule Lrule Rrule">
+                              <paragraph>
+                                 <content styleCode="bold">How Supplied</content>
+                              </paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode=" Botrule Toprule Lrule Rrule">
+                              <paragraph>42023-238-01</paragraph>
+                           </td>
+                           <td styleCode=" Botrule Toprule Lrule Rrule">
+                              <paragraph>200 mg per 5 mL</paragraph>
+                              <paragraph>(40 mg per mL)</paragraph>
+                           </td>
+                           <td styleCode=" Botrule Toprule Lrule Rrule">
+                              <paragraph>5 mL multiple dose vial </paragraph>
+                              <paragraph>(supplied in a single unit)</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode=" Botrule Toprule Lrule Rrule">
+                              <paragraph>42023-239-01</paragraph>
+                           </td>
+                           <td styleCode=" Botrule Toprule Lrule Rrule">
+                              <paragraph>400 mg per 10 mL </paragraph>
+                              <paragraph>(40 mg per mL)</paragraph>
+                           </td>
+                           <td styleCode=" Botrule Toprule Lrule Rrule">
+                              <paragraph>10 mL multiple dose vial </paragraph>
+                              <paragraph>(supplied in a single unit)</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode=" Botrule Toprule Lrule Rrule">
+                              <paragraph>42023-240-01</paragraph>
+                           </td>
+                           <td styleCode=" Botrule Toprule Lrule Rrule">
+                              <paragraph>400 mg per 5 mL</paragraph>
+                              <paragraph>(80 mg per mL)</paragraph>
+                           </td>
+                           <td styleCode=" Botrule Toprule Lrule Rrule">
+                              <paragraph>5 mL multiple dose vial </paragraph>
+                              <paragraph>(supplied in a single unit)</paragraph>
+                           </td>
+                        </tr>
+                     </tbody>
+                  </table>
+                  <paragraph>Vial stoppers are not manufactured with natural rubber latex.  Store at 20° to 25°C (68° to 77°F); excursions permitted 15° to 30°C (59° to 86°F) [see USP Controlled Room Temperature].</paragraph>
+               </text>
+               <effectiveTime value="20240809"/>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_df360b16-9114-460c-8d4a-f503005dd0f9">
+               <id root="0202427f-61b7-4b42-b255-c7cd6afb3907"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <title/>
+               <text>
+                  <paragraph>Manufactured for:<br/>
+Endo USA<br/>
+Malvern, PA 19355</paragraph>
+                  <paragraph>© 2024 Endo, Inc. or one of its affiliates.</paragraph>
+                  <paragraph>Revised: 08/2024</paragraph>
+               </text>
+               <effectiveTime value="20240809"/>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_19d89738-c5c7-43dc-a871-ccbeda098502">
+               <id root="c58cd4a8-9b5a-48d6-885f-5c672436ba6a"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>
+                  <content styleCode="bold">PRINCIPAL DISPLAY PANEL - 400 MG/5 ML VIAL CARTON</content>
+               </title>
+               <text>
+                  <renderMultiMedia referencedObject="MM2"/>
+               </text>
+               <effectiveTime value="20240809"/>
+               <component>
+                  <observationMedia ID="MM2">
+                     <text>This is an image of Methylprednisolone Acetate Injectable Suspension, USP 400 mg/5 mL (80 mg/mL) Vial Carton.</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="methylprednisolone-acetate-injectable-suspension-u-2.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_b1e24505-e5a2-4f8a-98bd-f74e2f9c994a">
+               <id root="f10d29ec-9582-4104-8184-9206c52afa30"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>PRINCIPAL DISPLAY PANEL - 400 MG/10 ML VIAL CARTON</title>
+               <text>
+                  <renderMultiMedia referencedObject="MM3"/>
+               </text>
+               <effectiveTime value="20240809"/>
+               <component>
+                  <observationMedia ID="MM3">
+                     <text>This is an image of Methylprednisolone Acetate Injectable Suspension, USP 400 mg/10 mL (40 mg/mL) Vial Carton.</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="methylprednisolone-acetate-injectable-suspension-u-3.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_d63e1586-5116-4d65-a1b2-3a647bfef18a">
+               <id root="c50372a3-f964-4862-a408-8fe62e9786fd"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>PRINCIPAL DISPLAY PANEL - 200 MG/5 ML VIAL CARTON</title>
+               <text>
+                  <renderMultiMedia referencedObject="MM4"/>
+               </text>
+               <effectiveTime value="20240809"/>
+               <component>
+                  <observationMedia ID="MM4">
+                     <text>This is an image of Methylprednisolone Acetate Injectable Suspension, USP 200 mg/5 mL (40 mg/mL) Vial Carton.</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="methylprednisolone-acetate-injectable-suspension-u-4.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>
