@@ -17,6 +17,10 @@ export interface MapProps {
 const MAPBOX_TOKEN =
   'pk.eyJ1IjoibWJhbnNhbDA2IiwiYSI6ImNtOHRwNDB0dzA2bWYybHB0M3Q5NmltMnQifQ.SoIE1BpShnshj_AC7KI_uA';
 
+const NAME_MAP: Record<string, string> = {
+  'United States': 'United States of America',
+};
+
 const getRiskColor = (score: number) => {
   // Scores range 0-10 where 0 is highest risk.
   const clamped = Math.max(0, Math.min(10, score));
@@ -31,7 +35,7 @@ const RiskChoroplethMap: React.FC<MapProps> = ({ locations }) => {
   const countryRisk = useMemo(() => {
     const map = new Map<string, { sum: number; count: number; ndc: number }>();
     locations.forEach((loc) => {
-      const country = loc.country;
+      const country = NAME_MAP[loc.country] || loc.country;
       if (!country) return;
       if (!map.has(country)) map.set(country, { sum: 0, count: 0, ndc: 0 });
       const d = map.get(country)!;
@@ -63,17 +67,24 @@ const RiskChoroplethMap: React.FC<MapProps> = ({ locations }) => {
       (geo.features as Feature[]).forEach((f) => {
         const props = f.properties as Record<string, unknown>;
         const name = (props.name as string) || '';
-        const data = countryRisk[name];
+        const data =
+          countryRisk[name] || countryRisk[NAME_MAP[name as string] || ''];
+
         if (data) {
-          f.properties.risk = data.avg;
-          f.properties.siteCount = data.count;
-          f.properties.ndcCount = data.ndc;
-          f.properties.color = getRiskColor(data.avg);
+          props.siteCount = data.count;
+          props.ndcCount = data.ndc;
+          if (name === 'United States of America') {
+            props.risk = null;
+            props.color = '#e5e7eb';
+          } else {
+            props.risk = data.avg;
+            props.color = getRiskColor(data.avg);
+          }
         } else {
-          f.properties.risk = null;
-          f.properties.siteCount = 0;
-          f.properties.ndcCount = 0;
-          f.properties.color = '#e5e7eb';
+          props.risk = null;
+          props.siteCount = 0;
+          props.ndcCount = 0;
+          props.color = '#e5e7eb';
         }
       });
 
@@ -111,7 +122,7 @@ const RiskChoroplethMap: React.FC<MapProps> = ({ locations }) => {
         popup
           .setLngLat(e.lngLat)
           .setHTML(
-            `<div class="text-sm"><strong>${props.name}</strong><br/>Sites: ${props.siteCount}<br/>NDCs: ${props.ndcCount}<br/>Avg Risk Score: ${props.risk !== null ? Number(props.risk).toFixed(1) : 'N/A'}</div>`
+            `<div class="text-sm"><strong>${props.name}</strong><br/>Sites: ${props.siteCount}<br/>NDCs: ${props.ndcCount}<br/>Risk Score (0-10): ${props.risk !== null ? Number(props.risk).toFixed(1) : 'N/A'}</div>`
           )
           .addTo(map);
       });

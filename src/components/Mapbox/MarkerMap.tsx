@@ -78,8 +78,16 @@ const MarkerMap: React.FC<MapProps> = ({ locations }) => {
     const map = mapRef.current;
     const markers: mapboxgl.Marker[] = [];
 
-    Object.entries(coordsMap).forEach(([addr, coords]) => {
-      const loc = locations.find((l) => l.full_address === addr);
+    const sortedEntries = Object.entries(coordsMap)
+      .map(([addr, coords]) => ({
+        addr,
+        coords,
+        loc: locations.find((l) => l.full_address === addr),
+      }))
+      .filter((e) => e.loc)
+      .sort((a, b) => (b.loc!.ndc_count || 0) - (a.loc!.ndc_count || 0));
+
+    sortedEntries.forEach(({ addr, coords, loc }) => {
       if (!loc) return;
       const radius = Math.min(4 + Math.log(loc.ndc_count + 1) * 2, 20);
       const el = document.createElement('div');
