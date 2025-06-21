@@ -1,0 +1,22 @@
+<h1>Drugs</h1>
+<%= form_with url: drugs_path, method: :get, local: true do |form| %>
+  <%= form.label :q, 'Search:' %>
+  <%= form.text_field :q, value: params[:q] %>
+  <%= form.submit 'Search' %>
+<% end %>
+<table>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Shortage Start</th>
+    </tr>
+  </thead>
+  <tbody>
+    <% @drugs.each do |drug| %>
+      <tr>
+        <td><%= link_to drug.drug_name, drug_path(drug) %></td>
+        <td><%= drug.shortage_start %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>

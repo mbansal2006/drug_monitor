@@ -1,0 +1,4 @@
+<h1>NDC <%= @ndc.ndc_code %></h1>
+<p>Drug: <%= link_to @ndc.drug&.drug_name, @ndc.drug %></p>
+<p>Manufacturer: <%= link_to @ndc.manufacturer&.manufacturer_name, @ndc.manufacturer %></p>
+<%= link_to 'Back', ndcs_path %>

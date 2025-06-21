@@ -1,0 +1,8 @@
+<h1><%= @manufacturer.manufacturer_name %></h1>
+<h2>NDCs</h2>
+<ul>
+  <% @manufacturer.ndcs.each do |n| %>
+    <li><%= link_to n.ndc_code, ndc_path(n) %></li>
+  <% end %>
+</ul>
+<%= link_to 'Back', manufacturers_path %>

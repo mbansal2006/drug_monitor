@@ -1,0 +1,19 @@
+<h1>NDCs</h1>
+<table>
+  <thead>
+    <tr>
+      <th>Code</th>
+      <th>Drug</th>
+      <th>Manufacturer</th>
+    </tr>
+  </thead>
+  <tbody>
+    <% @ndcs.each do |ndc| %>
+      <tr>
+        <td><%= link_to ndc.ndc_code, ndc_path(ndc) %></td>
+        <td><%= ndc.drug&.drug_name %></td>
+        <td><%= ndc.manufacturer&.manufacturer_name %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>

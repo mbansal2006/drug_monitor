@@ -24,6 +24,8 @@ Built with Palantir Foundry, the model is fully queryable in all directions—al
 - Identify drugs most exposed to fragile or adversarial production networks  
 - Support strategies to prioritize domestic or allied sourcing of essential medicines through targeted risk insights  
 - Deliver actionable insights to inform policy discussions, such as Section 232 investigations, by quantifying foreign dependency and national security exposure in the pharmaceutical supply chain
+## Rails App
+The `rails_app/` directory contains a full Ruby on Rails application used to explore and import site data. Run `bundle install` and `rails db:migrate` inside that folder. CSV import tasks live under `lib/tasks/`.
 
 ---
 
