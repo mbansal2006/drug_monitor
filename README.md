@@ -17,6 +17,8 @@ All scoring and site data are derived from U.S. government and intergovernmental
 
 Built with Palantir Foundry, the model is fully queryable in all directions—allowing seamless tracing from drugs to manufacturers to global production sites and back, enabling comprehensive, multidimensional analysis of the supply chain. Users can filter and pivot across any dimension in Palantir Foundry (e.g., by drug class, country risk, or manufacturer).
 
+This project is modeled in both Palantir Foundry and a Ruby on Rails web application. The Rails app loads structured datasets from CSV files into a PostgreSQL database and defines ActiveRecord models with full associations between drugs, manufacturers, NDCs, and manufacturing locations. It supports custom Rake tasks for CSV import, a fully normalized schema, and is designed for extensibility in frontend views (e.g. search, filter, and relationship maps).
+
 ### Key Capabilities
 
 - Determine where finished dosage forms (FDFs) are manufactured globally 
@@ -24,8 +26,6 @@ Built with Palantir Foundry, the model is fully queryable in all directions—al
 - Identify drugs most exposed to fragile or adversarial production networks  
 - Support strategies to prioritize domestic or allied sourcing of essential medicines through targeted risk insights  
 - Deliver actionable insights to inform policy discussions, such as Section 232 investigations, by quantifying foreign dependency and national security exposure in the pharmaceutical supply chain
-## Rails App
-The `rails_app/` directory contains a full Ruby on Rails application used to explore and import site data. Run `bundle install` and `rails db:migrate` inside that folder. CSV import tasks live under `lib/tasks/`.
 
 ---
 
