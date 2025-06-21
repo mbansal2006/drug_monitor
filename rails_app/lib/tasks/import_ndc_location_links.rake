@@ -7,11 +7,11 @@ namespace :import do
     
     CSV.foreach(path, headers: true, header_converters: :symbol) do |row|
       begin
-        ndc = Ndc.find_by(ndc_code: row[:ndc_code])
-        location = Location.find_by(location_id: row[:location_id].to_i)
+        ndc = Ndc.find_by(csv_ndc_id: row[:ndc_id].to_i)
+        location = Location.find_by(csv_location_id: row[:location_id].to_i)
 
         if ndc.nil?
-          puts "Skipping: NDC not found for #{row[:ndc_code]}"
+          puts "Skipping: NDC not found for ID #{row[:ndc_id]}"
           next
         end
 
@@ -21,7 +21,7 @@ namespace :import do
         end
 
         NdcLocationLink.create!(ndc: ndc, location: location)
-        puts "Linked NDC #{ndc.ndc_code} to location_id #{location.location_id}"
+        puts "Linked NDC #{ndc.ndc_code} to location_id #{location.csv_location_id}"
       rescue => e
         puts "Error processing row: #{e.message}"
       end
