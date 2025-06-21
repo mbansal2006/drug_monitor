@@ -78,18 +78,10 @@ const MarkerMap: React.FC<MapProps> = ({ locations }) => {
     const map = mapRef.current;
     const markers: mapboxgl.Marker[] = [];
 
-    const sortedEntries = Object.entries(coordsMap)
-      .map(([addr, coords]) => ({
-        addr,
-        coords,
-        loc: locations.find((l) => l.full_address === addr),
-      }))
-      .filter((e) => e.loc)
-      .sort((a, b) => (b.loc!.ndc_count || 0) - (a.loc!.ndc_count || 0));
-
-    sortedEntries.forEach(({ addr, coords, loc }) => {
+    Object.entries(coordsMap).forEach(([addr, coords]) => {
+      const loc = locations.find((l) => l.full_address === addr);
       if (!loc) return;
-      const radius = Math.min(4 + Math.log(loc.ndc_count + 1) * 2, 20);
+      const radius = 8;
       const el = document.createElement('div');
       el.style.width = `${radius * 2}px`;
       el.style.height = `${radius * 2}px`;
@@ -98,7 +90,7 @@ const MarkerMap: React.FC<MapProps> = ({ locations }) => {
       el.style.opacity = '0.7';
 
       const popup = new mapboxgl.Popup({ offset: 20 }).setHTML(
-        `<div class="text-sm"><strong>${loc.firm_name}</strong><br/>${loc.full_address}<br/>Risk Score: ${loc.risk_score}<br/>NDCs: ${loc.ndc_count}</div>`
+        `<div class="text-sm"><strong>${loc.firm_name}</strong><br/>${loc.full_address}<br/>Risk Score: ${loc.risk_score}<br/>NDCs: ${loc.ndc_count.toLocaleString()}</div>`
       );
 
       const marker = new mapboxgl.Marker({ element: el })

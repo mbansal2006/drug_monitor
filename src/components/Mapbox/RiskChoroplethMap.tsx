@@ -75,7 +75,7 @@ const RiskChoroplethMap: React.FC<MapProps> = ({ locations }) => {
           props.ndcCount = data.ndc;
           if (name === 'United States of America') {
             props.risk = null;
-            props.color = '#e5e7eb';
+            props.color = '#60a5fa';
           } else {
             props.risk = data.avg;
             props.color = getRiskColor(data.avg);
@@ -122,7 +122,7 @@ const RiskChoroplethMap: React.FC<MapProps> = ({ locations }) => {
         popup
           .setLngLat(e.lngLat)
           .setHTML(
-            `<div class="text-sm"><strong>${props.name}</strong><br/>Sites: ${props.siteCount}<br/>NDCs: ${props.ndcCount}<br/>Risk Score (0-10): ${props.risk !== null ? Number(props.risk).toFixed(1) : 'N/A'}</div>`
+            `<div class="text-sm"><strong>${props.name}</strong><br/>Sites: ${props.siteCount}<br/>NDCs: ${Number(props.ndcCount).toLocaleString()}<br/>Risk Score (0-10): ${props.risk !== null ? Number(props.risk).toFixed(1) : 'N/A'}</div>`
           )
           .addTo(map);
       });
