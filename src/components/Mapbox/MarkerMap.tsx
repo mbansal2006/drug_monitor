@@ -5,7 +5,7 @@ import 'mapbox-gl/dist/mapbox-gl.css';
 export interface Location {
   full_address: string;
   risk_score: number;
-  manufacturer: string;
+  firm_name: string;
   ndc_count: number;
   country: string;
 }
@@ -18,8 +18,9 @@ const MAPBOX_TOKEN =
   'pk.eyJ1IjoibWJhbnNhbDA2IiwiYSI6ImNtOHRwNDB0dzA2bWYybHB0M3Q5NmltMnQifQ.SoIE1BpShnshj_AC7KI_uA';
 
 const getRiskColor = (score: number) => {
-  const clamped = Math.max(-5, Math.min(5, score));
-  const hue = (clamped + 5) * 12; // -5 -> 0 (red), 0 -> 60 (yellow), 5 -> 120 (green)
+  // Risk scores range 0-10 with 0 being highest risk. Map to red→green hue.
+  const clamped = Math.max(0, Math.min(10, score));
+  const hue = (clamped / 10) * 120; // 0 -> red, 10 -> green
   return `hsl(${hue},70%,50%)`;
 };
 
@@ -50,8 +51,8 @@ const MarkerMap: React.FC<MapProps> = ({ locations }) => {
         try {
           const resp = await fetch(
             `https://api.mapbox.com/geocoding/v5/mapbox.places/${encodeURIComponent(
-              addr
-            )}.json?access_token=${MAPBOX_TOKEN}`
+              `${addr}, ${loc.country}`
+            )}.json?limit=1&access_token=${MAPBOX_TOKEN}`
           );
           const data = await resp.json();
           if (data.features && data.features[0]) {
@@ -89,7 +90,7 @@ const MarkerMap: React.FC<MapProps> = ({ locations }) => {
       el.style.opacity = '0.7';
 
       const popup = new mapboxgl.Popup({ offset: 20 }).setHTML(
-        `<div class="text-sm"><strong>${loc.manufacturer}</strong><br/>${loc.full_address}<br/>Risk Score: ${loc.risk_score}<br/>NDCs: ${loc.ndc_count}</div>`
+        `<div class="text-sm"><strong>${loc.firm_name}</strong><br/>${loc.full_address}<br/>Risk Score: ${loc.risk_score}<br/>NDCs: ${loc.ndc_count}</div>`
       );
 
       const marker = new mapboxgl.Marker({ element: el })

@@ -57,7 +57,7 @@ const Overview = () => {
     const ndcCount = ndcLocationLinks.filter(link => link.location_id === loc.location_id).length;
     return {
       full_address: loc.address || loc.full_address || "",
-      manufacturer: loc.firm_name || loc.manufacturer || "",
+      firm_name: loc.firm_name || loc.manufacturer || "",
       risk_score: loc.risk_score || 0,
       ndc_count: ndcCount,
       country: loc.full_country_name || loc.country || ""

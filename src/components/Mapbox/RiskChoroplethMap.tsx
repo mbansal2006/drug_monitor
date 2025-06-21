@@ -5,7 +5,7 @@ import 'mapbox-gl/dist/mapbox-gl.css';
 export interface Location {
   full_address: string;
   risk_score: number;
-  manufacturer: string;
+  firm_name: string;
   ndc_count: number;
   country: string;
 }
@@ -18,8 +18,9 @@ const MAPBOX_TOKEN =
   'pk.eyJ1IjoibWJhbnNhbDA2IiwiYSI6ImNtOHRwNDB0dzA2bWYybHB0M3Q5NmltMnQifQ.SoIE1BpShnshj_AC7KI_uA';
 
 const getRiskColor = (score: number) => {
-  const clamped = Math.max(-5, Math.min(5, score));
-  const hue = (clamped + 5) * 12;
+  // Scores range 0-10 where 0 is highest risk.
+  const clamped = Math.max(0, Math.min(10, score));
+  const hue = (clamped / 10) * 120; // 0 -> red, 10 -> green
   return `hsl(${hue},70%,50%)`;
 };
 
@@ -28,18 +29,19 @@ const RiskChoroplethMap: React.FC<MapProps> = ({ locations }) => {
   const mapRef = useRef<mapboxgl.Map | null>(null);
 
   const countryRisk = useMemo(() => {
-    const map = new Map<string, { sum: number; count: number }>();
+    const map = new Map<string, { sum: number; count: number; ndc: number }>();
     locations.forEach((loc) => {
       const country = loc.country;
       if (!country) return;
-      if (!map.has(country)) map.set(country, { sum: 0, count: 0 });
+      if (!map.has(country)) map.set(country, { sum: 0, count: 0, ndc: 0 });
       const d = map.get(country)!;
       d.sum += loc.risk_score ?? 0;
       d.count += 1;
+      d.ndc += loc.ndc_count ?? 0;
     });
-    const result: Record<string, { avg: number; count: number }> = {};
+    const result: Record<string, { avg: number; count: number; ndc: number }> = {};
     map.forEach((v, k) => {
-      result[k] = { avg: v.sum / v.count, count: v.count };
+      result[k] = { avg: v.sum / v.count, count: v.count, ndc: v.ndc };
     });
     return result;
   }, [locations]);
@@ -65,10 +67,12 @@ const RiskChoroplethMap: React.FC<MapProps> = ({ locations }) => {
         if (data) {
           f.properties.risk = data.avg;
           f.properties.siteCount = data.count;
+          f.properties.ndcCount = data.ndc;
           f.properties.color = getRiskColor(data.avg);
         } else {
           f.properties.risk = null;
           f.properties.siteCount = 0;
+          f.properties.ndcCount = 0;
           f.properties.color = '#e5e7eb';
         }
       });
@@ -107,7 +111,7 @@ const RiskChoroplethMap: React.FC<MapProps> = ({ locations }) => {
         popup
           .setLngLat(e.lngLat)
           .setHTML(
-            `<div class="text-sm"><strong>${props.name}</strong><br/>Sites: ${props.siteCount}<br/>Avg Risk Score: ${props.risk !== null ? Number(props.risk).toFixed(1) : 'N/A'}</div>`
+            `<div class="text-sm"><strong>${props.name}</strong><br/>Sites: ${props.siteCount}<br/>NDCs: ${props.ndcCount}<br/>Avg Risk Score: ${props.risk !== null ? Number(props.risk).toFixed(1) : 'N/A'}</div>`
           )
           .addTo(map);
       });
