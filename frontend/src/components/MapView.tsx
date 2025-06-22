@@ -1,7 +1,6 @@
-import React, { useEffect, useRef, useState } from 'react';
+import React, { useEffect, useRef } from 'react';
 import mapboxgl from 'mapbox-gl';
 import 'mapbox-gl/dist/mapbox-gl.css';
-import { Layers } from 'lucide-react';
 
 mapboxgl.accessToken = import.meta.env.VITE_MAPBOX_TOKEN;
 
@@ -31,10 +30,9 @@ interface MapViewProps {
   filters: any;
   searchQuery: string;
   onLocationSelect: (location: Location) => void;
-  getRiskColor: (riskScore: number) => string;
 }
 
-// ✅ New hex-based risk color helper
+// ✅ Use real hex colors for marker background
 const getRiskColorHex = (riskScore: number) => {
   if (riskScore >= 8) return '#10b981'; // emerald
   if (riskScore >= 6) return '#f59e0b'; // yellow
@@ -50,7 +48,6 @@ const MapView: React.FC<MapViewProps> = ({
 }) => {
   const mapContainer = useRef<HTMLDivElement>(null);
   const map = useRef<mapboxgl.Map | null>(null);
-  const [showHeatmap, setShowHeatmap] = useState(false);
 
   useEffect(() => {
     if (map.current || !mapContainer.current) return;
@@ -72,7 +69,6 @@ const MapView: React.FC<MapViewProps> = ({
   const updateMarkers = () => {
     if (!map.current) return;
 
-    // Remove existing markers
     document.querySelectorAll('.mapboxgl-marker').forEach(marker => marker.remove());
 
     const filteredLocations = locations.filter(loc => {
@@ -99,15 +95,15 @@ const MapView: React.FC<MapViewProps> = ({
     filteredLocations.forEach(loc => {
       const el = document.createElement('div');
       el.className = 'w-3.5 h-3.5 rounded-full border border-white shadow-md';
-      el.style.backgroundColor = getRiskColorHex(loc.risk_score); // ✅ Use hex
+      el.style.backgroundColor = getRiskColorHex(loc.risk_score);
 
       const popupHtml = `
-      <div class='text-sm text-black'>
-        <strong class='text-slate-600'>${loc.full_country_name}</strong><br/>
-        <span class='text-slate-600'>Reliability Score: ${loc.risk_score}/10</span><br/>
-        <span class='text-slate-600'>${loc.address || 'Unknown Address'}</span>
-      </div>
-    `;
+        <div class='text-sm text-black'>
+          <strong class='text-slate-600'>${loc.full_country_name}</strong><br/>
+          <span class='text-slate-600'>Reliability Score: ${loc.risk_score}/10</span><br/>
+          <span class='text-slate-600'>${loc.address || 'Unknown Address'}</span>
+        </div>
+      `;
 
       const marker = new mapboxgl.Marker(el)
         .setLngLat([loc.longitude, loc.latitude])
@@ -120,15 +116,6 @@ const MapView: React.FC<MapViewProps> = ({
 
   return (
     <div className="h-full w-full relative">
-      <div className="absolute top-4 right-4 z-10">
-        <button
-          onClick={() => setShowHeatmap(!showHeatmap)}
-          className="bg-slate-800 text-white px-3 py-2 rounded-lg shadow hover:bg-slate-700"
-        >
-          <Layers className="h-4 w-4 inline mr-2" />
-          {showHeatmap ? 'Hide Heatmap' : 'Show Heatmap'}
-        </button>
-      </div>
       <div ref={mapContainer} className="h-full w-full rounded-xl overflow-hidden" />
     </div>
   );
