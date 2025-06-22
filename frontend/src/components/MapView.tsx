@@ -32,9 +32,8 @@ interface MapViewProps {
   onLocationSelect: (location: Location) => void;
 }
 
-// ✅ Use real hex colors for marker background
 const getRiskColorHex = (riskScore: number) => {
-  if (riskScore >= 8) return '#10b981'; // emerald
+  if (riskScore >= 8) return '#10b981'; // green
   if (riskScore >= 6) return '#f59e0b'; // yellow
   if (riskScore >= 4) return '#f97316'; // orange
   return '#ef4444'; // red
@@ -77,8 +76,13 @@ const MapView: React.FC<MapViewProps> = ({
       if (filters.country && loc.country !== filters.country) return false;
       if (loc.risk_score < filters.riskScore[0] || loc.risk_score > filters.riskScore[1]) return false;
       if (filters.sanctions && !loc.ofac_sanctioned) return false;
+      if (filters.dumping && !loc.engages_in_dumping) return false;
+      if (filters.taa && !loc.taa_compliant) return false;
+
       if (filters.alliance === 'nato' && !loc.is_nato) return false;
       if (filters.alliance === 'five_eyes' && !loc.is_five_eyes) return false;
+      if (filters.alliance === 'oecd' && !loc.is_oecd) return false;
+      if (filters.alliance === 'quad' && !loc.is_quad) return false;
 
       if (searchQuery) {
         const q = searchQuery.toLowerCase();

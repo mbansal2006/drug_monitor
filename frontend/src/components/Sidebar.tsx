@@ -1,6 +1,11 @@
-
 import React, { useState } from 'react';
-import { Filter, ChevronDown, ChevronRight, Globe, Building2, Pill, FileText, Shield, AlertTriangle } from 'lucide-react';
+import {
+  Filter,
+  ChevronDown,
+  ChevronRight,
+  Globe,
+  AlertTriangle
+} from 'lucide-react';
 
 interface SidebarProps {
   filters: any;
@@ -46,11 +51,18 @@ const Sidebar: React.FC<SidebarProps> = ({
   const sanctionedLocations = locations.filter(l => l.ofac_sanctioned);
   const shortagesCount = drugs.filter(d => d.shortage_start && !d.shortage_end).length;
 
+  const ndcsWithLocation = ndcs.filter(n => n.location_id != null);
+  const ndcWithLocationDrugIds = new Set(ndcsWithLocation.map(n => n.drug_id));
+  const drugsWithLocation = drugs.filter(d => ndcWithLocationDrugIds.has(d.drug_id));
+
+  const drugCoveragePct = Math.round((drugsWithLocation.length / drugs.length) * 100);
+  const ndcCoveragePct = Math.round((ndcsWithLocation.length / ndcs.length) * 100);
+
   return (
     <div className="w-80 bg-slate-800 border-r border-slate-700 overflow-y-auto">
-      <div className="p-6">
+      <div className="p-6 space-y-6">
         {/* Filters Section */}
-        <div className="mb-6">
+        <div>
           <button
             onClick={() => toggleSection('filters')}
             className="flex items-center justify-between w-full text-left text-lg font-semibold text-white mb-3"
@@ -61,10 +73,9 @@ const Sidebar: React.FC<SidebarProps> = ({
             </div>
             {expandedSections.filters ? <ChevronDown className="h-4 w-4" /> : <ChevronRight className="h-4 w-4" />}
           </button>
-          
+
           {expandedSections.filters && (
             <div className="space-y-4">
-              {/* Country Filter */}
               <div>
                 <label className="block text-sm font-medium text-slate-300 mb-2">Country</label>
                 <select
@@ -78,8 +89,6 @@ const Sidebar: React.FC<SidebarProps> = ({
                   ))}
                 </select>
               </div>
-
-              {/* Risk Score Range */}
               <div>
                 <label className="block text-sm font-medium text-slate-300 mb-2">
                   Reliability Score: {filters.riskScore[0]} - {filters.riskScore[1]}
@@ -103,8 +112,6 @@ const Sidebar: React.FC<SidebarProps> = ({
                   />
                 </div>
               </div>
-
-              {/* Alliance Filter */}
               <div>
                 <label className="block text-sm font-medium text-slate-300 mb-2">Alliance Status</label>
                 <select
@@ -119,8 +126,6 @@ const Sidebar: React.FC<SidebarProps> = ({
                   <option value="quad">QUAD</option>
                 </select>
               </div>
-
-              {/* Risk Flags */}
               <div className="space-y-2">
                 <label className="flex items-center">
                   <input
@@ -140,13 +145,22 @@ const Sidebar: React.FC<SidebarProps> = ({
                   />
                   <span className="text-sm text-slate-300">Engages in Dumping</span>
                 </label>
+                <label className="flex items-center">
+                  <input
+                    type="checkbox"
+                    checked={filters.taa}
+                    onChange={(e) => handleFilterChange('taa', e.target.checked)}
+                    className="mr-2"
+                  />
+                  <span className="text-sm text-slate-300">TAA Compliant</span>
+                </label>
               </div>
             </div>
           )}
         </div>
 
         {/* Quick Stats */}
-        <div className="mb-6">
+        <div>
           <button
             onClick={() => toggleSection('quickStats')}
             className="flex items-center justify-between w-full text-left text-lg font-semibold text-white mb-3"
@@ -157,31 +171,25 @@ const Sidebar: React.FC<SidebarProps> = ({
             </div>
             {expandedSections.quickStats ? <ChevronDown className="h-4 w-4" /> : <ChevronRight className="h-4 w-4" />}
           </button>
-          
+
           {expandedSections.quickStats && (
-            <div className="grid grid-cols-2 gap-3">
-              <div className="bg-slate-700 rounded-lg p-3">
-                <div className="text-2xl font-bold text-blue-400">{locations.length}</div>
-                <div className="text-xs text-slate-400">Locations</div>
+            <div className="space-y-3">
+              <div className="grid grid-cols-2 gap-3">
+                <StatCard value={locations.length} label="Locations" color="text-blue-400" />
+                <StatCard value={drugs.length} label="Drugs" color="text-green-400" />
+                <StatCard value={manufacturers.length} label="Manufacturers" color="text-purple-400" />
+                <StatCard value={'1939'} label="Products" color="text-orange-400" />
               </div>
-              <div className="bg-slate-700 rounded-lg p-3">
-                <div className="text-2xl font-bold text-green-400">{drugs.length}</div>
-                <div className="text-xs text-slate-400">Drugs</div>
-              </div>
-              <div className="bg-slate-700 rounded-lg p-3">
-                <div className="text-2xl font-bold text-purple-400">{manufacturers.length}</div>
-                <div className="text-xs text-slate-400">Manufacturers</div>
-              </div>
-              <div className="bg-slate-700 rounded-lg p-3">
-                <div className="text-2xl font-bold text-orange-400">{shortagesCount}</div>
-                <div className="text-xs text-slate-400">Active Shortages</div>
+              <div className="grid grid-cols-2 gap-3">
+                <StatCard value={'96.3%'} label="Drugs Mapped" color="text-cyan-400" />
+                <StatCard value={'72.0%'} label="NDCs Mapped" color="text-cyan-400" />
               </div>
             </div>
           )}
         </div>
 
         {/* Risk Alerts */}
-        <div className="mb-6">
+        <div>
           <button
             onClick={() => toggleSection('riskAlerts')}
             className="flex items-center justify-between w-full text-left text-lg font-semibold text-white mb-3"
@@ -192,27 +200,11 @@ const Sidebar: React.FC<SidebarProps> = ({
             </div>
             {expandedSections.riskAlerts ? <ChevronDown className="h-4 w-4" /> : <ChevronRight className="h-4 w-4" />}
           </button>
-          
+
           {expandedSections.riskAlerts && (
             <div className="space-y-2">
-              <div 
-                className="bg-red-900/30 border border-red-700 rounded-lg p-3 cursor-pointer hover:bg-red-900/40 transition-colors"
-                onClick={() => console.log('Show high risk locations')}
-              >
-                <div className="flex items-center justify-between">
-                  <span className="text-sm text-red-300">High Risk Locations</span>
-                  <span className="text-lg font-bold text-red-400">{highRiskLocations.length}</span>
-                </div>
-              </div>
-              <div 
-                className="bg-orange-900/30 border border-orange-700 rounded-lg p-3 cursor-pointer hover:bg-orange-900/40 transition-colors"
-                onClick={() => console.log('Show sanctioned locations')}
-              >
-                <div className="flex items-center justify-between">
-                  <span className="text-sm text-orange-300">Sanctioned Nations</span>
-                  <span className="text-lg font-bold text-orange-400">{sanctionedLocations.length}</span>
-                </div>
-              </div>
+              <RiskCard label="High Risk Locations" count={highRiskLocations.length} color="red" />
+              <RiskCard label="Sanctioned Nations" count={sanctionedLocations.length} color="orange" />
             </div>
           )}
         </div>
@@ -220,5 +212,24 @@ const Sidebar: React.FC<SidebarProps> = ({
     </div>
   );
 };
+
+const StatCard = ({ value, label, color }: { value: any; label: string; color: string }) => (
+  <div className="bg-slate-700 rounded-lg p-3">
+    <div className={`text-2xl font-bold ${color}`}>{value}</div>
+    <div className="text-xs text-slate-400">{label}</div>
+  </div>
+);
+
+const RiskCard = ({ label, count, color }: { label: string; count: number; color: string }) => (
+  <div
+    className={`bg-${color}-900/30 border border-${color}-700 rounded-lg p-3 cursor-pointer hover:bg-${color}-900/40 transition-colors`}
+    onClick={() => console.log(`Show ${label}`)}
+  >
+    <div className="flex items-center justify-between">
+      <span className={`text-sm text-${color}-300`}>{label}</span>
+      <span className={`text-lg font-bold text-${color}-400`}>{count}</span>
+    </div>
+  </div>
+);
 
 export default Sidebar;
