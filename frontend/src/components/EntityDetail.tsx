@@ -141,22 +141,25 @@ const EntityDetail: React.FC<EntityDetailProps> = ({
       </div>
 
       {/* Additional Details */}
-      <div className="grid grid-cols-2 gap-4 text-sm">
-        <div>
-          <span className="text-slate-400">OAI Count:</span>
-          <span className="text-white ml-2">{entity.oai_count || 0}</span>
-        </div>
-        <div>
-          <span className="text-slate-400">DUNS Number:</span>
-          <span className="text-white ml-2">{entity.duns_number || 'N/A'}</span>
-        </div>
-        <div>
-          <span className="text-slate-400">Coordinates:</span>
-          <span className="text-white ml-2">
-            {entity.latitude?.toFixed(4)}, {entity.longitude?.toFixed(4)}
-          </span>
-        </div>
+      <div className="space-y-2 text-sm">
+        {entity.oai_count === 0 ? (
+          <div className="text-slate-400">
+            No FDA Official Action Indicated (OAI) Classification
+          </div>
+        ) : (
+          <div>
+            <span className="text-slate-400">OAI Count:</span>
+            <span className="text-white ml-2">{entity.oai_count}</span>
+          </div>
+        )}
+        {entity.duns_number && (
+          <div>
+            <span className="text-slate-400">DUNS Number:</span>
+            <span className="text-white ml-2">{entity.duns_number}</span>
+          </div>
+        )}
       </div>
+      
     </div>
   );
 
