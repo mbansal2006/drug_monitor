@@ -91,15 +91,6 @@ const EntityGrid: React.FC<EntityGridProps> = ({
     return 0;
   });
 
-  const handleSort = (field: string) => {
-    if (sortField === field) {
-      setSortDirection(sortDirection === 'asc' ? 'desc' : 'asc');
-    } else {
-      setSortField(field);
-      setSortDirection('asc');
-    }
-  };
-
   const paginatedData = sortedData.slice(
     (currentPage - 1) * itemsPerPage,
     currentPage * itemsPerPage
@@ -210,8 +201,7 @@ const EntityGrid: React.FC<EntityGridProps> = ({
 
   return (
     <div className="h-full bg-slate-900 flex flex-col">
-      {/* HEADER AND TABS OMITTED FOR BREVITY (UNCHANGED) */}
-      {/* TABLE RENDERING OMITTED FOR BREVITY (UNCHANGED) */}
+      {/* Table rendering logic will go here (depending on entityType) */}
     </div>
   );
 };

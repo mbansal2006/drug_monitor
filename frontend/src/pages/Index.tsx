@@ -103,16 +103,17 @@ const Index = () => {
   const handleEntitySelect = (entity: any, type: string) => {
     setSelectedEntity(entity);
     setEntityType(type as any);
-    setSelectedLocation(null); // Close location detail when selecting other entity
+    setSelectedLocation(null);
   };
 
   const handleLocationSelect = (location: any) => {
     setSelectedLocation(location);
-    setSelectedEntity(null); // Close entity detail when selecting location
+    setSelectedEntity(null);
   };
 
   const handleSearch = (payload: { query: string; type: 'location' | 'drug' | 'manufacturer' | 'ndc' }) => {
     setSearchQuery(payload);
+    setEntityType(payload.type);
   };
 
   const handleFilterChange = (newFilters: any) => setFilters(newFilters);
@@ -143,8 +144,9 @@ const Index = () => {
     );
   }
 
-console.log("✅ Enriched Locations Sample:", enrichedLocations[0]);
-console.log("🔍 Enriched Locations:", enrichedLocations);
+  console.log("✅ Enriched Locations Sample:", enrichedLocations[0]);
+  console.log("🔍 Enriched Locations:", enrichedLocations);
+
   return (
     <div className="min-h-screen bg-slate-900 text-white">
       <header className="bg-slate-800 border-b border-slate-700 px-6 py-4">
