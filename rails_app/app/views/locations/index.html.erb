@@ -1,19 +1,64 @@
-<h1>Locations</h1>
-<table>
+<h1 class="text-2xl font-bold mb-4">Locations</h1>
+<div class="mb-4">
+  <form method="get" action="<%= locations_path %>" class="flex gap-2">
+    <input type="text" name="q" value="<%= params[:q] %>" placeholder="Search..." class="border p-2 flex-grow" />
+    <select name="risk_bucket" class="border p-2">
+      <option value="">All Risk Levels</option>
+      <option value="low" <%= 'selected' if params[:risk_bucket]=='low' %>>Low (0-33)</option>
+      <option value="medium" <%= 'selected' if params[:risk_bucket]=='medium' %>>Medium (34-66)</option>
+      <option value="high" <%= 'selected' if params[:risk_bucket]=='high' %>>High (67+)</option>
+    </select>
+    <button type="submit" class="bg-blue-600 text-white px-4 py-2">Filter</button>
+  </form>
+</div>
+
+<div id="map" class="h-96 mb-4"></div>
+
+<table class="min-w-full border">
   <thead>
-    <tr>
-      <th>ID</th>
-      <th>Country</th>
-      <th>Risk Score</th>
+    <tr class="bg-gray-200">
+      <th class="px-2 py-1 border">ID</th>
+      <th class="px-2 py-1 border">Country</th>
+      <th class="px-2 py-1 border">Risk Score</th>
     </tr>
   </thead>
   <tbody>
     <% @locations.each do |loc| %>
       <tr>
-        <td><%= link_to loc.location_id, location_path(loc) %></td>
-        <td><%= loc.country %></td>
-        <td><%= loc.risk_score %></td>
+        <td class="border px-2 py-1"><%= link_to loc.id, location_path(loc) %></td>
+        <td class="border px-2 py-1"><%= loc.country %></td>
+        <td class="border px-2 py-1"><%= loc.risk_score %></td>
       </tr>
     <% end %>
   </tbody>
 </table>
+
+<script>
+  document.addEventListener('DOMContentLoaded', () => {
+    const locations = <%= raw @locations_json %>;
+    mapboxgl.accessToken = 'pk.eyJ1IjoibWJhbnNhbDA2IiwiYSI6ImNtOHRwNDB0dzA2bWYybHB0M3Q5NmltMnQifQ.SoIE1BpShnshj_AC7KI_uA';
+    const map = new mapboxgl.Map({
+      container: 'map',
+      style: 'mapbox://styles/mapbox/streets-v12',
+      center: [0, 0],
+      zoom: 1
+    });
+
+    locations.forEach((loc) => {
+      if (!loc.latitude || !loc.longitude) return;
+      let color = 'green';
+      if (loc.risk_score >= 67) {
+        color = 'red';
+      } else if (loc.risk_score >= 34) {
+        color = 'yellow';
+      }
+      const el = document.createElement('div');
+      el.className = 'w-3 h-3 rounded-full';
+      el.style.backgroundColor = color;
+      new mapboxgl.Marker(el)
+        .setLngLat([loc.longitude, loc.latitude])
+        .setPopup(new mapboxgl.Popup().setHTML(`<div class='p-2'><strong>${loc.country}</strong><br>${loc.address}<br>DUNS: ${loc.duns_number}<br>Risk: ${loc.risk_score}</div>`))
+        .addTo(map);
+    });
+  });
+</script>
