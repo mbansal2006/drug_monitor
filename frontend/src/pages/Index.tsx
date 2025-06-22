@@ -73,7 +73,7 @@ const Index = () => {
     sanctions: false,
     dumping: false,
   });
-  const [searchQuery, setSearchQuery] = useState('');
+  const [searchQuery, setSearchQuery] = useState<{ query: string; type: 'location' | 'drug' | 'manufacturer' | 'ndc' }>({ query: '', type: 'location' });
   const [isLoading, setIsLoading] = useState(true);
 
   useEffect(() => {
@@ -111,7 +111,9 @@ const Index = () => {
     setSelectedEntity(null); // Close entity detail when selecting location
   };
 
-  const handleSearch = (query: string) => setSearchQuery(query);
+  const handleSearch = (payload: { query: string; type: 'location' | 'drug' | 'manufacturer' | 'ndc' }) => {
+    setSearchQuery(payload);
+  };
 
   const handleFilterChange = (newFilters: any) => setFilters(newFilters);
 

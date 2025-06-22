@@ -73,12 +73,7 @@ const MapView: React.FC<MapViewProps> = ({
 
     setIsRendering(true);
 
-    const attemptRender = () => {
-      if (!map.current?.isStyleLoaded()) {
-        requestAnimationFrame(attemptRender);
-        return;
-      }
-
+    const renderMarkers = () => {
       // Clear old markers
       markerRefs.current.forEach(m => m.remove());
       markerRefs.current = [];
@@ -102,11 +97,14 @@ const MapView: React.FC<MapViewProps> = ({
         if (filters.alliance === 'quad' && !loc.is_quad) return false;
 
         if (query) {
-          const inAddress = loc.address?.toLowerCase().includes(query);
-          const inCountry = loc.country?.toLowerCase().includes(query);
-          const inFullName = loc.full_country_name?.toLowerCase().includes(query);
-          const inEntities = loc.related_entities?.toLowerCase().includes(query);
-          return inAddress || inCountry || inFullName || inEntities;
+          if (searchType === 'location') {
+            const inAddress = loc.address?.toLowerCase().includes(query);
+            const inCountry = loc.country?.toLowerCase().includes(query);
+            const inFullName = loc.full_country_name?.toLowerCase().includes(query);
+            return inAddress || inCountry || inFullName;
+          }
+
+          return loc.related_entities?.toLowerCase().includes(query);
         }
 
         return true;
@@ -137,7 +135,11 @@ const MapView: React.FC<MapViewProps> = ({
       setIsRendering(false);
     };
 
-    requestAnimationFrame(attemptRender);
+    if (map.current.isStyleLoaded()) {
+      renderMarkers();
+    } else {
+      map.current.once('idle', renderMarkers);
+    }
   }, [locations, filters, searchQuery, isLoaded]);
 
   return (
