@@ -187,27 +187,6 @@ const Sidebar: React.FC<SidebarProps> = ({
             </div>
           )}
         </div>
-
-        {/* Risk Alerts */}
-        <div>
-          <button
-            onClick={() => toggleSection('riskAlerts')}
-            className="flex items-center justify-between w-full text-left text-lg font-semibold text-white mb-3"
-          >
-            <div className="flex items-center">
-              <AlertTriangle className="h-5 w-5 mr-2 text-red-400" />
-              Risk Alerts
-            </div>
-            {expandedSections.riskAlerts ? <ChevronDown className="h-4 w-4" /> : <ChevronRight className="h-4 w-4" />}
-          </button>
-
-          {expandedSections.riskAlerts && (
-            <div className="space-y-2">
-              <RiskCard label="High Risk Locations" count={highRiskLocations.length} color="red" />
-              <RiskCard label="Sanctioned Nations" count={sanctionedLocations.length} color="orange" />
-            </div>
-          )}
-        </div>
       </div>
     </div>
   );
