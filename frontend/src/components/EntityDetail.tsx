@@ -75,7 +75,7 @@ const EntityDetail: React.FC<EntityDetailProps> = ({
             const badge = getRiskBadge(entity.risk_score);
             return (
               <span className={`px-3 py-1 rounded-full text-sm font-medium ${badge.color}`}>
-                Risk Score: {entity.risk_score}/10 ({badge.label})
+                Reliabity Score: {entity.risk_score}/10 ({badge.label})
               </span>
             );
           })()}

@@ -1,11 +1,18 @@
-
 import React, { useState, useEffect } from 'react';
-import { Search, Filter, Globe, Database, Building2, Pill, FileText, MapPin } from 'lucide-react';
+import {
+  Search,
+  Globe,
+  Database,
+  MapPin,
+} from 'lucide-react';
+
 import Sidebar from '@/components/Sidebar';
 import MapView from '@/components/MapView';
 import SearchBar from '@/components/SearchBar';
 import EntityGrid from '@/components/EntityGrid';
 import EntityDetail from '@/components/EntityDetail';
+
+const API_URL = import.meta.env.VITE_API_URL || "http://localhost:3000";
 
 interface Location {
   id: number;
@@ -68,41 +75,37 @@ const Index = () => {
   const [isLoading, setIsLoading] = useState(true);
 
   useEffect(() => {
+    const fetchData = async () => {
+      try {
+        const [locationsRes, drugsRes, manufacturersRes, ndcsRes] = await Promise.all([
+          fetch(`${API_URL}/api/locations`),
+          fetch(`${API_URL}/api/drugs`),
+          fetch(`${API_URL}/api/manufacturers`),
+          fetch(`${API_URL}/api/ndcs`)
+        ]);
+
+        if (locationsRes.ok) setLocations(await locationsRes.json());
+        if (drugsRes.ok) setDrugs(await drugsRes.json());
+        if (manufacturersRes.ok) setManufacturers(await manufacturersRes.json());
+        if (ndcsRes.ok) setNDCs(await ndcsRes.json());
+      } catch (error) {
+        console.error('Error fetching data:', error);
+      } finally {
+        setIsLoading(false);
+      }
+    };
+
     fetchData();
   }, []);
-
-  const fetchData = async () => {
-    try {
-      const [locationsRes, drugsRes, manufacturersRes, ndcsRes] = await Promise.all([
-        fetch('/api/locations'),
-        fetch('/api/drugs'),
-        fetch('/api/manufacturers'),
-        fetch('/api/ndcs')
-      ]);
-
-      if (locationsRes.ok) setLocations(await locationsRes.json());
-      if (drugsRes.ok) setDrugs(await drugsRes.json());
-      if (manufacturersRes.ok) setManufacturers(await manufacturersRes.json());
-      if (ndcsRes.ok) setNDCs(await ndcsRes.json());
-    } catch (error) {
-      console.error('Error fetching data:', error);
-    } finally {
-      setIsLoading(false);
-    }
-  };
 
   const handleEntitySelect = (entity: any, type: string) => {
     setSelectedEntity(entity);
     setEntityType(type as any);
   };
 
-  const handleSearch = (query: string) => {
-    setSearchQuery(query);
-  };
+  const handleSearch = (query: string) => setSearchQuery(query);
 
-  const handleFilterChange = (newFilters: any) => {
-    setFilters(newFilters);
-  };
+  const handleFilterChange = (newFilters: any) => setFilters(newFilters);
 
   const getRiskColor = (riskScore: number) => {
     if (riskScore >= 8) return 'bg-emerald-500';
@@ -110,6 +113,14 @@ const Index = () => {
     if (riskScore >= 4) return 'bg-orange-500';
     return 'bg-red-500';
   };
+
+  const enrichedLocations = locations.filter(loc =>
+    typeof loc.latitude === 'number' &&
+    typeof loc.longitude === 'number' &&
+    !isNaN(loc.latitude) &&
+    !isNaN(loc.longitude) &&
+    typeof loc.risk_score === 'number'
+  );
 
   if (isLoading) {
     return (
@@ -121,10 +132,10 @@ const Index = () => {
       </div>
     );
   }
-
+console.log("✅ Enriched Locations Sample:", enrichedLocations[0]);
+console.log("🔍 Enriched Locations:", enrichedLocations);
   return (
     <div className="min-h-screen bg-slate-900 text-white">
-      {/* Header */}
       <header className="bg-slate-800 border-b border-slate-700 px-6 py-4">
         <div className="flex items-center justify-between">
           <div className="flex items-center space-x-4">
@@ -136,29 +147,20 @@ const Index = () => {
               Pharmaceutical Supply Chain Risk Intelligence
             </div>
           </div>
-          
+
           <div className="flex items-center space-x-4">
             <SearchBar onSearch={handleSearch} />
-            
             <div className="flex bg-slate-700 rounded-lg p-1">
               <button
                 onClick={() => setActiveView('map')}
-                className={`px-3 py-1 rounded text-sm ${
-                  activeView === 'map' 
-                    ? 'bg-blue-600 text-white' 
-                    : 'text-slate-300 hover:text-white'
-                }`}
+                className={`px-3 py-1 rounded text-sm ${activeView === 'map' ? 'bg-blue-600 text-white' : 'text-slate-300 hover:text-white'}`}
               >
                 <MapPin className="h-4 w-4 inline mr-1" />
                 Map View
               </button>
               <button
                 onClick={() => setActiveView('grid')}
-                className={`px-3 py-1 rounded text-sm ${
-                  activeView === 'grid' 
-                    ? 'bg-blue-600 text-white' 
-                    : 'text-slate-300 hover:text-white'
-                }`}
+                className={`px-3 py-1 rounded text-sm ${activeView === 'grid' ? 'bg-blue-600 text-white' : 'text-slate-300 hover:text-white'}`}
               >
                 <Database className="h-4 w-4 inline mr-1" />
                 Data View
@@ -169,33 +171,31 @@ const Index = () => {
       </header>
 
       <div className="flex h-[calc(100vh-80px)]">
-        {/* Sidebar */}
-        <Sidebar 
+        <Sidebar
           filters={filters}
           onFilterChange={handleFilterChange}
-          locations={locations}
+          locations={enrichedLocations}
           drugs={drugs}
           manufacturers={manufacturers}
           ndcs={ndcs}
           onEntitySelect={handleEntitySelect}
         />
 
-        {/* Main Content */}
         <div className="flex-1 flex">
           <div className="flex-1">
             {activeView === 'map' ? (
-              <MapView 
-                locations={locations}
+              <MapView
+                locations={enrichedLocations}
                 filters={filters}
                 searchQuery={searchQuery}
-                onLocationSelect={(location) => handleEntitySelect(location, 'location')}
+                onLocationSelect={setSelectedEntity}
                 getRiskColor={getRiskColor}
               />
             ) : (
               <EntityGrid
                 entityType={entityType}
                 setEntityType={setEntityType}
-                locations={locations}
+                locations={enrichedLocations}
                 drugs={drugs}
                 manufacturers={manufacturers}
                 ndcs={ndcs}
@@ -207,7 +207,6 @@ const Index = () => {
             )}
           </div>
 
-          {/* Entity Detail Panel */}
           {selectedEntity && (
             <div className="w-96 bg-slate-800 border-l border-slate-700">
               <EntityDetail

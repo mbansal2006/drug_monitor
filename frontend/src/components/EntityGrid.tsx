@@ -258,7 +258,7 @@ const EntityGrid: React.FC<EntityGridProps> = ({
                       onClick={() => handleSort('risk_score')}
                       className="flex items-center text-slate-300 hover:text-white"
                     >
-                      Risk Score <ArrowUpDown className="h-3 w-3 ml-1" />
+                      Reliability Score <ArrowUpDown className="h-3 w-3 ml-1" />
                     </button>
                   </th>
                   <th className="px-4 py-3 text-left text-slate-300">Flags</th>

@@ -82,7 +82,7 @@ const Sidebar: React.FC<SidebarProps> = ({
               {/* Risk Score Range */}
               <div>
                 <label className="block text-sm font-medium text-slate-300 mb-2">
-                  Risk Score: {filters.riskScore[0]} - {filters.riskScore[1]}
+                  Reliability Score: {filters.riskScore[0]} - {filters.riskScore[1]}
                 </label>
                 <div className="space-y-2">
                   <input
