@@ -22,7 +22,7 @@ const LocationTable = ({ locations, onSelect }) => {
               <td className="p-2">{loc.risk_score}</td>
             </tr>
           );
-        })
+        })}
       </tbody>
     </table>
   );
