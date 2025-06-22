@@ -8,20 +8,30 @@ import ObjectDetailPanel from './components/ObjectDetailPanel';
 
 const App = () => {
   const [locations, setLocations] = useState([]);
-  const [filters, setFilters] = useState({ query: '', country: '', risk_bucket: '', taa_compliant: false, ofac_sanctioned: false });
+  const [filters, setFilters] = useState({
+    query: '',
+    country: '',
+    risk_bucket: '',
+    taa_compliant: false,
+    ofac_sanctioned: false,
+  });
   const [selected, setSelected] = useState(null);
 
   useEffect(() => {
     const fetchLocations = async () => {
-      const params = {};
-      if (filters.query) params.q = filters.query;
-      if (filters.country) params.country = filters.country;
-      if (filters.risk_bucket) params.risk_bucket = filters.risk_bucket;
-      if (filters.taa_compliant) params.taa_compliant = true;
-      if (filters.ofac_sanctioned) params.ofac_sanctioned = true;
+      try {
+        const params = {};
+        if (filters.query) params.q = filters.query;
+        if (filters.country) params.country = filters.country;
+        if (filters.risk_bucket) params.risk_bucket = filters.risk_bucket;
+        if (filters.taa_compliant) params.taa_compliant = true;
+        if (filters.ofac_sanctioned) params.ofac_sanctioned = true;
 
-      const resp = await axios.get('/api/locations', { params });
-      setLocations(resp.data);
+        const resp = await axios.get('http://localhost:3000/api/locations', { params });
+        setLocations(resp.data);
+      } catch (err) {
+        console.error('Failed to fetch locations:', err);
+      }
     };
     fetchLocations();
   }, [filters]);
@@ -37,17 +47,20 @@ const App = () => {
 
       <main className="flex-1 p-4 space-y-4">
         <Routes>
-          <Route path="/" element={
-            <div className="grid grid-cols-1 lg:grid-cols-4 gap-4">
-              <div>
-                <FilterSidebar filters={filters} setFilters={setFilters} />
+          <Route
+            path="/"
+            element={
+              <div className="grid grid-cols-1 lg:grid-cols-4 gap-4">
+                <div>
+                  <FilterSidebar filters={filters} setFilters={setFilters} />
+                </div>
+                <div className="lg:col-span-3 space-y-4">
+                  <MapView locations={locations} />
+                  <LocationTable locations={locations} onSelect={setSelected} />
+                </div>
               </div>
-              <div className="lg:col-span-3 space-y-4">
-                <MapView locations={locations} />
-                <LocationTable locations={locations} onSelect={setSelected} />
-              </div>
-            </div>
-          } />
+            }
+          />
         </Routes>
       </main>
 
