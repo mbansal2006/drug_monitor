@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>RailsApp</title>
+    <title>Drug Monitor</title>
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
@@ -11,8 +11,12 @@
     <link href='https://api.mapbox.com/mapbox-gl-js/v2.15.0/mapbox-gl.css' rel='stylesheet' />
     <script src='https://api.mapbox.com/mapbox-gl-js/v2.15.0/mapbox-gl.js'></script>
   </head>
-
-  <body>
-    <%= yield %>
+  <body class="bg-gray-50 font-sans">
+    <div class="flex min-h-screen">
+      <%= render 'shared/sidebar' %>
+      <main class="flex-1 p-6">
+        <%= yield %>
+      </main>
+    </div>
   </body>
 </html>

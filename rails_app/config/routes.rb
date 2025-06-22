@@ -1,5 +1,6 @@
 Rails.application.routes.draw do
-  root 'drugs#index'
+  root 'dashboard#index'
+  get 'dashboard/index'
   resources :drugs, only: [:index, :show]
   resources :manufacturers, only: [:index, :show]
   resources :ndcs, only: [:index, :show]

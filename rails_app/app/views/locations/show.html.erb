@@ -1,11 +1,35 @@
 <h1 class="text-2xl font-bold mb-4">Location <%= @location.id %></h1>
-<div id="map" class="h-64 mb-4"></div>
-<div class="mb-4">
-  <p><strong>Address:</strong> <%= @location.address %></p>
-  <p><strong>Country:</strong> <%= @location.full_country_name %></p>
-  <p><strong>DUNS:</strong> <%= @location.duns_number %></p>
-  <p><strong>Risk Score:</strong> <%= @location.risk_score %></p>
+<div id="map" class="h-64 mb-4 rounded shadow"></div>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-4">
+  <div class="space-y-1">
+    <p><strong>Address:</strong> <%= @location.address %></p>
+    <p><strong>Country:</strong> <%= @location.full_country_name %></p>
+    <p><strong>DUNS:</strong> <%= @location.duns_number %></p>
+    <p><strong>Risk Score:</strong> <%= @location.risk_score %></p>
+  </div>
+  <div>
+    <h2 class="font-semibold mb-2">Compliance Flags</h2>
+    <ul class="list-disc ml-5">
+      <li>TAA Compliant: <%= @location.taa_compliant ? 'Yes' : 'No' %></li>
+      <li>OFAC Sanctioned: <%= @location.ofac_sanctioned ? 'Yes' : 'No' %></li>
+      <li>Quality Risk Flag: <%= @location.quality_risk_flag ? 'Yes' : 'No' %></li>
+      <li>MNNA: <%= @location.is_mnna ? 'Yes' : 'No' %></li>
+      <li>NATO: <%= @location.is_nato ? 'Yes' : 'No' %></li>
+      <li>Five Eyes: <%= @location.is_five_eyes ? 'Yes' : 'No' %></li>
+    </ul>
+  </div>
 </div>
+
+<h2 class="font-semibold mb-2">Linked NDCs</h2>
+<ul class="list-disc ml-5 mb-4">
+  <% @location.ndcs.each do |ndc| %>
+    <li>
+      <%= link_to ndc.proprietary_name, ndc_path(ndc) %> (<%= ndc.ndc_code %>)
+      by <%= link_to ndc.manufacturer.manufacturer_name, manufacturer_path(ndc.manufacturer) %>
+    </li>
+  <% end %>
+</ul>
+
 <%= link_to 'Back', locations_path, class: 'text-blue-600 underline' %>
 
 <script>
