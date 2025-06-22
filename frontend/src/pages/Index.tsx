@@ -103,6 +103,7 @@ const Index = () => {
   const handleEntitySelect = (entity: any, type: string) => {
     setSelectedEntity(entity);
     setEntityType(type as any);
+    setEntityType(payload.type);
     setSelectedLocation(null);
   };
 

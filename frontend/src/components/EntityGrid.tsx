@@ -72,6 +72,8 @@ const EntityGrid: React.FC<EntityGridProps> = ({
     return true;
   });
 
+  console.log(filteredData, entityType, queryType, query);
+
   const sortedData = [...filteredData].sort((a, b) => {
     if (!sortField) return 0;
 
@@ -201,8 +203,166 @@ const EntityGrid: React.FC<EntityGridProps> = ({
 
   return (
     <div className="h-full bg-slate-900 flex flex-col">
-      {/* Table rendering logic will go here (depending on entityType) */}
-    </div>
+      {/* Header */}
+      <div className="bg-slate-800 border-b border-slate-700 p-4">
+        <div className="flex items-center justify-between mb-4">
+          <h2 className="text-xl font-semibold text-white">Data Explorer</h2>
+          <div className="text-sm text-slate-400">
+            {sortedData.length} results
+          </div>
+        </div>
+        
+        {/* Entity Type Tabs */}
+        <div className="flex space-x-1 bg-slate-700 rounded-lg p-1">
+          {entityTypes.map(({ key, label, icon: Icon }) => (
+            <button
+              key={key}
+              onClick={() => setEntityType(key as any)}
+              className={`flex items-center px-3 py-2 rounded-md text-sm font-medium transition-all ${
+                entityType === key
+                  ? 'bg-blue-600 text-white shadow-sm'
+                  : 'text-slate-300 hover:text-white hover:bg-slate-600'
+              }`}
+            >
+              <Icon className="h-4 w-4 mr-2" />
+              {label}
+            </button>
+          ))}
+        </div>
+      </div>
+
+      {/* Table */}
+      <div className="flex-1 overflow-auto">
+        <table className="w-full">
+          <thead className="bg-slate-800 sticky top-0">
+            <tr>
+              {entityType === 'location' && (
+                <>
+                  <th className="px-4 py-3 text-left">
+                    <button
+                      onClick={() => handleSort('full_country_name')}
+                      className="flex items-center text-slate-300 hover:text-white"
+                    >
+                      Country <ArrowUpDown className="h-3 w-3 ml-1" />
+                    </button>
+                  </th>
+                  <th className="px-4 py-3 text-left text-slate-300">Address</th>
+                  <th className="px-4 py-3 text-left">
+                    <button
+                      onClick={() => handleSort('risk_score')}
+                      className="flex items-center text-slate-300 hover:text-white"
+                    >
+                      Risk Score <ArrowUpDown className="h-3 w-3 ml-1" />
+                    </button>
+                  </th>
+                  <th className="px-4 py-3 text-left text-slate-300">Flags</th>
+                </>
+              )}
+              {entityType === 'drug' && (
+                <>
+                  <th className="px-4 py-3 text-left">
+                    <button
+                      onClick={() => handleSort('drug_name')}
+                      className="flex items-center text-slate-300 hover:text-white"
+                    >
+                      Drug Name <ArrowUpDown className="h-3 w-3 ml-1" />
+                    </button>
+                  </th>
+                  <th className="px-4 py-3 text-left text-slate-300">Essential</th>
+                  <th className="px-4 py-3 text-left text-slate-300">Shortage Status</th>
+                  <th className="px-4 py-3 text-left text-slate-300">Start Date</th>
+                </>
+              )}
+              {entityType === 'manufacturer' && (
+                <>
+                  <th className="px-4 py-3 text-left">
+                    <button
+                      onClick={() => handleSort('manufacturer_name')}
+                      className="flex items-center text-slate-300 hover:text-white"
+                    >
+                      Manufacturer <ArrowUpDown className="h-3 w-3 ml-1" />
+                    </button>
+                  </th>
+                  <th className="px-4 py-3 text-left text-slate-300">Products</th>
+                  <th className="px-4 py-3 text-left text-slate-300">Risk Level</th>
+                  <th className="px-4 py-3 text-left text-slate-300">Locations</th>
+                </>
+              )}
+              {entityType === 'ndc' && (
+                <>
+                  <th className="px-4 py-3 text-left">
+                    <button
+                      onClick={() => handleSort('ndc_code')}
+                      className="flex items-center text-slate-300 hover:text-white"
+                    >
+                      NDC Code <ArrowUpDown className="h-3 w-3 ml-1" />
+                    </button>
+                  </th>
+                  <th className="px-4 py-3 text-left text-slate-300">Manufacturer</th>
+                  <th className="px-4 py-3 text-left text-slate-300">Dosage</th>
+                  <th className="px-4 py-3 text-left text-slate-300">Strength</th>
+                </>
+              )}
+            </tr>
+          </thead>
+          <tbody>
+            {paginatedData.map(item => {
+              switch (entityType) {
+                case 'location':
+                  return renderLocationRow(item);
+                case 'drug':
+                  return renderDrugRow(item);
+                case 'manufacturer':
+                  return renderManufacturerRow(item);
+                case 'ndc':
+                  return renderNDCRow(item);
+                default:
+                  return null;
+              }
+            })}
+            {paginatedData.length === 0 && (
+              <tr>
+                <td
+                  colSpan={4}
+                  className="p-4 text-center text-slate-400"
+                >
+                  No results found.
+                </td>
+              </tr>
+            )}
+          </tbody>
+        </table>
+      </div>
+
+      {/* Pagination */}
+      {totalPages > 1 && (
+        <div className="bg-slate-800 border-t border-slate-700 px-4 py-3">
+          <div className="flex items-center justify-between">
+            <div className="text-sm text-slate-400">
+              Showing {(currentPage - 1) * itemsPerPage + 1} to {Math.min(currentPage * itemsPerPage, sortedData.length)} of {sortedData.length} results
+            </div>
+            <div className="flex space-x-2">
+              <button
+                onClick={() => setCurrentPage(Math.max(1, currentPage - 1))}
+                disabled={currentPage === 1}
+                className="px-3 py-1 bg-slate-700 text-slate-300 rounded hover:bg-slate-600 disabled:opacity-50 disabled:cursor-not-allowed"
+              >
+                Previous
+              </button>
+              <span className="px-3 py-1 text-slate-300">
+                Page {currentPage} of {totalPages}
+              </span>
+              <button
+                onClick={() => setCurrentPage(Math.min(totalPages, currentPage + 1))}
+                disabled={currentPage === totalPages}
+                className="px-3 py-1 bg-slate-700 text-slate-300 rounded hover:bg-slate-600 disabled:opacity-50 disabled:cursor-not-allowed"
+              >
+                Next
+              </button>
+            </div>
+          </div>
+        </div>
+      )}
   );
 };
 
