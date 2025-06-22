@@ -11,6 +11,7 @@ import MapView from '@/components/MapView';
 import SearchBar from '@/components/SearchBar';
 import EntityGrid from '@/components/EntityGrid';
 import EntityDetail from '@/components/EntityDetail';
+import LocationDetail from '@/components/LocationDetail';
 
 const API_URL = import.meta.env.VITE_API_URL || "http://localhost:3000";
 
@@ -59,6 +60,7 @@ interface NDC {
 const Index = () => {
   const [activeView, setActiveView] = useState<'map' | 'grid'>('map');
   const [selectedEntity, setSelectedEntity] = useState<any>(null);
+  const [selectedLocation, setSelectedLocation] = useState<any>(null);
   const [entityType, setEntityType] = useState<'drug' | 'location' | 'manufacturer' | 'ndc'>('location');
   const [locations, setLocations] = useState<Location[]>([]);
   const [drugs, setDrugs] = useState<Drug[]>([]);
@@ -101,6 +103,12 @@ const Index = () => {
   const handleEntitySelect = (entity: any, type: string) => {
     setSelectedEntity(entity);
     setEntityType(type as any);
+    setSelectedLocation(null); // Close location detail when selecting other entity
+  };
+
+  const handleLocationSelect = (location: any) => {
+    setSelectedLocation(location);
+    setSelectedEntity(null); // Close entity detail when selecting location
   };
 
   const handleSearch = (query: string) => setSearchQuery(query);
@@ -132,6 +140,7 @@ const Index = () => {
       </div>
     );
   }
+
 console.log("✅ Enriched Locations Sample:", enrichedLocations[0]);
 console.log("🔍 Enriched Locations:", enrichedLocations);
   return (
@@ -188,7 +197,7 @@ console.log("🔍 Enriched Locations:", enrichedLocations);
                 locations={enrichedLocations}
                 filters={filters}
                 searchQuery={searchQuery}
-                onLocationSelect={setSelectedEntity}
+                onLocationSelect={handleLocationSelect}
                 getRiskColor={getRiskColor}
               />
             ) : (
@@ -207,7 +216,17 @@ console.log("🔍 Enriched Locations:", enrichedLocations);
             )}
           </div>
 
-          {selectedEntity && (
+          {selectedLocation && (
+            <div className="w-96 bg-slate-800 border-l border-slate-700">
+              <LocationDetail
+                location={selectedLocation}
+                onClose={() => setSelectedLocation(null)}
+                onEntitySelect={handleEntitySelect}
+              />
+            </div>
+          )}
+
+          {selectedEntity && !selectedLocation && (
             <div className="w-96 bg-slate-800 border-l border-slate-700">
               <EntityDetail
                 entity={selectedEntity}

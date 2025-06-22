@@ -11,6 +11,7 @@ Rails.application.routes.draw do
 
   # JSON API routes (for React frontend to call)
   namespace :api do
+    get 'locations/:id/ndc_summary', to: 'locations#ndc_summary'
     get 'ndcs/index'
     get 'ndcs/show'
     get 'locations/index'
