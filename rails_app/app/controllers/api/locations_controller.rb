@@ -1,10 +1,21 @@
 class Api::LocationsController < ApplicationController
   def index
-    render json: Location.all
+    render json: Location.all.as_json(only: [
+      :id, :csv_location_id, :address, :country, :state_or_region,
+      :full_country_name, :latitude, :longitude, :risk_score,
+      :oai_count, :engages_in_dumping, :has_bis_ns1, :ofac_sanctioned,
+      :is_nato, :is_five_eyes, :taa_compliant, :firm_name
+    ])
   end
 
   def show
-    render json: Location.find(params[:id])
+    location = Location.find(params[:id])
+    render json: location.as_json(only: [
+      :id, :csv_location_id, :address, :country, :state_or_region,
+      :full_country_name, :latitude, :longitude, :risk_score,
+      :oai_count, :engages_in_dumping, :has_bis_ns1, :ofac_sanctioned,
+      :is_nato, :is_five_eyes, :taa_compliant, :firm_name
+    ])
   end
 
   def ndc_summary

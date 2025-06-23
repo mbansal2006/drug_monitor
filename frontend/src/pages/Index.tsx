@@ -103,7 +103,6 @@ const Index = () => {
   const handleEntitySelect = (entity: any, type: string) => {
     setSelectedEntity(entity);
     setEntityType(type as any);
-    setEntityType(payload.type);
     setSelectedLocation(null);
   };
 
@@ -145,8 +144,16 @@ const Index = () => {
     );
   }
 
-  console.log("✅ Enriched Locations Sample:", enrichedLocations[0]);
-  console.log("🔍 Enriched Locations:", enrichedLocations);
+  if (activeView === 'grid') {
+    console.log("Rendering EntityGrid with props", {
+      entityType,
+      locations: enrichedLocations.length,
+      drugs: drugs.length,
+      manufacturers: manufacturers.length,
+      ndcs: ndcs.length,
+      searchQuery
+    });
+  }
 
   return (
     <div className="min-h-screen bg-slate-900 text-white">

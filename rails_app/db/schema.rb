@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.1].define(version: 2025_06_22_221737) do
+ActiveRecord::Schema[7.1].define(version: 2025_06_22_234806) do
   create_table "drugs", force: :cascade do |t|
     t.string "drug_name"
     t.boolean "fda_essential"
@@ -53,6 +53,7 @@ ActiveRecord::Schema[7.1].define(version: 2025_06_22_221737) do
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.text "related_entities"
+    t.string "firm_name"
     t.index ["csv_location_id"], name: "index_locations_on_csv_location_id"
   end
 

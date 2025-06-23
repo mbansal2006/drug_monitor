@@ -108,7 +108,6 @@ const LocationDetail: React.FC<LocationDetailProps> = ({
 
   return (
     <div className="h-full bg-slate-800 flex flex-col">
-      {/* Header */}
       <div className="flex items-center justify-between p-4 border-b border-slate-700">
         <div className="flex items-center space-x-2">
           <MapPin className="h-5 w-5 text-blue-400" />
@@ -122,12 +121,11 @@ const LocationDetail: React.FC<LocationDetailProps> = ({
         </button>
       </div>
 
-      {/* Content */}
       <div className="flex-1 overflow-y-auto p-4">
-        {/* Location Info */}
         <div className="space-y-4 mb-6">
           <div>
-            <h3 className="text-xl font-semibold text-white mb-2">{location.full_country_name}</h3>
+            <h3 className="text-xl font-semibold text-white mb-1">{location.firm_name || "Unnamed Firm"}</h3>
+            <p className="text-slate-400">{location.full_country_name}</p>
             <p className="text-slate-400">{location.address}</p>
             <div className="mt-3">
               {(() => {
@@ -142,7 +140,6 @@ const LocationDetail: React.FC<LocationDetailProps> = ({
           </div>
         </div>
 
-        {/* Drugs Section */}
         <div>
           <h4 className="text-lg font-medium text-white mb-4 flex items-center">
             <Pill className="h-5 w-5 mr-2 text-green-400" />
