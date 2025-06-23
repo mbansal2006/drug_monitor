@@ -107,7 +107,7 @@ const EntityGrid: React.FC<EntityGridProps> = ({
                     entity.risk_score
                   )}`}
                 >
-                  Risk: {entity.risk_score}
+                  Reliability: {entity.risk_score}
                 </div>
               </>
             )}
