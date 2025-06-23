@@ -1,4 +1,4 @@
-import React, { useEffect, useRef, useState } from 'react';
+import React, { useEffect, useRef } from 'react';
 import mapboxgl from 'mapbox-gl';
 import 'mapbox-gl/dist/mapbox-gl.css';
 
@@ -9,6 +9,10 @@ interface Location {
   address: string;
   country: string;
   full_country_name: string;
+  state_or_region?: string;
+  firm_name?: string;
+  duns_number?: string;
+  related_entities?: string;
   latitude: number;
   longitude: number;
   risk_score: number;
@@ -21,15 +25,10 @@ interface Location {
   is_quad?: boolean;
 }
 
-interface SearchQuery {
-  query: string;
-  type: string;
-}
-
 interface MapViewProps {
   locations: Location[];
   filters: any;
-  searchQuery: SearchQuery;
+  searchQuery: string;
   onLocationSelect: (location: Location) => void;
 }
 
@@ -50,8 +49,6 @@ const MapView: React.FC<MapViewProps> = ({
   const map = useRef<mapboxgl.Map | null>(null);
   const geojsonSourceId = 'locations-source';
 
-  const [hoveredId, setHoveredId] = useState<number | null>(null);
-
   useEffect(() => {
     if (map.current || !mapContainer.current) return;
 
@@ -66,10 +63,7 @@ const MapView: React.FC<MapViewProps> = ({
       if (!map.current?.getSource(geojsonSourceId)) {
         map.current.addSource(geojsonSourceId, {
           type: 'geojson',
-          data: {
-            type: 'FeatureCollection',
-            features: [],
-          },
+          data: { type: 'FeatureCollection', features: [] },
         });
 
         map.current.addLayer({
@@ -88,8 +82,8 @@ const MapView: React.FC<MapViewProps> = ({
           const feature = e.features?.[0];
           if (feature) {
             const id = feature.properties?.id;
-            const location = locations.find(loc => loc.id === id);
-            if (location) onLocationSelect(location);
+            const loc = locations.find(l => l.id === id);
+            if (loc) onLocationSelect(loc);
           }
         });
 
@@ -106,13 +100,13 @@ const MapView: React.FC<MapViewProps> = ({
   useEffect(() => {
     if (!map.current?.isStyleLoaded()) return;
 
-    const query = searchQuery?.query?.toLowerCase().trim() || '';
-    const searchType = searchQuery?.type || 'location';
+    const query = searchQuery.toLowerCase().trim();
 
     const filtered = locations.filter(loc => {
       if (!loc.latitude || !loc.longitude || isNaN(loc.latitude) || isNaN(loc.longitude)) return false;
       if (typeof loc.risk_score !== 'number') return false;
 
+      // Filters
       if (filters.country && loc.country !== filters.country) return false;
       if (loc.risk_score < filters.riskScore[0] || loc.risk_score > filters.riskScore[1]) return false;
       if (filters.sanctions && !loc.ofac_sanctioned) return false;
@@ -124,12 +118,28 @@ const MapView: React.FC<MapViewProps> = ({
       if (filters.alliance === 'oecd' && !loc.is_oecd) return false;
       if (filters.alliance === 'quad' && !loc.is_quad) return false;
 
-      return true; // No related entity filtering for now (simplified)
+      // Smart search
+      if (query) {
+        const match = [
+          loc.firm_name,
+          loc.duns_number,
+          loc.address,
+          loc.country,
+          loc.full_country_name,
+          loc.state_or_region,
+        ].some(field => field?.toLowerCase().includes(query));
+
+        const drugMatch = loc.related_entities?.toLowerCase().includes(query);
+
+        if (!match && !drugMatch) return false;
+      }
+
+      return true;
     });
 
     const geojson = {
       type: 'FeatureCollection',
-      features: filtered.map((loc) => ({
+      features: filtered.map(loc => ({
         type: 'Feature',
         geometry: {
           type: 'Point',
