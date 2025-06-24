@@ -15,17 +15,19 @@ class Api::LocationsController < ApplicationController
     @locations = @locations.where("state_or_region LIKE ?", "%#{params[:state_or_region]}%") if params[:state_or_region].present?
     @locations = @locations.where("postal_code LIKE ?", "%#{params[:postal_code]}%") if params[:postal_code].present?
 
-    if params[:risk_bucket].present?
-      range = case params[:risk_bucket]
-              when 'low' then 0..33
-              when 'medium' then 34..66
-              when 'high' then 67..1000
-              end
-      @locations = @locations.where(risk_score: range) if range
-    end
+    @locations = @locations.where('risk_score >= ?', params[:risk_min].to_i) if params[:risk_min].present?
+    @locations = @locations.where('risk_score <= ?', params[:risk_max].to_i) if params[:risk_max].present?
 
-    @locations = @locations.where(taa_compliant: true) if params[:taa_compliant].present?
-    @locations = @locations.where(ofac_sanctioned: true) if params[:ofac_sanctioned].present?
+    boolean_keys = [
+      :taa_compliant, :ofac_sanctioned, :engages_in_dumping,
+      :is_nato, :is_five_eyes, :is_oecd, :is_quad
+    ]
+
+    boolean_keys.each do |key|
+      if ActiveModel::Type::Boolean.new.cast(params[key])
+        @locations = @locations.where(key => true)
+      end
+    end
 
     render json: @locations.select(
       :id,
@@ -38,7 +40,14 @@ class Api::LocationsController < ApplicationController
       :related_entities,
       :firm_name,
       :state_or_region,
-      :full_country_name
+      :full_country_name,
+      :ofac_sanctioned,
+      :engages_in_dumping,
+      :taa_compliant,
+      :is_nato,
+      :is_five_eyes,
+      :is_oecd,
+      :is_quad
     )
   end
 
