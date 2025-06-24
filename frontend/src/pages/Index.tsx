@@ -12,6 +12,7 @@ import SearchBar from '@/components/SearchBar';
 import EntityGrid from '@/components/EntityGrid';
 import EntityDetail from '@/components/EntityDetail';
 import LocationDetail from '@/components/LocationDetail';
+// import Hero from '@/components/Hero';
 
 const API_URL = import.meta.env.VITE_API_URL || "http://localhost:3000";
 
@@ -144,19 +145,9 @@ const Index = () => {
     );
   }
 
-  if (activeView === 'grid') {
-    console.log("Rendering EntityGrid with props", {
-      entityType,
-      locations: enrichedLocations.length,
-      drugs: drugs.length,
-      manufacturers: manufacturers.length,
-      ndcs: ndcs.length,
-      searchQuery
-    });
-  }
-
   return (
-    <div className="min-h-screen bg-slate-900 text-white">
+    <div className="bg-slate-900 text-white">
+      {/* Header */}
       <header className="bg-slate-800 border-b border-slate-700 px-6 py-4">
         <div className="flex items-center justify-between">
           <div className="flex items-center space-x-4">
@@ -191,7 +182,13 @@ const Index = () => {
         </div>
       </header>
 
-      <div className="flex h-[calc(100vh-80px)]">
+      {/* Intro / Hero Section 
+      <Hero />
+
+      */}
+
+      {/* Dashboard Section */}
+      <section id="dashboard" className="flex h-[calc(100vh-80px)] border-t border-slate-700">
         <Sidebar
           filters={filters}
           onFilterChange={handleFilterChange}
@@ -249,7 +246,7 @@ const Index = () => {
             </div>
           )}
         </div>
-      </div>
+      </section>
     </div>
   );
 };
