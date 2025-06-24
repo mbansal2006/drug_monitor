@@ -140,9 +140,8 @@ India receives no alliance benefits and is penalized for NS1 classification, exp
 | NATO Member                      | Yes     | +1                       |
 | OECD Member                      | Yes     | +1                       |
 | TAA Compliant                    | Yes     | +1                       |
-| BIS NS1 Listed                   | Yes     | -2                       |
-| Total Score                      |          | 5 + 5 - 2 = 8            |
-| Final Risk Score (clamped)      |          | 8                        |
+| Total Score                      |          | 5 + 5 = 10            |
+| Final Risk Score (clamped)      |          | 10                        |
 
 The UK ranks as a low-risk partner due to its extensive alliance memberships and trade compliance, with only a minor deduction for BIS NS1 classification.
 
