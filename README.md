@@ -46,39 +46,104 @@ This project is modeled in both **Palantir Foundry** and a **Ruby on Rails** web
 
 ### `Drug`
 
-- `drug_id`, `drug_name`, `shortage_status`, `shortage_start`, `shortage_end`
-- `has_many :ndcs`
+- Fields:  
+  `drug_name`, `fda_essential`, `reason`, `shortage_start`, `shortage_end`  
+  `therapeutic_categories`, `update_date`, `update_type`
+- Relationships:  
+  `has_many :ndcs`
 
 ### `Ndc`
 
-- `ndc_id`, `ndc_code`, `drug_id`, `manufacturer_id`
-- `belongs_to :drug`, `belongs_to :manufacturer`
-- `has_many :ndc_location_links`, `has_many :locations, through: :ndc_location_links`
+- Fields:  
+  `ndc_code`, `proprietary_name`, `generic_name`, `drug_dosage`, `drug_strength`, `spl_set_id`
+- Relationships:  
+  `belongs_to :drug`, `belongs_to :manufacturer`  
+  `has_many :ndc_location_links`, `has_many :locations, through: :ndc_location_links`
 
 ### `Manufacturer`
 
-- `manufacturer_name`
-- `has_many :ndcs`
+- Fields:  
+  `manufacturer_name`
+- Relationships:  
+  `has_many :ndcs`
 
 ### `Location`
 
 - Fields:  
-  `location_id`, `address`, `country`, `state_or_region`, `postal_code`  
-  `full_country_name`, `duns_number`, `risk_score`, `oai_count`  
-  `taa_compliant`, `latitude`, `longitude`  
+  `address`, `country`, `state_or_region`, `postal_code`, `full_country_name`,  
+  `latitude`, `longitude`, `duns_number`, `firm_name`, `risk_score`, `oai_count`, `related_entities`  
   Booleans:  
-  `engages_in_dumping`, `has_bis_ns1`, `has_bis_rs1`, `has_export_ban_history`,  
+  `taa_compliant`, `engages_in_dumping`, `has_bis_ns1`, `has_bis_rs1`, `has_export_ban_history`,  
   `is_five_eyes`, `is_mnna`, `is_nato`, `is_oecd`, `is_quad`, `ofac_sanctioned`, `quality_risk_flag`
-
 - Relationships:  
-  `has_many :ndc_location_links`  
-  `has_many :ndcs, through: :ndc_location_links`
+  `has_many :ndc_location_links`, `has_many :ndcs, through: :ndc_location_links`
 
 ### `NdcLocationLink`
 
-- `ndc_id`, `location_id`
-- `belongs_to :ndc`, `belongs_to :location`
+- Fields:  
+  `ndc_id`, `location_id`
+- Relationships:  
+  `belongs_to :ndc`, `belongs_to :location`
 
+### 🔍 Abridged Example: Linking an NDC to Drug, Manufacturer, and Location
+
+Below is a real-world example showing how a single drug product (represented by an NDC) is connected to its drug classification, manufacturer, and a physical production location. This demonstrates how the database links structured fields across models.
+
+Each row represents an object from a different table. The `id` columns (e.g. `ndc_id`, `drug_id`) are internal reference numbers used within the database to link related entries. These are not publicly meaningful but allow us to relate records to each other consistently.
+
+#### 📦 NDC Record (Product Configuration)
+| Field             | Value                          | Description                                              |
+|------------------|----------------------------------|----------------------------------------------------------|
+| `ndc_id`         | 14343                           | Internal ID for this NDC record                          |
+| `ndc_code`       | `77790-022`                     | Official FDA NDC (National Drug Code)                    |
+| `proprietary_name` | Vista Gonio Eye Lubricant     | Brand name of the product                                |
+| `generic_name`   | Hypromellose Ophthalmic Solution | Standardized drug ingredient name                        |
+| `drug_dosage`    | SOLUTION                        | Form of the product (e.g. tablet, solution)              |
+| `drug_strength`  | 25 mg/15mL                      | Amount of active ingredient                              |
+| `spl_set_id`     | 00da365d-2988-9c9e-e063-6294a90a8931 | ID used to retrieve full FDA label from DailyMed      |
+| `drug_id`        | 658                              | Internal reference to the associated `Drug`              |
+| `manufacturer_id`| 138                              | Internal reference to the associated `Manufacturer`      |
+
+#### 💊 Drug Record (Therapeutic Classification)
+| Field           | Value                            | Description                                              |
+|----------------|------------------------------------|----------------------------------------------------------|
+| `drug_id`      | 658                                | Internal ID for this drug entity                         |
+| `drug_name`    | Hypromellose Ophthalmic Solution Solution | Full classification of the active compound       |
+| Other fields   | _(null)_                           | Additional info (e.g. shortage status) not provided here |
+
+#### 🏢 Manufacturer Record
+| Field               | Value               | Description                            |
+|---------------------|---------------------|----------------------------------------|
+| `manufacturer_id`   | 138                 | Internal ID for this manufacturer       |
+| `manufacturer_name` | Red Wedding LLC     | Entity responsible for the product      |
+
+#### 🌍 Location Record (Production Site)
+| Field               | Value                                                              | Description                                                      |
+|---------------------|--------------------------------------------------------------------|------------------------------------------------------------------|
+| `location_id`       | 264                                                                | Internal ID for the location                                     |
+| `firm_name`         | WIZCURE PHARMAA PRIVATE LIMITED                                     | Name of the manufacturing site                                   |
+| `address`           | H 881 Industrial Area, Bhiwadi, Alwar, Rajasthan 301019, India     | Physical address of the facility                                 |
+| `country`           | IND                                                                | ISO3 country code                                                |
+| `full_country_name` | India                                                              | Human-readable country name                                      |
+| `state_or_region`   | Rajasthan                                                          | Region or state                                                  |
+| `postal_code`       | 301019                                                             | Postal code                                                      |
+| `latitude` / `longitude` | 28.2052 / 76.8294                                            | Coordinates for mapping                                          |
+| `duns_number`       | 871769521                                                          | Global facility identifier used in commerce and regulation       |
+| `taa_compliant`     | false                                                              | Does this site comply with U.S. trade agreement rules?           |
+| `engages_in_dumping`| false                                                              | Has the site been flagged for dumping risk?                      |
+| `has_bis_ns1`       | true                                                               | Associated with BIS NS1 export restriction list                  |
+| `has_export_ban_history` | true                                                        | Site has a known export ban history                              |
+| `is_quad`           | true                                                               | Located in QUAD security alliance country?                       |
+| `quality_risk_flag` | true                                                               | Flagged for known quality or regulatory issues                   |
+
+#### 🔗 NdcLocationLink Record
+| Field         | Value | Description                                   |
+|---------------|-------|-----------------------------------------------|
+| `ndc_id`      | 14343 | Links to the NDC record above                 |
+| `location_id` | 264   | Links to the location shown above             |
+| `created_at`  | 2025-06-24 | Timestamp when this link was recorded   |
+
+> _Note: This example is abridged for clarity. In production, each NDC may have multiple associated locations, and fields may be further enriched over time._
 ---
 
 ## Risk Score Methodology
