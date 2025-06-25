@@ -56,6 +56,13 @@ interface NDC {
   drug_dosage: string;
   drug_strength: string;
   manufacturer_name: string;
+  drug_id: number;
+}
+
+interface NDCLocationLink {
+  id: number;
+  ndc_id: number;
+  location_id: number;
 }
 
 const Index = () => {
@@ -67,6 +74,7 @@ const Index = () => {
   const [drugs, setDrugs] = useState<Drug[]>([]);
   const [manufacturers, setManufacturers] = useState<Manufacturer[]>([]);
   const [ndcs, setNDCs] = useState<NDC[]>([]);
+  const [ndcLocationLinks, setNdcLocationLinks] = useState<NDCLocationLink[]>([]);
   const [filters, setFilters] = useState({
     country: '',
     riskScore: [0, 10],
@@ -81,17 +89,19 @@ const Index = () => {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const [locationsRes, drugsRes, manufacturersRes, ndcsRes] = await Promise.all([
+        const [locationsRes, drugsRes, manufacturersRes, ndcsRes, linksRes] = await Promise.all([
           fetch(`${API_URL}/api/locations`),
           fetch(`${API_URL}/api/drugs`),
           fetch(`${API_URL}/api/manufacturers`),
-          fetch(`${API_URL}/api/ndcs`)
+          fetch(`${API_URL}/api/ndcs`),
+          fetch(`${API_URL}/api/ndc_location_links`)
         ]);
 
         if (locationsRes.ok) setLocations(await locationsRes.json());
         if (drugsRes.ok) setDrugs(await drugsRes.json());
         if (manufacturersRes.ok) setManufacturers(await manufacturersRes.json());
         if (ndcsRes.ok) setNDCs(await ndcsRes.json());
+        if (linksRes.ok) setNdcLocationLinks(await linksRes.json());
       } catch (error) {
         console.error('Error fetching data:', error);
       } finally {
@@ -208,6 +218,7 @@ const Index = () => {
               locations={enrichedLocations}
               drugs={drugs}
               ndcs={ndcs}
+              ndcLocationLinks={ndcLocationLinks}
               filters={filters}
               searchQuery={searchQuery}
               onLocationSelect={handleLocationSelect}

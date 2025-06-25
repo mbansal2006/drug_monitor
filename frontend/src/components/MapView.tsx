@@ -34,6 +34,11 @@ interface Drug {
 interface NDC {
   id: number;
   drug_id: number;
+}
+
+interface NDCLocationLink {
+  id: number;
+  ndc_id: number;
   location_id: number;
 }
 
@@ -41,6 +46,7 @@ interface MapViewProps {
   locations: Location[];
   drugs: Drug[];
   ndcs: NDC[];
+  ndcLocationLinks: NDCLocationLink[];
   filters: any;
   searchQuery: string;
   onLocationSelect: (location: Location) => void;
@@ -57,6 +63,7 @@ const MapView: React.FC<MapViewProps> = ({
   locations,
   drugs,
   ndcs,
+  ndcLocationLinks,
   filters,
   searchQuery,
   onLocationSelect,
@@ -135,8 +142,12 @@ const MapView: React.FC<MapViewProps> = ({
       if (filters.alliance === 'quad' && !loc.is_quad) return false;
 
       if (filters.shortageStatus) {
-        const locationNdcs = ndcs.filter(n => n.location_id === loc.id);
-        const drugIds = new Set(locationNdcs.map(n => n.drug_id));
+        const locationLinks = ndcLocationLinks.filter(link => link.location_id === loc.id);
+        const drugIds = new Set<number>();
+        locationLinks.forEach(link => {
+          const ndc = ndcs.find(n => n.id === link.ndc_id);
+          if (ndc && typeof ndc.drug_id === 'number') drugIds.add(ndc.drug_id);
+        });
         const relatedDrugs = drugs.filter(d => drugIds.has(d.id));
 
         const matches = relatedDrugs.some(d => {
@@ -192,7 +203,7 @@ const MapView: React.FC<MapViewProps> = ({
     if (source) {
       source.setData(geojson);
     }
-  }, [locations, drugs, ndcs, filters, searchQuery]);
+  }, [locations, drugs, ndcs, ndcLocationLinks, filters, searchQuery]);
 
   return <div ref={mapContainer} className="h-full w-full rounded-xl overflow-hidden" />;
 };

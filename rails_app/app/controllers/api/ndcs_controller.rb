@@ -9,7 +9,8 @@ class Api::NdcsController < ApplicationController
         proprietary_name: ndc.proprietary_name,
         drug_dosage: ndc.drug_dosage,
         drug_strength: ndc.drug_strength,
-        manufacturer_name: ndc.manufacturer&.manufacturer_name
+        manufacturer_name: ndc.manufacturer&.manufacturer_name,
+        drug_id: ndc.drug_id
       }
     }
   end
@@ -23,7 +24,8 @@ class Api::NdcsController < ApplicationController
       proprietary_name: ndc.proprietary_name,
       drug_dosage: ndc.drug_dosage,
       drug_strength: ndc.drug_strength,
-      manufacturer_name: ndc.manufacturer&.manufacturer_name
+      manufacturer_name: ndc.manufacturer&.manufacturer_name,
+      drug_id: ndc.drug_id
     }
   end
 end
