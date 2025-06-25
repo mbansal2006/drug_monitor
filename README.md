@@ -19,6 +19,17 @@ Built with Palantir Foundry, the model is fully queryable in all directions—al
 
 This project is modeled in both Palantir Foundry and a Ruby on Rails web application. The Rails app loads structured datasets from CSV files into a PostgreSQL database and defines ActiveRecord models with full associations between drugs, manufacturers, NDCs, and manufacturing locations. It supports custom Rake tasks for CSV import, a fully normalized schema, and is designed for extensibility in frontend views (e.g. search, filter, and relationship maps).
 
+## Drug Supply Chain Data Sources
+
+| Source                                                                                  | Used For                                                                 |
+|-----------------------------------------------------------------------------------------|--------------------------------------------------------------------------|
+| [FDA Drug Shortages Database](https://www.accessdata.fda.gov/scripts/drugshortages/)   | Identifying drugs currently in shortage                                 |
+| [openFDA](https://open.fda.gov/apis/drug/ndc/)                                          | Mapping NDCs to SPL Set IDs and product metadata                        |
+| [DailyMed](https://dailymed.nlm.nih.gov/dailymed/spl-resources-all-drug-labels.cfm)     | Downloading and parsing SPL XMLs to extract manufacturer information    |
+| [DECRS Establishment Database](https://www.fda.gov/drugs/drug-registration-and-listing-system-drls-and-edrls/data-files-drug-establishments-current-registration-site-decrs) | Linking FEI/DUNS numbers to physical manufacturing locations             |
+
+All data is sourced from official U.S. government systems to ensure transparency, reliability, and regulatory consistency across the supply chain ontology.
+
 ### Key Capabilities
 
 - Determine where finished dosage forms (FDFs) are manufactured globally 
@@ -204,8 +215,8 @@ The UK ranks as a low-risk partner due to its extensive alliance memberships and
 
 | Firm Name                          | DUNS Number | Address                                                                 | Country | Risk Score |
 |-----------------------------------|-------------|-------------------------------------------------------------------------|---------|------------|
-| Boehringer Ingelheim Fremont, Inc.| 967820619   | 6701 Kaiser Drive, Fremont, California (CA) 94555, United States (USA) | USA     | 9          |
-| Catalent Indiana, LLC             | 172209277   | 1300 S. Patterson Drive, Bloomington, Indiana (IN) 47403, United States (USA) | USA     | 9          |
+| Boehringer Ingelheim Fremont, Inc.| 967820619   | 6701 Kaiser Drive, Fremont, California (CA) 94555, United States (USA) | USA     | 10          |
+| Catalent Indiana, LLC             | 172209277   | 1300 S. Patterson Drive, Bloomington, Indiana (IN) 47403, United States (USA) | USA     | 10          |
 
 ---
 
