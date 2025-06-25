@@ -1,12 +1,12 @@
 # Drug Monitor
 
-This project analyzes the **geographic and geopolitical risk exposure** of pharmaceuticals for **finished dosage forms (FDFs)** in the FDA Drug Shortages Database—to support visibility, accountability, and resilience in U.S. drug supply chains.
+This project analyzes the **geographic and geopolitical risk exposure** of pharmaceuticals for **finished dosage forms (FDFs)** of all FDA-approved drug products to support visibility, accountability, and resilience in U.S. drug supply chains. This dataset does not yet include BLA-regulated biologics (e.g., monoclonal antibodies).
 
 This project focuses on finished dosage forms (FDFs). API-level risk scoring is possible using the same methodology, pending expanded metadata.
 
 ## Project Overview
 
-By mapping where drugs at risk for shortage are manufactured, identifying regulatory or geopolitical red flags, and quantifying national security dependencies, the tool offers a data-driven foundation for:
+By mapping where drugs are manufactured, identifying regulatory or geopolitical red flags, and quantifying national security dependencies, the tool offers a data-driven foundation for:
 
 - Supply chain risk management  
 - Shortage prevention and monitoring  
@@ -212,7 +212,7 @@ The UK ranks as a low-risk partner due to its extensive alliance memberships and
 ### Notes
 
 - This example highlights one product and one manufacturer.
-- Can query further: The system supports repeatable analysis across **all products, drugs, categories, and locations**.For example, Boehringer Ingelheim Fremont, Inc. manufactures 16 other NDCs in the FDA Drug Shortages Database.
+- Can query further: The system supports repeatable analysis across **all products, drugs, categories, and locations**.
 
 ## Next Steps / Development Roadmap
 
