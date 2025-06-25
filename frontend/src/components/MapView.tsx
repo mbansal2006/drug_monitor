@@ -25,8 +25,22 @@ interface Location {
   is_quad?: boolean;
 }
 
+interface Drug {
+  id: number;
+  shortage_start?: string | null;
+  shortage_end?: string | null;
+}
+
+interface NDC {
+  id: number;
+  drug_id: number;
+  location_id: number;
+}
+
 interface MapViewProps {
   locations: Location[];
+  drugs: Drug[];
+  ndcs: NDC[];
   filters: any;
   searchQuery: string;
   onLocationSelect: (location: Location) => void;
@@ -41,6 +55,8 @@ const getRiskColorHex = (riskScore: number) => {
 
 const MapView: React.FC<MapViewProps> = ({
   locations,
+  drugs,
+  ndcs,
   filters,
   searchQuery,
   onLocationSelect,
@@ -118,6 +134,26 @@ const MapView: React.FC<MapViewProps> = ({
       if (filters.alliance === 'oecd' && !loc.is_oecd) return false;
       if (filters.alliance === 'quad' && !loc.is_quad) return false;
 
+      if (filters.shortageStatus) {
+        const locationNdcs = ndcs.filter(n => n.location_id === loc.id);
+        const drugIds = new Set(locationNdcs.map(n => n.drug_id));
+        const relatedDrugs = drugs.filter(d => drugIds.has(d.id));
+
+        const matches = relatedDrugs.some(d => {
+          const ongoing = d.shortage_start && !d.shortage_end;
+          const resolved =
+            (d.shortage_start && d.shortage_end) || (!d.shortage_start && d.shortage_end);
+          const never = !d.shortage_start && !d.shortage_end;
+
+          if (filters.shortageStatus === 'ongoing') return ongoing;
+          if (filters.shortageStatus === 'resolved') return resolved;
+          if (filters.shortageStatus === 'never') return never;
+          return true;
+        });
+
+        if (!matches) return false;
+      }
+
       // Smart search
       if (query) {
         const match = [
@@ -156,7 +192,7 @@ const MapView: React.FC<MapViewProps> = ({
     if (source) {
       source.setData(geojson);
     }
-  }, [locations, filters, searchQuery]);
+  }, [locations, drugs, ndcs, filters, searchQuery]);
 
   return <div ref={mapContainer} className="h-full w-full rounded-xl overflow-hidden" />;
 };

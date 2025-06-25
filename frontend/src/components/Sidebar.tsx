@@ -126,6 +126,19 @@ const Sidebar: React.FC<SidebarProps> = ({
                   <option value="quad">QUAD</option>
                 </select>
               </div>
+              <div>
+                <label className="block text-sm font-medium text-slate-300 mb-2">Shortage Status</label>
+                <select
+                  value={filters.shortageStatus}
+                  onChange={(e) => handleFilterChange('shortageStatus', e.target.value)}
+                  className="w-full bg-slate-700 border border-slate-600 rounded-lg px-3 py-2 text-white text-sm"
+                >
+                  <option value="">All</option>
+                  <option value="ongoing">Ongoing Shortage</option>
+                  <option value="resolved">Resolved Shortage</option>
+                  <option value="never">Never in Shortage</option>
+                </select>
+              </div>
               <div className="space-y-2">
                 <label className="flex items-center">
                   <input

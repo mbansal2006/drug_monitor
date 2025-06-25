@@ -73,6 +73,7 @@ const Index = () => {
     alliance: '',
     sanctions: false,
     dumping: false,
+    shortageStatus: '',
   });
   const [searchQuery, setSearchQuery] = useState<{ query: string; type: 'location' | 'drug' | 'manufacturer' | 'ndc' }>({ query: '', type: 'location' });
   const [isLoading, setIsLoading] = useState(true);
@@ -205,6 +206,8 @@ const Index = () => {
             {/* Only show MapView for now */}
             <MapView
               locations={enrichedLocations}
+              drugs={drugs}
+              ndcs={ndcs}
               filters={filters}
               searchQuery={searchQuery}
               onLocationSelect={handleLocationSelect}
