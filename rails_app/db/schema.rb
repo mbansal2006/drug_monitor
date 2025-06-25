@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.1].define(version: 2025_06_22_234806) do
+ActiveRecord::Schema[7.1].define(version: 2025_06_24_171328) do
   create_table "drugs", force: :cascade do |t|
     t.string "drug_name"
     t.boolean "fda_essential"
@@ -22,12 +22,9 @@ ActiveRecord::Schema[7.1].define(version: 2025_06_22_234806) do
     t.string "update_type"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
-    t.integer "csv_drug_id"
-    t.index ["csv_drug_id"], name: "index_drugs_on_csv_drug_id"
   end
 
   create_table "locations", force: :cascade do |t|
-    t.integer "csv_location_id"
     t.string "address"
     t.string "country"
     t.string "state_or_region"
@@ -54,7 +51,6 @@ ActiveRecord::Schema[7.1].define(version: 2025_06_22_234806) do
     t.datetime "updated_at", null: false
     t.text "related_entities"
     t.string "firm_name"
-    t.index ["csv_location_id"], name: "index_locations_on_csv_location_id"
   end
 
   create_table "manufacturers", force: :cascade do |t|
@@ -76,17 +72,14 @@ ActiveRecord::Schema[7.1].define(version: 2025_06_22_234806) do
   create_table "ndcs", force: :cascade do |t|
     t.integer "drug_id", null: false
     t.string "ndc_code"
-    t.string "manufacturer_name"
     t.string "proprietary_name"
     t.string "drug_dosage"
     t.string "drug_strength"
     t.integer "manufacturer_id", null: false
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
-    t.integer "csv_ndc_id"
-    t.integer "csv_drug_id"
-    t.index ["csv_drug_id"], name: "index_ndcs_on_csv_drug_id"
-    t.index ["csv_ndc_id"], name: "index_ndcs_on_csv_ndc_id"
+    t.string "spl_set_id"
+    t.string "generic_name"
     t.index ["drug_id"], name: "index_ndcs_on_drug_id"
     t.index ["manufacturer_id"], name: "index_ndcs_on_manufacturer_id"
   end

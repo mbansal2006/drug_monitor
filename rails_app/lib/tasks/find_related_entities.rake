@@ -8,14 +8,14 @@ namespace :locations do
         [
           ndc.ndc_code,
           ndc.proprietary_name,
-          ndc.manufacturer_name,
-          ndc.drug&.drug_name
+          ndc.drug&.drug_name,
+          ndc.manufacturer&.manufacturer_name
         ]
       end.compact.map(&:downcase).uniq
 
       location.update!(related_entities: entities.join(', '))
     end
 
-    puts "Updated related_entities for all locations."
+    puts "✅ Updated related_entities for all locations."
   end
 end

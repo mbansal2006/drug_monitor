@@ -178,7 +178,7 @@ const Sidebar: React.FC<SidebarProps> = ({
                 <StatCard value={locations.length} label="Locations" color="text-blue-400" />
                 <StatCard value={drugs.length} label="Drugs" color="text-green-400" />
                 <StatCard value={manufacturers.length} label="Manufacturers" color="text-purple-400" />
-                <StatCard value={'1939'} label="Products" color="text-orange-400" />
+                <StatCard value={ndcs.length} label="Products" color="text-orange-400" />
               </div>
               <div className="grid grid-cols-2 gap-3">
                 <StatCard value={'96.3%'} label="Drugs Mapped" color="text-cyan-400" />

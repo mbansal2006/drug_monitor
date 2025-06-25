@@ -20,7 +20,7 @@ taa_compliant = {
     "MDG", "CHE", "CUW", "MWI", "TWN", "CYP", "MLI", "TZA", "CZE", "MLT", "TLS", 
     "COD", "MRT", "TGO", "DNK", "MEX", "DJI", "MDA", "TUV", "DMA", "MNE", "UGA", 
     "DOM", "MSR", "UKR", "SLV", "MAR", "GBR", "GNQ", "MOZ", "VUT", "ERI", "NPL", 
-    "YEM", "EST", "NLD", "RNR", "ETH", "NZL", "FIN", "NIC"
+    "YEM", "EST", "NLD", "RNR", "ETH", "NZL", "FIN", "NIC", "USA"
 }
 # https://gsa.federalschedules.com/resources/taa-designated-countries/#taachart
 oecd = {
@@ -38,9 +38,9 @@ mnna = {
 quad = {"USA", "AUS", "JPN", "IND"}
 # https://www.congress.gov/crs-product/IF11678
 bis_ns1 = {
-    "AFG", "ALB", "DZA", "AND", "AGO", "ARG", "ARM", "ABW", "AUS", "AUT", "AZE", 
+    "AFG", "ALB", "DZA", "AND", "AGO", "ARG", "ARM", "ABW", "AUT", "AZE", 
     "BHS", "BHR", "BGD", "BRB", "BLR", "BEL", "BLZ", "BEN", "BTN", "BOL", "BWA",
-    "BRA", "BRN", "BGR", "BFA", "BDI", "KHM", "CMR", "CAN", "CPV", "CAF", "TCD",
+    "BRA", "BRN", "BGR", "BFA", "BDI", "KHM", "CMR", "CPV", "CAF", "TCD",
     "CHL", "CHN", "COL", "COM", "COD", "COG", "CRI", "CIV", "HRV", "CUW", "CYP", 
     "CZE", "DNK", "DJI", "DMA", "DOM", "ECU", "EGY", "SLV", "GNQ", "ERI", "EST", 
     "SWZ", "ETH", "FJI", "FIN", "FRA", "GAB", "GMB", "GEO", "DEU", "GHA", "GRC", 
@@ -49,12 +49,12 @@ bis_ns1 = {
     "XXK", "KWT", "KGZ", "LAO", "LVA", "LBN", "LSO", "LBR", "LBY", "LIE", "LTU", 
     "LUX", "MAC", "MKD", "MDG", "MWI", "MYS", "MDV", "MLI", "MLT", "MHL", "MRT", 
     "MUS", "MEX", "FSM", "MDA", "MCO", "MNG", "MNE", "MAR", "MOZ", "NAM", "NRU", 
-    "NPL", "NLD", "NZL", "NIC", "NER", "NGA", "MKD", "NOR", "OMN", "PAK", "PLW", 
+    "NPL", "NLD", "NIC", "NER", "NGA", "MKD", "NOR", "OMN", "PAK", "PLW", 
     "PAN", "PNG", "PRY", "PER", "PHL", "POL", "PRT", "QAT", "ROU", "RUS", "RWA", 
-    "WSM", "SMR", "SAU", "SEN", "SRB", "SYC", "SLE", "SGP", "SXM", "SVK", "SVN", 
+    "WSM", "SMR", "SAU", "SEN", "SRB", "SYC", "SLE", "SXM", "SVK", "SVN", 
     "SLB", "SOM", "ZAF", "SSD", "ESP", "LKA", "SDN", "SUR", "SWZ", "SWE", "CHE", 
     "TWN", "TJK", "TZA", "THA", "TLS", "TGO", "TON", "TUN", "TUR", "TKM", "TUV", 
-    "UGA", "UKR", "ARE", "GBR", "URY", "UZB", "VUT", "VAT", "VEN", "VNM", "ESH", 
+    "UGA", "UKR", "ARE", "URY", "UZB", "VUT", "VAT", "VEN", "VNM", "ESH", 
     "YEM", "RNR", "ZWE"
 }
 bis_rs1 = {
