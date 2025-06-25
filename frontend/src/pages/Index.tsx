@@ -59,7 +59,7 @@ interface NDC {
 }
 
 const Index = () => {
-  const [activeView, setActiveView] = useState<'map' | 'grid'>('map');
+  // const [activeView, setActiveView] = useState<'map' | 'grid'>('map');
   const [selectedEntity, setSelectedEntity] = useState<any>(null);
   const [selectedLocation, setSelectedLocation] = useState<any>(null);
   const [entityType, setEntityType] = useState<'drug' | 'location' | 'manufacturer' | 'ndc'>('location');
@@ -160,8 +160,9 @@ const Index = () => {
             </div>
           </div>
 
-          <div className="flex items-center space-x-4">
+          <div className="flex items-center space-x-4 w-full max-w-xl ml-8">
             <SearchBar onSearch={handleSearch} />
+            {/* 
             <div className="flex bg-slate-700 rounded-lg p-1">
               <button
                 onClick={() => setActiveView('map')}
@@ -178,13 +179,13 @@ const Index = () => {
                 Data View
               </button>
             </div>
+            */}
           </div>
         </div>
       </header>
 
       {/* Intro / Hero Section 
       <Hero />
-
       */}
 
       {/* Dashboard Section */}
@@ -201,28 +202,21 @@ const Index = () => {
 
         <div className="flex-1 flex">
           <div className="flex-1">
+            {/* Only show MapView for now */}
+            <MapView
+              locations={enrichedLocations}
+              filters={filters}
+              searchQuery={searchQuery}
+              onLocationSelect={handleLocationSelect}
+              getRiskColor={getRiskColor}
+            />
+            {/* 
             {activeView === 'map' ? (
-              <MapView
-                locations={enrichedLocations}
-                filters={filters}
-                searchQuery={searchQuery}
-                onLocationSelect={handleLocationSelect}
-                getRiskColor={getRiskColor}
-              />
+              <MapView ... />
             ) : (
-              <EntityGrid
-                entityType={entityType}
-                setEntityType={setEntityType}
-                locations={enrichedLocations}
-                drugs={drugs}
-                manufacturers={manufacturers}
-                ndcs={ndcs}
-                filters={filters}
-                searchQuery={searchQuery}
-                onEntitySelect={handleEntitySelect}
-                getRiskColor={getRiskColor}
-              />
+              <EntityGrid ... />
             )}
+            */}
           </div>
 
           {selectedLocation && (
