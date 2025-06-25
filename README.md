@@ -13,7 +13,7 @@ By mapping where drugs are manufactured, identifying regulatory or geopolitical 
 - Domestic capacity planning  
 - Strategic sourcing evaluations
 
-All scoring and site data are derived from U.S. government and intergovernmental sources, including the FDA, GSA, BIS, OFAC, the U.S. State Department, NATO, and the OECD.
+All scoring and site data are derived from U.S. government and intergovernmental sources, including the FDA, GSA, BIS, OFAC, the U.S. State Department, NATO, and the OECD. The system updates weekly. However, note that many data sources such as openFDA are updated infrequently such as on a quarterly basis.
 
 Built with Palantir Foundry, the model is fully queryable in all directions—allowing seamless tracing from drugs to manufacturers to global production sites and back, enabling comprehensive, multidimensional analysis of the supply chain. Users can filter and pivot across any dimension in Palantir Foundry (e.g., by drug class, country risk, or manufacturer).
 
@@ -85,13 +85,13 @@ This project is modeled in both **Palantir Foundry** and a **Ruby on Rails** web
 - Relationships:  
   `belongs_to :ndc`, `belongs_to :location`
 
-### 🔍 Abridged Example: Linking an NDC to Drug, Manufacturer, and Location
+### Abridged Example: Linking an NDC to Drug, Manufacturer, and Location
 
 Below is a real-world example showing how a single drug product (represented by an NDC) is connected to its drug classification, manufacturer, and a physical production location. This demonstrates how the database links structured fields across models.
 
 Each row represents an object from a different table. The `id` columns (e.g. `ndc_id`, `drug_id`) are internal reference numbers used within the database to link related entries. These are not publicly meaningful but allow us to relate records to each other consistently.
 
-#### 📦 NDC Record (Product Configuration)
+#### NDC Record (Product Configuration)
 | Field             | Value                          | Description                                              |
 |------------------|----------------------------------|----------------------------------------------------------|
 | `ndc_id`         | 14343                           | Internal ID for this NDC record                          |
@@ -104,20 +104,20 @@ Each row represents an object from a different table. The `id` columns (e.g. `nd
 | `drug_id`        | 658                              | Internal reference to the associated `Drug`              |
 | `manufacturer_id`| 138                              | Internal reference to the associated `Manufacturer`      |
 
-#### 💊 Drug Record (Therapeutic Classification)
+#### Drug Record (Therapeutic Classification)
 | Field           | Value                            | Description                                              |
 |----------------|------------------------------------|----------------------------------------------------------|
 | `drug_id`      | 658                                | Internal ID for this drug entity                         |
 | `drug_name`    | Hypromellose Ophthalmic Solution Solution | Full classification of the active compound       |
 | Other fields   | _(null)_                           | Additional info (e.g. shortage status) not provided here |
 
-#### 🏢 Manufacturer Record
+#### Manufacturer Record
 | Field               | Value               | Description                            |
 |---------------------|---------------------|----------------------------------------|
 | `manufacturer_id`   | 138                 | Internal ID for this manufacturer       |
 | `manufacturer_name` | Red Wedding LLC     | Entity responsible for the product      |
 
-#### 🌍 Location Record (Production Site)
+#### Location Record (Production Site)
 | Field               | Value                                                              | Description                                                      |
 |---------------------|--------------------------------------------------------------------|------------------------------------------------------------------|
 | `location_id`       | 264                                                                | Internal ID for the location                                     |
@@ -136,7 +136,7 @@ Each row represents an object from a different table. The `id` columns (e.g. `nd
 | `is_quad`           | true                                                               | Located in QUAD security alliance country?                       |
 | `quality_risk_flag` | true                                                               | Flagged for known quality or regulatory issues                   |
 
-#### 🔗 NdcLocationLink Record
+#### NdcLocationLink Record
 | Field         | Value | Description                                   |
 |---------------|-------|-----------------------------------------------|
 | `ndc_id`      | 14343 | Links to the NDC record above                 |
