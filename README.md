@@ -1,5 +1,7 @@
 # Drug Monitor
-<img width="500" alt="image" src="https://github.com/user-attachments/assets/1bbbdedb-78c1-4c6f-bc82-ccaa3e0b4791" />
+<div style={{ display: 'flex', justifyContent: 'center' }}>
+  <img width="650" alt="image" src="https://github.com/user-attachments/assets/1bbbdedb-78c1-4c6f-bc82-ccaa3e0b4791" />
+</div>
 
 This project analyzes the **geographic and geopolitical risk exposure** of pharmaceuticals for **finished dosage forms (FDFs)** of all FDA-approved drug products to support visibility, accountability, and resilience in U.S. drug supply chains. This dataset does not yet include BLA-regulated biologics (e.g., monoclonal antibodies).
 
