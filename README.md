@@ -309,6 +309,4 @@ The UK ranks as a low-risk partner due to its extensive alliance memberships and
 For inquiries, collaboration, or custom builds:
 
 **Mahir Bansal**  
-📧 mb@mahirbansal.com  
-📞 571.751.0100  
-
+📧 mb@mahirbansal.com
