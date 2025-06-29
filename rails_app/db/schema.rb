@@ -11,6 +11,9 @@
 # It's strongly recommended that you check this file into your version control system.
 
 ActiveRecord::Schema[7.1].define(version: 2025_06_24_171328) do
+  # These are extensions that must be enabled in order to support this database
+  enable_extension "plpgsql"
+
   create_table "drugs", force: :cascade do |t|
     t.string "drug_name"
     t.boolean "fda_essential"
@@ -61,8 +64,8 @@ ActiveRecord::Schema[7.1].define(version: 2025_06_24_171328) do
   end
 
   create_table "ndc_location_links", force: :cascade do |t|
-    t.integer "ndc_id", null: false
-    t.integer "location_id", null: false
+    t.bigint "ndc_id", null: false
+    t.bigint "location_id", null: false
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.index ["location_id"], name: "index_ndc_location_links_on_location_id"
@@ -70,12 +73,12 @@ ActiveRecord::Schema[7.1].define(version: 2025_06_24_171328) do
   end
 
   create_table "ndcs", force: :cascade do |t|
-    t.integer "drug_id", null: false
+    t.bigint "drug_id", null: false
     t.string "ndc_code"
     t.string "proprietary_name"
     t.string "drug_dosage"
     t.string "drug_strength"
-    t.integer "manufacturer_id", null: false
+    t.bigint "manufacturer_id", null: false
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.string "spl_set_id"
