@@ -56,10 +56,17 @@ interface NDC {
   drug_dosage: string;
   drug_strength: string;
   manufacturer_name: string;
+  drug_id: number;
+}
+
+interface NDCLocationLink {
+  id: number;
+  ndc_id: number;
+  location_id: number;
 }
 
 const Index = () => {
-  const [activeView, setActiveView] = useState<'map' | 'grid'>('map');
+  // const [activeView, setActiveView] = useState<'map' | 'grid'>('map');
   const [selectedEntity, setSelectedEntity] = useState<any>(null);
   const [selectedLocation, setSelectedLocation] = useState<any>(null);
   const [entityType, setEntityType] = useState<'drug' | 'location' | 'manufacturer' | 'ndc'>('location');
@@ -67,12 +74,14 @@ const Index = () => {
   const [drugs, setDrugs] = useState<Drug[]>([]);
   const [manufacturers, setManufacturers] = useState<Manufacturer[]>([]);
   const [ndcs, setNDCs] = useState<NDC[]>([]);
+  const [ndcLocationLinks, setNdcLocationLinks] = useState<NDCLocationLink[]>([]);
   const [filters, setFilters] = useState({
     country: '',
     riskScore: [0, 10],
     alliance: '',
     sanctions: false,
     dumping: false,
+    shortageStatus: '',
   });
   const [searchQuery, setSearchQuery] = useState<{ query: string; type: 'location' | 'drug' | 'manufacturer' | 'ndc' }>({ query: '', type: 'location' });
   const [isLoading, setIsLoading] = useState(true);
@@ -80,17 +89,19 @@ const Index = () => {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const [locationsRes, drugsRes, manufacturersRes, ndcsRes] = await Promise.all([
+        const [locationsRes, drugsRes, manufacturersRes, ndcsRes, linksRes] = await Promise.all([
           fetch(`${API_URL}/api/locations`),
           fetch(`${API_URL}/api/drugs`),
           fetch(`${API_URL}/api/manufacturers`),
-          fetch(`${API_URL}/api/ndcs`)
+          fetch(`${API_URL}/api/ndcs`),
+          fetch(`${API_URL}/api/ndc_location_links`)
         ]);
 
         if (locationsRes.ok) setLocations(await locationsRes.json());
         if (drugsRes.ok) setDrugs(await drugsRes.json());
         if (manufacturersRes.ok) setManufacturers(await manufacturersRes.json());
         if (ndcsRes.ok) setNDCs(await ndcsRes.json());
+        if (linksRes.ok) setNdcLocationLinks(await linksRes.json());
       } catch (error) {
         console.error('Error fetching data:', error);
       } finally {
@@ -160,8 +171,9 @@ const Index = () => {
             </div>
           </div>
 
-          <div className="flex items-center space-x-4">
+          <div className="flex items-center space-x-4 w-full max-w-xl ml-8">
             <SearchBar onSearch={handleSearch} />
+            {/* 
             <div className="flex bg-slate-700 rounded-lg p-1">
               <button
                 onClick={() => setActiveView('map')}
@@ -178,13 +190,13 @@ const Index = () => {
                 Data View
               </button>
             </div>
+            */}
           </div>
         </div>
       </header>
 
       {/* Intro / Hero Section 
       <Hero />
-
       */}
 
       {/* Dashboard Section */}
@@ -201,28 +213,24 @@ const Index = () => {
 
         <div className="flex-1 flex">
           <div className="flex-1">
+            {/* Only show MapView for now */}
+            <MapView
+              locations={enrichedLocations}
+              drugs={drugs}
+              ndcs={ndcs}
+              ndcLocationLinks={ndcLocationLinks}
+              filters={filters}
+              searchQuery={searchQuery}
+              onLocationSelect={handleLocationSelect}
+              getRiskColor={getRiskColor}
+            />
+            {/* 
             {activeView === 'map' ? (
-              <MapView
-                locations={enrichedLocations}
-                filters={filters}
-                searchQuery={searchQuery}
-                onLocationSelect={handleLocationSelect}
-                getRiskColor={getRiskColor}
-              />
+              <MapView ... />
             ) : (
-              <EntityGrid
-                entityType={entityType}
-                setEntityType={setEntityType}
-                locations={enrichedLocations}
-                drugs={drugs}
-                manufacturers={manufacturers}
-                ndcs={ndcs}
-                filters={filters}
-                searchQuery={searchQuery}
-                onEntitySelect={handleEntitySelect}
-                getRiskColor={getRiskColor}
-              />
+              <EntityGrid ... />
             )}
+            */}
           </div>
 
           {selectedLocation && (
