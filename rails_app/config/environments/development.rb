@@ -10,7 +10,7 @@ Rails.application.configure do
   
   config.enable_reloading = true
   config.hosts << "drugmonitor.duckdns.org"
-  congig.hosts << "drugmonitor.duckdns.org:3000"
+  config.hosts << "drugmonitor.duckdns.org:3000"
   # Do not eager load code on boot.
   config.eager_load = false
 
