@@ -89,6 +89,7 @@ const Index = () => {
   useEffect(() => {
     const fetchData = async () => {
       try {
+        console.log('Fetching data from API:', API_URL);
         const [locationsRes, drugsRes, manufacturersRes, ndcsRes, linksRes] = await Promise.all([
           fetch(`${API_URL}/api/locations`),
           fetch(`${API_URL}/api/drugs`),
@@ -97,11 +98,36 @@ const Index = () => {
           fetch(`${API_URL}/api/ndc_location_links`)
         ]);
 
-        if (locationsRes.ok) setLocations(await locationsRes.json());
-        if (drugsRes.ok) setDrugs(await drugsRes.json());
-        if (manufacturersRes.ok) setManufacturers(await manufacturersRes.json());
-        if (ndcsRes.ok) setNDCs(await ndcsRes.json());
-        if (linksRes.ok) setNdcLocationLinks(await linksRes.json());
+        if (locationsRes.ok) {
+          const locationsData = await locationsRes.json();
+          console.log('Locations loaded:', locationsData.length);
+          setLocations(locationsData);
+        }
+        
+        if (drugsRes.ok) {
+          const drugsData = await drugsRes.json();
+          const drugs = drugsData.drugs || drugsData; // Handle both paginated and array responses
+          console.log('Drugs loaded:', drugs.length);
+          setDrugs(drugs);
+        }
+        
+        if (manufacturersRes.ok) {
+          const manufacturersData = await manufacturersRes.json();
+          console.log('Manufacturers loaded:', manufacturersData.length);
+          setManufacturers(manufacturersData);
+        }
+        
+        if (ndcsRes.ok) {
+          const ndcsData = await ndcsRes.json();
+          console.log('NDCs loaded:', ndcsData.length);
+          setNDCs(ndcsData);
+        }
+        
+        if (linksRes.ok) {
+          const linksData = await linksRes.json();
+          console.log('NDC-Location links loaded:', linksData.length);
+          setNdcLocationLinks(linksData);
+        }
       } catch (error) {
         console.error('Error fetching data:', error);
       } finally {
