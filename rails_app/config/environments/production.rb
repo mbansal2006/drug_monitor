@@ -4,6 +4,8 @@ Rails.application.configure do
   # Settings specified here will take precedence over those in config/application.rb.
 
   # Code is not reloaded between requests.
+  config.hosts << "drugmonitor.duckdns.org"
+  
   config.enable_reloading = false
 
   # Eager load code on boot. This eager loads most of Rails and
