@@ -14,7 +14,7 @@ import EntityDetail from '@/components/EntityDetail';
 import LocationDetail from '@/components/LocationDetail';
 // import Hero from '@/components/Hero';
 
-const API_URL = import.meta.env.VITE_API_URL || "http://localhost:3000";
+const API_URL = import.meta.env.VITE_API_URL;
 
 interface Location {
   id: number;
