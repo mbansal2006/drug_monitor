@@ -1,6 +1,6 @@
 class Api::NdcsController < ApplicationController
   def index
-    ndcs = Ndc.includes(:manufacturer).all
+    ndcs = Ndc.includes(:manufacturer).page(params[:page]).per(params[:per_page] || 50)
 
     render json: ndcs.map { |ndc|
       {

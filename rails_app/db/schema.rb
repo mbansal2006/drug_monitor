@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.1].define(version: 2025_06_24_171328) do
+ActiveRecord::Schema[7.1].define(version: 2025_07_02_010039) do
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
 
@@ -25,6 +25,7 @@ ActiveRecord::Schema[7.1].define(version: 2025_06_24_171328) do
     t.string "update_type"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.index ["drug_name"], name: "index_drugs_on_drug_name"
   end
 
   create_table "locations", force: :cascade do |t|
@@ -54,6 +55,11 @@ ActiveRecord::Schema[7.1].define(version: 2025_06_24_171328) do
     t.datetime "updated_at", null: false
     t.text "related_entities"
     t.string "firm_name"
+    t.index ["address"], name: "index_locations_on_address"
+    t.index ["country"], name: "index_locations_on_country"
+    t.index ["duns_number"], name: "index_locations_on_duns_number"
+    t.index ["firm_name"], name: "index_locations_on_firm_name"
+    t.index ["risk_score"], name: "index_locations_on_risk_score"
   end
 
   create_table "manufacturers", force: :cascade do |t|
@@ -61,6 +67,7 @@ ActiveRecord::Schema[7.1].define(version: 2025_06_24_171328) do
     t.string "temp_property"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.index ["manufacturer_name"], name: "index_manufacturers_on_manufacturer_name"
   end
 
   create_table "ndc_location_links", force: :cascade do |t|
@@ -84,7 +91,10 @@ ActiveRecord::Schema[7.1].define(version: 2025_06_24_171328) do
     t.string "spl_set_id"
     t.string "generic_name"
     t.index ["drug_id"], name: "index_ndcs_on_drug_id"
+    t.index ["generic_name"], name: "index_ndcs_on_generic_name"
     t.index ["manufacturer_id"], name: "index_ndcs_on_manufacturer_id"
+    t.index ["ndc_code"], name: "index_ndcs_on_ndc_code"
+    t.index ["proprietary_name"], name: "index_ndcs_on_proprietary_name"
   end
 
   add_foreign_key "ndc_location_links", "locations"

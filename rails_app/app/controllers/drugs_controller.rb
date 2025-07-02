@@ -1,9 +1,9 @@
 class DrugsController < ApplicationController
   def index
-    @drugs = if params[:q].present?
-      Drug.where('drug_name LIKE ?', "%#{params[:q]}%")
-    else
-      Drug.all
+    @drugs = Drug.page(params[:page]).per(25)
+    
+    if params[:q].present?
+      @drugs = @drugs.where('drug_name ILIKE ?', "%#{params[:q]}%")
     end
   end
 

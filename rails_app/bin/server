@@ -1,0 +1,13 @@
+#!/usr/bin/env ruby
+
+# Clean script to start Rails server without PID conflicts
+require "fileutils"
+
+# Clean up any existing PID file
+FileUtils.rm_f("tmp/pids/server.pid")
+
+# Ensure tmp/pids directory exists
+FileUtils.mkdir_p("tmp/pids")
+
+# Start server normally
+exec "bin/rails", "server", *ARGV

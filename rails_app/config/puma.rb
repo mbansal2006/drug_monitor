@@ -31,5 +31,15 @@ environment ENV.fetch("RAILS_ENV") { "development" }
 # Specifies the `pidfile` that Puma will use.
 pidfile ENV.fetch("PIDFILE") { "tmp/pids/server.pid" }
 
+# Clean up PID file on shutdown to prevent conflicts
+on_worker_shutdown do
+  FileUtils.rm_f("tmp/pids/server.pid")
+end
+
+# Clean up PID file on restart
+before_fork do
+  FileUtils.rm_f("tmp/pids/server.pid")
+end
+
 # Allow puma to be restarted by `bin/rails restart` command.
 plugin :tmp_restart
