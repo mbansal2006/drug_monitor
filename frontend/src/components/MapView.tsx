@@ -72,55 +72,7 @@ const MapView: React.FC<MapViewProps> = ({
   const map = useRef<mapboxgl.Map | null>(null);
   const geojsonSourceId = 'locations-source';
 
-  useEffect(() => {
-    if (map.current || !mapContainer.current) return;
-
-    map.current = new mapboxgl.Map({
-      container: mapContainer.current,
-      style: 'mapbox://styles/mapbox/dark-v11',
-      center: [0, 20],
-      zoom: 1.3,
-    });
-
-    map.current.on('load', () => {
-      if (!map.current?.getSource(geojsonSourceId)) {
-        map.current.addSource(geojsonSourceId, {
-          type: 'geojson',
-          data: { type: 'FeatureCollection', features: [] },
-        });
-
-        map.current.addLayer({
-          id: 'locations-layer',
-          type: 'circle',
-          source: geojsonSourceId,
-          paint: {
-            'circle-radius': 5,
-            'circle-color': ['get', 'color'],
-            'circle-stroke-width': 1,
-            'circle-stroke-color': '#ffffff',
-          },
-        });
-
-        map.current.on('click', 'locations-layer', (e) => {
-          const feature = e.features?.[0];
-          if (feature) {
-            const id = feature.properties?.id;
-            const loc = locations.find(l => l.id === id);
-            if (loc) onLocationSelect(loc);
-          }
-        });
-
-        map.current.on('mouseenter', 'locations-layer', () => {
-          map.current?.getCanvas().style.setProperty('cursor', 'pointer');
-        });
-        map.current.on('mouseleave', 'locations-layer', () => {
-          map.current?.getCanvas().style.setProperty('cursor', '');
-        });
-      }
-    });
-  }, []);
-
-  useEffect(() => {
+  const updateLocationsLayer = () => {
     if (!map.current?.isStyleLoaded()) return;
 
     const query = searchQuery.toLowerCase().trim();
@@ -203,6 +155,72 @@ const MapView: React.FC<MapViewProps> = ({
     if (source) {
       source.setData(geojson);
     }
+  };
+
+  useEffect(() => {
+    if (map.current || !mapContainer.current) return;
+
+    map.current = new mapboxgl.Map({
+      container: mapContainer.current,
+      style: 'mapbox://styles/mapbox/dark-v11',
+      center: [0, 20],
+      zoom: 1.3,
+    });
+
+    map.current.on('load', () => {
+      if (!map.current?.getSource(geojsonSourceId)) {
+        map.current.addSource(geojsonSourceId, {
+          type: 'geojson',
+          data: { type: 'FeatureCollection', features: [] },
+        });
+
+        map.current.addLayer({
+          id: 'locations-layer',
+          type: 'circle',
+          source: geojsonSourceId,
+          paint: {
+            'circle-radius': 5,
+            'circle-color': ['get', 'color'],
+            'circle-stroke-width': 1,
+            'circle-stroke-color': '#ffffff',
+          },
+        });
+
+        map.current.on('click', 'locations-layer', (e) => {
+          const feature = e.features?.[0];
+          if (feature) {
+            const id = feature.properties?.id;
+            const loc = locations.find(l => l.id === id);
+            if (loc) onLocationSelect(loc);
+          }
+        });
+
+        map.current.on('mouseenter', 'locations-layer', () => {
+          map.current?.getCanvas().style.setProperty('cursor', 'pointer');
+        });
+        map.current.on('mouseleave', 'locations-layer', () => {
+          map.current?.getCanvas().style.setProperty('cursor', '');
+        });
+      }
+
+      updateLocationsLayer();
+    });
+  }, []);
+
+  useEffect(() => {
+    if (!map.current) return;
+
+    if (!map.current.isStyleLoaded()) {
+      const onLoad = () => {
+        updateLocationsLayer();
+      };
+      map.current.once('load', onLoad);
+      return () => {
+        map.current?.off('load', onLoad);
+      };
+    }
+
+    updateLocationsLayer();
   }, [locations, drugs, ndcs, ndcLocationLinks, filters, searchQuery]);
 
   return <div ref={mapContainer} className="h-full w-full rounded-xl overflow-hidden" />;
